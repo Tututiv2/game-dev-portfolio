@@ -1,0 +1,5242 @@
+[
+ {
+  "id": "FISHING_ROD",
+  "name": "Fishing Rod",
+  "material": "FISHING_ROD",
+  "rarity": "COMMON",
+  "category": "FISHING_ROD",
+  "damage": 15,
+  "stats": {
+   "STRENGTH": 15,
+   "FISHING_SPEED": 5,
+   "SEA_CREATURE_CHANCE": 1
+  },
+  "lore": [
+   "&7A plain rod. Every angler starts somewhere."
+  ],
+  "npcSell": 2,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "PRISMARINE_ROD",
+  "name": "Prismarine Rod",
+  "material": "FISHING_ROD",
+  "rarity": "COMMON",
+  "category": "FISHING_ROD",
+  "damage": 15,
+  "stats": {
+   "STRENGTH": 10,
+   "FISHING_SPEED": 15
+  },
+  "lore": [
+   "&7Carved from sea-glass; light but sturdy."
+  ],
+  "requirements": [
+   "skill:fishing:3"
+  ],
+  "npcSell": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "SPONGE_ROD",
+  "name": "Sponge Rod",
+  "material": "FISHING_ROD",
+  "rarity": "COMMON",
+  "category": "FISHING_ROD",
+  "damage": 20,
+  "stats": {
+   "STRENGTH": 15,
+   "FISHING_SPEED": 30
+  },
+  "lore": [
+   "&7Soaks up the water so you never slip."
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 36,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "SPEEDSTER_ROD",
+  "name": "Speedster Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "FISHING_ROD",
+  "damage": 30,
+  "stats": {
+   "STRENGTH": 15,
+   "FISHING_SPEED": 45
+  },
+  "lore": [
+   "&7Built for quick, light casts."
+  ],
+  "requirements": [
+   "skill:fishing:6"
+  ],
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "FARMER_ROD",
+  "name": "Farmer's Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "FISHING_ROD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 20,
+   "FISHING_SPEED": 60
+  },
+  "lore": [
+   "&7A farmhand's rod, good for a pond after harvest."
+  ],
+  "requirements": [
+   "skill:fishing:8"
+  ],
+  "npcSell": 1050,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "CHALLENGE_ROD",
+  "name": "Challenging Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "FISHING_ROD",
+  "damage": 75,
+  "stats": {
+   "STRENGTH": 75,
+   "FISHING_SPEED": 35,
+   "SEA_CREATURE_CHANCE": 2,
+   "TREASURE_CHANCE": 0.5
+  },
+  "lore": [
+   "&7Proof you are taking fishing seriously."
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "CHAMP_ROD",
+  "name": "Rod of Champions",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 100,
+   "FISHING_SPEED": 50,
+   "SEA_CREATURE_CHANCE": 4
+  },
+  "lore": [
+   "&7A rod for those who win the big ones."
+  ],
+  "requirements": [
+   "skill:fishing:15"
+  ],
+  "npcSell": 17800,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "LEGEND_ROD",
+  "name": "Rod of Legends",
+  "material": "FISHING_ROD",
+  "rarity": "EPIC",
+  "category": "FISHING_ROD",
+  "damage": 125,
+  "stats": {
+   "STRENGTH": 125,
+   "FISHING_SPEED": 65,
+   "SEA_CREATURE_CHANCE": 6
+  },
+  "lore": [
+   "&7Sung about in every harbour tavern."
+  ],
+  "requirements": [
+   "skill:fishing:20"
+  ],
+  "npcSell": 111000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "ROD_OF_THE_SEA",
+  "name": "Rod of the Sea",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 150,
+   "FISHING_SPEED": 80,
+   "SEA_CREATURE_CHANCE": 8
+  },
+  "lore": [
+   "&7The ocean answers whoever holds it."
+  ],
+  "requirements": [
+   "skill:fishing:24"
+  ],
+  "npcSell": 111000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "ICE_ROD",
+  "name": "Ice Rod",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 30,
+  "stats": {
+   "FISHING_SPEED": 15
+  },
+  "lore": [
+   "&7Frost creeps up the line as you reel.",
+   "&7Strongest on the Winter Workshop."
+  ],
+  "requirements": [
+   "skill:fishing:3"
+  ],
+  "npcSell": 20000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true,
+   "winterBonus": {
+    "FISHING_SPEED": 20,
+    "SEA_CREATURE_CHANCE": 2
+   }
+  }
+ },
+ {
+  "id": "WINTER_ROD",
+  "name": "Winter Rod",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 50,
+   "FISHING_SPEED": 75
+  },
+  "lore": [
+   "&7A warmer grip for colder waters.",
+   "&7Strongest on the Winter Workshop."
+  ],
+  "requirements": [
+   "skill:fishing:10"
+  ],
+  "npcSell": 20000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true,
+   "winterBonus": {
+    "FISHING_SPEED": 20,
+    "SEA_CREATURE_CHANCE": 2
+   }
+  }
+ },
+ {
+  "id": "YETI_ROD",
+  "name": "Yeti Rod",
+  "material": "FISHING_ROD",
+  "rarity": "EPIC",
+  "category": "FISHING_ROD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 130,
+   "FISHING_SPEED": 75
+  },
+  "lore": [
+   "&7Wrapped in the fur of a Yeti.",
+   "&7Strongest on the Winter Workshop."
+  ],
+  "requirements": [
+   "skill:fishing:25"
+  ],
+  "npcSell": 150000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true,
+   "winterBonus": {
+    "FISHING_SPEED": 20,
+    "SEA_CREATURE_CHANCE": 2
+   }
+  }
+ },
+ {
+  "id": "PHANTOM_ROD",
+  "name": "Phantom Rod",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 125,
+   "FISHING_SPEED": 100
+  },
+  "lore": [
+   "&7Its line glows faintly in the dark.",
+   "&7Draws &5spooky &7creatures closer."
+  ],
+  "requirements": [
+   "skill:fishing:21"
+  ],
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true,
+   "spookyBonus": 0.1
+  }
+ },
+ {
+  "id": "AUGER_ROD",
+  "name": "Auger Rod",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "damage": 135,
+  "stats": {
+   "STRENGTH": 90,
+   "FISHING_SPEED": 110
+  },
+  "lore": [
+   "&7A drill-bit hook that bites deep."
+  ],
+  "requirements": [
+   "skill:fishing:25"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "THE_SHREDDER",
+  "name": "Shredder",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "damage": 120,
+  "stats": {
+   "FEROCITY": 50,
+   "FISHING_SPEED": 115
+  },
+  "lore": [
+   "&7The line is serrated. Reel carefully."
+  ],
+  "requirements": [
+   "skill:fishing:20"
+  ],
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "GIANT_FISHING_ROD",
+  "name": "Giant Fishing Rod",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "stats": {
+   "DOUBLE_HOOK_CHANCE": 10
+  },
+  "lore": [
+   "&7Ridiculously large. Hooks two at a time."
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "DIRT_ROD",
+  "name": "Dirt Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "FISHING_ROD",
+  "stats": {
+   "FISHING_SPEED": 20
+  },
+  "lore": [
+   "&7Cast it onto dirt and something still bites.",
+   "&7At least you stay dry!"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true,
+   "dirt": true
+  }
+ },
+ {
+  "id": "CHUM_ROD",
+  "name": "Chum Rod",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 55,
+  "stats": {
+   "STRENGTH": 40,
+   "SEA_CREATURE_CHANCE": 2,
+   "FISHING_SPEED": 70
+  },
+  "lore": [
+   "&7Smells of chum. The fish love it."
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 750,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": false,
+   "rod": true
+  }
+ },
+ {
+  "id": "STARTER_LAVA_ROD",
+  "name": "Starter Lava Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "FISHING_ROD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 50,
+   "FISHING_SPEED": 10,
+   "TROPHY_FISH_CHANCE": 5
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7A first rod that does not melt."
+  ],
+  "requirements": [
+   "skill:fishing:10"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod",
+   "soulbound"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "POLISHED_TOPAZ_ROD",
+  "name": "Topaz Rod",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 100,
+   "FISHING_SPEED": 50,
+   "SEA_CREATURE_CHANCE": 2
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7Polished topaz shrugs off the heat."
+  ],
+  "requirements": [
+   "skill:fishing:19",
+   "hotm:5"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "MAGMA_ROD",
+  "name": "Magma Rod",
+  "material": "FISHING_ROD",
+  "rarity": "RARE",
+  "category": "FISHING_ROD",
+  "damage": 175,
+  "stats": {
+   "STRENGTH": 175,
+   "FISHING_SPEED": 40,
+   "SEA_CREATURE_CHANCE": 6,
+   "TROPHY_FISH_CHANCE": 15
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7Forged from hardened magma."
+  ],
+  "requirements": [
+   "skill:fishing:27"
+  ],
+  "npcSell": 8000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "INFERNO_ROD",
+  "name": "Inferno Rod",
+  "material": "FISHING_ROD",
+  "rarity": "EPIC",
+  "category": "FISHING_ROD",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 200,
+   "FISHING_SPEED": 50,
+   "SEA_CREATURE_CHANCE": 10,
+   "TROPHY_FISH_CHANCE": 20
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7Burns hot enough to boil the lava."
+  ],
+  "requirements": [
+   "skill:fishing:30"
+  ],
+  "npcSell": 1028000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "HELLFIRE_ROD",
+  "name": "Hellfire Rod",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_ROD",
+  "damage": 225,
+  "stats": {
+   "STRENGTH": 225,
+   "FISHING_SPEED": 60,
+   "SEA_CREATURE_CHANCE": 14,
+   "TROPHY_FISH_CHANCE": 25
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7The finest lava rod there is."
+  ],
+  "requirements": [
+   "skill:fishing:35"
+  ],
+  "npcSell": 5634000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "ELLES_LAVA_ROD",
+  "name": "Heirloom Lava Rod",
+  "material": "FISHING_ROD",
+  "rarity": "SPECIAL",
+  "category": "FISHING_ROD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 50,
+   "FISHING_SPEED": 8
+  },
+  "lore": [
+   "&6Lava Rod",
+   "",
+   "&7A keepsake lava rod, passed hand to hand."
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "reforgeable",
+   "rod"
+  ],
+  "extra": {
+   "lava": true,
+   "rod": true
+  }
+ },
+ {
+  "id": "COMMON_HOOK",
+  "name": "Common Hook",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Raises the odds of hooking &fCOMMON",
+   "&7sea creatures by &a25%&7.",
+   "",
+   "&8Hook - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:10"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "hook"
+  }
+ },
+ {
+  "id": "HOTSPOT_HOOK",
+  "name": "Hotspot Hook",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7While fishing in a &dHotspot&7, adds a",
+   "&a+20% &7chance to hook a Hotspot creature.",
+   "",
+   "&8Hook - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:20"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "hook"
+  }
+ },
+ {
+  "id": "PHANTOM_HOOK",
+  "name": "Spooky Hook",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7During the &6Spooky Festival&7, adds a",
+   "&a+20% &7chance to hook a spooky creature.",
+   "",
+   "&8Hook - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:21"
+  ],
+  "npcSell": 250000,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "hook"
+  }
+ },
+ {
+  "id": "TREASURE_HOOK",
+  "name": "Treasure Hook",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Nothing alive will take this hook:",
+   "&7you only reel in items and &6Treasure&7.",
+   "",
+   "&8Hook - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:25"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "hook"
+  }
+ },
+ {
+  "id": "PUDDLE_JUMPER_HOOK",
+  "name": "Puddle Jumper Hook",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Makes a &9Puddle Jumper &7five times",
+   "&7as likely to bite.",
+   "",
+   "&8Hook - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:25",
+   "collection:LOTUS:8"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "hook"
+  }
+ },
+ {
+  "id": "SPEEDY_LINE",
+  "name": "Speedy Line",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants &b+10 ☂ Fishing Speed&7.",
+   "",
+   "&8Line - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "line"
+  }
+ },
+ {
+  "id": "SHREDDED_LINE",
+  "name": "Shredded Line",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants &c+250 Damage &7and &c+50 ⫽ Ferocity&7.",
+   "",
+   "&8Line - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:20"
+  ],
+  "npcSell": 250000,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "line"
+  }
+ },
+ {
+  "id": "TITAN_LINE",
+  "name": "Titan Line",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants &9+2 ⚓ Double Hook Chance&7.",
+   "",
+   "&8Line - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:30"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "line"
+  }
+ },
+ {
+  "id": "TROPHY_LINE",
+  "name": "Trophy Line",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants &6+5 ♔ Trophy Fish Chance&7.",
+   "",
+   "&8Line - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:20",
+   "collection:LOTUS:9"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "line"
+  }
+ },
+ {
+  "id": "JUNK_SINKER",
+  "name": "Junk Sinker",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants &6+10 ⛃ Treasure Chance &7in the",
+   "&aBackwater Bayou&7, but every treasure",
+   "&7catch there turns into junk.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "PRISMARINE_SINKER",
+  "name": "Prismarine Sinker",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every catch also brings up a Prismarine",
+   "&7Shard or Prismarine Crystals.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "SPONGE_SINKER",
+  "name": "Sponge Sinker",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every catch also brings up a Sponge.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 560,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "CHUM_SINKER",
+  "name": "Chum Sinker",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every catch also brings up some Chum.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 10000,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "FESTIVE_SINKER",
+  "name": "Festive Sinker",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7During the &fSeason of Gerald&7, catches",
+   "&7sometimes come with a Gift.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "ICY_SINKER",
+  "name": "Icy Sinker",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every catch also brings up a block of Ice.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "npcSell": 10000,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "STINGY_SINKER",
+  "name": "Stingy Sinker",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grants a &a10% &7chance to keep your bait.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:5"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "HOTSPOT_SINKER",
+  "name": "Hotspot Sinker",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Doubles the bonus you get from fishing",
+   "&7in a &dHotspot&7.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:20"
+  ],
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "LOTUS_SINKER",
+  "name": "Lotus Sinker",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every catch also brings up a Lotus.",
+   "",
+   "&8Sinker - apply it at the Tackle-smith"
+  ],
+  "requirements": [
+   "skill:fishing:15",
+   "collection:LOTUS:5"
+  ],
+  "npcSell": 10000,
+  "tags": [
+   "museum",
+   "rod_part"
+  ],
+  "extra": {
+   "rodPart": "sinker"
+  }
+ },
+ {
+  "id": "MINNOW_BAIT",
+  "name": "Minnow Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+25 ☂ Fishing Speed&7."
+  ],
+  "npcSell": 12,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "FISH_BAIT",
+  "name": "Fish Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+45 ☂ Fishing Speed&7."
+  ],
+  "npcSell": 20,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "LIGHT_BAIT",
+  "name": "Light Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Rare sea creatures bite more often",
+   "&7during the &eday&7."
+  ],
+  "npcSell": 16,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "DARK_BAIT",
+  "name": "Dark Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Rare sea creatures bite more often",
+   "&7at &8night&7."
+  ],
+  "npcSell": 8,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "SPIKED_BAIT",
+  "name": "Spiked Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &3+6 α Sea Creature Chance&7."
+  ],
+  "npcSell": 20,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "SPOOKY_BAIT",
+  "name": "Spooky Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+25 ☂ Fishing Speed &7and a",
+   "&a+15% &7chance at spooky creatures",
+   "&7during the &6Spooky Festival&7."
+  ],
+  "npcSell": 10,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "CARROT_BAIT",
+  "name": "Carrot Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Something with long ears might bite..."
+  ],
+  "npcSell": 7,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "CORRUPTED_BAIT",
+  "name": "Corrupted Bait",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Halves your &b☂ Fishing Speed&7, but lures",
+   "&7a strange &5trophy fish &7in the lava."
+  ],
+  "npcSell": 1,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "BLESSED_BAIT",
+  "name": "Blessed Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Treasure catches are &a50% &7more likely",
+   "&7to be &9GREAT &7or &6OUTSTANDING&7."
+  ],
+  "npcSell": 42,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "ICE_BAIT",
+  "name": "Ice Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+25 ☂ Fishing Speed &7and",
+   "&3+4 α Sea Creature Chance&7.",
+   "&cOnly works on the Winter Workshop."
+  ],
+  "npcSell": 3,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "SHARK_BAIT",
+  "name": "Shark Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Adds a &a+20% &7chance to hook &bSharks",
+   "&7during the &bFishing Festival&7."
+  ],
+  "npcSell": 8,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "GLOWY_CHUM_BAIT",
+  "name": "Glowy Chum Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+25 ☂ Fishing Speed&7,",
+   "&3+3 α Sea Creature Chance&7, and creatures",
+   "&7caught with it drop &a+2 &7Chum."
+  ],
+  "npcSell": 25,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "HOT_BAIT",
+  "name": "Hot Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+15 ☂ Fishing Speed &7and",
+   "&6+5 ♔ Trophy Fish Chance&7."
+  ],
+  "npcSell": 30,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "WORM_BAIT",
+  "name": "Worm Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+60 ☂ Fishing Speed&7, but only",
+   "&7worms will bite.",
+   "&cOnly works in the Crystal Caverns."
+  ],
+  "npcSell": 25,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "GOLDEN_BAIT",
+  "name": "Golden Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &6+4 ⛃ Treasure Chance&7."
+  ],
+  "npcSell": 100,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "WOODEN_BAIT",
+  "name": "Wooden Bait",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7A carved lure. Grants &b+10 ☂ Fishing Speed",
+   "&7and &6+1 ⛃ Treasure Chance&7."
+  ],
+  "npcSell": 100,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "FROZEN_BAIT",
+  "name": "Frozen Bait",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+50 ☂ Fishing Speed &7and",
+   "&3+8 α Sea Creature Chance&7.",
+   "&cOnly works on the Winter Workshop."
+  ],
+  "npcSell": 10,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "WHALE_BAIT",
+  "name": "Whale Bait",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+30 ☂ Fishing Speed &7and makes",
+   "&7rare sea creatures bite more often."
+  ],
+  "npcSell": 44,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "TREASURE_BAIT",
+  "name": "Treasure Bait",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7Grants &b+10 ☂ Fishing Speed &7and",
+   "&6+2 ⛃ Treasure Chance&7."
+  ],
+  "npcSell": 500,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "HOTSPOT_BAIT",
+  "name": "Hotspot Bait",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "BAIT",
+  "lore": [
+   "&8Fishing Bait",
+   "&8Used up when you cast",
+   "",
+   "&7While fishing in a &dHotspot&7, adds a",
+   "&a+20% &7chance to hook a Hotspot creature."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bait",
+   "bazaar"
+  ],
+  "extra": {
+   "bait": true
+  }
+ },
+ {
+  "id": "SULPHUR_SKITTER_BRONZE",
+  "name": "Sulphur Skitter Bronze",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you stand within &a4 blocks &7of a Sulphur (sponge) block.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SULPHUR_SKITTER",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "SULPHUR_SKITTER_SILVER",
+  "name": "Sulphur Skitter Silver",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you stand within &a4 blocks &7of a Sulphur (sponge) block.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SULPHUR_SKITTER",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "SULPHUR_SKITTER_GOLD",
+  "name": "Sulphur Skitter Gold",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you stand within &a4 blocks &7of a Sulphur (sponge) block.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SULPHUR_SKITTER",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "SULPHUR_SKITTER_DIAMOND",
+  "name": "Sulphur Skitter Diamond",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you stand within &a4 blocks &7of a Sulphur (sponge) block.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SULPHUR_SKITTER",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_1_BRONZE",
+  "name": "Obfuscated 1 Bronze",
+  "material": "TROPICAL_FISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites on Corrupted Bait, or drops from corrupted sea creatures.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_1",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_1_SILVER",
+  "name": "Obfuscated 1 Silver",
+  "material": "TROPICAL_FISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites on Corrupted Bait, or drops from corrupted sea creatures.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_1",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_1_GOLD",
+  "name": "Obfuscated 1 Gold",
+  "material": "TROPICAL_FISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites on Corrupted Bait, or drops from corrupted sea creatures.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_1",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_1_DIAMOND",
+  "name": "Obfuscated 1 Diamond",
+  "material": "TROPICAL_FISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites on Corrupted Bait, or drops from corrupted sea creatures.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_1",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "STEAMING_HOT_FLOUNDER_BRONZE",
+  "name": "Steaming-Hot Flounder Bronze",
+  "material": "COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when your bobber floats within &a2 blocks &7of a geyser in the volcano.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "STEAMING_HOT_FLOUNDER",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "STEAMING_HOT_FLOUNDER_SILVER",
+  "name": "Steaming-Hot Flounder Silver",
+  "material": "COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when your bobber floats within &a2 blocks &7of a geyser in the volcano.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "STEAMING_HOT_FLOUNDER",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "STEAMING_HOT_FLOUNDER_GOLD",
+  "name": "Steaming-Hot Flounder Gold",
+  "material": "COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when your bobber floats within &a2 blocks &7of a geyser in the volcano.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "STEAMING_HOT_FLOUNDER",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "STEAMING_HOT_FLOUNDER_DIAMOND",
+  "name": "Steaming-Hot Flounder Diamond",
+  "material": "COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when your bobber floats within &a2 blocks &7of a geyser in the volcano.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "STEAMING_HOT_FLOUNDER",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "GUSHER_BRONZE",
+  "name": "Gusher Bronze",
+  "material": "SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites in the volcano for a while after an eruption.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GUSHER",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "GUSHER_SILVER",
+  "name": "Gusher Silver",
+  "material": "SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites in the volcano for a while after an eruption.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GUSHER",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "GUSHER_GOLD",
+  "name": "Gusher Gold",
+  "material": "SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites in the volcano for a while after an eruption.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GUSHER",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "GUSHER_DIAMOND",
+  "name": "Gusher Diamond",
+  "material": "SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites in the volcano for a while after an eruption.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GUSHER",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "BLOBFISH_BRONZE",
+  "name": "Blobfish Bronze",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lives in every lava pool on the isle.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "BLOBFISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "BLOBFISH_SILVER",
+  "name": "Blobfish Silver",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lives in every lava pool on the isle.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "BLOBFISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "BLOBFISH_GOLD",
+  "name": "Blobfish Gold",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lives in every lava pool on the isle.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "BLOBFISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "BLOBFISH_DIAMOND",
+  "name": "Blobfish Diamond",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lives in every lava pool on the isle.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "BLOBFISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_2_BRONZE",
+  "name": "Obfuscated 2 Bronze",
+  "material": "TROPICAL_FISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 1 as bait.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_2",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_2_SILVER",
+  "name": "Obfuscated 2 Silver",
+  "material": "TROPICAL_FISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 1 as bait.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_2",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_2_GOLD",
+  "name": "Obfuscated 2 Gold",
+  "material": "TROPICAL_FISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 1 as bait.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_2",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_2_DIAMOND",
+  "name": "Obfuscated 2 Diamond",
+  "material": "TROPICAL_FISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 1 as bait.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "bait",
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_2",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "SLUGFISH_BRONZE",
+  "name": "Slugfish Bronze",
+  "material": "COD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a bobber that has been out for &a20 seconds&7.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SLUGFISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "SLUGFISH_SILVER",
+  "name": "Slugfish Silver",
+  "material": "COD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a bobber that has been out for &a20 seconds&7.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SLUGFISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "SLUGFISH_GOLD",
+  "name": "Slugfish Gold",
+  "material": "COD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a bobber that has been out for &a20 seconds&7.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SLUGFISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "SLUGFISH_DIAMOND",
+  "name": "Slugfish Diamond",
+  "material": "COD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a bobber that has been out for &a20 seconds&7.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SLUGFISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "FLYFISH_BRONZE",
+  "name": "Flyfish Bronze",
+  "material": "SALMON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you fish from &a8 blocks &7or more above the lava in the volcano.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "FLYFISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "FLYFISH_SILVER",
+  "name": "Flyfish Silver",
+  "material": "SALMON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you fish from &a8 blocks &7or more above the lava in the volcano.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "FLYFISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "FLYFISH_GOLD",
+  "name": "Flyfish Gold",
+  "material": "SALMON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you fish from &a8 blocks &7or more above the lava in the volcano.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "FLYFISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "FLYFISH_DIAMOND",
+  "name": "Flyfish Diamond",
+  "material": "SALMON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you fish from &a8 blocks &7or more above the lava in the volcano.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "FLYFISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_3_BRONZE",
+  "name": "Obfuscated 3 Bronze",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 2 as bait.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_3",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_3_SILVER",
+  "name": "Obfuscated 3 Silver",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 2 as bait.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_3",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_3_GOLD",
+  "name": "Obfuscated 3 Gold",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 2 as bait.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_3",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "OBFUSCATED_FISH_3_DIAMOND",
+  "name": "Obfuscated 3 Diamond",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bites when you use an Obfuscated 2 as bait.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "OBFUSCATED_FISH_3",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "LAVA_HORSE_BRONZE",
+  "name": "Lavahorse Bronze",
+  "material": "SALMON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims everywhere, but rarely bites.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "LAVA_HORSE",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "LAVA_HORSE_SILVER",
+  "name": "Lavahorse Silver",
+  "material": "SALMON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims everywhere, but rarely bites.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "LAVA_HORSE",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "LAVA_HORSE_GOLD",
+  "name": "Lavahorse Gold",
+  "material": "SALMON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims everywhere, but rarely bites.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "LAVA_HORSE",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "LAVA_HORSE_DIAMOND",
+  "name": "Lavahorse Diamond",
+  "material": "SALMON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims everywhere, but rarely bites.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "LAVA_HORSE",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "MANA_RAY_BRONZE",
+  "name": "Mana Ray Bronze",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Drawn to anglers holding &b1,200 Mana &7or more. More mana, more bites.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MANA_RAY",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "MANA_RAY_SILVER",
+  "name": "Mana Ray Silver",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Drawn to anglers holding &b1,200 Mana &7or more. More mana, more bites.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MANA_RAY",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "MANA_RAY_GOLD",
+  "name": "Mana Ray Gold",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Drawn to anglers holding &b1,200 Mana &7or more. More mana, more bites.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MANA_RAY",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "MANA_RAY_DIAMOND",
+  "name": "Mana Ray Diamond",
+  "material": "TROPICAL_FISH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Drawn to anglers holding &b1,200 Mana &7or more. More mana, more bites.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MANA_RAY",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "VOLCANIC_STONEFISH_BRONZE",
+  "name": "Volcanic Stonefish Bronze",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hides in the volcano's lava.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VOLCANIC_STONEFISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "VOLCANIC_STONEFISH_SILVER",
+  "name": "Volcanic Stonefish Silver",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hides in the volcano's lava.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VOLCANIC_STONEFISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "VOLCANIC_STONEFISH_GOLD",
+  "name": "Volcanic Stonefish Gold",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hides in the volcano's lava.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VOLCANIC_STONEFISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "VOLCANIC_STONEFISH_DIAMOND",
+  "name": "Volcanic Stonefish Diamond",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hides in the volcano's lava.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VOLCANIC_STONEFISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "VANILLE_BRONZE",
+  "name": "Plain Vanille Bronze",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a Starter Lava Rod with no enchantments.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VANILLE",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "VANILLE_SILVER",
+  "name": "Plain Vanille Silver",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a Starter Lava Rod with no enchantments.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VANILLE",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "VANILLE_GOLD",
+  "name": "Plain Vanille Gold",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a Starter Lava Rod with no enchantments.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VANILLE",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "VANILLE_DIAMOND",
+  "name": "Plain Vanille Diamond",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Only bites a Starter Lava Rod with no enchantments.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "VANILLE",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "SKELETON_FISH_BRONZE",
+  "name": "Skeleton Fish Bronze",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Haunts the lava of the desert and the barbarian town.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SKELETON_FISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "SKELETON_FISH_SILVER",
+  "name": "Skeleton Fish Silver",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Haunts the lava of the desert and the barbarian town.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SKELETON_FISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "SKELETON_FISH_GOLD",
+  "name": "Skeleton Fish Gold",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Haunts the lava of the desert and the barbarian town.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SKELETON_FISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "SKELETON_FISH_DIAMOND",
+  "name": "Skeleton Fish Diamond",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Haunts the lava of the desert and the barbarian town.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SKELETON_FISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "MOLDFIN_BRONZE",
+  "name": "Moldfin Bronze",
+  "material": "TROPICAL_FISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grows in the lava of the marsh and the mage town.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MOLDFIN",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "MOLDFIN_SILVER",
+  "name": "Moldfin Silver",
+  "material": "TROPICAL_FISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grows in the lava of the marsh and the mage town.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MOLDFIN",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "MOLDFIN_GOLD",
+  "name": "Moldfin Gold",
+  "material": "TROPICAL_FISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grows in the lava of the marsh and the mage town.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MOLDFIN",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "MOLDFIN_DIAMOND",
+  "name": "Moldfin Diamond",
+  "material": "TROPICAL_FISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Grows in the lava of the marsh and the mage town.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "MOLDFIN",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "SOUL_FISH_BRONZE",
+  "name": "Soul Fish Bronze",
+  "material": "SALMON",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims only in the stronghold's lava.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SOUL_FISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "SOUL_FISH_SILVER",
+  "name": "Soul Fish Silver",
+  "material": "SALMON",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims only in the stronghold's lava.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SOUL_FISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "SOUL_FISH_GOLD",
+  "name": "Soul Fish Gold",
+  "material": "SALMON",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims only in the stronghold's lava.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SOUL_FISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "SOUL_FISH_DIAMOND",
+  "name": "Soul Fish Diamond",
+  "material": "SALMON",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swims only in the stronghold's lava.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "SOUL_FISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "KARATE_FISH_BRONZE",
+  "name": "Karate Fish Bronze",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Trains in the dojo's lava.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "KARATE_FISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "KARATE_FISH_SILVER",
+  "name": "Karate Fish Silver",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Trains in the dojo's lava.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "KARATE_FISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "KARATE_FISH_GOLD",
+  "name": "Karate Fish Gold",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Trains in the dojo's lava.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "KARATE_FISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "KARATE_FISH_DIAMOND",
+  "name": "Karate Fish Diamond",
+  "material": "PUFFERFISH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Trains in the dojo's lava.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "KARATE_FISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "GOLDEN_FISH_BRONZE",
+  "name": "Golden Fish Bronze",
+  "material": "GOLD_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Appears after you have fished the lava for a long time.",
+   "",
+   "&6&lBRONZE &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GOLDEN_FISH",
+   "trophyTier": "BRONZE"
+  }
+ },
+ {
+  "id": "GOLDEN_FISH_SILVER",
+  "name": "Golden Fish Silver",
+  "material": "GOLD_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Appears after you have fished the lava for a long time.",
+   "",
+   "&7&lSILVER &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GOLDEN_FISH",
+   "trophyTier": "SILVER"
+  }
+ },
+ {
+  "id": "GOLDEN_FISH_GOLD",
+  "name": "Golden Fish Gold",
+  "material": "GOLD_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Appears after you have fished the lava for a long time.",
+   "",
+   "&e&lGOLD &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GOLDEN_FISH",
+   "trophyTier": "GOLD"
+  }
+ },
+ {
+  "id": "GOLDEN_FISH_DIAMOND",
+  "name": "Golden Fish Diamond",
+  "material": "GOLD_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Appears after you have fished the lava for a long time.",
+   "",
+   "&b&lDIAMOND &7trophy",
+   "",
+   "&7Show it to the &6Trophy Keeper &7on the",
+   "&7Crimson Isle, or fillet it for &6Magmafish&7."
+  ],
+  "glow": true,
+  "tags": [
+   "museum",
+   "soulbound",
+   "trophy_fish"
+  ],
+  "extra": {
+   "trophyFish": "GOLDEN_FISH",
+   "trophyTier": "DIAMOND"
+  }
+ },
+ {
+  "id": "MAGMA_FISH_DIAMOND",
+  "name": "Diamond Magmafish",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Sixteen Gold Magmafish, pressed hard."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "ALLIGATOR_SKIN",
+  "name": "Alligator Hide",
+  "material": "LEATHER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Tough, scaly, and still damp."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "WEREWOLF_SKIN",
+  "name": "Werewolf Pelt",
+  "material": "LEATHER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7It still smells of moonlight."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "BOBBIN_SCRIPTURES",
+  "name": "Chorus Scriptures",
+  "material": "BOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Old fishing hymns. Said to teach the",
+   "&7&dBobber's Chorus &7enchantment."
+  ],
+  "npcSell": 250000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "CHAIN_END_TIMES",
+  "name": "Chain of the Last Days",
+  "material": "IRON_CHAIN",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Heavy, hot, and humming."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "BRIMSTONE_HANDLE",
+  "name": "Brimstone Handle",
+  "material": "BLAZE_ROD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The grip of something far too large."
+  ],
+  "npcSell": 25000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "WALNUT",
+  "name": "Walnut",
+  "material": "COCOA_BEANS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Cracked open by a very determined",
+   "&7Nutcracker."
+  ],
+  "npcSell": 10000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "MOUND_OF_SEAGRASS",
+  "name": "Mound of Seagrass",
+  "material": "SEAGRASS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Pulled from the loch bed."
+  ],
+  "npcSell": 250000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "VIBRANT_CORAL",
+  "name": "Vibrant Coral",
+  "material": "FIRE_CORAL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Glows even out of the water."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "CARNIVAL_TICKET",
+  "name": "Carnival Ticket",
+  "material": "NAME_TAG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Good for one ride, someday."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DYE_AQUAMARINE",
+  "name": "Aquamarine Dye",
+  "material": "LIGHT_BLUE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An extremely rare dye, fished from",
+   "&7the deepest water."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DYE_CARMINE",
+  "name": "Carmine Dye",
+  "material": "RED_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An extremely rare dye, fished from",
+   "&7the hottest lava."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DYE_ICEBERG",
+  "name": "Iceberg Dye",
+  "material": "LIGHT_BLUE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An extremely rare dye, chipped off",
+   "&7a frozen pond."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DYE_MIDNIGHT",
+  "name": "Midnight Dye",
+  "material": "BLACK_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An extremely rare dye with a",
+   "&7spooky shimmer."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DYE_BONE",
+  "name": "Bone Dye",
+  "material": "WHITE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An extremely rare dye, rattled loose",
+   "&7from a Sea Archer."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "HOTSPOT_RADAR",
+  "name": "Hotspot Radar",
+  "material": "COMPASS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A battered radar tuned to warm water."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {},
+  "abilities": [
+   {
+    "id": "fishing_hotspot_radar",
+    "name": "Ping",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 2,
+    "lore": [
+     "&7Points you at the nearest &dFishing",
+     "&dHotspot &7on this island."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "BAYOU_WATER_ORB",
+  "name": "Bayou Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Swamp water, perfectly round.",
+   "&7The Scrapper trades for these."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "HOTSPOT_WATER_ORB",
+  "name": "Hotspot Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Still warm from the hotspot."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "SHARK_WATER_ORB",
+  "name": "Shark Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Smells faintly of blood."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "WATER_ORB",
+  "name": "Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Every kind of catch, pressed into one",
+   "&7smooth, heavy sphere. The heart of",
+   "&7every high-end fishing craft."
+  ],
+  "npcSell": 3000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "LAVA_WATER_ORB",
+  "name": "Lava Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hot enough to blister your palm."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "SPOOKY_WATER_ORB",
+  "name": "Spooky Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7It whispers when nobody is looking."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "WINTER_WATER_ORB",
+  "name": "Winter Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Frost never melts off its surface."
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "LOTUS_WATER_ORB",
+  "name": "Lotus Water Orb",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Smells of rust and lotus petals."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "CHUM",
+  "name": "Chum",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by sea creatures slain near a",
+   "&7placed Chum Bucket.",
+   "",
+   "&7Deposit it in any Chum Bucket to earn",
+   "&6+20 Coins &7and &3+10 Fishing XP&7!"
+  ],
+  "npcSell": 5,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "EMPTY_CHUMCAP_BUCKET",
+  "name": "Empty Chumcap Bucket",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it down next to water.",
+   "",
+   "&7Sea creatures slain nearby drop",
+   "&a+1 Chum&7.",
+   "&8Up to +4 total from buckets!",
+   "",
+   "&7You gain a good chance to fish up",
+   "&7a &cMooshroom Diver&7.",
+   "&7You and other nearby anglers gain",
+   "&b+4 ☂ Fishing Speed&7.",
+   "&8Up to +16 ☂ from buckets!"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3OTU4NzMwNDk5MSwKICAicHJvZmlsZUlkIiA6ICJkMTJiOTk3ZWI2YTQ0ODQ5ODJmNDE1ZTI1NzFlNmY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lybGJlbGwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2MyNWMxZjMzM2E3MzFiYzM0MzU4ZjU1YzA1MTg1MTE0MTUzYzNmM2Q0NzQwNzZmMjFjYzE2MjFiOTk5NDY2MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {},
+  "requirements": [
+   "skill:fishing:15"
+  ]
+ },
+ {
+  "id": "ISOPOD_HUSK",
+  "name": "Isopod Husk",
+  "material": "RABBIT_HIDE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumable",
+   "",
+   "&7Eat it to permanently gain &3+1 Respiration&7:",
+   "&7you hold your breath longer underwater.",
+   "",
+   "&7Only &a5 &7can be eaten before the scratching",
+   "&7at the back of your throat wins.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "npcSell": 250000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "WATER_HYACINTH",
+  "name": "Water Hyacinth",
+  "material": "BLUE_ORCHID",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A Torrid is born when a water hyacinth",
+   "&7blooms for the very first time."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "DISTANT_ECHO",
+  "name": "Distant Echo",
+  "material": "ECHO_SHARD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A Silkdrift passes so fast it is mostly",
+   "&7heard, never seen. This is what it left."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "THUNDER_IN_A_BOTTLE_EMPTY",
+  "name": "Empty Thunder Bottle",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7This bottle is empty. Slay lava sea",
+   "&7creatures with it in your inventory",
+   "&7to charge it up."
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTI0Mjc1NzEwMCwKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3YTZkMzVlOWQ0MzU0MmQyNzUwYzQ4MzZiNDAzN2Y3NTE0NmViMjc4NzUzMmI0YzRjNWMzYjI2YmI2M2RjMTAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {},
+  "maxStack": 1
+ },
+ {
+  "id": "THUNDER_IN_A_BOTTLE",
+  "name": "Thunder in a Bottle",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7What happens if you open it? The",
+   "&7answer may shock you."
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA5ODc0MzQ2NywKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0Mzc4Yjk4NmUzNTg1NTVlZTczZjA5YjIxMGQ0OWVjMTM3MTlkZTVlYTg4ZDc1NTIzNzcwZDMxMTYzZjNhZWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 5000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {}
+ },
+ {
+  "id": "MOBY_DUCK",
+  "name": "The Drowned Mallard",
+  "material": "BOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Keep it in your inventory: it gains",
+   "&3+0.1 ☯ Fishing Wisdom &7for every hour you",
+   "&7are online, up to &3+30☯&7, then it evolves.",
+   "",
+   "&7Right-click to read it: the bonus is",
+   "&7yours for &a60 minutes&7.",
+   "",
+   "&8A waterlogged epic about a sailor and",
+   "&8his best friend, a very large duck."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {},
+  "maxStack": 1
+ },
+ {
+  "id": "MOBY_DUCK_COLLECTOR_EDITION",
+  "name": "The Drowned Mallard: Collector's Edition",
+  "material": "BOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Right-click to read it: &3+30☯ Fishing",
+   "&3Wisdom &7for &a60 minutes&7.",
+   "",
+   "&6Bookworm",
+   "&7The first one you ever read also grants",
+   "&3+1☯ Fishing Wisdom &7for good.",
+   "",
+   "&8Somebody kept this copy dry."
+  ],
+  "npcSell": 1000000,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {},
+  "maxStack": 1
+ },
+ {
+  "id": "AGARIMOO_TONGUE",
+  "name": "Fungimoo Tongue",
+  "material": "MUTTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMoocress Artifact&7,",
+   "&7&aMoocress Ring&7 and 1 more.",
+   "",
+   "&8Dropped by: Mooshroom Diver"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BEZOS",
+  "name": "Tycoon's Coin",
+  "material": "GOLD_NUGGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlaze Wax&7 and &aSulphur",
+   "&aBow&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLAZE_ASHES",
+  "name": "Blaze Ashes",
+  "material": "GUNPOWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlaze Belt&7, &aHot Bait&7 and",
+   "&71 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLUE_RING",
+  "name": "Blue Ring",
+  "material": "LAPIS_LAZULI",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aStrong Signal Ring&7 and",
+   "&7&aHotspot Water Orb&7.",
+   "",
+   "&8Dropped by: Blue Ringed Octopus"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLUE_SHARK_TOOTH",
+  "name": "Blue Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aStrong Signal Ring&7,",
+   "&7&aHoned Shark Tooth Necklace&7 and 4 more.",
+   "",
+   "&8Dropped by: Blue Shark"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BROKEN_RADAR",
+  "name": "Broken Radar",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Hook&7, &aHotspot",
+   "&aRadar&7 and 1 more.",
+   "",
+   "&8Dropped by: Snapping Turtle"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BRONZE_BOWL",
+  "name": "Bronze Bowl",
+  "material": "BOWL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7, &aBronze",
+   "&aShip Helm&7 and 2 more.",
+   "",
+   "&8Dropped by: Dumpster Diver"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BURNING_EYE",
+  "name": "Burning Eye",
+  "material": "ENDER_PEARL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBerserker Chestplate&7,",
+   "&7&aBerserker Helmet&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CAN_OF_WORMS",
+  "name": "Can of Worms",
+  "material": "SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Trash Gobbler"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CORRUPTED_NETHER_STAR",
+  "name": "Nether Star",
+  "material": "NETHER_STAR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aVanquished Blaze Belt&7,",
+   "&7&aVanquished Ghast Cloak&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CUP_OF_BLOOD",
+  "name": "Cup of Blood",
+  "material": "RED_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7.",
+   "",
+   "&8Dropped by: Lava Leech"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "DIGESTED_MUSHROOMS",
+  "name": "Digested Mushrooms",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "DIVER_FRAGMENT",
+  "name": "Abyssal Emperor's Skull",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aAbyssal Boots&7, &aAbyssal",
+   "&aChestplate&7 and 3 more.",
+   "",
+   "&8Dropped by: Loch Sovereign, Tidelord"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ETERNAL_FLAME_RING",
+  "name": "Eternal Flame Ring",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjQ4OTA2MDY2OCwKICAicHJvZmlsZUlkIiA6ICI2ZTIyNjYxZmNlMTI0MGE0YWE4OTA0NDA0NTFiYjBiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJncnZleWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jOTM4NTY1MTg0NWY4YmZlMTg2YzMwZGE4MWJhY2Q2OTcxYWE1MWJlM2I1MDAxZmM0ZWE1Y2YxYWY4ZjIzYzMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 10000.0,
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Flaming Worm, Lava Blaze, Lava Pigman"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FLAMES",
+  "name": "Flames",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEverburning Flame&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FLAMING_HEART",
+  "name": "Flaming Heart",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7.",
+   "",
+   "&8Dropped by: Lava Flame"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FRIED_FEATHER",
+  "name": "Fried Feather",
+  "material": "FEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFried Frozen Chicken&7 and",
+   "&7&aHotspot Water Orb&7.",
+   "",
+   "&8Dropped by: Fried Chicken"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FROGCOIN",
+  "name": "Frogcoin",
+  "material": "GOLD_NUGGET",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGeometric Oddity&7 and",
+   "&7&aLotus Water Orb&7.",
+   "",
+   "&8Dropped by: Lotus Guardian"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "GAZING_PEARL",
+  "name": "Gazing Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDelirium Necklace&7, &aLava",
+   "&aShell Necklace&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "GREAT_WHITE_SHARK_TOOTH",
+  "name": "Great White Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGreat White Tooth Meal&7,",
+   "&7&aRazor-sharp Shark Tooth Necklace&7 and 2",
+   "&7more.",
+   "",
+   "&8Dropped by: Great White Shark"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HALF_EATEN_MUSHROOM",
+  "name": "Half-Eaten Mushroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Tonic Mixin&7 and",
+   "&7&aHotspot Water Orb&7.",
+   "",
+   "&8Dropped by: Frog Man"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HALLOWED_SKULL",
+  "name": "Hallowed Skull",
+  "material": "BONE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDoomrock Axe&7 and &aWand of",
+   "&aStrength&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HEAVY_PEARL",
+  "name": "Heavy Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HILT_OF_TRUE_ICE",
+  "name": "True Ice",
+  "material": "SNOWBALL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 100000.0,
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlizzard in a Bottle&7,",
+   "&7&aPocket-sized Igloo&7 and 2 more.",
+   "",
+   "&8Dropped by: Yeti"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HORN_OF_TAURUS",
+  "name": "Horn of Taurus",
+  "material": "BONE_MEAL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHorns of Torment&7 and",
+   "&7&aLava Water Orb&7.",
+   "",
+   "&8Dropped by: Taurus"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ICE_HUNK",
+  "name": "Hunk of Ice",
+  "material": "SNOWBALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aHunk of Blue Ice&7.",
+   "",
+   "&8Dropped by: Frosty, Frozen Wanderer"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "KADA_LEAD",
+  "name": "Ember Knight Lead",
+  "material": "LEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLarge Nether Sack&7,",
+   "&7&aMedium Nether Sack&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LEATHER_CLOTH",
+  "name": "Leather Cloth",
+  "material": "LEATHER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGauntlet of Contagion&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LOTUS",
+  "name": "Lotus",
+  "material": "POPPY",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 15.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aSilver Lotus&7.",
+   "",
+   "&8Dropped by: Atoll Croaker, Drowned Captain, Grof"
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "LOTUS"
+  }
+ },
+ {
+  "id": "LUMINO_FIBER",
+  "name": "Lumino Fiber",
+  "material": "STRING",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFire Veil Wand&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LUMP_OF_MAGMA",
+  "name": "Lump of Magma",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7.",
+   "",
+   "&8Dropped by: Magma Slug"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMAG",
+  "name": "Magmag",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_CHUNK",
+  "name": "Magma Chunk",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBerserker Boots&7,",
+   "&7&aBerserker Chestplate&7 and 5 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_CORE",
+  "name": "Magma Core",
+  "material": "MAGMA_CREAM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Lava Blaze, Lava Pigman"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_FISH",
+  "name": "Magmafish",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aSilver Magmafish&7.",
+   "",
+   "&8Dropped by: Fire Eel, Fireproof Witch, Fried Chicken"
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "MAGMA_FISH"
+  }
+ },
+ {
+  "id": "MAGMA_LORD_FRAGMENT",
+  "name": "Molten Lord Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMagma Lord Boots&7, &aMagma",
+   "&aLord Chestplate&7 and 3 more.",
+   "",
+   "&8Dropped by: Lord Gnashmaw"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MOOGMA_PELT",
+  "name": "Lavamoo Pelt",
+  "material": "LEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7.",
+   "",
+   "&8Dropped by: Magma Cow"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MUTATED_BLAZE_ASHES",
+  "name": "Mutated Blaze Ashes",
+  "material": "GUNPOWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aScourge Cloak&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "NURSE_SHARK_TOOTH",
+  "name": "Nurse Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDull Shark Tooth",
+   "&aNecklace&7, &aIchthyic Belt&7 and 4 more.",
+   "",
+   "&8Dropped by: Nurse Shark"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "OCTOPUS_TENDRIL",
+  "name": "Octopus Tendril",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDA3NTYzNTk4NiwKICAicHJvZmlsZUlkIiA6ICIzNmU5MTE1YzBjYzc0ZjhkOTdmOGFjNjA1ZGMxNGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJnaVYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJmNTgyODNmZmNhOGJkYzU5NDM2ZTgzZDk0ZTlmMTM0NDI2MzE2Yjk5YmFiNWI5YWY5MGRmZmRiMDgyYTA1NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Blue Ringed Octopus"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ORB_OF_ENERGY",
+  "name": "Orb of Energy",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEmpty Hurricane Bottle&7,",
+   "&7&aPulse Ring&7 and 1 more.",
+   "",
+   "&8Dropped by: Fire Eel"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "POISON_SAMPLE",
+  "name": "Poison Sample",
+  "material": "FERMENTED_SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7 and",
+   "&7&aVaccine Artifact&7.",
+   "",
+   "&8Dropped by: Bayou Sludge"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "PRINCE_CROWN_JEWEL",
+  "name": "Prince's Crown Jewel",
+  "material": "GOLD_NUGGET",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1000000.0,
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLotus Crown&7.",
+   "",
+   "&8Dropped by: Frog Prince"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "PYROCLASTIC_SCALE",
+  "name": "Pyroclastic Scale",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Pyroclastic Worm"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "RADIOACTIVE_VIAL",
+  "name": "Radioactive Vial",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDA0OTczMzc3OSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1NzRjMDNiMWM4ZjUyNTM1Zjk2YTIwYTQxNzYwMjBiYjI4MGUwYWY1MmZjMTI4NWQzZWNiZDM1MTcyODBjNCIKICAgIH0KICB9Cn0=",
+  "npcSell": 5000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Lord Gnashmaw"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "REKINDLED_EMBER_FRAGMENT",
+  "name": "Rekindled Ember Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDelirium Necklace&7, &aFire",
+   "&aFury Staff&7 and 6 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SCORCHED_CRAB_STICK",
+  "name": "Scorched Crab Stick",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Bait&7 and &aHotspot",
+   "&aWater Orb&7.",
+   "",
+   "&8Dropped by: Fiery Scuttler"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SCUTTLER_SHELL",
+  "name": "Scuttler Shell",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NDM5NDI0NywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjNDg1N2U3YTE5OTY4MjVjZThhZDM2NThiNzE4ODgwMGQxYmJjMjEyZmEyMjU3Yzc1NTMwNzU5ZGM2ODdlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Fiery Scuttler"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SEARED_ESCARGOT",
+  "name": "Seared Escargot",
+  "material": "NAUTILUS_SHELL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Sinker&7 and",
+   "&7&aHotspot Water Orb&7.",
+   "",
+   "&8Dropped by: Volcanic Snail"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SEVERED_PINCER",
+  "name": "Severed Pincer",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NjM2MDYxMSwKICAicHJvZmlsZUlkIiA6ICIxNTUyNmU1OGZhOWE0NjBmODhhNmZhNjk1M2RlNjgzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaWVkcml0YTE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlMWUwNzAxZjFmOWU5NzQ3NjVlNGYyYTdjMzNhOTQ1OGM1OTgzMzQ0MDE1MzhkYzlmMjFmNWVkN2UzNWY3OWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Fiery Scuttler"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SHARK_FIN",
+  "name": "Shark Fin",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Shark Fin&7.",
+   "",
+   "&8Dropped by: Blue Shark, Great White Shark, Nurse Shark"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SINGED_POWDER",
+  "name": "Singed Powder",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Sinker&7 and",
+   "&7&aHotspot Water Orb&7.",
+   "",
+   "&8Dropped by: Fireproof Witch"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SOUL_FRAGMENT",
+  "name": "Soul Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEternal Hoof&7, &aSoul Whip&7",
+   "&7and 1 more.",
+   "",
+   "&8Dropped by: Grim Reaper"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SPECTRE_DUST",
+  "name": "Spectre Dust",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMycelium Dust&7 and",
+   "&7&aSuspicious Stew&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SPELL_POWDER",
+  "name": "Spell Powder",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFire Freeze Staff&7, &aFire",
+   "&aVeil Wand&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TENTACLE_MEAT",
+  "name": "Tentacle Meat",
+  "material": "ROTTEN_FLESH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGhast Cloak&7 and &aMeteor",
+   "&aChunk&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "THUNDER_SHARDS",
+  "name": "Thunder Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7,",
+   "&7&aThunderbolt Necklace&7 and 4 more.",
+   "",
+   "&8Dropped by: Thunder"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TIGER_SHARK_TOOTH",
+  "name": "Tiger Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFinwave Belt&7, &aFinwave",
+   "&aCloak&7 and 3 more.",
+   "",
+   "&8Dropped by: Tiger Shark"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TITANOBOA_SHED",
+  "name": "Titanoboa Shed",
+  "material": "LEATHER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 500000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aTitan Line&7.",
+   "",
+   "&8Dropped by: Titanoboa"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TORN_CLOTH",
+  "name": "Torn Cloth",
+  "material": "STRING",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7 and",
+   "&7&aBronze Ship Hull&7.",
+   "",
+   "&8Dropped by: Banshee"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TROUBLED_BUBBLE",
+  "name": "Troubled Bubble",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDY3NTY1MTY4MCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZGZjYzUzMGFkNGY2NDVhMjAxYWJjMDU5MTJmMTk0ODYyNjExYzMzNzM5YTA4MjZhOGJiOWFkMGQ5Yjk4Mzc1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "",
+   "&8Dropped by: Tiki Totem"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "UNLUCKY_DOUBLOON",
+  "name": "Unlucky Doubloon",
+  "material": "GOLD_NUGGET",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLotus Water Orb&7.",
+   "",
+   "&8Dropped by: Drowned Captain"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WET_WATER",
+  "name": "Wet Water",
+  "material": "GLASS_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBrine Tonic&7, &aBogcap&7 and",
+   "&71 more.",
+   "",
+   "&8Dropped by: Wetwing"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WITHER_SOUL",
+  "name": "Wither Soul",
+  "material": "BLAZE_POWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aAncient Cloak&7 and &aFire",
+   "&aFreeze Staff&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WORM_MEMBRANE",
+  "name": "Worm Membrane",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 15000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aWorm Bait&7.",
+   "",
+   "&8Dropped by: Flaming Worm, Poisoned Water Worm, Water Worm"
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BUSTED_BELT_BUCKLE",
+  "name": "Busted Belt Buckle",
+  "material": "IRON_CHAIN",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Refined metal or hard stock.",
+   "&7Used to craft &aBayou Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "OLD_LEATHER_BOOT",
+  "name": "Old Leather Boot",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7A tough hide or shell from a creature.",
+   "&7Used to craft &aBayou Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "RUSTY_COIN",
+  "name": "Rusty Coin",
+  "material": "GOLD_NUGGET",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7A coin or token of trade. Worth",
+   "&7keeping.",
+   "&7Used to craft &aBayou Water Orb&7 and",
+   "&7&aGeometric Oddity&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ }
+]

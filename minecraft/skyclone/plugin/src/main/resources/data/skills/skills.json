@@ -1,0 +1,9281 @@
+{
+ "version": 1,
+ "source": "research/data/skills.json (Hypixel API 0.27.1.18)",
+ "skills": {
+  "FARMING": {
+   "id": "FARMING",
+   "name": "Farming",
+   "description": [
+    "Harvest crops and shear sheep",
+    "to earn Farming XP!"
+   ],
+   "maxLevel": 60,
+   "defaultCap": 50,
+   "capHint": [
+    "&7Raise it with gold medals earned",
+    "&7in farming contests."
+   ],
+   "perkName": "Harvester",
+   "perkStat": "FARMING_FORTUNE",
+   "perkText": "&fGrants {v} &6☘ Farming Fortune&f, raising your odds of extra crops.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "barn",
+       "name": "The Barn"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 8.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 12.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 16.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "mushroom_desert",
+       "name": "Mushroom Desert"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 24.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 28.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 32.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 36.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 44.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 48.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 52.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 56.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 60.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 64.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 68.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 72.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 76.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 80.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 84.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 88.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 92.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 96.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 100.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 104.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 108.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 112.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 116.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 120.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 124.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 128.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 132.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 136.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 140.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 144.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 148.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 152.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 156.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 160.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 164.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 168.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 172.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 176.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 180.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 184.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 188.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 192.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 196.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 200.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 204.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 208.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 212.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 216.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 220.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 224.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 228.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 58,
+     "total": 97972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 232.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 59,
+     "total": 104672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 236.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 60,
+     "total": 111672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 240.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "MINING": {
+   "id": "MINING",
+   "name": "Mining",
+   "description": [
+    "Dig into deep caves for rare ores",
+    "and materials to earn Mining XP!"
+   ],
+   "maxLevel": 60,
+   "defaultCap": 60,
+   "capHint": [],
+   "perkName": "Prospector",
+   "perkStat": "MINING_FORTUNE",
+   "perkText": "&fGrants {v} &6☘ Mining Fortune&f, raising your odds of extra ore drops.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "gold_mine",
+       "name": "Gold Mine"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "JERRY_STONE"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 8.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "ONYX"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 12.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "OVERFLOWING_TRASH_CAN"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 16.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "deep_caverns",
+       "name": "Deep Caverns"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "LAPIS_CRYSTAL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MOIL_LOG"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 24.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 28.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 32.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "RARE_DIAMOND"
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 36.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "SKYMART_BROCHURE"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "EXTREMELY_MILD_ADHESIVE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DIRT_BOTTLE"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 44.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "SUNSTONE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MOONSTONE"
+      }
+     ]
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 48.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "crystal_hollows",
+       "name": "Crystal Caverns"
+      },
+      {
+       "type": "access",
+       "id": "dwarven_mines",
+       "name": "Dwarven Mines"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MOONGLADE_JEWEL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "HARDENED_WOOD"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "LARGE_WALNUT"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 52.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "FULL_JAW_FANGING_KIT"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "FLOWERING_BOUQUET"
+      }
+     ]
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 1.0
+     },
+     "perk": 56.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "DWARVEN_TREASURE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "ENDSTONE_GEODE"
+      }
+     ]
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 60.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "BEADY_EYES"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DIAMONITE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "CLIPPED_WINGS"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SALMON_OPAL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "GEOMETRIC_ODDITY"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "TERRY_SNOWGLOBE"
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 64.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "PREMIUM_FLESH"
+      }
+     ]
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 68.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "RED_NOSE"
+      }
+     ]
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 72.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "PITCHIN_KOI"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "PURE_MITHRIL"
+      }
+     ]
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 76.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "NECROMANCER_BROOCH"
+      }
+     ]
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 80.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "ENTROPY_SUPPRESSOR"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "TITANIUM_TESSERACT"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DRAGON_SCALE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MOLTEN_CUBE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "FROZEN_BAUBLE"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 84.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "RED_SCARF"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SQUEAKY_TOY"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "ROCK_GEMSTONE"
+      }
+     ]
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 88.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "DRAGON_CLAW"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "OPTICAL_LENS"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MANTID_CLAW"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DIAMOND_ATOM"
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 92.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "OVERGROWN_GRASS"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SUSPICIOUS_VIAL"
+      }
+     ]
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 96.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "GLEAMING_CRYSTAL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "PRESUMED_GALLON_OF_RED_PAINT"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SEARING_STONE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "BLAZE_WAX"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "BLOOMING_THORNS"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "LUCKY_DICE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "BURROWING_SPORES"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SHINY_PRISM"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "METEOR_SHARD"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SPIRIT_DECOY"
+      }
+     ]
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 100.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "GIANT_TOOTH"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "REFINED_AMBER"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "BULKY_STONE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MIDAS_JEWEL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SADAN_BROOCH"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DRAGON_HORN"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "TOIL_LOG"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "BLESSED_FRUIT"
+      }
+     ]
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 104.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "AOTE_STONE"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "SHRIVELED_CORNEA"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "PETRIFIED_STARFALL"
+      }
+     ]
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 108.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "BLAZEN_SPHERE"
+      }
+     ]
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 112.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 116.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 120.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "AMBER_MATERIAL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "WITHER_BLOOD"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "PRECURSOR_GEAR"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "MANGROVE_GEM"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "GOLDEN_BALL"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "FRIGID_HUSK"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "JADERALD"
+      },
+      {
+       "type": "reforge_stone",
+       "id": "DAEDALUS_NOTES"
+      }
+     ]
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 124.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 128.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 132.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "reforge_stone",
+       "id": "KUUDRA_MANDIBLE"
+      }
+     ]
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 136.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 140.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 144.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 148.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 152.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 156.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 160.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 164.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 168.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 172.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 176.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 180.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 184.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 188.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 192.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 196.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 200.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 204.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 208.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 212.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 216.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 220.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 224.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 228.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 58,
+     "total": 97972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 232.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 59,
+     "total": 104672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 236.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 60,
+     "total": 111672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "DEFENSE": 2.0
+     },
+     "perk": 240.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "COMBAT": {
+   "id": "COMBAT",
+   "name": "Combat",
+   "description": [
+    "Fight mobs and bosses to earn",
+    "Combat XP!"
+   ],
+   "maxLevel": 60,
+   "defaultCap": 60,
+   "capHint": [],
+   "perkName": "Veteran",
+   "perkStat": null,
+   "perkText": "&fDeal {v}% &fmore damage to mobs.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "spiders_den",
+       "name": "Spider's Den"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 8.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 12.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 16.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 24.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 28.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 32.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 36.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "power_stone",
+       "id": "DISPLACED_LEECH"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 44.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 48.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "the_end",
+       "name": "The End"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 52.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 56.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 60.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Intermediate accessory bag powers"
+      },
+      {
+       "type": "power_stone",
+       "id": "LUXURIOUS_SPOOL"
+      },
+      {
+       "type": "power_stone",
+       "id": "ROCK_CANDY"
+      },
+      {
+       "type": "power_stone",
+       "id": "ENDER_MONOCLE"
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 64.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 68.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 72.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 76.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 80.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Access to the Bruiser Hideout in The End"
+      },
+      {
+       "type": "power_stone",
+       "id": "ACACIA_BIRDHOUSE"
+      },
+      {
+       "type": "power_stone",
+       "id": "SUNFLOWER_BUTTER"
+      },
+      {
+       "type": "power_stone",
+       "id": "GLACITE_SHARD"
+      },
+      {
+       "type": "power_stone",
+       "id": "FURBALL"
+      },
+      {
+       "type": "power_stone",
+       "id": "OBSIDIAN_TABLET"
+      },
+      {
+       "type": "power_stone",
+       "id": "END_STONE_SHULKER"
+      },
+      {
+       "type": "power_stone",
+       "id": "BEATING_HEART"
+      },
+      {
+       "type": "power_stone",
+       "id": "DARK_ORB"
+      },
+      {
+       "type": "power_stone",
+       "id": "CHOCOLATE_CHIP"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 84.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 88.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "crimson_isle",
+       "name": "Crimson Isle"
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 92.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 96.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 100.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "power_stone",
+       "id": "HORNS_OF_TORMENT"
+      },
+      {
+       "type": "power_stone",
+       "id": "BUBBA_BLISTER"
+      },
+      {
+       "type": "power_stone",
+       "id": "ECCENTRIC_PAINTING"
+      },
+      {
+       "type": "power_stone",
+       "id": "MAGMA_URCHIN"
+      },
+      {
+       "type": "power_stone",
+       "id": "PRECIOUS_PEARL"
+      }
+     ]
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 104.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 108.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 112.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 116.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 120.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "power_stone",
+       "id": "MANDRAA"
+      },
+      {
+       "type": "power_stone",
+       "id": "HAZMAT_ENDERMAN"
+      },
+      {
+       "type": "power_stone",
+       "id": "VITAMIN_DEATH"
+      }
+     ]
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 124.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 128.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 132.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 136.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 140.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "power_stone",
+       "id": "SCORCHED_BOOKS"
+      }
+     ]
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 144.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 148.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 152.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 156.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 160.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 164.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 168.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 172.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 176.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 180.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 184.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 188.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 192.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 196.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 200.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 201.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 202.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 203.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 204.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 205.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 206.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 207.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 58,
+     "total": 97972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 208.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 59,
+     "total": 104672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 209.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 60,
+     "total": 111672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "CRIT_CHANCE": 0.5
+     },
+     "perk": 210.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "FORAGING": {
+   "id": "FORAGING",
+   "name": "Foraging",
+   "description": [
+    "Chop trees and gather plants to",
+    "earn Foraging XP!"
+   ],
+   "maxLevel": 57,
+   "defaultCap": 50,
+   "capHint": [
+    "&7Raise it by reaching high log",
+    "&7collection milestones."
+   ],
+   "perkName": "Timberjack",
+   "perkStat": "FORAGING_FORTUNE",
+   "perkText": "&fGrants {v} &6☘ Foraging Fortune&f, raising your odds of extra logs.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "access",
+       "id": "park",
+       "name": "The Park"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 8.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 12.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 16.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 24.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 28.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 32.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 36.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 44.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 48.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 52.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 1.0
+     },
+     "perk": 56.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 60.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 64.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 68.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 72.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 76.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 80.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 84.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 88.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 92.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 96.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 100.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 104.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 108.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 112.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 116.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 120.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 124.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 128.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 132.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 136.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 140.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 144.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 148.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 152.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 156.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 160.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 164.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 168.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 172.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 176.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 180.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 184.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 188.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 192.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 196.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 200.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 204.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 208.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 212.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 216.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 220.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 224.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "STRENGTH": 2.0
+     },
+     "perk": 228.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "FISHING": {
+   "id": "FISHING",
+   "name": "Fishing",
+   "description": [
+    "Cast a line at any pond or sea",
+    "to earn Fishing XP!"
+   ],
+   "maxLevel": 50,
+   "defaultCap": 50,
+   "capHint": [],
+   "perkName": "Beachcomber",
+   "perkStat": "TREASURE_CHANCE",
+   "perkText": "&fGrants {v} &6⛃ Treasure Chance&f.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.1,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "squid"
+      },
+      {
+       "type": "sea_creature",
+       "id": "sea_walker"
+      },
+      {
+       "type": "sea_creature",
+       "id": "frozen_steve"
+      },
+      {
+       "type": "sea_creature",
+       "id": "frosty"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.2,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.3,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.4,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.5,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "dumpster_diver"
+      },
+      {
+       "type": "sea_creature",
+       "id": "frog_man"
+      },
+      {
+       "type": "sea_creature",
+       "id": "trash_gobbler"
+      },
+      {
+       "type": "sea_creature",
+       "id": "bogged"
+      },
+      {
+       "type": "sea_creature",
+       "id": "nurse_shark"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.6,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "jumpin_jack"
+      },
+      {
+       "type": "sea_creature",
+       "id": "medium_mithril_grubber"
+      },
+      {
+       "type": "sea_creature",
+       "id": "mithril_grubber"
+      },
+      {
+       "type": "sea_creature",
+       "id": "bloated_mithril_grubber"
+      },
+      {
+       "type": "sea_creature",
+       "id": "large_mithril_grubber"
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.7,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "wetwing"
+      },
+      {
+       "type": "sea_creature",
+       "id": "inkling"
+      },
+      {
+       "type": "sea_creature",
+       "id": "sea_witch"
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.8,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 0.9,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "scarecrow"
+      },
+      {
+       "type": "sea_creature",
+       "id": "tadgang"
+      },
+      {
+       "type": "sea_creature",
+       "id": "sea_archer"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 1.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "puddle_jumper"
+      },
+      {
+       "type": "sea_creature",
+       "id": "banshee"
+      },
+      {
+       "type": "sea_creature",
+       "id": "atoll_croaker"
+      },
+      {
+       "type": "sea_creature",
+       "id": "oasis_sheep"
+      },
+      {
+       "type": "sea_creature",
+       "id": "gorf"
+      },
+      {
+       "type": "sea_creature",
+       "id": "blue_shark"
+      },
+      {
+       "type": "sea_creature",
+       "id": "snapping_turtle"
+      },
+      {
+       "type": "sea_creature",
+       "id": "oasis_rabbit"
+      },
+      {
+       "type": "sea_creature",
+       "id": "lotus_guardian"
+      },
+      {
+       "type": "sea_creature",
+       "id": "drowned_captain"
+      },
+      {
+       "type": "sea_creature",
+       "id": "frog_prince"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 1.1,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "rider_of_the_deep"
+      }
+     ]
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 1.2,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "ent"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 1.3,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "catfish"
+      },
+      {
+       "type": "sea_creature",
+       "id": "grinch"
+      }
+     ]
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 2.0
+     },
+     "perk": 1.4,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": "fried_chicken"
+      },
+      {
+       "type": "sea_creature",
+       "id": "carrot_king"
+      },
+      {
+       "type": "sea_creature",
+       "id": "nightmare"
+      }
+     ]
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 1.5,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 1.6,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 1.7,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 1.8,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 3.0
+     },
+     "perk": 1.9,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.1,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.2,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.3,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.4,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 4.0
+     },
+     "perk": 2.5,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 2.6,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 2.7,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 2.8,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 2.9,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.1,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.2,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.3,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.4,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.5,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.6,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      },
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.7,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.8,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 3.9,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.1,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.2,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.3,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.4,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.5,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.6,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.7,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "sea_creature",
+       "id": null
+      }
+     ]
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.8,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 4.9,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 5.0
+     },
+     "perk": 5.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "ENCHANTING": {
+   "id": "ENCHANTING",
+   "name": "Enchanting",
+   "description": [
+    "Enchant your gear to earn",
+    "Enchanting XP!"
+   ],
+   "maxLevel": 60,
+   "defaultCap": 60,
+   "capHint": [],
+   "perkName": "Arcanist",
+   "perkStat": null,
+   "perkText": "&fGain {v}% &fmore experience orbs from every source.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 5.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "scavenger",
+       "name": "Scavenger"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 10.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "infinite_quiver",
+       "name": "Infinite Quiver"
+      },
+      {
+       "type": "enchant",
+       "id": "sunder",
+       "name": "Sunder"
+      },
+      {
+       "type": "enchant",
+       "id": "harvesting",
+       "name": "Harvesting"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 15.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "luck",
+       "name": "Luck"
+      },
+      {
+       "type": "enchant",
+       "id": "cubism",
+       "name": "Cubism"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "cleave",
+       "name": "Cleave"
+      },
+      {
+       "type": "enchant",
+       "id": "angler",
+       "name": "Angler"
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 25.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "life_steal",
+       "name": "Life Steal"
+      },
+      {
+       "type": "enchant",
+       "id": "scuba",
+       "name": "Scuba"
+      },
+      {
+       "type": "enchant",
+       "id": "feast",
+       "name": "Feast"
+      },
+      {
+       "type": "enchant",
+       "id": "woodsplitter",
+       "name": "Woodsplitter"
+      },
+      {
+       "type": "enchant",
+       "id": "growth",
+       "name": "Growth"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 30.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "snipe",
+       "name": "Snipe"
+      },
+      {
+       "type": "enchant",
+       "id": "rainbow",
+       "name": "Rainbow"
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 35.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "replenish",
+       "name": "Replenish"
+      },
+      {
+       "type": "enchant",
+       "id": "sugar_rush",
+       "name": "Sugar Rush"
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "giant_killer",
+       "name": "Giant Killer"
+      },
+      {
+       "type": "enchant",
+       "id": "piscary",
+       "name": "Piscary"
+      },
+      {
+       "type": "enchant",
+       "id": "dragon_tracer",
+       "name": "Dragon Tracer"
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 45.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "blessing",
+       "name": "Blessing"
+      },
+      {
+       "type": "enchant",
+       "id": "pyroclasm",
+       "name": "Pyroclasm"
+      },
+      {
+       "type": "enchant",
+       "id": "critical",
+       "name": "Critical"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 50.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "pesterminator",
+       "name": "Pest Bane"
+      },
+      {
+       "type": "enchant",
+       "id": "first_strike",
+       "name": "First Strike"
+      },
+      {
+       "type": "enchant",
+       "id": "rejuvenate",
+       "name": "Rejuvenate"
+      },
+      {
+       "type": "recipe",
+       "id": "EXPERIMENTATION_TABLE",
+       "name": "Experimentation Table"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 55.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "ender_slayer",
+       "name": "Ender Slayer"
+      },
+      {
+       "type": "enchant",
+       "id": "chance",
+       "name": "Chance"
+      }
+     ]
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 60.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "dedication",
+       "name": "Dedication"
+      },
+      {
+       "type": "enchant",
+       "id": "impaling",
+       "name": "Impaling"
+      },
+      {
+       "type": "enchant",
+       "id": "forest_pledge",
+       "name": "Forest Pledge"
+      },
+      {
+       "type": "enchant",
+       "id": "petalfall",
+       "name": "Petalfall"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 65.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "tidal",
+       "name": "Tidal"
+      },
+      {
+       "type": "enchant",
+       "id": "magnet",
+       "name": "Magnet"
+      }
+     ]
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 70.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "lethality",
+       "name": "Lethality"
+      },
+      {
+       "type": "enchant",
+       "id": "frail",
+       "name": "Frail"
+      },
+      {
+       "type": "enchant",
+       "id": "execute",
+       "name": "Execute"
+      },
+      {
+       "type": "enchant",
+       "id": "missile",
+       "name": "Missile"
+      },
+      {
+       "type": "enchant",
+       "id": "thunderlord",
+       "name": "Thunderlord"
+      },
+      {
+       "type": "enchant",
+       "id": "first_impression",
+       "name": "First Impression"
+      }
+     ]
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 75.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "drain",
+       "name": "Drain"
+      },
+      {
+       "type": "enchant",
+       "id": "caster",
+       "name": "Caster"
+      },
+      {
+       "type": "enchant",
+       "id": "flowstate",
+       "name": "Flowstate"
+      },
+      {
+       "type": "enchant",
+       "id": "true_protection",
+       "name": "True Protection"
+      },
+      {
+       "type": "enchant",
+       "id": "vampirism",
+       "name": "Vampirism"
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 80.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "gravity",
+       "name": "Gravity"
+      },
+      {
+       "type": "enchant",
+       "id": "bank",
+       "name": "Bank"
+      }
+     ]
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 85.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "piercing",
+       "name": "Piercing"
+      },
+      {
+       "type": "enchant",
+       "id": "venomous",
+       "name": "Venomous"
+      }
+     ]
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 90.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "spiked_hook",
+       "name": "Spiked Hook"
+      },
+      {
+       "type": "enchant",
+       "id": "ultimate_jerry",
+       "name": "Ultimate Jester"
+      }
+     ]
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 95.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "triple_strike",
+       "name": "Triple-Strike"
+      }
+     ]
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 100.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "refrigerate",
+       "name": "Refrigerate"
+      },
+      {
+       "type": "enchant",
+       "id": "thunderbolt",
+       "name": "Thunderbolt"
+      },
+      {
+       "type": "enchant",
+       "id": "mana_steal",
+       "name": "Mana Steal"
+      },
+      {
+       "type": "enchant",
+       "id": "ultimate_wise",
+       "name": "Ultimate Wise"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 105.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "big_brain",
+       "name": "Big Brain"
+      },
+      {
+       "type": "enchant",
+       "id": "smarty_pants",
+       "name": "Smarty Pants"
+      },
+      {
+       "type": "enchant",
+       "id": "small_brain",
+       "name": "Small Brain"
+      }
+     ]
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 110.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "vampiric_vitality",
+       "name": "Vampiric Vitality"
+      },
+      {
+       "type": "enchant",
+       "id": "hardened_vitality",
+       "name": "Hardened Vitality"
+      },
+      {
+       "type": "enchant",
+       "id": "prismatic",
+       "name": "Prismatic"
+      },
+      {
+       "type": "enchant",
+       "id": "counter_strike",
+       "name": "Counter-Strike"
+      },
+      {
+       "type": "enchant",
+       "id": "vivacious_vitality",
+       "name": "Vivacious Vitality"
+      },
+      {
+       "type": "enchant",
+       "id": "strong_vitality",
+       "name": "Strong Vitality"
+      },
+      {
+       "type": "enchant",
+       "id": "lapidary",
+       "name": "Lapidary"
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 115.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "quick_bite",
+       "name": "Quick Bite"
+      },
+      {
+       "type": "enchant",
+       "id": "respite",
+       "name": "Respite"
+      },
+      {
+       "type": "enchant",
+       "id": "smoldering",
+       "name": "Smoldering"
+      }
+     ]
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 120.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "bobbin_time",
+       "name": "Bobbin' Time"
+      },
+      {
+       "type": "enchant",
+       "id": "reflection",
+       "name": "Reflection"
+      },
+      {
+       "type": "enchant",
+       "id": "green_thumb",
+       "name": "Green Thumb"
+      },
+      {
+       "type": "enchant",
+       "id": "combo",
+       "name": "Combo"
+      }
+     ]
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 125.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "corruption",
+       "name": "Corruption"
+      },
+      {
+       "type": "enchant",
+       "id": "charm",
+       "name": "Charm"
+      },
+      {
+       "type": "enchant",
+       "id": "the_one",
+       "name": "The One"
+      },
+      {
+       "type": "enchant",
+       "id": "prosecute",
+       "name": "Prosecute"
+      }
+     ]
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 130.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "vicious",
+       "name": "Vicious"
+      }
+     ]
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 135.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "paleontologist",
+       "name": "Paleontologist"
+      },
+      {
+       "type": "enchant",
+       "id": "sunset",
+       "name": "Sunset"
+      },
+      {
+       "type": "enchant",
+       "id": "wisdom",
+       "name": "Wisdom"
+      }
+     ]
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 140.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "habanero_tactics",
+       "name": "Habanero Tactics"
+      },
+      {
+       "type": "enchant",
+       "id": "titan_killer",
+       "name": "Titan Killer"
+      },
+      {
+       "type": "enchant",
+       "id": "duplex",
+       "name": "Duplex"
+      }
+     ]
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 145.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "no_pain_no_gain",
+       "name": "No Pain No Gain"
+      }
+     ]
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 150.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "ice_cold",
+       "name": "Ice Cold"
+      },
+      {
+       "type": "enchant",
+       "id": "flash",
+       "name": "Flash"
+      },
+      {
+       "type": "enchant",
+       "id": "last_stand",
+       "name": "Last Stand"
+      }
+     ]
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 155.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "chimera",
+       "name": "Chimera"
+      }
+     ]
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 160.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "rend",
+       "name": "Rend"
+      },
+      {
+       "type": "enchant",
+       "id": "crop_fever",
+       "name": "Crop Fever"
+      }
+     ]
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 165.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "overload",
+       "name": "Overload"
+      }
+     ]
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 170.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "legion",
+       "name": "Legion"
+      }
+     ]
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 175.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "swarm",
+       "name": "Swarm"
+      }
+     ]
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 180.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "soul_eater",
+       "name": "Soul Eater"
+      }
+     ]
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 185.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "fatal_tempo",
+       "name": "Fatal Tempo"
+      },
+      {
+       "type": "enchant",
+       "id": "inferno",
+       "name": "Inferno"
+      }
+     ]
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 190.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "enchant",
+       "id": "one_for_all",
+       "name": "One For All"
+      }
+     ]
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 195.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 200.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 205.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 210.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 215.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 220.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 225.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 230.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 235.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 240.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 245.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 250.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 255.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 260.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 265.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 270.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 275.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 280.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 285.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 58,
+     "total": 97972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 290.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 59,
+     "total": 104672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 295.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 60,
+     "total": 111672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "ABILITY_DAMAGE": 0.5,
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 300.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "ALCHEMY": {
+   "id": "ALCHEMY",
+   "name": "Alchemy",
+   "description": [
+    "Brew potions to earn Alchemy",
+    "XP!"
+   ],
+   "maxLevel": 50,
+   "defaultCap": 50,
+   "capHint": [],
+   "perkName": "Distiller",
+   "perkStat": null,
+   "perkText": "&fPotions you brew last {v}% &flonger.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 1.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 2.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 3.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 4.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 5.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 6.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 7.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 8.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 9.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 10.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 11.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 12.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 13.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 1.0
+     },
+     "perk": 14.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 15.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 16.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 17.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 18.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 19.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 20.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 21.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 22.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 23.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 24.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 25.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 26.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 27.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 28.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 29.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 30.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 31.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 32.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 33.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 34.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 35.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 36.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 37.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 38.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 39.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 40.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 41.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 42.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 43.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 44.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 45.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 46.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 47.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 48.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 49.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "INTELLIGENCE": 2.0
+     },
+     "perk": 50.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "CARPENTRY": {
+   "id": "CARPENTRY",
+   "name": "Carpentry",
+   "description": [
+    "Craft items to earn Carpentry",
+    "XP!"
+   ],
+   "maxLevel": 50,
+   "defaultCap": 50,
+   "capHint": [],
+   "perkName": null,
+   "perkStat": null,
+   "perkText": null,
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "MINION_CHAIR",
+       "name": "Minion Chair"
+      },
+      {
+       "type": "furniture",
+       "id": "SKYBLOCK_CHAIR",
+       "name": "Dark Oak Chair"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "FANCY_FLOWER_POT",
+       "name": "Flower Pot"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "SKYBLOCK_BENCH",
+       "name": "Dark Oak Bench"
+      },
+      {
+       "type": "text",
+       "name": "&7Quick Crafting"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "SKYBLOCK_TABLE",
+       "name": "Dark Oak Table"
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "ARMOR_SHOWCASE",
+       "name": "Armor Stand"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "SCARECROW",
+       "name": "Scarecrow"
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "DESK",
+       "name": "Desk"
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "BOOKCASE",
+       "name": "Bookcase"
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "SMALL_SHELVES",
+       "name": "Small Shelves"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "WEAPON_RACK",
+       "name": "Weapon Rack"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "FIRE_PIT",
+       "name": "Fire Pit"
+      }
+     ]
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "TIKI_TORCH",
+       "name": "Tiki Torch"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "FURNACE_PLUS",
+       "name": "Furnace+"
+      },
+      {
+       "type": "furniture",
+       "id": "FIREPLACE",
+       "name": "Fireplace"
+      }
+     ]
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "CHEST_SHELVES",
+       "name": "Chest Storage"
+      }
+     ]
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "BEST_WEAPON_RACK",
+       "name": "Weapon Rack+"
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "LARGE_BED",
+       "name": "Large Bed"
+      },
+      {
+       "type": "furniture",
+       "id": "HAY_BED",
+       "name": "Hay Bed"
+      }
+     ]
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "FOOD_TROUGH",
+       "name": "Food Trough"
+      },
+      {
+       "type": "furniture",
+       "id": "WATER_TROUGH",
+       "name": "Water Trough"
+      }
+     ]
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "MEDIUM_SHELVES",
+       "name": "Medium Shelves"
+      }
+     ]
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "CRAFTING_PLUS",
+       "name": "Crafting Table+"
+      }
+     ]
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "REDSTONE_CHEST",
+       "name": "Redstone Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "EMERALD_CHEST",
+       "name": "Emerald Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "ENDER_PLUS",
+       "name": "Ender Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "ENDSTONE_CHEST",
+       "name": "End Stone Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "GOLD_CHEST",
+       "name": "Gold Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "WOOD_CHEST",
+       "name": "Wood Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "DIAMOND_CHEST",
+       "name": "Diamond Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "LAPIS_CHEST",
+       "name": "Lapis Chest+"
+      },
+      {
+       "type": "furniture",
+       "id": "IRON_CHEST",
+       "name": "Iron Chest+"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "BREWING_PLUS",
+       "name": "Brewing+"
+      }
+     ]
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "ENCHANTING_PLUS",
+       "name": "Enchanting Table+"
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "BLACKSMITH_PLUS",
+       "name": "Blacksmith+"
+      }
+     ]
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "SKULL_CHEST",
+       "name": "Skull Chest++"
+      }
+     ]
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "furniture",
+       "id": "GRANDFATHER_CLOCK",
+       "name": "Grandfather Clock"
+      }
+     ]
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HEALTH": 1.0
+     },
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "TAMING": {
+   "id": "TAMING",
+   "name": "Taming",
+   "description": [
+    "Level up your pets to earn",
+    "Taming XP!"
+   ],
+   "maxLevel": 60,
+   "defaultCap": 50,
+   "capHint": [
+    "&7Raise it by handing rare pets to",
+    "&7the pet collector."
+   ],
+   "perkName": "Beastkeeper",
+   "perkStat": null,
+   "perkText": "&fYour pets gain {v}% &fmore pet XP.",
+   "perk2Text": "&fPets you are not using share {v}% &fof pet XP.",
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 1.0,
+     "perk2": 0.2,
+     "unlocks": []
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 2.0,
+     "perk2": 0.4,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 3.0,
+     "perk2": 0.6,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 4.0,
+     "perk2": 0.8,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 5.0,
+     "perk2": 1.0,
+     "unlocks": []
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 6.0,
+     "perk2": 1.2,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 7.0,
+     "perk2": 1.4,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 8.0,
+     "perk2": 1.6,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 9.0,
+     "perk2": 1.8,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 10.0,
+     "perk2": 2.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Free training sessions at the Pet Trainer"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 11.0,
+     "perk2": 2.2,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 12.0,
+     "perk2": 2.4,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 13.0,
+     "perk2": 2.6,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 14.0,
+     "perk2": 2.8,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 15.0,
+     "perk2": 3.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 16.0,
+     "perk2": 3.2,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 17.0,
+     "perk2": 3.4,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 18.0,
+     "perk2": 3.6,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 19.0,
+     "perk2": 3.8,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 20.0,
+     "perk2": 4.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Light training sessions at the Pet Trainer"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 21.0,
+     "perk2": 4.2,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 22.0,
+     "perk2": 4.4,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 23.0,
+     "perk2": 4.6,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 24.0,
+     "perk2": 4.8,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 25.0,
+     "perk2": 5.0,
+     "unlocks": []
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 26.0,
+     "perk2": 5.2,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 27.0,
+     "perk2": 5.4,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 28.0,
+     "perk2": 5.6,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 29.0,
+     "perk2": 5.8,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 30.0,
+     "perk2": 6.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Moderate training sessions at the Pet Trainer"
+      }
+     ]
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 31.0,
+     "perk2": 6.2,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 32.0,
+     "perk2": 6.4,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 33.0,
+     "perk2": 6.6,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 34.0,
+     "perk2": 6.8,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 35.0,
+     "perk2": 7.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 36.0,
+     "perk2": 7.2,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 37.0,
+     "perk2": 7.4,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 38.0,
+     "perk2": 7.6,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 39.0,
+     "perk2": 7.8,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 40.0,
+     "perk2": 8.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Expert training sessions at the Pet Trainer"
+      }
+     ]
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 41.0,
+     "perk2": 8.2,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 42.0,
+     "perk2": 8.4,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 43.0,
+     "perk2": 8.6,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 44.0,
+     "perk2": 8.8,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 45.0,
+     "perk2": 9.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 46.0,
+     "perk2": 9.2,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 47.0,
+     "perk2": 9.4,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 48.0,
+     "perk2": 9.6,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 49.0,
+     "perk2": 9.8,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 50.0,
+     "perk2": 10.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Ultra training sessions at the Pet Trainer"
+      }
+     ]
+    },
+    {
+     "level": 51,
+     "total": 59472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 51.0,
+     "perk2": 10.2,
+     "unlocks": []
+    },
+    {
+     "level": 52,
+     "total": 64072425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 52.0,
+     "perk2": 10.4,
+     "unlocks": []
+    },
+    {
+     "level": 53,
+     "total": 68972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 53.0,
+     "perk2": 10.6,
+     "unlocks": []
+    },
+    {
+     "level": 54,
+     "total": 74172425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 54.0,
+     "perk2": 10.8,
+     "unlocks": []
+    },
+    {
+     "level": 55,
+     "total": 79672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 55.0,
+     "perk2": 11.0,
+     "unlocks": []
+    },
+    {
+     "level": 56,
+     "total": 85472425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 56.0,
+     "perk2": 11.2,
+     "unlocks": []
+    },
+    {
+     "level": 57,
+     "total": 91572425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 57.0,
+     "perk2": 11.4,
+     "unlocks": []
+    },
+    {
+     "level": 58,
+     "total": 97972425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 58.0,
+     "perk2": 11.6,
+     "unlocks": []
+    },
+    {
+     "level": 59,
+     "total": 104672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 59.0,
+     "perk2": 11.8,
+     "unlocks": []
+    },
+    {
+     "level": 60,
+     "total": 111672425.0,
+     "coins": 1000000.0,
+     "sbxp": 30,
+     "stats": {
+      "PET_LUCK": 1.0
+     },
+     "perk": 60.0,
+     "perk2": 12.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Turbo training sessions at the Pet Trainer"
+      }
+     ]
+    }
+   ]
+  },
+  "RUNECRAFTING": {
+   "id": "RUNECRAFTING",
+   "name": "Runecrafting",
+   "description": [
+    "Slay runic mobs and fuse runes",
+    "to earn Runecrafting XP!"
+   ],
+   "maxLevel": 25,
+   "defaultCap": 25,
+   "capHint": [],
+   "perkName": null,
+   "perkStat": null,
+   "perkText": null,
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 1 Runes"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 150.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 2 Runes"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "total": 275.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 3 Runes"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "total": 435.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 4 Runes"
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "total": 635.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 5 Runes"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 885.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 6 Runes"
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "total": 1200.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 7 Runes"
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "total": 1600.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 8 Runes"
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "total": 2100.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 9 Runes"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 2725.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 10 Runes"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 3510.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 11 Runes"
+      }
+     ]
+    },
+    {
+     "level": 12,
+     "total": 4510.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 12 Runes"
+      }
+     ]
+    },
+    {
+     "level": 13,
+     "total": 5760.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 13 Runes"
+      }
+     ]
+    },
+    {
+     "level": 14,
+     "total": 7325.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 14 Runes"
+      }
+     ]
+    },
+    {
+     "level": 15,
+     "total": 9325.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 15 Runes"
+      }
+     ]
+    },
+    {
+     "level": 16,
+     "total": 11825.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 16 Runes"
+      }
+     ]
+    },
+    {
+     "level": 17,
+     "total": 14950.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 17 Runes"
+      }
+     ]
+    },
+    {
+     "level": 18,
+     "total": 18950.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 18 Runes"
+      }
+     ]
+    },
+    {
+     "level": 19,
+     "total": 23950.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 19 Runes"
+      }
+     ]
+    },
+    {
+     "level": 20,
+     "total": 30200.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 20 Runes"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 38050.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 21 Runes"
+      }
+     ]
+    },
+    {
+     "level": 22,
+     "total": 47850.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 22 Runes"
+      }
+     ]
+    },
+    {
+     "level": 23,
+     "total": 60100.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 23 Runes"
+      }
+     ]
+    },
+    {
+     "level": 24,
+     "total": 75400.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 24 Runes"
+      }
+     ]
+    },
+    {
+     "level": 25,
+     "total": 94450.0,
+     "coins": 0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Use Level 25 Runes"
+      }
+     ]
+    }
+   ]
+  },
+  "SOCIAL": {
+   "id": "SOCIAL",
+   "name": "Social",
+   "description": [
+    "Host guests on your island and",
+    "visit others to earn Social XP!"
+   ],
+   "maxLevel": 25,
+   "defaultCap": 25,
+   "capHint": [],
+   "perkName": null,
+   "perkStat": null,
+   "perkText": null,
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Parkour Blocks from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "total": 150.0,
+     "coins": 250.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Social Display from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "total": 300.0,
+     "coins": 500.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Egg Hunt from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "total": 550.0,
+     "coins": 750.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Social commands"
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "total": 1050.0,
+     "coins": 1000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Island NPCs from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "total": 1800.0,
+     "coins": 2000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Tic Tac Toe from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "total": 2800.0,
+     "coins": 3000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Four in a Row from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "total": 4050.0,
+     "coins": 4000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Rock Paper Shears from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "total": 5550.0,
+     "coins": 5000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Island ranks"
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "total": 7550.0,
+     "coins": 7500.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Buy Showcase Block from the Island Decorator"
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "total": 10050.0,
+     "coins": 10000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 13050.0,
+     "coins": 15000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 16800.0,
+     "coins": 20000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 21300.0,
+     "coins": 25000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 27300.0,
+     "coins": 30000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 35300.0,
+     "coins": 40000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 45300.0,
+     "coins": 50000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 57800.0,
+     "coins": 65000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 72800.0,
+     "coins": 80000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 92800.0,
+     "coins": 100000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": [
+      {
+       "type": "text",
+       "name": "&7Island naming"
+      }
+     ]
+    },
+    {
+     "level": 21,
+     "total": 117800.0,
+     "coins": 125000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 147800.0,
+     "coins": 150000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 182800.0,
+     "coins": 175000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 222800.0,
+     "coins": 200000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 272800.0,
+     "coins": 225000.0,
+     "sbxp": 0,
+     "stats": {},
+     "perk": 0.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  },
+  "HUNTING": {
+   "id": "HUNTING",
+   "name": "Hunting",
+   "description": [
+    "Track and trap creatures for",
+    "their shards to earn Hunting XP!"
+   ],
+   "maxLevel": 50,
+   "defaultCap": 50,
+   "capHint": [],
+   "perkName": "Snarewright",
+   "perkStat": null,
+   "perkText": "&fGrants {v}% &dCharm Chance&f, your odds of an extra shard from a catch.",
+   "perk2Text": null,
+   "levels": [
+    {
+     "level": 1,
+     "total": 50.0,
+     "coins": 100.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.04,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 2,
+     "total": 175.0,
+     "coins": 250.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.08,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 3,
+     "total": 375.0,
+     "coins": 500.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.12,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 4,
+     "total": 675.0,
+     "coins": 750.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.16,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 5,
+     "total": 1175.0,
+     "coins": 1000.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.2,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 6,
+     "total": 1925.0,
+     "coins": 2000.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.24,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 7,
+     "total": 2925.0,
+     "coins": 3000.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.28,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 8,
+     "total": 4425.0,
+     "coins": 4000.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.32,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 9,
+     "total": 6425.0,
+     "coins": 5000.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.36,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 10,
+     "total": 9925.0,
+     "coins": 7500.0,
+     "sbxp": 5,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.4,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 11,
+     "total": 14925.0,
+     "coins": 10000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.44,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 12,
+     "total": 22425.0,
+     "coins": 15000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.48,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 13,
+     "total": 32425.0,
+     "coins": 20000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.52,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 14,
+     "total": 47425.0,
+     "coins": 25000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.56,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 15,
+     "total": 67425.0,
+     "coins": 30000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.6,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 16,
+     "total": 97425.0,
+     "coins": 40000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.64,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 17,
+     "total": 147425.0,
+     "coins": 50000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.68,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 18,
+     "total": 222425.0,
+     "coins": 65000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.72,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 19,
+     "total": 322425.0,
+     "coins": 80000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.76,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 20,
+     "total": 522425.0,
+     "coins": 100000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.8,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 21,
+     "total": 822425.0,
+     "coins": 125000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.84,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 22,
+     "total": 1222425.0,
+     "coins": 150000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.88,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 23,
+     "total": 1722425.0,
+     "coins": 175000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.92,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 24,
+     "total": 2322425.0,
+     "coins": 200000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 0.96,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 25,
+     "total": 3022425.0,
+     "coins": 225000.0,
+     "sbxp": 10,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.0,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 26,
+     "total": 3822425.0,
+     "coins": 250000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.04,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 27,
+     "total": 4722425.0,
+     "coins": 275000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.08,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 28,
+     "total": 5722425.0,
+     "coins": 300000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.12,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 29,
+     "total": 6822425.0,
+     "coins": 325000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.16,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 30,
+     "total": 8022425.0,
+     "coins": 350000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.2,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 31,
+     "total": 9322425.0,
+     "coins": 375000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.24,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 32,
+     "total": 10722425.0,
+     "coins": 400000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.28,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 33,
+     "total": 12222425.0,
+     "coins": 425000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.32,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 34,
+     "total": 13822425.0,
+     "coins": 450000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.36,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 35,
+     "total": 15522425.0,
+     "coins": 475000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.4,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 36,
+     "total": 17322425.0,
+     "coins": 500000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.44,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 37,
+     "total": 19222425.0,
+     "coins": 550000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.48,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 38,
+     "total": 21222425.0,
+     "coins": 600000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.52,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 39,
+     "total": 23322425.0,
+     "coins": 650000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.56,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 40,
+     "total": 25522425.0,
+     "coins": 700000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.6,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 41,
+     "total": 27822425.0,
+     "coins": 750000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.64,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 42,
+     "total": 30222425.0,
+     "coins": 800000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.68,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 43,
+     "total": 32722425.0,
+     "coins": 850000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.72,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 44,
+     "total": 35322425.0,
+     "coins": 900000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.76,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 45,
+     "total": 38072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.8,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 46,
+     "total": 40972425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.84,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 47,
+     "total": 44072425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.88,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 48,
+     "total": 47472425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.92,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 49,
+     "total": 51172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 1.96,
+     "perk2": 0.0,
+     "unlocks": []
+    },
+    {
+     "level": 50,
+     "total": 55172425.0,
+     "coins": 1000000.0,
+     "sbxp": 20,
+     "stats": {
+      "HUNTING_FORTUNE": 1.0
+     },
+     "perk": 2.0,
+     "perk2": 0.0,
+     "unlocks": []
+    }
+   ]
+  }
+ }
+}

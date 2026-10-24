@@ -1,0 +1,51 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+base {
+    archivesName = 'showcam'
+}
+
+// The MC version goes into the jar name so a jar for one version is never
+// mistaken for another (same convention as TestPilot).
+version = "${project.version}+mc${project.minecraft_version}"
+
+repositories {
+    mavenCentral()
+}
+
+loom {
+    // Client-only mod, one source set: every class here is client code.
+    runs {
+        client {
+            runDir = "run/client"
+            programArgs("--username", "ShowCamDev")
+        }
+    }
+}
+
+dependencies {
+    // No `mappings` line. Minecraft 26.x ships deobfuscated - see gradle.properties.
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(project.java_version as int)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = project.java_version as int
+    it.options.encoding = 'UTF-8'
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version, "minecraft_version": project.minecraft_version
+    }
+}

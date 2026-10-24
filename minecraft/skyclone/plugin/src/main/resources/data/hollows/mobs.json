@@ -1,0 +1,1548 @@
+[
+ {
+  "id": "ch_automaton",
+  "name": "Automaton",
+  "entity": "IRON_GOLEM",
+  "level": 100,
+  "health": 15000,
+  "damage": 1000,
+  "defense": 0,
+  "speed": 0.9,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_SAPPHIRE_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "SYNTHETIC_HEART",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "CONTROL_SWITCH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "SUPERLITE_MOTOR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ROBOTRON_REFLECTOR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "FTX_3070",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ELECTRON_TRANSMITTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "ch_automaton",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "damage from research 03 (1,000)"
+  }
+ },
+ {
+  "id": "ch_automaton_elite",
+  "name": "Automaton Sentinel",
+  "entity": "IRON_GOLEM",
+  "level": 150,
+  "health": 30000,
+  "damage": 1500,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_SAPPHIRE_GEM",
+    "min": 10,
+    "max": 18,
+    "chance": 1.0
+   },
+   {
+    "item": "SYNTHETIC_HEART",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "CONTROL_SWITCH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "SUPERLITE_MOTOR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ROBOTRON_REFLECTOR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "FTX_3070",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ELECTRON_TRANSMITTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "family": "ch_automaton",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "health/damage (NEU lists only Lv150 drops)"
+  }
+ },
+ {
+  "id": "ch_sludge",
+  "name": "Sludge",
+  "entity": "SLIME",
+  "level": 5,
+  "health": 5000,
+  "damage": 200,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 1,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_sludge",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {}
+ },
+ {
+  "id": "ch_sludge_10",
+  "name": "Sludge",
+  "entity": "SLIME",
+  "level": 10,
+  "health": 10000,
+  "damage": 400,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 2,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   }
+  ],
+  "family": "ch_sludge",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "Lv10/Lv100 sizes from research 03 (5k/10k/25k)"
+  }
+ },
+ {
+  "id": "ch_sludge_100",
+  "name": "Sludge",
+  "entity": "SLIME",
+  "level": 100,
+  "health": 25000,
+  "damage": 800,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 8,
+  "coins": 5,
+  "drops": [
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_sludge",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {}
+ },
+ {
+  "id": "ch_yog",
+  "name": "Cinderling",
+  "entity": "MAGMA_CUBE",
+  "level": 100,
+  "health": 35000,
+  "damage": 1000,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 9,
+  "coins": 4,
+  "drops": [
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "YOGGIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "ARMOR_OF_YOG_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "ARMOR_OF_YOG_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "ARMOR_OF_YOG_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "ARMOR_OF_YOG_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "family": "ch_yog",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "hollows_ignite"
+  ],
+  "extra": {
+   "tune": "armor drop 0.25% each (research: 'rare')"
+  }
+ },
+ {
+  "id": "ch_thyst",
+  "name": "Amethyst Leech",
+  "entity": "ENDERMITE",
+  "level": 20,
+  "health": 5000,
+  "damage": 300,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_AMETHYST_GEM",
+    "min": 4,
+    "max": 7,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_thyst",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {}
+ },
+ {
+  "id": "ch_goblin",
+  "name": "Goblin",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 1500,
+  "damage": 250,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 5,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive",
+   "baby"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "goblin health 1.5k-5k (research 03), damage"
+  },
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_knifethrower",
+  "name": "Knifethrower",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 2000,
+  "damage": 350,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 5,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive",
+   "baby"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_firethrower",
+  "name": "Goblin Fireslinger",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 2500,
+  "damage": 300,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 5,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive",
+   "baby"
+  ],
+  "behaviours": [
+   "hollows_ignite"
+  ],
+  "extra": {},
+  "equipment": {
+   "HAND": "BLAZE_ROD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_flamethrower",
+  "name": "Goblin Flamethrower",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 25000,
+  "damage": 900,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "hollows_ignite"
+  ],
+  "extra": {},
+  "equipment": {
+   "HAND": "BLAZE_ROD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_bomber",
+  "name": "Goblin Bomber",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 25000,
+  "damage": 1100,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 5,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SULPHUR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HAND": "TNT"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_cutthroat",
+  "name": "Goblin Cutthroat",
+  "entity": "ZOMBIE",
+  "level": 200,
+  "health": 50000,
+  "damage": 1800,
+  "defense": 0,
+  "speed": 1.2,
+  "combatXp": 5,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HAND": "GOLDEN_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_queen",
+  "name": "Goblin Queen",
+  "entity": "ZOMBIE",
+  "level": 200,
+  "health": 250000,
+  "damage": 1400,
+  "defense": 0,
+  "speed": 0.9,
+  "combatXp": 600,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.12
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.03
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ROUGH_AMBER_GEM",
+    "min": 40,
+    "max": 80,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "hollows_goblin_queen"
+  ],
+  "extra": {
+   "tune": "all numbers (NEU/research have none): Lv200, 250k HP, 1,400 dmg, drops"
+  },
+  "equipment": {
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "HAND": "GOLDEN_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_goblin_brood_guard",
+  "name": "Brood Guard",
+  "entity": "ZOMBIE",
+  "level": 50,
+  "health": 6000,
+  "damage": 450,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 12,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.015
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   },
+   {
+    "item": "ROUGH_AMBER_GEM",
+    "min": 2,
+    "max": 6,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_goblin",
+  "flags": [
+   "aggressive",
+   "baby"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "den goblin: Lv50 / 6k HP / 6% egg (10x the Holdout goblins) are ours"
+  },
+  "equipment": {
+   "HAND": "IRON_SWORD",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI4NDQ1ODc4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjYmI4MDBjZTBiZDllYTRjZWNjMGVjY2UzYzk1MjhjZGVmMzk2ZjNmZDc3OWEyODdkYzZkNWNiOTllMjM5NCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ch_treasurite_sebastian",
+  "name": "Executive Sable",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 18000,
+  "damage": 1000,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_RUBY_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "ch_treasurite",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "IRON_SWORD"
+  }
+ },
+ {
+  "id": "ch_treasurite_viper",
+  "name": "Executive Asp",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 18000,
+  "damage": 1000,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_RUBY_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "ch_treasurite",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "IRON_SWORD"
+  }
+ },
+ {
+  "id": "ch_treasurite_wendy",
+  "name": "Executive Wynn",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 18000,
+  "damage": 1000,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_RUBY_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "ch_treasurite",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "IRON_SWORD"
+  }
+ },
+ {
+  "id": "ch_treasurite_grunt",
+  "name": "Gang Grunt",
+  "entity": "ZOMBIE",
+  "level": 50,
+  "health": 153000,
+  "damage": 600,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 2,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "ROUGH_RUBY_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 8,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "ch_treasurite",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "damage; health is NEU's 153,000 (wave 5: was research 03's guessed 10k)"
+  },
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "HAND": "STONE_AXE"
+  }
+ },
+ {
+  "id": "ch_boss_corleone",
+  "name": "Gang Boss Vittore",
+  "entity": "ZOMBIE",
+  "level": 200,
+  "health": 1000000,
+  "damage": 2000,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 50,
+  "drops": [
+   {
+    "item": "ROUGH_RUBY_GEM",
+    "min": 15,
+    "max": 27,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 18,
+    "max": 41,
+    "chance": 1.0
+   },
+   {
+    "item": "CORLEONITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "family": "ch_treasurite_boss",
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "HAND": "GOLDEN_SWORD"
+  }
+ },
+ {
+  "id": "ch_key_guardian",
+  "name": "Key Guardian",
+  "entity": "WITHER_SKELETON",
+  "level": 100,
+  "health": 250000,
+  "damage": 100,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 6,
+  "coins": 8,
+  "drops": [
+   {
+    "item": "JUNGLE_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_key_guardian",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  }
+ },
+ {
+  "id": "ch_temple_guardian",
+  "name": "Tidecarver Door Guardian",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 50000,
+  "damage": 800,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 60,
+  "coins": 50,
+  "drops": [
+   {
+    "item": "ROUGH_AMETHYST_GEM",
+    "min": 20,
+    "max": 40,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_temple_guardian",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "NEU has no page for the door guardian"
+  },
+  "equipment": {
+   "HEAD": "KALHUIKI_MASK",
+   "HAND": "TRIDENT"
+  }
+ },
+ {
+  "id": "ch_magmaw",
+  "name": "Magmaw",
+  "entity": "MAGMA_CUBE",
+  "level": 100,
+  "health": 200,
+  "damage": 1500,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "ch_magmaw",
+  "flags": [
+   "aggressive",
+   "boss",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "hollows_magmaw"
+  ],
+  "extra": {
+   "tune": "damage; per-hit drops are rolled by the behaviour from data/hollows/magmaw.json"
+  }
+ },
+ {
+  "id": "ch_magmaw_blaze",
+  "name": "Emberdeep Blaze",
+  "entity": "BLAZE",
+  "level": 60,
+  "health": 8000,
+  "damage": 700,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 5,
+  "drops": [
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_magmaw_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "summon of Magmaw: all numbers"
+  }
+ },
+ {
+  "id": "ch_butterfly",
+  "name": "Butterfly",
+  "entity": "ALLAY",
+  "level": 100,
+  "health": 100,
+  "damage": 0,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ROUGH_JASPER_GEM",
+    "min": 10,
+    "max": 22,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_butterfly",
+  "flags": [
+   "flying",
+   "passive"
+  ],
+  "behaviours": [],
+  "extra": {}
+ },
+ {
+  "id": "ch_magmaw_bat",
+  "name": "Ember Bat",
+  "entity": "BAT",
+  "level": 60,
+  "health": 3000,
+  "damage": 400,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 3,
+  "drops": [
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_magmaw_bat",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [
+   "hollows_ember_bat"
+  ],
+  "extra": {
+   "tune": "summon of Magmaw: all numbers; damage is dealt by the behaviour as a burning touch"
+  }
+ },
+ {
+  "id": "ch_kalhuiki_tribesman",
+  "name": "Tidecarver Tribesman",
+  "entity": "ZOMBIE",
+  "level": 75,
+  "health": 12000,
+  "damage": 550,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 14,
+  "coins": 6,
+  "drops": [
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "ROUGH_AMETHYST_GEM",
+    "min": 2,
+    "max": 5,
+    "chance": 1.0
+   }
+  ],
+  "family": "ch_kalhuiki",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "all numbers (no NEU page): Lv75 / 12k HP / 550 dmg / drops"
+  },
+  "equipment": {
+   "HEAD": "KALHUIKI_MASK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "BAMBOO"
+  }
+ },
+ {
+  "id": "gt_glacite_walker",
+  "name": "Rimestone Walker",
+  "entity": "ZOMBIE",
+  "level": 60,
+  "health": 40000,
+  "damage": 1500,
+  "defense": 0,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 8,
+  "drops": [
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   }
+  ],
+  "family": "gt_glacite_walker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "tune": "Lv60 / 40,000 HP from research 03; damage"
+  },
+  "equipment": {
+   "HEAD": "PACKED_ICE",
+   "HAND": "IRON_PICKAXE"
+  }
+ },
+ {
+  "id": "gt_glacite_bowman",
+  "name": "Rimestone Bowman",
+  "entity": "STRAY",
+  "level": 165,
+  "health": 750000,
+  "damage": 6250,
+  "defense": 1000,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 95,
+  "drops": [
+   {
+    "item": "GLACITE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_CITRINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_AQUAMARINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_ONYX_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_PERIDOT_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "GLACITE_SHARD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "gt_glacite_guardian",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HAND": "BOW"
+  }
+ },
+ {
+  "id": "gt_glacite_mage",
+  "name": "Rimestone Mage",
+  "entity": "ZOMBIE",
+  "level": 165,
+  "health": 625000,
+  "damage": 6250,
+  "defense": 1000,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "GLACITE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_CITRINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_AQUAMARINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_ONYX_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_PERIDOT_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "GLACITE_SHARD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "gt_glacite_guardian",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "BLUE_ICE",
+   "HAND": "BLAZE_ROD"
+  }
+ },
+ {
+  "id": "gt_glacite_caver",
+  "name": "Rimestone Caver",
+  "entity": "ZOMBIE",
+  "level": 200,
+  "health": 800000,
+  "damage": 6500,
+  "defense": 1000,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 125,
+  "drops": [
+   {
+    "item": "GLACITE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_CITRINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_AQUAMARINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_ONYX_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_PERIDOT_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "GLACITE_SHARD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "gt_glacite_guardian",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {},
+  "equipment": {
+   "HEAD": "PACKED_ICE",
+   "HAND": "IRON_PICKAXE"
+  }
+ },
+ {
+  "id": "gt_glacite_mutt",
+  "name": "Rimestone Mutt",
+  "entity": "WOLF",
+  "level": 180,
+  "health": 750000,
+  "damage": 6000,
+  "defense": 1000,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 95,
+  "drops": [
+   {
+    "item": "GLACITE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_CITRINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_AQUAMARINE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_ONYX_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FINE_PERIDOT_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "GLACITE_SHARD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "gt_glacite_guardian",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {}
+ }
+]

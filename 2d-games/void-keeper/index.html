@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PROJECT: VOID-KEEPER v2.0 - GENESIS PROTOCOL</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@900&display=swap');
+
+        :root {
+            --bg: #020202;
+            --term: #ffaa00; /* Amber Terminal */
+            --term-dim: rgba(255, 170, 0, 0.3);
+            --fuel: #ff3333; /* Red */
+            --scrap: #00aaff; /* Blue */
+            --focus: #00ffff; /* Cyan for Focus Mode */
+        }
+
+        body {
+            margin: 0; overflow: hidden; background: var(--bg); color: var(--term);
+            font-family: 'Share Tech Mono', monospace;
+            user-select: none;
+            cursor: crosshair;
+            touch-action: none;
+        }
+
+        canvas { position: absolute; top: 0; left: 0; z-index: 1; }
+        /* Fog layer renders above the world canvas — clicks must pass through to it (see AGENTS.md layer spec) */
+        #fog-canvas { pointer-events: none; }
+        
+        /* UI LAYER */
+        .ui-layer {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 10; pointer-events: none;
+            display: flex; flex-direction: column; justify-content: space-between;
+            padding: 20px; box-sizing: border-box;
+            background: radial-gradient(circle, transparent 50%, #000 120%); /* Vignette */
+        }
+
+        /* MAIN MENU */
+        #main-menu {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #050505; z-index: 2000; display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            background-image: radial-gradient(circle, #111 0%, #000 80%);
+            pointer-events: auto;
+        }
+        .menu-title { font-family: 'Orbitron'; font-size: 4rem; margin-bottom: 40px; text-shadow: 0 0 20px var(--term); letter-spacing: 5px; text-align: center; }
+        .menu-btn {
+            width: 300px; padding: 15px; margin: 10px; background: transparent;
+            border: 2px solid var(--term-dim); color: var(--term);
+            font-family: 'Orbitron'; font-size: 1.1rem; cursor: pointer;
+            transition: 0.2s; text-align: center; pointer-events: auto;
+        }
+        .menu-btn:hover { background: var(--term); color: #000; box-shadow: 0 0 20px var(--term); transform: scale(1.05); }
+        .menu-btn.disabled { opacity: 0.5; cursor: not-allowed; border-color: #333; color: #555; }
+        .menu-btn.disabled:hover { background: transparent; color: #555; box-shadow: none; transform: none; }
+
+        /* SETTINGS MODAL */
+        #settings-modal {
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 90%; max-width: 450px; background: #080808; border: 2px solid var(--scrap);
+            z-index: 3000; display: none; flex-direction: column; padding: 25px;
+            box-shadow: 0 0 50px rgba(0, 170, 255, 0.2); pointer-events: auto;
+        }
+        .set-header { font-family: 'Orbitron'; color: var(--scrap); border-bottom: 1px solid var(--scrap); padding-bottom: 10px; margin-bottom: 20px; font-size: 1.5rem; }
+        .set-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .set-label { color: #ccc; font-size: 1rem; }
+        
+        input[type=range] { width: 50%; accent-color: var(--scrap); cursor: pointer; }
+        select { background: #000; color: var(--scrap); border: 1px solid var(--scrap); padding: 5px; font-family: 'Share Tech Mono'; cursor: pointer; }
+
+        /* MANUAL MODAL */
+        #manual-modal {
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 800px; height: 500px; background: #050505; border: 2px solid var(--term);
+            z-index: 2500; display: none; flex-direction: row; pointer-events: auto;
+            box-shadow: 0 0 50px rgba(255, 170, 0, 0.2);
+        }
+        .man-nav { width: 200px; border-right: 1px solid var(--term-dim); display: flex; flex-direction: column; background: #0a0a0a; }
+        .man-tab {
+            padding: 20px; color: #888; cursor: pointer; border-bottom: 1px solid #222;
+            transition: 0.2s; font-family: 'Orbitron'; font-size: 0.9rem;
+        }
+        .man-tab:hover { color: var(--term); background: rgba(255, 170, 0, 0.1); }
+        .man-tab.active { color: #000; background: var(--term); font-weight: bold; }
+        
+        .man-content { flex: 1; padding: 30px; overflow-y: auto; color: #ccc; font-size: 1rem; line-height: 1.6; }
+        .man-page { display: none; animation: fadeIn 0.3s; }
+        .man-page.active { display: block; }
+        .lore-entry { margin-bottom: 20px; border-left: 3px solid #333; padding-left: 15px; background: rgba(255,255,255,0.02); padding: 10px; }
+        .lore-locked { color: #444; font-style: italic; }
+        
+        .close-btn { 
+            position: absolute; top: 10px; right: 10px; width: 30px; height: 30px;
+            border: 1px solid var(--term); background: #000; color: var(--term); 
+            cursor: pointer; font-weight: bold; font-family: 'Orbitron';
+        }
+        .close-btn:hover { background: var(--term); color: #000; }
+
+        /* HUD ELEMENTS */
+        .hud-panel { pointer-events: auto; text-shadow: 0 0 5px var(--term); }
+        .header-bar {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
+            padding-bottom: 15px; border-bottom: 1px solid var(--term-dim);
+        }
+        .cog-btn {
+            font-size: 2rem; background: none; border: none; color: #666; cursor: pointer; pointer-events: auto; transition: 0.3s;
+        }
+        .cog-btn:hover { color: var(--term); transform: rotate(90deg); }
+
+        /* RESOURCES */
+        .resources { display: flex; gap: 30px; font-size: 1.2rem; margin-top: 5px; }
+        .c-fuel { color: var(--fuel); text-shadow: 0 0 10px var(--fuel); }
+        .c-scrap { color: var(--scrap); text-shadow: 0 0 10px var(--scrap); }
+
+        /* LOG */
+        .log-container {
+            position: absolute; top: 120px; left: 20px; width: 350px; height: 200px;
+            overflow: hidden; opacity: 0.8; font-size: 0.85rem; line-height: 1.4;
+            mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+            pointer-events: none;
+        }
+        .log-entry { margin-bottom: 6px; border-left: 2px solid var(--term-dim); padding-left: 8px; }
+        .log-time { color: #666; margin-right: 8px; font-size: 0.7rem; }
+
+        /* FUEL BAR */
+        .fuel-container {
+            position: absolute; bottom: 120px; left: 50%; transform: translateX(-50%);
+            width: 500px; text-align: center;
+        }
+        .fuel-bar-bg { width: 100%; height: 8px; background: #220000; border: 1px solid #550000; box-shadow: 0 0 20px #220000; }
+        .fuel-fill { width: 100%; height: 100%; background: var(--fuel); box-shadow: 0 0 15px var(--fuel); transition: width 0.1s linear; }
+
+        /* UPGRADES */
+        .upgrades {
+            position: absolute; bottom: 20px; right: 20px;
+            display: flex; flex-direction: column; gap: 10px; align-items: flex-end;
+        }
+        .upgrade-btn {
+            background: rgba(0,0,0,0.9); border: 1px solid var(--term-dim); color: var(--term);
+            padding: 12px 15px; cursor: pointer; font-family: 'Share Tech Mono';
+            text-align: right; width: 240px; pointer-events: auto; position: relative;
+            transition: 0.2s;
+        }
+        .upgrade-btn:hover:not(:disabled) { border-color: var(--term); background: rgba(255, 170, 0, 0.15); transform: translateX(-5px); }
+        .upgrade-btn:disabled { opacity: 0.4; border-color: #333; cursor: not-allowed; }
+        .u-lvl { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 1.8rem; opacity: 0.15; font-weight: bold; font-family: 'Orbitron'; }
+
+        /* MANUAL BUTTON */
+        #manual-open-btn {
+            position: absolute; bottom: 20px; left: 20px; width: 60px; height: 60px;
+            background: #000; border: 2px solid var(--term); color: var(--term);
+            font-size: 2rem; cursor: pointer; pointer-events: auto;
+            display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 0 15px rgba(255, 170, 0, 0.2); transition: 0.2s;
+        }
+        #manual-open-btn:hover { background: var(--term); color: #000; }
+
+        /* DEATH SCREEN */
+        #death-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(15, 0, 0, 0.98); z-index: 4000; display: none;
+            flex-direction: column; justify-content: center; align-items: center;
+            color: var(--fuel); text-align: center; pointer-events: auto;
+        }
+        .death-title { font-family: 'Orbitron'; font-size: 5rem; text-shadow: 0 0 30px red; animation: glitch 0.3s infinite; }
+
+        /* TARGET RETICLE */
+        #reticle {
+            position: fixed; width: 60px; height: 60px; border: 2px solid var(--focus);
+            border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none;
+            display: none; box-shadow: 0 0 20px var(--focus);
+            animation: spin 1s linear infinite; z-index: 100;
+            left: 50%; top: 50%; /* Start centered */
+        }
+        .reticle-dot { width: 4px; height: 4px; background: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; }
+
+        /* ZOOM CONTROLS */
+        .zoom-controls {
+            position: absolute; top: 50%; right: 20px; transform: translateY(-50%);
+            display: flex; flex-direction: column; gap: 10px; z-index: 150; pointer-events: none;
+        }
+        .zoom-btn {
+            width: 40px; height: 40px; background: rgba(0,0,0,0.8); border: 2px solid var(--term-dim);
+            color: var(--term); font-size: 1.5rem; cursor: pointer; pointer-events: auto;
+            display: flex; align-items: center; justify-content: center; transition: 0.2s;
+        }
+        .zoom-btn:hover { border-color: var(--term); background: rgba(255, 170, 0, 0.2); }
+        .zoom-display {
+            position: absolute; top: 70px; right: 20px; color: var(--term);
+            font-size: 0.9rem; text-align: center; pointer-events: none; z-index: 150;
+        }
+
+        @keyframes spin { 0% { transform: translate(-50%, -50%) rotate(0deg); } 100% { transform: translate(-50%, -50%) rotate(360deg); } }
+        @keyframes glitch { 0% { transform: translate(1px,1px); } 25% { transform: translate(-1px,-1px); } 50% { transform: translate(2px,0); } 75% { transform: translate(-2px,0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+    </style>
+</head>
+<body>
+
+    <div id="main-menu">
+        <div class="menu-title">VOID-KEEPER</div>
+        <button class="menu-btn" onclick="Game.boot()">PLAY</button>
+        <button class="menu-btn disabled" title="Coming Soon">MULTIPLAYER (OFFLINE)</button>
+        <button class="menu-btn" onclick="UI.openSettings()">SETTINGS</button>
+        <button class="menu-btn" onclick="window.close()">EXIT</button>
+        <div style="margin-top:20px; font-size:0.8rem; color:#666;">v2.0 GENESIS PROTOCOL // SYSTEM READY</div>
+    </div>
+
+    <div id="settings-modal">
+        <button class="close-btn" onclick="UI.closeSettings()">X</button>
+        <div class="set-header">SYSTEM CONFIG</div>
+        
+        <div class="set-row">
+            <span class="set-label">MASTER VOLUME</span>
+            <input type="range" id="vol-master" min="0" max="100" value="50" oninput="AudioSys.setMaster(this.value)">
+        </div>
+        <div class="set-row">
+            <span class="set-label">SFX VOLUME</span>
+            <input type="range" id="vol-sfx" min="0" max="100" value="70" oninput="AudioSys.setSFX(this.value)">
+        </div>
+        
+        <div class="set-row">
+            <span class="set-label">GRAPHICS QUALITY</span>
+            <select id="set-quality" onchange="Game.setQuality(this.value)">
+                <option value="high">HIGH (Full Fog)</option>
+                <option value="low">LOW (Simple Fog)</option>
+            </select>
+        </div>
+        <div class="set-row">
+            <span class="set-label">RESOLUTION SCALE</span>
+            <select id="set-res" onchange="Game.setResolution(this.value)">
+                <option value="1">NATIVE (1.0x)</option>
+                <option value="0.5">PERFORMANCE (0.5x)</option>
+            </select>
+        </div>
+        <div class="set-row">
+            <span class="set-label">FPS CAP</span>
+            <select id="set-fps" onchange="Game.setFPS(this.value)">
+                <option value="60">60 FPS</option>
+                <option value="30">30 FPS</option>
+                <option value="0">UNCAPPED</option>
+            </select>
+        </div>
+        
+        <button class="menu-btn" style="width:100%; margin:20px 0 0 0; border-color:var(--fuel); color:var(--fuel);" onclick="Game.hardWipe()">FACTORY RESET SAVE</button>
+    </div>
+
+    <div id="manual-modal">
+        <button class="close-btn" onclick="UI.closeManual()">X</button>
+                <div class="man-nav">
+            <div class="man-tab active" onclick="UI.switchTab(0, this)">DIRECTIVES</div>
+            <div class="man-tab" onclick="UI.switchTab(1, this)">CATALOGUE</div>
+            <div class="man-tab" onclick="UI.switchTab(2, this)">ENTITIES</div>
+            <div class="man-tab" onclick="UI.switchTab(3, this)">NETWORK</div>
+        </div>
+        <div class="man-content">
+            <div id="page-0" class="man-page active">
+                <h2 style="color:var(--term); border-bottom:1px solid #333; padding-bottom:10px;">OPERATIONAL DIRECTIVES</h2>
+                <p>1. <b>MAINTAIN LIGHT:</b> The Core burns <span style="color:var(--fuel)">CARBON</span>. If Carbon reaches 0, the Vantablack consumes you. Containment fails.</p>
+                <p>2. <b>SCAVENGE:</b> The darkness hides resources. The Light Beam burns away fog. Look for faint <span style="color:#fff">White Glints</span> in the distance.</p>
+                <p>3. <b>FOCUS BEAM:</b> Hold <b>LEFT MOUSE</b> to stop rotation and narrow the beam. This triples burn intensity, allowing you to reach distant objects.</p>
+                <p>4. <b>HARVEST:</b> Once debris is revealed (Red or Blue brackets appear), <b>CLICK IT</b> to collect.</p>
+            </div>
+            <div id="page-1" class="man-page">
+                <h2 style="color:var(--term); border-bottom:1px solid #333; padding-bottom:10px;">DATA LOGS</h2>
+                <div id="lore-list"></div>
+            </div>
+            <div id="page-2" class="man-page">
+                <h2 style="color:var(--term); border-bottom:1px solid #333; padding-bottom:10px;">KNOWN ENTITIES</h2>
+                <div class="lore-entry">
+                    <strong style="color:var(--fuel)">CARBON DEBRIS</strong><br>
+                    Red rectangular fragments. Remains of burnt-out stars. Essential fuel source.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:var(--scrap)">SCRAP METAL</strong><br>
+                    Blue rectangular fragments. Ship wreckage. Used to upgrade Lens, Gear, and Focus.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#666">THE FOG</strong><br>
+                    Semi-sentient particulate matter. It creates pressure on the light source. It flows like a liquid.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#ffaa00">EVOLUTION STAGES</strong><br>
+                    <b>Stage 1:</b> Beacon Core - Basic light source<br>
+                    <b>Stage 2:</b> Signal Tower - Enhanced structure<br>
+                    <b>Stage 3:</b> Nexus Lighthouse - Cyber core formation<br>
+                    <b>Stage 4:</b> Stellar Beacon - Massive radius<br>
+                    <b>Stage 5:</b> System Anchor - Expedition capable<br>
+                    <b>Stage 6:</b> Galaxy Core - Ultimate power
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#00ff88">POWER</strong><br>
+                    Generated by all active lighthouses. Increases with Resonance. Future use: Advanced upgrades and systems.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#ff00ff">RESONANCE</strong><br>
+                    Network-wide bonus. More connected lighthouses = higher Resonance = faster power generation and improved efficiency.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#888">RUINS</strong><br>
+                    Ancient structures scattered across the void. Remnants of a lost civilization. Atmospheric decoration.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#00ffff">EXPEDITION CRAFT</strong><br>
+                    Deployed at System Anchor stage. Navigate through darkness to establish new lighthouse outposts.
+                </div>
+            </div>
+            <div id="page-3" class="man-page">
+                <h2 style="color:var(--term); border-bottom:1px solid #333; padding-bottom:10px;">NETWORK SYSTEMS</h2>
+                <div class="lore-entry">
+                    <strong style="color:#ffaa00">BEAM BRIDGES</strong><br>
+                    Visible light connections between lighthouses. Created automatically when new lighthouses are placed within range. Share power and enable resonance.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#00ff88">UNDERGROUND CONDUITS</strong><br>
+                    Hidden infrastructure connections. Built with Power instead of Scrap. Provide enhanced bonuses: +25% power generation, +15% resonance bonus per conduit. Cost: 50 Power each.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#ff00ff">RESONANCE NETWORK</strong><br>
+                    The collective harmony of connected lighthouses. Each connection adds to Resonance. Higher Resonance = faster power generation, improved efficiency, and stronger beam output across all lighthouses.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#00aaff">POWER GRID</strong><br>
+                    Global power resource generated by all active lighthouses. Power generation rate increases with Resonance. Used for advanced upgrades and conduit construction.
+                </div>
+                <div class="lore-entry">
+                    <strong style="color:#00ffff">GALAXY MAP</strong><br>
+                    Strategic overview of your entire lighthouse network. View all connected lighthouses, connections, and plan expansion routes. Access via Galaxy Map button.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="death-screen">
+        <div class="death-title">CRITICAL FAILURE</div>
+        <p style="font-size:1.5rem; letter-spacing:3px; margin-top:20px;">LIGHT EXTINGUISHED</p>
+        <p style="color:#888; margin-bottom:40px;">SURVIVAL TIME: <span id="score-time" style="color:#fff;">0</span> SECONDS</p>
+        <button class="menu-btn" style="border-color:var(--fuel); color:var(--fuel);" onclick="location.reload()">INITIATE REBOOT</button>
+    </div>
+
+    <canvas id="world-canvas"></canvas>
+    <canvas id="fog-canvas"></canvas>
+    <div id="reticle"><div class="reticle-dot"></div></div>
+
+    <div class="ui-layer" id="game-ui" style="display:none;">
+        
+        <div class="header-bar">
+            <div>
+                <h2 style="margin:0; font-size:1.5rem; letter-spacing:2px;">UNIT 734 // CORE</h2>
+                <div class="resources">
+                    <span class="c-fuel">FUEL: <b id="val-fuel">100</b></span>
+                    <span class="c-scrap">SCRAP: <b id="val-scrap">0</b></span>
+                    <span style="color:#00ff88; text-shadow:0 0 10px #00ff88;">POWER: <b id="val-power">0</b></span>
+                    <span style="color:#ff00ff; text-shadow:0 0 10px #ff00ff;">RESONANCE: <b id="val-resonance">0</b></span>
+                </div>
+            </div>
+            <div style="display:flex; gap:15px; align-items:center;">
+                <div id="time-display" style="color:#666;">T+ 0s</div>
+                <button class="cog-btn" onclick="UI.openSettings()">⚙</button>
+            </div>
+        </div>
+
+        <div class="log-container" id="log"></div>
+
+        <div class="fuel-container">
+            <div style="font-size:0.8rem; letter-spacing:3px; margin-bottom:8px; color:var(--fuel);">FUEL INTEGRITY</div>
+            <div class="fuel-bar-bg"><div class="fuel-fill" id="bar-fuel"></div></div>
+        </div>
+
+        <button id="manual-open-btn" onclick="UI.openManual()">📖</button>
+
+        <div class="zoom-controls">
+            <button class="zoom-btn" onclick="Game.cameraZoom(1.2)" title="Zoom In">+</button>
+            <button class="zoom-btn" onclick="Game.cameraZoom(0.8)" title="Zoom Out">−</button>
+            <button class="zoom-btn" onclick="Game.resetCamera()" title="Reset View">⌂</button>
+        </div>
+        <div class="zoom-display">
+            <div>ZOOM: <span id="zoom-level">1.0x</span></div>
+        </div>
+
+        <div class="upgrades">
+            <button class="upgrade-btn" id="btn-lens" onclick="Game.buy('lens')">
+                <span class="u-lvl" id="lvl-lens">1</span>
+                <div style="font-weight:bold;">POLISHED LENS</div>
+                <div style="font-size:0.75rem; color:var(--scrap);">COST: <span id="cost-lens">5</span></div>
+                <div style="font-size:0.6rem; color:#666;">+BEAM RADIUS</div>
+            </button>
+            <button class="upgrade-btn" id="btn-gear" onclick="Game.buy('gear')">
+                <span class="u-lvl" id="lvl-gear">1</span>
+                <div style="font-weight:bold;">GEAR GREASE</div>
+                <div style="font-size:0.75rem; color:var(--scrap);">COST: <span id="cost-gear">5</span></div>
+                <div style="font-size:0.6rem; color:#666;">+ROTATION SPEED</div>
+            </button>
+            <button class="upgrade-btn" id="btn-focus" onclick="Game.buy('focus')">
+                <span class="u-lvl" id="lvl-focus">1</span>
+                <div style="font-weight:bold;">ARC FOCUS</div>
+                <div style="font-size:0.75rem; color:var(--scrap);">COST: <span id="cost-focus">10</span></div>
+                <div style="font-size:0.6rem; color:#666;">+BURN POWER</div>
+            </button>
+            <button class="upgrade-btn" id="btn-expedition" onclick="Game.startExpedition()" style="border-color:var(--focus); color:var(--focus);">
+                <div style="font-weight:bold;">LAUNCH EXPEDITION</div>
+                <div style="font-size:0.75rem; color:var(--focus);">COST: <span id="cost-expedition">100</span> SCRAP</div>
+                <div style="font-size:0.6rem; color:#666;">BUILD NEW LIGHTHOUSE</div>
+            </button>
+            <button class="upgrade-btn" id="btn-conduit" onclick="Game.buildConduit()" style="border-color:#00ff88; color:#00ff88;">
+                <div style="font-weight:bold;">BUILD CONDUIT</div>
+                <div style="font-size:0.75rem; color:#00ff88;">COST: <span id="cost-conduit">50</span> POWER</div>
+                <div style="font-size:0.6rem; color:#666;">UNDERGROUND CONNECTION</div>
+            </button>
+            <button class="upgrade-btn" id="btn-galaxy-map" onclick="Game.toggleGalaxyMap()" style="border-color:#ff00ff; color:#ff00ff;">
+                <div style="font-weight:bold;">GALAXY MAP</div>
+                <div style="font-size:0.6rem; color:#666;">VIEW NETWORK</div>
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        /**
+         * PROJECT: VOID-KEEPER v2.0 - GENESIS PROTOCOL
+         * Massive Expansion: Multi-Lighthouse, Evolution, Zoom, Expanded World
+         */
+
+        const CONFIG = {
+            fuelDecay: 2.0, 
+            baseFogCreep: 0.04, 
+            starCount: 500,
+            debrisSpawnRate: 0.015,
+            worldSize: 5000, // World is 5000x5000 units
+            minZoom: 0.25,
+            maxZoom: 4.0
+        };
+
+        // Evolution Stages
+        const LIGHTHOUSE_STAGES = {
+            1: { name: "Beacon Core", radius: 250, visualSize: 20, beamWidth: 0.5, rpm: 10 },
+            2: { name: "Signal Tower", radius: 400, visualSize: 35, beamWidth: 0.45, rpm: 15 },
+            3: { name: "Nexus Lighthouse", radius: 600, visualSize: 50, beamWidth: 0.4, rpm: 20 },
+            4: { name: "Stellar Beacon", radius: 900, visualSize: 70, beamWidth: 0.35, rpm: 25 },
+            5: { name: "System Anchor", radius: 1400, visualSize: 90, beamWidth: 0.3, rpm: 30 },
+            6: { name: "Galaxy Core", radius: 2000, visualSize: 120, beamWidth: 0.25, rpm: 40 }
+        };
+
+        const LoreData = [
+            { time: 0, title: "BOOT SEQUENCE", text: "Unit 734 Online. Previous Keeper status: TERMINATED. Light levels critical." },
+            { time: 30, title: "THE VANTABLACK", text: "Sensors indicate the darkness is not empty. It moves against the current." },
+            { time: 60, title: "SIGNAL LOST", text: "Received distress signal from Sector 9. Abruptly silenced." },
+            { time: 120, title: "THE HUNGER", text: "The fog consumes matter to grow density. We must burn it back." },
+            { time: 300, title: "ANCIENT ECHO", text: "Detected structure in deep field. Analysis: Pre-Collapse Civilization." }
+        ];
+
+        const AudioSys = {
+            ctx: null,
+            masterNode: null,
+            sfxNode: null,
+            humOsc: null,
+            focusOsc: null, // Separate osc for focus sound
+            masterVol: 0.5,
+            sfxVol: 0.7,
+
+            init() {
+                if(!this.ctx) {
+                    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                    this.masterNode = this.ctx.createGain();
+                    this.sfxNode = this.ctx.createGain();
+                    
+                    this.masterNode.connect(this.ctx.destination);
+                    this.sfxNode.connect(this.masterNode);
+                    this.masterNode.gain.value = this.masterVol;
+                    this.sfxNode.gain.value = this.sfxVol;
+                    
+                    // Atmosphere Drone (Low Pass Filter)
+                    this.humOsc = this.ctx.createOscillator();
+                    this.humOsc.type = 'sawtooth';
+                    this.humOsc.frequency.value = 50;
+                    const humGain = this.ctx.createGain();
+                    humGain.gain.value = 0.05;
+                    const filter = this.ctx.createBiquadFilter();
+                    filter.type = 'lowpass';
+                    filter.frequency.value = 120;
+                    
+                    this.humOsc.connect(filter);
+                    filter.connect(humGain);
+                    humGain.connect(this.masterNode);
+                    this.humOsc.start();
+                }
+                if(this.ctx.state === 'suspended') this.ctx.resume();
+            },
+            
+            setMaster(val) { this.masterVol = val/100; if(this.masterNode) this.masterNode.gain.value = this.masterVol; Game.saveSettings(); },
+            setSFX(val) { this.sfxVol = val/100; if(this.sfxNode) this.sfxNode.gain.value = this.sfxVol; Game.saveSettings(); },
+            
+            playCollect() {
+                if(!this.ctx) return;
+                const osc = this.ctx.createOscillator();
+                const g = this.ctx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(800, this.ctx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(1200, this.ctx.currentTime+0.1);
+                g.gain.setValueAtTime(0.1, this.ctx.currentTime);
+                g.gain.linearRampToValueAtTime(0, this.ctx.currentTime+0.2);
+                osc.connect(g); g.connect(this.sfxNode);
+                osc.start(); osc.stop(this.ctx.currentTime+0.2);
+            },
+            
+            playFocus(active) {
+                if(!this.ctx) return;
+                if(active && !this.focusOsc) {
+                    this.focusOsc = this.ctx.createOscillator();
+                    this.focusGain = this.ctx.createGain();
+                    this.focusOsc.type = 'triangle';
+                    this.focusOsc.frequency.value = 200;
+                    this.focusGain.gain.value = 0.05;
+                    this.focusOsc.connect(this.focusGain);
+                    this.focusGain.connect(this.sfxNode);
+                    this.focusOsc.start();
+                    this.focusOsc.frequency.linearRampToValueAtTime(400, this.ctx.currentTime + 0.5); // Charge up sound
+                } else if(!active && this.focusOsc) {
+                    this.focusOsc.stop();
+                    this.focusOsc = null;
+                }
+            }
+        };
+
+        const Game = {
+            wCv: document.getElementById('world-canvas'),
+            fCv: document.getElementById('fog-canvas'),
+            wCtx: null, fCtx: null,
+            
+            width: 0, height: 0, cx: 0, cy: 0,
+            
+            // Camera System
+            camera: {
+                x: 0,
+                y: 0,
+                zoom: 1.0,
+                targetX: 0,
+                targetY: 0,
+                following: null // lighthouse ID being followed
+            },
+
+            state: {
+                playing: false,
+                gameOver: false,
+                paused: false,
+                fuel: 100, maxFuel: 100,
+                scrap: 0,
+                power: 0, // New: Power resource
+                resonance: 0, // New: Resonance level
+                startTime: 0,
+                aliveTime: 0,
+                evolutionStage: 1
+            },
+
+            settings: {
+                quality: 'high',
+                scale: 1.0,
+                fpsInterval: 1000/60
+            },
+
+            // Multi-Lighthouse System
+            lighthouses: [], // Array of lighthouse objects
+            activeLighthouseId: 0, // ID of currently controlled lighthouse
+            connections: [], // Array of {from: id, to: id, type: 'beam'|'conduit'}
+            expeditions: [], // Array of expedition crafts
+            expeditionMode: null, // Current expedition placement mode
+
+            beam: {
+                angle: 0,
+                rpm: 10,
+                radius: 250,
+                width: 0.5,
+                baseWidth: 0.5,
+                isHeld: false,
+                targetAngle: 0
+            },
+
+            debris: [],
+            ruins: [], // New: Procedural ruins
+            stars: [],
+            nebulas: [], // New: Nebula effects for background
+            particles: [],
+            mouse: {x:0, y:0, worldX:0, worldY:0},
+            lastTime: 0,
+            frameTime: 0, // For delta time calculation
+            isDragging: false,
+            dragStart: {x:0, y:0},
+            clickedDebris: false, // Flag to prevent hold when clicking debris
+
+            upgrades: { lens:1, gear:1, focus:1 },
+
+            boot() {
+                document.getElementById('main-menu').style.display = 'none';
+                document.getElementById('game-ui').style.display = 'flex';
+                
+                this.wCtx = this.wCv.getContext('2d');
+                this.fCtx = this.fCv.getContext('2d');
+                
+                this.resize();
+                window.addEventListener('resize', () => this.resize());
+                
+                // Initialize World
+                this.initWorld();
+                
+                // Create First Lighthouse at world center
+                const firstLighthouse = this.createLighthouse(CONFIG.worldSize/2, CONFIG.worldSize/2);
+                this.activeLighthouseId = firstLighthouse.id;
+                this.camera.following = firstLighthouse.id;
+                this.camera.x = firstLighthouse.x;
+                this.camera.y = firstLighthouse.y;
+                this.camera.targetX = firstLighthouse.x;
+                this.camera.targetY = firstLighthouse.y;
+                
+                // Input Listeners
+                window.addEventListener('mousedown', (e) => {
+                    // Don't trigger if clicking on UI elements
+                    if(e.target.closest('.ui-layer, #settings-modal, #manual-modal, .menu-btn, .upgrade-btn, .cog-btn, .close-btn, .man-tab')) {
+                        return;
+                    }
+                    if(e.button === 0) { // Left click
+                        // Small delay to allow click detection first
+                        setTimeout(() => {
+                            if(!this.clickedDebris) {
+                                this.setHold(true);
+                            }
+                            this.clickedDebris = false;
+                        }, 10);
+                    } else if(e.button === 2 || (e.ctrlKey && e.button === 0)) { // Right click or Ctrl+click for drag
+                        this.isDragging = true;
+                        this.dragStart.x = e.clientX;
+                        this.dragStart.y = e.clientY;
+                    }
+                });
+                window.addEventListener('mouseup', (e) => {
+                    if(e.button === 0) this.setHold(false);
+                    this.isDragging = false;
+                });
+                window.addEventListener('touchstart', (e) => {
+                    if(!e.target.closest('.ui-layer, #settings-modal, #manual-modal')) {
+                        this.setHold(true); 
+                        this.updateMouse(e.touches[0]);
+                    }
+                }, {passive:false});
+                window.addEventListener('touchend', () => { 
+                    this.setHold(false);
+                    this.isDragging = false;
+                });
+                window.addEventListener('mousemove', (e) => {
+                    this.updateMouse(e);
+                    if(this.isDragging) {
+                        const dx = (e.clientX - this.dragStart.x) / this.camera.zoom;
+                        const dy = (e.clientY - this.dragStart.y) / this.camera.zoom;
+                        this.camera.x -= dx;
+                        this.camera.y -= dy;
+                        this.camera.targetX = this.camera.x;
+                        this.camera.targetY = this.camera.y;
+                        this.camera.following = null;
+                        this.dragStart.x = e.clientX;
+                        this.dragStart.y = e.clientY;
+                    }
+                });
+                window.addEventListener('touchmove', (e) => { 
+                    e.preventDefault(); 
+                    this.updateMouse(e.touches[0]); 
+                }, {passive:false});
+                
+                // Zoom with mouse wheel
+                this.wCv.addEventListener('wheel', (e) => {
+                    e.preventDefault();
+                    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                    this.cameraZoom(delta);
+                }, {passive: false});
+
+                // Click Debris Logic
+                this.wCv.addEventListener('mousedown', (e) => {
+                    if(!this.isDragging && e.button === 0) {
+                        if(this.expeditionMode && this.expeditionMode.active) {
+                            this.placeExpeditionLighthouse(this.mouse.worldX, this.mouse.worldY);
+                        } else {
+                            this.checkClick(this.mouse.worldX, this.mouse.worldY);
+                        }
+                    }
+                });
+                this.wCv.addEventListener('touchstart', (e) => {
+                    this.checkClick(this.mouse.worldX, this.mouse.worldY);
+                }, {passive:false});
+
+                // Prevent context menu
+                this.wCv.addEventListener('contextmenu', (e) => e.preventDefault());
+
+                this.state.playing = true;
+                this.state.startTime = Date.now();
+                this.log("GENESIS PROTOCOL INITIATED.");
+                this.log("SYSTEM: BEACON CORE ONLINE.");
+                this.updateLore();
+                AudioSys.init();
+                
+                requestAnimationFrame((t) => this.loop(t));
+            },
+
+            initWorld() {
+                // Generate Stars (background layer)
+                for(let i=0; i<CONFIG.starCount; i++) {
+                    this.stars.push({ 
+                        x: Math.random()*CONFIG.worldSize, 
+                        y: Math.random()*CONFIG.worldSize, 
+                        s: Math.random()*2 + 0.5, 
+                        a: Math.random() * 0.8 + 0.2,
+                        depth: Math.random() // For parallax
+                    });
+                }
+
+                // Generate Nebulas (cosmic clouds)
+                for(let i=0; i<8; i++) {
+                    this.nebulas.push({
+                        x: Math.random()*CONFIG.worldSize,
+                        y: Math.random()*CONFIG.worldSize,
+                        radius: 200 + Math.random()*400,
+                        color: `hsl(${220 + Math.random()*40}, 70%, ${30 + Math.random()*20}%)`,
+                        alpha: 0.1 + Math.random()*0.15
+                    });
+                }
+
+                // Generate Ruins
+                for(let i=0; i<50; i++) {
+                    this.ruins.push({
+                        x: Math.random()*CONFIG.worldSize,
+                        y: Math.random()*CONFIG.worldSize,
+                        type: Math.floor(Math.random()*3), // 0=pillar, 1=wall, 2=platform
+                        size: 30 + Math.random()*50,
+                        rotation: Math.random()*Math.PI*2
+                    });
+                }
+            },
+
+            createLighthouse(x, y) {
+                const id = this.lighthouses.length;
+                const stage = LIGHTHOUSE_STAGES[1];
+                const lighthouse = {
+                    id: id,
+                    x: x,
+                    y: y,
+                    stage: 1,
+                    beam: {
+                        angle: Math.random()*Math.PI*2,
+                        rpm: stage.rpm,
+                        radius: stage.radius,
+                        width: stage.beamWidth,
+                        baseWidth: stage.beamWidth,
+                        isHeld: false
+                    },
+                    upgrades: { lens: 1, gear: 1, focus: 1 },
+                    fuel: 100,
+                    maxFuel: 100,
+                    power: 0, // Power generation
+                    resonance: 0
+                };
+                this.lighthouses.push(lighthouse);
+                return lighthouse;
+            },
+
+            resize() {
+                this.width = window.innerWidth;
+                this.height = window.innerHeight;
+                this.cx = this.width/2; 
+                this.cy = this.height/2;
+                
+                this.wCv.width = this.width * this.settings.scale;
+                this.wCv.height = this.height * this.settings.scale;
+                this.fCv.width = this.width * this.settings.scale;
+                this.fCv.height = this.height * this.settings.scale;
+                
+                this.wCv.style.width = this.width + 'px';
+                this.wCv.style.height = this.height + 'px';
+                this.fCv.style.width = this.width + 'px';
+                this.fCv.style.height = this.height + 'px';
+                
+                this.wCtx.scale(this.settings.scale, this.settings.scale);
+                this.fCtx.scale(this.settings.scale, this.settings.scale);
+            },
+
+            // Camera Functions
+            screenToWorld(screenX, screenY) {
+                return {
+                    x: (screenX - this.cx) / this.camera.zoom + this.camera.x,
+                    y: (screenY - this.cy) / this.camera.zoom + this.camera.y
+                };
+            },
+
+            worldToScreen(worldX, worldY) {
+                return {
+                    x: (worldX - this.camera.x) * this.camera.zoom + this.cx,
+                    y: (worldY - this.camera.y) * this.camera.zoom + this.cy
+                };
+            },
+
+            cameraZoom(factor) {
+                this.camera.zoom *= factor;
+                this.camera.zoom = Math.max(CONFIG.minZoom, Math.min(CONFIG.maxZoom, this.camera.zoom));
+                document.getElementById('zoom-level').innerText = this.camera.zoom.toFixed(2) + 'x';
+            },
+
+            resetCamera() {
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(lighthouse) {
+                    this.camera.following = lighthouse.id;
+                    this.camera.targetX = lighthouse.x;
+                    this.camera.targetY = lighthouse.y;
+                    this.camera.zoom = 1.0;
+                    document.getElementById('zoom-level').innerText = '1.00x';
+                }
+            },
+
+            log(msg) {
+                const con = document.getElementById('log');
+                const div = document.createElement('div');
+                div.className = 'log-entry';
+                const time = new Date();
+                const ts = `${time.getHours()}:${time.getMinutes() < 10 ? '0'+time.getMinutes() : time.getMinutes()}:${time.getSeconds() < 10 ? '0'+time.getSeconds() : time.getSeconds()}`;
+                div.innerHTML = `<span class="log-time">[${ts}]</span> ${msg}`;
+                con.prepend(div);
+                if(con.children.length > 8) con.lastChild.remove();
+            },
+
+            updateLore() {
+                const list = document.getElementById('lore-list');
+                list.innerHTML = '';
+                LoreData.forEach(l => {
+                    const div = document.createElement('div');
+                    div.className = 'lore-entry';
+                    if(this.state.aliveTime >= l.time) {
+                        div.innerHTML = `<strong style="color:var(--term)">${l.title}</strong><br>${l.text}`;
+                    } else {
+                        div.innerHTML = `<span class="lore-locked">ENCRYPTED - REQ: ${l.time}s SURVIVAL</span>`;
+                    }
+                    list.appendChild(div);
+                });
+            },
+
+            setHold(held) {
+                if(this.state.paused || !this.state.playing) return;
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(!lighthouse) return;
+                
+                lighthouse.beam.isHeld = held;
+                AudioSys.playFocus(held);
+                const ret = document.getElementById('reticle');
+                ret.style.display = held ? 'block' : 'none';
+                
+                if(held) {
+                    lighthouse.beam.width = 0.15;
+                } else {
+                    lighthouse.beam.width = lighthouse.beam.baseWidth;
+                }
+            },
+
+            updateMouse(e) {
+                this.mouse.x = e.clientX;
+                this.mouse.y = e.clientY;
+                const world = this.screenToWorld(e.clientX, e.clientY);
+                this.mouse.worldX = world.x;
+                this.mouse.worldY = world.y;
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(lighthouse && lighthouse.beam.isHeld) {
+                    const ret = document.getElementById('reticle');
+                    ret.style.left = e.clientX + 'px';
+                    ret.style.top = e.clientY + 'px';
+                }
+            },
+
+            checkClick(worldX, worldY) {
+                if(this.state.paused || this.state.gameOver) return;
+                
+                // Check debris (use absolute distance, not zoom-adjusted)
+                for(let i=this.debris.length-1; i>=0; i--) {
+                    let d = this.debris[i];
+                    if(!d.revealed) continue;
+                    
+                    let dist = Math.sqrt((worldX-d.x)**2 + (worldY-d.y)**2);
+                    // Use fixed world distance, not zoom-adjusted
+                    if(dist < 40) {
+                        this.clickedDebris = true; // Set flag to prevent hold
+                        let gain = (d.type==='fuel'?15:0);
+                        const lighthouse = this.lighthouses[this.activeLighthouseId];
+                        if(lighthouse) {
+                            lighthouse.fuel = Math.min(lighthouse.maxFuel, lighthouse.fuel + gain);
+                            if(d.type==='scrap') this.state.scrap += 5;
+                            
+                            AudioSys.playCollect();
+                            this.createParticles(d.x, d.y, d.color);
+                            this.log(`HARVESTED: ${d.type.toUpperCase()}`);
+                            
+                            this.debris.splice(i, 1);
+                            this.updateUI();
+                            return;
+                        }
+                    }
+                }
+            },
+
+            // Focus Mode reach multiplier: 1.5x base, +0.15x per Arc Focus level beyond 1.
+            // (Previously the Arc Focus upgrade had no mechanical effect at all.)
+            getFocusMult(lighthouse) {
+                return 1.5 + 0.15 * ((lighthouse.upgrades.focus || 1) - 1);
+            },
+
+            createParticles(x, y, color) {
+                for(let i=0; i<15; i++) {
+                    this.particles.push({
+                        x: x, y: y,
+                        vx: (Math.random()-0.5)*8, vy: (Math.random()-0.5)*8,
+                        life: 1.0, color: color
+                    });
+                }
+            },
+
+            renderLighthouse(ctx, lighthouse) {
+                const stage = LIGHTHOUSE_STAGES[lighthouse.stage];
+                
+                // Lighthouse is already in world coordinates, camera transform is already applied
+                const size = stage.visualSize;
+                
+                ctx.save();
+                ctx.translate(lighthouse.x, lighthouse.y);
+                
+                // Render based on stage
+                if(lighthouse.stage === 1) {
+                    // Beacon Core - Simple glowing core (more visible)
+                    const grad = ctx.createRadialGradient(0, 0, 0, 0, 0, size*1.5);
+                    grad.addColorStop(0, '#ffaa00');
+                    grad.addColorStop(0.3, '#ff8800');
+                    grad.addColorStop(0.7, '#ff6600');
+                    grad.addColorStop(1, 'transparent');
+                    ctx.fillStyle = grad;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*1.5, 0, Math.PI*2);
+                    ctx.fill();
+                    
+                    // Core structure
+                    ctx.fillStyle = '#1a1a1a';
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*0.5, 0, Math.PI*2);
+                    ctx.fill();
+                    ctx.strokeStyle = '#ffaa00';
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                    
+                    // Inner glow
+                    const innerGrad = ctx.createRadialGradient(0, 0, 0, 0, 0, size*0.5);
+                    innerGrad.addColorStop(0, '#ffaa00');
+                    innerGrad.addColorStop(1, 'transparent');
+                    ctx.fillStyle = innerGrad;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*0.5, 0, Math.PI*2);
+                    ctx.fill();
+                } else if(lighthouse.stage === 2) {
+                    // Signal Tower - Basic tower structure
+                    ctx.fillStyle = '#333';
+                    ctx.fillRect(-size*0.3, -size*1.5, size*0.6, size*1.5);
+                    
+                    // Glowing core at top
+                    const grad = ctx.createRadialGradient(0, -size*1.5, 0, 0, -size*1.5, size*0.8);
+                    grad.addColorStop(0, '#ffaa00');
+                    grad.addColorStop(1, 'transparent');
+                    ctx.fillStyle = grad;
+                    ctx.beginPath();
+                    ctx.arc(0, -size*1.5, size*0.8, 0, Math.PI*2);
+                    ctx.fill();
+                    
+                    // Base platform
+                    ctx.fillStyle = '#444';
+                    ctx.fillRect(-size*0.5, size*0.2, size, size*0.3);
+                } else {
+                    // Higher stages - Cyber Core with rotating rings
+                    // Base structure
+                    ctx.fillStyle = '#222';
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*0.8, 0, Math.PI*2);
+                    ctx.fill();
+                    
+                    // Rotating ring (animation would need time variable)
+                    ctx.strokeStyle = '#ffaa00';
+                    ctx.lineWidth = 3;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*0.7, 0, Math.PI*2);
+                    ctx.stroke();
+                    
+                    // Core glow
+                    const grad = ctx.createRadialGradient(0, 0, 0, 0, 0, size*0.5);
+                    grad.addColorStop(0, lighthouse.stage >= 4 ? '#00ffff' : '#ffaa00');
+                    grad.addColorStop(1, 'transparent');
+                    ctx.fillStyle = grad;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, size*0.5, 0, Math.PI*2);
+                    ctx.fill();
+                }
+                
+                ctx.restore();
+            },
+
+            buy(type) {
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(!lighthouse) return;
+                
+                // Same formula as the UI (updateUI) so the displayed price is what gets charged
+                let cost = Math.floor((type === 'focus' ? 10 : 5) * Math.pow(1.5, lighthouse.upgrades[type]));
+                
+                if(this.state.scrap >= cost) {
+                    this.state.scrap -= cost;
+                    lighthouse.upgrades[type]++;
+                    
+                    const stage = LIGHTHOUSE_STAGES[lighthouse.stage];
+                    if(type === 'lens') { 
+                        lighthouse.beam.radius += 40; 
+                        this.log("OPTICS UPGRADED."); 
+                    }
+                    if(type === 'gear') { 
+                        lighthouse.beam.rpm += 5; 
+                        this.log("MOTORS OVERCLOCKED."); 
+                    }
+                    if(type === 'focus') { 
+                        this.log("FOCUS ARRAY ALIGNED."); 
+                    }
+                    
+                    // Check for evolution
+                    this.checkEvolution(lighthouse);
+                    this.updateUI();
+                }
+            },
+
+            checkEvolution(lighthouse) {
+                const totalUpgrades = lighthouse.upgrades.lens + lighthouse.upgrades.gear + lighthouse.upgrades.focus;
+                const nextStage = lighthouse.stage + 1;
+                
+                if(nextStage <= 6 && totalUpgrades >= nextStage * 10) {
+                    lighthouse.stage = nextStage;
+                    const stage = LIGHTHOUSE_STAGES[nextStage];
+                    lighthouse.beam.radius = stage.radius;
+                    lighthouse.beam.rpm = stage.rpm;
+                    lighthouse.beam.width = stage.beamWidth;
+                    lighthouse.beam.baseWidth = stage.beamWidth;
+                    this.log(`EVOLUTION: ${stage.name.toUpperCase()} ACHIEVED!`);
+                    
+                    // Stage 5 unlocks expeditions
+                    if(nextStage === 5) {
+                        this.log("EXPEDITION CRAFT UNLOCKED!");
+                    }
+                }
+            },
+
+            startExpedition() {
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(!lighthouse || lighthouse.stage < 5) {
+                    this.log("EXPEDITION REQUIRES: SYSTEM ANCHOR STAGE");
+                    return;
+                }
+                
+                const cost = 100;
+                if(this.state.scrap < cost) {
+                    this.log("INSUFFICIENT SCRAP FOR EXPEDITION");
+                    return;
+                }
+                
+                this.state.scrap -= cost;
+                this.log("EXPEDITION CRAFT LAUNCHED. CLICK TO PLACE NEW LIGHTHOUSE.");
+                
+                // Enter expedition placement mode
+                this.expeditionMode = {
+                    active: true,
+                    craftX: lighthouse.x,
+                    craftY: lighthouse.y,
+                    targetX: null,
+                    targetY: null,
+                    progress: 0
+                };
+            },
+
+            placeExpeditionLighthouse(x, y) {
+                // Check distance from existing lighthouses
+                let tooClose = false;
+                for(let lh of this.lighthouses) {
+                    const dist = Math.sqrt((x - lh.x)**2 + (y - lh.y)**2);
+                    if(dist < 600) {
+                        tooClose = true;
+                        break;
+                    }
+                }
+                
+                if(tooClose) {
+                    this.log("LOCATION TOO CLOSE TO EXISTING LIGHTHOUSE");
+                    return;
+                }
+                
+                // Create new lighthouse
+                const newLighthouse = this.createLighthouse(x, y);
+                this.log(`NEW LIGHTHOUSE ${newLighthouse.id} ESTABLISHED.`);
+                
+                // Auto-connect to nearest lighthouse
+                let nearest = null;
+                let nearestDist = Infinity;
+                this.lighthouses.forEach(lh => {
+                    if(lh.id === newLighthouse.id) return;
+                    const dist = Math.sqrt((x - lh.x)**2 + (y - lh.y)**2);
+                    if(dist < nearestDist) {
+                        nearestDist = dist;
+                        nearest = lh;
+                    }
+                });
+                
+                if(nearest && nearestDist < 1500) {
+                    this.createConnection(nearest.id, newLighthouse.id, 'beam');
+                    this.log(`CONNECTED TO LIGHTHOUSE ${nearest.id}`);
+                }
+                
+                this.expeditionMode = null;
+                this.updateConnectionNetwork();
+            },
+
+            createConnection(fromId, toId, type) {
+                // Check if connection already exists
+                const exists = this.connections.some(c => 
+                    (c.from === fromId && c.to === toId) || (c.from === toId && c.to === fromId)
+                );
+                if(exists) return;
+                
+                this.connections.push({ from: fromId, to: toId, type: type });
+            },
+
+            updateConnectionNetwork(dt = 0) {
+                // dt is in 60fps-frame units; event-driven callers pass nothing (recompute only, no income)
+                // Calculate resonance based on connections
+                let maxResonance = 0;
+                const visited = new Set();
+                
+                const dfs = (lhId, resonance) => {
+                    if(visited.has(lhId)) return;
+                    visited.add(lhId);
+                    
+                    const connections = this.connections.filter(c => c.from === lhId || c.to === lhId);
+                    let connValue = connections.length;
+                    // Conduits provide extra resonance
+                    connections.forEach(c => {
+                        if(c.type === 'conduit') connValue += 0.5;
+                    });
+                    resonance += connValue;
+                    maxResonance = Math.max(maxResonance, resonance);
+                    
+                    connections.forEach(c => {
+                        const nextId = c.from === lhId ? c.to : c.from;
+                        if(!visited.has(nextId)) {
+                            dfs(nextId, resonance);
+                        }
+                    });
+                };
+                
+                this.lighthouses.forEach(lh => {
+                    if(!visited.has(lh.id)) {
+                        dfs(lh.id, 0);
+                    }
+                });
+                
+                this.state.resonance = Math.floor(maxResonance);
+                
+                // Update power generation (conduits boost generation)
+                const conduitCount = this.connections.filter(c => c.type === 'conduit').length;
+                const conduitBonus = 1 + (conduitCount * 0.25);
+                
+                this.lighthouses.forEach(lh => {
+                    lh.power += 0.01 * dt * (1 + this.state.resonance * 0.1) * conduitBonus;
+                });
+                this.state.power = this.lighthouses.reduce((sum, lh) => sum + lh.power, 0);
+            },
+
+            buildConduit() {
+                if(this.lighthouses.length < 2) {
+                    this.log("REQUIRES: 2+ LIGHTHOUSES");
+                    return;
+                }
+                
+                const cost = 50;
+                if(this.state.power < cost) {
+                    this.log("INSUFFICIENT POWER FOR CONDUIT");
+                    return;
+                }
+                
+                // Find nearest unconnected lighthouse pair
+                let nearestPair = null;
+                let nearestDist = Infinity;
+                
+                for(let i = 0; i < this.lighthouses.length; i++) {
+                    for(let j = i + 1; j < this.lighthouses.length; j++) {
+                        const from = this.lighthouses[i];
+                        const to = this.lighthouses[j];
+                        const exists = this.connections.some(c => 
+                            (c.from === from.id && c.to === to.id) || (c.from === to.id && c.to === from.id)
+                        );
+                        
+                        if(!exists) {
+                            const dist = Math.sqrt((from.x - to.x)**2 + (from.y - to.y)**2);
+                            if(dist < nearestDist && dist < 2000) {
+                                nearestDist = dist;
+                                nearestPair = { from: from.id, to: to.id };
+                            }
+                        }
+                    }
+                }
+                
+                if(nearestPair) {
+                    // Deduct from the lighthouses' power pools — state.power is recomputed
+                    // from them every frame, so subtracting from state.power alone is lost.
+                    let remaining = cost;
+                    for(const lh of this.lighthouses) {
+                        const take = Math.min(lh.power, remaining);
+                        lh.power -= take;
+                        remaining -= take;
+                        if(remaining <= 0) break;
+                    }
+                    this.state.power = Math.max(0, this.state.power - cost);
+                    this.createConnection(nearestPair.from, nearestPair.to, 'conduit');
+                    this.log(`UNDERGROUND CONDUIT ESTABLISHED.`);
+                    this.updateConnectionNetwork();
+                } else {
+                    this.log("NO VALID CONDUIT LOCATIONS");
+                }
+            },
+
+            galaxyMapActive: false,
+            
+            toggleGalaxyMap() {
+                this.galaxyMapActive = !this.galaxyMapActive;
+                if(this.galaxyMapActive) {
+                    this.state.paused = true;
+                    this.log("GALAXY MAP ACTIVE - ZOOM OUT TO VIEW NETWORK");
+                    this.camera.zoom = Math.min(0.5, this.camera.zoom);
+                } else {
+                    this.state.paused = false;
+                }
+            },
+
+            hardWipe() {
+                if(confirm("FACTORY RESET: THIS WILL DELETE ALL DATA. PROCEED?")) {
+                    localStorage.clear();
+                    location.reload();
+                }
+            },
+
+            setQuality(val) { this.settings.quality = val; this.saveSettings(); },
+            setResolution(val) { this.settings.scale = parseFloat(val); this.resize(); this.saveSettings(); },
+            setFPS(val) {
+                let v = parseInt(val);
+                this.settings.fpsInterval = (v === 0) ? 0 : 1000/v;
+                this.saveSettings();
+            },
+
+            SETTINGS_KEY: 'voidKeeperSettings',
+
+            saveSettings() {
+                try {
+                    localStorage.setItem(this.SETTINGS_KEY, JSON.stringify({
+                        quality: this.settings.quality,
+                        scale: this.settings.scale,
+                        fpsInterval: this.settings.fpsInterval,
+                        master: AudioSys.masterVol,
+                        sfx: AudioSys.sfxVol
+                    }));
+                } catch(e) {}
+            },
+
+            loadSettings() {
+                // Defensive: every field falls back to its default if missing/invalid
+                try {
+                    const raw = localStorage.getItem(this.SETTINGS_KEY);
+                    if(!raw) return;
+                    const s = JSON.parse(raw);
+                    if(s.quality === 'high' || s.quality === 'low') {
+                        this.settings.quality = s.quality;
+                        document.getElementById('set-quality').value = s.quality;
+                    }
+                    if(s.scale === 1 || s.scale === 0.5) {
+                        this.settings.scale = s.scale;
+                        document.getElementById('set-res').value = String(s.scale);
+                    }
+                    if(isFinite(s.fpsInterval) && s.fpsInterval >= 0) {
+                        this.settings.fpsInterval = s.fpsInterval;
+                        const fps = s.fpsInterval === 0 ? 0 : Math.round(1000 / s.fpsInterval);
+                        document.getElementById('set-fps').value = String(fps);
+                    }
+                    if(isFinite(s.master) && s.master >= 0 && s.master <= 1) {
+                        AudioSys.masterVol = s.master;
+                        document.getElementById('vol-master').value = s.master * 100;
+                    }
+                    if(isFinite(s.sfx) && s.sfx >= 0 && s.sfx <= 1) {
+                        AudioSys.sfxVol = s.sfx;
+                        document.getElementById('vol-sfx').value = s.sfx * 100;
+                    }
+                } catch(e) {}
+            },
+
+            triggerDeath() {
+                this.state.gameOver = true;
+                document.getElementById('death-screen').style.display = 'flex';
+                document.getElementById('score-time').innerText = Math.floor(this.state.aliveTime);
+            },
+
+            loop(t) {
+                requestAnimationFrame((timestamp) => this.loop(timestamp));
+                
+                // Frame rate independence - use actual elapsed time
+                let elapsed = 0;
+                if(this.lastTime === 0) {
+                    this.lastTime = t;
+                } else {
+                    elapsed = t - this.lastTime;
+                }
+                
+                // FPS limiter (skip if too early)
+                if(this.settings.fpsInterval > 0) {
+                    if(elapsed < this.settings.fpsInterval) return;
+                    this.lastTime = t - (elapsed % this.settings.fpsInterval);
+                } else {
+                    // Unlimited FPS - use actual elapsed time
+                    this.lastTime = t;
+                }
+
+                if(!this.state.playing || this.state.paused || this.state.gameOver) return;
+
+                // Delta time in seconds (frame-rate independent)
+                const dt = Math.min(elapsed / 16.67, 2.0); // Cap at 2x to prevent huge jumps
+                if(isNaN(dt) || dt <= 0) return; // Safety check
+                
+                // Accumulate only unpaused time (paused frames return above); cap guards hidden-tab rAF gaps
+                this.state.aliveTime += Math.min(elapsed, 1000) / 1000;
+
+                // Update Camera (smooth follow)
+                if(this.camera.following !== null) {
+                    const lighthouse = this.lighthouses[this.camera.following];
+                    if(lighthouse) {
+                        this.camera.targetX = lighthouse.x;
+                        this.camera.targetY = lighthouse.y;
+                    }
+                }
+                this.camera.x += (this.camera.targetX - this.camera.x) * 0.1;
+                this.camera.y += (this.camera.targetY - this.camera.y) * 0.1;
+
+                // Update Connection Network
+                this.updateConnectionNetwork(dt);
+
+                // Update Active Lighthouse
+                const activeLighthouse = this.lighthouses[this.activeLighthouseId];
+                if(!activeLighthouse) return;
+
+                activeLighthouse.fuel -= 0.05 * dt;
+                if(activeLighthouse.fuel <= 0) { this.triggerDeath(); return; }
+                
+                // Update Expeditions
+                if(this.expeditionMode && this.expeditionMode.active) {
+                    // Animate expedition craft
+                    this.expeditionMode.progress += 0.01 * dt;
+                }
+
+                // Beam Control
+                if(activeLighthouse.beam.isHeld) {
+                    const world = this.screenToWorld(this.mouse.x, this.mouse.y);
+                    let dx = world.x - activeLighthouse.x;
+                    let dy = world.y - activeLighthouse.y;
+                    let target = Math.atan2(dy, dx);
+                    
+                    let diff = target - activeLighthouse.beam.angle;
+                    while(diff < -Math.PI) diff += Math.PI*2;
+                    while(diff > Math.PI) diff -= Math.PI*2;
+                    activeLighthouse.beam.angle += diff * 0.2 * dt;
+                } else {
+                    activeLighthouse.beam.angle += (activeLighthouse.beam.rpm * Math.PI * 2) / 3600 * dt;
+                }
+
+                // Non-active lighthouses keep rotating passively at their own RPM
+                this.lighthouses.forEach(lh => {
+                    if(lh !== activeLighthouse) {
+                        lh.beam.angle += (lh.beam.rpm * Math.PI * 2) / 3600 * dt;
+                    }
+                });
+
+                // Spawn Debris near active lighthouse (capped so the array can't grow unbounded)
+                if(Math.random() < 0.02 * dt && this.debris.length < 200) {
+                    let a = Math.random() * Math.PI * 2;
+                    let d = 200 + Math.random() * 800;
+                    const type = Math.random() > 0.4 ? 'fuel' : 'scrap';
+                    this.debris.push({
+                        x: activeLighthouse.x + Math.cos(a)*d,
+                        y: activeLighthouse.y + Math.sin(a)*d,
+                        type: type,
+                        revealed: false,
+                        color: type === 'fuel' ? '#ff3333' : '#00aaff'
+                    });
+                }
+
+                // Update Particles
+                for(let i=this.particles.length-1; i>=0; i--) {
+                    let p = this.particles[i];
+                    p.x += p.vx * dt; p.y += p.vy * dt; p.life -= 0.05 * dt;
+                    if(p.life <= 0) this.particles.splice(i, 1);
+                }
+
+                // RENDER WORLD
+                // Add dark atmospheric fog instead of pure black
+                this.wCtx.fillStyle = '#020408';
+                this.wCtx.fillRect(0,0,this.width, this.height);
+                
+                // Subtle dark fog overlay for atmosphere
+                const fogGrad = this.wCtx.createRadialGradient(this.cx, this.cy, 0, this.cx, this.cy, Math.max(this.width, this.height) * 0.8);
+                fogGrad.addColorStop(0, 'rgba(5, 8, 12, 0)');
+                fogGrad.addColorStop(0.5, 'rgba(10, 15, 20, 0.3)');
+                fogGrad.addColorStop(1, 'rgba(15, 20, 25, 0.6)');
+                this.wCtx.fillStyle = fogGrad;
+                this.wCtx.fillRect(0, 0, this.width, this.height);
+
+                // Save context for camera transform
+                this.wCtx.save();
+                this.wCtx.translate(this.cx, this.cy);
+                this.wCtx.scale(this.camera.zoom, this.camera.zoom);
+                this.wCtx.translate(-this.camera.x, -this.camera.y);
+
+                // Render Nebulas
+                this.nebulas.forEach(n => {
+                    const screen = this.worldToScreen(n.x, n.y);
+                    if(screen.x > -n.radius*2 && screen.x < this.width + n.radius*2 && 
+                       screen.y > -n.radius*2 && screen.y < this.height + n.radius*2) {
+                        const grad = this.wCtx.createRadialGradient(n.x, n.y, 0, n.x, n.y, n.radius);
+                        grad.addColorStop(0, n.color.replace(')', ', ' + n.alpha + ')').replace('hsl', 'hsla'));
+                        grad.addColorStop(1, n.color.replace(')', ', 0)').replace('hsl', 'hsla'));
+                        this.wCtx.fillStyle = grad;
+                        this.wCtx.beginPath();
+                        this.wCtx.arc(n.x, n.y, n.radius, 0, Math.PI*2);
+                        this.wCtx.fill();
+                    }
+                });
+
+                // Render Stars
+                this.wCtx.fillStyle = '#fff';
+                this.stars.forEach(s => {
+                    this.wCtx.globalAlpha = s.a;
+                    this.wCtx.fillRect(s.x, s.y, s.s, s.s);
+                });
+                this.wCtx.globalAlpha = 1;
+
+                // Render Ruins
+                this.ruins.forEach(r => {
+                    const screen = this.worldToScreen(r.x, r.y);
+                    if(screen.x > -r.size*2 && screen.x < this.width + r.size*2) {
+                        this.wCtx.save();
+                        this.wCtx.translate(r.x, r.y);
+                        this.wCtx.rotate(r.rotation);
+                        this.wCtx.fillStyle = '#333';
+                        if(r.type === 0) { // Pillar
+                            this.wCtx.fillRect(-r.size*0.2, -r.size*0.5, r.size*0.4, r.size);
+                        } else if(r.type === 1) { // Wall
+                            this.wCtx.fillRect(-r.size*0.5, -r.size*0.1, r.size, r.size*0.2);
+                        } else { // Platform
+                            this.wCtx.fillRect(-r.size*0.5, -r.size*0.5, r.size, r.size*0.3);
+                        }
+                        this.wCtx.restore();
+                    }
+                });
+
+                // Render Lighthouses
+                this.lighthouses.forEach(lh => this.renderLighthouse(this.wCtx, lh));
+
+                // Render Connections
+                this.connections.forEach(conn => {
+                    const from = this.lighthouses[conn.from];
+                    const to = this.lighthouses[conn.to];
+                    if(from && to) {
+                        if(conn.type === 'beam') {
+                            this.wCtx.strokeStyle = 'rgba(255, 170, 0, 0.4)';
+                            this.wCtx.lineWidth = 2 / this.camera.zoom;
+                            this.wCtx.setLineDash([]);
+                        } else { // conduit
+                            this.wCtx.strokeStyle = 'rgba(0, 255, 136, 0.5)';
+                            this.wCtx.lineWidth = 3 / this.camera.zoom;
+                            this.wCtx.setLineDash([8/this.camera.zoom, 4/this.camera.zoom]);
+                        }
+                        this.wCtx.beginPath();
+                        this.wCtx.moveTo(from.x, from.y);
+                        this.wCtx.lineTo(to.x, to.y);
+                        this.wCtx.stroke();
+                        this.wCtx.setLineDash([]);
+                    }
+                });
+
+                // Galaxy Map Overlay (when active and zoomed out)
+                if(this.galaxyMapActive && this.camera.zoom <= 0.5) {
+                    this.wCtx.strokeStyle = '#ff00ff';
+                    this.wCtx.lineWidth = 1 / this.camera.zoom;
+                    this.wCtx.font = (20/this.camera.zoom) + 'px Orbitron';
+                    this.wCtx.fillStyle = '#ff00ff';
+                    
+                    // Draw labels for each lighthouse
+                    this.lighthouses.forEach(lh => {
+                        const stage = LIGHTHOUSE_STAGES[lh.stage];
+                        this.wCtx.fillText(`LH-${lh.id}: ${stage.name}`, lh.x + 30, lh.y - 20);
+                    });
+                    
+                    // Draw network stats
+                    this.wCtx.fillStyle = 'rgba(255, 0, 255, 0.8)';
+                    this.wCtx.fillRect(this.camera.x - 100, this.camera.y - 100, 200, 80);
+                    this.wCtx.fillStyle = '#fff';
+                    this.wCtx.font = (16/this.camera.zoom) + 'px Share Tech Mono';
+                    this.wCtx.fillText(`Lighthouses: ${this.lighthouses.length}`, this.camera.x - 90, this.camera.y - 70);
+                    this.wCtx.fillText(`Connections: ${this.connections.length}`, this.camera.x - 90, this.camera.y - 50);
+                    this.wCtx.fillText(`Resonance: ${this.state.resonance}`, this.camera.x - 90, this.camera.y - 30);
+                }
+
+                // Render Expedition Craft (in placement mode)
+                if(this.expeditionMode && this.expeditionMode.active) {
+                    const target = this.screenToWorld(this.mouse.x, this.mouse.y);
+                    
+                    // Draw line from origin to target
+                    this.wCtx.strokeStyle = '#00ffff';
+                    this.wCtx.lineWidth = 2 / this.camera.zoom;
+                    this.wCtx.setLineDash([10/this.camera.zoom, 5/this.camera.zoom]);
+                    this.wCtx.beginPath();
+                    this.wCtx.moveTo(this.expeditionMode.craftX, this.expeditionMode.craftY);
+                    this.wCtx.lineTo(target.x, target.y);
+                    this.wCtx.stroke();
+                    this.wCtx.setLineDash([]);
+                    
+                    // Craft icon at target
+                    this.wCtx.fillStyle = '#00ffff';
+                    this.wCtx.beginPath();
+                    this.wCtx.arc(target.x, target.y, 15/this.camera.zoom, 0, Math.PI*2);
+                    this.wCtx.fill();
+                    this.wCtx.strokeStyle = '#ffffff';
+                    this.wCtx.lineWidth = 2 / this.camera.zoom;
+                    this.wCtx.stroke();
+                    
+                    this.expeditionMode.targetX = target.x;
+                    this.expeditionMode.targetY = target.y;
+                }
+
+                // Render Debris
+                this.debris.forEach(d => {
+                    this.wCtx.save();
+                    this.wCtx.translate(d.x, d.y);
+                    
+                    if(d.revealed) {
+                        this.wCtx.strokeStyle = d.type==='fuel' ? '#ff3333' : '#00aaff'; // canvas can't resolve CSS var()
+                        this.wCtx.lineWidth = 2 / this.camera.zoom;
+                        this.wCtx.strokeRect(-10, -10, 20, 20);
+                        this.wCtx.font = (10/this.camera.zoom) + 'px Share Tech Mono';
+                        this.wCtx.fillStyle = '#fff';
+                        this.wCtx.fillText(d.type.toUpperCase(), -10, -15);
+                        this.wCtx.fillStyle = d.color;
+                        this.wCtx.fillRect(-4,-4,8,8);
+                    } else {
+                        if(Math.random()>0.95) {
+                            this.wCtx.fillStyle = '#fff';
+                            this.wCtx.fillRect(0,0,2/this.camera.zoom,2/this.camera.zoom);
+                        }
+                    }
+                    this.wCtx.restore();
+                });
+
+                // Render Particles
+                this.particles.forEach(p => {
+                    this.wCtx.fillStyle = p.color;
+                    this.wCtx.globalAlpha = p.life;
+                    this.wCtx.fillRect(p.x, p.y, 3/this.camera.zoom, 3/this.camera.zoom);
+                });
+                this.wCtx.globalAlpha = 1;
+
+                this.wCtx.restore(); // Restore camera transform
+
+                // RENDER FOG (Dark Atmospheric Layer)
+                let creepSpeed = CONFIG.baseFogCreep;
+                if(activeLighthouse.fuel < 20) creepSpeed = 0.08;
+                
+                this.fCtx.globalCompositeOperation = 'source-over';
+                // Dark fog with slight color variation for depth
+                this.fCtx.fillStyle = this.settings.quality === 'high' ? `rgba(8, 10, 12, ${creepSpeed})` : 'rgba(5, 5, 8, 0.3)'; 
+                this.fCtx.fillRect(0,0,this.width, this.height);
+
+                // Cut Beams for all lighthouses
+                this.fCtx.globalCompositeOperation = 'destination-out';
+                this.lighthouses.forEach(lh => {
+                    const screen = this.worldToScreen(lh.x, lh.y);
+                    let r = lh.beam.radius * this.camera.zoom;
+                    if(lh.beam.isHeld) r *= this.getFocusMult(lh);
+                    
+                    this.fCtx.beginPath();
+                    this.fCtx.moveTo(screen.x, screen.y);
+                    this.fCtx.arc(screen.x, screen.y, r, lh.beam.angle - lh.beam.width/2, lh.beam.angle + lh.beam.width/2);
+                    this.fCtx.closePath();
+                    
+                    if(this.settings.quality === 'high') {
+                        let g = this.fCtx.createRadialGradient(screen.x, screen.y, 20, screen.x, screen.y, r);
+                        g.addColorStop(0, 'rgba(0,0,0,1)');
+                        g.addColorStop(1, 'rgba(0,0,0,0)');
+                        this.fCtx.fillStyle = g;
+                        this.fCtx.fill();
+                    } else {
+                        this.fCtx.fill();
+                    }
+                    
+                    // Safe zone
+                    this.fCtx.beginPath();
+                    this.fCtx.arc(screen.x, screen.y, 60 * this.camera.zoom, 0, Math.PI*2);
+                    this.fCtx.fill();
+                });
+
+                // Reveal Check
+                this.debris.forEach(d => {
+                    let closestDist = Infinity;
+                    let inBeam = false;
+                    
+                    this.lighthouses.forEach(lh => {
+                        let dx = d.x - lh.x;
+                        let dy = d.y - lh.y;
+                        let dist = Math.sqrt(dx*dx + dy*dy);
+                        let angle = Math.atan2(dy, dx);
+                        let diff = angle - lh.beam.angle;
+                        while(diff < -Math.PI) diff += Math.PI*2;
+                        while(diff > Math.PI) diff -= Math.PI*2;
+                        
+                        let activeR = lh.beam.isHeld ? lh.beam.radius * this.getFocusMult(lh) : lh.beam.radius;
+                        let activeW = lh.beam.width/2 + 0.1;
+                        
+                        if(dist < activeR && Math.abs(diff) < activeW) {
+                            inBeam = true;
+                        }
+                    });
+                    
+                    d.revealed = inBeam;
+                });
+
+                // Throttle DOM refresh to ~10/s (purchases/harvests call updateUI directly)
+                this._uiAccum = (this._uiAccum || 0) + elapsed;
+                if(this._uiAccum >= 100) {
+                    this._uiAccum = 0;
+                    this.updateUI();
+                }
+            },
+
+            updateUI() {
+                const lighthouse = this.lighthouses[this.activeLighthouseId];
+                if(!lighthouse) return;
+                
+                // Prevent NaN display
+                const fuel = isNaN(lighthouse.fuel) ? 0 : Math.floor(lighthouse.fuel);
+                const scrap = isNaN(this.state.scrap) ? 0 : this.state.scrap;
+                const power = isNaN(this.state.power) ? 0 : Math.floor(this.state.power);
+                const resonance = isNaN(this.state.resonance) ? 0 : this.state.resonance;
+                const aliveTime = isNaN(this.state.aliveTime) ? 0 : Math.floor(this.state.aliveTime);
+                
+                document.getElementById('val-fuel').innerText = fuel;
+                document.getElementById('val-scrap').innerText = scrap;
+                document.getElementById('val-power').innerText = power;
+                document.getElementById('val-resonance').innerText = resonance;
+                document.getElementById('time-display').innerText = "T+ " + aliveTime + "s";
+                
+                // Expedition button
+                const expBtn = document.getElementById('btn-expedition');
+                if(lighthouse && lighthouse.stage >= 5) {
+                    expBtn.disabled = this.state.scrap < 100 || (this.expeditionMode && this.expeditionMode.active);
+                } else {
+                    expBtn.disabled = true;
+                }
+                
+                // Conduit button
+                const condBtn = document.getElementById('btn-conduit');
+                condBtn.disabled = this.state.power < 50 || this.lighthouses.length < 2;
+                
+                // Galaxy map button
+                const galaxyBtn = document.getElementById('btn-galaxy-map');
+                galaxyBtn.style.background = this.galaxyMapActive ? 'rgba(255,0,255,0.2)' : 'rgba(0,0,0,0.9)';
+                
+                // Update header with stage name
+                const stage = LIGHTHOUSE_STAGES[lighthouse.stage];
+                document.querySelector('.header-bar h2').innerText = `UNIT ${lighthouse.id} // ${stage.name.toUpperCase()}`;
+                
+                const loreSec = Math.floor(this.state.aliveTime);
+                if(loreSec % 5 === 0 && loreSec !== this._lastLoreSec) {
+                    this._lastLoreSec = loreSec;
+                    this.updateLore();
+                }
+
+                const fuelPct = isNaN(lighthouse.fuel) || isNaN(lighthouse.maxFuel) ? 0 : Math.max(0, Math.min(100, (lighthouse.fuel / lighthouse.maxFuel) * 100));
+                document.getElementById('bar-fuel').style.width = fuelPct + "%";
+                
+                // Costs
+                let cLens = Math.floor(5 * Math.pow(1.5, lighthouse.upgrades.lens));
+                let cGear = Math.floor(5 * Math.pow(1.5, lighthouse.upgrades.gear));
+                let cFocus = Math.floor(10 * Math.pow(1.5, lighthouse.upgrades.focus));
+                
+                document.getElementById('cost-lens').innerText = cLens;
+                document.getElementById('cost-gear').innerText = cGear;
+                document.getElementById('cost-focus').innerText = cFocus;
+                
+                document.getElementById('lvl-lens').innerText = lighthouse.upgrades.lens;
+                document.getElementById('lvl-gear').innerText = lighthouse.upgrades.gear;
+                document.getElementById('lvl-focus').innerText = lighthouse.upgrades.focus;
+
+                document.getElementById('btn-lens').disabled = this.state.scrap < cLens;
+                document.getElementById('btn-gear').disabled = this.state.scrap < cGear;
+                document.getElementById('btn-focus').disabled = this.state.scrap < cFocus;
+            }
+        };
+
+        const UI = {
+            openSettings() { 
+                Game.state.paused = true; 
+                document.getElementById('settings-modal').style.display = 'flex'; 
+            },
+            closeSettings() { 
+                Game.state.paused = false; 
+                document.getElementById('settings-modal').style.display = 'none'; 
+            },
+            openManual() {
+                Game.state.paused = true;
+                document.getElementById('manual-modal').style.display = 'flex';
+            },
+            closeManual() {
+                Game.state.paused = false;
+                document.getElementById('manual-modal').style.display = 'none';
+            },
+            switchTab(idx, btn) {
+                document.querySelectorAll('.man-page').forEach(p => p.classList.remove('active'));
+                document.querySelectorAll('.man-tab').forEach(b => b.classList.remove('active'));
+                if(document.getElementById(`page-${idx}`)) {
+                    document.getElementById(`page-${idx}`).classList.add('active');
+                }
+                btn.classList.add('active');
+            }
+        };
+
+        // Restore persisted settings (script runs at end of body, DOM is ready)
+        Game.loadSettings();
+
+    </script>
+</body>
+</html>

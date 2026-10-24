@@ -1,0 +1,3290 @@
+{
+ "levels": [
+  0,
+  70,
+  70,
+  140,
+  240,
+  600,
+  1500,
+  2000,
+  2500,
+  3000,
+  10000,
+  10000,
+  10000,
+  10000,
+  10000
+ ],
+ "crops": [
+  {
+   "key": "WHEAT",
+   "name": "Wheat",
+   "color": "&e",
+   "item": "WHEAT",
+   "extraItem": "SEEDS",
+   "enchanted": "ENCHANTED_WHEAT",
+   "level": 1,
+   "baseMin": 1,
+   "baseMax": 1,
+   "xp": 4.0,
+   "pest": "fly",
+   "blocks": [
+    "wheat"
+   ],
+   "organic": 1.0,
+   "milestones": [
+    30,
+    50,
+    80,
+    200,
+    350,
+    700,
+    1500,
+    2500,
+    3500,
+    5000,
+    6500,
+    8000,
+    10000,
+    20000,
+    35000,
+    50000,
+    75000,
+    100000,
+    175000,
+    250000,
+    375000,
+    400000,
+    450000,
+    650000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000
+   ],
+   "personalBest": 100
+  },
+  {
+   "key": "CARROT",
+   "name": "Carrot",
+   "color": "&6",
+   "item": "CARROT_ITEM",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_CARROT",
+   "level": 2,
+   "baseMin": 3,
+   "baseMax": 3,
+   "xp": 4.0,
+   "pest": "cricket",
+   "blocks": [
+    "carrots"
+   ],
+   "organic": 0.29,
+   "milestones": [
+    100,
+    150,
+    250,
+    500,
+    1000,
+    2000,
+    4500,
+    9000,
+    12000,
+    15000,
+    20000,
+    25000,
+    35000,
+    70000,
+    120000,
+    180000,
+    250000,
+    350000,
+    600000,
+    850000,
+    1100000,
+    1400000,
+    1800000,
+    2200000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000
+   ],
+   "personalBest": 300
+  },
+  {
+   "key": "POTATO",
+   "name": "Potato",
+   "color": "&e",
+   "item": "POTATO_ITEM",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_POTATO",
+   "level": 3,
+   "baseMin": 3,
+   "baseMax": 3,
+   "xp": 4.0,
+   "pest": "locust",
+   "blocks": [
+    "potatoes"
+   ],
+   "organic": 0.33,
+   "milestones": [
+    100,
+    150,
+    250,
+    500,
+    1000,
+    2000,
+    4500,
+    9000,
+    12000,
+    15000,
+    20000,
+    25000,
+    35000,
+    70000,
+    120000,
+    180000,
+    250000,
+    350000,
+    600000,
+    850000,
+    1100000,
+    1400000,
+    1800000,
+    2200000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000,
+    2600000
+   ],
+   "personalBest": 300
+  },
+  {
+   "key": "PUMPKIN",
+   "name": "Pumpkin",
+   "color": "&6",
+   "item": "PUMPKIN",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_PUMPKIN",
+   "level": 4,
+   "baseMin": 1,
+   "baseMax": 1,
+   "xp": 4.5,
+   "pest": "rat",
+   "blocks": [
+    "pumpkin"
+   ],
+   "organic": 1.0,
+   "milestones": [
+    30,
+    50,
+    80,
+    200,
+    350,
+    700,
+    1500,
+    2500,
+    3500,
+    5000,
+    6500,
+    8000,
+    10000,
+    20000,
+    35000,
+    50000,
+    75000,
+    100000,
+    175000,
+    250000,
+    375000,
+    400000,
+    450000,
+    650000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000
+   ],
+   "personalBest": 100
+  },
+  {
+   "key": "SUGAR_CANE",
+   "name": "Sugar Cane",
+   "color": "&a",
+   "item": "SUGAR_CANE",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_SUGAR",
+   "level": 5,
+   "baseMin": 2,
+   "baseMax": 2,
+   "xp": 4.0,
+   "pest": "mosquito",
+   "blocks": [
+    "sugar_cane"
+   ],
+   "organic": 0.5,
+   "milestones": [
+    60,
+    100,
+    160,
+    400,
+    700,
+    1400,
+    3000,
+    5000,
+    7000,
+    10000,
+    13000,
+    16000,
+    20000,
+    40000,
+    70000,
+    100000,
+    150000,
+    200000,
+    350000,
+    500000,
+    750000,
+    800000,
+    900000,
+    1300000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000
+   ],
+   "personalBest": 200
+  },
+  {
+   "key": "MELON",
+   "name": "Melon",
+   "color": "&a",
+   "item": "MELON",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_MELON",
+   "level": 6,
+   "baseMin": 5,
+   "baseMax": 5,
+   "xp": 4.0,
+   "pest": "earthworm",
+   "blocks": [
+    "melon"
+   ],
+   "organic": 0.2,
+   "milestones": [
+    150,
+    250,
+    400,
+    1000,
+    1750,
+    3500,
+    7500,
+    12500,
+    17500,
+    25000,
+    32500,
+    40000,
+    50000,
+    100000,
+    175000,
+    250000,
+    375000,
+    500000,
+    875000,
+    1250000,
+    1875000,
+    2000000,
+    2250000,
+    3250000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000,
+    4000000
+   ],
+   "personalBest": 500
+  },
+  {
+   "key": "CACTUS",
+   "name": "Cactus",
+   "color": "&2",
+   "item": "CACTUS",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_CACTUS_GREEN",
+   "level": 7,
+   "baseMin": 2,
+   "baseMax": 2,
+   "xp": 4.0,
+   "pest": "mite",
+   "blocks": [
+    "cactus"
+   ],
+   "organic": 0.5,
+   "milestones": [
+    60,
+    100,
+    160,
+    400,
+    700,
+    1400,
+    3000,
+    5000,
+    7000,
+    10000,
+    13000,
+    16000,
+    20000,
+    40000,
+    70000,
+    100000,
+    150000,
+    200000,
+    350000,
+    500000,
+    750000,
+    800000,
+    900000,
+    1300000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000
+   ],
+   "personalBest": 200
+  },
+  {
+   "key": "COCOA_BEANS",
+   "name": "Cocoa Beans",
+   "color": "&6",
+   "item": "INK_SACK:3",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_COCOA",
+   "level": 8,
+   "baseMin": 3,
+   "baseMax": 3,
+   "xp": 4.0,
+   "pest": "moth",
+   "blocks": [
+    "cocoa"
+   ],
+   "organic": 0.4,
+   "milestones": [
+    90,
+    150,
+    240,
+    600,
+    1050,
+    2100,
+    4500,
+    7500,
+    10500,
+    15000,
+    19500,
+    24000,
+    30000,
+    60000,
+    105000,
+    150000,
+    225000,
+    300000,
+    525000,
+    750000,
+    1125000,
+    1200000,
+    1350000,
+    1950000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000
+   ],
+   "personalBest": 300
+  },
+  {
+   "key": "MUSHROOM",
+   "name": "Mushroom",
+   "color": "&c",
+   "item": "RED_MUSHROOM",
+   "extraItem": "BROWN_MUSHROOM",
+   "enchanted": "ENCHANTED_RED_MUSHROOM",
+   "level": 9,
+   "baseMin": 1,
+   "baseMax": 1,
+   "xp": 6.0,
+   "pest": "slug",
+   "blocks": [
+    "red_mushroom",
+    "brown_mushroom"
+   ],
+   "organic": 1.0,
+   "milestones": [
+    30,
+    50,
+    80,
+    200,
+    350,
+    700,
+    1500,
+    2500,
+    3500,
+    5000,
+    6500,
+    8000,
+    10000,
+    20000,
+    35000,
+    50000,
+    75000,
+    100000,
+    175000,
+    250000,
+    375000,
+    400000,
+    450000,
+    650000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000
+   ],
+   "personalBest": 100
+  },
+  {
+   "key": "NETHER_WART",
+   "name": "Nether Wart",
+   "color": "&4",
+   "item": "NETHER_STALK",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_NETHER_STALK",
+   "level": 10,
+   "baseMin": 2,
+   "baseMax": 3,
+   "xp": 4.0,
+   "pest": "beetle",
+   "blocks": [
+    "nether_wart"
+   ],
+   "organic": 0.33,
+   "milestones": [
+    90,
+    150,
+    240,
+    600,
+    1050,
+    2100,
+    4500,
+    7500,
+    10500,
+    15000,
+    19500,
+    24000,
+    30000,
+    60000,
+    105000,
+    150000,
+    225000,
+    300000,
+    525000,
+    750000,
+    1125000,
+    1200000,
+    1350000,
+    1950000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000,
+    2400000
+   ],
+   "personalBest": 300
+  },
+  {
+   "key": "SUNFLOWER",
+   "name": "Sunflower",
+   "color": "&e",
+   "item": "DOUBLE_PLANT",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_SUNFLOWER",
+   "level": 11,
+   "baseMin": 2,
+   "baseMax": 2,
+   "xp": 4.0,
+   "pest": "dragonfly",
+   "blocks": [
+    "sunflower"
+   ],
+   "organic": 0.5,
+   "milestones": [
+    30,
+    50,
+    80,
+    200,
+    350,
+    700,
+    1500,
+    2500,
+    3500,
+    5000,
+    6500,
+    8000,
+    10000,
+    20000,
+    35000,
+    50000,
+    75000,
+    100000,
+    175000,
+    250000,
+    375000,
+    400000,
+    450000,
+    650000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000
+   ],
+   "personalBest": 200
+  },
+  {
+   "key": "MOONFLOWER",
+   "name": "Moonflower",
+   "color": "&9",
+   "item": "MOONFLOWER",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_MOONFLOWER",
+   "level": 11,
+   "baseMin": 2,
+   "baseMax": 2,
+   "xp": 4.0,
+   "pest": "firefly",
+   "blocks": [
+    "blue_orchid"
+   ],
+   "organic": 0.5,
+   "milestones": [
+    30,
+    50,
+    80,
+    200,
+    700,
+    700,
+    1500,
+    2500,
+    3500,
+    5000,
+    6500,
+    8000,
+    10000,
+    20000,
+    35000,
+    50000,
+    75000,
+    100000,
+    175000,
+    250000,
+    375000,
+    400000,
+    450000,
+    650000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000,
+    800000
+   ],
+   "personalBest": 200
+  },
+  {
+   "key": "WILD_ROSE",
+   "name": "Wild Rose",
+   "color": "&c",
+   "item": "WILD_ROSE",
+   "extraItem": null,
+   "enchanted": "ENCHANTED_WILD_ROSE",
+   "level": 12,
+   "baseMin": 2,
+   "baseMax": 2,
+   "xp": 4.0,
+   "pest": "praying_mantis",
+   "blocks": [
+    "rose_bush"
+   ],
+   "organic": 0.5,
+   "milestones": [
+    60,
+    100,
+    160,
+    400,
+    700,
+    1400,
+    3000,
+    5000,
+    7000,
+    10000,
+    13000,
+    16000,
+    20000,
+    40000,
+    70000,
+    100000,
+    150000,
+    200000,
+    350000,
+    500000,
+    750000,
+    800000,
+    900000,
+    1300000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000,
+    1600000
+   ],
+   "personalBest": 200
+  }
+ ],
+ "plotSize": 96,
+ "plots": [
+  {
+   "id": "beginner_2",
+   "number": 1,
+   "col": 2,
+   "row": 1,
+   "group": "beginner"
+  },
+  {
+   "id": "beginner_1",
+   "number": 2,
+   "col": 1,
+   "row": 2,
+   "group": "beginner"
+  },
+  {
+   "id": "beginner_4",
+   "number": 3,
+   "col": 3,
+   "row": 2,
+   "group": "beginner"
+  },
+  {
+   "id": "beginner_3",
+   "number": 4,
+   "col": 2,
+   "row": 3,
+   "group": "beginner"
+  },
+  {
+   "id": "intermediate_1",
+   "number": 5,
+   "col": 1,
+   "row": 1,
+   "group": "intermediate"
+  },
+  {
+   "id": "intermediate_3",
+   "number": 6,
+   "col": 3,
+   "row": 1,
+   "group": "intermediate"
+  },
+  {
+   "id": "intermediate_2",
+   "number": 7,
+   "col": 1,
+   "row": 3,
+   "group": "intermediate"
+  },
+  {
+   "id": "intermediate_4",
+   "number": 8,
+   "col": 3,
+   "row": 3,
+   "group": "intermediate"
+  },
+  {
+   "id": "advanced_6",
+   "number": 9,
+   "col": 2,
+   "row": 0,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_2",
+   "number": 10,
+   "col": 0,
+   "row": 2,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_11",
+   "number": 11,
+   "col": 4,
+   "row": 2,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_7",
+   "number": 12,
+   "col": 2,
+   "row": 4,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_4",
+   "number": 13,
+   "col": 1,
+   "row": 0,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_8",
+   "number": 14,
+   "col": 3,
+   "row": 0,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_1",
+   "number": 15,
+   "col": 0,
+   "row": 1,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_10",
+   "number": 16,
+   "col": 4,
+   "row": 1,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_3",
+   "number": 17,
+   "col": 0,
+   "row": 3,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_12",
+   "number": 18,
+   "col": 4,
+   "row": 3,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_5",
+   "number": 19,
+   "col": 1,
+   "row": 4,
+   "group": "advanced"
+  },
+  {
+   "id": "advanced_9",
+   "number": 20,
+   "col": 3,
+   "row": 4,
+   "group": "advanced"
+  },
+  {
+   "id": "expert_1",
+   "number": 21,
+   "col": 0,
+   "row": 0,
+   "group": "expert"
+  },
+  {
+   "id": "expert_3",
+   "number": 22,
+   "col": 4,
+   "row": 0,
+   "group": "expert"
+  },
+  {
+   "id": "expert_2",
+   "number": 23,
+   "col": 0,
+   "row": 4,
+   "group": "expert"
+  },
+  {
+   "id": "expert_4",
+   "number": 24,
+   "col": 4,
+   "row": 4,
+   "group": "expert"
+  }
+ ],
+ "plotGroups": [
+  {
+   "id": "beginner",
+   "name": "Beginner",
+   "level": 1,
+   "costs": [
+    {
+     "item": "COMPOST",
+     "amount": 1
+    },
+    {
+     "item": "COMPOST",
+     "amount": 2
+    },
+    {
+     "item": "COMPOST",
+     "amount": 4
+    },
+    {
+     "item": "COMPOST",
+     "amount": 8
+    }
+   ]
+  },
+  {
+   "id": "intermediate",
+   "name": "Intermediate",
+   "level": 3,
+   "costs": [
+    {
+     "item": "COMPOST",
+     "amount": 16
+    },
+    {
+     "item": "COMPOST",
+     "amount": 24
+    },
+    {
+     "item": "COMPOST",
+     "amount": 32
+    },
+    {
+     "item": "COMPOST",
+     "amount": 48
+    }
+   ]
+  },
+  {
+   "id": "advanced",
+   "name": "Advanced",
+   "level": 5,
+   "costs": [
+    {
+     "item": "COMPOST",
+     "amount": 64
+    },
+    {
+     "item": "COMPOST",
+     "amount": 96
+    },
+    {
+     "item": "COMPOST",
+     "amount": 128
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 1
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 1
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 2
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 2
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 3
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 3
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 4
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 5
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 7
+    }
+   ]
+  },
+  {
+   "id": "expert",
+   "name": "Expert",
+   "level": 7,
+   "costs": [
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 8
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 10
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 12
+    },
+    {
+     "item": "ENCHANTED_COMPOST",
+     "amount": 15
+    }
+   ]
+  }
+ ],
+ "cropUpgrades": {
+  "copper": [
+   5,
+   10,
+   20,
+   50,
+   100,
+   500,
+   1000,
+   2000,
+   4000
+  ],
+  "levels": [
+   2,
+   4,
+   6,
+   8,
+   10,
+   12,
+   13,
+   14,
+   15
+  ],
+  "fortunePerTier": 5
+ },
+ "composter": {
+  "intervalSeconds": 600,
+  "organicPer": 4000,
+  "fuelPer": 2000,
+  "organicCap": 40000,
+  "fuelCap": 100000,
+  "upgrades": [
+   {
+    "id": "speed",
+    "name": "Composter Speed",
+    "level": 2,
+    "desc": "&7Makes compost &a{}% &7faster.",
+    "tiers": [
+     {
+      "value": 20,
+      "copper": 100,
+      "items": {
+       "ENCHANTED_WHEAT": 128
+      }
+     },
+     {
+      "value": 40,
+      "copper": 150,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 2
+      }
+     },
+     {
+      "value": 60,
+      "copper": 200,
+      "items": {
+       "ENCHANTED_WHEAT": 256
+      }
+     },
+     {
+      "value": 80,
+      "copper": 250,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 4
+      }
+     },
+     {
+      "value": 100,
+      "copper": 300,
+      "items": {
+       "ENCHANTED_WHEAT": 512
+      }
+     },
+     {
+      "value": 120,
+      "copper": 350,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 8
+      }
+     },
+     {
+      "value": 140,
+      "copper": 400,
+      "items": {
+       "ENCHANTED_HAY_BALE": 8
+      }
+     },
+     {
+      "value": 160,
+      "copper": 500,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 16,
+       "CROPIE": 3
+      }
+     },
+     {
+      "value": 180,
+      "copper": 600,
+      "items": {
+       "ENCHANTED_HAY_BALE": 12,
+       "CROPIE": 6
+      }
+     },
+     {
+      "value": 200,
+      "copper": 700,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 32,
+       "CROPIE": 12
+      }
+     },
+     {
+      "value": 220,
+      "copper": 800,
+      "items": {
+       "ENCHANTED_HAY_BALE": 16,
+       "CROPIE": 24
+      }
+     },
+     {
+      "value": 240,
+      "copper": 900,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 40,
+       "CROPIE": 48
+      }
+     },
+     {
+      "value": 260,
+      "copper": 1000,
+      "items": {
+       "ENCHANTED_HAY_BALE": 24,
+       "CROPIE": 96
+      }
+     },
+     {
+      "value": 280,
+      "copper": 1200,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 48,
+       "SQUASH": 3
+      }
+     },
+     {
+      "value": 300,
+      "copper": 1400,
+      "items": {
+       "ENCHANTED_HAY_BALE": 32,
+       "SQUASH": 6
+      }
+     },
+     {
+      "value": 320,
+      "copper": 1600,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 64,
+       "SQUASH": 12
+      }
+     },
+     {
+      "value": 340,
+      "copper": 1800,
+      "items": {
+       "ENCHANTED_HAY_BALE": 40,
+       "SQUASH": 24
+      }
+     },
+     {
+      "value": 360,
+      "copper": 2000,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 96,
+       "SQUASH": 48
+      }
+     },
+     {
+      "value": 380,
+      "copper": 2250,
+      "items": {
+       "ENCHANTED_HAY_BALE": 48,
+       "SQUASH": 96
+      }
+     },
+     {
+      "value": 400,
+      "copper": 2500,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 128,
+       "FERMENTO": 3
+      }
+     },
+     {
+      "value": 420,
+      "copper": 2750,
+      "items": {
+       "ENCHANTED_HAY_BALE": 64,
+       "FERMENTO": 6
+      }
+     },
+     {
+      "value": 440,
+      "copper": 3000,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 192,
+       "FERMENTO": 12
+      }
+     },
+     {
+      "value": 460,
+      "copper": 3300,
+      "items": {
+       "ENCHANTED_HAY_BALE": 96,
+       "CONDENSED_FERMENTO": 2
+      }
+     },
+     {
+      "value": 480,
+      "copper": 3600,
+      "items": {
+       "ENCHANTED_GOLDEN_CARROT": 256,
+       "CONDENSED_FERMENTO": 4
+      }
+     },
+     {
+      "value": 500,
+      "copper": 4000,
+      "items": {
+       "ENCHANTED_HAY_BALE": 128,
+       "CONDENSED_FERMENTO": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "multi_drop",
+    "name": "Multi Drop",
+    "level": 4,
+    "desc": "&a{}% &7chance to squeeze out an extra compost.",
+    "tiers": [
+     {
+      "value": 3,
+      "copper": 100,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 1
+      }
+     },
+     {
+      "value": 6,
+      "copper": 150,
+      "items": {
+       "ENCHANTED_PUMPKIN": 64
+      }
+     },
+     {
+      "value": 9,
+      "copper": 200,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 2
+      }
+     },
+     {
+      "value": 12,
+      "copper": 250,
+      "items": {
+       "POLISHED_PUMPKIN": 1
+      }
+     },
+     {
+      "value": 15,
+      "copper": 300,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 4
+      }
+     },
+     {
+      "value": 18,
+      "copper": 350,
+      "items": {
+       "POLISHED_PUMPKIN": 2
+      }
+     },
+     {
+      "value": 21,
+      "copper": 400,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 8
+      }
+     },
+     {
+      "value": 24,
+      "copper": 500,
+      "items": {
+       "POLISHED_PUMPKIN": 4,
+       "CROPIE": 3
+      }
+     },
+     {
+      "value": 27,
+      "copper": 600,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 16,
+       "CROPIE": 6
+      }
+     },
+     {
+      "value": 30,
+      "copper": 700,
+      "items": {
+       "POLISHED_PUMPKIN": 8,
+       "CROPIE": 12
+      }
+     },
+     {
+      "value": 33,
+      "copper": 800,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 32,
+       "CROPIE": 24
+      }
+     },
+     {
+      "value": 36,
+      "copper": 900,
+      "items": {
+       "POLISHED_PUMPKIN": 16,
+       "CROPIE": 48
+      }
+     },
+     {
+      "value": 39,
+      "copper": 1000,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 48,
+       "CROPIE": 96
+      }
+     },
+     {
+      "value": 42,
+      "copper": 1200,
+      "items": {
+       "POLISHED_PUMPKIN": 24,
+       "SQUASH": 3
+      }
+     },
+     {
+      "value": 45,
+      "copper": 1400,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 64,
+       "SQUASH": 6
+      }
+     },
+     {
+      "value": 48,
+      "copper": 1600,
+      "items": {
+       "POLISHED_PUMPKIN": 32,
+       "SQUASH": 12
+      }
+     },
+     {
+      "value": 51,
+      "copper": 1800,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 80,
+       "SQUASH": 24
+      }
+     },
+     {
+      "value": 54,
+      "copper": 2000,
+      "items": {
+       "POLISHED_PUMPKIN": 48,
+       "SQUASH": 48
+      }
+     },
+     {
+      "value": 57,
+      "copper": 2250,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 112,
+       "SQUASH": 96
+      }
+     },
+     {
+      "value": 60,
+      "copper": 2500,
+      "items": {
+       "POLISHED_PUMPKIN": 64,
+       "FERMENTO": 3
+      }
+     },
+     {
+      "value": 63,
+      "copper": 2750,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 144,
+       "FERMENTO": 6
+      }
+     },
+     {
+      "value": 66,
+      "copper": 3000,
+      "items": {
+       "POLISHED_PUMPKIN": 96,
+       "FERMENTO": 12
+      }
+     },
+     {
+      "value": 69,
+      "copper": 3300,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 176,
+       "CONDENSED_FERMENTO": 2
+      }
+     },
+     {
+      "value": 72,
+      "copper": 3600,
+      "items": {
+       "POLISHED_PUMPKIN": 128,
+       "CONDENSED_FERMENTO": 4
+      }
+     },
+     {
+      "value": 75,
+      "copper": 4000,
+      "items": {
+       "ENCHANTED_BAKED_POTATO": 224,
+       "CONDENSED_FERMENTO": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "fuel_cap",
+    "name": "Fuel Cap",
+    "level": 6,
+    "desc": "&7Holds up to &a{} &7fuel.",
+    "tiers": [
+     {
+      "value": 130000,
+      "copper": 100,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 1
+      }
+     },
+     {
+      "value": 160000,
+      "copper": 150,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 4
+      }
+     },
+     {
+      "value": 190000,
+      "copper": 200,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 2
+      }
+     },
+     {
+      "value": 220000,
+      "copper": 250,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 8
+      }
+     },
+     {
+      "value": 250000,
+      "copper": 300,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 4
+      }
+     },
+     {
+      "value": 280000,
+      "copper": 350,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 16
+      }
+     },
+     {
+      "value": 310000,
+      "copper": 400,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 8
+      }
+     },
+     {
+      "value": 340000,
+      "copper": 500,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 32,
+       "CROPIE": 3
+      }
+     },
+     {
+      "value": 370000,
+      "copper": 600,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 16,
+       "CROPIE": 6
+      }
+     },
+     {
+      "value": 400000,
+      "copper": 700,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 40,
+       "CROPIE": 12
+      }
+     },
+     {
+      "value": 430000,
+      "copper": 800,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 32,
+       "CROPIE": 24
+      }
+     },
+     {
+      "value": 460000,
+      "copper": 900,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 48,
+       "CROPIE": 48
+      }
+     },
+     {
+      "value": 490000,
+      "copper": 1000,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 40,
+       "CROPIE": 96
+      }
+     },
+     {
+      "value": 520000,
+      "copper": 1200,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 64,
+       "SQUASH": 3
+      }
+     },
+     {
+      "value": 550000,
+      "copper": 1400,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 48,
+       "SQUASH": 6
+      }
+     },
+     {
+      "value": 580000,
+      "copper": 1600,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 96,
+       "SQUASH": 12
+      }
+     },
+     {
+      "value": 610000,
+      "copper": 1800,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 64,
+       "SQUASH": 24
+      }
+     },
+     {
+      "value": 640000,
+      "copper": 2000,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 128,
+       "SQUASH": 48
+      }
+     },
+     {
+      "value": 670000,
+      "copper": 2250,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 96,
+       "SQUASH": 96
+      }
+     },
+     {
+      "value": 700000,
+      "copper": 2500,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 192,
+       "FERMENTO": 3
+      }
+     },
+     {
+      "value": 730000,
+      "copper": 2750,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 144,
+       "FERMENTO": 6
+      }
+     },
+     {
+      "value": 760000,
+      "copper": 3000,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 288,
+       "FERMENTO": 12
+      }
+     },
+     {
+      "value": 790000,
+      "copper": 3300,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 192,
+       "CONDENSED_FERMENTO": 2
+      }
+     },
+     {
+      "value": 820000,
+      "copper": 3600,
+      "items": {
+       "ENCHANTED_MELON_BLOCK": 384,
+       "CONDENSED_FERMENTO": 4
+      }
+     },
+     {
+      "value": 850000,
+      "copper": 4000,
+      "items": {
+       "ENCHANTED_SUGAR_CANE": 256,
+       "CONDENSED_FERMENTO": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "organic_matter_cap",
+    "name": "Organic Matter Cap",
+    "level": 8,
+    "desc": "&7Holds up to &a{} &7organic matter.",
+    "tiers": [
+     {
+      "value": 70000,
+      "copper": 100,
+      "items": {
+       "ENCHANTED_CACTUS": 1
+      }
+     },
+     {
+      "value": 100000,
+      "copper": 150,
+      "items": {
+       "ENCHANTED_COOKIE": 3
+      }
+     },
+     {
+      "value": 130000,
+      "copper": 200,
+      "items": {
+       "ENCHANTED_CACTUS": 2
+      }
+     },
+     {
+      "value": 160000,
+      "copper": 250,
+      "items": {
+       "ENCHANTED_COOKIE": 6
+      }
+     },
+     {
+      "value": 190000,
+      "copper": 300,
+      "items": {
+       "ENCHANTED_CACTUS": 4
+      }
+     },
+     {
+      "value": 220000,
+      "copper": 350,
+      "items": {
+       "ENCHANTED_COOKIE": 12
+      }
+     },
+     {
+      "value": 250000,
+      "copper": 400,
+      "items": {
+       "ENCHANTED_CACTUS": 7
+      }
+     },
+     {
+      "value": 280000,
+      "copper": 500,
+      "items": {
+       "ENCHANTED_COOKIE": 24,
+       "CROPIE": 3
+      }
+     },
+     {
+      "value": 310000,
+      "copper": 600,
+      "items": {
+       "ENCHANTED_CACTUS": 10,
+       "CROPIE": 6
+      }
+     },
+     {
+      "value": 340000,
+      "copper": 700,
+      "items": {
+       "ENCHANTED_COOKIE": 48,
+       "CROPIE": 12
+      }
+     },
+     {
+      "value": 370000,
+      "copper": 800,
+      "items": {
+       "ENCHANTED_CACTUS": 16,
+       "CROPIE": 24
+      }
+     },
+     {
+      "value": 400000,
+      "copper": 900,
+      "items": {
+       "ENCHANTED_COOKIE": 64,
+       "CROPIE": 48
+      }
+     },
+     {
+      "value": 430000,
+      "copper": 1000,
+      "items": {
+       "ENCHANTED_CACTUS": 24,
+       "CROPIE": 96
+      }
+     },
+     {
+      "value": 460000,
+      "copper": 1200,
+      "items": {
+       "ENCHANTED_COOKIE": 96,
+       "SQUASH": 3
+      }
+     },
+     {
+      "value": 490000,
+      "copper": 1400,
+      "items": {
+       "ENCHANTED_CACTUS": 32,
+       "SQUASH": 6
+      }
+     },
+     {
+      "value": 520000,
+      "copper": 1600,
+      "items": {
+       "ENCHANTED_COOKIE": 128,
+       "SQUASH": 12
+      }
+     },
+     {
+      "value": 550000,
+      "copper": 1800,
+      "items": {
+       "ENCHANTED_CACTUS": 40,
+       "SQUASH": 24
+      }
+     },
+     {
+      "value": 580000,
+      "copper": 2000,
+      "items": {
+       "ENCHANTED_COOKIE": 160,
+       "SQUASH": 48
+      }
+     },
+     {
+      "value": 610000,
+      "copper": 2250,
+      "items": {
+       "ENCHANTED_CACTUS": 48,
+       "SQUASH": 96
+      }
+     },
+     {
+      "value": 640000,
+      "copper": 2500,
+      "items": {
+       "ENCHANTED_COOKIE": 208,
+       "FERMENTO": 3
+      }
+     },
+     {
+      "value": 670000,
+      "copper": 2750,
+      "items": {
+       "ENCHANTED_CACTUS": 64,
+       "FERMENTO": 6
+      }
+     },
+     {
+      "value": 700000,
+      "copper": 3000,
+      "items": {
+       "ENCHANTED_COOKIE": 256,
+       "FERMENTO": 12
+      }
+     },
+     {
+      "value": 730000,
+      "copper": 3300,
+      "items": {
+       "ENCHANTED_CACTUS": 96,
+       "CONDENSED_FERMENTO": 2
+      }
+     },
+     {
+      "value": 760000,
+      "copper": 3600,
+      "items": {
+       "ENCHANTED_COOKIE": 320,
+       "CONDENSED_FERMENTO": 4
+      }
+     },
+     {
+      "value": 790000,
+      "copper": 4000,
+      "items": {
+       "ENCHANTED_CACTUS": 128,
+       "CONDENSED_FERMENTO": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "cost_reduction",
+    "name": "Cost Reduction",
+    "level": 10,
+    "desc": "&7Each compost uses &a{}% &7less matter and fuel.",
+    "tiers": [
+     {
+      "value": 1,
+      "copper": 100,
+      "items": {
+       "ENCHANTED_BROWN_MUSHROOM": 32
+      }
+     },
+     {
+      "value": 2,
+      "copper": 150,
+      "items": {
+       "MUTANT_NETHER_STALK": 1
+      }
+     },
+     {
+      "value": 3,
+      "copper": 200,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 2
+      }
+     },
+     {
+      "value": 4,
+      "copper": 250,
+      "items": {
+       "MUTANT_NETHER_STALK": 2
+      }
+     },
+     {
+      "value": 5,
+      "copper": 300,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 4
+      }
+     },
+     {
+      "value": 6,
+      "copper": 350,
+      "items": {
+       "MUTANT_NETHER_STALK": 4
+      }
+     },
+     {
+      "value": 7,
+      "copper": 400,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 8
+      }
+     },
+     {
+      "value": 8,
+      "copper": 500,
+      "items": {
+       "MUTANT_NETHER_STALK": 8,
+       "CROPIE": 3
+      }
+     },
+     {
+      "value": 9,
+      "copper": 600,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 16,
+       "CROPIE": 6
+      }
+     },
+     {
+      "value": 10,
+      "copper": 700,
+      "items": {
+       "MUTANT_NETHER_STALK": 16,
+       "CROPIE": 12
+      }
+     },
+     {
+      "value": 11,
+      "copper": 800,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 24,
+       "CROPIE": 24
+      }
+     },
+     {
+      "value": 12,
+      "copper": 900,
+      "items": {
+       "MUTANT_NETHER_STALK": 32,
+       "CROPIE": 48
+      }
+     },
+     {
+      "value": 13,
+      "copper": 1000,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 32,
+       "CROPIE": 96
+      }
+     },
+     {
+      "value": 14,
+      "copper": 1200,
+      "items": {
+       "MUTANT_NETHER_STALK": 48,
+       "SQUASH": 3
+      }
+     },
+     {
+      "value": 15,
+      "copper": 1400,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 48,
+       "SQUASH": 6
+      }
+     },
+     {
+      "value": 16,
+      "copper": 1600,
+      "items": {
+       "MUTANT_NETHER_STALK": 64,
+       "SQUASH": 12
+      }
+     },
+     {
+      "value": 17,
+      "copper": 1800,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 64,
+       "SQUASH": 24
+      }
+     },
+     {
+      "value": 18,
+      "copper": 2000,
+      "items": {
+       "MUTANT_NETHER_STALK": 80,
+       "SQUASH": 48
+      }
+     },
+     {
+      "value": 19,
+      "copper": 2250,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 96,
+       "SQUASH": 96
+      }
+     },
+     {
+      "value": 20,
+      "copper": 2500,
+      "items": {
+       "MUTANT_NETHER_STALK": 112,
+       "FERMENTO": 3
+      }
+     },
+     {
+      "value": 21,
+      "copper": 2750,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 128,
+       "FERMENTO": 6
+      }
+     },
+     {
+      "value": 22,
+      "copper": 3000,
+      "items": {
+       "MUTANT_NETHER_STALK": 160,
+       "FERMENTO": 12
+      }
+     },
+     {
+      "value": 23,
+      "copper": 3300,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_2": 160,
+       "CONDENSED_FERMENTO": 2
+      }
+     },
+     {
+      "value": 24,
+      "copper": 3600,
+      "items": {
+       "MUTANT_NETHER_STALK": 224,
+       "CONDENSED_FERMENTO": 4
+      }
+     },
+     {
+      "value": 25,
+      "copper": 4000,
+      "items": {
+       "ENCHANTED_HUGE_MUSHROOM_1": 192,
+       "CONDENSED_FERMENTO": 8
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "organic": {
+  "CROPIE": 2500.0,
+  "SQUASH": 10000.0,
+  "FERMENTO": 20000.0,
+  "HELIANTHUS": 30000.0,
+  "FLOWERING_BOUQUET": 6000.0,
+  "WHEAT": 1.0,
+  "CARROT_ITEM": 0.29,
+  "POTATO_ITEM": 0.33,
+  "PUMPKIN": 1.0,
+  "MELON": 0.2,
+  "RED_MUSHROOM": 1.0,
+  "INK_SACK:3": 0.4,
+  "INK_SACK:2": 0.5,
+  "SUGAR_CANE": 0.5,
+  "NETHER_STALK": 0.33,
+  "SEEDS": 1.0,
+  "BROWN_MUSHROOM": 1.0,
+  "CACTUS": 0.5,
+  "POISONOUS_POTATO": 0.33,
+  "MELON_BLOCK": 1.8,
+  "DOUBLE_PLANT": 0.5,
+  "WILD_ROSE": 0.5,
+  "ENCHANTED_WHEAT": 160.0,
+  "ENCHANTED_CARROT": 46.4,
+  "ENCHANTED_POTATO": 52.8,
+  "ENCHANTED_PUMPKIN": 160.0,
+  "ENCHANTED_SUGAR": 80.0,
+  "ENCHANTED_MELON": 32.0,
+  "ENCHANTED_CACTUS_GREEN": 80.0,
+  "ENCHANTED_COCOA": 64.0,
+  "ENCHANTED_RED_MUSHROOM": 160.0,
+  "ENCHANTED_NETHER_STALK": 52.8,
+  "ENCHANTED_SUNFLOWER": 80.0,
+  "ENCHANTED_MOONFLOWER": 80.0,
+  "ENCHANTED_WILD_ROSE": 80.0,
+  "ENCHANTED_SEEDS": 160.0,
+  "BOX_OF_SEEDS": 25600.0,
+  "ENCHANTED_HAY_BALE": 1440.0,
+  "HAY_BLOCK": 9.0,
+  "ENCHANTED_BROWN_MUSHROOM": 160.0,
+  "ENCHANTED_CACTUS": 12800.0,
+  "ENCHANTED_SUGAR_CANE": 12800.0,
+  "ENCHANTED_GOLDEN_CARROT": 5939.2,
+  "ENCHANTED_BAKED_POTATO": 8448.0,
+  "ENCHANTED_MELON_BLOCK": 5120.0,
+  "MUTANT_NETHER_STALK": 8448.0,
+  "ENCHANTED_COOKIE": 8192.0,
+  "POLISHED_PUMPKIN": 25600.0,
+  "COMPACTED_SUNFLOWER": 12800.0,
+  "COMPACTED_MOONFLOWER": 12800.0,
+  "COMPACTED_WILD_ROSE": 12800.0,
+  "CONDENSED_FERMENTO": 180000.0,
+  "CONDENSED_HELIANTHUS": 270000.0
+ },
+ "fuel": {
+  "BIOFUEL": 3000,
+  "VOLTA": 10000,
+  "OIL_BARREL": 10000,
+  "SUNFLOWER_OIL": 20000,
+  "ENCHANTED_COAL": 1000,
+  "ENCHANTED_COAL_BLOCK": 10000
+ },
+ "uniqueVisitorMilestones": [
+  1,
+  2,
+  3,
+  5,
+  7,
+  10,
+  13,
+  16,
+  20,
+  24,
+  28,
+  32,
+  36,
+  40,
+  45,
+  50,
+  55,
+  60,
+  65,
+  70,
+  75,
+  80,
+  85,
+  90,
+  95,
+  100,
+  105,
+  110,
+  115,
+  120,
+  125,
+  130
+ ],
+ "acceptedMilestones": [
+  1,
+  5,
+  10,
+  25,
+  50,
+  100,
+  200,
+  300,
+  500,
+  750,
+  1000
+ ],
+ "barnSkins": [
+  {
+   "id": "default",
+   "name": "Default",
+   "icon": "OAK_PLANKS",
+   "source": "free"
+  },
+  {
+   "id": "medieval",
+   "name": "Medieval",
+   "icon": "SPRUCE_LOG",
+   "source": "level:5"
+  },
+  {
+   "id": "red",
+   "name": "Red",
+   "icon": "RED_TERRACOTTA",
+   "source": "level:10"
+  },
+  {
+   "id": "sunny",
+   "name": "Sunny",
+   "icon": "RED_SANDSTONE",
+   "source": "level:15"
+  },
+  {
+   "id": "cabin",
+   "name": "Cabin",
+   "icon": "STRIPPED_SPRUCE_LOG",
+   "source": "unique:50"
+  },
+  {
+   "id": "mansion_heights",
+   "name": "Mansion Heights",
+   "icon": "QUARTZ_BLOCK",
+   "source": "unique:100"
+  },
+  {
+   "id": "trading_post",
+   "name": "Trading Post",
+   "icon": "OAK_FENCE",
+   "source": "copper:1000"
+  },
+  {
+   "id": "autumn_hut",
+   "name": "Autumn Hut",
+   "icon": "ORANGE_TERRACOTTA",
+   "source": "copper:2000"
+  },
+  {
+   "id": "cozy_cottage",
+   "name": "Cozy Cottage",
+   "icon": "HAY_BLOCK",
+   "source": "copper:2500"
+  },
+  {
+   "id": "tavern",
+   "name": "Tavern",
+   "icon": "DARK_OAK_LOG",
+   "source": "copper:2500"
+  },
+  {
+   "id": "bamboo",
+   "name": "Bamboo",
+   "icon": "BAMBOO_BLOCK",
+   "source": "copper:7500"
+  },
+  {
+   "id": "melon",
+   "name": "Melon",
+   "icon": "MELON",
+   "source": "copper:9500"
+  },
+  {
+   "id": "hive",
+   "name": "Hive",
+   "icon": "HONEYCOMB_BLOCK",
+   "source": "copper:10000"
+  },
+  {
+   "id": "castle",
+   "name": "Castle",
+   "icon": "STONE_BRICKS",
+   "source": "copper:15000"
+  },
+  {
+   "id": "mushroom",
+   "name": "Mushroom",
+   "icon": "RED_MUSHROOM_BLOCK",
+   "source": "milestone:MUSHROOM:20"
+  },
+  {
+   "id": "winter_barn",
+   "name": "Winter Barn",
+   "icon": "SNOW_BLOCK",
+   "source": "milestone:WHEAT:25"
+  },
+  {
+   "id": "sand_castle",
+   "name": "Sand Castle",
+   "icon": "SANDSTONE",
+   "source": "milestone:CACTUS:20"
+  },
+  {
+   "id": "the_end",
+   "name": "The End",
+   "icon": "END_STONE_BRICKS",
+   "source": "milestone:NETHER_WART:25"
+  },
+  {
+   "id": "pestwarden_lair",
+   "name": "Pestwarden's Lair",
+   "icon": "MOSSY_COBBLESTONE",
+   "source": "pesthunter:1500"
+  }
+ ],
+ "pests": {
+  "pests": [
+   {
+    "id": "fly",
+    "name": "Fly",
+    "crops": [
+     "WHEAT"
+    ],
+    "level": 5,
+    "attractants": [
+     "DUNG"
+    ],
+    "mob": "garden_pest_fly",
+    "signature": [
+     "BEADY_EYES",
+     "VINYL_PRETTY_FLY"
+    ],
+    "cropBase": 1,
+    "cropScale": 52.5,
+    "rareCrop": "CORNUCOPIA",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "cricket",
+    "name": "Cricket",
+    "crops": [
+     "CARROT"
+    ],
+    "level": 5,
+    "attractants": [
+     "HONEY_JAR"
+    ],
+    "mob": "garden_pest_cricket",
+    "signature": [
+     "CHIRPING_STEREO",
+     "VINYL_CRICKET_CHOIR"
+    ],
+    "cropBase": 3,
+    "cropScale": 15.75,
+    "rareCrop": "CARROT_ZEST",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "locust",
+    "name": "Locust",
+    "crops": [
+     "POTATO"
+    ],
+    "level": 5,
+    "attractants": [
+     "PLANT_MATTER"
+    ],
+    "mob": "garden_pest_locust",
+    "signature": [
+     "LOCUST_LARVA",
+     "VINYL_CICADA_SYMPHONY"
+    ],
+    "cropBase": 3,
+    "cropScale": 15.75,
+    "rareCrop": "DEEPFRIES",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "rat",
+    "name": "Rat",
+    "crops": [
+     "PUMPKIN"
+    ],
+    "level": 5,
+    "attractants": [
+     "CHEESE_FUEL"
+    ],
+    "mob": "garden_pest_rat",
+    "signature": [
+     "RAT;4",
+     "VINYL_RODENT_REVOLUTION"
+    ],
+    "cropBase": 1,
+    "cropScale": 52.5,
+    "rareCrop": "AGGOURDIAN",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "mosquito",
+    "name": "Mosquito",
+    "crops": [
+     "SUGAR_CANE"
+    ],
+    "level": 5,
+    "attractants": [
+     "COMPOST"
+    ],
+    "mob": "garden_pest_mosquito",
+    "signature": [
+     "CLIPPED_WINGS",
+     "VINYL_BUZZIN_BEATS"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": "CANE_KNOT",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "earthworm",
+    "name": "Earthworm",
+    "crops": [
+     "MELON"
+    ],
+    "level": 6,
+    "attractants": [
+     "COMPOST"
+    ],
+    "mob": "garden_pest_earthworm",
+    "signature": [
+     "BOOKWORM_BOOK",
+     "VINYL_EARTHWORM_ENSEMBLE"
+    ],
+    "cropBase": 5,
+    "cropScale": 10.5,
+    "rareCrop": "MELON_JUICE",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "mite",
+    "name": "Mite",
+    "crops": [
+     "CACTUS"
+    ],
+    "level": 7,
+    "attractants": [
+     "CHEESE_FUEL"
+    ],
+    "mob": "garden_pest_mite",
+    "signature": [
+     "ATMOSPHERIC_FILTER",
+     "VINYL_DYNAMITES"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": "CACTUS_FLOWER",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "moth",
+    "name": "Moth",
+    "crops": [
+     "COCOA_BEANS"
+    ],
+    "level": 8,
+    "attractants": [
+     "HONEY_JAR"
+    ],
+    "mob": "garden_pest_moth",
+    "signature": [
+     "WRIGGLING_LARVA",
+     "VINYL_WINGS_OF_HARMONY"
+    ],
+    "cropBase": 3,
+    "cropScale": 18.0,
+    "rareCrop": "DESIGNER_COFFEE_BEANS",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "slug",
+    "name": "Slug",
+    "crops": [
+     "MUSHROOM"
+    ],
+    "level": 9,
+    "attractants": [
+     "PLANT_MATTER"
+    ],
+    "mob": "garden_pest_slug",
+    "signature": [
+     "SLUG;3",
+     "SLUG;4",
+     "VINYL_SLOW_AND_GROOVY"
+    ],
+    "cropBase": 1,
+    "cropScale": 52.5,
+    "rareCrop": "FEASTFUNGUS",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "beetle",
+    "name": "Beetle",
+    "crops": [
+     "NETHER_WART"
+    ],
+    "level": 10,
+    "attractants": [
+     "DUNG"
+    ],
+    "mob": "garden_pest_beetle",
+    "signature": [
+     "ENCHANTMENT_PESTERMINATOR_1",
+     "VINYL_BEETLE"
+    ],
+    "cropBase": 3,
+    "cropScale": 18.0,
+    "rareCrop": "BOTROOT",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "dragonfly",
+    "name": "Dragonfly",
+    "crops": [
+     "SUNFLOWER"
+    ],
+    "level": 11,
+    "attractants": [
+     "JELLY"
+    ],
+    "mob": "garden_pest_dragonfly",
+    "signature": [
+     "VERMIN_VAPORIZER_GARDEN_CHIP",
+     "VINYL_IMAGINE_DRAGONFLIES"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": "SALTED_SUNFLOWER_SEEDS",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "firefly",
+    "name": "Firefly",
+    "crops": [
+     "MOONFLOWER"
+    ],
+    "level": 11,
+    "attractants": [
+     "JELLY"
+    ],
+    "mob": "garden_pest_firefly",
+    "signature": [
+     "FIRE_IN_A_BOTTLE",
+     "VINYL_FIREFLY"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": "CRYSTALIZED_MOONLIGHT",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": true
+   },
+   {
+    "id": "praying_mantis",
+    "name": "Praying Mantis",
+    "crops": [
+     "WILD_ROSE"
+    ],
+    "level": 12,
+    "attractants": [
+     "JELLY"
+    ],
+    "mob": "garden_pest_praying_mantis",
+    "signature": [
+     "MANTID_CLAW",
+     "VINYL_PRAY_FOR_ME"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": "FLORAL_GELATIN",
+    "rareChance": 0.15,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "lunar_moth",
+    "name": "Lunar Moth",
+    "crops": [
+     "SUNFLOWER",
+     "MOONFLOWER",
+     "WILD_ROSE"
+    ],
+    "level": 5,
+    "attractants": [
+     "MOONDEW"
+    ],
+    "mob": "garden_pest_lunar_moth",
+    "signature": [
+     "ENCHANTMENT_ULTIMATE_SUNSET_1"
+    ],
+    "cropBase": 2,
+    "cropScale": 26.25,
+    "rareCrop": null,
+    "rareChance": 0.0,
+    "xpMult": 1.0,
+    "nightOnly": false
+   },
+   {
+    "id": "field_mouse",
+    "name": "Field Mouse",
+    "crops": [],
+    "level": 5,
+    "attractants": [
+     "SQUEAKY_TOY",
+     "SQUEAKY_MOUSEMAT"
+    ],
+    "mob": "garden_pest_field_mouse",
+    "signature": [
+     "SQUEAKY_TOY",
+     "SQUEAKY_MOUSEMAT"
+    ],
+    "cropBase": 0,
+    "cropScale": 0,
+    "rareCrop": "RANDOM",
+    "rareChance": 0.3,
+    "xpMult": 4.0,
+    "nightOnly": false
+   }
+  ],
+  "penalty": [
+   [
+    0,
+    0,
+    0,
+    5,
+    15,
+    30,
+    50,
+    75,
+    100
+   ],
+   [
+    0,
+    0,
+    5,
+    15,
+    30,
+    50,
+    75,
+    100,
+    100
+   ],
+   [
+    0,
+    5,
+    15,
+    30,
+    50,
+    75,
+    100,
+    100,
+    100
+   ],
+   [
+    5,
+    15,
+    30,
+    50,
+    75,
+    100,
+    100,
+    100,
+    100
+   ],
+   [
+    15,
+    30,
+    50,
+    75,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   [
+    30,
+    50,
+    75,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  ],
+  "vacuums": [
+   {
+    "id": "SKYMART_VACUUM",
+    "range": 5.0,
+    "damage": 100,
+    "bpc": 0
+   },
+   {
+    "id": "SKYMART_TURBO_VACUUM",
+    "range": 7.5,
+    "damage": 150,
+    "bpc": 0
+   },
+   {
+    "id": "SKYMART_HYPER_VACUUM",
+    "range": 10.0,
+    "damage": 200,
+    "bpc": 0
+   },
+   {
+    "id": "INFINI_VACUUM",
+    "range": 12.5,
+    "damage": 300,
+    "bpc": 0
+   },
+   {
+    "id": "INFINI_VACUUM_HOOVERIUS",
+    "range": 15.0,
+    "damage": 400,
+    "bpc": 0
+   }
+  ],
+  "sprayers": [
+   {
+    "id": "SPRAYONATOR",
+    "minutes": 30,
+    "bpc": 25,
+    "mult": 1.5,
+    "uses": 1
+   },
+   {
+    "id": "JUICY_SPRAYONATOR",
+    "minutes": 45,
+    "bpc": 50,
+    "mult": 2.0,
+    "uses": 3
+   },
+   {
+    "id": "SALTY_SPRAYONATOR",
+    "minutes": 60,
+    "bpc": 75,
+    "mult": 3.0,
+    "uses": 5
+   }
+  ],
+  "traps": [
+   {
+    "id": "PEST_TRAP",
+    "capacity": 2,
+    "mouseMult": 1.0
+   },
+   {
+    "id": "MOUSE_PEST_TRAP",
+    "capacity": 3,
+    "mouseMult": 3.0
+   },
+   {
+    "id": "VERMIN_PEST_TRAP",
+    "capacity": 4,
+    "mouseMult": 4.0
+   }
+  ],
+  "universal": [
+   "COMPOST",
+   "HONEY_JAR",
+   "DUNG",
+   "PLANT_MATTER",
+   "CHEESE_FUEL",
+   "JELLY"
+  ],
+  "cropRows": {
+   "WHEAT": {
+    "base": 1,
+    "scale": 52.5
+   },
+   "CARROT": {
+    "base": 3,
+    "scale": 15.75
+   },
+   "POTATO": {
+    "base": 3,
+    "scale": 15.75
+   },
+   "PUMPKIN": {
+    "base": 1,
+    "scale": 52.5
+   },
+   "SUGAR_CANE": {
+    "base": 2,
+    "scale": 26.25
+   },
+   "MELON": {
+    "base": 5,
+    "scale": 10.5
+   },
+   "CACTUS": {
+    "base": 2,
+    "scale": 26.25
+   },
+   "COCOA_BEANS": {
+    "base": 3,
+    "scale": 18.0
+   },
+   "MUSHROOM": {
+    "base": 1,
+    "scale": 52.5
+   },
+   "NETHER_WART": {
+    "base": 3,
+    "scale": 18.0
+   },
+   "SUNFLOWER": {
+    "base": 2,
+    "scale": 26.25
+   },
+   "MOONFLOWER": {
+    "base": 2,
+    "scale": 26.25
+   },
+   "WILD_ROSE": {
+    "base": 2,
+    "scale": 26.25
+   }
+  },
+  "rareCrops": [
+   "CORNUCOPIA",
+   "CARROT_ZEST",
+   "DEEPFRIES",
+   "AGGOURDIAN",
+   "CANE_KNOT",
+   "MELON_JUICE",
+   "CACTUS_FLOWER",
+   "DESIGNER_COFFEE_BEANS",
+   "FEASTFUNGUS",
+   "BOTROOT",
+   "SALTED_SUNFLOWER_SEEDS",
+   "CRYSTALIZED_MOONLIGHT",
+   "FLORAL_GELATIN"
+  ]
+ },
+ "pesthunterShop": [
+  {
+   "item": "PEST_TRAP",
+   "pests": 50,
+   "tradeIn": {}
+  },
+  {
+   "item": "MOUSE_PEST_TRAP",
+   "pests": 75,
+   "tradeIn": {
+    "PEST_TRAP": 1
+   }
+  },
+  {
+   "item": "VERMIN_PEST_TRAP",
+   "pests": 200,
+   "tradeIn": {
+    "MOUSE_PEST_TRAP": 1,
+    "FIRE_IN_A_BOTTLE": 1
+   }
+  },
+  {
+   "item": "PESTHUNTERS_NECKLACE",
+   "pests": 40,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTERS_CLOAK",
+   "pests": 40,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTERS_BELT",
+   "pests": 40,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTERS_GLOVES",
+   "pests": 40,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTER_BADGE",
+   "pests": 25,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTER_RING",
+   "pests": 50,
+   "tradeIn": {
+    "PESTHUNTER_BADGE": 1
+   }
+  },
+  {
+   "item": "PESTHUNTER_ARTIFACT",
+   "pests": 100,
+   "tradeIn": {
+    "PESTHUNTER_RING": 1
+   }
+  },
+  {
+   "item": "PESTHUNTER_RELIC",
+   "pests": 200,
+   "tradeIn": {
+    "PESTHUNTER_ARTIFACT": 1
+   }
+  },
+  {
+   "item": "BIOHAZARD_HELMET",
+   "pests": 50,
+   "tradeIn": {}
+  },
+  {
+   "item": "BIOHAZARD_SUIT",
+   "pests": 80,
+   "tradeIn": {}
+  },
+  {
+   "item": "BIOHAZARD_LEGGINGS",
+   "pests": 70,
+   "tradeIn": {}
+  },
+  {
+   "item": "BIOHAZARD_BOOTS",
+   "pests": 40,
+   "tradeIn": {}
+  },
+  {
+   "item": "PESTHUNTING_GUIDE",
+   "pests": 500,
+   "tradeIn": {}
+  },
+  {
+   "item": "HEDGEHOG;4",
+   "pests": 500,
+   "tradeIn": {}
+  },
+  {
+   "item": "skin:pestwarden_lair",
+   "pests": 1500,
+   "tradeIn": {}
+  }
+ ],
+ "pesthunterBonus": {
+  "perPest": 5,
+  "maxPests": 40,
+  "minutes": 30
+ },
+ "sowdust": {
+  "halved": [
+   "SUGAR_CANE",
+   "CACTUS"
+  ],
+  "greenhouseMult": {
+   "WHEAT": 1,
+   "CARROT": 3.5,
+   "POTATO": 3,
+   "PUMPKIN": 0.85,
+   "SUGAR_CANE": 2,
+   "MELON": 4,
+   "CACTUS": 1.5,
+   "COCOA_BEANS": 2,
+   "MUSHROOM": 0.95,
+   "NETHER_WART": 3,
+   "SUNFLOWER": 2,
+   "MOONFLOWER": 2,
+   "WILD_ROSE": 2
+  },
+  "earthyPct": 5
+ },
+ "greenhouseSquash": {
+  "set": "CROPIE_",
+  "item": "SQUASH",
+  "pct": [
+   0,
+   0,
+   4,
+   8,
+   12
+  ]
+ },
+ "vinyls": {
+  "VINYL_PRETTY_FLY": "fly",
+  "VINYL_CRICKET_CHOIR": "cricket",
+  "VINYL_CICADA_SYMPHONY": "locust",
+  "VINYL_RODENT_REVOLUTION": "rat",
+  "VINYL_BUZZIN_BEATS": "mosquito",
+  "VINYL_EARTHWORM_ENSEMBLE": "earthworm",
+  "VINYL_DYNAMITES": "mite",
+  "VINYL_WINGS_OF_HARMONY": "moth",
+  "VINYL_SLOW_AND_GROOVY": "slug",
+  "VINYL_BEETLE": "beetle",
+  "VINYL_IMAGINE_DRAGONFLIES": "dragonfly",
+  "VINYL_FIREFLY": "firefly",
+  "VINYL_PRAY_FOR_ME": "praying_mantis"
+ },
+ "chips": {
+  "HYPERCHARGE_GARDEN_CHIP": {
+   "kind": "ff_buffs",
+   "per": 3,
+   "perRarity": [
+    3,
+    4,
+    5
+   ],
+   "name": "Surge Chip"
+  },
+  "QUICKDRAW_GARDEN_CHIP": {
+   "kind": "visitor_harvest",
+   "per": 1.5,
+   "perRarity": [
+    1.5,
+    2,
+    2.5
+   ],
+   "name": "Swiftpick Chip"
+  },
+  "OVERDRIVE_GARDEN_CHIP": {
+   "kind": "contest_fortune",
+   "per": 5,
+   "perRarity": [
+    5,
+    6,
+    7
+   ],
+   "name": "Redline Chip"
+  },
+  "SYNTHESIS_GARDEN_CHIP": {
+   "kind": "analyzer_copper",
+   "per": 1,
+   "perRarity": [
+    1,
+    1.5,
+    2
+   ],
+   "name": "Fusion Chip"
+  },
+  "EVERGREEN_GARDEN_CHIP": {
+   "kind": "greenhouse",
+   "per": 2,
+   "perRarity": [
+    2,
+    2.5,
+    3
+   ],
+   "name": "Perennial Chip"
+  },
+  "CROPSHOT_GARDEN_CHIP": {
+   "kind": "ff",
+   "per": 3,
+   "perRarity": [
+    3,
+    4,
+    5
+   ],
+   "name": "Harvest Shot Chip"
+  },
+  "RAREFINDER_GARDEN_CHIP": {
+   "kind": "overbloom",
+   "per": 1.5,
+   "perRarity": [
+    1.5,
+    2,
+    2.5
+   ],
+   "name": "Lucky Find Chip"
+  },
+  "VERMIN_VAPORIZER_GARDEN_CHIP": {
+   "kind": "pest_chance",
+   "per": 3,
+   "perRarity": [
+    3,
+    4,
+    5
+   ],
+   "name": "Pest Zapper Chip"
+  },
+  "MECHAMIND_GARDEN_CHIP": {
+   "kind": "tool_xp",
+   "per": 1.5,
+   "perRarity": [
+    1.5,
+    2,
+    2.5
+   ],
+   "name": "Cogmind Chip"
+  },
+  "SOWLEDGE_GARDEN_CHIP": {
+   "kind": "wisdom",
+   "per": 1,
+   "perRarity": [
+    1,
+    1.25,
+    1.5
+   ],
+   "name": "Seedsense Chip"
+  }
+ },
+ "chipRules": {
+  "rarities": [
+   "RARE",
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "chipsFor": [
+   1,
+   5,
+   21
+  ],
+  "caps": [
+   10,
+   15,
+   20
+  ],
+  "sowdustCost": [
+   100000,
+   200000,
+   300000,
+   400000,
+   550000,
+   700000,
+   850000,
+   1000000,
+   1150000,
+   1300000,
+   1450000,
+   1600000,
+   1750000,
+   1900000,
+   2050000,
+   2200000,
+   2350000,
+   2500000,
+   2650000
+  ]
+ }
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude Session Saver</title>
+<style>
+  :root{
+    --bg:#141416; --panel:#1c1c20; --panel2:#232329; --line:#2e2e36;
+    --fg:#ebebee; --muted:#9a9aa6; --accent:#cb7b49; --danger:#be4848; --ok:#5aa469;
+    --mono:ui-monospace,"Cascadia Mono",Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:15px/1.65 "Segoe UI",system-ui,sans-serif;padding:48px 24px 80px}
+  .wrap{max-width:880px;margin:0 auto}
+  h1{font-size:34px;margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--muted);margin:0 0 40px;font-size:17px}
+  h2{font-size:20px;margin:44px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  code{font-family:var(--mono);font-size:.9em;background:var(--panel2);
+       padding:2px 6px;border-radius:4px;color:#e0b088}
+  pre{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+      padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:13px;color:var(--muted)}
+  .steps{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:s}
+  .steps li{counter-increment:s;background:var(--panel);border:1px solid var(--line);
+            border-radius:10px;padding:16px 18px 16px 58px;position:relative}
+  .steps li::before{content:counter(s);position:absolute;left:18px;top:15px;
+      width:26px;height:26px;border-radius:50%;background:var(--accent);color:#1a1a1a;
+      font-weight:700;font-size:14px;display:grid;place-items:center}
+  .steps b{display:block;margin-bottom:2px}
+  .steps span{color:var(--muted);font-size:14px}
+  .btn{display:inline-block;border-radius:7px;padding:9px 20px;font-weight:700;
+       font-size:14px;color:#fff;letter-spacing:.02em}
+  .btn.close{background:var(--danger)} .btn.open{background:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin-top:6px;font-size:14px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+  td:first-child{white-space:nowrap;font-family:var(--mono);color:#e0b088}
+  .note{background:var(--panel);border-left:3px solid var(--accent);
+        border-radius:0 8px 8px 0;padding:14px 18px;margin:18px 0}
+  .note.warn{border-left-color:var(--danger)}
+  .note b{display:block;margin-bottom:4px}
+  .note p{margin:0;color:var(--muted);font-size:14px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .card b{display:block;margin-bottom:5px;font-size:15px}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Claude Session Saver</h1>
+  <p class="sub">One button parks every open Claude Code session. The same button brings them all back &mdash; right folder, right conversation, right name.</p>
+
+  <h2>Using it</h2>
+  <ol class="steps">
+    <li><b>Double-click <code>Session Saver.bat</code></b>
+        <span>It lists every Claude Code session running right now, with the folder each one is in.</span></li>
+    <li><b>Hit <span class="btn close">SAVE + CLOSE</span></b>
+        <span>Writes the list to a layout, then closes them. Untick anything you want left running.</span></li>
+    <li><b>Record / stream / reboot</b>
+        <span>The layout sits on disk in <code>layouts\</code>. It survives a restart.</span></li>
+    <li><b>Open it again and hit <span class="btn open">REOPEN</span></b>
+        <span>Every session comes back as a tab in one Windows Terminal window, each already
+        <code>cd</code>'d to its own folder with its conversation loaded.</span></li>
+  </ol>
+
+  <div class="note">
+    <b>It will not close the session you launched it from.</b>
+    <p>If you start the app from inside a Claude Code terminal, that session shows as
+       <i>(this window)</i> and stays unticked. Everything else is fair game.</p>
+  </div>
+
+  <h2>Layouts</h2>
+  <p>The <b>Layout</b> box is a free-text name, not a fixed list. Type a new name and save
+     to keep separate sets &mdash; <code>stream</code>, <code>minecraft</code>, <code>vesper</code> &mdash;
+     and switch between them. Leave it on <code>last</code> if you only ever want one.</p>
+
+  <h2>Where they reopen</h2>
+  <div class="cards">
+    <div class="card"><b>Reopen as tabs</b><p>All sessions as tabs in a single Windows
+      Terminal window. Best on stream &mdash; one window to move, one to close.</p></div>
+    <div class="card"><b>Reopen as windows</b><p>Each session gets its own separate console
+      window, the way launching <code>claude</code> from Explorer does.</p></div>
+  </div>
+
+  <h2>Resume full session as-is</h2>
+  <p>Big conversations get asked, on the way back, <i>"Resuming the full session will consume
+     a substantial portion of your usage limits &mdash; resume from a summary?"</i>. Leave the
+     checkbox off and they come back waiting on one Enter. <b>Tick it and they load whole,
+     with no question asked.</b></p>
+  <div class="note">
+    <b>How it does that safely.</b>
+    <p>Claude Code has no flag or setting for this &mdash; the choice only exists as a prompt.
+       So the app answers it: it looks at each reopened session's screen, and <b>only presses a
+       key if that prompt is actually displayed</b>, then double-checks the highlight landed on
+       the right option before confirming. A session that never asks is never sent a keystroke,
+       so it can't type into your prompt box. If anything looks off, it leaves that one for you.</p>
+  </div>
+  <div class="note warn">
+    <b>It costs more of your usage limit.</b>
+    <p>That prompt exists for a reason &mdash; loading a large conversation whole is exactly
+       what it is warning you about. Tick this when you want the full thread back, not by default.</p>
+  </div>
+
+  <div class="note">
+    <b>Reopened sessions always come back in colour.</b>
+    <p>Claude Code honours the <code>NO_COLOR</code> environment variable, and some shells set
+       it &mdash; a session launched from one comes back plain white and looks broken without
+       being broken. The launcher strips that (and the child-session markers that would
+       otherwise turn transcript saving off) before starting anything.</p>
+  </div>
+
+  <h2>If something looks wrong</h2>
+  <p>Run <code>Check.bat</code>. It prints what the app can see and the exact command a
+     reopen would run, and it closes and launches nothing.</p>
+  <pre>  claude.exe   : C:\Users\you\AppData\Local\...\claude.exe
+  wt.exe       : C:\Users\you\AppData\Local\Microsoft\WindowsApps\wt.exe
+  registry     : C:\Users\you\.claude\sessions
+
+  LIVE SESSIONS (1)
+    [busy] ai-game-82  &lt;D:\projects&gt;  pid 32572</pre>
+
+  <h2>Driving it without the window</h2>
+  <p>For a stream deck or a desktop shortcut, skip the GUI:</p>
+  <table>
+    <tr><th>Command</th><th>Does</th></tr>
+    <tr><td>-SaveClose stream</td><td>Save every live session to layout <code>stream</code>, then close them</td></tr>
+    <tr><td>-Reopen stream</td><td>Bring layout <code>stream</code> back</td></tr>
+    <tr><td>-SelfTest</td><td>Report only. Changes nothing.</td></tr>
+  </table>
+  <pre>powershell -NoProfile -ExecutionPolicy Bypass -File "SessionSaver.ps1" -Reopen stream</pre>
+
+  <h2>How it actually knows</h2>
+  <p>Claude Code keeps a live registry of running sessions at
+     <code>%USERPROFILE%\.claude\sessions\&lt;pid&gt;.json</code>, holding the session id, the
+     working directory and the display name. This app reads that, verifies each pid is
+     genuinely a live <code>claude.exe</code>, and saves it. Reopening is just
+     <code>claude --resume &lt;sessionId&gt;</code> started in the folder it came from.
+     Nothing is scraped out of your transcripts and nothing is guessed.</p>
+
+  <footer>Built 2026-08-05 &middot; verified with a real save &rarr; close &rarr; reopen round trip
+    across two folders &middot; deeper notes in <code>CLAUDE.md</code></footer>
+
+</div>
+</body>
+</html>

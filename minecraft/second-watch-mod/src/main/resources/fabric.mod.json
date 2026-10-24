@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "secondwatch",
+  "version": "${version}",
+  "name": "Second Watch",
+  "description": "A co-op horror scenario. The sun does not come back up, someone was here before you, and something out there can only say things you have already said.",
+  "authors": [
+    "Tutut"
+  ],
+  "license": "ARR",
+  "environment": "*",
+  "accessWidener": "secondwatch.accesswidener",
+  "entrypoints": {
+    "main": [
+      "com.secondwatch.SecondWatch"
+    ],
+    "client": [
+      "com.secondwatch.client.SecondWatchClient"
+    ],
+    "voicechat": [
+      "com.secondwatch.game.VoiceBridge"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "voicechat": "*"
+  }
+}

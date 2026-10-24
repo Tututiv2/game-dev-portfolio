@@ -1,0 +1,380 @@
+[
+ {
+  "id": "park_pack_spirit",
+  "name": "Pack Wraith",
+  "level": 30,
+  "entity": "WOLF",
+  "health": 6000,
+  "damage": 300,
+  "speed": 1.05,
+  "combatXp": 22,
+  "coins": 11,
+  "family": "pack_spirit",
+  "slayer": "wolf",
+  "flags": [
+   "aggressive"
+  ],
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "LOG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "LOG:2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "PARK_CAVE_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "HOUND;3",
+    "min": 1,
+    "max": 1,
+    "chance": 3e-05
+   },
+   {
+    "item": "HOUND;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "extra": {
+   "types": [
+    "animal",
+    "wolf"
+   ],
+   "region": "howling_cave"
+  },
+  "behaviours": [
+   "foraging_wolf"
+  ]
+ },
+ {
+  "id": "park_howling_spirit",
+  "name": "Howling Wraith",
+  "level": 35,
+  "entity": "WOLF",
+  "health": 7000,
+  "damage": 450,
+  "speed": 1.05,
+  "combatXp": 22,
+  "coins": 11,
+  "family": "howling_spirit",
+  "slayer": "wolf",
+  "flags": [
+   "aggressive"
+  ],
+  "drops": [
+   {
+    "item": "LOG_2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "LOG:1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "LOG_2:1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "PARK_CAVE_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "HOUND;3",
+    "min": 1,
+    "max": 1,
+    "chance": 3e-05
+   },
+   {
+    "item": "HOUND;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "extra": {
+   "types": [
+    "animal",
+    "wolf"
+   ],
+   "region": "howling_cave"
+  },
+  "behaviours": [
+   "foraging_wolf"
+  ]
+ },
+ {
+  "id": "park_soul_of_the_alpha",
+  "name": "Shade of the Alpha",
+  "level": 55,
+  "entity": "WOLF",
+  "health": 31150,
+  "damage": 1425,
+  "speed": 1.15,
+  "combatXp": 50,
+  "coins": 50,
+  "family": "soul_of_the_alpha",
+  "slayer": "wolf",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "drops": [
+   {
+    "item": "LOG:3",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WEAK_WOLF_CATALYST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.00089
+   },
+   {
+    "item": "PET_ITEM_FORAGING_SKILL_BOOST_EPIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   },
+   {
+    "item": "PARK_CAVE_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 3.5e-05
+   },
+   {
+    "item": "HOUND;3",
+    "min": 1,
+    "max": 1,
+    "chance": 3e-05
+   },
+   {
+    "item": "HOUND;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "extra": {
+   "types": [
+    "animal",
+    "wolf"
+   ],
+   "region": "howling_cave",
+   "trueDamage": true
+  },
+  "behaviours": [
+   "foraging_alpha"
+  ]
+ },
+ {
+  "id": "marsh_tidetot",
+  "name": "Silt Wretch",
+  "level": 10,
+  "entity": "DROWNED",
+  "health": 4000,
+  "damage": 300,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 20,
+  "family": "tidetot",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "drops": [
+   {
+    "item": "GILL_MEMBRANE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "extra": {
+   "types": [
+    "woodland",
+    "aquatic",
+    "undead"
+   ],
+   "region": "moonmarsh"
+  }
+ },
+ {
+  "id": "marsh_seacurse",
+  "name": "Brine Hex",
+  "level": 15,
+  "entity": "DROWNED",
+  "health": 5000,
+  "damage": 300,
+  "speed": 1.05,
+  "combatXp": 50,
+  "coins": 20,
+  "family": "tidetot",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "PRISMARINE"
+  },
+  "drops": [
+   {
+    "item": "GILL_MEMBRANE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "extra": {
+   "types": [
+    "woodland",
+    "aquatic",
+    "undead"
+   ],
+   "region": "moonmarsh"
+  }
+ },
+ {
+  "id": "marsh_hydrospear",
+  "name": "Loch Lancer",
+  "level": 25,
+  "entity": "DROWNED",
+  "health": 5000,
+  "damage": 500,
+  "speed": 1.05,
+  "combatXp": 70,
+  "coins": 20,
+  "family": "tidetot",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "drops": [
+   {
+    "item": "GILL_MEMBRANE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "STURDY_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "extra": {
+   "types": [
+    "woodland",
+    "aquatic",
+    "undead"
+   ],
+   "region": "moonmarsh"
+  }
+ },
+ {
+  "id": "marsh_chillblade",
+  "name": "Frostfang",
+  "level": 31,
+  "entity": "STRAY",
+  "health": 400,
+  "damage": 200,
+  "speed": 1.1,
+  "combatXp": 35,
+  "coins": 10,
+  "family": "chill",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RUNEBLADE_TALISMAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "extra": {
+   "types": [
+    "woodland",
+    "skeletal"
+   ],
+   "region": "moonmarsh"
+  }
+ },
+ {
+  "id": "marsh_chillshot",
+  "name": "Frostbow",
+  "level": 31,
+  "entity": "STRAY",
+  "health": 400,
+  "damage": 200,
+  "speed": 1.0,
+  "combatXp": 35,
+  "coins": 10,
+  "family": "chill",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RUNEBLADE_TALISMAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "extra": {
+   "types": [
+    "woodland",
+    "skeletal"
+   ],
+   "region": "moonmarsh"
+  }
+ }
+]

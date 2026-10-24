@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ed5e63804630145be2f8798d38daf8, type: 3}
+  m_Name: Perk_DoubleTap
+  m_EditorClassIdentifier: Aftermarket.Runtime::PerkDefinition
+  perk: 2
+  displayName: Double Tap
+  hudIcon: {fileID: 0}
+  machineColor: {r: 1, g: 0.85, b: 0.3, a: 1}
+  juggernogHealth: 250
+  speedColaMultiplier: 0.5
+  doubleTapDamage: 2
+  doubleTapFireRate: 0.75
+  staminUpMultiplier: 1.3
+  defaultCost: 2000

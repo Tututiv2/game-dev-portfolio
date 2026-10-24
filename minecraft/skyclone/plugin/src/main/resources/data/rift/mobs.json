@@ -1,0 +1,604 @@
+[
+ {
+  "id": "rift_shy",
+  "name": "Bashful",
+  "level": 5,
+  "entity": "ZOMBIE",
+  "health": 60,
+  "damage": 10,
+  "combatXp": 4,
+  "coins": 0,
+  "family": "rift_shy",
+  "drops": [
+   {
+    "item": "SHAME_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 0.5,
+   "motes": 5,
+   "area": "wyld_woods"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwODAzNjEzOTQ4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "rift_larva",
+  "name": "Silk Larva",
+  "level": 3,
+  "entity": "SILVERFISH",
+  "health": 40,
+  "damage": 10,
+  "combatXp": 3,
+  "coins": 0,
+  "family": "rift_larva",
+  "drops": [
+   {
+    "item": "LARVA_SILK",
+    "min": 1,
+    "max": 2,
+    "chance": 0.3
+   }
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 0.5,
+   "motes": 3,
+   "area": "wyld_woods"
+  }
+ },
+ {
+  "id": "rift_lagoon_leech",
+  "name": "Lagoon Leech",
+  "level": 12,
+  "entity": "DROWNED",
+  "health": 100,
+  "damage": 10,
+  "combatXp": 6,
+  "coins": 0,
+  "family": "rift_lagoon_leech",
+  "drops": [
+   {
+    "item": "LIL_PAD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.0,
+   "motes": 8,
+   "area": "black_lagoon",
+   "timeDrain": 1
+  }
+ },
+ {
+  "id": "rift_deadgehog",
+  "name": "Deadgehog",
+  "level": 15,
+  "entity": "HUSK",
+  "health": 140,
+  "damage": 10,
+  "combatXp": 8,
+  "coins": 0,
+  "family": "rift_deadgehog",
+  "drops": [
+   {
+    "item": "DEADGEHOG_SPINE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.0,
+   "motes": 10,
+   "area": "black_lagoon"
+  }
+ },
+ {
+  "id": "rift_shadow",
+  "name": "Shade",
+  "level": 20,
+  "entity": "ZOMBIE",
+  "health": 160,
+  "damage": 10,
+  "combatXp": 10,
+  "coins": 0,
+  "family": "rift_shadow",
+  "drops": [
+   {
+    "item": "SHADOW_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.0,
+   "motes": 12,
+   "area": "west_village"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTIzMzA1NzU4MCwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NjYzhhNjkwYzg5ZWJmMDFhZGYwNDQwYzBhM2Q1NDBlMmRiODljZmM5N2FkM2I4ZTAxODEwYmYzMjg5ZjY3YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "rift_vermin",
+  "name": "Vermin",
+  "level": 2,
+  "entity": "SILVERFISH",
+  "health": 30,
+  "damage": 10,
+  "combatXp": 2,
+  "coins": 0,
+  "family": "rift_vermin",
+  "drops": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 0.5,
+   "motes": 2,
+   "area": "west_village",
+   "vermin": true
+  }
+ },
+ {
+  "id": "rift_volt",
+  "name": "Sparkling",
+  "level": 25,
+  "entity": "ZOMBIE",
+  "health": 200,
+  "damage": 10,
+  "combatXp": 12,
+  "coins": 0,
+  "family": "rift_volt",
+  "drops": [
+   {
+    "item": "VOLT_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.0,
+   "motes": 14,
+   "area": "dreadfarm"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3MzYzNjkyOTE0NiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTAyYjdhY2IzY2NjMGE3MjI5YThkZWUyNGY1OWYzMTZkZjA1YzYxZTVlY2M3OWUyOWE1MzU4YWRiZDJmYmFlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "rift_scribe",
+  "name": "Inkwraith",
+  "level": 30,
+  "entity": "ZOMBIE",
+  "health": 240,
+  "damage": 10,
+  "combatXp": 14,
+  "coins": 0,
+  "family": "rift_scribe",
+  "drops": [
+   {
+    "item": "SCRIBE_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.5,
+   "motes": 16,
+   "area": "village_plaza"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjkwOTc0MDA5NSwKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMGVlNzgxYjc5YjFmZGMxNGFjMDhiNTA0NDhjZDkxNzRmNzFlMTU1NTE2ZTNiZjU0MmEyZDZjNDY2ZWFjZjgyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "rift_autonull",
+  "name": "Autonull",
+  "level": 35,
+  "entity": "ZOMBIE",
+  "health": 300,
+  "damage": 10,
+  "combatXp": 16,
+  "coins": 0,
+  "family": "rift_autonull",
+  "drops": [
+   {
+    "item": "NULLIFIED_METAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "LIVING_METAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.5,
+   "motes": 18,
+   "area": "living_cave"
+  },
+  "equipment": {
+   "CHEST": "CHAINMAIL_CHESTPLATE",
+   "LEGS": "CHAINMAIL_LEGGINGS",
+   "HAND": "IRON_SWORD"
+  }
+ },
+ {
+  "id": "rift_frozille",
+  "name": "Frostling",
+  "level": 40,
+  "entity": "STRAY",
+  "health": 360,
+  "damage": 10,
+  "combatXp": 18,
+  "coins": 0,
+  "family": "rift_frozille",
+  "drops": [
+   {
+    "item": "FROSTY_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "FROZEN_WATER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.5,
+   "motes": 20,
+   "area": "living_cave"
+  }
+ },
+ {
+  "id": "rift_splatter",
+  "name": "Splatterling",
+  "level": 50,
+  "entity": "ZOMBIE",
+  "health": 400,
+  "damage": 10,
+  "combatXp": 35,
+  "coins": 0,
+  "family": "rift_splatter",
+  "drops": [
+   {
+    "item": "SPLATTER_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "HEMOVIBE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 2.0,
+   "motes": 22,
+   "area": "chateau"
+  },
+  "slayer": "vampire",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NzE1NDA2Mzc5MiwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI0NzVjMmExMTRmMzBmMGQ2NjA1Y2VmNzA4MTEwYTUzMzMzZjE3MjNiYzc2MjYyMmFiNGEyNWRjZmNkMGZkNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "rift_thrall",
+  "name": "Chateau Thrall",
+  "level": 55,
+  "entity": "ZOMBIE_VILLAGER",
+  "health": 400,
+  "damage": 10,
+  "combatXp": 40,
+  "coins": 0,
+  "family": "rift_thrall",
+  "drops": [
+   {
+    "item": "HEMOVIBE",
+    "min": 1,
+    "max": 3,
+    "chance": 0.6
+   },
+   {
+    "item": "HEALING_MELON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.08
+   },
+   {
+    "item": "VAMPIRIC_MELON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 2.0,
+   "motes": 24,
+   "area": "chateau"
+  },
+  "slayer": "vampire"
+ },
+ {
+  "id": "rift_puff",
+  "name": "Puffling",
+  "level": 60,
+  "entity": "ZOMBIE",
+  "health": 480,
+  "damage": 10,
+  "combatXp": 22,
+  "coins": 0,
+  "family": "rift_puff",
+  "drops": [
+   {
+    "item": "PUFF_CRUX",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "TIMITE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 2.0,
+   "motes": 30,
+   "area": "mountaintop"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyNDA4MzEyOTI3MCwKICAicHJvZmlsZUlkIiA6ICI5ZTA5YzM4ZGUzZTY0MDA2OTAwYzAwZTJiOTQ3ZTQwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4RFRPTUFTX1lUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmMjdlNTNmMTAxYzM0OTgwMWZjMzMyYWQyM2EzMjU0NzI1ODE4YTAxNzA3ZDU1MmU2MzNhNjM0YWUyY2YwZDEiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "rift_leech_sovereign",
+  "name": "Leech Sovereign",
+  "level": 80,
+  "entity": "DROWNED",
+  "health": 1000,
+  "damage": 10,
+  "combatXp": 120,
+  "coins": 0,
+  "family": "rift_leech_sovereign",
+  "drops": [
+   {
+    "item": "LEECH_SUPREME_FRAGMENT",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SUPER_LEECH_MODIFIER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 2.0,
+   "motes": 150,
+   "area": "black_lagoon",
+   "timeDrain": 2
+  }
+ },
+ {
+  "id": "rift_bloatmass",
+  "name": "The Bloatmass",
+  "level": 120,
+  "entity": "RAVAGER",
+  "health": 2500,
+  "damage": 10,
+  "combatXp": 250,
+  "coins": 0,
+  "family": "rift_bloatmass",
+  "drops": [
+   {
+    "item": "BACTE_FRAGMENT",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 2.5,
+   "motes": 400,
+   "area": "colosseum"
+  }
+ },
+ {
+  "id": "rift_chateau_lord",
+  "name": "Chateau Lord",
+  "level": 150,
+  "entity": "WITHER_SKELETON",
+  "health": 1500,
+  "damage": 10,
+  "combatXp": 300,
+  "coins": 0,
+  "family": "rift_chateau_lord",
+  "drops": [
+   {
+    "item": "HEMOGLASS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   },
+   {
+    "item": "HEMOVIBE",
+    "min": 5,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "UNFANGED_VAMPIRE_PART",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 3.0,
+   "motes": 500,
+   "area": "chateau"
+  },
+  "slayer": "vampire"
+ },
+ {
+  "id": "rift_leechling",
+  "name": "Leechling",
+  "level": 40,
+  "entity": "SILVERFISH",
+  "health": 30,
+  "damage": 10,
+  "combatXp": 2,
+  "coins": 0,
+  "family": "rift_leechling",
+  "drops": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 0.5,
+   "motes": 1,
+   "area": "black_lagoon",
+   "add": true,
+   "timeDrain": 1
+  }
+ },
+ {
+  "id": "rift_bloatling",
+  "name": "Bloatling",
+  "level": 60,
+  "entity": "ZOMBIE",
+  "health": 80,
+  "damage": 10,
+  "combatXp": 4,
+  "coins": 0,
+  "family": "rift_bloatling",
+  "drops": [],
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 1.0,
+   "motes": 2,
+   "area": "colosseum",
+   "add": true
+  }
+ },
+ {
+  "id": "rift_crypt_bat",
+  "name": "Crypt Bat",
+  "level": 70,
+  "entity": "BAT",
+  "health": 40,
+  "damage": 10,
+  "combatXp": 4,
+  "coins": 0,
+  "family": "rift_crypt_bat",
+  "drops": [],
+  "flags": [
+   "aggressive",
+   "flying"
+  ],
+  "extra": {
+   "rift": true,
+   "hearts": 0.5,
+   "motes": 2,
+   "area": "chateau",
+   "add": true
+  },
+  "slayer": "vampire"
+ }
+]

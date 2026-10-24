@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arc Raiders MP Prototype</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+      }
+      #app {
+        position: fixed;
+        inset: 0;
+      }
+      #hud {
+        position: fixed;
+        left: 12px;
+        top: 12px;
+        color: #ddd;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        font-size: 14px;
+        user-select: none;
+        z-index: 10;
+        max-width: 420px;
+      }
+      #hud b {
+        color: #00d9ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud">
+      <div>
+        Connected: <b id="hud-conn">no</b>
+      </div>
+      <div>
+        Player: <b id="hud-player">?</b>
+      </div>
+      <div>
+        Controls: <b>WASD</b> move, <b>mouse</b> aim, <b>left click</b> shoot, <b>Space</b> jump, <b>C</b> slide
+      </div>
+      <div style="margin-top:4px;color:#bbb">
+        Weapon: <b id="hud-weapon">Tempest Lv1</b> | Ammo: <b id="hud-ammo">30 / 90</b>
+      </div>
+      <div style="margin-top:4px;color:#8bc8ff">
+        Keys: <b>1</b> Bobcat, <b>2</b> Tempest, <b>R</b> reload, <b>U</b> upgrade (uses raid mats)
+      </div>
+      <div style="margin-top:6px;color:#999" id="hud-net">Net: —</div>
+      <div style="margin-top:4px;color:#999" id="hud-events">Events: 0</div>
+      <div style="margin-top:4px;color:#bbb" id="hud-objective">Objective: warmup</div>
+      <div style="margin-top:4px;color:#ff7a7a;font-weight:700;min-height:20px" id="hud-warning"></div>
+    </div>
+    <div
+      id="loot-overlay"
+      style="
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.78);
+        z-index: 50;
+        padding: 24px;
+        box-sizing: border-box;
+      "
+    >
+      <div
+        style="
+          max-width: 560px;
+          margin: 0 auto;
+          background: rgba(10, 10, 20, 0.95);
+          border: 1px solid rgba(0, 217, 255, 0.35);
+          border-radius: 12px;
+          padding: 18px 18px 14px 18px;
+          color: #ddd;
+          font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        "
+      >
+        <div style="color: #00d9ff; font-size: 20px; font-weight: 800; margin-bottom: 8px">
+          Extraction Complete
+        </div>
+        <div id="loot-subtitle" style="color:#aaa; margin-bottom: 12px"></div>
+        <ul id="loot-list" style="margin: 0; padding-left: 18px; line-height: 1.6"></ul>
+        <div style="display:flex; gap: 10px; margin-top: 14px">
+          <button
+            id="loot-close"
+            style="
+              flex: 1;
+              padding: 10px 12px;
+              border-radius: 10px;
+              background: rgba(0, 217, 255, 0.12);
+              border: 1px solid rgba(0, 217, 255, 0.35);
+              color: #00d9ff;
+              cursor: pointer;
+              font-weight: 700;
+            "
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="damage-vignette"
+      style="
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 9;
+        background: radial-gradient(circle at center, rgba(255, 0, 0, 0) 38%, rgba(255, 0, 0, 0.38) 100%);
+        opacity: 0;
+        transition: opacity 90ms linear;
+      "
+    ></div>
+    <div
+      id="crosshair"
+      style="
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        width: 10px;
+        height: 10px;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background: rgba(0, 217, 255, 0.85);
+        box-shadow: 0 0 16px rgba(0, 217, 255, 0.45);
+        z-index: 5;
+        pointer-events: none;
+        opacity: 0.9;
+      "
+    ></div>
+    <div
+      id="mouse-hint"
+      style="
+        position: fixed;
+        left: 50%;
+        bottom: 22px;
+        transform: translateX(-50%);
+        z-index: 6;
+        color: #aaa;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        font-size: 13px;
+        pointer-events: none;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid rgba(0, 217, 255, 0.18);
+        padding: 8px 12px;
+        border-radius: 999px;
+      "
+    >
+      Click to capture mouse (avoid leaving the screen)
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+

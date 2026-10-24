@@ -1,0 +1,2319 @@
+[
+ {
+  "id": "THEORETICAL_HOE_WHEAT_1",
+  "name": "Fibonacci's Wheat Sickle Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WHEAT",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "WHEAT"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WHEAT_2",
+    "gardenLevel": 1
+   },
+   "owner": "farming",
+   "refName": "Euclid's Wheat Sickle Mk. I",
+   "crop_fortune": {
+    "WHEAT": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WHEAT_2",
+  "name": "Fibonacci's Wheat Sickle Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WHEAT",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "WHEAT"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WHEAT_3",
+    "gardenLevel": 1
+   },
+   "owner": "farming",
+   "refName": "Euclid's Wheat Sickle Mk. II",
+   "crop_fortune": {
+    "WHEAT": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WHEAT_3",
+  "name": "Fibonacci's Wheat Sickle Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WHEAT",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "WHEAT"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 1
+   },
+   "owner": "farming",
+   "refName": "Euclid's Wheat Sickle Mk. III",
+   "crop_fortune": {
+    "WHEAT": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CARROT_1",
+  "name": "Kepler's Carrot Shovel Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CARROT",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "CARROT"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_CARROT_2",
+    "gardenLevel": 2
+   },
+   "owner": "farming",
+   "refName": "Gauss Carrot Shovel Mk. I",
+   "crop_fortune": {
+    "CARROT": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CARROT_2",
+  "name": "Kepler's Carrot Shovel Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CARROT",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "CARROT"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_CARROT_3",
+    "gardenLevel": 2
+   },
+   "owner": "farming",
+   "refName": "Gauss Carrot Shovel Mk. II",
+   "crop_fortune": {
+    "CARROT": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CARROT_3",
+  "name": "Kepler's Carrot Shovel Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CARROT",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "CARROT"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 2
+   },
+   "owner": "farming",
+   "refName": "Gauss Carrot Shovel Mk. III",
+   "crop_fortune": {
+    "CARROT": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_POTATO_1",
+  "name": "Archimedes' Potato Shovel Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_POTATO",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "POTATO"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_POTATO_2",
+    "gardenLevel": 3
+   },
+   "owner": "farming",
+   "refName": "Pythagorean Potato Shovel Mk. I",
+   "crop_fortune": {
+    "POTATO": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_POTATO_2",
+  "name": "Archimedes' Potato Shovel Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_POTATO",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "POTATO"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_POTATO_3",
+    "gardenLevel": 3
+   },
+   "owner": "farming",
+   "refName": "Pythagorean Potato Shovel Mk. II",
+   "crop_fortune": {
+    "POTATO": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_POTATO_3",
+  "name": "Archimedes' Potato Shovel Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_POTATO",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "POTATO"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 3
+   },
+   "owner": "farming",
+   "refName": "Pythagorean Potato Shovel Mk. III",
+   "crop_fortune": {
+    "POTATO": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CANE_1",
+  "name": "Lovelace's Sugar Cane Cutter Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CANE",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "SUGAR_CANE"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_CANE_2",
+    "gardenLevel": 5
+   },
+   "owner": "farming",
+   "refName": "Turing Sugar Cane Cutter Mk. I",
+   "crop_fortune": {
+    "SUGAR_CANE": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CANE_2",
+  "name": "Lovelace's Sugar Cane Cutter Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CANE",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "SUGAR_CANE"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_CANE_3",
+    "gardenLevel": 5
+   },
+   "owner": "farming",
+   "refName": "Turing Sugar Cane Cutter Mk. II",
+   "crop_fortune": {
+    "SUGAR_CANE": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_CANE_3",
+  "name": "Lovelace's Sugar Cane Cutter Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_CANE",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "SUGAR_CANE"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 5
+   },
+   "owner": "farming",
+   "refName": "Turing Sugar Cane Cutter Mk. III",
+   "crop_fortune": {
+    "SUGAR_CANE": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WARTS_1",
+  "name": "Leibniz's Nether Wart Cutter Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WARTS",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "NETHER_WART"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WARTS_2",
+    "gardenLevel": 10
+   },
+   "owner": "farming",
+   "refName": "Newton Nether Wart Cutter Mk. I",
+   "crop_fortune": {
+    "NETHER_WART": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WARTS_2",
+  "name": "Leibniz's Nether Wart Cutter Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WARTS",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "NETHER_WART"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WARTS_3",
+    "gardenLevel": 10
+   },
+   "owner": "farming",
+   "refName": "Newton Nether Wart Cutter Mk. II",
+   "crop_fortune": {
+    "NETHER_WART": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WARTS_3",
+  "name": "Leibniz's Nether Wart Cutter Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WARTS",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "NETHER_WART"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 10
+   },
+   "owner": "farming",
+   "refName": "Newton Nether Wart Cutter Mk. III",
+   "crop_fortune": {
+    "NETHER_WART": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_SUNFLOWER_1",
+  "name": "Solstice Sickle Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_SUNFLOWER",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "SUNFLOWER",
+     "MOONFLOWER"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_SUNFLOWER_2",
+    "gardenLevel": 11
+   },
+   "owner": "farming",
+   "refName": "Eclipse Sickle Mk. I",
+   "crop_fortune": {
+    "SUNFLOWER": 10,
+    "MOONFLOWER": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_SUNFLOWER_2",
+  "name": "Solstice Sickle Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_SUNFLOWER",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "SUNFLOWER",
+     "MOONFLOWER"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_SUNFLOWER_3",
+    "gardenLevel": 11
+   },
+   "owner": "farming",
+   "refName": "Eclipse Sickle Mk. II",
+   "crop_fortune": {
+    "SUNFLOWER": 25,
+    "MOONFLOWER": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_SUNFLOWER_3",
+  "name": "Solstice Sickle Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_SUNFLOWER",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "SUNFLOWER",
+     "MOONFLOWER"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 11
+   },
+   "owner": "farming",
+   "refName": "Eclipse Sickle Mk. III",
+   "crop_fortune": {
+    "SUNFLOWER": 50,
+    "MOONFLOWER": 50
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WILD_ROSE_1",
+  "name": "Briarwood Rose Cutter Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WILD_ROSE",
+    "kind": "hoe",
+    "mk": 1,
+    "crops": [
+     "WILD_ROSE"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WILD_ROSE_2",
+    "gardenLevel": 12
+   },
+   "owner": "farming",
+   "refName": "Wild Rose Cutter Mk. I",
+   "crop_fortune": {
+    "WILD_ROSE": 10
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WILD_ROSE_2",
+  "name": "Briarwood Rose Cutter Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WILD_ROSE",
+    "kind": "hoe",
+    "mk": 2,
+    "crops": [
+     "WILD_ROSE"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": true,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "THEORETICAL_HOE_WILD_ROSE_3",
+    "gardenLevel": 12
+   },
+   "owner": "farming",
+   "refName": "Wild Rose Cutter Mk. II",
+   "crop_fortune": {
+    "WILD_ROSE": 25
+   }
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE_WILD_ROSE_3",
+  "name": "Briarwood Rose Cutter Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7A precise farming tool. It keeps count",
+   "&7of every crop it reaps and grows",
+   "&7sharper with each digit."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "THEORETICAL_HOE_WILD_ROSE",
+    "kind": "hoe",
+    "mk": 3,
+    "crops": [
+     "WILD_ROSE"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": true,
+    "analysis": true,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 12
+   },
+   "owner": "farming",
+   "refName": "Wild Rose Cutter Mk. III",
+   "crop_fortune": {
+    "WILD_ROSE": 50
+   }
+  }
+ },
+ {
+  "id": "MELON_DICER",
+  "name": "Melon Dicer Mk. I",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Melon you break has a &a1%",
+   "&a&7chance to burst into a heap of extra",
+   "&7drops."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "MELON_DICER",
+    "kind": "dicer",
+    "mk": 1,
+    "crops": [
+     "MELON"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.01,
+    "leveling": true,
+    "next": "MELON_DICER_2",
+    "gardenLevel": 6
+   },
+   "owner": "farming",
+   "refName": "Melon Dicer Mk. I",
+   "crop_fortune": {
+    "MELON": 10
+   }
+  }
+ },
+ {
+  "id": "MELON_DICER_2",
+  "name": "Melon Dicer Mk. II",
+  "material": "GOLDEN_AXE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Melon you break has a &a1.5%",
+   "&a&7chance to burst into a heap of extra",
+   "&7drops."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "MELON_DICER",
+    "kind": "dicer",
+    "mk": 2,
+    "crops": [
+     "MELON"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.015,
+    "leveling": true,
+    "next": "MELON_DICER_3",
+    "gardenLevel": 6
+   },
+   "owner": "farming",
+   "refName": "Melon Dicer Mk. II",
+   "crop_fortune": {
+    "MELON": 25
+   }
+  }
+ },
+ {
+  "id": "MELON_DICER_3",
+  "name": "Melon Dicer Mk. III",
+  "material": "GOLDEN_AXE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Melon you break has a &a2%",
+   "&a&7chance to burst into a heap of extra",
+   "&7drops."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "MELON_DICER",
+    "kind": "dicer",
+    "mk": 3,
+    "crops": [
+     "MELON"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.02,
+    "leveling": true,
+    "gardenLevel": 6
+   },
+   "owner": "farming",
+   "refName": "Melon Dicer Mk. III",
+   "crop_fortune": {
+    "MELON": 50
+   }
+  }
+ },
+ {
+  "id": "PUMPKIN_DICER",
+  "name": "Pumpkin Dicer Mk. I",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Pumpkin you break has a &a1%",
+   "&a&7chance to burst into a heap of extra",
+   "&7drops."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "PUMPKIN_DICER",
+    "kind": "dicer",
+    "mk": 1,
+    "crops": [
+     "PUMPKIN"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.01,
+    "leveling": true,
+    "next": "PUMPKIN_DICER_2",
+    "gardenLevel": 4
+   },
+   "owner": "farming",
+   "refName": "Pumpkin Dicer Mk. I",
+   "crop_fortune": {
+    "PUMPKIN": 10
+   }
+  }
+ },
+ {
+  "id": "PUMPKIN_DICER_2",
+  "name": "Pumpkin Dicer Mk. II",
+  "material": "GOLDEN_AXE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Pumpkin you break has a",
+   "&7&a1.5% &7chance to burst into a heap of",
+   "&7extra drops."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "PUMPKIN_DICER",
+    "kind": "dicer",
+    "mk": 2,
+    "crops": [
+     "PUMPKIN"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.015,
+    "leveling": true,
+    "next": "PUMPKIN_DICER_3",
+    "gardenLevel": 4
+   },
+   "owner": "farming",
+   "refName": "Pumpkin Dicer Mk. II",
+   "crop_fortune": {
+    "PUMPKIN": 25
+   }
+  }
+ },
+ {
+  "id": "PUMPKIN_DICER_3",
+  "name": "Pumpkin Dicer Mk. III",
+  "material": "GOLDEN_AXE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Slices so cleanly that a fruit",
+   "&7sometimes falls apart into a whole",
+   "&7pile at once.",
+   "",
+   "&6Dicer &7Each Pumpkin you break has a &a2%",
+   "&a&7chance to burst into a heap of extra",
+   "&7drops."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "PUMPKIN_DICER",
+    "kind": "dicer",
+    "mk": 3,
+    "crops": [
+     "PUMPKIN"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.02,
+    "leveling": true,
+    "gardenLevel": 4
+   },
+   "owner": "farming",
+   "refName": "Pumpkin Dicer Mk. III",
+   "crop_fortune": {
+    "PUMPKIN": 50
+   }
+  }
+ },
+ {
+  "id": "CACTUS_KNIFE",
+  "name": "Cactus Knife Mk. I",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Glides through cactus without a single",
+   "&7prick.",
+   "",
+   "&6Swift Slicer &7While held on a farming",
+   "&7island you gain &f+50✦ Speed&7."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "CACTUS_KNIFE",
+    "kind": "knife",
+    "mk": 1,
+    "crops": [
+     "CACTUS"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "CACTUS_KNIFE_2",
+    "gardenLevel": 7
+   },
+   "owner": "farming",
+   "refName": "Cactus Knife Mk. I",
+   "crop_fortune": {
+    "CACTUS": 10
+   }
+  }
+ },
+ {
+  "id": "CACTUS_KNIFE_2",
+  "name": "Cactus Knife Mk. II",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Glides through cactus without a single",
+   "&7prick.",
+   "",
+   "&6Swift Slicer &7While held on a farming",
+   "&7island you gain &f+50✦ Speed&7."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "CACTUS_KNIFE",
+    "kind": "knife",
+    "mk": 2,
+    "crops": [
+     "CACTUS"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "CACTUS_KNIFE_3",
+    "gardenLevel": 7
+   },
+   "owner": "farming",
+   "refName": "Cactus Knife Mk. II",
+   "crop_fortune": {
+    "CACTUS": 25
+   }
+  }
+ },
+ {
+  "id": "CACTUS_KNIFE_3",
+  "name": "Cactus Knife Mk. III",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Glides through cactus without a single",
+   "&7prick.",
+   "",
+   "&6Swift Slicer &7While held on a farming",
+   "&7island you gain &f+50✦ Speed&7."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "CACTUS_KNIFE",
+    "kind": "knife",
+    "mk": 3,
+    "crops": [
+     "CACTUS"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 7
+   },
+   "owner": "farming",
+   "refName": "Cactus Knife Mk. III",
+   "crop_fortune": {
+    "CACTUS": 50
+   }
+  }
+ },
+ {
+  "id": "COCO_CHOPPER",
+  "name": "Cocoa Chopper Mk. I",
+  "material": "GOLDEN_AXE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Splits cocoa pods off the vine with",
+   "&7one tap."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "COCO_CHOPPER",
+    "kind": "chopper",
+    "mk": 1,
+    "crops": [
+     "COCOA"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "COCO_CHOPPER_2",
+    "gardenLevel": 8
+   },
+   "owner": "farming",
+   "refName": "Cocoa Chopper Mk. I",
+   "crop_fortune": {
+    "COCOA_BEANS": 10
+   }
+  }
+ },
+ {
+  "id": "COCO_CHOPPER_2",
+  "name": "Cocoa Chopper Mk. II",
+  "material": "GOLDEN_AXE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Splits cocoa pods off the vine with",
+   "&7one tap."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "COCO_CHOPPER",
+    "kind": "chopper",
+    "mk": 2,
+    "crops": [
+     "COCOA"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "COCO_CHOPPER_3",
+    "gardenLevel": 8
+   },
+   "owner": "farming",
+   "refName": "Cocoa Chopper Mk. II",
+   "crop_fortune": {
+    "COCOA_BEANS": 25
+   }
+  }
+ },
+ {
+  "id": "COCO_CHOPPER_3",
+  "name": "Cocoa Chopper Mk. III",
+  "material": "GOLDEN_AXE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Splits cocoa pods off the vine with",
+   "&7one tap."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "COCO_CHOPPER",
+    "kind": "chopper",
+    "mk": 3,
+    "crops": [
+     "COCOA"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 8
+   },
+   "owner": "farming",
+   "refName": "Cocoa Chopper Mk. III",
+   "crop_fortune": {
+    "COCOA_BEANS": 50
+   }
+  }
+ },
+ {
+  "id": "FUNGI_CUTTER",
+  "name": "Fungi Cutter Mk. I",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Tuned to one colour of mushroom at a",
+   "&7time. &eRight-click &7to switch between",
+   "&7red and brown."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "FUNGI_CUTTER",
+    "kind": "fungi",
+    "mk": 1,
+    "crops": [
+     "MUSHROOM"
+    ],
+    "cropFortune": 10,
+    "wisdom": 1,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "FUNGI_CUTTER_2",
+    "gardenLevel": 9
+   },
+   "owner": "farming",
+   "refName": "Fungi Cutter Mk. I",
+   "crop_fortune": {
+    "MUSHROOM": 10
+   }
+  }
+ },
+ {
+  "id": "FUNGI_CUTTER_2",
+  "name": "Fungi Cutter Mk. II",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Tuned to one colour of mushroom at a",
+   "&7time. &eRight-click &7to switch between",
+   "&7red and brown."
+  ],
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "FUNGI_CUTTER",
+    "kind": "fungi",
+    "mk": 2,
+    "crops": [
+     "MUSHROOM"
+    ],
+    "cropFortune": 25,
+    "wisdom": 2,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "next": "FUNGI_CUTTER_3",
+    "gardenLevel": 9
+   },
+   "owner": "farming",
+   "refName": "Fungi Cutter Mk. II",
+   "crop_fortune": {
+    "MUSHROOM": 25
+   }
+  }
+ },
+ {
+  "id": "FUNGI_CUTTER_3",
+  "name": "Fungi Cutter Mk. III",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Tuned to one colour of mushroom at a",
+   "&7time. &eRight-click &7to switch between",
+   "&7red and brown."
+  ],
+  "requirements": [
+   "skill:farming:20"
+  ],
+  "npcSell": 0.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "recombable"
+  ],
+  "extra": {
+   "farmTool": {
+    "line": "FUNGI_CUTTER",
+    "kind": "fungi",
+    "mk": 3,
+    "crops": [
+     "MUSHROOM"
+    ],
+    "cropFortune": 50,
+    "wisdom": 3,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": true,
+    "gardenLevel": 9
+   },
+   "owner": "farming",
+   "refName": "Fungi Cutter Mk. III",
+   "crop_fortune": {
+    "MUSHROOM": 50
+   }
+  }
+ },
+ {
+  "id": "WOOD_HOE",
+  "name": "Wooden Hoe",
+  "material": "WOODEN_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A plain wooden hoe."
+  ],
+  "npcSell": 1.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "vanilla",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  }
+ },
+ {
+  "id": "STONE_HOE",
+  "name": "Stone Hoe",
+  "material": "STONE_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A plain stone hoe."
+  ],
+  "npcSell": 2.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  }
+ },
+ {
+  "id": "IRON_HOE",
+  "name": "Iron Hoe",
+  "material": "IRON_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A plain iron hoe."
+  ],
+  "npcSell": 3.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  }
+ },
+ {
+  "id": "GOLD_HOE",
+  "name": "Golden Hoe",
+  "material": "GOLDEN_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A plain golden hoe."
+  ],
+  "npcSell": 4.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable",
+   "vanilla",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  }
+ },
+ {
+  "id": "DIAMOND_HOE",
+  "name": "Diamond Hoe",
+  "material": "DIAMOND_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A plain diamond hoe."
+  ],
+  "npcSell": 8.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  }
+ },
+ {
+  "id": "ROOKIE_HOE",
+  "name": "Rookie Hoe",
+  "material": "STONE_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Farming Fortune raises your",
+   "&7chance of extra crops from",
+   "&7every harvest."
+  ],
+  "npcSell": 3.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 5
+  },
+  "requirements": [
+   "skill:farming:1"
+  ]
+ },
+ {
+  "id": "ROOKIE_FARMING_AXE",
+  "name": "Rookie Farming Axe",
+  "material": "STONE_AXE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A starter axe for melons,",
+   "&7pumpkins and cocoa."
+  ],
+  "npcSell": 3.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 5
+  },
+  "requirements": [
+   "skill:farming:1"
+  ]
+ },
+ {
+  "id": "PROMISING_HOE",
+  "name": "Promising Hoe",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7A sturdy step up from the",
+   "&7rookie hoe."
+  ],
+  "npcSell": 10.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 10
+  }
+ },
+ {
+  "id": "BASIC_GARDENING_HOE",
+  "name": "Basic Gardening Hoe",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Works on every crop, nothing fancy."
+  ],
+  "npcSell": 100.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 10
+  },
+  "requirements": [
+   "skill:farming:5"
+  ]
+ },
+ {
+  "id": "ADVANCED_GARDENING_HOE",
+  "name": "Advanced Gardening Hoe",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A well-balanced hoe for any crop."
+  ],
+  "npcSell": 100.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 15
+  },
+  "requirements": [
+   "skill:farming:7"
+  ]
+ },
+ {
+  "id": "BASIC_GARDENING_AXE",
+  "name": "Basic Gardening Axe",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7For melons, pumpkins and cocoa."
+  ],
+  "npcSell": 100.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 10
+  }
+ },
+ {
+  "id": "ADVANCED_GARDENING_AXE",
+  "name": "Advanced Gardening Axe",
+  "material": "GOLDEN_AXE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7A keen edge for block crops."
+  ],
+  "npcSell": 100.0,
+  "tags": [
+   "farming_tool",
+   "reforgeable",
+   "enchantable"
+  ],
+  "extra": {
+   "owner": "farming",
+   "farmTool": {
+    "line": "generic",
+    "kind": "generic",
+    "mk": 0,
+    "crops": [],
+    "cropFortune": 0,
+    "wisdom": 0,
+    "counter": false,
+    "analysis": false,
+    "dicer": 0.0,
+    "leveling": false
+   }
+  },
+  "stats": {
+   "FARMING_FORTUNE": 15
+  }
+ },
+ {
+  "id": "HOE_OF_GREAT_TILLING",
+  "name": "Hoe of Great Tilling",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Tills a &a3x3 &7patch of soil at once.",
+   "&7Only works where you are allowed to build."
+  ],
+  "requirements": [
+   "skill:farming:2"
+  ],
+  "glow": false,
+  "tags": [
+   "farming_tool"
+  ],
+  "extra": {
+   "owner": "farming",
+   "tilling": "3x3"
+  }
+ },
+ {
+  "id": "HOE_OF_GREATER_TILLING",
+  "name": "Hoe of Greater Tilling",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "HOE",
+  "lore": [
+   "&7Tills a &a5x5 &7patch of soil at once.",
+   "&7Only works where you are allowed to build."
+  ],
+  "requirements": [
+   "skill:farming:5"
+  ],
+  "glow": false,
+  "tags": [
+   "farming_tool"
+  ],
+  "extra": {
+   "owner": "farming",
+   "tilling": "5x5"
+  }
+ },
+ {
+  "id": "HOE_OF_GREATEST_TILLING",
+  "name": "Hoe of Greatest Tilling",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "HOE",
+  "lore": [
+   "&7Tills a whole &arow &7of soil in the direction you face.",
+   "&7Only works where you are allowed to build."
+  ],
+  "requirements": [
+   "skill:farming:10"
+  ],
+  "glow": true,
+  "tags": [
+   "farming_tool"
+  ],
+  "extra": {
+   "owner": "farming",
+   "tilling": "row"
+  }
+ },
+ {
+  "id": "THEORETICAL_HOE",
+  "name": "Mathematical Hoe Blueprint",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Faded plans for a family of",
+   "&7precision farming tools.",
+   "",
+   "&7Combine with &a512 &7of a crop at a",
+   "&7crafting table to build its tool."
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "farming"
+  }
+ },
+ {
+  "id": "JACOBS_TICKET",
+  "name": "Harvest Fair Ticket",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Awarded at the Harvest Fair.",
+   "&7Spend them at Harvesta's",
+   "&7Medal Exchange or on tool upgrades."
+  ],
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Jacob's Ticket"
+  }
+ },
+ {
+  "id": "CROPIE",
+  "name": "Cropling",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A lucky find from wheat, carrot",
+   "&7and potato fields during a",
+   "&7Harvest Fair."
+  ],
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Cropie"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkyOTIyNCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkMDFjYmEyM2VkZTJjZDI4OTUxMDdmMGMwMjU4ZTk3MWQyNDg1NTM4ZmU5NjQ5ZWYyODUzYmQyNmU2MjMyZGMiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SQUASH",
+  "name": "Squash",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A lucky find from melon, pumpkin",
+   "&7and cocoa during a Harvest Fair."
+  ],
+  "npcSell": 75000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Squash"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjk0ODA3NCwKICAicHJvZmlsZUlkIiA6ICI2ODAwNzFmZTIxOWE0OWNmYmM3MDIxMjc1NTI0NDIwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphYm95ODAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZTA3NjY0OWVmMjJmNjBlODUxMTgzMWM2OGZkMmI2ZWE2M2MzMjE2NGRhYjMzYThhZWJjMThmZjJhNTRjOCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "FERMENTO",
+  "name": "Fermenta",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A lucky find from nether wart,",
+   "&7sugar cane, cactus and mushrooms",
+   "&7during a Harvest Fair."
+  ],
+  "npcSell": 250000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Fermento"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkxNjU1MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHd0FiaXlCZ2dnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiNDFkYWViNTdkMmFlNjJjNjZlNThlYjZkZWJiMmE3ZDQ0NmUzNDU0MWE3NzEzNTA3MjhjOWRiMTViZWFmYmEiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "HELIANTHUS",
+  "name": "Helianthus",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The cream of the crop: a lucky",
+   "&7find from sunflowers, moonflowers",
+   "&7and wild roses during a Harvest Fair."
+  ],
+  "npcSell": 275000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Helianthus"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc2MDk4MzE2ODM3NiwKICAicHJvZmlsZUlkIiA6ICI2NmRmYzFmNTRlNTU0ZTZmODJjNTA5ZjM1NTJiYTkwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJadWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk4YWM5MjI0NDkxYTlkZDQ4MDUzMWJkOTcxNTkxNzI0Y2UyOTkyMWVjOGYxNDE0NjEyNzZmMWJmM2E1OWVkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "FARMING_FOR_DUMMIES",
+  "name": "Farmer's Almanac",
+  "material": "BOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "maxStack": 1,
+  "lore": [
+   "&7Grants &6+1☘ Farming Fortune &7when",
+   "&7applied to a farming tool.",
+   "&7Up to &a5 &7per tool.",
+   "",
+   "&7Apply it from &e/farmtool&7."
+  ],
+  "npcSell": 0,
+  "tags": [
+   "museum"
+  ],
+  "extra": {
+   "owner": "farming",
+   "refName": "Farming for Dummies"
+  }
+ },
+ {
+  "id": "SHINY_ORB",
+  "name": "Shiny Orb",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "NONE",
+  "maxStack": 1,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxODYwNjA5MDE0OSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyY2RlMDY4ZTk5YTRmOThjMzFmODdiNGNjMDZiZTE0YjIyOWFjYTRmNzI4MWE0MTZjN2UyZjU1MzIyM2RiNzQiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Right-click a &dShiny Pig &7to catch it,",
+   "&7then bring the pig back to the orb",
+   "&7to gain loot."
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "farming",
+   "refName": "Shiny Orb"
+  }
+ },
+ {
+  "id": "TALBOTS_THEODOLITE",
+  "name": "Surveyor's Theodolite",
+  "material": "REPEATER",
+  "rarity": "RARE",
+  "category": "NONE",
+  "maxStack": 1,
+  "lore": [
+   "&7Points you toward your current",
+   "&7trapper quarry."
+  ],
+  "abilities": [
+   {
+    "id": "farming_theodolite",
+    "name": "Track",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 10,
+    "lore": [
+     "&7Shows the direction, distance and",
+     "&7height difference to the animal you",
+     "&7are hunting."
+    ]
+   }
+  ],
+  "npcSell": 10,
+  "tags": [],
+  "extra": {
+   "owner": "farming",
+   "refName": "Talbot's Theodolite"
+  }
+ }
+]

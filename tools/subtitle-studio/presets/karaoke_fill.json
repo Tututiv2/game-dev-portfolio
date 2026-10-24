@@ -1,0 +1,23 @@
+{
+  "name": "karaoke_fill",
+  "label": "Karaoke Fill",
+  "font": "Poppins SemiBold",
+  "font_fallbacks": [
+    "Poppins",
+    "Montserrat",
+    "Arial"
+  ],
+  "bold": false,
+  "casing": "none",
+  "size_pct": 7.2,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#FFFFFF",
+  "outline_colour": "#000000",
+  "outline_pct": 0.4,
+  "shadow_pct": 0.2,
+  "highlight": "dim",
+  "inactive_opacity": 0.55,
+  "position": "bottom",
+  "margin_v_pct": 13.0,
+  "default_reveal": "KARAOKE_HIGHLIGHT"
+}

@@ -1,0 +1,816 @@
+[
+ {
+  "id": "island_size",
+  "scope": "profile",
+  "name": "Island Size",
+  "unit": "blocks wide",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 169,
+    "gems": 0,
+    "hours": 48
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 177,
+    "gems": 175,
+    "hours": 96.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 185,
+    "gems": 175,
+    "hours": 132.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 193,
+    "gems": 175,
+    "hours": 168.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 201,
+    "gems": 175,
+    "hours": 204.0
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 209,
+    "gems": 175,
+    "hours": 240.0
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 217,
+    "gems": 200,
+    "hours": 240
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 225,
+    "gems": 200,
+    "hours": 240
+   },
+   {
+    "tier": 9,
+    "label": "IX",
+    "value": 233,
+    "gems": 200,
+    "hours": 240
+   },
+   {
+    "tier": 10,
+    "label": "X",
+    "value": 241,
+    "gems": 200,
+    "hours": 240
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Island Size'"
+ },
+ {
+  "id": "minion_slots",
+  "scope": "profile",
+  "name": "Minion Slots",
+  "unit": "extra minion slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 24.0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 0,
+    "hours": 162.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 0,
+    "hours": 300.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 0,
+    "hours": 438.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 0,
+    "hours": 576.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Minion Slots'"
+ },
+ {
+  "id": "guests_limit",
+  "scope": "profile",
+  "name": "Guests Limit",
+  "unit": "extra guest slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 48
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 50,
+    "hours": 96.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 50,
+    "hours": 192.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 50,
+    "hours": 288.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 50,
+    "hours": 384.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Guests Limit'"
+ },
+ {
+  "id": "coop_slots",
+  "scope": "profile",
+  "name": "Co-op Slots",
+  "unit": "co-op members",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 6,
+    "gems": 600,
+    "hours": 0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 7,
+    "gems": 600,
+    "hours": 0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 8,
+    "gems": 600,
+    "hours": 0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Co-op Slots'"
+ },
+ {
+  "id": "coins_allowance",
+  "scope": "profile",
+  "name": "Coins Allowance",
+  "unit": "coins per day",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 10000,
+    "gems": 0,
+    "hours": 120.0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 20000,
+    "gems": 0,
+    "hours": 240.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 30000,
+    "gems": 0,
+    "hours": 360.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 40000,
+    "gems": 0,
+    "hours": 480.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 50000,
+    "gems": 0,
+    "hours": 600.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Coins Allowance'"
+ },
+ {
+  "id": "armor_wardrobe",
+  "scope": "account",
+  "name": "Armor Wardrobe Slots",
+  "unit": "extra wardrobe slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 144
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 286,
+    "hours": 144
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 321,
+    "hours": 144
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 357,
+    "hours": 144
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 6,
+    "gems": 393,
+    "hours": 144
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 7,
+    "gems": 429,
+    "hours": 144
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 8,
+    "gems": 464,
+    "hours": 144
+   },
+   {
+    "tier": 9,
+    "label": "IX",
+    "value": 9,
+    "gems": 500,
+    "hours": 144
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Armor Wardrobe Slots'"
+ },
+ {
+  "id": "equipment_wardrobe",
+  "scope": "account",
+  "name": "Equipment Wardrobe Slots",
+  "unit": "extra equipment wardrobe slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 6,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 7,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 8,
+    "gems": 250,
+    "hours": 144
+   },
+   {
+    "tier": 9,
+    "label": "IX",
+    "value": 9,
+    "gems": 250,
+    "hours": 144
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Equipment Wardrobe Slots'"
+ },
+ {
+  "id": "loadout_slots",
+  "scope": "account",
+  "name": "Loadout Slots",
+  "unit": "extra loadout slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 6,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 7,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 8,
+    "gems": 500,
+    "hours": 144
+   },
+   {
+    "tier": 9,
+    "label": "IX",
+    "value": 9,
+    "gems": 500,
+    "hours": 144
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Loadout Slots'"
+ },
+ {
+  "id": "hotm_slots",
+  "scope": "account",
+  "name": "Mountain Tree Slots",
+  "unit": "extra tree loadouts",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 150,
+    "hours": 144
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 150,
+    "hours": 144
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 150,
+    "hours": 144
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'HotM / HotF slots'"
+ },
+ {
+  "id": "ender_chest_pages",
+  "scope": "account",
+  "name": "Ender Chest Pages",
+  "unit": "extra ender chest pages",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 144
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 75,
+    "hours": 144
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 88,
+    "hours": 144
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 100,
+    "hours": 144
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 112,
+    "hours": 144
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 6,
+    "gems": 125,
+    "hours": 144
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 7,
+    "gems": 138,
+    "hours": 144
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 8,
+    "gems": 150,
+    "hours": 144
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Ender Chest Pages'"
+ },
+ {
+  "id": "accessory_bag",
+  "scope": "account",
+  "name": "Accessory Bag",
+  "unit": "extra accessory bag slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 2,
+    "gems": 0,
+    "hours": 96.0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 4,
+    "gems": 0,
+    "hours": 163.2
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 6,
+    "gems": 0,
+    "hours": 230.4
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 8,
+    "gems": 0,
+    "hours": 297.6
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 10,
+    "gems": 0,
+    "hours": 364.8
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 12,
+    "gems": 0,
+    "hours": 432.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Accessory Bag'"
+ },
+ {
+  "id": "sack_of_sacks",
+  "scope": "account",
+  "name": "Sack of Sacks",
+  "unit": "extra sack slots",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 288
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 0,
+    "hours": 288
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 100,
+    "hours": 288
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 140,
+    "hours": 288
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 180,
+    "hours": 288
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 6,
+    "gems": 220,
+    "hours": 288
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 7,
+    "gems": 260,
+    "hours": 288
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 8,
+    "gems": 300,
+    "hours": 288
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Sack of Sacks'"
+ },
+ {
+  "id": "magic_find",
+  "scope": "account",
+  "name": "Magic Find",
+  "unit": "Magic Find",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 1,
+    "gems": 0,
+    "hours": 24.0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 2,
+    "gems": 0,
+    "hours": 114.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 3,
+    "gems": 0,
+    "hours": 204.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 4,
+    "gems": 0,
+    "hours": 294.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 5,
+    "gems": 0,
+    "hours": 384.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Magic Find'"
+ },
+ {
+  "id": "bazaar_flipper",
+  "scope": "account",
+  "name": "Bazaar Flipper",
+  "unit": "extra bazaar orders (and -0.125% tax per tier)",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 7,
+    "gems": 0,
+    "hours": 120
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 14,
+    "gems": 100,
+    "hours": 240
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Bazaar Flipper'"
+ },
+ {
+  "id": "garden_farming_fortune",
+  "scope": "account",
+  "name": "Garden Farming Fortune",
+  "unit": "Farming Fortune in the Garden",
+  "tiers": [
+   {
+    "tier": 1,
+    "label": "I",
+    "value": 4,
+    "gems": 0,
+    "hours": 72.0
+   },
+   {
+    "tier": 2,
+    "label": "II",
+    "value": 8,
+    "gems": 0,
+    "hours": 144.0
+   },
+   {
+    "tier": 3,
+    "label": "III",
+    "value": 12,
+    "gems": 0,
+    "hours": 216.0
+   },
+   {
+    "tier": 4,
+    "label": "IV",
+    "value": 16,
+    "gems": 0,
+    "hours": 288.0
+   },
+   {
+    "tier": 5,
+    "label": "V",
+    "value": 20,
+    "gems": 0,
+    "hours": 360.0
+   },
+   {
+    "tier": 6,
+    "label": "VI",
+    "value": 24,
+    "gems": 0,
+    "hours": 432.0
+   },
+   {
+    "tier": 7,
+    "label": "VII",
+    "value": 28,
+    "gems": 0,
+    "hours": 504.0
+   },
+   {
+    "tier": 8,
+    "label": "VIII",
+    "value": 32,
+    "gems": 0,
+    "hours": 576.0
+   },
+   {
+    "tier": 9,
+    "label": "IX",
+    "value": 36,
+    "gems": 0,
+    "hours": 648.0
+   },
+   {
+    "tier": 10,
+    "label": "X",
+    "value": 40,
+    "gems": 0,
+    "hours": 720.0
+   }
+  ],
+  "note": "TUNE: per-tier values interpolated from research 05 section 6.4 row 'Garden Farming Fortune'"
+ }
+]

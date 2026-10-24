@@ -1,0 +1,23 @@
+{
+  "name": "clean_pop",
+  "label": "Clean Pop",
+  "font": "Poppins SemiBold",
+  "font_fallbacks": [
+    "Poppins",
+    "Segoe UI",
+    "Arial"
+  ],
+  "bold": false,
+  "casing": "none",
+  "size_pct": 6.8,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#FFFFFF",
+  "outline_colour": "#101010",
+  "outline_pct": 0.3,
+  "shadow_pct": 0.18,
+  "highlight": "scale",
+  "active_scale": 112,
+  "position": "bottom",
+  "margin_v_pct": 13.0,
+  "default_reveal": "KARAOKE_HIGHLIGHT"
+}

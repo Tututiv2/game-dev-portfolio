@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.auracapes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AvatarRendererMixin",
+    "ChatComponentMixin",
+    "ConnectScreenMixin",
+    "DisconnectedScreenAccessor",
+    "PlayerTabOverlayMixin",
+    "ScreenSwapMixin",
+    "MinecraftAccessor",
+    "WindowTitleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

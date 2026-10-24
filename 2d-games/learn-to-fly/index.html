@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Learn to Fly</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%; overflow: hidden;
+    background: #0d1117;
+    font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+    /* the game is one canvas, so nothing here should ever be selectable or draggable */
+    user-select: none; -webkit-user-select: none; touch-action: none;
+  }
+  #game { display: block; width: 100vw; height: 100vh; cursor: default; }
+  #boot {
+    position: fixed; inset: 0; display: grid; place-items: center;
+    color: #9fb4c8; font-size: 14px; letter-spacing: .08em; pointer-events: none;
+    transition: opacity .4s ease;
+  }
+  #boot.gone { opacity: 0; }
+</style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="boot">LEARN TO FLY</div>
+  <script type="module">
+    import './src/main.js';
+    // The canvas paints on the first frame; this just stops the page being blank before it.
+    const hideBoot = () => document.getElementById('boot').classList.add('gone');
+    requestAnimationFrame(() => requestAnimationFrame(hideBoot));
+    // rAF does not fire in a background tab, and a permanent LEARN TO FLY ghost over the
+    // game is not the impression to leave. Belt and braces.
+    setTimeout(hideBoot, 1500);
+  </script>
+  <noscript style="color:#9fb4c8;font:14px system-ui;position:fixed;inset:0;display:grid;place-items:center">
+    This game is JavaScript and a canvas. Please enable JavaScript.
+  </noscript>
+</body>
+</html>

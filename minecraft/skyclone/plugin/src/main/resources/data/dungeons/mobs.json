@@ -1,0 +1,1585 @@
+[
+ {
+  "id": "dungeon_zombie_grunt",
+  "name": "✯ Zombie Grunt",
+  "entity": "ZOMBIE",
+  "level": 10,
+  "health": 2000,
+  "damage": 120,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_BOOTS",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_zombie_grunt",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "HAND": "WOODEN_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_skeleton_grunt",
+  "name": "✯ Skeleton Grunt",
+  "entity": "SKELETON",
+  "level": 10,
+  "health": 1600,
+  "damage": 110,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_GRUNT_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_GRUNT_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_GRUNT_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_GRUNT_BOOTS",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_skeleton_grunt",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_crypt_lurker",
+  "name": "✯ Crypt Lurker",
+  "entity": "ZOMBIE",
+  "level": 10,
+  "health": 2400,
+  "damage": 140,
+  "combatXp": 9,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_HELMET",
+    "chance": 0.012
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_CHESTPLATE",
+    "chance": 0.012
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_LEGGINGS",
+    "chance": 0.012
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ROTTEN_BOOTS",
+    "chance": 0.012
+   }
+  ],
+  "family": "dungeon_crypt_lurker",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "CHEST": "CHAINMAIL_CHESTPLATE"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_crypt_souleater",
+  "name": "✯ Crypt Souleater",
+  "entity": "HUSK",
+  "level": 10,
+  "health": 3000,
+  "damage": 160,
+  "combatXp": 10,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_BOW",
+    "chance": 0.004
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_DREADLORD_SWORD",
+    "chance": 0.004
+   }
+  ],
+  "family": "dungeon_crypt_souleater",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_lonely_spider",
+  "name": "✯ Lonely Spider",
+  "entity": "SPIDER",
+  "level": 20,
+  "health": 1500,
+  "damage": 130,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "BOUNCY_HELMET",
+    "chance": 0.004
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "BOUNCY_CHESTPLATE",
+    "chance": 0.004
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "BOUNCY_LEGGINGS",
+    "chance": 0.004
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "BOUNCY_BOOTS",
+    "chance": 0.004
+   }
+  ],
+  "family": "dungeon_lonely_spider",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_cellar_spider",
+  "name": "✯ Cellar Spider",
+  "entity": "CAVE_SPIDER",
+  "level": 20,
+  "health": 900,
+  "damage": 90,
+  "combatXp": 6,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_cellar_spider",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_zombie_soldier",
+  "name": "✯ Zombie Soldier",
+  "entity": "ZOMBIE",
+  "level": 30,
+  "health": 4000,
+  "damage": 180,
+  "combatXp": 12,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_SOLDIER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_SOLDIER_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_SOLDIER_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_SOLDIER_BOOTS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_SOLDIER_CUTLASS",
+    "chance": 0.005
+   }
+  ],
+  "family": "dungeon_zombie_soldier",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "IRON_HELMET",
+   "CHEST": "IRON_CHESTPLATE",
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_zombie_knight",
+  "name": "✯ Zombie Knight",
+  "entity": "ZOMBIE",
+  "level": 30,
+  "health": 5500,
+  "damage": 220,
+  "combatXp": 14,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_KNIGHT_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_KNIGHT_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_KNIGHT_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_KNIGHT_BOOTS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_KNIGHT_SWORD",
+    "chance": 0.005
+   }
+  ],
+  "family": "dungeon_zombie_knight",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "HAND": "GOLDEN_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_zombie_commander",
+  "name": "✯ Zombie Commander",
+  "entity": "ZOMBIE",
+  "level": 30,
+  "health": 7000,
+  "damage": 260,
+  "combatXp": 18,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_COMMANDER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_COMMANDER_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_COMMANDER_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_COMMANDER_BOOTS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_COMMANDER_WHIP",
+    "chance": 0.005
+   }
+  ],
+  "family": "dungeon_zombie_commander",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "DIAMOND_HELMET",
+   "CHEST": "DIAMOND_CHESTPLATE",
+   "HAND": "DIAMOND_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_super_tank_zombie",
+  "name": "✯ Super Tank Zombie",
+  "entity": "ZOMBIE",
+  "level": 30,
+  "health": 12000,
+  "damage": 200,
+  "combatXp": 20,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SUPER_HEAVY_HELMET",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SUPER_HEAVY_CHESTPLATE",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SUPER_HEAVY_LEGGINGS",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SUPER_HEAVY_BOOTS",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "HEAVY_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "HEAVY_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "HEAVY_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "HEAVY_BOOTS",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_super_tank_zombie",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "NETHERITE_HELMET",
+   "CHEST": "NETHERITE_CHESTPLATE",
+   "LEGS": "NETHERITE_LEGGINGS"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_deathmite",
+  "name": "✯ Deathmite",
+  "entity": "ENDERMITE",
+  "level": 30,
+  "health": 600,
+  "damage": 150,
+  "combatXp": 5,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_deathmite",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_skeleton_master",
+  "name": "✯ Skeleton Master",
+  "entity": "SKELETON",
+  "level": 40,
+  "health": 5000,
+  "damage": 240,
+  "combatXp": 16,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_MASTER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_MASTER_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_MASTER_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_MASTER_BOOTS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_BOOTS",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_skeleton_master",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "IRON_HELMET",
+   "HAND": "BOW"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_bonelord",
+  "name": "✯ Bonelord",
+  "entity": "WITHER_SKELETON",
+  "level": 40,
+  "health": 7000,
+  "damage": 280,
+  "combatXp": 20,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETOR_HELMET",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETOR_CHESTPLATE",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETOR_LEGGINGS",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETOR_BOOTS",
+    "chance": 0.008
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "BONE_BOOMERANG",
+    "chance": 0.002
+   }
+  ],
+  "family": "dungeon_bonelord",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_super_archer",
+  "name": "✯ Super Archer",
+  "entity": "SKELETON",
+  "level": 50,
+  "health": 4000,
+  "damage": 350,
+  "combatXp": 18,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_CHESTPLATE",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_LEGGINGS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_SOLDIER_BOOTS",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "MACHINE_GUN_BOW",
+    "chance": 0.004
+   }
+  ],
+  "family": "dungeon_super_archer",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "CHAINMAIL_HELMET",
+   "HAND": "BOW"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_sniper",
+  "name": "✯ Sniper",
+  "entity": "STRAY",
+  "level": 50,
+  "health": 3500,
+  "damage": 450,
+  "combatXp": 18,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SNIPER_HELMET",
+    "chance": 0.01
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SNIPER_BOW",
+    "chance": 0.006
+   }
+  ],
+  "family": "dungeon_sniper",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_witherbinder",
+  "name": "✯ Witherbinder",
+  "entity": "WITHER_SKELETON",
+  "level": 60,
+  "health": 9000,
+  "damage": 320,
+  "combatXp": 24,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_WITHERLORD_HELMET",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_WITHERLORD_CHESTPLATE",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_WITHERLORD_LEGGINGS",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_WITHERLORD_BOOTS",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "CRYPT_WITHERLORD_SWORD",
+    "chance": 0.003
+   }
+  ],
+  "family": "dungeon_witherbinder",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "BLAZE_ROD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_veilwraith",
+  "name": "✯ Veilwraith",
+  "entity": "ENDERMAN",
+  "level": 60,
+  "health": 12000,
+  "damage": 400,
+  "combatXp": 26,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "FEL_PEARL",
+    "chance": 0.05
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "FEL_SKULL",
+    "chance": 0.002
+   }
+  ],
+  "family": "dungeon_veilwraith",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_zombie_lord",
+  "name": "✯ Zombie Lord",
+  "entity": "ZOMBIE",
+  "level": 70,
+  "health": 20000,
+  "damage": 450,
+  "combatXp": 32,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_LORD_HELMET",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_LORD_CHESTPLATE",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_LORD_LEGGINGS",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ZOMBIE_LORD_BOOTS",
+    "chance": 0.006
+   }
+  ],
+  "family": "dungeon_zombie_lord",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "NETHERITE_HELMET",
+   "HAND": "NETHERITE_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_skeleton_lord",
+  "name": "✯ Skeleton Lord",
+  "entity": "SKELETON",
+  "level": 70,
+  "health": 18000,
+  "damage": 480,
+  "combatXp": 32,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_LORD_HELMET",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_LORD_CHESTPLATE",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_LORD_LEGGINGS",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_LORD_BOOTS",
+    "chance": 0.006
+   },
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SKELETON_LORD_BOW",
+    "chance": 0.003
+   }
+  ],
+  "family": "dungeon_skeleton_lord",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "NETHERITE_HELMET",
+   "HAND": "BOW"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_wither_guard",
+  "name": "✯ Wither Guard",
+  "entity": "WITHER_SKELETON",
+  "level": 80,
+  "health": 25000,
+  "damage": 500,
+  "combatXp": 40,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_wither_guard",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "NETHERITE_HELMET",
+   "HAND": "NETHERITE_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_wither_miner",
+  "name": "✯ Wither Miner",
+  "entity": "WITHER_SKELETON",
+  "level": 80,
+  "health": 22000,
+  "damage": 550,
+  "combatXp": 40,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_wither_miner",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "NETHERITE_PICKAXE"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_crypt_undead",
+  "name": "Crypt Undead",
+  "entity": "ZOMBIE",
+  "level": 20,
+  "health": 1500,
+  "damage": 100,
+  "combatXp": 6,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_crypt_undead",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HEAD": "CHAINMAIL_HELMET"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_fallen_explorer",
+  "name": "Fallen Explorer",
+  "entity": "ZOMBIE",
+  "level": 40,
+  "health": 25000,
+  "damage": 140,
+  "combatXp": 60,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "DUNGEON_CHEST_KEY",
+    "chance": 0.02
+   }
+  ],
+  "family": "dungeon_fallen_explorer",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "LEATHER_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "LEGS": "LEATHER_LEGGINGS",
+   "FEET": "LEATHER_BOOTS",
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": [
+   "dungeons_explorer"
+  ]
+ },
+ {
+  "id": "dungeon_gilded_monarch",
+  "name": "Gilded Monarch",
+  "entity": "ZOMBIE",
+  "level": 80,
+  "health": 50000,
+  "damage": 175,
+  "combatXp": 140,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "MIDAS_JEWEL",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_gilded_monarch",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "LEGS": "GOLDEN_LEGGINGS",
+   "FEET": "GOLDEN_BOOTS",
+   "HAND": "GOLDEN_SWORD"
+  },
+  "behaviours": [
+   "dungeons_monarch"
+  ]
+ },
+ {
+  "id": "dungeon_furious_excavator",
+  "name": "Furious Excavator",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 28000,
+  "damage": 160,
+  "combatXp": 180,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "DUNGEON_CHEST_KEY",
+    "chance": 0.03
+   }
+  ],
+  "family": "dungeon_furious_excavator",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "DIAMOND_HELMET",
+   "CHEST": "DIAMOND_CHESTPLATE",
+   "LEGS": "DIAMOND_LEGGINGS",
+   "FEET": "DIAMOND_BOOTS",
+   "HAND": "DIAMOND_SWORD"
+  },
+  "behaviours": [
+   "dungeons_excavator"
+  ]
+ },
+ {
+  "id": "dungeon_shade_stalker",
+  "name": "Shade Stalker",
+  "entity": "WITHER_SKELETON",
+  "level": 120,
+  "health": 22000,
+  "damage": 210,
+  "combatXp": 220,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "SILENT_DEATH",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_shade_stalker",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD"
+  },
+  "behaviours": [
+   "dungeons_shade"
+  ]
+ },
+ {
+  "id": "dungeon_frostbound_explorer",
+  "name": "Frostbound Explorer",
+  "entity": "STRAY",
+  "level": 120,
+  "health": 31000,
+  "damage": 175,
+  "combatXp": 220,
+  "coins": 0,
+  "drops": [
+   {
+    "min": 1,
+    "max": 1,
+    "item": "ICE_SPRAY_WAND",
+    "chance": 0.01
+   }
+  ],
+  "family": "dungeon_frostbound_explorer",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "ICE",
+   "HAND": "DIAMOND_HOE"
+  },
+  "behaviours": [
+   "dungeons_frost"
+  ]
+ },
+ {
+  "id": "dungeon_blood_defiler",
+  "name": "Defiler",
+  "entity": "ZOMBIE",
+  "level": 60,
+  "health": 8000,
+  "damage": 300,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_maniac",
+  "name": "Maniac",
+  "entity": "VINDICATOR",
+  "level": 65,
+  "health": 8600,
+  "damage": 320,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_harvester",
+  "name": "Harvester",
+  "entity": "WITHER_SKELETON",
+  "level": 70,
+  "health": 9200,
+  "damage": 340,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_gnawer",
+  "name": "Gnawer",
+  "entity": "HUSK",
+  "level": 75,
+  "health": 9800,
+  "damage": 360,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_silent_one",
+  "name": "Silent One",
+  "entity": "SKELETON",
+  "level": 80,
+  "health": 10400,
+  "damage": 380,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_sludge",
+  "name": "Sludge",
+  "entity": "DROWNED",
+  "level": 85,
+  "health": 11000,
+  "damage": 400,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_rotter",
+  "name": "Rotter",
+  "entity": "ZOMBIE",
+  "level": 90,
+  "health": 11600,
+  "damage": 420,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_twisted",
+  "name": "Twisted",
+  "entity": "STRAY",
+  "level": 95,
+  "health": 12200,
+  "damage": 440,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_bloodsucker",
+  "name": "Bloodsucker",
+  "entity": "HUSK",
+  "level": 100,
+  "health": 12800,
+  "damage": 460,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_weeper",
+  "name": "Weeper",
+  "entity": "SKELETON",
+  "level": 105,
+  "health": 13400,
+  "damage": 480,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_leechling",
+  "name": "Leechling",
+  "entity": "ZOMBIE",
+  "level": 110,
+  "health": 14000,
+  "damage": 500,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_kindler",
+  "name": "Kindler",
+  "entity": "WITHER_SKELETON",
+  "level": 115,
+  "health": 14600,
+  "damage": 520,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_bonehead",
+  "name": "Bonehead",
+  "entity": "SKELETON",
+  "level": 120,
+  "health": 15200,
+  "damage": 540,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_mister_gone",
+  "name": "Mister Gone",
+  "entity": "ZOMBIE",
+  "level": 125,
+  "health": 15800,
+  "damage": 560,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_darkhelm",
+  "name": "Darkhelm",
+  "entity": "WITHER_SKELETON",
+  "level": 130,
+  "health": 16400,
+  "damage": 580,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_chiller",
+  "name": "Chiller",
+  "entity": "STRAY",
+  "level": 135,
+  "health": 17000,
+  "damage": 600,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_shambler",
+  "name": "Shambler",
+  "entity": "ZOMBIE",
+  "level": 140,
+  "health": 17600,
+  "damage": 620,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_blood_lost_soul",
+  "name": "Lost Soul",
+  "entity": "VEX",
+  "level": 145,
+  "health": 18200,
+  "damage": 640,
+  "combatXp": 25,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_blood",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_puzzle_blaze",
+  "name": "Pillar Blaze",
+  "entity": "BLAZE",
+  "level": 10,
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_puzzle_blaze",
+  "flags": [
+   "passive",
+   "no_ai",
+   "silent"
+  ],
+  "equipment": {},
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_mimic",
+  "name": "Mimic",
+  "entity": "ZOMBIE",
+  "level": 100,
+  "health": 120000,
+  "damage": 600,
+  "combatXp": 120,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_mimic",
+  "flags": [
+   "aggressive",
+   "baby",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "CHEST"
+  },
+  "behaviours": []
+ },
+ {
+  "id": "dungeon_guardian_1",
+  "name": "Grinko",
+  "entity": "ZOMBIE",
+  "level": 120,
+  "health": 250000,
+  "damage": 2664,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f1",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_2",
+  "name": "Veilwright",
+  "entity": "WITHER_SKELETON",
+  "level": 140,
+  "health": 1000000,
+  "damage": 4000,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f2",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_3",
+  "name": "The Lecturer",
+  "entity": "SKELETON",
+  "level": 160,
+  "health": 3000000,
+  "damage": 6640,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f3",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_4",
+  "name": "Bramblemaw",
+  "entity": "RAVAGER",
+  "level": 180,
+  "health": 4000000,
+  "damage": 8000,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f4",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_5",
+  "name": "Lurid",
+  "entity": "VINDICATOR",
+  "level": 200,
+  "health": 7000000,
+  "damage": 10000,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f5",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_6",
+  "name": "Gorrak",
+  "entity": "ZOMBIE",
+  "level": 220,
+  "health": 40000000,
+  "damage": 14000,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f6",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ },
+ {
+  "id": "dungeon_guardian_7",
+  "name": "Morvane",
+  "entity": "WITHER_SKELETON",
+  "level": 240,
+  "health": 100000000,
+  "damage": 20000,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "dungeon_boss_f7",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "dungeons_boss"
+  ]
+ }
+]

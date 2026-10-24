@@ -1,0 +1,150 @@
+[
+ {
+  "id": "ENCHANTED_BOOK",
+  "name": "Enchanted Book",
+  "material": "ENCHANTED_BOOK",
+  "rarity": "COMMON",
+  "category": "ENCHANTED_BOOK",
+  "maxStack": 1,
+  "glow": true,
+  "lore": [
+   "&7A book holding one or more enchantments.",
+   "&7Combine it with an item in an &aAnvil&7."
+  ],
+  "tags": [
+   "enchanting_book"
+  ]
+ },
+ {
+  "id": "EXP_BOTTLE",
+  "name": "Experience Bottle",
+  "material": "EXPERIENCE_BOTTLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Smash it open to receive experience!"
+  ],
+  "tags": [
+   "vanilla",
+   "throwable"
+  ],
+  "npcSell": 2,
+  "extra": {
+   "exp": 7
+  }
+ },
+ {
+  "id": "GRAND_EXP_BOTTLE",
+  "name": "Grand Experience Bottle",
+  "material": "EXPERIENCE_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Crack it open for a burst of experience.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "npcSell": 25,
+  "extra": {
+   "exp": 1250
+  }
+ },
+ {
+  "id": "TITANIC_EXP_BOTTLE",
+  "name": "Titanic Experience Bottle",
+  "material": "EXPERIENCE_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Crack it open for a flood of experience.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "npcSell": 250,
+  "extra": {
+   "exp": 5000
+  }
+ },
+ {
+  "id": "COLOSSAL_EXP_BOTTLE",
+  "name": "Colossal Experience Bottle",
+  "material": "EXPERIENCE_BOTTLE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Crack it open for a tidal wave of experience.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "npcSell": 1000,
+  "extra": {
+   "exp": 20000
+  }
+ },
+ {
+  "id": "EXPERIMENTATION_TABLE",
+  "name": "Experimentation Table",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "maxStack": 1,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjcwOTgxNjYwOSwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX25vdGFodW1hbl9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxYjg0MzQ1MTE4NGE4Y2NkOGU2ZTQ5ZDBlZGYzNDUxZDNkZWE1MGZkZTViNmEyZjk4YWI3Y2YxMTM4YmNlY2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7Place this on your island!",
+   "",
+   "&7Run strange enchanting experiments",
+   "&7for bonus Enchanting XP and loot."
+  ],
+  "tags": [
+   "placeable"
+  ],
+  "requirements": [
+   "skill:enchanting:10"
+  ]
+ },
+ {
+  "id": "GOLDEN_BOUNTY",
+  "name": "Golden Bounty",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjkwOTYyMywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU2ZTEwYTllZjFiMmNkZDk5ODU1NzU1NGIyMDlmMzY5YWRhN2JjNTBiNDdjODFlZDE0YWIyNjMyZGFiMzgzNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000,
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Raises a weapon's &9Scavenger &7by one level.",
+   "&7Needs Scavenger V. One per weapon.",
+   "",
+   "&7A purse that never quite empties."
+  ],
+  "tags": [
+   "bazaar",
+   "experiments"
+  ]
+ },
+ {
+  "id": "FATEFUL_STINGER",
+  "name": "Fateful Stinger",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc1MTY1OTEwOTU3MSwKICAicHJvZmlsZUlkIiA6ICIwMzA5NGIxMzM1ZjY0M2RlOGQxM2MzN2MzYTliOTQxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWFtWFNhZ2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyYzI2YWQ4OGZkZDEwMzgxMjg0NjUwNzcwZDliNTlkMzY4OGE1Mjg2OGIzYmNjNzc2MmY4OGEzNDMwM2RlOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000,
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Raises a weapon's &9Venomous &7by one level.",
+   "&7Needs Venomous VI. One per weapon.",
+   "",
+   "&7Still wet with something that burns."
+  ],
+  "tags": [
+   "bazaar",
+   "experiments"
+  ]
+ }
+]

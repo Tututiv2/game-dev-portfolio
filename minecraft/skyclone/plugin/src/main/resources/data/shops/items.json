@@ -1,0 +1,272 @@
+[
+ {
+  "id": "PARKOUR_CONTROLLER",
+  "name": "Parkour Start/End",
+  "material": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A pressure plate that marks where a",
+   "&7parkour course on your private",
+   "&7island starts and ends."
+  ],
+  "requirements": [
+   "skill:social:1"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ },
+ {
+  "id": "PARKOUR_POINT",
+  "name": "Parkour Checkpoint",
+  "material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A pressure plate that marks a",
+   "&7checkpoint along a parkour course",
+   "&7on your private island."
+  ],
+  "requirements": [
+   "skill:social:1"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ },
+ {
+  "id": "PARKOUR_TIMES",
+  "name": "Parkour Times",
+  "material": "IRON_BLOCK",
+  "rarity": "COMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A plinth for the best parkour",
+   "&7times on your island."
+  ],
+  "requirements": [
+   "skill:social:1"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ },
+ {
+  "id": "SOCIAL_DISPLAY",
+  "name": "Social Display",
+  "material": "GOLD_BLOCK",
+  "rarity": "UNCOMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A golden plinth honouring the most",
+   "&7active visitors of your island."
+  ],
+  "requirements": [
+   "skill:social:2"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ },
+ {
+  "id": "EGG_HUNT",
+  "name": "Egg Hunt",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7Hide eggs around your island for",
+   "&7your guests to find.",
+   "",
+   "&7Maximum of &a10&7."
+  ],
+  "requirements": [
+   "skill:social:3"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjM2NzQ2MzcwOSwKICAicHJvZmlsZUlkIiA6ICJjMWE3ZjlkZjgyYTU0NjZmOGQ2YjdkYTk3OTA4NGY0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW1tbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OGM1NTMwYzJjODU2ZTMwYjExZmIyMmM3MTExMTdiMDczZmQ4MzMzYWUwNmM5ZmQxYzY5N2M0YWY0YTBjY2M5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ISLAND_NPC",
+  "name": "Island NPC",
+  "material": "POLAR_BEAR_SPAWN_EGG",
+  "rarity": "RARE",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A resident for your private world.",
+   "&7Give your island some company."
+  ],
+  "requirements": [
+   "skill:social:5"
+  ],
+  "npcSell": 0,
+  "maxStack": 1,
+  "tags": [
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ },
+ {
+  "id": "TIC_TAC_TOE",
+  "name": "Tic Tac Toe",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&eRight-click &7another player to",
+   "&7challenge them to a game of",
+   "&7Tic Tac Toe!"
+  ],
+  "requirements": [
+   "skill:social:6"
+  ],
+  "npcSell": 0,
+  "maxStack": 1,
+  "tags": [
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "game"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzMzMDQyMSwKICAicHJvZmlsZUlkIiA6ICJiNzRlYjViMTc5OTc0YzZjODk3ZTgwNTM4Y2M1NmYwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYUNoYW4yOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MGY1MzRmMDcxYTk0NjA3YTlmOGEzMGIyM2Q0NjE0OTgwMTU2NWNjZWJhZGE4NTk0ODMzNjRkNGZiNjgzODg2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "abilities": [
+   {
+    "id": "shops_tic_tac_toe",
+    "name": "Challenge",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": []
+   }
+  ]
+ },
+ {
+  "id": "CONNECT_FOUR",
+  "name": "Four in a Row",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&eRight-click &7another player to",
+   "&7challenge them to Four in a Row:",
+   "&7drop discs, line up four!"
+  ],
+  "requirements": [
+   "skill:social:7"
+  ],
+  "npcSell": 0,
+  "maxStack": 1,
+  "tags": [
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "game"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzQ3ODMxNDYzOCwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseUZpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjM4OGYxNTk1NzQwNDBmNmRlMDc5YTUyZDk1MjI3NmQ4ODgwZjU4MWZkZTg0NjgzODRlYzc0MTY2ZmU5YWQiCiAgICB9CiAgfQp9",
+  "abilities": [
+   {
+    "id": "shops_connect_four",
+    "name": "Challenge",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": []
+   }
+  ]
+ },
+ {
+  "id": "ROCK_PAPER_SHEARS",
+  "name": "Rock Paper Snips",
+  "material": "SHEARS",
+  "rarity": "UNCOMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&eRight-click &7to start a tournament",
+   "&7with every player near you.",
+   "",
+   "&7Each round, the LEAST picked sign",
+   "&7wins and its players go through.",
+   "&7The final two play by the classic",
+   "&7rules."
+  ],
+  "requirements": [
+   "skill:social:8"
+  ],
+  "npcSell": 0,
+  "maxStack": 1,
+  "tags": [
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "game"
+  },
+  "abilities": [
+   {
+    "id": "shops_rock_paper_shears",
+    "name": "Tournament",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 60,
+    "lore": []
+   }
+  ]
+ },
+ {
+  "id": "SHOWCASE_BLOCK",
+  "name": "Showcase Block",
+  "material": "GLASS",
+  "rarity": "UNCOMMON",
+  "category": "COSMETIC",
+  "lore": [
+   "&7A fancy glass display case for",
+   "&7your island."
+  ],
+  "requirements": [
+   "skill:social:10"
+  ],
+  "npcSell": 0,
+  "maxStack": 64,
+  "tags": [
+   "placeable",
+   "no_sell"
+  ],
+  "extra": {
+   "decor": "place"
+  }
+ }
+]

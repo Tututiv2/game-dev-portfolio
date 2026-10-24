@@ -1,0 +1,637 @@
+[
+ {
+  "id": "WOOD_SINGULARITY",
+  "name": "Wood Singularity",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Fuse it onto an &9Axe &7for",
+   "&6+25 Foraging Fortune&7."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "foraging"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTU5NDY3OTYxMSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwYzNiNTQ0NWFmYzQ0MTg0ZDI4OWVhYTc4YTVhM2NkNDk0M2IxNWI0MjJlMTBkZWYxNThmODg4ZWFhOWM1NyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "FRESHLY_MINTED_COINS",
+  "name": "Freshly-Minted Coins",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Still warm from the press. Bankers",
+   "&7pay well for a pouch like this."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAyNzYyODg2NywKICAicHJvZmlsZUlkIiA6ICIxNmJhNWU4MDJhMmU0ZDJhYjEwZmZiYWJiYmQ1MDdlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbGlua3l1c2VyMzMxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODkzYTdkM2E5MmM1YzNjMTI0ZTVjODFhNDk2OWQ2MWQ3MTc1MTUyN2ZlMGZiZmI2ODUyY2E3MGZiMGQwOTA4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "AVARICIOUS_CHALICE",
+  "name": "Avaricious Chalice",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A cup that is never quite full",
+   "&7enough for its owner."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjUwMTAwNSwKICAicHJvZmlsZUlkIiA6ICJlOTUyODY0OGZhYzU0ZDdlOGI0ZGU1NDhiMzU3MDY5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwNjAwMDEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE1Y2E5Njk1NGRiMzE5ZmVmNTk3NjU0ZTU4NjZlMDg5MWU2N2VlYWJkOTdkMjg5MTBmMTVkNjA5NGUyNDZiNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLOOD_STAINED_COINS",
+  "name": "Blood-Stained Coins",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Coins that changed hands at the",
+   "&7end of a blade."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjUzMjAyMywKICAicHJvZmlsZUlkIiA6ICJkNmM2ZGYwOThiZDc0YmQzODEyMzkwZDY5MDUyNjI5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpbmtvZ25pdG8zMzgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJlNDg5ODIxOWRiZDkxNmM5ZGZlZTA2NjA4NGI4MTNlZDhmNjNmZjU4ZjJlMGIyMzI4YzkwOThlMGZkMTQ4NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLOOD_SOAKED_COINS",
+  "name": "Blood-Soaked Coins",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Nobody asks where these came from."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjU2OTMwOCwKICAicHJvZmlsZUlkIiA6ICI4ZDYwNGY0NWM0OWQ0YWE2Yjc0MjhiNTJlYzcyYjliNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyRG9ubiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOGJiMjZkMThiZWZhZDQwYTc1MzVlYmFjMGUxOGJlMjBmMzYyYzAwMGNjNTA4ZjJiMzNiNDNhYmNjMjcyM2U5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "CONDENSED_FERMENTO",
+  "name": "Condensed Fermenta",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Nine Fermenta pressed into one",
+   "&7sticky, potent block."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "garden"
+  },
+  "npcSell": 2250000
+ },
+ {
+  "id": "GLACIAL_FRAGMENT",
+  "name": "Glacial Fragment",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A shard of ice that never melts,",
+   "&7found during the winter season."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "glow": true,
+  "npcSell": 200
+ },
+ {
+  "id": "STRETCHING_STICKS",
+  "name": "Stretching Sticks",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Slender, springy sticks that bend",
+   "&7without snapping. Prized by",
+   "&7axe makers."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "foraging"
+  },
+  "npcSell": 200
+ },
+ {
+  "id": "X",
+  "name": "X",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7One dimension."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "npcSell": 20
+ },
+ {
+  "id": "Y",
+  "name": "Y",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Two dimensions."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "npcSell": 30
+ },
+ {
+  "id": "Z",
+  "name": "Z",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Three dimensions."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "npcSell": 50
+ },
+ {
+  "id": "LOTUS_DIAMOND",
+  "name": "Diamond Lotus",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7The rarest bloom of the lotus",
+   "&7waters."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "fishing"
+  }
+ },
+ {
+  "id": "HILT_OF_REVELATIONS",
+  "name": "Hilt of Omens",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dug up during the mythic ritual.",
+   "&7A blade could be fitted to it."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "npcSell": 150000
+ },
+ {
+  "id": "NECRON_HANDLE",
+  "name": "Warden's Handle",
+  "material": "STICK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Pried from the last warden of",
+   "&7the catacombs."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "dungeons"
+  },
+  "glow": true
+ },
+ {
+  "id": "ENCHANTED_BONE_MEAL",
+  "name": "Enchanted Bone Meal",
+  "material": "BONE_MEAL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Makes crops and saplings shoot",
+   "&7up in an instant."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "farming"
+  },
+  "tags": [
+   "no_recipe"
+  ],
+  "glow": true,
+  "npcSell": 1
+ },
+ {
+  "id": "GEOMETRIC_ODDITY",
+  "name": "Geometric Oddity",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "REFORGE_STONE",
+  "lore": [
+   "&8Reforge Stone",
+   "&8Combinable in Anvil",
+   "",
+   "&7Gives goggles of the bayou the",
+   "&9Geometric &7reforge."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "reforges"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3NTE0Nzk3MjgzOCwKICAicHJvZmlsZUlkIiA6ICI3NjFjOTZhOTgzNzc0ODUwODc4ZjgwYWY4MzIyMzgxZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGlmZnRvcGlhOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWE2ZWFkYWI5ZmIxMDRkMWUxODIxYzFkNDk3MTFiM2E3ZGNlMmI0Y2NmMmNkMDQ3M2EyM2Q1ZjNiY2RmMGIxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 1
+ },
+ {
+  "id": "LUSHLILAC",
+  "name": "Velvet Lilac",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7A soft purple bloom from the",
+   "&7moonlit marsh."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "foraging"
+  },
+  "npcSell": 10
+ },
+ {
+  "id": "RECORD_13",
+  "name": "Music Disc 13",
+  "material": "MUSIC_DISC_13",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7An eerie old record."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "garden"
+  }
+ },
+ {
+  "id": "LUCKY_CLOVER",
+  "name": "Lucky Clover",
+  "material": "OAK_SAPLING",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A four-leaf clover. Some visitors",
+   "&7will pay a fortune for one."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "garden"
+  }
+ },
+ {
+  "id": "GOLDEN_FRAGMENT",
+  "name": "Golden Fragment",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Gold, broken into shards. Smiths",
+   "&7use them to star golden gear."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjU0Mjg4MCwKICAicHJvZmlsZUlkIiA6ICI3MzE4MWQxZDRjYWQ0ZmU0YTcxNWNjNmUxOGNjYzVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZmVybjRuZGl0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MDRjNWNlMTI1NDVhN2NjZGYwYTM1YjlkZjBlZjliYWMxNTgyNmMzYTA3ODZlMWNlMTBmM2VjN2QwNjU2ZjYxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "WINTER_FRAGMENT",
+  "name": "Winter Fragment",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A sliver of festive frost. Smiths",
+   "&7use them to star winter gear."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3MzQwNDk1NDQxMiwKICAicHJvZmlsZUlkIiA6ICI3MDQ0ZDlkY2I5OGI0YzgzYWFjNjIzNjFlYTY5YmNmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfV2F0cnlzaGthXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZjc0YzJlNGMwYjIyMmU0MmU4Y2RkZjNiYThmNmI1NDZjNTEwM2FkYTJjOWMxNTQ2MWFiYzNmYTNmNDI1MDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 500
+ },
+ {
+  "id": "VOLCANIC_ROCK",
+  "name": "Volcanic Rock",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Still warm from the eruption that",
+   "&7made it. A courier on the glacier",
+   "&7trades fragments for it."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcwNDAzMTg1MzkzMCwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I2M2M3ZjE4ODA3MGQxZjI3ZGZmZjhiZTRkNTI1OGM1YTMxNzAwOWY1NjZkZmQ5ZTg2MWNmNmU1ZjhmYjM4ZTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 1000
+ },
+ {
+  "id": "SHIELD_DUST",
+  "name": "Shield Dust",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Scraped off shielded monsters in a",
+   "&7witching year. Brewers fold it into",
+   "&7tonics."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mayors"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MTU5MDgyNDg5OCwKICAicHJvZmlsZUlkIiA6ICIzZGE2ZDgxOTI5MTY0MTNlODhlNzg2MjQ3NzA4YjkzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZXJTdGlsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMGJkYmIxYWM1ZTRmNzFkNWFhZTYxOWIwNWNlNTEzMTZhNmFlZWQ0NThmMzEwZGI0NjhlMGVhZDViNDZmMmVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 5
+ },
+ {
+  "id": "PLASMA_NUCLEUS",
+  "name": "Plasma Nucleus",
+  "material": "PURPLE_DYE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A sphere of contained plasma. Fuse",
+   "&7it into an Overflux power orb to",
+   "&7make it burn brighter."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "slayer"
+  },
+  "maxStack": 1
+ },
+ {
+  "id": "OMEGA_EGG",
+  "name": "Omega Enchanted Egg",
+  "material": "GHAST_SPAWN_EGG",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Nine super eggs in one shell.",
+   "&7Used to craft the strangest of pets."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "farming"
+  },
+  "glow": true,
+  "maxStack": 1
+ },
+ {
+  "id": "EXPORTABLE_CARROTS",
+  "name": "Exportable Carrots",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Rift carrots, crated for export.",
+   "&7A carrot collector on the Crimson",
+   "&7Isle pays in strength for them."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "crimson"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5MDM2NDM2Mjc3NiwKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU1MWRiNmY2OTU1ZTVlNTNlN2RmMzA4NjgzODc5NjY3OTc3MGY5NDcwYzc5MmFlMWJhOWU3ZjQ1NzYyYjk4NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 20
+ },
+ {
+  "id": "COLOSSAL_EXP_BOTTLE_UPGRADE",
+  "name": "Colossal Experience Bottle Upgrade",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Craft it with a Titanic Experience",
+   "&7Bottle to double what it holds."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "bank"
+  },
+  "skull": "eyJ0aW1lc3RhbXAiOjE1ODcwMTkzMzQ1NTcsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MDU0YzI5Yzc4MDkwNDcxYzFlYTA1OGJkNjQxODk3MzkxYzllNDY5NGFhOWQxNDBhZmJiYThkMGNjNDM2MzcifX19",
+  "glow": true,
+  "maxStack": 1
+ },
+ {
+  "id": "DWARVEN_OS_ORE_OATS",
+  "name": "Delver's O's Ore Oats",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Part of a balanced mining breakfast."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mining"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQ5MTEyMjA0OSwKICAicHJvZmlsZUlkIiA6ICJiNzRlYjViMTc5OTc0YzZjODk3ZTgwNTM4Y2M1NmYwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYUNoYW4yOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZGE3OTNiNDA5NTg5MmIwMWQ5NTRjYTEwZGIwZDZlMWQzNjZkNmI0ZTc2MTJkZWRjMjczZGZhNTc5ZWNiMjI3IgogICAgfQogIH0KfQ==",
+  "tags": [
+   "bazaar",
+   "consumable"
+  ],
+  "abilities": [
+   {
+    "id": "materials_dwarven_os_ore_oats",
+    "name": "Breakfast",
+    "trigger": "RIGHT_CLICK",
+    "lore": [
+     "&7The first &a5 &7times you eat one,",
+     "&7gain &6+2☘ Ore Fortune &7for good."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "DWARVEN_OS_BLOCK_BRAN",
+  "name": "Delver's O's Block Bran",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Gritty. Possibly actual gravel."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mining"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQ5MTE0NDQzMSwKICAicHJvZmlsZUlkIiA6ICJhMmI1ZjhlM2MxZDI0ZmUzYTlkMzNiZTFhNzEzYTUwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXBpb0dvZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZjZiZGRiYTFlM2QwMTRmYzc1ZTcwZTI3MjIzY2EzMGNiZmE0Mjk5MGQ0NDhkOWE5NDBlNTAwYTY0MzViZWMiCiAgICB9CiAgfQp9",
+  "tags": [
+   "bazaar",
+   "consumable"
+  ],
+  "abilities": [
+   {
+    "id": "materials_dwarven_os_block_bran",
+    "name": "Breakfast",
+    "trigger": "RIGHT_CLICK",
+    "lore": [
+     "&7The first &a5 &7times you eat one,",
+     "&7gain &6+2☘ Block Fortune &7for good."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "DWARVEN_OS_GEMSTONE_GRAHAMS",
+  "name": "Delver's O's Gemstone Grahams",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7They sparkle. Do not ask why."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mining"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQ5MTA5ODE0NywKICAicHJvZmlsZUlkIiA6ICJlOTUyODY0OGZhYzU0ZDdlOGI0ZGU1NDhiMzU3MDY5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwNjAwMDEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YzUwZjFhYTkxNzIzOWIxNzlkY2MwM2RmYjFlZDZiNWQyODQ0ZWI4YzhmYTc3OWYxMjIzZDZjYmJhNTA2MyIKICAgIH0KICB9Cn0=",
+  "tags": [
+   "bazaar",
+   "consumable"
+  ],
+  "abilities": [
+   {
+    "id": "materials_dwarven_os_gemstone_grahams",
+    "name": "Breakfast",
+    "trigger": "RIGHT_CLICK",
+    "lore": [
+     "&7The first &a5 &7times you eat one,",
+     "&7gain &6+2☘ Gemstone Fortune &7for good."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "DWARVEN_OS_METALLIC_MINIS",
+  "name": "Delver's O's Metallic Minis",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Crunchy in a way teeth object to."
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "mining"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQ5MTA3NjQzOSwKICAicHJvZmlsZUlkIiA6ICIwMzcyOTQyZWRhOTQ0MjQ3YWRlODcyZjRjYjQxZTFkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJiZW5rZXRvbWkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY2NjNiNTQ0YWU4ZjhhNGNlNGNiMGNiYjZmOTE5MGVmZTVjZDk5OTYwNDc1MjA3MDVjMjc2Njk1YWQxNzM0IgogICAgfQogIH0KfQ==",
+  "tags": [
+   "bazaar",
+   "consumable"
+  ],
+  "abilities": [
+   {
+    "id": "materials_dwarven_os_metallic_minis",
+    "name": "Breakfast",
+    "trigger": "RIGHT_CLICK",
+    "lore": [
+     "&7The first &a5 &7times you eat one,",
+     "&7gain &6+2☘ Dwarven Metal Fortune &7for good."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NETHER_FORTRESS_BOSS_TRAVEL_SCROLL",
+  "name": "Dusty Travel Scroll to the Forgotten Skull",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7An old map, brittle at the folds.",
+   "",
+   "&7Island: &cCrimson Isle",
+   "&7Destination: &bForgotten Skull"
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "crimson",
+   "warp": "crimson_skull"
+  }
+ },
+ {
+  "id": "SUMMONING_RING",
+  "name": "Summoning Ring",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Dungeon item"
+  ],
+  "extra": {
+   "family": "misc",
+   "fallbackFor": "dungeons",
+   "src": "weapons",
+   "w": {
+    "souls": 2
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYzNTcxNzczNjM4NiwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MGQxNTk5ZWVmZDU2MjFkMTBhYjY5OTYzZDJhOWIxYjBjOWExZTg5OTllYTg4YTU5NzcyNDQ1ZWQyZjAzOTYiCiAgICB9CiAgfQp9",
+  "tags": [
+   "dungeon_item"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_raise_souls",
+    "name": "Raise Souls",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Monsters you kill while you carry this",
+     "&7ring leave their soul behind. Right-click",
+     "&7a soul with the ring to absorb it, then",
+     "&7right-click to raise your souls to fight",
+     "&7for you.",
+     "&8Mana depends on the monsters' power.",
+     "&8Sneak right-click to release souls.",
+     "&8A raised soul that dies is lost.",
+     "&8Max Souls: &a2"
+    ]
+   }
+  ],
+  "maxStack": 1
+ }
+]

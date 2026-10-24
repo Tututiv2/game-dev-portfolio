@@ -1,0 +1,204 @@
+{
+ "tiers": [
+  {
+   "id": "basic",
+   "index": 0,
+   "name": "Basic",
+   "color": "a",
+   "key": "KUUDRA_TIER_KEY",
+   "rep": 0,
+   "requirement": "faction:any",
+   "sbXp": 20,
+   "waveSeconds": 35,
+   "collection": 1,
+   "bossHp": 10000000,
+   "bossDamage": 800,
+   "mobHp": 1,
+   "mobDamage": 1,
+   "stun": false,
+   "lair": false,
+   "freeEssence": [
+    10,
+    10
+   ],
+   "paidEssence": [
+    100,
+    100
+   ],
+   "teeth": [
+    1,
+    1
+   ],
+   "kraken": 1,
+   "bookLevel": 1
+  },
+  {
+   "id": "hot",
+   "index": 1,
+   "name": "Hot",
+   "color": "e",
+   "key": "KUUDRA_HOT_TIER_KEY",
+   "rep": 1000,
+   "requirement": "faction:any:1000",
+   "sbXp": 40,
+   "waveSeconds": 30,
+   "collection": 2,
+   "bossHp": 25000000,
+   "bossDamage": 1300,
+   "mobHp": 2.5,
+   "mobDamage": 1.6,
+   "stun": false,
+   "lair": false,
+   "freeEssence": [
+    25,
+    25
+   ],
+   "paidEssence": [
+    250,
+    250
+   ],
+   "teeth": [
+    1,
+    1
+   ],
+   "kraken": 1,
+   "bookLevel": 2
+  },
+  {
+   "id": "burning",
+   "index": 2,
+   "name": "Burning",
+   "color": "6",
+   "key": "KUUDRA_BURNING_TIER_KEY",
+   "rep": 3000,
+   "requirement": "faction:any:3000",
+   "sbXp": 60,
+   "waveSeconds": 25,
+   "collection": 3,
+   "bossHp": 60000000,
+   "bossDamage": 2000,
+   "mobHp": 6,
+   "mobDamage": 2.5,
+   "stun": true,
+   "lair": false,
+   "freeEssence": [
+    50,
+    50
+   ],
+   "paidEssence": [
+    500,
+    500
+   ],
+   "teeth": [
+    2,
+    2
+   ],
+   "kraken": 2,
+   "bookLevel": 3
+  },
+  {
+   "id": "fiery",
+   "index": 3,
+   "name": "Fiery",
+   "color": "c",
+   "key": "KUUDRA_FIERY_TIER_KEY",
+   "rep": 7000,
+   "requirement": "faction:any:7000",
+   "sbXp": 80,
+   "waveSeconds": 20,
+   "collection": 4,
+   "bossHp": 150000000,
+   "bossDamage": 3200,
+   "mobHp": 15,
+   "mobDamage": 4,
+   "stun": true,
+   "lair": false,
+   "freeEssence": [
+    100,
+    100
+   ],
+   "paidEssence": [
+    1000,
+    1000
+   ],
+   "teeth": [
+    2,
+    2
+   ],
+   "kraken": 2,
+   "bookLevel": 4
+  },
+  {
+   "id": "infernal",
+   "index": 4,
+   "name": "Infernal",
+   "color": "4",
+   "key": "KUUDRA_INFERNAL_TIER_KEY",
+   "rep": 12000,
+   "requirement": "faction:any:12000",
+   "sbXp": 100,
+   "waveSeconds": 15,
+   "collection": 5,
+   "bossHp": 800000000,
+   "bossDamage": 4800,
+   "mobHp": 40,
+   "mobDamage": 6,
+   "stun": true,
+   "lair": true,
+   "freeEssence": [
+    200,
+    200
+   ],
+   "paidEssence": [
+    2000,
+    2000
+   ],
+   "teeth": [
+    3,
+    3
+   ],
+   "kraken": 3,
+   "bookLevel": 5
+  }
+ ],
+ "fight": {
+  "supplies": 6,
+  "fuelPerVolley": 4,
+  "volleyPercent": 15.0,
+  "unstunnedPercent": 1.5,
+  "dpsAtPercent": 40.0,
+  "lairAtPercent": 25.0,
+  "pickupSeconds": 1.5,
+  "deliverSeconds": 3.0,
+  "fuelPickupSeconds": 0.6,
+  "fuelLoadSeconds": 1.0,
+  "buildPercentPerSecond": 1.4,
+  "stunSeconds": 15,
+  "stomachSeconds": 30,
+  "orbs": 6,
+  "orbHits": 3,
+  "digestPercent": 2.5,
+  "devourSeconds": 40,
+  "spitSeconds": 12,
+  "slamSeconds": 9,
+  "rampageSeconds": 6,
+  "moveSeconds": 25,
+  "timeLimitMinutes": 25,
+  "rewardSeconds": 90,
+  "maxAlive": 28,
+  "startTokens": 25,
+  "fuelOnGround": 4,
+  "fuelRespawnSeconds": 6,
+  "fuelDropChance": 0.25,
+  "tokens": {
+   "pickup": 10,
+   "deliver": 30,
+   "buildPerPercent": 0.5,
+   "fuelLoad": 15,
+   "fire": 20,
+   "stun": 60,
+   "orb": 10,
+   "dropship": 150
+  }
+ }
+}

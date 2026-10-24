@@ -1,0 +1,3669 @@
+[
+ {
+  "id": "BEGINNER_AGRONOMY_SACK",
+  "name": "Beginner Agronomy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aFarming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "AGRONOMY",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwMTI3NywKICAicHJvZmlsZUlkIiA6ICI5ZjJiY2M1M2U4YzM0OTY4YTc5Yzc0NTExYWQ2NmQyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWJveWlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2MGRhOGRmN2U4MjVlMjFiODk3ZDYwOGZiODg0NmQ5NWIyZjgzM2VhNWQyNWExY2FkN2I2MTAwZTg1ZmQwNjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_AGRONOMY_SACK",
+  "name": "Small Agronomy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aFarming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "AGRONOMY",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNTAzODQ5ODI5NiwKICAicHJvZmlsZUlkIiA6ICI4MzdjZjgzZGJiZGU0OTUxOWI1ZGEzZTZhY2E1ZDBkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXJkaW5fTmV0aGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhYjg3OWUxZTU5MDA0MTE0NmJjNzhjMDE4YWY1ODc3ZDM5ZTU0NzVlYjdkYjM2OGZjYWYyYWNkYTM3MzgzM2QiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_AGRONOMY_SACK",
+  "name": "Medium Agronomy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aFarming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "AGRONOMY",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzAzNjg0Mjk5NCwKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5NGM4MzQxYTUzNWY4MGIzZjQzYzVjMjQzZDAzMDA2YmQzMjVjOWU5NmZmM2FiOTU3Y2NjMzcwNjI4MzBhYzYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_AGRONOMY_SACK",
+  "name": "Large Agronomy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aFarming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "AGRONOMY",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQyNDMyOCwKICAicHJvZmlsZUlkIiA6ICI4MDBmNmU2ZGNiMTk0Yzc2OGE1OWU1Y2Q2MzFlNjI2YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5dXl1dXUxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmODM1Yjg5NDFmZTMxOTkzMTc0OWI4N2ZlOGU4NGM1ZDFmNGEyNzFiNWZiY2U1ZTcwMGE2MDAwNGQ4ODFmNzkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_ENCHANTED_AGRONOMY_SACK",
+  "name": "Large Enchanted Agronomy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aFarming &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_AGRONOMY",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ2MDY2OSwKICAicHJvZmlsZUlkIiA6ICJiMzMwZWE4OWE3MTY0OWZjYTMwZmI5ZjU5MTQ5ZjNjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX2FicyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODRkMmZmMWUxNzczNTc1NzRmOWY3MWUxOTM5N2ZmZjNhMjEwYTk0ZTc4YzBkMmE0MzYwY2M1ZGYxZWI4MDdiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BEGINNER_HUSBANDRY_SACK",
+  "name": "Beginner Husbandry Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aanimal farming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "HUSBANDRY",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwMjQ2OSwKICAicHJvZmlsZUlkIiA6ICI1ZTI1YzI0ZmIxMGI0MTlmOWIzYTQzMWIyOTYzYjQ2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2NHIxbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDJkNWZiMDA3OTgzM2JlMTkxNTMwMjQ1NTgzZDE2ZjMyMmUzNDNjZGQ0MzRjZGQ3YWFiN2U4YmRjZGJiYzRkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SMALL_HUSBANDRY_SACK",
+  "name": "Small Husbandry Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aanimal farming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "HUSBANDRY",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMxNTU2MiwKICAicHJvZmlsZUlkIiA6ICJhMWQzNzljMjhhODA0ZTMxYjY3YjcyMDcyNWE0ZjI3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeXNwZWN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg4ZTQ2NGMxOTg0YzAwZTEwYzJhYmZlZmZiYzlhNjU5MzVjNGFmZGE2NjI2MWI1M2Q2ZjM2NmVmMjA0MmU4MjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "MEDIUM_HUSBANDRY_SACK",
+  "name": "Medium Husbandry Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aanimal farming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "HUSBANDRY",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTI1MzE3MiwKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRVZJTktFTE9LRSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjIzZWU3OTgzYTVlMWNhMjYwNzdhMGE1MDNiMjUxZGRlMDhiNzI5MzJmYWQ0Y2ZlMmYyMGVmYjE4MWEzYjJlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_HUSBANDRY_SACK",
+  "name": "Large Husbandry Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aanimal farming&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "HUSBANDRY",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM3Nzc2OCwKICAicHJvZmlsZUlkIiA6ICJjYjYxY2U5ODc4ZWI0NDljODA5MzliNWYxNTkwMzE1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb2lkZWRUcmFzaDUxODUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczMDg3ZjFlNjU0YjE2ODI3MzM1ODRhNDQwOTc1ODdmYjk0MmUxZjM0M2FhZTgzMDdiZDdkYWM4NGU4NDNhYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_ENCHANTED_HUSBANDRY_SACK",
+  "name": "Large Enchanted Husbandry Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &aanimal farming &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_HUSBANDRY",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM4NTQ5OSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ2YTYwNjMyNjNiYTcyMDhhMmEwNmNlZjczMjM0NzkxYzkyZDVmNjcwODBhMzY1NTA4YjAyNDgzZWVmYWY5YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BEGINNER_MINING_SACK",
+  "name": "Beginner Mining Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bMining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MINING",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwODUzNSwKICAicHJvZmlsZUlkIiA6ICJhYWMxYjA2OWNkMjE0NWE2ODNlNzQxNzE4MDcxMGU4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqdXNhbXUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVmM2E4OTQ4Yzg2N2ZjYzA2YjBmZTc3MzRhMzc3MjA0ZDgyNzQxNGY1NGRlMTY5OGM4NDk1MmJmNTM0MDBiZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SMALL_MINING_SACK",
+  "name": "Small Mining Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bMining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MINING",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQxOTUxMSwKICAicHJvZmlsZUlkIiA6ICJmMGZiOGE4NjIwNDY0MWZiOGZhYzJmNWZhMDQ0ZjNjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlbHBhbmE0NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDdkZmY2NTdkNjFmMzAyYzdkMmU3MjUyNjVkMTdiNjRhYTczNjQyMzkxOTY0ZmI0OGZjMTViZTk1MDgzMWQ4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MEDIUM_MINING_SACK",
+  "name": "Medium Mining Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bMining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MINING",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ3NTMzMCwKICAicHJvZmlsZUlkIiA6ICIyZGI4ZTYzYzFlMTc0NGE3ODIyZDNmNjBlYmNmYzI5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmtTYW5kYm94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwMGIxYmY4NTU0OTg1ZjNkZWNmNTQ4ODY5MjJhZDIwZDE0NDQzODU2NGVmN2E1YjUyY2VkNzFiYzlkZDA0YmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_MINING_SACK",
+  "name": "Large Mining Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bMining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MINING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5OTI1MTIyNjEzMywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE1ZmNlYmJiZTAyZmRiNzJhY2QyMDk1ZDllZGZjZWEwOTVlNjA0YjM2ODJkYjg4OTYzYjViODNiMjkzOWI2NyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_ENCHANTED_MINING_SACK",
+  "name": "Large Enchanted Mining Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bMining &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_MINING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMyMDMxNywKICAicHJvZmlsZUlkIiA6ICI1OGZmZWI5NTMxNGQ0ODcwYTQwYjVjYjQyZDRlYTU5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2luREJuZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVkYzY5ZmVmYWQxODRlZThjOTE4NjkyOGRhOTgyYWRkZmQ3ODNiZWQ5OGQ5NTA4MzQwOGJmNDE5ZTBjY2NkMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SMALL_GEMSTONE_SACK",
+  "name": "Small Gemstone Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &dgemstone mining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e128,000 &7per gem type (in rough gems)",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "GEMSTONE",
+   "sack_capacity": 128000
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDA3MDU0MTI2OCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2NjI0YTdiZGVlNjI0MGRkZGJlZDgyNjgwOTBlMjM0ZDBiYTQ3MGVhODk2ZTg5MjlmNGVmYjIxM2YyMjY5NDQiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_GEMSTONE_SACK",
+  "name": "Medium Gemstone Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &dgemstone mining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512,000 &7per gem type (in rough gems)",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "GEMSTONE",
+   "sack_capacity": 512000
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDA3MDUyNzI3OSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1MDAyOGZkOTZhOThkNWIzM2QwODRkMjUyNGI3NmVkMGZjNmIyMWNjYzQwMDY0YTZkMmU3YmY5OTcxODYwZSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_GEMSTONE_SACK",
+  "name": "Large Gemstone Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &dgemstone mining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,560,000 &7per gem type (in rough gems)",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "GEMSTONE",
+   "sack_capacity": 2560000
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDA3MDUxMDA5NCwKICAicHJvZmlsZUlkIiA6ICI1N2IzZGZiNWY4YTY0OWUyOGI1NDRlNGZmYzYzMjU2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWthcm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTViYTgwNGI3YWU5MmM2NWIyZjQxZDE4YmU4OTlhM2JkMTM5NzcyZTNlM2M4MWMyZmM4YWRkYmIyNzUzNjk1MiIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "EXTRA_LARGE_GEMSTONE_SACK",
+  "name": "Extra Large Gemstone Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &dgemstone mining&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e12,800,000 &7per gem type (in rough gems)",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "GEMSTONE",
+   "sack_capacity": 12800000
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDMzOTEyNzEwNSwKICAicHJvZmlsZUlkIiA6ICJjOTAzOGQzZjRiMTg0M2JiYjUwNTU5ZGE3MWFjMTk2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQk5SY29vbGNhdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTg5ZGUxODExMTE1ZTFhZWUzNzNmNmE3ODQ1YmQzZjgxYzdkYmUzMDJlNGFmYzdlOGQ2YjhhMTIwMGM3MjEzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "DWARVEN_MINES_SACK",
+  "name": "Dwarven Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bthe dwarven mines&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "DWARVEN",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDc1OTM3OSwKICAicHJvZmlsZUlkIiA6ICI0YjJlMGM1ODliZjU0ZTk1OWM1ZmJlMzg5MjQ1MzQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTmVvdHJvbl8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFmOTcxMWQyMzFlM2FiZmI2ZmI3NDQ3MTFmMGQ4NmU2MDQxZWUwNzdkYWUxNmRkYzcwM2E3YjRlYTE2NWQ1OCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "CRYSTAL_HOLLOWS_SACK",
+  "name": "Hollows Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bthe crystal caverns&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "HOLLOWS",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDk5MDUwMSwKICAicHJvZmlsZUlkIiA6ICIyYzA3NmUzNDU0N2M0OWU2OTMwYzQzZDE2MDZmYjI1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsUmVzdSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNmI0NmJlZWI1ZjZlMDAwNjE2M2VkYTRhNTA3MDNhNDBlNjU5MTA4MGIwZTY3Nzc5MzEyYWRjZmVjNDYxNTIiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BEGINNER_COMBAT_SACK",
+  "name": "Beginner Combat Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cCombat&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "COMBAT",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwNDA0MywKICAicHJvZmlsZUlkIiA6ICI2N2M1NzUxMzY1Mzg0MWJjYTQ1MTkwY2IyZGFiMWEwOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJuaXRlc3RhbGtlcjg3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkNTIyZDQ5MjI0YjMxNzhlYmZlZDYzMTQ4Mzg5OWFmOTUyNjI5NTk5MDRmZjMxOTMxMWQ1NjUwYmQzZmE3NzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_COMBAT_SACK",
+  "name": "Small Combat Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cCombat&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "COMBAT",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMzNjIwMiwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4ZjQ1MmM5ZDZiNjI1NGI1NDc4NTY5YTYwYjBiNmZiMDMxYzdhZDJmMDZlYTNkYWNmMmNlODc0Y2E3MDgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MEDIUM_COMBAT_SACK",
+  "name": "Medium Combat Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cCombat&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "COMBAT",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ5MDk2NCwKICAicHJvZmlsZUlkIiA6ICJiZmQ3MjMxMGNmYWY0Yjc5OTNlYzhiYzU3ODg3YzU5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBoYVNwQW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiMmI3OWE0ZTA2MGFiYjAwYWE4OGU3YzRjZDVjMDAzOWY1ZTVjYWQyZDQ1YzFjZmY1Njc2Y2I4M2ExODE1ZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_COMBAT_SACK",
+  "name": "Large Combat Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cCombat&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "COMBAT",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTI3NjE1NCwKICAicHJvZmlsZUlkIiA6ICI3ZGExYjViODdhMTg0NzgyOTQ2ZjZiYTdhMmNiMDhlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeWt1bk9jYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFjMTNjNDc3NGM4MmMwNzA3MWU2ZDE0MDg3MTdiMWUzZWFjNTYxODYwNDJhNTgwM2ZjMTc0NDUyZTMyYTI1NGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_ENCHANTED_COMBAT_SACK",
+  "name": "Large Enchanted Combat Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cCombat &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_COMBAT",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM0MTE4OSwKICAicHJvZmlsZUlkIiA6ICI3NzUwYzFhNTM5M2Q0ZWQ0Yjc2NmQ4ZGUwOWY4MjU0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWVkcmVsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyYTM0MjA2OTcyNTY1MTdkNTM2MWIzNDYzMDE5NjQ3YzA2ODk3MjViMzQ4OWY5ZGQyNGEyMmRkZDQwYmQ0MWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_SLAYER_SACK",
+  "name": "Small Slayer Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cslayer bosses&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "SLAYER",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDkwMjExNiwKICAicHJvZmlsZUlkIiA6ICI0NTM1Y2RjNjk3NGU0Nzk4YjljYzY4ODlkZWY1MDk2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICIzZXlyZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM2Y2Y1OTFhYTIzNjNiZDg0MzQyNDA0ZGM1OTQxNjhiOTA0ZjY1YTFlMjVmOGJlNjU4YjkxYjU2NzYyOWRhZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_SLAYER_SACK",
+  "name": "Medium Slayer Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cslayer bosses&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "SLAYER",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM3MjEwMiwKICAicHJvZmlsZUlkIiA6ICI5OGQxYTQyNmRlMmU0NjBkYjdjNWExMmY5MGNhODg0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWJpbm9TSyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YWZhZmRlNzg2ZDcxNDgxNGFlZTBlMWQxMDllNzI5ZGM1NTNlMmIxNGFhOTZlNGUyNmRkOGZlMTE4YmVjNjM0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_SLAYER_SACK",
+  "name": "Large Slayer Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cslayer bosses&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "SLAYER",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQwNDA2NCwKICAicHJvZmlsZUlkIiA6ICJmODg2ZDI3YjhjNzU0NjAyODYyYTM1M2NlYmYwZTgwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb2JpbkdaIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwY2NiZDE1ZDc2YTc0OGUwODkyNmVmNmQyMWRjM2U1NGQ5YWRlYzc2NmNjMjUwMTk1MzFhNDkzYjFmZDRiNDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_DRAGON_SACK",
+  "name": "Small Dragon Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5dragon fights&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "DRAGON",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDg3MDUxOSwKICAicHJvZmlsZUlkIiA6ICIzYTE5NDgyNTYyZTc0MzFkYmNmOGUwOWE4N2VhMmQ5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckxpYW0yNjE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3Mzk0OTJiZTc4YzU3MmZiNGM2YmZhZjhmMTBiZDUyODU1M2I0M2FmNTc1YmEwNzNhY2JkMmM0YmY3N2M0MGIiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_DRAGON_SACK",
+  "name": "Medium Dragon Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5dragon fights&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "DRAGON",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDg4NzQwNSwKICAicHJvZmlsZUlkIiA6ICI0MDU4NDhjMmJjNTE0ZDhkOThkOTJkMGIwYzhiZDQ0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3ZlT3dPIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmYWQ2ZjdhMjExMGJiMmJhNjZlZDRiMzRkZDZmZTE3OTRlYTMzY2U3YjI0Y2UzNGJlZjg2NWNjNGEyY2RlMzgiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_DRAGON_SACK",
+  "name": "Large Dragon Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5dragon fights&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "DRAGON",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDg1NTc2NSwKICAicHJvZmlsZUlkIiA6ICJlMzcxMWU2Y2E0ZmY0NzA4YjY5ZjhiNGZlYzNhZjdhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckJ1cnN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3YzBjZDkzOTRhYmIwM2ZmOTZmMjg3MzY0MDZmYTQwYzk0NWI0ZDczNWExMWZhY2Y1Zjk5MTJjMTE0OTUzMjQiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SMALL_NETHER_SACK",
+  "name": "Small Nether Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cthe nether&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "NETHER",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwNjYxMTQ3NiwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMDVhN2U3MzE3MWIxNjMyYzE2ZDg3OWY0ZTQ5ODMyNjFjNWY2YjY0ZjQ0MjcyZjczYjNhMzQ5ZjY4YjNhMjk2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MEDIUM_NETHER_SACK",
+  "name": "Medium Nether Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cthe nether&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "NETHER",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwNjQ3NTk3OCwKICAicHJvZmlsZUlkIiA6ICIwNDNkZWIzOGIyNjE0MTg1YTIzYzU4ZmI2YTc5ZWZkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRhbFNpZ256MiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMDMyYjY3ODkyOGI5ZDYwZWM4MWU0YzBiMDgwOWQyYzlkMDhhM2Q1YzBjMTlkZmJiYTRmNDczOTIwNzNiMDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_NETHER_SACK",
+  "name": "Large Nether Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cthe nether&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "NETHER",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwODg3MDY5MSwKICAicHJvZmlsZUlkIiA6ICJjMDNlZTUxNjIzZTU0ZThhODc1NGM1NmVhZmJjZDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXltYW51ZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0NTg3NWU5MjFhMTQ1ZjkyMDM4ODU4YWVlY2MzYzJmMDgzNDQxZWJjNWM4MjY1ZDMxYTI4MWQyNjhlMzY1YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_DUNGEON_SACK",
+  "name": "Dungeon Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &cdungeon runs&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "DUNGEON",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NzgxMDkwMzc1NCwKICAicHJvZmlsZUlkIiA6ICJmNjE1NzFmMjY1NzY0YWI5YmUxODcyMjZjMTEyYWEwYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZWxpeF9NYW5nZW5zZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI5NmM1ODVjY2QzNWYwNzNkYTM4ZDE2NWNiOWJiMThmZjEzNmYxYTE4NGVlZTNmNDQ3MjUzNTQ2NDBlYmJkNCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SMALL_RUNES_SACK",
+  "name": "Small Rune Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5runes&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e64 &7per rune tier",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "RUNE",
+   "sack_capacity": 64
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDczMDU4MywKICAicHJvZmlsZUlkIiA6ICI3ZGExYjViODdhMTg0NzgyOTQ2ZjZiYTdhMmNiMDhlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeWt1bk9jYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5MWViNGVlM2VjY2UzNDQ3NDgzYTFmMTUxYzExZmFjYzlkZTI1NTc3YWI3YjUxZmJmM2Q5YzJiMmE0YjY5ZmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "MEDIUM_RUNES_SACK",
+  "name": "Medium Rune Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5runes&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e64 &7per rune tier",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "RUNE",
+   "sack_capacity": 64
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDI1MzgyNiwKICAicHJvZmlsZUlkIiA6ICJjMTJkMmY5ZWJhZGI0ZTllYTIxZmM2M2M3YWY3M2E5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbXlOZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FjZmI3ODBmNWZlNDhmM2MxYmY1MzU2NDMwYmE4MTQyODY0MDNlYTdmMGY1OWRhMDk1NGE2ZWZhNzE3NDFjZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_RUNES_SACK",
+  "name": "Large Rune Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5runes&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e64 &7per rune tier",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "RUNE",
+   "sack_capacity": 64
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDkwNjYxMSwKICAicHJvZmlsZUlkIiA6ICI1ODc5MjNlNDkxMzM0ZDMzYWE4ZjQ3ZWJkZTljOTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGV2ZW5mb3VyMTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwOTAwMmNmMWNiYTM2MTE5YjI2Y2ZhMjUyM2QxNDY5M2E4ZTU2YWY3NTYzM2Y0YzIxY2JmN2Y1YWQ4NzE2OSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "RUNE_SACK",
+  "name": "Rune Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5runes&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e64 &7per rune tier",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "RUNE",
+   "sack_capacity": 64
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDczMDU4MywKICAicHJvZmlsZUlkIiA6ICI3ZGExYjViODdhMTg0NzgyOTQ2ZjZiYTdhMmNiMDhlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeWt1bk9jYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5MWViNGVlM2VjY2UzNDQ3NDgzYTFmMTUxYzExZmFjYzlkZTI1NTc3YWI3YjUxZmJmM2Q5YzJiMmE0YjY5ZmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "BEGINNER_FORAGING_SACK",
+  "name": "Beginner Foraging Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2Foraging&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FORAGING",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwNzA5MSwKICAicHJvZmlsZUlkIiA6ICI2NGY0MGFiNzFmM2E0NGZiYjg0N2I5ZWFhOWZjNDRlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJvZGF2aWRjZXNhciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDA3Yzg3ZmEyNTFhYjdjNWRkZDZhMTlhMzliODg0MTZjMWQ1MDE0NDBmNzIwYmZjMjkyZDJiOGFhNjdhM2M5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SMALL_FORAGING_SACK",
+  "name": "Small Foraging Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2Foraging&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FORAGING",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTQ1NTMzOSwKICAicHJvZmlsZUlkIiA6ICI3NmM4Y2ZlYjE1N2U0MGEwYmNlNjQ4NTgwZGEwNmQwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGlrZWhpZGRlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80Zjk2MGM2MzlkNDAwNGQxODgyNTc1YWViYTY5ZjQ1NmZiM2M3NDQwNzc5MzU3MTQ5NDdlMTljMTMwNmQyNzMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MEDIUM_FORAGING_SACK",
+  "name": "Medium Foraging Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2Foraging&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FORAGING",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTI2MDAxMCwKICAicHJvZmlsZUlkIiA6ICJjNjI5MzRjYmE5YTE0NjYwYTk3NTk0YjNlMjQ0ZjhhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBQUFycm9iYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzE0MTA1YzdiNjI5Y2ZkZWI4NjZhNTYwYmFiNTk3MzRhYTVjYmJlODgwZWQ5ZjUwZjkwNDRjNDJhZmQ1OTlkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_FORAGING_SACK",
+  "name": "Large Foraging Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2Foraging&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FORAGING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTI4Mzc4NywKICAicHJvZmlsZUlkIiA6ICIzZGE2ZDgxOTI5MTY0MTNlODhlNzg2MjQ3NzA4YjkzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZXJTdGlsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzZlMjRkZjQ5OGJhNGE1ODljMjU5ZDlmYzBkM2RiMzQ4ZjkzY2RmMjZhNWZlNDYxNTcxYzFkYTcwNmVmYWYzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_ENCHANTED_FORAGING_SACK",
+  "name": "Large Enchanted Foraging Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2Foraging &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_FORAGING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYzNzE4NDkwNDc0OSwKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUzMjY0NjRjNmE3OTM2MjczMGQ3OWZlNDYxMWI5MTEzNTNjMWIzYzUxNDQxNzc3NzM1OTEzNTdmMWNkNWNhMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "FLOWER_SACK",
+  "name": "Flower Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &eflower picking&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FLOWER",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDk0MDQ1MywKICAicHJvZmlsZUlkIiA6ICIxYmY4ZjBiZDRkZjc0Njg1ODQwNjU2NDc2ZGU0NmNmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnV6YWRhMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZjM2I1ZGI5YmQ5OWNkMTIxNjFlZDJlYTQ2MjM3OTVmMjhlNzkzYzZkYWI2N2NkM2U4MDNjY2ZhYWFkN2NmZCIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BEGINNER_FISHING_SACK",
+  "name": "Beginner Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &3Fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e640 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FISHING",
+   "sack_capacity": 640
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzIzODMwNTc1MywKICAicHJvZmlsZUlkIiA6ICI0YjQyNDY0YTZmNzI0MzY0OTNlNTAzYzBlNzc0MjMzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJESUFNT05EX0xFR0dJTkdTIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiYTY1OTgwYjMyMWI0NjQwYTM5YzQ0M2E5ZjgyNDM3MDA3Nzg2N2UxOTg5NTVhNTM4NjA5YTU0ZTc5NDQ0ZmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_FISHING_SACK",
+  "name": "Small Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &3Fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FISHING",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcwODMxMTEzMDc5NCwKICAicHJvZmlsZUlkIiA6ICJlZGUyYzdhMGFjNjM0MTNiYjA5ZDNmMGJlZTllYzhlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVEZXZKYWRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0ZmJjNzdkMjdkYWIxMGRlNWFiZjlkMGJjYzQ3MTk4ZjkyM2IwZTZjMTc5YTNjMzk4M2U3N2YxMmY3YzAzM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "MEDIUM_FISHING_SACK",
+  "name": "Medium Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &3Fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FISHING",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM1NjQ4MywKICAicHJvZmlsZUlkIiA6ICI4YzQwMGUyYTNiNjI0YTkzODBkYzdlZWNkMmE3NDNhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJaemVydnluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmNzU4NzFjOTBiOTRmNGZiYzE2N2UzNTFkMzZlOGFlYWUxY2MyZmVjMDNiMTY2MjkwMDdmNzRjOTg5ZGU2NDgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_FISHING_SACK",
+  "name": "Large Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &3Fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FISHING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMwMDAyNCwKICAicHJvZmlsZUlkIiA6ICJlMDc4ODcyZDhmMmM0ODQ1ODlhODg1YjdiZWJmMzA5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21pZnRtYyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOGY2ODY2OTM1MWE2ZmM3MTU2ZWNmZTMzMDBiYTk0ZWZlMDc2NmUyNGJlZDg3ODVjZjY0YTlmOTU0MzUxMzRiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_ENCHANTED_FISHING_SACK",
+  "name": "Large Enchanted Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &3Fishing &7(enchanted)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "ENCH_FISHING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM4OTM4MywKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICI4Qml0czFCeXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlMjQ2OWRlN2Y3NWQyZTBhOGIzYjBjNzM0YTJiNDcwNzgyYjYwNGQxZmViMDE3MmI0YTcyYTc3Y2I1YmJkYTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_LAVA_FISHING_SACK",
+  "name": "Small Lava Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6lava fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e2,240 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "LAVA_FISHING",
+   "sack_capacity": 2240
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwMjY2MDc2OCwKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU4Y2QzZjU3ZDlmZTFhYzNjZDU0ZmI4NWYzYzk2YTk1NDc5YjE0Zjk5ZDJlNWEwMTE5ZjVhNTJjMjFlYzMyNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_LAVA_FISHING_SACK",
+  "name": "Medium Lava Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6lava fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e6,720 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "LAVA_FISHING",
+   "sack_capacity": 6720
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwNjIxNTE0NywKICAicHJvZmlsZUlkIiA6ICJkYmQ4MDQ2M2EwMzY0Y2FjYjI3OGNhODBhMDBkZGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4bG9nMjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg0ZTFhMzFmZDUxNzZhYTg4OGFlNGZjMmZlNzVkOGUxMjE4NWFhMDQ1NGYwMzc0MjUyNTBlMjE2YzcwOTc1YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_LAVA_FISHING_SACK",
+  "name": "Large Lava Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6lava fishing&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "LAVA_FISHING",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwODc2MDc0NywKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYTJhOTUxNTkyY2MyNmNmNWI2ZDlmNjZhZTAzNDkxNmY5ZDJlOTcyMTZkNDNiM2ZhMTFjOTc5YWZkN2RmMWFkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BRONZE_TROPHY_FISHING_SACK",
+  "name": "Bronze Trophy Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6trophy fishing &7(bronze)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "TROPHY_BRONZE",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODU4MjQ0OSwKICAicHJvZmlsZUlkIiA6ICJhYTA3ZjM2Mjk0NTM0YzYwODQzMjI4NzAzZTBlMjE3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FrdXlhX0l6YXlvaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjZDM2ZTA5ZDdjNDhmNzFiOWM4ODA5Y2RlNWM5YmI2MGEzNmIzMTkzZjMyYjQ5MzEyNWUzNTk1ZmQ3NTdkYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SILVER_TROPHY_FISHING_SACK",
+  "name": "Silver Trophy Fishing Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6trophy fishing &7(silver)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "TROPHY_SILVER",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODYwNTM5NSwKICAicHJvZmlsZUlkIiA6ICIwOWQ3YmJjNGYxZmU0ZjlkYjRiZmE1MTY2NDA3OTcyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlemtkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyNWYwMjdhNGEyYmMyZGY1MzE1NGUwYmFmOTE3NDcwMjA3YjgxMzljODBmNDg3ZWQ5ZGFkYTcwMzNjNTkyZDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "GOLD_TROPHY_FISHING_SACK",
+  "name": "Gold Trophy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6trophy fishing &7(gold)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "TROPHY_GOLD",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODU4MjQ0OSwKICAicHJvZmlsZUlkIiA6ICJhYTA3ZjM2Mjk0NTM0YzYwODQzMjI4NzAzZTBlMjE3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FrdXlhX0l6YXlvaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjZDM2ZTA5ZDdjNDhmNzFiOWM4ODA5Y2RlNWM5YmI2MGEzNmIzMTkzZjMyYjQ5MzEyNWUzNTk1ZmQ3NTdkYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "DIAMOND_TROPHY_FISHING_SACK",
+  "name": "Diamond Trophy Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6trophy fishing &7(diamond)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "TROPHY_DIAMOND",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODU4MjQ0OSwKICAicHJvZmlsZUlkIiA6ICJhYTA3ZjM2Mjk0NTM0YzYwODQzMjI4NzAzZTBlMjE3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FrdXlhX0l6YXlvaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjZDM2ZTA5ZDdjNDhmNzFiOWM4ODA5Y2RlNWM5YmI2MGEzNmIzMTkzZjMyYjQ5MzEyNWUzNTk1ZmQ3NTdkYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BRONZE_TROPHY_FROG_SACK",
+  "name": "Bronze Trophy Frog Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2frog hunting &7(bronze)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FROG_BRONZE",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0NTAxNDI5Mjk3NSwKICAicHJvZmlsZUlkIiA6ICJmNTBjOGRkN2FiN2Y0ZmUyYWI4ZGI1M2NjYzRiYWQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWNoYWRvVF9UIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNzMyZTdmYjQ2OTRjNjc3Nzk0OGQzYmZhM2QwMmIzZDVjMTVjY2IxY2EyZWFjZTlkYmMyZDYyODNiNDFiZjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "requirements": [
+   "frogs:title:1"
+  ]
+ },
+ {
+  "id": "SILVER_TROPHY_FROG_SACK",
+  "name": "Silver Trophy Frog Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &2frog hunting &7(silver)&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e512 &7per trophy",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "FROG_SILVER",
+   "sack_capacity": 512
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0NTAxNDI5NDU1OSwKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2Zjk0ZDk1NjhjMDBhYmRiYTA4NmJlNjgyZDVlNGYyMmNiNDUxZjVjYWJhNGZkZDIxZWFlYTAxN2U0NDFlYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "requirements": [
+   "frogs:title:2"
+  ]
+ },
+ {
+  "id": "GARDEN_SACK",
+  "name": "Garden Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &athe Garden&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "GARDEN",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY5OTM2ODc2Nzk4OCwKICAicHJvZmlsZUlkIiA6ICJiZDNhNWRmY2ZkZjg0NDczOTViZDJiZmUwNGY0YzAzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJwcmVja3Jhc25vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4NDcxMmVjYmYxYzZjZTlkZTEyMzBiZmEwNTgzMWFhM2M1ZDBlZTlkMWJhNTlkZWVmN2EzMWNhZmQ3ZDhlZjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SMALL_MUTATIONS_SACK",
+  "name": "Small Mutations Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &acrop mutations&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e64 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MUTATIONS",
+   "sack_capacity": 64
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc2Mjg5MjA2NzQ4OCwKICAicHJvZmlsZUlkIiA6ICI3MzE4MWQxZDRjYWQ0ZmU0YTcxNWNjNmUxOGNjYzVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZmVybjRuZGl0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTc0OTlmY2U0NWQwYjhkN2E5ZTk5MzY1OTRkY2M0YjUxYjAzMjhmZDM5YWE1MzI4NDY4Mzk0M2RjYTQzMWJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MEDIUM_MUTATIONS_SACK",
+  "name": "Medium Mutations Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &acrop mutations&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e256 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MUTATIONS",
+   "sack_capacity": 256
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc2Mjg5MjA2NjI4NiwKICAicHJvZmlsZUlkIiA6ICIwMzQ2N2E0Yzc5ZGU0ZGM5YTQ4NzU5MGY5NmEwODFmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaGFrYVlhbWkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE4NmEzN2MyNTE0MmIwZjY5ZTg3ZDhhYjIwNGUwODBlNDljOWQ5MWI5MjExZmI0MmM1MDRkNGVlNTE1ZDU5NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_MUTATIONS_SACK",
+  "name": "Large Mutations Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &acrop mutations&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e1,024 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "MUTATIONS",
+   "sack_capacity": 1024
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc2Mjg5MjA2NDU2NiwKICAicHJvZmlsZUlkIiA6ICIxMzA1ODk0NWNjZWQ0MzQwYTQ2ZDhhNDE4OTk3NDMzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJlbGRlZGlhbWFudGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJjYzgzOTdjZWYzYmNhNDQ2NWZlYzkzNDRmNWM0NzhjYmMyYWM0NTdlOTE5ZmY4NDUyZTJkZWQ4NWQ4ZmM5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LARGE_CANDY_SACK",
+  "name": "Spooky Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &6spooky season&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "SPOOKY",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYzNTA3NTI3OTM0NCwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyZWYzOTQzN2Q3ZDQzYTAzNGM1YTQwYjk3NGU4ZDJjNjczNGEyMThjNzY0ODVkMDQ5MTBmNTA3YmRjMmU4MDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_WINTER_SACK",
+  "name": "Winter Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &bthe winter season&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "WINTER",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDY4NjI2MDEyMiwKICAicHJvZmlsZUlkIiA6ICJmMzA1ZjA5NDI0NTg0ZjU4YmEyYjY0ZjAyZDcyNDYyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqcm9ja2EzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYjMzOWIxY2Q0MDA1M2RlZmQ3ZDM1MjhlMDFmZWE4NzZkNDFiNDJmOWQ5MjY4NDYxZGE3OWY1ZjY2NzcxMjM2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LARGE_EVENTS_SACK",
+  "name": "Events Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &eseasonal events&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "EVENTS",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQxODE1ODc0NCwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlNjI0ZmVhNGY1YjQ5YjY3OGYxMWUzZWVkOTZmYWE4ZTE5ZDkyMjEzZGI4MzUxOTFiZTE2YmU1ZTQ2YjI1NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "WITCH_SACK",
+  "name": "Witch's Sack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "SACK",
+  "lore": [
+   "&7Stores what you gather from &5witchcraft&7.",
+   "&7While this sack is in your inventory or",
+   "&7your &aSack of Sacks&7, matching pickups",
+   "&7go straight into it.",
+   "",
+   "&7Capacity: &e20,160 &7per item",
+   "&8Sacks of the same kind add together.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "storage_sack",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "extra": {
+   "sack_family": "WITCH",
+   "sack_capacity": 20160
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MDE2MDk2NTQ2NiwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIyNzY0NWIzNWY2NmQzZGM2MGVhMDBhYjUyZTUxMjA2MzU5YjUxNzVjODNlZGU5NWM2N2FkN2ZhYmRmNTI1MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "NONE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0OTExMDk0MSwKICAicHJvZmlsZUlkIiA6ICI1ZWE0ODg2NTg2OWI0Y2ZhOWRjNTg5YmFlZWQwNzM5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfUllOMF8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkODM3Y2EyMjJjYmMwYmMxMjQyNmY1ZGEwMThjM2E5MzFiNDA2MDA4ODAwOTYwYTlkZjExMmE1OTZlN2Q2MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "WHITE_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed white.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "WHITE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODU0NjgyNywKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVmYTUxMGY0YTkxMjJhNjg2NWRhMGIzNmVlZmViNzdkN2E5NzU1ZWYxYzUyOTQzYzI4NDEwZGEwYjEwMjIyNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LIGHT_GREY_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "LIGHT_GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODM2ODgzMywKICAicHJvZmlsZUlkIiA6ICI5NTQ1NGYzOTkwNGE0MDg0OTcxMTQ0Y2Q5MmRhY2MyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcDA4MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE2OTlmYTRhMTUxOTY5Njg3MDUzOWY1ZTU0ZjU0ODM3MmZiYjM0Y2UwNGM4ZWU0ZWZiOGNlN2YyOTQ5MWI1NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "GREY_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODE5OTA5NSwKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwNTZkY2EyOGE5MTI5OWMyOWM3MTg5YWYyMjE3OTNkYTg4NThjZmUwNzkzMmE2ZDE0ODc5YjhhMmRmM2QyZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLACK_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed black.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "BLACK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODAyNDA1MiwKICAicHJvZmlsZUlkIiA6ICJmZmU5MzczY2YyMDM0OWFhYTJlN2NiYzJkZmY2M2I5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWxvblR1bmExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiZGQ5M2RmYjJkODU3Y2MwNmExODQzNTMwMjY0MGY5ZWMwNmE3MTkzOTM0M2EyMGFmMGI3OWJiMzhkMTQyNTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "BROWN_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed brown.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "BROWN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODcwMTgyOSwKICAicHJvZmlsZUlkIiA6ICJlZTg4M2RmMjM0ZWI0YWM1YTFlNDEwODhhYzZkZWIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdW5lc0Jsb2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNWU2NjY3NzYzNDliNTk1NDkyMDI5Y2YwZWNiOWE3MjQ3Y2ZhNWZlNGMwNDhmYjE0YWUyY2EyN2Y0ZjlkM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "RED_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed red.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "RED"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTE1ODY0MCwKICAicHJvZmlsZUlkIiA6ICIxYjQwYzcxMGZjMTY0NmQ2OTIxOTVmYzY3YzZlMTE0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3c3pvbHNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMWI4NWM1ZDZkZmQyMjI5ZGU5MDRkNTMxYTQxYzA3MjIzMjBhNDg0OGZmN2E3ZmJlYzU2NTU1MWM1NjQ0ZGQwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ORANGE_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed orange.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "ORANGE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTMxMzU2NSwKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThlYzMxMDkwYzUyMGRjYTUwMDExMmFmODNkNmRiOGI1ZTcwMzdhNzQ4MjI5ZjQ5ZjVkZjdmMGZjZTZiZmM5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "YELLOW_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed yellow.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "YELLOW"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTQ1NjY1MCwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBiZTc0ZDM2N2I3NjFkZjlmMjk2NjY3YzI1ODlkNzBlMjBjNTU1MzE4OTUwNDUxMDE1YjBlZDFhMWUwZmFjZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "LIME_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed lime.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "LIME"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTgwNTI4MCwKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA1YmQ4ZGQ5MGUxZjRhNTYzM2RiNjljNWZkYTYzN2MzMDdjODhhNmMxNDM2NzI1MmY4MzNjMGFmNGMyMWE4ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "GREEN_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed green.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "GREEN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDA0OTQxOSwKICAicHJvZmlsZUlkIiA6ICJhNzQ0NWIzOTdkMWY0ZjBiOTNkYTMwNGZjY2M2OTM1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFc2tyYVRlVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZTc2OTk5M2YwNGRiMDEwYTQ1MTBjOGEzOTc0YzE4ZTM3MjA5YjM1Y2U4NTljMWI1OGQ0OWEzODJhZmIyYTFkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "CYAN_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed cyan.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "CYAN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDE5ODQ2NCwKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4SGFubmFoNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNDdkMDg3ZWQ3NWJhMWVmODRlZjcwMWRkYTA4NDdiMjhlMWI3ODdjZGMyNmI3YzhkNjg3OTBjZGFjNzIwNzU4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LIGHT_BLUE_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "LIGHT_BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTY1MzkzMywKICAicHJvZmlsZUlkIiA6ICI1OGZmZWI5NTMxNGQ0ODcwYTQwYjVjYjQyZDRlYTU5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2luREJuZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ5YThkMmE5NDU3ZTM1YmE2YTM5YTE0MWMwY2Q2ZmQ5MDY1ZTJkMzdjNjMzMmVlYWEwODEwYjFhNzQ4ZDhlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLUE_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDM2NzA5NCwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmOTc2YzlhNGQyMzc2MzE4ZTdhNjc2YWQ4MWY2ZTExZjMyMGFiZWYzY2QzNTM2OGEwYTliYTI3ZTMyMDM0MGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "PURPLE_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed purple.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "PURPLE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDYxMDEwNiwKICAicHJvZmlsZUlkIiA6ICJhYWZmMDUwYTExOTk0NzM1YjEyNDVlNDk0MGFlZjY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXN0SW1tb3J0YWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMwZGU2YTU3ZDY5NjgzZmNmNWUzYzMxNDgyNGY1MTE0N2EwMjg1Njk0NmRiMTAyYTBmOTJkMDcxZWExOTBkMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MAGENTA_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed magenta.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "MAGENTA"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODg1NDY0MywKICAicHJvZmlsZUlkIiA6ICI2YWVmMjM3Y2RhNDY0Y2QzYTdiZDcxYjg3YzFlMDEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWlqdW5va2kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEwNTg5MzFhOTMxMGQ4NTc1MTRiZDM4YTMzY2RlMGYzY2VhNWFiYjFhNDBkYzU2YTM1YWNmNTIwZWI2MTRkNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "PINK_SMALL_BACKPACK",
+  "name": "Small Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a9 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed pink.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 9,
+   "backpack_size": "SMALL",
+   "backpack_colour": "PINK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTAxMjUzNywKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBkOTMxYjdmMTUzMzU0MWNhM2I4YzQwMWZlOTg1Y2JlZTNmZmFiYjZjZjYxNDU1MzU4OGY2NmYyZTAzYzA3YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "NONE"
+  },
+  "skull": "eyJ0aW1lc3RhbXAiOjE1NjgyMTMwNTE0MjYsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmYzYjNhMDU0ODFjZGU3NzI0MDAwNWMwZGRjZWUxYzA2OWU1NTA0YTYyY2UwOTc3ODc5ZjU1YTM5Mzk2MTQ2In19fQ=="
+ },
+ {
+  "id": "WHITE_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed white.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "WHITE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODU3NzkwOSwKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICI4Qml0czFCeXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyZTMxNDRmNDNhYzhiN2FhNjdhNjJlYzk2OWFlOTdjYjI4ZjNhZjc1ZmEwODcyZDM1NDRkOGZiYjBhYzUwMDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIGHT_GREY_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "LIGHT_GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODQwMDM2MSwKICAicHJvZmlsZUlkIiA6ICI4NDIzMzM5MTYwMjY0NjBiOWQ1MGFjZWU3MThiMjkxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlc2xpbmdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTdkYThhNWM3N2UzNzY2YmNlOWU5MDZhYmIwMTA4OTc3ODYxZDYxMGE4ZjYwN2NlMDZkYzJkZmNlODc4YjJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "GREY_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODIyNzAwNiwKICAicHJvZmlsZUlkIiA6ICI4ZDYwNGY0NWM0OWQ0YWE2Yjc0MjhiNTJlYzcyYjliNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyRG9ubiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMGQ3MzQ5NDhhYTViYTdhMWJmZmMxNmQzMjA1NjBmMjdiMmQ0Mzc3NzU0ZjIyMjhiYWRiMDA4YTgxN2YzYmE1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BLACK_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed black.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "BLACK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODA2MTQxMCwKICAicHJvZmlsZUlkIiA6ICI4NzczZWRiODZmYWQ0MTczOGFiYWJhNTUxMWM3MDcwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb3NtaWNwb3RhdG9lcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NDhhOTE4YTAyZmViMWIzOWQwY2I2YzNjZDQ1ZGEzY2JkMGE3NTUxMjI4MWIyODU5NmFhZjBiZWFjM2FmYzMwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BROWN_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed brown.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "BROWN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODczMzIwMSwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyMTU3ZjUyMDNhNmQ1ODQyMTA0ZjdjNGExODZjMWYyOGYyM2I3OGUwMjU0NzUxNWFmNjA3NzgwYjA1NWMxNDgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "RED_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed red.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "RED"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTE4NjE1NSwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTg1ZjdhMWVlOTZiMDBlYjE1YzJmZGQxZTNkZDlhNDliZjIzM2ZjMjhmMTQzNDMwMzQ1MjY4MjczNmNjNGZiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "ORANGE_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed orange.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "ORANGE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTMzOTY5MSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4NTJiM2JlOTc4YzdkZDcyOGNhZGVmMTAyMzc0MjAwODlhM2UzOWI4MDI2MTMwM2U4YjlhMzZiN2I3ZTAxZGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "YELLOW_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed yellow.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "YELLOW"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTQ4Mjc1MCwKICAicHJvZmlsZUlkIiA6ICI3YjA5ZDg5NWQyYjc0NTU3YmM0YTkzNWYyNjU0NWNjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJwbGFuZUdvQnJyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjNjg5Yzk3YTQ5MTU5M2MyOGMwMTQ2N2JkYTdhYzdkNmM2OGE3NDJmM2FmMWM2NjYwYjkzMDVkMzkzNzgxODciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIME_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed lime.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "LIME"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTg0MzMxOSwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU2ZjMxOTViMjg5YmQyNGE1Y2NkYWI3ZmFhNTY1ZjE3MWVmMDRjYWM5MTY5MWFhM2VlODk1NjljODA0NWFlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "GREEN_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed green.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "GREEN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDA3NzA1MCwKICAicHJvZmlsZUlkIiA6ICIxYjQwYzcxMGZjMTY0NmQ2OTIxOTVmYzY3YzZlMTE0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3c3pvbHNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMzE5Y2Y0YTc3ZWQ4YjUxMjYwZGZlMDZhNTZlMTVmNzYyZjA4ZmExYzBmOTEwMWZlYTI3NTE0NTQwZGZkYWE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "CYAN_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed cyan.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "CYAN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDIyMzczOCwKICAicHJvZmlsZUlkIiA6ICJmNzM0MmExODMxZDA0ZDA5ODc4Y2ViOTVmOTUxYTllMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNMWtzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlZWU2NzgwN2YxYmFlYjU2NWFkMTRjYjQ5MzdlZjQzMzA2MjM0MDlhNTA1ZGI3Mjg0ZjM0YzI1NzdlZDU1NmYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIGHT_BLUE_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "LIGHT_BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTY4Mzg3MCwKICAicHJvZmlsZUlkIiA6ICJmNTBjOGRkN2FiN2Y0ZmUyYWI4ZGI1M2NjYzRiYWQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWNoYWRvVF9UIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YxYTIyYzllYjg2YjEzY2UzNDNkNWRkNWM2NTlmMDAwYzVhNzVhZTkxZTI5YTQwYmRkNDNhNjk2NDk2N2MwZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLUE_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDM5NDM0OCwKICAicHJvZmlsZUlkIiA6ICIzODhhMzgxMmRhZTQ0NDFkYWI4MjJjODZmNWY0YjNmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbE1henppdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg3YjQxY2E4OTZmZTc0Y2I4NzA3OGExZDA5NzZmZjkzNTE2NjRiMmZkYTVhYmI0OGM1NThhY2RiZWQyNzFiYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "PURPLE_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed purple.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "PURPLE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDYzNDkwMywKICAicHJvZmlsZUlkIiA6ICI5YzYwYzU3MzRmMDY0YjVkOWE1OTdlNjBjMjI3NjllMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmlja05vb2IwNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yM2MzOWM0Yzk3ZjM0ZmUzOWY4N2VjNTZmZmM3NzE2NTI0YmI5NjZiNDM3YWQ0NTYwOWJlMGNhZGVhNDI3MGMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MAGENTA_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed magenta.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "MAGENTA"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODg4MjU5NiwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNhYWI1ODVhZmU0N2FmOTk1MDRjMTY5YmFkZjRlODkzNzMyMDQwMzQzMzFhY2ZmM2VjYzU5YTc5ZmI3ZDQ3ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "PINK_MEDIUM_BACKPACK",
+  "name": "Medium Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a18 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed pink.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 18,
+   "backpack_size": "MEDIUM",
+   "backpack_colour": "PINK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTA0MDk2OCwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2Y2E5M2VjMzFiZDYxOTNhZGEyZTU5ZGVjNjM2MzM0MWZhYTUxYWM0MTM2NGIyMTQ3NWFjMmZiYjU1YjZlNDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "NONE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAzOTc3NjkxNiwKICAicHJvZmlsZUlkIiA6ICJhNWZlYWViNDdhYjA0ZDZiYTk2ZjMyOGJjMDQ3MDZjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJYeW5kcmEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkMDViYWE1ZGRhYTcwYmY0NTJmNTM1NDQ3MTFjYTUxMTZiOGFiYmQ2MjE4YjllMWFlZDk0YjFlNmIwOTQwMjIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "WHITE_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed white.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "WHITE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODYxMDA3NCwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmM2U2NDQyODgxMGU5M2VjZWJjZGVlMjZkNDhhZmExNzA1NjUyMDI4Y2YyNTY5NGMzNjljZDIwNDQyYmE1MTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIGHT_GREY_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "LIGHT_GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODQyNjU2NCwKICAicHJvZmlsZUlkIiA6ICIzYjBmNTM5MmRlNzM0YmZjYmJkOTMxYzMxYmFkODMxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXRhbmRCIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY3YTAxNWJmYmQ2NTA3NTBiMmY1MjIzNTQ2ODdlMDUzNTQ0M2RmZTY3Y2U4MzIwMmE4Yjc2ZWRjZTQyZTYxMTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "GREY_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODI1NzY2MSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkxZDE3N2Q5N2RiZmViZTI1OTY5NTc2NzI2NjNkYWUzZjFhZjJjMTM0MjNlMWUyNDJkMjI5ODMyODM2MjM4MmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "BLACK_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed black.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "BLACK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODA4ODc2NCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTlmYmYwZTU5NTQ0NGI2Y2RiOTAyMDc0ODFlZjI3MGNkZDM3OTZmMDdiZWE0MzljNTk5ZWM5NTI4MTkxYmYwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BROWN_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed brown.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "BROWN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODc1OTM2NCwKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4SGFubmFoNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NDk3M2Y5MGQ4Njk3NzJlZTFjZjQ0ZDRmMjJmNTUyYjMyMDg0NTkwZDU3ZmQ5MWQ2ODNlZTE2ODM5YWRjN2VhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "RED_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed red.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "RED"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTIxMjMyNCwKICAicHJvZmlsZUlkIiA6ICI0NTk3YjBiNWZlZGY0MTg0YjI2YWU0NWZjYmVhODVmMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQc3lrb19EYXJrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiZDdkYjAzMTNmZTgwZDkyN2JiM2FiYTA0MDc1YzY5ZjUyMDBmNTU2Mzc0NTllMjJiOGQ5MzNmNmFlNjczM2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "ORANGE_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed orange.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "ORANGE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTM2NzM3NCwKICAicHJvZmlsZUlkIiA6ICIwNDg2YWUwMWI4Y2I0OWUzODMyZDcwOTNmMWJlNzI3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfcGFrbWFuXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81Mzk0YTk4NWZhYjlmZjBhZjRhMWU2ZjZmZmI0MWE4YTNmMTE0NTU0ODg3MTBmZmY3NDlhOTVlODQ3OWQ1MWI2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "YELLOW_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed yellow.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "YELLOW"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTUxMDYxNCwKICAicHJvZmlsZUlkIiA6ICI4NDM2OTk1ZDhkZDM0NDVjYjk1ZGM2MDVjYWY3ZWIwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJraXR0eWNhdGtvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NlMTc2ZTk4MmI1YTI4Y2RiNWEwZTJlNWE2ZGE2YmU5YzFmYmUyZTMwYTMzMzgyOTczMjc3YTk2ZmZkZTRkODQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIME_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed lime.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "LIME"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTg4MjE1NCwKICAicHJvZmlsZUlkIiA6ICI4NzczZWRiODZmYWQ0MTczOGFiYWJhNTUxMWM3MDcwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb3NtaWNwb3RhdG9lcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjU4ZTI5N2I5ZWUwMzM2MDcxMGU1YTE2ODkxYjUxODI5ZTU4NjUxZjgyZmVjNDQxYTNmOWFmNGU3NDZiMTJlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "GREEN_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed green.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "GREEN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDEwNjE0OCwKICAicHJvZmlsZUlkIiA6ICJiNzRiMGQzNTBkNTk0NTU4YmYyYjBlMDJlYmE4NjE4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmFuZG9uYnBtMjg0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ3NDQ0NDExOWJhNzM1N2EyZGExYzQyMmRmMjQ0ZjMwNTY4MTQ0MTM1MTcyY2RjNDNiNjA2ZjBmOGY2NDNkNTgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "CYAN_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed cyan.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "CYAN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDI0OTIzOCwKICAicHJvZmlsZUlkIiA6ICI3MjU1MDA3NjQzYzQ0YTZiYjM3MjJlNzc3OTk5OTFkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4M250YW55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FlNTU4OGQwNDg0YjI2ZTJjMmFjNjBkZmU2NTk2MDM4Y2M4ZmQyODgyZjZlZDEzNWYyY2M5MDk3ZWI0MjBhZGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "LIGHT_BLUE_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "LIGHT_BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTcxNjc0MywKICAicHJvZmlsZUlkIiA6ICI3NGEwMzQxNWY1OTI0ZTA4YjMyMGM2MmU1NGE3ZjJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXp6aXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRlNjU0YzkwZWViNGE4MWU2YWFlN2Q4MGRkNTZkMWQ1ZDA5OTE5OWQ2MTBlMDljOGVjNTBiNjFhMDEyMjQ4YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLUE_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDQyMDE3OSwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4YzM4MDM1NThkYjI3OWViZTQwOWNlMjYxOTM3YzFjOWI1MzcxYWExNzg2NTU1ZjY5YjU1YmIyMjNmOTMyNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "PURPLE_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed purple.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "PURPLE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDcyODkxMywKICAicHJvZmlsZUlkIiA6ICIzY2I3YTA3YWY3ZjM0ZWZiYTlkNGI4ODQ3NDM4Mzc0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckthaWxldCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YjNlMDJiOTU4ZmRkZTk0ZWI5YWNjZTRlZTBjYjM3MDE5YzM3NjIxYTg4NjJjNDIzNDcwMjczOWNjZjlmODViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MAGENTA_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed magenta.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "MAGENTA"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODkwODA2OSwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4MTNkZTFhZTg0ODdiOGJkMzY5ZjczMjFmYWQ0M2RkMjlmYWQ0Nzg2MjAwNjQxM2I1ZGU2NjM2MGU0MmZiZDgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "PINK_LARGE_BACKPACK",
+  "name": "Large Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a27 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed pink.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 27,
+   "backpack_size": "LARGE",
+   "backpack_colour": "PINK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTA2NzUyNywKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIzMDQwYTRiYzQ1MzllOTRjNGJlNGEwNDE0ODBlOTZjYzg3NTQ0NjQwMTJhZjlmM2JhN2ZmMThmNjQ2ZGRiMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "NONE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMzM4Nzk2NDUxNSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlMTg3MTQ1ZWU3MzJlN2MwMDkwNWE5YzE2ZWQxZTQzYmE4OGQ1NjI0YTZmNGFmODI5ZjEwNDUzZmNjOTE2NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "WHITE_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed white.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "WHITE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODYzODkwMywKICAicHJvZmlsZUlkIiA6ICJjOTZiOWNhZDgzNTA0MjgzYjcwNGI1NTdiNTRhYjUxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJrb3gzNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZWE2YThmNTI0YmU5ODlmMjM0YWRjOTA4Nzc5ZWUzNmEwMDIwOWYxMjYzOWYxZmQwM2E5Y2ZmMWMwOWIzMzlhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LIGHT_GREY_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "LIGHT_GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODQ1OTgyNiwKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3NDBlODA5ODc3NjRmMmUxYzc0NTA0OWY0OTY1ZDFkODI1Mjk3OWY1NDZiNGQ1OWQ3MzZkZTJiZTI5YjU0NzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "GREY_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed grey.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "GREY"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODI5MDA2NywKICAicHJvZmlsZUlkIiA6ICI3NGEwMzQxNWY1OTI0ZTA4YjMyMGM2MmU1NGE3ZjJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXp6aXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzY2VmYWI4YjVjYjNiNzc0NTZmNmIwNzcwMzJhMmNlMDY2MmQ4M2FiZDg4ZDU5NTdjMjdmYmU5NDk1OTRlNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BLACK_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed black.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "BLACK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODExNTM1OSwKICAicHJvZmlsZUlkIiA6ICIzNjQ4MzkyNGRmNjQ0ZDlmYTM0NjcyYTRhMWRlYmU2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdWFuQXRpbnM3OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmE3OTNlNWUwMTc0ZmM2M2RkZmNiYTNjNTQzMzhhOTVmMjdmODQ2NmIwOWNlMzVjZjBjZWQyMzZlNTFiZjA3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BROWN_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed brown.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "BROWN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODc4NTUzNywKICAicHJvZmlsZUlkIiA6ICJjNjI5MzRjYmE5YTE0NjYwYTk3NTk0YjNlMjQ0ZjhhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBQUFycm9iYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MzJjZTM0MGQyZjJiNTBmNDljNzYwMmJmMGE0MjBlMzk3MzM3NGIzZmNmODEzNzlkMjA2ZjJiZjM1OGFlZDAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "RED_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed red.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "RED"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTI0NjIyMSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhZjg1YTgwYTY2ZmMxNDIyZGNhZTdiY2NjODFkOWVlY2RhODg4Yzg1MThkMzBlNDQ1NWEzMTU5MmQ5YTJiMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "ORANGE_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed orange.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "ORANGE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTM5Njc2NiwKICAicHJvZmlsZUlkIiA6ICJlMzcxMWU2Y2E0ZmY0NzA4YjY5ZjhiNGZlYzNhZjdhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckJ1cnN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkYTJhNWIyNDdjMWQwYjJhMWU3MGE4OTQxN2YwMDNiYjZjNDRmZjczODhhYzJmY2MzZjQ3MDBlNTZiMjI5NWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "YELLOW_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed yellow.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "YELLOW"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTUzODMwOCwKICAicHJvZmlsZUlkIiA6ICJiNzRlYjViMTc5OTc0YzZjODk3ZTgwNTM4Y2M1NmYwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYUNoYW4yOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MzJhYzUxY2IyOTIxYzVjYWE5YTY5MGNhYzllMTM3MjM3OTUyYjJkZDgwNmY0ZjQwZjMyMjYwNDIyMTk0MTI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LIME_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed lime.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "LIME"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTkwOTUzMSwKICAicHJvZmlsZUlkIiA6ICIxZDlkYmE3NzdlMWE0NzVkOTQ1ZDYxNmZlYzNiNjhlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmFzeWRpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyZTdhZTExOTE3ZGMxZTAyZTU4YTE2YTFhMDMwYTVmZDZkYTgwYTZiMjEwNjM2NmMwOThkMDcxNzU2Mzk5ZmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "GREEN_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed green.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "GREEN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDEzNTE3OCwKICAicHJvZmlsZUlkIiA6ICI4ZGUyNDAzYTEyMjU0ZmFkOTM1OTYxYWFlYmQwNGUyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZXNydHB1bWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1YzNiMTQwNjc3OGVhNmFiMDgxZDAwNDc4MjZmZjRkY2ExZWEwYmUyZjc2ZTliOWUwN2MxODFmNjMzMjA0MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "CYAN_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed cyan.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "CYAN"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDI3ODMzOSwKICAicHJvZmlsZUlkIiA6ICIyNDY1ODI2NWVjMjg0NTY4YTg3MDJkOTVlYzdlYTc4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmdvc1oxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZWNkYTJiOWZjODIwMmZmYWQxMTAwODdjZGE1NmQ1YTFkN2ZjZmMwZTMwN2M4YWRiNzllY2EwYTdhMjdjYzEzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "LIGHT_BLUE_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed light blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "LIGHT_BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTc0MzM0NSwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliZjdhNDg3NTA2ZTU3YTdkNTkyMzYwNmVmNjRlOWYxZmJjMmZkYTVkN2JkZThkMWViYzc0NzM0MDA5ZTc2OWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "BLUE_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed blue.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "BLUE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzk1OTU0MTg3MCwKICAicHJvZmlsZUlkIiA6ICJhYzczNzMyYmEzZTY0M2IxODE2ZDA2MDQ0M2U3ODhkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXhXYXJkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzZmUxZTczZWIzZjI4N2Y2NzQ4YmU4YTQ0MWM4NTM0NThmN2ZlYjNhNDljMWE2YzY4NjFjMmUyYWZjZTY1MSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "PURPLE_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed purple.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "PURPLE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTU0MDc1NTk1OCwKICAicHJvZmlsZUlkIiA6ICJlYTA4ZjhlZTdiOTg0YmFlYWM3N2JhYzk3ZWVkYzE4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXlkZXJUTSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZmNkNWZjZWQ3MDZmNzY5NDUwMTI0NTc1MDNhZGRhZjc2NWMzYmFlMzljOGY5NjIyZjNmNGNlZmRlZTliNTI5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "MAGENTA_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed magenta.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "MAGENTA"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzODkzNjU0MSwKICAicHJvZmlsZUlkIiA6ICJlYTA4ZjhlZTdiOTg0YmFlYWM3N2JhYzk3ZWVkYzE4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXlkZXJUTSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjBiOTlhYzMyNzBmMDU4MTU5OTRiMTliNDdlZTdlMWRiMjU5NTRiYzIxZDIyZGM0MzBhZjlhZTU1YzA0NWI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "PINK_GREATER_BACKPACK",
+  "name": "Greater Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a36 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "&7Dyed pink.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 36,
+   "backpack_size": "GREATER",
+   "backpack_colour": "PINK"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzOTA5MjQ5OCwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkxYTcwZjUyM2UzYjk3Mjg0M2I2MzhjN2I0NTk3Yjk4NzAyODQ5ODM0NzU3MzAyOWM3NDc1MTY3YTMyNDdhNzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "JUMBO_BACKPACK",
+  "name": "Jumbo Backpack",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "BACKPACK",
+  "lore": [
+   "&7A bag with &a45 &7slots. Put it in a",
+   "&7Backpack Slot of your &aStorage &7to use it.",
+   "",
+   "&eRight-click to open your Storage!"
+  ],
+  "tags": [
+   "storage_backpack",
+   "no_reforge"
+  ],
+  "extra": {
+   "backpack_slots": 45,
+   "backpack_size": "JUMBO",
+   "backpack_colour": "NONE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0OTExMDk0MSwKICAicHJvZmlsZUlkIiA6ICI1ZWE0ODg2NTg2OWI0Y2ZhOWRjNTg5YmFlZWQwNzM5MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfUllOMF8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkODM3Y2EyMjJjYmMwYmMxMjQyNmY1ZGEwMThjM2E5MzFiNDA2MDA4ODAwOTYwYTlkZjExMmE1OTZlN2Q2MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "JUMBO_BACKPACK_UPGRADE",
+  "name": "Jumbo Backpack Upgrade",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "maxStack": 1,
+  "glow": true,
+  "lore": [
+   "&7Craft it together with a &5Greater",
+   "&5Backpack &7to stretch it to &a45 &7slots."
+  ],
+  "tags": [
+   "storage_upgrade"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDA1NjIzOSwKICAicHJvZmlsZUlkIiA6ICI1N2I3OWE2NTllZTM0ODhmODBhM2ExOGQwNDYxMTg3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaW1hdGlrX1giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYwOWYxY2JhYWY2OTIxM2VhNGQ2ODJhNTc1NTBlMTM3MDNhMGNjNjM3MmYzYWJjMThkNmUzNzIxMTI1NzMxYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "POCKET_SACK_IN_A_SACK",
+  "name": "Inner Sack Lining",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "maxStack": 1,
+  "lore": [
+   "&7Stitch it into any sack from the",
+   "&aSack of Sacks &7menu: that sack holds",
+   "&c+200% &7of its &coriginal &7capacity.",
+   "",
+   "&7A sack takes up to &a3 &7linings.",
+   "",
+   "&8A spare pocket, sewn inside a sack."
+  ],
+  "tags": [
+   "storage_upgrade"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2NTYwMDU1ODIyMSwKICAicHJvZmlsZUlkIiA6ICJmNWYyNDcyZGVhNDY0ODJhYWUwNDllYjM2ODE5ODU0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRhaWxlcnMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ0MmM2NmY0YmY5YWE0MjU2ZmE3YjQ5YzYzNjdkNDY1ODQwOGVjNDA4NDc3ODc5YWM4MDc2Nzk0NDAyZDk1YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ }
+]

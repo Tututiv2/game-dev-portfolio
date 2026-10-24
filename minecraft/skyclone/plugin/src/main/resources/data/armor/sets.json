@@ -1,0 +1,4405 @@
+[
+ {
+  "id": "abyssal",
+  "key": "ABYSSAL",
+  "name": "Abyssal",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "ABYSSAL_HELMET",
+   "ABYSSAL_CHESTPLATE",
+   "ABYSSAL_LEGGINGS",
+   "ABYSSAL_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "One with the Fish",
+    "lines": [
+     "&7You can breathe underwater for as long",
+     "&7as you like."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Deep Sea Diver",
+    "lines": [
+     "&7Gain &6+1 ⛃ Treasure Chance &7per piece",
+     "&7while underwater."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "diver"
+  ]
+ },
+ {
+  "id": "angler",
+  "key": "ANGLER",
+  "name": "Angler",
+  "category": "FISHING",
+  "rarity": "COMMON",
+  "pieces": [
+   "ANGLER_HELMET",
+   "ANGLER_CHESTPLATE",
+   "ANGLER_LEGGINGS",
+   "ANGLER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Depth Champion",
+    "lines": [
+     "&7Take &a3% &7less damage from sea creatures",
+     "&7for each piece worn."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Deepness Within",
+    "lines": [
+     "&7Gain &c+1.5 ❤ Health &7per Fishing level",
+     "&7for each piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "ANGLER_HELMET",
+    "shop": "fish_merchant",
+    "npc": "&fFish Merchant",
+    "island": "hub",
+    "coins": 100.0,
+    "items": []
+   },
+   {
+    "piece": "ANGLER_CHESTPLATE",
+    "shop": "fish_merchant",
+    "npc": "&fFish Merchant",
+    "island": "hub",
+    "coins": 100.0,
+    "items": []
+   },
+   {
+    "piece": "ANGLER_LEGGINGS",
+    "shop": "fish_merchant",
+    "npc": "&fFish Merchant",
+    "island": "hub",
+    "coins": 100.0,
+    "items": []
+   },
+   {
+    "piece": "ANGLER_BOOTS",
+    "shop": "fish_merchant",
+    "npc": "&fFish Merchant",
+    "island": "hub",
+    "coins": 100.0,
+    "items": []
+   }
+  ],
+  "upgradeInto": [
+   "backwater"
+  ]
+ },
+ {
+  "id": "arachne",
+  "key": "ARACHNE",
+  "name": "Silkmother's",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "ARACHNE_HELMET",
+   "ARACHNE_CHESTPLATE",
+   "ARACHNE_LEGGINGS",
+   "ARACHNE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Silkmother's Faithful",
+    "lines": [
+     "&7Each piece grants &c+5 ❤ Health &7and",
+     "&a+5 ❈ Defense&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "armor_of_magma",
+  "key": "ARMOR_OF_MAGMA",
+  "name": "Armor of Magma",
+  "category": "MISC",
+  "rarity": "EPIC",
+  "pieces": [
+   "ARMOR_OF_MAGMA_HELMET",
+   "ARMOR_OF_MAGMA_CHESTPLATE",
+   "ARMOR_OF_MAGMA_LEGGINGS",
+   "ARMOR_OF_MAGMA_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Absorb",
+    "lines": [
+     "&7Every &a10 &7Magma Cubes you kill while",
+     "&7wearing the set grant &c+1 ❤ Health &7and",
+     "&b+1 ✎ Intelligence&7. &8Max +200 each."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "armor_of_the_resistance",
+  "key": "ARMOR_OF_THE_RESISTANCE",
+  "name": "Rising Sun",
+  "category": "MISC",
+  "rarity": "EPIC",
+  "pieces": [
+   "ARMOR_OF_THE_RESISTANCE_HELMET",
+   "ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+   "ARMOR_OF_THE_RESISTANCE_LEGGINGS",
+   "ARMOR_OF_THE_RESISTANCE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Power of the Resistance",
+    "lines": [
+     "&7Deal more damage to, and take less",
+     "&7damage from, &cthe Usurper&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "armor_of_yog",
+  "key": "ARMOR_OF_YOG",
+  "name": "Lavaborn",
+  "category": "MINING",
+  "rarity": "EPIC",
+  "pieces": [
+   "ARMOR_OF_YOG_HELMET",
+   "ARMOR_OF_YOG_CHESTPLATE",
+   "ARMOR_OF_YOG_LEGGINGS",
+   "ARMOR_OF_YOG_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Absorb",
+    "lines": [
+     "&7Every &a5 &7lava beasts you slay while",
+     "&7wearing the set grant &6+1 ⸕ Mining Speed&7.",
+     "&8Max +500."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "flame_breaker"
+  ]
+ },
+ {
+  "id": "backwater",
+  "key": "BACKWATER",
+  "name": "Backwater",
+  "category": "FISHING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "BACKWATER_HELMET",
+   "BACKWATER_CHESTPLATE",
+   "BACKWATER_LEGGINGS",
+   "BACKWATER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Swamp Soldier",
+    "lines": [
+     "&7Deal &c+5% &7damage to sea creatures for",
+     "&7each piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "BACKWATER_HELMET",
+    "shop": "scrapper",
+    "npc": "&fScrapper Nettle",
+    "island": "backwater_bayou",
+    "coins": 0.0,
+    "items": [
+     "ANGLER_HELMET:1",
+     "RUSTY_COIN:4"
+    ],
+    "where": "the docks"
+   },
+   {
+    "piece": "BACKWATER_CHESTPLATE",
+    "shop": "scrapper",
+    "npc": "&fScrapper Nettle",
+    "island": "backwater_bayou",
+    "coins": 0.0,
+    "items": [
+     "ANGLER_CHESTPLATE:1",
+     "RUSTY_COIN:4"
+    ],
+    "where": "the docks"
+   },
+   {
+    "piece": "BACKWATER_LEGGINGS",
+    "shop": "scrapper",
+    "npc": "&fScrapper Nettle",
+    "island": "backwater_bayou",
+    "coins": 0.0,
+    "items": [
+     "ANGLER_LEGGINGS:1",
+     "RUSTY_COIN:4"
+    ],
+    "where": "the docks"
+   },
+   {
+    "piece": "BACKWATER_BOOTS",
+    "shop": "scrapper",
+    "npc": "&fScrapper Nettle",
+    "island": "backwater_bayou",
+    "coins": 0.0,
+    "items": [
+     "ANGLER_BOOTS:1",
+     "RUSTY_COIN:4"
+    ],
+    "where": "the docks"
+   }
+  ],
+  "upgradeFrom": [
+   "angler"
+  ]
+ },
+ {
+  "id": "bat_person",
+  "key": "BAT_PERSON",
+  "name": "Bat Person",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "BAT_PERSON_HELMET",
+   "BAT_PERSON_CHESTPLATE",
+   "BAT_PERSON_LEGGINGS",
+   "BAT_PERSON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Into the Night",
+    "lines": [
+     "&7Raises your chance to find rare",
+     "&dCandy &7by &a+5%&7.",
+     "&8The city needs a hero."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "spooky"
+  ]
+ },
+ {
+  "id": "berserker",
+  "key": "BERSERKER",
+  "name": "Berserker",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "BERSERKER_HELMET",
+   "BERSERKER_CHESTPLATE",
+   "BERSERKER_LEGGINGS",
+   "BERSERKER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Berserk",
+    "lines": [
+     "&7With the full set your max &c❤ Health",
+     "&7and &a❈ Defense &7are &chalved&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bigger_spring",
+  "key": "BIGGER_SPRING",
+  "name": "Bigger Spring Boots",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "BIGGER_SPRING_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "big_spring",
+  "key": "BIG_SPRING",
+  "name": "Big Spring Boots",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "BIG_SPRING_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "biohazard",
+  "key": "BIOHAZARD",
+  "name": "Biohazard",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "BIOHAZARD_HELMET",
+   "BIOHAZARD_SUIT",
+   "BIOHAZARD_LEGGINGS",
+   "BIOHAZARD_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "blaze",
+  "key": "BLAZE",
+  "name": "Blaze",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "BLAZE_HELMET",
+   "BLAZE_CHESTPLATE",
+   "BLAZE_LEGGINGS",
+   "BLAZE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Blazing Aura",
+    "lines": [
+     "&7Burns every enemy within &a5 &7blocks",
+     "&7for &c3% &7of its max health each second.",
+     "&8Max 500 damage/s, +100 per 5,000 Blaze",
+     "&8Rods in your collection."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "frozen_blaze"
+  ]
+ },
+ {
+  "id": "blaze_hat",
+  "key": "BLAZE_HAT",
+  "name": "Blaze Hat",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "BLAZE_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "blobfish_hat",
+  "key": "BLOBFISH_HAT",
+  "name": "Blobfish Hat",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "BLOBFISH_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "bronze_hunter",
+  "key": "BRONZE_HUNTER",
+  "name": "Bronze Hunter",
+  "category": "FISHING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "BRONZE_HUNTER_HELMET",
+   "BRONZE_HUNTER_CHESTPLATE",
+   "BRONZE_HUNTER_LEGGINGS",
+   "BRONZE_HUNTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Peace Treaty",
+    "lines": [
+     "&7With &a2+ &7pieces sea creatures cannot",
+     "&7hurt you and you cannot hurt them, and",
+     "&7you no longer fish them up."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Star Fisher",
+    "lines": [
+     "&7Gain &b+0.2 ☂ Fishing Speed &7for every",
+     "&6✪ &7upgrade star on your armor."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Angler's Favor",
+    "lines": [
+     "&7Gain &6+0.5 ♔ Trophy Fish Chance &7per",
+     "&7piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "BRONZE_HUNTER_HELMET",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 100000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "BRONZE_HUNTER_CHESTPLATE",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 100000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "BRONZE_HUNTER_LEGGINGS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 100000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "BRONZE_HUNTER_BOOTS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 100000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   }
+  ]
+ },
+ {
+  "id": "cactus",
+  "key": "CACTUS",
+  "name": "Cactus",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "CACTUS_HELMET",
+   "CACTUS_CHESTPLATE",
+   "CACTUS_LEGGINGS",
+   "CACTUS_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Deflect",
+    "lines": [
+     "&7Thorns! &a33% &7of the damage an enemy",
+     "&7deals to you is thrown back at it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "canopy",
+  "key": "CANOPY",
+  "name": "Canopy",
+  "category": "FORAGING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "CANOPY_HELMET",
+   "CANOPY_CHESTPLATE",
+   "CANOPY_LEGGINGS",
+   "CANOPY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeInto": [
+   "fig"
+  ]
+ },
+ {
+  "id": "seymour",
+  "key": "SEYMOUR",
+  "name": "Tailor's Finery",
+  "category": "MISC",
+  "rarity": "RARE",
+  "pieces": [
+   "VELVET_TOP_HAT",
+   "CASHMERE_JACKET",
+   "SATIN_TROUSERS",
+   "OXFORD_SHOES"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "celeste",
+  "key": "CELESTE",
+  "name": "Celeste",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "CELESTE_HELMET",
+   "CELESTE_CHESTPLATE",
+   "CELESTE_LEGGINGS",
+   "CELESTE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "CELESTE_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 5000.0,
+    "items": []
+   },
+   {
+    "piece": "CELESTE_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 8000.0,
+    "items": []
+   },
+   {
+    "piece": "CELESTE_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 7000.0,
+    "items": []
+   },
+   {
+    "piece": "CELESTE_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 4000.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "chainmail",
+  "key": "CHAINMAIL",
+  "name": "Chainmail",
+  "category": "VANILLA",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "CHAINMAIL_HELMET",
+   "CHAINMAIL_CHESTPLATE",
+   "CHAINMAIL_LEGGINGS",
+   "CHAINMAIL_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "CHAINMAIL_HELMET",
+    "shop": "iron_forger",
+    "npc": "&fIron Forger",
+    "island": "gold_mine",
+    "coins": 10.0,
+    "items": [],
+    "where": "next to the gold forger"
+   },
+   {
+    "piece": "CHAINMAIL_CHESTPLATE",
+    "shop": "iron_forger",
+    "npc": "&fIron Forger",
+    "island": "gold_mine",
+    "coins": 16.0,
+    "items": [],
+    "where": "next to the gold forger"
+   },
+   {
+    "piece": "CHAINMAIL_LEGGINGS",
+    "shop": "iron_forger",
+    "npc": "&fIron Forger",
+    "island": "gold_mine",
+    "coins": 14.0,
+    "items": [],
+    "where": "next to the gold forger"
+   },
+   {
+    "piece": "CHAINMAIL_BOOTS",
+    "shop": "iron_forger",
+    "npc": "&fIron Forger",
+    "island": "gold_mine",
+    "coins": 9.0,
+    "items": [],
+    "where": "next to the gold forger"
+   }
+  ]
+ },
+ {
+  "id": "challenger",
+  "key": "CHALLENGER",
+  "name": "Challenger's",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "CHALLENGER_HELMET",
+   "CHALLENGER_CHESTPLATE",
+   "CHALLENGER_LEGGINGS",
+   "CHALLENGER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Mythos' Might",
+    "lines": [
+     "&7Doubles this piece's stats in the &bHub",
+     "&7while the &6Mythic Ritual &7is running."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Unearthed",
+    "lines": [
+     "&7Take &a5% &7less damage from mythic",
+     "&7creatures for each piece worn."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "mythos"
+  ]
+ },
+ {
+  "id": "park",
+  "key": "PARK",
+  "name": "Park Ranger Outfit",
+  "category": "FORAGING",
+  "rarity": "COMMON",
+  "pieces": [
+   "MOLE_HAT",
+   "KELLY_TSHIRT",
+   "CHARLIE_TROUSERS",
+   "MELODY_SHOES"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "cheap_tuxedo",
+  "key": "CHEAP_TUXEDO",
+  "name": "Cheap Tuxedo",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "CHEAP_TUXEDO_CHESTPLATE",
+   "CHEAP_TUXEDO_LEGGINGS",
+   "CHEAP_TUXEDO_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Dashing",
+    "lines": [
+     "&7Your max &c❤ Health &7is fixed at &c75&7,",
+     "&7but you deal &c+50% &7damage.",
+     "&8Very stylish."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "CHEAP_TUXEDO_CHESTPLATE",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "CHEAP_TUXEDO_LEGGINGS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "CHEAP_TUXEDO_BOOTS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   }
+  ]
+ },
+ {
+  "id": "chicken_head",
+  "key": "CHICKEN_HEAD",
+  "name": "Chicken Hat",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "CHICKEN_HEAD"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "clover",
+  "key": "CLOVER",
+  "name": "Clover Helmet",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "CLOVER_HELMET"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "clownfish_hat",
+  "key": "CLOWNFISH_HAT",
+  "name": "Tropical Fish Hat",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "CLOWNFISH_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "cow_head",
+  "key": "COW_HEAD",
+  "name": "Cow Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "COW_HEAD"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "creeper_hat",
+  "key": "CREEPER_HAT",
+  "name": "Creeper Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "CREEPER_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "monster_hunter",
+  "key": "MONSTER_HUNTER",
+  "name": "Monster Hunter",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "SKELETON_HELMET",
+   "GUARDIAN_CHESTPLATE",
+   "CREEPER_LEGGINGS",
+   "SPIDER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "cropie",
+  "key": "CROPIE",
+  "name": "Cropling",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "CROPIE_HELMET",
+   "CROPIE_CHESTPLATE",
+   "CROPIE_LEGGINGS",
+   "CROPIE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Squashbuckle",
+    "lines": [
+     "&7Harvesting &ePumpkins&7, &eMelons &7and &eCocoa",
+     "&7has a &a0.01% &7chance to drop a &9Squash&7.",
+     "&7Grants up to &6+45 ☘ Farming Fortune&7."
+    ]
+   },
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "melon"
+  ],
+  "upgradeInto": [
+   "squash"
+  ]
+ },
+ {
+  "id": "crown_of_avarice",
+  "key": "CROWN_OF_AVARICE",
+  "name": "Crown of Avarice",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "CROWN_OF_AVARICE"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeFrom": [
+   "crown_of_greed"
+  ]
+ },
+ {
+  "id": "crown_of_avarice_celebration",
+  "key": "CROWN_OF_AVARICE_CELEBRATION",
+  "name": "Crown of Avarice",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "CROWN_OF_AVARICE_CELEBRATION"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "crown_of_greed",
+  "key": "CROWN_OF_GREED",
+  "name": "Crown of Greed",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "CROWN_OF_GREED"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "crown_of_avarice"
+  ]
+ },
+ {
+  "id": "crystal",
+  "key": "CRYSTAL",
+  "name": "Crystal",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "CRYSTAL_HELMET",
+   "CRYSTAL_CHESTPLATE",
+   "CRYSTAL_LEGGINGS",
+   "CRYSTAL_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Refraction",
+    "lines": [
+     "&7This armor's stats shift between &a0%",
+     "&7and &a200% &7depending on how bright",
+     "&7the light around you is."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dashing",
+  "key": "DASHING",
+  "name": "Dashing Boots",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "DASHING_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "dctr_space_helm",
+  "key": "DCTR_SPACE_HELM",
+  "name": "Space Helmet",
+  "category": "MISC",
+  "rarity": "SPECIAL",
+  "pieces": [
+   "DCTR_SPACE_HELM"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "diamond",
+  "key": "DIAMOND",
+  "name": "Diamond",
+  "category": "VANILLA",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "DIAMOND_HELMET",
+   "DIAMOND_CHESTPLATE",
+   "DIAMOND_LEGGINGS",
+   "DIAMOND_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "diamond_hunter",
+  "key": "DIAMOND_HUNTER",
+  "name": "Diamond Hunter",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "DIAMOND_HUNTER_HELMET",
+   "DIAMOND_HUNTER_CHESTPLATE",
+   "DIAMOND_HUNTER_LEGGINGS",
+   "DIAMOND_HUNTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Peace Treaty",
+    "lines": [
+     "&7With &a2+ &7pieces sea creatures cannot",
+     "&7hurt you and you cannot hurt them, and",
+     "&7you no longer fish them up."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Star Fisher",
+    "lines": [
+     "&7Gain &b+1 ☂ Fishing Speed &7for every",
+     "&6✪ &7upgrade star on your armor."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Angler's Favor",
+    "lines": [
+     "&7Gain &6+2 ♔ Trophy Fish Chance &7per",
+     "&7piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "DIAMOND_HUNTER_HELMET",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 2500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "DIAMOND_HUNTER_CHESTPLATE",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 2500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "DIAMOND_HUNTER_LEGGINGS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 2500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "DIAMOND_HUNTER_BOOTS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 2500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   }
+  ]
+ },
+ {
+  "id": "divan",
+  "key": "DIVAN",
+  "name": "Varnas",
+  "category": "MINING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "DIVAN_HELMET",
+   "DIVAN_CHESTPLATE",
+   "DIVAN_LEGGINGS",
+   "DIVAN_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "diver",
+  "key": "DIVER",
+  "name": "Diver's",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "DIVER_HELMET",
+   "DIVER_CHESTPLATE",
+   "DIVER_LEGGINGS",
+   "DIVER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "One with the Fish",
+    "lines": [
+     "&7You can breathe underwater for as long",
+     "&7as you like."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Deep Sea Diver",
+    "lines": [
+     "&7Gain &6+0.5 ⛃ Treasure Chance &7per piece",
+     "&7while underwater."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "snorkeling"
+  ],
+  "upgradeInto": [
+   "abyssal"
+  ]
+ },
+ {
+  "id": "dueces_builder_clay",
+  "key": "DUECES_BUILDER_CLAY",
+  "name": "The Builder's Clay",
+  "category": "MISC",
+  "rarity": "SPECIAL",
+  "pieces": [
+   "DUECES_BUILDER_CLAY"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "elegant_tuxedo",
+  "key": "ELEGANT_TUXEDO",
+  "name": "Elegant Tuxedo",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "ELEGANT_TUXEDO_CHESTPLATE",
+   "ELEGANT_TUXEDO_LEGGINGS",
+   "ELEGANT_TUXEDO_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Dashing",
+    "lines": [
+     "&7Your max &c❤ Health &7is fixed at &c250&7,",
+     "&7but you deal &c+150% &7damage.",
+     "&8Very stylish."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "ELEGANT_TUXEDO_CHESTPLATE",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 24999999.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "ELEGANT_TUXEDO_LEGGINGS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 24999999.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "ELEGANT_TUXEDO_BOOTS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 24999999.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   }
+  ]
+ },
+ {
+  "id": "ember",
+  "key": "EMBER",
+  "name": "Ember",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "EMBER_HELMET",
+   "EMBER_CHESTPLATE",
+   "EMBER_LEGGINGS",
+   "EMBER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Nether Lord",
+    "lines": [
+     "&7You take no damage from &6fire &7or",
+     "&6lava&7. Walking over lava turns it to",
+     "&7obsidian under your feet for a few",
+     "&7seconds.",
+     "&8Not on islands, or with a fishing rod in hand."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "emerald_armor",
+  "key": "EMERALD_ARMOR",
+  "name": "Emerald Armor",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "EMERALD_ARMOR_HELMET",
+   "EMERALD_ARMOR_CHESTPLATE",
+   "EMERALD_ARMOR_LEGGINGS",
+   "EMERALD_ARMOR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Tank",
+    "lines": [
+     "&7Gain &c+1 ❤ Health &7and &a+1 ❈ Defense &7for",
+     "&7every &a3,000 &7Emeralds in your collection.",
+     "&8Maximum +350 each."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "emperor",
+  "key": "EMPEROR",
+  "name": "Emperor's Regalia",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "EMPEROR_HEAD",
+   "EMPEROR_ROBES",
+   "EMPEROR_LEGGINGS",
+   "EMPEROR_SHOES"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "enchanted_jack_o_lantern",
+  "key": "ENCHANTED_JACK_O_LANTERN",
+  "name": "Lantern Helmet",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "ENCHANTED_JACK_O_LANTERN"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "enderman_hat",
+  "key": "ENDERMAN_HAT",
+  "name": "Enderman Hat",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "ENDERMAN_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "enderman_mask",
+  "key": "ENDERMAN_MASK",
+  "name": "Enderman Mask",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "ENDERMAN_MASK"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "end",
+  "key": "END",
+  "name": "Ender",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "END_HELMET",
+   "END_CHESTPLATE",
+   "END_LEGGINGS",
+   "END_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Ender Resonance",
+    "lines": [
+     "&7While you are on &5The End&7, every",
+     "&7stat on this piece is &adoubled&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fairy",
+  "key": "FAIRY",
+  "name": "Fairy's Outfit",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "FAIRY_HELMET",
+   "FAIRY_CHESTPLATE",
+   "FAIRY_LEGGINGS",
+   "FAIRY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Fairy's Outfit",
+    "lines": [
+     "&7Gain &c+1 ❤ Health &7for every &dFairy",
+     "&dSoul &7you have found."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fallen_star",
+  "key": "FALLEN_STAR",
+  "name": "Fallen Star",
+  "category": "MINING",
+  "rarity": "RARE",
+  "pieces": [
+   "FALLEN_STAR_HAT",
+   "FALLEN_STAR_CHESTPLATE",
+   "FALLEN_STAR_LEGGINGS",
+   "FALLEN_STAR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "fancy_tuxedo",
+  "key": "FANCY_TUXEDO",
+  "name": "Fancy Tuxedo",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "FANCY_TUXEDO_CHESTPLATE",
+   "FANCY_TUXEDO_LEGGINGS",
+   "FANCY_TUXEDO_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Dashing",
+    "lines": [
+     "&7Your max &c❤ Health &7is fixed at &c150&7,",
+     "&7but you deal &c+100% &7damage.",
+     "&8Very stylish."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "FANCY_TUXEDO_CHESTPLATE",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 6666666.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "FANCY_TUXEDO_LEGGINGS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 6666666.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   },
+   {
+    "piece": "FANCY_TUXEDO_BOOTS",
+    "shop": "tailor",
+    "npc": "&fTailor Fennimore",
+    "island": "hub",
+    "coins": 6666666.0,
+    "items": [],
+    "where": "a fashion shop in the village"
+   }
+  ]
+ },
+ {
+  "id": "farmer",
+  "key": "FARMER",
+  "name": "Farmer Boots",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "FARMER_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "ranchers"
+  ]
+ },
+ {
+  "id": "farm_armor",
+  "key": "FARM_ARMOR",
+  "name": "Haymaker",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "FARM_ARMOR_HELMET",
+   "FARM_ARMOR_CHESTPLATE",
+   "FARM_ARMOR_LEGGINGS",
+   "FARM_ARMOR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "farm_suit"
+  ],
+  "upgradeInto": [
+   "pumpkin"
+  ]
+ },
+ {
+  "id": "farm_suit",
+  "key": "FARM_SUIT",
+  "name": "Farmhand",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "FARM_SUIT_HELMET",
+   "FARM_SUIT_CHESTPLATE",
+   "FARM_SUIT_LEGGINGS",
+   "FARM_SUIT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeInto": [
+   "farm_armor"
+  ]
+ },
+ {
+  "id": "fermento",
+  "key": "FERMENTO",
+  "name": "Fermenta",
+  "category": "FARMING",
+  "rarity": "EPIC",
+  "pieces": [
+   "FERMENTO_HELMET",
+   "FERMENTO_CHESTPLATE",
+   "FERMENTO_LEGGINGS",
+   "FERMENTO_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Feast",
+    "lines": [
+     "&7Harvesting flowers has a &a0.002% &7chance",
+     "&7to drop a &6Helianthus&7, and every rare",
+     "&7crop roll of the lower sets applies too.",
+     "&7Grants up to &6+75 ☘ Farming Fortune&7."
+    ]
+   },
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "squash"
+  ],
+  "upgradeInto": [
+   "helianthus"
+  ]
+ },
+ {
+  "id": "fig",
+  "key": "FIG",
+  "name": "Fig",
+  "category": "FORAGING",
+  "rarity": "RARE",
+  "pieces": [
+   "FIG_HELMET",
+   "FIG_CHESTPLATE",
+   "FIG_LEGGINGS",
+   "FIG_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "canopy"
+  ],
+  "upgradeInto": [
+   "helix_armor"
+  ]
+ },
+ {
+  "id": "fish_hat",
+  "key": "FISH_HAT",
+  "name": "Fish Hat",
+  "category": "FISHING",
+  "rarity": "COMMON",
+  "pieces": [
+   "FISH_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "flamebreaker",
+  "key": "FLAMEBREAKER",
+  "name": "Ember Ash",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "FLAMEBREAKER_HELMET",
+   "FLAMEBREAKER_CHESTPLATE",
+   "FLAMEBREAKER_LEGGINGS",
+   "FLAMEBREAKER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "flame_breaker",
+  "key": "FLAME_BREAKER",
+  "name": "Flamebreaker",
+  "category": "MINING",
+  "rarity": "EPIC",
+  "pieces": [
+   "FLAME_BREAKER_HELMET",
+   "FLAME_BREAKER_CHESTPLATE",
+   "FLAME_BREAKER_LEGGINGS",
+   "FLAME_BREAKER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeInto": [
+   "armor_of_yog"
+  ]
+ },
+ {
+  "id": "lava_sea_creature",
+  "key": "LAVA_SEA_CREATURE",
+  "name": "Lava Sea Creature Gear",
+  "category": "FISHING",
+  "rarity": "RARE",
+  "pieces": [
+   "TAURUS_HELMET",
+   "FLAMING_CHESTPLATE",
+   "MOOGMA_LEGGINGS",
+   "SLUG_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "froggles",
+  "key": "FROGGLES",
+  "name": "Frog Goggles",
+  "category": "FISHING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "FROGGLES"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "froggles_silver"
+  ]
+ },
+ {
+  "id": "froggles_diamond",
+  "key": "FROGGLES_DIAMOND",
+  "name": "Diamond Frog Goggles",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "FROGGLES_DIAMOND"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeFrom": [
+   "froggles_gold"
+  ]
+ },
+ {
+  "id": "froggles_gold",
+  "key": "FROGGLES_GOLD",
+  "name": "Golden Frog Goggles",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "FROGGLES_GOLD"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeFrom": [
+   "froggles_silver"
+  ],
+  "upgradeInto": [
+   "froggles_diamond"
+  ]
+ },
+ {
+  "id": "froggles_silver",
+  "key": "FROGGLES_SILVER",
+  "name": "Silver Frog Goggles",
+  "category": "FISHING",
+  "rarity": "RARE",
+  "pieces": [
+   "FROGGLES_SILVER"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeFrom": [
+   "froggles"
+  ],
+  "upgradeInto": [
+   "froggles_gold"
+  ]
+ },
+ {
+  "id": "frozen_blaze",
+  "key": "FROZEN_BLAZE",
+  "name": "Frozen Blaze",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "FROZEN_BLAZE_HELMET",
+   "FROZEN_BLAZE_CHESTPLATE",
+   "FROZEN_BLAZE_LEGGINGS",
+   "FROZEN_BLAZE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Frozen Blazing Aura",
+    "lines": [
+     "&7Freezes every enemy within &a5 &7blocks",
+     "&7for &c300 &7damage plus &c3% &7of its max",
+     "&7health each second, and &bslows &7it.",
+     "&8Max 500 damage/s, +100 per 5,000 Blaze",
+     "&8Rods in your collection."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "blaze"
+  ]
+ },
+ {
+  "id": "generals_armor_of_the_resistance",
+  "key": "GENERALS_ARMOR_OF_THE_RESISTANCE",
+  "name": "General's Rising Sun",
+  "category": "MISC",
+  "rarity": "EPIC",
+  "pieces": [
+   "GENERALS_ARMOR_OF_THE_RESISTANCE_HELMET",
+   "GENERALS_ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+   "GENERALS_ARMOR_OF_THE_RESISTANCE_LEGGINGS",
+   "GENERALS_ARMOR_OF_THE_RESISTANCE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Power of the Resistance",
+    "lines": [
+     "&7Deal more damage to, and take less",
+     "&7damage from, &cthe Usurper&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ghast",
+  "key": "GHAST",
+  "name": "Ghast",
+  "category": "MISC",
+  "rarity": "RARE",
+  "pieces": [
+   "GHAST_HEAD",
+   "GHAST_CHESTPLATE",
+   "GHAST_LEGGINGS",
+   "GHAST_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "ghost",
+  "key": "GHOST",
+  "name": "Ghostly Boots",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "GHOST_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "glacite",
+  "key": "GLACITE",
+  "name": "Glacite",
+  "category": "MINING",
+  "rarity": "EPIC",
+  "pieces": [
+   "GLACITE_HELMET",
+   "GLACITE_CHESTPLATE",
+   "GLACITE_LEGGINGS",
+   "GLACITE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Expert Miner",
+    "lines": [
+     "&7Grants &6+2 ⸕ Mining Speed &7for every",
+     "&7Mining Skill level you have."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "glossy_mineral",
+  "key": "GLOSSY_MINERAL",
+  "name": "Glossy Mineral",
+  "category": "MINING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "GLOSSY_MINERAL_HELMET",
+   "GLOSSY_MINERAL_CHESTPLATE",
+   "GLOSSY_MINERAL_LEGGINGS",
+   "GLOSSY_MINERAL_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Glossy Mineralworks",
+    "lines": [
+     "&7Grants &e+7.5 ▚ Mining Spread &7on ores",
+     "&7and blocks for each piece worn."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "mineral"
+  ]
+ },
+ {
+  "id": "goblin",
+  "key": "GOBLIN",
+  "name": "Goblin",
+  "category": "MINING",
+  "rarity": "RARE",
+  "pieces": [
+   "GOBLIN_HELMET",
+   "GOBLIN_CHESTPLATE",
+   "GOBLIN_LEGGINGS",
+   "GOBLIN_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Smart Miner",
+    "lines": [
+     "&7Turns your &b✎ Intelligence &7into mining",
+     "&7power: &6+1 ⸕ Mining Speed &7for every",
+     "&b15 ✎ &7removed."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gold",
+  "key": "GOLD",
+  "name": "Golden",
+  "category": "VANILLA",
+  "rarity": "COMMON",
+  "pieces": [
+   "GOLD_HELMET",
+   "GOLD_CHESTPLATE",
+   "GOLD_LEGGINGS",
+   "GOLD_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "GOLD_HELMET",
+    "shop": "gold_forger",
+    "npc": "&fGold Forger",
+    "island": "gold_mine",
+    "coins": 10.0,
+    "items": []
+   },
+   {
+    "piece": "GOLD_CHESTPLATE",
+    "shop": "gold_forger",
+    "npc": "&fGold Forger",
+    "island": "gold_mine",
+    "coins": 16.0,
+    "items": []
+   },
+   {
+    "piece": "GOLD_LEGGINGS",
+    "shop": "gold_forger",
+    "npc": "&fGold Forger",
+    "island": "gold_mine",
+    "coins": 14.0,
+    "items": []
+   },
+   {
+    "piece": "GOLD_BOOTS",
+    "shop": "gold_forger",
+    "npc": "&fGold Forger",
+    "island": "gold_mine",
+    "coins": 9.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "gold_hunter",
+  "key": "GOLD_HUNTER",
+  "name": "Gold Hunter",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "GOLD_HUNTER_HELMET",
+   "GOLD_HUNTER_CHESTPLATE",
+   "GOLD_HUNTER_LEGGINGS",
+   "GOLD_HUNTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Peace Treaty",
+    "lines": [
+     "&7With &a2+ &7pieces sea creatures cannot",
+     "&7hurt you and you cannot hurt them, and",
+     "&7you no longer fish them up."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Star Fisher",
+    "lines": [
+     "&7Gain &b+0.7 ☂ Fishing Speed &7for every",
+     "&6✪ &7upgrade star on your armor."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Angler's Favor",
+    "lines": [
+     "&7Gain &6+1.5 ♔ Trophy Fish Chance &7per",
+     "&7piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "GOLD_HUNTER_HELMET",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "GOLD_HUNTER_CHESTPLATE",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "GOLD_HUNTER_LEGGINGS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "GOLD_HUNTER_BOOTS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 1000000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   }
+  ]
+ },
+ {
+  "id": "golem_armor",
+  "key": "GOLEM_ARMOR",
+  "name": "Golem Armor",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "GOLEM_ARMOR_HELMET",
+   "GOLEM_ARMOR_CHESTPLATE",
+   "GOLEM_ARMOR_LEGGINGS",
+   "GOLEM_ARMOR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Absorption",
+    "lines": [
+     "&7Killing an enemy wraps you in &6Absorption",
+     "&6III &7(&e+60 &7absorption health) for &a20s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "golem_hat",
+  "key": "GOLEM_HAT",
+  "name": "Golem Hat",
+  "category": "MINING",
+  "rarity": "COMMON",
+  "pieces": [
+   "GOLEM_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "great_spook",
+  "key": "GREAT_SPOOK",
+  "name": "Great Spook",
+  "category": "MISC",
+  "rarity": "EPIC",
+  "pieces": [
+   "GREAT_SPOOK_HELMET",
+   "GREAT_SPOOK_CHESTPLATE",
+   "GREAT_SPOOK_LEGGINGS",
+   "GREAT_SPOOK_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Fearsome",
+    "lines": [
+     "&7Monsters at or below your total &5Fear",
+     "&7level run away from you.",
+     "&8Brewed during the alchemist's trials."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Spooky",
+    "lines": [
+     "&7Punch another player with the",
+     "&5Great Spook Staff &7to give them a fright."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "growth",
+  "key": "GROWTH",
+  "name": "Growth",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "GROWTH_HELMET",
+   "GROWTH_CHESTPLATE",
+   "GROWTH_LEGGINGS",
+   "GROWTH_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Growth",
+    "lines": [
+     "&7Killing a monster heals &c1% &7of your max",
+     "&7health and grows this piece by &c+1 ❤",
+     "&7Health &8(max +100, once every 4s)&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "happy_mask",
+  "key": "HAPPY_MASK",
+  "name": "Happy Mask",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "HAPPY_MASK"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "hardened_diamond",
+  "key": "HARDENED_DIAMOND",
+  "name": "Hardened Diamond",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "HARDENED_DIAMOND_HELMET",
+   "HARDENED_DIAMOND_CHESTPLATE",
+   "HARDENED_DIAMOND_LEGGINGS",
+   "HARDENED_DIAMOND_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeInto": [
+   "mineral"
+  ]
+ },
+ {
+  "id": "heat",
+  "key": "HEAT",
+  "name": "Heat",
+  "category": "MINING",
+  "rarity": "RARE",
+  "pieces": [
+   "HEAT_HELMET",
+   "HEAT_CHESTPLATE",
+   "HEAT_LEGGINGS",
+   "HEAT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Pressurized Coating",
+    "lines": [
+     "&7Triples this piece's &a❈ Defense &7and",
+     "&c❁ Strength &7on mining islands."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Heat Shield",
+    "lines": [
+     "&7You are immune to &cHeat&7."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "tank_miner"
+  ]
+ },
+ {
+  "id": "heavy",
+  "key": "HEAVY",
+  "name": "Heavy",
+  "category": "DUNGEONEERING",
+  "rarity": "RARE",
+  "pieces": [
+   "HEAVY_HELMET",
+   "HEAVY_CHESTPLATE",
+   "HEAVY_LEGGINGS",
+   "HEAVY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Vindicate",
+    "lines": [
+     "&7Gain &f+1 ✦ Speed &7for every &a50 ❈",
+     "&aDefense &7you have."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "helianthus",
+  "key": "HELIANTHUS",
+  "name": "Helianthus",
+  "category": "FARMING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "HELIANTHUS_HELMET",
+   "HELIANTHUS_CHESTPLATE",
+   "HELIANTHUS_LEGGINGS",
+   "HELIANTHUS_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Feast",
+    "lines": [
+     "&7Every rare crop roll of the whole",
+     "&7farming ladder applies at once.",
+     "&7Grants up to &6+75 ☘ Farming Fortune&7."
+    ]
+   },
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "fermento"
+  ]
+ },
+ {
+  "id": "helix_armor",
+  "key": "HELIX_ARMOR",
+  "name": "Helix",
+  "category": "FORAGING",
+  "rarity": "EPIC",
+  "pieces": [
+   "HELIX_ARMOR_HELMET",
+   "HELIX_ARMOR_CHESTPLATE",
+   "HELIX_ARMOR_LEGGINGS",
+   "HELIX_ARMOR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "fig"
+  ]
+ },
+ {
+  "id": "holy_dragon",
+  "key": "HOLY_DRAGON",
+  "name": "Holy Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "HOLY_DRAGON_HELMET",
+   "HOLY_DRAGON_CHESTPLATE",
+   "HOLY_DRAGON_LEGGINGS",
+   "HOLY_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Holy Blood",
+    "lines": [
+     "&7You and every player within &a10",
+     "&7blocks gain &a+75 &c❣ Health Regen&7.",
+     "&8Only one wearer's aura applies."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hydra1",
+  "key": "HYDRA1",
+  "name": "Water Hydra",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "WATER_HYDRA_HEAD",
+   "HYDRA1_CHESTPLATE",
+   "HYDRA1_LEGGINGS",
+   "HYDRA1_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "iron",
+  "key": "IRON",
+  "name": "Iron",
+  "category": "VANILLA",
+  "rarity": "COMMON",
+  "pieces": [
+   "IRON_HELMET",
+   "IRON_CHESTPLATE",
+   "IRON_LEGGINGS",
+   "IRON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "IRON_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 15.0,
+    "items": []
+   },
+   {
+    "piece": "IRON_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 25.0,
+    "items": []
+   },
+   {
+    "piece": "IRON_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 30.0,
+    "items": []
+   },
+   {
+    "piece": "IRON_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 20.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "kalhuiki_mask",
+  "key": "KALHUIKI_MASK",
+  "name": "Tidecarver Mask",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "KALHUIKI_MASK"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "KALHUIKI_MASK",
+    "shop": "tribal_trader",
+    "npc": "&fTribal Elder Wahu",
+    "island": "crystal_hollows",
+    "coins": 0.0,
+    "items": [
+     "SLUDGE_JUICE:20",
+     "WOOD:20"
+    ],
+    "where": "the jungle"
+   }
+  ]
+ },
+ {
+  "id": "krampus",
+  "key": "KRAMPUS",
+  "name": "Krampus Helmet",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "KRAMPUS_HELMET"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "lapis_armor",
+  "key": "LAPIS_ARMOR",
+  "name": "Lapis Armor",
+  "category": "MINING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "LAPIS_ARMOR_HELMET",
+   "LAPIS_ARMOR_CHESTPLATE",
+   "LAPIS_ARMOR_LEGGINGS",
+   "LAPIS_ARMOR_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Magnetic",
+    "lines": [
+     "&7Experience orbs earned while mining",
+     "&7are worth &a+50% &7more."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "leaflet",
+  "key": "LEAFLET",
+  "name": "Leaflet",
+  "category": "FORAGING",
+  "rarity": "COMMON",
+  "pieces": [
+   "LEAFLET_HELMET",
+   "LEAFLET_CHESTPLATE",
+   "LEAFLET_LEGGINGS",
+   "LEAFLET_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "leather",
+  "key": "LEATHER",
+  "name": "Leather",
+  "category": "VANILLA",
+  "rarity": "COMMON",
+  "pieces": [
+   "LEATHER_HELMET",
+   "LEATHER_CHESTPLATE",
+   "LEATHER_LEGGINGS",
+   "LEATHER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "magma_cube_head",
+  "key": "MAGMA_CUBE_HEAD",
+  "name": "Magma Cube Head",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "MAGMA_CUBE_HEAD"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "magma_fish_hat",
+  "key": "MAGMA_FISH_HAT",
+  "name": "Magmafish Hat",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "MAGMA_FISH_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "magma_lord",
+  "key": "MAGMA_LORD",
+  "name": "Magma Lord",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "MAGMA_LORD_HELMET",
+   "MAGMA_LORD_CHESTPLATE",
+   "MAGMA_LORD_LEGGINGS",
+   "MAGMA_LORD_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Fireproof",
+    "lines": [
+     "&7With &a2+ &7pieces you are immune to the",
+     "&7lava of the &cCrimson Isle&7.",
+     "&8The Magma Lord Necklace counts as a piece."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Lord's Blessing",
+    "lines": [
+     "&7With all &a5 &7pieces (the set and the",
+     "&7Magma Lord Necklace): &3+1 α Sea Creature",
+     "&3Chance&7, &b+20 ✯ Magic Find &7vs magmatic",
+     "&7creatures, which deal &a15% &7less damage",
+     "&7to you and take &c1.3x &7damage."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "melon",
+  "key": "MELON",
+  "name": "Tater",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "MELON_HELMET",
+   "MELON_CHESTPLATE",
+   "MELON_LEGGINGS",
+   "MELON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Cropier Crops",
+    "lines": [
+     "&7Harvesting &eWheat&7, &eCarrots &7and &ePotatoes",
+     "&7has a &a0.03% &7chance to drop a &aCropling&7.",
+     "&7Grants up to &6+30 ☘ Farming Fortune&7."
+    ]
+   },
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "pumpkin"
+  ],
+  "upgradeInto": [
+   "cropie"
+  ]
+ },
+ {
+  "id": "mercenary",
+  "key": "MERCENARY",
+  "name": "Mercenary",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "MERCENARY_HELMET",
+   "MERCENARY_CHESTPLATE",
+   "MERCENARY_LEGGINGS",
+   "MERCENARY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Death Tax",
+    "lines": [
+     "&7Each kill of a &aLevel 10+ &7enemy pays",
+     "&6+5 coins &7and heals you for &c20 ❤&7."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "MERCENARY_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 35000.0,
+    "items": []
+   },
+   {
+    "piece": "MERCENARY_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 70000.0,
+    "items": []
+   },
+   {
+    "piece": "MERCENARY_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 45000.0,
+    "items": []
+   },
+   {
+    "piece": "MERCENARY_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 30000.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "mineral",
+  "key": "MINERAL",
+  "name": "Mineral",
+  "category": "MINING",
+  "rarity": "EPIC",
+  "pieces": [
+   "MINERAL_HELMET",
+   "MINERAL_CHESTPLATE",
+   "MINERAL_LEGGINGS",
+   "MINERAL_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Mineralworks",
+    "lines": [
+     "&7Grants &e+5 ▚ Mining Spread &7on ores and",
+     "&7blocks for each piece worn."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "hardened_diamond"
+  ],
+  "upgradeInto": [
+   "glossy_mineral"
+  ]
+ },
+ {
+  "id": "miner_outfit",
+  "key": "MINER_OUTFIT",
+  "name": "Prospecting Outfit",
+  "category": "MINING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "MINER_OUTFIT_HELMET",
+   "MINER_OUTFIT_CHESTPLATE",
+   "MINER_OUTFIT_LEGGINGS",
+   "MINER_OUTFIT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Beginner's Boost",
+    "lines": [
+     "&7Grants &6+40 ⸕ Mining Speed&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "minos_hunter",
+  "key": "MINOS_HUNTER",
+  "name": "Labyrinth Hunter",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "MINOS_HUNTER_HELMET",
+   "MINOS_HUNTER_CHESTPLATE",
+   "MINOS_HUNTER_LEGGINGS",
+   "MINOS_HUNTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Mythos' Might",
+    "lines": [
+     "&7Doubles this piece's stats in the &bHub",
+     "&7while the &6Mythic Ritual &7is running."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mithril_coat",
+  "key": "MITHRIL_COAT",
+  "name": "Mithril Coat",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "MITHRIL_COAT"
+  ],
+  "isSet": false,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Mithril's Protection",
+    "lines": [
+     "&7No single hit can take more than &c40%",
+     "&7of your max health. Briefly regenerate",
+     "&7when this saves you."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mushroom",
+  "key": "MUSHROOM",
+  "name": "Mushroom",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "MUSHROOM_HELMET",
+   "MUSHROOM_CHESTPLATE",
+   "MUSHROOM_LEGGINGS",
+   "MUSHROOM_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Night Affinity",
+    "lines": [
+     "&7Grants permanent &bNight Vision &7while",
+     "&7the whole set is worn."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "music_pants",
+  "key": "MUSIC_PANTS",
+  "name": "Stereo Pants",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "MUSIC_PANTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "mythos",
+  "key": "MYTHOS",
+  "name": "Mythos",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "MYTHOS_HELMET",
+   "MYTHOS_CHESTPLATE",
+   "MYTHOS_LEGGINGS",
+   "MYTHOS_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Mythos' Might",
+    "lines": [
+     "&7Doubles this piece's stats in the &bHub",
+     "&7while the &6Mythic Ritual &7is running."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Unearthed",
+    "lines": [
+     "&7Take &a5% &7less damage from mythic",
+     "&7creatures for each piece worn."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Familiarity",
+    "lines": [
+     "&7Gain &b+2.5 &b✯ Magic Find &7per piece",
+     "&7against mythic creatures."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "challenger"
+  ]
+ },
+ {
+  "id": "netherite",
+  "key": "NETHERITE",
+  "name": "Netherite Helmet",
+  "category": "VANILLA",
+  "rarity": "EPIC",
+  "pieces": [
+   "NETHERITE_HELMET"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "nutcracker",
+  "key": "NUTCRACKER",
+  "name": "Nutcracker",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "NUTCRACKER_HELMET",
+   "NUTCRACKER_CHESTPLATE",
+   "NUTCRACKER_LEGGINGS",
+   "NUTCRACKER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Winter Cheer",
+    "lines": [
+     "&7Every stat on this piece is &adoubled &7in",
+     "&bthe Winter Workshop&7."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Battalion",
+    "lines": [
+     "&7You and every player within &a30 &7blocks",
+     "&7gain &b+1 ✯ Magic Find &7and &a+50 ❈ Defense",
+     "&7per nearby wearer &8(stacks up to 5)&7."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "snow_suit"
+  ]
+ },
+ {
+  "id": "obsidian",
+  "key": "OBSIDIAN",
+  "name": "Obsidian Chestplate",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "OBSIDIAN_CHESTPLATE"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "old_dragon",
+  "key": "OLD_DRAGON",
+  "name": "Old Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "OLD_DRAGON_HELMET",
+   "OLD_DRAGON_CHESTPLATE",
+   "OLD_DRAGON_LEGGINGS",
+   "OLD_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Old Blood",
+    "lines": [
+     "&7The &aGrowth&7, &aProtection&7, &aFeather Falling&7,",
+     "&aSugar Rush &7and &aTrue Protection &7enchants",
+     "&7on this set grant &a50% &7more of their stats."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "party",
+  "key": "PARTY",
+  "name": "Party Top Hat",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "PARTY_HAT"
+  ],
+  "isSet": false,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Carnival Craze",
+    "lines": [
+     "&7Earn &a+4% &7more carnival tokens."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "perfect_1",
+  "key": "PERFECT_1",
+  "name": "Perfect Armor - Tier I",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "PERFECT_HELMET_1",
+   "PERFECT_CHESTPLATE_1",
+   "PERFECT_LEGGINGS_1",
+   "PERFECT_BOOTS_1"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeInto": [
+   "perfect_2"
+  ]
+ },
+ {
+  "id": "perfect_10",
+  "key": "PERFECT_10",
+  "name": "Perfect Armor - Tier X",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_10",
+   "PERFECT_CHESTPLATE_10",
+   "PERFECT_LEGGINGS_10",
+   "PERFECT_BOOTS_10"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_9"
+  ],
+  "upgradeInto": [
+   "perfect_11"
+  ]
+ },
+ {
+  "id": "perfect_11",
+  "key": "PERFECT_11",
+  "name": "Perfect Armor - Tier XI",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_11",
+   "PERFECT_CHESTPLATE_11",
+   "PERFECT_LEGGINGS_11",
+   "PERFECT_BOOTS_11"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_10"
+  ],
+  "upgradeInto": [
+   "perfect_12"
+  ]
+ },
+ {
+  "id": "perfect_12",
+  "key": "PERFECT_12",
+  "name": "Perfect Armor - Tier XII",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_12",
+   "PERFECT_CHESTPLATE_12",
+   "PERFECT_LEGGINGS_12",
+   "PERFECT_BOOTS_12"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_11"
+  ]
+ },
+ {
+  "id": "perfect_13",
+  "key": "PERFECT_13",
+  "name": "Perfect Armor - Tier XIII",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_13",
+   "PERFECT_CHESTPLATE_13",
+   "PERFECT_LEGGINGS_13",
+   "PERFECT_BOOTS_13"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "perfect_2",
+  "key": "PERFECT_2",
+  "name": "Perfect Armor - Tier II",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "PERFECT_HELMET_2",
+   "PERFECT_CHESTPLATE_2",
+   "PERFECT_LEGGINGS_2",
+   "PERFECT_BOOTS_2"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_1"
+  ],
+  "upgradeInto": [
+   "perfect_3"
+  ]
+ },
+ {
+  "id": "perfect_3",
+  "key": "PERFECT_3",
+  "name": "Perfect Armor - Tier III",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "PERFECT_HELMET_3",
+   "PERFECT_CHESTPLATE_3",
+   "PERFECT_LEGGINGS_3",
+   "PERFECT_BOOTS_3"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_2"
+  ],
+  "upgradeInto": [
+   "perfect_4"
+  ]
+ },
+ {
+  "id": "perfect_4",
+  "key": "PERFECT_4",
+  "name": "Perfect Armor - Tier IV",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "PERFECT_HELMET_4",
+   "PERFECT_CHESTPLATE_4",
+   "PERFECT_LEGGINGS_4",
+   "PERFECT_BOOTS_4"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_3"
+  ],
+  "upgradeInto": [
+   "perfect_5"
+  ]
+ },
+ {
+  "id": "perfect_5",
+  "key": "PERFECT_5",
+  "name": "Perfect Armor - Tier V",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "PERFECT_HELMET_5",
+   "PERFECT_CHESTPLATE_5",
+   "PERFECT_LEGGINGS_5",
+   "PERFECT_BOOTS_5"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_4"
+  ],
+  "upgradeInto": [
+   "perfect_6"
+  ]
+ },
+ {
+  "id": "perfect_6",
+  "key": "PERFECT_6",
+  "name": "Perfect Armor - Tier VI",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "PERFECT_HELMET_6",
+   "PERFECT_CHESTPLATE_6",
+   "PERFECT_LEGGINGS_6",
+   "PERFECT_BOOTS_6"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_5"
+  ],
+  "upgradeInto": [
+   "perfect_7"
+  ]
+ },
+ {
+  "id": "perfect_7",
+  "key": "PERFECT_7",
+  "name": "Perfect Armor - Tier VII",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "PERFECT_HELMET_7",
+   "PERFECT_CHESTPLATE_7",
+   "PERFECT_LEGGINGS_7",
+   "PERFECT_BOOTS_7"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_6"
+  ],
+  "upgradeInto": [
+   "perfect_8"
+  ]
+ },
+ {
+  "id": "perfect_8",
+  "key": "PERFECT_8",
+  "name": "Perfect Armor - Tier VIII",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_8",
+   "PERFECT_CHESTPLATE_8",
+   "PERFECT_LEGGINGS_8",
+   "PERFECT_BOOTS_8"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_7"
+  ],
+  "upgradeInto": [
+   "perfect_9"
+  ]
+ },
+ {
+  "id": "perfect_9",
+  "key": "PERFECT_9",
+  "name": "Perfect Armor - Tier IX",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PERFECT_HELMET_9",
+   "PERFECT_CHESTPLATE_9",
+   "PERFECT_LEGGINGS_9",
+   "PERFECT_BOOTS_9"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "perfect_8"
+  ],
+  "upgradeInto": [
+   "perfect_10"
+  ]
+ },
+ {
+  "id": "pig_mask",
+  "key": "PIG_MASK",
+  "name": "Pig Mask",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PIG_MASK"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "potato_crown",
+  "key": "POTATO_CROWN",
+  "name": "Potato Crown",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "POTATO_CROWN"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "protector_dragon",
+  "key": "PROTECTOR_DRAGON",
+  "name": "Protector Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "PROTECTOR_DRAGON_HELMET",
+   "PROTECTOR_DRAGON_CHESTPLATE",
+   "PROTECTOR_DRAGON_LEGGINGS",
+   "PROTECTOR_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Protective Blood",
+    "lines": [
+     "&7Each piece gains &a+1% &a❈ Defense",
+     "&7for every &a1% &7of health you are missing."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pufferfish_hat",
+  "key": "PUFFERFISH_HAT",
+  "name": "Pufferfish Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "PUFFERFISH_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "pufferfish_hat_celebration",
+  "key": "PUFFERFISH_HAT_CELEBRATION",
+  "name": "Pufferfish Hat",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "PUFFERFISH_HAT_CELEBRATION"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "pumpkin",
+  "key": "PUMPKIN",
+  "name": "Sprout",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "PUMPKIN_HELMET",
+   "PUMPKIN_CHESTPLATE",
+   "PUMPKIN_LEGGINGS",
+   "PUMPKIN_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "upgradeFrom": [
+   "farm_armor"
+  ],
+  "upgradeInto": [
+   "melon"
+  ]
+ },
+ {
+  "id": "rabbit",
+  "key": "RABBIT",
+  "name": "Rabbit",
+  "category": "FARMING",
+  "rarity": "COMMON",
+  "pieces": [
+   "RABBIT_HELMET",
+   "RABBIT_CHESTPLATE",
+   "RABBIT_LEGGINGS",
+   "RABBIT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Springsneak &e&lSNEAK",
+    "lines": [
+     "&7Hold sneak to gain &aJump Boost II&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rabbit_hat",
+  "key": "RABBIT_HAT",
+  "name": "Rabbit Hat",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "RABBIT_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "racing",
+  "key": "RACING",
+  "name": "Racing Helmet",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "RACING_HELMET"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "rampart",
+  "key": "RAMPART",
+  "name": "Rampart",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "RAMPART_HELMET",
+   "RAMPART_CHESTPLATE",
+   "RAMPART_LEGGINGS",
+   "RAMPART_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Bulwark of the Isle",
+    "lines": [
+     "&7On the &cCrimson Isle&7: &c+50 ❤ Health&7,",
+     "&c+20 ❁ Strength &7and &9+15 ☠ Crit Damage&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ranchers",
+  "key": "RANCHERS",
+  "name": "Rancher's Boots",
+  "category": "FARMING",
+  "rarity": "EPIC",
+  "pieces": [
+   "RANCHERS_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "farmer"
+  ]
+ },
+ {
+  "id": "red_sweater",
+  "key": "RED_SWEATER",
+  "name": "Red Sweater",
+  "category": "FISHING",
+  "rarity": "RARE",
+  "pieces": [
+   "RED_SWEATER"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "rekindled_ember",
+  "key": "REKINDLED_EMBER",
+  "name": "Rekindled Ember",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "REKINDLED_EMBER_HELMET",
+   "REKINDLED_EMBER_CHESTPLATE",
+   "REKINDLED_EMBER_LEGGINGS",
+   "REKINDLED_EMBER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Rekindle",
+    "lines": [
+     "&7Deal &c+50% &7damage per piece to",
+     "&7enemies that are &6on fire&7, plus &c+1.2%",
+     "&7for every second &oyou&7 have been",
+     "&7burning &8(max +50%)&7.",
+     "&7With &a2+ &7pieces, burning monsters set",
+     "&7you alight with their blows."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rosetta",
+  "key": "ROSETTA",
+  "name": "Ironmonger's",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "ROSETTA_HELMET",
+   "ROSETTA_CHESTPLATE",
+   "ROSETTA_LEGGINGS",
+   "ROSETTA_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "ROSETTA_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 1050.0,
+    "items": []
+   },
+   {
+    "piece": "ROSETTA_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 1320.0,
+    "items": []
+   },
+   {
+    "piece": "ROSETTA_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 1200.0,
+    "items": []
+   },
+   {
+    "piece": "ROSETTA_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 960.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "rotten",
+  "key": "ROTTEN",
+  "name": "Rotten",
+  "category": "DUNGEONEERING",
+  "rarity": "RARE",
+  "pieces": [
+   "ROTTEN_HELMET",
+   "ROTTEN_CHESTPLATE",
+   "ROTTEN_LEGGINGS",
+   "ROTTEN_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Sieve Body",
+    "lines": [
+     "&7Arrows knock you back &a20% &7less."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "salmon",
+  "key": "SALMON",
+  "name": "Salmon (Old)",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "SALMON_HELMET",
+   "SALMON_CHESTPLATE",
+   "SALMON_LEGGINGS",
+   "SALMON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Water Burst &e&lSNEAK",
+    "lines": [
+     "&7With the full set, sneak in water to",
+     "&7surge forward. &8Costs 20 mana."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "salmon_new",
+  "key": "SALMON_NEW",
+  "name": "Salmon",
+  "category": "FISHING",
+  "rarity": "RARE",
+  "pieces": [
+   "SALMON_HELMET_NEW",
+   "SALMON_CHESTPLATE_NEW",
+   "SALMON_LEGGINGS_NEW",
+   "SALMON_BOOTS_NEW"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Water Burst &e&lSNEAK",
+    "lines": [
+     "&7With the full set, sneak in water to",
+     "&7surge forward. &8Costs 20 mana."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "salmon_hat",
+  "key": "SALMON_HAT",
+  "name": "Salmon Hat",
+  "category": "FISHING",
+  "rarity": "COMMON",
+  "pieces": [
+   "SALMON_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "salmon_hat_celebration",
+  "key": "SALMON_HAT_CELEBRATION",
+  "name": "Salmon Hat",
+  "category": "MISC",
+  "rarity": "COMMON",
+  "pieces": [
+   "SALMON_HAT_CELEBRATION"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "sea_archer",
+  "key": "SEA_ARCHER",
+  "name": "Sea Archer Helmet",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SEA_ARCHER_HELMET"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "sea_lantern_hat",
+  "key": "SEA_LANTERN_HAT",
+  "name": "Sea Lantern Hat",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SEA_LANTERN_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "sea_walker",
+  "key": "SEA_WALKER",
+  "name": "Sea Walker",
+  "category": "MISC",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SEA_WALKER_HELMET",
+   "SEA_WALKER_CHESTPLATE",
+   "SEA_WALKER_LEGGINGS",
+   "SEA_WALKER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "shark_scale",
+  "key": "SHARK_SCALE",
+  "name": "Shark Scale",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "SHARK_SCALE_HELMET",
+   "SHARK_SCALE_CHESTPLATE",
+   "SHARK_SCALE_LEGGINGS",
+   "SHARK_SCALE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Absorb",
+    "lines": [
+     "&7Your &a❈ Defense &7is &adoubled &7while you",
+     "&7are in water."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Festival Fisher",
+    "lines": [
+     "&7Gain &3+1 α Sea Creature Chance &7per",
+     "&7piece during the Fishing Festival, so",
+     "&7more &bSharks &7bite."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "sponge"
+  ]
+ },
+ {
+  "id": "shimmering_light",
+  "key": "SHIMMERING_LIGHT",
+  "name": "Shimmering Light",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "SHIMMERING_LIGHT_HOOD",
+   "SHIMMERING_LIGHT_TUNIC",
+   "SHIMMERING_LIGHT_TROUSERS",
+   "SHIMMERING_LIGHT_SLIPPERS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Shimmer",
+    "lines": [
+     "&7Experience orbs from monsters and",
+     "&7ores are worth &a+50% &7more per piece",
+     "&8(+200% with the full set)&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "silver_hunter",
+  "key": "SILVER_HUNTER",
+  "name": "Silver Hunter",
+  "category": "FISHING",
+  "rarity": "RARE",
+  "pieces": [
+   "SILVER_HUNTER_HELMET",
+   "SILVER_HUNTER_CHESTPLATE",
+   "SILVER_HUNTER_LEGGINGS",
+   "SILVER_HUNTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Peace Treaty",
+    "lines": [
+     "&7With &a2+ &7pieces sea creatures cannot",
+     "&7hurt you and you cannot hurt them, and",
+     "&7you no longer fish them up."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Star Fisher",
+    "lines": [
+     "&7Gain &b+0.4 ☂ Fishing Speed &7for every",
+     "&6✪ &7upgrade star on your armor."
+    ]
+   },
+   {
+    "kind": "TIERED",
+    "name": "Angler's Favor",
+    "lines": [
+     "&7Gain &6+1 ♔ Trophy Fish Chance &7per",
+     "&7piece worn."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "SILVER_HUNTER_HELMET",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "SILVER_HUNTER_CHESTPLATE",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "SILVER_HUNTER_LEGGINGS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   },
+   {
+    "piece": "SILVER_HUNTER_BOOTS",
+    "shop": "trophy_keeper",
+    "npc": "&fTrophy Keeper Ogden",
+    "island": "crimson_isle",
+    "coins": 500000.0,
+    "items": [],
+    "where": "the lava fishing hut"
+   }
+  ]
+ },
+ {
+  "id": "skeleton_grunt",
+  "key": "SKELETON_GRUNT",
+  "name": "Skeleton Grunt",
+  "category": "DUNGEONEERING",
+  "rarity": "EPIC",
+  "pieces": [
+   "SKELETON_GRUNT_HELMET",
+   "SKELETON_GRUNT_CHESTPLATE",
+   "SKELETON_GRUNT_LEGGINGS",
+   "SKELETON_GRUNT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Marksman",
+    "lines": [
+     "&7Your arrows deal &c+5% &7damage."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "skeleton_hat",
+  "key": "SKELETON_HAT",
+  "name": "Skeleton Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "SKELETON_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "slime_hat",
+  "key": "SLIME_HAT",
+  "name": "Slime Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "SLIME_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "snorkeling",
+  "key": "SNORKELING",
+  "name": "Snorkeling",
+  "category": "FISHING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SNORKELING_HELMET",
+   "SNORKELING_CHESTPLATE",
+   "SNORKELING_LEGGINGS",
+   "SNORKELING_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Long Tuba",
+    "lines": [
+     "&7Hold your breath &a15s &7longer",
+     "&7underwater for each piece worn."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "diver"
+  ]
+ },
+ {
+  "id": "snow_suit",
+  "key": "SNOW_SUIT",
+  "name": "Snow Suit",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "SNOW_SUIT_HELMET",
+   "SNOW_SUIT_CHESTPLATE",
+   "SNOW_SUIT_LEGGINGS",
+   "SNOW_SUIT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "PIECE",
+    "name": "Winter Cheer",
+    "lines": [
+     "&7Every stat on this piece is &adoubled &7in",
+     "&bthe Winter Workshop&7."
+    ]
+   },
+   {
+    "kind": "FULL",
+    "name": "Cold Thumb",
+    "lines": [
+     "&7Your snow cannon never runs out of",
+     "&7snowballs."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "nutcracker"
+  ]
+ },
+ {
+  "id": "sorrow",
+  "key": "SORROW",
+  "name": "Sorrow",
+  "category": "MINING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "SORROW_HELMET",
+   "SORROW_CHESTPLATE",
+   "SORROW_LEGGINGS",
+   "SORROW_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Mist Aura",
+    "lines": [
+     "&7With &a2+ &7pieces, damage from ghosts",
+     "&7is reduced by &a40%&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "speedster",
+  "key": "SPEEDSTER",
+  "name": "Speedster",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SPEEDSTER_HELMET",
+   "SPEEDSTER_CHESTPLATE",
+   "SPEEDSTER_LEGGINGS",
+   "SPEEDSTER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Bonus Speed",
+    "lines": [
+     "&7Grants &a+20 &f✦ Speed&7."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "thermodynamic"
+  ]
+ },
+ {
+  "id": "spider_hat",
+  "key": "SPIDER_HAT",
+  "name": "Spider Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "SPIDER_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "sponge",
+  "key": "SPONGE",
+  "name": "Sponge",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "SPONGE_HELMET",
+   "SPONGE_CHESTPLATE",
+   "SPONGE_LEGGINGS",
+   "SPONGE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Absorb",
+    "lines": [
+     "&7Your &a❈ Defense &7is &adoubled &7while you",
+     "&7are in water."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "shark_scale"
+  ]
+ },
+ {
+  "id": "spooky",
+  "key": "SPOOKY",
+  "name": "Spooky",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "SPOOKY_HELMET",
+   "SPOOKY_CHESTPLATE",
+   "SPOOKY_LEGGINGS",
+   "SPOOKY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Candy Man",
+    "lines": [
+     "&7Raises your chance to find rare",
+     "&dCandy &7by &a+5%&7."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "bat_person"
+  ]
+ },
+ {
+  "id": "spring",
+  "key": "SPRING",
+  "name": "Spring Boots",
+  "category": "MISC",
+  "rarity": "RARE",
+  "pieces": [
+   "SPRING_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "squash",
+  "key": "SQUASH",
+  "name": "Squash",
+  "category": "FARMING",
+  "rarity": "RARE",
+  "pieces": [
+   "SQUASH_HELMET",
+   "SQUASH_CHESTPLATE",
+   "SQUASH_LEGGINGS",
+   "SQUASH_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Mento Fermenta",
+    "lines": [
+     "&7Harvesting &eCane&7, &eCactus&7, &eMushrooms &7and",
+     "&eNether Wart &7has a &a0.005% &7chance to",
+     "&7drop a &5Fermenta&7.",
+     "&7Grants up to &6+60 ☘ Farming Fortune&7."
+    ]
+   },
+   {
+    "kind": "ABILITY",
+    "name": "Farmer's Grace",
+    "lines": [
+     "&7You never trample crops."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "cropie"
+  ],
+  "upgradeInto": [
+   "fermento"
+  ]
+ },
+ {
+  "id": "squid",
+  "key": "SQUID",
+  "name": "Squid Boots",
+  "category": "FISHING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SQUID_BOOTS"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "squid_hat",
+  "key": "SQUID_HAT",
+  "name": "Squid Hat",
+  "category": "FISHING",
+  "rarity": "COMMON",
+  "pieces": [
+   "SQUID_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "squire",
+  "key": "SQUIRE",
+  "name": "Squire",
+  "category": "COMBAT",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SQUIRE_HELMET",
+   "SQUIRE_CHESTPLATE",
+   "SQUIRE_LEGGINGS",
+   "SQUIRE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [],
+  "shops": [
+   {
+    "piece": "SQUIRE_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 5000.0,
+    "items": []
+   },
+   {
+    "piece": "SQUIRE_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 8000.0,
+    "items": []
+   },
+   {
+    "piece": "SQUIRE_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 7000.0,
+    "items": []
+   },
+   {
+    "piece": "SQUIRE_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 4000.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "starlight",
+  "key": "STARLIGHT",
+  "name": "Starlight",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "STARLIGHT_HELMET",
+   "STARLIGHT_CHESTPLATE",
+   "STARLIGHT_LEGGINGS",
+   "STARLIGHT_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Starpower",
+    "lines": [
+     "&7Your falling-star wand spell lasts",
+     "&7twice as long and reaches &a+1 &7block",
+     "&7further."
+    ]
+   }
+  ],
+  "shops": [
+   {
+    "piece": "STARLIGHT_HELMET",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 35000.0,
+    "items": []
+   },
+   {
+    "piece": "STARLIGHT_CHESTPLATE",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 70000.0,
+    "items": []
+   },
+   {
+    "piece": "STARLIGHT_LEGGINGS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 45000.0,
+    "items": []
+   },
+   {
+    "piece": "STARLIGHT_BOOTS",
+    "shop": "armorsmith",
+    "npc": "&fArmorsmith Brenna",
+    "island": "hub",
+    "coins": 30000.0,
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "strong_dragon",
+  "key": "STRONG_DRAGON",
+  "name": "Strong Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "STRONG_DRAGON_HELMET",
+   "STRONG_DRAGON_CHESTPLATE",
+   "STRONG_DRAGON_LEGGINGS",
+   "STRONG_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Strong Blood",
+    "lines": [
+     "&7Your &5teleporting blade &7deals &c+75",
+     "&7extra base damage and teleports &a+2",
+     "&7blocks further, and each teleport",
+     "&7grants &c+5 &c❁ Strength &7for &a5s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sunflower_head",
+  "key": "SUNFLOWER_HEAD",
+  "name": "Sunflower Head",
+  "category": "FARMING",
+  "rarity": "UNCOMMON",
+  "pieces": [
+   "SUNFLOWER_HEAD"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "superior_dragon",
+  "key": "SUPERIOR_DRAGON",
+  "name": "Superior Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "SUPERIOR_DRAGON_HELMET",
+   "SUPERIOR_DRAGON_CHESTPLATE",
+   "SUPERIOR_DRAGON_LEGGINGS",
+   "SUPERIOR_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Superior Blood",
+    "lines": [
+     "&7All of your combat stats and &b✯ Magic Find",
+     "&7are raised by &a5%&7, and the dragon-breath",
+     "&7ability of your blade deals &c+50% &7damage."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "super_heavy",
+  "key": "SUPER_HEAVY",
+  "name": "Super Heavy",
+  "category": "DUNGEONEERING",
+  "rarity": "EPIC",
+  "pieces": [
+   "SUPER_HEAVY_HELMET",
+   "SUPER_HEAVY_CHESTPLATE",
+   "SUPER_HEAVY_LEGGINGS",
+   "SUPER_HEAVY_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Vindicate",
+    "lines": [
+     "&7Gain &f+1 ✦ Speed &7for every &a50 ❈",
+     "&aDefense &7you have."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tank_miner",
+  "key": "TANK_MINER",
+  "name": "Miner",
+  "category": "MINING",
+  "rarity": "RARE",
+  "pieces": [
+   "TANK_MINER_HELMET",
+   "TANK_MINER_CHESTPLATE",
+   "TANK_MINER_LEGGINGS",
+   "TANK_MINER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "ABILITY",
+    "name": "Depth Coating",
+    "lines": [
+     "&7Doubles this piece's &a❈ Defense &7on",
+     "&7mining islands."
+    ]
+   }
+  ],
+  "upgradeInto": [
+   "heat"
+  ]
+ },
+ {
+  "id": "thermodynamic",
+  "key": "THERMODYNAMIC",
+  "name": "Thermodynamic",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "THERMODYNAMIC_HELMET",
+   "THERMODYNAMIC_CHESTPLATE",
+   "THERMODYNAMIC_LEGGINGS",
+   "THERMODYNAMIC_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Newton's Demise",
+    "lines": [
+     "&7Raises your attack speed limit by &e+50&7."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "speedster"
+  ]
+ },
+ {
+  "id": "thunder",
+  "key": "THUNDER",
+  "name": "Thunder",
+  "category": "FISHING",
+  "rarity": "EPIC",
+  "pieces": [
+   "THUNDER_HELMET",
+   "THUNDER_CHESTPLATE",
+   "THUNDER_LEGGINGS",
+   "THUNDER_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "TIERED",
+    "name": "Static Charge",
+    "lines": [
+     "&7Store &e1 &7static charge every &a30s &8(max 2)&7.",
+     "&7Your next hit discharges them for &c+15%",
+     "&7damage per charge.",
+     "&7Magmatic creatures deal &a10% &7less damage",
+     "&7to you and take &c1.2x &7damage."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tiki_mask",
+  "key": "TIKI_MASK",
+  "name": "Tiki Mask",
+  "category": "FISHING",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "TIKI_MASK"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "unstable_dragon",
+  "key": "UNSTABLE_DRAGON",
+  "name": "Unstable Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "UNSTABLE_DRAGON_HELMET",
+   "UNSTABLE_DRAGON_CHESTPLATE",
+   "UNSTABLE_DRAGON_LEGGINGS",
+   "UNSTABLE_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Unstable Blood",
+    "lines": [
+     "&7Every few seconds a bolt of lightning",
+     "&7leaps from you to a nearby enemy,",
+     "&7dealing &c3,000 &7damage."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vampire_mask",
+  "key": "VAMPIRE_MASK",
+  "name": "Vampire Mask",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "VAMPIRE_MASK"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "vampire_witch_mask"
+  ]
+ },
+ {
+  "id": "vampire_witch_mask",
+  "key": "VAMPIRE_WITCH_MASK",
+  "name": "Vampire Witch Mask",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "VAMPIRE_WITCH_MASK"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeFrom": [
+   "vampire_mask",
+   "witch_mask"
+  ]
+ },
+ {
+  "id": "vanguard",
+  "key": "VANGUARD",
+  "name": "Vanguard",
+  "category": "MISC",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "VANGUARD_HELMET",
+   "VANGUARD_CHESTPLATE",
+   "VANGUARD_LEGGINGS",
+   "VANGUARD_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": []
+ },
+ {
+  "id": "watcher_eye",
+  "key": "WATCHER_EYE",
+  "name": "Watcher Eye",
+  "category": "MISC",
+  "rarity": "EPIC",
+  "pieces": [
+   "WATCHER_EYE"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "werewolf",
+  "key": "WEREWOLF",
+  "name": "Werewolf",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "WEREWOLF_HELMET",
+   "WEREWOLF_CHESTPLATE",
+   "WEREWOLF_LEGGINGS",
+   "WEREWOLF_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Regenerative Howl",
+    "lines": [
+     "&7Whenever &c⫽ Ferocity &7triggers, gain",
+     "&a+50 &a❈ Defense &7for &a5s &8(stacks up to 10)&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wise_dragon",
+  "key": "WISE_DRAGON",
+  "name": "Wise Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "WISE_DRAGON_HELMET",
+   "WISE_DRAGON_CHESTPLATE",
+   "WISE_DRAGON_LEGGINGS",
+   "WISE_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Wise Blood",
+    "lines": [
+     "&7Every ability costs only &b2/3 &7of its",
+     "&7usual mana."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "witch_mask",
+  "key": "WITCH_MASK",
+  "name": "Witch Mask",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "WITCH_MASK"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "vampire_witch_mask"
+  ]
+ },
+ {
+  "id": "young_dragon",
+  "key": "YOUNG_DRAGON",
+  "name": "Young Dragon",
+  "category": "COMBAT",
+  "rarity": "LEGENDARY",
+  "pieces": [
+   "YOUNG_DRAGON_HELMET",
+   "YOUNG_DRAGON_CHESTPLATE",
+   "YOUNG_DRAGON_LEGGINGS",
+   "YOUNG_DRAGON_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Young Blood",
+    "lines": [
+     "&7While you stand above &a50% &7of your",
+     "&7max &c❤ Health&7, gain &a+70 &f✦ Speed&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zombie",
+  "key": "ZOMBIE",
+  "name": "Zombie",
+  "category": "COMBAT",
+  "rarity": "EPIC",
+  "pieces": [
+   "ZOMBIE_CHESTPLATE",
+   "ZOMBIE_LEGGINGS",
+   "ZOMBIE_BOOTS"
+  ],
+  "isSet": true,
+  "bonuses": [
+   {
+    "kind": "FULL",
+    "name": "Projectile Absorption",
+    "lines": [
+     "&7When a projectile hits you, heal &c10 ❤",
+     "&7every second for &a5s&7."
+    ]
+   }
+  ],
+  "upgradeFrom": [
+   "zombie_heart"
+  ]
+ },
+ {
+  "id": "zombie_hat",
+  "key": "ZOMBIE_HAT",
+  "name": "Zombie Hat",
+  "category": "COMBAT",
+  "rarity": "COMMON",
+  "pieces": [
+   "ZOMBIE_HAT"
+  ],
+  "isSet": false,
+  "bonuses": []
+ },
+ {
+  "id": "zombie_heart",
+  "key": "ZOMBIE_HEART",
+  "name": "Zombie's Heart",
+  "category": "COMBAT",
+  "rarity": "RARE",
+  "pieces": [
+   "ZOMBIE_HEART"
+  ],
+  "isSet": false,
+  "bonuses": [],
+  "upgradeInto": [
+   "zombie"
+  ]
+ }
+]

@@ -1,0 +1,669 @@
+{
+ "commissions": [
+  {
+   "id": "mithril_miner",
+   "island": "dwarven_mines",
+   "name": "Mithril Miner",
+   "kind": "MINE",
+   "amount": 350,
+   "match": [
+    "mithril_gray",
+    "mithril_prismarine",
+    "mithril_blue"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "titanium_miner",
+   "island": "dwarven_mines",
+   "name": "Titanium Miner",
+   "kind": "MINE",
+   "amount": 15,
+   "match": [
+    "titanium"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "goblin_slayer",
+   "island": "dwarven_mines",
+   "name": "Goblin Slayer",
+   "kind": "KILL",
+   "amount": 100,
+   "match": [
+    "goblin"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "glacite_walker_slayer",
+   "island": "dwarven_mines",
+   "name": "Rimestone Walker Slayer",
+   "kind": "KILL",
+   "amount": 50,
+   "match": [
+    "ice_walker",
+    "glacite_walker"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "treasure_hoarder_puncher",
+   "island": "dwarven_mines",
+   "name": "Treasure Hoarder Puncher",
+   "kind": "HIT",
+   "amount": 10,
+   "match": [
+    "treasure_hoarder"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "star_sentry_puncher",
+   "island": "dwarven_mines",
+   "name": "Star Sentry Puncher",
+   "kind": "HIT",
+   "amount": 10,
+   "match": [
+    "star_sentry"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": "fallen_star"
+  },
+  {
+   "id": "goblin_raid",
+   "island": "dwarven_mines",
+   "name": "Goblin Raid",
+   "kind": "EVENT",
+   "amount": 1,
+   "match": [
+    "goblin_raid"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": "goblin_raid"
+  },
+  {
+   "id": "goblin_raid_slayer",
+   "island": "dwarven_mines",
+   "name": "Goblin Raid Slayer",
+   "kind": "KILL",
+   "amount": 20,
+   "match": [
+    "mining_raid"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": "goblin_raid"
+  },
+  {
+   "id": "elusive_goblin",
+   "island": "dwarven_mines",
+   "name": "Elusive Goblin Slayer",
+   "kind": "KILL",
+   "amount": 1,
+   "match": [
+    "golden_goblin",
+    "diamond_goblin"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "raffle",
+   "island": "dwarven_mines",
+   "name": "Raffle",
+   "kind": "EVENT",
+   "amount": 1,
+   "match": [
+    "raffle"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": "raffle"
+  },
+  {
+   "id": "lucky_raffle",
+   "island": "dwarven_mines",
+   "name": "Lucky Raffle",
+   "kind": "RAFFLE",
+   "amount": 20,
+   "match": [],
+   "zone": null,
+   "tier": 2,
+   "event": "raffle"
+  },
+  {
+   "id": "powder_collector",
+   "island": "dwarven_mines",
+   "name": "2x Mithril Powder Collector",
+   "kind": "POWDER",
+   "amount": 500,
+   "match": [
+    "MITHRIL"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": "double_powder"
+  },
+  {
+   "id": "mines_slayer",
+   "island": "dwarven_mines",
+   "name": "Mines Slayer",
+   "kind": "KILL",
+   "amount": 50,
+   "match": [
+    "*"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "ruby_collector",
+   "island": "crystal_hollows",
+   "name": "Ruby Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_RUBY_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "amber_collector",
+   "island": "crystal_hollows",
+   "name": "Amber Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_AMBER_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "sapphire_collector",
+   "island": "crystal_hollows",
+   "name": "Sapphire Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_SAPPHIRE_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "jade_collector",
+   "island": "crystal_hollows",
+   "name": "Jade Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_JADE_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "amethyst_collector",
+   "island": "crystal_hollows",
+   "name": "Amethyst Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_AMETHYST_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "topaz_collector",
+   "island": "crystal_hollows",
+   "name": "Topaz Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1000,
+   "match": [
+    "ROUGH_TOPAZ_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "amethyst_crystal_hunter",
+   "island": "crystal_hollows",
+   "name": "Amethyst Crystal Hunter",
+   "kind": "CRYSTAL",
+   "amount": 1,
+   "match": [
+    "AMETHYST_CRYSTAL"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "jade_crystal_hunter",
+   "island": "crystal_hollows",
+   "name": "Jade Crystal Hunter",
+   "kind": "CRYSTAL",
+   "amount": 1,
+   "match": [
+    "JADE_CRYSTAL"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "amber_crystal_hunter",
+   "island": "crystal_hollows",
+   "name": "Amber Crystal Hunter",
+   "kind": "CRYSTAL",
+   "amount": 1,
+   "match": [
+    "AMBER_CRYSTAL"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "sapphire_crystal_hunter",
+   "island": "crystal_hollows",
+   "name": "Sapphire Crystal Hunter",
+   "kind": "CRYSTAL",
+   "amount": 1,
+   "match": [
+    "SAPPHIRE_CRYSTAL"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "topaz_crystal_hunter",
+   "island": "crystal_hollows",
+   "name": "Topaz Crystal Hunter",
+   "kind": "CRYSTAL",
+   "amount": 1,
+   "match": [
+    "TOPAZ_CRYSTAL"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "hard_stone_miner",
+   "island": "crystal_hollows",
+   "name": "Hard Stone Miner",
+   "kind": "MINE",
+   "amount": 1000,
+   "match": [
+    "hard_stone"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "automaton_slayer",
+   "island": "crystal_hollows",
+   "name": "Automaton Slayer",
+   "kind": "KILL",
+   "amount": 13,
+   "match": [
+    "automaton"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "sludge_slayer",
+   "island": "crystal_hollows",
+   "name": "Sludge Slayer",
+   "kind": "KILL",
+   "amount": 25,
+   "match": [
+    "sludge"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "treasurite_slayer",
+   "island": "crystal_hollows",
+   "name": "Treasure Gang Slayer",
+   "kind": "KILL",
+   "amount": 13,
+   "match": [
+    "treasurite",
+    "treasure_gang"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "goblin_slayer_ch",
+   "island": "crystal_hollows",
+   "name": "Goblin Slayer",
+   "kind": "KILL",
+   "amount": 13,
+   "match": [
+    "goblin"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "yog_slayer",
+   "island": "crystal_hollows",
+   "name": "Cinderling Slayer",
+   "kind": "KILL",
+   "amount": 13,
+   "match": [
+    "yog",
+    "cinderling"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "thyst_slayer",
+   "island": "crystal_hollows",
+   "name": "Amethyst Leech Slayer",
+   "kind": "KILL",
+   "amount": 5,
+   "match": [
+    "thyst"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "chest_looter",
+   "island": "crystal_hollows",
+   "name": "Chest Looter",
+   "kind": "CHEST",
+   "amount": 3,
+   "match": [],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  },
+  {
+   "id": "boss_slayer",
+   "island": "crystal_hollows",
+   "name": "Gang Boss Slayer",
+   "kind": "KILL",
+   "amount": 1,
+   "match": [
+    "corleone",
+    "vitello"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "glacite_collector",
+   "island": "glacite_tunnels",
+   "name": "Rimestone Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "GLACITE"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "umber_collector",
+   "island": "glacite_tunnels",
+   "name": "Umber Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "UMBER"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "tungsten_collector",
+   "island": "glacite_tunnels",
+   "name": "Tungsten Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "TUNGSTEN"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "aquamarine_collector_gt",
+   "island": "glacite_tunnels",
+   "name": "Aquamarine Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "ROUGH_AQUAMARINE_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "onyx_collector_gt",
+   "island": "glacite_tunnels",
+   "name": "Onyx Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "ROUGH_ONYX_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "citrine_collector_gt",
+   "island": "glacite_tunnels",
+   "name": "Citrine Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "ROUGH_CITRINE_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "peridot_collector_gt",
+   "island": "glacite_tunnels",
+   "name": "Peridot Gemstone Collector",
+   "kind": "COLLECT",
+   "amount": 1500,
+   "match": [
+    "ROUGH_PERIDOT_GEM"
+   ],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "mineshaft_explorer",
+   "island": "glacite_tunnels",
+   "name": "Mineshaft Explorer",
+   "kind": "MINESHAFT",
+   "amount": 1,
+   "match": [],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "corpse_looter",
+   "island": "glacite_tunnels",
+   "name": "Corpse Looter",
+   "kind": "CORPSE",
+   "amount": 2,
+   "match": [],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "scrap_collector",
+   "island": "glacite_tunnels",
+   "name": "Scrap Collector",
+   "kind": "SCRAP",
+   "amount": 1,
+   "match": [],
+   "zone": null,
+   "tier": 2,
+   "event": null
+  },
+  {
+   "id": "glacite_slayer",
+   "island": "glacite_tunnels",
+   "name": "Rimestone Mob Slayer",
+   "kind": "KILL",
+   "amount": 10,
+   "match": [
+    "glacite",
+    "ice_walker",
+    "frost"
+   ],
+   "zone": null,
+   "tier": 1,
+   "event": null
+  }
+ ],
+ "rewards": {
+  "dwarven_mines": {
+   "miningXp": [
+    5000,
+    10000
+   ],
+   "hotmXp": [
+    200,
+    400
+   ],
+   "powder": "MITHRIL",
+   "powderAmount": [
+    500,
+    1000
+   ]
+  },
+  "crystal_hollows": {
+   "miningXp": [
+    10000,
+    20000
+   ],
+   "hotmXp": [
+    400,
+    400
+   ],
+   "powder": "GEMSTONE",
+   "powderAmount": [
+    1000,
+    2000
+   ]
+  },
+  "glacite_tunnels": {
+   "miningXp": [
+    12500,
+    25000
+   ],
+   "hotmXp": [
+    750,
+    750
+   ],
+   "powder": "GLACITE",
+   "powderAmount": [
+    1500,
+    3000
+   ]
+  }
+ },
+ "dailyBonus": {
+  "count": 4,
+  "hotmXp": 900,
+  "maxedPowder": {
+   "MITHRIL": 1600,
+   "GEMSTONE": 3200,
+   "GLACITE": 4000
+  }
+ },
+ "milestones": [
+  {
+   "count": 5,
+   "miningXp": 100000,
+   "skyblockXp": 20,
+   "reward": "emissaries"
+  },
+  {
+   "count": 25,
+   "miningXp": 200000,
+   "skyblockXp": 30,
+   "reward": null
+  },
+  {
+   "count": 100,
+   "miningXp": 400000,
+   "skyblockXp": 30,
+   "reward": "slot"
+  },
+  {
+   "count": 250,
+   "miningXp": 800000,
+   "skyblockXp": 50,
+   "reward": "DWARVEN_MINES_TRAVEL_SCROLL"
+  },
+  {
+   "count": 500,
+   "miningXp": 1200000,
+   "skyblockXp": 50,
+   "reward": "ROYAL_PIGEON"
+  },
+  {
+   "count": 750,
+   "miningXp": 1600000,
+   "skyblockXp": 75,
+   "reward": "CRYSTAL_NUCLEUS_TRAVEL_SCROLL"
+  }
+ ]
+}

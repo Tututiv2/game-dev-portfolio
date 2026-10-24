@@ -1,0 +1,23 @@
+{
+ "direction": "s2c",
+ "type": 1,
+ "name": "WELCOME",
+ "fields": {
+  "protocol": 1,
+  "supported": true,
+  "serverTimeMs": 1791850000123,
+  "features": [
+   "breaks",
+   "income",
+   "balance",
+   "progress",
+   "boosts",
+   "skill",
+   "contract",
+   "area",
+   "lookup"
+  ],
+  "flushMs": 250,
+  "lookupsPerMinute": 30
+ }
+}

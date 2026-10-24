@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>AppBoost</RootNamespace>
+    <AssemblyName>AppBoost</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--
+      The process-loopback interop is shared with probe/ rather than duplicated. probe/ is the
+      harness that proved this code works and answered the pre/post-volume question; keeping one
+      copy means a fix found by the harness is a fix here too.
+    -->
+    <Compile Include="..\probe\ProcessLoopback.cs" Link="ProcessLoopback.cs" />
+  </ItemGroup>
+</Project>

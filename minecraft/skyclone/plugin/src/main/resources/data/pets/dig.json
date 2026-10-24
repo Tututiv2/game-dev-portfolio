@@ -1,0 +1,1389 @@
+{
+ "crystal_hollows": {
+  "RED_STAINED_GLASS": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "RED_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "MAGENTA_STAINED_GLASS": [
+   "gem",
+   "gem_jasper",
+   "gemstone"
+  ],
+  "MAGENTA_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_jasper",
+   "gemstone"
+  ],
+  "STONE": [
+   "hard",
+   "hard_stone"
+  ],
+  "BLACK_TERRACOTTA": [
+   "hard",
+   "hard_stone"
+  ],
+  "GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone"
+  ],
+  "LIGHT_GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone"
+  ],
+  "BROWN_TERRACOTTA": [
+   "hard",
+   "hard_stone"
+  ],
+  "CYAN_TERRACOTTA": [
+   "hard",
+   "hard_stone"
+  ],
+  "LIGHT_GRAY_WOOL": [
+   "hard",
+   "hard_stone"
+  ],
+  "GRAY_WOOL": [
+   "hard",
+   "hard_stone"
+  ],
+  "PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "PRISMARINE_BRICKS": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "DARK_PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "LIGHT_BLUE_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_blue"
+  ],
+  "COAL_BLOCK": [
+   "ore",
+   "pure",
+   "pure_coal",
+   "pure_ore"
+  ],
+  "IRON_BLOCK": [
+   "ore",
+   "pure",
+   "pure_iron",
+   "pure_ore"
+  ],
+  "GOLD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_gold",
+   "pure_ore"
+  ],
+  "LAPIS_BLOCK": [
+   "ore",
+   "pure",
+   "pure_lapis",
+   "pure_ore"
+  ],
+  "REDSTONE_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_redstone"
+  ],
+  "EMERALD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_emerald",
+   "pure_ore"
+  ],
+  "DIAMOND_BLOCK": [
+   "ore",
+   "pure",
+   "pure_diamond",
+   "pure_ore"
+  ],
+  "QUARTZ_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_quartz"
+  ],
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "OBSIDIAN": [
+   "obsidian"
+  ]
+ },
+ "glacite_tunnels": {
+  "RED_STAINED_GLASS": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "RED_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "BLACK_STAINED_GLASS": [
+   "gem",
+   "gem_onyx",
+   "gemstone"
+  ],
+  "BLACK_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_onyx",
+   "gemstone"
+  ],
+  "BLUE_STAINED_GLASS": [
+   "gem",
+   "gem_aquamarine",
+   "gemstone"
+  ],
+  "BLUE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_aquamarine",
+   "gemstone"
+  ],
+  "BROWN_STAINED_GLASS": [
+   "gem",
+   "gem_citrine",
+   "gemstone"
+  ],
+  "BROWN_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_citrine",
+   "gemstone"
+  ],
+  "GREEN_STAINED_GLASS": [
+   "gem",
+   "gem_peridot",
+   "gemstone"
+  ],
+  "GREEN_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_peridot",
+   "gemstone"
+  ],
+  "STONE": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "BLACK_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "LIGHT_GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "LIGHT_GRAY_WOOL": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "PACKED_ICE": [
+   "glacite",
+   "metal"
+  ],
+  "BROWN_TERRACOTTA": [
+   "metal",
+   "umber"
+  ],
+  "TERRACOTTA": [
+   "metal",
+   "umber"
+  ],
+  "RED_SANDSTONE": [
+   "metal",
+   "umber"
+  ],
+  "SMOOTH_RED_SANDSTONE": [
+   "metal",
+   "umber"
+  ],
+  "COBBLESTONE": [
+   "metal",
+   "tungsten"
+  ],
+  "CLAY": [
+   "metal",
+   "tungsten"
+  ],
+  "GRAY_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "CYAN_TERRACOTTA": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "PRISMARINE_BRICKS": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "DARK_PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "LIGHT_BLUE_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_blue"
+  ],
+  "POLISHED_DIORITE": [
+   "metal",
+   "titanium"
+  ],
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "ICE": [
+   "ice",
+   "standard"
+  ]
+ },
+ "mineshaft": {
+  "RED_STAINED_GLASS": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "RED_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_ruby",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "ORANGE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amber",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "PURPLE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_amethyst",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIME_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_jade",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "LIGHT_BLUE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_sapphire",
+   "gemstone"
+  ],
+  "WHITE_STAINED_GLASS": [
+   "gem",
+   "gem_opal",
+   "gemstone"
+  ],
+  "WHITE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_opal",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "YELLOW_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_topaz",
+   "gemstone"
+  ],
+  "MAGENTA_STAINED_GLASS": [
+   "gem",
+   "gem_jasper",
+   "gemstone"
+  ],
+  "MAGENTA_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_jasper",
+   "gemstone"
+  ],
+  "BLACK_STAINED_GLASS": [
+   "gem",
+   "gem_onyx",
+   "gemstone"
+  ],
+  "BLACK_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_onyx",
+   "gemstone"
+  ],
+  "BLUE_STAINED_GLASS": [
+   "gem",
+   "gem_aquamarine",
+   "gemstone"
+  ],
+  "BLUE_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_aquamarine",
+   "gemstone"
+  ],
+  "BROWN_STAINED_GLASS": [
+   "gem",
+   "gem_citrine",
+   "gemstone"
+  ],
+  "BROWN_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_citrine",
+   "gemstone"
+  ],
+  "GREEN_STAINED_GLASS": [
+   "gem",
+   "gem_peridot",
+   "gemstone"
+  ],
+  "GREEN_STAINED_GLASS_PANE": [
+   "gem",
+   "gem_peridot",
+   "gemstone"
+  ],
+  "STONE": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "BLACK_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "LIGHT_GRAY_TERRACOTTA": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "LIGHT_GRAY_WOOL": [
+   "hard",
+   "hard_stone",
+   "hard_stone_ms"
+  ],
+  "PACKED_ICE": [
+   "glacite",
+   "metal"
+  ],
+  "BROWN_TERRACOTTA": [
+   "metal",
+   "umber"
+  ],
+  "TERRACOTTA": [
+   "metal",
+   "umber"
+  ],
+  "RED_SANDSTONE": [
+   "metal",
+   "umber"
+  ],
+  "SMOOTH_RED_SANDSTONE": [
+   "metal",
+   "umber"
+  ],
+  "COBBLESTONE": [
+   "metal",
+   "tungsten"
+  ],
+  "CLAY": [
+   "metal",
+   "tungsten"
+  ],
+  "GRAY_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "CYAN_TERRACOTTA": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "PRISMARINE_BRICKS": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "DARK_PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "LIGHT_BLUE_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_blue"
+  ],
+  "POLISHED_DIORITE": [
+   "metal",
+   "titanium"
+  ],
+  "COAL_BLOCK": [
+   "ore",
+   "pure",
+   "pure_coal",
+   "pure_ore"
+  ],
+  "IRON_BLOCK": [
+   "ore",
+   "pure",
+   "pure_iron",
+   "pure_ore"
+  ],
+  "GOLD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_gold",
+   "pure_ore"
+  ],
+  "LAPIS_BLOCK": [
+   "ore",
+   "pure",
+   "pure_lapis",
+   "pure_ore"
+  ],
+  "REDSTONE_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_redstone"
+  ],
+  "EMERALD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_emerald",
+   "pure_ore"
+  ],
+  "DIAMOND_BLOCK": [
+   "ore",
+   "pure",
+   "pure_diamond",
+   "pure_ore"
+  ],
+  "QUARTZ_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_quartz"
+  ],
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ]
+ },
+ "dwarven_mines": {
+  "GRAY_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "CYAN_TERRACOTTA": [
+   "metal",
+   "mithril",
+   "mithril_gray"
+  ],
+  "PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "PRISMARINE_BRICKS": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "DARK_PRISMARINE": [
+   "metal",
+   "mithril",
+   "mithril_prismarine"
+  ],
+  "LIGHT_BLUE_WOOL": [
+   "metal",
+   "mithril",
+   "mithril_blue"
+  ],
+  "POLISHED_DIORITE": [
+   "metal",
+   "titanium"
+  ],
+  "COAL_BLOCK": [
+   "ore",
+   "pure",
+   "pure_coal",
+   "pure_ore"
+  ],
+  "IRON_BLOCK": [
+   "ore",
+   "pure",
+   "pure_iron",
+   "pure_ore"
+  ],
+  "GOLD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_gold",
+   "pure_ore"
+  ],
+  "LAPIS_BLOCK": [
+   "ore",
+   "pure",
+   "pure_lapis",
+   "pure_ore"
+  ],
+  "REDSTONE_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_redstone"
+  ],
+  "EMERALD_BLOCK": [
+   "ore",
+   "pure",
+   "pure_emerald",
+   "pure_ore"
+  ],
+  "DIAMOND_BLOCK": [
+   "ore",
+   "pure",
+   "pure_diamond",
+   "pure_ore"
+  ],
+  "QUARTZ_BLOCK": [
+   "ore",
+   "pure",
+   "pure_ore",
+   "pure_quartz"
+  ],
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "OBSIDIAN": [
+   "obsidian"
+  ],
+  "GLOWSTONE": [
+   "glowstone",
+   "standard"
+  ],
+  "STONE": [
+   "standard",
+   "stone"
+  ],
+  "ANDESITE": [
+   "standard",
+   "stone"
+  ],
+  "DIORITE": [
+   "standard",
+   "stone"
+  ],
+  "GRANITE": [
+   "standard",
+   "stone"
+  ],
+  "DEEPSLATE": [
+   "standard",
+   "stone"
+  ],
+  "TUFF": [
+   "standard",
+   "stone"
+  ],
+  "COBBLESTONE": [
+   "cobblestone",
+   "standard"
+  ],
+  "ICE": [
+   "ice",
+   "standard"
+  ]
+ },
+ "deep_caverns": {
+  "DIAMOND_BLOCK": [
+   "diamond",
+   "diamond_block_dc",
+   "ore"
+  ],
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "OBSIDIAN": [
+   "obsidian"
+  ],
+  "GLOWSTONE": [
+   "glowstone",
+   "standard"
+  ],
+  "STONE": [
+   "standard",
+   "stone"
+  ],
+  "ANDESITE": [
+   "standard",
+   "stone"
+  ],
+  "DIORITE": [
+   "standard",
+   "stone"
+  ],
+  "GRANITE": [
+   "standard",
+   "stone"
+  ],
+  "DEEPSLATE": [
+   "standard",
+   "stone"
+  ],
+  "TUFF": [
+   "standard",
+   "stone"
+  ],
+  "COBBLESTONE": [
+   "cobblestone",
+   "standard"
+  ],
+  "GRAVEL": [
+   "gravel",
+   "standard"
+  ]
+ },
+ "hub": {
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "STONE": [
+   "standard",
+   "stone"
+  ],
+  "ANDESITE": [
+   "standard",
+   "stone"
+  ],
+  "DIORITE": [
+   "standard",
+   "stone"
+  ],
+  "GRANITE": [
+   "standard",
+   "stone"
+  ],
+  "DEEPSLATE": [
+   "standard",
+   "stone"
+  ],
+  "TUFF": [
+   "standard",
+   "stone"
+  ],
+  "COBBLESTONE": [
+   "cobblestone",
+   "standard"
+  ],
+  "GRAVEL": [
+   "gravel",
+   "standard"
+  ]
+ },
+ "gold_mine": {
+  "COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "DEEPSLATE_COAL_ORE": [
+   "coal",
+   "coal_ore",
+   "ore"
+  ],
+  "IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "DEEPSLATE_IRON_ORE": [
+   "iron",
+   "iron_ore",
+   "ore"
+  ],
+  "GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "DEEPSLATE_GOLD_ORE": [
+   "gold",
+   "gold_ore",
+   "ore"
+  ],
+  "LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "DEEPSLATE_LAPIS_ORE": [
+   "lapis",
+   "lapis_ore",
+   "ore"
+  ],
+  "REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "DEEPSLATE_REDSTONE_ORE": [
+   "ore",
+   "redstone",
+   "redstone_ore"
+  ],
+  "EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DEEPSLATE_EMERALD_ORE": [
+   "emerald",
+   "emerald_ore",
+   "ore"
+  ],
+  "DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "DEEPSLATE_DIAMOND_ORE": [
+   "diamond",
+   "diamond_ore",
+   "ore"
+  ],
+  "NETHER_QUARTZ_ORE": [
+   "nether",
+   "nether_quartz_ore",
+   "ore"
+  ],
+  "STONE": [
+   "standard",
+   "stone"
+  ],
+  "ANDESITE": [
+   "standard",
+   "stone"
+  ],
+  "DIORITE": [
+   "standard",
+   "stone"
+  ],
+  "GRANITE": [
+   "standard",
+   "stone"
+  ],
+  "DEEPSLATE": [
+   "standard",
+   "stone"
+  ],
+  "TUFF": [
+   "standard",
+   "stone"
+  ],
+  "COBBLESTONE": [
+   "cobblestone",
+   "standard"
+  ],
+  "GRAVEL": [
+   "gravel",
+   "standard"
+  ]
+ }
+}

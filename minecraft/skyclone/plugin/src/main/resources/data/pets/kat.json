@@ -1,0 +1,2134 @@
+[
+ {
+  "pet": "ARMADILLO",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 10000,
+  "seconds": 10800,
+  "items": []
+ },
+ {
+  "pet": "ARMADILLO",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 30000,
+  "seconds": 36000,
+  "items": []
+ },
+ {
+  "pet": "ARMADILLO",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "ARMADILLO",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 1000000,
+  "seconds": 432000,
+  "items": []
+ },
+ {
+  "pet": "ARMADILLO",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "FROZEN_SCUTE:1"
+  ]
+ },
+ {
+  "pet": "BABY_YETI",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 50000,
+  "seconds": 86400,
+  "items": [
+   "ICE_HUNK:32"
+  ]
+ },
+ {
+  "pet": "BABY_YETI",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 100000,
+  "seconds": 172800,
+  "items": [
+   "ICE_HUNK:64"
+  ]
+ },
+ {
+  "pet": "BABY_YETI",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 259200,
+  "items": [
+   "ICE_HUNK:128"
+  ]
+ },
+ {
+  "pet": "BABY_YETI",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 345600,
+  "items": [
+   "BLUE_ICE_HUNK:8"
+  ]
+ },
+ {
+  "pet": "BABY_YETI",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "POCKET_SIZED_IGLOO:1"
+  ]
+ },
+ {
+  "pet": "BAL",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 2000000,
+  "seconds": 864000,
+  "items": [
+   "YOGGIE:100"
+  ]
+ },
+ {
+  "pet": "BAT",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "RED_MUSHROOM:256",
+   "BROWN_MUSHROOM:256"
+  ]
+ },
+ {
+  "pet": "BAT",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_RED_MUSHROOM:4",
+   "ENCHANTED_BROWN_MUSHROOM:4"
+  ]
+ },
+ {
+  "pet": "BAT",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_RED_MUSHROOM:8",
+   "ENCHANTED_BROWN_MUSHROOM:8"
+  ]
+ },
+ {
+  "pet": "BAT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_RED_MUSHROOM:16",
+   "ENCHANTED_BROWN_MUSHROOM:16"
+  ]
+ },
+ {
+  "pet": "BAT",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 100000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_RED_MUSHROOM:32",
+   "ENCHANTED_BROWN_MUSHROOM:32",
+   "PET_ITEM_VAMPIRE_FANG:1"
+  ]
+ },
+ {
+  "pet": "BEE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 0,
+  "seconds": 60,
+  "items": [
+   "SMALL_HONEY_DIPPER:1"
+  ]
+ },
+ {
+  "pet": "BEE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 0,
+  "seconds": 3600,
+  "items": [
+   "MEDIUM_HONEY_DIPPER:1"
+  ]
+ },
+ {
+  "pet": "BEE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 0,
+  "seconds": 86400,
+  "items": [
+   "LARGE_HONEY_DIPPER:1"
+  ]
+ },
+ {
+  "pet": "BEE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 0,
+  "seconds": 259200,
+  "items": [
+   "GIANT_HONEY_DIPPER:1"
+  ]
+ },
+ {
+  "pet": "BEE",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 10000000,
+  "seconds": 3600,
+  "items": [
+   "ROYAL_JELLY:1"
+  ]
+ },
+ {
+  "pet": "BLACK_CAT",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "BLACK_WOOLEN_YARN:1"
+  ]
+ },
+ {
+  "pet": "BLAZE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "ENCHANTED_BLAZE_POWDER:128"
+  ]
+ },
+ {
+  "pet": "BLAZE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": [
+   "ENCHANTED_BLAZE_POWDER:256"
+  ]
+ },
+ {
+  "pet": "BLAZE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 1000000,
+  "seconds": 259200,
+  "items": [
+   "ENCHANTED_BLAZE_POWDER:512"
+  ]
+ },
+ {
+  "pet": "BLAZE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 2500000,
+  "seconds": 432000,
+  "items": [
+   "ENCHANTED_BLAZE_ROD:8"
+  ]
+ },
+ {
+  "pet": "BLUE_WHALE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "BLUE_WHALE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "BLUE_WHALE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 604800,
+  "items": [
+   "ENCHANTED_COOKED_FISH:1"
+  ]
+ },
+ {
+  "pet": "BLUE_WHALE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 9000000,
+  "seconds": 1036800,
+  "items": [
+   "ENCHANTED_COOKED_FISH:8"
+  ]
+ },
+ {
+  "pet": "CHICKEN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 500,
+  "seconds": 10,
+  "items": [
+   "RAW_CHICKEN:128",
+   "FEATHER:128"
+  ]
+ },
+ {
+  "pet": "CHICKEN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 2500,
+  "seconds": 20,
+  "items": [
+   "RAW_CHICKEN:256",
+   "FEATHER:256"
+  ]
+ },
+ {
+  "pet": "CHICKEN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 5000,
+  "seconds": 30,
+  "items": [
+   "RAW_CHICKEN:512",
+   "FEATHER:512"
+  ]
+ },
+ {
+  "pet": "CHICKEN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000,
+  "seconds": 45,
+  "items": [
+   "ENCHANTED_RAW_CHICKEN:8",
+   "ENCHANTED_FEATHER:8"
+  ]
+ },
+ {
+  "pet": "CROW",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "ENCHANTED_MOONFLOWER:128"
+  ]
+ },
+ {
+  "pet": "CROW",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 1000000,
+  "seconds": 172800,
+  "items": [
+   "COMPACTED_MOONFLOWER:4",
+   "VEILSHROOM:2"
+  ]
+ },
+ {
+  "pet": "CROW",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 5000000,
+  "seconds": 259200,
+  "items": [
+   "COMPACTED_MOONFLOWER:8",
+   "DUSKBLOOM:4"
+  ]
+ },
+ {
+  "pet": "CROW",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000000,
+  "seconds": 432000,
+  "items": [
+   "COMPACTED_MOONFLOWER:16",
+   "DO_NOT_EAT_SHROOM:8"
+  ]
+ },
+ {
+  "pet": "DOLPHIN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "DOLPHIN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 1000000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "DOLPHIN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 10000000,
+  "seconds": 604800,
+  "items": []
+ },
+ {
+  "pet": "DOLPHIN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000000,
+  "seconds": 1209600,
+  "items": [
+   "ENCHANTED_RAW_FISH:16"
+  ]
+ },
+ {
+  "pet": "ELEPHANT",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 21600,
+  "items": []
+ },
+ {
+  "pet": "ELEPHANT",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 72000,
+  "items": []
+ },
+ {
+  "pet": "ELEPHANT",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 432000,
+  "items": []
+ },
+ {
+  "pet": "ELEPHANT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 14000000,
+  "seconds": 864000,
+  "items": []
+ },
+ {
+  "pet": "ELEPHANT",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 12500000,
+  "seconds": 3600,
+  "items": [
+   "TRUNK_POLISH:1"
+  ]
+ },
+ {
+  "pet": "ENDERMAN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 1000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "ENDERMAN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 5000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "ENDERMAN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 10000,
+  "seconds": 518400,
+  "items": []
+ },
+ {
+  "pet": "ENDERMAN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 40000000,
+  "seconds": 1036800,
+  "items": [
+   "ENCHANTED_EYE_OF_ENDER:8"
+  ]
+ },
+ {
+  "pet": "ENDERMAN",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "ENDERMAN_CORTEX_REWRITER:1"
+  ]
+ },
+ {
+  "pet": "ENDERMITE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "ENDER_STONE:512"
+  ]
+ },
+ {
+  "pet": "ENDERMITE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_ENDSTONE:8"
+  ]
+ },
+ {
+  "pet": "ENDERMITE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_ENDSTONE:16",
+   "MITE_GEL:32"
+  ]
+ },
+ {
+  "pet": "ENDERMITE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_ENDSTONE:32",
+   "MITE_GEL:64"
+  ]
+ },
+ {
+  "pet": "ENDERMITE",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 100000,
+  "seconds": 3600,
+  "items": [
+   "MIXED_MITE_GEL:1",
+   "ENCHANTED_ENDSTONE:64"
+  ]
+ },
+ {
+  "pet": "ENDER_DRAGON",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 400000000,
+  "seconds": 1728000,
+  "items": [
+   "SUMMONING_EYE:8"
+  ]
+ },
+ {
+  "pet": "FLYING_FISH",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 432000,
+  "items": []
+ },
+ {
+  "pet": "FLYING_FISH",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 1000000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_RAW_FISH:64"
+  ]
+ },
+ {
+  "pet": "FLYING_FISH",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "RADIOACTIVE_VIAL:1"
+  ]
+ },
+ {
+  "pet": "FROG",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "SMALL_FROG_TREAT:1"
+  ]
+ },
+ {
+  "pet": "FROG",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 7200,
+  "items": [
+   "MEDIUM_FROG_TREAT:1"
+  ]
+ },
+ {
+  "pet": "FROG",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 10800,
+  "items": [
+   "LARGE_FROG_TREAT:1"
+  ]
+ },
+ {
+  "pet": "FROG",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 200000,
+  "seconds": 14400,
+  "items": [
+   "GIANT_FROG_TREAT:1"
+  ]
+ },
+ {
+  "pet": "FROG",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "BUCKET_OF_FROGSPAWN"
+  ]
+ },
+ {
+  "pet": "GHOUL",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 5000000,
+  "seconds": 864000,
+  "items": [
+   "REVENANT_FLESH:512"
+  ]
+ },
+ {
+  "pet": "GIRAFFE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 86400,
+  "items": [
+   "ENCHANTED_ACACIA_LOG:1"
+  ]
+ },
+ {
+  "pet": "GIRAFFE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 172800,
+  "items": [
+   "ENCHANTED_ACACIA_LOG:16"
+  ]
+ },
+ {
+  "pet": "GIRAFFE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 604800,
+  "items": [
+   "ENCHANTED_ACACIA_LOG:128"
+  ]
+ },
+ {
+  "pet": "GIRAFFE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 9000000,
+  "seconds": 1036800,
+  "items": [
+   "ENCHANTED_ACACIA_LOG:512"
+  ]
+ },
+ {
+  "pet": "GLACITE_GOLEM",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "ENCHANTED_GLACITE:128"
+  ]
+ },
+ {
+  "pet": "GLACITE_GOLEM",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": [
+   "ENCHANTED_GLACITE:256"
+  ]
+ },
+ {
+  "pet": "GLACITE_GOLEM",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 1000000,
+  "seconds": 259200,
+  "items": [
+   "ENCHANTED_GLACITE:512"
+  ]
+ },
+ {
+  "pet": "GLACITE_GOLEM",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 2500000,
+  "seconds": 432000,
+  "items": [
+   "GLACITE_AMALGAMATION:8"
+  ]
+ },
+ {
+  "pet": "GOLEM",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000000,
+  "seconds": 1728000,
+  "items": [
+   "ENCHANTED_IRON_BLOCK:8"
+  ]
+ },
+ {
+  "pet": "GRIFFIN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100,
+  "seconds": 60,
+  "items": [
+   "GRIFFIN_UPGRADE_STONE_UNCOMMON:1"
+  ]
+ },
+ {
+  "pet": "GRIFFIN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "GRIFFIN_UPGRADE_STONE_RARE:1"
+  ]
+ },
+ {
+  "pet": "GRIFFIN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "GRIFFIN_UPGRADE_STONE_EPIC:1"
+  ]
+ },
+ {
+  "pet": "GRIFFIN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 259200,
+  "items": [
+   "GRIFFIN_UPGRADE_STONE_LEGENDARY:1"
+  ]
+ },
+ {
+  "pet": "GRIFFIN",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "GRIFFIN_UPGRADE_STONE_MYTHIC:1"
+  ]
+ },
+ {
+  "pet": "GUARDIAN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 20000,
+  "seconds": 3600,
+  "items": []
+ },
+ {
+  "pet": "GUARDIAN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": []
+ },
+ {
+  "pet": "GUARDIAN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "GUARDIAN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 3000000,
+  "seconds": 432000,
+  "items": [
+   "ENCHANTED_PRISMARINE_SHARD:64"
+  ]
+ },
+ {
+  "pet": "GUARDIAN",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "GUARDIAN_LUCKY_BLOCK:1"
+  ]
+ },
+ {
+  "pet": "HERMIT_CRAB",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "RUSTY_COIN:4"
+  ]
+ },
+ {
+  "pet": "HERMIT_CRAB",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 7200,
+  "items": [
+   "RUSTY_COIN:16"
+  ]
+ },
+ {
+  "pet": "HERMIT_CRAB",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 200000,
+  "seconds": 21600,
+  "items": [
+   "BUSTED_BELT_BUCKLE:8"
+  ]
+ },
+ {
+  "pet": "HERMIT_CRAB",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 1000000,
+  "seconds": 172800,
+  "items": [
+   "OLD_LEATHER_BOOT:1"
+  ]
+ },
+ {
+  "pet": "HERMIT_CRAB",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "SCUTTLER_SHELL:1"
+  ]
+ },
+ {
+  "pet": "HORSE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 500,
+  "seconds": 10,
+  "items": [
+   "LEATHER:128"
+  ]
+ },
+ {
+  "pet": "HORSE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 2500,
+  "seconds": 20,
+  "items": [
+   "LEATHER:256"
+  ]
+ },
+ {
+  "pet": "HORSE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 5000,
+  "seconds": 30,
+  "items": [
+   "LEATHER:512"
+  ]
+ },
+ {
+  "pet": "HORSE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000,
+  "seconds": 45,
+  "items": [
+   "ENCHANTED_LEATHER:8"
+  ]
+ },
+ {
+  "pet": "HOUND",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 5000000,
+  "seconds": 864000,
+  "items": [
+   "WOLF_TOOTH:512"
+  ]
+ },
+ {
+  "pet": "JELLYFISH",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 15000000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_SLIME_BALL:16"
+  ]
+ },
+ {
+  "pet": "JERRY",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 500,
+  "seconds": 10,
+  "items": [
+   "ASSISTANT:1"
+  ]
+ },
+ {
+  "pet": "JERRY",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 2500,
+  "seconds": 20,
+  "items": [
+   "ASSISTANT:1"
+  ]
+ },
+ {
+  "pet": "JERRY",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 5000,
+  "seconds": 30,
+  "items": [
+   "ASSISTANT:1"
+  ]
+ },
+ {
+  "pet": "JERRY",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000,
+  "seconds": 45,
+  "items": [
+   "ASSISTANT:1"
+  ]
+ },
+ {
+  "pet": "JERRY",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "PET_ITEM_TOY_JERRY:1"
+  ]
+ },
+ {
+  "pet": "LION",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "LION",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "LION",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 604800,
+  "items": []
+ },
+ {
+  "pet": "LION",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 14000000,
+  "seconds": 1036800,
+  "items": [
+   "ENCHANTED_RAW_BEEF:1024"
+  ]
+ },
+ {
+  "pet": "MAGMA_CUBE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 2500,
+  "seconds": 7200,
+  "items": []
+ },
+ {
+  "pet": "MAGMA_CUBE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 5000,
+  "seconds": 72000,
+  "items": []
+ },
+ {
+  "pet": "MAGMA_CUBE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 432000,
+  "items": []
+ },
+ {
+  "pet": "MAGMA_CUBE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_MAGMA_CREAM:16"
+  ]
+ },
+ {
+  "pet": "MEGALODON",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000000,
+  "seconds": 1728000,
+  "items": []
+ },
+ {
+  "pet": "MITHRIL_GOLEM",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "MITHRIL_ORE:512"
+  ]
+ },
+ {
+  "pet": "MITHRIL_GOLEM",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_MITHRIL:8"
+  ]
+ },
+ {
+  "pet": "MITHRIL_GOLEM",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_MITHRIL:16"
+  ]
+ },
+ {
+  "pet": "MITHRIL_GOLEM",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_MITHRIL:32"
+  ]
+ },
+ {
+  "pet": "MITHRIL_GOLEM",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 100000,
+  "seconds": 3600,
+  "items": [
+   "PET_ITEM_PURE_MITHRIL_GEM:1",
+   "ENCHANTED_MITHRIL:64"
+  ]
+ },
+ {
+  "pet": "MONKEY",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "MONKEY",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "MONKEY",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 604800,
+  "items": []
+ },
+ {
+  "pet": "MONKEY",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 17000000,
+  "seconds": 1036800,
+  "items": []
+ },
+ {
+  "pet": "MOOSHROOM_COW",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_MYCELIUM:16"
+  ]
+ },
+ {
+  "pet": "MOOSHROOM_COW",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 10800,
+  "items": [
+   "ENCHANTED_MYCELIUM:32"
+  ]
+ },
+ {
+  "pet": "MOOSHROOM_COW",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": [
+   "DIGESTED_MUSHROOMS:32",
+   "ENCHANTED_MYCELIUM:64"
+  ]
+ },
+ {
+  "pet": "MOOSHROOM_COW",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 250000,
+  "seconds": 43200,
+  "items": [
+   "ENCHANTED_MYCELIUM:128",
+   "DIGESTED_MUSHROOMS:64"
+  ]
+ },
+ {
+  "pet": "MOSQUITO",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "TARANTULA_SILK:8"
+  ]
+ },
+ {
+  "pet": "MOSQUITO",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": [
+   "TARANTULA_SILK:16"
+  ]
+ },
+ {
+  "pet": "MOSQUITO",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 1000000,
+  "seconds": 259200,
+  "items": [
+   "TARANTULA_SILK:32"
+  ]
+ },
+ {
+  "pet": "MOSQUITO",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 2500000,
+  "seconds": 432000,
+  "items": [
+   "TARANTULA_SILK:64"
+  ]
+ },
+ {
+  "pet": "OCELOT",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "LOG:3:512"
+  ]
+ },
+ {
+  "pet": "OCELOT",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_JUNGLE_LOG:8"
+  ]
+ },
+ {
+  "pet": "OCELOT",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_JUNGLE_LOG:16"
+  ]
+ },
+ {
+  "pet": "OCELOT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_JUNGLE_LOG:32"
+  ]
+ },
+ {
+  "pet": "ORCHID_MANTIS",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "FLORAL_GELATIN:16"
+  ]
+ },
+ {
+  "pet": "ORCHID_MANTIS",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": [
+   "FLORAL_GELATIN:32"
+  ]
+ },
+ {
+  "pet": "ORCHID_MANTIS",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 1000000,
+  "seconds": 259200,
+  "items": [
+   "FLORAL_GELATIN:48"
+  ]
+ },
+ {
+  "pet": "ORCHID_MANTIS",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 2500000,
+  "seconds": 432000,
+  "items": [
+   "FLORAL_GELATIN:64"
+  ]
+ },
+ {
+  "pet": "PARROT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 15000000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_FEATHER:16"
+  ]
+ },
+ {
+  "pet": "PHOENIX",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 100000000,
+  "seconds": 1728000,
+  "items": [
+   "ENCHANTED_BLAZE_POWDER:1024"
+  ]
+ },
+ {
+  "pet": "PIG",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100,
+  "seconds": 60,
+  "items": [
+   "SMALL_PIG_EAR:1"
+  ]
+ },
+ {
+  "pet": "PIG",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "MEDIUM_PIG_EAR:1"
+  ]
+ },
+ {
+  "pet": "PIG",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "LARGE_PIG_EAR:1"
+  ]
+ },
+ {
+  "pet": "PIG",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 259200,
+  "items": [
+   "GIANT_PIG_EAR:1"
+  ]
+ },
+ {
+  "pet": "PIGMAN",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_PORK:16"
+  ]
+ },
+ {
+  "pet": "PIGMAN",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 10800,
+  "items": [
+   "ENCHANTED_PORK:32"
+  ]
+ },
+ {
+  "pet": "PIGMAN",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": [
+   "ENCHANTED_PORK:64"
+  ]
+ },
+ {
+  "pet": "PIGMAN",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 250000,
+  "seconds": 43200,
+  "items": [
+   "ENCHANTED_PORK:128"
+  ]
+ },
+ {
+  "pet": "RABBIT",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "RABBIT:512",
+   "RABBIT_HIDE:256",
+   "RABBIT_FOOT:256"
+  ]
+ },
+ {
+  "pet": "RABBIT",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_RABBIT:8",
+   "ENCHANTED_RABBIT_HIDE:4",
+   "ENCHANTED_RABBIT_FOOT:4"
+  ]
+ },
+ {
+  "pet": "RABBIT",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_RABBIT:16",
+   "ENCHANTED_RABBIT_HIDE:8",
+   "ENCHANTED_RABBIT_FOOT:8"
+  ]
+ },
+ {
+  "pet": "RABBIT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_RABBIT:32",
+   "ENCHANTED_RABBIT_HIDE:16",
+   "ENCHANTED_RABBIT_FOOT:16"
+  ]
+ },
+ {
+  "pet": "RABBIT",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 100000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_RABBIT:64",
+   "ENCHANTED_RABBIT_HIDE:32",
+   "ENCHANTED_RABBIT_FOOT:32",
+   "PET_ITEM_CHOCOLATE_SYRINGE:1"
+  ]
+ },
+ {
+  "pet": "RAT",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "RAT_JETPACK:1"
+  ]
+ },
+ {
+  "pet": "ROCK",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "ROCK",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 1000000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "ROCK",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 10000000,
+  "seconds": 604800,
+  "items": []
+ },
+ {
+  "pet": "ROCK",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000000,
+  "seconds": 1209600,
+  "items": [
+   "ENCHANTED_COBBLESTONE:64"
+  ]
+ },
+ {
+  "pet": "SCATHA",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 125000000,
+  "seconds": 604800,
+  "items": [
+   "ENCHANTED_HARD_STONE:64"
+  ]
+ },
+ {
+  "pet": "SCATHA",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 250000000,
+  "seconds": 1209600,
+  "items": [
+   "ENCHANTED_HARD_STONE:256"
+  ]
+ },
+ {
+  "pet": "SEAL",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100,
+  "seconds": 60,
+  "items": [
+   "SMALL_SEAL_PLUSHIE:1"
+  ]
+ },
+ {
+  "pet": "SEAL",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "MEDIUM_SEAL_PLUSHIE:1"
+  ]
+ },
+ {
+  "pet": "SEAL",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "LARGE_SEAL_PLUSHIE:1"
+  ]
+ },
+ {
+  "pet": "SEAL",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 259200,
+  "items": [
+   "GIANT_SEAL_PLUSHIE:1"
+  ]
+ },
+ {
+  "pet": "SHEEP",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "MUTTON:512",
+   "WOOL:512"
+  ]
+ },
+ {
+  "pet": "SHEEP",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_WOOL:8"
+  ]
+ },
+ {
+  "pet": "SHEEP",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_WOOL:16"
+  ]
+ },
+ {
+  "pet": "SHEEP",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_MUTTON:32",
+   "ENCHANTED_WOOL:32"
+  ]
+ },
+ {
+  "pet": "SILVERFISH",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 500,
+  "seconds": 10,
+  "items": [
+   "COBBLESTONE:128"
+  ]
+ },
+ {
+  "pet": "SILVERFISH",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 1000,
+  "seconds": 20,
+  "items": [
+   "COBBLESTONE:256"
+  ]
+ },
+ {
+  "pet": "SILVERFISH",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 5000,
+  "seconds": 30,
+  "items": [
+   "COBBLESTONE:512"
+  ]
+ },
+ {
+  "pet": "SILVERFISH",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000,
+  "seconds": 45,
+  "items": [
+   "ENCHANTED_COBBLESTONE:8"
+  ]
+ },
+ {
+  "pet": "SKELETON",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "BONE:512"
+  ]
+ },
+ {
+  "pet": "SKELETON",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_BONE:8"
+  ]
+ },
+ {
+  "pet": "SKELETON",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_BONE:16"
+  ]
+ },
+ {
+  "pet": "SKELETON",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_BONE:32"
+  ]
+ },
+ {
+  "pet": "SLOTH",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "SMALL_SLOTH_CLAW:1"
+  ]
+ },
+ {
+  "pet": "SLOTH",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 100000,
+  "seconds": 14400,
+  "items": [
+   "MEDIUM_SLOTH_CLAW:1"
+  ]
+ },
+ {
+  "pet": "SLOTH",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 43200,
+  "items": [
+   "LARGE_SLOTH_CLAW:1"
+  ]
+ },
+ {
+  "pet": "SLOTH",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 1000000,
+  "seconds": 86400,
+  "items": [
+   "GIANT_SLOTH_CLAW:1"
+  ]
+ },
+ {
+  "pet": "SLUG",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 10000000,
+  "seconds": 604800,
+  "items": [
+   "ENCHANTED_COMPOST:1"
+  ]
+ },
+ {
+  "pet": "SNAIL",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_RED_SAND:16"
+  ]
+ },
+ {
+  "pet": "SNAIL",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 10800,
+  "items": [
+   "ENCHANTED_RED_SAND:32"
+  ]
+ },
+ {
+  "pet": "SNAIL",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": [
+   "BURNING_EYE:32",
+   "ENCHANTED_RED_SAND:64"
+  ]
+ },
+ {
+  "pet": "SNAIL",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 250000,
+  "seconds": 43200,
+  "items": [
+   "BURNING_EYE:64",
+   "ENCHANTED_RED_SAND:128"
+  ]
+ },
+ {
+  "pet": "SNOWMAN",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "MAGIC_TOP_HAT:1"
+  ]
+ },
+ {
+  "pet": "SPIDER",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "STRING:512",
+   "SPIDER_EYE:256"
+  ]
+ },
+ {
+  "pet": "SPIDER",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_STRING:8",
+   "ENCHANTED_SPIDER_EYE:4"
+  ]
+ },
+ {
+  "pet": "SPIDER",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_SPIDER_EYE:8"
+  ]
+ },
+ {
+  "pet": "SPIDER",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_STRING:32",
+   "ENCHANTED_SPIDER_EYE:16"
+  ]
+ },
+ {
+  "pet": "SPIDER",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 100000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_STRING:64",
+   "ENCHANTED_SPIDER_EYE:32",
+   "FAKE_NEUROSCIENCE_DEGREE:1"
+  ]
+ },
+ {
+  "pet": "SPIRIT",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 5000000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_GHAST_TEAR:64"
+  ]
+ },
+ {
+  "pet": "SQUID",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 20000,
+  "seconds": 3600,
+  "items": []
+ },
+ {
+  "pet": "SQUID",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": []
+ },
+ {
+  "pet": "SQUID",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 500000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "SQUID",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 3000000,
+  "seconds": 432000,
+  "items": [
+   "ENCHANTED_INK_SACK:64"
+  ]
+ },
+ {
+  "pet": "TARANTULA",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 5000000,
+  "seconds": 864000,
+  "items": [
+   "TARANTULA_WEB:512"
+  ]
+ },
+ {
+  "pet": "TARANTULA",
+  "from": "LEGENDARY",
+  "to": "MYTHIC",
+  "coins": 1000000,
+  "seconds": 3600,
+  "items": [
+   "FAKE_NEUROSCIENCE_DEGREE:1"
+  ]
+ },
+ {
+  "pet": "TIGER",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 15000,
+  "seconds": 86400,
+  "items": []
+ },
+ {
+  "pet": "TIGER",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 75000,
+  "seconds": 172800,
+  "items": []
+ },
+ {
+  "pet": "TIGER",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 900000,
+  "seconds": 604800,
+  "items": []
+ },
+ {
+  "pet": "TIGER",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 14000000,
+  "seconds": 1036800,
+  "items": [
+   "ENCHANTED_RAW_CHICKEN:1024"
+  ]
+ },
+ {
+  "pet": "TURTLE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 15000000,
+  "seconds": 864000,
+  "items": [
+   "ENCHANTED_RAW_FISH:16"
+  ]
+ },
+ {
+  "pet": "WITCH",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 100,
+  "seconds": 60,
+  "items": [
+   "SMALL_WITCH_CAULDRON"
+  ]
+ },
+ {
+  "pet": "WITCH",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 3600,
+  "items": [
+   "MEDIUM_WITCH_CAULDRON"
+  ]
+ },
+ {
+  "pet": "WITCH",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 250000,
+  "seconds": 86400,
+  "items": [
+   "LARGE_WITCH_CAULDRON"
+  ]
+ },
+ {
+  "pet": "WITCH",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 500000,
+  "seconds": 259200,
+  "items": [
+   "GIANT_WITCH_CAULDRON"
+  ]
+ },
+ {
+  "pet": "WITHER_SKELETON",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 25000,
+  "seconds": 3600,
+  "items": [
+   "ENCHANTED_COAL:16"
+  ]
+ },
+ {
+  "pet": "WITHER_SKELETON",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 50000,
+  "seconds": 10800,
+  "items": [
+   "ENCHANTED_COAL:32"
+  ]
+ },
+ {
+  "pet": "WITHER_SKELETON",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 100000,
+  "seconds": 21600,
+  "items": [
+   "ENCHANTED_COAL:64"
+  ]
+ },
+ {
+  "pet": "WITHER_SKELETON",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 250000,
+  "seconds": 43200,
+  "items": [
+   "ENCHANTED_COAL:128"
+  ]
+ },
+ {
+  "pet": "WOLF",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 5000,
+  "seconds": 300,
+  "items": [
+   "LOG:1:512"
+  ]
+ },
+ {
+  "pet": "WOLF",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 10000,
+  "seconds": 600,
+  "items": [
+   "ENCHANTED_SPRUCE_LOG:8"
+  ]
+ },
+ {
+  "pet": "WOLF",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 25000,
+  "seconds": 900,
+  "items": [
+   "ENCHANTED_SPRUCE_LOG:16"
+  ]
+ },
+ {
+  "pet": "WOLF",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 50000,
+  "seconds": 1800,
+  "items": [
+   "ENCHANTED_SPRUCE_LOG:32"
+  ]
+ },
+ {
+  "pet": "ZOMBIE",
+  "from": "COMMON",
+  "to": "UNCOMMON",
+  "coins": 500,
+  "seconds": 10,
+  "items": [
+   "ROTTEN_FLESH:128"
+  ]
+ },
+ {
+  "pet": "ZOMBIE",
+  "from": "UNCOMMON",
+  "to": "RARE",
+  "coins": 1000,
+  "seconds": 20,
+  "items": [
+   "ROTTEN_FLESH:256"
+  ]
+ },
+ {
+  "pet": "ZOMBIE",
+  "from": "RARE",
+  "to": "EPIC",
+  "coins": 2500,
+  "seconds": 30,
+  "items": [
+   "ROTTEN_FLESH:512"
+  ]
+ },
+ {
+  "pet": "ZOMBIE",
+  "from": "EPIC",
+  "to": "LEGENDARY",
+  "coins": 5000,
+  "seconds": 45,
+  "items": [
+   "ENCHANTED_ROTTEN_FLESH:8"
+  ]
+ }
+]

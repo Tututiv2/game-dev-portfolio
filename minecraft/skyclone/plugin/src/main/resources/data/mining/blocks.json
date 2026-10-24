@@ -1,0 +1,1165 @@
+{
+ "blocks": [
+  {
+   "id": "gem_ruby",
+   "name": "Ruby Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "RED_STAINED_GLASS",
+    "RED_STAINED_GLASS_PANE"
+   ],
+   "strength": 2300,
+   "breakingPower": 6,
+   "drop": "ROUGH_RUBY_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "RUBY",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_amber",
+   "name": "Amber Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "ORANGE_STAINED_GLASS",
+    "ORANGE_STAINED_GLASS_PANE"
+   ],
+   "strength": 3000,
+   "breakingPower": 7,
+   "drop": "ROUGH_AMBER_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "AMBER",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_amethyst",
+   "name": "Amethyst Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "PURPLE_STAINED_GLASS",
+    "PURPLE_STAINED_GLASS_PANE"
+   ],
+   "strength": 3000,
+   "breakingPower": 7,
+   "drop": "ROUGH_AMETHYST_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "AMETHYST",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_jade",
+   "name": "Jade Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "LIME_STAINED_GLASS",
+    "LIME_STAINED_GLASS_PANE"
+   ],
+   "strength": 3000,
+   "breakingPower": 7,
+   "drop": "ROUGH_JADE_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "JADE",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_sapphire",
+   "name": "Sapphire Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "LIGHT_BLUE_STAINED_GLASS",
+    "LIGHT_BLUE_STAINED_GLASS_PANE"
+   ],
+   "strength": 3000,
+   "breakingPower": 7,
+   "drop": "ROUGH_SAPPHIRE_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "SAPPHIRE",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_opal",
+   "name": "Opal Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "mineshaft"
+   ],
+   "materials": [
+    "WHITE_STAINED_GLASS",
+    "WHITE_STAINED_GLASS_PANE"
+   ],
+   "strength": 3000,
+   "breakingPower": 7,
+   "drop": "ROUGH_OPAL_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "OPAL",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_topaz",
+   "name": "Topaz Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "YELLOW_STAINED_GLASS",
+    "YELLOW_STAINED_GLASS_PANE"
+   ],
+   "strength": 3800,
+   "breakingPower": 8,
+   "drop": "ROUGH_TOPAZ_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "TOPAZ",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_jasper",
+   "name": "Jasper Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "MAGENTA_STAINED_GLASS",
+    "MAGENTA_STAINED_GLASS_PANE"
+   ],
+   "strength": 4800,
+   "breakingPower": 9,
+   "drop": "ROUGH_JASPER_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 70,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 1,
+   "gem": "JASPER",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_onyx",
+   "name": "Onyx Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "BLACK_STAINED_GLASS",
+    "BLACK_STAINED_GLASS_PANE"
+   ],
+   "strength": 5200,
+   "breakingPower": 9,
+   "drop": "ROUGH_ONYX_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 100,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 2,
+   "gem": "ONYX",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_aquamarine",
+   "name": "Aquamarine Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "BLUE_STAINED_GLASS",
+    "BLUE_STAINED_GLASS_PANE"
+   ],
+   "strength": 5200,
+   "breakingPower": 9,
+   "drop": "ROUGH_AQUAMARINE_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 100,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 2,
+   "gem": "AQUAMARINE",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_citrine",
+   "name": "Citrine Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "BROWN_STAINED_GLASS",
+    "BROWN_STAINED_GLASS_PANE"
+   ],
+   "strength": 5200,
+   "breakingPower": 9,
+   "drop": "ROUGH_CITRINE_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 100,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 2,
+   "gem": "CITRINE",
+   "areaOnly": false
+  },
+  {
+   "id": "gem_peridot",
+   "name": "Peridot Gemstone",
+   "kind": "GEMSTONE",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "GREEN_STAINED_GLASS",
+    "GREEN_STAINED_GLASS_PANE"
+   ],
+   "strength": 5200,
+   "breakingPower": 9,
+   "drop": "ROUGH_PERIDOT_GEM",
+   "min": 1,
+   "max": 1,
+   "xp": 100,
+   "powder": "GEMSTONE",
+   "powderAmount": 2,
+   "quality": 8,
+   "fuel": 2,
+   "gem": "PERIDOT",
+   "areaOnly": false
+  },
+  {
+   "id": "hard_stone",
+   "name": "Hard Stone",
+   "kind": "HARD_STONE",
+   "islands": [
+    "crystal_hollows"
+   ],
+   "materials": [
+    "STONE",
+    "BLACK_TERRACOTTA",
+    "GRAY_TERRACOTTA",
+    "LIGHT_GRAY_TERRACOTTA",
+    "BROWN_TERRACOTTA",
+    "CYAN_TERRACOTTA",
+    "LIGHT_GRAY_WOOL",
+    "GRAY_WOOL"
+   ],
+   "strength": 50,
+   "breakingPower": 4,
+   "drop": "HARD_STONE",
+   "min": 1,
+   "max": 1,
+   "xp": 2,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "hard_stone_ms",
+   "name": "Hard Stone",
+   "kind": "HARD_STONE",
+   "islands": [
+    "mineshaft",
+    "glacite_tunnels"
+   ],
+   "materials": [
+    "STONE",
+    "BLACK_TERRACOTTA",
+    "GRAY_TERRACOTTA",
+    "LIGHT_GRAY_TERRACOTTA",
+    "LIGHT_GRAY_WOOL"
+   ],
+   "strength": 50,
+   "breakingPower": 4,
+   "drop": "HARD_STONE",
+   "min": 1,
+   "max": 1,
+   "xp": 2,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "glacite",
+   "name": "Rimestone",
+   "kind": "METAL",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "PACKED_ICE"
+   ],
+   "strength": 6000,
+   "breakingPower": 9,
+   "drop": "GLACITE",
+   "min": 1,
+   "max": 1,
+   "xp": 150,
+   "powder": "GLACITE",
+   "powderAmount": 2,
+   "quality": 4,
+   "fuel": 3,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "umber",
+   "name": "Umber",
+   "kind": "METAL",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "BROWN_TERRACOTTA",
+    "TERRACOTTA",
+    "RED_SANDSTONE",
+    "SMOOTH_RED_SANDSTONE"
+   ],
+   "strength": 5600,
+   "breakingPower": 9,
+   "drop": "UMBER",
+   "min": 1,
+   "max": 1,
+   "xp": 150,
+   "powder": "GLACITE",
+   "powderAmount": 2,
+   "quality": 4,
+   "fuel": 3,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "tungsten",
+   "name": "Tungsten",
+   "kind": "METAL",
+   "islands": [
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "COBBLESTONE",
+    "CLAY"
+   ],
+   "strength": 5600,
+   "breakingPower": 9,
+   "drop": "TUNGSTEN",
+   "min": 1,
+   "max": 1,
+   "xp": 150,
+   "powder": "GLACITE",
+   "powderAmount": 2,
+   "quality": 4,
+   "fuel": 3,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "mithril_gray",
+   "name": "Mithril",
+   "kind": "METAL",
+   "islands": [
+    "dwarven_mines",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "GRAY_WOOL",
+    "CYAN_TERRACOTTA"
+   ],
+   "strength": 500,
+   "breakingPower": 4,
+   "drop": "MITHRIL_ORE",
+   "min": 1,
+   "max": 1,
+   "xp": 45,
+   "powder": "MITHRIL",
+   "powderAmount": 2,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "mithril_prismarine",
+   "name": "Mithril",
+   "kind": "METAL",
+   "islands": [
+    "dwarven_mines",
+    "glacite_tunnels",
+    "mineshaft",
+    "crystal_hollows"
+   ],
+   "materials": [
+    "PRISMARINE",
+    "PRISMARINE_BRICKS",
+    "DARK_PRISMARINE"
+   ],
+   "strength": 800,
+   "breakingPower": 4,
+   "drop": "MITHRIL_ORE",
+   "min": 1,
+   "max": 1,
+   "xp": 45,
+   "powder": "MITHRIL",
+   "powderAmount": 2,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "mithril_blue",
+   "name": "High-Grade Mithril",
+   "kind": "METAL",
+   "islands": [
+    "dwarven_mines",
+    "glacite_tunnels",
+    "mineshaft",
+    "crystal_hollows"
+   ],
+   "materials": [
+    "LIGHT_BLUE_WOOL"
+   ],
+   "strength": 1500,
+   "breakingPower": 4,
+   "drop": "MITHRIL_ORE",
+   "min": 2,
+   "max": 2,
+   "xp": 45,
+   "powder": "MITHRIL",
+   "powderAmount": 2,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "titanium",
+   "name": "Titanium",
+   "kind": "METAL",
+   "islands": [
+    "dwarven_mines",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "POLISHED_DIORITE"
+   ],
+   "strength": 2000,
+   "breakingPower": 5,
+   "drop": "TITANIUM_ORE",
+   "min": 1,
+   "max": 1,
+   "xp": 100,
+   "powder": "MITHRIL",
+   "powderAmount": 5,
+   "quality": 8,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_coal",
+   "name": "Pure Coal",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "COAL_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "COAL",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_iron",
+   "name": "Pure Iron",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "IRON_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "IRON_INGOT",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_gold",
+   "name": "Pure Gold",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "GOLD_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "GOLD_INGOT",
+   "min": 1,
+   "max": 1,
+   "xp": 20,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_lapis",
+   "name": "Pure Lapis",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "LAPIS_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "INK_SACK:4",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_redstone",
+   "name": "Pure Redstone",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "REDSTONE_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "REDSTONE",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_emerald",
+   "name": "Pure Emerald",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "EMERALD_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "EMERALD",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_diamond",
+   "name": "Pure Diamond",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "DIAMOND_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "DIAMOND",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "pure_quartz",
+   "name": "Pure Quartz",
+   "kind": "PURE_ORE",
+   "islands": [
+    "dwarven_mines",
+    "crystal_hollows",
+    "mineshaft"
+   ],
+   "materials": [
+    "QUARTZ_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "QUARTZ",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 2,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "diamond_block_dc",
+   "name": "Block of Diamond",
+   "kind": "ORE",
+   "islands": [
+    "deep_caverns"
+   ],
+   "materials": [
+    "DIAMOND_BLOCK"
+   ],
+   "strength": 600,
+   "breakingPower": 3,
+   "drop": "DIAMOND_BLOCK",
+   "min": 1,
+   "max": 1,
+   "xp": 15,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "coal_ore",
+   "name": "Coal Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "COAL_ORE",
+    "DEEPSLATE_COAL_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 1,
+   "drop": "COAL",
+   "min": 1,
+   "max": 1,
+   "xp": 5,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "iron_ore",
+   "name": "Iron Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "IRON_ORE",
+    "DEEPSLATE_IRON_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 2,
+   "drop": "IRON_INGOT",
+   "min": 1,
+   "max": 1,
+   "xp": 5,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "gold_ore",
+   "name": "Gold Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "GOLD_ORE",
+    "DEEPSLATE_GOLD_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 3,
+   "drop": "GOLD_INGOT",
+   "min": 1,
+   "max": 1,
+   "xp": 6,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "lapis_ore",
+   "name": "Lapis Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "LAPIS_ORE",
+    "DEEPSLATE_LAPIS_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 2,
+   "drop": "INK_SACK:4",
+   "min": 4,
+   "max": 8,
+   "xp": 7,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "redstone_ore",
+   "name": "Redstone Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "REDSTONE_ORE",
+    "DEEPSLATE_REDSTONE_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 3,
+   "drop": "REDSTONE",
+   "min": 4,
+   "max": 5,
+   "xp": 7,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "emerald_ore",
+   "name": "Emerald Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "EMERALD_ORE",
+    "DEEPSLATE_EMERALD_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 3,
+   "drop": "EMERALD",
+   "min": 1,
+   "max": 1,
+   "xp": 9,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "diamond_ore",
+   "name": "Diamond Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "DIAMOND_ORE",
+    "DEEPSLATE_DIAMOND_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 3,
+   "drop": "DIAMOND",
+   "min": 1,
+   "max": 1,
+   "xp": 10,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "nether_quartz_ore",
+   "name": "Nether Quartz Ore",
+   "kind": "ORE",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows",
+    "glacite_tunnels",
+    "mineshaft"
+   ],
+   "materials": [
+    "NETHER_QUARTZ_ORE"
+   ],
+   "strength": 30,
+   "breakingPower": 3,
+   "drop": "QUARTZ",
+   "min": 1,
+   "max": 1,
+   "xp": 5,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "obsidian",
+   "name": "Obsidian",
+   "kind": "OBSIDIAN",
+   "islands": [
+    "deep_caverns",
+    "dwarven_mines",
+    "crystal_hollows"
+   ],
+   "materials": [
+    "OBSIDIAN"
+   ],
+   "strength": 500,
+   "breakingPower": 4,
+   "drop": "OBSIDIAN",
+   "min": 1,
+   "max": 1,
+   "xp": 20,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "glowstone",
+   "name": "Glowstone",
+   "kind": "STANDARD",
+   "islands": [
+    "deep_caverns",
+    "dwarven_mines"
+   ],
+   "materials": [
+    "GLOWSTONE"
+   ],
+   "strength": 30,
+   "breakingPower": 1,
+   "drop": "GLOWSTONE_DUST",
+   "min": 2,
+   "max": 4,
+   "xp": 7,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": false
+  },
+  {
+   "id": "stone",
+   "name": "Stone",
+   "kind": "STANDARD",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines"
+   ],
+   "materials": [
+    "STONE",
+    "ANDESITE",
+    "DIORITE",
+    "GRANITE",
+    "DEEPSLATE",
+    "TUFF"
+   ],
+   "strength": 15,
+   "breakingPower": 1,
+   "drop": "COBBLESTONE",
+   "min": 1,
+   "max": 1,
+   "xp": 1,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": true
+  },
+  {
+   "id": "cobblestone",
+   "name": "Cobblestone",
+   "kind": "STANDARD",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns",
+    "dwarven_mines"
+   ],
+   "materials": [
+    "COBBLESTONE"
+   ],
+   "strength": 20,
+   "breakingPower": 1,
+   "drop": "COBBLESTONE",
+   "min": 1,
+   "max": 1,
+   "xp": 1,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": true
+  },
+  {
+   "id": "gravel",
+   "name": "Gravel",
+   "kind": "STANDARD",
+   "islands": [
+    "hub",
+    "gold_mine",
+    "deep_caverns"
+   ],
+   "materials": [
+    "GRAVEL"
+   ],
+   "strength": 18,
+   "breakingPower": 0,
+   "drop": "GRAVEL",
+   "min": 1,
+   "max": 1,
+   "xp": 4,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": true
+  },
+  {
+   "id": "ice",
+   "name": "Ice",
+   "kind": "STANDARD",
+   "islands": [
+    "dwarven_mines",
+    "glacite_tunnels"
+   ],
+   "materials": [
+    "ICE"
+   ],
+   "strength": 15,
+   "breakingPower": 0,
+   "drop": "ICE",
+   "min": 1,
+   "max": 1,
+   "xp": 1,
+   "powder": null,
+   "powderAmount": 0,
+   "quality": 1,
+   "fuel": 1,
+   "gem": null,
+   "areaOnly": true
+  }
+ ]
+}

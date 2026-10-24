@@ -1,0 +1,437 @@
+[
+ {
+  "item": "BIOFUEL",
+  "price": 20000,
+  "currency": "coins",
+  "category": "Farming",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "SAM_SCYTHE",
+  "price": 2000,
+  "currency": "coins",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "GARDEN_SCYTHE",
+  "price": 20,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "ENCHANTMENT_SUNDER_1",
+  "price": 10,
+  "currency": "copper",
+  "category": "Books",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "ENCHANTMENT_DEDICATION_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Books",
+  "level": 3,
+  "needs": {}
+ },
+ {
+  "item": "ENCHANTMENT_GREEN_THUMB_1",
+  "price": 1500,
+  "currency": "copper",
+  "category": "Books",
+  "level": 5,
+  "needs": {}
+ },
+ {
+  "item": "LOTUS_BRACELET",
+  "price": 50,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 2,
+  "needs": {}
+ },
+ {
+  "item": "LOTUS_BELT",
+  "price": 100,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 3,
+  "needs": {}
+ },
+ {
+  "item": "LOTUS_NECKLACE",
+  "price": 200,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 4,
+  "needs": {}
+ },
+ {
+  "item": "LOTUS_CLOAK",
+  "price": 500,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 5,
+  "needs": {}
+ },
+ {
+  "item": "BASIC_GARDENING_HOE",
+  "price": 5,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "BASIC_GARDENING_AXE",
+  "price": 5,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "BLOSSOM_BRACELET",
+  "price": 2500,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 6,
+  "needs": {}
+ },
+ {
+  "item": "BLOSSOM_BELT",
+  "price": 5000,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 7,
+  "needs": {}
+ },
+ {
+  "item": "BLOSSOM_NECKLACE",
+  "price": 7500,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 8,
+  "needs": {}
+ },
+ {
+  "item": "BLOSSOM_CLOAK",
+  "price": 10000,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 9,
+  "needs": {}
+ },
+ {
+  "item": "ADVANCED_GARDENING_HOE",
+  "price": 25,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "ADVANCED_GARDENING_AXE",
+  "price": 25,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "COPPER_TALISMAN",
+  "price": 5000,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "COPPER_RING",
+  "price": 20000,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 8,
+  "needs": {
+   "COPPER_TALISMAN": 1
+  }
+ },
+ {
+  "item": "COPPER_ARTIFACT",
+  "price": 50000,
+  "currency": "copper",
+  "category": "Equipment",
+  "level": 12,
+  "needs": {
+   "COPPER_RING": 1
+  }
+ },
+ {
+  "item": "SOWLEDGE_GARDEN_CHIP",
+  "price": 200,
+  "currency": "copper",
+  "category": "Chips",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "CROPSHOT_GARDEN_CHIP",
+  "price": 500,
+  "currency": "copper",
+  "category": "Chips",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "HYDRO_CAN_1000",
+  "price": 5000,
+  "currency": "coins",
+  "category": "Watering",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "HYDRO_CAN_TURBO_2000",
+  "price": 200,
+  "currency": "copper",
+  "category": "Watering",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "HYDRO_CAN_ULTRA_3000",
+  "price": 500,
+  "currency": "copper",
+  "category": "Watering",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "AQUAMASTER_X",
+  "price": 1000,
+  "currency": "copper",
+  "category": "Watering",
+  "level": 9,
+  "needs": {}
+ },
+ {
+  "item": "AQUAMASTER_HYDROMAX",
+  "price": 2500,
+  "currency": "copper",
+  "category": "Watering",
+  "level": 11,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_WHEAT_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_CARROT_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 2,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_POTATO_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 3,
+  "needs": {}
+ },
+ {
+  "item": "PUMPKIN_DICER",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 4,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_CANE_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 5,
+  "needs": {}
+ },
+ {
+  "item": "MELON_DICER",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 6,
+  "needs": {}
+ },
+ {
+  "item": "CACTUS_KNIFE",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 7,
+  "needs": {}
+ },
+ {
+  "item": "COCO_CHOPPER",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 8,
+  "needs": {}
+ },
+ {
+  "item": "FUNGI_CUTTER",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 9,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_WARTS_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 10,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_SUNFLOWER_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 11,
+  "needs": {}
+ },
+ {
+  "item": "THEORETICAL_HOE_WILD_ROSE_1",
+  "price": 250,
+  "currency": "copper",
+  "category": "Tools",
+  "level": 12,
+  "needs": {}
+ },
+ {
+  "item": "SKYMART_VACUUM",
+  "price": 5000,
+  "currency": "coins",
+  "category": "Pests",
+  "level": 5,
+  "needs": {}
+ },
+ {
+  "item": "SKYMART_TURBO_VACUUM",
+  "price": 200,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "SKYMART_VACUUM": 1
+  }
+ },
+ {
+  "item": "SKYMART_HYPER_VACUUM",
+  "price": 500,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "SKYMART_TURBO_VACUUM": 1
+  }
+ },
+ {
+  "item": "INFINI_VACUUM",
+  "price": 1000,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "SKYMART_HYPER_VACUUM": 1
+  }
+ },
+ {
+  "item": "INFINI_VACUUM_HOOVERIUS",
+  "price": 2500,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "INFINI_VACUUM": 1,
+   "CHIRPING_STEREO": 1
+  }
+ },
+ {
+  "item": "SPRAYONATOR",
+  "price": 25,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {}
+ },
+ {
+  "item": "PEST_REPELLENT",
+  "price": 15,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "PEST_REPELLENT_MAX",
+  "price": 25,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "COMPOST",
+  "price": 2500,
+  "currency": "coins",
+  "category": "Farming",
+  "level": 1,
+  "needs": {}
+ },
+ {
+  "item": "JUICY_SPRAYONATOR",
+  "price": 1000,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "SPRAYONATOR": 1,
+   "JUICY_NOZZLE": 1
+  }
+ },
+ {
+  "item": "SALTY_SPRAYONATOR",
+  "price": 10000,
+  "currency": "copper",
+  "category": "Pests",
+  "level": 5,
+  "needs": {
+   "JUICY_SPRAYONATOR": 1,
+   "SALTY_NOZZLE": 1
+  }
+ },
+ {
+  "item": "GREENHOUSE_BLUEPRINT",
+  "price": 2500,
+  "currency": "copper",
+  "category": "Farming",
+  "level": 7,
+  "needs": {}
+ }
+]

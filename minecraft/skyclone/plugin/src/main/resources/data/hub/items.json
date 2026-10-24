@@ -1,0 +1,122 @@
+[
+ {
+  "id": "HUB_CASTLE_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Old Keep",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &bHub",
+   "&7Destination: &bOld Keep",
+   "&8/warp castle",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "owner": "hub",
+   "hubDistrict": "castle"
+  }
+ },
+ {
+  "id": "HUB_CRYPTS_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Hub Crypts",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &bHub",
+   "&7Destination: &bCrypts",
+   "&8/warp crypt",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "owner": "hub",
+   "hubDistrict": "crypt"
+  }
+ },
+ {
+  "id": "HUB_DA_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Dark Auction",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &bHub",
+   "&7Destination: &bDark Auction",
+   "&8/warp da",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "owner": "hub",
+   "hubDistrict": "dark_auction"
+  }
+ },
+ {
+  "id": "HUB_WIZARD_TOWER_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Wizard Tower",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &bHub",
+   "&7Destination: &bWizard Tower",
+   "&8/warp wizard",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "owner": "hub",
+   "hubDistrict": "wizard_tower"
+  }
+ },
+ {
+  "id": "MUSEUM_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Museum",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &bHub",
+   "&7Destination: &bMuseum",
+   "&8/warp museum",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "owner": "hub",
+   "hubDistrict": "museum"
+  }
+ }
+]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GLEANER — the Goldsea</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%; overflow: hidden;
+    background: #12091c;
+    font-family: "Segoe UI", Inter, system-ui, sans-serif;
+  }
+  canvas { display: block; cursor: crosshair; }
+  #boom {
+    position: fixed; inset: 0; display: none;
+    align-items: center; justify-content: center;
+    background: #140c04; color: #e0533a; padding: 40px;
+    font: 14px/1.6 ui-monospace, Consolas, monospace; white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="boom"></div>
+<script>
+  // ES modules need a server; a bare file:// open fails silently otherwise.
+  addEventListener('error', function (e) {
+    var b = document.getElementById('boom');
+    b.style.display = 'flex';
+    b.textContent = (location.protocol === 'file:'
+      ? 'Opened straight from disk — ES modules will not load over file://\n\nRun  Play.bat  instead.\n\n'
+      : '') + (e.message || e) + '\n' + (e.filename || '') + ':' + (e.lineno || '');
+  });
+</script>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

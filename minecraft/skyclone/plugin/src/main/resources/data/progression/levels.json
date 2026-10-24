@@ -1,0 +1,605 @@
+{
+ "_note": "SkyBlock Level data. 100 SB XP per level, +5 Health per level, +1 Strength per 5 levels (research 02 section 6.1). Colours change every 40 levels. Task maxima from neu-repo/constants/sblevels.json and research 02 section 6.3; a max of 0 = no cap shown. 'objectives' max is filled at runtime from the chain length.",
+ "xpPerLevel": 100,
+ "healthPerLevel": 5,
+ "strengthEveryLevels": 5,
+ "rewards": [
+  {
+   "level": 3,
+   "text": "Access to the Community Shop"
+  },
+  {
+   "level": 5,
+   "text": "Access to the Garden",
+   "dial": "garden.requirement"
+  },
+  {
+   "level": 5,
+   "text": "Access to the Wardrobe"
+  },
+  {
+   "level": 6,
+   "text": "Auto-pickup of block and mob drops"
+  },
+  {
+   "level": 5,
+   "text": "Access to the Bazaar",
+   "dial": "bazaar.access-requirement"
+  },
+  {
+   "level": 12,
+   "text": "Access to the Wizard Tower portal"
+  },
+  {
+   "level": 25,
+   "text": "Tome of Progress accessory"
+  },
+  {
+   "level": 25,
+   "text": "Stacked Healing: bonus Vitality"
+  },
+  {
+   "level": 50,
+   "text": "Defensive Strongarm: bonus Defense"
+  },
+  {
+   "level": 50,
+   "text": "Daily coin trading limit raised"
+  },
+  {
+   "level": 75,
+   "text": "Tome of Progress upgrades to Uncommon"
+  },
+  {
+   "level": 75,
+   "text": "Extra Infliction: more damage to mobs"
+  },
+  {
+   "level": 100,
+   "text": "Daily coin trading limit raised again"
+  },
+  {
+   "level": 150,
+   "text": "Tome of Progress upgrades to Rare"
+  },
+  {
+   "level": 225,
+   "text": "Tome of Progress upgrades to Epic"
+  },
+  {
+   "level": 300,
+   "text": "Tome of Progress upgrades to Legendary"
+  },
+  {
+   "level": 400,
+   "text": "Tome of Progress upgrades to Mythic"
+  }
+ ],
+ "emblems": [
+  {
+   "id": "diamond",
+   "name": "Diamond",
+   "symbol": "\u2666",
+   "level": 10
+  },
+  {
+   "id": "spade",
+   "name": "Spade",
+   "symbol": "\u2660",
+   "level": 20
+  },
+  {
+   "id": "heart",
+   "name": "Heart",
+   "symbol": "\u2764",
+   "level": 30
+  },
+  {
+   "id": "pristine",
+   "name": "Pristine",
+   "symbol": "\u2727",
+   "level": 40
+  },
+  {
+   "id": "arc_reactor",
+   "name": "Arc Reactor",
+   "symbol": "\u238a",
+   "level": 50
+  },
+  {
+   "id": "marker",
+   "name": "Marker",
+   "symbol": "\u1360",
+   "level": 60
+  },
+  {
+   "id": "badge",
+   "name": "Badge",
+   "symbol": "\u262c",
+   "level": 70
+  },
+  {
+   "id": "star",
+   "name": "Star",
+   "symbol": "\u269d",
+   "level": 80
+  },
+  {
+   "id": "boxes",
+   "name": "Boxes",
+   "symbol": "\u29c9",
+   "level": 90
+  },
+  {
+   "id": "imp",
+   "name": "Imp",
+   "symbol": "\ua214",
+   "level": 100
+  },
+  {
+   "id": "globe",
+   "name": "Globe",
+   "symbol": "\u32d6",
+   "level": 120
+  },
+  {
+   "id": "soulstream",
+   "name": "Soulstream",
+   "symbol": "\u2e0e",
+   "level": 140
+  },
+  {
+   "id": "warning",
+   "name": "Warning",
+   "symbol": "\u26a0",
+   "level": 160
+  },
+  {
+   "id": "mustache",
+   "name": "Mustache",
+   "symbol": "\ua541",
+   "level": 180
+  },
+  {
+   "id": "helmet",
+   "name": "Helmet",
+   "symbol": "\u3020",
+   "level": 200
+  },
+  {
+   "id": "smiley",
+   "name": "Sideways Smiley",
+   "symbol": "\u30c4",
+   "level": 250
+  },
+  {
+   "id": "spaceship",
+   "name": "Spaceship",
+   "symbol": "\u2948",
+   "level": 300
+  },
+  {
+   "id": "toxic",
+   "name": "Toxic",
+   "symbol": "\u2622",
+   "level": 350
+  },
+  {
+   "id": "biohazard",
+   "name": "Biohazard",
+   "symbol": "\u2623",
+   "level": 400
+  },
+  {
+   "id": "florette",
+   "name": "Florette",
+   "symbol": "\u273e",
+   "level": 450
+  },
+  {
+   "id": "fleur",
+   "name": "Golden Fleur De Lis",
+   "symbol": "\u269c",
+   "level": 500
+  }
+ ],
+ "categories": [
+  {
+   "id": "core",
+   "name": "Core Tasks",
+   "icon": "NETHER_STAR",
+   "max": 14235,
+   "tasks": [
+    {
+     "name": "Skill Level Ups",
+     "prefixes": [
+      "skill",
+      "skills"
+     ],
+     "max": 7800
+    },
+    {
+     "name": "Museum Progression",
+     "prefixes": [
+      "museum"
+     ],
+     "max": 3522
+    },
+    {
+     "name": "Fairy Souls",
+     "prefixes": [
+      "fairy"
+     ],
+     "max": 530
+    },
+    {
+     "name": "Accessory Bag",
+     "prefixes": [
+      "accessory",
+      "accessories",
+      "mp",
+      "magical_power"
+     ],
+     "max": 2007
+    },
+    {
+     "name": "Pet Score",
+     "prefixes": [
+      "pet",
+      "pets",
+      "pet_score"
+     ],
+     "max": 1518
+    },
+    {
+     "name": "Collections",
+     "prefixes": [
+      "collection",
+      "collections"
+     ],
+     "max": 3160
+    },
+    {
+     "name": "Craft Minions",
+     "prefixes": [
+      "minion",
+      "minions"
+     ],
+     "max": 2963
+    },
+    {
+     "name": "Bank Upgrades",
+     "prefixes": [
+      "bank"
+     ],
+     "max": 200
+    },
+    {
+     "name": "Fast Travel Unlocked",
+     "prefixes": [
+      "travel",
+      "warp",
+      "scroll"
+     ],
+     "max": 300
+    }
+   ]
+  },
+  {
+   "id": "event",
+   "name": "Event Tasks",
+   "icon": "CLOCK",
+   "max": 625,
+   "tasks": [
+    {
+     "name": "Mining Fiesta",
+     "prefixes": [
+      "fiesta",
+      "mining_fiesta"
+     ],
+     "max": 200
+    },
+    {
+     "name": "Fishing Festival",
+     "prefixes": [
+      "fishing_festival",
+      "festival"
+     ],
+     "max": 100
+    },
+    {
+     "name": "Spooky Festival",
+     "prefixes": [
+      "spooky",
+      "spooky_festival"
+     ],
+     "max": 225
+    },
+    {
+     "name": "Farming Contests",
+     "prefixes": [
+      "contest",
+      "jacob",
+      "farming_contest"
+     ],
+     "max": 130
+    },
+    {
+     "name": "Other Events",
+     "prefixes": [
+      "event"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  {
+   "id": "dungeon",
+   "name": "Dungeon Tasks",
+   "icon": "WITHER_SKELETON_SKULL",
+   "max": 2760,
+   "tasks": [
+    {
+     "name": "Catacombs Levels",
+     "prefixes": [
+      "catacombs"
+     ],
+     "max": 1220
+    },
+    {
+     "name": "Class Levels",
+     "prefixes": [
+      "class"
+     ],
+     "max": 1000
+    },
+    {
+     "name": "Floor Completions",
+     "prefixes": [
+      "dungeon",
+      "floor"
+     ],
+     "max": 540
+    }
+   ]
+  },
+  {
+   "id": "essence",
+   "name": "Essence Shop Tasks",
+   "icon": "GHAST_TEAR",
+   "max": 1310,
+   "tasks": [
+    {
+     "name": "Essence Shop Perks",
+     "prefixes": [
+      "essence"
+     ],
+     "max": 1310
+    }
+   ]
+  },
+  {
+   "id": "slaying",
+   "name": "Slaying Tasks",
+   "icon": "GOLDEN_SWORD",
+   "max": 10190,
+   "tasks": [
+    {
+     "name": "Slayer Levels",
+     "prefixes": [
+      "slayer"
+     ],
+     "max": 3825
+    },
+    {
+     "name": "Boss Collections",
+     "prefixes": [
+      "boss_collection",
+      "boss"
+     ],
+     "max": 1015
+    },
+    {
+     "name": "Bestiary",
+     "prefixes": [
+      "bestiary"
+     ],
+     "max": 3640
+    },
+    {
+     "name": "Dragons Slain",
+     "prefixes": [
+      "dragon"
+     ],
+     "max": 200
+    },
+    {
+     "name": "Slayer Bosses Defeated",
+     "prefixes": [
+      "slayer_boss",
+      "defeat_slayer"
+     ],
+     "max": 1050
+    },
+    {
+     "name": "Leviathan Tiers",
+     "prefixes": [
+      "kuudra"
+     ],
+     "max": 300
+    },
+    {
+     "name": "Silkmother",
+     "prefixes": [
+      "arachne"
+     ],
+     "max": 60
+    },
+    {
+     "name": "Mythological Creatures",
+     "prefixes": [
+      "mythological",
+      "diana"
+     ],
+     "max": 100
+    }
+   ]
+  },
+  {
+   "id": "skill_related",
+   "name": "Skill Related Tasks",
+   "icon": "DIAMOND_PICKAXE",
+   "max": 5883,
+   "tasks": [
+    {
+     "name": "Heart of the Mountain",
+     "prefixes": [
+      "hotm",
+      "potm",
+      "powder"
+     ],
+     "max": 3818
+    },
+    {
+     "name": "Commission Milestones",
+     "prefixes": [
+      "commission",
+      "commissions"
+     ],
+     "max": 255
+    },
+    {
+     "name": "Crystal Nucleus",
+     "prefixes": [
+      "nucleus",
+      "crystal_nucleus"
+     ],
+     "max": 200
+    },
+    {
+     "name": "Garden",
+     "prefixes": [
+      "garden",
+      "visitor",
+      "visitors",
+      "crop",
+      "plot",
+      "composter",
+      "greenhouse"
+     ],
+     "max": 1500
+    },
+    {
+     "name": "Trophy Fish",
+     "prefixes": [
+      "trophy",
+      "trophy_fish"
+     ],
+     "max": 1080
+    },
+    {
+     "name": "Heart of the Forest",
+     "prefixes": [
+      "hotf"
+     ],
+     "max": 800
+    },
+    {
+     "name": "Other Skill Tasks",
+     "prefixes": [
+      "mining",
+      "farming",
+      "fishing",
+      "foraging",
+      "anita",
+      "dolphin",
+      "rock"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  {
+   "id": "misc",
+   "name": "Miscellaneous Tasks",
+   "icon": "BOOK",
+   "max": 2381,
+   "tasks": [
+    {
+     "name": "Accessory Bag Upgrades",
+     "prefixes": [
+      "bag_upgrade",
+      "accessory_bag"
+     ],
+     "max": 198
+    },
+    {
+     "name": "Community Shop Upgrades",
+     "prefixes": [
+      "community",
+      "community_shop"
+     ],
+     "max": 120
+    },
+    {
+     "name": "Personal Bank",
+     "prefixes": [
+      "personal_bank"
+     ],
+     "max": 110
+    },
+    {
+     "name": "Consumables",
+     "prefixes": [
+      "consumable",
+      "cake"
+     ],
+     "max": 135
+    },
+    {
+     "name": "Faction Reputation",
+     "prefixes": [
+      "faction",
+      "reputation",
+      "crimson"
+     ],
+     "max": 150
+    },
+    {
+     "name": "Everything Else",
+     "prefixes": [],
+     "max": 0
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "name": "Story Tasks",
+   "icon": "WRITABLE_BOOK",
+   "max": 497,
+   "tasks": [
+    {
+     "name": "Objectives",
+     "prefixes": [
+      "objective",
+      "quest",
+      "hub_guide",
+      "island_guide"
+     ],
+     "max": 0
+    },
+    {
+     "name": "Rift Guide",
+     "prefixes": [
+      "rift"
+     ],
+     "max": 357
+    }
+   ]
+  }
+ ],
+ "objectiveXp": 5,
+ "fairyExchangeXp": 10,
+ "bestiaryFamilyXp": 1,
+ "bestiaryMilestoneXp": 10
+}

@@ -1,0 +1,1919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombies Incremental: Protocol Zero</title>
+    <style>
+        :root {
+            --bg-deep: #0f0518;
+            --bg-mid: #2a0a18;
+            --accent-red: #ff3333;
+            --accent-gold: #ffd700;
+            --accent-plasma: #bc13fe;
+            --accent-void: #00f7ff;
+            --accent-dark: #444444;
+            --glass: rgba(18, 18, 24, 0.95);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-main: #e0e0e0;
+            --text-dim: #888;
+            --font-ui: 'Courier New', Courier, monospace;
+        }
+
+        * { box-sizing: border-box; user-select: none; }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(135deg, #05000a, #2b0014, #0f001f);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            color: var(--text-main);
+            font-family: var(--font-ui);
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 350px 1fr 350px;
+            grid-template-rows: 60px 1fr;
+            gap: 10px;
+            padding: 20px;
+            transition: filter 2s ease;
+        }
+
+        /* Singularity Animation Classes */
+        body.singularity-active {
+            animation: collapseUniverse 4s forwards ease-in;
+            pointer-events: none;
+        }
+
+        @keyframes collapseUniverse {
+            0% { transform: scale(1); filter: hue-rotate(0deg); }
+            50% { transform: scale(0.5) rotate(5deg); filter: hue-rotate(180deg) invert(1); background: black; }
+            90% { transform: scale(0.01) rotate(720deg); opacity: 1; }
+            100% { transform: scale(0); opacity: 0; background: #fff; }
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* UI Components */
+        .glass-panel {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* HUD */
+        #hud {
+            grid-column: 2 / 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            grid-row: 1;
+        }
+
+        .stage-info { 
+            color: var(--accent-red); 
+            display: flex; 
+            align-items: center; 
+            gap: 10px;
+        }
+
+        .progress-count {
+            font-size: 0.9rem;
+            color: #fff;
+            background: rgba(255,0,0,0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid rgba(255,0,0,0.3);
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .nav-btn {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #fff;
+            width: 30px; 
+            height: 30px;
+            border-radius: 4px;
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.2s;
+        }
+        .nav-btn:hover { background: rgba(255,255,255,0.2); }
+        .nav-btn.disabled { opacity: 0.3; pointer-events: none; }
+        
+        /* Settings Button */
+        #settings-btn {
+            position: absolute; top: 20px; left: 20px;
+            width: 30px; height: 30px;
+            cursor: pointer; z-index: 1000;
+            fill: #666; transition: 0.3s;
+        }
+        #settings-btn:hover { fill: #fff; transform: rotate(90deg); }
+
+        /* Resources List (Left Panel) */
+        .resource-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+        }
+        .res-label { font-weight: bold; }
+        .res-val { font-family: monospace; }
+
+        /* Rarity Classes for Artifacts */
+        .rarity-common { color: #aaa; text-shadow: 0 0 2px #fff; }
+        .rarity-uncommon { color: #0f0; text-shadow: 0 0 3px #0f0; }
+        .rarity-rare { color: #00f; text-shadow: 0 0 4px #00f; }
+        .rarity-epic { color: #bc13fe; text-shadow: 0 0 5px #bc13fe; }
+        .rarity-legendary { color: #ff9900; text-shadow: 0 0 8px #ff9900; }
+        .rarity-mythic { color: #ff00ff; text-shadow: 0 0 10px #ff00ff; font-weight:bold; }
+        .rarity-unknown { color: #f00; animation: glitchText 0.2s infinite; }
+
+        /* Buy Multipliers */
+        .buy-mults {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        .buy-btn {
+            flex: 1;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid #444;
+            color: #666;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .buy-btn.active {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            background: rgba(255, 215, 0, 0.1);
+        }
+
+        /* Main Game Area */
+        #stage-area {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        #alpha-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 8px 12px;
+            font-family: var(--font-ui);
+            font-weight: bold;
+            font-size: 0.8rem;
+            border: 1px solid #444;
+            background: rgba(0,0,0,0.8);
+            color: #666;
+            cursor: not-allowed;
+            z-index: 100;
+            transition: 0.3s;
+            text-transform: uppercase;
+            border-radius: 4px;
+        }
+        #alpha-btn.ready {
+            border-color: red;
+            color: red;
+            background: rgba(50,0,0,0.8);
+            cursor: pointer;
+            animation: pulseBtn 1s infinite;
+        }
+        @keyframes pulseBtn { 0% { box-shadow: 0 0 0 red; } 50% { box-shadow: 0 0 10px red; } 100% { box-shadow: 0 0 0 red; } }
+
+        /* Toggles */
+        .toggle-btn {
+            position: absolute;
+            left: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8rem;
+            color: #666;
+            cursor: pointer;
+            z-index: 100;
+        }
+        .toggle-btn.active { color: var(--accent-gold); }
+        /* Positioning: Hyper on top, Auto below it */
+        .toggle-btn.hyper { top: 15px; display:none; } 
+        .toggle-btn.hyper.active { color: var(--accent-void); }
+        .toggle-btn.auto { top: 45px; } /* Default pos, moves if hyper invisible */
+
+        .checkbox {
+            width: 14px; height: 14px;
+            border: 1px solid #666;
+            background: rgba(0,0,0,0.5);
+            display: inline-block;
+        }
+        .toggle-btn.active .checkbox { background: var(--accent-gold); border-color: var(--accent-gold); box-shadow: 0 0 5px var(--accent-gold); }
+        .toggle-btn.hyper.active .checkbox { background: var(--accent-void); border-color: var(--accent-void); box-shadow: 0 0 5px var(--accent-void); }
+
+
+        #enemy-container {
+            width: 300px;
+            height: 300px;
+            cursor: crosshair;
+            transition: transform 0.05s;
+            filter: drop-shadow(0 0 20px rgba(255, 0, 0, 0.2));
+            z-index: 10;
+            position: relative;
+        }
+
+        #enemy-container:active { transform: scale(0.95); }
+
+        /* Speech Bubble */
+        #speech-bubble {
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -140px);
+            background: #fff;
+            color: #000;
+            padding: 10px 15px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.5s;
+            white-space: normal;
+            z-index: 20;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+            display: none;
+            text-align: center;
+            width: 280px;
+            line-height: 1.2;
+        }
+        #speech-bubble:after {
+            content: ''; position: absolute; bottom: -8px; left: 50%;
+            transform: translateX(-50%);
+            border-width: 8px 8px 0; border-style: solid; border-color: #fff transparent;
+        }
+
+        .hp-bar-container {
+            width: 80%;
+            height: 10px;
+            background: rgba(0,0,0,0.5);
+            border-radius: 5px;
+            margin-top: 20px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+
+        .hp-fill {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(90deg, #ff0000, #ff6666);
+            transition: width 0.1s linear;
+        }
+
+        .enemy-name {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Left Panel */
+        #left-col {
+            grid-column: 1 / 2;
+            grid-row: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            overflow: hidden;
+        }
+        
+        /* Right Panel */
+        #right-col {
+            grid-column: 3 / 4;
+            grid-row: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Lists */
+        .scroll-list {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding-right: 5px;
+        }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+
+        .btn-upgrade {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.1s, border-color 0.1s, transform 0.1s; 
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-upgrade:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255,255,255,0.2); }
+        .btn-upgrade:active { transform: translateY(1px); }
+        .btn-upgrade.locked { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+
+        .upg-name { color: #fff; font-weight: bold; display: block; }
+        .upg-cost { color: var(--accent-gold); font-size: 0.85rem; }
+        .upg-desc { color: var(--text-dim); font-size: 0.75rem; font-style: italic; display: block; margin-top: 4px; }
+        
+        .prestige-btn {
+            background: linear-gradient(45deg, #1a0b2e, #2a0a18);
+            border: 1px solid var(--accent-red);
+            color: var(--accent-red);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+            transition: 0.3s;
+            position: relative;
+        }
+        
+        .prestige-btn:hover { box-shadow: 0 0 15px var(--accent-red); }
+
+        /* Toast Notification for Recommendations */
+        #toast {
+            position: absolute; 
+            bottom: 80px; 
+            left: 50%; 
+            transform: translateX(-50%);
+            background: rgba(0, 247, 255, 0.9); 
+            color: #000; 
+            padding: 10px 20px; 
+            border-radius: 20px;
+            font-weight: bold; 
+            box-shadow: 0 0 20px var(--accent-void); 
+            opacity: 0; 
+            pointer-events: none;
+            transition: opacity 0.5s; 
+            z-index: 5000; 
+            text-align: center; 
+            white-space: nowrap;
+        }
+
+        .layer-2-btn { border-color: var(--accent-plasma); color: var(--accent-plasma); }
+        .layer-2-btn:hover { box-shadow: 0 0 15px var(--accent-plasma); }
+        .layer-3-btn { border-color: var(--accent-void); color: var(--accent-void); }
+        .layer-3-btn:hover { box-shadow: 0 0 15px var(--accent-void); }
+        
+        .layer-4-btn { border-color: #888; color: #888; background: #111; animation: glitchBorder 0.5s infinite; }
+        .layer-4-btn:hover { box-shadow: 0 0 15px #fff; }
+
+        .layer-5-btn { border-color: #fff; color: #000; background: #fff; font-weight: 900; }
+        
+        .cosmic-upg-item {
+            background: rgba(0, 247, 255, 0.05);
+            border: 1px solid var(--accent-void);
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+        .cosmic-upg-item:hover { background: rgba(0, 247, 255, 0.15); }
+        .cosmic-upg-item.maxed { opacity: 0.5; cursor: default; border-color: #444; color: #888; }
+
+        /* FX */
+        .damage-number {
+            position: absolute;
+            pointer-events: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            animation: floatUp 0.8s forwards;
+            text-shadow: 0 0 5px black;
+            z-index: 100;
+        }
+
+        .crit-text { color: #ff0033; font-size: 2.5rem; text-shadow: 0 0 10px #ff0033; }
+        .particle { position: absolute; pointer-events: none; background: var(--accent-red); border-radius: 50%; z-index: 90; }
+        .screen-shake { animation: shake 0.2s cubic-bezier(.36,.07,.19,.97) both; }
+        @keyframes glitchText { 0% { transform:translate(2px,0); } 25% { transform:translate(-2px,2px); } 50% { transform:translate(0,-2px); } 75% { transform:translate(2px,2px); } 100% { transform:translate(0,0); } }
+
+        @keyframes floatUp { 0% { transform: translateY(0) scale(1); opacity: 1; } 100% { transform: translateY(-50px) scale(1.2); opacity: 0; } }
+        @keyframes shake { 10%, 90% { transform: translate3d(-2px, -2px, 0); } 20%, 80% { transform: translate3d(4px, 4px, 0); } 30%, 50%, 70% { transform: translate3d(-6px, -4px, 0); } 40%, 60% { transform: translate3d(6px, 2px, 0); } }
+        @keyframes glitchBorder { 0% { border-color: #fff; transform:translate(1px,0); } 25% { border-color: #000; transform:translate(-1px,1px); } 50% { border-color: #f0f; transform:translate(0,-1px); } 100% { border-color: #fff; transform:translate(0,0); } }
+
+        /* Hidden Dev & Manual Buttons */
+        #pi-btn {
+            position: absolute; bottom: 5px; left: 5px;
+            color: rgba(255,255,255,0.05); cursor: pointer; z-index: 999;
+        }
+        #pi-btn:hover { color: rgba(255,255,255,0.5); }
+
+        #manual-btn {
+            position: absolute; bottom: 20px; right: 20px;
+            width: 40px; height: 40px;
+            background: rgba(0,0,0,0.5);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; z-index: 999;
+            transition: 0.3s;
+        }
+        #manual-btn:hover { background: rgba(255,255,255,0.1); border-color: var(--accent-gold); box-shadow: 0 0 10px var(--accent-gold); }
+        #manual-btn svg { width: 20px; height: 20px; fill: #e0e0e0; }
+
+        /* Anomaly Book Button */
+        #anomaly-btn {
+            position: absolute; bottom: 20px; left: 20px;
+            width: 40px; height: 40px;
+            background: rgba(0,0,0,0.5);
+            border: 1px solid var(--glass-border);
+            border-radius: 5px;
+            display: none; align-items: center; justify-content: center;
+            cursor: pointer; z-index: 999;
+            transition: 0.3s;
+        }
+        #anomaly-btn:hover { background: rgba(255,255,255,0.1); border-color: var(--accent-void); box-shadow: 0 0 10px var(--accent-void); }
+        #anomaly-btn svg { width: 24px; height: 24px; fill: #bc13fe; }
+
+        /* Modals */
+        #dev-console, #manual-modal, #neural-shop-modal, #settings-modal, #anomaly-modal {
+            position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px; max-height: 80vh;
+            background: #000; border: 2px solid #333;
+            padding: 20px; display: none; flex-direction: column; gap: 10px;
+            z-index: 2000; box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            overflow-y: auto;
+        }
+
+        #dev-console { border-color: #0f0; font-family: monospace; }
+        #manual-modal { background: #121216; border: 1px solid var(--accent-gold); border-radius: 8px; }
+        #neural-shop-modal { background: #0f0518; border: 1px solid var(--accent-plasma); border-radius: 8px; }
+        #settings-modal { background: #1a1a1f; border: 1px solid #666; border-radius: 8px; text-align: center; }
+        #anomaly-modal { background: #0b001a; border: 1px solid var(--accent-plasma); border-radius: 8px; width: 600px; }
+
+        .modal-header { font-size: 1.5rem; color: var(--accent-gold); border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 10px; display: flex; justify-content: space-between; }
+        .modal-close { cursor: pointer; color: #666; font-size: 1rem; }
+        .manual-section { margin-bottom: 20px; }
+        .manual-title { color: #fff; font-weight: bold; margin-bottom: 5px; border-left: 3px solid var(--accent-red); padding-left: 10px; }
+        .manual-text { color: #aaa; font-size: 0.9rem; line-height: 1.4; }
+        
+        .shop-item {
+            display: flex; justify-content: space-between; align-items: center;
+            background: rgba(188, 19, 254, 0.1); border: 1px solid var(--accent-plasma);
+            padding: 10px; border-radius: 8px;
+        }
+        .shop-btn {
+            background: var(--accent-plasma); color: #fff; border: none;
+            padding: 5px 10px; cursor: pointer; font-weight: bold; border-radius: 4px;
+        }
+        .shop-btn:disabled { opacity: 0.5; cursor: not-allowed; background: #555; }
+
+        /* Anomaly Grid */
+        .anomaly-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 15px; }
+        .anomaly-slot {
+            aspect-ratio: 1; border: 1px solid #444; background: rgba(0,0,0,0.5);
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; position: relative; border-radius: 5px;
+        }
+        .anomaly-slot.unlocked { border-color: var(--accent-void); background: rgba(0, 247, 255, 0.1); }
+        .anomaly-slot.equipped { box-shadow: 0 0 10px var(--accent-gold); border-color: var(--accent-gold); }
+        .anomaly-icon { font-size: 1.5rem; }
+        .anomaly-slot:hover .anomaly-tooltip { display: block; }
+
+        .anomaly-tooltip {
+            display: none; position: absolute; bottom: 110%; left: 50%; transform: translateX(-50%);
+            background: #111; border: 1px solid #666; padding: 10px; width: 200px;
+            font-size: 0.7rem; color: #fff; z-index: 2500; pointer-events: none; border-radius: 4px;
+        }
+
+        .equipped-slots { display: flex; gap: 10px; justify-content: center; margin-bottom: 15px; }
+        .equip-box { width: 50px; height: 50px; border: 1px dashed #666; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+        .equip-box.filled { border-style: solid; border-color: var(--accent-gold); }
+
+        .log-entry { font-size: 0.7rem; color: #555; margin-bottom: 2px; }
+        .log-entry.glitch { color: #ff0033; }
+        .glitched-text { font-family: "Courier New"; color: #888; }
+
+        /* Sliders */
+        input[type=range] { width: 100%; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+    <svg id="settings-btn" viewBox="0 0 24 24" onclick="Game.toggleSettings()">
+        <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L3.15 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+    </svg>
+
+    <div id="toast">RECOMMENDED: SECTOR 40</div>
+
+    <div id="left-col">
+        <div id="resource-panel" class="glass-panel" style="flex-grow: 0; overflow-y: auto; max-height: 40%;">
+            <h3 style="margin-top:0; border-bottom:1px solid #333; padding-bottom:5px;">STATUS</h3>
+            <div class="resource-row">
+                <span class="res-label" style="color:var(--accent-gold)">BIOMASS</span>
+                <span class="res-val" id="gold-display">0</span>
+            </div>
+            <div class="resource-row" id="mutagen-row" style="display:none">
+                <span class="res-label" style="color:var(--accent-red)">MUTAGENS (L1)</span>
+                <span class="res-val" id="mutagen-display">0</span>
+            </div>
+            <div class="resource-row" id="neural-row" style="display:none">
+                <span class="res-label" style="color:var(--accent-plasma)">NEURAL LINKS (L2)</span>
+                <span class="res-val" id="neural-display">0</span>
+            </div>
+            <div class="resource-row" id="dust-row" style="display:none">
+                <span class="res-label" style="color:var(--accent-void)">STARDUST (L3)</span>
+                <span class="res-val" id="dust-display">0</span>
+            </div>
+            <div class="resource-row" id="dark-row" style="display:none">
+                <span class="res-label" style="color:#666">DARK MATTER (L4)</span>
+                <span class="res-val" id="dark-display">0</span>
+            </div>
+            <div class="resource-row" id="universe-row" style="display:none">
+                <span class="res-label" style="color:#fff">UNIVERSE</span>
+                <span class="res-val" id="universe-display">0</span>
+            </div>
+            
+            <div id="artifact-section" style="display:none; margin-top:10px; border-top:1px dashed #444; padding-top:5px;">
+                <div style="font-size:0.8rem; color:var(--accent-void); margin-bottom:5px; font-weight:bold;">ALIEN ARTIFACTS</div>
+                <div id="artifact-list"></div>
+            </div>
+
+            <div style="font-size: 0.8rem; margin-top: 10px; color: #666; border-top: 1px solid #333; padding-top: 5px;">
+                DPS: <span id="dps-display">0</span><br>
+                Click: <span id="click-dmg-display">1</span><br>
+                Crit: <span id="crit-chance-display">1</span>% / x<span id="crit-mult-display">3</span>
+            </div>
+        </div>
+
+        <div class="glass-panel" style="flex-grow: 1;">
+            <h3>AUGMENTATIONS</h3>
+            <div class="buy-mults">
+                <button class="buy-btn active" id="buy-1" onclick="Game.setBuyAmt(1)">1x</button>
+                <button class="buy-btn" id="buy-5" onclick="Game.setBuyAmt(5)">5x</button>
+                <button class="buy-btn" id="buy-10" onclick="Game.setBuyAmt(10)">10x</button>
+                <button class="buy-btn" id="buy-max" onclick="Game.setBuyAmt('max')">MAX</button>
+            </div>
+            <div id="upgrades-list" class="scroll-list"></div>
+        </div>
+    </div>
+
+    <div id="hud" class="glass-panel">
+        <div class="stage-info">
+            <div id="btn-prev" class="nav-btn" onclick="Game.changeStage(-1)">&lt;</div>
+            SECTOR: <span id="stage-display">1</span>
+            <div id="btn-next" class="nav-btn disabled" onclick="Game.changeStage(1)">&gt;</div>
+            <div class="progress-count" id="progress-display">1 / 10</div>
+            <span id="boss-timer" style="color:orange; margin-left:10px; font-size: 0.8rem;"></span>
+        </div>
+    </div>
+
+    <div id="stage-area" class="glass-panel" style="background: rgba(0,0,0,0.2); border:none;">
+        <div id="hyper-toggle" class="toggle-btn hyper" onclick="Game.toggleHyper()">
+            <div class="checkbox"></div> HYPER MODE
+        </div>
+        <div id="auto-toggle" class="toggle-btn auto" onclick="Game.toggleAuto()">
+            <div class="checkbox"></div> AUTO ADVANCE
+        </div>
+
+        <button id="alpha-btn" onclick="Game.startBossFight()">GATHER BIOMASS</button>
+        
+        <div id="speech-bubble"></div>
+
+        <div id="enemy-container"></div>
+        
+        <div class="hp-bar-container">
+            <div id="hp-bar" class="hp-fill"></div>
+        </div>
+        <div id="enemy-name" class="enemy-name">Organic Threat</div>
+        <div id="console-log-mini" style="margin-top:20px; font-size: 0.7rem; color: #444; height: 60px; overflow:hidden;">
+            Initializing Clean-up Protocol...
+        </div>
+    </div>
+
+    <div id="right-col">
+        <div class="glass-panel" style="flex-grow: 1;">
+            <h3>REALITY ANCHOR</h3>
+            <div id="prestige-list" class="scroll-list">
+                <div id="layer1-btn" class="prestige-btn" onclick="Game.prestige(1)" style="display:none">
+                    <div>INITIATE PURGE (L1)</div>
+                    <div style="font-size:0.6rem; color:#888;">Reset for Mutagens (+10% Dmg)</div>
+                    <div style="font-size:0.6rem; color:#fff;">Req: Sector 20</div>
+                </div>
+                <div id="layer2-btn" class="prestige-btn layer-2-btn" onclick="Game.prestige(2)" style="display:none">
+                    <div>SYNAPTIC REBIRTH (L2)</div>
+                    <div style="font-size:0.6rem; color:#888;">Reset for Neural Links (Upgrades)</div>
+                    <div style="font-size:0.6rem; color:#fff;">Req: 10 Mutagens</div>
+                </div>
+                <div id="shop-btn" class="prestige-btn layer-2-btn" onclick="$('neural-shop-modal').style.display='flex'; Game.renderNeuralShop()" style="display:none; border-style:dashed;">
+                    <div>NEURAL MARKET</div>
+                    <div style="font-size:0.6rem; color:#888;">Spend Links on Automation</div>
+                </div>
+
+                <div id="layer3-btn" class="prestige-btn layer-3-btn" onclick="Game.prestige(3)" style="display:none">
+                    <div>COSMIC ASCENSION (L3)</div>
+                    <div style="font-size:0.6rem; color:#888;">Reset for Stardust (+Crit)</div>
+                    <div style="font-size:0.6rem; color:#fff;">Req: 5 Links</div>
+                </div>
+
+                <div id="cosmic-panel" style="display:none; margin-bottom:10px; padding:10px; border:1px solid var(--accent-void); border-radius:8px; background:rgba(0,0,0,0.3);">
+                    <div style="color:var(--accent-void); font-size:0.8rem; margin-bottom:5px; font-weight:bold;">COSMIC UPGRADES</div>
+                    <div class="cosmic-upg-item" onclick="Game.buyCosmic('warpDrive')">
+                        <div style="display:flex; justify-content:space-between">
+                            <span>WARP DRIVE</span>
+                            <span id="cost-warpDrive">5 Dust</span>
+                        </div>
+                        <div style="color:#aaa; font-size:0.7rem;">Chance to skip stage on kill. <span id="lvl-warpDrive" style="color:#fff">0%</span></div>
+                    </div>
+                    <div class="cosmic-upg-item" onclick="Game.buyCosmic('hyperMap')">
+                        <div style="display:flex; justify-content:space-between">
+                            <span>HYPER-MAPPING</span>
+                            <span id="cost-hyperMap">20 Dust</span>
+                        </div>
+                        <div style="color:#aaa; font-size:0.7rem;">Unlock HYPER MODE Toggle (Omni-Zombie).</div>
+                    </div>
+                </div>
+                
+                <div id="layer4-btn" class="prestige-btn layer-4-btn" onclick="Game.prestige(4)" style="display:none">
+                    <div>T̷R̷A̷N̷S̷C̷E̷N̷D̷ (L4)</div>
+                    <div style="font-size:0.6rem; color:#888;">Reset Reality for Dark Matter</div>
+                    <div style="font-size:0.6rem; color:#fff;">Req: 50 Stardust</div>
+                </div>
+
+                <div id="layer5-btn" class="prestige-btn layer-5-btn" onclick="Game.triggerSingularity()" style="display:none">
+                    <div>THE SINGULARITY (L5)</div>
+                    <div style="font-size:0.6rem; color:#666;">Req: 100 Dark Matter</div>
+                    <div style="font-size:0.6rem;">END SIMULATION</div>
+                </div>
+            </div>
+            <div id="story-log" style="margin-top:auto; font-size: 0.7rem; color: #555; font-style: italic;">
+                System Status: Nominal.
+            </div>
+        </div>
+    </div>
+
+    <div id="manual-btn" onclick="document.getElementById('manual-modal').style.display = 'flex'">
+        <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+    </div>
+
+    <div id="anomaly-btn" onclick="Game.openAnomalyModal()">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>
+    </div>
+
+    <div id="settings-modal">
+        <h2 style="color:var(--accent-gold)">SYSTEM SETTINGS</h2>
+        <div style="text-align:left; color:#fff; margin-bottom:10px;">
+            <label><input type="checkbox" id="shake-toggle" checked onchange="Game.toggleShake()"> SCREEN SHAKE</label>
+        </div>
+        <div style="text-align:left; color:#fff;">
+            MASTER VOLUME: <span id="vol-display">50%</span>
+            <input type="range" min="0" max="100" value="50" oninput="AudioController.setVolume(this.value)">
+        </div>
+        <button onclick="Game.toggleSettings()" style="margin-top:20px; padding:10px; width:100%;">RESUME</button>
+    </div>
+
+    <div id="manual-modal">
+        <div class="modal-header">
+            <span>OPERATIONAL MANUAL</span>
+            <span class="modal-close" onclick="document.getElementById('manual-modal').style.display = 'none'">X</span>
+        </div>
+        <div class="manual-section">
+            <div class="manual-title">MISSION OVERVIEW</div>
+            <div class="manual-text">
+                Cleanse sectors of organic threats. Collect <b>Biomass</b> to upgrade. 
+                <br>Toggle <b>AUTO ADVANCE</b> to automatically engage Bosses.
+            </div>
+        </div>
+        <div class="manual-section">
+            <div class="manual-title">PRESTIGE LAYERS</div>
+            <div class="manual-text">
+                <p><b>LAYER 1: MUTAGENS</b><br>
+                Gain: Floor(Sector / 20)<br>
+                Effect: <b>+10% Global Damage</b> per point.
+                </p>
+                <p><b>LAYER 2: NEURAL LINKS</b><br>
+                Gain: Floor(Mutagens / 10)<br>
+                Effect: Currency for Neural Shop.
+                </p>
+                <p><b>LAYER 3: STARDUST</b><br>
+                Gain: Floor(Neural Links / 5)<br>
+                Effect: <b>+1% Crit Chance</b> per point.
+                </p>
+                <p><b>LAYER 4: DARK MATTER</b><br>
+                Gain: Floor(Stardust / 50)<br>
+                Effect: <b>100x Global Damage</b> per point.
+                </p>
+            </div>
+        </div>
+        <div class="manual-section" id="manual-singularity" style="display:none; border-top:1px dashed #444; padding-top:10px;">
+            <div class="manual-title" style="color:var(--accent-void)">SINGULARITY PROTOCOL</div>
+            <div class="manual-text">
+                <p><b>ALIEN ARTIFACTS</b><br>
+                Dropped by Bosses (50%). Passive bonuses to damage and crit based on collection size.</p>
+                <p><b>ANOMALIES</b><br>
+                Rare equipment dropped by enemies (0.1%). Equip 3 in the grid for powerful effects.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="neural-shop-modal">
+        <div class="modal-header">
+            <span style="color:var(--accent-plasma)">NEURAL MARKET</span>
+            <span class="modal-close" onclick="$('neural-shop-modal').style.display='none'">X</span>
+        </div>
+        <div style="color:#ccc; font-size:0.9rem; margin-bottom:10px;">Available Links: <span id="shop-link-count" style="color:var(--accent-plasma)">0</span></div>
+        <div id="neural-shop-list"></div>
+    </div>
+
+    <div id="anomaly-modal">
+        <div class="modal-header">
+            <span style="color:var(--accent-void)">ANOMALY GRID</span>
+            <span class="modal-close" onclick="$('anomaly-modal').style.display='none'">X</span>
+        </div>
+        <div style="text-align:center; color:#fff; margin-bottom:15px;">
+            FOUND: <span id="anomaly-found-count" style="color:var(--accent-void); font-weight:bold;">0/10</span>
+        </div>
+        
+        <div style="text-align:center; color:#888; font-size:0.8rem; margin-bottom:5px;">ACTIVE SLOTS</div>
+        <div class="equipped-slots">
+            <div class="equip-box" id="slot-0" onclick="Game.unequipAnomaly(0)"></div>
+            <div class="equip-box" id="slot-1" onclick="Game.unequipAnomaly(1)"></div>
+            <div class="equip-box" id="slot-2" onclick="Game.unequipAnomaly(2)"></div>
+        </div>
+
+        <div class="anomaly-grid" id="anomaly-grid"></div>
+    </div>
+
+    <div id="pi-btn" onclick="document.getElementById('dev-console').style.display = 'flex'">π</div>
+    <div id="dev-console">
+        <h3 style="color:#0f0; margin:0;">ROOT ACCESS DETECTED</h3>
+        <button onclick="Game.state.gold += 1e15; Game.updateUI()">ADD 1Q BIOMASS</button>
+        <button onclick="Game.enemy.currentHp = 0; Game.damageEnemy(0)">KILL CURRENT</button>
+        <button onclick="Game.state.stage = 20; Game.state.maxStage = 20; Game.loadLevel()">WARP TO SECTOR 20</button>
+        <button onclick="Game.state.prestige.mutagens += 10; Game.checkUnlockPrestige(); Game.updateUI()">ADD 10 MUTAGENS</button>
+        <button onclick="Game.state.prestige.links += 10; Game.checkUnlockPrestige(); Game.updateUI()">ADD 10 LINKS</button>
+        <button onclick="Game.state.prestige.stardust += 50; Game.checkUnlockPrestige(); Game.updateUI()">ADD 50 STARDUST</button>
+        <button onclick="Game.state.prestige.darkMatter += 100; Game.checkUnlockPrestige(); Game.updateUI()">ADD 100 DARK MATTER</button>
+        <button onclick="Game.triggerSingularity()">TRIGGER SINGULARITY</button>
+        <div style="margin-top:10px; border-top:1px solid #333; padding-top:10px;">
+            <div style="color:#aaa; font-size:0.8rem; margin-bottom:5px;">SPAWN ANOMALY:</div>
+            <button onclick="Game.unlockAnomaly(0); Game.updateAnomalyUI()">UNLOCK BASIC</button>
+            <button onclick="Game.unlockAnomaly(9); Game.updateAnomalyUI()">UNLOCK SINGULARITY</button>
+        </div>
+        <button onclick="document.getElementById('dev-console').style.display = 'none'" style="margin-top:20px;">CLOSE TERMINAL</button>
+    </div>
+
+    <script>
+        const $ = id => document.getElementById(id);
+        const rand = (min, max) => Math.random() * (max - min) + min;
+        const formatNumber = num => {
+            if (num < 1000) return Math.floor(num);
+            if (num < 1000000) return (num/1000).toFixed(1) + 'k';
+            if (num < 1000000000) return (num/1000000).toFixed(2) + 'M';
+            if (num < 1000000000000) return (num/1000000000).toFixed(2) + 'B';
+            return (num/1000000000000).toFixed(2) + 'T';
+        };
+
+        // EQUIPPABLE ANOMALIES (Old System)
+        const ANOMALIES = [
+            { id: 0, name: "Temporal Cortex", desc: "+50% Idle Speed", color: "#0f0" },
+            { id: 1, name: "Viral Amplifier", desc: "+100% Global DMG", color: "#f00" },
+            { id: 2, name: "Golden Synapse", desc: "-20% Upgrade Costs", color: "#ffd700" },
+            { id: 3, name: "Void Gaze", desc: "+10% Crit Chance", color: "#00f7ff" },
+            { id: 4, name: "Matter Weaver", desc: "Boss HP reduced by 20%", color: "#bc13fe" },
+            { id: 5, name: "Entropy Engine", desc: "+200% Crit Damage", color: "#ff9900" },
+            { id: 6, name: "Abyssal Anchor", desc: "+100% Prestige Currency Gain", color: "#666" },
+            { id: 7, name: "Reality Glitch", desc: "1% Chance to insta-kill non-bosses", color: "#fff" },
+            { id: 8, name: "Cosmic Siphon", desc: "+50% Biomass from kills", color: "#00f" },
+            { id: 9, name: "Singularity Shard", desc: "All Multipliers x2", color: "var(--accent-void)" }
+        ];
+
+        // PASSIVE ARTIFACTS (Weighted Drop System)
+        const ARTIFACT_CONFIG = {
+            dropChance: 0.5, // 50% from Bosses
+            rarities: [
+                { id: 'common',    name: 'Cosmic Rot',      weight: 6000, class: 'rarity-common', bonus: 'Damage' }, 
+                { id: 'uncommon',  name: 'Void Parasite',   weight: 2500, class: 'rarity-uncommon', bonus: 'Damage' }, 
+                { id: 'rare',      name: 'Star Plague',     weight: 1000, class: 'rarity-rare', bonus: 'Crit Dmg' }, 
+                { id: 'epic',      name: 'Nebula Titan',    weight: 400,  class: 'rarity-epic', bonus: 'Crit Dmg' },  
+                { id: 'legendary', name: 'Event Horizon',   weight: 85,   class: 'rarity-legendary', bonus: 'Damage' },   
+                { id: 'mythic',    name: 'Quantum Lich',    weight: 14,   class: 'rarity-mythic', bonus: 'All' },   
+                { id: 'unknown',   name: 'Z̷E̷R̷O̷',            weight: 1,    class: 'rarity-unknown', bonus: 'All' } 
+            ]
+        };
+
+        const AudioController = {
+            ctx: null,
+            masterVol: 0.5,
+            init: () => {
+                if(!AudioController.ctx) {
+                    AudioController.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                    AudioController.startAmbient();
+                }
+            },
+            setVolume: (val) => {
+                AudioController.masterVol = val / 100;
+                $('vol-display').innerText = val + '%';
+            },
+            playTone: (freq, type, duration, vol) => {
+                if(!AudioController.ctx) return;
+                const osc = AudioController.ctx.createOscillator();
+                const gain = AudioController.ctx.createGain();
+                osc.type = type;
+                osc.frequency.setValueAtTime(freq, AudioController.ctx.currentTime);
+                gain.gain.setValueAtTime(vol * AudioController.masterVol, AudioController.ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, AudioController.ctx.currentTime + duration);
+                osc.connect(gain);
+                gain.connect(AudioController.ctx.destination);
+                osc.start();
+                osc.stop(AudioController.ctx.currentTime + duration);
+            },
+            playClick: () => AudioController.playTone(rand(100, 300), 'sawtooth', 0.1, 0.1),
+            playKill: () => {
+                if(!AudioController.ctx) return;
+                const osc = AudioController.ctx.createOscillator();
+                const gain = AudioController.ctx.createGain();
+                osc.type = 'square';
+                osc.frequency.setValueAtTime(150, AudioController.ctx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(40, AudioController.ctx.currentTime + 0.2);
+                gain.gain.setValueAtTime(0.2 * AudioController.masterVol, AudioController.ctx.currentTime);
+                gain.gain.linearRampToValueAtTime(0, AudioController.ctx.currentTime + 0.2);
+                osc.connect(gain);
+                gain.connect(AudioController.ctx.destination);
+                osc.start();
+                osc.stop(AudioController.ctx.currentTime + 0.2);
+            },
+            playUpgrade: () => AudioController.playTone(600, 'sine', 0.15, 0.2),
+            playPrestige: () => AudioController.playTone(100, 'sawtooth', 1.5, 0.3),
+            startAmbient: () => {
+                const osc = AudioController.ctx.createOscillator();
+                const gain = AudioController.ctx.createGain();
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(40, AudioController.ctx.currentTime);
+                gain.gain.setValueAtTime(0.05 * AudioController.masterVol, AudioController.ctx.currentTime);
+                osc.connect(gain);
+                gain.connect(AudioController.ctx.destination);
+                osc.start();
+            }
+        };
+
+        const SVGGen = {
+            colors: ['#8B0000', '#550000', '#333333', '#4a2e2e', '#2e0b0b'],
+            makePath: (points, color) => `<path d="${points}" fill="${color}" stroke="#000" stroke-width="2"/>`,
+            generateBody: () => {
+                const r = 80;
+                let path = `M 150 ${150-r}`; 
+                for(let i=1; i<=8; i++) {
+                    const angle = (i/8) * Math.PI * 2;
+                    const variance = rand(-20, 20);
+                    const x = 150 + Math.cos(angle) * (r + variance);
+                    const y = 150 + Math.sin(angle) * (r + variance);
+                    path += ` L ${x} ${y}`;
+                }
+                path += " Z";
+                return path;
+            },
+            createZombie: (stage, isBoss, isSubjectZero) => {
+                // SUBJECT ZERO LOGIC IS HERE:
+                // If Subject Zero, Color is Neon Blue, otherwise Red for Boss, or Random for Normal
+                const color = isBoss ? '#ff0000' : (isSubjectZero ? '#00f7ff' : SVGGen.colors[Math.floor(Math.random() * SVGGen.colors.length)]);
+                
+                let svg = `<svg viewBox="0 0 300 300" width="100%" height="100%" style="overflow:visible">`;
+                svg += `<defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>`;
+                svg += `<g class="zombie-body" filter="url(#glow)">`;
+                for(let i=0; i<4; i++) {
+                    let lx = rand(100, 200); let ly = rand(100, 200);
+                    svg += `<path d="M 150 150 Q ${rand(50,250)} ${rand(50,250)} ${lx} ${ly}" stroke="${color}" stroke-width="${rand(5,15)}" fill="none" stroke-linecap="round"/>`;
+                }
+                svg += SVGGen.makePath(SVGGen.generateBody(), color);
+                for(let i=0; i<rand(1, 5); i++) svg += `<circle cx="${rand(130,170)}" cy="${rand(130,170)}" r="${rand(2,8)}" fill="#ffeb3b" />`;
+                svg += `</g></svg>`;
+                return svg;
+            }
+        };
+
+        const Upgrades = [
+            { id: 0, name: "Hydraulic Press", baseCost: 15, basePower: 1, type: "click", desc: "Apply immediate pressure." },
+            { id: 1, name: "Auto-Turret", baseCost: 50, basePower: 5, type: "idle", desc: "Standard issue perimeter defense." },
+            { id: 2, name: "Napalm Drone", baseCost: 250, basePower: 20, type: "idle", desc: "Smells like victory." },
+            { id: 3, name: "Bio-Dissolver", baseCost: 1000, basePower: 85, type: "idle", desc: "Acid rain on a localized scale." },
+            { id: 4, name: "Neural Spike", baseCost: 5000, basePower: 250, type: "click", desc: "Direct interface damage." },
+            { id: 5, name: "Orbital Laser", baseCost: 25000, basePower: 1200, type: "idle", desc: "Surgical removal from orbit." }
+        ];
+
+        const NeuralShopItems = [
+            { id: 'autoClicker', name: "Synaptic Drone", cost: 1, max: 3, desc: "Auto-clicks. Level 1: 5/s, L2: 10/s, L3: 15/s." },
+            { id: 'discount', name: "Efficiency Protocol", cost: 2, max: 3, desc: "-10% Upgrade Cost per level." },
+            { id: 'overclock', name: "Neural Overclock", cost: 4, max: 3, desc: "+50% Global DPS per level." },
+            { id: 'critAmp', name: "Synaptic Precision", cost: 10, max: 5, desc: "+0.5x Critical Multiplier per level." }
+        ];
+
+        const Game = {
+            state: {
+                gold: 0,
+                clickDmg: 1,
+                idleDps: 0,
+                stage: 1,
+                maxStage: 1,
+                stageKills: 0,
+                sectorProgress: {}, // Stores kills per stage {1: 5, 2: 10...}
+                upgrades: [0, 0, 0, 0, 0, 0],
+                neuralUpgrades: { autoClicker: 0, discount: 0, overclock: 0, critAmp: 0 },
+                prestige: { mutagens: 0, links: 0, stardust: 0, darkMatter: 0, totalResets: 0 },
+                // Lifetime stats for Subject Zero Logic
+                lifetime: { mutagens: 0, links: 0, stardust: 0, darkMatter: 0 },
+                cosmicUpgrades: { warpDrive: 0, hyperMap: 0 },
+                anomalies: { found: new Array(10).fill(false), equipped: [null, null, null] }, // Active (Equippable)
+                artifacts: {}, // Passive (counts)
+                autoAdvance: false,
+                hyperMode: false,
+                universeCount: 0
+            },
+            isResetting: false,
+            settings: {
+                shake: true,
+                paused: false
+            },
+            buyAmt: 1,
+            enemy: { maxHp: 10, currentHp: 10, isBoss: false },
+            timer: null,
+            bossTimerVal: 0,
+            bossActive: false,
+            justEnteredSector5: false,
+            toastsShown: { l1: false, l2: false, l3: false, l4: false },
+
+            init: () => {
+                Game.createUpgradeButtons(); 
+                Game.loadLevel();
+                Game.loop();
+                Game.startIdleLoop();
+                Game.updateUI();
+                
+                document.body.addEventListener('click', () => {
+                    AudioController.init();
+                }, { once: true });
+                
+                $('enemy-container').addEventListener('mousedown', Game.handleInput);
+            },
+
+            setBuyAmt: (amt) => {
+                Game.buyAmt = amt;
+                document.querySelectorAll('.buy-btn').forEach(b => b.classList.remove('active'));
+                document.getElementById('buy-' + amt).classList.add('active');
+                Game.updateUpgradeButtons();
+            },
+
+            toggleSettings: () => {
+                const modal = $('settings-modal');
+                if(modal.style.display === 'flex') {
+                    modal.style.display = 'none';
+                    Game.settings.paused = false;
+                } else {
+                    modal.style.display = 'flex';
+                    Game.settings.paused = true;
+                }
+            },
+            
+            toggleShake: () => Game.settings.shake = $('shake-toggle').checked,
+
+            toggleAuto: () => {
+                Game.state.autoAdvance = !Game.state.autoAdvance;
+                if(Game.state.autoAdvance) $('auto-toggle').classList.add('active');
+                else $('auto-toggle').classList.remove('active');
+                if(Game.state.autoAdvance && !Game.bossActive && Game.state.stageKills >= 10) Game.startBossFight();
+            },
+
+            toggleHyper: () => {
+                Game.state.hyperMode = !Game.state.hyperMode;
+                if(Game.state.hyperMode) $('hyper-toggle').classList.add('active');
+                else $('hyper-toggle').classList.remove('active');
+                Game.loadLevel(); 
+            },
+            
+            showToast: (msg) => {
+                const t = $('toast');
+                t.innerText = msg;
+                t.style.opacity = 1;
+                t.style.bottom = "80px";
+                setTimeout(() => {
+                    t.style.opacity = 0;
+                    t.style.bottom = "60px";
+                }, 3000);
+            },
+
+            hasAnomaly: (id) => Game.state.anomalies.equipped.includes(id),
+
+            calcClickDmg: () => {
+                let base = 1 + (Game.state.upgrades[0] * 1) + (Game.state.upgrades[4] * 250);
+                let mult = 1 + (Game.state.prestige.mutagens * 0.1); 
+                mult *= (1 + (Game.state.neuralUpgrades.overclock * 0.5)); 
+                if (Game.state.prestige.stardust > 0) mult *= (1 + Game.state.prestige.stardust * 0.2); 
+                if (Game.state.prestige.darkMatter > 0) mult *= (1 + Game.state.prestige.darkMatter * 100); 
+                if (Game.state.universeCount > 0) mult *= Math.pow(5, Game.state.universeCount); 
+
+                // Anomalies (Equipped)
+                if(Game.hasAnomaly(1)) mult *= 2; // Viral Amplifier
+                if(Game.hasAnomaly(9)) mult *= 2; // Singularity Shard
+
+                // Artifacts (Passive)
+                const arts = Game.state.artifacts;
+                if(arts['common']) mult *= (1 + (arts['common'] * 0.05));
+                if(arts['uncommon']) mult *= (1 + (arts['uncommon'] * 0.10));
+                if(arts['legendary']) mult *= (1 + (arts['legendary'] * 0.50));
+                if(arts['mythic']) mult *= (1 + (arts['mythic'] * 1.0));
+                if(arts['unknown']) mult *= (1 + (arts['unknown'] * 2.0));
+                
+                return base * mult;
+            },
+
+            calcIdleDps: () => {
+                let dps = (Game.state.upgrades[1] * 5) + (Game.state.upgrades[2] * 20) + (Game.state.upgrades[3] * 85) + (Game.state.upgrades[5] * 1200);
+                let mult = 1 + (Game.state.prestige.mutagens * 0.1);
+                mult *= (1 + (Game.state.neuralUpgrades.overclock * 0.5)); 
+                if(Game.state.prestige.links > 0) mult *= (1 + Game.state.prestige.links * 0.1); 
+                if (Game.state.prestige.darkMatter > 0) mult *= (1 + Game.state.prestige.darkMatter * 100);
+                if (Game.state.universeCount > 0) mult *= Math.pow(5, Game.state.universeCount);
+
+                // Anomalies (Equipped)
+                if(Game.hasAnomaly(1)) mult *= 2; 
+                if(Game.hasAnomaly(9)) mult *= 2; 
+
+                // Artifacts (Passive)
+                const arts = Game.state.artifacts;
+                if(arts['common']) mult *= (1 + (arts['common'] * 0.05));
+                if(arts['uncommon']) mult *= (1 + (arts['uncommon'] * 0.10));
+                if(arts['legendary']) mult *= (1 + (arts['legendary'] * 0.50));
+                if(arts['mythic']) mult *= (1 + (arts['mythic'] * 1.0));
+                if(arts['unknown']) mult *= (1 + (arts['unknown'] * 2.0));
+
+                return dps * mult;
+            },
+
+            updateStats: () => {
+                Game.state.clickDmg = Game.calcClickDmg();
+                Game.state.idleDps = Game.calcIdleDps();
+            },
+
+            changeStage: (dir) => {
+                const target = Game.state.stage + dir;
+                if (target < 1) return;
+                if (target > Game.state.maxStage) return;
+                
+                // Save progress of current stage before leaving
+                Game.state.sectorProgress[Game.state.stage] = Game.state.stageKills;
+
+                Game.state.stage = target;
+                
+                // Load progress of new stage
+                Game.state.stageKills = Game.state.sectorProgress[target] || 0;
+                
+                // Subject Zero Trigger Logic
+                if(target === 5) Game.justEnteredSector5 = true;
+
+                Game.bossActive = false; 
+                Game.loadLevel();
+            },
+
+            getSubjectZeroDialogue: () => {
+                // Uses lifetime stats now
+                if (Game.state.universeCount > 0) return "Hello, Friend. We made it. The zero point. The final anomaly. Reset it all. Let us sleep.";
+                if (Game.state.lifetime.darkMatter > 0) {
+                    const lines = ["Light dies here.", "You are harvesting the void.", "There is no zombie. Just code.", "I can see the edges of the screen.", "Dark Matter tastes like static."];
+                    return lines[Math.min(lines.length-1, Game.state.lifetime.darkMatter - 1)] || "The Singularity... it calls.";
+                }
+                if (Game.state.lifetime.stardust > 0) {
+                    const lines = ["We are but dust...", "You are ascending.", "Every ascension makes gravity heavier.", "Stars are screaming.", "Do you feel powerful?"];
+                    return lines[Math.min(lines.length-1, Game.state.lifetime.stardust - 1)] || "This reality is thin.";
+                }
+                if (Game.state.lifetime.links > 0) {
+                    const lines = ["I see threads...", "Harvesting data...", "My pain is currency.", "Links bind my soul."];
+                    return lines[Math.min(lines.length-1, Game.state.lifetime.links - 1)] || "Strengthen the link.";
+                }
+                if (Game.state.lifetime.mutagens > 0) {
+                    const lines = ["Brrg... again?", "I felt that kill before.", "World flickering...", "My DNA unravels."];
+                    return lines[Math.min(lines.length-1, Game.state.lifetime.mutagens - 1)] || "Cycles...";
+                }
+                return "Brrg... mmmm...";
+            },
+
+            loadLevel: () => {
+                if (Game.state.stage <= 1) $('btn-prev').classList.add('disabled');
+                else $('btn-prev').classList.remove('disabled');
+
+                if (Game.state.stage >= Game.state.maxStage) $('btn-next').classList.add('disabled');
+                else $('btn-next').classList.remove('disabled');
+
+                // Toggle visibility
+                if (Game.state.cosmicUpgrades.hyperMap) $('hyper-toggle').style.display = 'flex';
+
+                // Subject Zero check: Stage 5 AND (First visit this session OR explicitly requested via spawn logic)
+                const isSubjectZero = (Game.state.stage === 5 && !Game.bossActive && Game.justEnteredSector5);
+                
+                // Once we've rendered him once per sector entry, turn off the forced flag so you can farm normal zombies
+                if(isSubjectZero) Game.justEnteredSector5 = false;
+
+                let hp = 10 * Math.pow(1.5, Game.state.stage - 1);
+                
+                if (Game.bossActive) {
+                    hp *= 12; 
+                    if(Game.hasAnomaly(4)) hp *= 0.8; // Matter Weaver
+                    Game.startBossTimer();
+                    $('enemy-name').innerText = "SUBJECT: ALPHA (BOSS)";
+                    $('enemy-name').style.color = "red";
+                    $('progress-display').innerText = "BOSS";
+                    $('progress-display').style.background = "red";
+                } else {
+                    Game.stopBossTimer();
+                    
+                    if(Game.state.hyperMode) {
+                        hp *= 10; 
+                        $('enemy-name').innerText = "OMNI-ZOMBIE (HYPER)";
+                        $('enemy-name').style.color = "var(--accent-void)";
+                    } else if(isSubjectZero) {
+                        $('enemy-name').innerText = "SUBJECT ZERO";
+                        $('enemy-name').style.color = "var(--accent-void)";
+                    } else {
+                        const names = ["Infected Citizen", "Mutated Stray", "Failed Experiment"];
+                        $('enemy-name').innerText = names[Math.floor(Math.random()*names.length)];
+                        $('enemy-name').style.color = "#888";
+                    }
+                    $('progress-display').innerText = `${Game.state.stageKills} / 10`;
+                    $('progress-display').style.background = "rgba(255,0,0,0.2)";
+                }
+
+                const btn = $('alpha-btn');
+                if(Game.bossActive) {
+                    btn.style.display = 'none'; 
+                } else {
+                    btn.style.display = 'block';
+                    if(Game.state.stageKills >= 10) {
+                        btn.innerText = "ENGAGE ALPHA";
+                        btn.classList.add('ready');
+                        if(Game.state.autoAdvance && !Game.bossActive) {
+                            Game.startBossFight();
+                            // startBossFight re-runs loadLevel with boss stats; bail out so the
+                            // rest of this call doesn't overwrite the boss HP with normal HP.
+                            return;
+                        }
+                    } else {
+                        btn.innerText = "GATHER BIOMASS";
+                        btn.classList.remove('ready');
+                    }
+                }
+
+                Game.enemy.maxHp = Math.floor(hp);
+                Game.enemy.currentHp = Game.enemy.maxHp;
+                Game.enemy.isBoss = Game.bossActive;
+                
+                $('enemy-container').innerHTML = SVGGen.createZombie(Game.state.stage, Game.bossActive, isSubjectZero);
+                
+                const bubble = $('speech-bubble');
+                if(isSubjectZero) {
+                    bubble.style.display = 'block';
+                    bubble.innerText = Game.getSubjectZeroDialogue();
+                    setTimeout(() => bubble.style.opacity = 1, 100);
+                } else {
+                    bubble.style.opacity = 0;
+                    bubble.style.display = 'none';
+                }
+
+                Game.updateUI();
+            },
+
+            startBossFight: () => {
+                if(Game.state.stageKills < 10) return; 
+                Game.bossActive = true;
+                AudioController.playTone(100, 'square', 0.5, 0.3); 
+                Game.loadLevel();
+            },
+
+            startBossTimer: () => {
+                Game.bossTimerVal = 30; 
+                if (Game.timer) clearInterval(Game.timer);
+                Game.timer = setInterval(() => {
+                    if(Game.settings.paused) return;
+                    Game.bossTimerVal--;
+                    $('boss-timer').innerText = `TIME: ${Game.bossTimerVal}s`;
+                    if (Game.bossTimerVal <= 0) {
+                        Game.log("BOSS FAILED. RETREATING.");
+                        Game.bossActive = false;
+                        Game.loadLevel(); 
+                    }
+                }, 1000);
+            },
+
+            stopBossTimer: () => {
+                if (Game.timer) clearInterval(Game.timer);
+                $('boss-timer').innerText = "";
+            },
+
+            handleInput: (e) => Game.damageEnemy(Game.state.clickDmg, e.clientX, e.clientY, "click"),
+
+            damageEnemy: (amt, x, y, source) => {
+                if(Game.settings.paused) return;
+                
+                let isCrit = false;
+                let critChance = 0.01 + (Game.state.prestige.stardust * 0.01);
+                if(Game.hasAnomaly(3)) critChance += 0.10; // Void Gaze
+
+                if (Math.random() < critChance) { 
+                    let critMult = 3 + (Game.state.neuralUpgrades.critAmp * 0.5);
+                    if(Game.hasAnomaly(5)) critMult += 2; // Entropy Engine
+                    if(Game.hasAnomaly(9)) critMult *= 2; // Singularity Shard
+                    
+                    // Passive Crit Bonuses from Artifacts
+                    const arts = Game.state.artifacts;
+                    if (arts['rare']) critMult += (arts['rare'] * 0.5);
+                    if (arts['epic']) critMult += (arts['epic'] * 1.0);
+
+                    amt *= critMult; 
+                    isCrit = true; 
+                }
+                
+                Game.enemy.currentHp -= amt;
+                Game.createParticle(x, y, isCrit);
+                Game.createDamageText(amt, x, y, isCrit);
+                
+                if(source === 'click') AudioController.playClick();
+
+                if ((isCrit || source === "click") && Game.settings.shake) {
+                    document.body.classList.remove('screen-shake');
+                    void document.body.offsetWidth;
+                    document.body.classList.add('screen-shake');
+                }
+                if (Game.enemy.currentHp <= 0) Game.killEnemy();
+                Game.updateHPBar();
+            },
+
+            killEnemy: () => {
+                AudioController.playKill();
+                let drop = Math.max(1, Math.floor(Game.enemy.maxHp / 15));
+                if(Game.hasAnomaly(8)) drop = Math.floor(drop * 1.5); // Cosmic Siphon
+                
+                Game.state.gold += drop;
+                
+                // Anomaly Drop (Equippable) - Normal Enemies (Low Chance)
+                if(Game.state.universeCount > 0 && !Game.enemy.isBoss) {
+                     if(Math.random() < 0.001) { // 0.1%
+                        const id = Math.floor(Math.random() * 10);
+                        if(!Game.state.anomalies.found[id]) {
+                            Game.unlockAnomaly(id);
+                        }
+                     }
+                }
+
+                // Artifact Drop (Passive) - Bosses (High Chance)
+                if(Game.state.universeCount > 0 && Game.enemy.isBoss) {
+                     Game.tryTriggerArtifactDrop();
+                }
+
+                const rect = $('enemy-container').getBoundingClientRect();
+                for(let i=0; i<10; i++) Game.createParticle(rect.left + rect.width/2, rect.top + rect.height/2, false, true);
+
+                if (Game.enemy.isBoss) {
+                    Game.log("BOSS ELIMINATED. SECTOR CLEARED.");
+                    Game.bossActive = false;
+                    
+                    if (Game.state.stage === Game.state.maxStage) {
+                        Game.state.maxStage++;
+                        Game.state.stage++;
+                    } else {
+                        Game.state.stage++;
+                    }
+                    // Restore any saved progress for the stage we advance into (don't wipe it)
+                    Game.state.stageKills = Game.state.sectorProgress[Game.state.stage] || 0;
+                    
+                    // Trigger Subject Zero for next sector logic if entering 5
+                    if(Game.state.stage === 5) Game.justEnteredSector5 = true;
+
+                    Game.checkUnlockPrestige();
+                } else {
+                    
+                    if(Game.state.hyperMode) {
+                        Game.state.stageKills = 10;
+                        if(Game.state.autoAdvance) {
+                            Game.startBossFight();
+                            return; 
+                        }
+                    } else {
+                        if (Game.state.stageKills < 10) Game.state.stageKills++;
+                    }
+                    
+                    // Warp Drive
+                    if(!Game.state.hyperMode && Game.state.cosmicUpgrades.warpDrive > 0 && !Game.enemy.isBoss && Game.state.stage < Game.state.maxStage) {
+                        let chance = Game.state.cosmicUpgrades.warpDrive * 0.02; 
+                        if(Math.random() < chance) {
+                            Game.state.sectorProgress[Game.state.stage] = Game.state.stageKills; // Save progress before skip
+                            Game.state.stage++;
+                            Game.state.stageKills = Game.state.sectorProgress[Game.state.stage] || 0;
+                            Game.log("WARP DRIVE ACTIVATED: Skipping Sector.");
+                            Game.createDamageText("WARP!", rect.left, rect.top, true);
+                            if(Game.state.stage === 5) Game.justEnteredSector5 = true;
+                        }
+                    }
+                    
+                    if(Game.state.stageKills >= 10 && Game.state.autoAdvance) {
+                         Game.startBossFight();
+                         return;
+                    }
+                }
+                Game.loadLevel();
+            },
+
+            // --- ARTIFACTS (PASSIVE) ---
+            tryTriggerArtifactDrop: () => {
+                if (Math.random() > ARTIFACT_CONFIG.dropChance) return;
+                let totalWeight = 0;
+                for (let i = 0; i < ARTIFACT_CONFIG.rarities.length; i++) totalWeight += ARTIFACT_CONFIG.rarities[i].weight;
+                let randomValue = Math.random() * totalWeight;
+                for (let i = 0; i < ARTIFACT_CONFIG.rarities.length; i++) {
+                    randomValue -= ARTIFACT_CONFIG.rarities[i].weight;
+                    if (randomValue <= 0) {
+                        const r = ARTIFACT_CONFIG.rarities[i];
+                        if(!Game.state.artifacts[r.id]) Game.state.artifacts[r.id] = 0;
+                        Game.state.artifacts[r.id]++;
+                        Game.log(`ARTIFACT: ${r.name}`);
+                        Game.updateArtifactUI();
+                        break;
+                    }
+                }
+            },
+            
+            updateArtifactUI: () => {
+                const list = $('artifact-list');
+                list.innerHTML = '';
+                ARTIFACT_CONFIG.rarities.forEach(r => {
+                    const count = Game.state.artifacts[r.id] || 0;
+                    if(count > 0) {
+                        const div = document.createElement('div');
+                        div.className = 'resource-row';
+                        div.innerHTML = `<span class="${r.class}">${r.name}</span> <span class="res-val">x${count}</span>`;
+                        list.appendChild(div);
+                    }
+                });
+            },
+
+            // --- ANOMALIES (EQUIPPABLE) ---
+            unlockAnomaly: (id) => {
+                if(!Game.state.anomalies.found[id]) {
+                    Game.state.anomalies.found[id] = true;
+                    Game.log(`ANOMALY DETECTED: ${ANOMALIES[id].name}`);
+                    alert(`NEW ANOMALY FOUND!\n\n${ANOMALIES[id].name}\n${ANOMALIES[id].desc}\n\nCheck Anomaly Grid.`);
+                    $('anomaly-btn').style.display = 'flex';
+                }
+            },
+
+            openAnomalyModal: () => {
+                $('anomaly-modal').style.display = 'flex';
+                Game.updateAnomalyUI();
+            },
+
+            updateAnomalyUI: () => {
+                const grid = $('anomaly-grid');
+                grid.innerHTML = '';
+                let foundCount = 0;
+
+                ANOMALIES.forEach((anom, i) => {
+                    const isUnlocked = Game.state.anomalies.found[i];
+                    const isEquipped = Game.state.anomalies.equipped.includes(i);
+                    if(isUnlocked) foundCount++;
+
+                    const div = document.createElement('div');
+                    div.className = `anomaly-slot ${isUnlocked ? 'unlocked' : ''} ${isEquipped ? 'equipped' : ''}`;
+                    
+                    if(isUnlocked) {
+                        div.innerHTML = `<span class="anomaly-icon" style="color:${anom.color}">?</span>`;
+                        div.innerHTML += `<div class="anomaly-tooltip"><b>${anom.name}</b><br>${anom.desc}</div>`;
+                        div.onclick = () => Game.toggleAnomaly(i);
+                    } else {
+                        div.innerHTML = `<span style="color:#333; font-size:1.5rem;">?</span>`;
+                    }
+                    grid.appendChild(div);
+                });
+
+                $('anomaly-found-count').innerText = `${foundCount}/10`;
+
+                // Update Slots
+                for(let i=0; i<3; i++) {
+                    const slot = $(`slot-${i}`);
+                    const equippedId = Game.state.anomalies.equipped[i];
+                    slot.innerHTML = '';
+                    slot.className = 'equip-box';
+                    if(equippedId !== null) {
+                        slot.classList.add('filled');
+                        slot.innerHTML = `<span style="color:${ANOMALIES[equippedId].color}; font-weight:bold; font-size:1.5rem;">?</span>`;
+                    }
+                }
+            },
+
+            toggleAnomaly: (id) => {
+                const idx = Game.state.anomalies.equipped.indexOf(id);
+                if(idx > -1) {
+                    // Unequip
+                    Game.state.anomalies.equipped[idx] = null;
+                } else {
+                    // Equip
+                    const emptySlot = Game.state.anomalies.equipped.indexOf(null);
+                    if(emptySlot > -1) {
+                        Game.state.anomalies.equipped[emptySlot] = id;
+                    } else {
+                        return; // Full
+                    }
+                }
+                Game.updateAnomalyUI();
+                Game.updateStats();
+                Game.updateUI();
+            },
+
+            unequipAnomaly: (slotIdx) => {
+                Game.state.anomalies.equipped[slotIdx] = null;
+                Game.updateAnomalyUI();
+                Game.updateStats();
+                Game.updateUI();
+            },
+
+            getCost: (index, count) => {
+                const upg = Upgrades[index];
+                const discount = Game.state.neuralUpgrades.discount * 0.1;
+                let discountMult = 1.0 - discount;
+                if(Game.hasAnomaly(2)) discountMult -= 0.2; // Golden Synapse
+
+                let currentLvl = Game.state.upgrades[index];
+                let total = 0;
+                for(let i=0; i<count; i++) {
+                    total += Math.floor((upg.baseCost * Math.pow(1.15, currentLvl + i)) * discountMult);
+                }
+                return total;
+            },
+            
+            getMaxBuy: (index) => {
+                const upg = Upgrades[index];
+                const discount = Game.state.neuralUpgrades.discount * 0.1;
+                let discountMult = 1.0 - discount;
+                if(Game.hasAnomaly(2)) discountMult -= 0.2;
+
+                let currentLvl = Game.state.upgrades[index];
+                let count = 0;
+                let tempCost = 0;
+                while(true) {
+                    let nextCost = Math.floor((upg.baseCost * Math.pow(1.15, currentLvl + count)) * discountMult);
+                    if(Game.state.gold >= tempCost + nextCost) {
+                        tempCost += nextCost;
+                        count++;
+                    } else {
+                        break;
+                    }
+                    if(count >= 1000) break; 
+                }
+                return count;
+            },
+
+            buyUpgrade: (index) => {
+                let amount = Game.buyAmt;
+                if(amount === 'max') amount = Game.getMaxBuy(index);
+                if(amount === 0) return;
+
+                const cost = Game.getCost(index, amount);
+                
+                if (Game.state.gold >= cost) {
+                    AudioController.playUpgrade();
+                    Game.state.gold -= cost;
+                    Game.state.upgrades[index] += amount;
+                    Game.updateStats();
+                    Game.updateUpgradeButtons();
+                    Game.updateUI();
+                }
+            },
+
+            buyNeuralUpgrade: (id) => {
+                const item = NeuralShopItems.find(i => i.id === id);
+                if(Game.state.prestige.links >= item.cost && Game.state.neuralUpgrades[id] < item.max) {
+                    Game.state.prestige.links -= item.cost;
+                    Game.state.neuralUpgrades[id]++;
+                    AudioController.playUpgrade();
+                    Game.renderNeuralShop();
+                    Game.updateUpgradeButtons(); 
+                    Game.updateUI();
+                }
+            },
+
+            buyCosmic: (type) => {
+                if(type === 'warpDrive') {
+                    let cost = 5;
+                    if(Game.state.prestige.stardust >= cost && Game.state.cosmicUpgrades.warpDrive < 10) {
+                        Game.state.prestige.stardust -= cost;
+                        Game.state.cosmicUpgrades.warpDrive++;
+                        AudioController.playUpgrade();
+                        Game.updateUI();
+                        Game.checkUnlockPrestige(); 
+                    }
+                } else if (type === 'hyperMap') {
+                    let cost = 20;
+                    if(Game.state.prestige.stardust >= cost && Game.state.cosmicUpgrades.hyperMap === 0) {
+                        Game.state.prestige.stardust -= cost;
+                        Game.state.cosmicUpgrades.hyperMap = 1;
+                        AudioController.playUpgrade();
+                        Game.updateUI();
+                        Game.checkUnlockPrestige();
+                        Game.loadLevel(); 
+                    }
+                }
+            },
+
+            createUpgradeButtons: () => {
+                const list = $('upgrades-list');
+                list.innerHTML = '';
+                Upgrades.forEach((u, i) => {
+                    const div = document.createElement('div');
+                    div.className = 'btn-upgrade';
+                    div.id = `upg-btn-${i}`;
+                    div.onclick = () => Game.buyUpgrade(i);
+                    div.innerHTML = `<span class="upg-name" id="upg-name-${i}"></span>
+                        <span class="upg-cost" id="upg-cost-${i}"></span>
+                        <span class="upg-desc">${u.desc} (+${u.basePower} ${u.type === 'click' ? 'Dmg' : 'DPS'})</span>`;
+                    list.appendChild(div);
+                });
+            },
+
+            updateUpgradeButtons: () => {
+                Upgrades.forEach((u, i) => {
+                    const btn = $(`upg-btn-${i}`);
+                    const nameEl = $(`upg-name-${i}`);
+                    const costEl = $(`upg-cost-${i}`);
+
+                    let buyCount = (Game.buyAmt === 'max') ? Game.getMaxBuy(i) : Game.buyAmt;
+                    if(buyCount === 0 && Game.buyAmt !== 'max') buyCount = Game.buyAmt; 
+                    
+                    let displayCost = 0;
+                    let amountToBuy = 0;
+
+                    if (Game.buyAmt === 'max') {
+                        amountToBuy = buyCount;
+                        if(amountToBuy === 0) displayCost = Game.getCost(i, 1); 
+                        else displayCost = Game.getCost(i, amountToBuy);
+                    } else {
+                        amountToBuy = buyCount;
+                        displayCost = Game.getCost(i, amountToBuy);
+                    }
+                    
+                    nameEl.innerHTML = `${u.name} <span style="float:right; color:#fff">Lvl ${Game.state.upgrades[i]}</span>`;
+                    costEl.innerText = `Biomass: ${formatNumber(displayCost)} ${(Game.buyAmt === 'max' ? '(+' + amountToBuy + ')' : '')}`;
+
+                    if (Game.buyAmt === 'max' && amountToBuy === 0) {
+                        btn.classList.add('locked');
+                    }
+                    else if (Game.state.gold < displayCost) {
+                        btn.classList.add('locked');
+                    }
+                    else {
+                        btn.classList.remove('locked');
+                    }
+                });
+            },
+
+            renderNeuralShop: () => {
+                $('shop-link-count').innerText = Game.state.prestige.links;
+                const list = $('neural-shop-list');
+                list.innerHTML = '';
+                NeuralShopItems.forEach(item => {
+                    const current = Game.state.neuralUpgrades[item.id];
+                    const div = document.createElement('div');
+                    div.className = 'shop-item';
+                    const isMaxed = current >= item.max;
+                    const canAfford = Game.state.prestige.links >= item.cost;
+                    
+                    div.innerHTML = `
+                        <div>
+                            <div style="font-weight:bold; color:#fff">${item.name} <span style="font-size:0.7rem; color:var(--accent-plasma)">(${current}/${item.max})</span></div>
+                            <div style="font-size:0.7rem; color:#888">${item.desc}</div>
+                        </div>
+                        <button class="shop-btn" onclick="Game.buyNeuralUpgrade('${item.id}')" ${(!canAfford || isMaxed) ? 'disabled' : ''}>
+                            ${isMaxed ? 'MAX' : item.cost + ' Links'}
+                        </button>
+                    `;
+                    list.appendChild(div);
+                });
+            },
+
+            checkUnlockPrestige: () => {
+                // Toast Notification Helper
+                const triggerToast = (key, msg) => {
+                    if(!Game.toastsShown[key]) {
+                        Game.showToast(msg);
+                        Game.toastsShown[key] = true;
+                    }
+                };
+
+                // Layer 1
+                if (Game.state.maxStage >= 20) {
+                    $('layer1-btn').style.display = 'block';
+                    if(Game.state.maxStage >= 40) triggerToast('l1', "RECOMMENDED: SECTOR 40 REACHED");
+                }
+                
+                // Layer 2
+                if (Game.state.prestige.mutagens >= 10) {
+                    $('layer2-btn').style.display = 'block';
+                    if(Game.state.prestige.mutagens >= 20) triggerToast('l2', "RECOMMENDED: 20 MUTAGENS REACHED");
+                }
+
+                if (Game.state.prestige.links > 0) $('shop-btn').style.display = 'block'; 
+                
+                // Layer 3
+                if (Game.state.prestige.links >= 5) {
+                    $('layer3-btn').style.display = 'block';
+                    if(Game.state.prestige.links >= 25) triggerToast('l3', "RECOMMENDED: 25 LINKS REACHED");
+                }
+
+                if (Game.state.prestige.stardust > 0) $('cosmic-panel').style.display = 'block';
+                
+                // Layer 4
+                if (Game.state.prestige.stardust >= 50) {
+                    $('layer4-btn').style.display = 'block';
+                    if(Game.state.prestige.stardust >= 100) triggerToast('l4', "RECOMMENDED: 100 STARDUST REACHED");
+                }
+
+                if (Game.state.prestige.darkMatter >= 100 && Game.state.universeCount === 0) $('layer5-btn').style.display = 'block';
+
+                if(Game.state.prestige.totalResets > 0 || Game.state.prestige.mutagens > 0) $('mutagen-row').style.display = 'flex';
+                if(Game.state.prestige.links > 0) $('neural-row').style.display = 'flex';
+                if(Game.state.prestige.stardust > 0) $('dust-row').style.display = 'flex';
+                if(Game.state.prestige.darkMatter > 0) $('dark-row').style.display = 'flex';
+                
+                if(Game.state.universeCount > 0) {
+                    $('universe-row').style.display = 'flex';
+                    $('anomaly-btn').style.display = 'flex';
+                    $('artifact-section').style.display = 'block';
+                    $('manual-singularity').style.display = 'block'; // Show manual section
+                }
+                
+                $('lvl-warpDrive').innerText = (Game.state.cosmicUpgrades.warpDrive * 2) + "%";
+                if(Game.state.cosmicUpgrades.warpDrive >= 10) { 
+                    $('cost-warpDrive').innerText = "MAX"; 
+                    $('cost-warpDrive').parentElement.parentElement.classList.add('maxed');
+                }
+                if(Game.state.cosmicUpgrades.hyperMap > 0) {
+                    $('cost-hyperMap').innerText = "OWNED";
+                    $('cost-hyperMap').parentElement.parentElement.classList.add('maxed');
+                }
+            },
+
+            prestige: (layer) => {
+                let gained = 0;
+                let multiplier = 1;
+                if(Game.hasAnomaly(6)) multiplier = 2; // Abyssal Anchor
+
+                if (layer === 1) {
+                    if (Game.state.maxStage < 20) return;
+                    gained = Math.floor(Game.state.maxStage / 20) * multiplier; 
+                    if (gained < 1) return; 
+                    if (confirm(`Reset for ${gained} Mutagens?`)) {
+                        AudioController.playPrestige();
+                        Game.state.prestige.mutagens += gained;
+                        Game.state.lifetime.mutagens += gained;
+                        Game.state.prestige.totalResets++;
+                        Game.doReset(['mutagens', 'links', 'stardust', 'darkMatter', 'cosmicUpgrades', 'neuralUpgrades']); 
+                    }
+                }
+                else if (layer === 2) {
+                    if (Game.state.prestige.mutagens < 10) return;
+                    gained = Math.floor(Game.state.prestige.mutagens / 10) * multiplier;
+                    if (confirm(`SACRIFICE MUTAGENS? Reset for ${gained} Neural Links?`)) {
+                        AudioController.playPrestige();
+                        Game.state.prestige.links += gained;
+                        Game.state.lifetime.links += gained;
+                        Game.state.prestige.mutagens = 0;
+                        Game.doReset(['links', 'stardust', 'darkMatter', 'cosmicUpgrades']); 
+                    }
+                }
+                else if (layer === 3) {
+                    if (Game.state.prestige.links < 5) return;
+                    gained = Math.floor(Game.state.prestige.links / 5) * multiplier;
+                    if (confirm(`ASCEND? Reset for ${gained} Cosmic Dust?`)) {
+                        AudioController.playPrestige();
+                        Game.state.prestige.stardust += gained;
+                        Game.state.lifetime.stardust += gained;
+                        Game.state.prestige.mutagens = 0;
+                        Game.state.prestige.links = 0;
+                        Game.doReset(['stardust', 'darkMatter', 'cosmicUpgrades']);
+                    }
+                }
+                else if (layer === 4) {
+                    if (Game.state.prestige.stardust < 50) return;
+                    gained = Math.floor(Game.state.prestige.stardust / 50) * multiplier;
+                    if (confirm(`TRANSCEND REALITY? Reset EVERYTHING for ${gained} Dark Matter?`)) {
+                        AudioController.playPrestige();
+                        Game.state.prestige.darkMatter += gained;
+                        Game.state.lifetime.darkMatter += gained;
+                        Game.state.prestige.mutagens = 0;
+                        Game.state.prestige.links = 0;
+                        Game.state.prestige.stardust = 0;
+                        Game.doReset(['darkMatter']);
+                        
+                        document.body.style.filter = "invert(1) hue-rotate(180deg)";
+                        setTimeout(() => document.body.style.filter = "none", 500);
+                    }
+                }
+            },
+
+            doReset: (keepKeys) => {
+                Game.state.gold = 0;
+                Game.state.stage = 1;
+                Game.state.maxStage = 1;
+                Game.state.stageKills = 0;
+                Game.state.sectorProgress = {}; // Reset sector memory on prestige
+                Game.state.upgrades = [0,0,0,0,0,0];
+                Game.bossActive = false;
+                Game.state.hyperMode = false;
+                Game.justEnteredSector5 = false;
+                $('hyper-toggle').classList.remove('active');
+                
+                // Reset Toast flags so they show again on next run
+                Game.toastsShown = { l1: false, l2: false, l3: false, l4: false };
+                
+                if(!keepKeys.includes('mutagens')) Game.state.prestige.mutagens = 0;
+                if(!keepKeys.includes('links')) Game.state.prestige.links = 0;
+                if(!keepKeys.includes('stardust')) Game.state.prestige.stardust = 0;
+                if(!keepKeys.includes('darkMatter')) Game.state.prestige.darkMatter = 0;
+                if(!keepKeys.includes('cosmicUpgrades')) Game.state.cosmicUpgrades = { warpDrive: 0, hyperMap: 0 };
+                
+                if(!keepKeys.includes('neuralUpgrades')) Game.state.neuralUpgrades = { autoClicker: 0, discount: 0, overclock: 0, critAmp: 0 };
+
+                Game.updateStats();
+                Game.checkUnlockPrestige();
+                Game.loadLevel();
+                Game.updateUpgradeButtons();
+                Game.updateUI();
+            },
+
+            triggerSingularity: () => {
+                if(Game.isResetting) return;
+                if(Game.state.prestige.darkMatter < 100) { alert("Insufficient Dark Matter. You need 100."); return; }
+                if(!confirm("WARNING: THIS WILL END THE SIMULATION. ARE YOU SURE?")) return;
+                
+                Game.isResetting = true;
+                AudioController.playPrestige();
+                document.body.classList.add('singularity-active');
+                
+                // Hide ALL layers during singularity
+                $('layer1-btn').style.display = 'none';
+                $('layer2-btn').style.display = 'none';
+                $('layer3-btn').style.display = 'none';
+                $('layer4-btn').style.display = 'none';
+                $('layer5-btn').style.display = 'none';
+                $('shop-btn').style.display = 'none';
+                $('cosmic-panel').style.display = 'none';
+                $('mutagen-row').style.display = 'none';
+                $('neural-row').style.display = 'none';
+                $('dust-row').style.display = 'none';
+                $('dark-row').style.display = 'none';
+                
+                Game.state.universeCount++;
+
+                setTimeout(() => {
+                    alert(`UNIVERSE ${Game.state.universeCount-1} CONSUMED.\n\nENTERING UNIVERSE ${Game.state.universeCount}.\n(Global Damage Multiplier Increased & Anomalies Detected)`);
+                    document.body.classList.remove('singularity-active');
+                    Game.doReset([]); // Reset everything
+                    Game.isResetting = false;
+                    $('universe-display').innerText = Game.state.universeCount;
+                }, 3800);
+            },
+
+            createParticle: (x, y, isCrit, isExplosion = false) => {
+                const p = document.createElement('div');
+                p.className = 'particle';
+                const size = isCrit ? 10 : 5;
+                p.style.width = size + 'px'; p.style.height = size + 'px';
+                p.style.left = x + 'px'; p.style.top = y + 'px';
+                const angle = Math.random() * Math.PI * 2;
+                const velocity = isExplosion ? Math.random() * 100 : Math.random() * 50;
+                const tx = Math.cos(angle) * velocity;
+                const ty = Math.sin(angle) * velocity;
+                p.animate([{ transform: `translate(0,0) scale(1)`, opacity: 1 }, { transform: `translate(${tx}px, ${ty + 100}px) scale(0)`, opacity: 0 }], { duration: 600, easing: 'cubic-bezier(0, .9, .57, 1)' }).onfinish = () => p.remove();
+                document.body.appendChild(p);
+            },
+
+            createDamageText: (amt, x, y, isCrit) => {
+                const el = document.createElement('div');
+                el.className = 'damage-number';
+                if (isCrit) el.classList.add('crit-text');
+                el.innerText = typeof amt === 'number' ? formatNumber(amt) : amt;
+                el.style.left = (x + 10) + 'px'; el.style.top = (y - 20) + 'px';
+                el.style.color = isCrit ? '#ff0033' : '#fff';
+                document.body.appendChild(el);
+                setTimeout(() => el.remove(), 800);
+            },
+
+            log: (msg) => {
+                const log = $('console-log-mini');
+                const entry = document.createElement('div');
+                entry.className = 'log-entry';
+                if (msg.includes('Zalgo')) entry.classList.add('glitch');
+                if (Game.state.prestige.darkMatter > 0) entry.classList.add('glitched-text'); 
+                entry.innerText = `> ${msg}`;
+                log.prepend(entry);
+                if (log.children.length > 5) log.lastChild.remove();
+                $('story-log').innerText = msg;
+            },
+
+            startIdleLoop: () => {
+                setInterval(() => {
+                    if(Game.settings.paused) return;
+
+                    // Standard Idle
+                    if (Game.state.idleDps > 0) {
+                        let tickRate = 10;
+                        if(Game.hasAnomaly(0)) tickRate = 15; // Temporal Cortex (50% faster ticks)
+                        
+                        const dmgTick = Game.state.idleDps / tickRate;
+                        if (dmgTick > 0) {
+                            const rect = $('enemy-container').getBoundingClientRect();
+                            Game.damageEnemy(dmgTick, rect.left + rect.width/2 + rand(-50,50), rect.top + rect.height/2 + rand(-50,50), "idle");
+                        }
+                    }
+
+                    // Synaptic Drone
+                    const droneLvl = Game.state.neuralUpgrades.autoClicker;
+                    if (droneLvl > 0) {
+                        const clicksPerSec = droneLvl * 5; 
+                        const chancePerTick = clicksPerSec / 10; 
+                        
+                        let clicks = Math.floor(chancePerTick);
+                        if(Math.random() < (chancePerTick - clicks)) clicks++;
+                        
+                        const rect = $('enemy-container').getBoundingClientRect();
+                        for(let i=0; i<clicks; i++) {
+                             Game.damageEnemy(Game.state.clickDmg, rect.left + rect.width/2, rect.top + rect.height/2, "click");
+                        }
+                    }
+
+                    Game.updateUI();
+                    Game.checkUnlockPrestige();
+                    Game.updateUpgradeButtons();
+                }, 100);
+            },
+
+            updateHPBar: () => $('hp-bar').style.width = Math.max(0, (Game.enemy.currentHp / Game.enemy.maxHp) * 100) + '%',
+            updateUI: () => {
+                $('gold-display').innerText = formatNumber(Game.state.gold);
+                $('stage-display').innerText = Game.state.stage;
+                $('dps-display').innerText = formatNumber(Game.state.idleDps);
+                $('click-dmg-display').innerText = formatNumber(Game.state.clickDmg);
+                $('mutagen-display').innerText = formatNumber(Game.state.prestige.mutagens);
+                $('neural-display').innerText = formatNumber(Game.state.prestige.links);
+                $('dust-display').innerText = formatNumber(Game.state.prestige.stardust);
+                $('dark-display').innerText = formatNumber(Game.state.prestige.darkMatter);
+                $('universe-display').innerText = Game.state.universeCount;
+                
+                let critChance = (1 + Game.state.prestige.stardust);
+                if(Game.hasAnomaly(3)) critChance += 10;
+                $('crit-chance-display').innerText = critChance;
+
+                let critMult = 3 + (Game.state.neuralUpgrades.critAmp * 0.5);
+                if(Game.hasAnomaly(5)) critMult += 2;
+                if(Game.hasAnomaly(9)) critMult *= 2;
+                
+                // Artifact Crit Display Logic
+                if (Game.state.artifacts['rare']) critMult += (Game.state.artifacts['rare'] * 0.5);
+                if (Game.state.artifacts['epic']) critMult += (Game.state.artifacts['epic'] * 1.0);
+                
+                $('crit-mult-display').innerText = critMult;
+            },
+            loop: () => requestAnimationFrame(Game.loop)
+        };
+        window.onload = Game.init;
+    </script>
+</body>
+</html>

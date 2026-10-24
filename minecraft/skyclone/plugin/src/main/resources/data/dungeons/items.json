@@ -1,0 +1,374 @@
+[
+ {
+  "id": "SPIRIT_LEAP",
+  "name": "Soul Leap",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "maxStack": 16,
+  "tags": [
+   "dungeon_only",
+   "no_ah"
+  ],
+  "lore": [
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_spirit_leap",
+    "name": "Soul Leap",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Leap to any living teammate. You are",
+     "&7untouchable for &a1 &7second after landing."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SUPERBOOM_TNT",
+  "name": "Megablast TNT",
+  "material": "TNT",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "maxStack": 64,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Blows open cracked brick walls and",
+   "&7the lids of crypts.",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_superboom",
+    "name": "Detonate",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Explode the block you are looking at",
+     "&7(up to &a6 &7blocks away)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DUNGEON_DECOY",
+  "name": "Decoy",
+  "material": "POLAR_BEAR_SPAWN_EGG",
+  "rarity": "UNCOMMON",
+  "category": "CONSUMABLE",
+  "maxStack": 64,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Runs about and pulls nearby monsters",
+   "&7away from you for &a10 &7seconds.",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_decoy",
+    "name": "Distract",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Place a decoy that lures mobs."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "INFLATABLE_JERRY",
+  "name": "Inflatable Dummy",
+  "material": "POLAR_BEAR_SPAWN_EGG",
+  "rarity": "COMMON",
+  "category": "CONSUMABLE",
+  "maxStack": 64,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7A puffed-up stand-in. Monsters near it",
+   "&7forget you for &a5 &7seconds.",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_dummy",
+    "name": "Inflate",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Place a short-lived decoy."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "REVIVE_STONE",
+  "name": "Revive Stone",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only",
+   "no_ah",
+   "no_trade"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg1MDM4MjMzNCwKICAicHJvZmlsZUlkIiA6ICIxZDlkYmE3NzdlMWE0NzVkOTQ1ZDYxNmZlYzNiNjhlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmFzeWRpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I2YTc2Y2MyMmU3YzJhYjljNTQwZDEyNDRlYWRiYTU4MWY1ZGQ5ZTE4ZjlhZGFjZjA1MjgwYTViNDhiOGY2MTgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7One use. &eVanishes when the run ends!",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_revive",
+    "name": "Revive",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Bring a fallen teammate back to life."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_1",
+  "name": "Dungeon Potion I",
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7AE36B",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+5 Strength &7and &9+5% Crit Damage",
+   "&c+20 Health &7and &f+2 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_2",
+  "name": "Dungeon Potion II",
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#55D0FF",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+10 Strength &7and &9+10% Crit Damage",
+   "&c+40 Health &7and &f+4 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_3",
+  "name": "Dungeon Potion III",
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2E7CFF",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+15 Strength &7and &9+15% Crit Damage",
+   "&c+60 Health &7and &f+6 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_4",
+  "name": "Dungeon Potion IV",
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#C04CFF",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+20 Strength &7and &9+20% Crit Damage",
+   "&c+80 Health &7and &f+8 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_5",
+  "name": "Dungeon Potion V",
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#FFB327",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+25 Strength &7and &9+25% Crit Damage",
+   "&c+100 Health &7and &f+10 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_6",
+  "name": "Dungeon Potion VI",
+  "material": "POTION",
+  "rarity": "LEGENDARY",
+  "category": "POTION",
+  "color": "#FF6A3D",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+30 Strength &7and &9+30% Crit Damage",
+   "&c+120 Health &7and &f+12 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "POTION_DUNGEON_7",
+  "name": "Dungeon Potion VII",
+  "material": "POTION",
+  "rarity": "LEGENDARY",
+  "category": "POTION",
+  "color": "#FF2E4D",
+  "maxStack": 1,
+  "tags": [
+   "dungeon_only"
+  ],
+  "lore": [
+   "&7Drink inside the Catacombs for the rest",
+   "&7of the run:",
+   "&c+35 Strength &7and &9+35% Crit Damage",
+   "&c+140 Health &7and &f+14 Speed",
+   "",
+   "&cDungeons only!"
+  ],
+  "abilities": [
+   {
+    "id": "dungeons_potion",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Drink it."
+    ]
+   }
+  ]
+ }
+]

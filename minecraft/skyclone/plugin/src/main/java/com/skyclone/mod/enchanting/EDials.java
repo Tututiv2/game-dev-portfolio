@@ -1,0 +1,118 @@
+package com.skyclone.mod.enchanting;
+
+import com.skyclone.api.Sky;
+import com.skyclone.api.config.Dials;
+
+/** Every enchanting tunable (CONTRACT §1.3). Read at use time. */
+final class EDials {
+
+    final Dials.Dial<Boolean> effects;
+    final Dials.Dial<Double> tableXpPerLevel;
+    final Dials.Dial<Double> anvilXpPerLevel;
+    final Dials.Dial<Double> anvilCostMultiplier;
+    final Dials.Dial<Integer> anvilOverTable;
+    final Dials.Dial<Boolean> enforceSkill;
+    final Dials.Dial<Integer> powerPerLevel;
+    final Dials.Dial<Integer> commandPower;
+    final Dials.Dial<Boolean> tableCommand;
+    final Dials.Dial<Boolean> anvilCommand;
+    final Dials.Dial<Double> killExpPerCombatXp;
+    final Dials.Dial<Boolean> oreExp;
+    final Dials.Dial<Integer> experimentsMaxCharges;
+    final Dials.Dial<Double> experimentsChargeHours;
+    final Dials.Dial<Integer> experimentsExtraRuns;
+    final Dials.Dial<Double> superpairsFeeMultiplier;
+    final Dials.Dial<Double> ultraRareMultiplier;
+    final Dials.Dial<Double> endermanUltraRareBoost;
+    final Dials.Dial<String> experimentsRequirement;
+    final Dials.Dial<Integer> superpairsExtraClicks;
+    final Dials.Dial<Double> superpairsXpMultiplier;
+    final Dials.Dial<Double> addonXpMultiplier;
+    final Dials.Dial<Integer> grandBottleExp;
+    final Dials.Dial<Integer> titanicBottleExp;
+    final Dials.Dial<Integer> colossalBottleExp;
+    final Dials.Dial<Boolean> placeHubTable;
+    final Dials.Dial<Double> drainHealPercent;
+    final Dials.Dial<Double> soulEaterCap;
+    final Dials.Dial<Boolean> librarian;
+    final Dials.Dial<Double> knockbackPerBlock;
+    final Dials.Dial<Integer> chronoShowTicks;
+    final Dials.Dial<Integer> ultraShowTicks;
+    final Dials.Dial<Boolean> normaliseAliases;
+    final Dials.Dial<Integer> piercingTargets;
+    final Dials.Dial<Double> dragonSeekerTurn;
+    final Dials.Dial<Integer> frostWalkerSeconds;
+    final Dials.Dial<Double> cropFeverFortune;
+    final Dials.Dial<Double> cropFeverRoll;
+    // wave 5
+    final Dials.Dial<Boolean> vitalityPool;
+    final Dials.Dial<Double> vitalityRegen;
+    final Dials.Dial<Boolean> vitalityEnforce;
+    final Dials.Dial<String> vitalityCosts;
+    final Dials.Dial<String> vitalitySoftCosts;
+    final Dials.Dial<Boolean> vitalityActionBar;
+    final Dials.Dial<Integer> vitalityConverterSeconds;
+    final Dials.Dial<Double> stealthRadius;
+    final Dials.Dial<Integer> stealthHoldSeconds;
+    final Dials.Dial<Integer> stealthRerollSeconds;
+    final Dials.Dial<Integer> greenThumbVisitorCap;
+    final Dials.Dial<Double> rendRadius;
+    final Dials.Dial<Boolean> paleontologistFallback;
+    final Dials.Dial<Double> paleontologistBase;
+
+    EDials() {
+        Dials d = Sky.dials();
+        effects = d.flag("enchanting.effects", true, "Master switch: enchant effects (damage, stats, procs) are live");
+        tableXpPerLevel = d.number("enchanting.table-xp-per-level", 30, "Enchanting XP gained per XP level spent at the table (research 08 clone default)");
+        anvilXpPerLevel = d.number("enchanting.anvil-xp-per-level", 30, "Enchanting XP gained per XP level spent at the anvil (TUNE)");
+        anvilCostMultiplier = d.number("enchanting.anvil-cost-multiplier", 1.0, "Multiplier on anvil XP-level costs (base: 2 per resulting level)");
+        anvilOverTable = d.integer("enchanting.anvil-over-table", 1, "How many levels above the table max two equal books can be combined to");
+        enforceSkill = d.flag("enchanting.enforce-skill-requirements", true, "Enchants need their Enchanting skill level at the table and the anvil");
+        powerPerLevel = d.integer("enchanting.bookshelf-power-per-level", 3, "Bookshelf power needed per level above I (research 08 clone: 3)");
+        commandPower = d.integer("enchanting.command-bookshelf-power", 15, "Bookshelf power when /enchant is used away from a table");
+        tableCommand = d.flag("enchanting.table-command", true, "/enchant opens the Enchant Item menu anywhere");
+        anvilCommand = d.flag("enchanting.anvil-command", true, "/anvil opens the Anvil anywhere");
+        killExpPerCombatXp = d.number("enchanting.kill-exp-per-combat-xp", 1.0, "Vanilla experience points a kill gives per point of its Combat XP");
+        oreExp = d.flag("enchanting.ore-exp", true, "Mining ores gives vanilla experience");
+        experimentsMaxCharges = d.integer("enchanting.experiments.max-charges", 3, "Experiment charges the table banks; each Twin Tiles game costs one (wiki: 3)");
+        experimentsChargeHours = d.number("enchanting.experiments.charge-hours", 24, "Hours for one experiment charge to come back while the bank is not full (wiki: 24)");
+        experimentsExtraRuns = d.integer("enchanting.experiments.extra-runs", 3, "Extra games per UTC day bought with XP levels + bits once charges are spent (wiki: 3; costs in experiments.json)");
+        superpairsFeeMultiplier = d.number("enchanting.experiments.fee-multiplier", 1.0, "Multiplier on each Twin Tiles tier's coin starting cost (wiki: 50k/75k/100k/200k/300k/400k)");
+        ultraRareMultiplier = d.number("enchanting.experiments.ultra-rare-multiplier", 1.0, "Multiplier on the per-game chance of an Endcap Upgrade pair (Supreme and up)");
+        endermanUltraRareBoost = d.number("enchanting.experiments.enderman8-boost", 15, "+% ultra-rare chance at Enderman Slayer level 8 (wiki: 15)");
+        experimentsRequirement = d.text("enchanting.experiments-requirement", "", "Requirement key for /experiments (blank = everyone)");
+        superpairsExtraClicks = d.integer("enchanting.superpairs-extra-clicks", 0, "Extra Twin Tiles clicks on top of each tier's base");
+        superpairsXpMultiplier = d.number("enchanting.superpairs-xp-multiplier", 1.0, "Multiplier on Twin Tiles Enchanting XP");
+        addonXpMultiplier = d.number("enchanting.addon-xp-multiplier", 1.0, "Multiplier on Echo Keys/Number Vault Enchanting XP");
+        grandBottleExp = d.integer("enchanting.grand-bottle-exp", 1250, "Experience points in a Grand Experience Bottle (TUNE)");
+        titanicBottleExp = d.integer("enchanting.titanic-bottle-exp", 5000, "Experience points in a Titanic Experience Bottle (TUNE)");
+        colossalBottleExp = d.integer("enchanting.colossal-bottle-exp", 20000, "Experience points in a Colossal Experience Bottle (TUNE)");
+        placeHubTable = d.flag("enchanting.place-hub-table", true, "Place an enchanting table at the hub's npc.enchanting_table anchor if the spot is empty");
+        drainHealPercent = d.number("enchanting.drain-heal-percent", 1.0, "Drain: % of max health healed per point of the enchant's value (TUNE: core has no Vitality pool)");
+        soulEaterCap = d.number("enchanting.soul-eater-cap", 5000, "Soul Eater: most Strength one crit can gain (research: 5k outside dungeons)");
+        librarian = d.flag("enchanting.librarian", true, "Register the hub Librarian NPC when no other module did");
+        knockbackPerBlock = d.number("enchanting.knockback-per-block", 0.1, "Knockback/Punch: velocity added per block of extra knockback (TUNE)");
+        chronoShowTicks = d.integer("enchanting.chronomatron-note-ticks", 10, "Ticks each Echo Keys note stays lit");
+        ultraShowTicks = d.integer("enchanting.ultrasequencer-show-ticks", 50, "Ticks the Number Vault numbers stay visible");
+        normaliseAliases = d.flag("enchanting.normalise-book-aliases", true, "Turn 'SHARPNESS;5'-style book ids into ENCHANTMENT_SHARPNESS_5 when gained");
+        piercingTargets = d.integer("enchanting.piercing-targets", 4, "Piercing: extra enemies one arrow passes through (vanilla pierce level; TUNE)");
+        dragonSeekerTurn = d.number("enchanting.dragon-seeker-turn", 0.35, "Dragon Seeker: share of an arrow's heading turned toward the dragon each tick (0.05-1)");
+        frostWalkerSeconds = d.integer("enchanting.frost-walker-seconds", 6, "Frost Walker: seconds before frozen water turns back (vanilla ~3-6)");
+        cropFeverFortune = d.number("enchanting.crop-fever-fortune", 100, "Crop Fever: Farming Fortune while the 60s fever runs (research text)");
+        cropFeverRoll = d.number("enchanting.crop-fever-roll", 0.05, "Crop Fever: chance per crop broken during the fever for its enchanted form (TUNE)");
+        vitalityPool = d.flag("enchanting.vitality.pool", true, "Run the Vitality pool (max = Vitality stat): healing abilities spend it, Drain/Last Stand refill it, the Vitality converters read it. Off = Drain heals % of max health instead");
+        vitalityRegen = d.number("enchanting.vitality.regen-percent", 5.0, "Vitality regenerated per second, % of max (research 01 section 6.2: 5)");
+        vitalityEnforce = d.flag("enchanting.vitality.enforce", true, "Healing abilities in vitality.costs are refused when the pool cannot pay (like mana)");
+        vitalityCosts = d.text("enchanting.vitality.costs", VitalityMath.DEFAULT_COSTS, "Vitality cost per healing ability id (id=cost, comma separated; research 01 section 6.2)");
+        vitalitySoftCosts = d.text("enchanting.vitality.soft-costs", VitalityMath.DEFAULT_SOFT_COSTS, "Vitality charged but never refused (Wither Shield, Ward Veil): id=cost, comma separated");
+        vitalityActionBar = d.flag("enchanting.vitality.action-bar", true, "Show the Vitality pool on the action bar while it is not full");
+        vitalityConverterSeconds = d.integer("enchanting.vitality.converter-seconds", 10, "Seconds a Hardened/Strong/Vivacious Vitality buff lasts (books: 10)");
+        stealthRadius = d.number("enchanting.stealth.radius", 8.0, "Stealth: blocks around you a timid creature rolls to hold still (TUNE)");
+        stealthHoldSeconds = d.integer("enchanting.stealth.hold-seconds", 6, "Stealth: seconds a timid creature holds still on a successful roll (TUNE)");
+        stealthRerollSeconds = d.integer("enchanting.stealth.reroll-seconds", 20, "Stealth: seconds before the same creature can be rolled again on approach (TUNE)");
+        rendRadius = d.number("enchanting.rend-radius", 16.0, "Rend: blocks around you whose enemies have your arrows ripped out (TUNE)");
+        paleontologistFallback = d.flag("enchanting.paleontologist-fallback", true, "Paleontologist rolls its own bonus Suspicious Scrap in glacite mineshafts. Turn OFF the day mining folds the % into its own scrap roll (else it pays twice)");
+        paleontologistBase = d.number("enchanting.paleontologist-base", 0.001, "Paleontologist: base scrap chance per block it raises (mirror mining.scrap-chance)");
+        greenThumbVisitorCap = d.integer("enchanting.green-thumb.visitor-cap", 255, "Green Thumb: highest unique-visitor count searched for (the reference has ~100 visitors)");
+    }
+}

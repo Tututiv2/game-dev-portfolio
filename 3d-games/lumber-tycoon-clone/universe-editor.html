@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universe editor — Lumber Tycoon Clone</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; background: #0a0c10; color: #e8eaed; }
+    #ue-ui {
+      position: fixed;
+      left: 12px;
+      top: 12px;
+      z-index: 10;
+      width: min(320px, 94vw);
+      max-height: min(92vh, 720px);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 14px 16px;
+      background: rgba(18, 20, 26, 0.94);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+      font-size: 13px;
+    }
+    #ue-ui h1 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
+    #ue-ui p { margin: 0; font-size: 12px; opacity: 0.88; line-height: 1.45; }
+    #ue-tree {
+      flex: 1;
+      min-height: 120px;
+      max-height: 38vh;
+      overflow: auto;
+      padding: 8px 10px;
+      background: rgba(0,0,0,0.35);
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.08);
+      font-size: 12px;
+      user-select: none;
+    }
+    #ue-tree .node { margin: 2px 0; cursor: pointer; padding: 4px 6px; border-radius: 4px; }
+    #ue-tree .node:hover { background: rgba(255,255,255,0.06); }
+    #ue-tree .node.sel { background: rgba(80, 140, 255, 0.25); border: 1px solid rgba(120, 170, 255, 0.35); }
+    #ue-tree .ch { margin-left: 14px; opacity: 0.9; font-size: 11px; color: #9aa0a6; }
+    .ue-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .ue-btn {
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12px;
+      background: #2d4a6f;
+      color: #fff;
+    }
+    .ue-btn:hover { filter: brightness(1.08); }
+    .ue-btn.secondary { background: #3a4048; }
+    .ue-btn.danger { background: #6a3030; }
+    #ue-status { font-size: 11px; color: #7ec8ff; min-height: 16px; }
+    a.back { color: #8cf; font-size: 12px; }
+
+    /* Right side: Planet properties panel (appears when a planet is selected) */
+    #ue-planet-panel {
+      position: fixed;
+      right: 12px;
+      top: 12px;
+      z-index: 10;
+      width: min(360px, 92vw);
+      max-height: calc(100vh - 24px);
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      padding: 14px 16px;
+      background: rgba(18, 20, 26, 0.94);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+      font-size: 13px;
+      overflow: auto;
+    }
+    #ue-planet-panel.open { display: flex; }
+    #ue-planet-panel h2 { margin: 0; font-size: 15px; font-weight: 600; }
+    #ue-planet-panel h3 {
+      margin: 8px 0 4px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #9aa0a6;
+    }
+    .pp-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .pp-row label { font-size: 11px; opacity: 0.85; flex: 1; min-width: 0; }
+    .pp-row input[type="text"],
+    .pp-row input[type="number"],
+    .pp-row select {
+      flex: 0 0 auto;
+      width: 110px;
+      padding: 4px 6px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.16);
+      background: rgba(255,255,255,0.04);
+      color: #e8eaed;
+      font: inherit;
+    }
+    .pp-row input[type="color"] {
+      width: 36px;
+      height: 24px;
+      border: 1px solid rgba(255,255,255,0.16);
+      background: transparent;
+      cursor: pointer;
+      padding: 0;
+    }
+    .pp-row input[type="checkbox"] { transform: scale(1.1); }
+    .pp-row input[type="range"] { flex: 1; min-width: 60px; }
+    .pp-section {
+      padding: 8px 10px;
+      background: rgba(0,0,0,0.28);
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    #ue-biomes-list { display: flex; flex-direction: column; gap: 6px; }
+    .pp-biome {
+      padding: 6px 8px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .pp-biome .pp-biome-head {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pp-biome .pp-biome-head input[type="text"] {
+      flex: 1;
+      width: auto;
+    }
+    .pp-biome .pp-biome-head .pp-del {
+      background: #6a3030;
+      color: #fff;
+      border: 1px solid #8c4444;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font: inherit;
+      font-size: 11px;
+    }
+    .pp-presets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .pp-presets label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      padding: 2px 6px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.1);
+      cursor: pointer;
+    }
+    .pp-presets label.on {
+      background: rgba(80,140,255,0.22);
+      border-color: rgba(120,170,255,0.4);
+    }
+    .pp-presets input { display: none; }
+    .pp-add-btn {
+      background: #2d4a6f;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 4px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+    }
+    #ue-pp-empty {
+      font-size: 12px;
+      opacity: 0.7;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="ue-ui">
+    <h1>Universe editor</h1>
+    <p>God view of every map <strong>planet</strong>. Drag the gizmo to move / rotate / scale the hub; map data inside each planet stays in its own local space. The <strong>store</strong> in the main game is still world-fixed — tune per-planet <code>worldDef</code> in JSON if you move hubs far apart.</p>
+    <div class="ue-row">
+      <button type="button" class="ue-btn secondary" id="ue-mode-t">Move</button>
+      <button type="button" class="ue-btn secondary" id="ue-mode-r">Rotate</button>
+      <button type="button" class="ue-btn secondary" id="ue-mode-s">Scale</button>
+      <button type="button" class="ue-btn" id="ue-focus">Frame all</button>
+    </div>
+    <div class="ue-row">
+      <button type="button" class="ue-btn" id="ue-save">Save to browser</button>
+      <button type="button" class="ue-btn secondary" id="ue-download">Download JSON</button>
+    </div>
+    <div class="ue-row">
+      <button type="button" class="ue-btn" id="ue-new-planet" title="Create a new planet at the universe origin">+ New planet</button>
+      <button type="button" class="ue-btn secondary" id="ue-rename-planet" title="Rename the selected planet (changes its label; planetId stays the same)">Rename</button>
+      <button type="button" class="ue-btn secondary" id="ue-delete-planet" title="Delete the selected planet" style="background:#8a2e2e;">Delete</button>
+    </div>
+    <label style="font-size:11px;opacity:0.85;">Hierarchy</label>
+    <div id="ue-tree"></div>
+    <div class="ue-row" style="margin-top:8px;align-items:baseline;justify-content:space-between;">
+      <label style="font-size:11px;opacity:0.85;">Gravity wells</label>
+      <div class="ue-row">
+        <button type="button" class="ue-btn secondary" id="ue-wells-all" title="Show every planet's gravity well" style="font-size:11px;padding:3px 8px;">All on</button>
+        <button type="button" class="ue-btn secondary" id="ue-wells-none" title="Hide every planet's gravity well" style="font-size:11px;padding:3px 8px;">All off</button>
+      </div>
+    </div>
+    <div id="ue-gravity-wells" style="font-size:12px;margin-top:4px;display:flex;flex-direction:column;gap:4px;"></div>
+    <div id="ue-overlap-banner" style="display:none;margin-top:8px;padding:8px 10px;border-radius:6px;background:#5a1a1a;border:1px solid #ff6060;color:#ffd8d8;font-size:12px;line-height:1.45;"></div>
+    <div id="ue-status"></div>
+    <p style="margin:0;">
+      <a class="back" href="./map-editor.html">← Map editor</a>
+      · <a class="back" href="./index.html">Game</a>
+    </p>
+  </div>
+
+  <div id="ue-planet-panel" aria-label="Planet properties">
+    <h2 id="ue-pp-title">Planet properties</h2>
+    <div id="ue-pp-empty">Select a planet on the left or in the 3D view to edit its properties.</div>
+    <div id="ue-pp-content" style="display:none; flex-direction:column; gap:10px;">
+      <h3>General</h3>
+      <div class="pp-section">
+        <div class="pp-row">
+          <label for="pp-label">Label</label>
+          <input type="text" id="pp-label" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-sphere">Sphere physics</label>
+          <input type="checkbox" id="pp-sphere" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-radius">Radius (m)</label>
+          <input type="number" id="pp-radius" min="50" max="20000000" step="100" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-gravity">Gravity (m/s²)</label>
+          <input type="number" id="pp-gravity" min="0" max="60" step="0.5" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-surface">Surface tint</label>
+          <input type="color" id="pp-surface" />
+        </div>
+      </div>
+
+      <h3>Atmosphere</h3>
+      <div class="pp-section">
+        <div class="pp-row">
+          <label for="pp-atm-on">Enabled</label>
+          <input type="checkbox" id="pp-atm-on" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-atm-color">Color</label>
+          <input type="color" id="pp-atm-color" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-atm-thick">Thickness (m above surface)</label>
+          <input type="number" id="pp-atm-thick" min="0" max="5000" step="10" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-atm-fog">Fog density (gameplay)</label>
+          <input type="number" id="pp-atm-fog" min="0" max="0.05" step="0.0005" />
+        </div>
+      </div>
+
+      <h3>Tree spawning</h3>
+      <div class="pp-section">
+        <div class="pp-row">
+          <label for="pp-ts-on">Procedural trees</label>
+          <input type="checkbox" id="pp-ts-on" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-ts-count">Target tree count</label>
+          <input type="number" id="pp-ts-count" min="0" max="50000" step="50" />
+        </div>
+        <div class="pp-row" style="margin-top:6px;">
+          <label for="pp-ts-seed">Seed</label>
+          <input type="number" id="pp-ts-seed" min="0" max="999999999" step="1" />
+        </div>
+        <div class="pp-row" style="margin-top:6px; align-items:center; gap:8px; flex-wrap:wrap;">
+          <label for="pp-ts-cluster" style="min-width:140px;">Clustering</label>
+          <input type="range" id="pp-ts-cluster" min="0" max="1" step="0.01" style="flex:1;" />
+          <span id="pp-ts-cluster-val" style="font-size:11px;min-width:38px;text-align:right;opacity:0.8;">0.25</span>
+        </div>
+        <p style="margin:6px 0 0; font-size:11px; opacity:0.7;">
+          <strong>Target tree count</strong> is the planet-wide scenery budget — all biomes share it, each one taking its proportional share based on <em>density</em>. <strong>Clustering</strong> controls scatter style: <em>0</em> = perfectly even spread (every tree equidistant), <em>1</em> = tight clumps of trees around a few hotspots (dense forests with open clearings between). <em>~0.25</em> looks natural for most biomes.
+        </p>
+      </div>
+
+      <h3>Biomes (latitude bands)</h3>
+      <div class="pp-section">
+        <div id="ue-biomes-list"></div>
+        <div class="pp-row" style="margin-top:8px; justify-content:flex-end;">
+          <button type="button" class="pp-add-btn" id="ue-biome-add">+ Add biome</button>
+        </div>
+        <p style="margin:6px 0 0; font-size:11px; opacity:0.7;">
+          Latitude is degrees from <strong>−90</strong> (south pole) to <strong>+90</strong> (north pole). Bands can overlap — the <em>narrowest</em> band covering a latitude wins, so a small "beach" band at ±6°–18° correctly takes priority over a wide "forest" band at ±65°. <em>Density</em> is the per-slot spawn probability (0 = empty, 1 = packed). <em>Presets</em> are the LT2 tree presets eligible to spawn in that band — pick multiple for variety (oak + cherry + default in a forest), or just one (palm on beaches).
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./universe-editor.js"></script>
+</body>
+</html>

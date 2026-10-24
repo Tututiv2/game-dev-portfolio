@@ -1,0 +1,178 @@
+[
+ {
+  "id": "mines_gold_grotto",
+  "island": "gold_mine",
+  "area": "lapis_grotto",
+  "mob": "gold_mine_zombie",
+  "max": 6,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_gold_gallery",
+  "island": "gold_mine",
+  "area": "gold_gallery",
+  "mob": "gold_mine_zombie",
+  "max": 4,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_deep_creepers",
+  "island": "deep_caverns",
+  "area": "gunpowder_mines",
+  "mob": "deep_caverns_sneaky_creeper",
+  "max": 8,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_deep_lapis",
+  "island": "deep_caverns",
+  "area": "lapis_quarry",
+  "mob": "deep_caverns_lapis_zombie",
+  "max": 12,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "mines_deep_pigmen",
+  "island": "deep_caverns",
+  "area": "pigmens_den",
+  "mob": "deep_caverns_redstone_pigman",
+  "max": 12,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "mines_deep_slime_5",
+  "island": "deep_caverns",
+  "area": "slimehill",
+  "mob": "deep_caverns_emerald_slime_5",
+  "max": 5,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_deep_slime_10",
+  "island": "deep_caverns",
+  "area": "slimehill",
+  "mob": "deep_caverns_emerald_slime_10",
+  "max": 5,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_deep_slime_15",
+  "island": "deep_caverns",
+  "area": "slimehill",
+  "mob": "deep_caverns_emerald_slime_15",
+  "max": 5,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_deep_miner_zombie",
+  "island": "deep_caverns",
+  "area": "diamond_reserve",
+  "mob": "deep_caverns_miner_zombie_15",
+  "max": 7,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_deep_miner_skeleton",
+  "island": "deep_caverns",
+  "area": "diamond_reserve",
+  "mob": "deep_caverns_miner_skeleton_15",
+  "max": 6,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_deep_diamond_zombie",
+  "island": "deep_caverns",
+  "area": "obsidian_sanctuary",
+  "mob": "deep_caverns_diamond_zombie_20",
+  "max": 7,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_deep_diamond_skeleton",
+  "island": "deep_caverns",
+  "area": "obsidian_sanctuary",
+  "mob": "deep_caverns_diamond_skeleton_20",
+  "max": 6,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_dwarven_goblin_weakling",
+  "island": "dwarven_mines",
+  "area": "goblin_burrows",
+  "mob": "dwarven_goblin_weakling",
+  "max": 8,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "mines_dwarven_goblin_weakling_bow",
+  "island": "dwarven_mines",
+  "area": "goblin_burrows",
+  "mob": "dwarven_goblin_weakling_bow",
+  "max": 5,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_dwarven_goblin",
+  "island": "dwarven_mines",
+  "area": "goblin_burrows",
+  "mob": "dwarven_goblin",
+  "max": 8,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "mines_dwarven_goblin_knifethrower",
+  "island": "dwarven_mines",
+  "area": "goblin_burrows",
+  "mob": "dwarven_goblin_knifethrower",
+  "max": 4,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_dwarven_goblin_fireslinger",
+  "island": "dwarven_mines",
+  "area": "goblin_burrows",
+  "mob": "dwarven_goblin_fireslinger",
+  "max": 4,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_ramparts_goblins",
+  "island": "dwarven_mines",
+  "area": "ramparts_quarry",
+  "mob": "dwarven_goblin",
+  "max": 4,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "mines_ramparts_weaklings",
+  "island": "dwarven_mines",
+  "area": "ramparts_quarry",
+  "mob": "dwarven_goblin_weakling",
+  "max": 4,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "mines_ice_walkers",
+  "island": "dwarven_mines",
+  "area": "great_ice_wall",
+  "mob": "dwarven_ice_walker",
+  "max": 10,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "mines_ghosts",
+  "island": "dwarven_mines",
+  "area": "the_mist",
+  "mob": "dwarven_ghost",
+  "max": 10,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "mines_treasure_hoarders",
+  "island": "dwarven_mines",
+  "area": "upper_mines",
+  "mob": "dwarven_treasure_hoarder",
+  "max": 5,
+  "respawnSeconds": 30
+ }
+]

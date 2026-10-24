@@ -1,0 +1,7131 @@
+[
+ {
+  "id": "critter_grove",
+  "name": "Grove",
+  "level": 5,
+  "entity": "ALLAY",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_grove",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GROVE",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mist",
+  "name": "Mist",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mist",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MIST",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_flash",
+  "name": "Flash",
+  "level": 5,
+  "entity": "ALLAY",
+  "health": 200,
+  "damage": 40,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_flash",
+  "flags": [
+   "aggressive",
+   "flying"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FLASH",
+   "method": "blackhole",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_phanpyre",
+  "name": "Duskfang",
+  "level": 5,
+  "entity": "PHANTOM",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_phanpyre",
+  "flags": [
+   "passive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PHANPYRE",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cod",
+  "name": "Cod",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cod",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_COD",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_phanflare",
+  "name": "Marshflare",
+  "level": 5,
+  "entity": "PHANTOM",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_phanflare",
+  "flags": [
+   "passive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PHANFLARE",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dumpster_diver",
+  "name": "Dumpster Diver",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dumpster_diver",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DUMPSTER_DIVER",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonleaf",
+  "name": "Leaflurker",
+  "level": 5,
+  "entity": "SHULKER",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonleaf",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONLEAF",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_verdant",
+  "name": "Verdant",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_verdant",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_VERDANT",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_fly",
+  "name": "Fly",
+  "level": 5,
+  "entity": "BEE",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_fly",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FLY",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sea_archer",
+  "name": "Bogged",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sea_archer",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEA_ARCHER",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideongift",
+  "name": "Giftlurker",
+  "level": 5,
+  "entity": "SHULKER",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideongift",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONGIFT",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_birries",
+  "name": "Berrybob",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_birries",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BIRRIES",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_crow",
+  "name": "Crow",
+  "level": 5,
+  "entity": "PARROT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_crow",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CROW",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_tadgang",
+  "name": "Tadgang",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_tadgang",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TADGANG",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rabbit_mafioso",
+  "name": "Rabbit Racketeer",
+  "level": 5,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rabbit_mafioso",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RABBIT_MAFIOSO",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_coralot",
+  "name": "Reeflotl",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_coralot",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CORALOT",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_harpy",
+  "name": "Harpy",
+  "level": 5,
+  "entity": "PHANTOM",
+  "health": 200,
+  "damage": 40,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_harpy",
+  "flags": [
+   "aggressive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HARPY",
+   "method": "blackhole",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mudworm",
+  "name": "Mudworm",
+  "level": 5,
+  "entity": "FOX",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mudworm",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MUDWORM",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lotus_fish",
+  "name": "Lotusfish",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lotus_fish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LOTUS_FISH",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_locust",
+  "name": "Locust",
+  "level": 5,
+  "entity": "BEE",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_locust",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LOCUST",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_azure",
+  "name": "Azure",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_azure",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_AZURE",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_stag_beetle",
+  "name": "Stag Beetle",
+  "level": 5,
+  "entity": "ENDERMITE",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_stag_beetle",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_STAG_BEETLE",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_night_squid",
+  "name": "Night Squid",
+  "level": 5,
+  "entity": "SQUID",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_night_squid",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_NIGHT_SQUID",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_boreal_owl",
+  "name": "Boreal Owl",
+  "level": 5,
+  "entity": "PARROT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_boreal_owl",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BOREAL_OWL",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_newt",
+  "name": "Newt",
+  "level": 5,
+  "entity": "AXOLOTL",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_newt",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_NEWT",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_flitter",
+  "name": "Flitter",
+  "level": 5,
+  "entity": "SILVERFISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_flitter",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FLITTER",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_tepid",
+  "name": "Tepid",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_tepid",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TEPID",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cretan_bull",
+  "name": "Cretan Bull",
+  "level": 5,
+  "entity": "COW",
+  "health": 200,
+  "damage": 40,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cretan_bull",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CRETAN_BULL",
+   "method": "blackhole",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ant",
+  "name": "Ant",
+  "level": 5,
+  "entity": "SILVERFISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ant",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ANT",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cavernfish",
+  "name": "Cavernfish",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cavernfish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CAVERNFISH",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonsun",
+  "name": "Sunlurker",
+  "level": 5,
+  "entity": "SHULKER",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonsun",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONSUN",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_haggard",
+  "name": "Haggard",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_haggard",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HAGGARD",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_honeyhog",
+  "name": "Hivehog",
+  "level": 5,
+  "entity": "PIG",
+  "health": 200,
+  "damage": 40,
+  "combatXp": 8,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_honeyhog",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HONEYHOG",
+   "method": "blackhole",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_shyworm",
+  "name": "Timidworm",
+  "level": 5,
+  "entity": "SILVERFISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_shyworm",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SHYWORM",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_brineling",
+  "name": "Saltling",
+  "level": 5,
+  "entity": "COD",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_brineling",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BRINELING",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_chocobun",
+  "name": "Cocoabun",
+  "level": 5,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_chocobun",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CHOCOBUN",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_foxtrot",
+  "name": "Foxtrot",
+  "level": 5,
+  "entity": "FOX",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_foxtrot",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FOXTROT",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_firefox",
+  "name": "Firefox",
+  "level": 5,
+  "entity": "FOX",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_firefox",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FIREFOX",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_groundhog",
+  "name": "Groundhog",
+  "level": 5,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_groundhog",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GROUNDHOG",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_timil",
+  "name": "Springtail",
+  "level": 5,
+  "entity": "TROPICAL_FISH",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_timil",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TIMIL",
+   "method": "net",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_blue_jay",
+  "name": "Blue Jay",
+  "level": 5,
+  "entity": "PARROT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_blue_jay",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BLUE_JAY",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bunbun",
+  "name": "Hopsy",
+  "level": 5,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bunbun",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BUNBUN",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_honeybuzz",
+  "name": "Nectarbuzz",
+  "level": 5,
+  "entity": "BEE",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_honeybuzz",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HONEYBUZZ",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_pollendart",
+  "name": "Pollenzip",
+  "level": 5,
+  "entity": "BEE",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_pollendart",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_POLLENDART",
+   "method": "lasso",
+   "stamina": 3.0,
+   "reels": 1,
+   "pull": 5,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_pandarai",
+  "name": "Bamboo Ronin",
+  "level": 60,
+  "entity": "PANDA",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_pandarai",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PANDARAI",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_fenlord",
+  "name": "Bog Baron",
+  "level": 60,
+  "entity": "FROG",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_fenlord",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FENLORD",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_abyssal_miner",
+  "name": "Abyssal Miner",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_abyssal_miner",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ABYSSAL_MINER",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_moray_eel",
+  "name": "Moray Eel",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_moray_eel",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MORAY_EEL",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lunar_moth",
+  "name": "Lunar Moth",
+  "level": 60,
+  "entity": "BEE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lunar_moth",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LUNAR_MOTH",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_fire_eel",
+  "name": "Fire Eel",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_fire_eel",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FIRE_EEL",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonsack",
+  "name": "Sacklurker",
+  "level": 60,
+  "entity": "SHULKER",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonsack",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONSACK",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_water_hydra",
+  "name": "Water Hydra",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_water_hydra",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WATER_HYDRA",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_murderwing",
+  "name": "Gloomwing",
+  "level": 60,
+  "entity": "PHANTOM",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_murderwing",
+  "flags": [
+   "passive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MURDERWING",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sea_emperor",
+  "name": "Loch Sovereign",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sea_emperor",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEA_EMPEROR",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_prince",
+  "name": "Prince",
+  "level": 60,
+  "entity": "ZOMBIE",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_prince",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PRINCE",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_blue_crab",
+  "name": "Blue Crab",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_blue_crab",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BLUE_CRAB",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wolverine",
+  "name": "Wolverine",
+  "level": 60,
+  "entity": "WOLF",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wolverine",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WOLVERINE",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_shellwise",
+  "name": "Shellsage",
+  "level": 60,
+  "entity": "TURTLE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_shellwise",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SHELLWISE",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_toucan",
+  "name": "Toucan",
+  "level": 60,
+  "entity": "PARROT",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_toucan",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TOUCAN",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_firefly",
+  "name": "Firefly",
+  "level": 60,
+  "entity": "BEE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_firefly",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FIREFLY",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sea_serpent",
+  "name": "Sea Serpent",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sea_serpent",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEA_SERPENT",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_xyz",
+  "name": "Arcanum Cube",
+  "level": 60,
+  "entity": "SHULKER",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_xyz",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_XYZ",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cavernshade",
+  "name": "Gloomshade",
+  "level": 60,
+  "entity": "SILVERFISH",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cavernshade",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CAVERNSHADE",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dragonfly",
+  "name": "Dragonfly",
+  "level": 60,
+  "entity": "BEE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dragonfly",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DRAGONFLY",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dive_ghast",
+  "name": "Dive Ghast",
+  "level": 60,
+  "entity": "FOX",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dive_ghast",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DIVE_GHAST",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_silkbreeze",
+  "name": "Silkdrift",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_silkbreeze",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SILKBREEZE",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_gemzie",
+  "name": "Gemkin",
+  "level": 60,
+  "entity": "ALLAY",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_gemzie",
+  "flags": [
+   "aggressive",
+   "flying"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GEMZIE",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rabbit_godmother",
+  "name": "Rabbit Matriarch",
+  "level": 60,
+  "entity": "RABBIT",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rabbit_godmother",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RABBIT_GODMOTHER",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_giant_isopod",
+  "name": "Giant Isopod",
+  "level": 60,
+  "entity": "COD",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_giant_isopod",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GIANT_ISOPOD",
+   "method": "net",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_queen_bee",
+  "name": "Queen Bee",
+  "level": 60,
+  "entity": "BEE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_queen_bee",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_QUEEN_BEE",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_beeheemoth",
+  "name": "Hivecolossus",
+  "level": 60,
+  "entity": "BEE",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_beeheemoth",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BEEHEEMOTH",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_thorn",
+  "name": "Thorn",
+  "level": 60,
+  "entity": "SKELETON",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_thorn",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_THORN",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mountain_goat",
+  "name": "Mountain Goat",
+  "level": 60,
+  "entity": "GOAT",
+  "health": 5000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mountain_goat",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOUNTAIN_GOAT",
+   "method": "lasso",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_nilbog",
+  "name": "Goblinkin",
+  "level": 60,
+  "entity": "VEX",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_nilbog",
+  "flags": [
+   "aggressive",
+   "flying"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_NILBOG",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_littlefoot",
+  "name": "Little Wanderer",
+  "level": 60,
+  "entity": "GOAT",
+  "health": 20000,
+  "damage": 800,
+  "combatXp": 90,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_littlefoot",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LITTLEFOOT",
+   "method": "blackhole",
+   "stamina": 6.0,
+   "reels": 2,
+   "pull": 70,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_chameleon",
+  "name": "Chameleon",
+  "level": 100,
+  "entity": "FROG",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_chameleon",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CHAMELEON",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rabbit_godfather",
+  "name": "Rabbit Patriarch",
+  "level": 100,
+  "entity": "RABBIT",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rabbit_godfather",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RABBIT_GODFATHER",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_naga",
+  "name": "Naga",
+  "level": 100,
+  "entity": "SALMON",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_naga",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_NAGA",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lapis_creeper",
+  "name": "Lapis Creeper",
+  "level": 100,
+  "entity": "CREEPER",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lapis_creeper",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LAPIS_CREEPER",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wartybug",
+  "name": "Wartmite",
+  "level": 100,
+  "entity": "ENDERMITE",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wartybug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WARTYBUG",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_spike",
+  "name": "Spike",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_spike",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SPIKE",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_taurus",
+  "name": "Taurus",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_taurus",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TAURUS",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_daemon",
+  "name": "Daemon",
+  "level": 100,
+  "entity": "BLAZE",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_daemon",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DAEMON",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_moltenfish",
+  "name": "Moltenfish",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_moltenfish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOLTENFISH",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_macaw",
+  "name": "Macaw",
+  "level": 100,
+  "entity": "PARROT",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_macaw",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MACAW",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_shinyfish",
+  "name": "Shinyfish",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_shinyfish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SHINYFISH",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ananke",
+  "name": "Ananke",
+  "level": 100,
+  "entity": "PHANTOM",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ananke",
+  "flags": [
+   "aggressive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ANANKE",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonbox",
+  "name": "Boxlurker",
+  "level": 100,
+  "entity": "SHULKER",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonbox",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONBOX",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lord_jawbus",
+  "name": "Lord Gnashmaw",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lord_jawbus",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LORD_JAWBUS",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hellwisp",
+  "name": "Infernal Wisp",
+  "level": 100,
+  "entity": "BLAZE",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hellwisp",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HELLWISP",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cinder_bat",
+  "name": "Emberwing Bat",
+  "level": 100,
+  "entity": "FOX",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cinder_bat",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CINDER_BAT",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_condor",
+  "name": "Condor",
+  "level": 100,
+  "entity": "PARROT",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_condor",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CONDOR",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sun_fish",
+  "name": "Sun Fish",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sun_fish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SUN_FISH",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dodo",
+  "name": "Dodo",
+  "level": 100,
+  "entity": "CHICKEN",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dodo",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DODO",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_queen_snake",
+  "name": "Queen Snake",
+  "level": 100,
+  "entity": "SALMON",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_queen_snake",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_QUEEN_SNAKE",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_jormung",
+  "name": "Jormung",
+  "level": 100,
+  "entity": "SILVERFISH",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_jormung",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_JORMUNG",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ghost_crab",
+  "name": "Ghost Crab",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ghost_crab",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GHOST_CRAB",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_etherdrake",
+  "name": "Voiddrake",
+  "level": 100,
+  "entity": "PHANTOM",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_etherdrake",
+  "flags": [
+   "aggressive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ETHERDRAKE",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_grizzly_bear",
+  "name": "Grizzly Bear",
+  "level": 100,
+  "entity": "POLAR_BEAR",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_grizzly_bear",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GRIZZLY_BEAR",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_galaxy_fish",
+  "name": "Galaxy Fish",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_galaxy_fish",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GALAXY_FISH",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_molthorn",
+  "name": "Magmaspine",
+  "level": 100,
+  "entity": "MAGMA_CUBE",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_molthorn",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOLTHORN",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)",
+   "size": 2
+  }
+ },
+ {
+  "id": "critter_cocoaleech",
+  "name": "Cocoasucker",
+  "level": 100,
+  "entity": "SILVERFISH",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cocoaleech",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_COCOALEECH",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_titanoboa",
+  "name": "Titanoboa",
+  "level": 100,
+  "entity": "COD",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_titanoboa",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TITANOBOA",
+   "method": "net",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rainbug",
+  "name": "Prismbug",
+  "level": 100,
+  "entity": "ENDERMITE",
+  "health": 25000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rainbug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RAINBUG",
+   "method": "lasso",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_timestalk_clone",
+  "name": "Chrono Echo",
+  "level": 100,
+  "entity": "ZOMBIE",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_timestalk_clone",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TIMESTALK_CLONE",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wumpa",
+  "name": "Frostbumble",
+  "level": 100,
+  "entity": "POLAR_BEAR",
+  "health": 100000,
+  "damage": 2000,
+  "combatXp": 150,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wumpa",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WUMPA",
+   "method": "blackhole",
+   "stamina": 8.0,
+   "reels": 3,
+   "pull": 110,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bambloom",
+  "name": "Bamboo Bloom",
+  "level": 30,
+  "entity": "PANDA",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bambloom",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BAMBLOOM",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_toad",
+  "name": "Toad",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_toad",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TOAD",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_beaconmite",
+  "name": "Signalmite",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_beaconmite",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BEACONMITE",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lizard_king",
+  "name": "Lizard King",
+  "level": 30,
+  "entity": "AXOLOTL",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lizard_king",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LIZARD_KING",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_python",
+  "name": "Python",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_python",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PYTHON",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_invisibug",
+  "name": "Ghostbug",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_invisibug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_INVISIBUG",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_piranha",
+  "name": "Piranha",
+  "level": 30,
+  "entity": "PUFFERFISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_piranha",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PIRANHA",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideongeon",
+  "name": "Cryptlurker",
+  "level": 30,
+  "entity": "SHULKER",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideongeon",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONGEON",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lapis_skeleton",
+  "name": "Lapis Skeleton",
+  "level": 30,
+  "entity": "SKELETON",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lapis_skeleton",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LAPIS_SKELETON",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cropeetle",
+  "name": "Beetle",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cropeetle",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CROPEETLE",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_vulture",
+  "name": "Vulture",
+  "level": 30,
+  "entity": "PARROT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_vulture",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_VULTURE",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideondra",
+  "name": "Lavalurker",
+  "level": 30,
+  "entity": "SHULKER",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideondra",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONDRA",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_abyssal_lantern",
+  "name": "Abyssal Lanternfish",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_abyssal_lantern",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ABYSSAL_LANTERN",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bitbug",
+  "name": "Bytebug",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bitbug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BITBUG",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lava_leech",
+  "name": "Lava Leech",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lava_leech",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LAVA_LEECH",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_silentdepth",
+  "name": "Hushdeep",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_silentdepth",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SILENTDEPTH",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_thyst",
+  "name": "Amethyst Leech",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_thyst",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_THYST",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sea_shine",
+  "name": "Seashine",
+  "level": 30,
+  "entity": "SQUID",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sea_shine",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEA_SHINE",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_quartzfang",
+  "name": "Quartzbite",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_quartzfang",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_QUARTZFANG",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonring",
+  "name": "Ringlurker",
+  "level": 30,
+  "entity": "SHULKER",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonring",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONRING",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_snowfin",
+  "name": "Snowfin",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_snowfin",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SNOWFIN",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hummingbird",
+  "name": "Hummingbird",
+  "level": 30,
+  "entity": "PARROT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hummingbird",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HUMMINGBIRD",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_carrot_king",
+  "name": "Carrot Monarch",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_carrot_king",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CARROT_KING",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_badger",
+  "name": "Badger",
+  "level": 30,
+  "entity": "FOX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_badger",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BADGER",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ladybug",
+  "name": "Ladybug",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ladybug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LADYBUG",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lumisquid",
+  "name": "Lumen Squid",
+  "level": 30,
+  "entity": "SQUID",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lumisquid",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LUMISQUID",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_crocodile",
+  "name": "Crocodile",
+  "level": 30,
+  "entity": "FROG",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_crocodile",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CROCODILE",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wild_hog",
+  "name": "Wild Hog",
+  "level": 30,
+  "entity": "PIG",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wild_hog",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WILD_HOG",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bullfrog",
+  "name": "Bullfrog",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bullfrog",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BULLFROG",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dreadwing",
+  "name": "Dreadwing",
+  "level": 30,
+  "entity": "PHANTOM",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dreadwing",
+  "flags": [
+   "passive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DREADWING",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_joydive",
+  "name": "Gleediver",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_joydive",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_JOYDIVE",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_stalagmight",
+  "name": "Stalagbrute",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_stalagmight",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_STALAGMIGHT",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_fungloom",
+  "name": "Fungleam",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_fungloom",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FUNGLOOM",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_eel",
+  "name": "Eel",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_eel",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_EEL",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_king_cobra",
+  "name": "King Cobra",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_king_cobra",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_KING_COBRA",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hewver",
+  "name": "Hewbeaver",
+  "level": 30,
+  "entity": "FOX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hewver",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HEWVER",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lava_flame",
+  "name": "Lava Flame",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lava_flame",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LAVA_FLAME",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_draconic",
+  "name": "Draconic",
+  "level": 30,
+  "entity": "PHANTOM",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_draconic",
+  "flags": [
+   "aggressive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DRACONIC",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_falcon",
+  "name": "Falcon",
+  "level": 30,
+  "entity": "PARROT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_falcon",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FALCON",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_inferno_koi",
+  "name": "Inferno Koi",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_inferno_koi",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_INFERNO_KOI",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_gecko",
+  "name": "Gecko",
+  "level": 30,
+  "entity": "FROG",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_gecko",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GECKO",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wiki_tiki",
+  "name": "Tiki Totem",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wiki_tiki",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WIKI_TIKI",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hivethief",
+  "name": "Hivethief",
+  "level": 30,
+  "entity": "FOX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hivethief",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIVETHIEF",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_maggot",
+  "name": "Maggot",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_maggot",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MAGGOT",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_snoozle",
+  "name": "Dozemole",
+  "level": 30,
+  "entity": "ARMADILLO",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_snoozle",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SNOOZLE",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_parakeet",
+  "name": "Parakeet",
+  "level": 30,
+  "entity": "PARROT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_parakeet",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PARAKEET",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_thunder",
+  "name": "Thunder",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_thunder",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_THUNDER",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rockmite",
+  "name": "Rockmite",
+  "level": 30,
+  "entity": "ENDERMITE",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rockmite",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ROCKMITE",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_anteater",
+  "name": "Anteater",
+  "level": 30,
+  "entity": "ARMADILLO",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_anteater",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ANTEATER",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_scrappy",
+  "name": "Scrappy",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_scrappy",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SCRAPPY",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideyho",
+  "name": "Hollowpeek",
+  "level": 30,
+  "entity": "VEX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideyho",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEYHO",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mantis_shrimp",
+  "name": "Mantis Shrimp",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mantis_shrimp",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MANTIS_SHRIMP",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_chuckwalla",
+  "name": "Chuckwalla",
+  "level": 30,
+  "entity": "FROG",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_chuckwalla",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CHUCKWALLA",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonfloor",
+  "name": "Floorlurker",
+  "level": 30,
+  "entity": "SHULKER",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonfloor",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONFLOOR",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_gimmiegold",
+  "name": "Goldgrabber",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_gimmiegold",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GIMMIEGOLD",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_billygoat",
+  "name": "Billygoat",
+  "level": 30,
+  "entity": "GOAT",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_billygoat",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BILLYGOAT",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideonwall",
+  "name": "Masonlurker",
+  "level": 30,
+  "entity": "SHULKER",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideonwall",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONWALL",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_nozzlenose",
+  "name": "Snoutfish",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_nozzlenose",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_NOZZLENOSE",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_stoneworm",
+  "name": "Stoneworm",
+  "level": 30,
+  "entity": "SILVERFISH",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_stoneworm",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_STONEWORM",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_fluffling",
+  "name": "Fluffkin",
+  "level": 30,
+  "entity": "RABBIT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_fluffling",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FLUFFLING",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_stingray",
+  "name": "Stingray",
+  "level": 30,
+  "entity": "TROPICAL_FISH",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_stingray",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_STINGRAY",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_zombuddy",
+  "name": "Ghoulpal",
+  "level": 30,
+  "entity": "ZOMBIE",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_zombuddy",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ZOMBUDDY",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_puck",
+  "name": "Puck",
+  "level": 30,
+  "entity": "VEX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_puck",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PUCK",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_troodon",
+  "name": "Troodon",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_troodon",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TROODON",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_black_widow",
+  "name": "Black Widow",
+  "level": 30,
+  "entity": "CAVE_SPIDER",
+  "health": 4000,
+  "damage": 300,
+  "combatXp": 45,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_black_widow",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BLACK_WIDOW",
+   "method": "blackhole",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_pangolin",
+  "name": "Pangolin",
+  "level": 30,
+  "entity": "ARMADILLO",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_pangolin",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PANGOLIN",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_giant_water_bug",
+  "name": "Giant Water Bug",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_giant_water_bug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GIANT_WATER_BUG",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_murkbat",
+  "name": "Murkbat",
+  "level": 30,
+  "entity": "BAT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_murkbat",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MURKBAT",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_goldolot",
+  "name": "Goldlotl",
+  "level": 30,
+  "entity": "AXOLOTL",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_goldolot",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GOLDOLOT",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rabbit_neighbor",
+  "name": "Rabbit Neighbor",
+  "level": 30,
+  "entity": "RABBIT",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rabbit_neighbor",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RABBIT_NEIGHBOR",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_torrid",
+  "name": "Torrid",
+  "level": 30,
+  "entity": "COD",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_torrid",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TORRID",
+   "method": "net",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_drybark",
+  "name": "Drybark",
+  "level": 30,
+  "entity": "FOX",
+  "health": 1000,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_drybark",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DRYBARK",
+   "method": "lasso",
+   "stamina": 5.0,
+   "reels": 2,
+   "pull": 40,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_moth",
+  "name": "Moth",
+  "level": 15,
+  "entity": "BEE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_moth",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOTH",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mosquito",
+  "name": "Mosquito",
+  "level": 15,
+  "entity": "BEE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mosquito",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOSQUITO",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rabbit_cat",
+  "name": "Rabbit Cat",
+  "level": 15,
+  "entity": "RABBIT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rabbit_cat",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RABBIT_CAT",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sparrow",
+  "name": "Sparrow",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sparrow",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SPARROW",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_goldfin",
+  "name": "Goldfin",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_goldfin",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GOLDFIN",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_troglobyte",
+  "name": "Cavebiter",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_troglobyte",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TROGLOBYTE",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hideoncave",
+  "name": "Cavelurker",
+  "level": 15,
+  "entity": "SHULKER",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hideoncave",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HIDEONCAVE",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_salamander",
+  "name": "Salamander",
+  "level": 15,
+  "entity": "AXOLOTL",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_salamander",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SALAMANDER",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cuboa",
+  "name": "Cubeboa",
+  "level": 15,
+  "entity": "SLIME",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cuboa",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CUBOA",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)",
+   "size": 2
+  }
+ },
+ {
+  "id": "critter_pest",
+  "name": "Field Mouse",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_pest",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PEST",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mossybit",
+  "name": "Mossling",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mossybit",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOSSYBIT",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_wetwing",
+  "name": "Wetwing",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_wetwing",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WETWING",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_heron",
+  "name": "Heron",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_heron",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HERON",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sea_witch",
+  "name": "Sea Witch",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sea_witch",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEA_WITCH",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cricket",
+  "name": "Cricket",
+  "level": 15,
+  "entity": "BEE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cricket",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CRICKET",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_salmon",
+  "name": "Salmon",
+  "level": 15,
+  "entity": "SALMON",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_salmon",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SALMON",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_viper",
+  "name": "Viper",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_viper",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_VIPER",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_praying_mantis",
+  "name": "Praying Mantis",
+  "level": 15,
+  "entity": "BEE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_praying_mantis",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PRAYING_MANTIS",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_lotum",
+  "name": "Lotuspad",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_lotum",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LOTUM",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bambuleaf",
+  "name": "Bambooleaf",
+  "level": 15,
+  "entity": "PANDA",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bambuleaf",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BAMBULEAF",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_treasure_hoarder",
+  "name": "Treasure Hoarder",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_treasure_hoarder",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TREASURE_HOARDER",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_seagull",
+  "name": "Seagull",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_seagull",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEAGULL",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ent",
+  "name": "Ent",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ent",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_ENT",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mochibear",
+  "name": "Dumpling Bear",
+  "level": 15,
+  "entity": "PANDA",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mochibear",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MOCHIBEAR",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_magma_slug",
+  "name": "Magma Slug",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_magma_slug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MAGMA_SLUG",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_kiwi",
+  "name": "Kiwi",
+  "level": 15,
+  "entity": "CHICKEN",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_kiwi",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_KIWI",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_strider_surfer",
+  "name": "Lava Strider",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_strider_surfer",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_STRIDER_SURFER",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rana",
+  "name": "Rana",
+  "level": 15,
+  "entity": "FROG",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rana",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RANA",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_termite",
+  "name": "Earthworm",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_termite",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TERMITE",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_flip_flopper",
+  "name": "Flopfish",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_flip_flopper",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_FLIP_FLOPPER",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_polaris",
+  "name": "Polaris",
+  "level": 15,
+  "entity": "POLAR_BEAR",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_polaris",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_POLARIS",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_treefrog",
+  "name": "Treefrog",
+  "level": 15,
+  "entity": "FROG",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_treefrog",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TREEFROG",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bayou_sludge",
+  "name": "Bayou Sludge",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bayou_sludge",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BAYOU_SLUDGE",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_areita",
+  "name": "Weavra",
+  "level": 15,
+  "entity": "CAVE_SPIDER",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_areita",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_AREITA",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bluebird",
+  "name": "Bluebird",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bluebird",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BLUEBIRD",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_osedax",
+  "name": "Osedax",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_osedax",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_OSEDAX",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_duplico",
+  "name": "Doppel",
+  "level": 15,
+  "entity": "VEX",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_duplico",
+  "flags": [
+   "aggressive",
+   "flying"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DUPLICO",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_litterbug",
+  "name": "Litterbug",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_litterbug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_LITTERBUG",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_water_snake",
+  "name": "Water Snake",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_water_snake",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WATER_SNAKE",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_gazer",
+  "name": "Gazer",
+  "level": 15,
+  "entity": "ENDERMITE",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_gazer",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_GAZER",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_honeybug",
+  "name": "Honeybug",
+  "level": 15,
+  "entity": "BEE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_honeybug",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HONEYBUG",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_shuddersquid",
+  "name": "Quiversquid",
+  "level": 15,
+  "entity": "SQUID",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_shuddersquid",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SHUDDERSQUID",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_solsnatcher",
+  "name": "Sunsnatcher",
+  "level": 15,
+  "entity": "PHANTOM",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_solsnatcher",
+  "flags": [
+   "passive",
+   "flying",
+   "no_burn"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SOLSNATCHER",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sepialot",
+  "name": "Inklotl",
+  "level": 15,
+  "entity": "AXOLOTL",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sepialot",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SEPIALOT",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_honey_badger",
+  "name": "Honey Badger",
+  "level": 15,
+  "entity": "FOX",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_honey_badger",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HONEY_BADGER",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_driftling",
+  "name": "Driftling",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_driftling",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DRIFTLING",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_tewtil",
+  "name": "Lilyturtle",
+  "level": 15,
+  "entity": "TURTLE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_tewtil",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_TEWTIL",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_woodchucker",
+  "name": "Woodchucker",
+  "level": 15,
+  "entity": "FOX",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_woodchucker",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WOODCHUCKER",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_solar",
+  "name": "Solar",
+  "level": 15,
+  "entity": "TROPICAL_FISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_solar",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SOLAR",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_parched",
+  "name": "Parched",
+  "level": 15,
+  "entity": "ZOMBIE",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_parched",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_PARCHED",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_bloodbat",
+  "name": "Bloodbat",
+  "level": 15,
+  "entity": "BAT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_bloodbat",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_BLOODBAT",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dustybit",
+  "name": "Dustling",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dustybit",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DUSTYBIT",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_woodlouse",
+  "name": "Woodlouse",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_woodlouse",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WOODLOUSE",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_ember",
+  "name": "Ember",
+  "level": 15,
+  "entity": "TROPICAL_FISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_ember",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_EMBER",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_cheeky_tiki",
+  "name": "Cheeky Tiki",
+  "level": 15,
+  "entity": "ZOMBIE_VILLAGER",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_cheeky_tiki",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_CHEEKY_TIKI",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_red_panda",
+  "name": "Red Panda",
+  "level": 15,
+  "entity": "PANDA",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_red_panda",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RED_PANDA",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sprawl",
+  "name": "Sprawl",
+  "level": 15,
+  "entity": "COD",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sprawl",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SPRAWL",
+   "method": "net",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "aquatic"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_sneaky_tiki",
+  "name": "Sneaky Tiki",
+  "level": 15,
+  "entity": "ZOMBIE_VILLAGER",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_sneaky_tiki",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SNEAKY_TIKI",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_shrieky_tiki",
+  "name": "Shrieky Tiki",
+  "level": 15,
+  "entity": "ZOMBIE_VILLAGER",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_shrieky_tiki",
+  "flags": [
+   "aggressive",
+   "no_burn"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_SHRIEKY_TIKI",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_woodpecker",
+  "name": "Woodpecker",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_woodpecker",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_WOODPECKER",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_honeymite",
+  "name": "Nectarmite",
+  "level": 15,
+  "entity": "ENDERMITE",
+  "health": 800,
+  "damage": 120,
+  "combatXp": 22,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_honeymite",
+  "flags": [
+   "aggressive"
+  ],
+  "speed": 1.1,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HONEYMITE",
+   "method": "blackhole",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_queen_ant",
+  "name": "Queen Ant",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_queen_ant",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_QUEEN_ANT",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_hawk",
+  "name": "Hawk",
+  "level": 15,
+  "entity": "PARROT",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_hawk",
+  "flags": [
+   "passive",
+   "flying"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_HAWK",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter",
+    "animal"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_june_bug",
+  "name": "June Bug",
+  "level": 15,
+  "entity": "ENDERMITE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_june_bug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_JUNE_BUG",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_dung_beetle",
+  "name": "Dung Beetle",
+  "level": 15,
+  "entity": "ENDERMITE",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_dung_beetle",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_DUNG_BEETLE",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_rat",
+  "name": "Rat",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_rat",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_RAT",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_keeled_slug",
+  "name": "Slug",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_keeled_slug",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_KEELED_SLUG",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ },
+ {
+  "id": "critter_mite",
+  "name": "Mite",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 200,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "critter_mite",
+  "flags": [
+   "passive"
+  ],
+  "speed": 1.0,
+  "extra": {
+   "critter": true,
+   "shard": "SHARD_MITE",
+   "method": "lasso",
+   "stamina": 4.0,
+   "reels": 1,
+   "pull": 20,
+   "types": [
+    "critter"
+   ],
+   "tune": "critter numbers by rarity (gen_hunting.py CRITTER)"
+  }
+ }
+]

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Classic2D/">
+    <Project Path="Classic2D/ZombieSurge.csproj" />
+  </Folder>
+  <Project Path="ZombieSurge.Core/ZombieSurge.Core.csproj" />
+  <Project Path="ZombieSurge.Editor/ZombieSurge.Editor.csproj" />
+  <Project Path="ZombieSurge.Game/ZombieSurge.Game.csproj" />
+</Solution>

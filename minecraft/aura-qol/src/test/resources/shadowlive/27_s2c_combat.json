@@ -1,0 +1,19 @@
+{
+ "direction": "s2c",
+ "type": 12,
+ "name": "COMBAT",
+ "fields": {
+  "kills": 130,
+  "valueCents": 4500000000,
+  "perMob": [
+   {
+    "mobKey": "ZOMBIE",
+    "count": 128
+   },
+   {
+    "mobKey": "HUSK",
+    "count": 2
+   }
+  ]
+ }
+}

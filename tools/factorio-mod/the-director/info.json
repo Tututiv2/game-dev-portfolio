@@ -1,0 +1,11 @@
+{
+  "name": "tutis-the-director",
+  "version": "0.1.0",
+  "title": "The Director",
+  "author": "Tutut",
+  "description": "Something out there is studying your factory. It never spawns extra biters and never inflates their stats - it only decides where to hit you and when. It learns which damage types you rely on and hardens against them, learns which approach you left soft, and waits for your power to sag before it comes.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0"
+  ]
+}

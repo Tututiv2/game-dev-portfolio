@@ -1,0 +1,17 @@
+{
+  "name": "Portfolio",
+  "port": 5580,
+  "root": "../..",
+  "roots": [
+    "3d-games",
+    "2d-games",
+    "minecraft",
+    "unity-dotnet",
+    "roblox",
+    "tools"
+  ],
+  "expect": {
+    "nodes": 1500,
+    "projects": 40
+  }
+}

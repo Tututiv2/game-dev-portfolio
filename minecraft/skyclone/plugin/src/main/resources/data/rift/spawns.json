@@ -1,0 +1,106 @@
+[
+ {
+  "id": "rift_wyld_shy",
+  "island": "rift",
+  "area": "mobs.wyld_shy",
+  "mob": "rift_shy",
+  "max": 12,
+  "respawnSeconds": 8
+ },
+ {
+  "id": "rift_wyld_larva",
+  "island": "rift",
+  "area": "mobs.wyld_larva",
+  "mob": "rift_larva",
+  "max": 10,
+  "respawnSeconds": 8
+ },
+ {
+  "id": "rift_lagoon_leech",
+  "island": "rift",
+  "area": "mobs.lagoon_leech",
+  "mob": "rift_lagoon_leech",
+  "max": 10,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_lagoon_deadgehog",
+  "island": "rift",
+  "area": "mobs.lagoon_deadgehog",
+  "mob": "rift_deadgehog",
+  "max": 8,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_west_shadow",
+  "island": "rift",
+  "area": "mobs.west_shadow",
+  "mob": "rift_shadow",
+  "max": 10,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_west_vermin",
+  "island": "rift",
+  "area": "mobs.west_vermin",
+  "mob": "rift_vermin",
+  "max": 6,
+  "respawnSeconds": 6
+ },
+ {
+  "id": "rift_dread_volt",
+  "island": "rift",
+  "area": "mobs.dread_volt",
+  "mob": "rift_volt",
+  "max": 10,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_plaza_scribe",
+  "island": "rift",
+  "area": "mobs.plaza_scribe",
+  "mob": "rift_scribe",
+  "max": 8,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "rift_cave_autonull",
+  "island": "rift",
+  "area": "mobs.cave_autonull",
+  "mob": "rift_autonull",
+  "max": 8,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "rift_cave_frozille",
+  "island": "rift",
+  "area": "mobs.cave_frozille",
+  "mob": "rift_frozille",
+  "max": 6,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "rift_chateau_splatter",
+  "island": "rift",
+  "area": "mobs.chateau_splatter",
+  "mob": "rift_splatter",
+  "max": 10,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_chateau_thrall",
+  "island": "rift",
+  "area": "mobs.chateau_thrall",
+  "mob": "rift_thrall",
+  "max": 10,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "rift_mountain_puff",
+  "island": "rift",
+  "area": "mobs.mountain_puff",
+  "mob": "rift_puff",
+  "max": 12,
+  "respawnSeconds": 12
+ }
+]

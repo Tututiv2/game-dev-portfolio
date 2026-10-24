@@ -1,0 +1,54 @@
+[
+ {
+  "id": "enchanting_grand_exp_bottle",
+  "result": "GRAND_EXP_BOTTLE",
+  "amount": 1,
+  "type": "CRAFTING",
+  "grid": [
+   "",
+   "ENCHANTED_LAPIS_LAZULI:1",
+   "",
+   "ENCHANTED_LAPIS_LAZULI:1",
+   "GLASS_BOTTLE:1",
+   "ENCHANTED_LAPIS_LAZULI:1",
+   "ENCHANTED_LAPIS_LAZULI:1",
+   "ENCHANTED_LAPIS_LAZULI:1",
+   "ENCHANTED_LAPIS_LAZULI:1"
+  ]
+ },
+ {
+  "id": "enchanting_titanic_exp_bottle",
+  "result": "TITANIC_EXP_BOTTLE",
+  "amount": 1,
+  "type": "CRAFTING",
+  "grid": [
+   "",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "GLASS_BOTTLE:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1"
+  ]
+ },
+ {
+  "id": "enchanting_experimentation_table",
+  "result": "EXPERIMENTATION_TABLE",
+  "amount": 1,
+  "type": "CRAFTING",
+  "grid": [
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "EXP_BOTTLE:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1"
+  ],
+  "unlock": "skill:enchanting:10"
+ }
+]

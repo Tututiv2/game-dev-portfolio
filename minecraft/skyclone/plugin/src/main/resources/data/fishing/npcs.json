@@ -1,0 +1,47 @@
+[
+ {
+  "id": "fishing_guide",
+  "name": "&fFisher Gideon",
+  "title": "&b&lFISHING",
+  "island": "hub",
+  "anchor": "npc.fishing_guide",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY3NWYwNzFlZmIwY2YyN2JmMTYwODFlM2Y4MmY5YjVmOGFlODhlY2E5ZWU5NTIzYjYyMTZlNjE3ZjZmNDVjOSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5MjgwYWU4ZjM2ZDcyZDk2OWY1MmI1MDgzMGI0MmVkZCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MzM3NTg5fQ==",
+  "hand": "FISHING_ROD"
+ },
+ {
+  "id": "fishing_roddy",
+  "name": "&fTackle-smith Rudd",
+  "title": "&9&lROD PARTS",
+  "island": "backwater_bayou",
+  "anchor": "npc.roddy",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3Y2FkOWYyN2Q3NGRlM2U1OWYyYTUxN2QwNGEyODJlMmNmODZlNGM1ZTQwNjM5ZGFlY2E3YjFhYWU3ZjVhNzEifX19",
+  "hand": "TRIPWIRE_HOOK"
+ },
+ {
+  "id": "fishing_bait_shop",
+  "name": "&fBait-seller Mae",
+  "title": "&a&lBAITS & RODS",
+  "island": "backwater_bayou",
+  "anchor": "npc.bait_shop",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM1Y2IzOGI4NmM0ZWJiNjM3ZmMwMmQzN2Y3M2RmYmZlYjE3ZjQ2MjY3ZDgxOWIzODI4YWRkNDY5ZDkzZTM5YSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3ZWNmNjk0MjQ3OWQyMjJjYjNjZWI3N2QwYjRhZjUxNSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MzIwMDczfQ==",
+  "hand": "COD"
+ },
+ {
+  "id": "fishing_warden",
+  "name": "&fWarden Fen",
+  "title": "&e&lBAYOU GUIDE",
+  "island": "backwater_bayou",
+  "anchor": "npc.warden",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3MWM0NGFkNDA3YzAyMTczN2FkNzg5MDdiNTA2OGQ3YmNjMGM2NThiMmEyZmJhYmYwMTcwNjU2M2JkOTQ0N2QifX19",
+  "hand": "LANTERN"
+ },
+ {
+  "id": "fishing_trophy_keeper",
+  "name": "&fTrophy Keeper Ogden",
+  "title": "&6&lTROPHY FISH",
+  "island": "crimson_isle",
+  "anchor": "npc.trophy_keeper",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3M2VjMmFkMzgxZmM4ODMxYThhNmEyMzhmMzhkODAwNmNhNTFkNTY1NDJkZDk5MTllNDk1NWI5YWM4OWFmNGQifX19",
+  "hand": "TROPICAL_FISH"
+ }
+]

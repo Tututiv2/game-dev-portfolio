@@ -1,0 +1,788 @@
+[
+ {
+  "id": "weapons:ATOMSPLIT_KATANA#0",
+  "type": "CRAFTING",
+  "result": "ATOMSPLIT_KATANA",
+  "amount": 1,
+  "grid": [
+   "",
+   "NULL_BLADE:1",
+   "",
+   "",
+   "NULL_BLADE:1",
+   "",
+   "",
+   "VORPAL_KATANA:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:6"
+ },
+ {
+  "id": "weapons:AXE_OF_THE_SHREDDED#0",
+  "type": "CRAFTING",
+  "result": "AXE_OF_THE_SHREDDED",
+  "amount": 1,
+  "grid": [
+   "REVENANT_VISCERA:64",
+   "SHARD_OF_THE_SHREDDED:1",
+   "REVENANT_VISCERA:64",
+   "SHARD_OF_THE_SHREDDED:1",
+   "REAPER_SWORD:1",
+   "SHARD_OF_THE_SHREDDED:1",
+   "REVENANT_VISCERA:64",
+   "SHARD_OF_THE_SHREDDED:1",
+   "REVENANT_VISCERA:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:8"
+ },
+ {
+  "id": "weapons:BURSTFIRE_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "BURSTFIRE_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "MAGMA_FISH_GOLD:1",
+   "",
+   "",
+   "MOLTEN_POWDER:8",
+   "",
+   "",
+   "FIREDUST_DAGGER:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:4"
+ },
+ {
+  "id": "weapons:BURSTMAW_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "BURSTMAW_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SULPHUR_CUBE:1",
+   "",
+   "",
+   "MOLTEN_POWDER:8",
+   "",
+   "",
+   "MAWDUST_DAGGER:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:4"
+ },
+ {
+  "id": "weapons:EDIBLE_MACE#0",
+  "type": "CRAFTING",
+  "result": "EDIBLE_MACE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_MUTTON:9",
+   "",
+   "",
+   "ENCHANTED_MUTTON:9",
+   "",
+   "",
+   "GOLDEN_TOOTH:18",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:5"
+ },
+ {
+  "id": "weapons:FIREDUST_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "FIREDUST_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "MAGMA_FISH_SILVER:30",
+   "",
+   "",
+   "MOLTEN_POWDER:1",
+   "",
+   "",
+   "STICK:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:2"
+ },
+ {
+  "id": "weapons:GYROKINETIC_WAND#0",
+  "type": "CRAFTING",
+  "result": "GYROKINETIC_WAND",
+  "amount": 1,
+  "grid": [
+   "NULL_OVOID:16",
+   "ENCHANTED_EYE_OF_ENDER:30",
+   "NULL_OVOID:16",
+   "NULL_OVOID:16",
+   "ENCHANTED_BLAZE_ROD:15",
+   "NULL_OVOID:16",
+   "NULL_OVOID:16",
+   "ENCHANTED_BLAZE_ROD:15",
+   "NULL_OVOID:16"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:6"
+ },
+ {
+  "id": "weapons:HEARTFIRE_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "HEARTFIRE_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "MAGMA_FISH_GOLD:8",
+   "",
+   "",
+   "MOLTEN_POWDER:64",
+   "",
+   "INFERNO_VERTEX:8",
+   "BURSTFIRE_DAGGER:1",
+   "INFERNO_VERTEX:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:6"
+ },
+ {
+  "id": "weapons:HEARTMAW_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "HEARTMAW_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SULPHUR_CUBE:16",
+   "",
+   "",
+   "MOLTEN_POWDER:64",
+   "",
+   "INFERNO_VERTEX:8",
+   "BURSTMAW_DAGGER:1",
+   "INFERNO_VERTEX:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:6"
+ },
+ {
+  "id": "weapons:JUJU_SHORTBOW#0",
+  "type": "CRAFTING",
+  "result": "JUJU_SHORTBOW",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_EYE_OF_ENDER:32",
+   "ENCHANTED_STRING:64",
+   "NULL_OVOID:32",
+   "",
+   "ENCHANTED_STRING:64",
+   "",
+   "ENCHANTED_QUARTZ_BLOCK:32",
+   "ENCHANTED_STRING:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:5"
+ },
+ {
+  "id": "weapons:MAWDUST_DAGGER#0",
+  "type": "CRAFTING",
+  "result": "MAWDUST_DAGGER",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SULPHUR:5",
+   "",
+   "",
+   "MOLTEN_POWDER:1",
+   "",
+   "",
+   "STICK:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:2"
+ },
+ {
+  "id": "weapons:MOSQUITO_BOW#0",
+  "type": "CRAFTING",
+  "result": "MOSQUITO_BOW",
+  "amount": 1,
+  "grid": [
+   "",
+   "TARANTULA_CATALYST:1",
+   "TARANTULA_SILK:64",
+   "DIGESTED_MOSQUITO:1",
+   "",
+   "SCORPION_BOW:1",
+   "",
+   "TARANTULA_CATALYST:1",
+   "TARANTULA_SILK:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "weapons:POOCH_SWORD#0",
+  "type": "CRAFTING",
+  "result": "POOCH_SWORD",
+  "amount": 1,
+  "grid": [
+   "",
+   "GOLDEN_TOOTH:24",
+   "",
+   "",
+   "GOLDEN_TOOTH:24",
+   "",
+   "",
+   "SHAMAN_SWORD:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "weapons:REAPER_SCYTHE#0",
+  "type": "CRAFTING",
+  "result": "REAPER_SCYTHE",
+  "amount": 1,
+  "grid": [
+   "SCYTHE_BLADE:1",
+   "REVENANT_VISCERA:64",
+   "REAPER_SWORD:1",
+   "",
+   "",
+   "REAPER_SWORD:1",
+   "",
+   "",
+   "REAPER_SWORD:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "weapons:REAPER_SWORD#0",
+  "type": "CRAFTING",
+  "result": "REAPER_SWORD",
+  "amount": 1,
+  "grid": [
+   "",
+   "REVIVED_HEART:1",
+   "",
+   "",
+   "REVENANT_CATALYST:1",
+   "",
+   "",
+   "REVENANT_SWORD:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:6"
+ },
+ {
+  "id": "weapons:RECLUSE_FANG#0",
+  "type": "CRAFTING",
+  "result": "RECLUSE_FANG",
+  "amount": 1,
+  "grid": [
+   "",
+   "TARANTULA_WEB:16",
+   "",
+   "",
+   "SPIDER_CATALYST:1",
+   "",
+   "",
+   "SPIDER_SWORD:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:2"
+ },
+ {
+  "id": "weapons:REVENANT_SWORD#0",
+  "type": "CRAFTING",
+  "result": "REVENANT_SWORD",
+  "amount": 1,
+  "grid": [
+   "",
+   "CRYSTALLIZED_HEART:1",
+   "",
+   "",
+   "UNDEAD_CATALYST:1",
+   "",
+   "",
+   "UNDEAD_SWORD:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:3"
+ },
+ {
+  "id": "weapons:SCORPION_BOW#0",
+  "type": "CRAFTING",
+  "result": "SCORPION_BOW",
+  "amount": 1,
+  "grid": [
+   "",
+   "SPIDER_CATALYST:1",
+   "TARANTULA_WEB:1",
+   "SPIDER_CATALYST:1",
+   "",
+   "TARANTULA_WEB:1",
+   "",
+   "SPIDER_CATALYST:1",
+   "TARANTULA_WEB:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:3"
+ },
+ {
+  "id": "weapons:SCORPION_FOIL#0",
+  "type": "CRAFTING",
+  "result": "SCORPION_FOIL",
+  "amount": 1,
+  "grid": [
+   "",
+   "TARANTULA_SILK:32",
+   "",
+   "",
+   "TARANTULA_CATALYST:8",
+   "",
+   "",
+   "TARANTULA_FANG:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:6"
+ },
+ {
+  "id": "weapons:SHAMAN_SWORD#0",
+  "type": "CRAFTING",
+  "result": "SHAMAN_SWORD",
+  "amount": 1,
+  "grid": [
+   "",
+   "GOLDEN_TOOTH:2",
+   "",
+   "",
+   "ENCHANTED_IRON:8",
+   "",
+   "",
+   "ENCHANTED_BONE:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:3"
+ },
+ {
+  "id": "weapons:SINSEEKER_SCYTHE#0",
+  "type": "CRAFTING",
+  "result": "SINSEEKER_SCYTHE",
+  "amount": 1,
+  "grid": [
+   "NULL_ATOM:4",
+   "NULL_OVOID:8",
+   "NULL_ATOM:4",
+   "NULL_OVOID:8",
+   "SINFUL_DICE:1",
+   "NULL_OVOID:8",
+   "NULL_ATOM:4",
+   "NULL_OVOID:8",
+   "NULL_ATOM:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:6"
+ },
+ {
+  "id": "weapons:STING#0",
+  "type": "CRAFTING",
+  "result": "STING",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK:64",
+   "SHRIVELED_WASP:1",
+   "TARANTULA_SILK:64",
+   "SHRIVELED_WASP:1",
+   "SCORPION_FOIL:1",
+   "SHRIVELED_WASP:1",
+   "TARANTULA_SILK:64",
+   "SHRIVELED_WASP:1",
+   "TARANTULA_SILK:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:8"
+ },
+ {
+  "id": "weapons:TARANTULA_FANG#0",
+  "type": "CRAFTING",
+  "result": "TARANTULA_FANG",
+  "amount": 1,
+  "grid": [
+   "",
+   "TARANTULA_SILK:16",
+   "",
+   "",
+   "TARANTULA_CATALYST:1",
+   "",
+   "",
+   "RECLUSE_FANG:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:6"
+ },
+ {
+  "id": "weapons:TERMINATOR#0",
+  "type": "CRAFTING",
+  "result": "TERMINATOR",
+  "amount": 1,
+  "grid": [
+   "TESSELLATED_ENDER_PEARL:4",
+   "NULL_BLADE:1",
+   "TARANTULA_SILK:64",
+   "NULL_BLADE:1",
+   "JUDGEMENT_CORE:1",
+   "BRAIDED_GRIFFIN_FEATHER:4",
+   "TESSELLATED_ENDER_PEARL:4",
+   "NULL_BLADE:1",
+   "TARANTULA_SILK:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:7"
+ },
+ {
+  "id": "weapons:VOIDEDGE_KATANA#0",
+  "type": "CRAFTING",
+  "result": "VOIDEDGE_KATANA",
+  "amount": 1,
+  "grid": [
+   "",
+   "REFINED_MITHRIL:1",
+   "",
+   "",
+   "NULL_OVOID:1",
+   "",
+   "",
+   "VOIDWALKER_KATANA:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:3"
+ },
+ {
+  "id": "weapons:VORPAL_KATANA#0",
+  "type": "CRAFTING",
+  "result": "VORPAL_KATANA",
+  "amount": 1,
+  "grid": [
+   "",
+   "NULL_EDGE:1",
+   "",
+   "",
+   "NULL_OVOID:8",
+   "",
+   "REFINED_MITHRIL:4",
+   "VOIDEDGE_KATANA:1",
+   "REFINED_MITHRIL:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:5"
+ },
+ {
+  "id": "weapons:WAND_OF_ATONEMENT#0",
+  "type": "CRAFTING",
+  "result": "WAND_OF_ATONEMENT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "REVENANT_VISCERA:64",
+   "",
+   "WAND_OF_RESTORATION:1",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "weapons:WAND_OF_HEALING#0",
+  "type": "CRAFTING",
+  "result": "WAND_OF_HEALING",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "REVENANT_FLESH:8",
+   "",
+   "STICK:1",
+   "",
+   "REVENANT_FLESH:8",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:1"
+ },
+ {
+  "id": "weapons:WAND_OF_MENDING#0",
+  "type": "CRAFTING",
+  "result": "WAND_OF_MENDING",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "REVENANT_VISCERA:1",
+   "",
+   "WAND_OF_HEALING:1",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:12",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:3"
+ },
+ {
+  "id": "weapons:WAND_OF_RESTORATION#0",
+  "type": "CRAFTING",
+  "result": "WAND_OF_RESTORATION",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "REVENANT_VISCERA:16",
+   "",
+   "WAND_OF_MENDING:1",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:6"
+ },
+ {
+  "id": "weapons:ASTRAEA#0",
+  "type": "CRAFTING",
+  "result": "ASTRAEA",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "NECRON_BLADE:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:BAT_WAND#0",
+  "type": "CRAFTING",
+  "result": "BAT_WAND",
+  "amount": 1,
+  "grid": [
+   "",
+   "SPIRIT_WING:3",
+   "",
+   "",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:3",
+   "",
+   "",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:3",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:BONE_BOOMERANG#0",
+  "type": "CRAFTING",
+  "result": "BONE_BOOMERANG",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_STRING:5",
+   "ENCHANTED_BONE_BLOCK:5",
+   "",
+   "ENCHANTED_STRING:5",
+   "",
+   "SPIRIT_BONE:5",
+   "ENCHANTED_STRING:5",
+   "ENCHANTED_BONE_BLOCK:5",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:BONE_REAVER#0",
+  "type": "CRAFTING",
+  "result": "BONE_REAVER",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_BONE_BLOCK:20",
+   "",
+   "",
+   "SPIRIT_BONE:5",
+   "",
+   "",
+   "SPIRIT_SWORD:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:BOUQUET_OF_LIES#0",
+  "type": "CRAFTING",
+  "result": "BOUQUET_OF_LIES",
+  "amount": 1,
+  "grid": [
+   "",
+   "FEL_ROSE:3",
+   "",
+   "FEL_ROSE:3",
+   "FLOWER_OF_TRUTH:1",
+   "FEL_ROSE:3",
+   "",
+   "FEL_ROSE:3",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:FELTHORN_REAPER#0",
+  "type": "CRAFTING",
+  "result": "FELTHORN_REAPER",
+  "amount": 1,
+  "grid": [
+   "",
+   "FEL_ROSE:1",
+   "FEL_ROSE:1",
+   "FEL_ROSE:1",
+   "FEL_SKULL:1",
+   "FEL_ROSE:1",
+   "BONE_REAVER:1",
+   "FEL_ROSE:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:FEL_SWORD#0",
+  "type": "CRAFTING",
+  "result": "FEL_SWORD",
+  "amount": 1,
+  "grid": [
+   "",
+   "FEL_PEARL:16",
+   "",
+   "",
+   "FEL_PEARL:16",
+   "",
+   "",
+   "STICK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:FLOWER_OF_TRUTH#0",
+  "type": "CRAFTING",
+  "result": "FLOWER_OF_TRUTH",
+  "amount": 1,
+  "grid": [
+   "",
+   "GOLEM_POPPY:3",
+   "",
+   "",
+   "GOLEM_POPPY:3",
+   "",
+   "",
+   "GOLEM_POPPY:3",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:HYPERION#0",
+  "type": "CRAFTING",
+  "result": "HYPERION",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "NECRON_BLADE:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:NECRON_BLADE#0",
+  "type": "CRAFTING",
+  "result": "NECRON_BLADE",
+  "amount": 1,
+  "grid": [
+   "",
+   "WITHER_CATALYST:12",
+   "",
+   "",
+   "WITHER_CATALYST:12",
+   "",
+   "",
+   "NECRON_HANDLE:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:SCYLLA#0",
+  "type": "CRAFTING",
+  "result": "SCYLLA",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "NECRON_BLADE:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "weapons:VALKYRIE#0",
+  "type": "CRAFTING",
+  "result": "VALKYRIE",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "NECRON_BLADE:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1"
+  ],
+  "station": "Crafting Table"
+ }
+]

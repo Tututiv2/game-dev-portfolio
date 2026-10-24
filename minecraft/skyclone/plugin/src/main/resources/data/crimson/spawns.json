@@ -1,0 +1,219 @@
+[
+ {
+  "id": "crimson_tomb_blazes",
+  "island": "crimson_isle",
+  "mob": "crimson_blaze",
+  "max": 14,
+  "respawnSeconds": 8,
+  "area": "mobs.smoldering_tomb"
+ },
+ {
+  "id": "crimson_tomb_mutated",
+  "island": "crimson_isle",
+  "mob": "crimson_mutated_blaze",
+  "max": 5,
+  "respawnSeconds": 15,
+  "area": "mobs.smoldering_tomb"
+ },
+ {
+  "id": "crimson_tomb_smoldering",
+  "island": "crimson_isle",
+  "mob": "crimson_smoldering_blaze",
+  "max": 4,
+  "respawnSeconds": 30,
+  "area": "mobs.tomb_depths"
+ },
+ {
+  "id": "crimson_tomb_millennia",
+  "island": "crimson_isle",
+  "mob": "crimson_millennia_blaze",
+  "max": 1,
+  "respawnSeconds": 600,
+  "area": "mobs.tomb_depths"
+ },
+ {
+  "id": "crimson_bezal_flats",
+  "island": "crimson_isle",
+  "mob": "crimson_bezal",
+  "max": 8,
+  "respawnSeconds": 12,
+  "area": "mobs.bezal_flats"
+ },
+ {
+  "id": "crimson_volcano_flares",
+  "island": "crimson_isle",
+  "mob": "crimson_flare",
+  "max": 8,
+  "respawnSeconds": 15,
+  "area": "mobs.volcano_slopes"
+ },
+ {
+  "id": "crimson_volcano_eruption_flares",
+  "island": "crimson_isle",
+  "mob": "crimson_flare",
+  "max": 6,
+  "respawnSeconds": 6,
+  "area": "mobs.volcano_slopes",
+  "condition": "event:crimson_volcano_eruption"
+ },
+ {
+  "id": "crimson_volcano_cinderbats",
+  "island": "crimson_isle",
+  "mob": "crimson_cinderbat",
+  "max": 3,
+  "respawnSeconds": 90,
+  "area": "mobs.volcano_rim"
+ },
+ {
+  "id": "crimson_volcano_matcho",
+  "island": "crimson_isle",
+  "mob": "crimson_matcho",
+  "max": 2,
+  "respawnSeconds": 120,
+  "area": "mobs.volcano_rim"
+ },
+ {
+  "id": "crimson_fields_cubes",
+  "island": "crimson_isle",
+  "mob": "crimson_magma_cube",
+  "max": 14,
+  "respawnSeconds": 8,
+  "area": "mobs.crimson_fields"
+ },
+ {
+  "id": "crimson_fields_ghasts",
+  "island": "crimson_isle",
+  "mob": "crimson_ghast",
+  "max": 4,
+  "respawnSeconds": 30,
+  "area": "mobs.fields_sky",
+  "condition": "night"
+ },
+ {
+  "id": "crimson_desert_riders",
+  "island": "crimson_isle",
+  "mob": "crimson_magma_cube_rider",
+  "max": 8,
+  "respawnSeconds": 12,
+  "area": "mobs.burning_desert"
+ },
+ {
+  "id": "crimson_desert_spiders",
+  "island": "crimson_isle",
+  "mob": "crimson_flaming_spider",
+  "max": 10,
+  "respawnSeconds": 10,
+  "area": "mobs.burning_desert"
+ },
+ {
+  "id": "crimson_stronghold_skeletons",
+  "island": "crimson_isle",
+  "mob": "crimson_wither_skeleton",
+  "max": 10,
+  "respawnSeconds": 10,
+  "area": "mobs.stronghold_grounds"
+ },
+ {
+  "id": "crimson_stronghold_spectres",
+  "island": "crimson_isle",
+  "mob": "crimson_wither_spectre",
+  "max": 5,
+  "respawnSeconds": 15,
+  "area": "mobs.stronghold_grounds"
+ },
+ {
+  "id": "crimson_marsh_bulls",
+  "island": "crimson_isle",
+  "mob": "crimson_mushroom_bull",
+  "max": 10,
+  "respawnSeconds": 12,
+  "area": "mobs.mystic_marsh"
+ },
+ {
+  "id": "crimson_courtyard_knights",
+  "island": "crimson_isle",
+  "mob": "crimson_kada_knight",
+  "max": 6,
+  "respawnSeconds": 15,
+  "area": "mobs.courtyard"
+ },
+ {
+  "id": "crimson_courtyard_mages",
+  "island": "crimson_isle",
+  "mob": "crimson_fire_mage",
+  "max": 8,
+  "respawnSeconds": 10,
+  "area": "mobs.courtyard"
+ },
+ {
+  "id": "crimson_dukedom_barbarians",
+  "island": "crimson_isle",
+  "mob": "crimson_barbarian",
+  "max": 8,
+  "respawnSeconds": 10,
+  "area": "mobs.dukedom"
+ },
+ {
+  "id": "crimson_dukedom_brutes",
+  "island": "crimson_isle",
+  "mob": "crimson_barbarian_brute",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.dukedom"
+ },
+ {
+  "id": "crimson_boss_bladesoul",
+  "island": "crimson_isle",
+  "mob": "crimson_bladesoul",
+  "max": 1,
+  "respawnSeconds": 120,
+  "anchors": [
+   "boss.bladesoul"
+  ],
+  "activationRange": 48
+ },
+ {
+  "id": "crimson_boss_mage_outlaw",
+  "island": "crimson_isle",
+  "mob": "crimson_mage_outlaw",
+  "max": 1,
+  "respawnSeconds": 120,
+  "anchors": [
+   "boss.mage_outlaw"
+  ],
+  "activationRange": 48
+ },
+ {
+  "id": "crimson_boss_barbarian_duke",
+  "island": "crimson_isle",
+  "mob": "crimson_barbarian_duke",
+  "max": 1,
+  "respawnSeconds": 120,
+  "anchors": [
+   "boss.barbarian_duke"
+  ],
+  "activationRange": 48
+ },
+ {
+  "id": "crimson_boss_ashfang",
+  "island": "crimson_isle",
+  "mob": "crimson_ashfang",
+  "max": 1,
+  "respawnSeconds": 120,
+  "anchors": [
+   "boss.ashfang"
+  ],
+  "activationRange": 48
+ },
+ {
+  "id": "crimson_boss_magma_boss",
+  "island": "crimson_isle",
+  "mob": "crimson_magma_boss",
+  "max": 1,
+  "respawnSeconds": 300,
+  "anchors": [
+   "boss.magma_boss"
+  ],
+  "activationRange": 48
+ }
+]

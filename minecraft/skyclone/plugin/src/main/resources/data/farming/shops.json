@@ -1,0 +1,614 @@
+{
+ "anita": [
+  {
+   "result": "INFINIDIRT_WAND",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:1"
+    ]
+   }
+  },
+  {
+   "result": "PRISMAPUMP",
+   "amount": 4,
+   "cost": {
+    "coins": 0,
+    "bronze": 1,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:2"
+    ]
+   }
+  },
+  {
+   "result": "HOE_OF_GREAT_TILLING",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 1,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:5"
+    ]
+   }
+  },
+  {
+   "result": "HOE_OF_GREATER_TILLING",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 1,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:10"
+    ]
+   }
+  },
+  {
+   "result": "HOE_OF_GREATEST_TILLING",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 2,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:20"
+    ]
+   }
+  },
+  {
+   "result": "BASKET_OF_SEEDS",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 2,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:30"
+    ]
+   }
+  },
+  {
+   "result": "NETHER_WART_POUCH",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 2,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:30"
+    ]
+   }
+  },
+  {
+   "result": "ANITA_TALISMAN",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 2,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:32"
+    ]
+   }
+  },
+  {
+   "result": "MECHAMIND_GARDEN_CHIP",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 1,
+    "pelts": 0,
+    "items": []
+   }
+  },
+  {
+   "result": "OVERDRIVE_GARDEN_CHIP",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 2,
+    "pelts": 0,
+    "items": []
+   }
+  },
+  {
+   "result": "ANITA_RING",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 2,
+    "gold": 0,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:64",
+     "ANITA_TALISMAN:1"
+    ]
+   }
+  },
+  {
+   "result": "ANITA_ARTIFACT",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 2,
+    "pelts": 0,
+    "items": [
+     "JACOBS_TICKET:100",
+     "ANITA_RING:1"
+    ]
+   }
+  },
+  {
+   "result": "SKYBLOCK_BRONZE_MEDAL",
+   "amount": 2,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 1,
+    "gold": 0,
+    "pelts": 0,
+    "items": []
+   },
+   "medal": "bronze"
+  },
+  {
+   "result": "SKYBLOCK_SILVER_MEDAL",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 2,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": []
+   },
+   "medal": "silver"
+  },
+  {
+   "result": "SKYBLOCK_SILVER_MEDAL",
+   "amount": 4,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 1,
+    "pelts": 0,
+    "items": []
+   },
+   "medal": "silver"
+  },
+  {
+   "result": "SKYBLOCK_GOLD_MEDAL",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 4,
+    "gold": 0,
+    "pelts": 0,
+    "items": []
+   },
+   "medal": "gold"
+  },
+  {
+   "result": "JACOBS_TICKET",
+   "amount": 2,
+   "cost": {
+    "coins": 0,
+    "bronze": 1,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 0,
+    "items": []
+   }
+  },
+  {
+   "result": "JACOBS_TICKET",
+   "amount": 4,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 1,
+    "gold": 0,
+    "pelts": 0,
+    "items": []
+   }
+  },
+  {
+   "result": "JACOBS_TICKET",
+   "amount": 16,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 1,
+    "pelts": 0,
+    "items": []
+   }
+  },
+  {
+   "result": "FARMING_FOR_DUMMIES",
+   "amount": 1,
+   "cost": {
+    "gold": 1,
+    "items": [
+     "JACOBS_TICKET:32"
+    ]
+   }
+  }
+ ],
+ "talbot": [
+  {
+   "result": "TRAPPER_DEN_TRAVEL_SCROLL",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 100,
+    "items": []
+   }
+  },
+  {
+   "result": "TALBOTS_THEODOLITE",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 80,
+    "items": []
+   }
+  },
+  {
+   "result": "PELT_BELT",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 250,
+    "items": []
+   }
+  },
+  {
+   "result": "TRAPPER_CREST",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 340,
+    "items": []
+   }
+  },
+  {
+   "result": "BROWN_BANDANA",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 200,
+    "items": []
+   }
+  },
+  {
+   "result": "PEST_VEST",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 250,
+    "items": []
+   }
+  }
+ ],
+ "tony": [
+  {
+   "result": "COCOA_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_COOKIE:16",
+     "COCOA_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "PUMPKIN_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_PUMPKIN:1024",
+     "PUMPKIN_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "CHICKEN_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_RAW_CHICKEN:1024",
+     "CHICKEN_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "MUSHROOM_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_BROWN_MUSHROOM:512",
+     "ENCHANTED_RED_MUSHROOM:512",
+     "MUSHROOM_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "CACTUS_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_CACTUS:32",
+     "CACTUS_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "PIG_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_GRILLED_PORK:16",
+     "PIG_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "WHEAT_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_WHEAT:1024",
+     "WHEAT_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "COW_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_LEATHER:1024",
+     "COW_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "SUGAR_CANE_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_SUGAR_CANE:32",
+     "SUGAR_CANE_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "MELON_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_MELON_BLOCK:32",
+     "MELON_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "NETHER_WARTS_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_NETHER_STALK:1024",
+     "NETHER_WARTS_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "CARROT_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_GOLDEN_CARROT:32",
+     "CARROT_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "POTATO_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_BAKED_POTATO:32",
+     "POTATO_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "SHEEP_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_COOKED_MUTTON:16",
+     "SHEEP_GENERATOR_11:1"
+    ]
+   }
+  },
+  {
+   "result": "RABBIT_GENERATOR_12",
+   "amount": 1,
+   "cost": {
+    "coins": 0,
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0,
+    "pelts": 75,
+    "items": [
+     "ENCHANTED_COOKED_RABBIT:16",
+     "RABBIT_GENERATOR_11:1"
+    ]
+   }
+  }
+ ],
+ "farmhand": [
+  {
+   "result": "ROOKIE_HOE",
+   "amount": 1,
+   "cost": {
+    "coins": 10
+   }
+  },
+  {
+   "result": "ROOKIE_FARMING_AXE",
+   "amount": 1,
+   "cost": {
+    "coins": 10
+   }
+  },
+  {
+   "result": "PROMISING_HOE",
+   "amount": 1,
+   "cost": {
+    "coins": 1500
+   }
+  },
+  {
+   "result": "THEORETICAL_HOE",
+   "amount": 1,
+   "cost": {
+    "coins": 5000
+   }
+  },
+  {
+   "result": "BASIC_GARDENING_HOE",
+   "amount": 1,
+   "cost": {
+    "coins": 2500
+   }
+  },
+  {
+   "result": "BASIC_GARDENING_AXE",
+   "amount": 1,
+   "cost": {
+    "coins": 2500
+   }
+  }
+ ]
+}

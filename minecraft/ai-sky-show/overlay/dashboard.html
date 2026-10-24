@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AISky Control Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0b0b12; --panel: #14141f; --panel2: #1b1b2a; --line: #2a2a3d; --ink: #ececf6; --dim: #8d8da8;
+  --good: #3ddc84; --warn: #ffb020; --bad: #ff4d5e; --accent: #ffd23d;
+  --display: "Dela Gothic One", Impact, sans-serif; --body: "M PLUS Rounded 1c", "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 14px; min-height: 100vh; }
+button { font-family: var(--body); font-weight: 800; cursor: pointer; border: 0; border-radius: 10px; color: #fff; background: #2b2b40; padding: 8px 14px; font-size: 13px; }
+button:hover { filter: brightness(1.2); }
+button:active { transform: translateY(1px); }
+header { display: flex; align-items: center; gap: 18px; padding: 14px 22px; background: linear-gradient(90deg, #17112a, #0f0f19); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; flex-wrap: wrap; }
+header h1 { font-family: var(--display); font-size: 22px; letter-spacing: 1px; white-space: nowrap; }
+header h1 small { display: block; font-family: var(--body); font-size: 12px; color: var(--dim); letter-spacing: 2px; font-weight: 800; }
+.big { font-size: 18px; padding: 14px 26px; border-radius: 14px; letter-spacing: 1px; }
+#bStart { background: linear-gradient(180deg, #2fd27a, #1a9e57); }
+#bPause { background: linear-gradient(180deg, #ffb020, #c47f00); color: #1a1200; }
+#bStop { background: linear-gradient(180deg, #ff4d5e, #b81e30); }
+#bMark { background: linear-gradient(180deg, #9a6bff, #6a3fd6); }
+.clockbig { font-family: var(--display); font-size: 40px; letter-spacing: 2px; font-variant-numeric: tabular-nums; margin-left: auto; text-align: right; line-height: 1; }
+.clockbig small { display: block; font-family: var(--body); font-size: 12px; color: var(--dim); letter-spacing: 3px; font-weight: 800; margin-top: 4px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; background: var(--panel2); font-weight: 800; font-size: 12px; letter-spacing: 1px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--bad); }
+.dot.on { background: var(--good); box-shadow: 0 0 8px var(--good); }
+main { display: grid; grid-template-columns: 1fr 420px; gap: 16px; padding: 16px 22px 30px; }
+@media (max-width: 1300px) { main { grid-template-columns: 1fr; } }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.card h2 { font-size: 12px; letter-spacing: 3px; color: var(--dim); font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+.row { display: flex; gap: 16px; flex-wrap: wrap; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.metric b { display: block; font-family: var(--display); font-size: 28px; line-height: 1.1; }
+.metric span { color: var(--dim); font-size: 12px; font-weight: 800; letter-spacing: 1px; }
+.meter { height: 10px; border-radius: 6px; background: #22223a; overflow: hidden; margin-top: 8px; }
+.meter i { display: block; height: 100%; background: var(--good); width: 0; transition: width .5s, background .5s; }
+#agents { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+@media (max-width: 900px) { #agents { grid-template-columns: 1fr; } .metrics { grid-template-columns: repeat(2, 1fr); } }
+.agent { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; position: relative; }
+.agent .top { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: linear-gradient(90deg, var(--c), transparent 85%); }
+.agent .nm { font-family: var(--display); font-size: 26px; color: #fff; text-shadow: 2px 2px 0 #0007; }
+.agent .arch { font-size: 11px; font-weight: 800; letter-spacing: 1.5px; color: #fff; opacity: .85; text-transform: uppercase; }
+.agent .badges { margin-left: auto; display: flex; gap: 6px; }
+.agent .stuck { background: var(--bad); color: #fff; animation: blink 1s infinite; display: none; }
+.agent.is-stuck .stuck { display: inline-flex; }
+.agent.is-stuck { border-color: var(--bad); box-shadow: 0 0 0 2px var(--bad); }
+.agent.speaking { box-shadow: 0 0 0 2px var(--c), 0 0 24px -6px var(--c); }
+@keyframes blink { 50% { opacity: .4; } }
+.agent .in { padding: 10px 14px 12px; display: grid; gap: 7px; }
+.kv { display: grid; grid-template-columns: 74px 1fr; gap: 8px; align-items: baseline; }
+.kv > span:first-child { font-size: 11px; font-weight: 800; letter-spacing: 1.5px; color: var(--dim); }
+.kv .v { overflow: hidden; text-overflow: ellipsis; }
+.inner { font-style: italic; color: #fff; border-left: 3px solid var(--c); padding-left: 8px; min-height: 1.3em; }
+.say { color: #d8d8ea; }
+.act.ok { color: var(--good); } .act.fail { color: var(--bad); }
+.nums { display: flex; gap: 14px; flex-wrap: wrap; font-weight: 800; font-size: 13px; color: #cfcfe4; padding-top: 4px; border-top: 1px dashed var(--line); }
+.nums span em { font-style: normal; color: var(--dim); font-size: 11px; letter-spacing: 1px; margin-right: 4px; }
+.agent .btns { display: flex; gap: 8px; padding: 0 14px 12px; flex-wrap: wrap; }
+.agent .btns .cine { background: var(--c); color: #111; }
+#preview { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; }
+#preview iframe { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; border: 0; transform-origin: 0 0; pointer-events: none; }
+#dials { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+.dial { display: flex; flex-direction: column; gap: 3px; }
+.dial label { font-size: 11px; font-weight: 800; color: var(--dim); letter-spacing: .5px; }
+.dial input, .dial select { background: #0e0e18; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); padding: 6px 8px; font: 700 13px var(--body); width: 100%; }
+.dial input:focus, .dial select:focus { outline: 2px solid #6a5cff; }
+.dial.saved input, .dial.saved select { border-color: var(--good); }
+.dial.err input, .dial.err select { border-color: var(--bad); }
+.toggle { display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 6px 0; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
+#feed { height: 420px; overflow-y: auto; display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+.ev { display: grid; grid-template-columns: 62px 70px 1fr; gap: 8px; padding: 4px 6px; border-radius: 6px; align-items: baseline; }
+.ev:hover { background: var(--panel2); }
+.ev .t { color: var(--dim); font-variant-numeric: tabular-nums; font-size: 12px; }
+.ev .ty { font-size: 11px; font-weight: 800; letter-spacing: .5px; color: #a9a9ff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ev.src-server .ty { color: #7fd4ff; } .ev.src-director .ty { color: #ffb4f0; } .ev.src-tts .ty { color: #9cff9c; } .ev.src-system .ty { color: var(--accent); }
+.ev .dr { display: inline-block; min-width: 18px; text-align: center; font-size: 11px; font-weight: 800; border-radius: 5px; padding: 0 4px; margin-right: 6px; background: #2b2b40; }
+.ev .dr.d3 { background: #3a5cff; } .ev .dr.d6 { background: var(--warn); color: #111; } .ev .dr.d9 { background: var(--bad); }
+#director { display: flex; flex-direction: column; gap: 6px; max-height: 260px; overflow-y: auto; }
+.dec { padding: 6px 8px; border-radius: 8px; background: var(--panel2); font-size: 13px; }
+.dec b { font-family: var(--display); font-weight: 400; font-size: 13px; letter-spacing: 1px; margin-right: 6px; }
+.dec.CINEMATIC b { color: #ff7ad9; } .dec.NARRATE b { color: var(--accent); } .dec.CUT_TO b { color: #7fd4ff; } .dec.HOLD b { color: var(--dim); }
+.dec small { color: var(--dim); display: block; }
+.side { display: flex; flex-direction: column; gap: 16px; }
+.left { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+#toast { position: fixed; right: 20px; bottom: 20px; background: #24243a; border: 1px solid var(--line); padding: 10px 16px; border-radius: 10px; font-weight: 700; opacity: 0; transition: opacity .3s; max-width: 420px; z-index: 9; }
+#toast.on { opacity: 1; }
+.muted { color: var(--dim); }
+.tts-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span id="title">Can 4 AIs Beat Hypixel SkyBlock?</span><small>CONTROL ROOM · <span id="epName">no episode</span></small></h1>
+  <button class="big" id="bStart">&#9654; START</button>
+  <button class="big" id="bPause">&#10074;&#10074; PAUSE</button>
+  <button class="big" id="bStop">&#9632; STOP</button>
+  <button class="big" id="bMark">&#9733; MARK MOMENT</button>
+  <button id="bGrid">Back to grid</button>
+  <span class="pill"><span class="dot" id="connDot"></span><span id="connTxt">offline</span></span>
+  <span class="pill" title="OBS browser sources connected to /stream">OVERLAYS <span id="ovl">0</span></span>
+  <div class="clockbig"><span id="clock">00:00</span><small id="clockSub">/ 30:00 · IDLE</small></div>
+</header>
+<main>
+  <div class="left">
+    <div class="card">
+      <h2>COST &amp; RATE</h2>
+      <div class="metrics">
+        <div class="metric"><b id="mUsd">$0.00</b><span>TOTAL</span></div>
+        <div class="metric"><b id="mHr">$0.00</b><span>PER HOUR</span></div>
+        <div class="metric"><b id="mTurns">0</b><span>TURNS</span></div>
+        <div class="metric"><b id="mTph">0</b><span>TURNS / HOUR · MAX <span id="mMax">900</span></span><div class="meter"><i id="mBar"></i></div></div>
+      </div>
+    </div>
+    <div id="agents"></div>
+    <div class="card">
+      <h2>EVENT FEED <label class="toggle" style="margin-left:auto;padding:0;font-size:12px;letter-spacing:0"><input type="checkbox" id="hideNoise" checked> hide drama-0 noise</label></h2>
+      <div id="feed"></div>
+    </div>
+  </div>
+  <div class="side">
+    <div class="card">
+      <h2>PROGRAM PREVIEW <span class="muted" style="letter-spacing:0;font-weight:700">(muted · what OBS shows)</span></h2>
+      <div id="preview"><iframe id="pv" src="/overlay?mute=1&amp;bg=1" title="overlay preview"></iframe></div>
+    </div>
+    <div class="card">
+      <h2>VOICE</h2>
+      <div class="tts-row"><span class="pill">ENGINE <b id="tEng">—</b></span><span class="pill">INDEXTTS <b id="tIdx">off</b></span><span class="muted" id="tStats"></span></div>
+      <div class="tts-row" style="margin-top:10px">
+        <button id="bWarm" title="Loads IndexTTS2 on the GPU (~25 s). Record time only — refuses while Rocket League / Streamlabs run.">Load IndexTTS2 (record time)</button>
+        <span class="muted" style="font-size:12px">Test a voice from an agent card.</span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>DIRECTOR</h2>
+      <div id="director"><span class="muted">no decisions yet</span></div>
+    </div>
+    <div class="card">
+      <h2>DIALS <span class="muted" style="letter-spacing:0;font-weight:700">(live — saved on change)</span></h2>
+      <div id="dials"></div>
+    </div>
+  </div>
+</main>
+<div id="toast"></div>
+<script>
+(() => {
+  "use strict";
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const ENUMS = {
+    backend: ["claude_code", "api"], effort: ["low", "medium", "high", "max"], big_effort: ["low", "medium", "high", "max"],
+    director_effort: ["low", "medium", "high", "max"], tts_engine: ["auto", "indextts", "sapi", "none"],
+  };
+  const HELP = {
+    voice_stale_s: "drop a queued voice line to caption-only if it waited longer than this",
+    voice_lines_per_min: "per character; extra lines become caption-only",
+    tts_engine: "auto = IndexTTS2 if loaded, else Windows SAPI",
+  };
+  let state = null, dialsBuilt = false;
+
+  function toast(msg, bad) {
+    const t = $("#toast"); t.textContent = msg; t.style.borderColor = bad ? "var(--bad)" : "var(--line)";
+    t.classList.add("on"); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("on"), 3200);
+  }
+  async function control(action, extra = {}) {
+    try {
+      const r = await fetch("/api/control", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action, ...extra }) });
+      const j = await r.json();
+      toast(j.ok ? `${action}: ok` : `${action}: ${j.error || JSON.stringify(j.results || j)}`, !j.ok);
+      return j;
+    } catch (e) { toast(`${action}: ${e}`, true); }
+  }
+  $("#bStart").onclick = () => control("start");
+  $("#bStop").onclick = () => { if (confirm("Stop the episode?")) control("stop"); };
+  $("#bPause").onclick = () => control(state && state.dials.paused ? "resume" : "pause");
+  $("#bMark").onclick = () => { const label = prompt("Label for this moment (optional):", "") ; if (label !== null) control("mark", { label: label || "moment" }); };
+  $("#bGrid").onclick = () => control("grid");
+  $("#bWarm").onclick = () => { if (confirm("Load IndexTTS2 on the GPU now? Only do this at record time (not while streaming / Rocket League).")) control("tts_warmup"); };
+
+  // ---------- preview scaling ----------
+  function fitPreview() { const w = $("#preview").clientWidth; $("#pv").style.transform = `scale(${w / 1920})`; }
+  addEventListener("resize", fitPreview); setTimeout(fitPreview, 50);
+
+  // ---------- agents ----------
+  function agentCard(c) {
+    let el = document.getElementById("agent-" + c.name);
+    if (!el) {
+      el = document.createElement("div");
+      el.className = "agent"; el.id = "agent-" + c.name;
+      el.style.setProperty("--c", c.color || "#888");
+      el.innerHTML = `
+        <div class="top"><div><div class="nm">${esc(c.name)}</div><div class="arch">${esc(c.archetype || "")}</div></div>
+          <div class="badges"><span class="pill stuck">STUCK</span><span class="pill"><span class="dot"></span><span class="on">offline</span></span></div></div>
+        <div class="in">
+          <div class="kv"><span>GOAL</span><span class="v goal"></span></div>
+          <div class="kv"><span>THINKING</span><span class="v inner"></span></div>
+          <div class="kv"><span>SAID</span><span class="v say"></span></div>
+          <div class="kv"><span>ACTION</span><span class="v act"></span></div>
+          <div class="nums"></div>
+        </div>
+        <div class="btns">
+          <button class="cine">&#127909; Cinematic now</button>
+          <button class="rst">Restart agent</button>
+          <button class="kill">Kill</button>
+          <button class="tv">Test voice</button>
+        </div>`;
+      $(".cine", el).onclick = () => control("cinematic", { char: c.name, target: c.name });
+      $(".rst", el).onclick = () => control("restart_agent", { char: c.name });
+      $(".kill", el).onclick = () => { if (confirm(`Kill ${c.name}'s agent?`)) control("kill_agent", { char: c.name }); };
+      $(".tv", el).onclick = () => control("test_voice", { char: c.name });
+      $("#agents").appendChild(el);
+    }
+    $(".goal", el).textContent = c.goal || "—";
+    $(".inner", el).textContent = c.last_inner ? `“${c.last_inner}”` : "";
+    $(".say", el).textContent = c.last_say || "";
+    const act = $(".act", el);
+    act.textContent = c.last_action || "—";
+    act.className = "v act" + (c.last_action_ok === true ? " ok" : c.last_action_ok === false ? " fail" : "");
+    $(".dot", el).classList.toggle("on", !!c.online);
+    $(".on", el).textContent = c.online ? "online" : "offline";
+    el.classList.toggle("is-stuck", !!c.stuck);
+    $(".stuck", el).textContent = c.stuck ? `STUCK ${Math.round(c.stuck_s || 0)}s` : "STUCK";
+    const sp = state && state.tts && state.tts.speaking;
+    el.classList.toggle("speaking", !!(sp && sp.char === c.name));
+    const f = (v, d = "—") => v === null || v === undefined || v === "" ? d : v;
+    $(".nums", el).innerHTML = [
+      ["LV", f(c.level)], ["PURSE", c.purse == null ? "—" : Math.round(c.purse).toLocaleString()], ["ISLAND", f(c.island)],
+      ["HP", c.health == null ? "—" : `${Math.round(c.health)}/${Math.round(c.maxHealth || 100)}`],
+      ["TURN", c.latency_s == null ? "—" : c.latency_s + "s"], ["TURNS", f(c.turns, 0)], ["COST", "$" + (c.cost_usd || 0).toFixed(2)],
+      ["VOICE", f(c.voice_lines, 0)],
+    ].map(([k, v]) => `<span><em>${k}</em>${esc(v)}</span>`).join("");
+  }
+
+  // ---------- dials ----------
+  function buildDials(d) {
+    const box = $("#dials"); box.innerHTML = "";
+    for (const [k, v] of Object.entries(d)) {
+      const wrap = document.createElement("div"); wrap.className = "dial"; wrap.dataset.key = k;
+      if (HELP[k]) wrap.title = HELP[k];
+      let input;
+      if (typeof v === "boolean") {
+        wrap.innerHTML = `<label class="toggle"><input type="checkbox"> ${esc(k)}</label>`;
+        input = $("input", wrap);
+      } else if (ENUMS[k]) {
+        wrap.innerHTML = `<label>${esc(k)}</label><select>${ENUMS[k].map(o => `<option>${o}</option>`).join("")}</select>`;
+        input = $("select", wrap);
+      } else {
+        wrap.innerHTML = `<label>${esc(k)}</label><input type="${typeof v === "number" ? "number" : "text"}" step="any">`;
+        input = $("input", wrap);
+      }
+      input.addEventListener("change", async () => {
+        const value = input.type === "checkbox" ? input.checked : input.type === "number" ? Number(input.value) : input.value;
+        try {
+          const r = await fetch("/api/dials", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ key: k, value }) });
+          const j = await r.json();
+          wrap.classList.toggle("err", !j.ok); wrap.classList.toggle("saved", !!j.ok);
+          setTimeout(() => wrap.classList.remove("saved"), 1200);
+          if (!j.ok) toast(`${k}: ${Object.values(j.errors || {}).join(" ")}`, true);
+        } catch (e) { wrap.classList.add("err"); toast(String(e), true); }
+      });
+      box.appendChild(wrap);
+    }
+    dialsBuilt = true;
+  }
+  function syncDials(d) {
+    for (const wrap of document.querySelectorAll(".dial")) {
+      const k = wrap.dataset.key, el = $("input, select", wrap);
+      if (!el || document.activeElement === el || !(k in d)) continue;
+      if (el.type === "checkbox") el.checked = !!d[k]; else el.value = d[k];
+    }
+  }
+
+  // ---------- state polling ----------
+  const mmss = s => { s = Math.max(0, Math.floor(s || 0)); return String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0"); };
+  async function poll() {
+    try {
+      const r = await fetch("/api/state", { cache: "no-store" });
+      state = await r.json();
+      $("#connDot").classList.add("on"); $("#connTxt").textContent = "connected";
+      render();
+    } catch (e) { $("#connDot").classList.remove("on"); $("#connTxt").textContent = "offline"; }
+    setTimeout(poll, 1000);
+  }
+  function render() {
+    const s = state;
+    $("#title").textContent = s.title;
+    $("#epName").textContent = (s.episode && s.episode.name) ? `${s.episode.name} · ${s.episode.state}` : (s.episode && s.episode.state) || "no episode";
+    $("#ovl").textContent = s.overlay_clients ?? 0;
+    $("#clock").textContent = mmss(s.clock.elapsed_s);
+    $("#clockSub").textContent = `/ ${mmss(s.clock.total_s)} · ${s.dials.paused ? "PAUSED" : s.clock.running ? "RUNNING" : "IDLE"}`;
+    $("#bPause").innerHTML = s.dials.paused ? "&#9654; RESUME" : "&#10074;&#10074; PAUSE";
+    const c = s.cost || {};
+    $("#mUsd").textContent = "$" + (+c.usd || 0).toFixed(2);
+    $("#mHr").textContent = "$" + (+c.per_hour || 0).toFixed(2);
+    $("#mTurns").textContent = c.turns ?? 0;
+    $("#mTph").textContent = Math.round(c.turns_per_hour || 0);
+    $("#mMax").textContent = c.max_turns_per_hour ?? "—";
+    const pct = Math.min(100, 100 * (c.turns_per_hour || 0) / (c.max_turns_per_hour || 900));
+    $("#mBar").style.width = pct + "%";
+    $("#mBar").style.background = pct > 90 ? "var(--bad)" : pct > 70 ? "var(--warn)" : "var(--good)";
+    for (const ch of s.chars) agentCard(ch);
+    const t = s.tts || {};
+    $("#tEng").textContent = t.resolved || "—";
+    $("#tIdx").textContent = t.indextts_loaded ? "loaded" : t.indextts_running ? "loading…" : "off";
+    $("#tStats").textContent = `spoken ${t.spoken || 0} · caption-only ${t.caption || 0} · stale ${t.stale || 0} · failed ${t.failed || 0}`;
+    const dir = $("#director");
+    if (s.director && s.director.length) {
+      dir.innerHTML = s.director.slice(0, 25).map(d => `<div class="dec ${esc(d.decision)}"><b>${esc(d.decision)}</b>${esc(d.target || "")} ${d.shot ? "· " + esc(d.shot) : ""} ${d.score != null ? "· score " + esc(d.score) : ""}<small>${esc(d.reason || d.line || "")}</small></div>`).join("");
+    }
+    if (!dialsBuilt) buildDials(s.dials);
+    syncDials(s.dials);
+  }
+  poll();
+
+  // ---------- event feed (raw bus over SSE) ----------
+  const seen = new Set();
+  function addEvent(e) {
+    if (seen.has(e.bus_id)) return; seen.add(e.bus_id);
+    if ($("#hideNoise").checked && !(e.drama > 0) && !["say", "inner_voice", "director", "cinematic_start", "cinematic_end", "narrate", "mark", "episode_start", "episode_end", "agent_stuck", "join", "quit"].includes(e.type)) return;
+    const d = new Date(e.t);
+    const time = d.toTimeString().slice(0, 8);
+    const data = e.data || {};
+    let txt = data.text || e.text || data.message || data.goal || (data.decision ? `${data.decision} ${data.target || ""} ${data.reason || ""}` : "") || (data.minutes ? `${data.minutes} min` : "");
+    if (e.type === "inner_voice") txt = `(thinks) ${txt}`;
+    if (e.type === "agent_action") txt = `${data.tool}(${JSON.stringify(data.args || {})}) → ${data.result || ""}`;
+    const who = (e.players || []).join(", ");
+    const dr = Math.round(e.drama || 0);
+    const el = document.createElement("div");
+    el.className = `ev src-${esc(e.src)}`;
+    el.innerHTML = `<span class="t">${time}</span><span class="ty" title="${esc(e.src)}">${esc(e.type)}</span><span>${dr ? `<span class="dr ${dr >= 9 ? "d9" : dr >= 6 ? "d6" : dr >= 3 ? "d3" : ""}">${dr}</span>` : ""}${who ? `<b>${esc(who)}</b> ` : ""}${esc(txt)}</span>`;
+    const feed = $("#feed");
+    feed.prepend(el);
+    while (feed.children.length > 300) feed.lastElementChild.remove();
+  }
+  function connectBus() {
+    const es = new EventSource("/bus");
+    es.onmessage = m => { try { addEvent(JSON.parse(m.data)); } catch (e) {} };
+  }
+  connectBus();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,845 @@
+{
+ "_note": "Per-island first-entry objective mini-chains (research 03 2.2). A guide starts the first time the player stands on its island, its steps go in order, finishing pays 'coins' (TUNE) + 'sbxp' (key island_guide:<id>, Story > Objectives). Hub districts are the hub module's District Guides.",
+ "guides": [
+  {
+   "id": "barn",
+   "island": "barn",
+   "name": "The Barn",
+   "icon": "WHEAT",
+   "coins": 1000,
+   "sbxp": 5,
+   "about": "Meet the farmers of the Barn and work its fields.",
+   "steps": [
+    {
+     "text": "Talk to the Farm Guide",
+     "hint": "The Farm Guide waits by the windmill path, north of the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.farm_guide"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Wheat Fields",
+     "hint": "The wheat fields lie in the north-west corner of the island.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "barn.wheat"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Harvest 64 crops",
+     "hint": "Any fully grown crop on the Barn counts.",
+     "trigger": {
+      "type": "gather",
+      "gather": "FARMING",
+      "what": [],
+      "amount": 64
+     }
+    },
+    {
+     "text": "Visit the Windmill",
+     "hint": "The windmill turns at the heart of the island.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "barn.windmill"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "mushroom_desert",
+   "island": "mushroom_desert",
+   "name": "Mushroom Desert",
+   "icon": "RED_MUSHROOM",
+   "coins": 1500,
+   "sbxp": 5,
+   "about": "Cross the desert, meet the Trapper and find the gorge.",
+   "steps": [
+    {
+     "text": "Visit the Desert Settlement",
+     "hint": "The settlement sits just past the portal from the Barn.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "desert.settlement"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Talk to the Trapper",
+     "hint": "The Trapper's Den is up on the north-east ridge.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.trapper"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Explore the Mushroom Gorge",
+     "hint": "The gorge cuts into the west side of the desert.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "desert.gorge"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Harvest 64 Cactus or Mushrooms",
+     "hint": "Cactus grows in the fields by the settlement, mushrooms in the gorge.",
+     "trigger": {
+      "type": "gather",
+      "gather": "FARMING",
+      "what": [
+       "CACTUS",
+       "MUSHROOM"
+      ],
+      "amount": 64
+     }
+    }
+   ]
+  },
+  {
+   "id": "park",
+   "island": "park",
+   "name": "The Park",
+   "icon": "BIRCH_LOG",
+   "coins": 1500,
+   "sbxp": 5,
+   "about": "Five forests and the cave the wolves call home.",
+   "steps": [
+    {
+     "text": "Talk to the Park Ranger",
+     "hint": "The Ranger's hut is a short walk from the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.park_ranger"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Chop 64 logs",
+     "hint": "Any tree in the Park counts; Birch Park is right by the portal.",
+     "trigger": {
+      "type": "gather",
+      "gather": "FORAGING",
+      "what": [],
+      "amount": 64
+     }
+    },
+    {
+     "text": "Find the Howling Cave",
+     "hint": "The cave mouth opens under the Spruce Woods.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "howling_cave",
+       "howl_landing"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 5 Pack Wraiths",
+     "hint": "Pack Wraiths haunt the Howling Cave at night.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "park_pack_spirit"
+      ],
+      "amount": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "gold_mine",
+   "island": "gold_mine",
+   "name": "Gold Mine",
+   "icon": "GOLD_INGOT",
+   "coins": 1000,
+   "sbxp": 5,
+   "about": "Meet the forgers and dig your first gold.",
+   "steps": [
+    {
+     "text": "Visit the Miners' Camp",
+     "hint": "The camp is right at the top of the mine.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "camp"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Talk to the Gold Forger",
+     "hint": "The Gold Forger works at the camp.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.gold_forger"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Mine 32 Gold",
+     "hint": "Gold ore lines the Gold Gallery and the Pit.",
+     "trigger": {
+      "type": "gather",
+      "gather": "MINING",
+      "what": [
+       "GOLD"
+      ],
+      "amount": 32
+     }
+    },
+    {
+     "text": "Explore the Lapis Tunnel",
+     "hint": "A blue-lit tunnel runs off the west side of the mine.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "lapis_tunnel"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "deep_caverns",
+   "island": "deep_caverns",
+   "name": "Deep Caverns",
+   "icon": "LAPIS_LAZULI",
+   "coins": 2000,
+   "sbxp": 5,
+   "about": "Six layers down to the Obsidian Sanctuary.",
+   "steps": [
+    {
+     "text": "Ride a Lift",
+     "hint": "The Lift Operator at the centre of each layer takes you to any floor you have reached.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.lift.1",
+       "npc.lift.2",
+       "npc.lift.3",
+       "npc.lift.4",
+       "npc.lift.5",
+       "npc.lift.6"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Reach the Lapis Quarry",
+     "hint": "Take the Haul Road down from the Gunpowder Mines.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "lapis_quarry"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 10 Lapis Zombies",
+     "hint": "Lapis Zombies wander the Lapis Quarry.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "deep_caverns_lapis_zombie"
+      ],
+      "amount": 10
+     }
+    },
+    {
+     "text": "Reach the Diamond Reserve",
+     "hint": "Keep going down: the Diamond Reserve is the fifth layer.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "diamond_reserve"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "dwarven_mines",
+   "island": "dwarven_mines",
+   "name": "Dwarven Mines",
+   "icon": "PRISMARINE_CRYSTALS",
+   "coins": 2500,
+   "sbxp": 5,
+   "about": "Commissions, the Heart of the Mountain and the Forge.",
+   "steps": [
+    {
+     "text": "Take a Commission",
+     "hint": "The commission board is in the Dwarven Village, by the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.commissions"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Heart of the Mountain",
+     "hint": "The keeper of the Heart stands in the middle of the Village.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.hotm"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Mine 64 Mithril",
+     "hint": "Mithril lines every mining area outside the Village.",
+     "trigger": {
+      "type": "gather",
+      "gather": "MINING",
+      "what": [
+       "MITHRIL"
+      ],
+      "amount": 64
+     }
+    },
+    {
+     "text": "Visit the Forge",
+     "hint": "The Forge is east of the Village; the minecart there takes you.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.forge"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "crystal_hollows",
+   "island": "crystal_hollows",
+   "name": "Crystal Caverns",
+   "icon": "AMETHYST_SHARD",
+   "coins": 5000,
+   "sbxp": 5,
+   "about": "A cavern of gemstones, ruins and goblins.",
+   "steps": [
+    {
+     "text": "Talk to the Hollows Guide",
+     "hint": "The guide waits at the Caverns Entrance.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.hollows_guide"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Mine 32 Gemstones",
+     "hint": "Gemstone veins glow all over the Hollows.",
+     "trigger": {
+      "type": "gather",
+      "gather": "MINING",
+      "what": [
+       "GEM",
+       "RUBY",
+       "AMBER",
+       "SAPPHIRE",
+       "JADE",
+       "AMETHYST",
+       "TOPAZ"
+      ],
+      "amount": 32
+     }
+    },
+    {
+     "text": "Reach the Crystal Nucleus",
+     "hint": "The Nucleus is at the very centre of the cavern.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "crystal_nucleus"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Find the Lost Relic City",
+     "hint": "The ruined city lies in the south-east quarter.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "precursor_city"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "glacite_tunnels",
+   "island": "glacite_tunnels",
+   "name": "Glacite Tunnels",
+   "icon": "PACKED_ICE",
+   "coins": 5000,
+   "sbxp": 5,
+   "about": "Base Camp and the frozen tunnels below the Mines.",
+   "steps": [
+    {
+     "text": "Talk to the Excavator",
+     "hint": "The Excavator works at Base Camp.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.camp_excavator"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Check the Base Camp commissions",
+     "hint": "The camp has its own commission board.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.camp_commissions"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Reach the Great Rimestone Lake",
+     "hint": "Follow the tunnels down to the frozen lake.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "tunnels_lake"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 10 Rimestone Walkers",
+     "hint": "Walkers patrol the tunnels around the camp.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "gt_glacite_walker"
+      ],
+      "amount": 10
+     }
+    }
+   ]
+  },
+  {
+   "id": "spiders_den",
+   "island": "spiders_den",
+   "name": "Spider's Den",
+   "icon": "STRING",
+   "coins": 1500,
+   "sbxp": 5,
+   "about": "Webs, slime and the Silkmother's sanctuary.",
+   "steps": [
+    {
+     "text": "Talk to the Den Ranger",
+     "hint": "The ranger stands at the Den Entrance, by the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.den_guide"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 20 Spiders",
+     "hint": "Spiders crawl all over the mound.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "den_"
+      ],
+      "amount": 20
+     }
+    },
+    {
+     "text": "Visit Granny's Cottage",
+     "hint": "Granny lives on the west side of the Den and knows every creature.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "grannys_cottage"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Climb to the Top of the Nest",
+     "hint": "Climb the mound to its very top.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "top_of_the_nest"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "the_end",
+   "island": "the_end",
+   "name": "The End",
+   "icon": "ENDER_PEARL",
+   "coins": 3000,
+   "sbxp": 5,
+   "about": "Endermen, Zealots and the Dragon's Nest.",
+   "steps": [
+    {
+     "text": "Talk to the End Warden",
+     "hint": "The warden stands at the End Gate, by the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.end_guide"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 25 Endermen",
+     "hint": "Endermen roam everywhere past the gate.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "end_enderman"
+      ],
+      "amount": 25
+     }
+    },
+    {
+     "text": "Slay a Zealot",
+     "hint": "Zealots gather in the Dragon's Nest.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "end_zealot"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Reach the Dragon's Nest",
+     "hint": "The Nest is the great crater to the north.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "dragons_nest",
+       "drag_landing"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "crimson_isle",
+   "island": "crimson_isle",
+   "name": "Crimson Isle",
+   "icon": "BLAZE_POWDER",
+   "coins": 5000,
+   "sbxp": 5,
+   "about": "Two factions, one volcano.",
+   "steps": [
+    {
+     "text": "Talk to the Crimson Watchman",
+     "hint": "The Watchman greets every arrival by the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.crimson_guide"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Meet a faction leader",
+     "hint": "The Barbarians hold the west town, the Mages the east. Pick a side - you can only join one.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.barbarian_leader",
+       "npc.mage_leader"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Slay 10 Blazes",
+     "hint": "Blazes swarm the Crimson Fields and the volcano slopes.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "crimson_blaze"
+      ],
+      "amount": 10
+     }
+    },
+    {
+     "text": "Meet the Trophy Keeper",
+     "hint": "The Trophy Keeper's hut is at the foot of the volcano.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.trophy_keeper"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "jerrys_workshop",
+   "island": "jerrys_workshop",
+   "name": "Winter Workshop",
+   "icon": "SNOWBALL",
+   "coins": 1000,
+   "sbxp": 5,
+   "about": "Gerald's workshop, the Festival Hall and the mountain.",
+   "steps": [
+    {
+     "text": "Talk to Gerald",
+     "hint": "Gerald runs the workshop right by the portal.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.jerry"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Emporium",
+     "hint": "The Emporium is across the plaza from the workshop.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "emporium"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Festival Hall",
+     "hint": "Every festival's merchant has a stall in the hall.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "festival_hall"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Climb Mount Gerald",
+     "hint": "The mountain rises behind the workshop.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "mount_gerald"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "dungeon_hub",
+   "island": "dungeon_hub",
+   "name": "Dungeon Hub",
+   "icon": "SKELETON_SKULL",
+   "coins": 2000,
+   "sbxp": 5,
+   "about": "Get ready for your first dungeon run.",
+   "steps": [
+    {
+     "text": "Choose a Class at the altar",
+     "hint": "The Class Altar is east of Gravewatch Square.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.class_altar"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Check the Party Board",
+     "hint": "Find a group on the Party Board, west of the square.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.party_board"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Provisioner",
+     "hint": "The Provisioner sells supplies south of the square.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.provisioner"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Stand at the Catacombs Gate",
+     "hint": "The gate is at the far end of the Mausoleum.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "catacombs_gate"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "backwater_bayou",
+   "island": "backwater_bayou",
+   "name": "Backwater Bayou",
+   "icon": "LILY_PAD",
+   "coins": 1500,
+   "sbxp": 5,
+   "about": "Rods, bait and whatever lives in the swamp.",
+   "steps": [
+    {
+     "text": "Talk to the Tackle-smith",
+     "hint": "The Tackle-smith's shop is on the Bayou Docks.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.roddy"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Visit the Bait Shop",
+     "hint": "The Bait-seller is next door on the docks.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.bait_shop"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Catch 10 fish in the Bayou",
+     "hint": "Cast into the bayou waters from the docks.",
+     "trigger": {
+      "type": "fish",
+      "amount": 10
+     }
+    },
+    {
+     "text": "Visit the Moonlit Marsh",
+     "hint": "The marsh is the far west end of the bayou.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "moonlit_marsh"
+      ],
+      "amount": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "galatea",
+   "island": "galatea",
+   "name": "The Moonmarsh",
+   "icon": "MANGROVE_LOG",
+   "coins": 3000,
+   "sbxp": 5,
+   "about": "Knotwick, the loch and the Heart of the Forest.",
+   "steps": [
+    {
+     "text": "Visit Knotwick",
+     "hint": "The village of Knotwick is right by the arrival point.",
+     "trigger": {
+      "type": "zone",
+      "zones": [
+       "knotwick"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Talk to the Heart of the Forest keeper",
+     "hint": "The keeper lives in Knotwick.",
+     "trigger": {
+      "type": "npc",
+      "anchors": [
+       "npc.hotf_keeper"
+      ],
+      "amount": 1
+     }
+    },
+    {
+     "text": "Chop 64 logs",
+     "hint": "Any tree on the Moonmarsh counts.",
+     "trigger": {
+      "type": "gather",
+      "gather": "FORAGING",
+      "what": [],
+      "amount": 64
+     }
+    },
+    {
+     "text": "Slay 5 Silt Wretches",
+     "hint": "They crawl out of the Dimwater Loch.",
+     "trigger": {
+      "type": "kill",
+      "what": [
+       "marsh_tidetot",
+       "marsh_seacurse",
+       "marsh_hydrospear"
+      ],
+      "amount": 5
+     }
+    }
+   ]
+  }
+ ]
+}

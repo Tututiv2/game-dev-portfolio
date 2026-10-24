@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.aisky.showcam.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "MinecraftTitleMixin",
+    "OptionsMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

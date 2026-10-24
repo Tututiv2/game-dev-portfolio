@@ -1,0 +1,43 @@
+{
+  "sellers": [
+    "Isembard Mortlake",
+    "Liesl Brackwell",
+    "Ottavio Quenby",
+    "Saoirse Ashgrove",
+    "Teodor Pargeter",
+    "Wilhelmina Holloway",
+    "Ebba Treloar",
+    "Caspian Fairweather",
+    "Rosalind Merriweather",
+    "Augustin Gaunt",
+    "Philippa Cresswell",
+    "Leopold Tolliver",
+    "Imogen Whitlock",
+    "Henrietta Pennyfeather",
+    "Delphine Ostrander",
+    "Bartholomew Coyle"
+  ],
+  "master": {
+    "name": "&6Auctioneer Dorian",
+    "title": "&e&lAUCTION HOUSE",
+    "lines": [
+      "&fWelcome to the Auction House!",
+      "&fList anything rare here. Buyers bid, or pay your Buy It Now price outright.",
+      "&fThe Agents beside me keep the shelves stocked when the floor is quiet."
+    ]
+  },
+  "agent_1": {
+    "name": "&eAgent Lysa",
+    "title": "&e&lBROWSE",
+    "lines": [
+      "&fLooking for something? I can show you every listing on the floor."
+    ]
+  },
+  "agent_2": {
+    "name": "&eAgent Pemberton",
+    "title": "&e&lYOUR AUCTIONS",
+    "lines": [
+      "&fCome to sell, or to collect? Your listings are right here."
+    ]
+  }
+}

@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Neon: Warlord Update</title>
+    <style>
+        /* --- CORE STYLES --- */
+        body {
+            margin: 0; overflow: hidden; background-color: #050508;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white; user-select: none;
+        }
+        canvas { display: block; }
+
+        /* --- SCREENS --- */
+        .screen-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(5, 5, 8, 0.95);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            z-index: 2000; pointer-events: auto;
+        }
+        
+        #game-over-screen { display: none; background: rgba(50, 0, 0, 0.9); }
+
+        h1 {
+            font-size: 80px; margin: 0; color: #fff;
+            text-shadow: 0 0 20px #00ccff, 0 0 40px #00ccff;
+            letter-spacing: 5px; font-weight: 900;
+        }
+        .danger-text { color: #ff0000; text-shadow: 0 0 20px red; }
+
+        .menu-btn {
+            margin-top: 40px; padding: 15px 60px; font-size: 24px;
+            background: transparent; border: 2px solid #00ccff; color: #00ccff;
+            cursor: pointer; transition: all 0.3s; font-weight: bold; letter-spacing: 2px;
+            box-shadow: 0 0 15px rgba(0, 204, 255, 0.2);
+        }
+        .menu-btn:hover { background: #00ccff; color: #000; box-shadow: 0 0 40px rgba(0, 204, 255, 0.6); }
+        
+        .btn-restart { border-color: #ff0000; color: #ff0000; box-shadow: 0 0 15px rgba(255, 0, 0, 0.2); }
+        .btn-restart:hover { background: #ff0000; color: white; box-shadow: 0 0 40px red; }
+
+        /* --- HUD LAYER --- */
+        #ui-layer {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; display: none;
+            flex-direction: column; justify-content: space-between;
+        }
+
+        /* TOP BAR */
+        .top-bar {
+            background: rgba(10, 15, 20, 0.6); backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px 30px; display: flex; gap: 40px; pointer-events: auto;
+            align-items: center; box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        }
+
+        .resource-group { display: flex; flex-direction: column; align-items: flex-start; }
+        .res-label { font-size: 10px; color: #888; letter-spacing: 1px; text-transform: uppercase; }
+        .res-val { font-size: 20px; font-weight: bold; text-shadow: 0 0 10px currentColor; }
+        
+        /* HEAT BAR */
+        .heat-wrapper { flex-grow: 1; display: flex; flex-direction: column; gap: 5px; max-width: 500px; margin: 0 auto; }
+        .heat-container {
+            height: 12px; background: #111; border: 1px solid #444;
+            border-radius: 6px; overflow: hidden; position: relative;
+        }
+        #heat-fill {
+            height: 100%; width: 0%; 
+            background: linear-gradient(90deg, #00ccff, #ffcc00, #ff0000);
+            transition: width 0.3s ease-out; box-shadow: 0 0 10px currentColor;
+        }
+        #heat-text { font-size: 12px; color: #aaa; text-align: center; letter-spacing: 2px; font-weight: bold; }
+
+        .btn-tech {
+            background: rgba(0, 204, 255, 0.1); border: 1px solid #00ccff; color: #00ccff;
+            padding: 8px 20px; cursor: pointer; font-weight: bold; font-size: 14px;
+            transition: all 0.2s; text-shadow: 0 0 5px #00ccff; margin-left: 10px;
+        }
+        .btn-tech:hover { background: #00ccff; color: #000; }
+        
+        .btn-toggle { border-color: #aaa; color: #aaa; }
+        .btn-toggle.active { border-color: #ffaa00; color: #ffaa00; background: rgba(255, 170, 0, 0.2); }
+
+        /* MODE INDICATOR */
+        #mode-indicator {
+            position: absolute; top: 100px; left: 50%; transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.8); font-size: 14px; letter-spacing: 2px;
+            text-shadow: 0 0 5px black; background: rgba(0,0,0,0.5); padding: 5px 15px; border-radius: 20px;
+        }
+
+        /* UPGRADE MODAL */
+        #upgrade-modal {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 500px; background: rgba(10, 15, 25, 0.95);
+            border: 1px solid #00ccff; padding: 0; display: none; pointer-events: auto;
+            z-index: 100; box-shadow: 0 0 50px rgba(0,0,0,0.9);
+        }
+        .modal-header {
+            background: linear-gradient(90deg, rgba(0, 204, 255, 0.2), transparent);
+            padding: 15px; border-bottom: 1px solid #333;
+        }
+        .modal-header h3 { margin: 0; color: #00ccff; letter-spacing: 2px; }
+        .upgrade-item {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px; border-bottom: 1px solid #222;
+        }
+
+        /* MINIMAP */
+        #minimap-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); display: none; z-index: 1500;
+            justify-content: center; align-items: center; flex-direction: column;
+        }
+        #minimap-canvas-large { border: 2px solid #555; box-shadow: 0 0 50px rgba(0,0,0,1); background: #000; }
+
+        /* BOTTOM HOTBAR */
+        .bottom-bar {
+            background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+            padding: 20px; display: flex; justify-content: center; gap: 15px; pointer-events: auto;
+        }
+        .hotbar-slot {
+            width: 70px; height: 70px;
+            background: rgba(20, 25, 30, 0.8);
+            border: 1px solid #444; border-radius: 6px;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            color: #888; font-size: 11px; cursor: pointer; position: relative;
+            transition: all 0.2s; backdrop-filter: blur(5px);
+        }
+        .hotbar-slot:hover { transform: translateY(-3px); border-color: #888; }
+        .hotbar-slot.active {
+            border-color: #00ccff; box-shadow: 0 0 20px rgba(0, 204, 255, 0.3);
+            background: rgba(0, 50, 80, 0.8); color: white; transform: translateY(-8px);
+        }
+        .hotbar-slot.disabled { opacity: 0.3; pointer-events: none; filter: grayscale(1); }
+        .hotbar-key { position: absolute; top: 4px; left: 6px; font-weight: bold; color: #555; }
+    </style>
+</head>
+<body>
+
+<div id="main-menu" class="screen-overlay">
+    <h1>NEON NOMAD</h1>
+    <div style="color: #888; margin-top: 10px; letter-spacing: 2px;">WARLORD UPDATE</div>
+    <button class="menu-btn" onclick="startGame()">DEPLOY CORE</button>
+</div>
+
+<div id="game-over-screen" class="screen-overlay">
+    <h1 class="danger-text">SYSTEM FAILURE</h1>
+    <div style="color: #fff; margin-top: 10px; font-size: 20px;">CORE DESTROYED</div>
+    <button class="menu-btn btn-restart" onclick="location.reload()">REBOOT SYSTEM</button>
+</div>
+
+<div id="ui-layer">
+    <div class="top-bar">
+        <div class="resource-group">
+            <span class="res-label">Mass</span>
+            <span class="res-val" id="res-mass" style="color: #ffcc00;">0</span>
+        </div>
+        <div class="resource-group">
+            <span class="res-label">Tech</span>
+            <span class="res-val" id="res-tech" style="color: #00ff00;">0</span>
+        </div>
+        
+        <div class="heat-wrapper">
+            <div id="heat-text">HEAT SIGNATURE: 0%</div>
+            <div class="heat-container">
+                <div id="heat-fill"></div>
+            </div>
+        </div>
+
+        <button class="btn-tech btn-toggle" id="btn-heat-view" onclick="game.toggleHeatView()">VISUALIZE HEAT [H]</button>
+        <button class="btn-tech" onclick="game.ui.toggleUpgrades()">RESEARCH [T]</button>
+    </div>
+
+    <div id="mode-indicator">SYSTEM STATUS: MOBILE // [SPACE] TO DEPLOY</div>
+
+    <div id="upgrade-modal">
+        <div class="modal-header"><h3>FABRICATOR UPGRADES</h3></div>
+        <div class="upgrade-item">
+            <div>
+                <div style="color:#ffff00; font-weight:bold; font-size: 18px;">Gatling Turret</div>
+                <div style="font-size:12px; color:#888; margin-top:5px;">Rapid fire kinetic weapon. Low damage, high rate.</div>
+                <div style="font-size:12px; color:#00ff00; margin-top:5px;">Cost: 50 Tech</div>
+            </div>
+            <button class="btn-tech" onclick="game.tech.unlock('gun')">UNLOCK</button>
+        </div>
+        <div class="upgrade-item">
+            <div>
+                <div style="color:#ff5500; font-weight:bold; font-size: 18px;">Missile Launcher</div>
+                <div style="font-size:12px; color:#888; margin-top:5px;">Long range explosive ordnance. Area damage.</div>
+                <div style="font-size:12px; color:#00ff00; margin-top:5px;">Cost: 150 Tech</div>
+            </div>
+            <button class="btn-tech" onclick="game.tech.unlock('missile')">UNLOCK</button>
+        </div>
+        <div style="padding:15px; text-align:center;">
+            <button class="btn-tech" style="width:100%" onclick="game.ui.toggleUpgrades()">CLOSE</button>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <div class="hotbar-slot active" id="slot-wall" onclick="game.input.setSelection('wall')">
+            <span class="hotbar-key">1</span> WALL
+        </div>
+        <div class="hotbar-slot disabled" id="slot-cannon" onclick="game.input.setSelection('cannon')">
+            <span class="hotbar-key">2</span> CANNON
+        </div>
+        <div class="hotbar-slot disabled" id="slot-gun" onclick="game.input.setSelection('gun')">
+            <span class="hotbar-key">3</span> GATLING
+        </div>
+        <div class="hotbar-slot disabled" id="slot-missile" onclick="game.input.setSelection('missile')">
+            <span class="hotbar-key">4</span> MISSILE
+        </div>
+        <div class="hotbar-slot" id="slot-extractor" onclick="game.input.setSelection('extractor')">
+            <span class="hotbar-key">5</span> DRILL
+        </div>
+    </div>
+</div>
+
+<div id="minimap-overlay">
+    <h2 style="color:white; margin-bottom: 10px;">TACTICAL MAP</h2>
+    <canvas id="minimap-canvas-large" width="800" height="600"></canvas>
+    <div style="color:#888; margin-top:10px;">PRESS [M] TO CLOSE</div>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<script>
+    /* --- ASSETS --- */
+    const SPRITES = { 
+        cannon: new Image(), gun: new Image(), missile: new Image(),
+        wall: new Image(), drill: new Image(), core: new Image()
+    };
+    SPRITES.cannon.src = 'tower_cannon.png';
+    SPRITES.gun.src = 'tower_gun.png';
+    SPRITES.missile.src = 'tower_missile.png';
+    // NEW IMAGES
+    SPRITES.wall.src = 'structure_wall.png';
+    SPRITES.drill.src = 'structure_drill.png';
+    SPRITES.core.src = 'structure_core.png';
+
+    // A failed image load still sets .complete = true; drawImage() on a broken
+    // image throws and kills the render loop. Only use sprites that decoded.
+    function spriteReady(img) { return img && img.complete && img.naturalWidth > 0; }
+
+    /* --- CONFIG --- */
+    const CONFIG = {
+        cellSize: 48,
+        worldSize: 6000, 
+        gridColor: '#1e1e24',
+        colors: {
+            core: '#a300cc', coreMobile: '#ffffff',
+            wall: '#333344', wallGlow: '#00ccff',
+            extractor: '#4444ff', // Changed fallback color to Blue so it shows on Yellow Ore
+            enemy: '#ff3333', hive: '#880000',
+            oreMass: '#ffcc00', oreTech: '#00ff00',
+        },
+        stats: {
+            cannon:  { range: 300, damage: 25, fireRate: 40,  speed: 12, color: '#00ccff' },
+            gun:     { range: 200, damage: 8,  fireRate: 5,   speed: 18, color: '#ffff00' },
+            missile: { range: 500, damage: 80, fireRate: 100, speed: 6,  color: '#ff5500' }
+        },
+        costs: {
+            wall:      { mass: 10, tech: 0 },
+            extractor: { mass: 50, tech: 0 },
+            cannon:    { mass: 100, tech: 0 },
+            gun:       { mass: 200, tech: 0 },
+            missile:   { mass: 400, tech: 0 }
+        }
+    };
+
+    function startGame() {
+        if (window.game) return; // prevent a second Game (and second loop/listeners) if re-triggered
+        document.getElementById('main-menu').style.display = 'none';
+        document.getElementById('ui-layer').style.display = 'flex';
+        if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+        window.game = new Game();
+    }
+
+    /* --- SYSTEMS --- */
+    class TechTree {
+        constructor(game) {
+            this.game = game;
+            this.unlocked = { wall: true, extractor: true, cannon: true, gun: false, missile: false };
+            this.costs = { gun: 50, missile: 150 };
+            this.updateHotbar();
+        }
+        unlock(type) {
+            if (this.unlocked[type]) return;
+            if (this.game.resources.tech >= this.costs[type]) {
+                this.game.resources.tech -= this.costs[type];
+                this.unlocked[type] = true;
+                this.updateHotbar();
+                this.game.resources.updateUI();
+            }
+        }
+        updateHotbar() {
+            for (const [key, val] of Object.entries(this.unlocked)) {
+                const slot = document.getElementById(`slot-${key}`);
+                if (slot) {
+                    if (val) slot.classList.remove('disabled');
+                    else slot.classList.add('disabled');
+                }
+            }
+        }
+    }
+
+    class ResourceManager {
+        constructor() {
+            this.mass = 300; this.tech = 0;
+            this.elMass = document.getElementById('res-mass');
+            this.elTech = document.getElementById('res-tech');
+        }
+        addMass(amount) { this.mass += amount; this.updateUI(); }
+        addTech(amount) { this.tech += amount; this.updateUI(); }
+        spend(type) {
+            const cost = CONFIG.costs[type];
+            if (!cost) return true;
+            if (this.mass >= cost.mass && this.tech >= cost.tech) {
+                this.mass -= cost.mass; this.tech -= cost.tech;
+                this.updateUI(); return true;
+            }
+            return false;
+        }
+        updateUI() {
+            this.elMass.innerText = Math.floor(this.mass);
+            this.elTech.innerText = Math.floor(this.tech);
+        }
+    }
+
+    class HeatSystem {
+        constructor() {
+            this.current = 0; this.max = 100;
+            this.fill = document.getElementById('heat-fill');
+            this.text = document.getElementById('heat-text');
+        }
+        update(deployed, activeDrills) {
+            // Updated Logic: Passive deploy heat removed. Only drills generate heat.
+            if (deployed) {
+                this.current += (activeDrills * 0.015); // Drills generate less heat
+            } else {
+                this.current -= 0.5; // Cooling
+            }
+            this.current = Math.max(0, Math.min(this.current, 100));
+            
+            // UI
+            this.fill.style.width = `${this.current}%`;
+            if (this.current >= 100) {
+                this.text.innerText = `WARNING: HEAT OVERLOAD`;
+                this.fill.style.background = '#ff0000';
+                this.text.style.color = 'red';
+            } else {
+                this.text.innerText = `HEAT SIGNATURE: ${Math.floor(this.current)}%`;
+                this.text.style.color = '#aaa';
+                if(this.current < 50) this.fill.style.background = '#00ccff';
+                else if(this.current < 80) this.fill.style.background = '#ffcc00';
+                else this.fill.style.background = '#ff0000';
+            }
+            return this.current;
+        }
+    }
+
+    class InputHandler {
+        constructor(canvas, game) {
+            this.game = game;
+            this.mouse = { x: 0, y: 0 };
+            this.gridPos = { col: 0, row: 0 };
+            this.selectedType = 'wall';
+            this.keys = {};
+
+            canvas.addEventListener('mousemove', (e) => {
+                const rect = canvas.getBoundingClientRect();
+                const worldX = (e.clientX - rect.left) + this.game.camera.x;
+                const worldY = (e.clientY - rect.top) + this.game.camera.y;
+                this.mouse.x = worldX; this.mouse.y = worldY;
+                this.gridPos.col = Math.floor(worldX / CONFIG.cellSize);
+                this.gridPos.row = Math.floor(worldY / CONFIG.cellSize);
+            });
+
+            window.addEventListener('keydown', (e) => {
+                this.keys[e.key.toLowerCase()] = true;
+                if (e.key === ' ') { e.preventDefault(); this.game.toggleDeploy(); } // preventDefault: stop Space re-clicking a focused button
+                if (e.key === '1') this.setSelection('wall');
+                if (e.key === '2') this.setSelection('cannon');
+                if (e.key === '3') this.setSelection('gun');
+                if (e.key === '4') this.setSelection('missile');
+                if (e.key === '5') this.setSelection('extractor');
+                if (e.key === 'm' || e.key === 'M') this.game.toggleMap();
+                if (e.key === 'h' || e.key === 'H') this.game.toggleHeatView();
+                if (e.key === 't' || e.key === 'T') this.game.ui.toggleUpgrades();
+            });
+            window.addEventListener('keyup', (e) => this.keys[e.key.toLowerCase()] = false);
+        }
+
+        setSelection(type) {
+            if (!this.game.tech.unlocked[type]) return;
+            this.selectedType = type;
+            document.querySelectorAll('.hotbar-slot').forEach(el => el.classList.remove('active'));
+            const slot = document.getElementById(`slot-${type}`);
+            if(slot) slot.classList.add('active');
+        }
+    }
+
+    /* --- ENTITIES --- */
+    class Entity {
+        constructor(col, row, type) {
+            this.col = col; this.row = row; this.type = type;
+            this.x = col * CONFIG.cellSize; this.y = row * CONFIG.cellSize;
+            this.hp = 100; this.maxHp = 100;
+        }
+    }
+    
+    class Turret extends Entity {
+        constructor(col, row, variant) {
+            super(col, row, variant);
+            const stats = CONFIG.stats[variant];
+            this.range = stats.range; this.damage = stats.damage;
+            this.fireRate = stats.fireRate; this.projSpeed = stats.speed; this.projColor = stats.color;
+            this.cooldown = 0; this.angle = 0;
+            this.hasTarget = false;
+        }
+        update(enemies) {
+            if (this.cooldown > 0) this.cooldown--;
+            let nearest = null; let minDist = Infinity;
+            const cx = this.x + CONFIG.cellSize/2; const cy = this.y + CONFIG.cellSize/2;
+            
+            // Target Logic
+            for (const enemy of enemies) {
+                const dx = enemy.x - cx; const dy = enemy.y - cy;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                if (dist < this.range && dist < minDist) { minDist = dist; nearest = enemy; }
+            }
+            
+            if (nearest) {
+                this.hasTarget = true;
+                // Only rotate if we have a target
+                this.angle = Math.atan2(nearest.y - cy, nearest.x - cx);
+                if (this.cooldown <= 0) {
+                    this.cooldown = this.fireRate;
+                    return { type: this.type, x: cx, y: cy, target: nearest, damage: this.damage, color: this.projColor, speed: this.projSpeed, angle: this.angle };
+                }
+            } else {
+                this.hasTarget = false;
+            }
+            return null;
+        }
+        draw(ctx) {
+            const cx = this.x + CONFIG.cellSize/2; const cy = this.y + CONFIG.cellSize/2;
+            const size = CONFIG.cellSize;
+            ctx.save(); ctx.translate(cx, cy);
+            if (spriteReady(SPRITES[this.type])) {
+                ctx.rotate(this.angle); 
+                ctx.translate(0, 0); 
+                ctx.shadowBlur = 10; ctx.shadowColor = this.projColor;
+                ctx.drawImage(SPRITES[this.type], -size/2, -size/2, size, size);
+            } else {
+                ctx.rotate(this.angle);
+                ctx.fillStyle = this.projColor; ctx.fillRect(-10, -10, 20, 20);
+                ctx.fillStyle = 'white'; ctx.fillRect(10, -2, 10, 4); 
+            }
+            ctx.restore();
+            // Health
+            if(this.hp < this.maxHp) {
+                ctx.fillStyle = 'red'; ctx.fillRect(this.x, this.y - 8, CONFIG.cellSize, 4);
+                ctx.fillStyle = '#0f0'; ctx.fillRect(this.x, this.y - 8, CONFIG.cellSize * (this.hp/this.maxHp), 4);
+            }
+        }
+    }
+
+    class Enemy {
+        constructor(x, y) {
+            this.x = x; this.y = y; this.speed = 1.0 + Math.random();
+            this.hp = 50; this.maxHp = 50; this.attackCooldown = 0;
+            this.markedForDeletion = false;
+            this.radius = 15; // Detection radius for collision
+        }
+        update(targetX, targetY, gridMap) {
+            const dx = targetX - this.x; const dy = targetY - this.y;
+            const dist = Math.sqrt(dx*dx + dy*dy);
+            if (dist > 20) {
+                const nextX = this.x + (dx / dist) * this.speed;
+                const nextY = this.y + (dy / dist) * this.speed;
+                
+                // Detection Check
+                const c = Math.floor(nextX / CONFIG.cellSize);
+                const r = Math.floor(nextY / CONFIG.cellSize);
+                const key = `${c},${r}`;
+                const obstacle = gridMap.get(key);
+                
+                if (obstacle && (obstacle.type === 'wall' || obstacle.type === 'core' ||
+                    obstacle.type === 'cannon' || obstacle.type === 'gun' || obstacle.type === 'missile')) { // 'turret' type never existed; turrets are typed by variant
+                    if (this.attackCooldown <= 0) {
+                        obstacle.hp -= 5; this.attackCooldown = 30;
+                        if (obstacle.hp <= 0) { gridMap.delete(key); obstacle.dead = true; }
+                    } else this.attackCooldown--;
+                } else { this.x = nextX; this.y = nextY; }
+            }
+        }
+        draw(ctx) {
+            ctx.save(); ctx.translate(this.x, this.y);
+            ctx.fillStyle = CONFIG.colors.enemy; ctx.shadowBlur = 10; ctx.shadowColor = 'red';
+            ctx.beginPath(); ctx.moveTo(8, 0); ctx.lineTo(-6, 6); ctx.lineTo(-6, -6); ctx.fill();
+            ctx.restore();
+            // HP
+            ctx.fillStyle = 'red'; ctx.fillRect(this.x - 10, this.y - 15, 20, 3);
+            ctx.fillStyle = '#0f0'; ctx.fillRect(this.x - 10, this.y - 15, 20 * (this.hp/this.maxHp), 3);
+        }
+    }
+
+    class Projectile {
+        constructor(data) { Object.assign(this, data); this.life = 100; }
+        update() {
+            this.life--;
+            if (this.type === 'missile' && this.target && !this.target.markedForDeletion) {
+                const dx = this.target.x - this.x; const dy = this.target.y - this.y;
+                this.angle = Math.atan2(dy, dx);
+            }
+            this.x += Math.cos(this.angle) * this.speed;
+            this.y += Math.sin(this.angle) * this.speed;
+            if (this.target && !this.target.markedForDeletion) {
+                const dist = Math.hypot(this.x - this.target.x, this.y - this.target.y);
+                if (dist < 20) {
+                    this.target.hp -= this.damage;
+                    if (this.target.hp <= 0) this.target.markedForDeletion = true;
+                    return true;
+                }
+            }
+            return this.life <= 0;
+        }
+        draw(ctx) {
+            ctx.save(); ctx.translate(this.x, this.y); ctx.rotate(this.angle);
+            ctx.fillStyle = this.color; ctx.shadowBlur = 10; ctx.shadowColor = this.color;
+            if (this.type === 'missile') { ctx.beginPath(); ctx.moveTo(10, 0); ctx.lineTo(-5, 5); ctx.lineTo(-5, -5); ctx.fill(); }
+            else { ctx.beginPath(); ctx.arc(0, 0, 3, 0, Math.PI*2); ctx.fill(); }
+            ctx.restore();
+        }
+    }
+
+    /* --- GAME ENGINE --- */
+    class Game {
+        constructor() {
+            this.canvas = document.getElementById('gameCanvas');
+            this.ctx = this.canvas.getContext('2d');
+            this.minimapCanvas = document.getElementById('minimap-canvas-large');
+            this.minimapCtx = this.minimapCanvas.getContext('2d');
+            this.resize();
+            
+            this.deployed = false; 
+            this.corePos = { x: 0, y: 0 }; 
+            this.camera = { x: -window.innerWidth/2, y: -window.innerHeight/2 };
+            this.mapMode = false;
+            this.heatView = false;
+            this.gameOver = false;
+
+            this.resources = new ResourceManager();
+            this.tech = new TechTree(this);
+            this.heat = new HeatSystem();
+            this.input = new InputHandler(this.canvas, this);
+            
+            this.ui = { toggleUpgrades: () => {
+                const el = document.getElementById('upgrade-modal');
+                el.style.display = el.style.display === 'none' ? 'block' : 'none';
+            }};
+
+            this.buildings = [];
+            this.enemies = [];
+            this.hives = [];
+            this.projectiles = [];
+            this.ores = [];
+            this.gridMap = new Map();
+
+            this.generateWorld();
+            this.updateModeUI();
+
+            // Build placement (was re-assigned every frame inside update())
+            this.canvas.onmousedown = (e) => {
+                if (e.button === 0 && this.deployed) {
+                    const c = this.input.gridPos.col;
+                    const r = this.input.gridPos.row;
+                    const key = `${c},${r}`;
+                    const type = this.input.selectedType;
+                    if (!this.gridMap.has(key)) {
+                        if (this.resources.spend(type)) {
+                            let ent;
+                            if (['cannon', 'gun', 'missile'].includes(type)) ent = new Turret(c, r, type);
+                            else ent = new Entity(c, r, type);
+                            this.buildings.push(ent);
+                            this.gridMap.set(key, ent);
+                        }
+                    }
+                }
+            };
+
+            window.addEventListener('resize', () => this.resize());
+
+            this.lastTime = 0;
+            this.accumulator = 0;
+            this.loop = this.loop.bind(this);
+            requestAnimationFrame(this.loop);
+        }
+
+        resize() { this.canvas.width = window.innerWidth; this.canvas.height = window.innerHeight; }
+        
+        toggleMap() { 
+            this.mapMode = !this.mapMode; 
+            const overlay = document.getElementById('minimap-overlay');
+            overlay.style.display = this.mapMode ? 'flex' : 'none';
+        }
+        
+        toggleHeatView() {
+            this.heatView = !this.heatView;
+            const btn = document.getElementById('btn-heat-view');
+            if(this.heatView) btn.classList.add('active');
+            else btn.classList.remove('active');
+        }
+
+        generateWorld() {
+            // Generate Ores
+            for(let i=0; i<600; i++) { 
+                let rC = Math.floor((Math.random() * 800) - 400); 
+                let rR = Math.floor((Math.random() * 800) - 400);
+                let dist = Math.hypot(rC*CONFIG.cellSize, rR*CONFIG.cellSize);
+                let type = (dist > 8000) ? 'tech' : 'mass';
+                this.ores.push({c:rC, r:rR, type: type}, {c:rC+1, r:rR, type: type}, {c:rC, r:rR+1, type: type}, {c:rC+1, r:rR+1, type: type});
+            }
+            // Generate Hives
+            for(let i=0; i<150; i++) {
+                let rC = Math.floor((Math.random() * 600) - 300);
+                let rR = Math.floor((Math.random() * 600) - 300);
+                if (Math.hypot(rC, rR) < 30) continue; 
+                this.hives.push({x: rC*CONFIG.cellSize, y: rR*CONFIG.cellSize, hp:500, spawnTimer:0});
+            }
+        }
+
+        toggleDeploy() {
+            if (this.deployed) {
+                // UNDEPLOY
+                this.deployed = false;
+                this.updateModeUI();
+                this.buildings.forEach(b => {
+                    if (b.type !== 'core') {
+                        if (CONFIG.costs[b.type]) this.resources.addMass(CONFIG.costs[b.type].mass * 0.5);
+                    }
+                });
+                this.buildings = []; 
+                this.gridMap.clear();
+            } else {
+                // DEPLOY
+                const c = Math.floor(this.corePos.x / CONFIG.cellSize);
+                const r = Math.floor(this.corePos.y / CONFIG.cellSize);
+                this.deployed = true;
+                this.corePos.x = c * CONFIG.cellSize;
+                this.corePos.y = r * CONFIG.cellSize;
+                this.updateModeUI();
+                const core = new Entity(c, r, 'core');
+                this.buildings.push(core);
+                this.gridMap.set(`${c},${r}`, core);
+            }
+        }
+
+        updateModeUI() {
+            const ind = document.getElementById('mode-indicator');
+            if(this.deployed) {
+                ind.innerText = "SYSTEM STATUS: DEPLOYED // CAM FREE // [SPACE] TO MOBILE";
+                ind.style.color = "#00ff00";
+            } else {
+                ind.innerText = "SYSTEM STATUS: MOBILE // [SPACE] TO DEPLOY";
+                ind.style.color = "#ffffff";
+            }
+        }
+
+        loop(timestamp) {
+            if(this.gameOver) return;
+            // Fixed 60Hz timestep: logic is frame-based, so run it at a constant
+            // rate regardless of display refresh (same speed as before at 60fps).
+            if(!this.lastTime) this.lastTime = timestamp;
+            let frameTime = timestamp - this.lastTime;
+            this.lastTime = timestamp;
+            if(frameTime > 250) frameTime = 250; // tab-switch clamp
+            this.accumulator += frameTime;
+            const step = 1000 / 60;
+            while(this.accumulator >= step) {
+                if(!this.mapMode) this.update();
+                this.accumulator -= step;
+            }
+            this.render();
+            requestAnimationFrame(this.loop);
+        }
+
+        update() {
+            const speed = this.deployed ? 15 : 8;
+            let mx = 0, my = 0;
+            if (this.input.keys['w'] || this.input.keys['arrowup']) my -= speed;
+            if (this.input.keys['s'] || this.input.keys['arrowdown']) my += speed;
+            if (this.input.keys['a'] || this.input.keys['arrowleft']) mx -= speed;
+            if (this.input.keys['d'] || this.input.keys['arrowright']) mx += speed;
+
+            // Movement & Border Logic
+            if (!this.deployed) {
+                let nextX = this.corePos.x + mx;
+                let nextY = this.corePos.y + my;
+                // Clamp World Border
+                const limit = CONFIG.worldSize * CONFIG.cellSize / 2;
+                if(nextX > -limit && nextX < limit) this.corePos.x = nextX;
+                if(nextY > -limit && nextY < limit) this.corePos.y = nextY;
+                
+                this.camera.x = this.corePos.x - this.canvas.width/2;
+                this.camera.y = this.corePos.y - this.canvas.height/2;
+            } else {
+                this.camera.x += mx;
+                this.camera.y += my;
+            }
+
+            // Heat & Spawning
+            let activeDrills = 0;
+            this.buildings.forEach(b => { if(b.type === 'extractor') activeDrills++; });
+            const heatLevel = this.heat.update(this.deployed, activeDrills);
+            
+            const spawnRate = (heatLevel >= 100) ? 5 : (1 + (heatLevel/20)); // Massive spawn at 100%
+
+            this.hives.forEach(h => {
+                const dist = Math.hypot(h.x - this.corePos.x, h.y - this.corePos.y);
+                if (dist < 2500) { 
+                    h.spawnTimer += spawnRate; 
+                    if (h.spawnTimer > 600) {
+                        h.spawnTimer = 0;
+                        this.enemies.push(new Enemy(h.x, h.y));
+                    }
+                }
+            });
+
+            // Updates
+            this.buildings = this.buildings.filter(b => !b.dead);
+            this.enemies.forEach(e => e.update(this.corePos.x, this.corePos.y, this.gridMap));
+            
+            this.buildings.forEach(b => {
+                // Game Over Logic
+                if(b.type === 'core' && b.hp <= 0) {
+                    this.gameOver = true;
+                    document.getElementById('game-over-screen').style.display = 'flex';
+                }
+
+                if (['cannon', 'gun', 'missile'].includes(b.type)) {
+                    const shot = b.update(this.enemies);
+                    if (shot) this.projectiles.push(new Projectile(shot));
+                }
+                if (b.type === 'extractor') {
+                    if (b.ore === undefined) b.ore = this.ores.find(o => o.c === b.col && o.r === b.row) || null; // ores are static: cache lookup
+                    const ore = b.ore;
+                    if (ore) {
+                        if (Math.random() < 0.05) {
+                            if (ore.type === 'mass') this.resources.addMass(1);
+                            else this.resources.addTech(1);
+                        }
+                    }
+                }
+            });
+
+            for (let i = this.projectiles.length - 1; i >= 0; i--) {
+                if (this.projectiles[i].update()) this.projectiles.splice(i, 1);
+            }
+
+            this.enemies = this.enemies.filter(e => !e.markedForDeletion);
+        }
+
+        render() {
+            this.ctx.fillStyle = '#050508';
+            this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+            this.ctx.save();
+            this.ctx.translate(-this.camera.x, -this.camera.y);
+
+            // World Border
+            const limit = CONFIG.worldSize * CONFIG.cellSize / 2;
+            this.ctx.strokeStyle = '#ff0000';
+            this.ctx.lineWidth = 10;
+            this.ctx.shadowBlur = 20; this.ctx.shadowColor = 'red';
+            this.ctx.strokeRect(-limit, -limit, limit*2, limit*2);
+            this.ctx.shadowBlur = 0;
+
+            // Grid
+            const startX = Math.floor(this.camera.x / CONFIG.cellSize) * CONFIG.cellSize;
+            const startY = Math.floor(this.camera.y / CONFIG.cellSize) * CONFIG.cellSize;
+            const endX = startX + this.canvas.width + CONFIG.cellSize;
+            const endY = startY + this.canvas.height + CONFIG.cellSize;
+
+            this.ctx.strokeStyle = '#1a1a20'; this.ctx.lineWidth = 2; this.ctx.beginPath();
+            for (let x = startX; x <= endX; x += CONFIG.cellSize) { this.ctx.moveTo(x, startY); this.ctx.lineTo(x, endY); }
+            for (let y = startY; y <= endY; y += CONFIG.cellSize) { this.ctx.moveTo(startX, y); this.ctx.lineTo(endX, y); }
+            this.ctx.stroke();
+
+            // Ores
+            this.ores.forEach(o => {
+                const ox = o.c * CONFIG.cellSize; const oy = o.r * CONFIG.cellSize;
+                if(ox > this.camera.x - 100 && ox < this.camera.x + this.canvas.width + 100 &&
+                   oy > this.camera.y - 100 && oy < this.camera.y + this.canvas.height + 100) {
+                    this.ctx.fillStyle = (o.type === 'mass') ? CONFIG.colors.oreMass : CONFIG.colors.oreTech;
+                    this.ctx.fillRect(ox, oy, CONFIG.cellSize, CONFIG.cellSize);
+                    this.ctx.globalAlpha = 0.2; this.ctx.strokeStyle = this.ctx.fillStyle;
+                    this.ctx.strokeRect(ox,oy,CONFIG.cellSize,CONFIG.cellSize); this.ctx.globalAlpha = 1;
+                }
+            });
+
+            // Hives
+            this.hives.forEach(h => {
+                 if(h.x > this.camera.x - 100 && h.x < this.camera.x + this.canvas.width + 100 &&
+                   h.y > this.camera.y - 100 && h.y < this.camera.y + this.canvas.height + 100) {
+                    this.ctx.fillStyle = CONFIG.colors.hive;
+                    this.ctx.shadowBlur = 30; this.ctx.shadowColor = 'red';
+                    this.ctx.fillRect(h.x, h.y, CONFIG.cellSize*2, CONFIG.cellSize*2);
+                    this.ctx.shadowBlur = 0;
+                   }
+            });
+
+            // Buildings
+            this.buildings.forEach(b => {
+                if (b.draw) b.draw(this.ctx);
+                else this.drawBasicBuilding(b);
+            });
+
+            // Mobile Core
+            if (!this.deployed) {
+                if(spriteReady(SPRITES.core)) {
+                    this.ctx.drawImage(SPRITES.core, this.corePos.x, this.corePos.y, 48, 48);
+                } else {
+                    this.ctx.fillStyle = 'white';
+                    this.ctx.shadowBlur = 20; this.ctx.shadowColor = 'cyan';
+                    this.ctx.fillRect(this.corePos.x + 8, this.corePos.y + 8, 32, 32);
+                    this.ctx.shadowBlur = 0;
+                }
+            }
+
+            // Enemies & Projectiles
+            this.enemies.forEach(e => e.draw(this.ctx));
+            this.projectiles.forEach(p => p.draw(this.ctx));
+
+            // Heat View Radius
+            if(this.heatView) {
+                this.ctx.beginPath();
+                this.ctx.arc(this.corePos.x + 24, this.corePos.y + 24, 800, 0, Math.PI*2); // Arbitrary radius visualization
+                this.ctx.strokeStyle = 'rgba(255, 50, 0, 0.3)';
+                this.ctx.lineWidth = 5;
+                this.ctx.setLineDash([20, 10]);
+                this.ctx.stroke();
+                this.ctx.setLineDash([]);
+            }
+
+            // Ghost & Range Ring
+            if (this.deployed) {
+                const gx = this.input.gridPos.col * CONFIG.cellSize;
+                const gy = this.input.gridPos.row * CONFIG.cellSize;
+                
+                this.ctx.strokeStyle = 'rgba(255,255,255,0.8)';
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeRect(gx, gy, CONFIG.cellSize, CONFIG.cellSize);
+
+                const type = this.input.selectedType;
+                if(CONFIG.stats[type]) {
+                    this.ctx.beginPath();
+                    this.ctx.arc(gx + CONFIG.cellSize/2, gy + CONFIG.cellSize/2, CONFIG.stats[type].range, 0, Math.PI*2);
+                    this.ctx.fillStyle = 'rgba(0, 255, 255, 0.05)';
+                    this.ctx.strokeStyle = 'rgba(0, 255, 255, 0.3)';
+                    this.ctx.fill(); this.ctx.stroke();
+                }
+            }
+
+            this.ctx.restore();
+            if(this.mapMode) this.renderMinimapLarge();
+        }
+
+        drawBasicBuilding(b) {
+            const cx = b.x + 2; const cy = b.y + 2; const size = CONFIG.cellSize - 4;
+            
+            // Image Support logic
+            let img = null;
+            if (b.type === 'core') img = SPRITES.core;
+            if (b.type === 'wall') img = SPRITES.wall;
+            if (b.type === 'extractor') img = SPRITES.drill;
+
+            if (spriteReady(img)) {
+                this.ctx.drawImage(img, b.x, b.y, CONFIG.cellSize, CONFIG.cellSize);
+            } else {
+                // Fallback Drawing
+                if (b.type === 'core') {
+                    this.ctx.fillStyle = CONFIG.colors.core;
+                    this.ctx.fillRect(cx, cy, size, size);
+                } else if (b.type === 'wall') {
+                    this.ctx.strokeStyle = CONFIG.colors.wallGlow;
+                    this.ctx.strokeRect(cx, cy, size, size);
+                } else if (b.type === 'extractor') {
+                    this.ctx.fillStyle = CONFIG.colors.extractor; // Now Blue
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(b.x + CONFIG.cellSize/2, b.y);
+                    this.ctx.lineTo(b.x + CONFIG.cellSize, b.y + CONFIG.cellSize);
+                    this.ctx.lineTo(b.x, b.y + CONFIG.cellSize);
+                    this.ctx.fill();
+                }
+            }
+
+            // Health bar
+            if(b.hp < b.maxHp) {
+                this.ctx.fillStyle = 'red'; this.ctx.fillRect(b.x, b.y-5, CONFIG.cellSize, 3);
+                this.ctx.fillStyle = '#0f0'; this.ctx.fillRect(b.x, b.y-5, CONFIG.cellSize * (b.hp/b.maxHp), 3);
+            }
+        }
+
+        renderMinimapLarge() {
+            const m = this.minimapCtx; 
+            const w = this.minimapCanvas.width;
+            m.fillStyle = '#000'; m.fillRect(0,0,w,w);
+            
+            // Doubled Map Scale for zoomed out view
+            const scale = w / (CONFIG.worldSize * CONFIG.cellSize * 1.5); 
+            const center = w/2;
+
+            this.ores.forEach(o => {
+                m.fillStyle = (o.type==='mass') ? '#aa8800' : '#00aa00';
+                m.fillRect(center + (o.c*CONFIG.cellSize*scale), center + (o.r*CONFIG.cellSize*scale), 2, 2);
+            });
+            this.hives.forEach(h => {
+                m.fillStyle = 'red'; m.fillRect(center + (h.x*scale), center + (h.y*scale), 3, 3);
+            });
+            
+            // Player
+            m.fillStyle = 'white'; 
+            m.fillRect(center + (this.corePos.x*scale)-3, center + (this.corePos.y*scale)-3, 6, 6);
+            
+            // Camera View Box
+            m.strokeStyle = '#555';
+            m.strokeRect(
+                center + (this.camera.x*scale), 
+                center + (this.camera.y*scale), 
+                this.canvas.width*scale, 
+                this.canvas.height*scale
+            );
+        }
+    }
+</script>
+</body>
+</html>

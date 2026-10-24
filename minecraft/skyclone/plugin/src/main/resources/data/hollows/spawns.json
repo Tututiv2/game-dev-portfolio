@@ -1,0 +1,258 @@
+[
+ {
+  "id": "ch_jungle_sludge",
+  "island": "crystal_hollows",
+  "mob": "ch_sludge",
+  "max": 8,
+  "respawnSeconds": 10,
+  "area": "mobs.jungle"
+ },
+ {
+  "id": "ch_jungle_sludge_10",
+  "island": "crystal_hollows",
+  "mob": "ch_sludge_10",
+  "max": 4,
+  "respawnSeconds": 15,
+  "area": "mobs.jungle"
+ },
+ {
+  "id": "ch_jungle_sludge_100",
+  "island": "crystal_hollows",
+  "mob": "ch_sludge_100",
+  "max": 2,
+  "respawnSeconds": 40,
+  "area": "mobs.jungle"
+ },
+ {
+  "id": "ch_jungle_thyst",
+  "island": "crystal_hollows",
+  "mob": "ch_thyst",
+  "max": 2,
+  "respawnSeconds": 30,
+  "area": "mobs.jungle"
+ },
+ {
+  "id": "ch_temple_key_guardian",
+  "island": "crystal_hollows",
+  "mob": "ch_key_guardian",
+  "max": 1,
+  "respawnSeconds": 240,
+  "area": "mobs.temple_court"
+ },
+ {
+  "id": "ch_city_automaton",
+  "island": "crystal_hollows",
+  "mob": "ch_automaton",
+  "max": 10,
+  "respawnSeconds": 10,
+  "area": "mobs.relic_city"
+ },
+ {
+  "id": "ch_city_automaton_elite",
+  "island": "crystal_hollows",
+  "mob": "ch_automaton_elite",
+  "max": 2,
+  "respawnSeconds": 60,
+  "area": "mobs.relic_city"
+ },
+ {
+  "id": "ch_goblin_basic",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin",
+  "max": 6,
+  "respawnSeconds": 8,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_knife",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_knifethrower",
+  "max": 3,
+  "respawnSeconds": 12,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_fire",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_firethrower",
+  "max": 3,
+  "respawnSeconds": 12,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_flame",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_flamethrower",
+  "max": 2,
+  "respawnSeconds": 30,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_bomb",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_bomber",
+  "max": 2,
+  "respawnSeconds": 30,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_cutthroat",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_cutthroat",
+  "max": 1,
+  "respawnSeconds": 60,
+  "area": "mobs.goblin_holdout"
+ },
+ {
+  "id": "ch_goblin_guard",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_knifethrower",
+  "max": 2,
+  "respawnSeconds": 20,
+  "area": "mobs.goblin_guard"
+ },
+ {
+  "id": "ch_queen_brood",
+  "island": "crystal_hollows",
+  "mob": "ch_goblin_brood_guard",
+  "max": 4,
+  "respawnSeconds": 20,
+  "area": "mobs.goblin_queen_den"
+ },
+ {
+  "id": "ch_gang_grunt",
+  "island": "crystal_hollows",
+  "mob": "ch_treasurite_grunt",
+  "max": 4,
+  "respawnSeconds": 15,
+  "area": "mobs.gang"
+ },
+ {
+  "id": "ch_gang_sebastian",
+  "island": "crystal_hollows",
+  "mob": "ch_treasurite_sebastian",
+  "max": 1,
+  "respawnSeconds": 45,
+  "area": "mobs.gang"
+ },
+ {
+  "id": "ch_gang_viper",
+  "island": "crystal_hollows",
+  "mob": "ch_treasurite_viper",
+  "max": 1,
+  "respawnSeconds": 45,
+  "area": "mobs.gang"
+ },
+ {
+  "id": "ch_gang_wendy",
+  "island": "crystal_hollows",
+  "mob": "ch_treasurite_wendy",
+  "max": 1,
+  "respawnSeconds": 45,
+  "area": "mobs.gang"
+ },
+ {
+  "id": "ch_magma_yog_hall",
+  "island": "crystal_hollows",
+  "mob": "ch_yog",
+  "max": 4,
+  "respawnSeconds": 20,
+  "area": "mobs.magma.emberdeep"
+ },
+ {
+  "id": "ch_magma_yog_east",
+  "island": "crystal_hollows",
+  "mob": "ch_yog",
+  "max": 6,
+  "respawnSeconds": 20,
+  "area": "mobs.magma.east"
+ },
+ {
+  "id": "ch_magma_yog_west",
+  "island": "crystal_hollows",
+  "mob": "ch_yog",
+  "max": 6,
+  "respawnSeconds": 20,
+  "area": "mobs.magma.west"
+ },
+ {
+  "id": "ch_grotto_1",
+  "island": "crystal_hollows",
+  "mob": "ch_butterfly",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.grotto.1"
+ },
+ {
+  "id": "ch_grotto_2",
+  "island": "crystal_hollows",
+  "mob": "ch_butterfly",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.grotto.2"
+ },
+ {
+  "id": "ch_grotto_3",
+  "island": "crystal_hollows",
+  "mob": "ch_butterfly",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.grotto.3"
+ },
+ {
+  "id": "gt_walkers_west",
+  "island": "glacite_tunnels",
+  "mob": "gt_glacite_walker",
+  "max": 6,
+  "respawnSeconds": 12,
+  "area": "mobs.tunnels.west"
+ },
+ {
+  "id": "gt_walkers_east",
+  "island": "glacite_tunnels",
+  "mob": "gt_glacite_walker",
+  "max": 6,
+  "respawnSeconds": 12,
+  "area": "mobs.tunnels.east"
+ },
+ {
+  "id": "gt_walkers_mid",
+  "island": "glacite_tunnels",
+  "mob": "gt_glacite_walker",
+  "max": 4,
+  "respawnSeconds": 12,
+  "area": "mobs.tunnels.mid"
+ },
+ {
+  "id": "gt_walkers_lake",
+  "island": "glacite_tunnels",
+  "mob": "gt_glacite_walker",
+  "max": 4,
+  "respawnSeconds": 15,
+  "area": "mobs.lake"
+ },
+ {
+  "id": "gt_walkers_depths",
+  "island": "glacite_tunnels",
+  "mob": "gt_glacite_walker",
+  "max": 5,
+  "respawnSeconds": 15,
+  "area": "mobs.depths"
+ },
+ {
+  "id": "ch_temple_tribe",
+  "island": "crystal_hollows",
+  "mob": "ch_kalhuiki_tribesman",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.temple_court"
+ },
+ {
+  "id": "ch_jungle_tribe",
+  "island": "crystal_hollows",
+  "mob": "ch_kalhuiki_tribesman",
+  "max": 3,
+  "respawnSeconds": 30,
+  "area": "mobs.jungle"
+ }
+]

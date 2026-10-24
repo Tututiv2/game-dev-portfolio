@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "auraqol",
+  "version": "${version}",
+  "name": "AuraQoL",
+  "description": "Quality-of-life HUD and tweaks, plus Hypixel SkyBlock helpers: blocks/s, price tooltips, a money tracker and a to-do list; and live Shadow Prison panels fed by that server's own data channel. Client-side; the only network use is reading public price data (Hypixel API, hysky.de) while on Hypixel, and the shadowprison:live channel on a Shadow Prison server that offers it.",
+  "authors": ["Tutut"],
+  "license": "All rights reserved",
+  "environment": "client",
+  "entrypoints": { "client": ["com.auraqol.AuraQoL"] },
+  "mixins": [ { "config": "auraqol.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

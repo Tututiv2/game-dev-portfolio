@@ -1,0 +1,17 @@
+name: SmhMines
+version: '${project.version}'
+main: com.smhmines.SmhMinesPlugin
+api-version: '26.1'
+description: SmhMines - void mining, material-chain progression, no economy.
+author: Tutut
+
+commands:
+  smhspawn:
+    description: Build / manage THE ANCHOR spawn plaza (admin)
+    usage: /smhspawn <build|sethub|wipe confirm>
+    permission: smhmines.admin
+
+permissions:
+  smhmines.admin:
+    description: SmhMines world-builder and admin commands
+    default: op

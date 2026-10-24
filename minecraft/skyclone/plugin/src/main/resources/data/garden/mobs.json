@@ -1,0 +1,1367 @@
+[
+ {
+  "id": "garden_pest_fly",
+  "name": "Fly",
+  "level": 1,
+  "entity": "BEE",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "BEADY_EYES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.03
+   },
+   {
+    "item": "VINYL_PRETTY_FLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_HAY_BALE",
+    "min": 3,
+    "max": 3,
+    "chance": 0.0075
+   },
+   {
+    "item": "CORNUCOPIA",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_fly",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai",
+   "baby"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "fly"
+  }
+ },
+ {
+  "id": "garden_pest_cricket",
+  "name": "Cricket",
+  "level": 1,
+  "entity": "SILVERFISH",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "CHIRPING_STEREO",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "VINYL_CRICKET_CHOIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_GOLDEN_CARROT",
+    "min": 10,
+    "max": 10,
+    "chance": 0.0075
+   },
+   {
+    "item": "CARROT_ZEST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_cricket",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "cricket"
+  }
+ },
+ {
+  "id": "garden_pest_locust",
+  "name": "Locust",
+  "level": 1,
+  "entity": "ENDERMITE",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "LOCUST_LARVA",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "VINYL_CICADA_SYMPHONY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_BAKED_POTATO",
+    "min": 10,
+    "max": 10,
+    "chance": 0.0075
+   },
+   {
+    "item": "DEEPFRIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_locust",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "locust"
+  }
+ },
+ {
+  "id": "garden_pest_rat",
+  "name": "Rat",
+  "level": 1,
+  "entity": "RABBIT",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "RAT;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   },
+   {
+    "item": "VINYL_RODENT_REVOLUTION",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "POLISHED_PUMPKIN",
+    "min": 3,
+    "max": 3,
+    "chance": 0.0075
+   },
+   {
+    "item": "AGGOURDIAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_rat",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai",
+   "baby"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "rat"
+  }
+ },
+ {
+  "id": "garden_pest_mosquito",
+  "name": "Mosquito",
+  "level": 1,
+  "entity": "BEE",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "CLIPPED_WINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "VINYL_BUZZIN_BEATS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_SUGAR_CANE",
+    "min": 6,
+    "max": 6,
+    "chance": 0.0075
+   },
+   {
+    "item": "CANE_KNOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_mosquito",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai",
+   "baby"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "mosquito"
+  }
+ },
+ {
+  "id": "garden_pest_earthworm",
+  "name": "Earthworm",
+  "level": 1,
+  "entity": "SILVERFISH",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "BOOKWORM_BOOK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "VINYL_EARTHWORM_ENSEMBLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_MELON_BLOCK",
+    "min": 15,
+    "max": 15,
+    "chance": 0.0075
+   },
+   {
+    "item": "MELON_JUICE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_earthworm",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "earthworm"
+  }
+ },
+ {
+  "id": "garden_pest_mite",
+  "name": "Mite",
+  "level": 1,
+  "entity": "ENDERMITE",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ATMOSPHERIC_FILTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "VINYL_DYNAMITES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_CACTUS",
+    "min": 6,
+    "max": 6,
+    "chance": 0.0075
+   },
+   {
+    "item": "CACTUS_FLOWER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_mite",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "mite"
+  }
+ },
+ {
+  "id": "garden_pest_moth",
+  "name": "Moth",
+  "level": 1,
+  "entity": "BAT",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "WRIGGLING_LARVA",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "VINYL_WINGS_OF_HARMONY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_COOKIE",
+    "min": 9,
+    "max": 9,
+    "chance": 0.0075
+   },
+   {
+    "item": "DESIGNER_COFFEE_BEANS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_moth",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "moth"
+  }
+ },
+ {
+  "id": "garden_pest_slug",
+  "name": "Slug",
+  "level": 1,
+  "entity": "SLIME",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "SLUG;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "SLUG;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "VINYL_SLOW_AND_GROOVY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "ENCHANTED_HUGE_MUSHROOM_1",
+    "min": 3,
+    "max": 3,
+    "chance": 0.00375
+   },
+   {
+    "item": "ENCHANTED_HUGE_MUSHROOM_2",
+    "min": 3,
+    "max": 3,
+    "chance": 0.00375
+   },
+   {
+    "item": "FEASTFUNGUS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_slug",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "slug",
+   "size": 1
+  }
+ },
+ {
+  "id": "garden_pest_beetle",
+  "name": "Beetle",
+  "level": 1,
+  "entity": "ENDERMITE",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ENCHANTMENT_PESTERMINATOR_1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.07
+   },
+   {
+    "item": "VINYL_BEETLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "MUTANT_NETHER_STALK",
+    "min": 9,
+    "max": 9,
+    "chance": 0.0075
+   },
+   {
+    "item": "BOTROOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_beetle",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "beetle"
+  }
+ },
+ {
+  "id": "garden_pest_dragonfly",
+  "name": "Dragonfly",
+  "level": 1,
+  "entity": "PARROT",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "VERMIN_VAPORIZER_GARDEN_CHIP",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "VINYL_IMAGINE_DRAGONFLIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "COMPACTED_SUNFLOWER",
+    "min": 6,
+    "max": 6,
+    "chance": 0.0075
+   },
+   {
+    "item": "SALTED_SUNFLOWER_SEEDS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_dragonfly",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "dragonfly"
+  }
+ },
+ {
+  "id": "garden_pest_firefly",
+  "name": "Firefly",
+  "level": 1,
+  "entity": "ALLAY",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "FIRE_IN_A_BOTTLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "VINYL_FIREFLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "COMPACTED_MOONFLOWER",
+    "min": 6,
+    "max": 6,
+    "chance": 0.0075
+   },
+   {
+    "item": "CRYSTALIZED_MOONLIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_firefly",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "firefly"
+  }
+ },
+ {
+  "id": "garden_pest_praying_mantis",
+  "name": "Praying Mantis",
+  "level": 1,
+  "entity": "FROG",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "MANTID_CLAW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "VINYL_PRAY_FOR_ME",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "COMPACTED_WILD_ROSE",
+    "min": 6,
+    "max": 6,
+    "chance": 0.0075
+   },
+   {
+    "item": "FLORAL_GELATIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_praying_mantis",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "praying_mantis"
+  }
+ },
+ {
+  "id": "garden_pest_lunar_moth",
+  "name": "Lunar Moth",
+  "level": 1,
+  "entity": "BAT",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ENCHANTMENT_ULTIMATE_SUNSET_1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.35
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_lunar_moth",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "lunar_moth"
+  }
+ },
+ {
+  "id": "garden_pest_field_mouse",
+  "name": "Field Mouse",
+  "level": 1,
+  "entity": "RABBIT",
+  "health": 600,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 10000,
+  "drops": [
+   {
+    "item": "SQUEAKY_TOY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "SQUEAKY_MOUSEMAT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "COMPOST",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   },
+   {
+    "item": "HONEY_JAR",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   },
+   {
+    "item": "DUNG",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   },
+   {
+    "item": "PLANT_MATTER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   },
+   {
+    "item": "CHEESE_FUEL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   },
+   {
+    "item": "JELLY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0,
+    "magicFind": false
+   }
+  ],
+  "family": "garden_pest_field_mouse",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent",
+   "no_ai",
+   "baby"
+  ],
+  "behaviours": [
+   "garden_pest"
+  ],
+  "extra": {
+   "pest": "field_mouse"
+  }
+ }
+]

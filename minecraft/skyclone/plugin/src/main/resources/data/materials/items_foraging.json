@@ -1,0 +1,939 @@
+[
+ {
+  "id": "BAMBOO",
+  "name": "Bamboo",
+  "material": "BAMBOO",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Gathered from trees and plants."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT:1",
+  "name": "Lilac",
+  "material": "LILAC",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aMagenta Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT:2",
+  "name": "Double Tallgrass",
+  "material": "TALL_GRASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT:3",
+  "name": "Large Fern",
+  "material": "LARGE_FERN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT:4",
+  "name": "Rose Bush",
+  "material": "ROSE_BUSH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aRose Red&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT:5",
+  "name": "Peony",
+  "material": "PEONY",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aPink Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENCHANTED_ACACIA_LOG",
+  "name": "Enchanted Acacia Log",
+  "material": "ACACIA_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Acacia Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_BIRCH_LOG",
+  "name": "Enchanted Birch Log",
+  "material": "BIRCH_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Birch Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_DANDELION",
+  "name": "Enchanted Dandelion",
+  "material": "DANDELION",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Dandelion&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_DARK_OAK_LOG",
+  "name": "Enchanted Dark Oak Log",
+  "material": "DARK_OAK_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Dark Oak Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_FIG_LOG",
+  "name": "Enchanted Fig Log",
+  "material": "STRIPPED_SPRUCE_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1280.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Fig Log&7.",
+   "&7Compresses into &aFigstone&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_HELIX_LOG",
+  "name": "Enchanted Helix Log",
+  "material": "STRIPPED_MANGROVE_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 3200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Helix Log&7.",
+   "&7Compresses into &aHelixis&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_HONEYCOMB",
+  "name": "Enchanted Honeycomb",
+  "material": "HONEYCOMB",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 16000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Honeycomb&7.",
+   "&7Compresses into &aEnchanted Honeycomb",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_HONEYCOMB_BLOCK",
+  "name": "Enchanted Honeycomb Block",
+  "material": "HONEYCOMB_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 512000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Honeycomb&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_JUNGLE_LOG",
+  "name": "Enchanted Jungle Log",
+  "material": "JUNGLE_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Jungle Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_MANGROVE_LOG",
+  "name": "Enchanted Mangrove Log",
+  "material": "MANGROVE_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 2240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Mangrove Log&7.",
+   "&7Compresses into &aMangcore&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_OAK_LOG",
+  "name": "Enchanted Oak Log",
+  "material": "OAK_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Oak Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_POPPY",
+  "name": "Enchanted Poppy",
+  "material": "POPPY",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 576.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a576 &7Poppy&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_RUBY_VEILSHROOM",
+  "name": "Enchanted Ruby Veilshroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Ruby Veilshroom&7.",
+   "&7Compresses into &aVeilshroom Bunch&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_SEA_LUMIES",
+  "name": "Enchanted Sea Lumies",
+  "material": "SEA_PICKLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Sea Lumies&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_SPRUCE_LOG",
+  "name": "Enchanted Spruce Log",
+  "material": "SPRUCE_LOG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Spruce Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_TENDER_WOOD",
+  "name": "Enchanted Tender Wood",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 32000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Tender Wood&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "ENCHANTED_VINESAP",
+  "name": "Enchanted Vinesap",
+  "material": "VINE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 32000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Vinesap&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "FIGSTONE",
+  "name": "Figstone",
+  "material": "FLINT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 204800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Fig Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "FIG_LOG",
+  "name": "Fig Log",
+  "material": "STRIPPED_SPRUCE_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Fig Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "FIG_LOG"
+  }
+ },
+ {
+  "id": "HELIXIS",
+  "name": "Helixis",
+  "material": "TWISTING_VINES",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 512000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Helix",
+   "&7Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "HELIX_LOG",
+  "name": "Helix Log",
+  "material": "STRIPPED_MANGROVE_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Helix Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "HELIX_LOG"
+  }
+ },
+ {
+  "id": "HONEYCOMB",
+  "name": "Honeycomb",
+  "material": "HONEYCOMB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 100.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Honeycomb&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "HONEYCOMB"
+  }
+ },
+ {
+  "id": "LOG",
+  "name": "Oak Log",
+  "material": "OAK_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Oak Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG"
+  }
+ },
+ {
+  "id": "LOG:1",
+  "name": "Spruce Log",
+  "material": "SPRUCE_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Spruce Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG:1"
+  }
+ },
+ {
+  "id": "LOG:2",
+  "name": "Birch Log",
+  "material": "BIRCH_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Birch Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG:2"
+  }
+ },
+ {
+  "id": "LOG:3",
+  "name": "Jungle Log",
+  "material": "JUNGLE_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Jungle Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG:3"
+  }
+ },
+ {
+  "id": "LOG_2",
+  "name": "Acacia Log",
+  "material": "ACACIA_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Acacia Log&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG_2"
+  }
+ },
+ {
+  "id": "LOG_2:1",
+  "name": "Dark Oak Log",
+  "material": "DARK_OAK_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Dark Oak",
+   "&aLog&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "LOG_2:1"
+  }
+ },
+ {
+  "id": "MANGCORE",
+  "name": "Mangcore",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 358400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Mangrove",
+   "&7Log&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "MANGROVE_LOG",
+  "name": "Mangrove Log",
+  "material": "MANGROVE_LOG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 14.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Mangrove",
+   "&aLog&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "MANGROVE_LOG"
+  }
+ },
+ {
+  "id": "RED_ROSE",
+  "name": "Poppy",
+  "material": "POPPY",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Poppy&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:1",
+  "name": "Blue Orchid",
+  "material": "BLUE_ORCHID",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aLight Blue Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:2",
+  "name": "Allium",
+  "material": "ALLIUM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aMagenta Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:3",
+  "name": "Azure Bluet",
+  "material": "AZURE_BLUET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aLight Gray Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:4",
+  "name": "Red Tulip",
+  "material": "RED_TULIP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:5",
+  "name": "Orange Tulip",
+  "material": "ORANGE_TULIP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aOrange Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:6",
+  "name": "White Tulip",
+  "material": "WHITE_TULIP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aLight Gray Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:7",
+  "name": "Pink Tulip",
+  "material": "PINK_TULIP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aPink Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_ROSE:8",
+  "name": "Oxeye Daisy",
+  "material": "OXEYE_DAISY",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gathered from trees and plants.",
+   "&7Used to craft &aLight Gray Dye&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RUBY_VEILSHROOM",
+  "name": "Ruby Veilshroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Ruby",
+   "&aVeilshroom&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "RUBY_VEILSHROOM"
+  }
+ },
+ {
+  "id": "SAPLING",
+  "name": "Oak Sapling",
+  "material": "OAK_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SEA_LUMIES",
+  "name": "Sea Lumies",
+  "material": "SEA_PICKLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sea Lumies&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "SEA_LUMIES"
+  }
+ },
+ {
+  "id": "TENDER_WOOD",
+  "name": "Tender Wood",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Tender Wood&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "TENDER_WOOD"
+  }
+ },
+ {
+  "id": "VEILSHROOM_BUNCH",
+  "name": "Veilshroom Bunch",
+  "material": "RED_MUSHROOM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Ruby",
+   "&7Veilshroom&7."
+  ],
+  "extra": {
+   "family": "foraging"
+  }
+ },
+ {
+  "id": "VINESAP",
+  "name": "Vinesap",
+  "material": "VINE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Vinesap&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "collection": "VINESAP"
+  }
+ },
+ {
+  "id": "YELLOW_FLOWER",
+  "name": "Dandelion",
+  "material": "DANDELION",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Dandelion&7."
+  ],
+  "extra": {
+   "family": "foraging",
+   "vanilla": true
+  }
+ }
+]

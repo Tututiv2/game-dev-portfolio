@@ -1,0 +1,13 @@
+{
+  "_note": "Saved formats the owner liked on 2026-10-03 but deferred ('for now, lets do 4 ais, no god'). v1 builds only `coop`. Each future preset needs: a prompt block per role, and for god presets the server-enforced miracle tools in ShowControl (/show miracle ..., Faith + cooldowns held by the SERVER, never the prompt).",
+  "active": "coop",
+  "presets": {
+    "coop": {"teams": [["kaito", "ren", "mochi", "yuki"]], "pvp": false, "secret_roles": [], "built": true},
+    "traitor": {"teams": [["kaito", "ren", "mochi", "yuki"]], "pvp": false, "secret_roles": [{"role": "traitor", "pick": "random", "brief": "Secretly sabotage the team (steal, misdirect, lie) without being caught; win if the team fails or you are never suspected."}], "built": false},
+    "god-hidden": {"teams": [["kaito", "ren", "mochi", "yuki"]], "secret_roles": [{"role": "god", "pick": "random", "faith": {"max": 100, "regen_per_min": 4}, "miracles": ["storm", "bless_drop", "curse_drop", "raise_boss", "open_rift", "whisper"], "rules": ["never directly kill a player", "never grant the finale"], "secret_goal_options": ["make exactly one of them a legend", "test their loyalty", "get worshipped"]}], "built": false},
+    "god-outside": {"teams": [["kaito", "ren", "mochi", "yuki"]], "extra_agents": ["god"], "faith": {"source": "prayers and offerings in chat"}, "built": false},
+    "god-rotating": {"teams": [["kaito", "ren", "mochi", "yuki"]], "secret_roles": [{"role": "god", "pick": "rotate-per-episode"}], "audience_knows": true, "built": false},
+    "ffa": {"teams": [["kaito"], ["ren"], ["mochi"], ["yuki"]], "pvp": true, "built": false},
+    "duos": {"teams": [["kaito", "yuki"], ["ren", "mochi"]], "pvp": false, "built": false}
+  }
+}

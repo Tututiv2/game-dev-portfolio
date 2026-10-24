@@ -1,0 +1,9691 @@
+[
+ {
+  "id": "astute",
+  "name": "Astute",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 1.0,
+    "INTELLIGENCE": 3.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 2.0,
+    "INTELLIGENCE": 4.0
+   },
+   "RARE": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "INTELLIGENCE": 5.0
+   },
+   "EPIC": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "INTELLIGENCE": 6.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "INTELLIGENCE": 8.0
+   },
+   "MYTHIC": {
+    "HEALTH": 5.0,
+    "DEFENSE": 5.0,
+    "INTELLIGENCE": 10.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "awkward",
+  "name": "Awkward",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": -5.0,
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": -10.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "RARE": {
+    "INTELLIGENCE": -18.0,
+    "CRIT_DAMAGE": 15.0,
+    "CRIT_CHANCE": 15.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": -32.0,
+    "CRIT_DAMAGE": 22.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": -50.0,
+    "CRIT_DAMAGE": 30.0,
+    "CRIT_CHANCE": 25.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": -72.0,
+    "CRIT_DAMAGE": 35.0,
+    "CRIT_CHANCE": 30.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "blended",
+  "name": "Blended",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 1.0,
+    "STRENGTH": 0.0,
+    "INTELLIGENCE": 1.0,
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 1.0,
+    "STRENGTH": 1.0,
+    "INTELLIGENCE": 1.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 2.0,
+    "DEFENSE": 1.0,
+    "STRENGTH": 1.0,
+    "INTELLIGENCE": 1.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "EPIC": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 2.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 3.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "MYTHIC": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 3.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 3.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "brilliant",
+  "name": "Brilliant",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 1.0,
+    "INTELLIGENCE": 5.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 1.0,
+    "INTELLIGENCE": 6.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 2.0,
+    "INTELLIGENCE": 7.0,
+    "SPEED": 2.0
+   },
+   "EPIC": {
+    "HEALTH": 3.0,
+    "INTELLIGENCE": 9.0,
+    "SPEED": 2.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 4.0,
+    "INTELLIGENCE": 12.0,
+    "SPEED": 2.0
+   },
+   "MYTHIC": {
+    "HEALTH": 5.0,
+    "INTELLIGENCE": 15.0,
+    "SPEED": 2.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "clean",
+  "name": "Clean",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 5.0,
+    "DEFENSE": 5.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "CRIT_CHANCE": 4.0
+   },
+   "RARE": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "CRIT_CHANCE": 6.0
+   },
+   "EPIC": {
+    "HEALTH": 15.0,
+    "DEFENSE": 15.0,
+    "CRIT_CHANCE": 8.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 20.0,
+    "DEFENSE": 20.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "MYTHIC": {
+    "HEALTH": 25.0,
+    "DEFENSE": 25.0,
+    "CRIT_CHANCE": 12.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "colossal",
+  "name": "Colossal",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0
+   },
+   "RARE": {
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0
+   },
+   "EPIC": {
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0
+   },
+   "MYTHIC": {
+    "HEALTH": 12.0,
+    "DEFENSE": 12.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "deadly",
+  "name": "Deadly",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 13.0
+   },
+   "RARE": {
+    "CRIT_DAMAGE": 18.0,
+    "CRIT_CHANCE": 16.0
+   },
+   "EPIC": {
+    "CRIT_DAMAGE": 32.0,
+    "CRIT_CHANCE": 19.0
+   },
+   "LEGENDARY": {
+    "CRIT_DAMAGE": 50.0,
+    "CRIT_CHANCE": 22.0
+   },
+   "MYTHIC": {
+    "CRIT_DAMAGE": 78.0,
+    "CRIT_CHANCE": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "double_bit",
+  "name": "Double-Bit",
+  "kind": "blacksmith",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FORAGING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "FORAGING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "SPEED": 2.0,
+    "FORAGING_FORTUNE": 3.0
+   },
+   "EPIC": {
+    "SPEED": 3.0,
+    "FORAGING_FORTUNE": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 5.0,
+    "FORAGING_FORTUNE": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 7.0,
+    "FORAGING_FORTUNE": 6.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "epic",
+  "name": "Epic",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 15.0,
+    "CRIT_DAMAGE": 10.0,
+    "ATTACK_SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 20.0,
+    "CRIT_DAMAGE": 15.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "RARE": {
+    "STRENGTH": 25.0,
+    "CRIT_DAMAGE": 20.0,
+    "ATTACK_SPEED": 4.0
+   },
+   "EPIC": {
+    "STRENGTH": 32.0,
+    "CRIT_DAMAGE": 27.0,
+    "ATTACK_SPEED": 7.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 40.0,
+    "CRIT_DAMAGE": 35.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 50.0,
+    "CRIT_DAMAGE": 45.0,
+    "ATTACK_SPEED": 15.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "excellent",
+  "name": "Excellent",
+  "kind": "blacksmith",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "MINING_SPEED": 4.0
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "MINING_SPEED": 8.0
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "MINING_SPEED": 12.0
+   },
+   "EPIC": {
+    "SPEED": 4.0,
+    "MINING_SPEED": 16.0
+   },
+   "LEGENDARY": {
+    "SPEED": 5.0,
+    "MINING_SPEED": 20.0
+   },
+   "MYTHIC": {
+    "SPEED": 7.0,
+    "MINING_SPEED": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fair",
+  "name": "Fair",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 3.0,
+    "INTELLIGENCE": 3.0,
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 3.0,
+    "ATTACK_SPEED": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 4.0,
+    "INTELLIGENCE": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 4.0,
+    "ATTACK_SPEED": 4.0
+   },
+   "EPIC": {
+    "STRENGTH": 7.0,
+    "INTELLIGENCE": 7.0,
+    "CRIT_DAMAGE": 7.0,
+    "CRIT_CHANCE": 7.0,
+    "ATTACK_SPEED": 7.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "INTELLIGENCE": 10.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 10.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "INTELLIGENCE": 12.0,
+    "CRIT_DAMAGE": 12.0,
+    "CRIT_CHANCE": 12.0,
+    "ATTACK_SPEED": 12.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fast",
+  "name": "Fast",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "ATTACK_SPEED": 10.0
+   },
+   "UNCOMMON": {
+    "ATTACK_SPEED": 20.0
+   },
+   "RARE": {
+    "ATTACK_SPEED": 30.0
+   },
+   "EPIC": {
+    "ATTACK_SPEED": 40.0
+   },
+   "LEGENDARY": {
+    "ATTACK_SPEED": 50.0
+   },
+   "MYTHIC": {
+    "ATTACK_SPEED": 60.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fierce",
+  "name": "Fierce",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 7.0,
+    "CRIT_CHANCE": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 6.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 4.0
+   },
+   "EPIC": {
+    "STRENGTH": 8.0,
+    "CRIT_DAMAGE": 14.0,
+    "CRIT_CHANCE": 5.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "CRIT_DAMAGE": 18.0,
+    "CRIT_CHANCE": 6.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 24.0,
+    "CRIT_CHANCE": 8.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fine",
+  "name": "Fine",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 5.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 7.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 7.0
+   },
+   "RARE": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 7.0,
+    "CRIT_CHANCE": 9.0
+   },
+   "EPIC": {
+    "STRENGTH": 18.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "CRIT_DAMAGE": 15.0,
+    "CRIT_CHANCE": 15.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 33.0,
+    "CRIT_DAMAGE": 20.0,
+    "CRIT_CHANCE": 18.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fortunate",
+  "name": "Fortunate",
+  "kind": "blacksmith",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 1.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 2.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "RARE": {
+    "MINING_SPEED": 3.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 4.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 6.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 8.0,
+    "MINING_FORTUNE": 3.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "gentle",
+  "name": "Gentle",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "ATTACK_SPEED": 8.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 5.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "RARE": {
+    "STRENGTH": 7.0,
+    "ATTACK_SPEED": 15.0
+   },
+   "EPIC": {
+    "STRENGTH": 10.0,
+    "ATTACK_SPEED": 20.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 15.0,
+    "ATTACK_SPEED": 25.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 20.0,
+    "ATTACK_SPEED": 30.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "grand",
+  "name": "Grand",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 25.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 32.0
+   },
+   "RARE": {
+    "STRENGTH": 40.0
+   },
+   "EPIC": {
+    "STRENGTH": 50.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 60.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 75.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "great",
+  "name": "Great",
+  "kind": "blacksmith",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "SPEED": 2.0
+   },
+   "RARE": {
+    "STRENGTH": 6.0,
+    "CRIT_DAMAGE": 6.0,
+    "SPEED": 3.0
+   },
+   "EPIC": {
+    "STRENGTH": 9.0,
+    "CRIT_DAMAGE": 9.0,
+    "SPEED": 4.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 12.0,
+    "SPEED": 5.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 16.0,
+    "CRIT_DAMAGE": 16.0,
+    "SPEED": 7.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "green_thumb",
+  "name": "Green Thumb",
+  "kind": "blacksmith",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FARMING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "FARMING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "SPEED": 2.0,
+    "FARMING_FORTUNE": 3.0
+   },
+   "EPIC": {
+    "SPEED": 3.0,
+    "FARMING_FORTUNE": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 7.0,
+    "FARMING_FORTUNE": 6.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "hasty",
+  "name": "Hasty",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 5.0,
+    "CRIT_CHANCE": 25.0
+   },
+   "RARE": {
+    "STRENGTH": 7.0,
+    "CRIT_CHANCE": 30.0
+   },
+   "EPIC": {
+    "STRENGTH": 10.0,
+    "CRIT_CHANCE": 40.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 15.0,
+    "CRIT_CHANCE": 50.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 20.0,
+    "CRIT_CHANCE": 60.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "heavy",
+  "name": "Heavy",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 25.0,
+    "CRIT_DAMAGE": -1.0,
+    "SPEED": -1.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 35.0,
+    "CRIT_DAMAGE": -2.0,
+    "SPEED": -1.0
+   },
+   "RARE": {
+    "DEFENSE": 50.0,
+    "CRIT_DAMAGE": -2.0,
+    "SPEED": -1.0
+   },
+   "EPIC": {
+    "DEFENSE": 65.0,
+    "CRIT_DAMAGE": -3.0,
+    "SPEED": -1.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 80.0,
+    "CRIT_DAMAGE": -5.0,
+    "SPEED": -1.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 110.0,
+    "CRIT_DAMAGE": -7.0,
+    "SPEED": -1.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "hefty",
+  "name": "Hefty",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 7.0,
+    "CRIT_DAMAGE": -2.0,
+    "SPEED": -1.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 9.0,
+    "CRIT_DAMAGE": -2.0,
+    "SPEED": -1.0
+   },
+   "RARE": {
+    "DEFENSE": 12.0,
+    "CRIT_DAMAGE": -3.0,
+    "SPEED": -1.0
+   },
+   "EPIC": {
+    "DEFENSE": 15.0,
+    "CRIT_DAMAGE": -3.0,
+    "SPEED": -1.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 20.0,
+    "CRIT_DAMAGE": -4.0,
+    "SPEED": -1.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 25.0,
+    "CRIT_DAMAGE": -5.0,
+    "SPEED": -1.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "heroic",
+  "name": "Heroic",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 15.0,
+    "INTELLIGENCE": 40.0,
+    "ATTACK_SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 20.0,
+    "INTELLIGENCE": 50.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "RARE": {
+    "STRENGTH": 25.0,
+    "INTELLIGENCE": 65.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "EPIC": {
+    "STRENGTH": 32.0,
+    "INTELLIGENCE": 80.0,
+    "ATTACK_SPEED": 3.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 40.0,
+    "INTELLIGENCE": 100.0,
+    "ATTACK_SPEED": 5.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 50.0,
+    "INTELLIGENCE": 125.0,
+    "ATTACK_SPEED": 7.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "honored",
+  "name": "Honored",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 1.0,
+    "STRENGTH": 0.0,
+    "INTELLIGENCE": 3.0,
+    "CRIT_CHANCE": 1.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 2.0,
+    "STRENGTH": 1.0,
+    "INTELLIGENCE": 3.0,
+    "CRIT_CHANCE": 1.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 4.0,
+    "CRIT_CHANCE": 1.0,
+    "SPEED": 1.0
+   },
+   "EPIC": {
+    "HEALTH": 2.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 5.0,
+    "CRIT_CHANCE": 2.0,
+    "SPEED": 1.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 3.0,
+    "INTELLIGENCE": 6.0,
+    "CRIT_CHANCE": 2.0,
+    "SPEED": 1.0
+   },
+   "MYTHIC": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "STRENGTH": 3.0,
+    "INTELLIGENCE": 7.0,
+    "CRIT_CHANCE": 2.0,
+    "SPEED": 1.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "legendary",
+  "name": "Legendary",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "INTELLIGENCE": 5.0,
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 5.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 7.0,
+    "INTELLIGENCE": 8.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 7.0,
+    "ATTACK_SPEED": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 12.0,
+    "INTELLIGENCE": 12.0,
+    "CRIT_DAMAGE": 15.0,
+    "CRIT_CHANCE": 9.0,
+    "ATTACK_SPEED": 5.0
+   },
+   "EPIC": {
+    "STRENGTH": 18.0,
+    "INTELLIGENCE": 18.0,
+    "CRIT_DAMAGE": 22.0,
+    "CRIT_CHANCE": 12.0,
+    "ATTACK_SPEED": 7.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "INTELLIGENCE": 25.0,
+    "CRIT_DAMAGE": 28.0,
+    "CRIT_CHANCE": 15.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 32.0,
+    "INTELLIGENCE": 35.0,
+    "CRIT_DAMAGE": 36.0,
+    "CRIT_CHANCE": 18.0,
+    "ATTACK_SPEED": 15.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "light",
+  "name": "Light",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 5.0,
+    "DEFENSE": 1.0,
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 7.0,
+    "DEFENSE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 2.0,
+    "SPEED": 2.0
+   },
+   "RARE": {
+    "HEALTH": 10.0,
+    "DEFENSE": 3.0,
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 3.0,
+    "SPEED": 3.0
+   },
+   "EPIC": {
+    "HEALTH": 15.0,
+    "DEFENSE": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 4.0,
+    "SPEED": 4.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 20.0,
+    "DEFENSE": 5.0,
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 3.0,
+    "ATTACK_SPEED": 5.0,
+    "SPEED": 5.0
+   },
+   "MYTHIC": {
+    "HEALTH": 25.0,
+    "DEFENSE": 6.0,
+    "CRIT_DAMAGE": 6.0,
+    "CRIT_CHANCE": 3.0,
+    "ATTACK_SPEED": 6.0,
+    "SPEED": 6.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "lumberjack_s",
+  "name": "Lumberjack's",
+  "kind": "blacksmith",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FORAGING_WISDOM": 0.5
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "FORAGING_WISDOM": 0.75
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "FORAGING_WISDOM": 1.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "FORAGING_WISDOM": 1.25
+   },
+   "LEGENDARY": {
+    "SPEED": 7.0,
+    "FORAGING_WISDOM": 2.0
+   },
+   "MYTHIC": {
+    "SPEED": 9.0,
+    "FORAGING_WISDOM": 2.5
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "lush",
+  "name": "Lush",
+  "kind": "blacksmith",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 3.0,
+    "FORAGING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 4.0,
+    "FORAGING_FORTUNE": 1.0
+   },
+   "RARE": {
+    "SPEED": 5.0,
+    "FORAGING_FORTUNE": 2.0
+   },
+   "EPIC": {
+    "SPEED": 7.0,
+    "FORAGING_FORTUNE": 2.0
+   },
+   "LEGENDARY": {
+    "SPEED": 10.0,
+    "FORAGING_FORTUNE": 3.0
+   },
+   "MYTHIC": {
+    "SPEED": 15.0,
+    "FORAGING_FORTUNE": 5.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "menacing",
+  "name": "Menacing",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "UNCOMMON": {
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "RARE": {
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "EPIC": {
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "LEGENDARY": {
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "MYTHIC": {
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 2.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "mythic",
+  "name": "Mythic",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 20.0,
+    "CRIT_CHANCE": 1.0,
+    "SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 4.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 4.0,
+    "INTELLIGENCE": 25.0,
+    "CRIT_CHANCE": 2.0,
+    "SPEED": 2.0
+   },
+   "RARE": {
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "STRENGTH": 6.0,
+    "INTELLIGENCE": 30.0,
+    "CRIT_CHANCE": 3.0,
+    "SPEED": 2.0
+   },
+   "EPIC": {
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0,
+    "STRENGTH": 8.0,
+    "INTELLIGENCE": 40.0,
+    "CRIT_CHANCE": 4.0,
+    "SPEED": 2.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "STRENGTH": 10.0,
+    "INTELLIGENCE": 50.0,
+    "CRIT_CHANCE": 5.0,
+    "SPEED": 2.0
+   },
+   "MYTHIC": {
+    "HEALTH": 12.0,
+    "DEFENSE": 12.0,
+    "STRENGTH": 12.0,
+    "INTELLIGENCE": 60.0,
+    "CRIT_CHANCE": 6.0,
+    "SPEED": 2.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "neat",
+  "name": "Neat",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 3.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 6.0,
+    "CRIT_DAMAGE": 8.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "RARE": {
+    "INTELLIGENCE": 10.0,
+    "CRIT_DAMAGE": 14.0,
+    "CRIT_CHANCE": 14.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 15.0,
+    "CRIT_DAMAGE": 20.0,
+    "CRIT_CHANCE": 17.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 20.0,
+    "CRIT_DAMAGE": 30.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 30.0,
+    "CRIT_DAMAGE": 40.0,
+    "CRIT_CHANCE": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "odd",
+  "name": "Odd",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": -5.0,
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": -10.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "RARE": {
+    "INTELLIGENCE": -18.0,
+    "CRIT_DAMAGE": 15.0,
+    "CRIT_CHANCE": 15.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": -32.0,
+    "CRIT_DAMAGE": 22.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": -50.0,
+    "CRIT_DAMAGE": 30.0,
+    "CRIT_CHANCE": 25.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": -75.0,
+    "CRIT_DAMAGE": 40.0,
+    "CRIT_CHANCE": 30.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "peasant_s",
+  "name": "Peasant's",
+  "kind": "blacksmith",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FARMING_WISDOM": 0.5
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "FARMING_WISDOM": 0.75
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "FARMING_WISDOM": 1.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "FARMING_WISDOM": 1.25
+   },
+   "LEGENDARY": {
+    "SPEED": 7.0,
+    "FARMING_WISDOM": 2.0
+   },
+   "MYTHIC": {
+    "SPEED": 9.0,
+    "FARMING_WISDOM": 2.5
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "prospector_s",
+  "name": "Prospector's",
+  "kind": "blacksmith",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "MINING_WISDOM": 0.5
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "MINING_WISDOM": 0.75
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "MINING_WISDOM": 1.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "MINING_WISDOM": 1.25
+   },
+   "LEGENDARY": {
+    "SPEED": 7.0,
+    "MINING_WISDOM": 2.0
+   },
+   "MYTHIC": {
+    "SPEED": 9.0,
+    "MINING_WISDOM": 2.5
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "pure",
+  "name": "Pure",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "STRENGTH": 2.0,
+    "INTELLIGENCE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 2.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "STRENGTH": 3.0,
+    "INTELLIGENCE": 3.0,
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 4.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "STRENGTH": 4.0,
+    "INTELLIGENCE": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 6.0,
+    "ATTACK_SPEED": 2.0,
+    "SPEED": 1.0
+   },
+   "EPIC": {
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "STRENGTH": 6.0,
+    "INTELLIGENCE": 6.0,
+    "CRIT_DAMAGE": 6.0,
+    "CRIT_CHANCE": 8.0,
+    "ATTACK_SPEED": 3.0,
+    "SPEED": 1.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0,
+    "STRENGTH": 8.0,
+    "INTELLIGENCE": 8.0,
+    "CRIT_DAMAGE": 8.0,
+    "CRIT_CHANCE": 10.0,
+    "ATTACK_SPEED": 4.0,
+    "SPEED": 1.0
+   },
+   "MYTHIC": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "STRENGTH": 10.0,
+    "INTELLIGENCE": 10.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 12.0,
+    "ATTACK_SPEED": 5.0,
+    "SPEED": 1.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "rapid",
+  "name": "Rapid",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "CRIT_DAMAGE": 35.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_DAMAGE": 45.0
+   },
+   "RARE": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 55.0
+   },
+   "EPIC": {
+    "STRENGTH": 7.0,
+    "CRIT_DAMAGE": 65.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "CRIT_DAMAGE": 75.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 90.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "rich",
+  "name": "Rich",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 3.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 5.0,
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "RARE": {
+    "INTELLIGENCE": 6.0,
+    "CRIT_DAMAGE": 7.0,
+    "CRIT_CHANCE": 14.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 15.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 17.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 20.0,
+    "CRIT_DAMAGE": 15.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 30.0,
+    "CRIT_DAMAGE": 20.0,
+    "CRIT_CHANCE": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "robust",
+  "name": "Robust",
+  "kind": "blacksmith",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 3.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 4.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 6.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 8.0
+   },
+   "MYTHIC": {
+    "FARMING_FORTUNE": 10.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "rugged",
+  "name": "Rugged",
+  "kind": "blacksmith",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 3.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 6.0,
+    "CRIT_DAMAGE": 5.0
+   },
+   "RARE": {
+    "STRENGTH": 9.0,
+    "CRIT_DAMAGE": 8.0
+   },
+   "EPIC": {
+    "STRENGTH": 13.0,
+    "CRIT_DAMAGE": 12.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 18.0,
+    "CRIT_DAMAGE": 16.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 24.0,
+    "CRIT_DAMAGE": 22.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "sharp",
+  "name": "Sharp",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_DAMAGE": 20.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "UNCOMMON": {
+    "CRIT_DAMAGE": 30.0,
+    "CRIT_CHANCE": 12.0
+   },
+   "RARE": {
+    "CRIT_DAMAGE": 40.0,
+    "CRIT_CHANCE": 14.0
+   },
+   "EPIC": {
+    "CRIT_DAMAGE": 55.0,
+    "CRIT_CHANCE": 17.0
+   },
+   "LEGENDARY": {
+    "CRIT_DAMAGE": 75.0,
+    "CRIT_CHANCE": 20.0
+   },
+   "MYTHIC": {
+    "CRIT_DAMAGE": 90.0,
+    "CRIT_CHANCE": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "smart",
+  "name": "Smart",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "INTELLIGENCE": 20.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "INTELLIGENCE": 40.0
+   },
+   "RARE": {
+    "HEALTH": 9.0,
+    "DEFENSE": 9.0,
+    "INTELLIGENCE": 60.0
+   },
+   "EPIC": {
+    "HEALTH": 12.0,
+    "DEFENSE": 12.0,
+    "INTELLIGENCE": 80.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 15.0,
+    "DEFENSE": 15.0,
+    "INTELLIGENCE": 100.0
+   },
+   "MYTHIC": {
+    "HEALTH": 20.0,
+    "DEFENSE": 20.0,
+    "INTELLIGENCE": 120.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "soft",
+  "name": "Soft",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 2.0,
+    "DEFENSE": 1.0,
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 3.0,
+    "DEFENSE": 1.0,
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 4.0,
+    "DEFENSE": 1.0,
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "EPIC": {
+    "HEALTH": 5.0,
+    "DEFENSE": 1.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 1.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 6.0,
+    "DEFENSE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "SPEED": 2.0
+   },
+   "MYTHIC": {
+    "HEALTH": 7.0,
+    "DEFENSE": 2.0,
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 2.0,
+    "SPEED": 2.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "spicy",
+  "name": "Spicy",
+  "kind": "blacksmith",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "CRIT_DAMAGE": 25.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_DAMAGE": 35.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 45.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 5.0
+   },
+   "EPIC": {
+    "STRENGTH": 7.0,
+    "CRIT_DAMAGE": 60.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 7.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "CRIT_DAMAGE": 80.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 100.0,
+    "CRIT_CHANCE": 1.0,
+    "ATTACK_SPEED": 15.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "stained",
+  "name": "Stained",
+  "kind": "blacksmith",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "CRIT_CHANCE": 1.0
+   },
+   "RARE": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "EPIC": {
+    "HEALTH": 5.0,
+    "DEFENSE": 5.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 5.0,
+    "DEFENSE": 6.0,
+    "CRIT_CHANCE": 3.0
+   },
+   "MYTHIC": {
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "CRIT_CHANCE": 4.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "sturdy",
+  "name": "Sturdy",
+  "kind": "blacksmith",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 3.0,
+    "MINING_SPEED": 3.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 6.0,
+    "MINING_SPEED": 6.0
+   },
+   "RARE": {
+    "DEFENSE": 9.0,
+    "MINING_SPEED": 9.0
+   },
+   "EPIC": {
+    "DEFENSE": 12.0,
+    "MINING_SPEED": 12.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 15.0,
+    "MINING_SPEED": 15.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 20.0,
+    "MINING_SPEED": 20.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "titanic",
+  "name": "Titanic",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 15.0,
+    "DEFENSE": 15.0
+   },
+   "RARE": {
+    "HEALTH": 20.0,
+    "DEFENSE": 20.0
+   },
+   "EPIC": {
+    "HEALTH": 25.0,
+    "DEFENSE": 25.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 35.0,
+    "DEFENSE": 35.0
+   },
+   "MYTHIC": {
+    "HEALTH": 50.0,
+    "DEFENSE": 50.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "unreal",
+  "name": "Unreal",
+  "kind": "blacksmith",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 8.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 7.0,
+    "CRIT_DAMAGE": 10.0,
+    "CRIT_CHANCE": 9.0
+   },
+   "RARE": {
+    "STRENGTH": 12.0,
+    "CRIT_DAMAGE": 18.0,
+    "CRIT_CHANCE": 10.0
+   },
+   "EPIC": {
+    "STRENGTH": 18.0,
+    "CRIT_DAMAGE": 32.0,
+    "CRIT_CHANCE": 11.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "CRIT_DAMAGE": 50.0,
+    "CRIT_CHANCE": 13.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 34.0,
+    "CRIT_DAMAGE": 70.0,
+    "CRIT_CHANCE": 15.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "unyielding",
+  "name": "Unyielding",
+  "kind": "blacksmith",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "MINING_FORTUNE": 3.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "MINING_FORTUNE": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 7.0,
+    "MINING_FORTUNE": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 9.0,
+    "MINING_FORTUNE": 6.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "wise",
+  "name": "Wise",
+  "kind": "blacksmith",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 6.0,
+    "INTELLIGENCE": 25.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 8.0,
+    "INTELLIGENCE": 50.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "HEALTH": 10.0,
+    "INTELLIGENCE": 75.0,
+    "SPEED": 1.0
+   },
+   "EPIC": {
+    "HEALTH": 12.0,
+    "INTELLIGENCE": 100.0,
+    "SPEED": 2.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 15.0,
+    "INTELLIGENCE": 125.0,
+    "SPEED": 2.0
+   },
+   "MYTHIC": {
+    "HEALTH": 20.0,
+    "INTELLIGENCE": 150.0,
+    "SPEED": 3.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "zooming",
+  "name": "Zooming",
+  "kind": "blacksmith",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 5.0
+   },
+   "UNCOMMON": {
+    "SPEED": 8.0
+   },
+   "RARE": {
+    "SPEED": 12.0
+   },
+   "EPIC": {
+    "SPEED": 16.0
+   },
+   "LEGENDARY": {
+    "SPEED": 20.0
+   },
+   "MYTHIC": {
+    "SPEED": 25.0
+   }
+  },
+  "costs": {},
+  "stone": null,
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "ambered",
+  "name": "Ambered",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 25.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 35.0
+   },
+   "RARE": {
+    "MINING_SPEED": 50.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 75.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 100.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 150.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 200.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 800000.0
+  },
+  "stone": "AMBER_MATERIAL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Treasure goblins appear &a+10% &7more often while you mine.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Treasure goblins appear &a+15% &7more often while you mine.",
+    "values": [
+     15.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Treasure goblins appear &a+20% &7more often while you mine.",
+    "values": [
+     20.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Treasure goblins appear &a+25% &7more often while you mine.",
+    "values": [
+     25.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Treasure goblins appear &a+30% &7more often while you mine.",
+    "values": [
+     30.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Treasure goblins appear &a+40% &7more often while you mine.",
+    "values": [
+     40.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Treasure goblins appear &a+50% &7more often while you mine.",
+    "values": [
+     50.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "beady",
+  "name": "Beady",
+  "kind": "stone",
+  "types": "VACUUM",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 10.0,
+    "DAMAGE": 5.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 20.0,
+    "DAMAGE": 10.0
+   },
+   "RARE": {
+    "INTELLIGENCE": 30.0,
+    "DAMAGE": 15.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 40.0,
+    "DAMAGE": 20.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 50.0,
+    "DAMAGE": 25.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 60.0,
+    "DAMAGE": 30.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 50000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 150000.0
+  },
+  "stone": "BEADY_EYES",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+100☘ Farming Fortune &7against pests.",
+    "values": [
+     100.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "blessed",
+  "name": "Blessed",
+  "kind": "stone",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 5.0,
+    "FARMING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 7.0,
+    "FARMING_FORTUNE": 7.0,
+    "FARMING_WISDOM": 2.0
+   },
+   "RARE": {
+    "SPEED": 9.0,
+    "FARMING_FORTUNE": 9.0,
+    "FARMING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "SPEED": 13.0,
+    "FARMING_FORTUNE": 13.0,
+    "FARMING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 16.0,
+    "FARMING_FORTUNE": 16.0,
+    "FARMING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 20.0,
+    "FARMING_FORTUNE": 20.0,
+    "FARMING_WISDOM": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 10000.0,
+   "EPIC": 10000.0,
+   "LEGENDARY": 10000.0,
+   "MYTHIC": 10000.0
+  },
+  "stone": "BLESSED_FRUIT",
+  "bonus": {
+   "COMMON": {
+    "text": "&7A &a0.1% &7chance for each harvested crop to drop as its enchanted form.",
+    "values": [
+     0.1
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7A &a0.13% &7chance for each harvested crop to drop as its enchanted form.",
+    "values": [
+     0.13
+    ]
+   },
+   "RARE": {
+    "text": "&7A &a0.16% &7chance for each harvested crop to drop as its enchanted form.",
+    "values": [
+     0.16
+    ]
+   },
+   "EPIC": {
+    "text": "&7A &a0.19% &7chance for each harvested crop to drop as its enchanted form.",
+    "values": [
+     0.19
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7A &a0.22% &7chance for each harvested crop to drop as its enchanted form.",
+    "values": [
+     0.22
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "thorny",
+  "name": "Thorny",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 4.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 6.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 8.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 10.0
+   },
+   "MYTHIC": {
+    "FARMING_FORTUNE": 12.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "BLOOMING_THORNS",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "UNCOMMON": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "RARE": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "EPIC": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "LEGENDARY": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "MYTHIC": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   },
+   "DIVINE": {
+    "text": "&7Adds Overbloom for every tier of Thorns across your armor.",
+    "values": []
+   }
+  },
+  "bonusImpl": false,
+  "otherStats": {
+   "COMMON": {
+    "overbloom": 0.25
+   },
+   "UNCOMMON": {
+    "overbloom": 0.5
+   },
+   "RARE": {
+    "overbloom": 0.75
+   },
+   "EPIC": {
+    "overbloom": 1.0
+   },
+   "LEGENDARY": {
+    "overbloom": 1.25
+   },
+   "MYTHIC": {
+    "overbloom": 1.5
+   }
+  }
+ },
+ {
+  "id": "bulky",
+  "name": "Bulky",
+  "kind": "stone",
+  "types": "SWORD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 4.0,
+    "DEFENSE": 2.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 6.0,
+    "DEFENSE": 3.0
+   },
+   "RARE": {
+    "HEALTH": 9.0,
+    "DEFENSE": 5.0
+   },
+   "EPIC": {
+    "HEALTH": 12.0,
+    "DEFENSE": 8.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 15.0,
+    "DEFENSE": 13.0
+   },
+   "MYTHIC": {
+    "HEALTH": 20.0,
+    "DEFENSE": 21.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "BULKY_STONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "rooted",
+  "name": "Rooted",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 2.0,
+    "FARMING_FORTUNE": 6.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 5.0,
+    "FARMING_FORTUNE": 9.0
+   },
+   "RARE": {
+    "HEALTH": 8.0,
+    "FARMING_FORTUNE": 12.0
+   },
+   "EPIC": {
+    "HEALTH": 11.0,
+    "FARMING_FORTUNE": 15.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 14.0,
+    "FARMING_FORTUNE": 18.0
+   },
+   "MYTHIC": {
+    "HEALTH": 17.0,
+    "FARMING_FORTUNE": 21.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "BURROWING_SPORES",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "waxed",
+  "name": "Waxed",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 5.0,
+    "CRIT_CHANCE": 2.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 6.0,
+    "CRIT_CHANCE": 3.0
+   },
+   "RARE": {
+    "HEALTH": 8.0,
+    "CRIT_CHANCE": 4.0
+   },
+   "EPIC": {
+    "HEALTH": 10.0,
+    "CRIT_CHANCE": 5.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 12.0,
+    "CRIT_CHANCE": 6.0
+   },
+   "MYTHIC": {
+    "HEALTH": 15.0,
+    "CRIT_CHANCE": 7.0
+   },
+   "DIVINE": {
+    "HEALTH": 20.0,
+    "CRIT_CHANCE": 8.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 400000.0
+  },
+  "stone": "BLAZE_WAX",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "blazing",
+  "name": "Blazing",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_FORTUNE": 3.0,
+    "HEAT_RESISTANCE": 1.0
+   },
+   "UNCOMMON": {
+    "MINING_FORTUNE": 4.0,
+    "HEAT_RESISTANCE": 1.0
+   },
+   "RARE": {
+    "MINING_FORTUNE": 5.0,
+    "HEAT_RESISTANCE": 2.0
+   },
+   "EPIC": {
+    "MINING_FORTUNE": 6.0,
+    "HEAT_RESISTANCE": 2.0
+   },
+   "LEGENDARY": {
+    "MINING_FORTUNE": 7.0,
+    "HEAT_RESISTANCE": 3.0
+   },
+   "MYTHIC": {
+    "MINING_FORTUNE": 7.0,
+    "HEAT_RESISTANCE": 3.0
+   },
+   "DIVINE": {
+    "MINING_FORTUNE": 8.0,
+    "HEAT_RESISTANCE": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 300000.0
+  },
+  "stone": "BLAZEN_SPHERE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "RARE": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "EPIC": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Every &c1♨ Heat &7makes worms &a+0.05% &7more likely to dig out of the rock.",
+    "values": [
+     1.0,
+     0.05
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "greater_spook",
+  "name": "Greater Spook",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "GREAT_SPOOK_HELMET",
+   "GREAT_SPOOK_CHESTPLATE",
+   "GREAT_SPOOK_LEGGINGS",
+   "GREAT_SPOOK_BOOTS",
+   "GREAT_SPOOK_BELT",
+   "GREAT_SPOOK_CLOAK",
+   "GREAT_SPOOK_NECKLACE",
+   "GREAT_SPOOK_GLOVES"
+  ],
+  "materials": [],
+  "rarities": [
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "stats": {
+   "EPIC": {},
+   "LEGENDARY": {}
+  },
+  "costs": {
+   "EPIC": 10000.0,
+   "LEGENDARY": 10000.0
+  },
+  "stone": "BOO_STONE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&5+1 Fear&7.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": false,
+  "otherStats": {
+   "EPIC": {
+    "fear": 4.0
+   },
+   "LEGENDARY": {
+    "fear": 5.0
+   }
+  }
+ },
+ {
+  "id": "calcified",
+  "name": "Calcified",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "FISHING_SPEED": 0.5,
+    "DEFENSE": 3.0
+   },
+   "UNCOMMON": {
+    "FISHING_SPEED": 1.0,
+    "DEFENSE": 5.0
+   },
+   "RARE": {
+    "FISHING_SPEED": 1.5,
+    "DEFENSE": 7.0
+   },
+   "EPIC": {
+    "FISHING_SPEED": 2.5,
+    "DEFENSE": 10.0
+   },
+   "LEGENDARY": {
+    "FISHING_SPEED": 3.5,
+    "DEFENSE": 13.0
+   },
+   "MYTHIC": {
+    "FISHING_SPEED": 4.5,
+    "DEFENSE": 16.0
+   },
+   "DIVINE": {
+    "FISHING_SPEED": 4.5,
+    "DEFENSE": 16.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 800000.0
+  },
+  "stone": "CALCIFIED_HEART",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+25❈ Defense &7against sea creatures.",
+    "values": [
+     25.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "candied",
+  "name": "Candied",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 1.0,
+    "DEFENSE": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 2.0,
+    "DEFENSE": 1.0
+   },
+   "RARE": {
+    "HEALTH": 4.0,
+    "DEFENSE": 2.0
+   },
+   "EPIC": {
+    "HEALTH": 6.0,
+    "DEFENSE": 3.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 8.0,
+    "DEFENSE": 4.0
+   },
+   "MYTHIC": {
+    "HEALTH": 10.0,
+    "DEFENSE": 5.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "CANDY_CORN",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+1% &7chance to find candy during the autumn festival.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "buzzing",
+  "name": "Buzzing",
+  "kind": "stone",
+  "types": "VACUUM",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 3.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 5.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 7.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 9.0
+   },
+   "MYTHIC": {
+    "FARMING_FORTUNE": 11.0
+   },
+   "DIVINE": {
+    "FARMING_FORTUNE": 11.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 50000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 150000.0,
+   "DIVINE": 250000.0
+  },
+  "stone": "CLIPPED_WINGS",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "UNCOMMON": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "RARE": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "EPIC": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "LEGENDARY": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "MYTHIC": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   },
+   "DIVINE": {
+    "text": "&7Vacuums deal &cdouble ❁ damage&7.",
+    "values": []
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "erudite",
+  "name": "Erudite",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "DEIFIC_SPADE",
+   "ARCHAIC_SPADE",
+   "ANCESTRAL_SPADE"
+  ],
+  "materials": [],
+  "rarities": [
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "RARE": {
+    "SPEED": 8.0
+   },
+   "EPIC": {
+    "SPEED": 11.0
+   },
+   "LEGENDARY": {
+    "SPEED": 15.0
+   },
+   "MYTHIC": {
+    "SPEED": 20.0
+   }
+  },
+  "costs": {
+   "RARE": 500000.0,
+   "EPIC": 1000000.0,
+   "LEGENDARY": 2000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "DAEDALUS_NOTES",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Burrow trails always run &a2 &7digs longer.",
+    "values": [
+     2.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "submerged",
+  "name": "Submerged",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_CHANCE": 2.0,
+    "SEA_CREATURE_CHANCE": 0.5,
+    "FISHING_SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "CRIT_CHANCE": 4.0,
+    "SEA_CREATURE_CHANCE": 0.6,
+    "FISHING_SPEED": 1.0
+   },
+   "RARE": {
+    "CRIT_CHANCE": 6.0,
+    "SEA_CREATURE_CHANCE": 0.7,
+    "FISHING_SPEED": 2.0
+   },
+   "EPIC": {
+    "CRIT_CHANCE": 8.0,
+    "SEA_CREATURE_CHANCE": 0.8,
+    "FISHING_SPEED": 3.0
+   },
+   "LEGENDARY": {
+    "CRIT_CHANCE": 10.0,
+    "SEA_CREATURE_CHANCE": 0.9,
+    "FISHING_SPEED": 4.0
+   },
+   "MYTHIC": {
+    "CRIT_CHANCE": 12.0,
+    "SEA_CREATURE_CHANCE": 1.0,
+    "FISHING_SPEED": 5.0
+   }
+  },
+  "costs": {
+   "COMMON": 50000.0,
+   "UNCOMMON": 150000.0,
+   "RARE": 350000.0,
+   "EPIC": 600000.0,
+   "LEGENDARY": 750000.0,
+   "MYTHIC": 800000.0
+  },
+  "stone": "DEEP_SEA_ORB",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fleet",
+  "name": "Fleet",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 10.0,
+    "BLOCK_FORTUNE": 25.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 20.0,
+    "BLOCK_FORTUNE": 30.0
+   },
+   "RARE": {
+    "MINING_SPEED": 30.0,
+    "BLOCK_FORTUNE": 35.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 40.0,
+    "BLOCK_FORTUNE": 45.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 50.0,
+    "BLOCK_FORTUNE": 55.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 75.0,
+    "BLOCK_FORTUNE": 65.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 100.0,
+    "BLOCK_FORTUNE": 75.0
+   }
+  },
+  "costs": {
+   "COMMON": 15000.0,
+   "UNCOMMON": 30000.0,
+   "RARE": 60000.0,
+   "EPIC": 125000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0,
+   "DIVINE": 500000.0
+  },
+  "stone": "DIAMONITE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&e+50▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     50.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&e+60▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     60.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&e+70▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     70.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&e+85▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     85.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&e+100▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     100.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&e+125▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     125.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&e+150▚ Mining Spread &7when breaking plain blocks.",
+    "values": [
+     150.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "dirty",
+  "name": "Dirty",
+  "kind": "stone",
+  "types": "SWORD/ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "FEROCITY": 2.0,
+    "ATTACK_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "FEROCITY": 3.0,
+    "ATTACK_SPEED": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 6.0,
+    "FEROCITY": 6.0,
+    "ATTACK_SPEED": 5.0
+   },
+   "EPIC": {
+    "STRENGTH": 10.0,
+    "FEROCITY": 9.0,
+    "ATTACK_SPEED": 10.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 12.0,
+    "FEROCITY": 12.0,
+    "ATTACK_SPEED": 15.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 15.0,
+    "FEROCITY": 15.0,
+    "ATTACK_SPEED": 20.0
+   }
+  },
+  "costs": {
+   "COMMON": 1000.0,
+   "UNCOMMON": 5000.0,
+   "RARE": 10000.0,
+   "EPIC": 15000.0,
+   "LEGENDARY": 50000.0,
+   "MYTHIC": 75000.0
+  },
+  "stone": "DIRT_BOTTLE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fabled",
+  "name": "Fabled",
+  "kind": "stone",
+  "types": "SWORD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 30.0,
+    "CRIT_DAMAGE": 15.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 35.0,
+    "CRIT_DAMAGE": 20.0
+   },
+   "RARE": {
+    "STRENGTH": 40.0,
+    "CRIT_DAMAGE": 25.0
+   },
+   "EPIC": {
+    "STRENGTH": 50.0,
+    "CRIT_DAMAGE": 32.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 60.0,
+    "CRIT_DAMAGE": 40.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 75.0,
+    "CRIT_DAMAGE": 50.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "DRAGON_CLAW",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Critical hits may deal up to &c15% &7bonus damage.",
+    "values": [
+     15.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "renowned",
+  "name": "Renowned",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_CHANCE": 2.0,
+    "CRIT_DAMAGE": 3.0,
+    "ATTACK_SPEED": 1.0,
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 3.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_CHANCE": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "ATTACK_SPEED": 1.0,
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 4.0
+   },
+   "RARE": {
+    "STRENGTH": 6.0,
+    "CRIT_CHANCE": 6.0,
+    "CRIT_DAMAGE": 6.0,
+    "ATTACK_SPEED": 2.0,
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 6.0
+   },
+   "EPIC": {
+    "STRENGTH": 8.0,
+    "CRIT_CHANCE": 8.0,
+    "CRIT_DAMAGE": 8.0,
+    "ATTACK_SPEED": 3.0,
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 8.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 10.0,
+    "ATTACK_SPEED": 4.0,
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "CRIT_CHANCE": 12.0,
+    "CRIT_DAMAGE": 12.0,
+    "ATTACK_SPEED": 5.0,
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 12.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "DRAGON_HORN",
+  "bonus": {
+   "COMMON": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7All combat stats and &b✯ Magic Find &7are raised by &a1%&7.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "spiked",
+  "name": "Spiked",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_CHANCE": 2.0,
+    "CRIT_DAMAGE": 3.0,
+    "ATTACK_SPEED": 1.0,
+    "HEALTH": 2.0,
+    "DEFENSE": 2.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 3.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_CHANCE": 4.0,
+    "CRIT_DAMAGE": 4.0,
+    "ATTACK_SPEED": 1.0,
+    "HEALTH": 3.0,
+    "DEFENSE": 3.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 4.0
+   },
+   "RARE": {
+    "STRENGTH": 4.0,
+    "CRIT_CHANCE": 6.0,
+    "CRIT_DAMAGE": 6.0,
+    "ATTACK_SPEED": 2.0,
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 6.0
+   },
+   "EPIC": {
+    "STRENGTH": 8.0,
+    "CRIT_CHANCE": 8.0,
+    "CRIT_DAMAGE": 8.0,
+    "ATTACK_SPEED": 3.0,
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 8.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 10.0,
+    "ATTACK_SPEED": 4.0,
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 10.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "CRIT_CHANCE": 12.0,
+    "CRIT_DAMAGE": 12.0,
+    "ATTACK_SPEED": 5.0,
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "SPEED": 1.0,
+    "INTELLIGENCE": 12.0
+   }
+  },
+  "costs": {
+   "COMMON": 30000.0,
+   "UNCOMMON": 75000.0,
+   "RARE": 150000.0,
+   "EPIC": 300000.0,
+   "LEGENDARY": 600000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "DRAGON_SCALE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "perfect",
+  "name": "Perfect",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 25.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 35.0
+   },
+   "RARE": {
+    "DEFENSE": 50.0
+   },
+   "EPIC": {
+    "DEFENSE": 65.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 80.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 110.0
+   }
+  },
+  "costs": {
+   "COMMON": 25000.0,
+   "UNCOMMON": 50000.0,
+   "RARE": 150000.0,
+   "EPIC": 300000.0,
+   "LEGENDARY": 600000.0,
+   "MYTHIC": 800000.0
+  },
+  "stone": "DIAMOND_ATOM",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Raises your ❈ Defense by &a2%&7.",
+    "values": [
+     2.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "royal",
+  "name": "Royal",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 4.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 6.0,
+    "MINING_FORTUNE": 1.0
+   },
+   "RARE": {
+    "MINING_SPEED": 8.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 14.0,
+    "MINING_FORTUNE": 3.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 18.0,
+    "MINING_FORTUNE": 3.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 18.0,
+    "MINING_FORTUNE": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 100000.0,
+   "DIVINE": 100000.0
+  },
+  "stone": "DWARVEN_TREASURE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+15% &2᠅ Mithril Powder &7from mining while a Mining Jubilee is on.",
+    "values": [
+     15.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "hyper",
+  "name": "Hyper",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "ATTACK_SPEED": 2.0,
+    "SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 4.0,
+    "ATTACK_SPEED": 3.0,
+    "SPEED": 1.0
+   },
+   "RARE": {
+    "STRENGTH": 6.0,
+    "ATTACK_SPEED": 4.0,
+    "SPEED": 2.0
+   },
+   "EPIC": {
+    "STRENGTH": 7.0,
+    "ATTACK_SPEED": 5.0,
+    "SPEED": 2.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 10.0,
+    "ATTACK_SPEED": 6.0,
+    "SPEED": 3.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 12.0,
+    "ATTACK_SPEED": 7.0,
+    "SPEED": 5.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 200000.0
+  },
+  "stone": "ENDSTONE_GEODE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Landing a kill gives &f+1✦ Speed &7for &a5s&7.",
+    "values": [
+     1.0,
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Landing a kill gives &f+2✦ Speed &7for &a5s&7.",
+    "values": [
+     2.0,
+     5.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Landing a kill gives &f+3✦ Speed &7for &a5s&7.",
+    "values": [
+     3.0,
+     5.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Landing a kill gives &f+4✦ Speed &7for &a5s&7.",
+    "values": [
+     4.0,
+     5.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Landing a kill gives &f+5✦ Speed &7for &a5s&7.",
+    "values": [
+     5.0,
+     5.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Landing a kill gives &f+6✦ Speed &7for &a5s&7.",
+    "values": [
+     6.0,
+     5.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "coldfused",
+  "name": "Coldfused",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "BURSTFIRE_DAGGER",
+   "BURSTMAW_DAGGER",
+   "FIREDUST_DAGGER",
+   "HEARTFIRE_DAGGER",
+   "HEARTMAW_DAGGER",
+   "MAWDUST_DAGGER"
+  ],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 15.0,
+    "CRIT_DAMAGE": 20.0
+   },
+   "UNCOMMON": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 20.0,
+    "CRIT_DAMAGE": 30.0
+   },
+   "RARE": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 25.0,
+    "CRIT_DAMAGE": 40.0
+   },
+   "EPIC": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 35.0,
+    "CRIT_DAMAGE": 50.0
+   },
+   "LEGENDARY": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 45.0,
+    "CRIT_DAMAGE": 60.0
+   },
+   "MYTHIC": {
+    "MAGIC_FIND": 2.0,
+    "STRENGTH": 55.0,
+    "CRIT_DAMAGE": 75.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "ENTROPY_SUPPRESSOR",
+  "bonus": {
+   "COMMON": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "RARE": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7While a Wisp pet is out: &c+75❁ Strength&7, &9+55☠ Crit Damage&7, and fire pillars break twice as fast.",
+    "values": [
+     75.0,
+     55.0,
+     2.0,
+     30.0,
+     1.15,
+     60.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "sticky",
+  "name": "Sticky",
+  "kind": "stone",
+  "types": "FISHING_NET",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "UNCOMMON": {},
+   "RARE": {},
+   "EPIC": {},
+   "LEGENDARY": {},
+   "MYTHIC": {}
+  },
+  "costs": {
+   "UNCOMMON": 10000.0,
+   "RARE": 25000.0,
+   "EPIC": 100000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0
+  },
+  "stone": "EXTREMELY_MILD_ADHESIVE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+2.5 &7hunting fortune on water shards.",
+    "values": [
+     2.5
+    ]
+   }
+  },
+  "bonusImpl": false,
+  "otherStats": {
+   "UNCOMMON": {
+    "pull": 5.0
+   },
+   "RARE": {
+    "pull": 7.5
+   },
+   "EPIC": {
+    "pull": 10.0
+   },
+   "LEGENDARY": {
+    "pull": 15.0
+   },
+   "MYTHIC": {
+    "pull": 20.0
+   }
+  }
+ },
+ {
+  "id": "blooming",
+  "name": "Blooming",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 4.0,
+    "FARMING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 4.0,
+    "FARMING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 3.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 6.0,
+    "FARMING_FORTUNE": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 6.0,
+    "FARMING_FORTUNE": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 200000.0
+  },
+  "stone": "FLOWERING_BOUQUET",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "glacial",
+  "name": "Glacial",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_FORTUNE": 3.0
+   },
+   "UNCOMMON": {
+    "MINING_FORTUNE": 6.0
+   },
+   "RARE": {
+    "MINING_FORTUNE": 9.0
+   },
+   "EPIC": {
+    "MINING_FORTUNE": 13.0
+   },
+   "LEGENDARY": {
+    "MINING_FORTUNE": 16.0
+   },
+   "MYTHIC": {
+    "MINING_FORTUNE": 20.0
+   },
+   "DIVINE": {
+    "MINING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 800000.0
+  },
+  "stone": "FRIGID_HUSK",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+0.5☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     0.5,
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+0.7☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     0.7,
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+0.9☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     0.9,
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+1.1☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     1.1,
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+1.4☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     1.4,
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+1.7☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     1.7,
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+2☘ Mining Fortune &7for every &b1❄ Cold &7you carry.",
+    "values": [
+     2.0,
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "festive",
+  "name": "Festive",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 5.0,
+    "SEA_CREATURE_CHANCE": 0.05,
+    "FISHING_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 10.0,
+    "SEA_CREATURE_CHANCE": 0.05,
+    "FISHING_SPEED": 3.0
+   },
+   "RARE": {
+    "INTELLIGENCE": 15.0,
+    "SEA_CREATURE_CHANCE": 0.1,
+    "FISHING_SPEED": 4.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 20.0,
+    "SEA_CREATURE_CHANCE": 0.15,
+    "FISHING_SPEED": 6.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 25.0,
+    "SEA_CREATURE_CHANCE": 0.2,
+    "FISHING_SPEED": 8.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 30.0,
+    "SEA_CREATURE_CHANCE": 0.25,
+    "FISHING_SPEED": 10.0
+   }
+  },
+  "costs": {
+   "COMMON": 25000.0,
+   "UNCOMMON": 75000.0,
+   "RARE": 150000.0,
+   "EPIC": 250000.0,
+   "LEGENDARY": 400000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "FROZEN_BAUBLE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fanged",
+  "name": "Fanged",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [],
+  "materials": [
+   "IRON_SWORD"
+  ],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 30.0,
+    "ATTACK_SPEED": 2.0,
+    "CRIT_CHANCE": 3.0,
+    "VITALITY": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 35.0,
+    "ATTACK_SPEED": 3.0,
+    "CRIT_CHANCE": 4.0,
+    "VITALITY": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 40.0,
+    "ATTACK_SPEED": 4.0,
+    "CRIT_CHANCE": 5.0,
+    "VITALITY": 4.0
+   },
+   "EPIC": {
+    "STRENGTH": 50.0,
+    "ATTACK_SPEED": 6.0,
+    "CRIT_CHANCE": 7.0,
+    "VITALITY": 6.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 60.0,
+    "ATTACK_SPEED": 9.0,
+    "CRIT_CHANCE": 8.0,
+    "VITALITY": 8.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 65.0,
+    "ATTACK_SPEED": 10.0,
+    "CRIT_CHANCE": 10.0,
+    "VITALITY": 10.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 12500.0,
+   "RARE": 25000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 250000.0
+  },
+  "stone": "FULL_JAW_FANGING_KIT",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Every &a7th &7melee hit on a foe deals &c+100% &7damage.",
+    "values": [
+     7.0,
+     100.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "giant",
+  "name": "Giant",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 50.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 60.0
+   },
+   "RARE": {
+    "HEALTH": 80.0
+   },
+   "EPIC": {
+    "HEALTH": 120.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 180.0
+   },
+   "MYTHIC": {
+    "HEALTH": 240.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "GIANT_TOOTH",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "lustrous",
+  "name": "Lustrous",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 10.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 20.0,
+    "MINING_FORTUNE": 20.0
+   },
+   "RARE": {
+    "MINING_SPEED": 30.0,
+    "MINING_FORTUNE": 30.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 40.0,
+    "MINING_FORTUNE": 40.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 50.0,
+    "MINING_FORTUNE": 50.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 60.0,
+    "MINING_FORTUNE": 60.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 75.0,
+    "MINING_FORTUNE": 75.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 800000.0
+  },
+  "stone": "GLEAMING_CRYSTAL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&e+5▚ Mining Spread &7during mining festivals.",
+    "values": [
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&e+10▚ Mining Spread &7during mining festivals.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&e+15▚ Mining Spread &7during mining festivals.",
+    "values": [
+     15.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&e+20▚ Mining Spread &7during mining festivals.",
+    "values": [
+     20.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&e+25▚ Mining Spread &7during mining festivals.",
+    "values": [
+     25.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&e+30▚ Mining Spread &7during mining festivals.",
+    "values": [
+     30.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&e+35▚ Mining Spread &7during mining festivals.",
+    "values": [
+     35.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "bountiful",
+  "name": "Bountiful",
+  "kind": "stone",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FARMING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 2.0,
+    "FARMING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "SPEED": 3.0,
+    "FARMING_FORTUNE": 3.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 5.0
+   },
+   "LEGENDARY": {
+    "SPEED": 8.0,
+    "FARMING_FORTUNE": 7.0
+   },
+   "MYTHIC": {
+    "SPEED": 13.0,
+    "FARMING_FORTUNE": 10.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "GOLDEN_BALL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "RARE": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "EPIC": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Earn &6+0.2 coins &7for every crop you harvest.",
+    "values": [
+     0.2
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "stiff",
+  "name": "Stiff",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 1.0,
+    "STRENGTH": 2.0
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 2.0,
+    "STRENGTH": 4.0
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 2.0,
+    "STRENGTH": 6.0
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 3.0,
+    "STRENGTH": 8.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 5.0,
+    "STRENGTH": 10.0
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 7.0,
+    "STRENGTH": 12.0
+   }
+  },
+  "costs": {
+   "COMMON": 4000.0,
+   "UNCOMMON": 7500.0,
+   "RARE": 15000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 75000.0,
+   "MYTHIC": 150000.0
+  },
+  "stone": "HARDENED_WOOD",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "deep_fried",
+  "name": "Deep Fried",
+  "kind": "stone",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 3.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 6.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 10.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 15.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 20.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0
+  },
+  "stone": "HASHBROWN",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Seasonings turn up &a+5% &7more often.",
+    "values": [
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Seasonings turn up &a+10% &7more often.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Seasonings turn up &a+15% &7more often.",
+    "values": [
+     15.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Seasonings turn up &a+20% &7more often.",
+    "values": [
+     20.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Seasonings turn up &a+25% &7more often.",
+    "values": [
+     25.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "heated",
+  "name": "Heated",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 5.0,
+    "MINING_FORTUNE": 3.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 6.0
+   },
+   "RARE": {
+    "MINING_SPEED": 15.0,
+    "MINING_FORTUNE": 9.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 25.0,
+    "MINING_FORTUNE": 13.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 40.0,
+    "MINING_FORTUNE": 16.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 55.0,
+    "MINING_FORTUNE": 20.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 70.0,
+    "MINING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 600000.0
+  },
+  "stone": "HOT_STUFF",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+0.3☘ Mining Fortune &7and &6+1⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.3,
+     1.0,
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+0.4☘ Mining Fortune &7and &6+1.4⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.4,
+     1.4,
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+0.5☘ Mining Fortune &7and &6+1.8⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.5,
+     1.8,
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+0.6☘ Mining Fortune &7and &6+2.2⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.6,
+     2.2,
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+0.7☘ Mining Fortune &7and &6+2.8⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.7,
+     2.8,
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+0.8☘ Mining Fortune &7and &6+3.4⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     0.8,
+     3.4,
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+1☘ Mining Fortune &7and &6+4⸕ Mining Speed &7per &c1♨ Heat&7.",
+    "values": [
+     1.0,
+     4.0,
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "jerry_s",
+  "name": "Goober's",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "ASPECT_OF_THE_JERRY",
+   "ASPECT_OF_THE_JERRY_SIGNATURE"
+  ],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 50.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 50.0
+   },
+   "RARE": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 50.0
+   }
+  },
+  "costs": {
+   "COMMON": 1.0,
+   "UNCOMMON": 2.0,
+   "RARE": 3.0
+  },
+  "stone": "JERRY_STONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "jaded",
+  "name": "Jaded",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 5.0,
+    "MINING_FORTUNE": 5.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 12.0,
+    "MINING_FORTUNE": 10.0
+   },
+   "RARE": {
+    "MINING_SPEED": 20.0,
+    "MINING_FORTUNE": 15.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 30.0,
+    "MINING_FORTUNE": 20.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 45.0,
+    "MINING_FORTUNE": 25.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 60.0,
+    "MINING_FORTUNE": 30.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "JADERALD",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "chomp",
+  "name": "Chomp",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 5.0,
+    "CRIT_CHANCE": 5.0,
+    "FISHING_SPEED": 2.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 10.0,
+    "CRIT_CHANCE": 10.0,
+    "FISHING_SPEED": 3.0
+   },
+   "RARE": {
+    "STRENGTH": 17.0,
+    "CRIT_CHANCE": 17.0,
+    "FISHING_SPEED": 5.0
+   },
+   "EPIC": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 25.0,
+    "FISHING_SPEED": 7.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 35.0,
+    "CRIT_CHANCE": 35.0,
+    "FISHING_SPEED": 9.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 50.0,
+    "CRIT_CHANCE": 50.0,
+    "FISHING_SPEED": 11.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "KUUDRA_MANDIBLE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Each distinct lava sea creature slain with this rod trims their ❤ Health by &a1%&7, down to &a-20%&7.",
+    "values": [
+     1.0,
+     20.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "magnetic",
+  "name": "Magnetic",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 10.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 20.0
+   },
+   "RARE": {
+    "MINING_SPEED": 30.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 40.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 50.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 60.0
+   }
+  },
+  "costs": {
+   "COMMON": 250.0,
+   "UNCOMMON": 500.0,
+   "RARE": 1000.0,
+   "EPIC": 2500.0,
+   "LEGENDARY": 5000.0,
+   "MYTHIC": 10000.0,
+   "DIVINE": 15000.0
+  },
+  "stone": "LAPIS_CRYSTAL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Mining grants &a+25% &7more skill experience.",
+    "values": [
+     25.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Mining grants &a+35% &7more skill experience.",
+    "values": [
+     35.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Mining grants &a+45% &7more skill experience.",
+    "values": [
+     45.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Mining grants &a+55% &7more skill experience.",
+    "values": [
+     55.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Mining grants &a+65% &7more skill experience.",
+    "values": [
+     65.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Mining grants &a+80% &7more skill experience.",
+    "values": [
+     80.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Mining grants &a+100% &7more skill experience.",
+    "values": [
+     100.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "earthy",
+  "name": "Earthy",
+  "kind": "stone",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 5.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 10.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 15.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 20.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0
+  },
+  "stone": "LARGE_WALNUT",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+5% &7sowdust from farming.",
+    "values": [
+     5.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "lucky",
+  "name": "Lucky",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 1.0,
+    "MAGIC_FIND": 1.0
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 2.0,
+    "MAGIC_FIND": 2.0
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 2.0,
+    "MAGIC_FIND": 3.0
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 3.0,
+    "MAGIC_FIND": 4.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 5.0,
+    "MAGIC_FIND": 5.0
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 7.0,
+    "MAGIC_FIND": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "LUCKY_DICE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "groovy",
+  "name": "Groovy",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "FORAGING_FORTUNE": 4.0,
+    "FORAGING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "FORAGING_FORTUNE": 6.0,
+    "FORAGING_WISDOM": 2.0
+   },
+   "RARE": {
+    "FORAGING_FORTUNE": 8.0,
+    "FORAGING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "FORAGING_FORTUNE": 10.0,
+    "FORAGING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "FORAGING_FORTUNE": 12.0,
+    "FORAGING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "FORAGING_FORTUNE": 15.0,
+    "FORAGING_WISDOM": 6.0
+   },
+   "DIVINE": {
+    "FORAGING_FORTUNE": 15.0,
+    "FORAGING_WISDOM": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 20000.0,
+   "EPIC": 30000.0,
+   "LEGENDARY": 40000.0,
+   "MYTHIC": 50000.0,
+   "DIVINE": 50000.0
+  },
+  "stone": "MANGROVE_GEM",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "mantid",
+  "name": "Mantid",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "PEST_CHANCE": 0.5,
+    "FARMING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "PEST_CHANCE": 0.5,
+    "FARMING_FORTUNE": 4.0
+   },
+   "RARE": {
+    "PEST_CHANCE": 1.0,
+    "FARMING_FORTUNE": 6.0
+   },
+   "EPIC": {
+    "PEST_CHANCE": 1.5,
+    "FARMING_FORTUNE": 8.0
+   },
+   "LEGENDARY": {
+    "PEST_CHANCE": 2.0,
+    "FARMING_FORTUNE": 10.0
+   },
+   "MYTHIC": {
+    "PEST_CHANCE": 2.5,
+    "FARMING_FORTUNE": 12.0
+   },
+   "DIVINE": {
+    "PEST_CHANCE": 2.5,
+    "FARMING_FORTUNE": 14.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 150000.0,
+   "DIVINE": 150000.0
+  },
+  "stone": "MANTID_CLAW",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Each pest slain grants &2+0.25ൠ Bonus Pest Chance &7for &a10 &7minutes, up to &25ൠ&7.",
+    "values": [
+     0.25,
+     10.0,
+     5.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "marshy",
+  "name": "Marshy",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 0.1,
+    "FORAGING_FORTUNE": 0.5,
+    "FISHING_SPEED": 0.2
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 0.2,
+    "FORAGING_FORTUNE": 1.0,
+    "FISHING_SPEED": 0.4
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 0.3,
+    "FORAGING_FORTUNE": 1.5,
+    "FISHING_SPEED": 0.6
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 0.5,
+    "FORAGING_FORTUNE": 2.5,
+    "FISHING_SPEED": 1.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 0.7,
+    "FORAGING_FORTUNE": 3.5,
+    "FISHING_SPEED": 1.4
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 0.9,
+    "FORAGING_FORTUNE": 4.5,
+    "FISHING_SPEED": 1.8
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 25000.0,
+   "RARE": 100000.0,
+   "EPIC": 250000.0,
+   "LEGENDARY": 500000.0,
+   "MYTHIC": 1000000.0
+  },
+  "stone": "MARSHROOM",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+1% &7forest whispers.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "gilded",
+  "name": "Gilded",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "MIDAS_SWORD",
+   "MIDAS_STAFF",
+   "STARRED_MIDAS_STAFF",
+   "STARRED_MIDAS_SWORD"
+  ],
+  "materials": [],
+  "rarities": [
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "LEGENDARY": {
+    "DAMAGE": 75.0,
+    "STRENGTH": 75.0,
+    "ABILITY_DAMAGE": 8.0
+   },
+   "MYTHIC": {
+    "DAMAGE": 90.0,
+    "STRENGTH": 90.0,
+    "ABILITY_DAMAGE": 10.0
+   }
+  },
+  "costs": {
+   "LEGENDARY": 5000000.0,
+   "MYTHIC": 10000000.0
+  },
+  "stone": "MIDAS_JEWEL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "UNCOMMON": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "RARE": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "EPIC": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "LEGENDARY": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "MYTHIC": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   },
+   "DIVINE": {
+    "text": "&7Kills sometimes shower a nearby player with a handful of coins.",
+    "values": []
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "fortified",
+  "name": "Fortified",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 12.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 14.0
+   },
+   "RARE": {
+    "DEFENSE": 17.0
+   },
+   "EPIC": {
+    "DEFENSE": 20.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 25.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 30.0
+   },
+   "DIVINE": {
+    "DEFENSE": 36.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 400000.0
+  },
+  "stone": "METEOR_SHARD",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "moil",
+  "name": "Moil",
+  "kind": "stone",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "FORAGING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "FORAGING_WISDOM": 1.0
+   },
+   "RARE": {
+    "FORAGING_WISDOM": 2.0
+   },
+   "EPIC": {
+    "FORAGING_WISDOM": 2.0
+   },
+   "LEGENDARY": {
+    "FORAGING_WISDOM": 3.0
+   },
+   "MYTHIC": {
+    "FORAGING_WISDOM": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 1000.0,
+   "UNCOMMON": 5000.0,
+   "RARE": 10000.0,
+   "EPIC": 15000.0,
+   "LEGENDARY": 50000.0,
+   "MYTHIC": 75000.0
+  },
+  "stone": "MOIL_LOG",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&3+1☯ Foraging Wisdom&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&3+1☯ Foraging Wisdom&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&3+2☯ Foraging Wisdom&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&3+2☯ Foraging Wisdom&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&3+3☯ Foraging Wisdom&7.",
+    "values": [
+     3.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&3+3☯ Foraging Wisdom&7.",
+    "values": [
+     3.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "cubic",
+  "name": "Cubic",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "HEALTH": 5.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 5.0,
+    "HEALTH": 7.0
+   },
+   "RARE": {
+    "STRENGTH": 7.0,
+    "HEALTH": 10.0
+   },
+   "EPIC": {
+    "STRENGTH": 10.0,
+    "HEALTH": 15.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 12.0,
+    "HEALTH": 20.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 15.0,
+    "HEALTH": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 4000.0,
+   "UNCOMMON": 7500.0,
+   "RARE": 15000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 75000.0,
+   "MYTHIC": 150000.0
+  },
+  "stone": "MOLTEN_CUBE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Take &a2% &7less damage from Nether creatures.",
+    "values": [
+     2.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "moonglade",
+  "name": "Moonglade",
+  "kind": "stone",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "FORAGING_FORTUNE": 4.0,
+    "FORAGING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "FORAGING_FORTUNE": 6.0,
+    "FORAGING_WISDOM": 2.0
+   },
+   "RARE": {
+    "FORAGING_FORTUNE": 8.0,
+    "FORAGING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "FORAGING_FORTUNE": 10.0,
+    "FORAGING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "FORAGING_FORTUNE": 12.0,
+    "FORAGING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "FORAGING_FORTUNE": 15.0,
+    "FORAGING_WISDOM": 6.0
+   },
+   "DIVINE": {
+    "FORAGING_FORTUNE": 15.0,
+    "FORAGING_WISDOM": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 20000.0,
+   "EPIC": 30000.0,
+   "LEGENDARY": 40000.0,
+   "MYTHIC": 50000.0,
+   "DIVINE": 50000.0
+  },
+  "stone": "MOONGLADE_JEWEL",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "lunar",
+  "name": "Lunar",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 1.0,
+    "FARMING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 1.0,
+    "FARMING_WISDOM": 1.0
+   },
+   "RARE": {
+    "SPEED": 2.0,
+    "FARMING_WISDOM": 2.0
+   },
+   "EPIC": {
+    "SPEED": 2.0,
+    "FARMING_WISDOM": 2.0
+   },
+   "LEGENDARY": {
+    "SPEED": 3.0,
+    "FARMING_WISDOM": 3.0
+   },
+   "MYTHIC": {
+    "SPEED": 4.0,
+    "FARMING_WISDOM": 4.0
+   },
+   "DIVINE": {
+    "SPEED": 4.0,
+    "FARMING_WISDOM": 4.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 200000.0,
+   "DIVINE": 200000.0
+  },
+  "stone": "MOONSTONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "majestic",
+  "name": "Majestic",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "SAFARI_BELT"
+  ],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "HUNTING_WISDOM": 0.5,
+    "SWEEP": 0.5,
+    "FORAGING_FORTUNE": 2.0,
+    "HUNTING_FORTUNE": 0.5
+   },
+   "UNCOMMON": {
+    "HUNTING_WISDOM": 1.0,
+    "SWEEP": 1.0,
+    "FORAGING_FORTUNE": 4.0,
+    "HUNTING_FORTUNE": 1.0
+   },
+   "RARE": {
+    "HUNTING_WISDOM": 1.5,
+    "SWEEP": 1.5,
+    "FORAGING_FORTUNE": 6.0,
+    "HUNTING_FORTUNE": 1.5
+   },
+   "EPIC": {
+    "HUNTING_WISDOM": 2.0,
+    "SWEEP": 2.0,
+    "FORAGING_FORTUNE": 8.0,
+    "HUNTING_FORTUNE": 2.0
+   },
+   "LEGENDARY": {
+    "HUNTING_WISDOM": 3.0,
+    "SWEEP": 3.0,
+    "FORAGING_FORTUNE": 12.0,
+    "HUNTING_FORTUNE": 3.0
+   },
+   "MYTHIC": {
+    "HUNTING_WISDOM": 4.0,
+    "SWEEP": 4.0,
+    "FORAGING_FORTUNE": 16.0,
+    "HUNTING_FORTUNE": 4.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 25000.0,
+   "RARE": 100000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "MORNING_DEW",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&f+50 Speed &7while on a Critter Safari hunt.",
+    "values": [
+     50.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "necrotic",
+  "name": "Necrotic",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 30.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 60.0
+   },
+   "RARE": {
+    "INTELLIGENCE": 90.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 120.0
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 150.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 200.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 1000000.0
+  },
+  "stone": "NECROMANCER_BROOCH",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "fruitful",
+  "name": "Fruitful",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 5.0,
+    "MINING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 4.0
+   },
+   "RARE": {
+    "MINING_SPEED": 15.0,
+    "MINING_FORTUNE": 6.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 25.0,
+    "MINING_FORTUNE": 8.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 40.0,
+    "MINING_FORTUNE": 10.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 55.0,
+    "MINING_FORTUNE": 12.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 70.0,
+    "MINING_FORTUNE": 15.0
+   }
+  },
+  "costs": {
+   "COMMON": 100.0,
+   "UNCOMMON": 250.0,
+   "RARE": 500.0,
+   "EPIC": 1000.0,
+   "LEGENDARY": 2500.0,
+   "MYTHIC": 5000.0,
+   "DIVINE": 10000.0
+  },
+  "stone": "ONYX",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+25❈ Defense &7while on a mining island.",
+    "values": [
+     25.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+30❈ Defense &7while on a mining island.",
+    "values": [
+     30.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+35❈ Defense &7while on a mining island.",
+    "values": [
+     35.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+40❈ Defense &7while on a mining island.",
+    "values": [
+     40.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+50❈ Defense &7while on a mining island.",
+    "values": [
+     50.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+60❈ Defense &7while on a mining island.",
+    "values": [
+     60.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+70❈ Defense &7while on a mining island.",
+    "values": [
+     70.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "precise",
+  "name": "Precise",
+  "kind": "stone",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 3.0,
+    "CRIT_CHANCE": 8.0,
+    "CRIT_DAMAGE": 5.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 7.0,
+    "CRIT_CHANCE": 9.0,
+    "CRIT_DAMAGE": 10.0
+   },
+   "RARE": {
+    "STRENGTH": 12.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 18.0
+   },
+   "EPIC": {
+    "STRENGTH": 18.0,
+    "CRIT_CHANCE": 11.0,
+    "CRIT_DAMAGE": 32.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 13.0,
+    "CRIT_DAMAGE": 50.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 34.0,
+    "CRIT_CHANCE": 15.0,
+    "CRIT_DAMAGE": 70.0
+   }
+  },
+  "costs": {
+   "COMMON": 30000.0,
+   "UNCOMMON": 75000.0,
+   "RARE": 150000.0,
+   "EPIC": 300000.0,
+   "LEGENDARY": 600000.0,
+   "MYTHIC": 1200000.0
+  },
+  "stone": "OPTICAL_LENS",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Arrows that strike a mob's head deal &c+10% &7damage.",
+    "values": [
+     10.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "overpriced",
+  "name": "Overpriced",
+  "kind": "stone",
+  "types": "FARMING_TOOL",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 5.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 10.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 15.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 20.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0
+  },
+  "stone": "OVERPRICED_DRINK",
+  "bonus": null,
+  "bonusImpl": false,
+  "otherStats": {
+   "COMMON": {
+    "overbloom": 1.0
+   },
+   "UNCOMMON": {
+    "overbloom": 2.0
+   },
+   "RARE": {
+    "overbloom": 3.0
+   },
+   "EPIC": {
+    "overbloom": 5.0
+   },
+   "LEGENDARY": {
+    "overbloom": 7.0
+   }
+  }
+ },
+ {
+  "id": "trashy",
+  "name": "Trashy",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 0.5,
+    "FISHING_SPEED": 1.0
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 1.0,
+    "FISHING_SPEED": 2.0
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 1.5,
+    "FISHING_SPEED": 3.0
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 2.0,
+    "FISHING_SPEED": 4.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 3.0,
+    "FISHING_SPEED": 6.0
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 4.0,
+    "FISHING_SPEED": 8.0
+   },
+   "DIVINE": {
+    "SEA_CREATURE_CHANCE": 4.0,
+    "FISHING_SPEED": 8.0
+   }
+  },
+  "costs": {
+   "COMMON": 2500.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 80000.0,
+   "MYTHIC": 120000.0,
+   "DIVINE": 500000.0
+  },
+  "stone": "OVERFLOWING_TRASH_CAN",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "mossy",
+  "name": "Mossy",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 3.0,
+    "FARMING_FORTUNE": 5.0
+   },
+   "UNCOMMON": {
+    "SPEED": 3.0,
+    "FARMING_FORTUNE": 10.0
+   },
+   "RARE": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 15.0
+   },
+   "EPIC": {
+    "SPEED": 5.0,
+    "FARMING_FORTUNE": 20.0
+   },
+   "LEGENDARY": {
+    "SPEED": 7.0,
+    "FARMING_FORTUNE": 25.0
+   },
+   "MYTHIC": {
+    "SPEED": 7.0,
+    "FARMING_FORTUNE": 30.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0
+  },
+  "stone": "OVERGROWN_GRASS",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "stellar",
+  "name": "Stellar",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 5.0,
+    "MINING_FORTUNE": 5.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 10.0
+   },
+   "RARE": {
+    "MINING_SPEED": 15.0,
+    "MINING_FORTUNE": 15.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 25.0,
+    "MINING_FORTUNE": 20.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 40.0,
+    "MINING_FORTUNE": 25.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 55.0,
+    "MINING_FORTUNE": 35.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 70.0,
+    "MINING_FORTUNE": 50.0
+   }
+  },
+  "costs": {
+   "COMMON": 25000.0,
+   "UNCOMMON": 50000.0,
+   "RARE": 100000.0,
+   "EPIC": 200000.0,
+   "LEGENDARY": 400000.0,
+   "MYTHIC": 800000.0,
+   "DIVINE": 800000.0
+  },
+  "stone": "PETRIFIED_STARFALL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Near a fallen star: &a+8% &2᠅ Mithril Powder &7and &6+25☘ Mining Fortune&7.",
+    "values": [
+     8.0,
+     25.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Near a fallen star: &a+9% &2᠅ Mithril Powder &7and &6+30☘ Mining Fortune&7.",
+    "values": [
+     9.0,
+     30.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Near a fallen star: &a+10% &2᠅ Mithril Powder &7and &6+35☘ Mining Fortune&7.",
+    "values": [
+     10.0,
+     35.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Near a fallen star: &a+12% &2᠅ Mithril Powder &7and &6+45☘ Mining Fortune&7.",
+    "values": [
+     12.0,
+     45.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Near a fallen star: &a+14% &2᠅ Mithril Powder &7and &6+55☘ Mining Fortune&7.",
+    "values": [
+     14.0,
+     55.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Near a fallen star: &a+17% &2᠅ Mithril Powder &7and &6+65☘ Mining Fortune&7.",
+    "values": [
+     17.0,
+     65.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Near a fallen star: &a+20% &2᠅ Mithril Powder &7and &6+75☘ Mining Fortune&7.",
+    "values": [
+     20.0,
+     75.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "scraped",
+  "name": "Scraped",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 1.0
+   },
+   "RARE": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 1.0
+   },
+   "EPIC": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 2.0
+   },
+   "LEGENDARY": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 2.0
+   },
+   "MYTHIC": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 2.0
+   },
+   "DIVINE": {
+    "BREAKING_POWER": 1.0,
+    "MINING_WISDOM": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 15000.0,
+   "UNCOMMON": 30000.0,
+   "RARE": 60000.0,
+   "EPIC": 125000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0,
+   "DIVINE": 500000.0
+  },
+  "stone": "POCKET_ICEBERG",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+25☘ Mining Fortune &7on blocks that match this tool's Ⓟ Breaking Power.",
+    "values": [
+     25.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "ancient",
+  "name": "Ancient",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_DAMAGE": 3.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 6.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 8.0,
+    "CRIT_CHANCE": 5.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 9.0
+   },
+   "RARE": {
+    "STRENGTH": 12.0,
+    "CRIT_CHANCE": 7.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 12.0
+   },
+   "EPIC": {
+    "STRENGTH": 18.0,
+    "CRIT_CHANCE": 9.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 16.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "CRIT_CHANCE": 12.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 20.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 35.0,
+    "CRIT_CHANCE": 15.0,
+    "HEALTH": 7.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 30000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 50000.0,
+   "MYTHIC": 60000.0
+  },
+  "stone": "PRECURSOR_GEAR",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&9+1☠ Crit Damage &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "undead",
+  "name": "Undead",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 1.0,
+    "ATTACK_SPEED": 1.0,
+    "HEALTH": 8.0,
+    "DEFENSE": 6.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 2.0,
+    "ATTACK_SPEED": 2.0,
+    "HEALTH": 8.0,
+    "DEFENSE": 8.0
+   },
+   "RARE": {
+    "STRENGTH": 2.0,
+    "ATTACK_SPEED": 3.0,
+    "HEALTH": 12.0,
+    "DEFENSE": 12.0
+   },
+   "EPIC": {
+    "STRENGTH": 3.0,
+    "ATTACK_SPEED": 4.0,
+    "HEALTH": 18.0,
+    "DEFENSE": 18.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 5.0,
+    "ATTACK_SPEED": 5.0,
+    "HEALTH": 25.0,
+    "DEFENSE": 25.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 7.0,
+    "ATTACK_SPEED": 6.0,
+    "HEALTH": 33.0,
+    "DEFENSE": 33.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0
+  },
+  "stone": "PREMIUM_FLESH",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Take &a2% &7less damage from zombies, skeletons, withers and zombified piglins.",
+    "values": [
+     2.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "blood_soaked",
+  "name": "Blood-Soaked",
+  "kind": "stone",
+  "types": "CLOAK",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 6.0,
+    "DEFENSE": 1.0,
+    "VITALITY": 1.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 8.0,
+    "DEFENSE": 2.0,
+    "VITALITY": 1.0
+   },
+   "RARE": {
+    "HEALTH": 8.0,
+    "DEFENSE": 3.0,
+    "VITALITY": 2.0
+   },
+   "EPIC": {
+    "HEALTH": 9.0,
+    "DEFENSE": 4.0,
+    "VITALITY": 2.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 10.0,
+    "DEFENSE": 5.0,
+    "VITALITY": 3.0
+   },
+   "MYTHIC": {
+    "HEALTH": 12.0,
+    "DEFENSE": 6.0,
+    "VITALITY": 3.0
+   },
+   "DIVINE": {
+    "HEALTH": 14.0,
+    "DEFENSE": 7.0,
+    "VITALITY": 4.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 400000.0
+  },
+  "stone": "PRESUMED_GALLON_OF_RED_PAINT",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "RARE": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "EPIC": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Life-stealing heals you &a1.15x &7as much.",
+    "values": [
+     1.15
+    ]
+   }
+  },
+  "bonusImpl": false,
+  "bonusBy": "enchanting"
+ },
+ {
+  "id": "mithraic",
+  "name": "Mithraic",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_FORTUNE": 3.0
+   },
+   "UNCOMMON": {
+    "MINING_FORTUNE": 6.0
+   },
+   "RARE": {
+    "MINING_FORTUNE": 9.0
+   },
+   "EPIC": {
+    "MINING_FORTUNE": 13.0
+   },
+   "LEGENDARY": {
+    "MINING_FORTUNE": 16.0
+   },
+   "MYTHIC": {
+    "MINING_FORTUNE": 20.0
+   },
+   "DIVINE": {
+    "MINING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 15000.0,
+   "UNCOMMON": 30000.0,
+   "RARE": 60000.0,
+   "EPIC": 125000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0,
+   "DIVINE": 500000.0
+  },
+  "stone": "PURE_MITHRIL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+10☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+15☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     15.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+20☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     20.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+25☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     25.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+30☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     30.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+40☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     40.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+50☘ Mining Fortune &7on mithril and titanium.",
+    "values": [
+     50.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "pitchin",
+  "name": "Pitchin'",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "FISHING_SPEED": 1.0,
+    "SEA_CREATURE_CHANCE": 1.0
+   },
+   "UNCOMMON": {
+    "FISHING_SPEED": 2.0,
+    "SEA_CREATURE_CHANCE": 1.0
+   },
+   "RARE": {
+    "FISHING_SPEED": 4.0,
+    "SEA_CREATURE_CHANCE": 2.0
+   },
+   "EPIC": {
+    "FISHING_SPEED": 6.0,
+    "SEA_CREATURE_CHANCE": 3.0
+   },
+   "LEGENDARY": {
+    "FISHING_SPEED": 8.0,
+    "SEA_CREATURE_CHANCE": 4.0
+   },
+   "MYTHIC": {
+    "FISHING_SPEED": 10.0,
+    "SEA_CREATURE_CHANCE": 5.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 40000.0,
+   "EPIC": 80000.0,
+   "LEGENDARY": 120000.0,
+   "MYTHIC": 280000.0
+  },
+  "stone": "PITCHIN_KOI",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "reinforced",
+  "name": "Reinforced",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 25.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 35.0
+   },
+   "RARE": {
+    "DEFENSE": 50.0
+   },
+   "EPIC": {
+    "DEFENSE": 65.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 80.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 110.0
+   }
+  },
+  "costs": {
+   "COMMON": 2500.0,
+   "UNCOMMON": 5000.0,
+   "RARE": 10000.0,
+   "EPIC": 25000.0,
+   "LEGENDARY": 50000.0,
+   "MYTHIC": 100000.0
+  },
+  "stone": "RARE_DIAMOND",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "ridiculous",
+  "name": "Ridiculous",
+  "kind": "stone",
+  "types": "HELMET",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_CHANCE": 1.0,
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0
+   },
+   "UNCOMMON": {
+    "CRIT_CHANCE": 2.0,
+    "HEALTH": 15.0,
+    "DEFENSE": 15.0
+   },
+   "RARE": {
+    "CRIT_CHANCE": 3.0,
+    "HEALTH": 20.0,
+    "DEFENSE": 20.0
+   },
+   "EPIC": {
+    "CRIT_CHANCE": 4.0,
+    "HEALTH": 25.0,
+    "DEFENSE": 25.0
+   },
+   "LEGENDARY": {
+    "CRIT_CHANCE": 5.0,
+    "HEALTH": 35.0,
+    "DEFENSE": 35.0
+   },
+   "MYTHIC": {
+    "CRIT_CHANCE": 6.0,
+    "HEALTH": 50.0,
+    "DEFENSE": 50.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0
+  },
+  "stone": "RED_NOSE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Sneak to let one rip: your ☣ Crit Chance drops by &c20% &7for &a20s&7, but you gain &a+30❈ Defense &7for &a5s &7and &b+50 mana&7. Needs &920% ☣ Crit Chance&7.",
+    "values": [
+     20.0,
+     20.0,
+     30.0,
+     5.0,
+     50.0,
+     20.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "loving",
+  "name": "Loving",
+  "kind": "stone",
+  "types": "CHESTPLATE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 4.0,
+    "DEFENSE": 4.0,
+    "INTELLIGENCE": 20.0,
+    "ABILITY_DAMAGE": 5.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 5.0,
+    "DEFENSE": 5.0,
+    "INTELLIGENCE": 40.0,
+    "ABILITY_DAMAGE": 5.0
+   },
+   "RARE": {
+    "HEALTH": 6.0,
+    "DEFENSE": 6.0,
+    "INTELLIGENCE": 60.0,
+    "ABILITY_DAMAGE": 5.0
+   },
+   "EPIC": {
+    "HEALTH": 8.0,
+    "DEFENSE": 7.0,
+    "INTELLIGENCE": 80.0,
+    "ABILITY_DAMAGE": 5.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0,
+    "INTELLIGENCE": 100.0,
+    "ABILITY_DAMAGE": 5.0
+   },
+   "MYTHIC": {
+    "HEALTH": 14.0,
+    "DEFENSE": 14.0,
+    "INTELLIGENCE": 120.0,
+    "ABILITY_DAMAGE": 5.0
+   }
+  },
+  "costs": {
+   "COMMON": 30000.0,
+   "UNCOMMON": 75000.0,
+   "RARE": 150000.0,
+   "EPIC": 300000.0,
+   "LEGENDARY": 600000.0,
+   "MYTHIC": 1200000.0
+  },
+  "stone": "RED_SCARF",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&c+5% &7ability damage.",
+    "values": [
+     5.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "refined",
+  "name": "Refined",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "MINING_WISDOM": 2.0
+   },
+   "RARE": {
+    "MINING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "MINING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "MINING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "MINING_WISDOM": 6.0
+   },
+   "DIVINE": {
+    "MINING_WISDOM": 7.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 10000.0,
+   "EPIC": 10000.0,
+   "MYTHIC": 10000.0,
+   "LEGENDARY": 10000.0,
+   "DIVINE": 10000.0
+  },
+  "stone": "REFINED_AMBER",
+  "bonus": {
+   "COMMON": {
+    "text": "&7A &a0.1% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.1
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7A &a0.13% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.13
+    ]
+   },
+   "RARE": {
+    "text": "&7A &a0.16% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.16
+    ]
+   },
+   "EPIC": {
+    "text": "&7A &a0.19% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.19
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7A &a0.22% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.22
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7A &a0.26% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.26
+    ]
+   },
+   "DIVINE": {
+    "text": "&7A &a0.3% &7chance for each ore you mine to drop as its enchanted form.",
+    "values": [
+     0.3
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "auspicious",
+  "name": "Auspicious",
+  "kind": "stone",
+  "types": "PICKAXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_FORTUNE": 3.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 20.0,
+    "MINING_FORTUNE": 6.0
+   },
+   "RARE": {
+    "MINING_SPEED": 30.0,
+    "MINING_FORTUNE": 9.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 40.0,
+    "MINING_FORTUNE": 13.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 50.0,
+    "MINING_FORTUNE": 16.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 75.0,
+    "MINING_FORTUNE": 20.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 100.0,
+    "MINING_FORTUNE": 25.0
+   }
+  },
+  "costs": {
+   "COMMON": 20000.0,
+   "UNCOMMON": 40000.0,
+   "RARE": 80000.0,
+   "EPIC": 150000.0,
+   "LEGENDARY": 300000.0,
+   "MYTHIC": 600000.0,
+   "DIVINE": 600000.0
+  },
+  "stone": "ROCK_GEMSTONE",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&6+0.4% ☘ Mining Fortune&7.",
+    "values": [
+     0.4
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&6+0.5% ☘ Mining Fortune&7.",
+    "values": [
+     0.5
+    ]
+   },
+   "RARE": {
+    "text": "&7&6+0.6% ☘ Mining Fortune&7.",
+    "values": [
+     0.6
+    ]
+   },
+   "EPIC": {
+    "text": "&7&6+0.7% ☘ Mining Fortune&7.",
+    "values": [
+     0.7
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&6+0.8% ☘ Mining Fortune&7.",
+    "values": [
+     0.8
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&6+0.9% ☘ Mining Fortune&7.",
+    "values": [
+     0.9
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&6+1% ☘ Mining Fortune&7.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "treacherous",
+  "name": "Treacherous",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 5.0,
+    "SEA_CREATURE_CHANCE": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 10.0,
+    "SEA_CREATURE_CHANCE": 2.0
+   },
+   "RARE": {
+    "STRENGTH": 15.0,
+    "SEA_CREATURE_CHANCE": 2.0
+   },
+   "EPIC": {
+    "STRENGTH": 20.0,
+    "SEA_CREATURE_CHANCE": 3.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 25.0,
+    "SEA_CREATURE_CHANCE": 5.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 30.0,
+    "SEA_CREATURE_CHANCE": 7.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 40000.0,
+   "EPIC": 80000.0,
+   "LEGENDARY": 120000.0,
+   "MYTHIC": 280000.0
+  },
+  "stone": "RUSTY_ANCHOR",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "empowered",
+  "name": "Empowered",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "HEALTH": 10.0,
+    "DEFENSE": 10.0
+   },
+   "UNCOMMON": {
+    "HEALTH": 15.0,
+    "DEFENSE": 15.0
+   },
+   "RARE": {
+    "HEALTH": 20.0,
+    "DEFENSE": 20.0
+   },
+   "EPIC": {
+    "HEALTH": 25.0,
+    "DEFENSE": 25.0
+   },
+   "LEGENDARY": {
+    "HEALTH": 35.0,
+    "DEFENSE": 35.0
+   },
+   "MYTHIC": {
+    "HEALTH": 50.0,
+    "DEFENSE": 50.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "SADAN_BROOCH",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&a+10☄ Mending &7while inside a dungeon.",
+    "values": [
+     10.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "salty",
+  "name": "Salty",
+  "kind": "stone",
+  "types": "ROD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 1.0
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 2.0
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 2.0
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 3.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 5.0
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 7.0
+   }
+  },
+  "costs": {
+   "COMMON": 2500.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 80000.0,
+   "MYTHIC": 120000.0
+  },
+  "stone": "SALT_CUBE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "bloodshot",
+  "name": "Bloodshot",
+  "kind": "stone",
+  "types": "BELT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_DAMAGE": 1.0,
+    "CRIT_CHANCE": 1.0,
+    "STRENGTH": 1.0
+   },
+   "UNCOMMON": {
+    "CRIT_DAMAGE": 2.0,
+    "CRIT_CHANCE": 2.0,
+    "STRENGTH": 2.0
+   },
+   "RARE": {
+    "CRIT_DAMAGE": 3.0,
+    "CRIT_CHANCE": 3.0,
+    "STRENGTH": 3.0
+   },
+   "EPIC": {
+    "CRIT_DAMAGE": 4.0,
+    "CRIT_CHANCE": 4.0,
+    "STRENGTH": 4.0
+   },
+   "LEGENDARY": {
+    "CRIT_DAMAGE": 5.0,
+    "CRIT_CHANCE": 5.0,
+    "STRENGTH": 5.0
+   },
+   "MYTHIC": {
+    "CRIT_DAMAGE": 6.0,
+    "CRIT_CHANCE": 6.0,
+    "STRENGTH": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 50000.0,
+   "UNCOMMON": 100000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2500000.0
+  },
+  "stone": "SHRIVELED_CORNEA",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "bustling",
+  "name": "Bustling",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "FARMING_FORTUNE": 1.0
+   },
+   "UNCOMMON": {
+    "FARMING_FORTUNE": 2.0
+   },
+   "RARE": {
+    "FARMING_FORTUNE": 4.0
+   },
+   "EPIC": {
+    "FARMING_FORTUNE": 6.0
+   },
+   "LEGENDARY": {
+    "FARMING_FORTUNE": 8.0
+   },
+   "MYTHIC": {
+    "FARMING_FORTUNE": 10.0
+   }
+  },
+  "costs": {
+   "COMMON": 1000.0,
+   "UNCOMMON": 2000.0,
+   "RARE": 3000.0,
+   "EPIC": 6000.0,
+   "LEGENDARY": 10000.0,
+   "MYTHIC": 15000.0
+  },
+  "stone": "SKYMART_BROCHURE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "spiritual",
+  "name": "Spiritual",
+  "kind": "stone",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 4.0,
+    "CRIT_CHANCE": 7.0,
+    "CRIT_DAMAGE": 10.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 8.0,
+    "CRIT_CHANCE": 8.0,
+    "CRIT_DAMAGE": 15.0
+   },
+   "RARE": {
+    "STRENGTH": 14.0,
+    "CRIT_CHANCE": 9.0,
+    "CRIT_DAMAGE": 23.0
+   },
+   "EPIC": {
+    "STRENGTH": 20.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 37.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 28.0,
+    "CRIT_CHANCE": 12.0,
+    "CRIT_DAMAGE": 55.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 38.0,
+    "CRIT_CHANCE": 14.0,
+    "CRIT_DAMAGE": 75.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "SPIRIT_DECOY",
+  "bonus": {
+   "COMMON": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7A &a10% &7chance to summon a spirit decoy when you slay a dungeon foe; nearby foes chase it instead of you.",
+    "values": [
+     10.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "squeaky",
+  "name": "Squeaky",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "PEST_CHANCE": 0.5,
+    "FARMING_FORTUNE": 2.0
+   },
+   "UNCOMMON": {
+    "PEST_CHANCE": 0.5,
+    "FARMING_FORTUNE": 4.0
+   },
+   "RARE": {
+    "PEST_CHANCE": 1.0,
+    "FARMING_FORTUNE": 6.0
+   },
+   "EPIC": {
+    "PEST_CHANCE": 1.5,
+    "FARMING_FORTUNE": 8.0
+   },
+   "LEGENDARY": {
+    "PEST_CHANCE": 2.0,
+    "FARMING_FORTUNE": 10.0
+   },
+   "MYTHIC": {
+    "PEST_CHANCE": 2.5,
+    "FARMING_FORTUNE": 12.0
+   },
+   "DIVINE": {
+    "PEST_CHANCE": 2.5,
+    "FARMING_FORTUNE": 12.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 150000.0,
+   "DIVINE": 150000.0
+  },
+  "stone": "SQUEAKY_TOY",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "RARE": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "EPIC": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Pests return &a2.5% &7sooner.",
+    "values": [
+     2.5
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "sunny",
+  "name": "Sunny",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "SPEED": 2.0,
+    "FARMING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "SPEED": 3.0,
+    "FARMING_WISDOM": 2.0
+   },
+   "RARE": {
+    "SPEED": 4.0,
+    "FARMING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "SPEED": 6.0,
+    "FARMING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "SPEED": 8.0,
+    "FARMING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "SPEED": 10.0,
+    "FARMING_WISDOM": 6.0
+   },
+   "DIVINE": {
+    "SPEED": 10.0,
+    "FARMING_WISDOM": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 5000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 20000.0,
+   "EPIC": 50000.0,
+   "LEGENDARY": 100000.0,
+   "MYTHIC": 200000.0,
+   "DIVINE": 200000.0
+  },
+  "stone": "SUNSTONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "suspicious",
+  "name": "Suspicious",
+  "kind": "stone",
+  "types": "SWORD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "CRIT_CHANCE": 1.0,
+    "CRIT_DAMAGE": 30.0,
+    "DAMAGE": 15.0
+   },
+   "UNCOMMON": {
+    "CRIT_CHANCE": 2.0,
+    "CRIT_DAMAGE": 40.0,
+    "DAMAGE": 15.0
+   },
+   "RARE": {
+    "CRIT_CHANCE": 3.0,
+    "CRIT_DAMAGE": 50.0,
+    "DAMAGE": 15.0
+   },
+   "EPIC": {
+    "CRIT_CHANCE": 5.0,
+    "CRIT_DAMAGE": 65.0,
+    "DAMAGE": 15.0
+   },
+   "LEGENDARY": {
+    "CRIT_CHANCE": 7.0,
+    "CRIT_DAMAGE": 85.0,
+    "DAMAGE": 15.0
+   },
+   "MYTHIC": {
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 110.0,
+    "DAMAGE": 15.0
+   }
+  },
+  "costs": {
+   "COMMON": 60000.0,
+   "UNCOMMON": 125000.0,
+   "RARE": 250000.0,
+   "EPIC": 500000.0,
+   "LEGENDARY": 1000000.0,
+   "MYTHIC": 2000000.0
+  },
+  "stone": "SUSPICIOUS_VIAL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&c+15 &7weapon damage.",
+    "values": [
+     15.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "strengthened",
+  "name": "Strengthened",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "DEFENSE": 3.0,
+    "STRENGTH": 2.0
+   },
+   "UNCOMMON": {
+    "DEFENSE": 4.0,
+    "STRENGTH": 3.0
+   },
+   "RARE": {
+    "DEFENSE": 5.0,
+    "STRENGTH": 4.0
+   },
+   "EPIC": {
+    "DEFENSE": 6.0,
+    "STRENGTH": 5.0
+   },
+   "LEGENDARY": {
+    "DEFENSE": 8.0,
+    "STRENGTH": 6.0
+   },
+   "MYTHIC": {
+    "DEFENSE": 10.0,
+    "STRENGTH": 7.0
+   },
+   "DIVINE": {
+    "DEFENSE": 12.0,
+    "STRENGTH": 8.0
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 400000.0
+  },
+  "stone": "SEARING_STONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "glistening",
+  "name": "Glistening",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "INTELLIGENCE": 5.0,
+    "TRUE_DEFENSE": 2.0
+   },
+   "UNCOMMON": {
+    "INTELLIGENCE": 6.0,
+    "TRUE_DEFENSE": 2.5
+   },
+   "RARE": {
+    "INTELLIGENCE": 8.0,
+    "TRUE_DEFENSE": 3.0
+   },
+   "EPIC": {
+    "INTELLIGENCE": 10.0,
+    "TRUE_DEFENSE": 3.5
+   },
+   "LEGENDARY": {
+    "INTELLIGENCE": 12.0,
+    "TRUE_DEFENSE": 4.0
+   },
+   "MYTHIC": {
+    "INTELLIGENCE": 15.0,
+    "TRUE_DEFENSE": 4.5
+   },
+   "DIVINE": {
+    "INTELLIGENCE": 18.0,
+    "TRUE_DEFENSE": 4.5
+   }
+  },
+  "costs": {
+   "COMMON": 7500.0,
+   "UNCOMMON": 15000.0,
+   "RARE": 30000.0,
+   "EPIC": 75000.0,
+   "LEGENDARY": 150000.0,
+   "MYTHIC": 300000.0,
+   "DIVINE": 400000.0
+  },
+  "stone": "SHINY_PRISM",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "snowy",
+  "name": "Snowy",
+  "kind": "stone",
+  "types": "EQUIPMENT",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "SEA_CREATURE_CHANCE": 0.2,
+    "FISHING_SPEED": 0.5
+   },
+   "UNCOMMON": {
+    "SEA_CREATURE_CHANCE": 0.2,
+    "FISHING_SPEED": 1.0
+   },
+   "RARE": {
+    "SEA_CREATURE_CHANCE": 0.4,
+    "FISHING_SPEED": 1.5
+   },
+   "EPIC": {
+    "SEA_CREATURE_CHANCE": 0.6,
+    "FISHING_SPEED": 2.0
+   },
+   "LEGENDARY": {
+    "SEA_CREATURE_CHANCE": 0.8,
+    "FISHING_SPEED": 2.5
+   },
+   "MYTHIC": {
+    "SEA_CREATURE_CHANCE": 1.0,
+    "FISHING_SPEED": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 25000.0,
+   "RARE": 50000.0,
+   "EPIC": 100000.0,
+   "LEGENDARY": 200000.0,
+   "MYTHIC": 300000.0
+  },
+  "stone": "TERRY_SNOWGLOBE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "dimensional",
+  "name": "Dimensional",
+  "kind": "stone",
+  "types": "ARMOR",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "DIVINE"
+  ],
+  "stats": {
+   "COMMON": {
+    "MINING_SPEED": 10.0,
+    "MINING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "MINING_SPEED": 15.0,
+    "MINING_WISDOM": 1.0
+   },
+   "RARE": {
+    "MINING_SPEED": 20.0,
+    "MINING_WISDOM": 1.0
+   },
+   "EPIC": {
+    "MINING_SPEED": 30.0,
+    "MINING_WISDOM": 2.0
+   },
+   "LEGENDARY": {
+    "MINING_SPEED": 40.0,
+    "MINING_WISDOM": 2.0
+   },
+   "MYTHIC": {
+    "MINING_SPEED": 50.0,
+    "MINING_WISDOM": 3.0
+   },
+   "DIVINE": {
+    "MINING_SPEED": 50.0,
+    "MINING_WISDOM": 3.0
+   }
+  },
+  "costs": {
+   "COMMON": 15000.0,
+   "UNCOMMON": 30000.0,
+   "RARE": 60000.0,
+   "EPIC": 125000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0,
+   "DIVINE": 500000.0
+  },
+  "stone": "TITANIUM_TESSERACT",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Titanium ore grants &2+10᠅ Mithril Powder&7.",
+    "values": [
+     10.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "toil",
+  "name": "Toil",
+  "kind": "stone",
+  "types": "AXE",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 5.0,
+    "CRIT_DAMAGE": 5.0,
+    "FORAGING_WISDOM": 1.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 7.0,
+    "CRIT_DAMAGE": 7.0,
+    "FORAGING_WISDOM": 2.0
+   },
+   "RARE": {
+    "STRENGTH": 10.0,
+    "CRIT_DAMAGE": 10.0,
+    "FORAGING_WISDOM": 3.0
+   },
+   "EPIC": {
+    "STRENGTH": 13.0,
+    "CRIT_DAMAGE": 13.0,
+    "FORAGING_WISDOM": 4.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 16.0,
+    "CRIT_DAMAGE": 16.0,
+    "FORAGING_WISDOM": 5.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 20.0,
+    "CRIT_DAMAGE": 20.0,
+    "FORAGING_WISDOM": 6.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 10000.0,
+   "RARE": 10000.0,
+   "EPIC": 10000.0,
+   "LEGENDARY": 10000.0,
+   "MYTHIC": 10000.0
+  },
+  "stone": "TOIL_LOG",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&3+1☯ Foraging Wisdom&7.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&3+2☯ Foraging Wisdom&7.",
+    "values": [
+     2.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&3+3☯ Foraging Wisdom&7.",
+    "values": [
+     3.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&3+4☯ Foraging Wisdom&7.",
+    "values": [
+     4.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&3+5☯ Foraging Wisdom&7.",
+    "values": [
+     5.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&3+6☯ Foraging Wisdom&7.",
+    "values": [
+     6.0
+    ]
+   }
+  },
+  "bonusImpl": false
+ },
+ {
+  "id": "warped",
+  "name": "Warped",
+  "kind": "stone",
+  "types": null,
+  "itemIds": [
+   "ASPECT_OF_THE_END",
+   "ASPECT_OF_THE_VOID"
+  ],
+  "materials": [],
+  "rarities": [
+   "RARE",
+   "EPIC",
+   "LEGENDARY"
+  ],
+  "stats": {
+   "RARE": {
+    "DAMAGE": 165.0,
+    "STRENGTH": 165.0,
+    "INTELLIGENCE": 65.0
+   },
+   "EPIC": {
+    "DAMAGE": 165.0,
+    "STRENGTH": 165.0,
+    "INTELLIGENCE": 100.0
+   },
+   "LEGENDARY": {
+    "DAMAGE": 165.0,
+    "STRENGTH": 165.0,
+    "INTELLIGENCE": 150.0
+   }
+  },
+  "costs": {
+   "RARE": 5000000.0,
+   "EPIC": 5000000.0,
+   "LEGENDARY": 5000000.0
+  },
+  "stone": "AOTE_STONE",
+  "bonus": null,
+  "bonusImpl": false
+ },
+ {
+  "id": "withered",
+  "name": "Withered",
+  "kind": "stone",
+  "types": "SWORD",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 60.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 75.0
+   },
+   "RARE": {
+    "STRENGTH": 90.0
+   },
+   "EPIC": {
+    "STRENGTH": 110.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 135.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 170.0
+   }
+  },
+  "costs": {
+   "COMMON": 10000.0,
+   "UNCOMMON": 20000.0,
+   "RARE": 30000.0,
+   "EPIC": 40000.0,
+   "LEGENDARY": 50000.0,
+   "MYTHIC": 60000.0
+  },
+  "stone": "WITHER_BLOOD",
+  "bonus": {
+   "COMMON": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "RARE": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7&c+1❁ Strength &7for each Catacombs level.",
+    "values": [
+     1.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ },
+ {
+  "id": "headstrong",
+  "name": "Headstrong",
+  "kind": "stone",
+  "types": "BOW",
+  "itemIds": [],
+  "materials": [],
+  "rarities": [
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC"
+  ],
+  "stats": {
+   "COMMON": {
+    "STRENGTH": 2.0,
+    "CRIT_CHANCE": 10.0,
+    "CRIT_DAMAGE": 4.0
+   },
+   "UNCOMMON": {
+    "STRENGTH": 5.0,
+    "CRIT_CHANCE": 11.0,
+    "CRIT_DAMAGE": 8.0
+   },
+   "RARE": {
+    "STRENGTH": 10.0,
+    "CRIT_CHANCE": 12.0,
+    "CRIT_DAMAGE": 16.0
+   },
+   "EPIC": {
+    "STRENGTH": 16.0,
+    "CRIT_CHANCE": 13.0,
+    "CRIT_DAMAGE": 28.0
+   },
+   "LEGENDARY": {
+    "STRENGTH": 23.0,
+    "CRIT_CHANCE": 15.0,
+    "CRIT_DAMAGE": 42.0
+   },
+   "MYTHIC": {
+    "STRENGTH": 33.0,
+    "CRIT_CHANCE": 17.0,
+    "CRIT_DAMAGE": 60.0
+   }
+  },
+  "costs": {
+   "COMMON": 15000.0,
+   "UNCOMMON": 30000.0,
+   "RARE": 60000.0,
+   "EPIC": 125000.0,
+   "LEGENDARY": 250000.0,
+   "MYTHIC": 500000.0
+  },
+  "stone": "SALMON_OPAL",
+  "bonus": {
+   "COMMON": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "UNCOMMON": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "RARE": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "EPIC": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "LEGENDARY": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "MYTHIC": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   },
+   "DIVINE": {
+    "text": "&7Arrows that strike a mob's head deal &c+8% &7damage.",
+    "values": [
+     8.0
+    ]
+   }
+  },
+  "bonusImpl": true
+ }
+]

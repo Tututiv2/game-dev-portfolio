@@ -1,0 +1,4 @@
+# Toolchain manager (Aftman) — pins the exact tool versions for this project.
+# Run `aftman install` after cloning to install these.
+[tools]
+rojo = "rojo-rbx/rojo@7.5.1"

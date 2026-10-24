@@ -1,0 +1,23 @@
+{
+  "name": "minimal",
+  "label": "Minimal",
+  "font": "Poppins",
+  "font_fallbacks": [
+    "Segoe UI",
+    "Arial"
+  ],
+  "bold": false,
+  "casing": "lower",
+  "size_pct": 5.4,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#FFFFFF",
+  "outline_colour": "#000000",
+  "outline_pct": 0.16,
+  "shadow_pct": 0.22,
+  "highlight": "dim",
+  "inactive_opacity": 0.6,
+  "position": "bottom_left",
+  "margin_v_pct": 9.0,
+  "margin_h_pct": 7.0,
+  "default_reveal": "TYPEWRITER"
+}

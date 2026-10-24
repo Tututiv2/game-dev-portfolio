@@ -1,0 +1,24 @@
+{
+  "name": "gradient_pop",
+  "label": "Gradient Pop",
+  "font": "Anton",
+  "font_fallbacks": [
+    "Bebas Neue",
+    "Impact",
+    "Arial Black"
+  ],
+  "bold": false,
+  "casing": "upper",
+  "size_pct": 10.5,
+  "base_colour": "#FF8A00",
+  "active_colour": "#FF8A00",
+  "gradient_colour": "#FFE600",
+  "outline_colour": "#000000",
+  "outline_pct": 0.42,
+  "shadow_pct": 0.35,
+  "highlight": "scale",
+  "active_scale": 114,
+  "position": "bottom",
+  "margin_v_pct": 15.0,
+  "default_reveal": "WORD_POP"
+}

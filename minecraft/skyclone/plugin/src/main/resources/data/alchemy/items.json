@@ -1,0 +1,8736 @@
+[
+ {
+  "id": "POTION",
+  "name": "Water Bottle",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#385DC6",
+  "maxStack": 64,
+  "npcSell": 2.0,
+  "lore": [
+   "&7Plain water in a bottle. Add &cNether Wart",
+   "&7at a brewing stand to begin a potion."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base"
+  ],
+  "extra": {
+   "alchemy": "WATER"
+  }
+ },
+ {
+  "id": "POTION_AWKWARD",
+  "name": "Awkward Potion",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#385DC6",
+  "maxStack": 64,
+  "npcSell": 3.0,
+  "lore": [
+   "&7A cloudy base for real brewing. Add a",
+   "&7&8Brewing Ingredient &7at a brewing stand",
+   "&7to give it an effect."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base"
+  ],
+  "extra": {
+   "alchemy": "AWKWARD"
+  }
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 1
+  },
+  "id": "POTION_SPEED;1",
+  "name": "Speed I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;1",
+  "name": "Speed I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 2
+  },
+  "id": "POTION_SPEED;2",
+  "name": "Speed II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;2",
+  "name": "Speed II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 3
+  },
+  "id": "POTION_SPEED;3",
+  "name": "Speed III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;3",
+  "name": "Speed III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 4
+  },
+  "id": "POTION_SPEED;4",
+  "name": "Speed IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;4",
+  "name": "Speed IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 5
+  },
+  "id": "POTION_SPEED;5",
+  "name": "Speed V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;5",
+  "name": "Speed V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 6
+  },
+  "id": "POTION_SPEED;6",
+  "name": "Speed VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;6",
+  "name": "Speed VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 7
+  },
+  "id": "POTION_SPEED;7",
+  "name": "Speed VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;7",
+  "name": "Speed VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 8
+  },
+  "id": "POTION_SPEED;8",
+  "name": "Speed VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#7CAFC6",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "speed",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPEED;8",
+  "name": "Speed VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 1
+  },
+  "id": "POTION_STRENGTH;1",
+  "name": "Strength I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;1",
+  "name": "Strength I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 2
+  },
+  "id": "POTION_STRENGTH;2",
+  "name": "Strength II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;2",
+  "name": "Strength II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 3
+  },
+  "id": "POTION_STRENGTH;3",
+  "name": "Strength III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;3",
+  "name": "Strength III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 4
+  },
+  "id": "POTION_STRENGTH;4",
+  "name": "Strength IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;4",
+  "name": "Strength IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 5
+  },
+  "id": "POTION_STRENGTH;5",
+  "name": "Strength V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;5",
+  "name": "Strength V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 6
+  },
+  "id": "POTION_STRENGTH;6",
+  "name": "Strength VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;6",
+  "name": "Strength VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 7
+  },
+  "id": "POTION_STRENGTH;7",
+  "name": "Strength VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;7",
+  "name": "Strength VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 8
+  },
+  "id": "POTION_STRENGTH;8",
+  "name": "Strength VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#932423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "strength",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STRENGTH;8",
+  "name": "Strength VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 1
+  },
+  "id": "POTION_HEALING;1",
+  "name": "Healing I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;1",
+  "name": "Healing I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 2
+  },
+  "id": "POTION_HEALING;2",
+  "name": "Healing II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;2",
+  "name": "Healing II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 3
+  },
+  "id": "POTION_HEALING;3",
+  "name": "Healing III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;3",
+  "name": "Healing III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 4
+  },
+  "id": "POTION_HEALING;4",
+  "name": "Healing IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;4",
+  "name": "Healing IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 5
+  },
+  "id": "POTION_HEALING;5",
+  "name": "Healing V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;5",
+  "name": "Healing V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 6
+  },
+  "id": "POTION_HEALING;6",
+  "name": "Healing VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;6",
+  "name": "Healing VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 7
+  },
+  "id": "POTION_HEALING;7",
+  "name": "Healing VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;7",
+  "name": "Healing VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 8
+  },
+  "id": "POTION_HEALING;8",
+  "name": "Healing VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#F82423",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "healing",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HEALING;8",
+  "name": "Healing VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 1
+  },
+  "id": "POTION_DAMAGE;1",
+  "name": "Damage I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;1",
+  "name": "Damage I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 2
+  },
+  "id": "POTION_DAMAGE;2",
+  "name": "Damage II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;2",
+  "name": "Damage II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 3
+  },
+  "id": "POTION_DAMAGE;3",
+  "name": "Damage III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;3",
+  "name": "Damage III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 4
+  },
+  "id": "POTION_DAMAGE;4",
+  "name": "Damage IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;4",
+  "name": "Damage IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 5
+  },
+  "id": "POTION_DAMAGE;5",
+  "name": "Damage V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;5",
+  "name": "Damage V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 6
+  },
+  "id": "POTION_DAMAGE;6",
+  "name": "Damage VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;6",
+  "name": "Damage VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 7
+  },
+  "id": "POTION_DAMAGE;7",
+  "name": "Damage VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;7",
+  "name": "Damage VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 8
+  },
+  "id": "POTION_DAMAGE;8",
+  "name": "Damage VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#430A09",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "damage",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DAMAGE;8",
+  "name": "Damage VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 1
+  },
+  "id": "POTION_JUMP_BOOST;1",
+  "name": "Jump Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_JUMP_BOOST;1",
+  "name": "Jump Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 2
+  },
+  "id": "POTION_JUMP_BOOST;2",
+  "name": "Jump Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_JUMP_BOOST;2",
+  "name": "Jump Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 3
+  },
+  "id": "POTION_JUMP_BOOST;3",
+  "name": "Jump Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_JUMP_BOOST;3",
+  "name": "Jump Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 4
+  },
+  "id": "POTION_JUMP_BOOST;4",
+  "name": "Jump Boost IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#22FF4C",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "jump_boost",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_JUMP_BOOST;4",
+  "name": "Jump Boost IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 1
+  },
+  "id": "POTION_RESISTANCE;1",
+  "name": "Resistance I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;1",
+  "name": "Resistance I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 2
+  },
+  "id": "POTION_RESISTANCE;2",
+  "name": "Resistance II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;2",
+  "name": "Resistance II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 3
+  },
+  "id": "POTION_RESISTANCE;3",
+  "name": "Resistance III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;3",
+  "name": "Resistance III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 4
+  },
+  "id": "POTION_RESISTANCE;4",
+  "name": "Resistance IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;4",
+  "name": "Resistance IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 5
+  },
+  "id": "POTION_RESISTANCE;5",
+  "name": "Resistance V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;5",
+  "name": "Resistance V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 6
+  },
+  "id": "POTION_RESISTANCE;6",
+  "name": "Resistance VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;6",
+  "name": "Resistance VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 7
+  },
+  "id": "POTION_RESISTANCE;7",
+  "name": "Resistance VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;7",
+  "name": "Resistance VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 8
+  },
+  "id": "POTION_RESISTANCE;8",
+  "name": "Resistance VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#99453A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "resistance",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RESISTANCE;8",
+  "name": "Resistance VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 1
+  },
+  "id": "POTION_WATER_BREATHING;1",
+  "name": "Water Breathing I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;1",
+  "name": "Water Breathing I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 2
+  },
+  "id": "POTION_WATER_BREATHING;2",
+  "name": "Water Breathing II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;2",
+  "name": "Water Breathing II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 3
+  },
+  "id": "POTION_WATER_BREATHING;3",
+  "name": "Water Breathing III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;3",
+  "name": "Water Breathing III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 4
+  },
+  "id": "POTION_WATER_BREATHING;4",
+  "name": "Water Breathing IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;4",
+  "name": "Water Breathing IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 5
+  },
+  "id": "POTION_WATER_BREATHING;5",
+  "name": "Water Breathing V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;5",
+  "name": "Water Breathing V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 6
+  },
+  "id": "POTION_WATER_BREATHING;6",
+  "name": "Water Breathing VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2E5299",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "water_breathing",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WATER_BREATHING;6",
+  "name": "Water Breathing VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 1
+  },
+  "id": "POTION_REGENERATION;1",
+  "name": "Regeneration I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;1",
+  "name": "Regeneration I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 2
+  },
+  "id": "POTION_REGENERATION;2",
+  "name": "Regeneration II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;2",
+  "name": "Regeneration II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 3
+  },
+  "id": "POTION_REGENERATION;3",
+  "name": "Regeneration III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;3",
+  "name": "Regeneration III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 4
+  },
+  "id": "POTION_REGENERATION;4",
+  "name": "Regeneration IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;4",
+  "name": "Regeneration IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 5
+  },
+  "id": "POTION_REGENERATION;5",
+  "name": "Regeneration V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;5",
+  "name": "Regeneration V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 6
+  },
+  "id": "POTION_REGENERATION;6",
+  "name": "Regeneration VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;6",
+  "name": "Regeneration VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 7
+  },
+  "id": "POTION_REGENERATION;7",
+  "name": "Regeneration VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;7",
+  "name": "Regeneration VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 8
+  },
+  "id": "POTION_REGENERATION;8",
+  "name": "Regeneration VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_REGENERATION;8",
+  "name": "Regeneration VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#CD5CAB",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "regeneration",
+   "level": 9
+  },
+  "id": "POTION_REGENERATION;9",
+  "name": "Regeneration IX Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 1
+  },
+  "id": "POTION_MANA;1",
+  "name": "Mana I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;1",
+  "name": "Mana I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 2
+  },
+  "id": "POTION_MANA;2",
+  "name": "Mana II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;2",
+  "name": "Mana II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 3
+  },
+  "id": "POTION_MANA;3",
+  "name": "Mana III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;3",
+  "name": "Mana III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 4
+  },
+  "id": "POTION_MANA;4",
+  "name": "Mana IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;4",
+  "name": "Mana IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 5
+  },
+  "id": "POTION_MANA;5",
+  "name": "Mana V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;5",
+  "name": "Mana V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 6
+  },
+  "id": "POTION_MANA;6",
+  "name": "Mana VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;6",
+  "name": "Mana VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 7
+  },
+  "id": "POTION_MANA;7",
+  "name": "Mana VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;7",
+  "name": "Mana VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 8
+  },
+  "id": "POTION_MANA;8",
+  "name": "Mana VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#3D8AE8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mana",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MANA;8",
+  "name": "Mana VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 1
+  },
+  "id": "POTION_CRITICAL;1",
+  "name": "Critical I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_CRITICAL;1",
+  "name": "Critical I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 2
+  },
+  "id": "POTION_CRITICAL;2",
+  "name": "Critical II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_CRITICAL;2",
+  "name": "Critical II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 3
+  },
+  "id": "POTION_CRITICAL;3",
+  "name": "Critical III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_CRITICAL;3",
+  "name": "Critical III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 4
+  },
+  "id": "POTION_CRITICAL;4",
+  "name": "Critical IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B02E26",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "critical",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_CRITICAL;4",
+  "name": "Critical IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 1
+  },
+  "id": "POTION_ARCHERY;1",
+  "name": "Archery I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ARCHERY;1",
+  "name": "Archery I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 2
+  },
+  "id": "POTION_ARCHERY;2",
+  "name": "Archery II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ARCHERY;2",
+  "name": "Archery II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 3
+  },
+  "id": "POTION_ARCHERY;3",
+  "name": "Archery III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ARCHERY;3",
+  "name": "Archery III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 4
+  },
+  "id": "POTION_ARCHERY;4",
+  "name": "Archery IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5BC0DE",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "archery",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ARCHERY;4",
+  "name": "Archery IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 1
+  },
+  "id": "POTION_HASTE;1",
+  "name": "Haste I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HASTE;1",
+  "name": "Haste I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 2
+  },
+  "id": "POTION_HASTE;2",
+  "name": "Haste II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HASTE;2",
+  "name": "Haste II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 3
+  },
+  "id": "POTION_HASTE;3",
+  "name": "Haste III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HASTE;3",
+  "name": "Haste III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 4
+  },
+  "id": "POTION_HASTE;4",
+  "name": "Haste IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#D9C043",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "haste",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_HASTE;4",
+  "name": "Haste IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 1
+  },
+  "id": "POTION_ABSORPTION;1",
+  "name": "Absorption I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;1",
+  "name": "Absorption I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 2
+  },
+  "id": "POTION_ABSORPTION;2",
+  "name": "Absorption II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;2",
+  "name": "Absorption II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 3
+  },
+  "id": "POTION_ABSORPTION;3",
+  "name": "Absorption III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;3",
+  "name": "Absorption III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 4
+  },
+  "id": "POTION_ABSORPTION;4",
+  "name": "Absorption IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;4",
+  "name": "Absorption IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 5
+  },
+  "id": "POTION_ABSORPTION;5",
+  "name": "Absorption V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;5",
+  "name": "Absorption V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 6
+  },
+  "id": "POTION_ABSORPTION;6",
+  "name": "Absorption VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;6",
+  "name": "Absorption VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 7
+  },
+  "id": "POTION_ABSORPTION;7",
+  "name": "Absorption VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;7",
+  "name": "Absorption VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 8
+  },
+  "id": "POTION_ABSORPTION;8",
+  "name": "Absorption VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#2552A5",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "absorption",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ABSORPTION;8",
+  "name": "Absorption VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 1
+  },
+  "id": "POTION_ADRENALINE;1",
+  "name": "Adrenaline I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;1",
+  "name": "Adrenaline I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 2
+  },
+  "id": "POTION_ADRENALINE;2",
+  "name": "Adrenaline II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;2",
+  "name": "Adrenaline II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 3
+  },
+  "id": "POTION_ADRENALINE;3",
+  "name": "Adrenaline III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;3",
+  "name": "Adrenaline III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 4
+  },
+  "id": "POTION_ADRENALINE;4",
+  "name": "Adrenaline IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;4",
+  "name": "Adrenaline IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 5
+  },
+  "id": "POTION_ADRENALINE;5",
+  "name": "Adrenaline V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;5",
+  "name": "Adrenaline V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 6
+  },
+  "id": "POTION_ADRENALINE;6",
+  "name": "Adrenaline VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;6",
+  "name": "Adrenaline VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 7
+  },
+  "id": "POTION_ADRENALINE;7",
+  "name": "Adrenaline VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;7",
+  "name": "Adrenaline VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 8
+  },
+  "id": "POTION_ADRENALINE;8",
+  "name": "Adrenaline VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#E04E3B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "adrenaline",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ADRENALINE;8",
+  "name": "Adrenaline VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 1
+  },
+  "id": "POTION_RABBIT;1",
+  "name": "Rabbit I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;1",
+  "name": "Rabbit I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 2
+  },
+  "id": "POTION_RABBIT;2",
+  "name": "Rabbit II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;2",
+  "name": "Rabbit II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 3
+  },
+  "id": "POTION_RABBIT;3",
+  "name": "Rabbit III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;3",
+  "name": "Rabbit III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 4
+  },
+  "id": "POTION_RABBIT;4",
+  "name": "Rabbit IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;4",
+  "name": "Rabbit IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 5
+  },
+  "id": "POTION_RABBIT;5",
+  "name": "Rabbit V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;5",
+  "name": "Rabbit V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 6
+  },
+  "id": "POTION_RABBIT;6",
+  "name": "Rabbit VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#B5A07F",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rabbit",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_RABBIT;6",
+  "name": "Rabbit VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 1
+  },
+  "id": "POTION_AGILITY;1",
+  "name": "Agility I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_AGILITY;1",
+  "name": "Agility I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 2
+  },
+  "id": "POTION_AGILITY;2",
+  "name": "Agility II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_AGILITY;2",
+  "name": "Agility II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 3
+  },
+  "id": "POTION_AGILITY;3",
+  "name": "Agility III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_AGILITY;3",
+  "name": "Agility III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 4
+  },
+  "id": "POTION_AGILITY;4",
+  "name": "Agility IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7B3FA0",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "agility",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_AGILITY;4",
+  "name": "Agility IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1FA1",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "night_vision",
+   "level": 1
+  },
+  "id": "POTION_NIGHT_VISION;1",
+  "name": "Night Vision I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1FA1",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "night_vision",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_NIGHT_VISION;1",
+  "name": "Night Vision I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1FA1",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "night_vision",
+   "level": 2
+  },
+  "id": "POTION_NIGHT_VISION;2",
+  "name": "Night Vision II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1FA1",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "night_vision",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_NIGHT_VISION;2",
+  "name": "Night Vision II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7F8392",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "invisibility",
+   "level": 1
+  },
+  "id": "POTION_INVISIBILITY;1",
+  "name": "Invisibility I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7F8392",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "invisibility",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_INVISIBILITY;1",
+  "name": "Invisibility I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E49A3A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "fire_resistance",
+   "level": 1
+  },
+  "id": "POTION_FIRE_RESISTANCE;1",
+  "name": "Fire Resistance I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E49A3A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "fire_resistance",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FIRE_RESISTANCE;1",
+  "name": "Fire Resistance I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 1
+  },
+  "id": "POTION_SPELUNKER;1",
+  "name": "Spelunker I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPELUNKER;1",
+  "name": "Spelunker I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 2
+  },
+  "id": "POTION_SPELUNKER;2",
+  "name": "Spelunker II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPELUNKER;2",
+  "name": "Spelunker II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 3
+  },
+  "id": "POTION_SPELUNKER;3",
+  "name": "Spelunker III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPELUNKER;3",
+  "name": "Spelunker III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 4
+  },
+  "id": "POTION_SPELUNKER;4",
+  "name": "Spelunker IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPELUNKER;4",
+  "name": "Spelunker IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E1B04A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spelunker",
+   "level": 5
+  },
+  "id": "POTION_SPELUNKER;5",
+  "name": "Spelunker V Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 1
+  },
+  "id": "POTION_EXPERIENCE;1",
+  "name": "Experience I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_EXPERIENCE;1",
+  "name": "Experience I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 2
+  },
+  "id": "POTION_EXPERIENCE;2",
+  "name": "Experience II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_EXPERIENCE;2",
+  "name": "Experience II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 3
+  },
+  "id": "POTION_EXPERIENCE;3",
+  "name": "Experience III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_EXPERIENCE;3",
+  "name": "Experience III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 4
+  },
+  "id": "POTION_EXPERIENCE;4",
+  "name": "Experience IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#99FF33",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "experience",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_EXPERIENCE;4",
+  "name": "Experience IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 1
+  },
+  "id": "POTION_STUN;1",
+  "name": "Stun I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STUN;1",
+  "name": "Stun I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 2
+  },
+  "id": "POTION_STUN;2",
+  "name": "Stun II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STUN;2",
+  "name": "Stun II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 3
+  },
+  "id": "POTION_STUN;3",
+  "name": "Stun III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STUN;3",
+  "name": "Stun III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 4
+  },
+  "id": "POTION_STUN;4",
+  "name": "Stun IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4A4A4A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "stun",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_STUN;4",
+  "name": "Stun IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 1
+  },
+  "id": "POTION_DODGE;1",
+  "name": "Dodge I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DODGE;1",
+  "name": "Dodge I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 2
+  },
+  "id": "POTION_DODGE;2",
+  "name": "Dodge II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DODGE;2",
+  "name": "Dodge II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 3
+  },
+  "id": "POTION_DODGE;3",
+  "name": "Dodge III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DODGE;3",
+  "name": "Dodge III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 4
+  },
+  "id": "POTION_DODGE;4",
+  "name": "Dodge IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#A8A8A8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "dodge",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_DODGE;4",
+  "name": "Dodge IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 1
+  },
+  "id": "POTION_TRUE_DEFENSE;1",
+  "name": "True Resistance I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_TRUE_DEFENSE;1",
+  "name": "True Resistance I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 2
+  },
+  "id": "POTION_TRUE_DEFENSE;2",
+  "name": "True Resistance II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_TRUE_DEFENSE;2",
+  "name": "True Resistance II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 3
+  },
+  "id": "POTION_TRUE_DEFENSE;3",
+  "name": "True Resistance III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_TRUE_DEFENSE;3",
+  "name": "True Resistance III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 4
+  },
+  "id": "POTION_TRUE_DEFENSE;4",
+  "name": "True Resistance IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#F2F2F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "true_defense",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_TRUE_DEFENSE;4",
+  "name": "True Resistance IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 1
+  },
+  "id": "POTION_SPIRIT;1",
+  "name": "Spirit I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPIRIT;1",
+  "name": "Spirit I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 2
+  },
+  "id": "POTION_SPIRIT;2",
+  "name": "Spirit II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPIRIT;2",
+  "name": "Spirit II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 3
+  },
+  "id": "POTION_SPIRIT;3",
+  "name": "Spirit III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPIRIT;3",
+  "name": "Spirit III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 4
+  },
+  "id": "POTION_SPIRIT;4",
+  "name": "Spirit IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#9AD7EC",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "spirit",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SPIRIT;4",
+  "name": "Spirit IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 1
+  },
+  "id": "POTION_PET_LUCK;1",
+  "name": "Pet Luck I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_PET_LUCK;1",
+  "name": "Pet Luck I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 2
+  },
+  "id": "POTION_PET_LUCK;2",
+  "name": "Pet Luck II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_PET_LUCK;2",
+  "name": "Pet Luck II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 3
+  },
+  "id": "POTION_PET_LUCK;3",
+  "name": "Pet Luck III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_PET_LUCK;3",
+  "name": "Pet Luck III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 4
+  },
+  "id": "POTION_PET_LUCK;4",
+  "name": "Pet Luck IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E28CC8",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "pet_luck",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_PET_LUCK;4",
+  "name": "Pet Luck IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 1
+  },
+  "id": "POTION_KNOCKBACK;1",
+  "name": "Knockback I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_KNOCKBACK;1",
+  "name": "Knockback I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 2
+  },
+  "id": "POTION_KNOCKBACK;2",
+  "name": "Knockback II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_KNOCKBACK;2",
+  "name": "Knockback II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 3
+  },
+  "id": "POTION_KNOCKBACK;3",
+  "name": "Knockback III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_KNOCKBACK;3",
+  "name": "Knockback III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 4
+  },
+  "id": "POTION_KNOCKBACK;4",
+  "name": "Knockback IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4C7A2A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "knockback",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_KNOCKBACK;4",
+  "name": "Knockback IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 1
+  },
+  "id": "POTION_BURNING;1",
+  "name": "Burning I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BURNING;1",
+  "name": "Burning I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 2
+  },
+  "id": "POTION_BURNING;2",
+  "name": "Burning II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BURNING;2",
+  "name": "Burning II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 3
+  },
+  "id": "POTION_BURNING;3",
+  "name": "Burning III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BURNING;3",
+  "name": "Burning III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 4
+  },
+  "id": "POTION_BURNING;4",
+  "name": "Burning IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#FF7F27",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "burning",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BURNING;4",
+  "name": "Burning IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 1
+  },
+  "id": "POTION_VENOMOUS;1",
+  "name": "Venomous I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_VENOMOUS;1",
+  "name": "Venomous I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 2
+  },
+  "id": "POTION_VENOMOUS;2",
+  "name": "Venomous II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_VENOMOUS;2",
+  "name": "Venomous II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 3
+  },
+  "id": "POTION_VENOMOUS;3",
+  "name": "Venomous III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_VENOMOUS;3",
+  "name": "Venomous III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 4
+  },
+  "id": "POTION_VENOMOUS;4",
+  "name": "Venomous IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "venomous",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_VENOMOUS;4",
+  "name": "Venomous IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 1
+  },
+  "id": "POTION_WOUNDED;1",
+  "name": "Wounded I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WOUNDED;1",
+  "name": "Wounded I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 2
+  },
+  "id": "POTION_WOUNDED;2",
+  "name": "Wounded II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WOUNDED;2",
+  "name": "Wounded II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 3
+  },
+  "id": "POTION_WOUNDED;3",
+  "name": "Wounded III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WOUNDED;3",
+  "name": "Wounded III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 4
+  },
+  "id": "POTION_WOUNDED;4",
+  "name": "Wounded IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A1A1A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "wounded",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WOUNDED;4",
+  "name": "Wounded IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 1
+  },
+  "id": "POTION_COLD_RESISTANCE;1",
+  "name": "Cold Resistance I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COLD_RESISTANCE;1",
+  "name": "Cold Resistance I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 2
+  },
+  "id": "POTION_COLD_RESISTANCE;2",
+  "name": "Cold Resistance II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COLD_RESISTANCE;2",
+  "name": "Cold Resistance II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 3
+  },
+  "id": "POTION_COLD_RESISTANCE;3",
+  "name": "Cold Resistance III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COLD_RESISTANCE;3",
+  "name": "Cold Resistance III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 4
+  },
+  "id": "POTION_COLD_RESISTANCE;4",
+  "name": "Cold Resistance IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#BDE7F2",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "cold_resistance",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COLD_RESISTANCE;4",
+  "name": "Cold Resistance IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#55FFFF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "magic_find",
+   "level": 1
+  },
+  "id": "POTION_MAGIC_FIND;1",
+  "name": "Magic Find I Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#55FFFF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "magic_find",
+   "level": 2
+  },
+  "id": "POTION_MAGIC_FIND;2",
+  "name": "Magic Find II Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#55FFFF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "magic_find",
+   "level": 3
+  },
+  "id": "POTION_MAGIC_FIND;3",
+  "name": "Magic Find III Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#55FFFF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "magic_find",
+   "level": 4
+  },
+  "id": "POTION_MAGIC_FIND;4",
+  "name": "Magic Find IV Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CE36B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stamina",
+   "level": 1
+  },
+  "id": "POTION_STAMINA;1",
+  "name": "Stamina I Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#7CE36B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stamina",
+   "level": 2
+  },
+  "id": "POTION_STAMINA;2",
+  "name": "Stamina II Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CE36B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stamina",
+   "level": 3
+  },
+  "id": "POTION_STAMINA;3",
+  "name": "Stamina III Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#7CE36B",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stamina",
+   "level": 4
+  },
+  "id": "POTION_STAMINA;4",
+  "name": "Stamina IV Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 1
+  },
+  "id": "POTION_SLOWNESS;1",
+  "name": "Slowness I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;1",
+  "name": "Slowness I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 2
+  },
+  "id": "POTION_SLOWNESS;2",
+  "name": "Slowness II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;2",
+  "name": "Slowness II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 3
+  },
+  "id": "POTION_SLOWNESS;3",
+  "name": "Slowness III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;3",
+  "name": "Slowness III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 4
+  },
+  "id": "POTION_SLOWNESS;4",
+  "name": "Slowness IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;4",
+  "name": "Slowness IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 5
+  },
+  "id": "POTION_SLOWNESS;5",
+  "name": "Slowness V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;5",
+  "name": "Slowness V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 6
+  },
+  "id": "POTION_SLOWNESS;6",
+  "name": "Slowness VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;6",
+  "name": "Slowness VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 7
+  },
+  "id": "POTION_SLOWNESS;7",
+  "name": "Slowness VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;7",
+  "name": "Slowness VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 8
+  },
+  "id": "POTION_SLOWNESS;8",
+  "name": "Slowness VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#5A6C81",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "slowness",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_SLOWNESS;8",
+  "name": "Slowness VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 1
+  },
+  "id": "POTION_WEAKNESS;1",
+  "name": "Weakness I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;1",
+  "name": "Weakness I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 2
+  },
+  "id": "POTION_WEAKNESS;2",
+  "name": "Weakness II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;2",
+  "name": "Weakness II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 3
+  },
+  "id": "POTION_WEAKNESS;3",
+  "name": "Weakness III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;3",
+  "name": "Weakness III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 4
+  },
+  "id": "POTION_WEAKNESS;4",
+  "name": "Weakness IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;4",
+  "name": "Weakness IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 5
+  },
+  "id": "POTION_WEAKNESS;5",
+  "name": "Weakness V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 5,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;5",
+  "name": "Weakness V Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 6
+  },
+  "id": "POTION_WEAKNESS;6",
+  "name": "Weakness VI Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 6,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;6",
+  "name": "Weakness VI Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 7
+  },
+  "id": "POTION_WEAKNESS;7",
+  "name": "Weakness VII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 7,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;7",
+  "name": "Weakness VII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 8
+  },
+  "id": "POTION_WEAKNESS;8",
+  "name": "Weakness VIII Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#484D48",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "weakness",
+   "level": 8,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_WEAKNESS;8",
+  "name": "Weakness VIII Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 1
+  },
+  "id": "POTION_POISON;1",
+  "name": "Poison I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_POISON;1",
+  "name": "Poison I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 2
+  },
+  "id": "POTION_POISON;2",
+  "name": "Poison II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_POISON;2",
+  "name": "Poison II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 3
+  },
+  "id": "POTION_POISON;3",
+  "name": "Poison III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_POISON;3",
+  "name": "Poison III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 4
+  },
+  "id": "POTION_POISON;4",
+  "name": "Poison IV Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#4E9331",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "poison",
+   "level": 4,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_POISON;4",
+  "name": "Poison IV Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 1
+  },
+  "id": "POTION_BLINDNESS;1",
+  "name": "Blindness I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BLINDNESS;1",
+  "name": "Blindness I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 2
+  },
+  "id": "POTION_BLINDNESS;2",
+  "name": "Blindness II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BLINDNESS;2",
+  "name": "Blindness II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 3
+  },
+  "id": "POTION_BLINDNESS;3",
+  "name": "Blindness III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#1F1F23",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "blindness",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_BLINDNESS;3",
+  "name": "Blindness III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_COMBAT_XP_BOOST;1",
+  "name": "Combat XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COMBAT_XP_BOOST;1",
+  "name": "Combat XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_COMBAT_XP_BOOST;2",
+  "name": "Combat XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COMBAT_XP_BOOST;2",
+  "name": "Combat XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_COMBAT_XP_BOOST;3",
+  "name": "Combat XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "combat_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_COMBAT_XP_BOOST;3",
+  "name": "Combat XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_MINING_XP_BOOST;1",
+  "name": "Mining XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MINING_XP_BOOST;1",
+  "name": "Mining XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_MINING_XP_BOOST;2",
+  "name": "Mining XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MINING_XP_BOOST;2",
+  "name": "Mining XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_MINING_XP_BOOST;3",
+  "name": "Mining XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "mining_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_MINING_XP_BOOST;3",
+  "name": "Mining XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_FORAGING_XP_BOOST;1",
+  "name": "Foraging XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FORAGING_XP_BOOST;1",
+  "name": "Foraging XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_FORAGING_XP_BOOST;2",
+  "name": "Foraging XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FORAGING_XP_BOOST;2",
+  "name": "Foraging XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_FORAGING_XP_BOOST;3",
+  "name": "Foraging XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "foraging_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FORAGING_XP_BOOST;3",
+  "name": "Foraging XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_FISHING_XP_BOOST;1",
+  "name": "Fishing XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FISHING_XP_BOOST;1",
+  "name": "Fishing XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_FISHING_XP_BOOST;2",
+  "name": "Fishing XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FISHING_XP_BOOST;2",
+  "name": "Fishing XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_FISHING_XP_BOOST;3",
+  "name": "Fishing XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "fishing_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FISHING_XP_BOOST;3",
+  "name": "Fishing XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_FARMING_XP_BOOST;1",
+  "name": "Farming XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FARMING_XP_BOOST;1",
+  "name": "Farming XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_FARMING_XP_BOOST;2",
+  "name": "Farming XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FARMING_XP_BOOST;2",
+  "name": "Farming XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_FARMING_XP_BOOST;3",
+  "name": "Farming XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "farming_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_FARMING_XP_BOOST;3",
+  "name": "Farming XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_ENCHANTING_XP_BOOST;1",
+  "name": "Enchanting XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ENCHANTING_XP_BOOST;1",
+  "name": "Enchanting XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_ENCHANTING_XP_BOOST;2",
+  "name": "Enchanting XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ENCHANTING_XP_BOOST;2",
+  "name": "Enchanting XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_ENCHANTING_XP_BOOST;3",
+  "name": "Enchanting XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "enchanting_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ENCHANTING_XP_BOOST;3",
+  "name": "Enchanting XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 1
+  },
+  "id": "POTION_ALCHEMY_XP_BOOST;1",
+  "name": "Alchemy XP Boost I Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 1,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ALCHEMY_XP_BOOST;1",
+  "name": "Alchemy XP Boost I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 2
+  },
+  "id": "POTION_ALCHEMY_XP_BOOST;2",
+  "name": "Alchemy XP Boost II Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 2,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ALCHEMY_XP_BOOST;2",
+  "name": "Alchemy XP Boost II Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 3
+  },
+  "id": "POTION_ALCHEMY_XP_BOOST;3",
+  "name": "Alchemy XP Boost III Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#E8B830",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "alchemy_xp_boost",
+   "level": 3,
+   "splash": true
+  },
+  "id": "SPLASH_POTION_ALCHEMY_XP_BOOST;3",
+  "name": "Alchemy XP Boost III Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#3FD0B3",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "mushed_glowy_tonic",
+   "level": 1
+  },
+  "id": "POTION_MUSHED_GLOWY_TONIC;1",
+  "name": "Glowmash Tonic I"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#E2D06A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "stinky_cheese",
+   "level": 1
+  },
+  "id": "POTION_STINKY_CHEESE;1",
+  "name": "Pungent Cheese Mist I"
+ },
+ {
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#E2A03A",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion"
+  ],
+  "extra": {
+   "effect": "harvest_harbinger",
+   "level": 5
+  },
+  "id": "POTION_HARVEST_HARBINGER;5",
+  "name": "Harvest Herald V Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#A0E8FF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "wisp_ice",
+   "level": 1,
+   "splash": true
+  },
+  "id": "POTION_WISP_ICE;1",
+  "name": "Chilled Spirit Water I Splash Potion"
+ },
+ {
+  "material": "SPLASH_POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#B58CFF",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "splash",
+   "throwable"
+  ],
+  "extra": {
+   "effect": "rift_gravity",
+   "level": 1,
+   "splash": true
+  },
+  "id": "POTION_RIFT_GRAVITY;1",
+  "name": "Gravity I Splash Potion"
+ },
+ {
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5E2D79",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "soulbound"
+  ],
+  "extra": {
+   "effect": "secrets",
+   "level": 1,
+   "source": "dungeon"
+  },
+  "id": "POTION_SECRETS;1",
+  "name": "Secret I Potion"
+ },
+ {
+  "id": "POTION_DUNGEON;1",
+  "name": "Dungeon I Potion",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 1
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;2",
+  "name": "Dungeon II Potion",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 2
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;3",
+  "name": "Dungeon III Potion",
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 3
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;4",
+  "name": "Dungeon IV Potion",
+  "material": "POTION",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 4
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;5",
+  "name": "Dungeon V Potion",
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 5
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;6",
+  "name": "Dungeon VI Potion",
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 6
+  }
+ },
+ {
+  "id": "POTION_DUNGEON;7",
+  "name": "Dungeon VII Potion",
+  "material": "POTION",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "color": "#8B0000",
+  "maxStack": 1,
+  "lore": [],
+  "tags": [
+   "alchemy",
+   "potion",
+   "bundle"
+  ],
+  "extra": {
+   "bundle": "dungeon",
+   "level": 7
+  }
+ },
+ {
+  "id": "GOD_POTION_2",
+  "name": "God Potion",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxODg1NzI1NzU4NywKICAicHJvZmlsZUlkIiA6ICI0ZjU2ZTg2ODk2OGU0ZWEwYmNjM2M2NzRlNzQ3ODdjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwMjI2ZDRjMWQzMGZiZWJlY2FlOTM5ZGE5MDA2MDNlNGNkMGZlZDg1OTJhMWJiM2UxMWY5YWM5MjM5MWE0NWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "maxStack": 1,
+  "lore": [
+   "&7Drink it to gain a whole cabinet of",
+   "&7helpful &dpotion effects &7at once.",
+   "",
+   "&7Several God Potions add their time",
+   "&7together instead of overwriting."
+  ],
+  "tags": [
+   "alchemy",
+   "potion",
+   "god_potion"
+  ],
+  "extra": {
+   "god": true,
+   "legacy": false
+  }
+ },
+ {
+  "id": "GOD_POTION",
+  "name": "God Potion",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxODg1NzI1NzU4NywKICAicHJvZmlsZUlkIiA6ICI0ZjU2ZTg2ODk2OGU0ZWEwYmNjM2M2NzRlNzQ3ODdjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwMjI2ZDRjMWQzMGZiZWJlY2FlOTM5ZGE5MDA2MDNlNGNkMGZlZDg1OTJhMWJiM2UxMWY5YWM5MjM5MWE0NWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "maxStack": 1,
+  "lore": [
+   "&8Legacy",
+   "",
+   "&7An old recipe: one drink grants",
+   "&7every helpful effect for a full day."
+  ],
+  "tags": [
+   "alchemy",
+   "potion",
+   "god_potion"
+  ],
+  "extra": {
+   "god": true,
+   "legacy": true
+  }
+ },
+ {
+  "id": "CHEAP_COFFEE",
+  "name": "Cheap Coffee",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNzI5OTc0MDM4NSwKICAicHJvZmlsZUlkIiA6ICJkZGVkNTZlMWVmOGI0MGZlOGFkMTYyOTIwZjdhZWNkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkQXBwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4OGIyMTJiYTRkOGZmZDMwMGZiNTA1NmU0NWFhNGRjMjVkZTU4N2UwOTYwNmQ2OGY4N2I5MWI3MzE1ZWU0ZDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Adds &f+5 Speed &7to potions with that",
+   "&7stat."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "DECENT_COFFEE",
+  "name": "Decent Coffee",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MjMyOTMyMjY3MzEsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlYTBmNzc1NzE4NWJlOWRmNWIyZmM5ZDg1ZDQwNjQyZWE0ZmRiNDUxNWYzMTRkYTE4ZjU5YzY5NmU1YmU5In19fQ==",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Adds &f+8 Speed &7to potions with that",
+   "&7stat."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "BLACK_COFFEE",
+  "name": "Black Coffee",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDUwMDMxNTE5MiwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1NTNkNjc5OWExMzg4NDExZTZlMzJlYzIwZTRlZTI2OGE1OGZlMWU5NTQ3ODJlNjZjMWQ5MzI4NmYzOGNkNDAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "maxStack": 64,
+  "npcSell": 50.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Adds &f+12 Speed &7to potions with that",
+   "&7stat."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "TEPID_GREEN_TEA",
+  "name": "Tepid Green Tea",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "eyJ0aW1lc3RhbXAiOjE0OTQ3NjcyMTUyNTQsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QyMTY4ZGZjNTEzYzMxYjFlMWMyZDg1M2U4MTY5MDE1MzgxYzgzNzhlZWUyMjRhZTZkYmIxZTEyNDg1ZTlhOTgifX19",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Raises the &aDefense &7of potions by",
+   "&7&a+10%&7."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "PULPOUS_ORANGE_JUICE",
+  "name": "Pulpous Orange Juice",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MTUyNDY4NTY2MDgsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MWIzNWY3MDc3ZWNmOThlZjNlYmEwZjM1ZDkzYTk4MTMwMzBmOWI4YjhlNDI2YWViNjhkYWIzOGYxMTE2In19fQ==",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Raises the &cHealth &7restored by",
+   "&7potions by &a+5%&7."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "BITTER_ICE_TEA",
+  "name": "Bitter Iced Tea",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzczOTc0NCwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4NmJjZjgwOGI5YTQwMjRhMmM5YTg3YTY3NGU4ZDljOTU3NTkzYzhiZjc4OTdjMWM5ZmVlMTljNDQ1YmUxOCIKICAgIH0KICB9Cn0=",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Raises the &bMana &7and &3Experience &7of",
+   "&7potions by &a+20%&7."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "KNOCKOFF_COLA",
+  "name": "Knockoff Cola",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MzE5ODgwNTc0NDIsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE0YmVmZDRkMzc5N2E4YTZhYjUzY2VlZGViYWIzYzEyYjdiMWYwMzQ0MGJmMDA4NTAxMDAyNWMzNTcxNzYyOCJ9fX0=",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Raises the &cStrength &7of potions by",
+   "&7&a+5%&7."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "SCARLETON_PREMIUM",
+  "name": "Carmine Premium",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "POTION",
+  "skull": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxYjE3Y2M2YzljNzYwZDc4NjE5MjUzYmE0ZjZjY2ZmNDE1MjRhZWMxMDViMWQyNjQxYTc0ZjM1Njk2NzgzMSJ9fX0=",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Makes &4Wounded &7potions &a10% &7stronger."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "RED_THORNLEAF_TEA",
+  "name": "Red Thornleaf Tea",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTczNDYwODk3NSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE5ZTQ3M2Y1OGZmZTU1ODQxZGZiZGFmZjQ4MzJiZTJlYTNiZmUwZjlmNzZkM2NiMTUyN2QwMzkxZGQ5Njg1NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "maxStack": 64,
+  "npcSell": 0.0,
+  "lore": [
+   "&8Basic Brew",
+   "",
+   "&7Put it in a brewing stand's bottle",
+   "&7slot instead of an &fAwkward Potion&7.",
+   "",
+   "&7Brews &aResistance &7potions only. While",
+   "&7it lasts, &a5% &7of the damage a monster",
+   "&7deals you is thrown back at it."
+  ],
+  "tags": [
+   "alchemy",
+   "alchemy_base",
+   "basic_brew"
+  ],
+  "extra": {
+   "alchemy": "BREW"
+  }
+ },
+ {
+  "id": "HOT_CHOCOLATE",
+  "name": "Hot Chocolate",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzc0MDUzMDIzMywKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMWZkNDA4NzE4NDA3YTQ4MjYwODIyMDY2YmQxOTk5MTJkMTkwYmFhNTkwNGYyYTE4OGEzMDQ3MmVmOTc0NzViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "maxStack": 64,
+  "npcSell": 50.0,
+  "lore": [
+   "&7Rich, steaming and thick enough",
+   "&7to stand a spoon in. Brewers say it",
+   "&7keeps the volcano's heat at bay."
+  ],
+  "tags": [
+   "drink"
+  ]
+ },
+ {
+  "id": "SCORNCLAW_BREW",
+  "name": "Bitterclaw Brew",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "CONSUMABLE",
+  "skull": "eyJ0aW1lc3RhbXAiOjE0OTQ3NjcxNzY4MTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzZiNGE3YmQ4MjQ0MTYxOWJiYzExZDliOGUwZTY0YWU4Yjk1ZjJlNDBiMzkyMTM1NWZjYzU0MzQzMjYwMTcifX19",
+  "maxStack": 64,
+  "npcSell": 50.0,
+  "lore": [
+   "&7Sweet, then bitter, then it bites",
+   "&7back. A barbarian favourite.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "alchemy",
+   "drink",
+   "tavern_drink"
+  ],
+  "extra": {
+   "alchemy": "DRINK"
+  }
+ },
+ {
+  "id": "GREAT_SPOOK_POTION",
+  "name": "Dread Draught",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY1NDE3Mjc0NTU2MSwKICAicHJvZmlsZUlkIiA6ICI0NGNlMmMwZTFjNTM0ZDhmYmExNmNkNDhlYjkyYTUxZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4WGlyYW56dThYeCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWZkMzBjNjA5NjRmMWQxNjU0MTdmZmRiMGI4NjU0ODgxMjZhYmU0ODA3N2U4YjI5ZjIzNzhhZTIwMmRhZjVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "maxStack": 1,
+  "lore": [
+   "&7Drinking it grants &6+3 Fear &7for",
+   "&a24 hours&7. Brave souls only."
+  ],
+  "tags": [
+   "alchemy",
+   "potion",
+   "skull_potion",
+   "soulbound"
+  ],
+  "extra": {
+   "effect": "great_spook",
+   "level": 1
+  }
+ },
+ {
+  "id": "BOTTLE_OF_JYRRE",
+  "name": "Lost Bottle of Midnight",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "POTION",
+  "color": "#5BC8F5",
+  "maxStack": 1,
+  "npcSell": 100.0,
+  "lore": [
+   "&7Keep it in your inventory and it",
+   "&7grows sharper: the longer you carry",
+   "&7it, the more &b✎ Intelligence &7it",
+   "&7gives when you finally drink it."
+  ],
+  "tags": [
+   "alchemy",
+   "jyrre"
+  ],
+  "extra": {
+   "jyrre": "lost",
+   "minutes": 10,
+   "cap": 300,
+   "evolves": null
+  }
+ },
+ {
+  "id": "NEW_BOTTLE_OF_JYRRE",
+  "name": "Bottle of Midnight",
+  "material": "POTION",
+  "rarity": "RARE",
+  "category": "POTION",
+  "color": "#5BC8F5",
+  "maxStack": 1,
+  "npcSell": 1000.0,
+  "lore": [
+   "&7Drink it for a burst of &b✎ Intelligence&7.",
+   "&7Carry it around and the bonus grows, up",
+   "&7to &b+300&7. Then the bottle evolves!"
+  ],
+  "tags": [
+   "alchemy",
+   "jyrre"
+  ],
+  "extra": {
+   "jyrre": "new",
+   "minutes": 60,
+   "cap": 300,
+   "evolves": "REFINED_BOTTLE_OF_JYRRE"
+  }
+ },
+ {
+  "id": "REFINED_BOTTLE_OF_JYRRE",
+  "name": "Refined Bottle of Midnight",
+  "material": "POTION",
+  "rarity": "LEGENDARY",
+  "category": "POTION",
+  "color": "#5BC8F5",
+  "maxStack": 1,
+  "npcSell": 30000.0,
+  "lore": [
+   "&7Drink it for &b+300✎ Intelligence &7for",
+   "&a60m&7, and keep &b+1✎ Intelligence",
+   "&7for good.",
+   "",
+   "&8Aged to perfection. Only your first",
+   "&85 refined bottles leave a permanent mark."
+  ],
+  "tags": [
+   "alchemy",
+   "jyrre"
+  ],
+  "extra": {
+   "jyrre": "refined",
+   "minutes": 60,
+   "cap": 300,
+   "evolves": null
+  }
+ },
+ {
+  "id": "RECALL_POTION",
+  "name": "Recall Potion",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "POTION",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDA1MDI4OTA2MSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmODE1MWRlYjM5NTUzMjkyYjlhNjk2NzQ4MzJkZGE4MDAxNzgwY2E5ODE4MGEwNmVhZjliMzY4OTMwYjViYiIKICAgIH0KICB9Cn0=",
+  "maxStack": 1,
+  "npcSell": 0.0,
+  "lore": [
+   "&7A glowing draught that remembers",
+   "&7where you stood.",
+   "",
+   "&6Ability: Echo Recall &e&lRIGHT CLICK",
+   "&7In the &5Crystal Caverns&7: the first use",
+   "&7saves your spot, the next one drinks",
+   "&7the potion and takes you back there."
+  ],
+  "tags": [
+   "alchemy",
+   "recall_potion"
+  ],
+  "extra": {
+   "alchemy": "RECALL"
+  }
+ }
+]

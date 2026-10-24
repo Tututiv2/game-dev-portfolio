@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <pattern id="noise" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="32" height="32" fill="#b98b4c"/>
+      <circle cx="6" cy="5" r="1.5" fill="#c79a5a"/>
+      <circle cx="18" cy="11" r="1.2" fill="#a9753f"/>
+      <circle cx="24" cy="21" r="1.7" fill="#c49554"/>
+      <circle cx="10" cy="24" r="1.1" fill="#9f6d38"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="url(#noise)"/>
+  <path d="M0 64 C40 52, 80 76, 128 64 S220 52, 256 68" stroke="#a7743e" stroke-width="2" fill="none" opacity="0.35"/>
+  <path d="M0 160 C48 146, 96 173, 144 160 S224 149, 256 168" stroke="#a06e39" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

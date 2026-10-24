@@ -1,0 +1,134 @@
+[
+ {
+  "id": "townsfolk_maren",
+  "name": "&fMaren",
+  "island": "hub",
+  "anchor": "npc.lore.1",
+  "lines": [
+   "Welcome to the village, newcomer!",
+   "The Bazaar is busiest at dusk. Prices move fast then."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRjNGVhZjk5MzllNWMwZDk2NGNmZmM5NTNlMzVjMTIxMDZjZmVkOWQ1YWIwY2VlMTViNjlhMTYyYTI3MDQwNyJ9fX0="
+ },
+ {
+  "id": "townsfolk_osric",
+  "name": "&fOld Ebbert",
+  "island": "hub",
+  "anchor": "npc.lore.2",
+  "lines": [
+   "I've lived here since the first island floated up.",
+   "Back then the graveyard was quiet. Not any more."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlY2I5OGI5NGNkNjE0MmMwZTNjNTM2MjIwZWVmNjVlYmM0MDY0YTIyY2NlNGJjOGUyM2RkNWY2MzBjMTU3YzcifX19"
+ },
+ {
+  "id": "townsfolk_pella",
+  "name": "&fPella",
+  "island": "hub",
+  "anchor": "npc.lore.3",
+  "lines": [
+   "Have you seen the fairies by the pond?",
+   "They say the souls hidden around the hub make you stronger."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwZDI3YmQ5NjRkOTA0YTRhZDBiOGE5YjJhNjI3NjExZDM3ZmVjYTZlNGMyNTI3ZTEwNTYzODIxMDM3YzdhNmYifX19"
+ },
+ {
+  "id": "townsfolk_dorran",
+  "name": "&fDorran the Guard",
+  "island": "hub",
+  "anchor": "npc.lore.4",
+  "lines": [
+   "Keep your blade sheathed in the village.",
+   "Save the fighting for the crypts."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q2NTQ1MzE4MTZlYzcyMDBhNmE0NjFkN2EwM2MyZGFkZjMxZjQ0OWE1OTFjODVmM2IzMWNiMmE4M2RkNzM2NiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlZmYyMmQ0NjQ5YTIyYzNiYjBkNDc5NDY5Y2UzYWViNCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjU3MDk0fQ=="
+ },
+ {
+  "id": "townsfolk_juno",
+  "name": "&fJuno",
+  "island": "hub",
+  "anchor": "npc.lore.5",
+  "lines": [
+   "I sold everything I farmed to the merchants yesterday.",
+   "Merchants buy anything sellable. Bundle it in your inventory and click!"
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg2N2I2MDE4NjhjOTRhZWJjYzQxMzVlYjc5NTg4N2ZhZjYyYjdlZjRlYmM5NGYzYTZiOTA1OTZlNTljNWRiYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIzODcwMDE4NGZkM2EyNjMzYjVjYjFmMTRiYTFiNzQ1OSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzg0NjUwMDQwNTM2fQ=="
+ },
+ {
+  "id": "townsfolk_bram",
+  "name": "&fCobbett the Miner",
+  "island": "hub",
+  "anchor": "npc.lore.6",
+  "lines": [
+   "The coal mine is just the start.",
+   "Go deep enough and the dwarves will greet you."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY3NWYwNzFlZmIwY2YyN2JmMTYwODFlM2Y4MmY5YjVmOGFlODhlY2E5ZWU5NTIzYjYyMTZlNjE3ZjZmNDVjOSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5MjgwYWU4ZjM2ZDcyZDk2OWY1MmI1MDgzMGI0MmVkZCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MzM3NTg5fQ=="
+ },
+ {
+  "id": "townsfolk_tilly",
+  "name": "&fTilly",
+  "island": "hub",
+  "anchor": "npc.lore.7",
+  "lines": [
+   "Mum says never sell what you might need later.",
+   "If you do, the merchant can sell it back for the same price - quickly!"
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2NzVmMDcxZWZiMGNmMjdiZjE2MDgxZTNmODJmOWI1ZjhhZTg4ZWNhOWVlOTUyM2I2MjE2ZTYxN2Y2ZjQ1YzkifX19"
+ },
+ {
+  "id": "townsfolk_ewart",
+  "name": "&fEwart",
+  "island": "hub",
+  "anchor": "npc.lore.8",
+  "lines": [
+   "The banker pays interest, you know.",
+   "Coins in a purse vanish when you die. Coins in a bank do not."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc5ZTdmMzM0MWI2NzJkOWRlNjU2NGNiYWNhMDUyYTZhNzIzZWE0NjZhMmU2NmFmMzViYTFiYTg1NWYwZDY5MiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJiZTk0Y2Q2ZWI0NGQyOGExODFmOWY3MzdmZTEyMDcxZSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MzIyMzk1fQ=="
+ },
+ {
+  "id": "townsfolk_sabra",
+  "name": "&fSabra the Fisher",
+  "island": "hub",
+  "anchor": "npc.lore.9",
+  "lines": [
+   "The pond hides more than fish.",
+   "Some say something enormous lives under the bayou."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmNDc3ZWIxYTdiZWVlNjMxYzJjYTY0ZDA2ZjhmNjhmYTkzYTMzODZkMDQ0NTJhYjI3ZjQzYWNkZjFiNjBjYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIzZjA5NDMwMjRiMjAzM2Y0YjdiM2FlY2M5MGJmOWUzNyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzgzNTcxNDQ4NDA1fQ=="
+ },
+ {
+  "id": "townsfolk_quill",
+  "name": "&fScribe Thaddeus",
+  "island": "hub",
+  "anchor": "npc.lore.10",
+  "lines": [
+   "Every recipe you unlock is written in your Recipe Book.",
+   "Collect more of a material to learn new crafts."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3ZTBmYzhkZjkwNjdkMzkzYzk3N2YxZjM0MDI1NjM0MjIzZGIxNDVlOTQwM2RjMzJjMzExODg5ZTMzNjU5NjUifX19"
+ },
+ {
+  "id": "townsfolk_hester",
+  "name": "&fHester",
+  "island": "hub",
+  "anchor": "npc.lore.11",
+  "lines": [
+   "Daily limits? The merchants only stock so much a day.",
+   "Six hundred and forty of anything, then come back tomorrow."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyYmY5NWQyMmUxNTJkOGEzYTA0NzY0NDRjNDExNDA0NDkwM2I5MzdhNjc5YTAwYjEyYjJmMTc0YTEwNzU0OTkifX19"
+ },
+ {
+  "id": "townsfolk_rook",
+  "name": "&fHesketh",
+  "island": "hub",
+  "anchor": "npc.lore.12",
+  "lines": [
+   "Psst. The auction house has bargains if you are patient.",
+   "Buy it now, or bid and wait. Your choice."
+  ],
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIzM2M2YTBkMGIwNTdmOTc1MmNlM2FkZWIyMjY5YWRjMzY4NmYzMzMyYjBjNTQ2ZWQ3ZTgwOTcwZGNiYzkwYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5NWIxMDY0NzY5NDAyZTViYmVlNmNkMTE5MjE5NThkZCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzgzNTcxMDgzMzEyfQ=="
+ }
+]

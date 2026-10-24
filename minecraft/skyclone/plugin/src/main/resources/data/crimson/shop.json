@@ -1,0 +1,376 @@
+[
+ {
+  "item": "MYCELIUM_GENERATOR_1",
+  "coins": 20000,
+  "items": [
+   "MYCEL:160"
+  ],
+  "rank": 0,
+  "repMin": 500,
+  "faction": "mage"
+ },
+ {
+  "item": "RED_SAND_GENERATOR_1",
+  "coins": 20000,
+  "items": [
+   "SAND:1:160"
+  ],
+  "rank": 0,
+  "repMin": 500,
+  "faction": "barbarian"
+ },
+ {
+  "item": "KUUDRA_TIER_KEY",
+  "coins": 200000,
+  "items": [
+   "ENCHANTED_MYCELIUM:2",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 0,
+  "faction": "mage",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_TIER_KEY",
+  "coins": 200000,
+  "items": [
+   "ENCHANTED_RED_SAND:2",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 0,
+  "faction": "barbarian",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_HOT_TIER_KEY",
+  "coins": 400000,
+  "items": [
+   "ENCHANTED_MYCELIUM:6",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 1,
+  "faction": "mage",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_HOT_TIER_KEY",
+  "coins": 400000,
+  "items": [
+   "ENCHANTED_RED_SAND:6",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 1,
+  "faction": "barbarian",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_BURNING_TIER_KEY",
+  "coins": 750000,
+  "items": [
+   "ENCHANTED_MYCELIUM:20",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 2,
+  "faction": "mage",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_BURNING_TIER_KEY",
+  "coins": 750000,
+  "items": [
+   "ENCHANTED_RED_SAND:20",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 2,
+  "faction": "barbarian",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_FIERY_TIER_KEY",
+  "coins": 1500000,
+  "items": [
+   "ENCHANTED_MYCELIUM:60",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 3,
+  "faction": "mage",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_FIERY_TIER_KEY",
+  "coins": 1500000,
+  "items": [
+   "ENCHANTED_RED_SAND:60",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 3,
+  "faction": "barbarian",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_INFERNAL_TIER_KEY",
+  "coins": 3000000,
+  "items": [
+   "ENCHANTED_MYCELIUM:120",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 4,
+  "faction": "mage",
+  "emissary": true
+ },
+ {
+  "item": "KUUDRA_INFERNAL_TIER_KEY",
+  "coins": 3000000,
+  "items": [
+   "ENCHANTED_RED_SAND:120",
+   "CORRUPTED_NETHER_STAR:2"
+  ],
+  "rank": 4,
+  "faction": "barbarian",
+  "emissary": true
+ },
+ {
+  "item": "AURORA_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "AURORA_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "AURORA_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "AURORA_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "HOLLOW_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "HOLLOW_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "HOLLOW_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "HOLLOW_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "FERVOR_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "FERVOR_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "FERVOR_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "FERVOR_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "mage"
+ },
+ {
+  "item": "CRIMSON_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "CRIMSON_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "CRIMSON_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "CRIMSON_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "TERROR_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "TERROR_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "TERROR_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "TERROR_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "FERVOR_HELMET",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "FERVOR_CHESTPLATE",
+  "coins": 700000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "FERVOR_LEGGINGS",
+  "coins": 600000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "FERVOR_BOOTS",
+  "coins": 400000,
+  "items": [
+   "ESSENCE_CRIMSON:20"
+  ],
+  "rank": 2,
+  "faction": "barbarian"
+ },
+ {
+  "item": "RUNIC_STAFF",
+  "coins": 3000000,
+  "items": [
+   "ESSENCE_CRIMSON:250"
+  ],
+  "rank": 3,
+  "faction": "mage"
+ },
+ {
+  "item": "HOLLOW_WAND",
+  "coins": 3000000,
+  "items": [
+   "ESSENCE_CRIMSON:250"
+  ],
+  "rank": 3,
+  "faction": "mage"
+ },
+ {
+  "item": "TORMENTOR",
+  "coins": 15000000,
+  "items": [
+   "ESSENCE_CRIMSON:1000",
+   "HEAVY_PEARL:4"
+  ],
+  "rank": 4,
+  "faction": "barbarian"
+ }
+]

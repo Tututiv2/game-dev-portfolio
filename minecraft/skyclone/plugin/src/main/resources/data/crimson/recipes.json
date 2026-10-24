@@ -1,0 +1,74 @@
+[
+ {
+  "id": "crimson_kuudra_hot_tier_key",
+  "type": "CRAFTING",
+  "result": "KUUDRA_HOT_TIER_KEY",
+  "amount": 1,
+  "grid": [
+   "KUUDRA_TIER_KEY",
+   "KUUDRA_TIER_KEY",
+   "",
+   "KUUDRA_TIER_KEY",
+   "KUUDRA_TIER_KEY",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting"
+ },
+ {
+  "id": "crimson_kuudra_burning_tier_key",
+  "type": "CRAFTING",
+  "result": "KUUDRA_BURNING_TIER_KEY",
+  "amount": 1,
+  "grid": [
+   "KUUDRA_HOT_TIER_KEY",
+   "KUUDRA_HOT_TIER_KEY",
+   "",
+   "KUUDRA_HOT_TIER_KEY",
+   "KUUDRA_HOT_TIER_KEY",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting"
+ },
+ {
+  "id": "crimson_kuudra_fiery_tier_key",
+  "type": "CRAFTING",
+  "result": "KUUDRA_FIERY_TIER_KEY",
+  "amount": 1,
+  "grid": [
+   "KUUDRA_BURNING_TIER_KEY",
+   "KUUDRA_BURNING_TIER_KEY",
+   "",
+   "KUUDRA_BURNING_TIER_KEY",
+   "KUUDRA_BURNING_TIER_KEY",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting"
+ },
+ {
+  "id": "crimson_kuudra_infernal_tier_key",
+  "type": "CRAFTING",
+  "result": "KUUDRA_INFERNAL_TIER_KEY",
+  "amount": 1,
+  "grid": [
+   "KUUDRA_FIERY_TIER_KEY",
+   "KUUDRA_FIERY_TIER_KEY",
+   "",
+   "KUUDRA_FIERY_TIER_KEY",
+   "KUUDRA_FIERY_TIER_KEY",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting"
+ }
+]

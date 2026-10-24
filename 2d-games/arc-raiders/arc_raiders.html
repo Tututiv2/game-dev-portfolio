@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THE IRON STAR: CELESTIAL</title>
+    <style>
+        /* --- CORE AESTHETICS --- */
+        body {
+            background-color: #000;
+            background-image: 
+                radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 3px),
+                radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 2px),
+                radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 3px);
+            background-size: 550px 550px, 350px 350px, 250px 250px;
+            background-position: 0 0, 40px 60px, 130px 270px;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            overflow: hidden; 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+
+        /* LAYOUT */
+        #interface {
+            display: grid;
+            grid-template-columns: 350px 1fr 350px;
+            grid-template-rows: 1fr 150px;
+            width: 95%;
+            height: 95%;
+            gap: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* PANELS */
+        .panel {
+            background: rgba(10, 15, 20, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 217, 255, 0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            position: relative; 
+        }
+
+        h2 { 
+            margin: 0 0 15px 0; font-size: 1rem; letter-spacing: 2px; color: #00d9ff; 
+            text-transform: uppercase; border-bottom: 1px solid rgba(0, 217, 255, 0.2); padding-bottom: 10px;
+        }
+
+        /* --- TABS --- */
+        .tab-container { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .tab-btn {
+            background: transparent; border: none; color: #555; cursor: pointer; font-weight: bold; font-size: 0.9rem;
+            padding: 5px 10px; transition: 0.2s;
+        }
+        .tab-btn:hover { color: #fff; }
+        .tab-active { color: #00d9ff; border-bottom: 2px solid #00d9ff; }
+        
+        .tab-content { display: none; flex-direction: column; height: 100%; }
+        .show-tab { display: flex; }
+
+        /* RESOURCES */
+        .resource-row {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 12px; padding: 8px; background: rgba(255, 255, 255, 0.03);
+            border-radius: 5px; position: relative; cursor: help;
+        }
+        .resource-row:hover::after {
+            content: attr(data-tooltip); position: absolute; top: 100%; left: 10px; width: 250px; 
+            background: #111; border: 1px solid #00d9ff; color: #fff; padding: 10px; font-size: 0.8rem;
+            z-index: 200; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.8); pointer-events: none; white-space: normal; 
+        }
+        .res-name { font-weight: bold; font-size: 0.9rem; }
+        .res-val { font-family: 'Courier New', monospace; font-weight: bold; font-size: 1.1rem; }
+
+        .c-hydro { color: #00d9ff; }
+        .c-energy { color: #ffd700; }
+        .c-mass { color: #bcaaa4; }
+        .c-iron { color: #ff5252; }
+        .c-insight { color: #00e676; text-shadow: 0 0 5px #00e676; }
+
+        /* VIEWPORT & STAR (FIXED CENTERING) */
+        #viewport { grid-column: 2; position: relative; display: flex; justify-content: center; align-items: center; }
+
+        #the-star {
+            width: 60px; height: 60px; border-radius: 50%; background: #3e2723;
+            box-shadow: 0 0 30px #3e2723, 0 0 60px rgba(62, 39, 35, 0.5);
+            /* CENTER FIX: */
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            z-index: 10;
+            transition: width 1s, height 1s, background 1s; 
+            animation: starPulse 4s infinite alternate; 
+        }
+        @keyframes starPulse { 0% { filter: brightness(1); } 100% { filter: brightness(1.2); } }
+
+        /* ORBITS (FIXED) */
+        .orbit {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            border: 1px dashed rgba(255,255,255,0.1); border-radius: 50%; pointer-events: none;
+            display: flex; justify-content: center; align-items: flex-start;
+        }
+        .planet {
+            width: 12px; height: 12px; background: #fff; border-radius: 50%;
+            position: relative; top: -6px; /* Sits on the line */
+            box-shadow: 0 0 5px rgba(255,255,255,0.5);
+        }
+
+        /* PARTICLES */
+        .fuel-particle {
+            position: absolute; width: 8px; height: 8px; background: #00d9ff; border-radius: 50%;
+            box-shadow: 0 0 10px #00d9ff; pointer-events: none; z-index: 5; 
+            transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); opacity: 1;
+        }
+        .void-particle {
+            position: absolute; width: 12px; height: 12px; background: #e040fb; border-radius: 50%;
+            box-shadow: 0 0 15px #e040fb; pointer-events: none; z-index: 5; 
+            transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); opacity: 1;
+        }
+
+        /* BUTTONS */
+        .btn {
+            background: rgba(0, 0, 0, 0.4); border: 1px solid #444; color: #aaa; padding: 15px;
+            margin-bottom: 10px; cursor: pointer; transition: 0.2s; display: flex;
+            flex-direction: column; border-radius: 5px; position: relative; overflow: hidden;
+        }
+        .btn:hover { border-color: #00d9ff; background: rgba(0, 217, 255, 0.05); color: #fff; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; border-color: #333; }
+        .btn-title { font-weight: bold; font-size: 0.9rem; margin-bottom: 4px; }
+        .btn-desc { font-size: 0.75rem; color: #777; margin-bottom: 4px; }
+        .btn-cost { font-size: 0.8rem; color: #ffd700; }
+
+        #btn-inject {
+            background: linear-gradient(45deg, #00d9ff10, transparent); border-color: #00d9ff; color: #00d9ff;
+            text-align: center; align-items: center; padding: 20px; font-size: 1.1rem; letter-spacing: 2px;
+            margin-bottom: 10px; transition: all 0.1s; 
+        }
+        #btn-inject:hover { box-shadow: 0 0 20px rgba(0, 217, 255, 0.2); background: linear-gradient(45deg, #00d9ff30, transparent); }
+        #btn-inject:active { transform: scale(0.98); background: #00d9ff; color: #000; box-shadow: 0 0 30px #00d9ff; }
+
+        #btn-void {
+            display: none; background: linear-gradient(45deg, #e040fb10, transparent); border-color: #e040fb; color: #e040fb;
+            text-align: center; align-items: center; padding: 20px; font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 20px; 
+        }
+        #btn-void:hover { box-shadow: 0 0 20px rgba(224, 64, 251, 0.2); background: linear-gradient(45deg, #e040fb30, transparent); }
+
+        /* RESEARCH UI */
+        .research-bar-bg { width: 100%; height: 4px; background: #333; margin-top: 5px; }
+        .research-bar-fill { width: 0%; height: 100%; background: #00e676; transition: width 0.2s; }
+        
+        /* CONSTELLATION MAP */
+        #map-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 150;
+            display: none; flex-direction: column; align-items: center; padding: 20px;
+        }
+        .map-node { width: 15px; height: 15px; background: #333; border-radius: 50%; position: absolute; cursor: pointer; border: 2px solid #555; transition: 0.2s; }
+        .map-node:hover { transform: scale(1.5); border-color: #fff; }
+        .node-active { background: #00e676; box-shadow: 0 0 10px #00e676; border-color: #00e676; }
+
+        /* ALIEN EVENT */
+        #alien-modal {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 400px; padding: 20px; background: #111; border: 1px solid #00e676;
+            box-shadow: 0 0 50px rgba(0, 230, 118, 0.2); z-index: 200; display: none;
+            text-align: center;
+        }
+
+        /* LOG */
+        #log-panel { grid-column: 1 / span 3; grid-row: 2; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #888; flex-direction: column-reverse; }
+        .log-msg { margin-top: 4px; padding-left: 10px; border-left: 2px solid #333; }
+        .log-important { border-left-color: #00d9ff; color: #fff; }
+        .log-alien { border-left-color: #00e676; color: #00e676; }
+        .log-danger { border-left-color: #ff5252; color: #ff5252; }
+        .log-lore { border-left-color: #ffd700; color: #ffd700; font-style: italic; }
+
+        /* MISC */
+        #iron-container { width: 100%; height: 6px; background: #222; border-radius: 3px; margin-top: 5px; overflow: hidden; }
+        #iron-fill { width: 0%; height: 100%; background: linear-gradient(90deg, #ff5252, #ff0000); transition: width 0.5s; }
+        #prestige-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 100; display: none; flex-direction: column; justify-content: center; align-items: center; }
+        .glitch-text { font-size: 4rem; color: #fff; text-shadow: 2px 0 red, -2px 0 blue; margin-bottom: 20px; animation: shake 0.2s infinite; }
+        .upgrade-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 900px; }
+        .upg-card { border: 1px solid #fff; padding: 20px; text-align: left; cursor: pointer; transition: 0.2s; background: rgba(255,255,255,0.05); display: flex; flex-direction: column; }
+        .upg-card:hover { background: #fff; color: #000; box-shadow: 0 0 20px #fff; }
+        .upg-cost { color: gold; font-weight: bold; margin-top: auto; padding-top: 10px;}
+        .upg-void { border-color: #e040fb; color: #e040fb; }
+        .upg-void:hover { background: #e040fb; color: #000; box-shadow: 0 0 30px #e040fb; }
+        #manual-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 150; display: none; flex-direction: column; align-items: center; padding: 50px; box-sizing: border-box; overflow-y: auto; }
+        #manual-content { max-width: 800px; color: #ddd; line-height: 1.6; }
+        #manual-content h1 { color: #00d9ff; border-bottom: 2px solid #00d9ff; padding-bottom: 10px; margin-bottom: 20px; }
+        #manual-content h2 { color: #ffd700; margin-top: 30px; border-bottom: 1px solid #333; }
+        .lore-quote { font-style: italic; color: #888; border-left: 3px solid #333; padding-left: 10px; margin: 10px 0; background: rgba(255,255,255,0.05); padding: 10px; }
+        #btn-archives { position: absolute; top: 20px; left: 20px; z-index: 50; background: rgba(0,0,0,0.5); border: 1px solid #555; color: #aaa; cursor: pointer; padding: 8px 15px; font-size: 0.8rem; letter-spacing: 1px; transition:0.2s; }
+        #btn-archives:hover { color: #fff; border-color: #00d9ff; background: rgba(0, 217, 255, 0.1); }
+        #dev-toggle { position: fixed; bottom: 10px; right: 10px; width: 30px; height: 30px; background: #111; border: 1px solid #333; color: #333; cursor: pointer; z-index: 200; font-size: 0.8rem; }
+        #dev-menu { position: fixed; bottom: 50px; right: 10px; background: rgba(0,0,0,0.95); border: 1px solid #00d9ff; padding: 10px; display: none; z-index: 200; flex-direction: column; gap: 5px; }
+        .dev-btn { background: #000; color: #00d9ff; border: 1px solid #00d9ff; padding: 5px 10px; cursor: pointer; font-family: monospace; }
+        .dev-btn:hover { background: #00d9ff; color: #000; }
+
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        .rotating { animation: rotate 20s linear infinite; }
+        @keyframes shake { 0% { transform: translate(1px, 0); } 50% { transform: translate(-1px, 0); } 100% { transform: translate(0, 0); } }
+
+    </style>
+</head>
+<body>
+
+<button id="btn-archives" onclick="toggleManual()">[ ARCHIVES ]</button>
+
+<div id="interface">
+    <div class="panel" style="z-index: 20;"> 
+        <h2>Telemetry</h2>
+        
+        <div class="resource-row" data-tooltip="The fuel source. Inject into the star to increase Mass and generate Energy.">
+            <span class="res-name c-hydro">HYDROGEN</span>
+            <span id="val-hydro" class="res-val">20</span>
+        </div>
+
+        <div class="resource-row" data-tooltip="Universal power currency. Generated by star fusion.">
+            <span class="res-name c-energy">ENERGY (J)</span>
+            <span id="val-energy" class="res-val">0</span>
+        </div>
+
+        <div class="resource-row" data-tooltip="Gravitational Density. Higher Mass increases fusion rates.">
+            <span class="res-name c-mass">MASS</span>
+            <span id="val-mass" class="res-val">10</span>
+        </div>
+
+        <div class="resource-row" style="margin-top: 10px;" data-tooltip="Knowledge of the cosmos. Used to unlock Constellations.">
+            <span class="res-name c-insight">INSIGHT</span>
+            <span id="val-insight" class="res-val">0</span>
+        </div>
+
+        <div class="resource-row" style="margin-top: 30px;" data-tooltip="The Great Filter. Iron kills stars. At 100%, the cycle ends.">
+            <span class="res-name c-iron">IRON TOXICITY</span>
+            <span id="val-iron" class="res-val">0.0%</span>
+        </div>
+        <div id="iron-container"><div id="iron-fill"></div></div>
+        <div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 5px;">THRESHOLD: <span id="val-threshold">200</span> MASS</div>
+
+        <div style="margin-top: auto; border-top: 1px solid #333; padding-top: 10px;">
+            <div class="resource-row" data-tooltip="Prestige currency earned upon star death.">
+                <span class="res-name" style="color:#e040fb">STARDUST</span>
+                <span id="val-stardust" class="res-val">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="viewport">
+        <div id="the-star"></div>
+    </div>
+
+    <div class="panel">
+        <div class="tab-container">
+            <button class="tab-btn tab-active" id="tab-eng" onclick="switchTab('eng')">ENGINEERING</button>
+            <button class="tab-btn" id="tab-lab" onclick="switchTab('lab')">LABORATORY</button>
+        </div>
+        
+        <div id="content-eng" class="tab-content show-tab">
+            <button id="btn-inject" class="btn" onclick="injectHydrogen()">
+                <span class="btn-title">INJECT HYDROGEN</span>
+                <span class="btn-desc">Ignite Core / Add Mass</span>
+            </button>
+
+            <button id="btn-void" class="btn" onclick="injectDarkMatter()">
+                <span class="btn-title">DARK MATTER INJECTION</span>
+                <span class="btn-desc">Consume Energy for Mass (+5 Mass)</span>
+            </button>
+
+            <button id="btn-scoop" class="btn" onclick="buy('scoop')">
+                <span class="btn-title">HYDROGEN SCOOP</span>
+                <span class="btn-desc">Auto-collects 0.2 H/sec</span>
+                <span class="btn-cost" id="cost-scoop">15 J</span>
+            </button>
+
+            <button id="btn-auto" class="btn" onclick="buy('auto')">
+                <span class="btn-title">AUTO-LOADER</span>
+                <span class="btn-desc">Auto-feeds star (1/sec)</span>
+                <span class="btn-cost" id="cost-auto">150 J</span>
+            </button>
+
+            <button id="btn-dyson" class="btn" onclick="buy('dyson')">
+                <span class="btn-title">DYSON SWARM</span>
+                <span class="btn-desc">Amplifies Output x1.2</span>
+                <span class="btn-cost" id="cost-dyson">500 J</span>
+            </button>
+
+            <button id="btn-shield" class="btn" onclick="buy('shield')">
+                <span class="btn-title">MAGNETIC SHIELD</span>
+                <span class="btn-desc">Slows Iron buildup by 10%</span>
+                <span class="btn-cost" id="cost-shield">2000 J</span>
+            </button>
+
+            <button id="btn-stabilize" class="btn" onclick="buy('stabilizer')" style="border-color: #ff5252; color: #ff5252; margin-top: auto; display: none;">
+                <span class="btn-title">EMERGENCY VENT</span>
+                <span class="btn-desc">Remove 5% Iron</span>
+                <span class="btn-cost" id="cost-stabilizer">5000 J</span>
+            </button>
+        </div>
+
+        <div id="content-lab" class="tab-content">
+            <div style="font-size:0.8rem; color:#666; margin-bottom:10px;">Select a project to research over time.</div>
+            
+            <button id="res-xeno" class="btn" onclick="startResearch('xeno')">
+                <span class="btn-title">XENOBIOLOGY</span>
+                <span class="btn-desc">Detect life signals. Unlock Events.</span>
+                <span class="btn-cost">1000 J</span>
+                <div class="research-bar-bg"><div id="bar-xeno" class="research-bar-fill"></div></div>
+            </button>
+
+            <button id="res-cart" class="btn" onclick="startResearch('cart')">
+                <span class="btn-title">STELLAR CARTOGRAPHY</span>
+                <span class="btn-desc">Map the stars. Unlock Passive Tree.</span>
+                <span class="btn-cost">2500 J</span>
+                <div class="research-bar-bg"><div id="bar-cart" class="research-bar-fill"></div></div>
+            </button>
+
+            <button id="btn-constellation" class="btn" onclick="openStarMap()" style="display:none; border-color:#00e676; color:#00e676; margin-top:auto;">
+                <span class="btn-title">OPEN STAR MAP</span>
+                <span class="btn-desc">View Constellations</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="log-panel" class="panel">
+        <div class="log-msg">System Online. The void awaits ignition.</div>
+    </div>
+</div>
+
+<div id="manual-overlay">
+    <div id="manual-content">
+        <h1>THE ARCHIVES</h1>
+        <div class="lore-quote">"They say the Precursors didn't die out. They say they ascended. We are just the dust they left behind."</div>
+        
+        <h2>// 01. CORE PROTOCOLS</h2>
+        <p>Your directive is simple: <b>Sustain the Star</b>. The universe is freezing over, and you are the keeper of the last heat source. To do this, you must inject <b>Hydrogen</b> into the core to increase its <b>Mass</b>.</p>
+        <ul>
+            <li><b>IGNITION:</b> The star is cold. Clicking 'Inject Hydrogen' will ignite the core and begin the cycle.</li>
+            <li><b>CONSUMPTION:</b> Once ignited, the star consumes Hydrogen automatically based on its Mass. Larger stars are hungrier.</li>
+            <li><b>OUTPUT:</b> Burning Hydrogen produces <b>Energy (J)</b>. Use this to automate your task.</li>
+        </ul>
+
+        <h2>// 02. THE GREAT FILTER</h2>
+        <p>All stars eventually die. As Mass increases, the core pressure allows for the fusion of heavier elements.</p>
+        <ul>
+            <li><b>THRESHOLD:</b> Once Mass exceeds the safety threshold, <b>IRON</b> begins to form.</li>
+            <li><b>TOXICITY:</b> Iron is the ash of stars. It cannot be fused. It reduces your Energy generation efficiency.</li>
+            <li><b>COLLAPSE:</b> If Iron Toxicity reaches 100%, the core destabilizes. Supernova is inevitable.</li>
+        </ul>
+
+        <h2>// 03. ADVANCED SYSTEMS</h2>
+        <p><b>LABORATORY:</b> Spend Energy to research ancient technologies. Unlocks alien contact and star mapping.</p>
+        <p><b>CONSTELLATIONS:</b> Connect distant stars using <b>Insight</b> to gain permanent passive buffs.</p>
+        <p><b>PRESTIGE:</b> When the star collapses, you gather <b>Stardust</b>. This allows you to rewrite the laws of physics for the next universe.</p>
+
+        <div class="lore-quote">"Do not fear the end. The end is just a reset button."</div>
+
+        <button class="btn" style="width: 200px; margin-top: 30px; border-color: #fff; color: #fff;" onclick="toggleManual()">CLOSE ARCHIVES</button>
+    </div>
+</div>
+
+<div id="prestige-overlay">
+    <h1 class="glitch-text">ENTROPY WINS</h1>
+    <p style="color:#aaa; font-size: 1.5rem; margin-bottom: 40px;">The star has collapsed.</p>
+    <div style="margin-bottom: 20px; font-size: 1.2rem; color: #e040fb;">STARDUST EARNED: <span id="earned-dust">0</span></div>
+    <div class="upgrade-grid">
+        <div class="upg-card" onclick="buyUpgrade('fusion')"><h3>NUCLEOSYNTHESIS</h3><p>Energy +50%</p><p class="upg-cost">Cost: 10 SD</p><p>Lvl: <span id="lvl-fusion">0</span></p></div>
+        <div class="upg-card" onclick="buyUpgrade('purity')"><h3>MATTER PURITY</h3><p>Iron Delay +100 Mass</p><p class="upg-cost">Cost: 20 SD</p><p>Lvl: <span id="lvl-purity">0</span></p></div>
+        <div class="upg-card" onclick="buyUpgrade('scavenger')"><h3>SCAVENGER</h3><p>Start +1 Scoop/500J</p><p class="upg-cost">Cost: 50 SD</p><p>Lvl: <span id="lvl-scavenger">0</span></p></div>
+        <div class="upg-card" onclick="buyUpgrade('efficiency')"><h3>EFFICIENCY</h3><p>Cost -5%</p><p class="upg-cost">Cost: 100 SD</p><p>Lvl: <span id="lvl-efficiency">0</span></p></div>
+        <div class="upg-card" onclick="buyUpgrade('stability')"><h3>STABILITY</h3><p>Iron Rate -10%</p><p class="upg-cost">Cost: 150 SD</p><p>Lvl: <span id="lvl-stability">0</span></p></div>
+        <div class="upg-card upg-void" onclick="buyUpgrade('voidtear')"><h3>VOID TEAR</h3><p>Dark Matter</p><p class="upg-cost">Cost: 200 SD</p><p>Status: <span id="lvl-voidtear">LOCKED</span></p></div>
+    </div>
+    <button class="btn" style="margin-top: 50px; border-color: #fff; color: #fff; width: 300px; font-size: 1.2rem;" onclick="reboot()">REBOOT UNIVERSE</button>
+</div>
+
+<div id="map-overlay">
+    <h1 style="color:#00e676;">CONSTELLATIONS</h1>
+    <p style="color:#aaa;">Spend INSIGHT to connect the stars.</p>
+    <div style="position: relative; width: 600px; height: 400px; border: 1px solid #333; background: #000; margin-top: 20px;">
+        <div class="map-node" style="top: 50%; left: 20%;" onclick="buyNode('hunter')" data-tooltip="THE HUNTER: Scoop Speed +50% (Cost: 10 Insight)"></div>
+        <div style="position: absolute; top: 55%; left: 18%; color: #555; font-size: 0.8rem;">THE HUNTER</div>
+        
+        <div class="map-node" style="top: 20%; left: 50%;" onclick="buyNode('guardian')" data-tooltip="THE GUARDIAN: Iron Resistance +10% (Cost: 15 Insight)"></div>
+        <div style="position: absolute; top: 15%; left: 48%; color: #555; font-size: 0.8rem;">THE GUARDIAN</div>
+
+        <div class="map-node" style="top: 50%; left: 80%;" onclick="buyNode('eye')" data-tooltip="THE EYE: Research Speed x2 (Cost: 20 Insight)"></div>
+        <div style="position: absolute; top: 55%; left: 78%; color: #555; font-size: 0.8rem;">THE EYE</div>
+        
+        <div style="position: absolute; top: 50%; left: 22%; width: 28%; height: 1px; background: #333;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; width: 30%; height: 1px; background: #333;"></div>
+        <div style="position: absolute; top: 22%; left: 50%; width: 1px; height: 28%; background: #333;"></div>
+    </div>
+    <div style="margin-top: 20px; color: #00e676;">INSIGHT AVAILABLE: <span id="map-insight">0</span></div>
+    <button class="btn" style="margin-top: 20px; width: 200px;" onclick="closeStarMap()">CLOSE</button>
+</div>
+
+<div id="alien-modal">
+    <h2 style="color:#00e676">SIGNAL DETECTED</h2>
+    <p style="color:#ddd">A transmission from Orbit 3. An intelligent civilization.</p>
+    <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+        <button class="btn" style="border-color:#00e676; color:#00e676" onclick="resolveAlien('comm')">COMMUNICATE<br><span style="font-size:0.7rem">+5 INSIGHT</span></button>
+        <button class="btn" style="border-color:#ff5252; color:#ff5252" onclick="resolveAlien('consume')">CONSUME<br><span style="font-size:0.7rem">+1000 ENERGY</span></button>
+    </div>
+</div>
+
+<button id="dev-toggle" onclick="toggleDev()">DEV</button>
+<div id="dev-menu">
+    <button class="dev-btn" onclick="devAddRes()">+5000 Res</button>
+    <button class="dev-btn" onclick="devAddDust()">+500 Dust</button>
+    <button class="dev-btn" onclick="devResetIron()">Reset Iron</button>
+    <button class="dev-btn" onclick="devKillStar()">Trigger Collapse</button>
+    <button class="dev-btn" onclick="devAddInsight()">+50 Insight</button>
+</div>
+
+<script>
+    /* --- GAME CONFIGURATION --- */
+    const GAME = {
+        tickRate: 100, 
+        
+        // Resources
+        hydro: 20, energy: 0, mass: 10, iron: 0, stardust: 0, insight: 0,
+
+        // Buildings
+        buildings: { scoop: 0, auto: 0, dyson: 0, shield: 0 },
+        costs: { scoop: 15, auto: 150, dyson: 500, shield: 2000, stabilizer: 5000 },
+
+        // Upgrades
+        upgrades: { fusion: 0, purity: 0, scavenger: 0, efficiency: 0, stability: 0, voidtear: 0 },
+        
+        // Research
+        research: { xeno: 0, cart: 0 }, 
+        unlocked: { xeno: false, cart: false },
+        activeResearch: null,
+
+        // Constellations
+        constellations: { hunter: false, guardian: false, eye: false },
+
+        // State
+        timer: null,
+        planets: 0,
+        ironThreshold: 200,
+        starIgnited: false
+    };
+
+    /* --- INITIALIZATION --- */
+    function init() {
+        log("The Archives have been decrypted.");
+        log("System Online. The void awaits ignition.");
+        applyUpgrades();
+        if(GAME.timer) clearInterval(GAME.timer); // init() runs again on reboot; never stack tick loops
+        GAME.timer = setInterval(tick, GAME.tickRate);
+        render();
+    }
+
+    function applyUpgrades() {
+        if(GAME.upgrades.scavenger > 0) {
+            GAME.buildings.scoop += GAME.upgrades.scavenger;
+            GAME.energy += (GAME.upgrades.scavenger * 500);
+            log("Scavenger protocol active.");
+        }
+        GAME.ironThreshold = 200 + (GAME.upgrades.purity * 100);
+        document.getElementById('val-threshold').innerText = GAME.ironThreshold;
+        if(GAME.upgrades.voidtear > 0) document.getElementById('btn-void').style.display = 'flex';
+    }
+
+    /* --- LORE SYSTEM --- */
+    const LORE_EVENTS = [
+        { m: 20, text: "The star stabilizes. A faint hum resonates through the hull.", triggered: false },
+        { m: 50, text: "Gravitational readings spiking. The nebula is shifting.", triggered: false },
+        { m: 100, text: "Fusion efficiency increasing. The core glows brighter.", triggered: false },
+        { m: 150, text: "Warning: Precursor signals detected in the background noise.", triggered: false },
+        { m: 200, text: "CRITICAL: Heavy elements forming. Iron detected.", triggered: false },
+        { m: 300, text: "The star hungers. It is no longer just a machine.", triggered: false }
+    ];
+
+    function checkLore() {
+        LORE_EVENTS.forEach(ev => {
+            if(!ev.triggered && GAME.mass >= ev.m) {
+                log(ev.text, "lore");
+                ev.triggered = true;
+            }
+        });
+    }
+
+    /* --- CORE LOOP --- */
+    function tick() {
+        // Passive Gain
+        let scoopRate = (GAME.buildings.scoop * 0.05);
+        if(GAME.constellations.hunter) scoopRate *= 1.5; // Constellation Buff
+        GAME.hydro += scoopRate;
+
+        // Auto-Loader (Only if Ignited)
+        if(GAME.starIgnited && GAME.buildings.auto > 0) {
+            if(Math.random() < (GAME.buildings.auto * 0.1) && GAME.hydro >= 1) {
+                GAME.hydro--; GAME.mass++;
+                spawnParticle('blue'); 
+            }
+        }
+
+        // Fusion (Only if Ignited)
+        if(GAME.starIgnited) {
+            let burnRate = Math.max(0.05, GAME.mass * 0.001); // REDUCED BURN RATE
+            let ironPenalty = 1 - (GAME.iron / 120); 
+            if(ironPenalty < 0.1) ironPenalty = 0.1;
+
+            let fusionMult = 1 + (GAME.upgrades.fusion * 0.5);
+            let dysonMult = 1 + (GAME.buildings.dyson * 0.2);
+
+            if(GAME.hydro >= burnRate) {
+                GAME.hydro -= burnRate;
+                GAME.energy += (burnRate * 10) * ironPenalty * fusionMult * dysonMult;
+            } else {
+                // If out of fuel, star flickers but doesn't die immediately (QoL)
+            }
+
+            // Iron Accumulation
+            if(GAME.mass > GAME.ironThreshold) {
+                let overflow = GAME.mass - GAME.ironThreshold;
+                let ironGrowth = overflow * 0.001; 
+                let shieldReduc = 1 - (GAME.buildings.shield * 0.1); 
+                if(shieldReduc < 0.2) shieldReduc = 0.2;
+                let stabilityReduc = 1 - (GAME.upgrades.stability * 0.1);
+                if(stabilityReduc < 0.1) stabilityReduc = 0.1;
+                
+                if(GAME.constellations.guardian) ironGrowth *= 0.9;
+
+                GAME.iron += (ironGrowth * shieldReduc * stabilityReduc);
+            }
+        }
+
+        // Research Progress
+        if(GAME.activeResearch) {
+            let speed = 0.5; 
+            if(GAME.constellations.eye) speed *= 2; 
+            GAME.research[GAME.activeResearch] += speed;
+            document.getElementById('bar-'+GAME.activeResearch).style.width = GAME.research[GAME.activeResearch] + "%";
+            if(GAME.research[GAME.activeResearch] >= 100) completeResearch(GAME.activeResearch);
+        }
+
+        // Random Alien Event
+        if(GAME.unlocked.xeno && GAME.planets >= 1 && Math.random() < 0.005) {
+            triggerAlienEvent();
+        }
+
+        if(GAME.iron >= 100) triggerCollapse();
+
+        checkLore();
+        updatePlanets();
+        updateStarAppearance();
+        render();
+    }
+
+    /* --- ACTIONS --- */
+    function injectHydrogen() {
+        if(GAME.hydro >= 1) {
+            GAME.hydro -= 1;
+            GAME.mass += 1;
+            GAME.energy += 5; 
+            GAME.starIgnited = true; // Ignite star
+            spawnParticle('blue');
+            spawnParticle('blue');
+            render();
+        } else {
+            log("Hydrogen reserves depleted.", "danger");
+        }
+    }
+
+    function injectDarkMatter() {
+        if(GAME.energy >= 50) {
+            GAME.energy -= 50;
+            GAME.mass += 5;
+            GAME.starIgnited = true;
+            spawnParticle('purple'); 
+            spawnParticle('purple');
+            render();
+        } else {
+            log("Insufficient Energy for Void Injection.", "void");
+        }
+    }
+
+    // Unified Particle Spawner
+    function spawnParticle(color) {
+        const viewport = document.getElementById('viewport');
+        const particle = document.createElement('div');
+        if(color === 'purple') particle.className = 'void-particle';
+        else particle.className = 'fuel-particle';
+        const angle = Math.random() * Math.PI * 2;
+        const distance = 250; 
+        const startX = Math.cos(angle) * distance;
+        const startY = Math.sin(angle) * distance;
+        particle.style.left = 'calc(50% + ' + startX + 'px)';
+        particle.style.top = 'calc(50% + ' + startY + 'px)';
+        viewport.appendChild(particle);
+        requestAnimationFrame(() => {
+            particle.style.left = '50%';
+            particle.style.top = '50%';
+            particle.style.transform = 'translate(-50%, -50%) scale(0.1)';
+            particle.style.opacity = '0';
+        });
+        setTimeout(() => { particle.remove(); }, 800);
+    }
+
+    function buy(type) {
+        let cost = GAME.costs[type];
+        let discount = 1 - (GAME.upgrades.efficiency * 0.05);
+        if(discount < 0.1) discount = 0.1;
+        cost = Math.floor(cost * discount);
+
+        if(GAME.energy >= cost) {
+            GAME.energy -= cost;
+            if(type === 'stabilizer') {
+                GAME.iron = Math.max(0, GAME.iron - 5);
+                GAME.costs[type] = Math.floor(GAME.costs[type] * 1.5);
+                log("Venting initialized. Iron purged.", "important");
+            } else {
+                GAME.buildings[type]++;
+                GAME.costs[type] = Math.floor(GAME.costs[type] * 1.4);
+                log(type.toUpperCase() + " module online.");
+            }
+            render();
+        }
+    }
+
+    /* --- RESEARCH SYSTEM --- */
+    function switchTab(tab) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('tab-active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('show-tab'));
+        document.getElementById('tab-'+tab).classList.add('tab-active');
+        document.getElementById('content-'+tab).classList.add('show-tab');
+    }
+
+    function startResearch(type) {
+        if(GAME.unlocked[type]) return; // Already done
+        if(GAME.activeResearch === type) return; // Already running; don't charge again
+        if(GAME.research[type] > 0) { // Paid & partially researched: resume for free
+            GAME.activeResearch = type;
+            log("Research resumed: " + type.toUpperCase());
+            return;
+        }
+        let cost = 0;
+        if(type === 'xeno') cost = 1000;
+        if(type === 'cart') cost = 2500;
+
+        if(GAME.energy >= cost) {
+            GAME.energy -= cost;
+            GAME.activeResearch = type;
+            log("Research started: " + type.toUpperCase());
+        }
+    }
+
+    function completeResearch(type) {
+        GAME.activeResearch = null;
+        GAME.unlocked[type] = true;
+        log("Research Complete: " + type.toUpperCase(), "important");
+        document.getElementById('res-'+type).style.display = 'none';
+        if(type === 'cart') document.getElementById('btn-constellation').style.display = 'flex';
+        if(type === 'xeno') log("Deep space sensors active. Listening...", "alien");
+    }
+
+    /* --- ALIEN SYSTEM --- */
+    function triggerAlienEvent() {
+        document.getElementById('alien-modal').style.display = 'block';
+    }
+
+    function resolveAlien(choice) {
+        document.getElementById('alien-modal').style.display = 'none';
+        if(choice === 'comm') {
+            GAME.insight += 5;
+            log("Contact established. They shared knowledge.", "alien");
+        } else {
+            GAME.energy += 1000;
+            log("Civilization harvested. Energy grid surging.", "danger");
+        }
+    }
+
+    /* --- CONSTELLATION SYSTEM --- */
+    function openStarMap() { document.getElementById('map-overlay').style.display = 'flex'; updateMapUI(); }
+    function closeStarMap() { document.getElementById('map-overlay').style.display = 'none'; }
+    
+    function updateMapUI() {
+        document.getElementById('map-insight').innerText = GAME.insight;
+    }
+
+    function buyNode(node) {
+        if(GAME.constellations[node]) return; // Already bought
+        let cost = 0;
+        if(node === 'hunter') cost = 10;
+        if(node === 'guardian') cost = 15;
+        if(node === 'eye') cost = 20;
+
+        if(GAME.insight >= cost) {
+            GAME.insight -= cost;
+            GAME.constellations[node] = true;
+            updateMapUI();
+            alert("Constellation Active: " + node.toUpperCase());
+        }
+    }
+
+    /* --- VISUALS --- */
+    function updateStarAppearance() {
+        const star = document.getElementById('the-star');
+        let size = 60 + (GAME.mass * 0.3);
+        if(size > 450) size = 450;
+        star.style.width = size + 'px';
+        star.style.height = size + 'px';
+
+        if(GAME.iron > 80) {
+            star.style.background = "#fff";
+            star.style.boxShadow = `0 0 ${size}px #fff, 0 0 ${size*1.5}px rgba(255,255,255,0.5)`;
+            star.style.animation = "shake 0.1s infinite";
+        } else if (GAME.iron > 20) {
+            star.style.background = "#ff5252";
+            star.style.boxShadow = `0 0 ${size/1.5}px #ff5252, 0 0 ${size}px rgba(255, 82, 82, 0.5)`;
+        } else if (GAME.mass > 500) {
+            star.style.background = "#00d9ff";
+            star.style.boxShadow = `0 0 ${size/1.5}px #00d9ff, 0 0 ${size}px rgba(0, 217, 255, 0.5)`;
+        } else if (GAME.mass > 200) {
+            star.style.background = "#ffd700";
+            star.style.boxShadow = `0 0 ${size/2}px #ffd700, 0 0 ${size/1.5}px rgba(255, 215, 0, 0.5)`;
+        } else {
+            star.style.boxShadow = `0 0 30px #3e2723, 0 0 60px rgba(62, 39, 35, 0.5)`;
+        }
+        document.getElementById('iron-fill').style.width = GAME.iron + "%";
+        const stabBtn = document.getElementById('btn-stabilize');
+        if(GAME.iron > 10) stabBtn.style.display = 'flex'; else stabBtn.style.display = 'none';
+    }
+
+    function updatePlanets() {
+        const neededPlanets = Math.floor(GAME.mass / 200);
+        const viewport = document.getElementById('viewport');
+        if(neededPlanets > GAME.planets) {
+            GAME.planets++;
+            log("Gravitational anomaly detected. New planet formed.", "important");
+            const orbit = document.createElement('div');
+            orbit.className = 'orbit rotating';
+            let dist = 120 + (GAME.planets * 50);
+            orbit.style.width = (dist * 2) + 'px';
+            orbit.style.height = (dist * 2) + 'px';
+            orbit.style.animationDuration = (15 + GAME.planets * 8) + 's';
+            const planet = document.createElement('div');
+            planet.className = 'planet';
+            const colors = ['#fff', '#00d9ff', '#ff5252', '#ffd700', '#bcaaa4'];
+            planet.style.background = colors[Math.floor(Math.random()*colors.length)];
+            orbit.appendChild(planet);
+            viewport.appendChild(orbit);
+        }
+    }
+
+    function render() {
+        document.getElementById('val-hydro').innerText = GAME.hydro.toFixed(1);
+        document.getElementById('val-energy').innerText = Math.floor(GAME.energy);
+        document.getElementById('val-mass').innerText = Math.floor(GAME.mass);
+        document.getElementById('val-iron').innerText = GAME.iron.toFixed(1) + "%";
+        document.getElementById('val-stardust').innerText = GAME.stardust;
+        document.getElementById('val-insight').innerText = GAME.insight;
+
+        let discount = 1 - (GAME.upgrades.efficiency * 0.05);
+        if(discount < 0.1) discount = 0.1;
+        
+        document.getElementById('cost-scoop').innerText = Math.floor(GAME.costs.scoop * discount) + " J";
+        document.getElementById('cost-auto').innerText = Math.floor(GAME.costs.auto * discount) + " J";
+        document.getElementById('cost-dyson').innerText = Math.floor(GAME.costs.dyson * discount) + " J";
+        document.getElementById('cost-shield').innerText = Math.floor(GAME.costs.shield * discount) + " J";
+        document.getElementById('cost-stabilizer').innerText = Math.floor(GAME.costs.stabilizer * discount) + " J";
+
+        let currentEnergy = GAME.energy;
+        document.getElementById('btn-scoop').disabled = currentEnergy < Math.floor(GAME.costs.scoop * discount);
+        document.getElementById('btn-auto').disabled = currentEnergy < Math.floor(GAME.costs.auto * discount);
+        document.getElementById('btn-dyson').disabled = currentEnergy < Math.floor(GAME.costs.dyson * discount);
+        document.getElementById('btn-shield').disabled = currentEnergy < Math.floor(GAME.costs.shield * discount);
+        document.getElementById('btn-stabilize').disabled = currentEnergy < Math.floor(GAME.costs.stabilizer * discount);
+    }
+
+    function log(msg, type="") {
+        const panel = document.getElementById('log-panel');
+        const div = document.createElement('div');
+        div.innerText = "> " + msg;
+        div.className = "log-msg " + (type ? "log-"+type : "");
+        panel.prepend(div);
+        if(panel.children.length > 8) panel.removeChild(panel.lastChild);
+    }
+
+    function toggleManual() {
+        const ui = document.getElementById('manual-overlay');
+        ui.style.display = (ui.style.display === 'flex') ? 'none' : 'flex';
+    }
+
+    function triggerCollapse() {
+        clearInterval(GAME.timer);
+        const star = document.getElementById('the-star');
+        star.style.transition = "all 3s ease";
+        star.style.transform = "scale(25)";
+        star.style.opacity = "0";
+        star.style.background = "#fff";
+        star.style.boxShadow = "0 0 500px #fff, 0 0 1000px #fff";
+        
+        let earned = Math.floor(GAME.mass / 50);
+        GAME.stardust += earned;
+        
+        setTimeout(() => {
+            document.getElementById('prestige-overlay').style.display = 'flex';
+            document.getElementById('earned-dust').innerText = earned;
+            document.getElementById('lvl-fusion').innerText = GAME.upgrades.fusion;
+            document.getElementById('lvl-purity').innerText = GAME.upgrades.purity;
+            document.getElementById('lvl-scavenger').innerText = GAME.upgrades.scavenger;
+            document.getElementById('lvl-efficiency').innerText = GAME.upgrades.efficiency;
+            document.getElementById('lvl-stability').innerText = GAME.upgrades.stability;
+            document.getElementById('lvl-voidtear').innerText = (GAME.upgrades.voidtear > 0) ? "UNLOCKED" : "LOCKED";
+        }, 3000);
+    }
+
+    function buyUpgrade(type) {
+        let cost = 0;
+        if(type === 'fusion') cost = 10;
+        if(type === 'purity') cost = 20;
+        if(type === 'scavenger') cost = 50;
+        if(type === 'efficiency') cost = 100;
+        if(type === 'stability') cost = 150;
+        if(type === 'voidtear') cost = 200;
+
+        if(GAME.stardust >= cost) {
+            if(type === 'voidtear' && GAME.upgrades.voidtear > 0) return;
+            GAME.stardust -= cost;
+            GAME.upgrades[type]++;
+            if(type === 'voidtear') document.getElementById('lvl-voidtear').innerText = "UNLOCKED";
+            else document.getElementById('lvl-' + type).innerText = GAME.upgrades[type];
+            document.getElementById('earned-dust').innerText = "Remaining: " + GAME.stardust;
+        }
+    }
+
+    function reboot() {
+        GAME.hydro = 20; GAME.energy = 0; GAME.mass = 10; GAME.iron = 0; GAME.insight = 0;
+        GAME.buildings = { scoop: 0, auto: 0, dyson: 0, shield: 0 };
+        GAME.costs = { scoop: 15, auto: 150, dyson: 500, shield: 2000, stabilizer: 5000 };
+        // FIX: Reset Research Unlocks
+        GAME.research = { xeno:0, cart:0 };
+        GAME.unlocked = { xeno: false, cart: false };
+        GAME.activeResearch = null;
+        GAME.starIgnited = false; // Reset Ignition
+        GAME.planets = 0;
+        document.querySelectorAll('.orbit').forEach(el => el.remove());
+        document.getElementById('prestige-overlay').style.display = 'none';
+        document.getElementById('alien-modal').style.display = 'none'; // don't carry an open event into the new run
+        const star = document.getElementById('the-star');
+        star.style.transition = "width 1s, height 1s, background 1s"; // undo collapse's "all 3s ease"
+        star.style.transform = "translate(-50%, -50%) scale(1)"; // Keep center transform
+        star.style.opacity = "1";
+        star.style.background = "#3e2723";
+        star.style.animation = "";
+        
+        document.getElementById('btn-void').style.display = 'none';
+        document.getElementById('btn-constellation').style.display = 'none';
+        document.getElementById('res-xeno').style.display = 'flex';
+        document.getElementById('res-cart').style.display = 'flex';
+        document.getElementById('bar-xeno').style.width = '0%';
+        document.getElementById('bar-cart').style.width = '0%';
+
+        // RESET LORE
+        LORE_EVENTS.forEach(ev => ev.triggered = false);
+
+        init();
+    }
+
+    /* --- DEV TOOLS --- */
+    function toggleDev() { const menu = document.getElementById('dev-menu'); menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex'; }
+    function devAddRes() { GAME.hydro += 5000; GAME.energy += 5000; GAME.mass += 1000; render(); }
+    function devAddDust() { GAME.stardust += 500; render(); }
+    function devAddInsight() { GAME.insight += 50; render(); }
+    function devResetIron() { GAME.iron = 0; render(); }
+    function devKillStar() { GAME.iron = 100; render(); }
+
+    window.onload = init;
+
+</script>
+</body>
+</html>

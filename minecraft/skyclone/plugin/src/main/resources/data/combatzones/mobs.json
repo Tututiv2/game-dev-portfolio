@@ -1,0 +1,3684 @@
+[
+ {
+  "id": "den_splitter_spider_2",
+  "name": "Splitter Spider",
+  "level": 2,
+  "entity": "SPIDER",
+  "health": 180,
+  "damage": 30,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_splitter_spider_4",
+  "name": "Splitter Spider",
+  "level": 4,
+  "entity": "SPIDER",
+  "health": 220,
+  "damage": 45,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_splitter_spider_6",
+  "name": "Splitter Spider",
+  "level": 6,
+  "entity": "SPIDER",
+  "health": 260,
+  "damage": 60,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_splitter_spider_42",
+  "name": "Splitter Spider",
+  "level": 42,
+  "entity": "SPIDER",
+  "health": 1600,
+  "damage": 400,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_splitter_spider_45",
+  "name": "Splitter Spider",
+  "level": 45,
+  "entity": "SPIDER",
+  "health": 2000,
+  "damage": 500,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_splitter_spider_50",
+  "name": "Splitter Spider",
+  "level": 50,
+  "entity": "SPIDER",
+  "health": 2400,
+  "damage": 600,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-06
+   }
+  ],
+  "family": "splitter_spider",
+  "behaviours": [
+   "den_splitter"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_silverfish_2",
+  "name": "Silverfish",
+  "level": 2,
+  "entity": "SILVERFISH",
+  "health": 50,
+  "damage": 20,
+  "combatXp": 3,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   }
+  ],
+  "family": "silverfish",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_silverfish_42",
+  "name": "Silverfish",
+  "level": 42,
+  "entity": "SILVERFISH",
+  "health": 300,
+  "damage": 200,
+  "combatXp": 15,
+  "coins": 5,
+  "drops": [
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   }
+  ],
+  "family": "silverfish",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_dasher_spider_4",
+  "name": "Dasher Spider",
+  "level": 4,
+  "entity": "SPIDER",
+  "health": 160,
+  "damage": 55,
+  "combatXp": 10,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "dasher_spider",
+  "behaviours": [
+   "den_dasher"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_dasher_spider_6",
+  "name": "Dasher Spider",
+  "level": 6,
+  "entity": "SPIDER",
+  "health": 170,
+  "damage": 70,
+  "combatXp": 10,
+  "coins": 3,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "dasher_spider",
+  "behaviours": [
+   "den_dasher"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_dasher_spider_42",
+  "name": "Dasher Spider",
+  "level": 42,
+  "entity": "SPIDER",
+  "health": 750,
+  "damage": 300,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "dasher_spider",
+  "behaviours": [
+   "den_dasher"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_dasher_spider_45",
+  "name": "Dasher Spider",
+  "level": 45,
+  "entity": "SPIDER",
+  "health": 900,
+  "damage": 400,
+  "combatXp": 30,
+  "coins": 12,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "dasher_spider",
+  "behaviours": [
+   "den_dasher"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_dasher_spider_50",
+  "name": "Dasher Spider",
+  "level": 50,
+  "entity": "SPIDER",
+  "health": 1000,
+  "damage": 500,
+  "combatXp": 36,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "dasher_spider",
+  "behaviours": [
+   "den_dasher"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_3",
+  "name": "Weaver Spider",
+  "level": 3,
+  "entity": "SPIDER",
+  "health": 160,
+  "damage": 40,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_4",
+  "name": "Weaver Spider",
+  "level": 4,
+  "entity": "SPIDER",
+  "health": 180,
+  "damage": 45,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_5",
+  "name": "Weaver Spider",
+  "level": 5,
+  "entity": "SPIDER",
+  "health": 200,
+  "damage": 50,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_6",
+  "name": "Weaver Spider",
+  "level": 6,
+  "entity": "SPIDER",
+  "health": 220,
+  "damage": 55,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_42",
+  "name": "Weaver Spider",
+  "level": 42,
+  "entity": "SPIDER",
+  "health": 800,
+  "damage": 300,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_45",
+  "name": "Weaver Spider",
+  "level": 45,
+  "entity": "SPIDER",
+  "health": 950,
+  "damage": 350,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_weaver_spider_50",
+  "name": "Weaver Spider",
+  "level": 50,
+  "entity": "SPIDER",
+  "health": 1100,
+  "damage": 400,
+  "combatXp": 28,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.8
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-05
+   }
+  ],
+  "family": "weaver_spider",
+  "behaviours": [
+   "den_weaver"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_voracious_spider_10",
+  "name": "Voracious Spider",
+  "level": 10,
+  "entity": "SPIDER",
+  "health": 1000,
+  "damage": 100,
+  "combatXp": 10,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "voracious_spider",
+  "behaviours": [
+   "den_voracious"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_voracious_spider_42",
+  "name": "Voracious Spider",
+  "level": 42,
+  "entity": "SPIDER",
+  "health": 1800,
+  "damage": 400,
+  "combatXp": 28,
+  "coins": 8,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "voracious_spider",
+  "behaviours": [
+   "den_voracious"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_spider_jockey_3",
+  "name": "Spider Jockey",
+  "level": 3,
+  "entity": "SPIDER",
+  "health": 220,
+  "damage": 50,
+  "combatXp": 9,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "spider_jockey",
+  "behaviours": [
+   "den_jockey"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "arthropod",
+    "skeletal"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider",
+  "equipment": {}
+ },
+ {
+  "id": "den_spider_jockey_5",
+  "name": "Spider Jockey",
+  "level": 5,
+  "entity": "SPIDER",
+  "health": 250,
+  "damage": 60,
+  "combatXp": 5,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "spider_jockey",
+  "behaviours": [
+   "den_jockey"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "arthropod",
+    "skeletal"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider",
+  "equipment": {}
+ },
+ {
+  "id": "den_spider_jockey_42",
+  "name": "Spider Jockey",
+  "level": 42,
+  "entity": "SPIDER",
+  "health": 1200,
+  "damage": 400,
+  "combatXp": 32,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "STRING",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "family": "spider_jockey",
+  "behaviours": [
+   "den_jockey"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "arthropod",
+    "skeletal"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider",
+  "equipment": {}
+ },
+ {
+  "id": "den_cave_spider",
+  "name": "Cave Spider",
+  "level": 5,
+  "entity": "CAVE_SPIDER",
+  "health": 120,
+  "damage": 35,
+  "combatXp": 6,
+  "coins": 3,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   }
+  ],
+  "family": "spider",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_flint_skeleton",
+  "name": "Flint Skeleton",
+  "level": 2,
+  "entity": "SKELETON",
+  "health": 100,
+  "damage": 25,
+  "combatXp": 1,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "FLINT",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENCHANTED_FLINT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "family": "flint_skeleton",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "skeletal",
+    "undead"
+   ],
+   "mobTypes": [
+    "skeletal",
+    "undead"
+   ],
+   "zone": "spiders_den"
+  },
+  "equipment": {
+   "HAND": "BOW"
+  }
+ },
+ {
+  "id": "den_rain_slime",
+  "name": "Rain Slime",
+  "level": 8,
+  "entity": "SLIME",
+  "health": 300,
+  "damage": 60,
+  "combatXp": 12,
+  "coins": 5,
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "min": 3,
+    "max": 5,
+    "chance": 1.0
+   }
+  ],
+  "family": "rain_slime",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "cubic",
+    "slime"
+   ],
+   "mobTypes": [
+    "cubic",
+    "slime"
+   ],
+   "zone": "spiders_den"
+  }
+ },
+ {
+  "id": "den_toxic_rain_slime",
+  "name": "Toxic Rain Slime",
+  "level": 20,
+  "entity": "SLIME",
+  "health": 1500,
+  "damage": 150,
+  "combatXp": 30,
+  "coins": 12,
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "min": 6,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SLIME_BALL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "POISON_SAMPLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   }
+  ],
+  "family": "rain_slime",
+  "behaviours": [
+   "den_toxic"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "cubic",
+    "slime"
+   ],
+   "mobTypes": [
+    "cubic",
+    "slime"
+   ],
+   "zone": "spiders_den"
+  }
+ },
+ {
+  "id": "den_arachnes_keeper",
+  "name": "Silkmother's Keeper",
+  "level": 100,
+  "entity": "SPIDER",
+  "health": 3000,
+  "damage": 400,
+  "combatXp": 10,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ARACHNE_KEEPER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDER_EYE",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "STRING",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_GLOVES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   },
+   {
+    "item": "ARACHNE_NECKLACE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   },
+   {
+    "item": "ARACHNE_CLOAK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   },
+   {
+    "item": "ARACHNE_BELT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   }
+  ],
+  "family": "arachnes_keeper",
+  "behaviours": [
+   "den_keeper"
+  ],
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_arachnes_brood_100",
+  "name": "Silkmother's Brood",
+  "level": 100,
+  "entity": "CAVE_SPIDER",
+  "health": 4000,
+  "damage": 500,
+  "combatXp": 80,
+  "coins": 800,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "STRING",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   }
+  ],
+  "family": "arachnes_brood",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_arachnes_brood_200",
+  "name": "Silkmother's Brood",
+  "level": 200,
+  "entity": "CAVE_SPIDER",
+  "health": 8000,
+  "damage": 700,
+  "combatXp": 120,
+  "coins": 1500,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "STRING",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   }
+  ],
+  "family": "arachnes_brood",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_broodmother_12",
+  "name": "Broodmother",
+  "level": 12,
+  "entity": "SPIDER",
+  "health": 6000,
+  "damage": 300,
+  "combatXp": 25,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPIDER_TALISMAN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "LUXURIOUS_SPOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0003
+   },
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 8e-05
+   }
+  ],
+  "family": "broodmother",
+  "behaviours": [
+   "den_broodmother"
+  ],
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "den_arachne_300",
+  "name": "Silkmother",
+  "level": 300,
+  "entity": "SPIDER",
+  "health": 20000,
+  "damage": 1500,
+  "combatXp": 200,
+  "coins": 2000,
+  "drops": [
+   {
+    "item": "TARANTULA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 0.666667
+   },
+   {
+    "item": "STRING",
+    "min": 10,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SPIDER_EYE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.666667
+   },
+   {
+    "item": "SPIDER_EYE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.666667
+   },
+   {
+    "item": "ARACHNE_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SOUL_STRING",
+    "min": 5,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ARACHNE_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ARACHNE_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ARACHNE_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "LUXURIOUS_SPOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_FANG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ESSENCE_SPIDER",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   }
+  ],
+  "family": "arachne",
+  "behaviours": [
+   "den_arachne"
+  ],
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider",
+  "damageCap": 0
+ },
+ {
+  "id": "den_arachne_500",
+  "name": "Silkmother",
+  "level": 500,
+  "entity": "SPIDER",
+  "health": 100000,
+  "damage": 3000,
+  "combatXp": 400,
+  "coins": 8000,
+  "drops": [
+   {
+    "item": "TARANTULA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_STRING",
+    "min": 1,
+    "max": 6,
+    "chance": 0.857143
+   },
+   {
+    "item": "STRING",
+    "min": 10,
+    "max": 60,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SPIDER_EYE",
+    "min": 1,
+    "max": 6,
+    "chance": 0.857143
+   },
+   {
+    "item": "SPIDER_EYE",
+    "min": 10,
+    "max": 60,
+    "chance": 1.0
+   },
+   {
+    "item": "SOUL_STRING",
+    "min": 30,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ARACHNE_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "ARACHNE_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "ARACHNE_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "ARACHNE_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "ARACK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "DARK_QUEENS_SOUL_DROP",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ESSENCE_SPIDER",
+    "min": 30,
+    "max": 30,
+    "chance": 1.0
+   }
+  ],
+  "family": "arachne",
+  "behaviours": [
+   "den_arachne"
+  ],
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "arthropod"
+   ],
+   "mobTypes": [
+    "arthropod"
+   ],
+   "zone": "spiders_den"
+  },
+  "slayer": "spider",
+  "damageCap": 0
+ },
+ {
+  "id": "end_enderman_42",
+  "name": "Enderman",
+  "level": 42,
+  "entity": "ENDERMAN",
+  "health": 4500,
+  "damage": 500,
+  "combatXp": 40,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENDER_NECKLACE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ENDERMAN;0",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "ENDERMAN;1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "ENDERMAN;2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   }
+  ],
+  "family": "enderman_combat_3",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_enderman_45",
+  "name": "Enderman",
+  "level": 45,
+  "entity": "ENDERMAN",
+  "health": 6000,
+  "damage": 600,
+  "combatXp": 42,
+  "coins": 12,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENDER_NECKLACE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ENDERMAN;1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "ENDERMAN;2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   },
+   {
+    "item": "ENDERMAN;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   }
+  ],
+  "family": "enderman_combat_3",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_enderman_50",
+  "name": "Enderman",
+  "level": 50,
+  "entity": "ENDERMAN",
+  "health": 9000,
+  "damage": 700,
+  "combatXp": 44,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENDER_NECKLACE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   },
+   {
+    "item": "ENDERMAN;2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "ENDERMAN;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   },
+   {
+    "item": "ENDERMAN;4",
+    "min": 1,
+    "max": 1,
+    "chance": 6e-06
+   }
+  ],
+  "family": "enderman_combat_3",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_endermite_37",
+  "name": "Endermite",
+  "level": 37,
+  "entity": "ENDERMITE",
+  "health": 2000,
+  "damage": 400,
+  "combatXp": 40,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "ENDER_STONE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "family": "endermite",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "arthropod"
+   ],
+   "mobTypes": [
+    "ender",
+    "arthropod"
+   ],
+   "zone": "the_end"
+  }
+ },
+ {
+  "id": "end_endermite_40",
+  "name": "Endermite",
+  "level": 40,
+  "entity": "ENDERMITE",
+  "health": 2300,
+  "damage": 450,
+  "combatXp": 40,
+  "coins": 11,
+  "drops": [
+   {
+    "item": "ENDER_STONE",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "family": "endermite",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "arthropod"
+   ],
+   "mobTypes": [
+    "ender",
+    "arthropod"
+   ],
+   "zone": "the_end"
+  }
+ },
+ {
+  "id": "end_nest_endermite",
+  "name": "Nest Endermite",
+  "level": 50,
+  "entity": "ENDERMITE",
+  "health": 2200,
+  "damage": 500,
+  "combatXp": 38,
+  "coins": 22,
+  "drops": [
+   {
+    "item": "ENCHANTED_ENDSTONE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MITE_GEL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "endermite",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "arthropod"
+   ],
+   "mobTypes": [
+    "ender",
+    "arthropod"
+   ],
+   "zone": "the_end"
+  }
+ },
+ {
+  "id": "end_obsidian_defender",
+  "name": "Obsidian Defender",
+  "level": 55,
+  "entity": "WITHER_SKELETON",
+  "health": 10000,
+  "damage": 200,
+  "combatXp": 40,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "OBSIDIAN",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_OBSIDIAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "OBSIDIAN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
+    "min": 1,
+    "max": 1,
+    "chance": 3.3e-05
+   },
+   {
+    "item": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   },
+   {
+    "item": "ENDER_BELT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "obsidian_defender",
+  "behaviours": [
+   "end_defender"
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "ender",
+    "skeletal"
+   ],
+   "zone": "the_end"
+  },
+  "equipment": {
+   "HAND": "OBSIDIAN"
+  }
+ },
+ {
+  "id": "end_seer",
+  "name": "Seer",
+  "level": 55,
+  "entity": "SKELETON",
+  "health": 9500,
+  "damage": 475,
+  "combatXp": 40,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "ARROW",
+    "min": 1,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENDER_PEARL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "END_STONE_BOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.00015
+   },
+   {
+    "item": "ENDER_CLOAK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENDER_MONOCLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "family": "seer",
+  "behaviours": [
+   "end_seer"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "ender",
+    "skeletal"
+   ],
+   "zone": "the_end"
+  },
+  "equipment": {
+   "HEAD": "ENDER_EYE",
+   "HAND": "BOW"
+  }
+ },
+ {
+  "id": "end_zealot_55",
+  "name": "Zealot",
+  "level": 55,
+  "entity": "ENDERMAN",
+  "health": 13000,
+  "damage": 1250,
+  "combatXp": 40,
+  "coins": 15,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "family": "zealot",
+  "behaviours": [
+   "end_zealot"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_zealot_bruiser",
+  "name": "Zealot Bruiser",
+  "level": 100,
+  "entity": "ENDERMAN",
+  "health": 65000,
+  "damage": 2500,
+  "combatXp": 78,
+  "coins": 24,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "SUMMONING_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002632,
+    "magicFind": false,
+    "label": "CRAZY_RARE"
+   }
+  ],
+  "family": "zealot",
+  "behaviours": [
+   "end_zealot"
+  ],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_voidling_fanatic",
+  "name": "Voidspawn Fanatic",
+  "level": 85,
+  "entity": "ENDERMAN",
+  "health": 750000,
+  "damage": 1800,
+  "combatXp": 110,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 4,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENDERMAN;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.00012
+   },
+   {
+    "item": "ENDERMAN;4",
+    "min": 1,
+    "max": 1,
+    "chance": 7e-06
+   }
+  ],
+  "family": "voidling_fanatic",
+  "behaviours": [],
+  "flags": [
+   "aggressive"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_voidling_extremist",
+  "name": "Voidspawn Extremist",
+  "level": 100,
+  "entity": "ENDERMAN",
+  "health": 8000000,
+  "damage": 3000,
+  "combatXp": 750,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.16
+   },
+   {
+    "item": "SUMMONING_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004,
+    "magicFind": false
+   },
+   {
+    "item": "ENDERMAN_CORTEX_REWRITER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "voidling_extremist",
+  "behaviours": [],
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "enderman"
+   ],
+   "mobTypes": [
+    "ender",
+    "enderman"
+   ],
+   "zone": "the_end"
+  },
+  "slayer": "enderman"
+ },
+ {
+  "id": "end_stone_protector",
+  "name": "End Stone Colossus",
+  "level": 100,
+  "entity": "IRON_GOLEM",
+  "health": 5000000,
+  "damage": 1500,
+  "combatXp": 5000,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "ENDSTONE_ROSE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ENDSTONE",
+    "min": 1,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "CRYSTAL_FRAGMENT",
+    "min": 1,
+    "max": 2,
+    "chance": 0.666667
+   },
+   {
+    "item": "PET_ITEM_TIER_BOOST_DROP",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "GOLEM;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "GOLEM;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   }
+  ],
+  "family": "end_stone_protector",
+  "behaviours": [
+   "end_protector"
+  ],
+  "flags": [
+   "aggressive",
+   "boss",
+   "no_knockback"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "construct"
+   ],
+   "mobTypes": [
+    "ender",
+    "construct"
+   ],
+   "zone": "the_end"
+  },
+  "magicResistance": 0.0,
+  "damageCap": 0
+ },
+ {
+  "id": "end_dragon_young",
+  "name": "Young Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 7500000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "young",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "YOUNG_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "YOUNG_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "YOUNG_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "YOUNG_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "YOUNG_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_old",
+  "name": "Old Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 15000000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "old",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "OLD_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "OLD_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_protector",
+  "name": "Protector Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 9000000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "protector",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "PROTECTOR_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "PROTECTOR_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "PROTECTOR_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "PROTECTOR_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "PROTECTOR_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_strong",
+  "name": "Strong Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 9000000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "strong",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "STRONG_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "STRONG_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "STRONG_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "STRONG_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "STRONG_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_unstable",
+  "name": "Unstable Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 9000000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "unstable",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "UNSTABLE_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "UNSTABLE_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "UNSTABLE_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "UNSTABLE_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "UNSTABLE_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_wise",
+  "name": "Wise Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 9000000,
+  "damage": 2200,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "wise",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "WISE_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "WISE_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "WISE_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "WISE_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "WISE_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_superior",
+  "name": "Superior Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 12000000,
+  "damage": 1650,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "superior",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "SUPERIOR_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "SUPERIOR_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "SUPERIOR_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "SUPERIOR_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "SUPERIOR_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_HORN",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "end_dragon_holy",
+  "name": "Holy Dragon",
+  "level": 100,
+  "entity": "ENDER_DRAGON",
+  "health": 9000000,
+  "damage": 1100,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [],
+  "family": "dragon",
+  "behaviours": [
+   "end_dragon"
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "extra": {
+   "types": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "mobTypes": [
+    "ender",
+    "dragon",
+    "airborne"
+   ],
+   "variant": "holy",
+   "zone": "the_end",
+   "loot": [
+    {
+     "item": "ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ENCHANTED_ENDER_PEARL",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "OLD_FRAGMENT",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "OLD_DRAGON_HELMET",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_CHESTPLATE",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_LEGGINGS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "OLD_DRAGON_BOOTS",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3
+    },
+    {
+     "item": "ENDER_DRAGON;3",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "perEye": true
+    },
+    {
+     "item": "ENDER_DRAGON;4",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0001,
+     "perEye": true
+    },
+    {
+     "item": "DRAGON_CLAW",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "perEye": true
+    },
+    {
+     "item": "ASPECT_OF_THE_DRAGON",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03,
+     "perEye": true
+    }
+   ]
+  }
+ }
+]

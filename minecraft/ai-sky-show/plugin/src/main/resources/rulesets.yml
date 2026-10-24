@@ -1,0 +1,61 @@
+# ShowControl rulesets. Apply live with  /show ruleset <name>   (list: /show ruleset list).
+#
+# `dials:` are REAL SkyClone dial keys, applied through SkyClone's own `/sb dial set <key> <value>`
+#          (so an unknown key is refused by SkyClone and reported, never silently invented).
+#          Switching rulesets first runs `/sb dial reset` on every key the previous ruleset set.
+#          SkyClone persists dial values in plugins/SkyClone/dials.yml, so they survive a restart.
+# `show:`  are ShowControl's own knobs for things SkyClone has no dial for. They apply only to the
+#          cast accounts (config.yml `cast`), never to the camera.
+#            mob_coin_mult     multiplies SkyEvents.MobKill.coins before core pays it
+#            magic_find_bonus  flat Magic Find added through a StatProvider ("showcontrol")
+#
+# Reference numbers used below (SkyClone research data):
+#   skill curve (cumulative XP): L1 50, L2 175, L3 375, L4 675, L5 1175, L6 1925, L7 2925, L8 4425,
+#                                L9 6425, L10 9925, L12 22425
+#   hub mobs: Graveyard Zombie 1 coin / 6 combat XP, Crypt Ghoul 13 coins / 32 XP, Old Wolf 40 / 40
+#   An AI agent driving macros gathers roughly 10-15 minutes of a 30-minute episode, i.e. ~1,500-2,500
+#   base skill XP in its main skill: Level 5-6 at reference rates. A watchable episode wants a level-up
+#   box every minute or two early on and its main skill in the 8-10 range by the end.
+
+rulesets:
+
+  sprint30:
+    description: "30-minute episode that should feel like a real first day of SkyBlock"
+    dials:
+      # x4 skill XP (after Wisdom, global). 2,000 base XP -> 8,000 = Level 8-9 instead of 5-6.
+      # One global dial instead of the per-module xp dials so nothing is multiplied twice.
+      skills.xp-multiplier: 4.0
+      # Level-up coin rewards x2: more level-ups already happen, this makes each one matter to the purse.
+      skills.coin-multiplier: 2.0
+      # Collections x3: tier I/II unlock minion and enchanted recipes - the actual SkyBlock loop - so
+      # tiers (CollectionTierUp events = on-screen moments) must land inside 30 minutes.
+      collections.gain-multiplier: 3.0
+      # Drops x1.5 (crops, base block drops): enough items to craft an enchanted item or sell a stack.
+      farming.drop-multiplier: 1.5
+      mining.drop-mult: 1.5
+      # Minions 2x speed (+100%): a minion placed at minute 10 visibly fills before the episode ends.
+      minions.speed-bonus: 100
+      # Death costs a quarter of the purse, not half: deaths stay dramatic without ending the run.
+      vitals.death-coin-loss: 0.25
+      # Hub mob areas keep 1.5x mobs alive: four players share them and nobody waits for respawns.
+      hub.spawn-scale: 1.5
+      # Hub NPC shop prices x0.75 (SkyClone keeps its anti-arbitrage floor): gear is reachable in 30 min.
+      shops.price-scale: 0.75
+      # Slayer quests half price: a Tier I attempt is affordable late in the episode (a boss on camera).
+      slayer.cost-scale: 0.5
+      # Guided objectives and hub district guides pay x2: rewards the "explore and meet" opening.
+      progression.objectives.coin-scale: 2.0
+      hub.guide-coin-scale: 2.0
+      # Pets level x2 from skill XP (cosmetic progress, cheap).
+      pets.xp-scale: 2.0
+    show:
+      # No SkyClone dial scales mob coins; a Graveyard Zombie pays 1. x3 makes the fighter's purse move.
+      mob_coin_mult: 3.0
+      # +50 Magic Find: drops under 5% base chance become 1.5x as likely -> a real chance of a
+      # RARE DROP! moment on camera without handing out loot.
+      magic_find_bonus: 50
+
+  normal:
+    description: "Reference rates: resets every dial the previous ruleset set"
+    dials: {}
+    show: {}

@@ -1,0 +1,1697 @@
+[
+ {
+  "id": "MINION_CHAIR",
+  "name": "Minion Chair",
+  "description": "A tiny chair sized for a minion.",
+  "level": 1,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NTk0MDkwMCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwZjljNWE4MzhmZjYyNTY5YmVmNjI0YmYwMzdkZDI4YTNkNTg3MmNjMDU5N2I5ZTgwOWM1MzM3ZTFkNzcwMTAiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "",
+   "",
+   "OAK_PLANKS:4",
+   "",
+   "",
+   "OAK_SLAB:4",
+   "OAK_SLAB:4",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "oak_stairs[facing=north]"
+   ]
+  ],
+  "seats": [
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "function": "minion_seat",
+  "space": []
+ },
+ {
+  "id": "SKYBLOCK_CHAIR",
+  "name": "Dark Oak Chair",
+  "description": "A sturdy armchair for long evenings.",
+  "level": 1,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjA0NTMwOSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjMTUxYzAyNmY4ZWZkMmQ5ODEyOTRhOWY0NzY1Nzg4MjQ4ZmNiM2FmOGE2MDc1ZmYzMmU0YWVhZmZkYTNkMWQiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "DARK_OAK_PLANKS:8",
+   "",
+   "",
+   "DARK_OAK_PLANKS:8",
+   "DARK_OAK_PLANKS:8",
+   "",
+   "STICK:4",
+   "STICK:4",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "dark_oak_stairs[facing=north]"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "dark_oak_trapdoor[facing=west,open=true]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "dark_oak_trapdoor[facing=east,open=true]"
+   ]
+  ],
+  "seats": [
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "function": "seat",
+  "space": []
+ },
+ {
+  "id": "FANCY_FLOWER_POT",
+  "name": "Flower Pot",
+  "description": "A bloom in a painted pot.",
+  "level": 2,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzcwODE3NywKICAicHJvZmlsZUlkIiA6ICI2Mjk5YzhlYzkxM2I0MzMyYjZiMDJhOTFmNDk2MzJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaW5hTGluayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YjQ2M2JjYzQ3NDE5MzAyZjIzMmM3ODAxOWU0MmEzMGQ1MDliMjI5NjZkMDU0ZjUxNGI3NmZlZWQxNTJkNDNlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "",
+   "",
+   "BRICK:8",
+   "POPPY:4",
+   "BRICK:8",
+   "",
+   "BRICK:8",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "potted_red_tulip"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "SKYBLOCK_BENCH",
+  "name": "Dark Oak Bench",
+  "description": "Room for the whole co-op.",
+  "level": 3,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDA3NzkwMSwKICAicHJvZmlsZUlkIiA6ICJjOTZiOWNhZDgzNTA0MjgzYjcwNGI1NTdiNTRhYjUxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJrb3gzNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNTQwYjMzYTIwZGQzMDY0ODdmMjNhNGRlNTMxM2Y4MWI3NzUwYTlmM2FkNTQ5ZTUwZDJmMGEzZjA1MmEyMjc5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "",
+   "",
+   "DARK_OAK_STAIRS:8",
+   "DARK_OAK_STAIRS:8",
+   "DARK_OAK_STAIRS:8",
+   "STICK:8",
+   "",
+   "STICK:8"
+  ],
+  "blocks": [
+   [
+    -1,
+    0,
+    0,
+    "dark_oak_stairs[facing=north]"
+   ],
+   [
+    0,
+    0,
+    0,
+    "dark_oak_stairs[facing=north]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "dark_oak_stairs[facing=north]"
+   ]
+  ],
+  "seats": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "function": "seat",
+  "space": []
+ },
+ {
+  "id": "SKYBLOCK_TABLE",
+  "name": "Dark Oak Table",
+  "description": "Every cozy room needs a table.",
+  "level": 4,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NTk5MDU1MywKICAicHJvZmlsZUlkIiA6ICJiNjc3NTgwYzExYmU0ZjNiODI1OGM0YjBkNzNhNzg0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPZmZpY2lhbGx5SksiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3NGRiNDQ2ZmU4MWQwOTNhMTU2YzNiZGNlYmE2OTJkNGYxYjQxZDk1NTE5MTcyZGRjN2FmMjI0NDI2MDFiZSIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "DARK_OAK_SLAB:16",
+   "DARK_OAK_SLAB:16",
+   "DARK_OAK_SLAB:16",
+   "",
+   "DARK_OAK_FENCE:8",
+   "",
+   "",
+   "DARK_OAK_FENCE:8",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "dark_oak_fence"
+   ],
+   [
+    0,
+    1,
+    0,
+    "brown_carpet"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "ARMOR_SHOWCASE",
+  "name": "Armor Stand",
+  "description": "A display pedestal for your finest gear.",
+  "level": 5,
+  "rarity": "UNCOMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDE1Nzg0MSwKICAicHJvZmlsZUlkIiA6ICI4ZTFjZTM2ZGE2Mzk0ZjgwOTFmZjZjYTZiZTNhZTA5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdWxsY3JlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MGY1MGVhNDY2NDRiZWRmOGRmYTUzYWY5NzdmOGMyMDZlN2YzZWU0ZTBmYWFlNmU1YzgyNzhkNzdjMjA3YWQ3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "STONE_SLAB:8",
+   "",
+   "",
+   "STICK:16",
+   "",
+   "STONE_SLAB:8",
+   "SMOOTH_STONE:8",
+   "STONE_SLAB:8"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "smooth_stone_slab[type=bottom]"
+   ]
+  ],
+  "seats": [],
+  "function": "showcase:armor",
+  "space": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    2,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "SCARECROW",
+  "name": "Scarecrow",
+  "description": "Keeps the birds off your crops. Mostly.",
+  "level": 6,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0Mzk5NjMyNiwKICAicHJvZmlsZUlkIiA6ICJiZmQ3MjMxMGNmYWY0Yjc5OTNlYzhiYzU3ODg3YzU5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBoYVNwQW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE3NzQwZTZhNWVkZDhkNGYzOWM3ZjBhOTA2NGE4NGI2ZTRjMjBkM2RiNTU1NTdkNzIzY2U3ZGIzYWQ3Y2M0NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "CARVED_PUMPKIN:1",
+   "",
+   "STICK:8",
+   "HAY_BLOCK:4",
+   "STICK:8",
+   "",
+   "OAK_FENCE:4",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "oak_fence"
+   ],
+   [
+    0,
+    1,
+    0,
+    "hay_block"
+   ],
+   [
+    -1,
+    1,
+    0,
+    "oak_fence"
+   ],
+   [
+    1,
+    1,
+    0,
+    "oak_fence"
+   ],
+   [
+    0,
+    2,
+    0,
+    "carved_pumpkin[facing=south]"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "DESK",
+  "name": "Desk",
+  "description": "A tidy place to plan your next grind.",
+  "level": 7,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NTg5Mzc5OCwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzNlOGMxOTRjOWYxNGZkOThjMjM0N2E0Y2M0ZmNjM2Q3NTVkOTQ4YmRjNThlNDI5MjZkOWQ2ZjQ1YjYyMGE1IgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "SPRUCE_SLAB:16",
+   "SPRUCE_SLAB:16",
+   "SPRUCE_SLAB:16",
+   "SPRUCE_PLANKS:16",
+   "BOOK:4",
+   "SPRUCE_PLANKS:16",
+   "STICK:8",
+   "",
+   "STICK:8"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    1,
+    1,
+    0,
+    "HEAD"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "spruce_trapdoor[facing=west,open=true]"
+   ],
+   [
+    2,
+    0,
+    0,
+    "spruce_trapdoor[facing=east,open=true]"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "BOOKCASE",
+  "name": "Bookcase",
+  "description": "Filling a room with books makes anyone look smarter.",
+  "level": 8,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1NjY1MTMxMywKICAicHJvZmlsZUlkIiA6ICJhZWNkODIxZTQyYzE0ZDJlOThmNTA1OTg1MWI5OWMzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb2RyaVgyMDc1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1NTk2NjgwZmQxZjgzOGE5NGRjNjM4YWI2ODkzZjkzOTVjMWRmMjgwMjcxOGIwZWJiYTE5YTk5N2EyZDliM2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "recipe": [
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16",
+   "BOOK:16",
+   "BOOK:16",
+   "BOOK:16",
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "bookshelf"
+   ],
+   [
+    1,
+    0,
+    0,
+    "bookshelf"
+   ],
+   [
+    0,
+    1,
+    0,
+    "bookshelf"
+   ],
+   [
+    1,
+    1,
+    0,
+    "bookshelf"
+   ],
+   [
+    0,
+    2,
+    0,
+    "oak_slab[type=bottom]"
+   ],
+   [
+    1,
+    2,
+    0,
+    "oak_slab[type=bottom]"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "SMALL_SHELVES",
+  "name": "Small Shelves",
+  "description": "Little shelves for little treasures.",
+  "level": 9,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NTk1NjUxMiwKICAicHJvZmlsZUlkIiA6ICI4N2RiMmNjNWY4Y2I0MjI4YTU0OGRiMzJlM2Y0NmFmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZVG1hdGlhczEzbG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwYTVkYTZhMWFiYzViNGU5MDk1NjdlZGUzMzM5OGUyZTViYTUzZWVkNjJhNTQwMzBlYjQyNTM1ZTE4MGI1N2QiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "",
+   "",
+   "SPRUCE_SLAB:16",
+   "SPRUCE_SLAB:16",
+   "SPRUCE_SLAB:16",
+   "FLOWER_POT:4",
+   "",
+   "FLOWER_POT:4"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    0,
+    1,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    0,
+    2,
+    0,
+    "flower_pot"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "WEAPON_RACK",
+  "name": "Weapon Rack",
+  "description": "Show off the blades you are proudest of.",
+  "level": 10,
+  "rarity": "UNCOMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NTk3MzMyNCwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM0ZWJjYzdkMWExODcxNTZhZGNlMjdjYmY1ZDRlMWYzNjhjMThiMzZhYTRjY2VlNmMyMGIzYzJlY2YzOGU1NiIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "",
+   "",
+   "SPRUCE_FENCE:16",
+   "IRON_INGOT:8",
+   "SPRUCE_FENCE:16",
+   "SPRUCE_SLAB:16",
+   "",
+   "SPRUCE_SLAB:16"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "spruce_fence"
+   ],
+   [
+    1,
+    0,
+    0,
+    "spruce_fence"
+   ],
+   [
+    0,
+    1,
+    0,
+    "spruce_slab[type=bottom]"
+   ],
+   [
+    1,
+    1,
+    0,
+    "spruce_slab[type=bottom]"
+   ],
+   [
+    0,
+    2,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "showcase:weapons:4",
+  "space": []
+ },
+ {
+  "id": "FIRE_PIT",
+  "name": "Fire Pit",
+  "description": "A crackling ring of stone and flame.",
+  "level": 11,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjI0NTM0MSwKICAicHJvZmlsZUlkIiA6ICJmZTYxY2RiMjUyMTA0ODYzYTljY2E2ODAwZDRiMzgzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeVNoYWRvd3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YxM2RmNjI2Y2ZhZmZkYzM2NDU4MzcyYmFiNTdhMjYzYzAwYjA3NzJiYWMyNmM1MTc0Y2YzNzViOGQ0NDc2MSIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "COAL:32",
+   "",
+   "COBBLESTONE:32",
+   "OAK_LOG:16",
+   "COBBLESTONE:32",
+   "",
+   "COBBLESTONE:32",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "campfire[lit=true]"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "cobblestone_slab"
+   ],
+   [
+    1,
+    0,
+    0,
+    "cobblestone_slab"
+   ],
+   [
+    0,
+    0,
+    -1,
+    "cobblestone_slab"
+   ],
+   [
+    0,
+    0,
+    1,
+    "cobblestone_slab"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "TIKI_TORCH",
+  "name": "Tiki Torch",
+  "description": "A tall torch with a tropical attitude.",
+  "level": 12,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2Njc2ODA3NCwKICAicHJvZmlsZUlkIiA6ICJmZDQ3Y2I4YjgzNjQ0YmY3YWIyYmUxODZkYjI1ZmMwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4YzdmODNmOWQ0OTI4M2E1NWM1OWQ3MTQ1MTY5Y2MzYTU4ZDU0MjUwZTQ2NTZiNjE3ZThlMTVjYjlmZTNlN2IiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "COAL:16",
+   "",
+   "",
+   "JUNGLE_FENCE:8",
+   "",
+   "",
+   "JUNGLE_FENCE:8",
+   ""
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "jungle_fence"
+   ],
+   [
+    0,
+    1,
+    0,
+    "jungle_fence"
+   ],
+   [
+    0,
+    2,
+    0,
+    "torch"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "FURNACE_PLUS",
+  "name": "Furnace+",
+  "description": "A grand stone oven that really cooks.",
+  "level": 13,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjE2MTQ0NiwKICAicHJvZmlsZUlkIiA6ICJkOGNkMTNjZGRmNGU0Y2IzODJmYWZiYWIwOGIyNzQ4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaYWNoeVphY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5NDk5M2E5Yzg4MDI1ZWFhZWNjY2E4ZDYxYTcxZDgxMmNhYzVjZjczNjFjY2ZkMjkxODc5OTMxOTM0MjliZSIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "STONE_BRICKS:32",
+   "STONE_BRICKS:32",
+   "STONE_BRICKS:32",
+   "STONE_BRICKS:32",
+   "FURNACE:4",
+   "STONE_BRICKS:32",
+   "COAL:32",
+   "COAL:32",
+   "COAL:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "furnace[facing=south,lit=true]"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "stone_bricks"
+   ],
+   [
+    1,
+    0,
+    0,
+    "stone_bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "stone_brick_slab[type=bottom]"
+   ],
+   [
+    -1,
+    1,
+    0,
+    "stone_brick_stairs[facing=east]"
+   ],
+   [
+    1,
+    1,
+    0,
+    "stone_brick_stairs[facing=west]"
+   ]
+  ],
+  "seats": [],
+  "function": "station:furnace",
+  "space": []
+ },
+ {
+  "id": "FIREPLACE",
+  "name": "Fireplace",
+  "description": "Warm bricks and a warmer fire.",
+  "level": 13,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjE4MzY0MywKICAicHJvZmlsZUlkIiA6ICIzYTdhMDVjMDc0MTI0N2Q2YWVmMDMzMDNkOWNlMjMzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcXJ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2NDIyNjI0NWEyY2FiZDkxZmE1MTUzNWNjYTk4ZTkxNzk4N2U0NjQyYTZhZDk5NDMyMTdiMzMwZDdjOTFlNTEiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "BRICKS:32",
+   "BRICKS:32",
+   "BRICKS:32",
+   "BRICKS:32",
+   "OAK_LOG:32",
+   "BRICKS:32",
+   "BRICKS:32",
+   "COAL:32",
+   "BRICKS:32"
+  ],
+  "blocks": [
+   [
+    -1,
+    0,
+    0,
+    "bricks"
+   ],
+   [
+    1,
+    0,
+    0,
+    "bricks"
+   ],
+   [
+    0,
+    0,
+    0,
+    "campfire[lit=true]"
+   ],
+   [
+    -1,
+    1,
+    0,
+    "bricks"
+   ],
+   [
+    1,
+    1,
+    0,
+    "bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "brick_slab[type=top]"
+   ],
+   [
+    -1,
+    2,
+    0,
+    "brick_stairs[facing=east]"
+   ],
+   [
+    0,
+    2,
+    0,
+    "bricks"
+   ],
+   [
+    1,
+    2,
+    0,
+    "brick_stairs[facing=west]"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "CHEST_SHELVES",
+  "name": "Chest Storage",
+  "description": "Stacks of crates for that well-stocked look.",
+  "level": 14,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjIyODY3NiwKICAicHJvZmlsZUlkIiA6ICJiOTE5M2NiMjkzMWI0M2FhYmM1OGQ2NjAwMTg3NGRjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiMmJsYWtlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EyODBkOWU1YTRhNGM5OGFmMGFlOTRjZjEwOTgwOGE5MWQwYTgwYjVjZDNmYmJmZmRmNjRhZDU5MjQyMTBlZDciCiAgICB9CiAgfQp9",
+  "recipe": [
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "CHEST:8",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "barrel[facing=south]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "barrel[facing=south]"
+   ],
+   [
+    0,
+    1,
+    0,
+    "barrel[facing=south]"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "BEST_WEAPON_RACK",
+  "name": "Weapon Rack+",
+  "description": "A rack worthy of a legendary arsenal.",
+  "level": 15,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjQ0MDY5NSwKICAicHJvZmlsZUlkIiA6ICIzYTE3NmIzMGZlY2M0Nzc4OGY4ZTg1OThmODFhN2YyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIxX0JJR1pfMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTYyZjEzMWI3NTA4NjZjOGRlMmJmYzdlMjM0OThmYmI1ZmQyMTMwOWFhZTY3NTM0YmRjMmY2OWZjZTE3ZTg2IgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "DARK_OAK_FENCE:16",
+   "GOLD_INGOT:32",
+   "DARK_OAK_FENCE:16",
+   "DARK_OAK_PLANKS:32",
+   "IRON_BLOCK:2",
+   "DARK_OAK_PLANKS:32",
+   "DARK_OAK_SLAB:32",
+   "",
+   "DARK_OAK_SLAB:32"
+  ],
+  "blocks": [
+   [
+    -1,
+    0,
+    0,
+    "dark_oak_fence"
+   ],
+   [
+    0,
+    0,
+    0,
+    "dark_oak_fence"
+   ],
+   [
+    1,
+    0,
+    0,
+    "dark_oak_fence"
+   ],
+   [
+    -1,
+    1,
+    0,
+    "dark_oak_slab[type=bottom]"
+   ],
+   [
+    0,
+    1,
+    0,
+    "dark_oak_slab[type=bottom]"
+   ],
+   [
+    1,
+    1,
+    0,
+    "dark_oak_slab[type=bottom]"
+   ],
+   [
+    0,
+    2,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "showcase:best",
+  "space": []
+ },
+ {
+  "id": "LARGE_BED",
+  "name": "Large Bed",
+  "description": "Room to stretch out after a long day.",
+  "level": 16,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjM1MTEyMywKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBhYWFjMTVmOWJiYWY4MTZjZmFkYjAxMDg3NmQ3MmRmYjA0NDczNWIxM2Q3YmRjMDk4OWM1MmIwZjYzNDc3YyIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "",
+   "",
+   "WHITE_WOOL:32",
+   "WHITE_WOOL:32",
+   "WHITE_WOOL:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "red_bed[part=foot,facing=north]"
+   ],
+   [
+    0,
+    0,
+    -1,
+    "red_bed[part=head,facing=north]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "red_bed[part=foot,facing=north]"
+   ],
+   [
+    1,
+    0,
+    -1,
+    "red_bed[part=head,facing=north]"
+   ]
+  ],
+  "seats": [],
+  "function": "bed",
+  "space": []
+ },
+ {
+  "id": "HAY_BED",
+  "name": "Hay Bed",
+  "description": "Rustic, scratchy, surprisingly comfy.",
+  "level": 16,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjM5NTQ4MSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlNTI2MTllYTRhYjQyZmMwMzZlYmNkZjUwNzcyMGUxN2NjNGFlYWYwMGU0ZjliZjA2YmE4YWQyNDQ2NGIxNDAiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "",
+   "",
+   "HAY_BLOCK:16",
+   "HAY_BLOCK:16",
+   "WHITE_WOOL:8",
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16",
+   "OAK_PLANKS:16"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "hay_block"
+   ],
+   [
+    0,
+    0,
+    -1,
+    "hay_block"
+   ],
+   [
+    0,
+    1,
+    0,
+    "white_carpet"
+   ],
+   [
+    0,
+    1,
+    -1,
+    "white_carpet"
+   ]
+  ],
+  "seats": [
+   [
+    0,
+    1,
+    0
+   ]
+  ],
+  "function": "bed",
+  "space": []
+ },
+ {
+  "id": "FOOD_TROUGH",
+  "name": "Food Trough",
+  "description": "Keeps the animals fed and happy.",
+  "level": 17,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjUyNjkxMSwKICAicHJvZmlsZUlkIiA6ICIxZjEyNTNhYTVkYTQ0ZjU5YWU1YWI1NmFhZjRlNTYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNaUt5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc4MDE4NmI3ZTExNDJlNWZjNjQwNjExZDY3ODg0MjhiNjZhMmViMGVlOTRkODIwMjY4YTEzMmFkMmNiNzY5YTkiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "",
+   "",
+   "",
+   "SPRUCE_PLANKS:32",
+   "WHEAT:64",
+   "SPRUCE_PLANKS:32",
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32"
+  ],
+  "blocks": [
+   [
+    -1,
+    0,
+    0,
+    "composter[level=7]"
+   ],
+   [
+    0,
+    0,
+    0,
+    "composter[level=7]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "composter[level=7]"
+   ]
+  ],
+  "seats": [],
+  "function": "cosmetic",
+  "space": []
+ },
+ {
+  "id": "WATER_TROUGH",
+  "name": "Water Trough",
+  "description": "Fresh water, always in reach.",
+  "level": 17,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjU2MTg5NSwKICAicHJvZmlsZUlkIiA6ICJiNjc3NTgwYzExYmU0ZjNiODI1OGM0YjBkNzNhNzg0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPZmZpY2lhbGx5SksiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE0NjUzMDBkNWQ2Zjc5YzUyY2E5M2MwOGQ1NGI4NWFhODMwZDQzNzNhMjQ2NjgxYWJlNmQ3NjY5MmI1ZDBkNCIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "",
+   "",
+   "",
+   "STONE_BRICKS:32",
+   "WATER_BUCKET:1",
+   "STONE_BRICKS:32",
+   "STONE_BRICK_SLAB:32",
+   "STONE_BRICK_SLAB:32",
+   "STONE_BRICK_SLAB:32"
+  ],
+  "blocks": [
+   [
+    -1,
+    0,
+    0,
+    "water_cauldron[level=3]"
+   ],
+   [
+    0,
+    0,
+    0,
+    "water_cauldron[level=3]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "water_cauldron[level=3]"
+   ]
+  ],
+  "seats": [],
+  "function": "water",
+  "space": []
+ },
+ {
+  "id": "MEDIUM_SHELVES",
+  "name": "Medium Shelves",
+  "description": "Shelves for the collector in you.",
+  "level": 18,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjMxNDY1MCwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZWNmZDc0YWUyYWMzZmQ2ZjliOTU0MDk3YWQ2MDZlZmFiNjZmNGMwNzk5YzI3MjRkYjRhNjQ5ZDM4YmYxZDM4IgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32",
+   "BOOK:16",
+   "FLOWER_POT:8",
+   "BOOK:16",
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32",
+   "SPRUCE_SLAB:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    0,
+    1,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    1,
+    1,
+    0,
+    "spruce_slab[type=top]"
+   ],
+   [
+    0,
+    2,
+    0,
+    "flower_pot"
+   ],
+   [
+    1,
+    2,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "CRAFTING_PLUS",
+  "name": "Crafting Table+",
+  "description": "A real workbench: it opens the crafting grid.",
+  "level": 19,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjIxNTA2MywKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MGRlZDFmZmM2ZTliM2NkMjg0MTAyYTIyYmQzOTZkNjhjZjcwZGYyNjMyNDA0MDdmMTdkYjg1ODdlYjQ3MTBkIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_PLANKS:32",
+   "OAK_LOG:16",
+   "CRAFTING_TABLE:16",
+   "OAK_LOG:16",
+   "OAK_LOG:16",
+   "",
+   "OAK_LOG:16"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "crafting_table"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "oak_log"
+   ],
+   [
+    1,
+    0,
+    0,
+    "oak_log"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "station:crafting",
+  "space": []
+ },
+ {
+  "id": "REDSTONE_CHEST",
+  "name": "Redstone Chest+",
+  "description": "A chest that hums with power.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjYyMzE3OCwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OGMxNWZiZTY3Mjg4MThkNTY1ZTk3YTkyZGVjOWI0NjdlYmQyMDI1ZDg2NzFkM2JjNzdhY2I5ODAxZWU5ZmJjIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "REDSTONE:64",
+   "REDSTONE:64",
+   "REDSTONE:64",
+   "REDSTONE:64",
+   "CHEST:4",
+   "REDSTONE:64",
+   "REDSTONE:64",
+   "REDSTONE:64",
+   "REDSTONE:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "red_nether_bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "EMERALD_CHEST",
+  "name": "Emerald Chest+",
+  "description": "A chest that smells faintly of trades.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjQ3NTUwNiwKICAicHJvZmlsZUlkIiA6ICJhYTZhNzUwNWVkYmU0NjNiYjk1NWYyMWY0MjNiYTM1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RhbmR5d2FyaG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxYzVhYWU2YWVhMDk0MDBkMjcxOGEyMWU2MmRlNDBlMjNhYjUzMGI2ZjhmNDg2Y2QzM2I2NjE0YzFmNDdkYTAiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "EMERALD:32",
+   "EMERALD:32",
+   "EMERALD:32",
+   "EMERALD:32",
+   "CHEST:4",
+   "EMERALD:32",
+   "EMERALD:32",
+   "EMERALD:32",
+   "EMERALD:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "prismarine_bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "ENDER_PLUS",
+  "name": "Ender Chest+",
+  "description": "A chest that seems bigger on the inside.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjQ1NzE5NSwKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MWM3NzIwOTZmZmY0ODg0NzQwNjRhMmI0OWE1NjM3N2FkNTAwMGJiNjA5M2I1YjE2Y2VlMWZlNTA4NzU2MDNhIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "OBSIDIAN:32",
+   "ENDER_PEARL:16",
+   "OBSIDIAN:32",
+   "ENDER_PEARL:16",
+   "CHEST:4",
+   "ENDER_PEARL:16",
+   "OBSIDIAN:32",
+   "ENDER_PEARL:16",
+   "OBSIDIAN:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "crying_obsidian"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "ENDSTONE_CHEST",
+  "name": "End Stone Chest+",
+  "description": "Carved from the far edge of the world.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjQ5MTIzNSwKICAicHJvZmlsZUlkIiA6ICI3Yjk5ZDIwZDc3YmU0MGViOTMxN2NmN2FhYzM5MTI1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2F0bWFuVmlpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZiMTlkMTBhMzJkZjkzYTEzOTE1MGI2ZmI3NWJhY2Q1NWNhNDhlYmJiOGUxYWMyMzBjYjkyODdkMDE1ZGJkYjIiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "END_STONE:64",
+   "END_STONE:64",
+   "END_STONE:64",
+   "END_STONE:64",
+   "CHEST:4",
+   "END_STONE:64",
+   "END_STONE:64",
+   "END_STONE:64",
+   "END_STONE:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "end_stone_bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "GOLD_CHEST",
+  "name": "Gold Chest+",
+  "description": "Gilded, and proud of it.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjUzOTk2MywKICAicHJvZmlsZUlkIiA6ICJkOGNkMTNjZGRmNGU0Y2IzODJmYWZiYWIwOGIyNzQ4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaYWNoeVphY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJlOWMzNDRhZjJhYTZmMTJhNDIwNDVhODQ5YzMxYzUyMzBkNDY1OGVlZjMxZDBhNzk0ZmM4OTAzZTFmNzRkMSIKICAgIH0KICB9Cn0=",
+  "recipe": [
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32",
+   "CHEST:4",
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32",
+   "GOLD_INGOT:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "smooth_sandstone"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "WOOD_CHEST",
+  "name": "Wood Chest+",
+  "description": "Honest wood, honest work.",
+  "level": 20,
+  "rarity": "UNCOMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjE0Njc1OSwKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UyNGE0ZDMyZDQzZDFjMmE5NDZiZTY0NjM1YzMxYTA3ZDAzMDBjZmRjYWJmNmYyM2M0ZjgyNDIwNzdjY2RiNmUiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64",
+   "CHEST:4",
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64",
+   "OAK_PLANKS:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "stripped_oak_wood"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "DIAMOND_CHEST",
+  "name": "Diamond Chest+",
+  "description": "For people who want everyone to know.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjQwOTcwNywKICAicHJvZmlsZUlkIiA6ICIzYTdhMDVjMDc0MTI0N2Q2YWVmMDMzMDNkOWNlMjMzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcXJ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZWIwNmJhOGQ2YzA5MzIwYmY3NTRiYjk4ZTc1MDkwYTAyYTQ5NDU2ZTExN2U5YWY2NjZiMjRmZTc2NDdiYjgiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "DIAMOND:16",
+   "DIAMOND:16",
+   "DIAMOND:16",
+   "DIAMOND:16",
+   "CHEST:4",
+   "DIAMOND:16",
+   "DIAMOND:16",
+   "DIAMOND:16",
+   "DIAMOND:16"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "light_blue_glazed_terracotta"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "LAPIS_CHEST",
+  "name": "Lapis Chest+",
+  "description": "Deep blue, like a summer sky.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjU3NTgwMSwKICAicHJvZmlsZUlkIiA6ICIwYjg3ZTgyZTgwODA0MmU4ODM3MzMwOTk4Mjk4OThmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6ZWxhMjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NDMyMTE0NmYyOTAzYmE4ZjRhZWRhZmU4M2NjZmIzOGFkZTAzMDk2YzMzMTIxMDcxZjFmODQ0ZmNkMjg2OTRkIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64",
+   "CHEST:4",
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64",
+   "LAPIS_LAZULI:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "blue_terracotta"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "IRON_CHEST",
+  "name": "Iron Chest+",
+  "description": "Reinforced, riveted, reliable.",
+  "level": 20,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjU5MTkzNSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZkZTJhMDhlNzFkMGI1MzI2YTU5N2RmMDI4ZGQ3YzE1ZmE0Y2YyMjFjYWFjMjgxMGUyODkxZmI4NGVlNTdjOWYiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "IRON_INGOT:32",
+   "IRON_INGOT:32",
+   "IRON_INGOT:32",
+   "IRON_INGOT:32",
+   "CHEST:4",
+   "IRON_INGOT:32",
+   "IRON_INGOT:32",
+   "IRON_INGOT:32",
+   "IRON_INGOT:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "polished_andesite"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:3",
+  "space": []
+ },
+ {
+  "id": "BREWING_PLUS",
+  "name": "Brewing+",
+  "description": "An alchemist's showpiece.",
+  "level": 21,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjI4NzEyNSwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjFiNWI3NjVkNDM3MDgyYTZkNWUwODZmMDNlZTFmMzllNzZjM2YzNmJjYmQyOWNiNzMyMjA5N2Y2ZDdhMTQ5IgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "",
+   "BLAZE_ROD:16",
+   "",
+   "NETHER_WART:32",
+   "BREWING_STAND:4",
+   "NETHER_WART:32",
+   "COBBLESTONE:32",
+   "COBBLESTONE:32",
+   "COBBLESTONE:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "polished_blackstone_bricks"
+   ],
+   [
+    0,
+    1,
+    0,
+    "brewing_stand"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "polished_blackstone_brick_wall"
+   ],
+   [
+    1,
+    0,
+    0,
+    "polished_blackstone_brick_wall"
+   ]
+  ],
+  "seats": [],
+  "function": "station:brewing",
+  "space": []
+ },
+ {
+  "id": "ENCHANTING_PLUS",
+  "name": "Enchanting Table+",
+  "description": "Arcane decor for the well-read wizard.",
+  "level": 22,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjE5OTA4NiwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVjODNhYjIwNTljY2ZlYWEzNmMzZjRmMjBkYWE5NTAzZDQ4M2E1MzBmYmRiODBmOTQwOTQwYWE4MWQyYzYxIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "BOOKSHELF:8",
+   "LAPIS_LAZULI:64",
+   "BOOKSHELF:8",
+   "OBSIDIAN:16",
+   "ENCHANTING_TABLE:1",
+   "OBSIDIAN:16",
+   "BOOKSHELF:8",
+   "LAPIS_LAZULI:64",
+   "BOOKSHELF:8"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "obsidian"
+   ],
+   [
+    0,
+    1,
+    0,
+    "enchanting_table"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "bookshelf"
+   ],
+   [
+    1,
+    0,
+    0,
+    "bookshelf"
+   ]
+  ],
+  "seats": [],
+  "function": "station:enchanting",
+  "space": []
+ },
+ {
+  "id": "BLACKSMITH_PLUS",
+  "name": "Blacksmith+",
+  "description": "Anvil, coal and the ring of hammer on steel.",
+  "level": 23,
+  "rarity": "COMMON",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjM4MTM3OSwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MjU0YTA1OTIzMWY5ODZiN2JiZjg0MzcwMGU4NzI5NWE0ZmNlMmQ3OWRkOThmNjdiMDY0NDMwYzI4MDcwYzgzIgogICAgfQogIH0KfQ==",
+  "recipe": [
+   "IRON_BLOCK:2",
+   "IRON_BLOCK:2",
+   "IRON_BLOCK:2",
+   "COAL:64",
+   "ANVIL:1",
+   "COAL:64",
+   "STONE_BRICKS:32",
+   "STONE_BRICKS:32",
+   "STONE_BRICKS:32"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "smithing_table"
+   ],
+   [
+    -1,
+    0,
+    0,
+    "blast_furnace[facing=south]"
+   ],
+   [
+    1,
+    0,
+    0,
+    "polished_andesite"
+   ],
+   [
+    1,
+    1,
+    0,
+    "anvil[facing=east]"
+   ]
+  ],
+  "seats": [],
+  "function": "station:anvil",
+  "space": []
+ },
+ {
+  "id": "SKULL_CHEST",
+  "name": "Skull Chest++",
+  "description": "A chest that stares back.",
+  "level": 24,
+  "rarity": "RARE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDc2NjMwMDMyMiwKICAicHJvZmlsZUlkIiA6ICI3NTA5NzZmODRmMDE0NWFhYTc0MzAwYWJhMzc5MTIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwY2hlYXRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4ODA3MjVhYzQwZDQ2NTQyYmY3YzgxOTgwMTg3MmUwZjAxYjdmOWE1MmE0YzQ4YTk4ZDdjOTQ4NzQ0ODRjMGYiCiAgICB9CiAgfQp9",
+  "recipe": [
+   "BONE:64",
+   "BONE:64",
+   "BONE:64",
+   "BONE:64",
+   "CHEST:8",
+   "BONE:64",
+   "BONE:64",
+   "BONE:64",
+   "BONE:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "bone_block"
+   ],
+   [
+    0,
+    1,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "storage:6",
+  "space": []
+ },
+ {
+  "id": "GRANDFATHER_CLOCK",
+  "name": "Grandfather Clock",
+  "description": "Tells the island time. The pinnacle of carpentry.",
+  "level": 25,
+  "rarity": "EPIC",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0Mzk0NTUxMywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NDc3OWQ0MzM4ZDEwMzIwMThkZWVmZjlmMTczNDcwOThjNzdlMjMyMWUyOWNmZmNjYTU0MmVjYTBiYmU0NTI2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "recipe": [
+   "DARK_OAK_PLANKS:64",
+   "GOLD_INGOT:32",
+   "DARK_OAK_PLANKS:64",
+   "DARK_OAK_PLANKS:64",
+   "CLOCK:4",
+   "DARK_OAK_PLANKS:64",
+   "DARK_OAK_PLANKS:64",
+   "GOLD_INGOT:32",
+   "DARK_OAK_PLANKS:64"
+  ],
+  "blocks": [
+   [
+    0,
+    0,
+    0,
+    "dark_oak_log"
+   ],
+   [
+    0,
+    1,
+    0,
+    "dark_oak_log"
+   ],
+   [
+    0,
+    2,
+    0,
+    "HEAD"
+   ]
+  ],
+  "seats": [],
+  "function": "clock",
+  "space": []
+ }
+]

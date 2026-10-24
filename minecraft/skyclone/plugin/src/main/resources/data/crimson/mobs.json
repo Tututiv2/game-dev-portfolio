@@ -1,0 +1,1661 @@
+[
+ {
+  "id": "crimson_blaze",
+  "name": "Blaze",
+  "level": 70,
+  "entity": "BLAZE",
+  "health": 60000,
+  "damage": 650,
+  "combatXp": 0,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_mutated_blaze",
+  "name": "Mutated Blaze",
+  "level": 70,
+  "entity": "BLAZE",
+  "health": 70000,
+  "damage": 700,
+  "combatXp": 75,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "MUTATED_BLAZE_ASHES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_mutated_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_bezal",
+  "name": "Scorchling",
+  "level": 80,
+  "entity": "BLAZE",
+  "health": 90000,
+  "damage": 800,
+  "combatXp": 60,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "BEZOS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "RAMPART_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SWORD_OF_BAD_HEALTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_bezal",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_smoldering_blaze",
+  "name": "Smoldering Blaze",
+  "level": 95,
+  "entity": "BLAZE",
+  "health": 2500000,
+  "damage": 2000,
+  "combatXp": 240,
+  "coins": 25,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "BLAZE_ASHES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "NETHERRACK_LOOKING_SUNSHADE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_smoldering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_millennia_blaze",
+  "name": "Aeon-Old Blaze",
+  "level": 110,
+  "entity": "BLAZE",
+  "health": 30000000,
+  "damage": 4000,
+  "combatXp": 960,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "BLAZE_ASHES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "MILLENIA_OLD_BLAZE_ASHES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.045
+   },
+   {
+    "item": "NETHERRACK_LOOKING_SUNSHADE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "Z",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_millennia_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball",
+   "crimson_flame_ring"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_flare",
+  "name": "Flare",
+  "level": 90,
+  "entity": "BLAZE",
+  "health": 200000,
+  "damage": 1200,
+  "combatXp": 120,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "GAZING_PEARL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_flare",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "blaze"
+ },
+ {
+  "id": "crimson_cinderbat",
+  "name": "Emberwing Bat",
+  "level": 90,
+  "entity": "BAT",
+  "health": 2500000,
+  "damage": 0,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "FLAMES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_cinderbat",
+  "flags": [
+   "passive",
+   "flying",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "animal",
+    "infernal"
+   ],
+   "mobTypes": [
+    "animal",
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_matcho",
+  "name": "Tinderling",
+  "level": 100,
+  "entity": "ZOMBIE",
+  "health": 300000,
+  "damage": 1300,
+  "combatXp": 100,
+  "coins": 300,
+  "drops": [
+   {
+    "item": "SULPHUR_ORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "MATCH_STICKS",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_matcho",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "baby"
+  ],
+  "equipment": {
+   "HEAD": "REDSTONE_TORCH"
+  },
+  "behaviours": [
+   "crimson_ignite"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_magma_cube",
+  "name": "Pack Magma Cube",
+  "level": 75,
+  "entity": "MAGMA_CUBE",
+  "health": 75000,
+  "damage": 600,
+  "combatXp": 60,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "MAGMA_CREAM",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_CHUNK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "RAMPART_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "magmatic",
+    "infernal",
+    "slime"
+   ],
+   "mobTypes": [
+    "magmatic",
+    "infernal",
+    "slime"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_ghast",
+  "name": "Dive Ghast",
+  "level": 90,
+  "entity": "GHAST",
+  "health": 150000,
+  "damage": 1500,
+  "combatXp": 400,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "GHAST_TEAR",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "TENTACLE_MEAT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_ghast",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "equipment": {},
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_magma_cube_rider",
+  "name": "Magma Cube Rider",
+  "level": 90,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 300000,
+  "damage": 1200,
+  "combatXp": 120,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_CHUNK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_magma_cube_rider",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {
+   "HAND": "GOLDEN_SWORD"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "undead",
+    "infernal"
+   ],
+   "mobTypes": [
+    "undead",
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_flaming_spider",
+  "name": "Flaming Spider",
+  "level": 80,
+  "entity": "SPIDER",
+  "health": 50000,
+  "damage": 700,
+  "combatXp": 120,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "STRING",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "BURNING_EYE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_flaming_spider",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_ignite"
+  ],
+  "extra": {
+   "types": [
+    "arthropod",
+    "infernal"
+   ],
+   "mobTypes": [
+    "arthropod",
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  },
+  "slayer": "spider"
+ },
+ {
+  "id": "crimson_wither_skeleton",
+  "name": "Wither Skeleton",
+  "level": 70,
+  "entity": "WITHER_SKELETON",
+  "health": 50000,
+  "damage": 800,
+  "combatXp": 70,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "COAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "BONE",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "WITHER_SOUL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTED_COAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENCHANTED_CHARCOAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "RAMPART_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SWORD_OF_BAD_HEALTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_wither_skeleton",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "undead",
+    "skeletal",
+    "wither"
+   ],
+   "mobTypes": [
+    "undead",
+    "skeletal",
+    "wither"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_wither_spectre",
+  "name": "Wither Spectre",
+  "level": 70,
+  "entity": "WITHER_SKELETON",
+  "health": 120000,
+  "damage": 900,
+  "combatXp": 120,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "SULPHUR",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SPECTRE_DUST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "REDSTONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "RAMPART_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "RAMPART_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SWORD_OF_BAD_HEALTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_wither_spectre",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "undead",
+    "skeletal",
+    "wither"
+   ],
+   "mobTypes": [
+    "undead",
+    "skeletal",
+    "wither"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_mushroom_bull",
+  "name": "Mushroom Bull",
+  "level": 80,
+  "entity": "MOOSHROOM",
+  "health": 150000,
+  "damage": 800,
+  "combatXp": 80,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RED_MUSHROOM",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "DIGESTED_MUSHROOMS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_mushroom_bull",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_charge"
+  ],
+  "extra": {
+   "types": [
+    "animal"
+   ],
+   "mobTypes": [
+    "animal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_kada_knight",
+  "name": "Ashen Knight",
+  "level": 90,
+  "entity": "SKELETON",
+  "health": 200000,
+  "damage": 1100,
+  "combatXp": 90,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   },
+   {
+    "item": "KADA_LEAD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_kada_knight",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "HAND": "GOLDEN_SWORD"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [
+    "undead",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "undead",
+    "skeletal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_fire_mage",
+  "name": "Fire Mage",
+  "level": 75,
+  "entity": "ZOMBIE",
+  "health": 60000,
+  "damage": 750,
+  "combatXp": 70,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "BLAZE_POWDER",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "SULPHUR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "MAGMA_CREAM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_fire_mage",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "equipment": {
+   "HEAD": "RED_STAINED_GLASS",
+   "HAND": "BLAZE_ROD"
+  },
+  "behaviours": [
+   "crimson_firebolt"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_barbarian",
+  "name": "Barbarian",
+  "level": 80,
+  "entity": "VINDICATOR",
+  "health": 80000,
+  "damage": 900,
+  "combatXp": 80,
+  "coins": 20,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.3
+   },
+   {
+    "item": "SAND:1",
+    "min": 1,
+    "max": 2,
+    "chance": 0.2
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_barbarian",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [],
+   "mobTypes": [],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_barbarian_brute",
+  "name": "Barbarian Brute",
+  "level": 90,
+  "entity": "PIGLIN_BRUTE",
+  "health": 500000,
+  "damage": 1600,
+  "combatXp": 150,
+  "coins": 40,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "GOLD_INGOT",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTED_PORK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "X",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "family": "crimson_barbarian_brute",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HAND": "GOLDEN_AXE"
+  },
+  "behaviours": [],
+  "extra": {
+   "types": [],
+   "mobTypes": [],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_vanquisher",
+  "name": "Vanquisher",
+  "level": 100,
+  "entity": "WITHER_SKELETON",
+  "health": 42000000,
+  "damage": 5000,
+  "combatXp": 1000,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "CORRUPTED_NETHER_STAR",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "Z",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_vanquisher",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "NETHERITE_SWORD"
+  },
+  "behaviours": [
+   "crimson_flame_ring"
+  ],
+  "extra": {
+   "types": [
+    "undead",
+    "wither",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "undead",
+    "wither",
+    "skeletal"
+   ],
+   "island": "crimson_isle"
+  }
+ },
+ {
+  "id": "crimson_bladesoul",
+  "name": "Edgewraith",
+  "level": 200,
+  "entity": "WITHER_SKELETON",
+  "health": 50000000,
+  "damage": 6000,
+  "combatXp": 4000,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "COAL",
+    "min": 20,
+    "max": 35,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_COAL",
+    "min": 0,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "HALLOWED_SKULL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_URCHIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "RAGNAROCK_AXE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ESSENCE_CRIMSON",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_TEETH",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "Y",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_bladesoul",
+  "flags": [
+   "boss",
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "NETHERITE_SWORD"
+  },
+  "behaviours": [
+   "crimson_blade_storm"
+  ],
+  "extra": {
+   "types": [
+    "undead",
+    "skeletal"
+   ],
+   "mobTypes": [
+    "undead",
+    "skeletal"
+   ],
+   "island": "crimson_isle",
+   "miniboss": true
+  }
+ },
+ {
+  "id": "crimson_mage_outlaw",
+  "name": "Rogue Pyromancer",
+  "level": 200,
+  "entity": "ZOMBIE",
+  "health": 70000000,
+  "damage": 6500,
+  "combatXp": 4000,
+  "coins": 100,
+  "drops": [
+   {
+    "item": "GLOWSTONE_DUST",
+    "min": 20,
+    "max": 35,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GLOWSTONE_DUST",
+    "min": 0,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPELL_POWDER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "MAGMA_URCHIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "FIRE_FREEZE_STAFF",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "WAND_OF_STRENGTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ESSENCE_CRIMSON",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_TEETH",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "Y",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_mage_outlaw",
+  "flags": [
+   "boss",
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "BLAZE_ROD"
+  },
+  "behaviours": [
+   "crimson_firebolt",
+   "crimson_flame_ring"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle",
+   "miniboss": true
+  }
+ },
+ {
+  "id": "crimson_barbarian_duke",
+  "name": "Duke Brakkus the Tenth",
+  "level": 200,
+  "entity": "PIGLIN_BRUTE",
+  "health": 70000000,
+  "damage": 7000,
+  "combatXp": 4000,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 20,
+    "max": 35,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PORK",
+    "min": 0,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER_CLOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_URCHIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "FLAMING_FIST",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ESSENCE_CRIMSON",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_TEETH",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "Y",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_barbarian_duke",
+  "flags": [
+   "boss",
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HAND": "NETHERITE_AXE"
+  },
+  "behaviours": [
+   "crimson_ground_slam"
+  ],
+  "extra": {
+   "types": [],
+   "mobTypes": [],
+   "island": "crimson_isle",
+   "miniboss": true
+  }
+ },
+ {
+  "id": "crimson_ashfang",
+  "name": "Cindermaw",
+  "level": 200,
+  "entity": "BLAZE",
+  "health": 50000000,
+  "damage": 6000,
+  "combatXp": 2000,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "min": 20,
+    "max": 35,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_BLAZE_POWDER",
+    "min": 0,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "LUMINO_FIBER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "MAGMA_URCHIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "FIRE_VEIL_WAND",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ESSENCE_CRIMSON",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_TEETH",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "Y",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_ashfang",
+  "flags": [
+   "boss",
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_fireball",
+   "crimson_twin_flames"
+  ],
+  "extra": {
+   "types": [
+    "infernal"
+   ],
+   "mobTypes": [
+    "infernal"
+   ],
+   "island": "crimson_isle",
+   "miniboss": true
+  }
+ },
+ {
+  "id": "crimson_magma_boss",
+  "name": "Magma Colossus",
+  "level": 500,
+  "entity": "MAGMA_CUBE",
+  "health": 200000000,
+  "damage": 9000,
+  "combatXp": 6000,
+  "coins": 125,
+  "drops": [
+   {
+    "item": "MAGMA_CREAM",
+    "min": 20,
+    "max": 35,
+    "chance": 1.0
+   },
+   {
+    "item": "MOLTEN_CUBE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ENCHANTED_MAGMA_CREAM",
+    "min": 0,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "COMPACT_OOZE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "REKINDLED_EMBER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_URCHIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.12
+   },
+   {
+    "item": "FIRE_FURY_STAFF",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ESSENCE_CRIMSON",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "KUUDRA_TEETH",
+    "min": 1,
+    "max": 2,
+    "chance": 0.25
+   },
+   {
+    "item": "Y",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "crimson_magma_boss",
+  "flags": [
+   "boss",
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "equipment": {},
+  "behaviours": [
+   "crimson_magma_size",
+   "crimson_ground_slam",
+   "crimson_flame_ring"
+  ],
+  "extra": {
+   "types": [
+    "magmatic",
+    "slime"
+   ],
+   "mobTypes": [
+    "magmatic",
+    "slime"
+   ],
+   "island": "crimson_isle",
+   "miniboss": true
+  }
+ }
+]

@@ -1,0 +1,1673 @@
+[
+ {
+  "id": "BOX_OF_SEEDS",
+  "name": "Box of Seeds",
+  "material": "WHEAT_SEEDS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Seeds&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "BROWN_MUSHROOM",
+  "name": "Brown Mushroom",
+  "material": "BROWN_MUSHROOM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Brown",
+   "&aMushroom&7, &aEnchanted Fermented Spider",
+   "&aEye&7, &aBrown Mushroom Block&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CACTUS",
+  "name": "Cactus",
+  "material": "CACTUS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Cactus",
+   "&aGreen&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "CACTUS",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARROT_ITEM",
+  "name": "Carrot",
+  "material": "CARROT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Carrot&7,",
+   "&7&aSimple Carrot Candy&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "CARROT_ITEM",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COMPACTED_MOONFLOWER",
+  "name": "Compacted Moonflower",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Moonflower&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "COMPACTED_SUNFLOWER",
+  "name": "Compacted Sunflower",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Sunflower&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "COMPACTED_WILD_ROSE",
+  "name": "Compacted Wild Rose",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Wild",
+   "&7Rose&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "DOUBLE_PLANT",
+  "name": "Sunflower",
+  "material": "SUNFLOWER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sunflower&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "DOUBLE_PLANT",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EGG",
+  "name": "Egg",
+  "material": "EGG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Egg&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENCHANTED_BAKED_POTATO",
+  "name": "Enchanted Baked Potato",
+  "material": "BAKED_POTATO",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Potato&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_BREAD",
+  "name": "Enchanted Bread",
+  "material": "BREAD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 60.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a60 &7Wheat&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_BROWN_MUSHROOM",
+  "name": "Enchanted Brown Mushroom",
+  "material": "BROWN_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Brown Mushroom&7.",
+   "&7Compresses into &aEnchanted Brown",
+   "&aMushroom Block&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_CACTUS",
+  "name": "Enchanted Cactus",
+  "material": "CACTUS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Cactus",
+   "&7Green&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_CACTUS_GREEN",
+  "name": "Enchanted Cactus Green",
+  "material": "GREEN_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Cactus&7.",
+   "&7Compresses into &aEnchanted Cactus&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_CARROT",
+  "name": "Enchanted Carrot",
+  "material": "CARROT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Carrot&7.",
+   "&7Compresses into &aEnchanted Golden",
+   "&aCarrot&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_COCOA",
+  "name": "Enchanted Cocoa Beans",
+  "material": "COCOA_BEANS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Cocoa Beans&7.",
+   "&7Compresses into &aEnchanted Cookie&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_COOKED_MUTTON",
+  "name": "Enchanted Cooked Mutton",
+  "material": "COOKED_MUTTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Raw",
+   "&7Mutton&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_COOKED_RABBIT",
+  "name": "Enchanted Cooked Rabbit",
+  "material": "COOKED_RABBIT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Raw",
+   "&7Rabbit&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_COOKIE",
+  "name": "Enchanted Cookie",
+  "material": "COOKIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Cocoa",
+   "&7Beans&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_EGG",
+  "name": "Enchanted Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 432.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a144 &7Egg&7.",
+   "&7Compresses into &aSuper Enchanted Egg&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_FEATHER",
+  "name": "Enchanted Feather",
+  "material": "FEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Feather&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_GOLDEN_CARROT",
+  "name": "Enchanted Golden Carrot",
+  "material": "GOLDEN_CARROT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Carrot&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_GRILLED_PORK",
+  "name": "Enchanted Cooked Porkchop",
+  "material": "COOKED_PORKCHOP",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Raw",
+   "&7Porkchop&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_HAY_BALE",
+  "name": "Enchanted Hay Bale",
+  "material": "HAY_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 153600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Wheat&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_HUGE_MUSHROOM_1",
+  "name": "Enchanted Brown Mushroom Block",
+  "material": "BROWN_MUSHROOM_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Brown",
+   "&7Mushroom&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_HUGE_MUSHROOM_2",
+  "name": "Enchanted Red Mushroom Block",
+  "material": "RED_MUSHROOM_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Red",
+   "&7Mushroom&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_LEATHER",
+  "name": "Enchanted Leather",
+  "material": "LEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Leather&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_LUSH_BERBERIS",
+  "name": "Enchanted Lush Berberis",
+  "material": "LARGE_FERN",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Lush Berberis&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_MELON",
+  "name": "Enchanted Melon Slice",
+  "material": "MELON_SLICE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Melon Slice&7.",
+   "&7Compresses into &aEnchanted Melon&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_MELON_BLOCK",
+  "name": "Enchanted Melon",
+  "material": "MELON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 51200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Melon",
+   "&7Slice&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_MOONFLOWER",
+  "name": "Enchanted Moonflower",
+  "material": "BLUE_ORCHID",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Moonflower&7.",
+   "&7Compresses into &aCompacted Moonflower&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_MUTTON",
+  "name": "Enchanted Raw Mutton",
+  "material": "MUTTON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Raw Mutton&7.",
+   "&7Compresses into &aEnchanted Cooked",
+   "&aMutton&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_NETHER_STALK",
+  "name": "Enchanted Nether Wart",
+  "material": "NETHER_WART",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Nether Wart&7.",
+   "&7Compresses into &aMutant Nether Wart&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_PAPER",
+  "name": "Enchanted Paper",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 384.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a192 &7Sugar Cane&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_POISONOUS_POTATO",
+  "name": "Enchanted Poisonous Potato",
+  "material": "POISONOUS_POTATO",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Poisonous Potato&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_PORK",
+  "name": "Enchanted Raw Porkchop",
+  "material": "PORKCHOP",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Porkchop&7.",
+   "&7Compresses into &aEnchanted Cooked",
+   "&aPorkchop&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_POTATO",
+  "name": "Enchanted Potato",
+  "material": "POTATO",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Potato&7.",
+   "&7Compresses into &aEnchanted Baked",
+   "&aPotato&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_PUMPKIN",
+  "name": "Enchanted Pumpkin",
+  "material": "CARVED_PUMPKIN",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Pumpkin&7.",
+   "&7Compresses into &aPolished Pumpkin&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RABBIT",
+  "name": "Enchanted Raw Rabbit",
+  "material": "RABBIT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Rabbit&7.",
+   "&7Compresses into &aEnchanted Cooked",
+   "&aRabbit&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RABBIT_FOOT",
+  "name": "Enchanted Rabbit Foot",
+  "material": "RABBIT_FOOT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Rabbit's Foot&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RABBIT_HIDE",
+  "name": "Enchanted Rabbit Hide",
+  "material": "RABBIT_HIDE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Rabbit Hide&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RAW_BEEF",
+  "name": "Enchanted Raw Beef",
+  "material": "BEEF",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Beef&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RAW_CHICKEN",
+  "name": "Enchanted Raw Chicken",
+  "material": "CHICKEN",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Chicken&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_RED_MUSHROOM",
+  "name": "Enchanted Red Mushroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Red Mushroom&7.",
+   "&7Compresses into &aEnchanted Red Mushroom",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_SEEDS",
+  "name": "Enchanted Seeds",
+  "material": "WHEAT_SEEDS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Seeds&7.",
+   "&7Compresses into &aBox of Seeds&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_SUGAR",
+  "name": "Enchanted Sugar",
+  "material": "SUGAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Sugar Cane&7.",
+   "&7Compresses into &aEnchanted Sugar Cane&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_SUGAR_CANE",
+  "name": "Enchanted Sugar Cane",
+  "material": "SUGAR_CANE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Sugar&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_SUNFLOWER",
+  "name": "Enchanted Sunflower",
+  "material": "SUNFLOWER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Sunflower&7.",
+   "&7Compresses into &aCompacted Sunflower&7,",
+   "&7&aSunflower Oil&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_WHEAT",
+  "name": "Enchanted Wheat",
+  "material": "WHEAT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 960.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Wheat&7.",
+   "&7Compresses into &aEnchanted Hay Bale&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_WILD_ROSE",
+  "name": "Enchanted Wild Rose",
+  "material": "ROSE_BUSH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Wild Rose&7.",
+   "&7Compresses into &aCompacted Wild Rose&7,",
+   "&7&aPrickly Kiss&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "ENCHANTED_WOOL",
+  "name": "Enchanted Wool",
+  "material": "WHITE_WOOL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7White Wool&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "FEATHER",
+  "name": "Feather",
+  "material": "FEATHER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Feather&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "FEATHER",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "HAY_BLOCK",
+  "name": "Hay Bale",
+  "material": "HAY_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 54.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Wheat&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "HUGE_MUSHROOM_1",
+  "name": "Brown Mushroom Block",
+  "material": "BROWN_MUSHROOM_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Brown Mushroom&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "HUGE_MUSHROOM_2",
+  "name": "Red Mushroom Block",
+  "material": "RED_MUSHROOM_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Red Mushroom&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "INK_SACK:2",
+  "name": "Cactus Green",
+  "material": "GREEN_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "INK_SACK:3",
+  "name": "Cocoa Beans",
+  "material": "COCOA_BEANS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Cocoa Beans&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "INK_SACK:3",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LEATHER",
+  "name": "Leather",
+  "material": "LEATHER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compressed from &a4 &7Rabbit Hide&7.",
+   "&7Compresses into &aEnchanted Leather&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "LEATHER",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LUSH_BERBERIS",
+  "name": "Lush Berberis",
+  "material": "LARGE_FERN",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Lush",
+   "&aBerberis&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "MELON",
+  "name": "Melon Slice",
+  "material": "MELON_SLICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Melon Slice&7,",
+   "&7&aMelon&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "MELON",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MELON_BLOCK",
+  "name": "Melon",
+  "material": "MELON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 18.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Melon Slice&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MOONFLOWER",
+  "name": "Moonflower",
+  "material": "BLUE_ORCHID",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Moonflower&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "MOONFLOWER"
+  }
+ },
+ {
+  "id": "MUSHROOM_COLLECTION",
+  "name": "Mushroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&8Collection Item"
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "MUSHROOM_COLLECTION"
+  }
+ },
+ {
+  "id": "MUTANT_NETHER_STALK",
+  "name": "Mutant Nether Wart",
+  "material": "NETHER_WART",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Nether",
+   "&7Wart&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "MUTTON",
+  "name": "Raw Mutton",
+  "material": "MUTTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Raw Mutton&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "MUTTON",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_STALK",
+  "name": "Nether Wart",
+  "material": "NETHER_WART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Nether Wart&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "NETHER_STALK",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POISONOUS_POTATO",
+  "name": "Poisonous Potato",
+  "material": "POISONOUS_POTATO",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Poisonous",
+   "&aPotato&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POLISHED_PUMPKIN",
+  "name": "Polished Pumpkin",
+  "material": "PUMPKIN",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Pumpkin&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "PORK",
+  "name": "Raw Porkchop",
+  "material": "PORKCHOP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Raw",
+   "&aPorkchop&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "PORK",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POTATO_ITEM",
+  "name": "Potato",
+  "material": "POTATO",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Potato&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "POTATO_ITEM",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PRICKLY_KISS",
+  "name": "Prickly Kiss",
+  "material": "CACTUS_FLOWER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a5 &7Enchanted Wild Rose&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "PUMPKIN",
+  "name": "Pumpkin",
+  "material": "PUMPKIN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Pumpkin&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "PUMPKIN",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RABBIT",
+  "name": "Raw Rabbit",
+  "material": "RABBIT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Raw Rabbit&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "RABBIT",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RABBIT_FOOT",
+  "name": "Rabbit's Foot",
+  "material": "RABBIT_FOOT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Rabbit Foot&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RABBIT_HIDE",
+  "name": "Rabbit Hide",
+  "material": "RABBIT_HIDE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Rabbit Hide&7,",
+   "&7&aLeather&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RAW_BEEF",
+  "name": "Raw Beef",
+  "material": "BEEF",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Raw Beef&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RAW_CHICKEN",
+  "name": "Raw Chicken",
+  "material": "CHICKEN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Raw Chicken&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "RAW_CHICKEN",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_MUSHROOM",
+  "name": "Red Mushroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Red",
+   "&aMushroom&7, &aRed Mushroom Block&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SEEDS",
+  "name": "Seeds",
+  "material": "WHEAT_SEEDS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Seeds&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "SEEDS",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SIMPLE_CARROT_CANDY",
+  "name": "Simple Carrot Candy",
+  "material": "CARROT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a576 &7Carrot&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "SUGAR_CANE",
+  "name": "Sugar Cane",
+  "material": "SUGAR_CANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sugar&7,",
+   "&7&aEnchanted Paper&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "SUGAR_CANE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SUNFLOWER_OIL",
+  "name": "Sunflower Oil",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 3200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Enchanted Sunflower&7."
+  ],
+  "extra": {
+   "family": "farming"
+  }
+ },
+ {
+  "id": "SUPER_EGG",
+  "name": "Super Enchanted Egg",
+  "material": "TURTLE_EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 62208.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "farming"
+  },
+  "lore": [
+   "&7Compressed from &a144 &7Enchanted Egg&7."
+  ]
+ },
+ {
+  "id": "WHEAT",
+  "name": "Wheat",
+  "material": "WHEAT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Wheat&7,",
+   "&7&aEnchanted Bread&7, &aHay Bale&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "WHEAT",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WILD_ROSE",
+  "name": "Wild Rose",
+  "material": "ROSE_BUSH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Wild Rose&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "collection": "WILD_ROSE"
+  }
+ },
+ {
+  "id": "WOOL",
+  "name": "White Wool",
+  "material": "WHITE_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Wool&7."
+  ],
+  "extra": {
+   "family": "farming",
+   "vanilla": true
+  }
+ }
+]

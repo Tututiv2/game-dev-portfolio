@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Project: OMEGA STRAIN</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #050505;
+            --ui-bg: rgba(0, 20, 0, 0.85);
+            --text-main: #00ff41;
+            --text-dim: #008f11;
+            --text-alert: #ff3333;
+            --font-main: 'Courier New', Courier, monospace;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            overflow: hidden;
+            color: var(--text-main);
+            font-family: var(--font-main);
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Canvas Container */
+        #game-stage {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        /* CRT Scanline Effect Overlay */
+        #crt-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 2px, 3px 100%;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        /* UI Layout */
+        #ui-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+            pointer-events: none; /* Let clicks pass through to canvas */
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            grid-template-rows: 100px 1fr 200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Interactive Elements need pointer-events: auto */
+        .panel {
+            background: var(--ui-bg);
+            border: 1px solid var(--text-dim);
+            padding: 15px;
+            pointer-events: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            overflow-y: auto;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+        }
+
+        /* Headers */
+        h1, h2, h3 { margin: 0; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 5px var(--text-dim); }
+        h1 { font-size: 1.2rem; color: var(--text-alert); }
+        h2 { font-size: 1rem; border-bottom: 1px solid var(--text-dim); padding-bottom: 5px; }
+
+        /* Resource Display */
+        .resource-display {
+            text-align: center;
+            grid-column: 2;
+            grid-row: 1;
+            pointer-events: none;
+        }
+        #biomass-counter { font-size: 2.5rem; font-weight: bold; text-shadow: 0 0 10px var(--text-main); }
+        #dps-counter { font-size: 1rem; color: var(--text-dim); }
+
+        /* Left Panel: Upgrades */
+        #upgrades-panel { grid-column: 1; grid-row: 1 / span 3; }
+
+        /* Right Panel: Layers/Prestige */
+        #layers-panel { grid-column: 3; grid-row: 1 / span 3; }
+
+        /* Button Styling */
+        button {
+            background: #001100;
+            border: 1px solid var(--text-main);
+            color: var(--text-main);
+            padding: 10px;
+            font-family: var(--font-main);
+            cursor: pointer;
+            transition: all 0.1s;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+        button:hover:not(:disabled) { background: #003300; box-shadow: 0 0 8px var(--text-main); }
+        button:active:not(:disabled) { background: var(--text-main); color: #000; }
+        button:disabled { opacity: 0.5; cursor: not-allowed; border-color: #555; color: #555; }
+        
+        .upgrade-meta { display: flex; justify-content: space-between; font-size: 0.8rem; margin-top: 5px; color: var(--text-dim); }
+        
+        /* Prestige Button Special Styling */
+        .prestige-btn {
+            border: 1px solid var(--text-alert);
+            color: var(--text-alert);
+            margin-top: 20px;
+        }
+        .prestige-btn:hover:not(:disabled) { background: #330000; box-shadow: 0 0 10px var(--text-alert); }
+
+        /* Notifications */
+        #notification-area {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: var(--text-alert);
+            font-weight: bold;
+            text-shadow: 0 0 5px red;
+            pointer-events: none;
+        }
+
+        /* Hidden Classes */
+        .hidden { display: none !important; }
+        .locked { filter: blur(2px); pointer-events: none; opacity: 0.4; }
+
+    </style>
+</head>
+<body>
+
+    <div id="crt-overlay"></div>
+    <div id="game-stage"></div>
+
+    <div id="ui-layer">
+        <div id="upgrades-panel" class="panel">
+            <h2>Containment Protocols</h2>
+            <div id="upgrades-list"></div>
+        </div>
+
+        <div class="resource-display">
+            <div>RAW BIOMASS</div>
+            <div id="biomass-counter">0</div>
+            <div id="dps-counter">0 / sec</div>
+            <div id="notification-area">AWAITING INPUT...</div>
+        </div>
+
+        <div id="layers-panel" class="panel">
+            <h1>OVERSEER TERMINAL</h1>
+            
+            <div id="prestige-section" class="hidden">
+                <div style="margin: 10px 0; border: 1px solid var(--text-alert); padding: 5px;">
+                    <small>STABLE MUTAGENS:</small><br>
+                    <span id="mutagen-counter" style="color:var(--text-alert); font-size:1.2rem;">0</span>
+                    <br><small>Effect: +<span id="mutagen-bonus">0</span>% Production</small>
+                </div>
+                <button id="btn-prestige" class="prestige-btn">
+                    INITIATE PROTOCOL OMEGA
+                    <div class="upgrade-meta">Reset for Mutagens</div>
+                </button>
+            </div>
+
+            <div id="layer-1" class="hidden" style="margin-top:20px; border-top: 1px dashed #555; padding-top:10px;">
+                <h3 style="color:#00ffff">LAYER 1: NEURAL NET</h3>
+                <small>Cognitive Shards: <span id="shard-counter">0</span></small>
+                <button id="btn-overclock">Overclock Tick Rate<br><small>Cost: 10 Shards</small></button>
+            </div>
+
+            <div id="layer-2" class="hidden" style="margin-top:20px; border-top: 1px dashed #555; padding-top:10px;">
+                <h3 style="color:#ff00ff">LAYER 2: TIME WARP</h3>
+                <small>Chronons: <span id="chronon-counter">0</span></small>
+                <button id="btn-warp">Initiate Warp (60s)<br><small>Cost: 1 Chronon</small></button>
+            </div>
+            
+            <div id="endgame-status" style="margin-top:auto; font-size: 0.7rem; color: #555;">
+                Simulating Reality...
+            </div>
+        </div>
+    </div>
+
+<script>
+/**
+ * PROJECT: OMEGA STRAIN
+ * An Incremental Horror Game using Pixi.js and Web Audio API.
+ */
+
+/* --- 1. GAME STATE & CONFIGURATION --- */
+
+const GameConfig = {
+    framerate: 60,
+    saveKey: 'omega_strain_save_v1',
+    colors: {
+        biomass: 0x00ff41,
+        blood: 0x880000,
+        crit: 0xffffff,
+        text: 0x00ff41
+    }
+};
+
+let gameState = {
+    // Layer 0: Biomass
+    biomass: 0,
+    lifetimeBiomass: 0, // Used for Prestige calc
+    startTime: Date.now(),
+    
+    // Upgrades
+    upgrades: {
+        clickPower: { count: 0, baseCost: 15, basePow: 1, name: "Synaptic Burst", desc: "+Click Dmg" },
+        autoDrone: { count: 0, baseCost: 100, basePow: 5, name: "Auto-Drone", desc: "+5 DPS" },
+        recycler: { count: 0, baseCost: 500, basePow: 1.2, name: "Biomass Recycler", desc: "+20% Gain" },
+    },
+
+    // Prestige (Protocol Omega)
+    mutagens: 0,
+    prestigeCount: 0,
+
+    // Layer 1: Neural Net (Unlocks at 1e12)
+    shards: 0,
+    tickSpeedLevel: 0, 
+
+    // Layer 2: Time (Unlocks at 1e25)
+    chronons: 0,
+    
+    // Settings
+    audioEnabled: true
+};
+
+// Derived Stats Helpers
+const getClickDamage = () => {
+    let base = 1 + (gameState.upgrades.clickPower.count * 2); // Linear growth
+    // Apply Multipliers
+    let multiplier = 1 + (gameState.upgrades.recycler.count * 0.2); // Recycler
+    multiplier *= (1 + (gameState.mutagens * 0.1)); // Prestige Bonus (10% per mutagen)
+    return base * multiplier * getLayer3Multiplier();
+};
+
+const getDPS = () => {
+    let base = gameState.upgrades.autoDrone.count * 5;
+    let multiplier = 1 + (gameState.upgrades.recycler.count * 0.2);
+    multiplier *= (1 + (gameState.mutagens * 0.1));
+    return base * multiplier * getLayer3Multiplier();
+};
+
+const getLayer3Multiplier = () => {
+    // Placeholder for Layer 3 (Void Essence) scaling
+    if (gameState.biomass > 1e50) return 10;
+    return 1;
+};
+
+/* --- 2. AUDIO ENGINE (Procedural) --- */
+// Psychological Note: Slight pitch variance prevents habituation.
+
+const AudioEngine = {
+    ctx: null,
+    
+    init: function() {
+        if (!this.ctx) {
+            this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+            this.createNoiseBuffer();
+        }
+        if (this.ctx.state === 'suspended') this.ctx.resume();
+    },
+
+    noiseBuffer: null,
+
+    createNoiseBuffer: function() {
+        const bufferSize = this.ctx.sampleRate * 2; // 2 seconds of noise
+        const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        this.noiseBuffer = buffer;
+    },
+
+    playClickSound: function(isCrit) {
+        if (!this.ctx) return;
+        
+        // 1. Impact Sound (Filtered Noise)
+        const t = this.ctx.currentTime;
+        const noiseSrc = this.ctx.createBufferSource();
+        noiseSrc.buffer = this.noiseBuffer;
+        
+        const noiseFilter = this.ctx.createBiquadFilter();
+        noiseFilter.type = 'lowpass';
+        // Randomize pitch/filter slightly for variety
+        noiseFilter.frequency.setValueAtTime(isCrit ? 1500 : 800 + (Math.random() * 200), t);
+        noiseFilter.frequency.exponentialRampToValueAtTime(100, t + 0.15);
+
+        const noiseGain = this.ctx.createGain();
+        noiseGain.gain.setValueAtTime(isCrit ? 0.8 : 0.4, t);
+        noiseGain.gain.exponentialRampToValueAtTime(0.01, t + 0.1);
+
+        noiseSrc.connect(noiseFilter);
+        noiseFilter.connect(noiseGain);
+        noiseGain.connect(this.ctx.destination);
+        noiseSrc.start(t);
+        noiseSrc.stop(t + 0.15);
+
+        // 2. Tonal "Zap" (Oscillator)
+        const osc = this.ctx.createOscillator();
+        osc.type = isCrit ? 'sawtooth' : 'triangle';
+        osc.frequency.setValueAtTime(isCrit ? 880 : 150 + (Math.random()*20), t);
+        osc.frequency.exponentialRampToValueAtTime(50, t + 0.1);
+        
+        const oscGain = this.ctx.createGain();
+        oscGain.gain.setValueAtTime(isCrit ? 0.3 : 0.1, t);
+        oscGain.gain.exponentialRampToValueAtTime(0.01, t + 0.1);
+
+        osc.connect(oscGain);
+        oscGain.connect(this.ctx.destination);
+        osc.start(t);
+        osc.stop(t + 0.1);
+    }
+};
+
+/* --- 3. PIXI.JS RENDERING & PARTICLE SYSTEM --- */
+
+const app = new PIXI.Application({
+    resizeTo: window,
+    backgroundColor: 0x050505,
+    antialias: true,
+    resolution: window.devicePixelRatio || 1,
+    autoDensity: true
+});
+
+document.getElementById('game-stage').appendChild(app.view);
+
+// Containers
+const particleContainer = new PIXI.Container();
+const gameContainer = new PIXI.Container();
+app.stage.addChild(gameContainer);
+gameContainer.addChild(particleContainer);
+
+// Subject Zero (The Target)
+const subjectZero = new PIXI.Graphics();
+gameContainer.addChild(subjectZero);
+
+// Drawing Subject Zero procedural sprite
+function drawSubjectZero(radius = 80, color = 0x880000) {
+    subjectZero.clear();
+    subjectZero.beginFill(color, 0.8);
+    subjectZero.lineStyle(4, 0xff0000, 1);
+    // Draw an irregular blob
+    const segments = 12;
+    const points = [];
+    for(let i=0; i<=segments; i++) {
+        const angle = (i / segments) * Math.PI * 2;
+        const r = radius + (Math.random() * 10 - 5);
+        points.push(Math.cos(angle) * r, Math.sin(angle) * r);
+    }
+    subjectZero.drawPolygon(points);
+    subjectZero.endFill();
+    
+    // Inner Core
+    subjectZero.beginFill(0x000000, 0.5);
+    subjectZero.drawCircle(0, 0, radius * 0.4);
+    subjectZero.endFill();
+}
+
+drawSubjectZero();
+subjectZero.x = app.screen.width / 2;
+subjectZero.y = app.screen.height / 2;
+
+// Particle Pool System (Performance optimization)
+const particles = [];
+const particlePoolSize = 300;
+const damageTexts = [];
+
+class Particle {
+    constructor() {
+        this.sprite = new PIXI.Graphics();
+        this.sprite.beginFill(0xffffff);
+        this.sprite.drawCircle(0, 0, 4);
+        this.sprite.endFill();
+        this.sprite.visible = false;
+        this.vx = 0;
+        this.vy = 0;
+        this.life = 0;
+        this.active = false;
+        particleContainer.addChild(this.sprite);
+    }
+
+    spawn(x, y, color, speed, size) {
+        this.sprite.x = x;
+        this.sprite.y = y;
+        this.sprite.tint = color;
+        this.sprite.width = this.sprite.height = size;
+        this.sprite.visible = true;
+        const angle = Math.random() * Math.PI * 2;
+        this.vx = Math.cos(angle) * speed;
+        this.vy = Math.sin(angle) * speed;
+        this.life = 1.0;
+        this.active = true;
+    }
+
+    update(delta) {
+        if (!this.active) return;
+        this.sprite.x += this.vx * delta;
+        this.sprite.y += this.vy * delta;
+        this.life -= 0.02 * delta;
+        this.sprite.alpha = this.life;
+        if (this.life <= 0) {
+            this.active = false;
+            this.sprite.visible = false;
+        }
+    }
+}
+
+// Floating Text Class
+class FloatingText {
+    constructor() {
+        this.text = new PIXI.Text('', {
+            fontFamily: 'Courier New',
+            fontSize: 24,
+            fontWeight: 'bold',
+            fill: 0xffffff,
+            stroke: 0x000000,
+            strokeThickness: 4
+        });
+        this.text.visible = false;
+        this.active = false;
+        gameContainer.addChild(this.text); // Add to main container to float over particles
+    }
+
+    spawn(x, y, value, isCrit) {
+        this.text.text = formatNumber(value);
+        this.text.x = x;
+        this.text.y = y;
+        this.text.style.fill = isCrit ? 0xff0000 : 0x00ff41;
+        this.text.style.fontSize = isCrit ? 40 : 24;
+        this.text.visible = true;
+        this.active = true;
+        this.life = 1.0;
+        this.vy = -2; // Float up
+    }
+
+    update(delta) {
+        if(!this.active) return;
+        this.text.y += this.vy * delta;
+        this.life -= 0.015 * delta;
+        this.text.alpha = this.life;
+        if(this.life <= 0) {
+            this.active = false;
+            this.text.visible = false;
+        }
+    }
+}
+
+// Initialize Pools
+for (let i = 0; i < particlePoolSize; i++) particles.push(new Particle());
+for (let i = 0; i < 30; i++) damageTexts.push(new FloatingText());
+
+function spawnParticles(x, y, count, color, isExplosion = false) {
+    let spawned = 0;
+    for (let p of particles) {
+        if (!p.active) {
+            const speed = isExplosion ? (Math.random() * 10 + 5) : (Math.random() * 4 + 1);
+            const size = isExplosion ? (Math.random() * 10 + 5) : (Math.random() * 5 + 2);
+            p.spawn(x, y, color, speed, size);
+            spawned++;
+            if (spawned >= count) break;
+        }
+    }
+}
+
+function spawnDamageText(x, y, val, isCrit) {
+    // Offset slightly so they don't stack perfectly
+    const offsetX = (Math.random() * 40) - 20;
+    const offsetY = (Math.random() * 40) - 20;
+    for (let t of damageTexts) {
+        if (!t.active) {
+            t.spawn(x + offsetX, y + offsetY, val, isCrit);
+            break;
+        }
+    }
+}
+
+/* --- 4. GAME LOGIC & INTERACTION --- */
+
+// Recoil Animation State
+let recoilScale = 1;
+let screenShake = 0;
+
+function handleInteraction(e) {
+    AudioEngine.init(); // Ensure audio context is ready
+
+    // Calculate Damage
+    let damage = getClickDamage();
+    
+    // CRITICAL FRACTURE LOGIC (Variable Reward)
+    const critChance = 0.01 + (gameState.mutagens * 0.001); // Crit chance scales slowly with prestige
+    const isCrit = Math.random() < critChance;
+    
+    if (isCrit) {
+        damage *= 10;
+        screenShake = 15;
+        recoilScale = 0.6; // Deep recoil
+        spawnParticles(subjectZero.x, subjectZero.y, 50, GameConfig.colors.crit, true); // Explosion
+        document.getElementById('notification-area').innerText = "!!! CRITICAL FRACTURE !!!";
+    } else {
+        recoilScale = 0.9; // Standard recoil
+        screenShake = 3;
+        spawnParticles(subjectZero.x, subjectZero.y, 5, GameConfig.colors.biomass); // Standard splatter
+        // Random flavor text
+        if(Math.random() > 0.9) {
+            const msgs = ["HARVESTING...", "EXTRACTING...", "BIO-MATTER SECURED", "FEED THE ALGORITHM"];
+            document.getElementById('notification-area').innerText = msgs[Math.floor(Math.random()*msgs.length)];
+        }
+    }
+
+    gameState.biomass += damage;
+    gameState.lifetimeBiomass += damage;
+    
+    spawnDamageText(subjectZero.x, subjectZero.y, damage, isCrit);
+    AudioEngine.playClickSound(isCrit);
+    
+    updateUI();
+}
+
+// Input Listener (Pixi)
+subjectZero.interactive = true;
+subjectZero.buttonMode = true;
+subjectZero.on('pointerdown', handleInteraction);
+
+// Helper: Format Numbers (e.g., 1.2k, 1.5M, 3.4e12)
+function formatNumber(num) {
+    if (num < 1000) return Math.floor(num);
+    if (num < 1000000) return (num / 1000).toFixed(2) + "k";
+    if (num < 1000000000) return (num / 1000000).toFixed(2) + "M";
+    return num.toExponential(2).replace('+', '');
+}
+
+// Logic: Upgrades
+function createUpgradeButtons() {
+    const list = document.getElementById('upgrades-list');
+    list.innerHTML = '';
+    
+    Object.keys(gameState.upgrades).forEach(key => {
+        const upg = gameState.upgrades[key];
+        const btn = document.createElement('button');
+        btn.id = `btn-${key}`;
+        btn.onclick = () => buyUpgrade(key);
+        list.appendChild(btn);
+    });
+}
+
+function buyUpgrade(key) {
+    const upg = gameState.upgrades[key];
+    const cost = getUpgradeCost(key);
+    
+    if (gameState.biomass >= cost) {
+        gameState.biomass -= cost;
+        upg.count++;
+        updateUI();
+    }
+}
+
+function getUpgradeCost(key) {
+    const upg = gameState.upgrades[key];
+    return Math.floor(upg.baseCost * Math.pow(1.15, upg.count));
+}
+
+// Logic: Prestige
+function getPrestigeGain() {
+    if (gameState.lifetimeBiomass < 1000000) return 0;
+    // Standard formula: cube root of (lifetime / 1M)
+    return Math.floor(Math.cbrt(gameState.lifetimeBiomass / 1000000));
+}
+
+document.getElementById('btn-prestige').onclick = () => {
+    const gain = getPrestigeGain();
+    if (gain <= gameState.mutagens) return; // Must gain at least 1 new one
+
+    const newMutagens = gain - gameState.mutagens;
+    if (confirm(`INITIATE PROTOCOL OMEGA?\n\nReset progress to gain ${newMutagens} Stable Mutagens?`)) {
+        // Reset Logic
+        gameState.mutagens = gain;
+        gameState.biomass = 0;
+        // Reset Layer 0 upgrades
+        for(let key in gameState.upgrades) gameState.upgrades[key].count = 0;
+        
+        gameState.prestigeCount++;
+        gameState.startTime = Date.now();
+        
+        // Visual Flare
+        spawnParticles(app.screen.width/2, app.screen.height/2, 200, 0xFFFFFF, true);
+        AudioEngine.playClickSound(true);
+        updateUI();
+    }
+};
+
+/* --- 5. LAYER MECHANICS --- */
+
+// Layer 1: Neural Net (Passive Ticks)
+// Unlocked at 1e12 biomass or if previously unlocked
+function updateLayer1(delta) {
+    if (gameState.lifetimeBiomass > 1e12 || gameState.shards > 0) {
+        document.getElementById('layer-1').classList.remove('hidden');
+        // Generate Shards based on Mutagens
+        gameState.shards += (gameState.mutagens * 0.001 * delta) / 60;
+        document.getElementById('shard-counter').innerText = formatNumber(gameState.shards);
+    }
+}
+
+document.getElementById('btn-overclock').onclick = () => {
+    if(gameState.shards >= 10) {
+        gameState.shards -= 10;
+        gameState.tickSpeedLevel++;
+        // Implementation: Increase game speed variable (not fully implemented in this MVP, visual only)
+        document.getElementById('btn-overclock').innerHTML = `OVERCLOCK (Lvl ${gameState.tickSpeedLevel})<br><small>Cost: 10 Shards</small>`;
+    }
+}
+
+// Layer 2: Time Warp
+function updateLayer2(delta) {
+    if (gameState.lifetimeBiomass > 1e25 || gameState.chronons > 0) {
+        document.getElementById('layer-2').classList.remove('hidden');
+        // Chance to find a Chronon every frame
+        if (Math.random() < 0.0001) gameState.chronons++;
+        document.getElementById('chronon-counter').innerText = gameState.chronons;
+    }
+}
+
+document.getElementById('btn-warp').onclick = () => {
+    if(gameState.chronons >= 1) {
+        gameState.chronons--;
+        const dps = getDPS();
+        const gain = dps * 60;
+        gameState.biomass += gain;
+        gameState.lifetimeBiomass += gain;
+        spawnParticles(subjectZero.x, subjectZero.y, 100, 0x00ffff, true);
+        document.getElementById('notification-area').innerText = "TIME WARP SUCCESSFUL";
+    }
+}
+
+
+/* --- 6. MAIN GAME LOOP --- */
+
+let timeSinceLastAuto = 0;
+
+app.ticker.add((delta) => {
+    // 1. Particle Logic
+    particles.forEach(p => p.update(delta));
+    damageTexts.forEach(t => t.update(delta));
+
+    // 2. Animation (Juice)
+    // Breathing effect
+    const breath = 1 + Math.sin(Date.now() / 500) * 0.05;
+    
+    // Recoil recovery
+    recoilScale += (1 - recoilScale) * 0.1 * delta;
+    
+    // Screen Shake
+    if (screenShake > 0) {
+        gameContainer.x = (Math.random() * screenShake) - (screenShake/2);
+        gameContainer.y = (Math.random() * screenShake) - (screenShake/2);
+        screenShake -= 0.5 * delta;
+        if(screenShake < 0) screenShake = 0;
+    } else {
+        gameContainer.x = 0;
+        gameContainer.y = 0;
+    }
+
+    // Apply scaling to Subject Zero
+    subjectZero.scale.set(recoilScale * breath);
+    
+    // Center it (because scaling changes origin logic in simple Graphics)
+    // Actually, simple scaling works fine if drawn around 0,0 and moved.
+    // subjectZero is drawn around 0,0 inside drawSubjectZero? No, drawSubjectZero uses 0,0 as center.
+    // We moved x/y to center screen.
+
+    // 3. Auto-DPS Logic
+    timeSinceLastAuto += delta;
+    if (timeSinceLastAuto >= 60) { // Approx 1 second
+        const dps = getDPS();
+        if (dps > 0) {
+            gameState.biomass += dps;
+            gameState.lifetimeBiomass += dps;
+            spawnDamageText(subjectZero.x, subjectZero.y - 50, dps, false);
+            updateUI();
+        }
+        timeSinceLastAuto = 0;
+    }
+
+    // 4. Layers Check
+    updateLayer1(delta);
+    updateLayer2(delta);
+});
+
+/* --- 7. UI UPDATE SYSTEM --- */
+
+function updateUI() {
+    // Top Stats
+    document.getElementById('biomass-counter').innerText = formatNumber(gameState.biomass);
+    document.getElementById('dps-counter').innerText = formatNumber(getDPS()) + " / sec";
+
+    // Upgrade Buttons
+    Object.keys(gameState.upgrades).forEach(key => {
+        const upg = gameState.upgrades[key];
+        const btn = document.getElementById(`btn-${key}`);
+        const cost = getUpgradeCost(key);
+        
+        btn.innerHTML = `
+            <div>${upg.name} [Lvl ${upg.count}]</div>
+            <div class="upgrade-meta">${upg.desc} | Cost: ${formatNumber(cost)}</div>
+        `;
+        
+        // Visual disabling
+        btn.disabled = gameState.biomass < cost;
+        
+        // Zeigarnik Effect: Blur description if totally unaffordable (e.g., > 2x current money)
+        // Only show if we have at least 10% of the cost, otherwise "LOCKED"
+        if (gameState.lifetimeBiomass < cost * 0.1) {
+            btn.classList.add('hidden'); // Totally hidden early game
+        } else {
+            btn.classList.remove('hidden');
+        }
+    });
+
+    // Prestige UI
+    const prestigeGain = getPrestigeGain();
+    const currentBonus = (gameState.mutagens * 10);
+    document.getElementById('mutagen-counter').innerText = gameState.mutagens;
+    document.getElementById('mutagen-bonus').innerText = currentBonus;
+    
+    const prestigeBtn = document.getElementById('btn-prestige');
+    if (prestigeGain > gameState.mutagens) {
+        prestigeBtn.disabled = false;
+        prestigeBtn.innerHTML = `INITIATE PROTOCOL OMEGA<div class="upgrade-meta">Reset for +${prestigeGain - gameState.mutagens} Mutagens</div>`;
+    } else {
+        prestigeBtn.disabled = true;
+        prestigeBtn.innerHTML = `PROTOCOL OMEGA OFFLINE<div class="upgrade-meta">Require ${formatNumber((Math.pow(gameState.mutagens + 1, 3)) * 1000000)} Lifetime Biomass</div>`;
+    }
+
+    // Reveal Prestige Menu only if close to first prestige
+    if (gameState.lifetimeBiomass > 500000) {
+        document.getElementById('prestige-section').classList.remove('hidden');
+    }
+}
+
+// Window Resize Handler
+window.addEventListener('resize', () => {
+    subjectZero.x = app.screen.width / 2;
+    subjectZero.y = app.screen.height / 2;
+});
+
+// Initialization
+createUpgradeButtons();
+updateUI();
+
+</script>
+</body>
+</html>

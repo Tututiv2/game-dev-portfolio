@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "_readme": [
+    "§8.4 — THE INDIRECTION LAYER. This file is why the game ships playable with assets/sheets/ empty.",
+    "Every entry names a `placeholder` function in src/render/placeholder.js, which is drawn whenever",
+    "the PNG is missing, 404s, or fails to parse. sprites.js logs once and keeps playing; it never throws.",
+    "",
+    "To swap in real art: export from Shadow Studio's Sprite Forge (chroma mode, flat magenta #FF00FF —",
+    "never green, see landmine 19), drop the pair into assets/sheets/, and fill in `png` and `meta` below.",
+    "No code changes. That is the phase 6 gate.",
+    "",
+    "pivot   pixels from the frame's top-left. AUTHORITATIVE when present, and it OVERRIDES Studio's own",
+    "        pivot. Never apply both this and Studio's offset_x/offset_y — that puts the sprite exactly",
+    "        double the pivot off (landmine 4). sprites.js#pivotOf states the rule once.",
+    "scale   metres per pixel. Keeps the sim in metres and the art in pixels, so re-exporting at a",
+    "        different resolution is a one-number fix.",
+    "smooth  false for pixel art, true for smooth vector art (landmine 18).",
+    "",
+    "§8.1 settled that the PENGUIN IS DRAWN IN CODE and that is not a stopgap. These penguin entries",
+    "exist so a hand-drawn frame folder COULD be dropped in later, not because one is expected."
+  ],
+
+  "sheets": {
+    "penguin_idle":      { "png": "sheets/penguin_idle.png",      "meta": "sheets/penguin_idle.json",      "fps": 8,  "loop": true,  "scale": 0.0086, "placeholder": "penguinCapsule" },
+    "penguin_ramp":      { "png": "sheets/penguin_ramp.png",      "meta": "sheets/penguin_ramp.json",      "fps": 18, "loop": false, "scale": 0.0086, "placeholder": "penguinCapsule" },
+    "penguin_glide":     { "png": "sheets/penguin_glide.png",     "meta": "sheets/penguin_glide.json",     "fps": 24, "loop": true,  "scale": 0.0086, "pivot": [64, 70], "pivotSource": "override — body centre, not ground line: the penguin rotates about its body in flight (§8.3)", "placeholder": "penguinCapsule" },
+    "penguin_pitchup":   { "png": "sheets/penguin_pitchup.png",   "meta": "sheets/penguin_pitchup.json",   "fps": 24, "loop": true,  "scale": 0.0086, "pivot": [64, 70], "placeholder": "penguinCapsule" },
+    "penguin_pitchdown": { "png": "sheets/penguin_pitchdown.png", "meta": "sheets/penguin_pitchdown.json", "fps": 24, "loop": true,  "scale": 0.0086, "pivot": [64, 70], "placeholder": "penguinCapsule" },
+    "penguin_tumble":    { "png": "sheets/penguin_tumble.png",    "meta": "sheets/penguin_tumble.json",    "fps": 20, "loop": true,  "scale": 0.0086, "pivot": [64, 70], "placeholder": "penguinCapsule" },
+    "penguin_splash":    { "png": "sheets/penguin_splash.png",    "meta": "sheets/penguin_splash.json",    "fps": 20, "loop": false, "scale": 0.0086, "placeholder": "penguinCapsule" },
+    "penguin_cheer":     { "png": "sheets/penguin_cheer.png",     "meta": "sheets/penguin_cheer.json",     "fps": 14, "loop": true,  "scale": 0.0086, "placeholder": "penguinCapsule" },
+    "penguin_dead":      { "png": "sheets/penguin_dead.png",      "meta": "sheets/penguin_dead.json",      "fps": 6,  "loop": false, "scale": 0.0086, "placeholder": "penguinCapsule" },
+
+    "glider_1": { "png": "sheets/glider_1.png", "meta": "sheets/glider_1.json", "loop": false, "scale": 0.012, "placeholder": "gliderChevron" },
+    "glider_2": { "png": "sheets/glider_2.png", "meta": "sheets/glider_2.json", "loop": false, "scale": 0.014, "placeholder": "gliderChevron" },
+    "glider_3": { "png": "sheets/glider_3.png", "meta": "sheets/glider_3.json", "loop": false, "scale": 0.016, "placeholder": "gliderChevron" },
+    "glider_4": { "png": "sheets/glider_4.png", "meta": "sheets/glider_4.json", "loop": false, "scale": 0.018, "placeholder": "gliderChevron" },
+
+    "rocket_flame": { "png": "sheets/rocket_flame.png", "meta": "sheets/rocket_flame.json", "fps": 30, "loop": true, "scale": 0.008, "placeholder": "rocketFlame" },
+
+    "obs_snowman": { "png": "sheets/obs_snowman.png", "meta": "sheets/obs_snowman.json", "loop": false, "scale": 0.03, "placeholder": "obstacleShape" },
+    "obs_mound":   { "png": "sheets/obs_mound.png",   "meta": "sheets/obs_mound.json",   "loop": false, "scale": 0.06, "placeholder": "obstacleShape" },
+    "obs_hill":    { "png": "sheets/obs_hill.png",    "meta": "sheets/obs_hill.json",    "loop": false, "scale": 0.14, "placeholder": "obstacleShape" },
+    "obs_iceberg": { "png": "sheets/obs_iceberg.png", "meta": "sheets/obs_iceberg.json", "loop": false, "scale": 0.30, "placeholder": "obstacleShape" },
+    "obs_wall":    { "png": "sheets/obs_wall.png",    "meta": "sheets/obs_wall.json",    "loop": false, "scale": 0.55, "placeholder": "obstacleShape" },
+
+    "kiwipedia_book":   { "png": "sheets/kiwipedia_book.png",   "meta": "sheets/kiwipedia_book.json",   "loop": false, "scale": 0.01, "placeholder": "kiwipediaBook" },
+    "merchant_penguin": { "png": "sheets/merchant_penguin.png", "meta": "sheets/merchant_penguin.json", "fps": 10, "loop": true, "scale": 0.01, "placeholder": "merchantPenguin" },
+    "brick":            { "png": "sheets/brick.png",            "meta": "sheets/brick.json",            "loop": false, "scale": 0.006, "placeholder": "brick" },
+    "phoenix_feather":  { "png": "sheets/phoenix_feather.png",  "meta": "sheets/phoenix_feather.json",  "fps": 16, "loop": true, "scale": 0.008, "placeholder": "phoenixFeather" },
+    "rob64":            { "png": "sheets/rob64.png",            "meta": "sheets/rob64.json",            "fps": 14, "loop": true, "scale": 0.01, "placeholder": "rob64" },
+    "payload_bomb":     { "png": "sheets/payload_bomb.png",     "meta": "sheets/payload_bomb.json",     "loop": false, "scale": 0.008, "placeholder": "bombPayload" }
+  }
+}

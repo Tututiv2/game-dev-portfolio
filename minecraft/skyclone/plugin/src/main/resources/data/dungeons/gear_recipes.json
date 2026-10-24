@@ -1,0 +1,515 @@
+[
+ {
+  "id": "dungeons:POWER_WITHER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "POWER_WITHER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "WITHER_BOOTS:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:POWER_WITHER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "POWER_WITHER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "WITHER_CHESTPLATE:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:POWER_WITHER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "POWER_WITHER_HELMET",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "WITHER_HELMET:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:POWER_WITHER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "POWER_WITHER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "WITHER_LEGGINGS:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1",
+   "GIANT_FRAGMENT_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:SPEED_WITHER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SPEED_WITHER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "WITHER_BOOTS:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:SPEED_WITHER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SPEED_WITHER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "WITHER_CHESTPLATE:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:SPEED_WITHER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SPEED_WITHER_HELMET",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "WITHER_HELMET:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:SPEED_WITHER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SPEED_WITHER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "WITHER_LEGGINGS:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:STARRED_ADAPTIVE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "STARRED_ADAPTIVE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "ADAPTIVE_BOOTS:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F3:1"
+ },
+ {
+  "id": "dungeons:STARRED_ADAPTIVE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "STARRED_ADAPTIVE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "ADAPTIVE_CHESTPLATE:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F3:1"
+ },
+ {
+  "id": "dungeons:STARRED_ADAPTIVE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "STARRED_ADAPTIVE_HELMET",
+  "amount": 1,
+  "grid": [
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "ADAPTIVE_HELMET:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F3:1"
+ },
+ {
+  "id": "dungeons:STARRED_ADAPTIVE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "STARRED_ADAPTIVE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "ADAPTIVE_LEGGINGS:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F3:1"
+ },
+ {
+  "id": "dungeons:STARRED_BONZO_MASK#0",
+  "type": "CRAFTING",
+  "result": "STARRED_BONZO_MASK",
+  "amount": 1,
+  "grid": [
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_MASK:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F1:1"
+ },
+ {
+  "id": "dungeons:STARRED_SHADOW_ASSASSIN_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "STARRED_SHADOW_ASSASSIN_BOOTS",
+  "amount": 1,
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "SHADOW_ASSASSIN_BOOTS:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "dungeons:STARRED_SHADOW_ASSASSIN_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "SHADOW_ASSASSIN_CHESTPLATE:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "dungeons:STARRED_SHADOW_ASSASSIN_HELMET#0",
+  "type": "CRAFTING",
+  "result": "STARRED_SHADOW_ASSASSIN_HELMET",
+  "amount": 1,
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "SHADOW_ASSASSIN_HELMET:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "dungeons:STARRED_SHADOW_ASSASSIN_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "STARRED_SHADOW_ASSASSIN_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "SHADOW_ASSASSIN_LEGGINGS:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "dungeons:STARRED_SPIRIT_MASK#0",
+  "type": "CRAFTING",
+  "result": "STARRED_SPIRIT_MASK",
+  "amount": 1,
+  "grid": [
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "SPIRIT_MASK:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "catacombs:15"
+ },
+ {
+  "id": "dungeons:STARRED_THORNS_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "STARRED_THORNS_BOOTS",
+  "amount": 1,
+  "grid": [
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORNS_BOOTS:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F4:1"
+ },
+ {
+  "id": "dungeons:TANK_WITHER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "TANK_WITHER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "WITHER_BOOTS:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:TANK_WITHER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "TANK_WITHER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "WITHER_CHESTPLATE:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:TANK_WITHER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "TANK_WITHER_HELMET",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "WITHER_HELMET:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:TANK_WITHER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "TANK_WITHER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "WITHER_LEGGINGS:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1",
+   "GIANT_FRAGMENT_BOULDER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:WISE_WITHER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "WISE_WITHER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "WITHER_BOOTS:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:WISE_WITHER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "WISE_WITHER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "WITHER_CHESTPLATE:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:WISE_WITHER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "WISE_WITHER_HELMET",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "WITHER_HELMET:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ },
+ {
+  "id": "dungeons:WISE_WITHER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "WISE_WITHER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "WITHER_LEGGINGS:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1",
+   "GIANT_FRAGMENT_LASER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "dungeon_completion:F7:1"
+ }
+]

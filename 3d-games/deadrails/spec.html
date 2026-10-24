@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desert Rails — design spec (parts 1–10)</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      main { max-width: 52rem; margin: 0 auto; padding: 1rem 1.25rem 2rem; }
+      main h1 { font-size: 1.25rem; margin-top: 0; }
+      main h2 { font-size: 1rem; margin: 1.5rem 0 0.5rem; color: #9a8a78; }
+      main p, main li { line-height: 1.5; color: #d0c4b0; }
+      main ul { padding-left: 1.2rem; }
+      main a { color: #9bc4ff; }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Design spec <span class="sub">(Dead Rails–style HTML build)</span></h1>
+      <a href="index.html">Play prototype</a>
+    </header>
+    <main>
+      <p>
+        <strong>Scope</strong> — Fan design document to inspire an original browser game inspired by
+        <em>Dead Rails</em> (RCM Games, Roblox). This page mirrors the project plan: systems, win condition,
+        and technical mapping. The playable slice lives in <a href="index.html">index.html</a> with
+        <code>config.json</code> for tuning.
+      </p>
+      <h2>Part 1 — High concept and win condition</h2>
+      <ul>
+        <li>Weird West / late-1800s desert rail run through undead and outlaws.</li>
+        <li>Crew defends a steam train and scavenges between safe outposts.</li>
+        <li>Run length ~80 km; outposts often spaced ~10 km; finale at the bridge in this prototype.</li>
+        <li>Core tension: fuel + ammo scarcity vs defense and forays off-train to loot.</li>
+      </ul>
+      <h2>Part 2 — The train</h2>
+      <ul>
+        <li>Furnace: coal, corpses, paper as fuel. Empty tank stops the train; stopped trains take integrity pressure.</li>
+        <li>Barricades (newspaper/scrap) reduce night pressure; “weld” action mapped to a key.</li>
+        <li>Forward travel consumes fuel; speed and burn are data-driven in <code>config.json</code>.</li>
+      </ul>
+      <h2>Part 3 — Player / party</h2>
+      <ul>
+        <li>Health, bandages, ~10 stack slots, melee + revolver in prototype.</li>
+        <li>Bonds in meta: earned on a full run, stored in <code>localStorage</code>.</li>
+      </ul>
+      <h2>Part 4 — Economy</h2>
+      <ul>
+        <li>Cash for buys; sell gold, corpses, scrap at the outpost counter.</li>
+        <li>Outpost restocks coal and ammo per <code>outpostShops</code> in config.</li>
+      </ul>
+      <h2>Part 5 — Combat / equipment</h2>
+      <ul>
+        <li>Revolver + ammo; shooting stabilizes train integrity in this prototype (abstract “holding the line”).</li>
+        <li>Elite or rare weapons can be added later in loot tables.</li>
+      </ul>
+      <h2>Part 6 — Enemies, day/night</h2>
+      <ul>
+        <li>Day/night from in-game hours; four moon “flavors” rotate by distance band.</li>
+        <li>Night procs extra pressure on player HP and train integrity, mitigated by barricades.</li>
+      </ul>
+      <h2>Part 7 — World / POI</h2>
+      <ul>
+        <li>Linear distance drives outpost triggers. Finale at configured <code>finaleAtMeters</code>.</li>
+        <li>More POIs (bank, castle) can be added as staged events in data.</li>
+      </ul>
+      <h2>Part 8 — UI/UX</h2>
+      <ul>
+        <li>Canvas view + HUD: fuel, health, train integrity, distance, outpost target, time.</li>
+        <li>Modal for outpost trading and bridge finale; event log in side panel.</li>
+      </ul>
+      <h2>Part 9 — Technical (browser)</h2>
+      <ul>
+        <li>Plain Canvas 2D + IIFE; <code>requestAnimationFrame</code> game loop; config merge on load.</li>
+        <li>Splitting into <code>js/modules</code> is possible when the project grows.</li>
+      </ul>
+      <h2>Part 10 — File layout</h2>
+      <ul>
+        <li><code>deadrails-html/index.html</code> — game shell</li>
+        <li><code>css/main.css</code> — layout and HUD</li>
+        <li><code>js/game.js</code> — logic and drawing</li>
+        <li><code>config.json</code> — balance tuning</li>
+        <li><code>assets/</code> — optional sprites/audio</li>
+      </ul>
+    </main>
+  </body>
+</html>

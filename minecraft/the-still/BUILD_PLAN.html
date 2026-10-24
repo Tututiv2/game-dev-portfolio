@@ -1,0 +1,786 @@
+<title>The Still — Build Plan</title>
+<style>
+:root{
+  --ground:#e9eae8; --panel:#f3f4f2; --panel2:#dee1dd; --line:#c6cbc4; --line-soft:#d8dcd6;
+  --ink:#15191a; --ink2:#4d5a5c; --ink3:#77858a;
+  --sys:#b06318; --pres:#1f7d86; --hot:#a5382a; --ok:#3f7040;
+  --accent:var(--sys);
+}
+@media (prefers-color-scheme:dark){
+  :root{--ground:#0e1113; --panel:#161b1e; --panel2:#1d2429; --line:#2b3339; --line-soft:#222a2f;
+    --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+    --sys:#e39a4a; --pres:#5fc3cc; --hot:#d8685a; --ok:#7fb069}
+}
+:root[data-theme="dark"]{--ground:#0e1113; --panel:#161b1e; --panel2:#1d2429; --line:#2b3339;
+  --line-soft:#222a2f; --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+  --sys:#e39a4a; --pres:#5fc3cc; --hot:#d8685a; --ok:#7fb069}
+:root[data-theme="light"]{--ground:#e9eae8; --panel:#f3f4f2; --panel2:#dee1dd; --line:#c6cbc4;
+  --line-soft:#d8dcd6; --ink:#15191a; --ink2:#4d5a5c; --ink3:#77858a;
+  --sys:#b06318; --pres:#1f7d86; --hot:#a5382a; --ok:#3f7040}
+:root{
+  --display:"Bahnschrift","DIN Alternate","HelveticaNeue-CondensedBold","Arial Narrow",
+            "Roboto Condensed",system-ui,sans-serif;
+  --body:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:"Cascadia Mono",Consolas,"SF Mono","Roboto Mono",ui-monospace,monospace;
+}
+
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16.5px;
+  line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px 120px}
+.measure{max-width:68ch}
+p{margin:0 0 1em}
+strong{font-weight:600;color:var(--ink)}
+code{font-family:var(--mono);font-size:.85em;background:var(--panel2);padding:1px 5px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.scroll{overflow-x:auto}
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink3);margin:0}
+
+.mast{padding:70px 0 36px;border-bottom:1px solid var(--line)}
+.mast h1{font-size:clamp(42px,8.6vw,100px);line-height:.92;letter-spacing:-.02em;
+  text-transform:uppercase;margin:14px 0 0}
+.mast .lede{margin-top:24px;color:var(--ink2);font-size:18.5px;max-width:66ch}
+.mast .lede em{color:var(--ink);font-style:italic}
+
+/* ── cross-cutting ──────────────────────────────────────────────────── */
+h3.sec{font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;font-family:var(--mono);
+  font-weight:400;color:var(--ink3);border-top:1px solid var(--line-soft);padding-top:11px;
+  margin:56px 0 18px}
+.cross{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:6px}
+.cross div{background:var(--panel);padding:16px 18px;display:grid;
+  grid-template-columns:190px 1fr;gap:18px;align-items:start}
+.cross b{font-family:var(--display);font-size:16px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--sys);font-weight:600}
+.cross b span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  color:var(--ink3);text-transform:none;margin-top:2px}
+.cross p{margin:0;font-size:15px;line-height:1.5;color:var(--ink2)}
+
+/* ── phase blocks ───────────────────────────────────────────────────── */
+.phase{display:grid;grid-template-columns:76px 1fr;gap:24px;margin-top:52px;
+  padding-top:22px;border-top:2px solid var(--line)}
+.phase.slice{border-top-color:var(--hot)}
+.pnum{font-family:var(--display);font-size:46px;line-height:.85;color:var(--ink3);
+  font-variant-numeric:tabular-nums}
+.phase.slice .pnum{color:var(--hot)}
+.pnum span{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+  color:var(--ink3);margin-top:8px;line-height:1.4}
+.phead h2{font-size:clamp(27px,4vw,40px);line-height:1;letter-spacing:.01em;text-transform:uppercase}
+.pgoal{font-size:18px;line-height:1.42;color:var(--ink2);margin:10px 0 0;max-width:56ch;
+  font-style:italic}
+.tagline{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--hot);border:1px solid var(--hot);padding:2px 8px;
+  margin-bottom:10px}
+
+.blk{margin-top:22px}
+.blab{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink3);border-bottom:1px solid var(--line-soft);padding-bottom:5px;margin-bottom:11px}
+.blk.sys .blab{color:var(--sys);border-bottom-color:var(--sys)}
+.blk.pres .blab{color:var(--pres);border-bottom-color:var(--pres)}
+.blk ul{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.blk li{font-size:15.5px;line-height:1.5;padding-left:15px;border-left:2px solid var(--line-soft)}
+.blk.sys li{border-left-color:color-mix(in srgb,var(--sys) 40%,transparent)}
+.blk.pres li{border-left-color:color-mix(in srgb,var(--pres) 40%,transparent)}
+.blk li b{color:var(--ink);font-weight:600}
+.blk li.crit{border-left-color:var(--hot);border-left-width:3px}
+
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:22px}
+.meta > div{background:var(--panel);padding:15px 17px 17px}
+.meta .ml{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink3);margin:0 0 6px}
+.meta p{margin:0;font-size:15px;line-height:1.5;color:var(--ink2)}
+.meta .gate .ml{color:var(--ok)}
+.meta .gate p strong{color:var(--ink)}
+.scope{font-family:var(--mono);font-size:12px;color:var(--ink3);margin-top:14px;
+  letter-spacing:.06em}
+
+.callout{border-left:3px solid var(--accent);padding:3px 0 3px 18px;margin:24px 0 0;
+  font-size:15.5px;line-height:1.55;max-width:66ch}
+.callout b{font-family:var(--display);font-size:17px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--accent);display:block;font-weight:600;margin-bottom:4px}
+.callout.warn{--accent:var(--hot)}
+.callout.pres{--accent:var(--pres)}
+
+/* ── presentation track ─────────────────────────────────────────────── */
+.track{min-width:600px;margin-top:6px}
+.thead{display:grid;grid-template-columns:74px 1fr 1fr;gap:16px;font-family:var(--mono);
+  font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);
+  padding-bottom:7px;border-bottom:1px solid var(--line)}
+.trow{display:grid;grid-template-columns:74px 1fr 1fr;gap:16px;padding:11px 0;
+  border-bottom:1px solid var(--line-soft);font-size:15px;line-height:1.45}
+.trow .ph{font-family:var(--mono);font-size:12px;color:var(--pres);font-variant-numeric:tabular-nums}
+.trow b{font-family:var(--display);font-size:16px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink);display:block;font-weight:600}
+.trow span{color:var(--ink2)}
+
+table{border-collapse:collapse;width:100%;min-width:600px;font-size:14px}
+th,td{text-align:left;padding:8px 14px 8px 0;border-bottom:1px solid var(--line-soft);
+  vertical-align:top}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3);font-weight:400;border-bottom-color:var(--line);white-space:nowrap}
+td.m{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.k{color:var(--ink2)}
+
+@media (max-width:820px){
+  .phase{grid-template-columns:1fr;gap:14px}
+  .pnum{font-size:34px}
+  .meta,.cross div{grid-template-columns:1fr}
+  .wrap{padding:0 20px 90px}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">The Still · production plan · phase 0 through 10</p>
+    <h1>How To<br>Actually Build It</h1>
+    <p class="lede">Eleven phases, each with a <em>gate</em> — a condition that has to be true before
+    the next one starts. The gates matter more than the phases do. Most servers die because somebody
+    built phase 7 while phase 2 was still not fun.</p>
+    <p class="lede">Presentation is <strong>not</strong> a final phase. It's a parallel track that
+    ships a little in every phase, because a server that looks like default Minecraft for eight
+    months has no players left to show the good version to.</p>
+  </header>
+
+
+  <h3 class="sec">Build these once, early — or retrofit them four times</h3>
+  <div class="cross">
+    <div><b>Region abstraction<span>Phase 0</span></b>
+      <p>Din spawn pressure, room heat, PvP flags, the Ledger and steam rendering all ask the same
+      question: <em>which shaft is this block in?</em> Build one region system with fast lookup and
+      per-region key-value state. Everything else hangs off it. Getting this wrong is the single
+      most expensive mistake available to you.</p></div>
+    <div><b>Scoreboard slot registry<span>Phase 1</span></b>
+      <p>Don't write a scoreboard — write a system where any module registers a line with a priority
+      and a live supplier. Then Din, heat, Pitch, bounty and Wake each add themselves in one line of
+      code when they're written. Retrofitting a hardcoded scoreboard eight times is misery.</p></div>
+    <div><b>Colour &amp; gradient engine<span>Phase 3</span></b>
+      <p>Needed first for perimeter lamps, then reused by nametags, chat themes, bossbars, scoreboard
+      accents, the Wake and every cosmetic you ever sell. Write it once as a real library — hex,
+      multi-stop gradients, per-character animation, tick-driven phase offset.</p></div>
+    <div><b>The PDC band stamp<span>Phase 2</span></b>
+      <p>Stamp the Din band and heat state onto the item at <em>break</em> time. If the multiplier is
+      applied at sell time, players bank at CHOIR and cash out safely in the morning, and the entire
+      design is dead. This is one line and it is load-bearing for the whole game.</p></div>
+    <div><b>Config registration as you go<span>Every phase</span></b>
+      <p>Your own law says every dial gets a GUI. Make registration part of <em>writing</em> the
+      dial, not a phase-10 cleanup. A dial that isn't in <code>/config</code> the day it's written
+      never gets added.</p></div>
+  </div>
+
+
+  <!-- ── PHASE 0 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">00<span>Foundation</span></div>
+    <div class="phead">
+      <h2>The Skeleton</h2>
+      <p class="pgoal">A plugin that persists player data and has never once lost any.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Composition root.</b> One plugin class, one place where everything wires together.
+            Copy the shape of <code>GamePlugin.java</code> — it's the thing about Shadow Prison
+            that most obviously works.</li>
+          <li><b>Player profile + async persistence.</b> SQLite with a connection pool. Write-behind
+            with a flush interval, plus a forced flush on quit and on shutdown.</li>
+          <li><b>Config system with hot reload</b>, typed accessors, and defaults that can't be
+            null.</li>
+          <li><b>Command framework</b> with permission nodes, tab completion and a shared GUI
+            builder. You will write 100+ commands. Build the framework first.</li>
+          <li class="crit"><b>Region abstraction.</b> Fast block→region lookup and arbitrary
+            per-region state. See above. Do not skip this.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li><b>None. Resist.</b> The only visible thing this phase ships is a join message, and
+            only so you know the plugin loaded.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p><strong>Kill -9 the server mid-session, ten
+          times, at random moments. Zero data loss, every time.</strong> If you can't say that out
+          loud, you are not past phase 0.</p></div>
+        <div><p class="ml">Playable</p><p>Nothing. That's correct.</p></div>
+      </div>
+      <p class="scope">Scope · 1–2 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 1 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">01<span>Spine</span></div>
+    <div class="phead">
+      <h2>A Boring Prison Server</h2>
+      <p class="pgoal">Mine, sell, rank up. Complete and completely unexciting — which is exactly
+      what it should be at this stage.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Depths D1–D26</b> as regions with ore tables. Keep Shadow Prison's structure —
+            filler weight 75, ores totalling 25 — because it's already tuned and you know it
+            works.</li>
+          <li><b>Mine reset scheduler.</b> Percentage-triggered plus a time cap, with a safe player
+            eject.</li>
+          <li><b>Economy.</b> Balance, <code>/sell</code>, <code>/sellall</code>,
+            <code>/sellallfilter</code>, per-material price map with a custom-item override
+            layer.</li>
+          <li><b>Rank ladder.</b> <code>/rankup</code>, costs $0 → $1.4M, permission-gated depth
+            access, a rankup GUI showing the next three rungs.</li>
+          <li><b>Hub + warps.</b> Spawn, per-depth warps, a rank-gated warp menu.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation — ship it now, not later</p>
+        <ul>
+          <li class="crit"><b>Scoreboard v1.</b> Rank, balance, current depth, blocks this session —
+            and one deliberately empty slot you'll fill with Din next phase. Built on the slot
+            registry so nothing is hardcoded.</li>
+          <li><b>Nametags v1.</b> Rank prefix above the head and in tab. Wire the gradient path now
+            even though everything is a flat colour today — you'll thank yourself in phase 6.</li>
+          <li><b>Tab list.</b> Header/footer with server name and online count. Two hours of work,
+            makes the server feel real immediately.</li>
+          <li><b>Sell feedback.</b> An actual animated total with a sound, not a grey chat line.
+            This is the first thing that will make it feel like a server rather than a plugin.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p><strong>A brand-new player reaches D5 without
+          asking a single question.</strong> Watch someone do it and don't help.</p></div>
+        <div><p class="ml">Playable</p><p>Yes, and dull. Do not add features to fix that — phase 2
+          is the fix.</p></div>
+      </div>
+      <p class="scope">Scope · 2–3 weeks · mostly a port from Shadow Prison</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 2 ──────────────────────────────────────────────────── -->
+  <div class="phase slice">
+    <div class="pnum">02<span>Vertical<br>slice</span></div>
+    <div class="phead">
+      <span class="tagline">If this isn't fun, stop and fix it — nothing after it matters</span>
+      <h2>The Din</h2>
+      <p class="pgoal">Prove the core loop. One meter, one faction, one question: does anyone
+      voluntarily stay in danger for money?</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Din float per player.</b> Accrual on break (base 1.0 × enchant modifiers × AoE block
+            count), decay 4/sec while not breaking.</li>
+          <li><b>Five thresholds with hysteresis.</b> 120 / 400 / 900 / 1800, and a 5% deadband on
+            each boundary so the bossbar doesn't flicker and the audio doesn't stutter.</li>
+          <li class="crit"><b>Sell multiplier stamped at break time</b> into the item's PDC. ×1.0
+            quiet → ×4.0 CHOIR. Never at sell time.</li>
+          <li><b>Spawn pressure hook.</b> Din band → spawn rate and cap within the region. Superlinear
+            between bands, not smooth.</li>
+          <li class="crit"><b>Target-selection override.</b> Every ~20 ticks, re-aim hostiles in
+            range at the loudest player. <b>Do not touch pathfinding.</b> This is the whole "sound
+            navigation" illusion and it's about forty lines.</li>
+          <li><b>The Listening.</b> Ear, Crier (+150 Din on scream, broadcasts you 80 blocks),
+            Lattice (splits into four, loudly), Long Quiet (can't perceive you at Din 0).</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation — this is where the server gets a soul</p>
+        <ul>
+          <li><b>The Din bossbar.</b> Colour ramps amber → red across bands, name changes to the band
+            name, fill is per-band not global so each band feels like its own climb.</li>
+          <li class="crit"><b>Audio is the most important work in this phase.</b> Layered ambient
+            that adds a track per band. At SWARM, a heartbeat under everything. At CHOIR, cut the
+            ambient <em>out</em> for half a second before the new layer starts — silence lands harder
+            than noise.</li>
+          <li><b>Screen effects</b> via resource pack shader: a faint vignette from DRAWN, creeping
+            desaturation at CHOIR.</li>
+          <li><b>Scoreboard.</b> Fill the empty slot — a live Din readout with a mini bar built from
+            unicode block characters, coloured by band.</li>
+          <li><b>Threshold crossings in chat</b>, personal only, colour-coded, one short line. Never
+            a number — colour and words, per your own law.</li>
+          <li><b>Nametag.</b> A player at SWARM or above is visibly marked to other players nearby.
+            Danger should be legible across a room.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate — the only one that really matters</p><p>Six people play
+          three sessions. <strong>Somebody voluntarily camps SWARM for the money, and somebody else
+          calls them insane.</strong> If nobody does, your multiplier curve is too flat or your
+          spawn pressure is too brutal. Fix that and nothing else until it's true.</p></div>
+        <div><p class="ml">Playable</p><p>This is the game. Everything after this is depth, identity
+          and reasons to stay.</p></div>
+      </div>
+      <p class="scope">Scope · 3–4 weeks · then live with it for a month before phase 3</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 3 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">03<span>Home</span></div>
+    <div class="phead">
+      <h2>The Rigs</h2>
+      <p class="pgoal">Give players something above the fog that's theirs, and something they can
+      lose.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Rig claims</b> on a visible grid over the fog. Tiers 16×16 → 96×96 bought with
+            <b>Salt</b>. Build protection, trust list, expansion that preserves builds.</li>
+          <li><b>The perimeter.</b> Lamp posts consuming <b>Pitch</b>, burn rate scaled by footprint,
+            mob-spawn suppression inside a lit ring. Expanding permanently raises upkeep.</li>
+          <li><b>Pitch</b> as a mined resource with its own drop table in the deeper Depths.</li>
+          <li><b>The fog layer</b> beneath the rig grid — a hard visual floor so the world reads as
+            bottomless.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li class="crit"><b>Perimeter lamp colour — your first sellable cosmetic, and the
+            flagship.</b> Build the colour/gradient engine properly here: solid hex, multi-stop
+            gradients, animated phase. Everything later reuses it.</li>
+          <li><b>Rig silhouettes and light shafts through fog at night.</b> This is the shot people
+            screenshot. Spend real time on it.</li>
+          <li><b>Scoreboard.</b> Pitch remaining as a time value ("4h 12m"), and perimeter status as
+            a colour-coded LIT / DARK.</li>
+          <li><b>Chat + title warning</b> when your perimeter drops under an hour — escalating, and
+            it should be genuinely alarming at ten minutes.</li>
+          <li><b>Join message</b> reflects your rig's state. Coming online to "your lamps went out
+            six hours ago" is a whole story in one line.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Somebody lets their perimeter go dark for the first
+          time, loses something, and <strong>tells everyone about it</strong>. That's the mechanic
+          working.</p></div>
+        <div><p class="ml">Playable</p><p>Mine, sell, rank, and keep a home lit. The first real
+          money sink is live.</p></div>
+      </div>
+      <p class="scope">Scope · 3 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 4 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">04<span>Biggest<br>phase</span></div>
+    <div class="phead">
+      <h2>Room Heat &amp; The Wanting</h2>
+      <p class="pgoal">Make the map something that changes on its own. Build it in this exact order —
+      the order is the advice.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems — sequenced deliberately</p>
+        <ul>
+          <li><b>1 · Heat as a number, logged only.</b> One float per region, deposited on break,
+            decayed at −200/hr. <b>Ship nothing visible.</b> Just log it and watch where your server
+            actually goes for two full weeks.</li>
+          <li><b>2 · Read the logs.</b> Tune deposit and decay against real behaviour, not against
+            your intuition. You will be wrong about where people mine.</li>
+          <li><b>3 · Four states + behaviour.</b> Cold / Warm / Hot / Warren. Disperse-delay scaling
+            with heat; ambient spawns at Hot and above regardless of Din.</li>
+          <li class="crit"><b>4 · The Wanting.</b> The <em>same AI code path</em> with
+            <code>heat</code> substituted for <code>din</code> as the target input, plus one new rule:
+            don't disperse while the room is warm. A second faction, not a second system.</li>
+          <li><b>5 · The Warmth.</b> Reads on thermal exactly like a rig lamp. It's a heat source, so
+            it cooks the room it stands in — it lures you <em>and</em> takes your mine.</li>
+          <li><b>6 · Warren nests</b> as generated structures, plus named spawns at that tier.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li class="crit"><b>STEAM. Ship this before the payout multiplier.</b> Haze at Warm, plumes
+            at Hot, a doorway breathing white at Warren. Players must be able to <em>read</em> a room
+            before you start paying them to gamble on one.</li>
+          <li><b>Thermal goggles</b> — a resource-pack shader item that renders heat sources,
+            including the Warmth, exactly like a lamp. The item that makes the lie work.</li>
+          <li><b>Scoreboard.</b> Current room state, colour-coded, with the Warren state animated so
+            it's impossible to miss.</li>
+          <li><b>Warren entry warning.</b> A full-width animated gradient title. This is the moment
+            to show off the colour engine you built in phase 3.</li>
+          <li><b>The <code>/heat</code> map.</b> A GUI rendering nearby regions by state. Players will
+            plan rotations in it and it will become the most-used command in the game.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Two weeks of logs show players
+          <strong>rotating between shafts rather than camping one</strong>. If they're still camping,
+          decay is too fast or the payout is too flat. Do not proceed on a hunch — read the
+          logs.</p></div>
+        <div><p class="ml">Playable</p><p>The map has a life of its own. Players start keeping
+          private shaft lists and lying about them.</p></div>
+      </div>
+      <p class="scope">Scope · 4–5 weeks · the single biggest phase in the plan</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 5 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">05<span>The<br>fusion</span></div>
+    <div class="phead">
+      <h2>The Seal</h2>
+      <p class="pgoal">Join the two meters. One dial, three consequences, and the first real build
+      divergence.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Seal integer 0–100</b> on the suit, set at a workbench, changeable in the field.</li>
+          <li><b>Three multipliers</b> driven off it: Din, body heat, and <em>room heat
+            deposit</em>. Sealed 0.35 / 2.10 / 0.4 · Open 1.90 / 0.40 / 2.2.</li>
+          <li><b>Field toggle.</b> Four seconds standing still, and it dumps a spike of whatever you
+            were holding — a bang when you crack, a heat surge into the room when you seal.</li>
+          <li><b>Ore lanes.</b> Rimeveined (shatters warm → forces Open → cooks its own shaft),
+            slagstone (needs heat → forces Sealed), hush-glass (fractures above 400 Din → no escape
+            hatch), emberite (heats you as you cut it).</li>
+          <li class="crit"><b>The assert, in a unit test:</b>
+            <code>din_mult × body_heat_mult ≥ 0.74</code> at every seal position after every enchant
+            combination. If both meters can be floored at once, the fusion is dead. Somebody finds
+            that combination in week three and it should be you.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li><b>Seal state on the player model</b> — armour trim or overlay, readable at a glance
+            from across a room. You should be able to look at someone and know their lane.</li>
+          <li><b>Nametag seal icon</b>, sealed cyan / open amber, matching the HUD.</li>
+          <li><b>Two bars, amber over cyan.</b> Din on top because it moves fastest.</li>
+          <li><b>The four-second toggle</b> gets a real animation, a mechanical sound, and a visible
+            burst on completion. It's a commitment — make it feel like one.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Your test group splits into sealed-mains and
+          open-mains and <strong>argues about which is correct</strong>. If everyone converges on one
+          seal position, the multipliers are wrong.</p></div>
+        <div><p class="ml">Playable</p><p>Builds diverge. The first metas appear. Crews start
+          assigning roles.</p></div>
+      </div>
+      <p class="scope">Scope · 2–3 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 6 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">06<span>Self-<br>policing</span></div>
+    <div class="phead">
+      <h2>PvP, Bounties &amp; The Wake</h2>
+      <p class="pgoal">Make griefing into content instead of a moderator ticket — and use the
+      nastiest punishment in the game as your nametag showcase.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>PvP zones.</b> Rigs and D1–D9 safe — new players are never anyone's prey. D10+
+            (the Crossing onward) live. Warrens always live, no exceptions.</li>
+          <li><b>Bounties.</b> <code>/bounty</code>, same-gang kills pay nothing, visible on
+            scoreboard and nametag.</li>
+          <li><b>Breaching Charges.</b> Craftable, genuinely expensive, consumed on use. You cannot
+            flood casually — a vandal has to <em>fund</em> every shaft they drown.</li>
+          <li><b>Flooding.</b> Heat to zero, nest drowns, all unmined ore in the region lost.</li>
+          <li class="crit"><b>The Wake.</b> 6h per breach, stacking, ticking <em>only while
+            online</em> so it's served in public. Wake I–V. PvP-flagged <b>everywhere including
+            spawn and their own rig</b> — the punishment is exile from safety, not removal.</li>
+          <li><b>Server-matched bounties</b> on Wake players, scaling with level. On death the payout
+            splits: killer takes the largest share, the rest is auto-distributed to every player who
+            had heat in the shafts they drowned. Restitution without a ticket.</li>
+          <li><b><code>/restitution</code></b> — pay it back directly, clear the Wake early.</li>
+          <li><b><code>/flooded</code></b> — permanent public breach log. Who, when, which shaft, what
+            was lost. Forever.</li>
+          <li><b>The Drowned Watch</b> at Wake VIII+. Named hostiles that spawn on that player
+            specifically, anywhere, until it clears. The in-fiction ban.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation — the nametag and RGB showcase</p>
+        <ul>
+          <li class="crit"><b>The WAKE nametag.</b> An animated dripping gradient, deepening from
+            Wake I to Wake V, per-character phase offset so it genuinely flows. This is your flagship
+            nametag effect — and the joke is that it's a <em>punishment</em> that looks incredible.
+            Everything you learn building it goes straight into the paid cosmetics in phase 9.</li>
+          <li><b>Water particle trail</b> on Wake players. You can hear and see one coming.</li>
+          <li><b>Scoreboard.</b> Bounty on your own head in animated red; nearest Wake player's
+            distance if you're hunting.</li>
+          <li><b>Breach announcements</b> server-wide, naming the shaft and the player, with the
+            colour deepening at higher Wake.</li>
+          <li><b>Bounty claim</b> gets a full server broadcast with a proper title card. These should
+            feel like events, because they are.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Somebody hits Wake III and <strong>the server
+          organises a hunt with no moderator involved.</strong> That's the whole system
+          working.</p></div>
+        <div><p class="ml">Playable</p><p>The server polices itself, pays its own victims, and gets a
+          recurring event out of its worst players.</p></div>
+      </div>
+      <p class="scope">Scope · 3 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 7 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">07<span>Depth</span></div>
+    <div class="phead">
+      <h2>Prestige, Skills &amp; Enchants</h2>
+      <p class="pgoal">A reason to still be here after D26.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Cold Depths C1–C30.</b> Prestige. Same 1.09× ladder multiplier and cost curve as
+            Shadow Prison — it's tuned, don't re-derive it.</li>
+          <li><b>Skills.</b> Mining, Smelting, Selling, Acrobatics, plus <b>Nerve</b> — XP for time
+            spent above DRAWN, perks that reduce Din generation and shorten the Wanting's lock.</li>
+          <li><b>Enchant ladder</b> with <code>dinPerProc</code> and <code>heatPerProc</code> on every
+            entry. Two floats retune all 54 across both channels at once.</li>
+          <li><b>Hush I–V</b> (−Din, +heat) and <b>Vent I–V</b> (−heat, +Din) as the two ends of one
+            enchant line you can't run both of.</li>
+          <li><b>Teeth</b> (Listening) and <b>Rime</b> (Wanting) as split named-mob currencies, and
+            the <b>Bone Market</b> mutations: Deaf, Hollow Lungs, Chorded — each with a real
+            downside.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li><b>Prestige badges</b> in nametag and tab, with the gradient engine finally doing what
+            it was built for.</li>
+          <li><b>Mutations have visual tells.</b> A Deaf player looks different, and other players
+            learn to read builds on sight.</li>
+          <li><b>Skill level-up</b> — a proper animated title, sound, and particle. Small moments,
+            constantly.</li>
+          <li><b>Prestige ceremony</b> broadcast server-wide. Losing everything should be
+            <em>witnessed</em>.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Your first player prestiges voluntarily, and
+          <strong>a second one does it because they watched the first.</strong></p></div>
+        <div><p class="ml">Playable</p><p>Long-term progression. The server has a top end.</p></div>
+      </div>
+      <p class="scope">Scope · 4 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 8 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">08<span>Endgame</span></div>
+    <div class="phead">
+      <h2>The Climb &amp; The Ledger</h2>
+      <p class="pgoal">An ascension that changes the shape of the game, and a world that remembers a
+      year of habits.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>The Listening Post</b> — a server-funded orbital tether built off the tallest rig.
+            Everyone contributes, everyone can see the progress bar, and it takes weeks.</li>
+          <li class="crit"><b>Ascension inverts the game.</b> Above the fog there's no air — so
+            <b>Din is dead</b> (the bar greys out permanently) and <b>heat cannot shed</b> (no
+            convection, radiation only, and only while standing perfectly still doing nothing). The
+            two-meter game collapses into the half you can't escape.</li>
+          <li><b>The signal</b> answers you personally, by name, in chat, on your own blocks — with a
+            unique message format nobody else's messages use.</li>
+          <li><b>The Ledger.</b> Lifetime traffic per region, never fully clearing, raising a
+            permanent ambient Din floor. Walk into a year-old shaft already at STIRRING.</li>
+          <li><b>Residents.</b> Past a Ledger threshold, something named is living in it — grown out
+            of nothing but your server's own habits, killable, and worth arguing about whether to
+            take early or let get fat.</li>
+          <li><b>Events:</b> the Night Shift (perimeters drain 4× server-wide), Choir Runs (4-player
+            co-op, payout scales with how <em>fast</em> you hit CHOIR), Salvage Dives.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li><b>The ascension ceremony.</b> Every player on the server sees it. This is the single
+            biggest set-piece in the game — build it like one.</li>
+          <li><b>The <code>[LP#]</code> nametag</b> in white-bold, and a permanent light visible from
+            the rigs below.</li>
+          <li><b>Silence above the fog.</b> No ambient track at all. After a year of layered dread,
+            the absence is the effect.</li>
+          <li><b>The Night Shift</b> gets a server-wide bossbar, a countdown, and a dawn broadcast
+            listing who stayed lit.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>Someone ascends and <strong>says the silence up
+          there is worse.</strong> That's the design landing.</p></div>
+        <div><p class="ml">Playable</p><p>Complete game, start to finish.</p></div>
+      </div>
+      <p class="scope">Scope · 4 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 9 ──────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">09<span>Identity</span></div>
+    <div class="phead">
+      <h2>Cosmetics &amp; RGB</h2>
+      <p class="pgoal">The only thing anyone ever pays for — and by now you've already built most of
+      the engine.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b>Roles.</b> A paid ladder that grants <em>strictly</em> cosmetic and convenience
+            perks. Nothing touches Din, heat, yield or safety. Ever.</li>
+          <li><b><code>/nick</code>, <code>/titles</code>, <code>/chatcolor</code>, wings, trails,
+            auras, hat, sit, vault slots.</b></li>
+          <li><b>Perimeter lamp cosmetics</b> — the flagship, from phase 3, now monetised. Every
+            neighbour across the fog sees it every night, forever.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation — this phase <em>is</em> presentation</p>
+        <ul>
+          <li class="crit"><b>The RGB chat theme engine.</b> A custom core text-shader override in
+            the resource pack so gradients genuinely <em>move</em>, per character, in chat and on
+            nametags. 100+ themes across motion and effect categories. You already have this working
+            in Shadow Prison — port it, don't rewrite it.</li>
+          <li><b>Wings</b> as particle art rendered from per-shape pixel grids, with flap
+            animation.</li>
+          <li><b>Animated nametags</b> — everything the Wake taught you, now for sale.</li>
+          <li><b>Join messages</b>, custom per role, and a proper title card on entry.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p>A player who has never bought anything on any
+          server buys a lamp colour <strong>because they saw someone else's across the
+          fog.</strong></p></div>
+        <div><p class="ml">Playable</p><p>The server has a face and a business model.</p></div>
+      </div>
+      <p class="scope">Scope · 4–5 weeks · largely a port</p>
+    </div>
+  </div>
+
+
+  <!-- ── PHASE 10 ─────────────────────────────────────────────────── -->
+  <div class="phase">
+    <div class="pnum">10<span>Control</span></div>
+    <div class="phead">
+      <h2>The Dials</h2>
+      <p class="pgoal">Never edit a config file again.</p>
+
+      <div class="blk sys">
+        <p class="blab">Systems</p>
+        <ul>
+          <li><b><code>/config</code></b> — every dial in the plugin, in a chest GUI, with test
+            buttons and exact-value inputs. If you registered as you went, this phase is mostly
+            layout.</li>
+          <li><b><code>/adminset &lt;player&gt;</code></b> — one GUI to edit everything about one
+            player.</li>
+          <li><b>Economy watch</b>, dupe audit, <code>/playerlog</code>, <code>/testdrops</code>,
+            <code>/invbackup</code>, maintenance mode.</li>
+          <li><b>A Din/heat live inspector</b> — see any player's meters and any region's state in
+            real time. You will use this more than every other admin tool combined.</li>
+        </ul>
+      </div>
+
+      <div class="blk pres">
+        <p class="blab">Presentation</p>
+        <ul>
+          <li><b>Admin GUIs get the same care as player GUIs.</b> You're going to live in these for
+            years.</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <div class="gate"><p class="ml">Gate</p><p><strong>Retune the entire Din curve from in-game,
+          during a live session, without a restart</strong> — and watch the effect land
+          immediately.</p></div>
+        <div><p class="ml">Playable</p><p>Everything, and now you can steer it.</p></div>
+      </div>
+      <p class="scope">Scope · 3 weeks</p>
+    </div>
+  </div>
+
+
+  <!-- ── PRESENTATION TRACK ───────────────────────────────────────── -->
+  <h3 class="sec">The presentation track, in one view</h3>
+  <div class="measure">
+    <p>Everything visual, in the order it ships. Note how little of it is in phase 9 — the point is
+    that each phase looks finished when it lands, so you always have something worth showing.</p>
+  </div>
+  <div class="scroll">
+    <div class="track">
+      <div class="thead"><span>Phase</span><span>What ships</span><span>Why then</span></div>
+      <div class="trow"><span class="ph">01</span>
+        <span><b>Scoreboard + nametags v1</b>Slot registry, tab list, animated sell feedback</span>
+        <span>So every later system registers a line instead of you rewriting a hardcoded board</span></div>
+      <div class="trow"><span class="ph">02</span>
+        <span><b>Bossbar, audio, screen shaders</b>Layered ambient per band, heartbeat at Swarm, the
+        silence before Choir</span>
+        <span>Audio <em>is</em> the horror. This is the highest-value visual work in the plan</span></div>
+      <div class="trow"><span class="ph">03</span>
+        <span><b>The colour &amp; gradient engine</b>Lamp colours, fog light shafts, rig silhouettes</span>
+        <span>Built once here, reused by nametags, chat, bossbars and every cosmetic forever</span></div>
+      <div class="trow"><span class="ph">04</span>
+        <span><b>Steam + thermal shader</b>Room state rendered, <code>/heat</code> map GUI</span>
+        <span>Players must read a room before you pay them to gamble on one</span></div>
+      <div class="trow"><span class="ph">05</span>
+        <span><b>Seal on the player model</b>Two-bar HUD, toggle animation</span>
+        <span>Builds should be legible across a room without asking</span></div>
+      <div class="trow"><span class="ph">06</span>
+        <span><b>Animated gradient nametags</b>The Wake — dripping, per-character phase offset,
+        deepening I→V</span>
+        <span>Your flagship nametag effect, prototyped as a punishment before it's a product</span></div>
+      <div class="trow"><span class="ph">07–08</span>
+        <span><b>Ceremonies</b>Prestige and ascension broadcasts, badges, the silence above the fog</span>
+        <span>Milestones should be witnessed by the whole server</span></div>
+      <div class="trow"><span class="ph">09</span>
+        <span><b>The RGB chat engine</b>Core text-shader override, 100+ moving themes, wings, trails</span>
+        <span>Port from Shadow Prison — and it lands on an engine six phases of work already built</span></div>
+    </div>
+  </div>
+
+  <div class="callout warn"><b>The honest total</b>
+    Roughly <strong>eight to ten months solo</strong> at a sustainable pace, and phases 0–2 are about
+    seven weeks of that. Which is the good news: <em>you find out whether the whole idea works in
+    under two months</em>, and if the phase 2 gate doesn't pass, you've spent seven weeks instead of a
+    year. Do not build ahead of the gates.
+  </div>
+
+  <div class="callout pres"><b>And one rule for the whole plan</b>
+    Every phase ships something a player can see. Not because it's efficient — it isn't — but because
+    a server that looks like vanilla Minecraft for eight months has nobody left to show the finished
+    version to.
+  </div>
+
+</div>

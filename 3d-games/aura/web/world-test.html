@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURA world test</title>
+<style>
+  :root { --bg: #05060a; --panel: rgba(8, 10, 18, 0.86); --ink: #cfe9f5; --dim: #6f8a99; --cyan: #4fdcff; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font: 12px/1.35 ui-monospace, Consolas, monospace; overflow: hidden; }
+  canvas { display: block; }
+  #panel { position: fixed; top: 8px; right: 8px; width: 250px; max-height: calc(100% - 16px); overflow-y: auto; background: var(--panel);
+    border: 1px solid #1d2a36; border-radius: 6px; padding: 8px 10px; box-sizing: border-box; }
+  #panel.hidden { display: none; }
+  h3 { margin: 8px 0 4px; font-size: 11px; color: var(--cyan); letter-spacing: .08em; text-transform: uppercase; }
+  label { display: grid; grid-template-columns: 70px 1fr 38px; gap: 6px; align-items: center; margin: 2px 0; }
+  label span:last-child { text-align: right; color: var(--dim); }
+  input[type=range] { width: 100%; accent-color: var(--cyan); }
+  .btns { display: flex; flex-wrap: wrap; gap: 4px; }
+  button { background: #0f1824; color: var(--ink); border: 1px solid #25384a; border-radius: 4px; padding: 3px 7px; font: inherit; cursor: pointer; }
+  button:hover { border-color: var(--cyan); }
+  button.on { background: #0f3446; border-color: var(--cyan); }
+  #stats { position: fixed; left: 8px; top: 8px; background: var(--panel); padding: 5px 8px; border-radius: 4px; color: var(--dim); pointer-events: none; white-space: pre; }
+  #help { position: fixed; left: 8px; bottom: 8px; color: var(--dim); pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="stats">…</div>
+<div id="help">WASD move · Q/E down/up · drag to look · shift fast · H hide panel</div>
+<div id="panel">
+  <h3>World</h3>
+  <div class="btns"><button id="dojoBtn">Dojo</button><button id="auraBtn">Aura on actor</button><button id="dashBtn">Afterimages</button><button id="freezeBtn">Freeze</button></div>
+  <div id="sliders"></div>
+  <h3>FX at arena centre</h3>
+  <div class="btns" id="fxBtns"></div>
+  <h3>Snap presets</h3>
+  <div class="btns" id="snapBtns"></div>
+</div>
+<script type="module">
+import * as THREE from './vendor/three/three.module.js';
+import { buildWorld, buildDojo } from './world.js';
+import { FX } from './fx.js';
+import { Post } from './post.js';
+
+const renderer = new THREE.WebGLRenderer({ antialias: false, powerPreference: 'high-performance' });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.5));
+renderer.setSize(innerWidth, innerHeight);
+renderer.info.autoReset = false;
+document.body.prepend(renderer.domElement);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(62, innerWidth / innerHeight, 0.1, 600);
+const world = buildWorld(scene, renderer);
+const dojo = buildDojo();
+const fx = new FX(scene);
+const fxDojo = new FX(dojo.scene);
+const post = new Post(renderer);
+post.setSize(innerWidth, innerHeight);
+
+// ---- stand-in actor (the real one from actors.js if it exists)
+async function makeActor() {
+  try {
+    const A = await import('./actors.js');
+    if (A.makePlayer) { const p = A.makePlayer(); p.isReal = true; return p; }
+  } catch (e) { /* not written yet */ }
+  const root = new THREE.Group();
+  const mat = new THREE.MeshToonMaterial({ color: 0x2a2f3a });
+  const skin = new THREE.MeshToonMaterial({ color: 0xe8c4a8 });
+  const scarf = new THREE.MeshToonMaterial({ color: 0xb3202a });
+  const add = (g, m, x, y, z, rx = 0, rz = 0) => { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.rotation.set(rx, 0, rz); o.castShadow = true; root.add(o); return o; };
+  add(new THREE.CapsuleGeometry(0.22, 0.55, 4, 10), mat, 0, 1.12, 0);
+  add(new THREE.SphereGeometry(0.16, 16, 12), skin, 0, 1.68, 0);
+  add(new THREE.TorusGeometry(0.15, 0.05, 6, 12), scarf, 0, 1.5, 0, Math.PI / 2);
+  add(new THREE.CapsuleGeometry(0.08, 0.6, 4, 8), mat, 0.12, 0.42, 0);
+  add(new THREE.CapsuleGeometry(0.08, 0.6, 4, 8), mat, -0.12, 0.42, 0);
+  add(new THREE.CapsuleGeometry(0.06, 0.5, 4, 8), mat, 0.3, 1.1, 0.05, 0, 0.3);
+  add(new THREE.CapsuleGeometry(0.06, 0.5, 4, 8), mat, -0.3, 1.1, 0.1, -0.6, -0.2);
+  const blade = add(new THREE.BoxGeometry(0.03, 0.02, 1.0), new THREE.MeshToonMaterial({ color: 0xdfe8f0 }), -0.38, 0.95, 0.6);
+  blade.rotation.x = -0.3;
+  return { root, pose() {}, setAura() {}, isReal: false };
+}
+const actor = await makeActor();
+actor.root.position.set(0, 0, 0);
+scene.add(actor.root);
+
+// ---- state
+const params = { awaken: 0, exposure: 1, sat: 1, contrast: 1, gray: 0, invert: 0, vignette: 0.35, aberration: 0, speed: 0, flash: 0, down: 0, bloom: 0.7, tintR: 1, tintG: 1, tintB: 1 };
+let dojoOn = false, auraOn = false, dashOn = false, frozen = false;
+let time = 0, last = performance.now();
+
+// ---- camera controller
+const cam = { pos: new THREE.Vector3(2, 1.7, -34), yaw: 0, pitch: 0.02 };
+const keys = new Set();
+addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT') return;
+  keys.add(e.code);
+  if (e.code === 'KeyH') document.getElementById('panel').classList.toggle('hidden');
+});
+addEventListener('keyup', (e) => keys.delete(e.code));
+let drag = null;
+renderer.domElement.addEventListener('pointerdown', (e) => { drag = { x: e.clientX, y: e.clientY }; renderer.domElement.setPointerCapture(e.pointerId); });
+renderer.domElement.addEventListener('pointermove', (e) => {
+  if (!drag) return;
+  cam.yaw -= (e.clientX - drag.x) * 0.004; cam.pitch -= (e.clientY - drag.y) * 0.004;
+  cam.pitch = Math.max(-1.45, Math.min(1.45, cam.pitch));
+  drag = { x: e.clientX, y: e.clientY };
+});
+renderer.domElement.addEventListener('pointerup', () => { drag = null; });
+function applyCam() {
+  camera.position.copy(cam.pos);
+  camera.rotation.set(cam.pitch, cam.yaw + Math.PI, 0, 'YXZ'); // yaw 0 faces +Z (three cameras look down -Z)
+}
+function lookAt(from, to) {
+  cam.pos.copy(from);
+  const d = new THREE.Vector3().subVectors(to, from);
+  cam.yaw = Math.atan2(d.x, d.z);
+  cam.pitch = Math.atan2(d.y, Math.hypot(d.x, d.z));
+  applyCam();
+}
+
+// ---- UI
+const sl = document.getElementById('sliders');
+const defs = [
+  ['awaken', 0, 1], ['exposure', 0, 3], ['sat', 0, 2], ['contrast', 0, 2.5], ['gray', 0, 1], ['invert', 0, 1],
+  ['vignette', 0, 1.5], ['aberration', 0, 2], ['speed', 0, 1], ['flash', 0, 1], ['down', 0, 1], ['bloom', 0, 2],
+  ['tintR', 0, 2], ['tintG', 0, 2], ['tintB', 0, 2],
+];
+const inputs = {};
+for (const [k, lo, hi] of defs) {
+  const lab = document.createElement('label');
+  lab.innerHTML = `<span>${k}</span><input type="range" min="${lo}" max="${hi}" step="0.01" value="${params[k]}"><span>${params[k].toFixed(2)}</span>`;
+  const inp = lab.querySelector('input'), val = lab.querySelector('span:last-child');
+  inp.addEventListener('input', () => { params[k] = +inp.value; val.textContent = (+inp.value).toFixed(2); });
+  inputs[k] = { inp, val };
+  sl.appendChild(lab);
+}
+function setParam(k, v) { params[k] = v; if (inputs[k]) { inputs[k].inp.value = v; inputs[k].val.textContent = (+v).toFixed(2); } }
+function resetParams() { for (const [k] of defs) setParam(k, { awaken: 0, exposure: 1, sat: 1, contrast: 1, vignette: 0.35, bloom: 0.7, tintR: 1, tintG: 1, tintB: 1 }[k] ?? 0); }
+
+const centre = new THREE.Vector3(0, 1.2, 0);
+const curFx = () => (dojoOn ? fxDojo : fx);
+const fxBtns = document.getElementById('fxBtns');
+const fire = {
+  spark: () => curFx().burst('spark', centre, new THREE.Vector3(0, 0.3, -1)),
+  ink: () => curFx().burst('ink', centre, new THREE.Vector3(1, 0.4, 0)),
+  aura: () => curFx().burst('aura', centre),
+  dust: () => curFx().burst('dust', new THREE.Vector3(0, 0, 0)),
+  flow: () => curFx().burst('flow', centre),
+  reset: () => curFx().burst('reset', centre),
+  deflect: () => curFx().burst('deflect', centre, new THREE.Vector3(0, 0.2, -1)),
+  glass: () => curFx().burst('glass', centre),
+  'slash L': () => curFx().slash(centre, 0, 0, 'left', 0x4fdcff, 1),
+  'slash R': () => curFx().slash(centre, 0, 0.15, 'right', 0x4fdcff, 1),
+  'slash over': () => curFx().slash(centre, 0, 0, 'over', 0x4fdcff, 1.2),
+  shockwave: () => curFx().shockwave(new THREE.Vector3(0, 0, 0), 6, 0x4fdcff),
+  afterimage: () => curFx().afterimage(actor.root, 0x4fdcff),
+  beam: () => curFx().beam(new THREE.Vector3(-4, 1.3, 3), new THREE.Vector3(4, 1.5, -2), 0x4fdcff, 0.12),
+};
+for (const k of Object.keys(fire)) {
+  const b = document.createElement('button'); b.textContent = k; b.onclick = fire[k]; fxBtns.appendChild(b);
+}
+const toggle = (id, fn) => { const b = document.getElementById(id); b.onclick = () => b.classList.toggle('on', fn()); };
+toggle('dojoBtn', () => setDojo(!dojoOn));
+toggle('auraBtn', () => (auraOn = !auraOn));
+toggle('dashBtn', () => (dashOn = !dashOn));
+toggle('freezeBtn', () => (frozen = !frozen));
+
+function setDojo(on) {
+  dojoOn = on;
+  (on ? dojo.scene : scene).add(actor.root);
+  actor.root.position.copy(on ? dojo.spots.player : new THREE.Vector3(0, 0, 0));
+  if (on) lookAt(new THREE.Vector3(3, 2.4, -14), new THREE.Vector3(0, 1.2, 2));
+  else lookAt(new THREE.Vector3(2, 1.7, -34), new THREE.Vector3(0, 1.6, 0));
+  document.getElementById('dojoBtn').classList.toggle('on', on);
+  return on;
+}
+
+// ---- loop
+let acc = 0, frames = 0, msAcc = 0, fps = 0, ms = 0;
+let dashT = 0;
+function step(dt) {
+  time += dt;
+  const moveSpd = (keys.has('ShiftLeft') ? 30 : 8) * dt;
+  const fwd = new THREE.Vector3(Math.sin(cam.yaw), 0, Math.cos(cam.yaw));
+  const left = new THREE.Vector3(fwd.z, 0, -fwd.x);
+  if (keys.has('KeyW')) cam.pos.addScaledVector(fwd, moveSpd);
+  if (keys.has('KeyS')) cam.pos.addScaledVector(fwd, -moveSpd);
+  if (keys.has('KeyA')) cam.pos.addScaledVector(left, moveSpd);
+  if (keys.has('KeyD')) cam.pos.addScaledVector(left, -moveSpd);
+  if (keys.has('KeyE')) cam.pos.y += moveSpd;
+  if (keys.has('KeyQ')) cam.pos.y -= moveSpd;
+  applyCam();
+
+  if (dojoOn) dojo.update(dt, time);
+  else {
+    world.update(dt, time, params.awaken);
+    world.sun.target.position.set(cam.pos.x, 0, cam.pos.z).lerp(actor.root.position, 0.5);
+  }
+  const F = curFx();
+  if (actor.pose) actor.pose(dt, { move: dashOn ? 1 : 0, air: false, action: 'idle', t: (time % 1), combo: 0, dir: 'right' });
+  if (dashOn) {
+    actor.root.position.x = Math.sin(time * 2.2) * 5;
+    dashT += dt;
+    if (dashT > 0.05) { dashT = 0; F.afterimage(actor.root, 0x4fdcff); }
+  }
+  if (auraOn) { F.auraBody(actor.root, 1); if (actor.setAura) actor.setAura(1); }
+  F.update(dt);
+
+  const u = post.u;
+  for (const k of ['exposure', 'sat', 'contrast', 'gray', 'invert', 'vignette', 'aberration', 'speed', 'flash', 'down', 'bloom']) u[k] = params[k];
+  u.tint[0] = params.tintR; u.tint[1] = params.tintG; u.tint[2] = params.tintB;
+  u.time = time;
+}
+function render() {
+  const t0 = performance.now();
+  renderer.info.reset(); // autoReset is off so the count covers shadow + scene + composite
+  post.render(dojoOn ? dojo.scene : scene, camera);
+  return performance.now() - t0;
+}
+function loop(now) {
+  requestAnimationFrame(loop);
+  const dt = Math.min(0.05, (now - last) / 1000); last = now;
+  if (!frozen) step(dt);
+  const cpu = render();
+  frames++; acc += dt; msAcc += cpu;
+  if (acc > 0.5) {
+    fps = frames / acc; ms = msAcc / frames; frames = 0; acc = 0; msAcc = 0;
+    const i = renderer.info.render;
+    document.getElementById('stats').textContent =
+      `${fps.toFixed(0)} fps · cpu ${ms.toFixed(2)} ms\ncalls ${i.calls} · tris ${(i.triangles / 1000).toFixed(0)}k\n${actor.isReal ? 'actor: actors.js' : 'actor: stand-in'}`;
+  }
+}
+applyCam();
+requestAnimationFrame(loop);
+
+addEventListener('resize', () => {
+  renderer.setSize(innerWidth, innerHeight);
+  camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+  post.setSize(innerWidth, innerHeight);
+});
+
+// ---- debug / screenshot hooks
+const presets = {
+  road() { setDojo(false); resetParams(); lookAt(new THREE.Vector3(1.2, 1.75, -25), new THREE.Vector3(0, 2.4, 10)); },
+  arena() { setDojo(false); resetParams(); lookAt(new THREE.Vector3(-14, 4.5, -16), new THREE.Vector3(2, 0.5, 6)); },
+  moon() { setDojo(false); resetParams(); lookAt(new THREE.Vector3(-3, 1.6, -6), new THREE.Vector3(12, 9, 20)); },
+  awaken() { presets.road(); setParam('awaken', 1); },
+  bw() { presets.road(); setParam('awaken', 1); setParam('gray', 1); setParam('contrast', 1.15); },
+  invert() { presets.bw(); setParam('invert', 1); },
+  speed() { presets.road(); setParam('awaken', 1); setParam('speed', 1); setParam('aberration', 0.6); },
+  down() { presets.road(); setParam('down', 1); },
+  flash() { presets.road(); setParam('flash', 0.7); },
+  slash() {
+    presets.arena(); lookAt(new THREE.Vector3(0.5, 1.9, -5.5), new THREE.Vector3(0, 1.2, 0)); setParam('awaken', 1);
+    frozen = true; fire['slash L'](); window.step(0.07);
+  },
+  fx() {
+    presets.arena(); lookAt(new THREE.Vector3(0, 2, -7), new THREE.Vector3(0, 1.2, 0)); setParam('awaken', 1);
+    frozen = true; fire.spark(); fire.deflect(); fire.shockwave(); fire.beam(); window.step(0.06);
+  },
+  aura() {
+    presets.arena(); lookAt(new THREE.Vector3(0.8, 1.8, -4.5), new THREE.Vector3(0, 1.1, 0)); setParam('awaken', 1);
+    auraOn = true; frozen = false;
+  },
+  dojo() { setDojo(true); resetParams(); },
+};
+window.snap = (name) => { frozen = false; auraOn = false; dashOn = false; (presets[name] || presets.road)(); return Object.keys(presets); };
+window.step = (sec, n = null) => {
+  const k = n || Math.max(1, Math.round(sec / (1 / 60)));
+  for (let i = 0; i < k; i++) step(sec / k);
+  render();
+};
+window.freeze = (on = true) => { frozen = on; };
+window.perf = (n = 120) => {
+  // synchronous timing: n full frames (sim + post) with a GPU finish at the end
+  const gl = renderer.getContext();
+  const px = new Uint8Array(4);
+  step(1 / 60); render(); gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px);
+  const t0 = performance.now();
+  for (let i = 0; i < n; i++) { step(1 / 60); render(); gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px); }
+  const t1 = performance.now();
+  // one frame with info accumulating across the scene pass (incl. shadow map) + composite
+  const i = renderer.info.render;
+  return { msPerFrame: +((t1 - t0) / n).toFixed(3), callsPerFrame: i.calls, triangles: i.triangles, points: i.points, w: renderer.domElement.width, h: renderer.domElement.height };
+};
+window.T = { THREE, renderer, scene, camera, world, dojo, fx, fxDojo, post, params, setParam, actor, presets };
+</script>
+</body>
+</html>

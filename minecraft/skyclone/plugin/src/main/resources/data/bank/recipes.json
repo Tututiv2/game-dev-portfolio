@@ -1,0 +1,20 @@
+[
+ {
+  "type": "CRAFTING",
+  "result": "PERSONAL_BANK_ITEM",
+  "amount": 1,
+  "grid": [
+   "EMERALD:64",
+   "EMERALD:64",
+   "EMERALD:64",
+   "EMERALD:64",
+   "ENCHANTED_EMERALD:1",
+   "EMERALD:64",
+   "EMERALD:64",
+   "EMERALD:64",
+   "EMERALD:64"
+  ],
+  "unlock": "collection:EMERALD:6",
+  "station": "Crafting Table"
+ }
+]

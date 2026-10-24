@@ -1,0 +1,13 @@
+# Build output
+plugin/build/
+plugin/.gradle/
+
+# The dev server is 50MB of Paper plus world data - never committed.
+server/
+
+# Editor / OS
+.idea/
+*.iml
+.vscode/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Engineers Lite</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="game-ui">
+    <div id="crosshair"></div>
+    <div id="grid-mode-indicator">MODE: LARGE GRID (2.5m)</div>
+
+    <div id="dev-menu">
+      <h3>DEV CONSOLE [M]</h3>
+      <div class="dev-row">
+        <label>THRUST POWER <span id="val-thrust">300</span></label>
+        <input type="range" min="10" max="1000" value="300" data-cfg="thrustPower" />
+      </div>
+      <div class="dev-row">
+        <label>GRAVITY (Base) <span id="val-grav">9.8</span></label>
+        <input type="range" min="0" max="50" step="0.1" value="9.8" data-cfg="gravityForce" />
+      </div>
+      <div class="dev-row">
+        <label>SIM TIME <span id="val-time">1.0</span>×</label>
+        <input type="range" min="0" max="5" step="0.1" value="1" data-cfg="timeScale" />
+      </div>
+      <div class="dev-row">
+        <label>ORBIT SUN <span id="val-orbit-sun">1.0</span>×</label>
+        <input type="range" min="0" max="4" step="0.05" value="1" data-cfg="orbitAroundSunMul" />
+      </div>
+      <div class="dev-row">
+        <label>DAY SPIN × <span id="val-planet-spin">1.0</span></label>
+        <input type="range" min="0" max="4" step="0.05" value="1" data-cfg="planetSpinMul" />
+      </div>
+      <div class="dev-row">
+        <label>DAY SPIN rad/s <span id="val-planet-spin-base">0.012</span></label>
+        <input type="range" min="0" max="0.08" step="0.001" value="0.012" data-cfg="planetSpinSpeed" />
+      </div>
+      <div class="dev-row">
+        <label>ATMOSPHERE (m) <span id="val-atm">2800</span></label>
+        <input type="range" min="400" max="12000" step="50" value="2800" data-cfg="atmosphereThicknessM" />
+      </div>
+      <div class="dev-row">
+        <label>JETPACK SPEED <span id="val-jet">50</span></label>
+        <input type="range" min="10" max="4000" value="50" data-cfg="jetpackSpeed" />
+      </div>
+    </div>
+
+    <div id="hud-left">
+      <div class="stat-row"><span>SPEED</span> <span class="stat-val" id="hud-speed">0.0 m/s</span></div>
+      <div class="stat-row"><span>ALTITUDE</span> <span class="stat-val" id="hud-alt">0 m</span></div>
+      <div class="stat-row"><span>GRAVITY</span> <span class="stat-val" id="hud-g">0.00 G</span></div>
+      <div class="stat-row"><span>PLANET</span> <span class="stat-val" id="hud-planet">NONE</span></div>
+      <div class="stat-row"><span>SUIT DAMP</span> <span class="stat-val active-sys" id="hud-damp-suit">ON</span></div>
+      <div class="stat-row"><span>JETPACK</span> <span class="stat-val" id="hud-jet">OFF</span></div>
+      <div class="stat-row"><span>LIGHTS</span> <span class="stat-val" id="hud-lamp">OFF</span> <span class="stat-sub">[L]</span></div>
+      <div class="hud-hint">[G] INVENTORY · [B] GRID SIZE · [F] COCKPIT</div>
+    </div>
+
+    <div id="hud-ship">
+      <h3>SHIP SYSTEMS</h3>
+      <div class="ship-control"><span>MAIN POWER</span><div><span class="key-hint">Y</span> <span id="ship-state-power" class="active-sys">ONLINE</span></div></div>
+      <div class="ship-control"><span>DAMPENERS</span><div><span class="key-hint">Z</span> <span id="ship-state-damp">ON</span></div></div>
+      <div class="ship-control"><span>LANDING GEAR</span><div><span class="key-hint">P</span> <span id="ship-state-park">OFF</span></div></div>
+      <div class="battery-label">BATTERY LEVEL</div>
+      <div id="power-bar-container"><div id="power-bar-fill"></div><div id="power-text">100%</div></div>
+      <div class="power-draw" id="power-draw">Draw: 0 kW</div>
+    </div>
+  </div>
+
+  <div id="hotbar-container"></div>
+
+  <div id="library-modal">
+    <div id="lib-header">
+      <div class="lib-tab active" data-cat="structure">Structure</div>
+      <div class="lib-tab" data-cat="propulsion">Propulsion</div>
+      <div class="lib-tab" data-cat="systems">Systems</div>
+      <div class="lib-tab" data-cat="tools">Tools</div>
+    </div>
+    <div id="lib-content"></div>
+  </div>
+
+  <div id="messages">
+    SCROLL: Zoom (ship) · ALT+drag: Orbit cam · L: Headlamp · G: Inventory · B: Grid · X: Jetpack · Z: Damp · P: Park · Y: Ship power (cockpit) · R/T/Y: Block rotate
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

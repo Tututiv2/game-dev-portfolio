@@ -1,0 +1,434 @@
+/* ============================================================================
+   THE GENOME, AND THE ONE BUILDER THAT GROWS IT.
+
+   The eleven hand-built candidates are eleven separate ALGORITHMS, which is
+   why they cannot be bred: there is nothing a Pagoda and a Frond have in
+   common to swap. So this file is a grammar instead — a fixed vector of 34
+   numbers, and one function that turns any such vector into a tree. Every
+   candidate is then a POINT in one space, two points can be averaged, and a
+   point can be nudged. That is the whole trick.
+
+   Genes are integers 0..255. Not floats, and that is deliberate: it makes the
+   genome exactly representable as a 68-character hex string, so a tree that
+   comes out of the breeder can be pasted into a chat, into a bug report, or
+   into objectKinds.js and grow back byte-identical. Encoding a float and
+   decoding it would give you a DIFFERENT tree from the one you picked, which
+   is the sort of thing nobody notices until the shipped forest looks wrong.
+
+   THE TRIANGLE BUDGET IS ENFORCED, NOT HOPED FOR. Foliage is added last and
+   its count is divided down by whatever the trunk and branches left, so no
+   reachable genome can exceed the ceiling. tests/trees_evolve.mjs checks that
+   over thousands of random genomes rather than trusting this paragraph.
+   ========================================================================= */
+
+var GENE_NAMES = [
+  'trunkMode', 'trunkH', 'trunkR', 'taper', 'wander', 'lean', 'sides', 'flute', 'twist',
+  'stems', 'splay', 'converge',
+  'branchMode', 'branchN', 'branchLevels', 'branchLen', 'branchAngle', 'branchDroop', 'branchR',
+  'foliage', 'folN', 'folSize', 'folFlat', 'folSpread', 'folRise', 'folDroop', 'folJag',
+  'symmetry', 'folPhase', 'folTilt',
+  'emis', 'matSplit', 'aoDepth', 'seed',
+];
+var NG = GENE_NAMES.length;                 // 34
+var GI = {};
+for (var _i = 0; _i < NG; _i++) GI[GENE_NAMES[_i]] = _i;
+
+var TRUNK_MODES = ['single', 'multi', 'cage'];
+var BRANCH_MODES = ['none', 'whorl', 'fork'];
+var FOLIAGE = ['none', 'blob', 'disc', 'ribbon', 'blade', 'membrane'];
+var SYMMETRY = ['radial', 'bilateral', 'scattered'];
+var TRI_CAP = 300;      // the brief says aim 150, ceiling 400. 300 leaves room.
+
+/* ------------------------------------------------------ decode, ONE table --
+   The ranges live in exactly one place and both directions are derived from
+   it. Writing the forward decode by hand and the inverse by hand as well is
+   how a preset silently stops meaning what its name says: the two copies drift
+   and nothing errors. */
+var LIST = {
+  trunkMode: TRUNK_MODES, branchMode: BRANCH_MODES, foliage: FOLIAGE, symmetry: SYMMETRY,
+};
+/* THE CATEGORICAL GENES ARE NOT UNIFORM, AND THEY CANNOT BE.
+   With six equal bands, 'none' was one foliage value in six — so every
+   mutation that resampled it had a one-in-six chance of deleting the leaves,
+   and five generations in, eight of eleven trees were bare trunks. A bare
+   trunk is a legitimate tree (ashen ships burnt snags) but it is a RARE one,
+   and a uniform categorical gene makes every option equally likely by
+   construction, whatever the art says. Same argument for the cage: it is a
+   striking shape and a third of all trees should not be one. */
+var WEIGHT = {
+  trunkMode: [3.0, 1.2, 0.7],
+  branchMode: [1.3, 1.0, 1.0],
+  foliage: [0.28, 1.0, 0.9, 0.9, 0.9, 0.7],
+  symmetry: [1.3, 0.7, 1.3],
+};
+function pickW(name, v) {
+  var w = WEIGHT[name], L = LIST[name], tot = 0, i;
+  for (i = 0; i < w.length; i++) tot += w[i];
+  var x = v / 256 * tot, acc = 0;
+  for (i = 0; i < w.length; i++) { acc += w[i]; if (x < acc) return L[i]; }
+  return L[L.length - 1];
+}
+function geneForList(name, val) {
+  var w = WEIGHT[name], L = LIST[name];
+  var idx = L.indexOf(val); if (idx < 0) idx = 0;
+  var tot = 0, before = 0, i;
+  for (i = 0; i < w.length; i++) { tot += w[i]; if (i < idx) before += w[i]; }
+  return Math.min(255, Math.floor(((before + w[idx] * 0.5) / tot) * 256));
+}
+var RANGE = {
+  trunkH: [0.24, 1.00], trunkR: [0.22, 1.00], taper: [0.10, 0.92], wander: [0, 0.34],
+  lean: [0, 0.26], sides: [3, 8, 1], flute: [0, 0.30], twist: [0, 1.10],
+  stems: [2, 6, 1], splay: [0.06, 0.52], converge: [0, 1],
+  branchN: [2, 5, 1], branchLevels: [1, 4, 1], branchLen: [0.20, 0.95],
+  branchAngle: [0.16, 1.45], branchDroop: [-0.42, 0.42], branchR: [0.030, 0.115],
+  folN: [1, 12, 1], folSize: [0.10, 1.00], folFlat: [0.07, 1.00], folSpread: [0.14, 1.00],
+  folRise: [0, 1], folDroop: [-0.34, 0.40], folJag: [0.06, 0.42],
+  folPhase: [0, 6.2832], folTilt: [-0.55, 0.75],
+  emis: [0.02, 0.90], matSplit: [0, 1], aoDepth: [0.15, 0.55],
+};
+function decode(g) {
+  var G = {}, i, nm;
+  for (i = 0; i < NG; i++) {
+    nm = GENE_NAMES[i];
+    if (LIST[nm]) {
+      G[nm] = pickW(nm, g[i]);
+    } else if (RANGE[nm]) {
+      var r = RANGE[nm], v = r[0] + (r[1] - r[0]) * (g[i] / 255);
+      G[nm] = r[2] ? Math.round(v) : v;
+    }
+  }
+  G.seed = 1 + g[GI.seed] * 977;
+  return G;
+}
+/* the inverse, so a preset can be written in words instead of in bytes */
+function geneFor(name, v) {
+  if (LIST[name]) return geneForList(name, v);
+  if (name === 'seed') return v & 255;
+  var r = RANGE[name];
+  if (!r) return 128;
+  return Math.max(0, Math.min(255, Math.round((v - r[0]) / (r[1] - r[0]) * 255)));
+}
+function makeGenome(o) {
+  var g = new Array(NG);
+  for (var i = 0; i < NG; i++) g[i] = 128;
+  for (var k in o) if (GI[k] !== undefined) g[GI[k]] = geneFor(k, o[k]);
+  return g;
+}
+
+/* ------------------------------------------------------- genome operations */
+function randGenome(R) {
+  var g = new Array(NG);
+  for (var i = 0; i < NG; i++) g[i] = Math.floor(R() * 256);
+  return g;
+}
+/* Crossover BLENDS the continuous genes and PICKS one parent's categorical
+   ones. Blending a categorical gene is meaningless — halfway between "disc"
+   and "membrane" is "ribbon", which is a third thing neither parent was — so
+   those four genes are inherited whole. */
+var CATEGORICAL = ['trunkMode', 'branchMode', 'foliage', 'symmetry'];
+function crossGenome(a, b, R) {
+  var g = new Array(NG);
+  for (var i = 0; i < NG; i++) {
+    if (CATEGORICAL.indexOf(GENE_NAMES[i]) >= 0 || GENE_NAMES[i] === 'seed') {
+      g[i] = R() < 0.5 ? a[i] : b[i];
+    } else {
+      var t = R();
+      g[i] = Math.round(a[i] + (b[i] - a[i]) * t);
+    }
+  }
+  return g;
+}
+/* `amount` is the mutation rate the user chose. Categorical genes are resampled
+   far more rarely than continuous ones — flipping "foliage" is a change of
+   species, flipping "folSize" is a change of mind. */
+function mutateGenome(src, R, amount) {
+  var g = src.slice();
+  var pRate = 0.14 + 0.42 * amount;
+  var sigma = 8 + 66 * amount;
+  for (var i = 0; i < NG; i++) {
+    var cat = CATEGORICAL.indexOf(GENE_NAMES[i]) >= 0;
+    if (cat) {
+      if (R() < 0.06 + 0.26 * amount) g[i] = Math.floor(R() * 256);
+    } else if (R() < pRate) {
+      // Box-Muller, so most nudges are small and the occasional one is a jump
+      var u = Math.max(1e-9, R()), v = R();
+      var n = Math.sqrt(-2 * Math.log(u)) * Math.cos(6.2832 * v);
+      g[i] = Math.max(0, Math.min(255, Math.round(g[i] + n * sigma)));
+    }
+  }
+  return g;
+}
+function encGenome(g) {
+  var s = '';
+  for (var i = 0; i < g.length; i++) s += (g[i] < 16 ? '0' : '') + g[i].toString(16);
+  return s.toUpperCase();
+}
+function decGenome(s) {
+  s = String(s).replace(/[^0-9a-fA-F]/g, '');
+  if (s.length < NG * 2) return null;
+  var g = new Array(NG);
+  for (var i = 0; i < NG; i++) g[i] = parseInt(s.substr(i * 2, 2), 16);
+  return g;
+}
+/* A NAME, so a tree can be talked about. Two syllables off the genes that
+   decide its character, so siblings sound related and a mutation that changes
+   the species changes the name too. */
+var SYL_A = ['ka', 've', 'thu', 'mor', 'sil', 'dra', 'ay', 'nes', 'ol', 'ryn', 'ish', 'ba'];
+var SYL_B = ['ren', 'lith', 'sha', 'vor', 'dun', 'mel', 'tak', 'ess', 'gan', 'ith', 'oru', 'nyx'];
+function nameGenome(g) {
+  var a = SYL_A[(g[GI.foliage] + g[GI.trunkMode]) % SYL_A.length];
+  var b = SYL_B[(g[GI.symmetry] * 3 + g[GI.branchMode] + g[GI.seed]) % SYL_B.length];
+  return (a + b).toUpperCase();
+}
+function describeGenome(g) {
+  var G = decode(g), p = [];
+  p.push(G.trunkMode === 'multi' ? G.stems + ' stems' :
+         G.trunkMode === 'cage' ? G.stems + '-rib cage' :
+         G.wander > 0.20 ? 'wandering trunk' : G.flute > 0.19 ? 'fluted trunk' : 'single trunk');
+  if (G.branchMode === 'whorl') p.push(G.branchLevels + ' whorls of ' + G.branchN);
+  else if (G.branchMode === 'fork') p.push('forking limbs');
+  if (G.foliage !== 'none') {
+    var sh = { blob: 'lumps', disc: 'discs', ribbon: 'ribbons', blade: 'blades', membrane: 'blades' };
+    p.push((G.symmetry === 'bilateral' ? 'one plane of ' :
+            G.symmetry === 'scattered' ? 'scattered ' : '') +
+           (G.folDroop > 0.16 ? 'drooping ' : G.folDroop < -0.14 ? 'upswept ' : '') + sh[G.foliage]);
+  } else p.push('bare');
+  return p.join(' · ');
+}
+
+/* ==========================================================================
+   THE BUILDER
+   ========================================================================= */
+function growTree(g) {
+  var G = decode(g), R = rnd(G.seed), b = MB(), i, k;
+
+  /* REACH FIRST, THEN GIRTH. The trunk radius is a fraction of how far the
+     tree reaches sideways, never an absolute — because finish() scales the
+     geometry so its widest point is r = 1.0, and if that widest point is the
+     TRUNK the whole tree is blown up into a boulder. GNARL hit exactly this
+     when it was hand-built. */
+  var reach = Math.max(0.30, G.branchMode !== 'none' ? G.branchLen * 0.95 : 0,
+                       G.foliage !== 'none' ? G.folSpread * 0.90 + G.folSize * 0.35 : 0);
+  var girth = 0.055 + G.trunkR * reach * 0.30;
+
+  var top = G.trunkMode === 'cage' ? 0.94 : G.trunkH;
+  var anchors = [];            // {p, dir, t} — where foliage may attach
+
+  /* ---------------------------------------------------------- 1. the trunk */
+  function spine(az, spread, height, rad0, sides, wob) {
+    var pts = [], rad = [], ST = 6;
+    for (var q = 0; q < ST; q++) {
+      var t = q / (ST - 1);
+      var s = spread * (1 - t) * (1 - t) + spread * (1 - G.converge) * t;
+      var a = az + G.twist * t * wob;
+      var wx = Math.sin(t * 3.1 + wob * 4.0) * G.wander * t;
+      var wz = Math.cos(t * 2.7 + wob * 5.3) * G.wander * t;
+      pts.push([Math.cos(a) * s + wx + G.lean * t * t, t * height, Math.sin(a) * s + wz]);
+      rad.push(rad0 * (1 - t * G.taper) + 0.006);
+    }
+    tube(b, pts, rad, sides, function (ri) { return BARK(0.18 + 0.72 * (ri / (ST - 1))); },
+      G.flute > 0.02 && sides >= 5
+        ? { lobe: function (ii, ss, aa) { return 1 + G.flute * Math.cos(3 * (aa + ii * 0.42)); } }
+        : { flat: sides <= 4 });
+    return pts;
+  }
+
+  if (G.trunkMode === 'single') {
+    spine(0, 0, top, girth, G.sides, 0.0);
+  } else if (G.trunkMode === 'multi') {
+    for (k = 0; k < G.stems; k++) {
+      spine((k / G.stems) * 6.2832 + 0.4, G.splay, top * (0.86 + R() * 0.20),
+        girth * (0.52 + 0.30 * R()), Math.max(3, G.sides - 2), k * 1.7);
+    }
+  } else {                                   // cage: ribs that bow out and meet
+    for (k = 0; k < G.stems; k++) {
+      var az = (k / G.stems) * 6.2832 + 0.2, pts = [], rad = [], ST = 5;
+      var fat = 0.30 + reach * 0.62 * (0.80 + R() * 0.34);
+      for (i = 0; i < ST; i++) {
+        var t = i / (ST - 1);
+        var s = 0.10 + Math.sin(Math.PI * Math.pow(t, 0.85)) * fat;
+        var a = az + t * G.twist * 0.6;
+        pts.push([Math.cos(a) * s, t * top, Math.sin(a) * s]);
+        rad.push(girth * 0.42 * (1 - t * 0.35));
+      }
+      tube(b, pts, rad, 3, function () { return BARK(0.30 + 0.44 * R()); }, { flat: true });
+    }
+    anchors.push({ p: [0, top * 0.48, 0], dir: [0, 1, 0], t: 0.5, inner: true });
+  }
+
+  /* ------------------------------------------------------- 2. the branches */
+  var tips = [];
+  if (G.branchMode === 'whorl') {
+    var lv = G.branchLevels;
+    for (var L = 0; L < lv; L++) {
+      var ft = lv === 1 ? 0.88 : 0.52 + 0.44 * (L / (lv - 1));
+      var y = top * ft;
+      var len = G.branchLen * (1 - ft * 0.42);
+      for (k = 0; k < G.branchN; k++) {
+        var a2 = (k / G.branchN) * 6.2832 + G.folPhase + L * 1.1;
+        var d = nrm([Math.cos(a2) * Math.sin(G.branchAngle),
+                     Math.cos(G.branchAngle) + G.branchDroop, Math.sin(a2) * Math.sin(G.branchAngle)]);
+        var o = [G.lean * ft * ft, y, 0];
+        var end = add(o, mul(d, len));
+        var mid = add(o, mul(d, len * 0.55)); mid[1] += len * G.branchDroop * -0.32;
+        if (tris(b) + 16 > TRI_CAP - 40) break;
+        tube(b, [o, mid, end], [G.branchR, G.branchR * 0.62, G.branchR * 0.30], 4,
+          function () { return BARK(0.36 + 0.28 * ft); }, { flat: true });
+        tips.push({ p: end, dir: d, t: ft });
+      }
+    }
+  } else if (G.branchMode === 'fork') {
+    var made = { n: 0 };
+    (function fork(from, dir, len, rad, depth) {
+      if (made.n > 13 || tris(b) + 16 > TRI_CAP - 60) return;
+      var end = add(from, mul(dir, len));
+      var mid = add(from, mul(dir, len * 0.55)); mid[1] += len * G.branchDroop * -0.22;
+      tube(b, [from, mid, end], [rad, rad * 0.72, rad * 0.52], 4,
+        function () { return BARK(0.28 + 0.20 * (2 - depth)); }, { flat: true });
+      made.n++;
+      if (depth === 0) { tips.push({ p: end, dir: dir, t: 1 }); return; }
+      var n = depth === 2 ? Math.min(3, G.branchN) : 2;
+      for (var q = 0; q < n; q++) {
+        var az2 = R() * 6.2832, sp = Math.sin(G.branchAngle) * (0.7 + R() * 0.7);
+        var d2 = nrm([dir[0] + Math.cos(az2) * sp, dir[1] * (0.72 + R() * 0.28) + G.branchDroop * 0.3,
+                      dir[2] + Math.sin(az2) * sp]);
+        fork(end, d2, len * (0.58 + R() * 0.16), rad * 0.56, depth - 1);
+      }
+    // FORKS AT THE TOP OF THE TRUNK, not halfway up it. At 0.55 the canopy
+    // sat down around the stem and swallowed it, and a broadleaf with no
+    // visible trunk reads as a boulder.
+  })([G.lean * 0.4, top * 0.82, 0], [0, 1, 0], G.branchLen * 0.62, G.branchR * 1.5, 2);
+  }
+
+  /* ------------------------------------------------- 3. where foliage sits */
+  if (tips.length) {
+    for (i = 0; i < tips.length; i++) anchors.push(tips[i]);
+  } else {
+    /* A SINGLE BIG LUMP IS NOT A TREE. folN can decode to 1, which is exactly
+       right for a disc (that is the parasol) and is a featureless white diamond
+       for a blob. Three is the fewest that reads as a canopy. */
+    var n0 = G.foliage === 'blob' ? Math.max(3, G.folN) : G.folN;
+    for (i = 0; i < n0; i++) {
+      var u = n0 === 1 ? 0.5 : i / (n0 - 1);
+      var az3;
+      if (G.symmetry === 'radial') az3 = (i / n0) * 6.2832 + G.folPhase;
+      else if (G.symmetry === 'bilateral') az3 = G.folPhase + (i % 2) * Math.PI;
+      else az3 = G.folPhase + R() * 6.2832;
+      // folRise: 0 = all clustered at the top, 1 = spread down the whole stem
+      var lo = lerp(0.90, 0.30, G.folRise);
+      var ft2 = n0 === 1 ? 0.94 : lerp(lo, 0.99, u);
+      var rr = G.folSpread * lerp(1.0, 0.30, G.folRise > 0.5 ? u : 0) * (0.72 + 0.42 * R());
+      anchors.push({
+        p: [Math.cos(az3) * rr + G.lean * ft2 * ft2, top * ft2, Math.sin(az3) * rr],
+        dir: nrm([Math.cos(az3), 0.42 + G.folTilt, Math.sin(az3)]),
+        t: ft2,
+      });
+    }
+  }
+
+  /* ------------------------------------------------------- 4. the foliage --
+     THE BUDGET IS DIVIDED, NOT TRUSTED. Whatever the trunk and branches spent
+     is gone; the foliage count is the largest that fits in what is left. That
+     is what makes the ceiling a property of the code instead of a hope about
+     the parameter ranges. */
+  var COST = { none: 0, blob: 8, disc: 0, ribbon: 16, blade: 12, membrane: 12 };
+  var discSides = Math.max(6, Math.min(11, 5 + Math.round(G.folSize * 6)));
+  COST.disc = discSides * 2;
+  if (G.foliage !== 'none' && anchors.length) {
+    var per = COST[G.foliage];
+    var room = Math.max(0, TRI_CAP - tris(b));
+    var n = Math.min(anchors.length, Math.floor(room / per));
+    var ao = function (t) { return LEAF(G.aoDepth + (1 - G.aoDepth) * cl01(t)); };
+
+    /* FOLIAGE IS SIZED AGAINST THE TREE'S OWN REACH, NEVER IN ABSOLUTE UNITS.
+       folSize was absolute while every trunk mode sizes itself off `reach`, so
+       a genome with a small reach and a large folSize grew leaves bigger than
+       the tree they hang on: the cage seed came back as one glowing slab with
+       the ribs buried inside it, and any clustered-blob genome merged into a
+       single lump. The cage gets an extra squeeze on top, because there the
+       foliage has to fit INSIDE the ribs rather than sit on them. */
+    var szK = (0.34 + 0.82 * reach) * (G.trunkMode === 'cage' ? 0.42 : 1.0);
+
+    for (i = 0; i < n; i++) {
+      var A = anchors[i], P = A.p, D = A.dir, tt = A.t;
+      var sz = G.folSize * szK * lerp(1.0, 0.55, cl01((tt - 0.5) * 1.2)) * (0.78 + 0.44 * R());
+      var side = nrm(crs(D, [0, 1, 0.0001]));
+      var upv = nrm(crs(side, D));
+
+      if (G.foliage === 'blob') {
+        blob(b, OCT, [P[0], P[1] + sz * 0.22, P[2]],
+          [sz * 1.30, sz * 1.30 * G.folFlat, sz * 1.30], 31 + i * 7, G.folJag,
+          function (v) { return ao((v[1] - top * 0.35) / Math.max(0.15, top * 0.7)); });
+
+      } else if (G.foliage === 'disc') {
+        var rim = [], Q = rnd(600 + i * 37);
+        for (k = 0; k < discSides; k++) {
+          var a4 = (k / discSides) * 6.2832 + i * 0.7;
+          var r4 = sz * (0.76 + Q() * 0.24);
+          rim.push([P[0] + Math.cos(a4) * r4,
+                    P[1] - G.folDroop * sz * (0.6 + Q() * 0.5) + (Q() - 0.5) * sz * 0.06,
+                    P[2] + Math.sin(a4) * r4]);
+        }
+        var upC = [P[0], P[1] + sz * 0.10 * G.folFlat + 0.010, P[2]];
+        var dnC = [P[0], P[1] - sz * 0.05 * G.folFlat - 0.010, P[2]];
+        for (k = 0; k < discSides; k++) {
+          var j4 = (k + 1) % discSides;
+          tri(b, upC, rim[k], rim[j4], ao(1.0));
+          tri(b, dnC, rim[j4], rim[k], ao(G.aoDepth * 0.7));
+        }
+
+      } else if (G.foliage === 'ribbon') {
+        var P0 = P;
+        var P1 = add(P, mul(D, sz * 0.45));  P1[1] += sz * 0.95;
+        var P2 = add(P, mul(D, sz * 1.20));  P2[1] += sz * (0.30 - G.folDroop * 1.5);
+        var ST2 = 5, prev = null;
+        for (k = 0; k < ST2; k++) {
+          var t5 = k / (ST2 - 1), u5 = 1 - t5;
+          var C = [u5 * u5 * P0[0] + 2 * u5 * t5 * P1[0] + t5 * t5 * P2[0],
+                   u5 * u5 * P0[1] + 2 * u5 * t5 * P1[1] + t5 * t5 * P2[1],
+                   u5 * u5 * P0[2] + 2 * u5 * t5 * P1[2] + t5 * t5 * P2[2]];
+          var w = sz * 0.16 * G.folFlat * Math.sin(Math.PI * Math.pow(t5, 0.62)) + 0.004;
+          var cur = { L: add(C, mul(side, -w)), M: [C[0], C[1] + w * 0.55, C[2]],
+                      R: add(C, mul(side, w)), a: ao(t5) };
+          if (prev) {
+            quad(b, prev.L, cur.L, cur.M, prev.M, [prev.a, cur.a, cur.a, prev.a]);
+            quad(b, prev.M, cur.M, cur.R, prev.R, [prev.a, cur.a, cur.a, prev.a]);
+          }
+          prev = cur;
+        }
+
+      } else if (G.foliage === 'blade') {
+        var tip = add(P, mul(D, sz * 1.25));
+        tip[1] -= G.folDroop * sz * 0.7;
+        tube(b, [P, lerp3(P, tip, 0.45), tip],
+          [sz * 0.19 * G.folFlat + 0.010, sz * 0.11 * G.folFlat + 0.006, 0.008], 3,
+          function (ri) { return [G.matSplit * (ri / 2), G.aoDepth + (1 - G.aoDepth) * (ri / 2)]; },
+          { flat: true, phase: i * 0.7 });
+
+      } else {                                   // membrane: a lamina, one plane
+        var ax = mul(side, sz * 1.20 * (i % 2 ? 1 : -1));
+        var ST3 = 4, prv = null;
+        for (k = 0; k < ST3; k++) {
+          var t6 = k / (ST3 - 1);
+          var C2 = add(P, mul(ax, t6));
+          C2[1] += sz * (0.22 * Math.sin(Math.PI * t6) - G.folDroop * 1.5 * t6 * t6);
+          var hh = sz * 0.40 * G.folFlat * Math.sin(Math.PI * Math.pow(t6, 0.50)) + 0.006;
+          var fold = mul(D, sz * 0.10 * (1 - Math.abs(0.5 - t6) * 1.4));
+          var c6 = { U: [C2[0], C2[1] + hh, C2[2]], M: add(C2, fold),
+                     D: [C2[0], C2[1] - hh, C2[2]], a: ao(t6) };
+          if (prv) {
+            quad(b, prv.U, c6.U, c6.M, prv.M, [prv.a, c6.a, c6.a, prv.a]);
+            quad(b, prv.M, c6.M, c6.D, prv.D, [prv.a, c6.a, c6.a, prv.a]);
+          }
+          prv = c6;
+        }
+      }
+    }
+  }
+
+  // A genome can decode to a trunk and nothing else (foliage 'none', branch
+  // 'none'). That is a legal tree — a snag — but it must still be a mesh.
+  if (tris(b) === 0) tube(b, [[0, 0, 0], [0, 1, 0]], [girth, girth * 0.2], 4,
+    function () { return BARK(0.5); }, { flat: true });
+  return finish(b);
+}

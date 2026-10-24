@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rocket League Ledger</title>
+<style>
+  :root{
+    --bg:#0b0912; --panel:#141122; --panel2:#100d1a; --line:#1e1a2c;
+    --text:#e8e6f0; --muted:#8b85a8; --accent:#7c5cff; --accent2:#6ee7f9;
+    --win:#4ade80; --loss:#f87171; --warn:#f5b555;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:14px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px}
+  h1{font-size:20px;margin:0 0 2px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+    margin:28px 0 10px;font-weight:600}
+  .sub{color:var(--muted);font-size:12.5px;margin-bottom:20px}
+  .wrap{max-width:1100px;margin:0 auto}
+
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+  .controls button{background:var(--panel2);border:1px solid var(--line);color:var(--muted);
+    padding:6px 14px;border-radius:999px;cursor:pointer;font-size:12.5px}
+  .controls button.on{background:color-mix(in srgb,var(--accent) 18%,transparent);
+    border-color:color-mix(in srgb,var(--accent) 50%,transparent);color:var(--text)}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card .k{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+  .card .v{font-size:26px;font-weight:600;margin-top:4px}
+  .card .n{font-size:11.5px;color:var(--muted);margin-top:2px}
+  .good{color:var(--win)} .bad{color:var(--loss)} .warn{color:var(--warn)}
+
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;color:var(--muted);font-weight:500;padding:6px 8px;
+    border-bottom:1px solid var(--line);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+  td{padding:6px 8px;border-bottom:1px solid var(--panel2)}
+  tr.game{cursor:pointer}
+  tr.game:hover td{background:var(--panel2)}
+  .W{color:var(--win);font-weight:600} .L{color:var(--loss);font-weight:600}
+  .mono{font-family:ui-monospace,Consolas,monospace}
+
+  .detail{background:var(--panel2)}
+  .detail td{padding:12px 16px}
+  .goal{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:5px 0}
+  .goal .t{color:var(--muted);width:52px;font-family:ui-monospace,monospace;font-size:11.5px}
+  .goal button{background:var(--panel);border:1px solid var(--line);color:var(--muted);
+    padding:3px 9px;border-radius:6px;cursor:pointer;font-size:11px}
+  .goal button.on{background:color-mix(in srgb,var(--warn) 20%,transparent);
+    border-color:var(--warn);color:var(--warn)}
+  .state{display:flex;gap:6px;align-items:center;margin-bottom:10px}
+  .state button{background:var(--panel);border:1px solid var(--line);color:var(--muted);
+    padding:3px 12px;border-radius:999px;cursor:pointer;font-size:11.5px}
+  .state button.on{background:color-mix(in srgb,var(--accent2) 16%,transparent);
+    border-color:var(--accent2);color:var(--accent2)}
+  .state button.on.issue{background:color-mix(in srgb,var(--loss) 18%,transparent);
+    border-color:var(--loss);color:var(--loss)}
+
+  canvas{width:100%;height:170px;display:block;background:var(--panel);
+    border:1px solid var(--line);border-radius:12px}
+  .bars{display:flex;flex-direction:column;gap:7px}
+  .bar{display:grid;grid-template-columns:190px 1fr 48px;gap:10px;align-items:center;font-size:12.5px}
+  .bar .track{height:9px;background:var(--panel2);border-radius:999px;overflow:hidden}
+  .bar .fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .empty{color:var(--muted);padding:16px;text-align:center}
+  code{background:var(--panel2);padding:1px 6px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Rocket League Ledger</h1>
+  <div class="sub" id="sub">loading…</div>
+
+  <div class="controls" id="playlists"></div>
+  <div class="controls" id="windows"></div>
+
+  <div class="cards" id="cards"></div>
+
+  <h2>Winrate over time <span style="text-transform:none;letter-spacing:0">(rolling 10)</span></h2>
+  <canvas id="chart" width="1100" height="170"></canvas>
+
+  <h2>Why you conceded</h2>
+  <div id="reasons"></div>
+
+  <h2>Clean games vs broken ones</h2>
+  <div id="issues"></div>
+
+  <h2>Games <span style="text-transform:none;letter-spacing:0;font-weight:400">— click one to tag it</span></h2>
+  <table><thead><tr>
+    <th>date</th><th>pl</th><th>score</th><th></th><th>G</th><th>A</th><th>Sv</th><th>Sh</th>
+    <th>pts</th><th>vs mate</th><th>state</th>
+  </tr></thead><tbody id="rows"></tbody></table>
+</div>
+
+<script src="ledger.js"></script>
+<script>
+const REASONS = [
+  "out of position",
+  "overcommitted after a mechanic",
+  "lost the 50",
+  "no boost",
+  "bad rotation w/ mate",
+  "whiffed the save",
+  "genuinely them",
+];
+// Hardware and network problems are not excuses, they are variables — and the
+// only way to know whether they matter is to count them.
+const ISSUES = ["lagged", "disconnected", "boost button failed", "stick drift cost me a play"];
+
+const TAG_KEY = "rl.ledger.tags.v1";
+const tags = JSON.parse(localStorage.getItem(TAG_KEY) || "{}");
+const saveTags = () => localStorage.setItem(TAG_KEY, JSON.stringify(tags));
+const tagFor = id => {
+  const t = (tags[id] ||= { state: null, goals: {} });
+  t.issues ||= [];
+  return t;
+};
+
+const data = window.RL_LEDGER;
+let playlist = "all", windowSize = 20;
+
+const el = id => document.getElementById(id);
+const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+
+function filtered() {
+  let g = (data?.games || []).filter(x => playlist === "all" || x.playlist === playlist);
+  g.sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  return windowSize === "all" ? g : g.slice(-windowSize);
+}
+
+function buildControls() {
+  const lists = ["all", ...new Set((data?.games || []).map(g => g.playlist))];
+  el("playlists").innerHTML = lists
+    .map(p => `<button data-p="${p}" class="${p === playlist ? "on" : ""}">${p === "all" ? "All playlists" : p}</button>`)
+    .join("");
+  el("playlists").onclick = e => {
+    if (!e.target.dataset.p) return;
+    playlist = e.target.dataset.p; render();
+  };
+  const wins = [10, 20, 50, 100, "all"];
+  el("windows").innerHTML = wins
+    .map(w => `<button data-w="${w}" class="${w === windowSize ? "on" : ""}">${w === "all" ? "All time" : "Last " + w}</button>`)
+    .join("");
+  el("windows").onclick = e => {
+    if (!e.target.dataset.w) return;
+    const v = e.target.dataset.w;
+    windowSize = v === "all" ? "all" : +v; render();
+  };
+}
+
+function renderCards(g) {
+  const n = g.length;
+  if (!n) { el("cards").innerHTML = `<div class="empty">No games in this filter.</div>`; return; }
+  const w = g.filter(x => x.result === "W").length;
+  const gf = g.reduce((s, x) => s + x.for, 0);
+  const ga = g.reduce((s, x) => s + x.against, 0);
+  const mine = g.reduce((s, x) => s + x.me.goals, 0);
+  const shots = g.reduce((s, x) => s + x.me.shots, 0);
+  const saves = g.reduce((s, x) => s + x.me.saves, 0);
+  const matesG = g.reduce((s, x) => s + x.mates.reduce((a, m) => a + m.goals, 0), 0);
+  const myPts = g.reduce((s, x) => s + x.me.points, 0);
+  const matePts = g.reduce((s, x) => s + x.mates.reduce((a, m) => a + m.points, 0), 0);
+  const teamG = mine + matesG;
+  const wr = pct(w, n);
+
+  const card = (k, v, note, cls = "") =>
+    `<div class="card"><div class="k">${k}</div><div class="v ${cls}">${v}</div><div class="n">${note}</div></div>`;
+
+  el("cards").innerHTML = [
+    card("Winrate", wr + "%", `${w}W ${n - w}L`, wr >= 55 ? "good" : wr <= 45 ? "bad" : ""),
+    card("Conceded / game", (ga / n).toFixed(2), `${ga} in ${n} games`, ga / n >= 3 ? "bad" : ""),
+    card("Scored / game", (gf / n).toFixed(2), `${gf} total`),
+    card("Your goal share", teamG ? pct(mine, teamG) + "%" : "—", `${mine} of ${teamG} team goals`),
+    card("Shot conversion", shots ? pct(mine, shots) + "%" : "—", `${mine} from ${shots} shots`),
+    card("Saves / game", (saves / n).toFixed(2), `${saves} total`),
+    card("You vs mate — pts", matePts ? (myPts / matePts).toFixed(2) + "×" : "—",
+         matePts ? `${myPts} vs ${matePts}` : "1v1 only",
+         matePts && myPts / matePts > 1.25 ? "good" : ""),
+  ].join("");
+}
+
+function renderChart(g) {
+  const c = el("chart"), ctx = c.getContext("2d");
+  const W = c.width, H = c.height;
+  ctx.clearRect(0, 0, W, H);
+  const K = 10;
+  if (g.length < K) {
+    ctx.fillStyle = "#8b85a8"; ctx.font = "13px Segoe UI"; ctx.textAlign = "center";
+    ctx.fillText(`Need ${K} games in this filter to plot a rolling average (have ${g.length}).`, W / 2, H / 2);
+    return;
+  }
+  const pts = [];
+  for (let i = K - 1; i < g.length; i++) {
+    const slice = g.slice(i - K + 1, i + 1);
+    pts.push(slice.filter(x => x.result === "W").length / K);
+  }
+  const pad = 26, plotW = W - pad * 2, plotH = H - pad * 2;
+  const x = i => pad + (pts.length === 1 ? plotW / 2 : (i / (pts.length - 1)) * plotW);
+  const y = v => pad + (1 - v) * plotH;
+
+  ctx.strokeStyle = "#1e1a2c"; ctx.lineWidth = 1;
+  [0, 0.5, 1].forEach(v => {
+    ctx.beginPath(); ctx.moveTo(pad, y(v)); ctx.lineTo(W - pad, y(v)); ctx.stroke();
+    ctx.fillStyle = "#8b85a8"; ctx.font = "10px Segoe UI"; ctx.textAlign = "right";
+    ctx.fillText(Math.round(v * 100) + "%", pad - 6, y(v) + 3);
+  });
+  // 50% is the line that matters: above it you climb, below it you sink.
+  ctx.strokeStyle = "#f5b55555"; ctx.setLineDash([4, 4]);
+  ctx.beginPath(); ctx.moveTo(pad, y(0.5)); ctx.lineTo(W - pad, y(0.5)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  const grad = ctx.createLinearGradient(0, 0, W, 0);
+  grad.addColorStop(0, "#7c5cff"); grad.addColorStop(1, "#6ee7f9");
+  ctx.strokeStyle = grad; ctx.lineWidth = 2; ctx.beginPath();
+  pts.forEach((v, i) => (i ? ctx.lineTo(x(i), y(v)) : ctx.moveTo(x(i), y(v))));
+  ctx.stroke();
+}
+
+function renderReasons(g) {
+  const counts = {};
+  let tagged = 0, conceded = 0;
+  g.forEach(x => {
+    const t = tags[x.id];
+    x.goals_timeline.filter(gl => !gl.mine).forEach((gl, i) => {
+      conceded++;
+      const r = t?.goals?.[i];
+      if (r) { counts[r] = (counts[r] || 0) + 1; tagged++; }
+    });
+  });
+  if (!tagged) {
+    el("reasons").innerHTML = `<div class="empty">No goals tagged yet — click a game below and tag why each one went in.<br>
+      ${conceded} conceded goals waiting in this filter.</div>`;
+    return;
+  }
+  const max = Math.max(...Object.values(counts));
+  el("reasons").innerHTML = `<div class="bars">` + REASONS.filter(r => counts[r]).sort((a, b) => counts[b] - counts[a])
+    .map(r => `<div class="bar"><div>${r}</div>
+      <div class="track"><div class="fill" style="width:${(counts[r] / max) * 100}%"></div></div>
+      <div class="mono">${counts[r]} · ${pct(counts[r], tagged)}%</div></div>`).join("")
+    + `</div><div class="sub" style="margin-top:10px">${tagged} of ${conceded} conceded goals tagged.</div>`;
+}
+
+function renderIssues(g) {
+  const tagged = g.filter(x => tags[x.id]);
+  const broken = g.filter(x => (tags[x.id]?.issues || []).length);
+  const clean = tagged.filter(x => !(tags[x.id]?.issues || []).length);
+  if (!tagged.length) {
+    el("issues").innerHTML = `<div class="empty">Tag games with <b>lagged / disconnected / boost button failed /
+      stick drift</b> and this compares your winrate with and without them.<br>
+      That turns "my gear is broken" into a number.</div>`;
+    return;
+  }
+  const wr = arr => (arr.length ? pct(arr.filter(x => x.result === "W").length, arr.length) : null);
+  const counts = {};
+  broken.forEach(x => tags[x.id].issues.forEach(i => (counts[i] = (counts[i] || 0) + 1)));
+  const cw = wr(clean), bw = wr(broken);
+  const card = (k, v, note, cls = "") =>
+    `<div class="card"><div class="k">${k}</div><div class="v ${cls}">${v}</div><div class="n">${note}</div></div>`;
+
+  el("issues").innerHTML =
+    `<div class="cards">` +
+    card("Games with a problem", broken.length ? pct(broken.length, tagged.length) + "%" : "0%",
+         `${broken.length} of ${tagged.length} tagged`, broken.length / Math.max(1, tagged.length) > 0.25 ? "bad" : "") +
+    card("Winrate — clean", cw === null ? "—" : cw + "%", `${clean.length} games`, "good") +
+    card("Winrate — broken", bw === null ? "—" : bw + "%", `${broken.length} games`, "bad") +
+    card("The gap", cw !== null && bw !== null ? (cw - bw > 0 ? "+" : "") + (cw - bw) + " pts" : "—",
+         "clean minus broken", "warn") +
+    `</div>` +
+    (Object.keys(counts).length
+      ? `<div class="bars" style="margin-top:14px">` +
+        Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([k, v]) =>
+          `<div class="bar"><div>${k}</div><div class="track"><div class="fill"
+            style="width:${(v / Math.max(...Object.values(counts))) * 100}%"></div></div>
+            <div class="mono">${v} · ${pct(v, tagged.length)}%</div></div>`).join("") + `</div>`
+      : "");
+}
+
+function renderRows(g) {
+  const rows = [...g].reverse().map(x => {
+    const mateG = x.mates.reduce((a, m) => a + m.goals, 0);
+    const t = tags[x.id];
+    return `<tr class="game" data-id="${x.id}">
+      <td class="mono">${(x.date || "").replace(/-(\d\d)-(\d\d)$/, ":$1:$2")}</td>
+      <td>${x.playlist}</td>
+      <td class="mono">${x.for}-${x.against}</td>
+      <td class="${x.result}">${x.result}</td>
+      <td>${x.me.goals}</td><td>${x.me.assists}</td><td>${x.me.saves}</td><td>${x.me.shots}</td>
+      <td>${x.me.points}</td>
+      <td>${x.mates.length ? `${x.me.goals}<span style="color:var(--muted)"> v </span>${mateG}` : "—"}</td>
+      <td>${t?.state ? `<span style="color:var(--accent2)">${t.state}</span>` : ""}${
+        t?.issues?.length ? ` <span style="color:var(--loss)" title="${t.issues.join(', ')}">⚠${t.issues.length}</span>` : ""}</td>
+    </tr>
+    <tr class="detail" id="d-${x.id}" style="display:none"><td colspan="11"></td></tr>`;
+  }).join("");
+  el("rows").innerHTML = rows || `<tr><td colspan="11" class="empty">Nothing here.</td></tr>`;
+
+  el("rows").onclick = e => {
+    const tr = e.target.closest("tr.game");
+    if (!tr) return;
+    const id = tr.dataset.id;
+    const d = document.getElementById("d-" + id);
+    if (d.style.display === "none") { d.style.display = ""; drawDetail(id, d.firstElementChild); }
+    else d.style.display = "none";
+  };
+}
+
+function drawDetail(id, cell) {
+  const game = data.games.find(x => x.id === id);
+  const t = tagFor(id);
+  const conceded = game.goals_timeline.filter(g => !g.mine);
+  const mm = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+
+  cell.innerHTML =
+    `<div class="state"><span style="color:var(--muted)">state:</span>
+      ${["sober", "high"].map(s => `<button data-state="${s}" class="${t.state === s ? "on" : ""}">${s}</button>`).join("")}
+     </div>
+     <div class="state"><span style="color:var(--muted)">problems:</span>
+      ${ISSUES.map(s => `<button data-issue="${s}" class="${t.issues.includes(s) ? "on issue" : ""}">${s}</button>`).join("")}
+     </div>` +
+    (conceded.length
+      ? conceded.map((g, i) => `<div class="goal"><span class="t">${mm(g.second)}</span>
+          <span style="color:var(--muted);width:120px">${g.scorer || "—"}</span>
+          ${REASONS.map(r => `<button data-goal="${i}" data-reason="${r}" class="${t.goals[i] === r ? "on" : ""}">${r}</button>`).join("")}
+        </div>`).join("")
+      : `<div style="color:var(--muted)">Clean sheet. Nothing to explain.</div>`);
+
+  cell.onclick = e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.state) t.state = t.state === b.dataset.state ? null : b.dataset.state;
+    else if (b.dataset.issue) {
+      const i = t.issues.indexOf(b.dataset.issue);
+      i === -1 ? t.issues.push(b.dataset.issue) : t.issues.splice(i, 1);
+    } else {
+      const i = b.dataset.goal;
+      t.goals[i] = t.goals[i] === b.dataset.reason ? undefined : b.dataset.reason;
+    }
+    saveTags(); drawDetail(id, cell); render(false);
+  };
+}
+
+function render(rebuildRows = true) {
+  const g = filtered();
+  renderCards(g); renderChart(g); renderReasons(g); renderIssues(g);
+  if (rebuildRows) renderRows(g);
+}
+
+if (!data) {
+  el("sub").innerHTML = `Couldn't find <code>ledger.js</code>. Run <code>python rl_watch.py</code> first.`;
+} else {
+  el("sub").innerHTML = `<b>${data.player}</b> · ${data.games.length} games ·
+    updated ${new Date(data.generated * 1000).toLocaleString()} ·
+    re-run <code>rl_watch.py</code> and refresh for new games`;
+  buildControls(); render();
+}
+</script>
+</body>
+</html>

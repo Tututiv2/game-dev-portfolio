@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SplitCast - connect YouTube</title>
+<style>
+  body { background:#0e1015; color:#e7e9ee; font-family:"Segoe UI",system-ui,sans-serif;
+         display:grid; place-items:center; height:100vh; margin:0; text-align:center; }
+  .box { max-width:34rem; padding:2rem 2.5rem; background:#171a22;
+         border:1px solid #2a2e3a; border-radius:14px; }
+  h1 { font-size:1.4rem; margin:0 0 .5rem; }
+  p { color:#9aa2b4; line-height:1.55; }
+  a.go { display:inline-block; margin-top:1.2rem; background:#ff4e45; color:#fff;
+         text-decoration:none; font-weight:700; padding:.8rem 1.6rem; border-radius:.6rem; }
+</style>
+<div class="box">
+  <h1>Connect YouTube to SplitCast</h1>
+  <p>Make sure this browser is signed into the account that owns your
+     YouTube channel, then click below.</p>
+  <a class="go" href="https://accounts.google.com/o/oauth2/v2/auth?client_id=302415812413-umk4aj1ghd5df9sm715bl91uhahf77v0.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A5584%2Fauth&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&code_challenge=ENriv-lr0QB2oFLNQtRJvtAiaOqo_-j75QMMbBZoTRc&code_challenge_method=S256&access_type=offline&prompt=consent">Sign in with Google</a>
+  <p style="margin-top:1.2rem;font-size:.85em">Clicking the link avoids copying
+     the address by hand, which is what breaks it.</p>
+</div>

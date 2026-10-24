@@ -1,0 +1,410 @@
+[
+ {
+  "id": "hunting_abysmal_lasso",
+  "type": "CRAFTING",
+  "result": "ABYSMAL_LASSO",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:1",
+   "VINESAP:1",
+   "",
+   "VINESAP:1",
+   "VINESAP:1",
+   "VINESAP:1",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_vinerip_lasso",
+  "type": "CRAFTING",
+  "result": "VINERIP_LASSO",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:4",
+   "VINESAP:4",
+   "",
+   "ABYSMAL_LASSO:1",
+   "VINESAP:4",
+   "ENCHANTED_MANGROVE_LOG:1",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_entangler_lasso",
+  "type": "CRAFTING",
+  "result": "ENTANGLER_LASSO",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:32",
+   "VINESAP:32",
+   "",
+   "VINERIP_LASSO:1",
+   "VINESAP:32",
+   "MANGCORE:1",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_everstretch_lasso",
+  "type": "CRAFTING",
+  "result": "EVERSTRETCH_LASSO",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_VINESAP:1",
+   "ENCHANTED_VINESAP:1",
+   "",
+   "ENTANGLER_LASSO:1",
+   "ENCHANTED_VINESAP:1",
+   "MANGCORE:8",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_basic_fishing_net",
+  "type": "CRAFTING",
+  "result": "BASIC_FISHING_NET",
+  "amount": 1,
+  "grid": [
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4",
+   "",
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4",
+   "SEA_LUMIES:4"
+  ]
+ },
+ {
+  "id": "hunting_medium_fishing_net",
+  "type": "CRAFTING",
+  "result": "MEDIUM_FISHING_NET",
+  "amount": 1,
+  "grid": [
+   "FLEXBONE:4",
+   "ENCHANTED_SEA_LUMIES:2",
+   "FLEXBONE:4",
+   "ENCHANTED_SEA_LUMIES:2",
+   "BASIC_FISHING_NET:1",
+   "ENCHANTED_SEA_LUMIES:2",
+   "STURDY_BONE:16",
+   "ENCHANTED_SEA_LUMIES:2",
+   "STURDY_BONE:16"
+  ]
+ },
+ {
+  "id": "hunting_turbo_fishing_net",
+  "type": "CRAFTING",
+  "result": "TURBO_FISHING_NET",
+  "amount": 1,
+  "grid": [
+   "FLEXBONE:16",
+   "ENCHANTED_SEA_LUMIES:8",
+   "FLEXBONE:16",
+   "ENCHANTED_SEA_LUMIES:8",
+   "MEDIUM_FISHING_NET:1",
+   "ENCHANTED_SEA_LUMIES:8",
+   "STURDY_BONE:64",
+   "ENCHANTED_SEA_LUMIES:8",
+   "STURDY_BONE:64"
+  ]
+ },
+ {
+  "id": "hunting_gigantic_fishing_net",
+  "type": "CRAFTING",
+  "result": "GIGANTIC_FISHING_NET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SEA_LUMIES:32",
+   "REINFORCED_NETTING:1",
+   "ENCHANTED_SEA_LUMIES:32",
+   "SUBLIME_SILK:16",
+   "TURBO_FISHING_NET:1",
+   "SUBLIME_SILK:16",
+   "ENCHANTED_SEA_LUMIES:32",
+   "FLEXBONE:64",
+   "ENCHANTED_SEA_LUMIES:32"
+  ]
+ },
+ {
+  "id": "hunting_large_pocket_black_hole",
+  "type": "CRAFTING",
+  "result": "LARGE_POCKET_BLACK_HOLE",
+  "amount": 1,
+  "grid": [
+   "VEILSHROOM_BUNCH:1",
+   "BOTTLED_MISCHIEF:8",
+   "VEILSHROOM_BUNCH:1",
+   "HELIXIS:1",
+   "MEDIUM_POCKET_BLACK_HOLE:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1"
+  ]
+ },
+ {
+  "id": "hunting_venator_genesis",
+  "type": "CRAFTING",
+  "result": "VENATOR_GENESIS",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:1",
+   "VINESAP:1",
+   "",
+   "STRETCHING_STICKS:1",
+   "VINESAP:1",
+   "",
+   "STRETCHING_STICKS:1",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_silva_dominus",
+  "type": "CRAFTING",
+  "result": "SILVA_DOMINUS",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:16",
+   "VINESAP:16",
+   "",
+   "VENATOR_GENESIS:1",
+   "VINESAP:16",
+   "",
+   "STRETCHING_STICKS:8",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_cursus_ferae",
+  "type": "CRAFTING",
+  "result": "CURSUS_FERAE",
+  "amount": 1,
+  "grid": [
+   "",
+   "VINESAP:64",
+   "VINESAP:64",
+   "",
+   "SILVA_DOMINUS:1",
+   "VINESAP:64",
+   "",
+   "STRETCHING_STICKS:16",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_apex_praedator",
+  "type": "CRAFTING",
+  "result": "APEX_PRAEDATOR",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_VINESAP:1",
+   "ENCHANTED_VINESAP:1",
+   "",
+   "CURSUS_FERAE:1",
+   "ENCHANTED_VINESAP:1",
+   "",
+   "STRETCHING_STICKS:32",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_nex_titanum",
+  "type": "CRAFTING",
+  "result": "NEX_TITANUM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_VINESAP:2",
+   "ENCHANTED_VINESAP:2",
+   "",
+   "APEX_PRAEDATOR:1",
+   "ENCHANTED_VINESAP:2",
+   "",
+   "STRETCHING_STICKS:64",
+   ""
+  ]
+ },
+ {
+  "id": "hunting_retia_basica",
+  "type": "CRAFTING",
+  "result": "RETIA_BASICA",
+  "amount": 1,
+  "grid": [
+   "TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:1",
+   "TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:1",
+   "",
+   "ENCHANTED_FIG_LOG:1",
+   "TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:1",
+   "TENDER_WOOD:1"
+  ]
+ },
+ {
+  "id": "hunting_retia_meliora",
+  "type": "CRAFTING",
+  "result": "RETIA_MELIORA",
+  "amount": 1,
+  "grid": [
+   "TENDER_WOOD:8",
+   "ENCHANTED_FIG_LOG:4",
+   "TENDER_WOOD:8",
+   "ENCHANTED_FIG_LOG:4",
+   "RETIA_BASICA:1",
+   "ENCHANTED_FIG_LOG:4",
+   "TENDER_WOOD:8",
+   "ENCHANTED_FIG_LOG:4",
+   "TENDER_WOOD:8"
+  ]
+ },
+ {
+  "id": "hunting_retia_robusta",
+  "type": "CRAFTING",
+  "result": "RETIA_ROBUSTA",
+  "amount": 1,
+  "grid": [
+   "TENDER_WOOD:32",
+   "ENCHANTED_FIG_LOG:8",
+   "TENDER_WOOD:32",
+   "ENCHANTED_FIG_LOG:8",
+   "RETIA_MELIORA:1",
+   "ENCHANTED_FIG_LOG:8",
+   "TENDER_WOOD:32",
+   "ENCHANTED_FIG_LOG:8",
+   "TENDER_WOOD:32"
+  ]
+ },
+ {
+  "id": "hunting_retia_forta",
+  "type": "CRAFTING",
+  "result": "RETIA_FORTA",
+  "amount": 1,
+  "grid": [
+   "TENDER_WOOD:64",
+   "ENCHANTED_FIG_LOG:16",
+   "TENDER_WOOD:64",
+   "ENCHANTED_FIG_LOG:16",
+   "RETIA_ROBUSTA:1",
+   "ENCHANTED_FIG_LOG:16",
+   "TENDER_WOOD:64",
+   "ENCHANTED_FIG_LOG:16",
+   "TENDER_WOOD:64"
+  ]
+ },
+ {
+  "id": "hunting_retia_suprema",
+  "type": "CRAFTING",
+  "result": "RETIA_SUPREMA",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:32",
+   "ENCHANTED_TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:32",
+   "RETIA_FORTA:1",
+   "ENCHANTED_FIG_LOG:32",
+   "ENCHANTED_TENDER_WOOD:1",
+   "ENCHANTED_FIG_LOG:32",
+   "ENCHANTED_TENDER_WOOD:1"
+  ]
+ },
+ {
+  "id": "hunting_lushlilac_bonbon",
+  "type": "CRAFTING",
+  "result": "LUSHLILAC_BONBON",
+  "amount": 1,
+  "grid": [
+   "LUSHLILAC:1",
+   "SEA_LUMIES:1",
+   "LUSHLILAC:1",
+   "SEA_LUMIES:1",
+   "",
+   "SEA_LUMIES:1",
+   "LUSHLILAC:1",
+   "SEA_LUMIES:1",
+   "LUSHLILAC:1"
+  ]
+ },
+ {
+  "id": "hunting_prime_lushlilac_bonbon",
+  "type": "CRAFTING",
+  "result": "PRIME_LUSHLILAC_BONBON",
+  "amount": 1,
+  "grid": [
+   "SEA_LUMIES:16",
+   "LUSHLILAC:3",
+   "SEA_LUMIES:16",
+   "LUSHLILAC:3",
+   "",
+   "LUSHLILAC:3",
+   "SEA_LUMIES:16",
+   "LUSHLILAC:3",
+   "SEA_LUMIES:16"
+  ]
+ },
+ {
+  "id": "hunting_exalted_lushlilac_bonbon",
+  "type": "CRAFTING",
+  "result": "EXALTED_LUSHLILAC_BONBON",
+  "amount": 1,
+  "grid": [
+   "LUSHLILAC:16",
+   "ENCHANTED_SEA_LUMIES:1",
+   "LUSHLILAC:16",
+   "ENCHANTED_SEA_LUMIES:1",
+   "",
+   "ENCHANTED_SEA_LUMIES:1",
+   "LUSHLILAC:16",
+   "ENCHANTED_SEA_LUMIES:1",
+   "LUSHLILAC:16"
+  ]
+ },
+ {
+  "id": "hunting_oceandy",
+  "type": "CRAFTING",
+  "result": "OCEANDY",
+  "amount": 1,
+  "grid": [
+   "LUSHLILAC:1",
+   "WET_WATER:1",
+   "LUSHLILAC:1",
+   "WET_WATER:1",
+   "",
+   "WET_WATER:1",
+   "LUSHLILAC:1",
+   "WET_WATER:1",
+   "LUSHLILAC:1"
+  ]
+ },
+ {
+  "id": "hunting_brine_tonic",
+  "type": "CRAFTING",
+  "result": "BRINE_TONIC",
+  "amount": 1,
+  "grid": [
+   "LUSHLILAC:8",
+   "WET_WATER:8",
+   "LUSHLILAC:8",
+   "WET_WATER:8",
+   "SEA_BRINE:1",
+   "WET_WATER:8",
+   "LUSHLILAC:8",
+   "WET_WATER:8",
+   "LUSHLILAC:8"
+  ]
+ }
+]

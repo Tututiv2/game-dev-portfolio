@@ -1,0 +1,114 @@
+[
+ {
+  "id": "community_shop",
+  "name": "&fCommunity Shop",
+  "island": "hub",
+  "category": "Economy",
+  "icon": "EMERALD",
+  "command": "cshop",
+  "owner": "bank",
+  "about": "Boon Cookies, the Bits shop and account upgrades, in the Community Center.",
+  "args": []
+ },
+ {
+  "id": "pet_sitter",
+  "name": "&fPet Sitter",
+  "island": "hub",
+  "category": "Pets",
+  "icon": "BONE",
+  "command": "petsitter",
+  "owner": "pets",
+  "about": "Pet rarity upgrades and pet supplies.",
+  "args": []
+ },
+ {
+  "id": "medal_exchange",
+  "name": "&fMedal Exchange",
+  "island": "hub",
+  "category": "Farming",
+  "icon": "GOLD_INGOT",
+  "command": "medals",
+  "owner": "farming",
+  "about": "Trade Harvest Fair medals for farming gear.",
+  "args": []
+ },
+ {
+  "id": "chocolate_shop",
+  "name": "&fChocolate Shop",
+  "island": "hub",
+  "category": "Events",
+  "icon": "COCOA_BEANS",
+  "command": "chocshop",
+  "owner": "chocolate",
+  "about": "Spend the chocolate your factory makes.",
+  "args": []
+ },
+ {
+  "id": "spooky_shop",
+  "name": "&fFestival Candy Stall",
+  "island": "hub",
+  "category": "Events",
+  "icon": "JACK_O_LANTERN",
+  "command": "spooky",
+  "owner": "mayors",
+  "about": "Candy goods, while the Spooky Festival runs.",
+  "args": []
+ },
+ {
+  "id": "travelling_zoo",
+  "name": "&fTravelling Zoo",
+  "island": "hub",
+  "category": "Events",
+  "icon": "LEAD",
+  "command": "zoo",
+  "owner": "mayors",
+  "about": "Pets for sale, when the zoo is in town.",
+  "args": []
+ },
+ {
+  "id": "carnival_stall",
+  "name": "&fCarnival Stall",
+  "island": "hub",
+  "category": "Events",
+  "icon": "CAKE",
+  "command": "carnival",
+  "owner": "mayors",
+  "about": "Masks and tickets, while the carnival is in town.",
+  "args": []
+ },
+ {
+  "id": "pickaxe_smith",
+  "name": "&fPickaxe Smith",
+  "island": "dwarven_mines",
+  "category": "Mining",
+  "icon": "IRON_PICKAXE",
+  "command": "pickaxesmith",
+  "owner": "mining",
+  "about": "Pickaxes and their upgrades.",
+  "args": []
+ },
+ {
+  "id": "faction_quartermaster",
+  "name": "&fFaction Quartermaster",
+  "island": "crimson_isle",
+  "category": "Combat",
+  "icon": "BLAZE_POWDER",
+  "command": "factionshop",
+  "owner": "crimson",
+  "about": "Your own faction's goods.",
+  "args": []
+ },
+ {
+  "id": "dungeon_shop",
+  "name": "&fDungeon Supplies",
+  "island": "dungeon_hub",
+  "category": "Dungeons",
+  "icon": "WITHER_SKELETON_SKULL",
+  "command": "dungeons",
+  "args": [
+   "shop"
+  ],
+  "owner": "dungeons",
+  "about": "Supplies for the Catacombs."
+ }
+]

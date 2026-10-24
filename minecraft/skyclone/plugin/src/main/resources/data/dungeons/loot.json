@@ -1,0 +1,3848 @@
+{
+ "chestOrder": [
+  "WOOD",
+  "GOLD",
+  "DIAMOND",
+  "EMERALD",
+  "OBSIDIAN",
+  "BEDROCK"
+ ],
+ "unlock": {
+  "WOOD": "milestone:2",
+  "GOLD": "boss",
+  "DIAMOND": "boss",
+  "EMERALD": "score:230",
+  "OBSIDIAN": "score:270",
+  "BEDROCK": "score:300"
+ },
+ "floors": {
+  "E": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 1,
+     "witherMin": 1,
+     "witherMax": 1,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 10000,
+     "undead": 1,
+     "witherMin": 1,
+     "witherMax": 1,
+     "slots": 2
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_1",
+     "amount": 1,
+     "rng": 8000,
+     "minChest": "WOOD",
+     "weight": 125.0,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_6",
+     "amount": 1,
+     "rng": 6000,
+     "minChest": "WOOD",
+     "weight": 166.67,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_6",
+     "amount": 1,
+     "rng": 6000,
+     "minChest": "WOOD",
+     "weight": 166.67,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5000,
+     "minChest": "WOOD",
+     "weight": 200.0,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 3000,
+     "minChest": "WOOD",
+     "weight": 333.33,
+     "cost": 0
+    },
+    {
+     "item": "SPIRIT_LEAP",
+     "amount": 4,
+     "rng": 2000,
+     "minChest": "GOLD",
+     "weight": 500.0,
+     "cost": 0
+    },
+    {
+     "item": "SUPERBOOM_TNT",
+     "amount": 8,
+     "rng": 2000,
+     "minChest": "GOLD",
+     "weight": 500.0,
+     "cost": 0
+    },
+    {
+     "item": "REVIVE_STONE",
+     "amount": 1,
+     "rng": 9000,
+     "minChest": "GOLD",
+     "weight": 111.11,
+     "cost": 0
+    }
+   ]
+  },
+  "F1": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 3,
+     "witherMin": 4,
+     "witherMax": 4,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 25000,
+     "undead": 3,
+     "witherMin": 3,
+     "witherMax": 3,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 50000,
+     "undead": 4,
+     "witherMin": 3,
+     "witherMax": 3,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 100000,
+     "undead": 6,
+     "witherMin": 4,
+     "witherMax": 4,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 250000,
+     "undead": 8,
+     "witherMin": 5,
+     "witherMax": 5,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 1272,
+     "minChest": "WOOD",
+     "weight": 786.164,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 2120,
+     "minChest": "WOOD",
+     "weight": 471.698,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 2120,
+     "minChest": "WOOD",
+     "weight": 471.698,
+     "cost": 0
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 3180,
+     "minChest": "GOLD",
+     "weight": 314.465,
+     "cost": 240000
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_6",
+     "amount": 1,
+     "rng": 3975,
+     "minChest": "WOOD",
+     "weight": 251.572,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_6",
+     "amount": 1,
+     "rng": 3975,
+     "minChest": "WOOD",
+     "weight": 251.572,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 6360,
+     "minChest": "WOOD",
+     "weight": 157.233,
+     "cost": 0
+    },
+    {
+     "item": "BALLOON_SNAKE",
+     "amount": 1,
+     "rng": 7950,
+     "minChest": "DIAMOND",
+     "weight": 125.786,
+     "cost": 490000
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 10599,
+     "minChest": "DIAMOND",
+     "weight": 94.349,
+     "cost": 620000
+    },
+    {
+     "item": "BONZO_MASK",
+     "amount": 1,
+     "rng": 10599,
+     "minChest": "DIAMOND",
+     "weight": 94.349,
+     "cost": 620000
+    },
+    {
+     "item": "RED_NOSE",
+     "amount": 1,
+     "rng": 10599,
+     "minChest": "DIAMOND",
+     "weight": 94.349,
+     "cost": 620000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 15900,
+     "minChest": "GOLD",
+     "weight": 62.893,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_1",
+     "amount": 1,
+     "rng": 15900,
+     "minChest": "GOLD",
+     "weight": 62.893,
+     "cost": 0
+    },
+    {
+     "item": "BONZO_STAFF",
+     "amount": 1,
+     "rng": 31800,
+     "minChest": "OBSIDIAN",
+     "weight": 31.447,
+     "cost": 1500000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_1",
+     "amount": 1,
+     "rng": 31800,
+     "minChest": "GOLD",
+     "weight": 31.447,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_BONZO_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 75000,
+     "gate": "collection:BOSS_BONZO:3"
+    },
+    {
+     "item": "DIAMOND_BONZO_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 180000,
+     "gate": "collection:BOSS_BONZO:6"
+    }
+   ]
+  },
+  "F2": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 5,
+     "witherMin": 6,
+     "witherMax": 6,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 50000,
+     "undead": 6,
+     "witherMin": 5,
+     "witherMax": 5,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 100000,
+     "undead": 9,
+     "witherMin": 6,
+     "witherMax": 6,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 200000,
+     "undead": 11,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 500000,
+     "undead": 16,
+     "witherMin": 10,
+     "witherMax": 10,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 1260,
+     "minChest": "WOOD",
+     "weight": 793.651,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 1890,
+     "minChest": "WOOD",
+     "weight": 529.101,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 3780,
+     "minChest": "WOOD",
+     "weight": 264.55,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 3780,
+     "minChest": "WOOD",
+     "weight": 264.55,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 3780,
+     "minChest": "WOOD",
+     "weight": 264.55,
+     "cost": 0
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 3780,
+     "minChest": "DIAMOND",
+     "weight": 264.55,
+     "cost": 690000
+    },
+    {
+     "item": "SCARF_STUDIES",
+     "amount": 1,
+     "rng": 4725,
+     "minChest": "DIAMOND",
+     "weight": 211.64,
+     "cost": 820000
+    },
+    {
+     "item": "ADAPTIVE_BELT",
+     "amount": 1,
+     "rng": 6300,
+     "minChest": "DIAMOND",
+     "weight": 158.73,
+     "cost": 1000000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 6300,
+     "minChest": "GOLD",
+     "weight": 158.73,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 9450,
+     "minChest": "EMERALD",
+     "weight": 105.82,
+     "cost": 1400000
+    },
+    {
+     "item": "STONE_BLADE",
+     "amount": 1,
+     "rng": 9450,
+     "minChest": "EMERALD",
+     "weight": 105.82,
+     "cost": 1400000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_1",
+     "amount": 1,
+     "rng": 9450,
+     "minChest": "GOLD",
+     "weight": 105.82,
+     "cost": 0
+    },
+    {
+     "item": "RED_SCARF",
+     "amount": 1,
+     "rng": 18900,
+     "minChest": "OBSIDIAN",
+     "weight": 52.91,
+     "cost": 2500000
+    },
+    {
+     "item": "GOLD_SCARF_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 120000,
+     "gate": "collection:BOSS_SCARF:3"
+    },
+    {
+     "item": "DIAMOND_SCARF_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 300000,
+     "gate": "collection:BOSS_SCARF:6"
+    }
+   ]
+  },
+  "F3": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 5,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 9,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 250000,
+     "undead": 13,
+     "witherMin": 9,
+     "witherMax": 9,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 500000,
+     "undead": 17,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 24,
+     "witherMin": 15,
+     "witherMax": 15,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+     "amount": 1,
+     "rng": 2175,
+     "minChest": "WOOD",
+     "weight": 459.77,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_2",
+     "amount": 1,
+     "rng": 2175,
+     "minChest": "WOOD",
+     "weight": 459.77,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 3262,
+     "minChest": "WOOD",
+     "weight": 306.56,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_2",
+     "amount": 1,
+     "rng": 3262,
+     "minChest": "WOOD",
+     "weight": 306.56,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+     "amount": 1,
+     "rng": 3262,
+     "minChest": "WOOD",
+     "weight": 306.56,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5220,
+     "minChest": "WOOD",
+     "weight": 191.571,
+     "cost": 0
+    },
+    {
+     "item": "SUSPICIOUS_VIAL",
+     "amount": 1,
+     "rng": 5220,
+     "minChest": "DIAMOND",
+     "weight": 191.571,
+     "cost": 1100000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 5220,
+     "minChest": "WOOD",
+     "weight": 191.571,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 5220,
+     "minChest": "WOOD",
+     "weight": 191.571,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 6525,
+     "minChest": "DIAMOND",
+     "weight": 153.257,
+     "cost": 1300000
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 6525,
+     "minChest": "DIAMOND",
+     "weight": 153.257,
+     "cost": 1300000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 8700,
+     "minChest": "GOLD",
+     "weight": 114.943,
+     "cost": 0
+    },
+    {
+     "item": "ADAPTIVE_HELMET",
+     "amount": 1,
+     "rng": 13050,
+     "minChest": "EMERALD",
+     "weight": 76.628,
+     "cost": 2300000
+    },
+    {
+     "item": "ADAPTIVE_BOOTS",
+     "amount": 1,
+     "rng": 13050,
+     "minChest": "EMERALD",
+     "weight": 76.628,
+     "cost": 2300000
+    },
+    {
+     "item": "ADAPTIVE_CHESTPLATE",
+     "amount": 1,
+     "rng": 26100,
+     "minChest": "OBSIDIAN",
+     "weight": 38.314,
+     "cost": 4000000
+    },
+    {
+     "item": "ADAPTIVE_LEGGINGS",
+     "amount": 1,
+     "rng": 26100,
+     "minChest": "OBSIDIAN",
+     "weight": 38.314,
+     "cost": 4000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_2",
+     "amount": 1,
+     "rng": 26100,
+     "minChest": "GOLD",
+     "weight": 38.314,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_PROFESSOR_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 200000,
+     "gate": "collection:BOSS_THE_PROFESSOR:3"
+    },
+    {
+     "item": "DIAMOND_PROFESSOR_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 480000,
+     "gate": "collection:BOSS_THE_PROFESSOR:6"
+    }
+   ]
+  },
+  "F4": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 11,
+     "witherMin": 10,
+     "witherMax": 10,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 250000,
+     "undead": 17,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 500000,
+     "undead": 23,
+     "witherMin": 16,
+     "witherMax": 16,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 31,
+     "witherMin": 20,
+     "witherMax": 20,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+     "amount": 1,
+     "rng": 2075,
+     "minChest": "WOOD",
+     "weight": 481.928,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_2",
+     "amount": 1,
+     "rng": 2075,
+     "minChest": "WOOD",
+     "weight": 481.928,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 3112,
+     "minChest": "WOOD",
+     "weight": 321.337,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_2",
+     "amount": 1,
+     "rng": 3112,
+     "minChest": "WOOD",
+     "weight": 321.337,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+     "amount": 1,
+     "rng": 3112,
+     "minChest": "WOOD",
+     "weight": 321.337,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4979,
+     "minChest": "WOOD",
+     "weight": 200.844,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 4979,
+     "minChest": "WOOD",
+     "weight": 200.844,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 4979,
+     "minChest": "WOOD",
+     "weight": 200.844,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 8300,
+     "minChest": "DIAMOND",
+     "weight": 120.482,
+     "cost": 3300000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 8300,
+     "minChest": "GOLD",
+     "weight": 120.482,
+     "cost": 0
+    },
+    {
+     "item": "SPIRIT_WING",
+     "amount": 1,
+     "rng": 12449,
+     "minChest": "EMERALD",
+     "weight": 80.328,
+     "cost": 4600000
+    },
+    {
+     "item": "SPIRIT_BONE",
+     "amount": 1,
+     "rng": 12449,
+     "minChest": "EMERALD",
+     "weight": 80.328,
+     "cost": 4600000
+    },
+    {
+     "item": "SPIRIT_DECOY",
+     "amount": 1,
+     "rng": 12449,
+     "minChest": "EMERALD",
+     "weight": 80.328,
+     "cost": 4600000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_REND_2",
+     "amount": 1,
+     "rng": 12449,
+     "minChest": "GOLD",
+     "weight": 80.328,
+     "cost": 0
+    },
+    {
+     "item": "SPIRIT_SWORD",
+     "amount": 1,
+     "rng": 24899,
+     "minChest": "OBSIDIAN",
+     "weight": 40.162,
+     "cost": 8000000
+    },
+    {
+     "item": "ITEM_SPIRIT_BOW",
+     "amount": 1,
+     "rng": 24899,
+     "minChest": "OBSIDIAN",
+     "weight": 40.162,
+     "cost": 8000000
+    },
+    {
+     "item": "THORNS_BOOTS",
+     "amount": 1,
+     "rng": 24899,
+     "minChest": "OBSIDIAN",
+     "weight": 40.162,
+     "cost": 8000000
+    },
+    {
+     "item": "SPIRIT;4",
+     "amount": 1,
+     "rng": 24899,
+     "minChest": "OBSIDIAN",
+     "weight": 40.162,
+     "cost": 8000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_2",
+     "amount": 1,
+     "rng": 24899,
+     "minChest": "GOLD",
+     "weight": 40.162,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_THORN_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 400000,
+     "gate": "collection:BOSS_THORN:3"
+    },
+    {
+     "item": "DIAMOND_THORN_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 960000,
+     "gate": "collection:BOSS_THORN:6"
+    }
+   ]
+  },
+  "F5": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 10,
+     "witherMax": 10,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 15,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 250000,
+     "undead": 20,
+     "witherMin": 14,
+     "witherMax": 14,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 500000,
+     "undead": 25,
+     "witherMin": 18,
+     "witherMax": 18,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 35,
+     "witherMin": 24,
+     "witherMax": 24,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 2000000,
+     "undead": 45,
+     "witherMin": 34,
+     "witherMax": 34,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 2540,
+     "minChest": "WOOD",
+     "weight": 393.701,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 2540,
+     "minChest": "WOOD",
+     "weight": 393.701,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 2857,
+     "minChest": "WOOD",
+     "weight": 350.018,
+     "cost": 0
+    },
+    {
+     "item": "DARK_ORB",
+     "amount": 1,
+     "rng": 3810,
+     "minChest": "GOLD",
+     "weight": 262.467,
+     "cost": 990000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 4572,
+     "minChest": "WOOD",
+     "weight": 218.723,
+     "cost": 0
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_OVERLOAD_1",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LEGION_1",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_LETHALITY_6",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 5715,
+     "minChest": "WOOD",
+     "weight": 174.978,
+     "cost": 0
+    },
+    {
+     "item": "SHADOW_ASSASSIN_BOOTS",
+     "amount": 1,
+     "rng": 7620,
+     "minChest": "GOLD",
+     "weight": 131.234,
+     "cost": 1700000
+    },
+    {
+     "item": "SHADOW_ASSASSIN_HELMET",
+     "amount": 1,
+     "rng": 11430,
+     "minChest": "GOLD",
+     "weight": 87.489,
+     "cost": 2400000
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 19050,
+     "minChest": "DIAMOND",
+     "weight": 52.493,
+     "cost": 3600000
+    },
+    {
+     "item": "SHADOW_ASSASSIN_LEGGINGS",
+     "amount": 1,
+     "rng": 22860,
+     "minChest": "DIAMOND",
+     "weight": 43.745,
+     "cost": 4100000
+    },
+    {
+     "item": "SHADOW_ASSASSIN_CLOAK",
+     "amount": 1,
+     "rng": 22860,
+     "minChest": "DIAMOND",
+     "weight": 43.745,
+     "cost": 4100000
+    },
+    {
+     "item": "LIVID_DAGGER",
+     "amount": 1,
+     "rng": 28575,
+     "minChest": "DIAMOND",
+     "weight": 34.996,
+     "cost": 4900000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 28575,
+     "minChest": "WOOD",
+     "weight": 34.996,
+     "cost": 0
+    },
+    {
+     "item": "SHADOW_ASSASSIN_CHESTPLATE",
+     "amount": 1,
+     "rng": 57150,
+     "minChest": "EMERALD",
+     "weight": 17.498,
+     "cost": 8600000
+    },
+    {
+     "item": "AOTE_STONE",
+     "amount": 1,
+     "rng": 57150,
+     "minChest": "EMERALD",
+     "weight": 17.498,
+     "cost": 8600000
+    },
+    {
+     "item": "SHADOW_FURY",
+     "amount": 1,
+     "rng": 114300,
+     "minChest": "BEDROCK",
+     "weight": 8.749,
+     "cost": 15000000
+    },
+    {
+     "item": "LAST_BREATH",
+     "amount": 1,
+     "rng": 114300,
+     "minChest": "BEDROCK",
+     "weight": 8.749,
+     "cost": 15000000
+    },
+    {
+     "item": "GOLD_LIVID_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 750000,
+     "gate": "collection:BOSS_LIVID:3"
+    },
+    {
+     "item": "DIAMOND_LIVID_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 1800000,
+     "gate": "collection:BOSS_LIVID:6"
+    },
+    {
+     "item": "DYE_LIVID",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "BEDROCK",
+     "weight": 0.1,
+     "cost": 0
+    }
+   ]
+  },
+  "F6": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 15,
+     "witherMin": 15,
+     "witherMax": 15,
+     "slots": 1
+    },
+    "DIAMOND": {
+     "cost": 250000,
+     "undead": 25,
+     "witherMin": 18,
+     "witherMax": 18,
+     "slots": 1
+    },
+    "EMERALD": {
+     "cost": 500000,
+     "undead": 35,
+     "witherMin": 21,
+     "witherMax": 21,
+     "slots": 1
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 45,
+     "witherMin": 28,
+     "witherMax": 28,
+     "slots": 1
+    },
+    "BEDROCK": {
+     "cost": 2000000,
+     "undead": 55,
+     "witherMin": 40,
+     "witherMax": 40,
+     "slots": 1
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 17.094,
+     "cost": 0,
+     "weights": {
+      "WOOD": 17.094,
+      "GOLD": 8.3333,
+      "DIAMOND": 7.9365,
+      "EMERALD": 8.0214
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 0.8547,
+     "cost": 0,
+     "weights": {
+      "WOOD": 0.8547,
+      "GOLD": 0.5556,
+      "DIAMOND": 0.5291
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_6",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 29.9145,
+     "cost": 0,
+     "weights": {
+      "WOOD": 29.9145,
+      "GOLD": 13.8889,
+      "DIAMOND": 13.2275,
+      "EMERALD": 10.6952
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_6",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 25.641,
+     "cost": 0,
+     "weights": {
+      "WOOD": 25.641,
+      "GOLD": 11.1111,
+      "DIAMOND": 10.582,
+      "EMERALD": 8.5561
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 25.641,
+     "cost": 0,
+     "weights": {
+      "WOOD": 25.641,
+      "GOLD": 22.2222,
+      "DIAMOND": 21.164
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0
+     }
+    },
+    {
+     "item": "ESSENCE_WITHER",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "WOOD",
+     "weight": 0.8547,
+     "cost": 0,
+     "weights": {
+      "WOOD": 0.8547,
+      "GOLD": 0.5556,
+      "DIAMOND": 0.5291,
+      "EMERALD": 0.5348,
+      "OBSIDIAN": 0.2232,
+      "BEDROCK": 0.0375
+     },
+     "costs": {
+      "WOOD": 0,
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_SWARM_1",
+     "amount": 1,
+     "rng": 5334,
+     "minChest": "GOLD",
+     "weight": 1.1111,
+     "cost": 400000,
+     "weights": {
+      "GOLD": 1.1111,
+      "DIAMOND": 3.1746,
+      "EMERALD": 4.2781,
+      "OBSIDIAN": 3.3482,
+      "BEDROCK": 5.6243
+     },
+     "costs": {
+      "GOLD": 400000,
+      "DIAMOND": 250000,
+      "EMERALD": 0,
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "GOLD",
+     "weight": 2.7778,
+     "cost": 0,
+     "weights": {
+      "GOLD": 2.7778,
+      "DIAMOND": 2.6455,
+      "EMERALD": 2.6738,
+      "OBSIDIAN": 8.9286
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "GIANT_TOOTH",
+     "amount": 1,
+     "rng": 16001,
+     "minChest": "GOLD",
+     "weight": 2.2222,
+     "cost": 400000,
+     "weights": {
+      "GOLD": 2.2222,
+      "DIAMOND": 3.7037,
+      "EMERALD": 4.2781,
+      "OBSIDIAN": 3.3482,
+      "BEDROCK": 1.8748
+     },
+     "costs": {
+      "GOLD": 400000,
+      "DIAMOND": 250000,
+      "EMERALD": 0,
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "GOLD",
+     "weight": 8.8889,
+     "cost": 0,
+     "weights": {
+      "GOLD": 8.8889,
+      "DIAMOND": 8.4656,
+      "EMERALD": 8.5561,
+      "OBSIDIAN": 8.9286
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "GOLD",
+     "weight": 8.8889,
+     "cost": 0,
+     "weights": {
+      "GOLD": 8.8889,
+      "DIAMOND": 8.4656,
+      "EMERALD": 2.6738,
+      "OBSIDIAN": 8.9286
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "GOLD",
+     "weight": 11.1111,
+     "cost": 0,
+     "weights": {
+      "GOLD": 11.1111,
+      "DIAMOND": 10.582,
+      "EMERALD": 10.6952,
+      "OBSIDIAN": 10.0446
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "GOLD",
+     "weight": 8.3333,
+     "cost": 0,
+     "weights": {
+      "GOLD": 8.3333,
+      "DIAMOND": 7.9365,
+      "EMERALD": 8.0214,
+      "OBSIDIAN": 10.0446
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "NECROMANCER_LORD_BOOTS",
+     "amount": 1,
+     "rng": 13334,
+     "minChest": "DIAMOND",
+     "weight": 1.0582,
+     "cost": 1250000,
+     "weights": {
+      "DIAMOND": 1.0582,
+      "EMERALD": 1.6043,
+      "OBSIDIAN": 1.3393,
+      "BEDROCK": 2.2497
+     },
+     "costs": {
+      "DIAMOND": 1250000,
+      "EMERALD": 1000000,
+      "OBSIDIAN": 500000,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "NECROMANCER_LORD_HELMET",
+     "amount": 1,
+     "rng": 20002,
+     "minChest": "EMERALD",
+     "weight": 1.0695,
+     "cost": 1500000,
+     "weights": {
+      "EMERALD": 1.0695,
+      "OBSIDIAN": 0.8929,
+      "BEDROCK": 1.4998
+     },
+     "costs": {
+      "EMERALD": 1500000,
+      "OBSIDIAN": 1000000,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "SADAN_BROOCH",
+     "amount": 1,
+     "rng": 20002,
+     "minChest": "EMERALD",
+     "weight": 1.0695,
+     "cost": 1000000,
+     "weights": {
+      "EMERALD": 1.0695,
+      "OBSIDIAN": 0.8929,
+      "BEDROCK": 1.4998
+     },
+     "costs": {
+      "EMERALD": 1000000,
+      "OBSIDIAN": 500000,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "EMERALD",
+     "weight": 0.5348,
+     "cost": 0,
+     "weights": {
+      "EMERALD": 0.5348,
+      "OBSIDIAN": 13.3929
+     },
+     "costs": {
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_2",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "EMERALD",
+     "weight": 13.369,
+     "cost": 0,
+     "weights": {
+      "EMERALD": 13.369,
+      "OBSIDIAN": 13.3929
+     },
+     "costs": {
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_2",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "EMERALD",
+     "weight": 13.369,
+     "cost": 0,
+     "weights": {
+      "EMERALD": 13.369,
+      "OBSIDIAN": 0.8929
+     },
+     "costs": {
+      "EMERALD": 0,
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "SUMMONING_RING",
+     "amount": 1,
+     "rng": 80010,
+     "minChest": "OBSIDIAN",
+     "weight": 0.2232,
+     "cost": 11000000,
+     "weights": {
+      "OBSIDIAN": 0.2232,
+      "BEDROCK": 0.375
+     },
+     "costs": {
+      "OBSIDIAN": 11000000,
+      "BEDROCK": 10000000
+     }
+    },
+    {
+     "item": "NECROMANCER_SWORD",
+     "amount": 1,
+     "rng": 40005,
+     "minChest": "OBSIDIAN",
+     "weight": 0.4464,
+     "cost": 9000000,
+     "weights": {
+      "OBSIDIAN": 0.4464,
+      "BEDROCK": 0.7499
+     },
+     "costs": {
+      "OBSIDIAN": 9000000,
+      "BEDROCK": 8000000
+     }
+    },
+    {
+     "item": "NECROMANCER_LORD_LEGGINGS",
+     "amount": 1,
+     "rng": 26669,
+     "minChest": "OBSIDIAN",
+     "weight": 0.6696,
+     "cost": 3000000,
+     "weights": {
+      "OBSIDIAN": 0.6696,
+      "BEDROCK": 1.1249
+     },
+     "costs": {
+      "OBSIDIAN": 3000000,
+      "BEDROCK": 2000000
+     }
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 8000,
+     "minChest": "OBSIDIAN",
+     "weight": 1.3393,
+     "cost": 5000000,
+     "weights": {
+      "OBSIDIAN": 1.3393,
+      "BEDROCK": 3.7495
+     },
+     "costs": {
+      "OBSIDIAN": 5000000,
+      "BEDROCK": 4000000
+     }
+    },
+    {
+     "item": "SOULWEAVER_GLOVES",
+     "amount": 1,
+     "rng": 26669,
+     "minChest": "OBSIDIAN",
+     "weight": 0.6696,
+     "cost": 4000000,
+     "weights": {
+      "OBSIDIAN": 0.6696,
+      "BEDROCK": 1.1249
+     },
+     "costs": {
+      "OBSIDIAN": 4000000,
+      "BEDROCK": 3000000
+     }
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4000,
+     "minChest": "OBSIDIAN",
+     "weight": 2.0089,
+     "cost": 0,
+     "weights": {
+      "OBSIDIAN": 2.0089,
+      "BEDROCK": 7.4991
+     },
+     "costs": {
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_2",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "OBSIDIAN",
+     "weight": 10.0446,
+     "cost": 0,
+     "weights": {
+      "OBSIDIAN": 10.0446
+     },
+     "costs": {
+      "OBSIDIAN": 0
+     }
+    },
+    {
+     "item": "PRECURSOR_EYE",
+     "amount": 1,
+     "rng": 266699,
+     "minChest": "BEDROCK",
+     "weight": 0.1125,
+     "cost": 28000000,
+     "weights": {
+      "BEDROCK": 0.1125
+     },
+     "costs": {
+      "BEDROCK": 28000000
+     }
+    },
+    {
+     "item": "GIANTS_SWORD",
+     "amount": 1,
+     "rng": 160020,
+     "minChest": "BEDROCK",
+     "weight": 0.1875,
+     "cost": 23000000,
+     "weights": {
+      "BEDROCK": 0.1875
+     },
+     "costs": {
+      "BEDROCK": 23000000
+     }
+    },
+    {
+     "item": "NECROMANCER_LORD_CHESTPLATE",
+     "amount": 1,
+     "rng": 100012,
+     "minChest": "BEDROCK",
+     "weight": 0.3,
+     "cost": 8000000,
+     "weights": {
+      "BEDROCK": 0.3
+     },
+     "costs": {
+      "BEDROCK": 8000000
+     }
+    },
+    {
+     "item": "FEL_SKULL",
+     "amount": 1,
+     "rng": 53339,
+     "minChest": "BEDROCK",
+     "weight": 0.5624,
+     "cost": 4000000,
+     "weights": {
+      "BEDROCK": 0.5624
+     },
+     "costs": {
+      "BEDROCK": 4000000
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 4000,
+     "minChest": "BEDROCK",
+     "weight": 7.4991,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 7.4991
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 4572,
+     "minChest": "BEDROCK",
+     "weight": 6.5617,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 6.5617
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 2105,
+     "minChest": "BEDROCK",
+     "weight": 14.2482,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 14.2482
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 2105,
+     "minChest": "BEDROCK",
+     "weight": 14.2482,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 14.2482
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 2424,
+     "minChest": "BEDROCK",
+     "weight": 12.3735,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 12.3735
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 3556,
+     "minChest": "BEDROCK",
+     "weight": 8.4364,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 8.4364
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 4572,
+     "minChest": "BEDROCK",
+     "weight": 6.5617,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 6.5617
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 20002,
+     "minChest": "BEDROCK",
+     "weight": 1.4998,
+     "cost": 0,
+     "weights": {
+      "BEDROCK": 1.4998
+     },
+     "costs": {
+      "BEDROCK": 0
+     }
+    },
+    {
+     "item": "GOLD_SADAN_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 0.5,
+     "cost": 0,
+     "weights": {
+      "GOLD": 0.5,
+      "DIAMOND": 0.5,
+      "EMERALD": 0.5,
+      "OBSIDIAN": 0.5,
+      "BEDROCK": 0.5
+     },
+     "costs": {
+      "GOLD": 0,
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     },
+     "gate": "collection:BOSS_SADAN:3"
+    },
+    {
+     "item": "DIAMOND_SADAN_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 0.25,
+     "cost": 0,
+     "weights": {
+      "DIAMOND": 0.25,
+      "EMERALD": 0.25,
+      "OBSIDIAN": 0.25,
+      "BEDROCK": 0.25
+     },
+     "costs": {
+      "DIAMOND": 0,
+      "EMERALD": 0,
+      "OBSIDIAN": 0,
+      "BEDROCK": 0
+     },
+     "gate": "collection:BOSS_SADAN:6"
+    }
+   ]
+  },
+  "F7": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 15,
+     "witherMax": 15,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 20,
+     "witherMin": 18,
+     "witherMax": 18,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 250000,
+     "undead": 30,
+     "witherMin": 21,
+     "witherMax": 21,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 500000,
+     "undead": 40,
+     "witherMin": 28,
+     "witherMax": 28,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 55,
+     "witherMin": 35,
+     "witherMax": 35,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 2000000,
+     "undead": 70,
+     "witherMin": 50,
+     "witherMax": 50,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "PRECURSOR_GEAR",
+     "amount": 1,
+     "rng": 3426,
+     "minChest": "GOLD",
+     "weight": 291.886,
+     "cost": 400000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 4111,
+     "minChest": "WOOD",
+     "weight": 243.25,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 4111,
+     "minChest": "WOOD",
+     "weight": 243.25,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 4111,
+     "minChest": "WOOD",
+     "weight": 243.25,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_7",
+     "amount": 1,
+     "rng": 4111,
+     "minChest": "WOOD",
+     "weight": 243.25,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+     "amount": 1,
+     "rng": 5139,
+     "minChest": "DIAMOND",
+     "weight": 194.59,
+     "cost": 750000
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5139,
+     "minChest": "GOLD",
+     "weight": 194.59,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 5139,
+     "minChest": "WOOD",
+     "weight": 194.59,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 6853,
+     "minChest": "WOOD",
+     "weight": 145.921,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 8223,
+     "minChest": "WOOD",
+     "weight": 121.61,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 8223,
+     "minChest": "WOOD",
+     "weight": 121.61,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_CLOAK",
+     "amount": 1,
+     "rng": 8566,
+     "minChest": "EMERALD",
+     "weight": 116.741,
+     "cost": 4000000
+    },
+    {
+     "item": "WITHER_HELMET",
+     "amount": 1,
+     "rng": 8566,
+     "minChest": "DIAMOND",
+     "weight": 116.741,
+     "cost": 3750000
+    },
+    {
+     "item": "WITHER_BLOOD",
+     "amount": 1,
+     "rng": 8566,
+     "minChest": "EMERALD",
+     "weight": 116.741,
+     "cost": 2000000
+    },
+    {
+     "item": "WITHER_BOOTS",
+     "amount": 1,
+     "rng": 8566,
+     "minChest": "GOLD",
+     "weight": 116.741,
+     "cost": 2400000
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 10279,
+     "minChest": "OBSIDIAN",
+     "weight": 97.286,
+     "cost": 5000000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 10279,
+     "minChest": "WOOD",
+     "weight": 97.286,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_CATALYST",
+     "amount": 1,
+     "rng": 10279,
+     "minChest": "GOLD",
+     "weight": 97.286,
+     "cost": 900000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 10279,
+     "minChest": "WOOD",
+     "weight": 97.286,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_LEGGINGS",
+     "amount": 1,
+     "rng": 12849,
+     "minChest": "EMERALD",
+     "weight": 77.827,
+     "cost": 5500000
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_7",
+     "amount": 1,
+     "rng": 12849,
+     "minChest": "WOOD",
+     "weight": 77.827,
+     "cost": 0
+    },
+    {
+     "item": "AUTO_RECOMBOBULATOR",
+     "amount": 1,
+     "rng": 51397,
+     "minChest": "BEDROCK",
+     "weight": 19.456,
+     "cost": 8000000
+    },
+    {
+     "item": "WITHER_CHESTPLATE",
+     "amount": 1,
+     "rng": 51397,
+     "minChest": "OBSIDIAN",
+     "weight": 19.456,
+     "cost": 9000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_1",
+     "amount": 1,
+     "rng": 51397,
+     "minChest": "OBSIDIAN",
+     "weight": 19.456,
+     "cost": 1000000
+    },
+    {
+     "item": "SHADOW_WARP_SCROLL",
+     "amount": 1,
+     "rng": 205590,
+     "minChest": "BEDROCK",
+     "weight": 4.864,
+     "cost": 48000000
+    },
+    {
+     "item": "WITHER_SHIELD_SCROLL",
+     "amount": 1,
+     "rng": 205590,
+     "minChest": "BEDROCK",
+     "weight": 4.864,
+     "cost": 48000000
+    },
+    {
+     "item": "IMPLOSION_SCROLL",
+     "amount": 1,
+     "rng": 205590,
+     "minChest": "BEDROCK",
+     "weight": 4.864,
+     "cost": 48000000
+    },
+    {
+     "item": "NECRON_HANDLE",
+     "amount": 1,
+     "rng": 274119,
+     "minChest": "BEDROCK",
+     "weight": 3.648,
+     "cost": 98000000
+    },
+    {
+     "item": "GOLD_NECRON_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 4900000,
+     "gate": "collection:BOSS_NECRON:3"
+    },
+    {
+     "item": "DIAMOND_NECRON_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 12000000,
+     "gate": "collection:BOSS_NECRON:6"
+    },
+    {
+     "item": "DYE_NECRON",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "BEDROCK",
+     "weight": 0.1,
+     "cost": 0
+    }
+   ]
+  },
+  "M1": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 6,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 50000,
+     "undead": 6,
+     "witherMin": 5,
+     "witherMax": 5,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 100000,
+     "undead": 9,
+     "witherMin": 6,
+     "witherMax": 6,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 200000,
+     "undead": 11,
+     "witherMin": 8,
+     "witherMax": 8,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 500000,
+     "undead": 16,
+     "witherMin": 10,
+     "witherMax": 10,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 20,
+     "witherMin": 14,
+     "witherMax": 14,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 1720,
+     "minChest": "WOOD",
+     "weight": 581.395,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 2580,
+     "minChest": "WOOD",
+     "weight": 387.597,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 2580,
+     "minChest": "WOOD",
+     "weight": 387.597,
+     "cost": 0
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 2580,
+     "minChest": "GOLD",
+     "weight": 387.597,
+     "cost": 480000
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_6",
+     "amount": 1,
+     "rng": 4300,
+     "minChest": "WOOD",
+     "weight": 232.558,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_6",
+     "amount": 1,
+     "rng": 4300,
+     "minChest": "WOOD",
+     "weight": 232.558,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5160,
+     "minChest": "WOOD",
+     "weight": 193.798,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 6450,
+     "minChest": "DIAMOND",
+     "weight": 155.039,
+     "cost": 980000
+    },
+    {
+     "item": "RED_NOSE",
+     "amount": 1,
+     "rng": 6450,
+     "minChest": "DIAMOND",
+     "weight": 155.039,
+     "cost": 980000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_1",
+     "amount": 1,
+     "rng": 8600,
+     "minChest": "DIAMOND",
+     "weight": 116.279,
+     "cost": 1200000
+    },
+    {
+     "item": "BONZO_MASK",
+     "amount": 1,
+     "rng": 8600,
+     "minChest": "DIAMOND",
+     "weight": 116.279,
+     "cost": 1200000
+    },
+    {
+     "item": "BALLOON_SNAKE",
+     "amount": 1,
+     "rng": 8600,
+     "minChest": "DIAMOND",
+     "weight": 116.279,
+     "cost": 1200000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 12900,
+     "minChest": "GOLD",
+     "weight": 77.519,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_1",
+     "amount": 1,
+     "rng": 12900,
+     "minChest": "GOLD",
+     "weight": 77.519,
+     "cost": 0
+    },
+    {
+     "item": "BONZO_STAFF",
+     "amount": 1,
+     "rng": 25800,
+     "minChest": "BEDROCK",
+     "weight": 38.76,
+     "cost": 3000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_1",
+     "amount": 1,
+     "rng": 25800,
+     "minChest": "GOLD",
+     "weight": 38.76,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_BONZO_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 75000,
+     "gate": "collection:BOSS_BONZO:3"
+    },
+    {
+     "item": "DIAMOND_BONZO_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 180000,
+     "gate": "collection:BOSS_BONZO:6"
+    }
+   ]
+  },
+  "M2": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 100000,
+     "undead": 11,
+     "witherMin": 10,
+     "witherMax": 10,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 200000,
+     "undead": 17,
+     "witherMin": 12,
+     "witherMax": 12,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 400000,
+     "undead": 23,
+     "witherMin": 16,
+     "witherMax": 16,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 1000000,
+     "undead": 31,
+     "witherMin": 20,
+     "witherMax": 20,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 40,
+     "witherMin": 29,
+     "witherMax": 29,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 1860,
+     "minChest": "WOOD",
+     "weight": 537.634,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_1",
+     "amount": 1,
+     "rng": 1860,
+     "minChest": "WOOD",
+     "weight": 537.634,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 3720,
+     "minChest": "WOOD",
+     "weight": 268.817,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 3720,
+     "minChest": "WOOD",
+     "weight": 268.817,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 3720,
+     "minChest": "WOOD",
+     "weight": 268.817,
+     "cost": 0
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 3720,
+     "minChest": "DIAMOND",
+     "weight": 268.817,
+     "cost": 1400000
+    },
+    {
+     "item": "SCARF_STUDIES",
+     "amount": 1,
+     "rng": 4650,
+     "minChest": "DIAMOND",
+     "weight": 215.054,
+     "cost": 1600000
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 6199,
+     "minChest": "DIAMOND",
+     "weight": 161.316,
+     "cost": 2000000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_2",
+     "amount": 1,
+     "rng": 6199,
+     "minChest": "DIAMOND",
+     "weight": 161.316,
+     "cost": 2000000
+    },
+    {
+     "item": "ADAPTIVE_BELT",
+     "amount": 1,
+     "rng": 6199,
+     "minChest": "DIAMOND",
+     "weight": 161.316,
+     "cost": 2000000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 6199,
+     "minChest": "GOLD",
+     "weight": 161.316,
+     "cost": 0
+    },
+    {
+     "item": "STONE_BLADE",
+     "amount": 1,
+     "rng": 9300,
+     "minChest": "EMERALD",
+     "weight": 107.527,
+     "cost": 2800000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_1",
+     "amount": 1,
+     "rng": 9300,
+     "minChest": "GOLD",
+     "weight": 107.527,
+     "cost": 0
+    },
+    {
+     "item": "RED_SCARF",
+     "amount": 1,
+     "rng": 18600,
+     "minChest": "BEDROCK",
+     "weight": 53.763,
+     "cost": 5000000
+    },
+    {
+     "item": "GOLD_SCARF_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 120000,
+     "gate": "collection:BOSS_SCARF:3"
+    },
+    {
+     "item": "DIAMOND_SCARF_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 300000,
+     "gate": "collection:BOSS_SCARF:6"
+    }
+   ]
+  },
+  "M3": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 10,
+     "witherMin": 16,
+     "witherMax": 16,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 200000,
+     "undead": 17,
+     "witherMin": 15,
+     "witherMax": 15,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 500000,
+     "undead": 26,
+     "witherMin": 18,
+     "witherMax": 18,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 1000000,
+     "undead": 34,
+     "witherMin": 24,
+     "witherMax": 24,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 2000000,
+     "undead": 47,
+     "witherMin": 30,
+     "witherMax": 30,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 60,
+     "witherMin": 43,
+     "witherMax": 43,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+     "amount": 1,
+     "rng": 2962,
+     "minChest": "WOOD",
+     "weight": 337.61,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_2",
+     "amount": 1,
+     "rng": 2962,
+     "minChest": "WOOD",
+     "weight": 337.61,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 3950,
+     "minChest": "WOOD",
+     "weight": 253.165,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_2",
+     "amount": 1,
+     "rng": 3950,
+     "minChest": "WOOD",
+     "weight": 253.165,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+     "amount": 1,
+     "rng": 3950,
+     "minChest": "WOOD",
+     "weight": 253.165,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4740,
+     "minChest": "WOOD",
+     "weight": 210.97,
+     "cost": 0
+    },
+    {
+     "item": "SUSPICIOUS_VIAL",
+     "amount": 1,
+     "rng": 4740,
+     "minChest": "DIAMOND",
+     "weight": 210.97,
+     "cost": 2200000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 4740,
+     "minChest": "WOOD",
+     "weight": 210.97,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 4740,
+     "minChest": "WOOD",
+     "weight": 210.97,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 5925,
+     "minChest": "DIAMOND",
+     "weight": 168.776,
+     "cost": 2600000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_3",
+     "amount": 1,
+     "rng": 5925,
+     "minChest": "DIAMOND",
+     "weight": 168.776,
+     "cost": 2600000
+    },
+    {
+     "item": "NECROMANCER_BROOCH",
+     "amount": 1,
+     "rng": 5925,
+     "minChest": "DIAMOND",
+     "weight": 168.776,
+     "cost": 2600000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 7900,
+     "minChest": "GOLD",
+     "weight": 126.582,
+     "cost": 0
+    },
+    {
+     "item": "FIRST_MASTER_STAR",
+     "amount": 1,
+     "rng": 11850,
+     "minChest": "OBSIDIAN",
+     "weight": 84.388,
+     "cost": 4600000
+    },
+    {
+     "item": "ADAPTIVE_HELMET",
+     "amount": 1,
+     "rng": 11850,
+     "minChest": "EMERALD",
+     "weight": 84.388,
+     "cost": 4600000
+    },
+    {
+     "item": "ADAPTIVE_BOOTS",
+     "amount": 1,
+     "rng": 11850,
+     "minChest": "EMERALD",
+     "weight": 84.388,
+     "cost": 4600000
+    },
+    {
+     "item": "ADAPTIVE_CHESTPLATE",
+     "amount": 1,
+     "rng": 23700,
+     "minChest": "BEDROCK",
+     "weight": 42.194,
+     "cost": 8000000
+    },
+    {
+     "item": "ADAPTIVE_LEGGINGS",
+     "amount": 1,
+     "rng": 23700,
+     "minChest": "BEDROCK",
+     "weight": 42.194,
+     "cost": 8000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_2",
+     "amount": 1,
+     "rng": 23700,
+     "minChest": "GOLD",
+     "weight": 42.194,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_PROFESSOR_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 200000,
+     "gate": "collection:BOSS_THE_PROFESSOR:3"
+    },
+    {
+     "item": "DIAMOND_PROFESSOR_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 480000,
+     "gate": "collection:BOSS_THE_PROFESSOR:6"
+    }
+   ]
+  },
+  "M4": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 20,
+     "witherMin": 16,
+     "witherMax": 16,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 200000,
+     "undead": 23,
+     "witherMin": 21,
+     "witherMax": 21,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 500000,
+     "undead": 34,
+     "witherMin": 24,
+     "witherMax": 24,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 1000000,
+     "undead": 46,
+     "witherMin": 32,
+     "witherMax": 32,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 2000000,
+     "undead": 63,
+     "witherMin": 40,
+     "witherMax": 40,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 80,
+     "witherMin": 57,
+     "witherMax": 57,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+     "amount": 1,
+     "rng": 2775,
+     "minChest": "WOOD",
+     "weight": 360.36,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_2",
+     "amount": 1,
+     "rng": 2775,
+     "minChest": "WOOD",
+     "weight": 360.36,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_1",
+     "amount": 1,
+     "rng": 3699,
+     "minChest": "WOOD",
+     "weight": 270.343,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_2",
+     "amount": 1,
+     "rng": 3699,
+     "minChest": "WOOD",
+     "weight": 270.343,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+     "amount": 1,
+     "rng": 3699,
+     "minChest": "WOOD",
+     "weight": 270.343,
+     "cost": 0
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4440,
+     "minChest": "WOOD",
+     "weight": 225.225,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_1",
+     "amount": 1,
+     "rng": 4440,
+     "minChest": "WOOD",
+     "weight": 225.225,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+     "amount": 1,
+     "rng": 5550,
+     "minChest": "WOOD",
+     "weight": 180.18,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 7399,
+     "minChest": "DIAMOND",
+     "weight": 135.153,
+     "cost": 6600000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_3",
+     "amount": 1,
+     "rng": 7399,
+     "minChest": "DIAMOND",
+     "weight": 135.153,
+     "cost": 6600000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 7399,
+     "minChest": "GOLD",
+     "weight": 135.153,
+     "cost": 0
+    },
+    {
+     "item": "SECOND_MASTER_STAR",
+     "amount": 1,
+     "rng": 11100,
+     "minChest": "OBSIDIAN",
+     "weight": 90.09,
+     "cost": 9200000
+    },
+    {
+     "item": "SPIRIT_WING",
+     "amount": 1,
+     "rng": 11100,
+     "minChest": "EMERALD",
+     "weight": 90.09,
+     "cost": 9200000
+    },
+    {
+     "item": "SPIRIT_BONE",
+     "amount": 1,
+     "rng": 11100,
+     "minChest": "EMERALD",
+     "weight": 90.09,
+     "cost": 9200000
+    },
+    {
+     "item": "SPIRIT_DECOY",
+     "amount": 1,
+     "rng": 11100,
+     "minChest": "EMERALD",
+     "weight": 90.09,
+     "cost": 9200000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_REND_2",
+     "amount": 1,
+     "rng": 11100,
+     "minChest": "GOLD",
+     "weight": 90.09,
+     "cost": 0
+    },
+    {
+     "item": "SPIRIT_SWORD",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "BEDROCK",
+     "weight": 45.045,
+     "cost": 16000000
+    },
+    {
+     "item": "ITEM_SPIRIT_BOW",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "BEDROCK",
+     "weight": 45.045,
+     "cost": 16000000
+    },
+    {
+     "item": "THORNS_BOOTS",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "BEDROCK",
+     "weight": 45.045,
+     "cost": 16000000
+    },
+    {
+     "item": "SPIRIT;4",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "BEDROCK",
+     "weight": 45.045,
+     "cost": 16000000
+    },
+    {
+     "item": "SPIRIT_MASK",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "BEDROCK",
+     "weight": 45.045,
+     "cost": 16000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_2",
+     "amount": 1,
+     "rng": 22200,
+     "minChest": "GOLD",
+     "weight": 45.045,
+     "cost": 0
+    },
+    {
+     "item": "GOLD_THORN_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 400000,
+     "gate": "collection:BOSS_THORN:3"
+    },
+    {
+     "item": "DIAMOND_THORN_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 960000,
+     "gate": "collection:BOSS_THORN:6"
+    }
+   ]
+  },
+  "M5": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 20,
+     "witherMin": 20,
+     "witherMax": 20,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 200000,
+     "undead": 30,
+     "witherMin": 24,
+     "witherMax": 24,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 500000,
+     "undead": 40,
+     "witherMin": 28,
+     "witherMax": 28,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 1000000,
+     "undead": 50,
+     "witherMin": 36,
+     "witherMax": 36,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 2000000,
+     "undead": 70,
+     "witherMin": 48,
+     "witherMax": 48,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 90,
+     "witherMin": 68,
+     "witherMax": 68,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 2794,
+     "minChest": "WOOD",
+     "weight": 357.91,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 2794,
+     "minChest": "WOOD",
+     "weight": 357.91,
+     "cost": 0
+    },
+    {
+     "item": "DARK_ORB",
+     "amount": 1,
+     "rng": 3260,
+     "minChest": "GOLD",
+     "weight": 306.748,
+     "cost": 2000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 3260,
+     "minChest": "WOOD",
+     "weight": 306.748,
+     "cost": 0
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4890,
+     "minChest": "WOOD",
+     "weight": 204.499,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_OVERLOAD_1",
+     "amount": 1,
+     "rng": 4890,
+     "minChest": "WOOD",
+     "weight": 204.499,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LEGION_1",
+     "amount": 1,
+     "rng": 4890,
+     "minChest": "WOOD",
+     "weight": 204.499,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_LETHALITY_6",
+     "amount": 1,
+     "rng": 4890,
+     "minChest": "WOOD",
+     "weight": 204.499,
+     "cost": 0
+    },
+    {
+     "item": "SHADOW_ASSASSIN_BOOTS",
+     "amount": 1,
+     "rng": 6520,
+     "minChest": "GOLD",
+     "weight": 153.374,
+     "cost": 3400000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 6520,
+     "minChest": "WOOD",
+     "weight": 153.374,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 6520,
+     "minChest": "WOOD",
+     "weight": 153.374,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 8150,
+     "minChest": "WOOD",
+     "weight": 122.699,
+     "cost": 0
+    },
+    {
+     "item": "SHADOW_ASSASSIN_HELMET",
+     "amount": 1,
+     "rng": 9780,
+     "minChest": "GOLD",
+     "weight": 102.249,
+     "cost": 4800000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 9780,
+     "minChest": "WOOD",
+     "weight": 102.249,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 16300,
+     "minChest": "DIAMOND",
+     "weight": 61.35,
+     "cost": 7200000
+    },
+    {
+     "item": "SHADOW_ASSASSIN_LEGGINGS",
+     "amount": 1,
+     "rng": 19560,
+     "minChest": "DIAMOND",
+     "weight": 51.125,
+     "cost": 8200000
+    },
+    {
+     "item": "SHADOW_ASSASSIN_CLOAK",
+     "amount": 1,
+     "rng": 19560,
+     "minChest": "DIAMOND",
+     "weight": 51.125,
+     "cost": 8200000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_4",
+     "amount": 1,
+     "rng": 19560,
+     "minChest": "DIAMOND",
+     "weight": 51.125,
+     "cost": 8200000
+    },
+    {
+     "item": "LIVID_DAGGER",
+     "amount": 1,
+     "rng": 24450,
+     "minChest": "DIAMOND",
+     "weight": 40.9,
+     "cost": 9800000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 24450,
+     "minChest": "WOOD",
+     "weight": 40.9,
+     "cost": 0
+    },
+    {
+     "item": "SHADOW_ASSASSIN_CHESTPLATE",
+     "amount": 1,
+     "rng": 48900,
+     "minChest": "EMERALD",
+     "weight": 20.45,
+     "cost": 17000000
+    },
+    {
+     "item": "THIRD_MASTER_STAR",
+     "amount": 1,
+     "rng": 48900,
+     "minChest": "OBSIDIAN",
+     "weight": 20.45,
+     "cost": 17000000
+    },
+    {
+     "item": "AOTE_STONE",
+     "amount": 1,
+     "rng": 48900,
+     "minChest": "EMERALD",
+     "weight": 20.45,
+     "cost": 17000000
+    },
+    {
+     "item": "SHADOW_FURY",
+     "amount": 1,
+     "rng": 97800,
+     "minChest": "BEDROCK",
+     "weight": 10.225,
+     "cost": 30000000
+    },
+    {
+     "item": "LAST_BREATH",
+     "amount": 1,
+     "rng": 97800,
+     "minChest": "BEDROCK",
+     "weight": 10.225,
+     "cost": 30000000
+    },
+    {
+     "item": "GOLD_LIVID_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 750000,
+     "gate": "collection:BOSS_LIVID:3"
+    },
+    {
+     "item": "DIAMOND_LIVID_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 1800000,
+     "gate": "collection:BOSS_LIVID:6"
+    },
+    {
+     "item": "DYE_LIVID",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "BEDROCK",
+     "weight": 0.25,
+     "cost": 0
+    }
+   ]
+  },
+  "M6": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 20,
+     "witherMin": 24,
+     "witherMax": 24,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 200000,
+     "undead": 30,
+     "witherMin": 30,
+     "witherMax": 30,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 500000,
+     "undead": 50,
+     "witherMin": 36,
+     "witherMax": 36,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 1000000,
+     "undead": 70,
+     "witherMin": 42,
+     "witherMax": 42,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 2000000,
+     "undead": 90,
+     "witherMin": 56,
+     "witherMax": 56,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 110,
+     "witherMin": 80,
+     "witherMax": 80,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 2137,
+     "minChest": "WOOD",
+     "weight": 467.946,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 2137,
+     "minChest": "WOOD",
+     "weight": 467.946,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 2461,
+     "minChest": "WOOD",
+     "weight": 406.339,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 3610,
+     "minChest": "WOOD",
+     "weight": 277.008,
+     "cost": 0
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 4061,
+     "minChest": "WOOD",
+     "weight": 246.245,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 4061,
+     "minChest": "WOOD",
+     "weight": 246.245,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 4642,
+     "minChest": "WOOD",
+     "weight": 215.424,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 4642,
+     "minChest": "WOOD",
+     "weight": 215.424,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_SWARM_1",
+     "amount": 1,
+     "rng": 5415,
+     "minChest": "WOOD",
+     "weight": 184.672,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 6770,
+     "minChest": "GOLD",
+     "weight": 147.71,
+     "cost": 3200000
+    },
+    {
+     "item": "NECROMANCER_LORD_BOOTS",
+     "amount": 1,
+     "rng": 13540,
+     "minChest": "GOLD",
+     "weight": 73.855,
+     "cost": 5400000
+    },
+    {
+     "item": "GIANT_TOOTH",
+     "amount": 1,
+     "rng": 16247,
+     "minChest": "GOLD",
+     "weight": 61.55,
+     "cost": 6400000
+    },
+    {
+     "item": "NECROMANCER_LORD_HELMET",
+     "amount": 1,
+     "rng": 20310,
+     "minChest": "GOLD",
+     "weight": 49.237,
+     "cost": 7600000
+    },
+    {
+     "item": "SADAN_BROOCH",
+     "amount": 1,
+     "rng": 20310,
+     "minChest": "GOLD",
+     "weight": 49.237,
+     "cost": 7600000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 20310,
+     "minChest": "WOOD",
+     "weight": 49.237,
+     "cost": 0
+    },
+    {
+     "item": "NECROMANCER_LORD_LEGGINGS",
+     "amount": 1,
+     "rng": 27080,
+     "minChest": "GOLD",
+     "weight": 36.928,
+     "cost": 9600000
+    },
+    {
+     "item": "SOULWEAVER_GLOVES",
+     "amount": 1,
+     "rng": 27080,
+     "minChest": "GOLD",
+     "weight": 36.928,
+     "cost": 9600000
+    },
+    {
+     "item": "NECROMANCER_SWORD",
+     "amount": 1,
+     "rng": 40620,
+     "minChest": "DIAMOND",
+     "weight": 24.618,
+     "cost": 13000000
+    },
+    {
+     "item": "FEL_SKULL",
+     "amount": 1,
+     "rng": 54160,
+     "minChest": "DIAMOND",
+     "weight": 18.464,
+     "cost": 17000000
+    },
+    {
+     "item": "FOURTH_MASTER_STAR",
+     "amount": 1,
+     "rng": 81240,
+     "minChest": "OBSIDIAN",
+     "weight": 12.309,
+     "cost": 22000000
+    },
+    {
+     "item": "SUMMONING_RING",
+     "amount": 1,
+     "rng": 81240,
+     "minChest": "DIAMOND",
+     "weight": 12.309,
+     "cost": 22000000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_4",
+     "amount": 1,
+     "rng": 81240,
+     "minChest": "DIAMOND",
+     "weight": 12.309,
+     "cost": 22000000
+    },
+    {
+     "item": "NECROMANCER_LORD_CHESTPLATE",
+     "amount": 1,
+     "rng": 101550,
+     "minChest": "EMERALD",
+     "weight": 9.847,
+     "cost": 28000000
+    },
+    {
+     "item": "GIANTS_SWORD",
+     "amount": 1,
+     "rng": 135400,
+     "minChest": "EMERALD",
+     "weight": 7.386,
+     "cost": 34000000
+    },
+    {
+     "item": "PRECURSOR_EYE",
+     "amount": 1,
+     "rng": 270800,
+     "minChest": "BEDROCK",
+     "weight": 3.693,
+     "cost": 60000000
+    },
+    {
+     "item": "GOLD_SADAN_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 1500000,
+     "gate": "collection:BOSS_SADAN:3"
+    },
+    {
+     "item": "DIAMOND_SADAN_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 3600000,
+     "gate": "collection:BOSS_SADAN:6"
+    }
+   ]
+  },
+  "M7": {
+   "chests": {
+    "WOOD": {
+     "cost": 0,
+     "undead": 20,
+     "witherMin": 30,
+     "witherMax": 30,
+     "slots": 1
+    },
+    "GOLD": {
+     "cost": 200000,
+     "undead": 40,
+     "witherMin": 36,
+     "witherMax": 36,
+     "slots": 2
+    },
+    "DIAMOND": {
+     "cost": 500000,
+     "undead": 60,
+     "witherMin": 42,
+     "witherMax": 42,
+     "slots": 2
+    },
+    "EMERALD": {
+     "cost": 1000000,
+     "undead": 80,
+     "witherMin": 56,
+     "witherMax": 56,
+     "slots": 3
+    },
+    "OBSIDIAN": {
+     "cost": 2000000,
+     "undead": 110,
+     "witherMin": 70,
+     "witherMax": 70,
+     "slots": 3
+    },
+    "BEDROCK": {
+     "cost": 4000000,
+     "undead": 140,
+     "witherMin": 100,
+     "witherMax": 100,
+     "slots": 3
+    }
+   },
+   "entries": [
+    {
+     "item": "PRECURSOR_GEAR",
+     "amount": 1,
+     "rng": 3473,
+     "minChest": "GOLD",
+     "weight": 287.936,
+     "cost": 800000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_COMBO_2",
+     "amount": 1,
+     "rng": 4168,
+     "minChest": "WOOD",
+     "weight": 239.923,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_REJUVENATE_3",
+     "amount": 1,
+     "rng": 4168,
+     "minChest": "WOOD",
+     "weight": 239.923,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+     "amount": 1,
+     "rng": 4168,
+     "minChest": "WOOD",
+     "weight": 239.923,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_INFINITE_QUIVER_7",
+     "amount": 1,
+     "rng": 4168,
+     "minChest": "WOOD",
+     "weight": 239.923,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+     "amount": 1,
+     "rng": 5210,
+     "minChest": "DIAMOND",
+     "weight": 191.939,
+     "cost": 1500000
+    },
+    {
+     "item": "HOT_POTATO_BOOK",
+     "amount": 1,
+     "rng": 5210,
+     "minChest": "GOLD",
+     "weight": 191.939,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISE_2",
+     "amount": 1,
+     "rng": 5210,
+     "minChest": "WOOD",
+     "weight": 191.939,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_JERRY_3",
+     "amount": 1,
+     "rng": 6947,
+     "minChest": "WOOD",
+     "weight": 143.947,
+     "cost": 0
+    },
+    {
+     "item": "RECOMBOBULATOR_3000",
+     "amount": 1,
+     "rng": 8336,
+     "minChest": "OBSIDIAN",
+     "weight": 119.962,
+     "cost": 10000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_BANK_3",
+     "amount": 1,
+     "rng": 8336,
+     "minChest": "WOOD",
+     "weight": 119.962,
+     "cost": 0
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+     "amount": 1,
+     "rng": 8336,
+     "minChest": "WOOD",
+     "weight": 119.962,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_CLOAK",
+     "amount": 1,
+     "rng": 8683,
+     "minChest": "EMERALD",
+     "weight": 115.168,
+     "cost": 8000000
+    },
+    {
+     "item": "WITHER_HELMET",
+     "amount": 1,
+     "rng": 8683,
+     "minChest": "DIAMOND",
+     "weight": 115.168,
+     "cost": 7500000
+    },
+    {
+     "item": "WITHER_BLOOD",
+     "amount": 1,
+     "rng": 8683,
+     "minChest": "EMERALD",
+     "weight": 115.168,
+     "cost": 4000000
+    },
+    {
+     "item": "WITHER_BOOTS",
+     "amount": 1,
+     "rng": 8683,
+     "minChest": "GOLD",
+     "weight": 115.168,
+     "cost": 4800000
+    },
+    {
+     "item": "FUMING_POTATO_BOOK",
+     "amount": 1,
+     "rng": 10420,
+     "minChest": "WOOD",
+     "weight": 95.969,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_CATALYST",
+     "amount": 1,
+     "rng": 10420,
+     "minChest": "GOLD",
+     "weight": 95.969,
+     "cost": 1800000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+     "amount": 1,
+     "rng": 10420,
+     "minChest": "WOOD",
+     "weight": 95.969,
+     "cost": 0
+    },
+    {
+     "item": "WITHER_LEGGINGS",
+     "amount": 1,
+     "rng": 13025,
+     "minChest": "EMERALD",
+     "weight": 76.775,
+     "cost": 11000000
+    },
+    {
+     "item": "ENCHANTMENT_FEATHER_FALLING_7",
+     "amount": 1,
+     "rng": 13025,
+     "minChest": "WOOD",
+     "weight": 76.775,
+     "cost": 0
+    },
+    {
+     "item": "AUTO_RECOMBOBULATOR",
+     "amount": 1,
+     "rng": 52102,
+     "minChest": "BEDROCK",
+     "weight": 19.193,
+     "cost": 16000000
+    },
+    {
+     "item": "WITHER_CHESTPLATE",
+     "amount": 1,
+     "rng": 52102,
+     "minChest": "OBSIDIAN",
+     "weight": 19.193,
+     "cost": 18000000
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_1",
+     "amount": 1,
+     "rng": 52102,
+     "minChest": "OBSIDIAN",
+     "weight": 19.193,
+     "cost": 2000000
+    },
+    {
+     "item": "FIFTH_MASTER_STAR",
+     "amount": 1,
+     "rng": 138940,
+     "minChest": "BEDROCK",
+     "weight": 7.197,
+     "cost": 82000000
+    },
+    {
+     "item": "SHADOW_WARP_SCROLL",
+     "amount": 1,
+     "rng": 166728,
+     "minChest": "BEDROCK",
+     "weight": 5.998,
+     "cost": 96000000
+    },
+    {
+     "item": "WITHER_SHIELD_SCROLL",
+     "amount": 1,
+     "rng": 166728,
+     "minChest": "BEDROCK",
+     "weight": 5.998,
+     "cost": 96000000
+    },
+    {
+     "item": "IMPLOSION_SCROLL",
+     "amount": 1,
+     "rng": 166728,
+     "minChest": "BEDROCK",
+     "weight": 5.998,
+     "cost": 96000000
+    },
+    {
+     "item": "MASTER_SKULL_TIER_5",
+     "amount": 1,
+     "rng": 173675,
+     "minChest": "BEDROCK",
+     "weight": 5.758,
+     "cost": 98000000
+    },
+    {
+     "item": "ENCHANTMENT_THUNDERLORD_7",
+     "amount": 1,
+     "rng": 208410,
+     "minChest": "OBSIDIAN",
+     "weight": 4.798,
+     "cost": 112000000
+    },
+    {
+     "item": "NECRON_HANDLE",
+     "amount": 1,
+     "rng": 231566,
+     "minChest": "BEDROCK",
+     "weight": 4.318,
+     "cost": 196000000
+    },
+    {
+     "item": "DARK_CLAYMORE",
+     "amount": 1,
+     "rng": 416820,
+     "minChest": "BEDROCK",
+     "weight": 2.399,
+     "cost": 196000000
+    },
+    {
+     "item": "GOLD_NECRON_HEAD",
+     "amount": 1,
+     "rng": 30000,
+     "minChest": "GOLD",
+     "weight": 4,
+     "cost": 4900000,
+     "gate": "collection:BOSS_NECRON:3"
+    },
+    {
+     "item": "DIAMOND_NECRON_HEAD",
+     "amount": 1,
+     "rng": 60000,
+     "minChest": "DIAMOND",
+     "weight": 1,
+     "cost": 12000000,
+     "gate": "collection:BOSS_NECRON:6"
+    },
+    {
+     "item": "DYE_NECRON",
+     "amount": 1,
+     "rng": 0,
+     "minChest": "BEDROCK",
+     "weight": 0.25,
+     "cost": 0
+    }
+   ]
+  }
+ }
+}

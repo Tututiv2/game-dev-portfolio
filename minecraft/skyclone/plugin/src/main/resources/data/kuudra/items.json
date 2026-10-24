@@ -1,0 +1,129 @@
+[
+ {
+  "id": "KUUDRA_SHOP_ITEM",
+  "name": "Hunt Perks",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "NONE",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDM5NTcwMzU4NywKICAicHJvZmlsZUlkIiA6ICI2OTBkMDM2OGM2NTE0OGM5ODZjMzEwN2FjMmRjNjFlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5emZyXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY4MTIzMDE5M2NlZGRjNGU4NzVlZGZhZTU0ODg2MDA3YjBhYzc5ZTZlYjBjYjBmY2QxMzExNDA3ZDdiZmI4OCIKICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Spend the tokens you earn in a hunt",
+   "&7on perks that last until it ends."
+  ],
+  "abilities": [
+   {
+    "id": "kuudra_open_shop",
+    "name": "Open Perks",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Open the perk shop for this hunt."
+    ]
+   }
+  ],
+  "tags": [
+   "soulbound",
+   "no_trade",
+   "no_ah",
+   "no_reforge"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "kuudraRun": true
+  }
+ },
+ {
+  "id": "HEAT_CORE",
+  "name": "Heat Core",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDI0ODk1NSwKICAicHJvZmlsZUlkIiA6ICI3OGFjMTRjOWQzZGU0Y2Q5YThiMzNhYzZlOGE4YzQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmdlbGFQbGF5c3oiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhlYTI3Mzg0OWJiNGUzODNmMTFjODQ5NDUzOTUzYzEyMDViNmEwMGQ3NDBhYWMzMzA0MGQ1MDIwMjkzYjRiOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "glow": true,
+  "lore": [
+   "&7A coal-hot heart torn from the",
+   "&cMagma Leviathan&7. Minion makers fold it",
+   "&7into &5Enchanted Lava Buckets &7to push",
+   "&7their speed bonus to &a30% &7and &a35%&7."
+  ],
+  "tags": [
+   "no_reforge"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "kuudraDrop": true
+  }
+ },
+ {
+  "id": "WHEEL_OF_FATE",
+  "name": "Wheel of Embers",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzE0MDQ2MTMyOSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81Yzg3ZjU5YjAyODg2ZmVmNTk0ZWFlYmI0NmRjMzM3YWFiYjg0NWIyYzQxYmI0ZDIzOGMxMjYwN2Q4YTA5NTQ0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Spin it inside a &cLeviathan &7paid chest",
+   "&7before you open it: the &dshard &7in the",
+   "&7chest turns into one of a &ahigher rarity&7.",
+   "",
+   "&8Some say the beast's luck rubs off."
+  ],
+  "tags": [
+   "no_reforge"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "kuudraDrop": true
+  }
+ },
+ {
+  "id": "TENTACLE_DYE",
+  "name": "Tentacle Dye",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTM3OTg3NywKICAicHJvZmlsZUlkIiA6ICIwNDg0N2ZjNWM5YjY0NTQ1YjI1ZWJkYmJiNzdjNjg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJuYXFsdWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk4YmJhODA2ODA5MWJmYjcwZDdmOTc5ODM5MzRiMGRlYTZjZjkxY2M5OWVhOWQxNGFmN2U4MTE4MTVjNGJmNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Stains an armor piece the deep",
+   "&7slate of the Leviathan's arms",
+   "&7(&5#324D6C&7).",
+   "",
+   "&8A trophy few crews ever bring home."
+  ],
+  "tags": [
+   "no_reforge"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "kuudraDrop": true,
+   "dyeColor": "#324D6C"
+  }
+ },
+ {
+  "id": "ANANKE_FEATHER",
+  "name": "Ananke Feather",
+  "material": "FEATHER",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "glow": true,
+  "lore": [
+   "&7A feather shed by the bird that",
+   "&7keeps the Leviathan's luck. Spent",
+   "&7at an &dRNG Meter&7, it pushes the meter",
+   "&7a long way toward its prize.",
+   "",
+   "&8Only the Infernal hunt ever turns one up."
+  ],
+  "tags": [
+   "no_reforge"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "kuudraDrop": true,
+   "rngMeterFeather": true
+  }
+ }
+]

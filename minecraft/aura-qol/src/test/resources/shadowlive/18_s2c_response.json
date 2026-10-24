@@ -1,0 +1,30 @@
+{
+ "direction": "s2c",
+ "type": 11,
+ "name": "RESPONSE",
+ "fields": {
+  "reqId": 7,
+  "status": 0,
+  "retryAfterMs": 0,
+  "name": "playerone",
+  "uuid": "9e93b8ee-50df-5fe3-9601-11b243607a93",
+  "online": true,
+  "rows": [
+   {
+    "group": "rank",
+    "label": "Rank",
+    "value": "C (Prestige 3)"
+   },
+   {
+    "group": "skills",
+    "label": "Mining",
+    "value": "17"
+   },
+   {
+    "group": "balance",
+    "label": "Balance",
+    "value": "$987.6M"
+   }
+  ]
+ }
+}

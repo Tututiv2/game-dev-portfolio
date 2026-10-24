@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.auraqol.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockChangeMixin",
+    "RecipeClickMixin",
+    "SelfNametagMixin",
+    "ZoomMixin",
+    "HotkeyInputMixin",
+    "HotkeyMouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

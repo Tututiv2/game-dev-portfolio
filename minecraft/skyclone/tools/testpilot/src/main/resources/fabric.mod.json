@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "testpilot",
+  "version": "${version}",
+  "name": "TestPilot",
+  "description": "Lets automated test agents drive this client over a localhost HTTP API, with no OS input and no window focus. Inert unless TESTPILOT=1 is set.",
+  "authors": ["Tutut"],
+  "license": "All rights reserved",
+  "environment": "client",
+  "entrypoints": { "client": ["com.testpilot.TestPilot"] },
+  "mixins": [ { "config": "testpilot.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

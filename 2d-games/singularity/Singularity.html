@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SINGULARITY CHAMBER [v10.0 - RELATIVITY FIX]</title>
+    <style>
+        :root {
+            --term-green: #0f0;
+            --term-dim: #004400;
+            --term-purple: #bd00ff;
+            --term-gold: #ffd700;
+            --term-red: #ff3333;
+            --term-blue: #00ffff;
+            --glass-bg: rgba(10, 10, 10, 0.85);
+            --glass-border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            font-family: 'Courier New', Courier, monospace;
+            user-select: none;
+            color: white;
+        }
+
+        canvas { display: block; z-index: 1; }
+
+        /* --- UI LAYER --- */
+        #ui-layer {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 10; padding: 20px; box-sizing: border-box;
+        }
+
+        .hud-panel {
+            position: absolute; background: var(--glass-bg); padding: 20px;
+            border: var(--glass-border); backdrop-filter: blur(10px);
+            border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); pointer-events: auto;
+        }
+
+        /* STATS */
+        #stats-panel {
+            top: 20px; left: 20px; border-left: 4px solid var(--term-green); min-width: 200px;
+        }
+        .stat-row { font-size: 20px; margin-bottom: 8px; text-shadow: 0 0 5px rgba(0,255,0,0.3); }
+        .label { color: #aaa; font-weight: bold; font-size: 12px; letter-spacing: 1px; }
+        .val-money { color: var(--term-green); font-weight: bold; font-size: 24px; }
+        .val-dm { color: var(--term-purple); font-weight: bold; font-size: 24px; }
+        .val-hps { color: #0ff; font-weight: bold; }
+
+        /* COMBO METER */
+        #combo-container {
+            position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
+            text-align: center; opacity: 0; transition: opacity 0.2s;
+        }
+        #combo-val {
+            font-size: 40px; font-weight: 900; color: var(--term-gold);
+            text-shadow: 0 0 10px var(--term-red); font-style: italic;
+        }
+        #combo-label { font-size: 12px; color: #fff; letter-spacing: 5px; }
+        #combo-bar {
+            width: 200px; height: 6px; background: #333; margin: 5px auto; border-radius: 3px; overflow: hidden; position: relative;
+        }
+        #combo-fill { width: 100%; height: 100%; background: var(--term-gold); }
+        #combo-decay { position: absolute; top:0; left:0; height: 100%; width: 0%; background: rgba(255,0,0,0.5); }
+
+        /* SHOP */
+        #shop-panel {
+            top: 20px; right: 20px; width: 360px; pointer-events: auto;
+            display: flex; flex-direction: column; gap: 0;
+            border-right: 4px solid var(--term-green); max-height: 85vh; overflow: hidden; 
+        }
+        .tab-container { display: flex; border-bottom: 1px solid #333; margin-bottom: 10px; }
+        .tab-btn {
+            flex: 1; background: rgba(255,255,255,0.05); color: #888; border: none; padding: 15px;
+            cursor: pointer; font-family: inherit; font-weight: bold; transition: 0.2s; font-size: 14px;
+        }
+        .tab-btn.active-tab { background: #002200; color: var(--term-green); border-bottom: 3px solid var(--term-green); }
+        .tab-btn.active-tab.purple { background: #220022; color: var(--term-purple); border-bottom: 3px solid var(--term-purple); }
+        .tab-btn:hover { background: rgba(255,255,255,0.1); color:white; }
+
+        #shop-list { overflow-y: auto; padding-right: 5px; display: flex; flex-direction: column; gap: 12px; }
+
+        .btn {
+            background: linear-gradient(90deg, rgba(0,20,0,0.8), rgba(0,40,0,0.8));
+            border: 1px solid var(--term-dim); color: var(--term-green); padding: 15px;
+            cursor: pointer; font-family: inherit; font-size: 14px; text-align: left;
+            transition: all 0.1s; position: relative; overflow: hidden; border-radius: 4px;
+        }
+        .btn.exotic {
+            background: linear-gradient(90deg, rgba(20,0,20,0.8), rgba(40,0,40,0.8));
+            border: 1px solid #404; color: var(--term-purple);
+        }
+        .btn:hover:not(.disabled) { transform: translateX(-5px); filter: brightness(1.3); border-color: var(--term-green); }
+        .btn:active:not(.disabled) { transform: scale(0.98); }
+        .btn.disabled { opacity: 0.5; cursor: not-allowed; filter: grayscale(1); background: #111; }
+        .btn-top { display: flex; justify-content: space-between; margin-bottom: 6px; }
+        .btn-name { font-weight: bold; font-size: 15px; }
+        .btn-cost { font-weight: bold; font-size: 15px; }
+        .btn-desc { font-size: 12px; color: #aaa; line-height: 1.3; }
+        .btn-lvl { font-size: 11px; color: #666; margin-top: 6px; text-transform: uppercase; }
+
+        /* SINGULARITY BUTTON */
+        #singularity-container {
+            position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); pointer-events: auto; display: none; 
+        }
+        #btn-singularity {
+            background: black; color: white; border: 3px solid white; padding: 20px 60px;
+            font-size: 24px; font-family: 'Courier New', Courier, monospace; font-weight: bold;
+            cursor: pointer; letter-spacing: 4px; animation: glitch-pulse 0.2s infinite; box-shadow: 0 0 30px white;
+        }
+        @keyframes glitch-pulse {
+            0% { transform: translate(0,0); text-shadow: 2px 0 #f0f, -2px 0 #0ff; }
+            50% { transform: translate(2px, -2px); text-shadow: -2px 0 #f0f, 2px 0 #0ff; }
+            100% { transform: translate(0,0); }
+        }
+
+        /* PAUSE MENU */
+        #pause-menu {
+            display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); z-index: 2000; pointer-events: auto;
+            justify-content: center; align-items: center; flex-direction: column;
+        }
+        .menu-box {
+            background: #111; border: 2px solid var(--term-green); padding: 40px; width: 400px; text-align: center;
+        }
+        .menu-title { color: var(--term-green); font-size: 30px; margin-bottom: 30px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .menu-btn {
+            display: block; width: 100%; padding: 15px; margin: 10px 0; background: #222;
+            color: white; border: 1px solid #444; cursor: pointer; font-family: inherit; font-size: 18px;
+        }
+        .menu-btn:hover { background: #333; border-color: white; }
+        .menu-btn.danger { border-color: var(--term-red); color: var(--term-red); }
+        .menu-btn.danger:hover { background: #300; }
+        
+        #settings-btn {
+            position: absolute; bottom: 20px; right: 20px; pointer-events: auto;
+            background: #111; border: 1px solid #444; color: #888; padding: 10px; cursor: pointer;
+        }
+        
+        .setting-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; color: #ccc; }
+        input[type=range] { width: 50%; height: 10px; accent-color: var(--term-green); cursor: pointer; }
+
+        /* DEV MENU */
+        #dev-menu {
+            display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 600px; background: #111; border: 2px solid var(--term-red); padding: 20px;
+            pointer-events: auto; z-index: 9999; box-shadow: 0 0 50px rgba(255, 0, 0, 0.2);
+        }
+        #dev-menu h2 { margin: 0 0 20px 0; color: var(--term-red); border-bottom: 1px solid #333; padding-bottom: 10px; display: flex; justify-content: space-between; }
+        .dev-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+        .dev-btn { background: #200; color: #f88; border: 1px solid #500; padding: 10px; cursor: pointer; font-family: monospace; font-size: 12px; }
+        .dev-btn:hover { background: #400; } .dev-btn:active { background: #f00; color: black; }
+
+        /* UTILS */
+        .hidden { display: none !important; }
+        #intro-overlay {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: white; font-size: 24px; text-align: center; animation: slow-blink 2s infinite;
+            z-index: 100; pointer-events: none; text-shadow: 0 0 10px white;
+        }
+        #flash-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: white; opacity: 0; pointer-events: none; z-index: 999;
+            transition: opacity 1s ease-out;
+        }
+        .crit-flash { animation: none; }
+        @keyframes slow-blink { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+
+    </style>
+</head>
+<body>
+
+    <canvas id="gameCanvas"></canvas>
+    <div id="flash-overlay"></div>
+
+    <div id="ui-layer">
+        <div id="intro-overlay">CLICK TO INITIALIZE SYSTEM v10.0<br><span style="font-size:12px; color:#888">[RELATIVITY ENGINE]</span></div>
+
+        <div id="stats-panel" class="hud-panel">
+            <div class="stat-row"><span class="label">CACHE:</span> <br><span class="val-money" id="disp-cash">$0</span></div>
+            <div class="stat-row hidden" id="dm-stat"><span class="label">DARK MATTER:</span> <br><span class="val-dm" id="disp-dm">0</span></div>
+            <div class="stat-row"><span class="label">HITS/SEC:</span> <span class="val-hps" id="disp-hps">0</span></div>
+            <div class="stat-row"><span class="label">BALLS:</span> <span id="disp-balls">1</span>/200</div>
+        </div>
+
+        <div id="combo-container">
+            <div id="combo-val">x1.0</div>
+            <div id="combo-label">COMBO</div>
+            <div id="combo-bar">
+                <div id="combo-fill"></div>
+                <div id="combo-decay"></div>
+            </div>
+        </div>
+
+        <div id="shop-panel" class="hud-panel">
+            <div class="tab-container">
+                <button class="tab-btn active-tab" id="tab-physics" onclick="switchTab('physics')">PHYSICS</button>
+                <button class="tab-btn hidden" id="tab-exotic" onclick="switchTab('exotic')">EXOTIC</button>
+            </div>
+            <div id="shop-list"></div>
+        </div>
+
+        <div id="singularity-container">
+            <button id="btn-singularity" onclick="triggerSingularity()">⚠ INITIATE SINGULARITY ⚠</button>
+        </div>
+
+        <button id="settings-btn" onclick="togglePause()">SETTINGS [ESC]</button>
+    </div>
+
+    <div id="pause-menu">
+        <div class="menu-box">
+            <div class="menu-title">SYSTEM PAUSED</div>
+            
+            <div class="setting-row">
+                <span>MASTER VOLUME</span>
+                <input type="range" min="0" max="100" value="50" id="vol-slider" oninput="updateSettings()">
+            </div>
+            
+            <div class="setting-row">
+                <span>GRAPHICS QUALITY</span>
+                <button class="menu-btn" style="width: 150px; margin:0;" id="gfx-btn" onclick="toggleGFX()">HIGH</button>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #333; margin: 20px 0;">
+
+            <button class="menu-btn" onclick="togglePause()">RESUME</button>
+            <button class="menu-btn" onclick="saveGame()">SAVE SYSTEM</button>
+            <button class="menu-btn" onclick="loadGame()">LOAD SYSTEM</button>
+            <button class="menu-btn danger" onclick="hardReset()">FACTORY RESET</button>
+        </div>
+    </div>
+
+    <div id="dev-menu">
+        <h2>DEV CONSOLE <span>[~] to Close</span></h2>
+        <div class="dev-grid">
+            <button class="dev-btn" onclick="devAddMoney(1000000)">+ $1 MILLION</button>
+            <button class="dev-btn" onclick="devAddMoney(1000000000000)">+ $1 TRILLION</button>
+            <button class="dev-btn" onclick="devAddBalls(1)">+ 1 BALL</button>
+            <button class="dev-btn" onclick="devAddBalls(50)">+ 50 BALLS</button>
+            <button class="dev-btn" onclick="devAddDM(100)">+ 100 DARK MATTER</button>
+            <button class="dev-btn" onclick="devAddDM(10000)">+ 10k DARK MATTER</button>
+            <button class="dev-btn" onclick="devForceSingularity()">FORCE SINGULARITY</button>
+            <button class="dev-btn" onclick="devMaxCrunch()">MAX WALL CRUNCH</button>
+            <button class="dev-btn" onclick="devReset()">HARD RESET</button>
+        </div>
+    </div>
+
+<script>
+/**
+ * ENGINE: SINGULARITY CHAMBER v10.0 (Relativity Update)
+ * - Resolution: Dynamic (Fills screen)
+ * - Physics: Scaled (Zooming changes scale, not gameplay speed)
+ * - Audio: Volume & Quality Settings
+ */
+
+// --- CONFIG ---
+const REF_W = 1920; // Reference width for physics calculations
+const MAX_BALLS = 200;
+const MAX_CRUNCH_RATIO = 0.45; 
+const BASE_OVERCLOCK_DURATION = 10000;
+const OVERCLOCK_COOLDOWN = 60000;
+const BURNOUT_THRESHOLD = 400; 
+const BURNOUT_CHANCE = 0.05; 
+const GRAVITY_WELL_RADIUS = 120;
+const MIN_SPEED = 2; // Physics speed units
+
+// CONFIGS
+const CRIT_CHANCE = 0.01; 
+const CRIT_MULT = 50;
+const CUBE_SPAWN_TIME = 20000; 
+const RAILGUN_WIDTH = 40;
+const BASE_COMBO_LIMIT = 20000; 
+
+// Harmonic Scale
+const NOTES = [130.81, 146.83, 164.81, 196.00, 220.00, 261.63, 293.66, 329.63, 392.00, 440.00];
+
+// --- STATE ---
+let state = {
+    cash: 0, darkMatter: 0, totalCashPrestige: 0,
+    paddingX: 0, paddingY: 0, timeScale: 1.0, bounceGain: 0.0, 
+    gravityStr: 0, quantumChance: 0, coldFusionLevel: 0, globalSpeedMult: 1.0, 
+    ballCollisionBoost: false, 
+    hasRailgun: false, autoBuyer: false,
+    cube: null, cubeTimer: CUBE_SPAWN_TIME,
+    combo: 0, comboTimer: 0, maxComboTime: 120, comboHardLimit: BASE_COMBO_LIMIT, maxComboLimit: BASE_COMBO_LIMIT,
+    masterVolume: 0.5, graphicsLow: false,
+    burnoutReduction: 0, overclockBonus: 0, startBalls: 1,
+    balls: [], particles: [], shockwaves: [], ripples: [],
+    hps: 0, hitsThisSecond: 0, lastSecTime: 0,
+    overclockActive: false, overclockReadyTime: 0, audioReady: false, 
+    isResetting: false, devMenuOpen: false, paused: false, activeTab: 'physics', hasPrestiged: false,
+    dtFactor: 1, frameMs: 1000/60, // Real frame delta (keeps speed consistent across refresh rates)
+    scaleRatio: 1.0 // New Scale Factor
+};
+
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d', { alpha: false });
+let width, height;
+
+// --- AUDIO ENGINE ---
+let audioCtx, masterGain;
+
+function initAudio() {
+    if(state.audioReady) return;
+    const AC = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AC();
+    masterGain = audioCtx.createGain();
+    masterGain.gain.value = state.masterVolume;
+    masterGain.connect(audioCtx.destination);
+    state.audioReady = true;
+    document.getElementById('intro-overlay').style.display = 'none';
+    if(audioCtx.state === 'suspended') audioCtx.resume();
+}
+
+function updateSettings() {
+    state.masterVolume = document.getElementById('vol-slider').value / 100;
+    if(masterGain) masterGain.gain.value = state.masterVolume;
+}
+
+function toggleGFX() {
+    state.graphicsLow = !state.graphicsLow;
+    document.getElementById('gfx-btn').innerText = state.graphicsLow ? "LOW" : "HIGH";
+}
+
+function playNote(speed) {
+    if(!state.audioReady || state.isResetting || state.paused || state.graphicsLow) return;
+    const idx = Math.min(NOTES.length - 1, Math.floor((speed / 80) * NOTES.length));
+    const freq = NOTES[idx];
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = 'sine'; osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+    const vol = Math.min(speed / 40, 0.5) * state.masterVolume;
+    gain.gain.setValueAtTime(0, audioCtx.currentTime);
+    gain.gain.linearRampToValueAtTime(vol, audioCtx.currentTime + 0.01);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.1);
+    osc.connect(gain); gain.connect(masterGain);
+    osc.start(); osc.stop(audioCtx.currentTime + 0.15);
+}
+
+function playCritSound() {
+    if(!state.audioReady || state.paused) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = 'square';
+    osc.frequency.setValueAtTime(100, audioCtx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(50, audioCtx.currentTime + 0.3);
+    gain.gain.setValueAtTime(0.3 * state.masterVolume, audioCtx.currentTime); 
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+    osc.connect(gain); gain.connect(masterGain);
+    osc.start(); osc.stop(audioCtx.currentTime + 0.3);
+}
+
+function playRailgunSound() {
+    if(!state.audioReady || state.paused) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = 'sawtooth';
+    osc.frequency.setValueAtTime(400, audioCtx.currentTime);
+    osc.frequency.linearRampToValueAtTime(1000, audioCtx.currentTime + 0.1);
+    gain.gain.setValueAtTime(0.1 * state.masterVolume, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.1);
+    osc.connect(gain); gain.connect(masterGain);
+    osc.start(); osc.stop(audioCtx.currentTime + 0.1);
+}
+
+function playVaporizeSound() {
+    if(!state.audioReady || state.paused) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = 'sawtooth';
+    osc.frequency.setValueAtTime(800, audioCtx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.3);
+    gain.gain.setValueAtTime(0.3 * state.masterVolume, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+    osc.connect(gain); gain.connect(masterGain);
+    osc.start(); osc.stop(audioCtx.currentTime + 0.3);
+}
+
+// --- PARTICLE SYSTEM ---
+class Particle {
+    constructor(x, y, color, speedMult = 1) {
+        this.x = x;
+        this.y = y;
+        const angle = Math.random() * Math.PI * 2;
+        // Scale speed by ratio
+        const speed = (Math.random() * 8 + 2) * speedMult * state.scaleRatio;
+        this.vx = Math.cos(angle) * speed;
+        this.vy = Math.sin(angle) * speed;
+        this.life = 1.0;
+        this.decay = Math.random() * 0.02 + 0.01;
+        this.color = color;
+    }
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vx *= 0.92;
+        this.vy *= 0.92;
+        this.life -= this.decay;
+    }
+    draw() {
+        ctx.globalAlpha = this.life;
+        ctx.fillStyle = this.color;
+        // Scale particle size
+        const s = 5 * state.scaleRatio;
+        ctx.fillRect(this.x, this.y, s, s);
+        ctx.globalAlpha = 1.0;
+    }
+}
+
+function spawnExplosion(x, y, count, color = '#fff', speedMult = 1) {
+    if (state.particles.length > 500 || state.graphicsLow) return; 
+    for(let i=0; i<count; i++) {
+        state.particles.push(new Particle(x, y, color, speedMult));
+    }
+}
+
+function spawnShockwave(x, y) {
+    if (state.graphicsLow) return;
+    state.shockwaves.push({x, y, r: 10 * state.scaleRatio, a: 1.0});
+}
+
+// --- VISUALS ---
+function getVelocityColor(v) {
+    // Normalize speed relative to scale so color logic is consistent
+    const normV = v / state.scaleRatio;
+    if (normV < 20) return `rgb(${255 * (1-normV/20)}, 255, 255)`;
+    if (normV < 50) return `rgb(${255 * (normV-20)/30}, ${255 * (1-(normV-20)/30)}, 255)`; 
+    if (normV < 100) return `rgb(255, ${255*((normV-50)/50)*0.84}, 0)`; 
+    if (normV < 200) return `rgb(255, ${215 * (1-((normV-100)/100))}, 0)`;
+    return '#000000'; 
+}
+
+// --- PHYSICS ENTITY ---
+class Ball {
+    constructor(x, y) {
+        this.reset(x, y);
+    }
+
+    reset(x, y) {
+        // Safe spawn logic using dynamic width/height
+        let safe = false;
+        let attempts = 0;
+        const safeDist = 200 * state.scaleRatio;
+        
+        while (!safe && attempts < 10) {
+            this.x = (x || width/2) + (Math.random() - 0.5) * (width * 0.5);
+            this.y = (y || height/2) + (Math.random() - 0.5) * (height * 0.5);
+            
+            const dx = this.x - width/2;
+            const dy = this.y - height/2;
+            if (Math.sqrt(dx*dx + dy*dy) > safeDist) safe = true;
+            attempts++;
+        }
+        if(!safe) this.x += safeDist * 1.5;
+
+        this.mass = 1;
+        this.dead = false;
+        this.gravityCharge = 1.0; 
+        
+        const speedMult = 1 + (state.darkMatter * 0.01);
+        // SCALE VELOCITY BY SCREEN RATIO
+        const baseV = 2 * state.globalSpeedMult * speedMult * state.scaleRatio; 
+        const angle = Math.random() * Math.PI * 2;
+        
+        this.vx = Math.cos(angle) * baseV;
+        this.vy = Math.sin(angle) * baseV;
+        this.radius = 8 * state.scaleRatio; 
+        this.color = '#fff';
+    }
+
+    update() {
+        if(this.dead) return;
+        const dt = state.timeScale * state.dtFactor;
+        
+        // GRAVITY
+        const dx = (width/2) - this.x;
+        const dy = (height/2) - this.y;
+        const distSq = dx*dx + dy*dy;
+        const dist = Math.sqrt(distSq);
+        const gravRadius = GRAVITY_WELL_RADIUS * state.scaleRatio;
+
+        if (state.gravityStr > 0 && dist < gravRadius + (state.gravityStr * 10 * state.scaleRatio)) {
+            const force = (state.gravityStr * 5 * state.scaleRatio) / (dist + 10); 
+            this.vx += (dx / dist) * force * dt;
+            this.vy += (dy / dist) * force * dt;
+            this.gravityCharge += 0.05 * dt; 
+        }
+
+        // RAILGUN
+        if (state.hasRailgun) {
+            const rWidth = RAILGUN_WIDTH * state.scaleRatio;
+            if (Math.abs(this.x - width/2) < rWidth/2) {
+                const dir = this.vy > 0 ? 1 : -1;
+                this.vy += dir * 1.5 * state.scaleRatio; 
+                this.vx *= 0.9;
+                if(Math.random()<0.05) playRailgunSound();
+            }
+        }
+
+        // CUBE COLLISION
+        if (state.cube) {
+            const c = state.cube;
+            if (this.x > c.x - c.s && this.x < c.x + c.s && this.y > c.y - c.s && this.y < c.y + c.s) {
+                this.vx *= -1; this.vy *= -1;
+                damageCube();
+                spawnExplosion(this.x, this.y, 5, '#f0f');
+            }
+        }
+
+        // BURNOUT (Scaled)
+        let speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const scaledThreshold = BURNOUT_THRESHOLD * state.scaleRatio;
+        
+        const effBurnout = Math.max(0, BURNOUT_CHANCE - state.burnoutReduction);
+        
+        if (speed > scaledThreshold && Math.random() < effBurnout) {
+            this.vaporize(speed);
+            return;
+        }
+
+        // MIN SPEED
+        const scaledMin = MIN_SPEED * state.scaleRatio;
+        if (speed < scaledMin && speed > 0) {
+            const scale = scaledMin / speed;
+            this.vx *= scale;
+            this.vy *= scale;
+            speed = scaledMin;
+        }
+
+        this.x += this.vx * dt;
+        this.y += this.vy * dt;
+
+        // BOUNDS (Dynamic)
+        const pX = state.paddingX * state.scaleRatio; // Apply Scale to padding
+        const pY = state.paddingY * state.scaleRatio;
+        const rw = width - pX;
+        const rh = height - pY;
+        let hit = false;
+        
+        const restitution = 1.0; 
+
+        if (this.x - this.radius < pX) {
+            if(this.tryQuantumTunnel('x')) return;
+            this.x = pX + this.radius;
+            this.vx *= -restitution; 
+            hit = true;
+        } else if (this.x + this.radius > rw) {
+            if(this.tryQuantumTunnel('x')) return;
+            this.x = rw - this.radius;
+            this.vx *= -restitution; 
+            hit = true;
+        }
+
+        if (this.y - this.radius < pY) {
+            if(this.tryQuantumTunnel('y')) return;
+            this.y = pY + this.radius;
+            this.vy *= -restitution; 
+            hit = true;
+        } else if (this.y + this.radius > rh) {
+            if(this.tryQuantumTunnel('y')) return;
+            this.y = rh - this.radius;
+            this.vy *= -restitution; 
+            hit = true;
+        }
+
+        if (hit) {
+            this.onHit(speed);
+        } else if (!state.hasRailgun) {
+            this.color = getVelocityColor(speed);
+        }
+    }
+
+    vaporize(speed) {
+        this.dead = true;
+        playVaporizeSound();
+        spawnExplosion(this.x, this.y, 50, '#ff0', 3); 
+        const bonus = Math.floor(state.cash * 0.20) + 5000;
+        state.cash += bonus;
+        state.totalCashPrestige += bonus;
+    }
+
+    tryQuantumTunnel(axis) {
+        if (Math.random() < state.quantumChance) {
+            const pX = state.paddingX * state.scaleRatio;
+            const pY = state.paddingY * state.scaleRatio;
+            if (axis === 'x') {
+                if (this.vx < 0) this.x = (width - pX) - this.radius - 2;
+                else this.x = pX + this.radius + 2;
+            } else {
+                if (this.vy < 0) this.y = (height - pY) - this.radius - 2;
+                else this.y = pY + this.radius + 2;
+            }
+            spawnExplosion(this.x, this.y, 10);
+            const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+            this.onHit(speed);
+            return true;
+        }
+        return false;
+    }
+
+    onHit(speed) {
+        state.hitsThisSecond++;
+        const dmMult = 1 + (state.darkMatter * 0.1);
+        const comboMult = 1 + (state.combo * 0.1);
+        
+        let base = 1; 
+        
+        // CRIT SYSTEM
+        let isCrit = false;
+        if (Math.random() < CRIT_CHANCE) {
+            base *= CRIT_MULT;
+            isCrit = true;
+            spawnShockwave(this.x, this.y);
+            playCritSound();
+            spawnExplosion(this.x, this.y, 40, '#ff00ff', 2);
+        } else {
+            // Unscale speed for pitch calc so notes are consistent across zoom levels
+            playNote(speed / state.scaleRatio); 
+        }
+
+        if (!state.graphicsLow && state.ripples.length < 50) {
+            state.ripples.push({ r: 0, maxR: width, color: this.color, alpha: 0.3 });
+        }
+
+        const amount = Math.floor(base * dmMult * comboMult * this.gravityCharge);
+        
+        state.cash += amount;
+        state.totalCashPrestige += amount;
+        this.gravityCharge = 1.0;
+        
+        state.combo++;
+        state.comboTimer = 120;
+    }
+    
+    draw() {
+        if(this.dead) return;
+        ctx.fillStyle = this.color;
+        ctx.fillRect(this.x - this.radius, this.y - this.radius, this.radius*2, this.radius*2);
+
+        if (this.gravityCharge > 1.5) {
+            ctx.fillStyle = '#bd00ff';
+            ctx.font = `bold ${12 * state.scaleRatio}px Courier New`;
+            ctx.fillText(`x${this.gravityCharge.toFixed(1)}`, (this.x + this.radius + 5) | 0, (this.y - this.radius) | 0);
+        }
+    }
+}
+
+// --- CUBE LOGIC ---
+function spawnCube() {
+    const s = 80 * state.scaleRatio;
+    state.cube = { x: width/2, y: height/2, s: s, hp: 10, maxHp: 10 };
+}
+function damageCube() {
+    if(!state.cube) return;
+    state.cube.hp--;
+    spawnExplosion(state.cube.x, state.cube.y, 5, '#f0f');
+    if(state.cube.hp <= 0) {
+        const bonus = Math.floor(state.cash * 0.5) + 5000;
+        state.cash += bonus;
+        state.totalCashPrestige += bonus;
+        // ANTI-FLASHBANG
+        spawnExplosion(state.cube.x, state.cube.y, 150, '#0ff', 4);
+        spawnShockwave(state.cube.x, state.cube.y);
+        playCritSound();
+        state.cube = null;
+        state.cubeTimer = CUBE_SPAWN_TIME;
+    }
+}
+
+// --- PHYSICS: BALL COLLISIONS ---
+function handleCollisions() {
+    const balls = state.balls;
+    const len = balls.length;
+    // Scale proximity check
+    const minDistSq = (16 * state.scaleRatio) ** 2;
+    
+    for (let i = 0; i < len; i++) {
+        if(balls[i].dead) continue;
+        for (let j = i + 1; j < len; j++) {
+            const b1 = balls[i]; const b2 = balls[j];
+            if(b2.dead) continue;
+            
+            const dx = b2.x - b1.x; const dy = b2.y - b1.y;
+            const distSq = dx*dx + dy*dy;
+            
+            if (distSq < minDistSq) {
+                const dist = Math.sqrt(distSq);
+                const overlap = (16 * state.scaleRatio) - dist;
+                const nx = dx / dist; 
+                const ny = dy / dist; 
+                
+                b1.x -= nx * overlap * 0.5; b1.y -= ny * overlap * 0.5;
+                b2.x += nx * overlap * 0.5; b2.y += ny * overlap * 0.5;
+                
+                const tx = b1.vx; const ty = b1.vy;
+                b1.vx = b2.vx; b1.vy = b2.vy;
+                b2.vx = tx; b2.vy = ty;
+
+                // NEW: Collision Boost
+                if (state.ballCollisionBoost) {
+                    b1.vx *= 1.05; b1.vy *= 1.05;
+                    b2.vx *= 1.05; b2.vy *= 1.05;
+                }
+
+                if (state.coldFusionLevel > 0) {
+                    const s1 = Math.sqrt(b1.vx*b1.vx + b1.vy*b1.vy);
+                    const payout = Math.floor(s1 * state.coldFusionLevel * 0.5);
+                    state.cash += payout;
+                    state.totalCashPrestige += payout;
+                }
+                spawnExplosion(b1.x + (dx/2), b1.y + (dy/2), 4, '#0ff');
+            }
+        }
+    }
+}
+
+// --- UPGRADES ---
+const upgrades = [
+    {
+        id: 'splitter', type: 'cash', name: 'SPLITTER', desc: 'Add a new ball.', base: 25, mult: 1.2, 
+        trigger: () => { if(state.balls.length < MAX_BALLS) state.balls.push(new Ball()); },
+        max: MAX_BALLS
+    },
+    {
+        id: 'elasticity', type: 'cash', name: 'ELASTICITY', desc: '+15% Velocity.', base: 100, mult: 2.0,
+        trigger: () => {
+            state.globalSpeedMult *= 1.15; 
+            state.balls.forEach(b => { b.vx*=1.15; b.vy*=1.15; });
+        }
+    },
+    {
+        id: 'wall_crunch', type: 'cash', name: 'WALL CRUNCH', desc: 'Contract chamber.', base: 250, mult: 1.5,
+        trigger: () => {
+            // Smart Crunch Logic (Square the aspect ratio)
+            const w = width - (state.paddingX * 2 * state.scaleRatio);
+            const h = height - (state.paddingY * 2 * state.scaleRatio);
+            if (w > h) state.paddingX += 30; else state.paddingY += 30;
+            checkSingularityReady();
+        }
+    },
+    {
+        id: 'gravity', type: 'cash', name: 'GRAVITY WELL', desc: 'Trap balls in center.', base: 2000, mult: 3.0,
+        trigger: () => { state.gravityStr += 0.5; }
+    },
+    {
+        id: 'railgun', type: 'cash', name: 'RAILGUN', desc: 'Vertical Accelerator Beam.', base: 5000, mult: 100,
+        trigger: () => { state.hasRailgun = true; }, max: 1
+    },
+    {
+        id: 'cold_fusion', type: 'cash', name: 'COLD FUSION', desc: 'Cash on collisions.', base: 3000, mult: 2.5,
+        trigger: () => { state.coldFusionLevel += 1; }
+    },
+    {
+        id: 'friction', type: 'cash', name: 'NO FRICTION', desc: 'Boost on Ball Hit.', base: 5000, mult: 4.0,
+        trigger: () => { state.ballCollisionBoost = true; }, max: 1
+    },
+    {
+        id: 'quantum', type: 'cash', name: 'QUANTUM TUNNEL', desc: 'Teleport through walls.', base: 10000, mult: 5.0,
+        trigger: () => { state.quantumChance += 0.05; }
+    },
+    {
+        id: 'overclock', type: 'cash', name: 'OVERCLOCK', desc: '2x Speed (60s CD).', base: 0, mult: 1, 
+        trigger: () => activateOverclock()
+    },
+    // --- EXOTIC ---
+    {
+        id: 'stabilizer', type: 'dm', name: 'MATTER STABILIZER', desc: 'Reduce Burnout.', base: 5, mult: 2.0,
+        trigger: () => { state.burnoutReduction += 0.005; } 
+    },
+    {
+        id: 'time_cap', type: 'dm', name: 'TEMPORAL CAPACITOR', desc: '+2s Overclock.', base: 10, mult: 1.8,
+        trigger: () => { state.overclockBonus += 2000; }
+    },
+    {
+        id: 'genesis', type: 'dm', name: 'GENESIS MODULE', desc: '+1 Start Ball.', base: 50, mult: 2.5,
+        trigger: () => { state.startBalls += 1; }
+    },
+    {
+        id: 'auto', type: 'dm', name: 'REPLICATOR', desc: 'Auto-buys balls.', base: 20, mult: 50, max: 1,
+        trigger: () => { state.autoBuyer = true; } 
+    },
+    {
+        id: 'combo_time', type: 'dm', name: 'TIME DILATION', desc: '+5s Combo Limit.', base: 10, mult: 1.5,
+        trigger: () => { state.maxComboLimit += 5000; } 
+    }
+];
+
+let upgradeLevels = new Array(upgrades.length).fill(0);
+
+// --- SHOP UI ---
+function switchTab(tab) {
+    state.activeTab = tab;
+    document.getElementById('tab-physics').classList.toggle('active-tab', tab === 'physics');
+    document.getElementById('tab-exotic').classList.toggle('active-tab', tab === 'exotic');
+    document.getElementById('tab-exotic').classList.toggle('purple', tab === 'exotic');
+    initShopList();
+}
+
+function initShopList() {
+    const list = document.getElementById('shop-list');
+    list.innerHTML = '';
+    const tabType = state.activeTab === 'physics' ? 'cash' : 'dm';
+    upgrades.forEach((u, i) => {
+        if (u.type !== tabType) return;
+        const btn = document.createElement('div');
+        btn.className = u.type === 'dm' ? 'btn exotic' : 'btn';
+        if(u.id === 'overclock') btn.id = 'btn-overclock';
+        btn.onclick = () => buyUpgrade(i);
+        btn.innerHTML = `
+            <div class="btn-top"><span class="btn-name">${u.name}</span><span class="btn-cost" id="cost-${i}">0</span></div>
+            <div class="btn-desc">${u.desc}</div>
+            <div class="btn-lvl">Lvl: <span id="lvl-${i}">0</span></div>`;
+        list.appendChild(btn);
+    });
+    updateShop();
+}
+
+function updateShop() {
+    const tabType = state.activeTab === 'physics' ? 'cash' : 'dm';
+    const currency = tabType === 'cash' ? state.cash : state.darkMatter;
+    const currSymbol = tabType === 'cash' ? '$' : 'DM ';
+
+    upgrades.forEach((u, i) => {
+        if(u.type !== tabType) return;
+        let cost = Math.floor(u.base * Math.pow(u.mult, upgradeLevels[i]));
+        const costEl = document.getElementById(`cost-${i}`);
+        if(!costEl) return; 
+
+        if(u.id === 'overclock') {
+            const now = Date.now();
+            const cooldownRem = Math.max(0, state.overclockReadyTime - now);
+            const btn = document.getElementById('btn-overclock');
+            if (state.overclockActive) { costEl.innerText = "ACTIVE"; btn.classList.add('disabled'); }
+            else if (cooldownRem > 0) { costEl.innerText = (cooldownRem/1000).toFixed(1) + "s"; btn.classList.add('disabled'); }
+            else { costEl.innerText = "READY"; btn.classList.remove('disabled'); }
+            return;
+        }
+
+        if ((u.id === 'splitter' && state.balls.length >= MAX_BALLS) || (u.max && upgradeLevels[i] >= u.max)) {
+            costEl.innerText = "MAXED";
+        } else {
+            costEl.innerText = currSymbol + cost.toLocaleString();
+        }
+        document.getElementById(`lvl-${i}`).innerText = upgradeLevels[i];
+        const btn = costEl.parentNode.parentNode;
+        if (currency < cost || (u.id==='splitter' && state.balls.length >= MAX_BALLS) || (u.max && upgradeLevels[i] >= u.max)) {
+            btn.classList.add('disabled');
+        } else {
+            btn.classList.remove('disabled');
+        }
+    });
+}
+
+function buyUpgrade(idx) {
+    const u = upgrades[idx];
+    if(u.id === 'overclock') {
+        if(!state.overclockActive && Date.now() > state.overclockReadyTime) u.trigger();
+        return;
+    }
+    const cost = Math.floor(u.base * Math.pow(u.mult, upgradeLevels[idx]));
+    const currency = u.type === 'cash' ? state.cash : state.darkMatter;
+
+    if (currency >= cost) {
+        if(u.id === 'splitter' && state.balls.length >= MAX_BALLS) return;
+        if (u.type === 'cash') state.cash -= cost; else state.darkMatter -= cost;
+        upgradeLevels[idx]++;
+        u.trigger();
+        updateShop();
+    }
+}
+
+function autoBuyLogic() {
+    if (state.paused) return;
+    if (state.autoBuyer && state.balls.length < MAX_BALLS) {
+        const u = upgrades[0]; // Splitter index 0
+        const cost = Math.floor(u.base * Math.pow(u.mult, upgradeLevels[0]));
+        if (state.cash >= cost) {
+            state.cash -= cost;
+            upgradeLevels[0]++;
+            state.balls.push(new Ball());
+            updateShop();
+        }
+    }
+}
+
+function activateOverclock() {
+    state.overclockActive = true;
+    state.timeScale = 2.0; 
+    setTimeout(() => {
+        state.overclockActive = false;
+        state.timeScale = 1.0;
+        state.overclockReadyTime = Date.now() + OVERCLOCK_COOLDOWN;
+    }, BASE_OVERCLOCK_DURATION + state.overclockBonus);
+}
+
+// --- GAMEPLAY LOOPS ---
+
+function checkSingularityReady() {
+    // Relative padding check
+    const pX = state.paddingX * state.scaleRatio;
+    if (pX > width/2 - 200) document.getElementById('singularity-container').style.display = 'block';
+}
+
+function triggerSingularity() {
+    if(state.isResetting) return;
+    state.isResetting = true;
+    // NERF: Divide by 10 million
+    const gainedDM = Math.floor(state.totalCashPrestige / 10000000); 
+    state.darkMatter += gainedDM;
+    state.hasPrestiged = true; 
+    
+    let frame = 0;
+    const anim = setInterval(() => {
+        frame++;
+        state.balls.forEach(b => {
+            b.x += (width/2 - b.x) * 0.1;
+            b.y += (height/2 - b.y) * 0.1;
+        });
+        state.paddingX *= 0.95; state.paddingY *= 0.95;
+        if(frame > 60) {
+            clearInterval(anim);
+            resetGameWorld();
+            state.isResetting = false;
+        }
+    }, 16);
+}
+
+function resetGameWorld() {
+    state.cash = 0; state.totalCashPrestige = 0;
+    state.paddingX = 0; state.paddingY = 0;
+    state.gravityStr = 0; state.quantumChance = 0;
+    state.coldFusionLevel = 0; state.globalSpeedMult = 1.0;
+    state.hasRailgun = false; state.combo = 0; state.autoBuyer = false;
+    state.ballCollisionBoost = false;
+    state.bounceGain = 0;
+    
+    state.balls = []; state.particles = []; state.shockwaves = []; state.ripples = [];
+    state.cube = null; state.cubeTimer = CUBE_SPAWN_TIME;
+    for(let i=0; i<state.startBalls; i++) state.balls.push(new Ball());
+    upgrades.forEach((u, i) => { if(u.type === 'cash') upgradeLevels[i] = 0; });
+    
+    if(state.hasPrestiged) {
+        document.getElementById('dm-stat').classList.remove('hidden');
+        document.getElementById('tab-exotic').classList.remove('hidden');
+    }
+    document.getElementById('singularity-container').style.display = 'none';
+    initShopList(); 
+}
+
+function resize() {
+    width = window.innerWidth;
+    height = window.innerHeight;
+    canvas.width = width;
+    canvas.height = height;
+    
+    // Zoom Logic: Standard 1080p width used as baseline
+    state.scaleRatio = width / 1920; 
+
+    // Pull balls in
+    state.balls.forEach(b => {
+        b.x = Math.max(10, Math.min(width - 10, b.x));
+        b.y = Math.max(10, Math.min(height - 10, b.y));
+    });
+}
+
+let lastFrameTs = performance.now();
+function draw() {
+    const nowTs = performance.now();
+    state.frameMs = Math.min(100, nowTs - lastFrameTs); // Clamp so hidden tabs don't cause huge jumps
+    lastFrameTs = nowTs;
+    state.dtFactor = state.frameMs / (1000/60);
+    if (state.paused) { requestAnimationFrame(draw); return; }
+
+    // 1. CLEAR & RHYTHM
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, width, height);
+
+    if (!state.graphicsLow) {
+        ctx.lineWidth = 6 * state.scaleRatio;
+        for (let i=state.ripples.length-1; i>=0; i--) {
+            const r = state.ripples[i];
+            r.r += 10 * state.scaleRatio; r.alpha -= 0.005;
+            if(r.alpha <= 0 || r.r > r.maxR) { state.ripples.splice(i,1); continue; }
+            ctx.strokeStyle = r.color;
+            ctx.globalAlpha = r.alpha * 0.3;
+            ctx.beginPath();
+            ctx.arc(width/2, height/2, r.r, 0, Math.PI*2);
+            ctx.stroke();
+        }
+        ctx.globalAlpha = 1;
+    }
+
+    // TRAIL
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.2)'; 
+    ctx.fillRect(0, 0, width, height);
+
+    // 2. WALLS
+    const pX = state.paddingX * state.scaleRatio;
+    const pY = state.paddingY * state.scaleRatio;
+    
+    if(pX > 0 || pY > 0) {
+        ctx.strokeStyle = '#222'; ctx.lineWidth = 4;
+        ctx.strokeRect(pX, pY, width - pX*2, height - pY*2);
+    }
+
+    // 3. RAILGUN
+    if (state.hasRailgun) {
+        const rx = width/2;
+        const rw = RAILGUN_WIDTH * state.scaleRatio;
+        ctx.fillStyle = `rgba(0, 255, 255, ${0.1 + Math.random()*0.1})`;
+        ctx.fillRect(rx - rw/2, pY, rw, height - pY*2);
+        ctx.strokeStyle = '#0ff'; ctx.beginPath();
+        ctx.moveTo(rx, pY); ctx.lineTo(rx, height - pY); ctx.stroke();
+    }
+
+    // 4. GRAVITY WELL
+    if(state.gravityStr > 0) {
+        const pulse = Math.sin(Date.now() / 300) * 5;
+        const radius = (GRAVITY_WELL_RADIUS + (state.gravityStr*5) + pulse) * state.scaleRatio;
+        ctx.beginPath();
+        ctx.arc(width/2, height/2, radius, 0, Math.PI*2);
+        ctx.fillStyle = `rgba(50, 0, 50, 0.2)`; ctx.fill();
+        ctx.strokeStyle = `rgba(150, 0, 200, 0.5)`; ctx.lineWidth = 2; ctx.stroke();
+    }
+
+    // 5. CUBE
+    if(!state.cube) {
+        state.cubeTimer -= state.frameMs;
+        if(state.cubeTimer <= 0) spawnCube();
+    } else {
+        const c = state.cube;
+        ctx.save();
+        ctx.translate(c.x, c.y);
+        ctx.rotate(Date.now()/500);
+        ctx.fillStyle = `rgba(255, 0, 255, ${c.hp/c.maxHp})`;
+        ctx.fillRect(-c.s/2, -c.s/2, c.s, c.s);
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 4;
+        ctx.strokeRect(-c.s/2, -c.s/2, c.s, c.s);
+        ctx.restore();
+    }
+    
+    // 6. PHYSICS
+    handleCollisions();
+    ctx.globalCompositeOperation = 'lighter';
+    state.balls = state.balls.filter(b => !b.dead);
+    state.balls.forEach(b => { b.update(); b.draw(); });
+
+    // 7. PARTICLES & SHOCKWAVES
+    if (!state.graphicsLow) {
+        for(let i=state.particles.length-1; i>=0; i--) {
+            const p = state.particles[i]; p.update(); p.draw();
+            if(p.life <= 0) state.particles.splice(i, 1);
+        }
+        for(let i=state.shockwaves.length-1; i>=0; i--) {
+            const s = state.shockwaves[i]; s.r += 5; s.a -= 0.05;
+            ctx.strokeStyle = `rgba(255, 255, 255, ${s.a})`; ctx.lineWidth = 3;
+            ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI*2); ctx.stroke();
+            if(s.a <= 0) state.shockwaves.splice(i, 1);
+        }
+    }
+
+    // 8. UI
+    const now = Date.now();
+    if (now - state.lastSecTime >= 1000) {
+        state.hps = state.hitsThisSecond; state.hitsThisSecond = 0; state.lastSecTime = now;
+        document.getElementById('disp-hps').innerText = state.hps;
+    }
+    document.getElementById('disp-cash').innerText = "$" + state.cash.toLocaleString();
+    document.getElementById('disp-dm').innerText = state.darkMatter.toLocaleString();
+    document.getElementById('disp-balls').innerText = state.balls.length;
+    
+    // Combo UI & Decay
+    if(state.combo > 0) {
+        state.comboTimer -= state.dtFactor;
+        state.comboHardLimit -= state.frameMs;
+        
+        if(state.comboTimer <= 0 || state.comboHardLimit <= 0) {
+            state.combo = 0;
+            state.comboHardLimit = state.maxComboLimit;
+        }
+        
+        document.getElementById('combo-container').style.opacity = state.combo > 5 ? 1 : 0;
+        document.getElementById('combo-val').innerText = "x" + (1 + state.combo*0.1).toFixed(1);
+        document.getElementById('combo-fill').style.width = (state.comboHardLimit / state.maxComboLimit)*100 + "%";
+        document.getElementById('combo-decay').style.width = (state.comboTimer / 120)*100 + "%";
+    } else {
+        state.comboHardLimit = state.maxComboLimit;
+        document.getElementById('combo-container').style.opacity = 0;
+    }
+
+    requestAnimationFrame(draw);
+}
+
+// --- SAVE/LOAD ---
+function saveGame() {
+    const saveData = {
+        state: {
+            cash: state.cash, dm: state.darkMatter, prestige: state.totalCashPrestige,
+            globalSpeedMult: state.globalSpeedMult, startBalls: state.startBalls,
+            gravityStr: state.gravityStr, bounceGain: state.bounceGain, paddingX: state.paddingX, paddingY: state.paddingY,
+            hasRailgun: state.hasRailgun, autoBuyer: state.autoBuyer, maxComboLimit: state.maxComboLimit,
+            ballCollisionBoost: state.ballCollisionBoost
+        },
+        levels: upgradeLevels
+    };
+    localStorage.setItem('singularity_v10', JSON.stringify(saveData));
+    alert("SYSTEM SAVED");
+}
+
+function loadGame() {
+    let data = null;
+    try { data = JSON.parse(localStorage.getItem('singularity_v10')); } catch(e) { data = null; }
+    if(!data || !data.state) { alert("NO SAVE FOUND"); return; }
+
+    const s = data.state;
+    state.cash = s.cash || 0;
+    state.darkMatter = s.dm || 0;
+    state.totalCashPrestige = s.prestige || 0;
+    state.globalSpeedMult = s.globalSpeedMult || 1.0;
+    state.startBalls = s.startBalls || 1;
+    state.gravityStr = s.gravityStr || 0;
+    state.bounceGain = s.bounceGain || 0;
+    state.paddingX = s.paddingX || 0;
+    state.paddingY = s.paddingY || 0;
+    state.hasRailgun = !!s.hasRailgun;
+    state.autoBuyer = !!s.autoBuyer;
+    state.maxComboLimit = s.maxComboLimit || BASE_COMBO_LIMIT;
+    state.ballCollisionBoost = !!s.ballCollisionBoost;
+
+    upgradeLevels = upgrades.map((u, i) => (Array.isArray(data.levels) && data.levels[i]) || 0);
+
+    // Rebuild derived effects that the save doesn't store directly
+    upgrades.forEach((u, i) => {
+        const lvl = upgradeLevels[i];
+        if(u.id === 'quantum') state.quantumChance = lvl * 0.05;
+        if(u.id === 'cold_fusion') state.coldFusionLevel = lvl;
+        if(u.id === 'stabilizer') state.burnoutReduction = lvl * 0.005;
+        if(u.id === 'time_cap') state.overclockBonus = lvl * 2000;
+    });
+
+    // Rebuild balls to match the save (start balls + splitter purchases)
+    const targetBalls = Math.min(MAX_BALLS, state.startBalls + (upgradeLevels[0] || 0));
+    state.balls = [];
+    for(let i=0; i<targetBalls; i++) state.balls.push(new Ball());
+
+    if(state.darkMatter > 0) {
+        state.hasPrestiged = true;
+        document.getElementById('dm-stat').classList.remove('hidden');
+        document.getElementById('tab-exotic').classList.remove('hidden');
+    }
+    document.getElementById('singularity-container').style.display = 'none';
+    checkSingularityReady();
+    updateShop();
+    togglePause();
+}
+
+function hardReset() {
+    if(confirm("WIPE SAVE DATA?")) { localStorage.removeItem('singularity_v10'); location.reload(); }
+}
+
+function togglePause() {
+    state.paused = !state.paused;
+    document.getElementById('pause-menu').style.display = state.paused ? 'flex' : 'none';
+    // NOTE: The rAF loop keeps running while paused, so no extra draw() call here
+    // (calling draw() on unpause stacked a second loop, doubling game speed each cycle).
+}
+
+// --- DEV TOOLS ---
+function toggleDevMenu() {
+    const menu = document.getElementById('dev-menu');
+    state.devMenuOpen = !state.devMenuOpen;
+    menu.style.display = state.devMenuOpen ? 'block' : 'none';
+}
+function devAddMoney(amt) { state.cash += amt; state.totalCashPrestige += amt; updateShop(); }
+function devAddBalls(amt) { for(let i=0; i<amt; i++) if(state.balls.length < MAX_BALLS) state.balls.push(new Ball()); }
+function devAddDM(amt) { 
+    state.darkMatter += amt; state.hasPrestiged = true;
+    document.getElementById('dm-stat').classList.remove('hidden');
+    document.getElementById('tab-exotic').classList.remove('hidden');
+    initShopList();
+}
+function devForceSingularity() { 
+    state.paddingX = width/2 - 250; state.paddingY = height/2 - 250;
+    checkSingularityReady();
+}
+function devMaxCrunch() {
+    state.paddingX = width/2 - 200; state.paddingY = height/2 - 200;
+}
+function devReset() {
+    if(confirm("FULL RESET?")) {
+        state.darkMatter = 0; state.startBalls = 1; state.burnoutReduction = 0; state.overclockBonus = 0;
+        state.hasPrestiged = false; resetGameWorld();
+        document.getElementById('dm-stat').classList.add('hidden');
+        document.getElementById('tab-exotic').classList.add('hidden');
+        switchTab('physics');
+    }
+}
+
+// --- BOOT ---
+window.addEventListener('resize', resize);
+window.addEventListener('mousedown', initAudio);
+window.addEventListener('keydown', (e) => { 
+    if(e.key === '`' || e.key === '~') toggleDevMenu(); 
+    if(e.key === 'Escape') togglePause();
+});
+resize(); switchTab('physics'); state.balls.push(new Ball()); 
+setInterval(updateShop, 250);
+setInterval(autoBuyLogic, 1000); 
+draw();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+ {
+  "id": "galatea_parched",
+  "name": "Parched",
+  "level": 58,
+  "entity": "HUSK",
+  "health": 45000,
+  "damage": 650,
+  "speed": 1.1,
+  "combatXp": 160,
+  "coins": 28,
+  "family": "parched",
+  "flags": ["aggressive"],
+  "drops": [
+   {"item": "SAND", "min": 1, "max": 3, "chance": 1.0},
+   {"item": "DEAD_BUSH", "min": 1, "max": 1, "chance": 0.2},
+   {"item": "ENCHANTED_SAND", "min": 1, "max": 1, "chance": 0.02}
+  ],
+  "extra": {"types": ["undead", "woodland"], "region": "torrhus_canyon", "tune": "level/name from NEU bestiary foraging_3 (parched_58); stats invented - no NEU mob card"}
+ },
+ {
+  "id": "galatea_grizzly_bear",
+  "name": "Grizzly Bear",
+  "level": 101,
+  "entity": "POLAR_BEAR",
+  "health": 1500000,
+  "damage": 2200,
+  "speed": 1.15,
+  "combatXp": 1200,
+  "coins": 400,
+  "family": "grizzly_bear",
+  "flags": ["aggressive", "no_knockback"],
+  "drops": [
+   {"item": "LEATHER", "min": 3, "max": 6, "chance": 1.0},
+   {"item": "RAW_FISH", "min": 2, "max": 4, "chance": 1.0},
+   {"item": "HONEY_JAR", "min": 1, "max": 2, "chance": 0.25},
+   {"item": "ENCHANTED_LEATHER", "min": 1, "max": 1, "chance": 0.05}
+  ],
+  "extra": {"types": ["animal", "woodland"], "region": "torrhus_canyon", "scale": 1.3, "tune": "level from NEU bestiary (grizzly_bear_101, cap 25 = rare); stats invented"}
+ },
+ {
+  "id": "galatea_queen_ant",
+  "name": "Queen Ant",
+  "level": 69,
+  "entity": "SILVERFISH",
+  "health": 220000,
+  "damage": 900,
+  "speed": 0.9,
+  "combatXp": 450,
+  "coins": 120,
+  "family": "queen_ant",
+  "flags": ["aggressive", "no_knockback"],
+  "drops": [
+   {"item": "HONEYCOMB", "min": 2, "max": 5, "chance": 1.0},
+   {"item": "ENCHANTED_HONEYCOMB", "min": 1, "max": 1, "chance": 0.04}
+  ],
+  "extra": {"types": ["arthropod", "woodland"], "region": "torrhus_canyon", "scale": 3.0, "tune": "level from NEU bestiary (queen_ant_69); stats invented"}
+ },
+ {
+  "id": "galatea_soldier_ant",
+  "name": "Soldier Ant",
+  "level": 40,
+  "entity": "SILVERFISH",
+  "health": 12000,
+  "damage": 420,
+  "speed": 1.2,
+  "combatXp": 60,
+  "coins": 9,
+  "family": "soldier_ant",
+  "flags": ["aggressive"],
+  "drops": [
+   {"item": "HONEYCOMB", "min": 1, "max": 1, "chance": 0.3},
+   {"item": "STRING", "min": 1, "max": 2, "chance": 0.5}
+  ],
+  "extra": {"types": ["arthropod", "woodland"], "region": "torrhus_canyon", "scale": 1.6, "tune": "the Queen Ant's guards; not in the reference bestiary (its Ants are hunting critters)"}
+ }
+]

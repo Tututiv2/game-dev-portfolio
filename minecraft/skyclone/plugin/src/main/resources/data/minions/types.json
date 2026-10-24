@@ -1,0 +1,5209 @@
+[
+ {
+  "id": "WHEAT",
+  "name": "Wheat",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "WHEAT",
+  "floor": "FARMLAND",
+  "color": "#E3C35B",
+  "skill": "FARMING",
+  "refName": "Wheat",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 15.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 15.0,
+    "storage": 256
+   },
+   {
+    "tier": 3,
+    "tba": 13.0,
+    "storage": 256
+   },
+   {
+    "tier": 4,
+    "tba": 13.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 11.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 11.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 10.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 10.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 9.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 9.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 7.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "WHEAT",
+    "avg": 1.0
+   },
+   {
+    "item": "SEEDS",
+    "avg": 1.5
+   }
+  ],
+  "unlock": "collection:WHEAT:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CARROT",
+  "name": "Carrot",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "CARROTS",
+  "floor": "FARMLAND",
+  "color": "#F08A24",
+  "skill": "FARMING",
+  "refName": "Carrot",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 20.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 20.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 18.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 18.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 16.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 16.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 14.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 14.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 12.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 12.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 10.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 8.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "CARROT_ITEM",
+    "avg": 3.0
+   }
+  ],
+  "unlock": "collection:CARROT_ITEM:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "POTATO",
+  "name": "Potato",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "POTATOES",
+  "floor": "FARMLAND",
+  "color": "#C9A35A",
+  "skill": "FARMING",
+  "refName": "Potato",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 20.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 20.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 18.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 18.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 16.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 16.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 14.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 14.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 12.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 12.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 10.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 8.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "POTATO_ITEM",
+    "avg": 3.0
+   }
+  ],
+  "unlock": "collection:POTATO_ITEM:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "PUMPKIN",
+  "name": "Pumpkin",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "PUMPKIN",
+  "floor": "SOIL",
+  "color": "#E07B1A",
+  "skill": "FARMING",
+  "refName": "Pumpkin",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 32.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 32.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 30.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 30.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 27.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 27.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 24.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 24.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 20.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "PUMPKIN",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:PUMPKIN:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "MELON",
+  "name": "Melon",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "MELON",
+  "floor": "SOIL",
+  "color": "#6FAF2E",
+  "skill": "FARMING",
+  "refName": "Melon",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 24.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 22.5,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 22.5,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 21.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 18.5,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 18.5,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 10.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "MELON",
+    "avg": 5.0
+   }
+  ],
+  "unlock": "collection:MELON:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "MUSHROOM",
+  "name": "Mushroom",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "RED_MUSHROOM",
+  "floor": "SOLID",
+  "color": "#B23A2E",
+  "skill": "FARMING",
+  "refName": "Mushroom",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 30.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 30.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 28.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 28.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 26.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 26.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 23.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 20.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "BROWN_MUSHROOM",
+    "avg": 0.5
+   },
+   {
+    "item": "RED_MUSHROOM",
+    "avg": 0.5
+   }
+  ],
+  "unlock": "collection:MUSHROOM_COLLECTION:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "COCOA",
+  "name": "Cocoa Beans",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "COCOA",
+  "floor": "SOLID",
+  "color": "#7A4A23",
+  "skill": "FARMING",
+  "refName": "Cocoa Beans",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 27.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 25.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 15.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "INK_SACK:3",
+    "avg": 3.0
+   }
+  ],
+  "unlock": "collection:INK_SACK:3:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CACTUS",
+  "name": "Cactus",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "CACTUS",
+  "floor": "SAND",
+  "color": "#3E8A2E",
+  "skill": "FARMING",
+  "refName": "Cactus",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 27.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 25.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 15.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "CACTUS",
+    "avg": 3
+   }
+  ],
+  "unlock": "collection:CACTUS:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SUGAR_CANE",
+  "name": "Sugar Cane",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "SUGAR_CANE",
+  "floor": "WATERSIDE",
+  "color": "#8FD16A",
+  "skill": "FARMING",
+  "refName": "Sugar Cane",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 22.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 22.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 20.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 20.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 18.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 18.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 16.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 14.5,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 14.5,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 12.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 9.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SUGAR_CANE",
+    "avg": 3.0
+   }
+  ],
+  "unlock": "collection:SUGAR_CANE:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "NETHER_WARTS",
+  "name": "Nether Wart",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "NETHER_WART",
+  "floor": "SOUL_SAND",
+  "color": "#8E1B23",
+  "skill": "FARMING",
+  "refName": "Nether Wart",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 50.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 50.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 47.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 47.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 44.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 44.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 41.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 41.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 38.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 32.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 27.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "NETHER_STALK",
+    "avg": 2.5
+   }
+  ],
+  "unlock": "collection:NETHER_STALK:1",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SUNFLOWER",
+  "name": "Sunflower",
+  "category": "FARMING",
+  "kind": "CROP",
+  "visual": "SUNFLOWER",
+  "floor": "GRASS",
+  "color": "#F2D42C",
+  "skill": "FARMING",
+  "refName": "Sunflower",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 24.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 23.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 22.0,
+    "storage": 320
+   },
+   {
+    "tier": 4,
+    "tba": 21.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 20.0,
+    "storage": 448
+   },
+   {
+    "tier": 6,
+    "tba": 19.0,
+    "storage": 512
+   },
+   {
+    "tier": 7,
+    "tba": 18.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 17.0,
+    "storage": 704
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 15.0,
+    "storage": 896
+   },
+   {
+    "tier": 11,
+    "tba": 14.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "DOUBLE_PLANT",
+    "avg": 1.5
+   },
+   {
+    "item": "MOONFLOWER",
+    "avg": 1.5
+   }
+  ],
+  "unlock": "collection:DOUBLE_PLANT:2",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CHICKEN",
+  "name": "Chicken",
+  "category": "FARMING",
+  "kind": "MOB",
+  "visual": "CHICKEN",
+  "floor": "SOLID",
+  "color": "#F4F4F4",
+  "skill": "FARMING",
+  "refName": "Chicken",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 320
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 320
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 15.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "avg": 1
+   },
+   {
+    "item": "FEATHER",
+    "avg": 1
+   }
+  ],
+  "unlock": "collection:RAW_CHICKEN:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "COW",
+  "name": "Cow",
+  "category": "FARMING",
+  "kind": "MOB",
+  "visual": "COW",
+  "floor": "SOLID",
+  "color": "#5A3E2B",
+  "skill": "FARMING",
+  "refName": "Cow",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 256
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 256
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 10.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "avg": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:LEATHER:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "PIG",
+  "name": "Pig",
+  "category": "FARMING",
+  "kind": "MOB",
+  "visual": "PIG",
+  "floor": "SOLID",
+  "color": "#EFA3A3",
+  "skill": "FARMING",
+  "refName": "Pig",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 10.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "PORK",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:PORK:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SHEEP",
+  "name": "Sheep",
+  "category": "FARMING",
+  "kind": "MOB",
+  "visual": "SHEEP",
+  "floor": "SOLID",
+  "color": "#E8E8E8",
+  "skill": "FARMING",
+  "refName": "Sheep",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 24.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 24.0,
+    "storage": 256
+   },
+   {
+    "tier": 3,
+    "tba": 22.0,
+    "storage": 256
+   },
+   {
+    "tier": 4,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 20.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 18.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 12.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 9.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "MUTTON",
+    "avg": 1.0
+   },
+   {
+    "item": "WOOL",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:MUTTON:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "RABBIT",
+  "name": "Rabbit",
+  "category": "FARMING",
+  "kind": "MOB",
+  "visual": "RABBIT",
+  "floor": "SOLID",
+  "color": "#A27D5A",
+  "skill": "FARMING",
+  "refName": "Rabbit",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 320
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 320
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 448
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 448
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 10.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "RABBIT",
+    "avg": 1.0
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "avg": 0.35
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "avg": 0.35
+   }
+  ],
+  "unlock": "collection:RABBIT:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "COBBLESTONE",
+  "name": "Cobblestone",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "COBBLESTONE",
+  "floor": "NONE",
+  "color": "#7A7A7A",
+  "skill": "MINING",
+  "refName": "Cobblestone",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 14.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 14.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 12.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 12.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 10.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 10.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 9.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 9.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 8.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 7.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 6.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "COBBLESTONE",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:COBBLESTONE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "OBSIDIAN",
+  "name": "Obsidian",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "OBSIDIAN",
+  "floor": "NONE",
+  "color": "#2B1E3D",
+  "skill": "MINING",
+  "refName": "Obsidian",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 45.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 42.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 39.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 39.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 35.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 35.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 30.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 30.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 24.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 21.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "OBSIDIAN",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:OBSIDIAN:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "GLOWSTONE",
+  "name": "Glowstone",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "GLOWSTONE",
+  "floor": "NONE",
+  "color": "#F7D774",
+  "skill": "MINING",
+  "refName": "Glowstone",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 25.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 25.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 23.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 21.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 11.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "GLOWSTONE_DUST",
+    "avg": 3.0
+   }
+  ],
+  "unlock": "collection:GLOWSTONE_DUST:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "GRAVEL",
+  "name": "Gravel",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "GRAVEL",
+  "floor": "SOLID",
+  "color": "#8C8481",
+  "skill": "MINING",
+  "refName": "Gravel",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 256
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 256
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "GRAVEL",
+    "avg": 0.9
+   },
+   {
+    "item": "FLINT",
+    "avg": 0.1
+   }
+  ],
+  "unlock": "collection:GRAVEL:1",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SAND",
+  "name": "Sand",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "SAND",
+  "floor": "SOLID",
+  "color": "#E6D9A3",
+  "skill": "MINING",
+  "refName": "Sand",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SAND",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:SAND:1",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "RED_SAND",
+  "name": "Red Sand",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "RED_SAND",
+  "floor": "SOLID",
+  "color": "#C1652A",
+  "skill": "MINING",
+  "refName": "Red Sand",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 25.0,
+    "storage": 128
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 23.0,
+    "storage": 320
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 21.0,
+    "storage": 512
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 704
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 896
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 11.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SAND:1",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:SAND:1:1",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "ICE",
+  "name": "Ice",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "PACKED_ICE",
+  "floor": "NONE",
+  "color": "#9CC3F5",
+  "skill": "MINING",
+  "refName": "Ice",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 14.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 14.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 12.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 12.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 10.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 10.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 9.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 9.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 8.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 7.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 6.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "ICE",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:ICE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SNOW",
+  "name": "Snow",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "SNOW_BLOCK",
+  "floor": "NONE",
+  "color": "#F5FBFF",
+  "skill": "MINING",
+  "refName": "Snow",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 13.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 13.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 12.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 12.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 11.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 11.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 9.5,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 9.5,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 8.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 6.5,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 5.8,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SNOW_BALL",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:ICE:2",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "COAL",
+  "name": "Coal",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "COAL_ORE",
+  "floor": "NONE",
+  "color": "#2E2E2E",
+  "skill": "MINING",
+  "refName": "Coal",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 15.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 15.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 13.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 13.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 12.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 12.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 10.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 10.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 9.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 9.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 7.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 6.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "COAL",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:COAL:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "IRON",
+  "name": "Iron",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "IRON_ORE",
+  "floor": "NONE",
+  "color": "#D8AF93",
+  "skill": "MINING",
+  "refName": "Iron",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 17.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 17.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 15.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 15.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 14.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 14.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 12.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 12.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 10.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 10.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 7.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "IRON_ORE",
+    "avg": 1
+   }
+  ],
+  "unlock": "collection:IRON_INGOT:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "GOLD",
+  "name": "Gold",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "GOLD_ORE",
+  "floor": "NONE",
+  "color": "#F4D03F",
+  "skill": "MINING",
+  "refName": "Gold",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 22.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 22.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 20.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 20.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 18.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 18.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 16.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 14.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 14.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 11.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 9.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "GOLD_INGOT",
+    "avg": 1
+   }
+  ],
+  "unlock": "collection:GOLD_INGOT:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "DIAMOND",
+  "name": "Diamond",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "DIAMOND_ORE",
+  "floor": "NONE",
+  "color": "#4EE2EC",
+  "skill": "MINING",
+  "refName": "Diamond",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 29.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 27.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 22.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 19.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 15.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "DIAMOND",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:DIAMOND:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "LAPIS",
+  "name": "Lapis",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "LAPIS_ORE",
+  "floor": "NONE",
+  "color": "#2950B8",
+  "skill": "MINING",
+  "refName": "Lapis",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 29.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 27.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 23.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 21.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 16.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "INK_SACK:4",
+    "avg": 6.0
+   }
+  ],
+  "unlock": "collection:INK_SACK:4:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "REDSTONE",
+  "name": "Redstone",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "REDSTONE_ORE",
+  "floor": "NONE",
+  "color": "#B3150C",
+  "skill": "MINING",
+  "refName": "Redstone",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 29.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 27.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 23.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 21.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 16.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "REDSTONE",
+    "avg": 4.5
+   }
+  ],
+  "unlock": "collection:REDSTONE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "EMERALD",
+  "name": "Emerald",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "EMERALD_ORE",
+  "floor": "NONE",
+  "color": "#17DD62",
+  "skill": "MINING",
+  "refName": "Emerald",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 28.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 28.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 26.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 24.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 14.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "EMERALD",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:EMERALD:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "QUARTZ",
+  "name": "Quartz",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "NETHER_QUARTZ_ORE",
+  "floor": "NONE",
+  "color": "#E9E1D6",
+  "skill": "MINING",
+  "refName": "Quartz",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 22.5,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 22.5,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 21.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 21.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 19.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 17.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 14.5,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 14.5,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 11.5,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 10.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "QUARTZ",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:QUARTZ:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "ENDER_STONE",
+  "name": "End Stone",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "END_STONE",
+  "floor": "NONE",
+  "color": "#DFE3A6",
+  "skill": "MINING",
+  "refName": "End Stone",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "ENDER_STONE",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:ENDER_STONE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "MITHRIL",
+  "name": "Mithril",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "PRISMARINE",
+  "floor": "NONE",
+  "color": "#5BC3B2",
+  "skill": "MINING",
+  "refName": "Mithril",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 80.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 80.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 75.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 75.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 70.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 70.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 65.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 65.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 60.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 60.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 55.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 50.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "MITHRIL_ORE",
+    "avg": 2.0
+   }
+  ],
+  "unlock": "collection:MITHRIL_ORE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": "MITHRIL_ORE"
+ },
+ {
+  "id": "HARD_STONE",
+  "name": "Hard Stone",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "STONE",
+  "floor": "NONE",
+  "color": "#6E6E6E",
+  "skill": "MINING",
+  "refName": "Hard Stone",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 14.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 14.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 12.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 12.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 10.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 10.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 9.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 9.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 8.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 8.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 7.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 6.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "HARD_STONE",
+    "avg": 2.0
+   }
+  ],
+  "unlock": "collection:HARD_STONE:1",
+  "tool": "PICKAXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "MYCELIUM",
+  "name": "Mycelium",
+  "category": "MINING",
+  "kind": "BLOCK",
+  "visual": "MYCELIUM",
+  "floor": "NONE",
+  "color": "#7B6A80",
+  "skill": "MINING",
+  "refName": "Mycelium",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 25.0,
+    "storage": 128
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 23.0,
+    "storage": 320
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 21.0,
+    "storage": 512
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 704
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 896
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 11.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "MYCEL",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:MYCEL:1",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "ZOMBIE",
+  "name": "Zombie",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "ZOMBIE",
+  "floor": "SOLID",
+  "color": "#3F7A3A",
+  "skill": "COMBAT",
+  "refName": "Zombie",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "avg": 1.0
+   },
+   {
+    "item": "POISONOUS_POTATO",
+    "avg": 0.05
+   },
+   {
+    "item": "POTATO_ITEM",
+    "avg": 0.01
+   },
+   {
+    "item": "CARROT_ITEM",
+    "avg": 0.01
+   }
+  ],
+  "unlock": "collection:ROTTEN_FLESH:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SKELETON",
+  "name": "Skeleton",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "SKELETON",
+  "floor": "SOLID",
+  "color": "#C9C9C9",
+  "skill": "COMBAT",
+  "refName": "Skeleton",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "BONE",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:BONE:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SPIDER",
+  "name": "Spider",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "SPIDER",
+  "floor": "SOLID",
+  "color": "#3A302A",
+  "skill": "COMBAT",
+  "refName": "Spider",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "STRING",
+    "avg": 1.0
+   },
+   {
+    "item": "SPIDER_EYE",
+    "avg": 0.5
+   }
+  ],
+  "unlock": "collection:STRING:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CAVESPIDER",
+  "name": "Cave Spider",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "CAVE_SPIDER",
+  "floor": "SOLID",
+  "color": "#0E3C46",
+  "skill": "COMBAT",
+  "refName": "Cave Spider",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 128
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 256
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 256
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 20.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 17.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 17.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 13.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SPIDER_EYE",
+    "avg": 1.0
+   },
+   {
+    "item": "STRING",
+    "avg": 0.5
+   }
+  ],
+  "unlock": "collection:SPIDER_EYE:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CREEPER",
+  "name": "Creeper",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "CREEPER",
+  "floor": "SOLID",
+  "color": "#4CB53A",
+  "skill": "COMBAT",
+  "refName": "Creeper",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 27.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 27.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 25.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 25.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 21.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 18.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 14.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SULPHUR",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:SULPHUR:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "ENDERMAN",
+  "name": "Enderman",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "ENDERMAN",
+  "floor": "SOLID",
+  "color": "#1A1A22",
+  "skill": "COMBAT",
+  "refName": "Enderman",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 32.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 32.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 30.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 30.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 28.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 28.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 25.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 22.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 22.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 18.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "ENDER_PEARL",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:ENDER_PEARL:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "BLAZE",
+  "name": "Blaze",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "BLAZE",
+  "floor": "SOLID",
+  "color": "#F2A81C",
+  "skill": "COMBAT",
+  "refName": "Blaze",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 33.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 33.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 31.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 31.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 28.5,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 28.5,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 25.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 21.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 21.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 16.5,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 15.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "BLAZE_ROD",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:BLAZE_ROD:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "MAGMA_CUBE",
+  "name": "Magma Cube",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "MAGMA_CUBE",
+  "floor": "SOLID",
+  "color": "#5A1E0E",
+  "skill": "COMBAT",
+  "refName": "Magma Cube",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 32.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 32.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 30.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 30.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 28.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 28.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 25.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 25.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 22.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 22.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 16.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "MAGMA_CREAM",
+    "avg": 1.8
+   }
+  ],
+  "unlock": "collection:MAGMA_CREAM:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SLIME",
+  "name": "Slime",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "SLIME",
+  "floor": "SOLID",
+  "color": "#6DBE5A",
+  "skill": "COMBAT",
+  "refName": "Slime",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 26.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 24.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 24.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 22.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 22.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 16.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 12.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "avg": 1.8
+   }
+  ],
+  "unlock": "collection:SLIME_BALL:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "GHAST",
+  "name": "Ghast",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "GHAST",
+  "floor": "NONE",
+  "color": "#F0F0F0",
+  "skill": "COMBAT",
+  "refName": "Ghast",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 50.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 50.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 47.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 47.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 44.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 44.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 41.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 41.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 38.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 32.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 30.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "GHAST_TEAR",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:GHAST_TEAR:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "VAMPIRE",
+  "name": "Vampire",
+  "category": "COMBAT",
+  "kind": "MOB",
+  "visual": "BAT",
+  "floor": "NONE",
+  "color": "#6B0F1A",
+  "skill": "COMBAT",
+  "refName": "Vampire",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 190.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 190.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 175.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 175.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 160.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 160.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 140.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 140.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 117.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 117.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 95.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "HEMOVIBE",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "collection:HEMOVIBE:1",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "REVENANT",
+  "name": "Ghoul",
+  "category": "SLAYER",
+  "kind": "MOB",
+  "visual": "ZOMBIE",
+  "floor": "SOLID",
+  "color": "#25401F",
+  "skill": "COMBAT",
+  "refName": "Revenant",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 29.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 26.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 14.5,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 14.5,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 10.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 8.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "avg": 3.0
+   },
+   {
+    "item": "DIAMOND",
+    "avg": 0.2
+   }
+  ],
+  "unlock": "slayer:zombie:5",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "TARANTULA",
+  "name": "Broodweaver",
+  "category": "SLAYER",
+  "kind": "MOB",
+  "visual": "SPIDER",
+  "floor": "SOLID",
+  "color": "#1E1414",
+  "skill": "COMBAT",
+  "refName": "Tarantula",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 29.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 26.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 26.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 23.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 23.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 19.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 19.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 14.5,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 14.5,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 10.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 8.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "STRING",
+    "avg": 3.16
+   },
+   {
+    "item": "SPIDER_EYE",
+    "avg": 1.0
+   },
+   {
+    "item": "IRON_INGOT",
+    "avg": 0.2
+   }
+  ],
+  "unlock": "slayer:spider:5",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "VOIDLING",
+  "name": "Void Wraith",
+  "category": "SLAYER",
+  "kind": "MOB",
+  "visual": "ENDERMAN",
+  "floor": "SOLID",
+  "color": "#3B1C5A",
+  "skill": "COMBAT",
+  "refName": "Voidling",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 45.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 42.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 39.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 39.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 35.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 35.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 30.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 30.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 24.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "QUARTZ",
+    "avg": 0.4
+   },
+   {
+    "item": "OBSIDIAN",
+    "avg": 2.42
+   },
+   {
+    "item": "ENCHANTED_ENDER_PEARL",
+    "avg": 0.000625
+   }
+  ],
+  "unlock": "slayer:enderman:4",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "INFERNO",
+  "name": "Inferno",
+  "category": "SLAYER",
+  "kind": "MOB",
+  "visual": "BLAZE",
+  "floor": "SOLID",
+  "color": "#C2410C",
+  "skill": "COMBAT",
+  "refName": "Inferno",
+  "maxTier": 11,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 1013.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 982.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 950.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 919.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 886.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 855.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 823.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 792.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 760.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 728.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 697.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "CRUDE_GABAGOOL",
+    "avg": 1.0
+   }
+  ],
+  "unlock": "slayer:blaze:3",
+  "tool": "SWORD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "OAK",
+  "name": "Oak",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "OAK",
+  "floor": "SOIL",
+  "color": "#A27A47",
+  "skill": "FORAGING",
+  "refName": "Oak",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "SPRUCE",
+  "name": "Spruce",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "SPRUCE",
+  "floor": "SOIL",
+  "color": "#5E4128",
+  "skill": "FORAGING",
+  "refName": "Spruce",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG:1",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG:1:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "BIRCH",
+  "name": "Birch",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "BIRCH",
+  "floor": "SOIL",
+  "color": "#E3DCC1",
+  "skill": "FORAGING",
+  "refName": "Birch",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG:2",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG:2:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "DARK_OAK",
+  "name": "Dark Oak",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "DARK_OAK",
+  "floor": "SOIL",
+  "color": "#3F2A16",
+  "skill": "FORAGING",
+  "refName": "Dark Oak",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG_2:1",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG_2:1:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "ACACIA",
+  "name": "Acacia",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "ACACIA",
+  "floor": "SOIL",
+  "color": "#B05A30",
+  "skill": "FORAGING",
+  "refName": "Acacia",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG_2",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG_2:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "JUNGLE",
+  "name": "Jungle",
+  "category": "FORAGING",
+  "kind": "TREE",
+  "visual": "JUNGLE",
+  "floor": "SOIL",
+  "color": "#9C7148",
+  "skill": "FORAGING",
+  "refName": "Jungle",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 48.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 48.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 45.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 45.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 42.0,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 42.0,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 38.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 38.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 33.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 33.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 23.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "LOG:3",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:LOG:3:1",
+  "tool": "AXE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "FLOWER",
+  "name": "Flower",
+  "category": "FORAGING",
+  "kind": "CROP",
+  "visual": "FLOWERS",
+  "floor": "GRASS",
+  "color": "#E85D9A",
+  "skill": "FORAGING",
+  "refName": "Flower",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 30.0,
+    "storage": 960
+   },
+   {
+    "tier": 2,
+    "tba": 29.0,
+    "storage": 960
+   },
+   {
+    "tier": 3,
+    "tba": 28.0,
+    "storage": 960
+   },
+   {
+    "tier": 4,
+    "tba": 27.0,
+    "storage": 960
+   },
+   {
+    "tier": 5,
+    "tba": 26.0,
+    "storage": 960
+   },
+   {
+    "tier": 6,
+    "tba": 25.0,
+    "storage": 960
+   },
+   {
+    "tier": 7,
+    "tba": 24.0,
+    "storage": 960
+   },
+   {
+    "tier": 8,
+    "tba": 23.0,
+    "storage": 960
+   },
+   {
+    "tier": 9,
+    "tba": 22.0,
+    "storage": 960
+   },
+   {
+    "tier": 10,
+    "tba": 20.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 18.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 15.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "YELLOW_FLOWER",
+    "avg": 0.35
+   },
+   {
+    "item": "RED_ROSE",
+    "avg": 0.15
+   },
+   {
+    "item": "RED_ROSE:2",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:3",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:1",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:8",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:4",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:5",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:6",
+    "avg": 0.0417
+   },
+   {
+    "item": "RED_ROSE:7",
+    "avg": 0.0417
+   },
+   {
+    "item": "DOUBLE_PLANT:1",
+    "avg": 0.0417
+   },
+   {
+    "item": "DOUBLE_PLANT:5",
+    "avg": 0.0417
+   },
+   {
+    "item": "DOUBLE_PLANT:4",
+    "avg": 0.0417
+   }
+  ],
+  "unlock": "collection:DOUBLE_PLANT:2",
+  "tool": "HOE",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "FISHING",
+  "name": "Fishing",
+  "category": "FISHING",
+  "kind": "WATER",
+  "visual": "",
+  "floor": "NONE",
+  "color": "#2D7FB8",
+  "skill": "FISHING",
+  "refName": "Fishing",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 75.0,
+    "storage": 640
+   },
+   {
+    "tier": 2,
+    "tba": 75.0,
+    "storage": 640
+   },
+   {
+    "tier": 3,
+    "tba": 67.0,
+    "storage": 640
+   },
+   {
+    "tier": 4,
+    "tba": 67.0,
+    "storage": 704
+   },
+   {
+    "tier": 5,
+    "tba": 59.0,
+    "storage": 704
+   },
+   {
+    "tier": 6,
+    "tba": 59.0,
+    "storage": 768
+   },
+   {
+    "tier": 7,
+    "tba": 51.0,
+    "storage": 768
+   },
+   {
+    "tier": 8,
+    "tba": 51.0,
+    "storage": 832
+   },
+   {
+    "tier": 9,
+    "tba": 43.0,
+    "storage": 832
+   },
+   {
+    "tier": 10,
+    "tba": 43.0,
+    "storage": 896
+   },
+   {
+    "tier": 11,
+    "tba": 35.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 30.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "RAW_FISH",
+    "avg": 1.0
+   },
+   {
+    "item": "RAW_FISH:1",
+    "avg": 0.5
+   },
+   {
+    "item": "RAW_FISH:3",
+    "avg": 0.24
+   },
+   {
+    "item": "RAW_FISH:2",
+    "avg": 0.08
+   },
+   {
+    "item": "PRISMARINE_CRYSTALS",
+    "avg": 0.06
+   },
+   {
+    "item": "PRISMARINE_SHARD",
+    "avg": 0.06
+   },
+   {
+    "item": "SPONGE",
+    "avg": 0.06
+   }
+  ],
+  "unlock": "collection:RAW_FISH:2",
+  "tool": "ROD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "CLAY",
+  "name": "Clay",
+  "category": "FISHING",
+  "kind": "WATER",
+  "visual": "",
+  "floor": "NONE",
+  "color": "#A4A9B8",
+  "skill": "FISHING",
+  "refName": "Clay",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 32.0,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 32.0,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 30.0,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 30.0,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 27.5,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 27.5,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 24.0,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 24.0,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 20.0,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 20.0,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 16.0,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 14.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "CLAY_BALL",
+    "avg": 4.0
+   }
+  ],
+  "unlock": "collection:CLAY_BALL:1",
+  "tool": "SHOVEL",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ },
+ {
+  "id": "LILY_PAD",
+  "name": "Lily Pad",
+  "category": "FISHING",
+  "kind": "WATER",
+  "visual": "LILY_PAD",
+  "floor": "NONE",
+  "color": "#2F8A3B",
+  "skill": "FISHING",
+  "refName": "Lily Pad",
+  "maxTier": 12,
+  "tiers": [
+   {
+    "tier": 1,
+    "tba": 37.5,
+    "storage": 64
+   },
+   {
+    "tier": 2,
+    "tba": 37.5,
+    "storage": 192
+   },
+   {
+    "tier": 3,
+    "tba": 33.5,
+    "storage": 192
+   },
+   {
+    "tier": 4,
+    "tba": 33.5,
+    "storage": 384
+   },
+   {
+    "tier": 5,
+    "tba": 29.5,
+    "storage": 384
+   },
+   {
+    "tier": 6,
+    "tba": 29.5,
+    "storage": 576
+   },
+   {
+    "tier": 7,
+    "tba": 25.5,
+    "storage": 576
+   },
+   {
+    "tier": 8,
+    "tba": 25.5,
+    "storage": 768
+   },
+   {
+    "tier": 9,
+    "tba": 21.5,
+    "storage": 768
+   },
+   {
+    "tier": 10,
+    "tba": 21.5,
+    "storage": 960
+   },
+   {
+    "tier": 11,
+    "tba": 17.5,
+    "storage": 960
+   },
+   {
+    "tier": 12,
+    "tba": 15.0,
+    "storage": 960
+   }
+  ],
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "avg": 1
+   }
+  ],
+  "unlock": "collection:WATER_LILY:1",
+  "tool": "ROD",
+  "actionsPerHarvest": 2,
+  "nameFromItem": null
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "tutis-fun-mods",
+  "version": "0.1.0",
+  "title": "Tuti's Fun Mods",
+  "author": "Tutut",
+  "description": "One mod, many toggles. Feature 1: Adaptive Biters - the swarm grows resistant to whatever you keep killing it with, and forgets when you stop. Spread your damage and they never adapt.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0"
+  ]
+}

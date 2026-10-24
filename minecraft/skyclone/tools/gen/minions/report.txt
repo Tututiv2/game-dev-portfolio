@@ -1,0 +1,79 @@
+drops override CACTUS -> [('CACTUS', 3)]
+drops override CHICKEN -> [('RAW_CHICKEN', 1), ('FEATHER', 1)]
+drops override GOLD -> [('GOLD_INGOT', 1)]
+drops override IRON -> [('IRON_ORE', 1)]
+drops override GRAVEL -> [('GRAVEL', 0.9), ('FLINT', 0.1)]
+drops override SUNFLOWER -> [('DOUBLE_PLANT', 1.5), ('MOONFLOWER', 1.5)]
+drops override LILY_PAD -> [('WATER_LILY', 1)]
+no crafting recipe for WHEAT_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for CARROT_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for POTATO_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for PUMPKIN_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for MELON_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for MUSHROOM_GENERATOR_12 (trade / upgrade stone tier)
+storage MUSHROOM 1: NEU 128, research 64 -> research
+storage MUSHROOM 2: NEU 256, research 192 -> research
+storage MUSHROOM 3: NEU 256, research 192 -> research
+no crafting recipe for COCOA_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for CACTUS_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for SUGAR_CANE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for NETHER_WARTS_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for SUNFLOWER_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for CHICKEN_GENERATOR_12 (trade / upgrade stone tier)
+storage CHICKEN 4: NEU 448, research 384 -> research
+storage CHICKEN 5: NEU 448, research 384 -> research
+no crafting recipe for COW_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for PIG_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for SHEEP_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for RABBIT_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for COBBLESTONE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for OBSIDIAN_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for GLOWSTONE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for RED_SAND_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for ICE_GENERATOR_12 (trade / upgrade stone tier)
+synthesised tier I recipe for SNOW (TUNE): SNOW_BALL:32 around WOOD_SPADE
+no crafting recipe for SNOW_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for COAL_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for IRON_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for GOLD_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for DIAMOND_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for LAPIS_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for REDSTONE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for EMERALD_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for QUARTZ_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for MITHRIL_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for HARD_STONE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for MYCELIUM_GENERATOR_12 (trade / upgrade stone tier)
+storage SPIDER 1: NEU 128, research 64 -> research
+storage SPIDER 2: NEU 256, research 192 -> research
+storage SPIDER 3: NEU 256, research 192 -> research
+no crafting recipe for BLAZE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for MAGMA_CUBE_GENERATOR_12 (trade / upgrade stone tier)
+no crafting recipe for GHAST_GENERATOR_12 (trade / upgrade stone tier)
+synthesised tier I recipe for FLOWER (TUNE): YELLOW_FLOWER:10 around WOOD_HOE
+TBA FISHING 10: NEU 53.0, research 43.0 -> research
+research 4.11 has no table for LILY_PAD (Lily Pad); NEU numbers used
+owned item taken from NEU (not in items.json): SLEEPY_HOLLOW
+owned item taken from NEU (not in items.json): ENCHANTED_SHEARS
+owned item taken from NEU (not in items.json): INFERNO_FUEL_CRUDE_GABAGOOL
+owned item taken from NEU (not in items.json): INFERNO_FUEL_GLOWSTONE_DUST
+owned item taken from NEU (not in items.json): INFERNO_FUEL_MAGMA_CREAM
+owned item taken from NEU (not in items.json): INFERNO_FUEL_NETHER_STALK
+owned item taken from NEU (not in items.json): INFERNO_FUEL_BLAZE_ROD
+owned item taken from NEU (not in items.json): INFERNO_HEAVY_CRUDE_GABAGOOL
+owned item taken from NEU (not in items.json): INFERNO_HEAVY_GLOWSTONE_DUST
+owned item taken from NEU (not in items.json): INFERNO_HEAVY_MAGMA_CREAM
+owned item taken from NEU (not in items.json): INFERNO_HEAVY_NETHER_STALK
+owned item taken from NEU (not in items.json): INFERNO_HEAVY_BLAZE_ROD
+owned item taken from NEU (not in items.json): INFERNO_HYPERGOLIC_CRUDE_GABAGOOL
+owned item taken from NEU (not in items.json): INFERNO_HYPERGOLIC_GLOWSTONE_DUST
+owned item taken from NEU (not in items.json): INFERNO_HYPERGOLIC_MAGMA_CREAM
+owned item taken from NEU (not in items.json): INFERNO_HYPERGOLIC_NETHER_STALK
+owned item taken from NEU (not in items.json): INFERNO_HYPERGOLIC_BLAZE_ROD
+AMBIGUOUS recipe cell WOOD:2 (is also an item id)
+AMBIGUOUS recipe cell WOOD:2 (is also an item id)
+AMBIGUOUS recipe cell WOOD:2 (is also an item id)
+AMBIGUOUS recipe cell WOOD:2 (is also an item id)
+AMBIGUOUS recipe cell WOOD:2 (is also an item id)
+compaction: 18 block rules, 114 enchanted rules, 21 smelt rules
+xp id unresolved: FLAME_DYE (Combat)

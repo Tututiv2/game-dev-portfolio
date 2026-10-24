@@ -1,0 +1,1854 @@
+[
+ {
+  "id": "AGARIMOO_TONGUE",
+  "name": "Fungimoo Tongue",
+  "material": "MUTTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMoocress Artifact&7,",
+   "&7&aMoocress Ring&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BEZOS",
+  "name": "Tycoon's Coin",
+  "material": "GOLD_NUGGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlaze Wax&7 and &aSulphur",
+   "&aBow&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLAZE_ASHES",
+  "name": "Blaze Ashes",
+  "material": "GUNPOWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlaze Belt&7, &aHot Bait&7 and",
+   "&71 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLAZE_POWDER",
+  "name": "Blaze Powder",
+  "material": "BLAZE_POWDER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Eye of",
+   "&aEnder&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BLUE_RING",
+  "name": "Blue Ring",
+  "material": "LAPIS_LAZULI",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aStrong Signal Ring&7 and",
+   "&7&aHotspot Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BLUE_SHARK_TOOTH",
+  "name": "Blue Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aStrong Signal Ring&7,",
+   "&7&aHoned Shark Tooth Necklace&7 and 4 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BROKEN_RADAR",
+  "name": "Broken Radar",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Hook&7, &aHotspot",
+   "&aRadar&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BRONZE_BOWL",
+  "name": "Bronze Bowl",
+  "material": "BOWL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7, &aBronze",
+   "&aShip Helm&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "BURNING_EYE",
+  "name": "Burning Eye",
+  "material": "ENDER_PEARL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBerserker Chestplate&7,",
+   "&7&aBerserker Helmet&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CAN_OF_WORMS",
+  "name": "Can of Worms",
+  "material": "SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CLAY",
+  "name": "Clay",
+  "material": "CLAY",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7Compressed from &a4 &7Clay Ball&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CLAY_BALL",
+  "name": "Clay Ball",
+  "material": "CLAY_BALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Clay Ball&7,",
+   "&7&aClay&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "CLAY_BALL",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CONDENSED_WATER_LILY",
+  "name": "Condensed Lily Pad",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Lily",
+   "&7Pad&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CORRUPTED_NETHER_STAR",
+  "name": "Nether Star",
+  "material": "NETHER_STAR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aVanquished Blaze Belt&7,",
+   "&7&aVanquished Ghast Cloak&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "CUP_OF_BLOOD",
+  "name": "Cup of Blood",
+  "material": "RED_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "DIGESTED_MUSHROOMS",
+  "name": "Digested Mushrooms",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "DIVER_FRAGMENT",
+  "name": "Abyssal Emperor's Skull",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aAbyssal Boots&7, &aAbyssal",
+   "&aChestplate&7 and 3 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_CLAY_BALL",
+  "name": "Enchanted Clay Ball",
+  "material": "CLAY_BALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Clay Ball&7.",
+   "&7Compresses into &aEnchanted Clay Block&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_CLAY_BLOCK",
+  "name": "Enchanted Clay Block",
+  "material": "CLAY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Clay",
+   "&7Ball&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_CLOWNFISH",
+  "name": "Enchanted Tropical Fish",
+  "material": "TROPICAL_FISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 3200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Tropical Fish&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_COOKED_FISH",
+  "name": "Enchanted Cooked Cod",
+  "material": "COOKED_COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 150000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Raw Cod&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_COOKED_SALMON",
+  "name": "Enchanted Cooked Salmon",
+  "material": "COOKED_SALMON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Raw",
+   "&7Salmon&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_INK_SACK",
+  "name": "Enchanted Ink Sac",
+  "material": "INK_SAC",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Ink Sac&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_PRISMARINE_CRYSTALS",
+  "name": "Enchanted Prismarine Crystals",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Prismarine",
+   "&7Crystals&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_PRISMARINE_SHARD",
+  "name": "Enchanted Prismarine Shard",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Prismarine Shard&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_PUFFERFISH",
+  "name": "Enchanted Pufferfish",
+  "material": "PUFFERFISH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 2400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Pufferfish&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_RAW_FISH",
+  "name": "Enchanted Raw Cod",
+  "material": "COD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 960.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Cod&7.",
+   "&7Compresses into &aEnchanted Cooked Cod&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_RAW_SALMON",
+  "name": "Enchanted Raw Salmon",
+  "material": "SALMON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Raw Salmon&7.",
+   "&7Compresses into &aEnchanted Cooked",
+   "&aSalmon&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_SPONGE",
+  "name": "Enchanted Sponge",
+  "material": "SPONGE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a40 &7Sponge&7.",
+   "&7Compresses into &aEnchanted Wet Sponge&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_WATER_LILY",
+  "name": "Enchanted Lily Pad",
+  "material": "LILY_PAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Lily Pad&7.",
+   "&7Compresses into &aCondensed Lily Pad&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ENCHANTED_WET_SPONGE",
+  "name": "Enchanted Wet Sponge",
+  "material": "WET_SPONGE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 80000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a40 &7Enchanted Sponge&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ETERNAL_FLAME_RING",
+  "name": "Eternal Flame Ring",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjQ4OTA2MDY2OCwKICAicHJvZmlsZUlkIiA6ICI2ZTIyNjYxZmNlMTI0MGE0YWE4OTA0NDA0NTFiYjBiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJncnZleWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jOTM4NTY1MTg0NWY4YmZlMTg2YzMwZGE4MWJhY2Q2OTcxYWE1MWJlM2I1MDAxZmM0ZWE1Y2YxYWY4ZjIzYzMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 10000.0,
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FLAMES",
+  "name": "Flames",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEverburning Flame&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FLAMING_HEART",
+  "name": "Flaming Heart",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FRIED_FEATHER",
+  "name": "Fried Feather",
+  "material": "FEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFried Frozen Chicken&7 and",
+   "&7&aHotspot Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "FROGCOIN",
+  "name": "Frogcoin",
+  "material": "GOLD_NUGGET",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGeometric Oddity&7 and",
+   "&7&aLotus Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "GAZING_PEARL",
+  "name": "Gazing Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDelirium Necklace&7, &aLava",
+   "&aShell Necklace&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "GRAND_EXP_BOTTLE",
+  "name": "Grand Experience Bottle",
+  "material": "EXPERIENCE_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "GREAT_WHITE_SHARK_TOOTH",
+  "name": "Great White Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGreat White Tooth Meal&7,",
+   "&7&aRazor-sharp Shark Tooth Necklace&7 and 2",
+   "&7more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HALF_EATEN_MUSHROOM",
+  "name": "Half-Eaten Mushroom",
+  "material": "RED_MUSHROOM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Tonic Mixin&7 and",
+   "&7&aHotspot Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HALLOWED_SKULL",
+  "name": "Hallowed Skull",
+  "material": "BONE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDoomrock Axe&7 and &aWand of",
+   "&aStrength&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HEAVY_PEARL",
+  "name": "Heavy Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HILT_OF_TRUE_ICE",
+  "name": "True Ice",
+  "material": "SNOWBALL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 100000.0,
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBlizzard in a Bottle&7,",
+   "&7&aPocket-sized Igloo&7 and 2 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "HORN_OF_TAURUS",
+  "name": "Horn of Taurus",
+  "material": "BONE_MEAL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHorns of Torment&7 and",
+   "&7&aLava Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ICE_HUNK",
+  "name": "Hunk of Ice",
+  "material": "SNOWBALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aHunk of Blue Ice&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "INK_SACK",
+  "name": "Ink Sac",
+  "material": "INK_SAC",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Ink Sac&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "INK_SACK",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "KADA_LEAD",
+  "name": "Ember Knight Lead",
+  "material": "LEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLarge Nether Sack&7,",
+   "&7&aMedium Nether Sack&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LEATHER_CLOTH",
+  "name": "Leather Cloth",
+  "material": "LEATHER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGauntlet of Contagion&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LOTUS",
+  "name": "Lotus",
+  "material": "POPPY",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 15.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aSilver Lotus&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "LOTUS"
+  }
+ },
+ {
+  "id": "LOTUS_GOLD",
+  "name": "Gold Lotus",
+  "material": "POPPY",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 96000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Silver Lotus&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LOTUS_SILVER",
+  "name": "Silver Lotus",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 1200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Lotus&7.",
+   "&7Compresses into &aGold Lotus&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LUMINO_FIBER",
+  "name": "Lumino Fiber",
+  "material": "STRING",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFire Veil Wand&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "LUMP_OF_MAGMA",
+  "name": "Lump of Magma",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMAG",
+  "name": "Magmag",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_CHUNK",
+  "name": "Magma Chunk",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBerserker Boots&7,",
+   "&7&aBerserker Chestplate&7 and 5 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_CORE",
+  "name": "Magma Core",
+  "material": "MAGMA_CREAM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_FISH",
+  "name": "Magmafish",
+  "material": "COD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aSilver Magmafish&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "MAGMA_FISH"
+  }
+ },
+ {
+  "id": "MAGMA_FISH_GOLD",
+  "name": "Gold Magmafish",
+  "material": "COD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Silver Magmafish&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_FISH_SILVER",
+  "name": "Silver Magmafish",
+  "material": "COD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Magmafish&7.",
+   "&7Compresses into &aGold Magmafish&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MAGMA_LORD_FRAGMENT",
+  "name": "Molten Lord Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMagma Lord Boots&7, &aMagma",
+   "&aLord Chestplate&7 and 3 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MOOGMA_PELT",
+  "name": "Lavamoo Pelt",
+  "material": "LEATHER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "MUTATED_BLAZE_ASHES",
+  "name": "Mutated Blaze Ashes",
+  "material": "GUNPOWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aScourge Cloak&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "NURSE_SHARK_TOOTH",
+  "name": "Nurse Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDull Shark Tooth",
+   "&aNecklace&7, &aIchthyic Belt&7 and 4 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "OCTOPUS_TENDRIL",
+  "name": "Octopus Tendril",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDA3NTYzNTk4NiwKICAicHJvZmlsZUlkIiA6ICIzNmU5MTE1YzBjYzc0ZjhkOTdmOGFjNjA1ZGMxNGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJnaVYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJmNTgyODNmZmNhOGJkYzU5NDM2ZTgzZDk0ZTlmMTM0NDI2MzE2Yjk5YmFiNWI5YWY5MGRmZmRiMDgyYTA1NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "ORB_OF_ENERGY",
+  "name": "Orb of Energy",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEmpty Hurricane Bottle&7,",
+   "&7&aPulse Ring&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "POISON_SAMPLE",
+  "name": "Poison Sample",
+  "material": "FERMENTED_SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7 and",
+   "&7&aVaccine Artifact&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "PRINCE_CROWN_JEWEL",
+  "name": "Prince's Crown Jewel",
+  "material": "GOLD_NUGGET",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1000000.0,
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLotus Crown&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "PRISMARINE",
+  "name": "Prismarine",
+  "material": "PRISMARINE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Compressed from &a4 &7Prismarine Shard&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PRISMARINE:1",
+  "name": "Prismarine Bricks",
+  "material": "PRISMARINE_BRICKS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Compressed from &a9 &7Prismarine Shard&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PRISMARINE_CRYSTALS",
+  "name": "Prismarine Crystals",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Prismarine",
+   "&aCrystals&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "PRISMARINE_CRYSTALS",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PRISMARINE_SHARD",
+  "name": "Prismarine Shard",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Prismarine",
+   "&aShard&7, &aPrismarine Bricks&7, &aPrismarine&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "PRISMARINE_SHARD",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PYROCLASTIC_SCALE",
+  "name": "Pyroclastic Scale",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "RADIOACTIVE_VIAL",
+  "name": "Radioactive Vial",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDA0OTczMzc3OSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1NzRjMDNiMWM4ZjUyNTM1Zjk2YTIwYTQxNzYwMjBiYjI4MGUwYWY1MmZjMTI4NWQzZWNiZDM1MTcyODBjNCIKICAgIH0KICB9Cn0=",
+  "npcSell": 5000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "RAW_FISH",
+  "name": "Raw Cod",
+  "material": "COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Raw Cod&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "RAW_FISH",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RAW_FISH:1",
+  "name": "Raw Salmon",
+  "material": "SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Raw Salmon&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "RAW_FISH:1"
+  }
+ },
+ {
+  "id": "RAW_FISH:2",
+  "name": "Tropical Fish",
+  "material": "TROPICAL_FISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Tropical",
+   "&aFish&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "RAW_FISH:2"
+  }
+ },
+ {
+  "id": "RAW_FISH:3",
+  "name": "Pufferfish",
+  "material": "PUFFERFISH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 15.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Pufferfish&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "RAW_FISH:3"
+  }
+ },
+ {
+  "id": "REKINDLED_EMBER_FRAGMENT",
+  "name": "Rekindled Ember Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aDelirium Necklace&7, &aFire",
+   "&aFury Staff&7 and 6 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SCORCHED_CRAB_STICK",
+  "name": "Scorched Crab Stick",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Bait&7 and &aHotspot",
+   "&aWater Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SCUTTLER_SHELL",
+  "name": "Scuttler Shell",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NDM5NDI0NywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjNDg1N2U3YTE5OTY4MjVjZThhZDM2NThiNzE4ODgwMGQxYmJjMjEyZmEyMjU3Yzc1NTMwNzU5ZGM2ODdlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SEARED_ESCARGOT",
+  "name": "Seared Escargot",
+  "material": "NAUTILUS_SHELL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Sinker&7 and",
+   "&7&aHotspot Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SEVERED_PINCER",
+  "name": "Severed Pincer",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NjM2MDYxMSwKICAicHJvZmlsZUlkIiA6ICIxNTUyNmU1OGZhOWE0NjBmODhhNmZhNjk1M2RlNjgzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaWVkcml0YTE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlMWUwNzAxZjFmOWU5NzQ3NjVlNGYyYTdjMzNhOTQ1OGM1OTgzMzQ0MDE1MzhkYzlmMjFmNWVkN2UzNWY3OWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SHARK_FIN",
+  "name": "Shark Fin",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Shark Fin&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SINGED_POWDER",
+  "name": "Singed Powder",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aHotspot Sinker&7 and",
+   "&7&aHotspot Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SOUL_FRAGMENT",
+  "name": "Soul Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aEternal Hoof&7, &aSoul Whip&7",
+   "&7and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SPECTRE_DUST",
+  "name": "Spectre Dust",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aMycelium Dust&7 and",
+   "&7&aSuspicious Stew&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SPELL_POWDER",
+  "name": "Spell Powder",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFire Freeze Staff&7, &aFire",
+   "&aVeil Wand&7 and 1 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "SPONGE",
+  "name": "Sponge",
+  "material": "SPONGE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sponge&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "SPONGE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "TENTACLE_MEAT",
+  "name": "Tentacle Meat",
+  "material": "ROTTEN_FLESH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aGhast Cloak&7 and &aMeteor",
+   "&aChunk&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "THUNDER_SHARDS",
+  "name": "Thunder Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLava Water Orb&7,",
+   "&7&aThunderbolt Necklace&7 and 4 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TIGER_SHARK_TOOTH",
+  "name": "Tiger Shark Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aFinwave Belt&7, &aFinwave",
+   "&aCloak&7 and 3 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TITANOBOA_SHED",
+  "name": "Titanoboa Shed",
+  "material": "LEATHER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 500000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aTitan Line&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TORN_CLOTH",
+  "name": "Torn Cloth",
+  "material": "STRING",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBayou Water Orb&7 and",
+   "&7&aBronze Ship Hull&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "TROUBLED_BUBBLE",
+  "name": "Troubled Bubble",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDY3NTY1MTY4MCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZGZjYzUzMGFkNGY2NDVhMjAxYWJjMDU5MTJmMTk0ODYyNjExYzMzNzM5YTA4MjZhOGJiOWFkMGQ5Yjk4Mzc1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "UNLUCKY_DOUBLOON",
+  "name": "Unlucky Doubloon",
+  "material": "GOLD_NUGGET",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aLotus Water Orb&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WATER_LILY",
+  "name": "Lily Pad",
+  "material": "LILY_PAD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Lily Pad&7."
+  ],
+  "extra": {
+   "family": "fishing",
+   "collection": "WATER_LILY",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WET_WATER",
+  "name": "Wet Water",
+  "material": "GLASS_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aBrine Tonic&7, &aBogcap&7 and",
+   "&71 more."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WITHER_SOUL",
+  "name": "Wither Soul",
+  "material": "BLAZE_POWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 50.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aAncient Cloak&7 and &aFire",
+   "&aFreeze Staff&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ },
+ {
+  "id": "WORM_MEMBRANE",
+  "name": "Worm Membrane",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 15000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Pulled from the water.",
+   "&7Used to craft &aWorm Bait&7."
+  ],
+  "extra": {
+   "family": "fishing"
+  }
+ }
+]

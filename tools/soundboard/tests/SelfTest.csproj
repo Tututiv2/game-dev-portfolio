@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- Config.cs uses KeyInterop for key names, which lives in PresentationCore. -->
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>SelfTest</AssemblyName>
+    <RootNamespace>SoundBoard</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\</OutputPath>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <!-- The shipping sources, not a copy of them. -->
+  <ItemGroup>
+    <Compile Include="..\app\AudioEngine.cs" />
+    <Compile Include="..\app\Config.cs" />
+    <Compile Include="..\app\InputHook.cs" />
+  </ItemGroup>
+
+</Project>

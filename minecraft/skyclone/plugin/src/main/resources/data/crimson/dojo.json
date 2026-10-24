@@ -1,0 +1,139 @@
+{
+ "trials": [
+  {
+   "id": "force",
+   "name": "Test of Force",
+   "icon": "IRON_SWORD",
+   "seconds": 30,
+   "how": [
+    "Dummies wander the mat. Every hit scores;",
+    "critical hits score more. Keep swinging!"
+   ]
+  },
+  {
+   "id": "stamina",
+   "name": "Test of Stamina",
+   "icon": "FEATHER",
+   "seconds": 45,
+   "how": [
+    "Walls sweep across the arena. Slip",
+    "through the gap in each one untouched."
+   ]
+  },
+  {
+   "id": "mastery",
+   "name": "Test of Mastery",
+   "icon": "BOW",
+   "seconds": 40,
+   "how": [
+    "Targets rise and count down. Strike",
+    "each one the moment it turns green."
+   ]
+  },
+  {
+   "id": "discipline",
+   "name": "Test of Discipline",
+   "icon": "WOODEN_SWORD",
+   "seconds": 35,
+   "how": [
+    "Hit the dummies marked &aSTRIKE&7.",
+    "Hitting a &cHOLD &7dummy costs points."
+   ]
+  },
+  {
+   "id": "swiftness",
+   "name": "Test of Swiftness",
+   "icon": "SUGAR",
+   "seconds": 35,
+   "how": [
+    "A tile lights up on the floor. Reach",
+    "it fast - quicker steps score more."
+   ]
+  },
+  {
+   "id": "control",
+   "name": "Test of Control",
+   "icon": "ENDER_EYE",
+   "seconds": 30,
+   "how": [
+    "A shade blinks around the arena. Keep",
+    "your eyes on it for as long as you can."
+   ]
+  },
+  {
+   "id": "tenacity",
+   "name": "Test of Tenacity",
+   "icon": "FIRE_CHARGE",
+   "seconds": 40,
+   "how": [
+    "Embers fly at you from every side.",
+    "Dodge them; each hit costs points."
+   ]
+  }
+ ],
+ "max_points": 1000,
+ "ranks": [
+  {
+   "rank": "S",
+   "min": 1000
+  },
+  {
+   "rank": "A",
+   "min": 800
+  },
+  {
+   "rank": "B",
+   "min": 600
+  },
+  {
+   "rank": "C",
+   "min": 400
+  },
+  {
+   "rank": "D",
+   "min": 200
+  },
+  {
+   "rank": "F",
+   "min": 0
+  }
+ ],
+ "belts": [
+  {
+   "id": "DOJO_WHITE_BELT",
+   "name": "White Belt",
+   "points": 1000,
+   "sbxp": 20
+  },
+  {
+   "id": "DOJO_YELLOW_BELT",
+   "name": "Yellow Belt",
+   "points": 2000,
+   "sbxp": 30
+  },
+  {
+   "id": "DOJO_GREEN_BELT",
+   "name": "Green Belt",
+   "points": 3500,
+   "sbxp": 50
+  },
+  {
+   "id": "DOJO_BLUE_BELT",
+   "name": "Blue Belt",
+   "points": 5000,
+   "sbxp": 75
+  },
+  {
+   "id": "DOJO_BROWN_BELT",
+   "name": "Brown Belt",
+   "points": 6000,
+   "sbxp": 100
+  },
+  {
+   "id": "DOJO_BLACK_BELT",
+   "name": "Black Belt",
+   "points": 6500,
+   "sbxp": 150
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "_note": "fairySoulTexture: skull for the floating soul. referenceSouls: the reference game's soul count per area (NEU fairy_souls.json, 'Max Souls' 289), shown nowhere; the real souls in this game are the fairy_soul.* anchors the island builders place.",
+ "fairySoulTexture": "eyJ0aW1lc3RhbXAiOjE1ODY2NjcxNjgzNzksInByb2ZpbGVJZCI6ImJlY2RkYjI4YTJjODQ5YjRhOWIwOTIyYTU4MDUxNDIwIiwicHJvZmlsZU5hbWUiOiJTdFR2Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTllYTEyMGJkODNkMGM4MWEzYzQ2MjdmNWJjZTFiMTJmYjAzYmNiNTc3NzljNjNkY2M3N2UzZjRhZThhNzkzIn19fQ==",
+ "referenceSouls": {
+  "hub": 80,
+  "combat_1": 19,
+  "crimson_isle": 29,
+  "combat_3": 12,
+  "foraging_1": 12,
+  "foraging_2": 12,
+  "farming_1": 20,
+  "mining_1": 12,
+  "mining_2": 21,
+  "mining_3": 15,
+  "winter": 5,
+  "dungeon_hub": 7,
+  "fishing_1": 5,
+  "lotus_atoll": 6,
+  "foraging_3": 12,
+  "safari": 4
+ }
+}

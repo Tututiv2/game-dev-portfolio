@@ -1,0 +1,955 @@
+[
+ {
+  "id": "gold_mine_zombie",
+  "name": "Zombie Miner",
+  "entity": "ZOMBIE",
+  "level": 6,
+  "health": 150,
+  "damage": 30,
+  "combatXp": 8,
+  "coins": 2,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "GOLD_INGOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "gold_mine_zombie",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "HAND": "GOLDEN_PICKAXE"
+  },
+  "_tune": "no research numbers: a Combat 1-2 zombie between the hub graveyard (Lv1-5) and Lapis Zombies (Lv7)"
+ },
+ {
+  "id": "deep_caverns_sneaky_creeper",
+  "name": "Sneaky Creeper",
+  "entity": "CREEPER",
+  "level": 3,
+  "health": 120.0,
+  "damage": 80.0,
+  "combatXp": 8.0,
+  "coins": 3,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "SULPHUR",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GUNPOWDER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "family": "sneaky_creeper",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_sneaky"
+  ],
+  "equipment": {}
+ },
+ {
+  "id": "deep_caverns_lapis_zombie",
+  "name": "Lapis Zombie",
+  "entity": "ZOMBIE",
+  "level": 7,
+  "health": 200.0,
+  "damage": 50.0,
+  "combatXp": 12.0,
+  "coins": 5,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "LAPIS_CRYSTAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "LAPIS_ARMOR_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "LAPIS_ARMOR_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "LAPIS_ARMOR_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "LAPIS_ARMOR_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "lapis_zombie",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "LAPIS_ARMOR_HELMET",
+   "CHEST": "LAPIS_ARMOR_CHESTPLATE",
+   "LEGS": "LAPIS_ARMOR_LEGGINGS",
+   "FEET": "LAPIS_ARMOR_BOOTS"
+  },
+  "_tune": "NEU LAPIS_ZOMBIE_MONSTER: each armour piece 1%, Lapis Crystal 1%"
+ },
+ {
+  "id": "deep_caverns_redstone_pigman",
+  "name": "Redstone Pigman",
+  "entity": "ZOMBIFIED_PIGLIN",
+  "level": 10,
+  "health": 250.0,
+  "damage": 75.0,
+  "combatXp": 20.0,
+  "coins": 12,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "GOLD_NUGGET",
+    "min": 1,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "REDSTONE",
+    "min": 1,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "FLAMING_SWORD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "redstone_pigman",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "GOLDEN_SWORD"
+  },
+  "_tune": "NEU REDSTONE_PIGMAN_MONSTER: nugget 50%, redstone 50%, Flaming Sword 1%"
+ },
+ {
+  "id": "deep_caverns_emerald_slime_5",
+  "name": "Emerald Slime",
+  "entity": "SLIME",
+  "level": 5,
+  "health": 80.0,
+  "damage": 30.0,
+  "combatXp": 9,
+  "coins": 5,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "EMERALD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "emerald_slime",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_slime"
+  ],
+  "equipment": {},
+  "extra": {
+   "size": 2
+  }
+ },
+ {
+  "id": "deep_caverns_emerald_slime_10",
+  "name": "Emerald Slime",
+  "entity": "SLIME",
+  "level": 10,
+  "health": 150.0,
+  "damage": 70.0,
+  "combatXp": 12,
+  "coins": 8,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "EMERALD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "emerald_slime",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_slime"
+  ],
+  "equipment": {},
+  "extra": {
+   "size": 3
+  }
+ },
+ {
+  "id": "deep_caverns_emerald_slime_15",
+  "name": "Emerald Slime",
+  "entity": "SLIME",
+  "level": 15,
+  "health": 250.0,
+  "damage": 150.0,
+  "combatXp": 15,
+  "coins": 10,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "SLIME_BALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "EMERALD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "emerald_slime",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_slime"
+  ],
+  "equipment": {},
+  "extra": {
+   "size": 4
+  }
+ },
+ {
+  "id": "deep_caverns_miner_zombie_15",
+  "name": "Miner Zombie",
+  "entity": "ZOMBIE",
+  "level": 15,
+  "health": 250.0,
+  "damage": 100.0,
+  "combatXp": 20.0,
+  "coins": 12,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "TANK_MINER_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "miner_zombie",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "ENCHANTED_DIAMOND_BLOCK",
+   "CHEST": "TANK_MINER_CHESTPLATE",
+   "LEGS": "TANK_MINER_LEGGINGS",
+   "FEET": "TANK_MINER_BOOTS",
+   "HAND": "DIAMOND_PICKAXE"
+  },
+  "_tune": "NEU MINER_*_MONSTER: each Miner's Outfit piece 1%"
+ },
+ {
+  "id": "deep_caverns_diamond_zombie_20",
+  "name": "Diamond Zombie",
+  "entity": "ZOMBIE",
+  "level": 20,
+  "health": 300.0,
+  "damage": 150.0,
+  "combatXp": 25.0,
+  "coins": 15,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DIAMOND",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "TANK_MINER_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "miner_zombie",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "DIAMOND_HELMET",
+   "CHEST": "DIAMOND_CHESTPLATE",
+   "LEGS": "DIAMOND_LEGGINGS",
+   "FEET": "DIAMOND_BOOTS",
+   "HAND": "DIAMOND_PICKAXE"
+  },
+  "_tune": "'Diamond (rare)' taken as 2%; outfit 1% a piece like the Lv15 miners"
+ },
+ {
+  "id": "deep_caverns_miner_skeleton_15",
+  "name": "Miner Skeleton",
+  "entity": "SKELETON",
+  "level": 15,
+  "health": 250.0,
+  "damage": 100.0,
+  "combatXp": 20.0,
+  "coins": 12,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "TANK_MINER_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "miner_skeleton",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "ENCHANTED_DIAMOND_BLOCK",
+   "CHEST": "TANK_MINER_CHESTPLATE",
+   "LEGS": "TANK_MINER_LEGGINGS",
+   "FEET": "TANK_MINER_BOOTS",
+   "HAND": "BOW"
+  },
+  "_tune": "NEU MINER_*_MONSTER: each Miner's Outfit piece 1%"
+ },
+ {
+  "id": "deep_caverns_diamond_skeleton_20",
+  "name": "Diamond Skeleton",
+  "entity": "SKELETON",
+  "level": 20,
+  "health": 300.0,
+  "damage": 150.0,
+  "combatXp": 25.0,
+  "coins": 15,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "BONE",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "DIAMOND",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "TANK_MINER_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TANK_MINER_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "miner_skeleton",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "DIAMOND_HELMET",
+   "CHEST": "DIAMOND_CHESTPLATE",
+   "LEGS": "DIAMOND_LEGGINGS",
+   "FEET": "DIAMOND_BOOTS",
+   "HAND": "BOW"
+  },
+  "_tune": "'Diamond (rare)' taken as 2%; outfit 1% a piece like the Lv15 miners"
+ },
+ {
+  "id": "dwarven_goblin",
+  "name": "Goblin",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 1500.0,
+  "damage": 400.0,
+  "combatXp": 10.0,
+  "coins": 10,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "STONE_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzQ2NDg4MTMwOCwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyODUwOTA2YjdmMGQ5NTJjMGU1MDgwNzNjYzQzOWZkMzM3NGNjZjViODg5YzA2ZjdlOGQ5MGNjMGNjMjU1YyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "NEU: coins 10, egg 1%, goblin armour 0.3% a piece"
+ },
+ {
+  "id": "dwarven_goblin_weakling",
+  "name": "Weakling Goblin",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 1000.0,
+  "damage": 200.0,
+  "combatXp": 8.0,
+  "coins": 8,
+  "speed": 0.9,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "WOODEN_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzQ2NDg4MTMwOCwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyODUwOTA2YjdmMGQ5NTJjMGU1MDgwNzNjYzQzOWZkMzM3NGNjZjViODg5YzA2ZjdlOGQ5MGNjMGNjMjU1YyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "level 25 from the bestiary id goblin_weakling_melee_25 (research said 20?)"
+ },
+ {
+  "id": "dwarven_goblin_weakling_bow",
+  "name": "Weakling Goblin",
+  "entity": "SKELETON",
+  "level": 25,
+  "health": 1000.0,
+  "damage": 200.0,
+  "combatXp": 8.0,
+  "coins": 8,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzQ2NDg4MTMwOCwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyODUwOTA2YjdmMGQ5NTJjMGU1MDgwNzNjYzQzOWZkMzM3NGNjZjViODg5YzA2ZjdlOGQ5MGNjMGNjMjU1YyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "archer variant (bestiary goblin_weakling_bow_25), same stats as the melee weakling"
+ },
+ {
+  "id": "dwarven_goblin_knifethrower",
+  "name": "Knifethrower",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 1500.0,
+  "damage": 500.0,
+  "combatXp": 28,
+  "coins": 10,
+  "speed": 0.9,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "goblin",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_knife"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzQ2NDg4MTMwOCwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyODUwOTA2YjdmMGQ5NTJjMGU1MDgwNzNjYzQzOWZkMzM3NGNjZjViODg5YzA2ZjdlOGQ5MGNjMGNjMjU1YyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "NEU: combat XP 28, egg 0.5%"
+ },
+ {
+  "id": "dwarven_goblin_fireslinger",
+  "name": "Fireslinger",
+  "entity": "ZOMBIE",
+  "level": 25,
+  "health": 1500.0,
+  "damage": 600.0,
+  "combatXp": 10.0,
+  "coins": 10,
+  "speed": 0.9,
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "GOBLIN_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   },
+   {
+    "item": "GOBLIN_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "family": "goblin",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "mines_fireslinger"
+  ],
+  "equipment": {
+   "HAND": "BLAZE_ROD"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNzQ2NDg4MTMwOCwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcyODUwOTA2YjdmMGQ5NTJjMGU1MDgwNzNjYzQzOWZkMzM3NGNjZjViODg5YzA2ZjdlOGQ5MGNjMGNjMjU1YyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "NEU: egg 2% (plain Goblin Egg)"
+ },
+ {
+  "id": "dwarven_ice_walker",
+  "name": "Ice Walker",
+  "entity": "ZOMBIE",
+  "level": 45,
+  "health": 888,
+  "damage": 500.0,
+  "combatXp": 40,
+  "coins": 8,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "ICE",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "GLACITE_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "family": "glacite_walker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "mines_frost"
+  ],
+  "equipment": {
+   "HEAD": "PACKED_ICE",
+   "CHEST": "GLACITE_CHESTPLATE",
+   "LEGS": "GLACITE_LEGGINGS",
+   "FEET": "GLACITE_BOOTS",
+   "HAND": "IRON_SWORD"
+  },
+  "_tune": "NEU numbers (888 HP / 40 XP / 8 coins); damage from research"
+ },
+ {
+  "id": "dwarven_treasure_hoarder",
+  "name": "Treasure Hoarder",
+  "entity": "ZOMBIE",
+  "level": 70,
+  "health": 15000.0,
+  "damage": 1000.0,
+  "combatXp": 70,
+  "coins": 30,
+  "speed": 0.9,
+  "drops": [
+   {
+    "item": "STARFALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "SALMON_OPAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "treasure_hoarder",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_PICKAXE"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5MDE1NjYzNDYzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMmIxMmE4MTRjZWQ4YWYwMmNkZGYyOWEzN2U3ZjMwMTFlNDMwZThhMThiMzhiNzA2ZjI3YzZiZDMxNjUwYjY1IgogICAgfQogIH0KfQ==",
+  "extra": {
+   "scale": 0.8
+  },
+  "_tune": "NEU: Starfall 100%, Salmon Opal 1%, 70 combat XP; Treasurite raised from the reference 0.5% to 50% because the mining module's drill parts need it (research said Treasurite is this mob's drop)"
+ },
+ {
+  "id": "dwarven_ghost",
+  "name": "Ghost",
+  "entity": "CREEPER",
+  "level": 250,
+  "health": 1000000.0,
+  "damage": 1000.0,
+  "combatXp": 100.0,
+  "coins": 20,
+  "speed": 1.0,
+  "drops": [
+   {
+    "item": "VOLTA",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SORROW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0012
+   },
+   {
+    "item": "PLASMA",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "GHOST_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   }
+  ],
+  "family": "ghost",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mines_ghost"
+  ],
+  "equipment": {},
+  "_tune": "the research's 1,000,000-coin 0.01% drop is paid as a coin burst by the mines_ghost behaviour"
+ }
+]

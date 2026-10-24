@@ -1,0 +1,23 @@
+{
+  "name": "podcast",
+  "label": "Podcast",
+  "font": "Poppins SemiBold",
+  "font_fallbacks": [
+    "Poppins",
+    "Montserrat",
+    "Arial"
+  ],
+  "bold": false,
+  "casing": "none",
+  "size_pct": 7.4,
+  "line_spacing_pct": 20.0,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#FFC400",
+  "outline_colour": "#000000",
+  "outline_pct": 0.42,
+  "shadow_pct": 0.25,
+  "highlight": "underline",
+  "position": "center",
+  "margin_v_pct": 12.0,
+  "default_reveal": "KARAOKE_HIGHLIGHT"
+}

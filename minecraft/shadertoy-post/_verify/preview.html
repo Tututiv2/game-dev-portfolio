@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Shadertoy Post — live preview</title>
+<style>
+  body { background:#0e1015; color:#d8dae0; font:13px/1.5 Consolas,monospace; margin:0; padding:20px; }
+  h1   { font-size:14px; letter-spacing:.09em; text-transform:uppercase; color:#8b90a0; margin:0 0 4px; }
+  p    { color:#6f7488; margin:0 0 16px; max-width:70ch; }
+  #grid { position:relative; display:inline-block; }
+  canvas { display:block; background:#000; }
+  .lbl { position:absolute; color:#fff; background:rgba(0,0,0,.6); padding:2px 7px;
+         font-size:12px; letter-spacing:.04em; pointer-events:none; }
+  #err { color:#f85149; white-space:pre-wrap; margin-top:12px; }
+</style>
+<h1>Shadertoy Post — live preview</h1>
+<p>The pack's real <code>final.fsh</code>, running on a synthetic blocky scene with a real depth
+   buffer — so the depth-based outline effect is exercised the same way it will be in game.</p>
+<div id="grid"><canvas id="c"></canvas></div>
+<div id="err"></div>
+
+<script>
+const PACK = '../ShadertoyPost/shaders';
+const EFFECTS = ['0 · Off','1 · CRT','2 · VHS','3 · Kaleidoscope','4 · Underwater',
+                 '5 · Retro','6 · Dream Glow','7 · Cel / Outline','8 · Custom'];
+const TW = 420, TH = 236, COLS = 3, ROWS = 3;
+const NEAR = 0.05, FAR = 192.0;
+
+const errEl = document.getElementById('err');
+const fail  = m => { errEl.textContent += m + '\n'; console.error('[preview] ' + m); };
+
+/* ---- scene pass: raymarched blocky scene, writes real depth ------------- */
+const SCENE_FS = `#version 300 es
+precision highp float;
+out vec4 o;
+uniform vec2 res;
+uniform float near, far;
+
+float sdBox(vec3 p, vec3 b){ vec3 q=abs(p)-b; return length(max(q,0.0))+min(max(q.x,max(q.y,q.z)),0.0); }
+
+// returns vec2(distance, materialId)
+vec2 map(vec3 p){
+  vec2 r = vec2(p.y, 1.0);                                   // ground
+  float d;
+  d = sdBox(p-vec3(-2.2,1.0, 4.0), vec3(1.0));  if(d<r.x) r=vec2(d,2.0);
+  d = sdBox(p-vec3( 2.6,1.6, 8.0), vec3(1.5));  if(d<r.x) r=vec2(d,3.0);
+  d = sdBox(p-vec3( 0.0,0.6,15.0), vec3(4.0,0.6,1.0)); if(d<r.x) r=vec2(d,4.0);
+  d = sdBox(p-vec3(-5.0,2.5,11.0), vec3(0.6,2.5,0.6)); if(d<r.x) r=vec2(d,3.0);
+  d = length(p-vec3(1.2,3.2,5.0))-0.42;         if(d<r.x) r=vec2(d,5.0);  // lamp
+  return r;
+}
+
+vec3 matColor(float id){
+  if(id<1.5) return vec3(0.28,0.45,0.18);   // grass
+  if(id<2.5) return vec3(0.52,0.36,0.22);   // wood
+  if(id<3.5) return vec3(0.55,0.55,0.58);   // stone
+  if(id<4.5) return vec3(0.62,0.30,0.26);   // brick
+  return vec3(1.0,0.85,0.5);                // lamp (emissive)
+}
+
+vec3 normalAt(vec3 p){
+  vec2 e = vec2(0.002,0.0);
+  return normalize(vec3(map(p+e.xyy).x-map(p-e.xyy).x,
+                        map(p+e.yxy).x-map(p-e.yxy).x,
+                        map(p+e.yyx).x-map(p-e.yyx).x));
+}
+
+void main(){
+  vec2 uv = (gl_FragCoord.xy - 0.5*res) / res.y;
+  vec3 ro = vec3(0.0, 2.0, -4.0);
+  vec3 rd = normalize(vec3(uv, 1.05));
+
+  float t = 0.0; float id = 0.0; bool hit=false;
+  for(int i=0;i<128;i++){
+    vec3 p = ro + rd*t;
+    vec2 m = map(p);
+    if(m.x < 0.001){ id=m.y; hit=true; break; }
+    t += m.x;
+    if(t > 150.0) break;
+  }
+
+  vec3 col;
+  if(hit){
+    vec3 p = ro+rd*t, n = normalAt(p);
+    vec3 sun = normalize(vec3(0.5,0.85,-0.3));
+    float diff = max(dot(n,sun),0.0);
+    col = matColor(id) * (0.32 + 0.85*diff);
+    if(id>4.5) col = vec3(2.4,2.0,1.2);                       // emissive, over 1.0
+    float fog = 1.0-exp(-t*0.010);
+    col = mix(col, vec3(0.55,0.70,0.92), fog);
+  } else {
+    // sky, brighter toward the sun
+    col = mix(vec3(0.42,0.60,0.90), vec3(0.80,0.88,0.98), exp(-max(rd.y,0.0)*3.0));
+    t = far;
+  }
+
+  // Write real window-space depth, exactly the encoding toy_depth() inverts.
+  float z = clamp(t, near, far);
+  gl_FragDepth = (far - (near*far)/z) / (far - near);
+  o = vec4(col, 1.0);
+}`;
+
+const QUAD_VS = `#version 300 es
+in vec2 pos; out vec2 texcoord;
+void main(){ texcoord = pos*0.5+0.5; gl_Position = vec4(pos,0.0,1.0); }`;
+
+/* ---- shared with verify.html: include resolution + dialect rewrite ------ */
+async function readFile(p){ const r=await fetch(p); if(!r.ok) throw new Error(`read ${p}: ${r.status}`); return r.text(); }
+async function resolveIncludes(src, seen=new Set()){
+  const out=[];
+  for(const line of src.split('\n')){
+    const m=line.match(/^\s*#include\s+"([^"]+)"/);
+    if(!m){ out.push(line); continue; }
+    const path=PACK+m[1];
+    if(seen.has(path)) continue;
+    seen.add(path);
+    out.push(await resolveIncludes(await readFile(path), seen));
+  }
+  return out.join('\n');
+}
+function toES(src, effect){
+  src = src.replace(/^#version.*$/m,'')
+           .replace(/^#define EFFECT .*$/m, `#define EFFECT ${effect}`);
+  return `#version 300 es\nprecision highp float;\nprecision highp int;\nprecision highp sampler2D;\n${src}`;
+}
+
+function mkShader(gl,type,src,tag){
+  const s=gl.createShader(type); gl.shaderSource(s,src); gl.compileShader(s);
+  if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){ fail(`${tag}: ${gl.getShaderInfoLog(s)}`); return null; }
+  return s;
+}
+function mkProgram(gl,vsSrc,fsSrc,tag){
+  const vs=mkShader(gl,gl.VERTEX_SHADER,vsSrc,tag+' vs');
+  const fs=mkShader(gl,gl.FRAGMENT_SHADER,fsSrc,tag+' fs');
+  if(!vs||!fs) return null;
+  const p=gl.createProgram(); gl.attachShader(p,vs); gl.attachShader(p,fs);
+  gl.bindAttribLocation(p,0,'pos'); gl.linkProgram(p);
+  if(!gl.getProgramParameter(p,gl.LINK_STATUS)){ fail(`${tag} link: ${gl.getProgramInfoLog(p)}`); return null; }
+  return p;
+}
+
+(async () => {
+  const canvas = document.getElementById('c');
+  canvas.width = TW*COLS; canvas.height = TH*ROWS;
+  const gl = canvas.getContext('webgl2', {preserveDrawingBuffer:true, antialias:false});
+  if(!gl){ fail('no WebGL2'); return; }
+
+  /* labels */
+  const grid = document.getElementById('grid');
+  EFFECTS.forEach((name,i)=>{
+    const d=document.createElement('div'); d.className='lbl'; d.textContent=name;
+    d.style.left=((i%COLS)*TW+6)+'px'; d.style.top=(Math.floor(i/COLS)*TH+6)+'px';
+    grid.appendChild(d);
+  });
+
+  const quad = gl.createVertexArray(); gl.bindVertexArray(quad);
+  const vbo = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 3,-1, -1,3]), gl.STATIC_DRAW);
+  gl.enableVertexAttribArray(0); gl.vertexAttribPointer(0,2,gl.FLOAT,false,0,0);
+
+  /* scene framebuffer: colour + REAL depth texture */
+  const colorTex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D,colorTex);
+  gl.texStorage2D(gl.TEXTURE_2D,1,gl.RGBA8,TW,TH);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+
+  const depthTex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D,depthTex);
+  gl.texStorage2D(gl.TEXTURE_2D,1,gl.DEPTH_COMPONENT24,TW,TH);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.NEAREST);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.NEAREST);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+
+  const sceneFbo = gl.createFramebuffer();
+  gl.bindFramebuffer(gl.FRAMEBUFFER,sceneFbo);
+  gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,colorTex,0);
+  gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.DEPTH_ATTACHMENT,gl.TEXTURE_2D,depthTex,0);
+  if(gl.checkFramebufferStatus(gl.FRAMEBUFFER)!==gl.FRAMEBUFFER_COMPLETE) fail('scene FBO incomplete');
+
+  /* tile framebuffer the effects render into, so gl_FragCoord is tile-local */
+  const tileTex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D,tileTex);
+  gl.texStorage2D(gl.TEXTURE_2D,1,gl.RGBA8,TW,TH);
+  const tileFbo = gl.createFramebuffer();
+  gl.bindFramebuffer(gl.FRAMEBUFFER,tileFbo);
+  gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,tileTex,0);
+
+  /* a noise texture for iChannel2/noisetex */
+  const noiseTex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D,noiseTex);
+  const nd = new Uint8Array(64*64*4).map(()=>Math.random()*255);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,64,64,0,gl.RGBA,gl.UNSIGNED_BYTE,nd);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+
+  /* programs */
+  const sceneProg = mkProgram(gl, QUAD_VS, SCENE_FS, 'scene');
+  const raw = await readFile(PACK+'/final.fsh');
+  const resolved = await resolveIncludes(raw);
+  const progs = EFFECTS.map((_,i)=> mkProgram(gl, QUAD_VS, toES(resolved,i), `EFFECT ${i}`));
+
+  if(!sceneProg || progs.some(p=>!p)){ fail('aborting — see errors above'); return; }
+
+  const U = (p,n)=>gl.getUniformLocation(p,n);
+
+  /* render the scene once (it doesn't animate) */
+  gl.bindFramebuffer(gl.FRAMEBUFFER,sceneFbo);
+  gl.viewport(0,0,TW,TH);
+  gl.enable(gl.DEPTH_TEST); gl.depthFunc(gl.ALWAYS);
+  gl.clearColor(0,0,0,1); gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+  gl.useProgram(sceneProg);
+  gl.uniform2f(U(sceneProg,'res'),TW,TH);
+  gl.uniform1f(U(sceneProg,'near'),NEAR); gl.uniform1f(U(sceneProg,'far'),FAR);
+  gl.drawArrays(gl.TRIANGLES,0,3);
+  gl.disable(gl.DEPTH_TEST);
+
+  const t0 = performance.now();
+  function frame(){
+    const t = (performance.now()-t0)/1000;
+
+    for(let i=0;i<progs.length;i++){
+      const p = progs[i];
+      gl.bindFramebuffer(gl.FRAMEBUFFER,tileFbo);
+      gl.viewport(0,0,TW,TH);
+      gl.useProgram(p);
+
+      gl.activeTexture(gl.TEXTURE0); gl.bindTexture(gl.TEXTURE_2D,colorTex);
+      gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D,depthTex);
+      gl.activeTexture(gl.TEXTURE2); gl.bindTexture(gl.TEXTURE_2D,noiseTex);
+      gl.uniform1i(U(p,'colortex0'),0);
+      gl.uniform1i(U(p,'depthtex0'),1);
+      gl.uniform1i(U(p,'depthtex1'),1);
+      gl.uniform1i(U(p,'noisetex'),2);
+      gl.uniform1f(U(p,'viewWidth'),TW);
+      gl.uniform1f(U(p,'viewHeight'),TH);
+      gl.uniform1f(U(p,'frameTimeCounter'),t);
+      gl.uniform1f(U(p,'frameTime'),1/60);
+      gl.uniform1i(U(p,'frameCounter'),Math.floor(t*60));
+      gl.uniform1f(U(p,'near'),NEAR);
+      gl.uniform1f(U(p,'far'),FAR);
+      gl.uniform1i(U(p,'worldTime'),6000);
+      gl.uniform1f(U(p,'rainStrength'),0.0);
+      gl.uniform1i(U(p,'isEyeInWater'),0);
+      gl.drawArrays(gl.TRIANGLES,0,3);
+
+      /* blit the finished tile into place on screen */
+      const cx=(i%COLS)*TW, cy=canvas.height-(Math.floor(i/COLS)+1)*TH;
+      gl.bindFramebuffer(gl.READ_FRAMEBUFFER,tileFbo);
+      gl.bindFramebuffer(gl.DRAW_FRAMEBUFFER,null);
+      gl.blitFramebuffer(0,0,TW,TH, cx,cy,cx+TW,cy+TH, gl.COLOR_BUFFER_BIT, gl.NEAREST);
+    }
+    requestAnimationFrame(frame);
+  }
+  frame();
+  console.log('[preview] rendering, renderer=' + gl.getParameter(gl.RENDERER));
+})().catch(e => fail(e.message));
+</script>

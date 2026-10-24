@@ -1,0 +1,173 @@
+[
+ {
+  "id": "crimson_guide",
+  "anchor": "npc.crimson_guide",
+  "name": "&fWatchman Orrin",
+  "title": "&e&lCRIMSON ISLE",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4ZWQ4YWVhMjRhNThkOWUyYzBlOGQ3NGQ3MDQ5MmZmOTA4NDkxNjMxNTE0NTMzZWM4MTRkNTFkZWI3N2I3YzcifX19",
+  "role": "guide",
+  "lines": [
+   "&fWelcome to the Crimson Isle, traveller. Mind the heat.",
+   "&fTwo powers squabble over this rock: the Mages of Carmine Spire to the east...",
+   "&f...and the Barbarians of Drakehold to the west. Pledge to one and they will give you work.",
+   "&fType &a/crimson &fany time to see your standing, your quests and the mini-boss timers.",
+   "&fOnce you've pledged, come and see me each day for a week - I'll vouch for you with your faction."
+  ]
+ },
+ {
+  "id": "barbarian_leader",
+  "anchor": "npc.barbarian_leader",
+  "name": "&6Warchief Grathe",
+  "title": "&c&lBARBARIANS",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1NmUwYWQ0ODZlM2FhN2QwZjEwZjQzMmYyMTY0YzY4ZWI1YjBmYjJiYzMyMGNhN2FjNDFmNWRkZDZlNzYzMGIifX19",
+  "role": "leader_barbarian",
+  "lines": [
+   "&fHah! Another soft-skinned wanderer.",
+   "&fDrakehold takes anyone who can swing an axe and doesn't flinch at a little fire.",
+   "&fBring down the mages' champions and the beasts of this isle, and you'll earn our respect."
+  ]
+ },
+ {
+  "id": "mage_leader",
+  "anchor": "npc.mage_leader",
+  "name": "&5Archmage Seraphine",
+  "title": "&d&lMAGES",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliM2JjZTAzOTE4ZTRiYWVmNzMzY2U0NzgwNzk2YTkyNzg5MzVhZGEwYzAxYWFmNWIxNzdkZmNlZDZlODdiOCJ9fX0=",
+  "role": "leader_mage",
+  "lines": [
+   "&fAh. You have the look of someone with potential.",
+   "&fCarmine Spire rewards discipline, study... and results.",
+   "&fHelp us keep the barbarian rabble in check and the order will remember your name."
+  ]
+ },
+ {
+  "id": "barbarian_shop",
+  "anchor": "npc.barbarian_shop",
+  "name": "&fQuartermaster Hrolf",
+  "title": "&c&lFACTION SHOP",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "role": "shop_barbarian",
+  "lines": [
+   "&fOnly sworn Drakeholders trade here. Show me your standing."
+  ]
+ },
+ {
+  "id": "mage_shop",
+  "anchor": "npc.mage_shop",
+  "name": "&fArcanist Vela",
+  "title": "&d&lFACTION SHOP",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNTA3OTVjYTQyOGFhYmMzZjM4MDI2Y2RjZjc0NDQ5OGM5ODEwZDkyMjAyNmI4YmFlYmExN2Q0ZmUyNjM1NiJ9fX0=",
+  "role": "shop_mage",
+  "lines": [
+   "&fThe order's armoury opens only to its members. Let me see your standing."
+  ]
+ },
+ {
+  "id": "dojo_master",
+  "anchor": "npc.dojo_master",
+  "name": "&fSensei Kiyoshi",
+  "title": "&e&lDOJO",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhODI2YjU5YzQzZmYwMjA2NzRlZmFkOTc5M2E0NDhiMGIwMTA3ODY2NTJkMzYxMTRlNjE2NmYzYWNiYmU2OGIifX19",
+  "role": "dojo",
+  "lines": [
+   "&fStrength is common. Control is rare.",
+   "&fSeven trials wait in my dojo. Earn points in each and you will earn a belt.",
+   "&fStep into the arena when you are ready."
+  ]
+ },
+ {
+  "id": "crimson_armorsmith",
+  "anchor": "npc.crimson_armorsmith",
+  "name": "&fForgemaster Ignatius",
+  "title": "&6&lARMOR PRESTIGE",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZjliOGI4MDk5ODViYTk4ZGQ2MTI0ZmUzODVmNmE0NDY2YWE2ZTE4MjQ5YTFmZTYzN2NiNjVjNDBkZmM3OTciLCJtZXRhZGF0YSI6e319fSwicHJvZmlsZUlkIjoiOGVhMzQyN2Y2ZDFlMmNhN2I3NjM3Y2U2YmYzYjU2MzMiLCJwcm9maWxlTmFtZSI6Im5lYTg5IiwiaXNQdWJsaWMiOnRydWUsInRpbWVzdGFtcCI6MTc3NTExNDcwODYzOH0=",
+  "role": "armorsmith",
+  "lines": [
+   "&fCrimson-forged plate grows stronger with every hunt it survives.",
+   "&fBring me Crimson Essence and Leviathan teeth and I will raise its prestige."
+  ]
+ },
+ {
+  "id": "leviathan_dock",
+  "anchor": "npc.leviathan_dock",
+  "name": "&fDockhand Nell",
+  "title": "&c&lLEVIATHAN'S HOLLOW",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMzM2FhMjQxNGJjZjFjMjkxZmRkZjZhOWIwZjgwNWY5OTY1NDZlYzQxNTBmZjNjZWYxMGJkNTI5Y2M5ODI2MSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1NWY3YWMwZWIxYWMyZTVlYjYxODQzMGY4YzZhMGVhMiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUyMTU4MDk1NjUyfQ==",
+  "role": "dock",
+  "lines": [
+   "&fThis is where crews set out to hunt the Magma Leviathan.",
+   "&fThe lava's too restless right now - the hunts aren't running yet.",
+   "&fGrab a key from a faction envoy in the meantime. You'll want one when the hunts begin."
+  ]
+ },
+ {
+  "id": "drakehold_banker",
+  "anchor": "npc.drakehold_banker",
+  "name": "&fCoffer-keeper Mordaunt",
+  "title": "&6&lBANK",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmZjk2NjQ2MWI0YmQ2OGRmM2ZmN2M2YWRhZTBjZGE1ZjI3YWM4NTNhMTZlMmEyYzc4NDliM2MwMjYxMDEzOTAifX19",
+  "role": "bank",
+  "lines": [
+   "&fDrakehold keeps your coins safer than any mage would."
+  ]
+ },
+ {
+  "id": "carmine_banker",
+  "anchor": "npc.carmine_banker",
+  "name": "&fTreasurer Lucienne",
+  "title": "&6&lBANK",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiYjJjMDQ2MzVhMjliMDhlMTYxZDg1OWIxMWJkYWRiNzVhMjlkM2M2NGRmN2U4NGExMDhjMzdmN2Y4M2MwIiwibWV0YWRhdGEiOnt9fX0sInByb2ZpbGVJZCI6ImJkMzlkMDNlZThlZDJmOWRhMDFmZDdhNzBiZmVlNzUyIiwicHJvZmlsZU5hbWUiOiJuZWE4OSIsImlzUHVibGljIjp0cnVlLCJ0aW1lc3RhbXAiOjE3ODQzNTk3NDM1OTZ9",
+  "role": "bank",
+  "lines": [
+   "&fYour savings, ledgered and warded."
+  ]
+ },
+ {
+  "id": "drakehold_bazaar",
+  "anchor": "npc.drakehold_bazaar",
+  "name": "&fTrader Kolm",
+  "title": "&6&lBAZAAR",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmMzFjMWMyMTVhNTdlOTM3ZmQ3NWFiMzU3ODJmODVlYzI0MmExYjFmOTUwYTI2YTQyYmI1ZTBhYTVjYmVkYSJ9fX0=",
+  "role": "bazaar",
+  "lines": [
+   "&fBuy cheap, sell dear - even out here."
+  ]
+ },
+ {
+  "id": "carmine_bazaar",
+  "anchor": "npc.carmine_bazaar",
+  "name": "&fBroker Amaranth",
+  "title": "&6&lBAZAAR",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljYzVjNWQyOTg1NDM1N2EzOTllZTY1Zjg2ZjJmZmRiYTNhZGQwYjAzNTdjNWJmMTE1NjJiZmU5NzgyMzQ0MjYifX19",
+  "role": "bazaar",
+  "lines": [
+   "&fThe market reaches even the Spire."
+  ]
+ },
+ {
+  "id": "drakehold_lore",
+  "anchor": "npc.drakehold_lore.1",
+  "name": "&fOld Bjarka",
+  "title": null,
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwNGIyMjUzYzI0ZDgxNGJlZjMxOTlmMGE4NjExZWVhYjU0ZjdjZTJlYmY3MWE0YmJlMDAyOGViMWE3YmIwOGYifX19",
+  "role": "lore",
+  "lines": [
+   "&fThey say the skull in the square came from a dragon my grandfather's grandfather killed.",
+   "&fTruth is, he found it. Still makes a good story.",
+   "&fWatch the Dukedom to the south-west. The Duke never stays dead for long."
+  ]
+ },
+ {
+  "id": "carmine_lore",
+  "anchor": "npc.carmine_lore.1",
+  "name": "&fApprentice Lio",
+  "title": null,
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmN2E0ZGRkZTJiZjY4MWVkOWJmYjlmODllOWE0Mzk3ZDFlYzllM2I3ZDEwOWU2ZjU2YjZlZDUyMjJiYWEwMTMifX19",
+  "role": "lore",
+  "lines": [
+   "&fI'm supposed to be studying ember runes. Don't tell the Archmage.",
+   "&fThe Rogue Pyromancer used to be one of us. Now he haunts the Courtyard south of here.",
+   "&fIf you see him, a few of the order's mages pay well for proof he's been put down."
+  ]
+ }
+]

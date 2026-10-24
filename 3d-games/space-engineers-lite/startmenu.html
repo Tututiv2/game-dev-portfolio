@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Engineers Lite - Start Menu</title>
+  <link rel="stylesheet" href="css/startmenu.css" />
+</head>
+<body>
+  <main id="menu">
+    <h1>Space Engineers Lite</h1>
+    <p class="subtitle">Universe Launcher</p>
+
+    <section class="card">
+      <h2>Main Menu</h2>
+      <button id="btn-single" class="menu-btn">Single Player</button>
+      <button id="btn-multi" class="menu-btn">Multiplayer</button>
+      <button id="btn-settings" class="menu-btn">Settings</button>
+      <button id="btn-character" class="menu-btn">Customize Character</button>
+    </section>
+
+    <section id="multiplayer-panel" class="card hidden">
+      <h2>Multiplayer</h2>
+      <button id="btn-create-universe" class="menu-btn">Create New Universe</button>
+      <button id="btn-open-load" class="menu-btn">Load Universe</button>
+      <input id="file-load-universe" type="file" accept=".json,application/json" />
+      <button id="btn-back" class="menu-btn ghost">Back</button>
+    </section>
+
+    <p id="menu-status">Choose a mode.</p>
+  </main>
+
+  <div id="load-modal" class="hidden">
+    <div class="modal-card">
+      <h2>Load Universe</h2>
+      <div id="load-list"></div>
+      <div class="modal-actions">
+        <label for="file-load-universe" class="menu-btn label-btn">Import From JSON File</label>
+        <button id="btn-close-load" class="menu-btn ghost">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/startmenu.js"></script>
+</body>
+</html>

@@ -1,0 +1,519 @@
+<title>The Still — Noise Calls, Heat Keeps</title>
+<style>
+:root{
+  --ground:#e9eae8; --panel:#f3f4f2; --panel2:#dee1dd; --line:#c6cbc4; --line-soft:#d8dcd6;
+  --ink:#15191a; --ink2:#4d5a5c; --ink3:#77858a;
+  --call:#b06318; --keep:#1f7d86; --hot:#a5382a;
+  --accent:var(--call);
+}
+@media (prefers-color-scheme:dark){
+  :root{--ground:#0e1113; --panel:#161b1e; --panel2:#1d2429; --line:#2b3339; --line-soft:#222a2f;
+    --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+    --call:#e39a4a; --keep:#5fc3cc; --hot:#d8685a}
+}
+:root[data-theme="dark"]{--ground:#0e1113; --panel:#161b1e; --panel2:#1d2429; --line:#2b3339;
+  --line-soft:#222a2f; --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+  --call:#e39a4a; --keep:#5fc3cc; --hot:#d8685a}
+:root[data-theme="light"]{--ground:#e9eae8; --panel:#f3f4f2; --panel2:#dee1dd; --line:#c6cbc4;
+  --line-soft:#d8dcd6; --ink:#15191a; --ink2:#4d5a5c; --ink3:#77858a;
+  --call:#b06318; --keep:#1f7d86; --hot:#a5382a}
+:root{
+  --display:"Bahnschrift","DIN Alternate","HelveticaNeue-CondensedBold","Arial Narrow",
+            "Roboto Condensed",system-ui,sans-serif;
+  --body:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:"Cascadia Mono",Consolas,"SF Mono","Roboto Mono",ui-monospace,monospace;
+}
+
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:17px;
+  line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:0 28px 120px}
+.measure{max-width:68ch}
+p{margin:0 0 1.05em}
+strong{font-weight:600;color:var(--ink)}
+code{font-family:var(--mono);font-size:.86em;background:var(--panel2);padding:1px 5px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink3);margin:0}
+
+.mast{padding:74px 0 40px;border-bottom:1px solid var(--line)}
+.mast h1{font-size:clamp(44px,9.4vw,110px);line-height:.9;letter-spacing:-.02em;
+  text-transform:uppercase;margin:14px 0 0}
+.mast h1 .a{color:var(--call)} .mast h1 .b{color:var(--keep)}
+.mast .lede{margin-top:26px;color:var(--ink2);font-size:19px}
+.mast .lede em{color:var(--ink);font-style:italic}
+
+.rule{margin:44px 0 0;border-top:3px solid var(--call);border-bottom:3px solid var(--keep);
+  padding:30px 0 32px}
+.rule p{font-family:var(--display);font-size:clamp(23px,4vw,40px);line-height:1.12;
+  text-transform:uppercase;margin:0;max-width:26ch}
+.rule p .a{color:var(--call)} .rule p .b{color:var(--keep)}
+.rule .why{font-family:var(--body);font-size:16.5px;text-transform:none;line-height:1.6;
+  color:var(--ink2);max-width:64ch;margin-top:20px;font-weight:400}
+
+h3.sec{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-family:var(--mono);
+  font-weight:400;color:var(--ink3);border-top:1px solid var(--line-soft);padding-top:11px;
+  margin:62px 0 18px}
+h4.sub{font-size:21px;letter-spacing:.03em;margin:26px 0 8px;color:var(--ink)}
+
+/* ── the keystone ───────────────────────────────────────────────────── */
+.key{border:2px solid var(--keep);background:var(--panel);padding:30px 32px 32px;margin:26px 0 0;
+  position:relative}
+.key::before{content:"The join";position:absolute;top:-9px;left:24px;background:var(--ground);
+  padding:0 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--keep)}
+.key h4{font-family:var(--display);font-size:clamp(24px,3.4vw,34px);letter-spacing:.02em;
+  text-transform:uppercase;color:var(--keep);margin:0 0 14px;max-width:22ch}
+.key p{max-width:66ch}
+.key p:last-child{margin-bottom:0}
+
+/* ── seal dial ──────────────────────────────────────────────────────── */
+.seal{margin:24px 0 0}
+.seal-bar{height:32px;background:linear-gradient(90deg,var(--keep),var(--panel2) 50%,var(--call))}
+.seal-cols{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+  border:1px solid var(--line);border-top:0;min-width:520px}
+.seal-cols > div{background:var(--panel);padding:20px 20px 22px}
+.seal-cols .s{--c:var(--keep)} .seal-cols .o{--c:var(--call)}
+.seal-cols h4{font-family:var(--display);font-size:24px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--c);margin:0 0 4px}
+.seal-cols .mul{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin:0 0 16px;
+  letter-spacing:.06em}
+.seal-cols ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.seal-cols li{font-size:15px;line-height:1.5;padding-left:15px;border-left:2px solid var(--line)}
+.seal-cols li b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink3);font-weight:400;margin-bottom:2px}
+.seal-cols li.good{border-left-color:var(--c)}
+.seal-cols li.bad{border-left-color:var(--hot)}
+
+/* ── tables ─────────────────────────────────────────────────────────── */
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px;margin-top:4px}
+th,td{text-align:left;padding:9px 14px 9px 0;border-bottom:1px solid var(--line-soft);
+  vertical-align:top}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3);font-weight:400;border-bottom-color:var(--line);white-space:nowrap}
+th.l{color:var(--call)} th.w{color:var(--keep)}
+td.m{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.k{color:var(--ink2)}
+td.lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink3);white-space:nowrap}
+td.name{font-family:var(--display);font-size:17px;letter-spacing:.04em;text-transform:uppercase;
+  white-space:nowrap;color:var(--keep)}
+tr.warren td.name,tr.warren td.m{color:var(--hot)}
+.lane{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 7px;border:1px solid;white-space:nowrap;display:inline-block}
+.lane.sealed{border-color:var(--keep);color:var(--keep)}
+.lane.open{border-color:var(--call);color:var(--call)}
+.lane.any{border-color:var(--line);color:var(--ink3)}
+
+/* ── callouts ───────────────────────────────────────────────────────── */
+.callout{border-left:3px solid var(--accent);padding:3px 0 3px 20px;margin:28px 0 0;
+  font-size:16.5px;line-height:1.55;max-width:66ch}
+.callout b{font-family:var(--display);font-size:18px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--accent);display:block;font-weight:600;margin-bottom:5px}
+.callout.keep{--accent:var(--keep)}
+.callout.warn{--accent:var(--hot)}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:8px}
+
+/* ── payout stack ───────────────────────────────────────────────────── */
+.stack{display:grid;grid-template-columns:1fr auto 1fr auto auto;gap:14px;align-items:center;
+  margin:24px 0 0;border:1px solid var(--line);background:var(--panel);padding:22px 24px;
+  min-width:560px}
+.stack .op{font-family:var(--display);font-size:26px;color:var(--ink3)}
+.stack .box b{font-family:var(--display);font-size:15px;letter-spacing:.08em;text-transform:uppercase;
+  display:block;font-weight:600;margin-bottom:3px}
+.stack .box.a b{color:var(--call)} .stack .box.b b{color:var(--keep)}
+.stack .box span{font-family:var(--mono);font-size:12px;color:var(--ink2);line-height:1.45;display:block}
+.stack .out{font-family:var(--mono);font-size:26px;color:var(--hot);font-variant-numeric:tabular-nums}
+.stack .out span{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3)}
+
+/* ── steps ──────────────────────────────────────────────────────────── */
+.steps{list-style:none;padding:0;margin:20px 0 0;counter-reset:s;display:grid;gap:20px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:16px;font-size:16px;
+  line-height:1.55}
+.steps li::before{content:counter(s);font-family:var(--mono);font-size:13px;color:var(--ink3);
+  border-top:2px solid var(--keep);padding-top:6px}
+.steps li b{font-family:var(--display);font-size:19px;letter-spacing:.04em;text-transform:uppercase;
+  display:block;color:var(--ink);font-weight:600;margin-bottom:2px}
+.steps li span{color:var(--ink2)}
+
+@media (max-width:860px){
+  .split,.seal-cols{grid-template-columns:1fr}
+  .wrap{padding:0 20px 90px}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">The Still · fused build · noise + heat · both factions</p>
+    <h1><span class="a">Noise</span> Calls.<br><span class="b">Heat</span> Keeps.</h1>
+    <div class="measure">
+      <p class="lede">Din is a <em>moment</em> — it spikes, it brings them, it's gone in seconds.
+      Heat is a <em>place</em> — it soaks into the room you worked, and it's why they don't leave
+      when you go quiet.</p>
+      <p class="lede">You wanted both ideas and you were right to, because they turn out to be the
+      same idea. <strong>Heat has to go somewhere.</strong> Whether it stays on your body or ends up
+      in the room is the only real decision in the game, and it decides which monster finds you
+      <em>and</em> whether this shaft still exists next week.</p>
+    </div>
+
+    <div class="rule">
+      <p><span class="a">Sound</span> is why they came. <span class="b">Warmth</span> is why they
+      stayed.</p>
+      <p class="why">The Listening arrive on noise, fight, and disperse — they are an
+      <em>event</em>. The Wanting arrive on warmth and <em>move in</em>. One is weather. The other is
+      a tenant. And what you vent out of your suit is what invites the tenant.</p>
+    </div>
+  </header>
+
+
+  <div class="key">
+    <h4>Vent your heat and it doesn't vanish. It goes into the room.</h4>
+    <p>Muffling gear is insulation — wool wraps, felt linings, sealed joints all trap heat by exactly
+    the same physics that eats sound. Venting means opening up, and opening up is loud. That's the
+    old tension, and it's real.</p>
+    <p>But here's the part that makes the whole thing one system instead of two: <strong>the heat you
+    dump has to land somewhere, and it lands in the shaft you're standing in.</strong></p>
+    <p>Run <em>open</em> and you're cold, invisible to the Wanting, loud as hell — and you are cooking
+    your own mine at double rate. Run <em>sealed</em> and you're silent, personally blazing, hunted
+    — and the shaft stays cold and workable for tomorrow.</p>
+    <p>So the dial isn't "which predator." It's <strong>your safety tonight versus this ground's
+    future</strong>, and in a crew it becomes a conversation: somebody has to run sealed, or everybody
+    vents and the shaft is dead by morning.</p>
+  </div>
+
+
+  <h3 class="sec">The Seal — one dial, three consequences</h3>
+  <div class="seal">
+    <div class="seal-bar"></div>
+    <div class="scroll">
+      <div class="seal-cols">
+        <div class="s">
+          <h4>Sealed · 0</h4>
+          <p class="mul">Din ×0.35 · body heat ×2.10 · room heat ×0.4</p>
+          <ul>
+            <li class="good"><b>The Listening</b>Barely register you. You can work a shaft they're
+              standing in.</li>
+            <li class="bad"><b>The Wanting</b>Find you personally, from ninety blocks, through
+              fog.</li>
+            <li class="good"><b>The shaft</b>Stays cold. Still here tomorrow. Still yours.</li>
+          </ul>
+        </div>
+        <div class="o">
+          <h4>100 · Open</h4>
+          <p class="mul">Din ×1.90 · body heat ×0.40 · room heat ×2.2</p>
+          <ul>
+            <li class="bad"><b>The Listening</b>Hear you three shafts over and come immediately.</li>
+            <li class="good"><b>The Wanting</b>Can't see you at all. You read as fog.</li>
+            <li class="bad"><b>The shaft</b>Cooks. You are personally turning this room into a
+              Warren, and everyone will know it was you.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="callout warn"><b>Changing lanes announces you</b>
+    You can crack or seal in the field, but it takes four seconds standing still and it
+    <em>dumps</em> what you were holding. Cracking your seals to cool off releases a bang. Sealing up
+    to go quiet releases a heat surge straight into the room. Every lane change is a flare, and you
+    will make that call mid-fight, badly, at least once a night.
+  </div>
+
+
+  <h3 class="sec">Two factions, and they are not two flavours of the same thing</h3>
+  <div class="measure">
+    <p>The Hush blinded everyone at once, and what happened next depended on where they were
+    standing. Near the rigs, the ones that sharpened their hearing ate. Deeper down in the cold,
+    hearing found nothing — so the ones still moving are the ones that learned to want warmth.</p>
+    <p>They don't just hunt differently. <strong>They exist on different clocks</strong>, which is the
+    entire justification for having two.</p>
+  </div>
+  <div class="scroll">
+    <table>
+      <tr><th></th><th class="l">The Listening</th><th class="w">The Wanting</th></tr>
+      <tr><td class="lab">Hunts</td><td class="k">Din — your noise, right now</td>
+        <td class="k">Heat — yours, and the room's</td></tr>
+      <tr><td class="lab">Clock</td><td class="k">Seconds</td><td class="k">Hours</td></tr>
+      <tr><td class="lab">Behaviour</td><td class="k">Arrive, fight, disperse</td>
+        <td class="k">Arrive, settle, <strong>stay</strong></td></tr>
+      <tr><td class="lab">You'd call it</td><td class="k">Weather</td><td class="k">A tenant</td></tr>
+      <tr><td class="lab">Countered by</td><td class="k">Silence, or outrunning them</td>
+        <td class="k">Cooling the room — or drowning it</td></tr>
+      <tr><td class="lab">Roster</td>
+        <td class="k"><strong>Ear</strong> · staggers toward the last loud thing.
+          <strong>Crier</strong> · doesn't attack, screams, +150 Din and your position goes to
+          everything within 80 blocks. <strong>Lattice</strong> · splits into four, loudly.
+          <strong>The Long Quiet</strong> · can't perceive you at zero Din, so it waits.
+          <strong>The Bell</strong> · rings, and the whole server gains Din.</td>
+        <td class="k"><strong>Numb</strong> · sits at ambient, reads as background until it's on you.
+          <strong>Clasp</strong> · holds you while your heat bleeds into it at 6×.
+          <strong>Sleeper</strong> · buried at ambient, invisible, wakes to warmth within three.
+          <strong>The Warmth</strong> · reads on thermal exactly like a rig lamp.
+          <strong>The Hearth</strong> · a whole derelict rig, lit and welcoming, that is one
+          organism.</td></tr>
+    </table>
+  </div>
+  <div class="callout keep"><b>A Warren is a Wanting nest</b>
+    That's the join. The Listening come and go with your noise and never belong to anywhere. The
+    Wanting move into warm rooms and <em>colonise</em> them — which is why a worked-out shaft holds
+    population, and why the fix is temperature rather than combat. You don't clear a Warren by
+    killing things. You clear it by making the room cold, and killing things is just what happens
+    while you try.
+  </div>
+
+
+  <h3 class="sec">Heat stages — what a room becomes</h3>
+  <div class="measure">
+    <p>Every block broken deposits heat into its region, scaled by your seal. It bleeds off at about
+    <strong>−120/hour</strong> real time, so a hard session is workable again next evening and a
+    properly cooked shaft takes most of a day.</p>
+  </div>
+  <div class="scroll">
+    <table>
+      <tr><th>State</th><th class="m">Heat</th><th>What the room does</th><th class="m">Block pay</th></tr>
+      <tr><td class="name">Cold</td><td class="m">0 – 200</td>
+        <td class="k">Clean. Din brings the Listening, and when you go quiet they disperse. Nothing
+        lives here. This is how a shaft behaves the first time you find it.</td>
+        <td class="m">×1.0</td></tr>
+      <tr><td class="name">Warm</td><td class="m">200 – 600</td>
+        <td class="k">The first Wanting drift in and stay. Faint haze at the entrance — the first
+        visible tell, and new players don't know what it means yet.</td>
+        <td class="m">×1.3</td></tr>
+      <tr><td class="name">Hot</td><td class="m">600 – 1,400</td>
+        <td class="k">Resident population. Ambient spawns at <em>zero</em> Din — the room generates
+        its own pressure whether you make a sound or not. Visible steam pouring from the doorway.</td>
+        <td class="m">×1.8</td></tr>
+      <tr class="warren"><td class="name">Warren</td><td class="m">1,400+</td>
+        <td class="k">It's theirs. Permanent nest, structures, named spawns. Everyone sensible has
+        abandoned it — which means nobody is competing for the richest ground on the server. You do
+        not go in alone.</td>
+        <td class="m">×2.5</td></tr>
+    </table>
+  </div>
+  <div class="callout keep"><b>You can see it from outside</b>
+    A warm room in a cold, drowned, fog-choked world <em>steams</em>. Heat state is rendered: haze at
+    Warm, plumes at Hot, a shaft mouth breathing white at Warren. Stand at the end of a corridor and
+    you can read this level's entire recent history off which doorways are smoking — including
+    whether the crew ahead of you ran sealed or vented everything and left.
+  </div>
+
+
+  <h3 class="sec">What this does to the map</h3>
+  <div class="split">
+    <div>
+      <h4 class="sub">Good spots burn out</h4>
+      <p>Work a shaft hard and you cook it — not as a penalty applied to you, but as a fact about the
+      room that's equally true for everyone who comes down next.</p>
+      <p>So veterans keep a <strong>rotation</strong>, the way you'd rotate fields. Four or five
+      shafts on a cycle, working one while the others cool. Nobody has to be taught that; it's just
+      what the numbers make correct.</p>
+      <h4 class="sub">Cold shafts are information</h4>
+      <p>Untouched ground at depth is a real score — worth keeping quiet about, worth lying about,
+      worth selling. And the fastest way to destroy a rival's rotation is to go and vent in it.</p>
+    </div>
+    <div>
+      <h4 class="sub">The commons problem</h4>
+      <p>Here's what the seal really creates. Running open is <em>individually correct</em> — you're
+      cold, you're safe from the Wanting, you outrun the Listening. And it wrecks the shaft for
+      everyone including tomorrow's you.</p>
+      <p>In a crew, "who's running sealed tonight" becomes a genuine conversation with a genuine
+      cost, and the person who takes it is doing the same job as a Watchman: personal risk, group
+      benefit. <strong>Gangs will develop etiquette about venting</strong>, and breaking it will get
+      people kicked.</p>
+      <h4 class="sub">And the ballsy play pays</h4>
+      <p>A Warren is abandoned by everyone with sense, paying ×2.5 a block, at a depth you already
+      unlocked, with zero competition. The top earners on this server will be crews who go and work
+      rooms that were given up on — which is a completely different skill from a solo Din run, and it
+      means The Still has an endgame activity that isn't just <em>deeper</em>.</p>
+    </div>
+  </div>
+
+
+  <h3 class="sec">The payout, stacked</h3>
+  <div class="measure">
+    <p>Two multipliers measuring two different risks. Din pays for the danger you're generating right
+    now. Heat pays for the danger of the room you chose to stand in.</p>
+  </div>
+  <div class="scroll">
+    <div class="stack">
+      <div class="box a"><b>Din band</b><span>×1.0 quiet → ×4.0 choir<br>your nerve, this second</span></div>
+      <div class="op">×</div>
+      <div class="box b"><b>Heat state</b><span>×1.0 cold → ×2.5 warren<br>the room's reputation</span></div>
+      <div class="op">=</div>
+      <div class="out">×10.0<span>theoretical ceiling</span></div>
+    </div>
+  </div>
+  <div class="callout warn"><b>A Choir inside a Warren</b>
+    Ten times sell value, and the highest-paying thirty seconds anywhere in the game. Almost nobody
+    survives one. The handful who do will be legendary for it and the clip will get posted. Leave the
+    ceiling exactly where it is — a number nobody can reach does real work just by existing.
+  </div>
+
+
+  <h3 class="sec">The rock decides which one you fight</h3>
+  <div class="measure">
+    <p>Deep ore doesn't only pay differently — it <strong>forces a seal position</strong>, and
+    therefore forces a predator <em>and</em> a consequence for the shaft. You don't pick your lane
+    freely. You pick what you're mining and the lane comes attached.</p>
+  </div>
+  <div class="scroll">
+    <table>
+      <tr><th>Material</th><th>Demands</th><th>Forces</th><th>So you get</th></tr>
+      <tr><td class="name" style="color:var(--ink)">Common filler</td><td class="k">Nothing</td>
+        <td><span class="lane any">Any</span></td><td class="k">Whatever you invited</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Rimeveined ore</td>
+        <td class="k">Shatters if you're warm. Must be cut cold.</td>
+        <td><span class="lane open">Open</span></td>
+        <td class="k">The Listening on you — and the shaft cooking at double rate while you work.
+        <strong>Rime veins destroy their own shafts</strong>, everyone knows it going in, and a rime
+        shaft's life is measured in sessions.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Slagstone</td>
+        <td class="k">Won't part below working heat. Must be cut hot.</td>
+        <td><span class="lane sealed">Sealed</span></td>
+        <td class="k">The Wanting hunting you personally — but the room stays cold, so slagstone
+        shafts last for months and get fought over.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Hush-glass</td>
+        <td class="k">Fractures above 400 Din. You physically cannot make noise near it.</td>
+        <td><span class="lane sealed">Sealed</span></td>
+        <td class="k">The Wanting, and no escape hatch — go loud and the vein you came for
+        shatters.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Emberite</td>
+        <td class="k">Cuts only when hot, and cutting it heats you further.</td>
+        <td><span class="lane sealed">Sealed</span></td>
+        <td class="k">The Wanting, on a runaway curve you started yourself.</td></tr>
+    </table>
+  </div>
+
+
+  <h3 class="sec">Cooling a shaft on purpose</h3>
+  <div class="measure">
+    <p>The continent is drowned. There is water behind almost every wall down there and everyone
+    knows it.</p>
+    <p><strong>Breach the wall and the shaft floods.</strong> Heat goes to zero, the nest drowns, the
+    room is clean — and every block of ore you hadn't taken is gone under water with it. An emergency
+    button with a real price, entirely diegetic, and the source of the ugliest social problem on the
+    server: <em>flooding a Warren somebody else has been farming</em> is not stealing, is not
+    griefing under any rule you could actually write, and will start wars.</p>
+  </div>
+  <div class="callout"><b>The Warmth is now load-bearing</b>
+    Your favourite mob — the thing that reads on thermal exactly like a rig lamp — is a
+    <em>heat source</em>. It holds Wanting around itself and slowly cooks whatever room it stands in.
+    A Warmth that spawns in your rotation is actively poisoning that shaft, and you have to go deal
+    with it or lose the ground. It lures you in <strong>and</strong> it takes your best mine. That is
+    a perfect mob and you invented its job by accident.
+  </div>
+
+
+  <h3 class="sec">The Wake — griefing as content, not a ban</h3>
+  <div class="measure">
+    <p>You spotted the hole: what stops somebody breaching walls at random all night, drowning ground
+    they don't use, permanently degrading the server for no reason? Normally that's a ban. But a ban
+    is a moderator doing a job the game should be doing, and it obeys your own law —
+    <em>disarm destructive capabilities in code, not with a warning in a doc.</em></p>
+    <p>So: <strong>flooding stays legal. It just becomes impossible to do anonymously, and expensive
+    to do repeatedly.</strong></p>
+  </div>
+
+  <div class="scroll">
+    <table>
+      <tr><th>Layer</th><th>What it does</th></tr>
+      <tr><td class="name" style="color:var(--ink)">Breaching Charge</td>
+        <td class="k">You cannot breach bare-handed. Charges are craftable, genuinely expensive, and
+        consumed. A vandal doing ten shafts a night has to <em>fund</em> ten charges, which kills
+        most casual vandalism before any social system is involved.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Every breach is signed</td>
+        <td class="k"><code>/flooded</code> is a permanent public log — who, when, which shaft, how
+        much heat was destroyed, how much ore went under. Forever. There is no anonymous
+        flooding.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">The Wake</td>
+        <td class="k">Each breach adds <strong>6 hours of Wake</strong>, stacking, ticking only while
+        you're online — so you serve it in public, you can't sleep it off. Wake I through V, visible
+        above your head, in tab and on the scoreboard, deepening every level.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Loss of sanctuary</td>
+        <td class="k">A player with Wake is <strong>PvP-flagged everywhere</strong> — the shafts, the
+        rigs, spawn, all of it. That's the punishment: not removal, <em>exile from safety</em>, in
+        public, for a duration they chose.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">The server co-signs</td>
+        <td class="k">Bounties normally cost the placer money. On a Wake player <strong>the server
+        matches the bounty</strong>, scaling with Wake level. A serial flooder becomes a walking
+        payday that the community funds together and the world pays out on.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">Automatic restitution</td>
+        <td class="k">When they're killed, the bounty splits — the killer takes the largest share,
+        and the rest is distributed to <em>every player who had heat in the shafts they drowned</em>.
+        Victims are paid back without anyone filing anything.</td></tr>
+      <tr><td class="name" style="color:var(--ink)">The way out</td>
+        <td class="k"><code>/restitution</code> — pay a set price per flooded shaft directly to the
+        people affected and clear your Wake early. Grief, get hunted, pay it back, done. No
+        moderator ever touches it.</td></tr>
+      <tr class="warren"><td class="name">The Drowned Watch</td>
+        <td class="k">Wake VIII and above — sustained, funded, deliberate vandalism. The world starts
+        hunting you personally: named hostiles that spawn on <em>you</em>, anywhere, including your
+        own rig, and do not stop until the Wake clears. It is the in-fiction version of a ban and it
+        is enormously more fun than a ban.</td></tr>
+    </table>
+  </div>
+
+  <div class="callout keep"><b>What this sorts out on its own</b>
+    Flooding your own cooked shaft: one Wake, six hours, mild risk, completely fine. Drowning a
+    rival's Warren mid-war: you knew you'd be hunted and you did it anyway — that's a war move and
+    it's <em>supposed</em> to cost. Random vandalism: you accumulate Wake faster than it decays, the
+    whole server can read your log, you're bountied with the house matching, you have nowhere safe to
+    stand, and eventually the water itself comes for you. <strong>Nobody has to be banned and the
+    hunt is better content than the grief was.</strong>
+  </div>
+
+  <div class="callout"><b>Where PvP is live</b>
+    Rigs and D1–D9 are safe ground, so new players are never anyone's prey. <strong>D10 and below —
+    the Crossing onward — PvP is on.</strong> Warrens are always on, no exceptions, because the
+    richest ground on the server should be the most dangerous in every sense at once. And Wake
+    players have no safe ground anywhere, which is the entire point of it.
+  </div>
+
+
+  <h3 class="sec">The third clock — the Ledger</h3>
+  <div class="measure">
+    <p>Heat recovers, which is what makes this a rotation instead of a death spiral. But some shafts
+    get worked every day for months, and the world should remember that too.</p>
+    <p>The <strong>Ledger</strong> is the slow layer: a decaying float per region counting lifetime
+    traffic, which never fully clears. High-Ledger shafts carry a permanently raised
+    <em>ambient Din floor</em> — you walk in already at STIRRING, before you swing once, because this
+    place has been loud for a year and something down here stopped waiting for a reason.</p>
+    <p>Past a threshold, something is <strong>living</strong> in it: a permanent named resident grown
+    out of nothing but your server's own habits. Killable, worth killing, and worth arguing about
+    whether to take it early or let it get fat first. Ship this last — it's the payoff, and it only
+    means anything once your server has a year of habits to read.</p>
+  </div>
+
+
+  <h3 class="sec">Build order</h3>
+  <ol class="steps">
+    <li><b>Din alone</b><span>Exactly as planned. Tune it, live with it, break it, retune it for a
+      month. Don't fuse anything into a system you haven't proven.</span></li>
+    <li><b>Room heat as a number</b><span>One float per region, deposited on break, decayed on a
+      timer, four thresholds. No visuals, no seal, no payout — log it and watch where your server
+      actually goes for two weeks.</span></li>
+    <li><b>The Wanting</b><span>Your existing sound-driven mob AI with <code>heat</code> substituted
+      for <code>din</code> as the target-selection input, plus a "don't disperse while warm" rule.
+      Same code path. Reskin the models, write the Warmth, done.</span></li>
+    <li><b>Steam</b><span>Make it visible before you make it profitable. Players have to be able to
+      read a room before you start paying them to gamble on one.</span></li>
+    <li><b>The Seal</b><span>One integer on the suit, three multipliers, a four-second field toggle
+      with a spike on switch. Add it only once both factions exist — until then it's a dial with
+      nothing on the other end.</span></li>
+    <li><b>Payout multipliers, tuned low</b><span>×2.5 at Warren is a guess. The real number is
+      whatever makes a few people brave rather than everybody.</span></li>
+  </ol>
+
+  <div class="callout warn"><b>The failure mode to watch</b>
+    If room heat decays too slowly, your server cooks every good shaft in a fortnight and the map
+    permanently degrades — new players arrive into a world that's already used up. Start decay
+    <em>generous</em> at −200/hour and tighten only once you can see rotation actually happening. It
+    is far easier to make a world harsher later than to explain why everywhere good is on fire.
+  </div>
+
+</div>

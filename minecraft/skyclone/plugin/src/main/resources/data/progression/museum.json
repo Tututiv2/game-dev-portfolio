@@ -1,0 +1,6998 @@
+{
+ "_note": "Generated from research/data/neu-repo/constants/museum.json. xp = SkyBlock XP for the first donation (research 08 section 6.2, +1..+25); 'child' = the lower-tier entry a donation of this one also counts for; Special Items give no XP. Entries whose item ids are not registered in game are hidden at runtime.",
+ "stageOrder": [
+  "STARTER",
+  "AMATEUR",
+  "INTERMEDIATE",
+  "SKILLED",
+  "EXPERT",
+  "PROFESSIONAL",
+  "MASTER"
+ ],
+ "categories": [
+  {
+   "id": "combat",
+   "name": "Weapons",
+   "icon": "DIAMOND_SWORD",
+   "entries": [
+    {
+     "id": "ARTISANAL_SHORTBOW",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "ASPECT_OF_THE_JERRY",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "BLOBFISH_HAT",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "CELESTE_WAND",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "CLOWNFISH_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "COW_HEAD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "CREEPER_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "DOJO_WHITE_BELT",
+     "xp": 1,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "END_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "FANCY_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "MAGMA_FISH_HAT",
+     "xp": 1,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "PUFFERFISH_HAT",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "ROGUE_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "SKELETON_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "SLIME_HAT",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "SNOW_CANNON",
+     "xp": 1,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "SPIDER_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "SPIDER_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "SQUIRE_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "UNDEAD_SWORD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "ZOMBIE_HAT",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "ANCESTRAL_SPADE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "ARACK",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "DOJO_BLUE_BELT",
+     "xp": 2,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "DOJO_GREEN_BELT"
+    },
+    {
+     "id": "DOJO_GREEN_BELT",
+     "xp": 2,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "DOJO_YELLOW_BELT"
+    },
+    {
+     "id": "DOJO_YELLOW_BELT",
+     "xp": 2,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "DOJO_WHITE_BELT"
+    },
+    {
+     "id": "ENDERMAN_MASK",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "HUNTER_KNIFE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "PRISMARINE_BLADE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "PRISMARINE_BOW",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "RADIANT_POWER_ORB",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "RECLUSE_FANG",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "SPIDER_SWORD"
+    },
+    {
+     "id": "SNOW_BLASTER",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "SNOW_CANNON"
+    },
+    {
+     "id": "STARLIGHT_WAND",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "TRIBAL_SPEAR",
+     "xp": 2,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "WAND_OF_HEALING",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "WAND_OF_MENDING",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "WAND_OF_HEALING"
+    },
+    {
+     "id": "WITHER_BOW",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "combat"
+    },
+    {
+     "id": "ZOMBIE_MASK",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "DECENT_BOW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "DOJO_BROWN_BELT",
+     "xp": 3,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "DOJO_BLUE_BELT"
+    },
+    {
+     "id": "ENDER_BOW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "END_STONE_BOW",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "FLAMING_SWORD",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "KALHUIKI_MASK",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "MERCENARY_AXE",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "PARROT_MASK",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "RABBIT_HAT",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "SAVANA_BOW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "SHAMAN_SWORD",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "SNOWMAN_MASK",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "SNOW_HOWITZER",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "SNOW_BLASTER"
+    },
+    {
+     "id": "SPIDER_QUEENS_STINGER",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SYNTHESIZER_V1",
+     "xp": 3,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "TACTICIAN_SWORD",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "VOIDWALKER_KATANA",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "ZOMBIE_HEART",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "ARCHAIC_SPADE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "ANCESTRAL_SPADE"
+    },
+    {
+     "id": "ASPECT_OF_THE_END",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "ATOMINIZER",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "BLADE_OF_THE_VOLCANO",
+     "xp": 4,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "CHARMINIZER",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "CRYSTALLIZED_HEART",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "ZOMBIE_HEART"
+    },
+    {
+     "id": "DRAGONFADE_CLOAK",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "DRAGONFUSE_GLOVE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "DRAGON_SHORTBOW",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "EDIBLE_MACE",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "EMERALD_BLADE",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "END_STONE_SWORD",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "EXPLOSIVE_BOW",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "GHOUL_BUSTER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "GOLEM_SWORD",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "HURRICANE_BOW",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "JINGLE_BELLS",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "MANA_FLUX_POWER_ORB",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "RADIANT_POWER_ORB"
+    },
+    {
+     "id": "MITHRIL_COAT",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "OBSIDIAN_CHESTPLATE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "ORNATE_ZOMBIE_SWORD",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "ZOMBIE_SWORD"
+    },
+    {
+     "id": "RAIDER_AXE",
+     "xp": 4,
+     "stage": "AMATEUR",
+     "skill": "combat"
+    },
+    {
+     "id": "REVENANT_SWORD",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "UNDEAD_SWORD"
+    },
+    {
+     "id": "SOUL_ESOWARD",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "STAFF_OF_THE_VOLCANO",
+     "xp": 4,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "VAMPIRE_MASK",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "VAMPIRE_WITCH_MASK",
+     "xp": 4,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "WITCH_MASK"
+    },
+    {
+     "id": "VENOMS_TOUCH",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "VOID_SWORD",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "WAND_OF_RESTORATION",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "WAND_OF_MENDING"
+    },
+    {
+     "id": "WARNING_FLARE",
+     "xp": 4,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "WEIRD_TUBA",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "WITCH_MASK",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "VAMPIRE_MASK"
+    },
+    {
+     "id": "ZOMBIE_SWORD",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "ASPECT_OF_THE_DRAGON",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "FIRE_FREEZE_STAFF",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "FIRE_FURY_STAFF",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "FLORID_ZOMBIE_SWORD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "ORNATE_ZOMBIE_SWORD"
+    },
+    {
+     "id": "FROZEN_SCYTHE",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "GHOST_BOOTS",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "GLOOMLOCK_GRIMOIRE",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "HOLLOW_WAND",
+     "xp": 5,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "KRAMPUS_HELMET",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "LEAPING_SWORD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "POOCH_SWORD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "SHAMAN_SWORD"
+    },
+    {
+     "id": "RIFT_NECKLACE_OUTSIDE",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "RUNIC_STAFF",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "SCORPION_BOW",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SILK_EDGE_SWORD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "LEAPING_SWORD"
+    },
+    {
+     "id": "SLIME_BOW",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SOULS_REBOUND",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SULPHUR_BOW",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "SWORD_OF_BAD_HEALTH",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SYNTHESIZER_V2",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "SYNTHESIZER_V1"
+    },
+    {
+     "id": "TARANTULA_FANG",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "child": "RECLUSE_FANG"
+    },
+    {
+     "id": "VOIDEDGE_KATANA",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "VOIDWALKER_KATANA"
+    },
+    {
+     "id": "VOODOO_DOLL",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "WEIRDER_TUBA",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "WEIRD_TUBA"
+    },
+    {
+     "id": "ASPECT_OF_THE_VOID",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "ASPECT_OF_THE_END"
+    },
+    {
+     "id": "CROWN_OF_GREED",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "FIREDUST_DAGGER",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "INK_WAND",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "JERRY_STAFF",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "MAWDUST_DAGGER",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "MIDAS_SWORD",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "PUMPKIN_LAUNCHER",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "combat"
+    },
+    {
+     "id": "RAGNAROCK_AXE",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "REVIVED_HEART",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "CRYSTALLIZED_HEART"
+    },
+    {
+     "id": "RUNAANS_BOW",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SHRIVELED_BRACELET",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "VOODOO_DOLL_WILTED",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "VOODOO_DOLL"
+    },
+    {
+     "id": "WAND_OF_STRENGTH",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "FIRE_VEIL_WAND",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "JUJU_SHORTBOW",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "REAPER_SWORD",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "REVENANT_SWORD"
+    },
+    {
+     "id": "SCORPION_FOIL",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "child": "TARANTULA_FANG"
+    },
+    {
+     "id": "SINSEEKER_SCYTHE",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "SOUL_WHIP",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "VORPAL_KATANA",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "VOIDEDGE_KATANA"
+    },
+    {
+     "id": "YETI_SWORD",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "ALCHEMISTS_STAFF",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "ANCIENT_CLOAK",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "DEIFIC_SPADE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "ARCHAIC_SPADE"
+    },
+    {
+     "id": "DELIRIUM_NECKLACE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "DESTRUCTION_CLOAK",
+     "xp": 8,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "GYROKINETIC_WAND",
+     "xp": 8,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "MOODY_GRAPPLESHOT",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "MOSQUITO_BOW",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "SCORPION_BOW"
+    },
+    {
+     "id": "PIGMAN_SWORD",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "REAPER_MASK",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "REVIVED_HEART"
+    },
+    {
+     "id": "REAPER_SCYTHE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "SUMMONING_RING",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "SWORD_OF_REVELATIONS",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "combat"
+    },
+    {
+     "id": "WAND_OF_ATONEMENT",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "WAND_OF_RESTORATION"
+    },
+    {
+     "id": "GLACIAL_SCYTHE",
+     "xp": 9,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "FROZEN_SCYTHE"
+    },
+    {
+     "id": "ALERT_FLARE",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "WARNING_FLARE"
+    },
+    {
+     "id": "ATOMSPLIT_KATANA",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "VORPAL_KATANA"
+    },
+    {
+     "id": "AXE_OF_THE_SHREDDED",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "REAPER_SWORD"
+    },
+    {
+     "id": "BURSTFIRE_DAGGER",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "FIREDUST_DAGGER"
+    },
+    {
+     "id": "BURSTMAW_DAGGER",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "MAWDUST_DAGGER"
+    },
+    {
+     "id": "CROWN_OF_AVARICE",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "CROWN_OF_GREED"
+    },
+    {
+     "id": "DAEDALUS_AXE",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "SWORD_OF_REVELATIONS"
+    },
+    {
+     "id": "GAUNTLET_OF_CONTAGION",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "GOLDEN_FLEECE",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "combat"
+    },
+    {
+     "id": "IMPLOSION_BELT",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "LAVA_SHELL_NECKLACE",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "MANTICORE_CLAW",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "combat"
+    },
+    {
+     "id": "OVERFLUX_POWER_ORB",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "MANA_FLUX_POWER_ORB"
+    },
+    {
+     "id": "SCOURGE_CLOAK",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "SCOVILLE_BELT",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "STING",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "child": "SCORPION_FOIL"
+    },
+    {
+     "id": "DEMONLORD_GAUNTLET",
+     "xp": 12,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "DOJO_BLACK_BELT",
+     "xp": 12,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "DOJO_BROWN_BELT"
+    },
+    {
+     "id": "FLAMING_FLAY",
+     "xp": 12,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "SOUL_WHIP"
+    },
+    {
+     "id": "MIDAS_STAFF",
+     "xp": 12,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "THE_PRIMORDIAL",
+     "xp": 12,
+     "stage": "EXPERT",
+     "skill": "combat"
+    },
+    {
+     "id": "WARDEN_HELMET",
+     "xp": 12,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "TACTICAL_INSERTION",
+     "xp": 14,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "FLAMING_FIST",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "PLASMAFLUX_POWER_ORB",
+     "xp": 15,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "OVERFLUX_POWER_ORB"
+    },
+    {
+     "id": "SYNTHESIZER_V3",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "child": "SYNTHESIZER_V2"
+    },
+    {
+     "id": "ANNIHILATION_CLOAK",
+     "xp": 16,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "DESTRUCTION_CLOAK"
+    },
+    {
+     "id": "BLAZETEKK_HAM_RADIO",
+     "xp": 16,
+     "stage": "PROFESSIONAL",
+     "skill": "combat"
+    },
+    {
+     "id": "TERMINATOR",
+     "xp": 18,
+     "stage": "MASTER",
+     "skill": "combat"
+    },
+    {
+     "id": "HEARTFIRE_DAGGER",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "BURSTFIRE_DAGGER"
+    },
+    {
+     "id": "HEARTMAW_DAGGER",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "BURSTMAW_DAGGER"
+    },
+    {
+     "id": "HELLSTORM_STAFF",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "combat"
+    },
+    {
+     "id": "TORMENTOR",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "combat"
+    },
+    {
+     "id": "SOS_FLARE",
+     "xp": 25,
+     "stage": "MASTER",
+     "skill": "combat",
+     "child": "ALERT_FLARE"
+    }
+   ]
+  },
+  {
+   "id": "armor_sets",
+   "name": "Armor Sets",
+   "icon": "DIAMOND_CHESTPLATE",
+   "entries": [
+    {
+     "id": "CELESTE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat",
+     "pieces": [
+      "CELESTE_BOOTS",
+      "CELESTE_CHESTPLATE",
+      "CELESTE_HELMET",
+      "CELESTE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MERCENARY",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "combat",
+     "pieces": [
+      "MERCENARY_BOOTS",
+      "MERCENARY_CHESTPLATE",
+      "MERCENARY_HELMET",
+      "MERCENARY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ROSETTA",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat",
+     "pieces": [
+      "ROSETTA_BOOTS",
+      "ROSETTA_CHESTPLATE",
+      "ROSETTA_HELMET",
+      "ROSETTA_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SQUIRE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "combat",
+     "pieces": [
+      "SQUIRE_BOOTS",
+      "SQUIRE_CHESTPLATE",
+      "SQUIRE_HELMET",
+      "SQUIRE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FAIRY",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "FAIRY_BOOTS",
+      "FAIRY_CHESTPLATE",
+      "FAIRY_HELMET",
+      "FAIRY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "STARLIGHT",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "combat",
+     "pieces": [
+      "STARLIGHT_BOOTS",
+      "STARLIGHT_CHESTPLATE",
+      "STARLIGHT_HELMET",
+      "STARLIGHT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CHEAP_TUXEDO",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "CHEAP_TUXEDO_BOOTS",
+      "CHEAP_TUXEDO_CHESTPLATE",
+      "CHEAP_TUXEDO_LEGGINGS"
+     ]
+    },
+    {
+     "id": "END",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "ENDER_BELT",
+      "ENDER_CLOAK",
+      "ENDER_GAUNTLET",
+      "ENDER_NECKLACE",
+      "END_BOOTS",
+      "END_CHESTPLATE",
+      "END_HELMET",
+      "END_LEGGINGS"
+     ]
+    },
+    {
+     "id": "GOLEM_ARMOR",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "GOLEM_ARMOR_BOOTS",
+      "GOLEM_ARMOR_CHESTPLATE",
+      "GOLEM_ARMOR_HELMET",
+      "GOLEM_ARMOR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "GROWTH",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "GROWTH_BOOTS",
+      "GROWTH_CHESTPLATE",
+      "GROWTH_HELMET",
+      "GROWTH_LEGGINGS"
+     ]
+    },
+    {
+     "id": "HARDENED_DIAMOND",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "HARDENED_DIAMOND_BOOTS",
+      "HARDENED_DIAMOND_CHESTPLATE",
+      "HARDENED_DIAMOND_HELMET",
+      "HARDENED_DIAMOND_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ARACHNE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "ARACHNE_BELT",
+      "ARACHNE_BOOTS",
+      "ARACHNE_CHESTPLATE",
+      "ARACHNE_CLOAK",
+      "ARACHNE_GLOVES",
+      "ARACHNE_HELMET",
+      "ARACHNE_LEGGINGS",
+      "ARACHNE_NECKLACE"
+     ]
+    },
+    {
+     "id": "FANCY_TUXEDO",
+     "xp": 4,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "FANCY_TUXEDO_BOOTS",
+      "FANCY_TUXEDO_CHESTPLATE",
+      "FANCY_TUXEDO_LEGGINGS"
+     ],
+     "child": "CHEAP_TUXEDO"
+    },
+    {
+     "id": "MONSTER_HUNTER",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "CREEPER_LEGGINGS",
+      "GUARDIAN_CHESTPLATE",
+      "SKELETON_HELMET",
+      "SPIDER_BOOTS"
+     ]
+    },
+    {
+     "id": "MONSTER_RAIDER",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "CREEPER_LEGGINGS",
+      "GUARDIAN_CHESTPLATE",
+      "SKELETON_HELMET",
+      "TARANTULA_BOOTS"
+     ],
+     "child": "MONSTER_HUNTER"
+    },
+    {
+     "id": "PARTY",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "PARTY_BELT",
+      "PARTY_CLOAK",
+      "PARTY_GLOVES",
+      "PARTY_HAT",
+      "PARTY_NECKLACE"
+     ]
+    },
+    {
+     "id": "ZOMBIE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "ZOMBIE_BOOTS",
+      "ZOMBIE_CHESTPLATE",
+      "ZOMBIE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CRIMSON_HUNTER",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "BLAZE_BELT",
+      "GHAST_CLOAK",
+      "GLOWSTONE_GAUNTLET",
+      "MAGMA_NECKLACE"
+     ]
+    },
+    {
+     "id": "ELEANOR",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "ELEANOR_CAP",
+      "ELEANOR_SLIPPERS",
+      "ELEANOR_TROUSERS",
+      "ELEANOR_TUNIC"
+     ]
+    },
+    {
+     "id": "EMERALD_ARMOR",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "EMERALD_ARMOR_BOOTS",
+      "EMERALD_ARMOR_CHESTPLATE",
+      "EMERALD_ARMOR_HELMET",
+      "EMERALD_ARMOR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "REVENANT",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "REVENANT_BOOTS",
+      "REVENANT_CHESTPLATE",
+      "REVENANT_LEGGINGS"
+     ],
+     "child": "ZOMBIE"
+    },
+    {
+     "id": "CHALLENGER",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "CHALLENGER_BELT",
+      "CHALLENGER_BOOTS",
+      "CHALLENGER_BRACELET",
+      "CHALLENGER_CHESTPLATE",
+      "CHALLENGER_CLOAK",
+      "CHALLENGER_HELMET",
+      "CHALLENGER_LEGGINGS",
+      "CHALLENGER_NECKLACE"
+     ]
+    },
+    {
+     "id": "CRYSTAL",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "CRYSTAL_BOOTS",
+      "CRYSTAL_CHESTPLATE",
+      "CRYSTAL_HELMET",
+      "CRYSTAL_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ELEGANT_TUXEDO",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "ELEGANT_TUXEDO_BOOTS",
+      "ELEGANT_TUXEDO_CHESTPLATE",
+      "ELEGANT_TUXEDO_LEGGINGS"
+     ],
+     "child": "FANCY_TUXEDO"
+    },
+    {
+     "id": "RAMPART",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "RAMPART_BOOTS",
+      "RAMPART_CHESTPLATE",
+      "RAMPART_HELMET",
+      "RAMPART_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SNOW_SUIT",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "SNOW_BELT",
+      "SNOW_CLOAK",
+      "SNOW_GLOVES",
+      "SNOW_NECKLACE",
+      "SNOW_SUIT_BOOTS",
+      "SNOW_SUIT_CHESTPLATE",
+      "SNOW_SUIT_HELMET",
+      "SNOW_SUIT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ARMOR_OF_THE_PACK",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "BOOTS_OF_THE_PACK",
+      "CHESTPLATE_OF_THE_PACK",
+      "HELMET_OF_THE_PACK",
+      "LEGGINGS_OF_THE_PACK"
+     ]
+    },
+    {
+     "id": "BAT_PERSON",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "BAT_PERSON_BOOTS",
+      "BAT_PERSON_CHESTPLATE",
+      "BAT_PERSON_HELMET",
+      "BAT_PERSON_LEGGINGS"
+     ],
+     "child": "SPOOKY"
+    },
+    {
+     "id": "BLAZE",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "BLAZE_BOOTS",
+      "BLAZE_CHESTPLATE",
+      "BLAZE_HELMET",
+      "BLAZE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "REAPER",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "REAPER_BOOTS",
+      "REAPER_CHESTPLATE",
+      "REAPER_LEGGINGS"
+     ],
+     "child": "REVENANT"
+    },
+    {
+     "id": "SPOOKY",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "SPOOKY_BOOTS",
+      "SPOOKY_CHESTPLATE",
+      "SPOOKY_HELMET",
+      "SPOOKY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "TARANTULA",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "TARANTULA_BOOTS",
+      "TARANTULA_CHESTPLATE",
+      "TARANTULA_HELMET",
+      "TARANTULA_LEGGINGS"
+     ]
+    },
+    {
+     "id": "WEREWOLF",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "WEREWOLF_BOOTS",
+      "WEREWOLF_CHESTPLATE",
+      "WEREWOLF_HELMET",
+      "WEREWOLF_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FINAL_DESTINATION",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "FINAL_DESTINATION_BOOTS",
+      "FINAL_DESTINATION_CHESTPLATE",
+      "FINAL_DESTINATION_HELMET",
+      "FINAL_DESTINATION_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MASTIFF",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "MASTIFF_BOOTS",
+      "MASTIFF_CHESTPLATE",
+      "MASTIFF_HELMET",
+      "MASTIFF_LEGGINGS"
+     ],
+     "child": "GROWTH"
+    },
+    {
+     "id": "PERFECT_TIER_12",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "PERFECT_BOOTS_12",
+      "PERFECT_CHESTPLATE_12",
+      "PERFECT_HELMET_12",
+      "PERFECT_LEGGINGS_12"
+     ]
+    },
+    {
+     "id": "VANQUISHED",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "VANQUISHED_BLAZE_BELT",
+      "VANQUISHED_GHAST_CLOAK",
+      "VANQUISHED_GLOWSTONE_GAUNTLET",
+      "VANQUISHED_MAGMA_NECKLACE"
+     ],
+     "child": "CRIMSON_HUNTER"
+    },
+    {
+     "id": "AURORA",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "AURORA_BOOTS",
+      "AURORA_CHESTPLATE",
+      "AURORA_HELMET",
+      "AURORA_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CRIMSON",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "CRIMSON_BOOTS",
+      "CRIMSON_CHESTPLATE",
+      "CRIMSON_HELMET",
+      "CRIMSON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FERVOR",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "FERVOR_BOOTS",
+      "FERVOR_CHESTPLATE",
+      "FERVOR_HELMET",
+      "FERVOR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FROZEN_BLAZE",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "FROZEN_BLAZE_BOOTS",
+      "FROZEN_BLAZE_CHESTPLATE",
+      "FROZEN_BLAZE_HELMET",
+      "FROZEN_BLAZE_LEGGINGS"
+     ],
+     "child": "BLAZE"
+    },
+    {
+     "id": "HOLLOW",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "HOLLOW_BOOTS",
+      "HOLLOW_CHESTPLATE",
+      "HOLLOW_HELMET",
+      "HOLLOW_LEGGINGS"
+     ]
+    },
+    {
+     "id": "HOLY_DRAGON",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "HOLY_DRAGON_BOOTS",
+      "HOLY_DRAGON_CHESTPLATE",
+      "HOLY_DRAGON_HELMET",
+      "HOLY_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MOLTEN",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "MOLTEN_BELT",
+      "MOLTEN_BRACELET",
+      "MOLTEN_CLOAK",
+      "MOLTEN_NECKLACE"
+     ]
+    },
+    {
+     "id": "OLD_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "OLD_DRAGON_BOOTS",
+      "OLD_DRAGON_CHESTPLATE",
+      "OLD_DRAGON_HELMET",
+      "OLD_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "PERFECT_TIER_13",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "PERFECT_BOOTS_13",
+      "PERFECT_CHESTPLATE_13",
+      "PERFECT_HELMET_13",
+      "PERFECT_LEGGINGS_13"
+     ],
+     "child": "PERFECT_TIER_12"
+    },
+    {
+     "id": "PRIMORDIAL",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "PRIMORDIAL_BOOTS",
+      "PRIMORDIAL_CHESTPLATE",
+      "PRIMORDIAL_HELMET",
+      "PRIMORDIAL_LEGGINGS"
+     ],
+     "child": "TARANTULA"
+    },
+    {
+     "id": "PROTECTOR_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "PROTECTOR_DRAGON_BOOTS",
+      "PROTECTOR_DRAGON_CHESTPLATE",
+      "PROTECTOR_DRAGON_HELMET",
+      "PROTECTOR_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "REKINDLED_EMBER",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "REKINDLED_EMBER_BOOTS",
+      "REKINDLED_EMBER_CHESTPLATE",
+      "REKINDLED_EMBER_HELMET",
+      "REKINDLED_EMBER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "STRONG_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "STRONG_DRAGON_BOOTS",
+      "STRONG_DRAGON_CHESTPLATE",
+      "STRONG_DRAGON_HELMET",
+      "STRONG_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "TERROR",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "combat",
+     "pieces": [
+      "TERROR_BOOTS",
+      "TERROR_CHESTPLATE",
+      "TERROR_HELMET",
+      "TERROR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "THERMODYNAMIC",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "THERMODYNAMIC_BOOTS",
+      "THERMODYNAMIC_CHESTPLATE",
+      "THERMODYNAMIC_HELMET",
+      "THERMODYNAMIC_LEGGINGS"
+     ],
+     "child": "SPEEDSTER"
+    },
+    {
+     "id": "UNSTABLE_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "UNSTABLE_DRAGON_BOOTS",
+      "UNSTABLE_DRAGON_CHESTPLATE",
+      "UNSTABLE_DRAGON_HELMET",
+      "UNSTABLE_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "WISE_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "WISE_DRAGON_BOOTS",
+      "WISE_DRAGON_CHESTPLATE",
+      "WISE_DRAGON_HELMET",
+      "WISE_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "YOUNG_DRAGON",
+     "xp": 10,
+     "stage": "INTERMEDIATE",
+     "skill": "combat",
+     "pieces": [
+      "YOUNG_DRAGON_BOOTS",
+      "YOUNG_DRAGON_CHESTPLATE",
+      "YOUNG_DRAGON_HELMET",
+      "YOUNG_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MYTHOS",
+     "xp": 12,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "MYTHOS_BELT",
+      "MYTHOS_BOOTS",
+      "MYTHOS_BRACELET",
+      "MYTHOS_CHESTPLATE",
+      "MYTHOS_CLOAK",
+      "MYTHOS_HELMET",
+      "MYTHOS_LEGGINGS",
+      "MYTHOS_NECKLACE"
+     ],
+     "child": "CHALLENGER"
+    },
+    {
+     "id": "BERSERKER",
+     "xp": 14,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "BERSERKER_BOOTS",
+      "BERSERKER_CHESTPLATE",
+      "BERSERKER_HELMET",
+      "BERSERKER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SUPERIOR_DRAGON",
+     "xp": 15,
+     "stage": "SKILLED",
+     "skill": "combat",
+     "pieces": [
+      "SUPERIOR_DRAGON_BOOTS",
+      "SUPERIOR_DRAGON_CHESTPLATE",
+      "SUPERIOR_DRAGON_HELMET",
+      "SUPERIOR_DRAGON_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SHIMMERING_LIGHT",
+     "xp": 16,
+     "stage": "EXPERT",
+     "skill": "combat",
+     "pieces": [
+      "SHIMMERING_LIGHT_HOOD",
+      "SHIMMERING_LIGHT_SLIPPERS",
+      "SHIMMERING_LIGHT_TROUSERS",
+      "SHIMMERING_LIGHT_TUNIC"
+     ]
+    },
+    {
+     "id": "FARM_SUIT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming",
+     "pieces": [
+      "FARM_SUIT_BOOTS",
+      "FARM_SUIT_CHESTPLATE",
+      "FARM_SUIT_HELMET",
+      "FARM_SUIT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "RABBIT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming",
+     "pieces": [
+      "RABBIT_BOOTS",
+      "RABBIT_CHESTPLATE",
+      "RABBIT_HELMET",
+      "RABBIT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CACTUS",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "farming",
+     "pieces": [
+      "CACTUS_BOOTS",
+      "CACTUS_CHESTPLATE",
+      "CACTUS_HELMET",
+      "CACTUS_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FARM_ARMOR",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "pieces": [
+      "FARM_ARMOR_BOOTS",
+      "FARM_ARMOR_CHESTPLATE",
+      "FARM_ARMOR_HELMET",
+      "FARM_ARMOR_LEGGINGS"
+     ],
+     "child": "FARM_SUIT"
+    },
+    {
+     "id": "MUSHROOM",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "farming",
+     "pieces": [
+      "MUSHROOM_BOOTS",
+      "MUSHROOM_CHESTPLATE",
+      "MUSHROOM_HELMET",
+      "MUSHROOM_LEGGINGS"
+     ]
+    },
+    {
+     "id": "PUMPKIN",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "pieces": [
+      "PUMPKIN_BOOTS",
+      "PUMPKIN_CHESTPLATE",
+      "PUMPKIN_HELMET",
+      "PUMPKIN_LEGGINGS"
+     ],
+     "child": "FARM_ARMOR"
+    },
+    {
+     "id": "BIOHAZARD",
+     "xp": 4,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "pieces": [
+      "BIOHAZARD_BOOTS",
+      "BIOHAZARD_HELMET",
+      "BIOHAZARD_LEGGINGS",
+      "BIOHAZARD_SUIT"
+     ],
+     "child": "MUSHROOM"
+    },
+    {
+     "id": "LOTUS",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "pieces": [
+      "LOTUS_BELT",
+      "LOTUS_BRACELET",
+      "LOTUS_CLOAK",
+      "LOTUS_NECKLACE"
+     ]
+    },
+    {
+     "id": "MELON",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "pieces": [
+      "MELON_BOOTS",
+      "MELON_CHESTPLATE",
+      "MELON_HELMET",
+      "MELON_LEGGINGS"
+     ],
+     "child": "PUMPKIN"
+    },
+    {
+     "id": "PESTHUNTER",
+     "xp": 4,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "pieces": [
+      "PESTHUNTERS_BELT",
+      "PESTHUNTERS_CLOAK",
+      "PESTHUNTERS_GLOVES",
+      "PESTHUNTERS_NECKLACE"
+     ]
+    },
+    {
+     "id": "SEYMOUR",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "pieces": [
+      "CASHMERE_JACKET",
+      "OXFORD_SHOES",
+      "SATIN_TROUSERS",
+      "VELVET_TOP_HAT"
+     ]
+    },
+    {
+     "id": "SPEEDSTER",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "pieces": [
+      "SPEEDSTER_BOOTS",
+      "SPEEDSTER_CHESTPLATE",
+      "SPEEDSTER_HELMET",
+      "SPEEDSTER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CROPIE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "pieces": [
+      "CROPIE_BOOTS",
+      "CROPIE_CHESTPLATE",
+      "CROPIE_HELMET",
+      "CROPIE_LEGGINGS"
+     ],
+     "child": "MELON"
+    },
+    {
+     "id": "BLOSSOM",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "pieces": [
+      "BLOSSOM_BELT",
+      "BLOSSOM_BRACELET",
+      "BLOSSOM_CLOAK",
+      "BLOSSOM_NECKLACE"
+     ],
+     "child": "LOTUS"
+    },
+    {
+     "id": "SQUASH",
+     "xp": 9,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "pieces": [
+      "SQUASH_BOOTS",
+      "SQUASH_CHESTPLATE",
+      "SQUASH_HELMET",
+      "SQUASH_LEGGINGS"
+     ],
+     "child": "CROPIE"
+    },
+    {
+     "id": "FERMENTO",
+     "xp": 12,
+     "stage": "PROFESSIONAL",
+     "skill": "farming",
+     "pieces": [
+      "FERMENTO_BOOTS",
+      "FERMENTO_CHESTPLATE",
+      "FERMENTO_HELMET",
+      "FERMENTO_LEGGINGS"
+     ],
+     "child": "SQUASH"
+    },
+    {
+     "id": "HELIANTHUS",
+     "xp": 15,
+     "stage": "MASTER",
+     "skill": "farming",
+     "pieces": [
+      "HELIANTHUS_BOOTS",
+      "HELIANTHUS_CHESTPLATE",
+      "HELIANTHUS_HELMET",
+      "HELIANTHUS_LEGGINGS"
+     ],
+     "child": "FERMENTO"
+    },
+    {
+     "id": "HEAT",
+     "xp": 2,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "pieces": [
+      "HEAT_BOOTS",
+      "HEAT_CHESTPLATE",
+      "HEAT_HELMET",
+      "HEAT_LEGGINGS"
+     ],
+     "child": "TANK_MINER"
+    },
+    {
+     "id": "ARMOR_OF_YOG",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "pieces": [
+      "ARMOR_OF_YOG_BOOTS",
+      "ARMOR_OF_YOG_CHESTPLATE",
+      "ARMOR_OF_YOG_HELMET",
+      "ARMOR_OF_YOG_LEGGINGS"
+     ],
+     "child": "FLAME_BREAKER"
+    },
+    {
+     "id": "FLAME_BREAKER",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "pieces": [
+      "FLAME_BREAKER_BOOTS",
+      "FLAME_BREAKER_CHESTPLATE",
+      "FLAME_BREAKER_HELMET",
+      "FLAME_BREAKER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "LAPIS_ARMOR",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "mining",
+     "pieces": [
+      "LAPIS_ARMOR_BOOTS",
+      "LAPIS_ARMOR_CHESTPLATE",
+      "LAPIS_ARMOR_HELMET",
+      "LAPIS_ARMOR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MINER_OUTFIT",
+     "xp": 3,
+     "stage": "STARTER",
+     "skill": "mining",
+     "pieces": [
+      "MINER_OUTFIT_BOOTS",
+      "MINER_OUTFIT_CHESTPLATE",
+      "MINER_OUTFIT_HELMET",
+      "MINER_OUTFIT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MITHRIL",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "pieces": [
+      "MITHRIL_BELT",
+      "MITHRIL_CLOAK",
+      "MITHRIL_GAUNTLET",
+      "MITHRIL_NECKLACE"
+     ]
+    },
+    {
+     "id": "TANK_MINER",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "mining",
+     "pieces": [
+      "TANK_MINER_BOOTS",
+      "TANK_MINER_CHESTPLATE",
+      "TANK_MINER_HELMET",
+      "TANK_MINER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "GLACITE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "pieces": [
+      "GLACITE_BOOTS",
+      "GLACITE_CHESTPLATE",
+      "GLACITE_HELMET",
+      "GLACITE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "GOBLIN",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "pieces": [
+      "GOBLIN_BOOTS",
+      "GOBLIN_CHESTPLATE",
+      "GOBLIN_HELMET",
+      "GOBLIN_LEGGINGS"
+     ]
+    },
+    {
+     "id": "MINERAL",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "pieces": [
+      "MINERAL_BOOTS",
+      "MINERAL_CHESTPLATE",
+      "MINERAL_HELMET",
+      "MINERAL_LEGGINGS"
+     ],
+     "child": "HARDENED_DIAMOND"
+    },
+    {
+     "id": "TITANIUM",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "pieces": [
+      "TITANIUM_BELT",
+      "TITANIUM_CLOAK",
+      "TITANIUM_GAUNTLET",
+      "TITANIUM_NECKLACE"
+     ],
+     "child": "MITHRIL"
+    },
+    {
+     "id": "GEMSTONE",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "pieces": [
+      "AMBER_NECKLACE",
+      "AMETHYST_GAUNTLET",
+      "JADE_BELT",
+      "SAPPHIRE_CLOAK"
+     ]
+    },
+    {
+     "id": "GLOSSY_MINERAL",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "pieces": [
+      "GLOSSY_MINERAL_BOOTS",
+      "GLOSSY_MINERAL_CHESTPLATE",
+      "GLOSSY_MINERAL_HELMET",
+      "GLOSSY_MINERAL_LEGGINGS"
+     ],
+     "child": "MINERAL"
+    },
+    {
+     "id": "SORROW",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "pieces": [
+      "SORROW_BOOTS",
+      "SORROW_CHESTPLATE",
+      "SORROW_HELMET",
+      "SORROW_LEGGINGS"
+     ]
+    },
+    {
+     "id": "DIVAN",
+     "xp": 20,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "pieces": [
+      "DIVAN_BOOTS",
+      "DIVAN_CHESTPLATE",
+      "DIVAN_HELMET",
+      "DIVAN_LEGGINGS"
+     ]
+    },
+    {
+     "id": "DIVAN_EQUIPMENT",
+     "xp": 25,
+     "stage": "MASTER",
+     "skill": "mining",
+     "pieces": [
+      "DIVAN_PENDANT"
+     ]
+    },
+    {
+     "id": "ANGLER",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "fishing",
+     "pieces": [
+      "ANGLER_BELT",
+      "ANGLER_BOOTS",
+      "ANGLER_BRACELET",
+      "ANGLER_CHESTPLATE",
+      "ANGLER_CLOAK",
+      "ANGLER_HELMET",
+      "ANGLER_LEGGINGS",
+      "ANGLER_NECKLACE"
+     ]
+    },
+    {
+     "id": "FISHERMAN",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "fishing",
+     "pieces": [
+      "CLAY_BRACELET",
+      "CLOWNFISH_CLOAK",
+      "PRISMARINE_NECKLACE",
+      "SPONGE_BELT"
+     ]
+    },
+    {
+     "id": "SALMON_NEW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing",
+     "pieces": [
+      "SALMON_BOOTS_NEW",
+      "SALMON_CHESTPLATE_NEW",
+      "SALMON_HELMET_NEW",
+      "SALMON_LEGGINGS_NEW"
+     ]
+    },
+    {
+     "id": "SNORKELING",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "fishing",
+     "pieces": [
+      "SNORKELING_BOOTS",
+      "SNORKELING_CHESTPLATE",
+      "SNORKELING_HELMET",
+      "SNORKELING_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FROZEN",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing",
+     "pieces": [
+      "FROZEN_AMULET"
+     ]
+    },
+    {
+     "id": "BACKWATER",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing",
+     "pieces": [
+      "BACKWATER_BELT",
+      "BACKWATER_BOOTS",
+      "BACKWATER_CHESTPLATE",
+      "BACKWATER_CLOAK",
+      "BACKWATER_GLOVES",
+      "BACKWATER_HELMET",
+      "BACKWATER_LEGGINGS",
+      "BACKWATER_NECKLACE"
+     ],
+     "child": "ANGLER"
+    },
+    {
+     "id": "ICHTHYIC",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing",
+     "pieces": [
+      "ICHTHYIC_BELT",
+      "ICHTHYIC_CLOAK",
+      "ICHTHYIC_GLOVES"
+     ]
+    },
+    {
+     "id": "SPONGE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "pieces": [
+      "SPONGE_BOOTS",
+      "SPONGE_CHESTPLATE",
+      "SPONGE_HELMET",
+      "SPONGE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SHARK_SCALE",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "pieces": [
+      "SHARK_SCALE_BOOTS",
+      "SHARK_SCALE_CHESTPLATE",
+      "SHARK_SCALE_HELMET",
+      "SHARK_SCALE_LEGGINGS"
+     ],
+     "child": "SPONGE"
+    },
+    {
+     "id": "ABYSSAL",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "pieces": [
+      "ABYSSAL_BOOTS",
+      "ABYSSAL_CHESTPLATE",
+      "ABYSSAL_HELMET",
+      "ABYSSAL_LEGGINGS"
+     ],
+     "child": "DIVER"
+    },
+    {
+     "id": "BRONZE_HUNTER",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "pieces": [
+      "BRONZE_HUNTER_BOOTS",
+      "BRONZE_HUNTER_CHESTPLATE",
+      "BRONZE_HUNTER_HELMET",
+      "BRONZE_HUNTER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "DIVER",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "pieces": [
+      "DIVER_BOOTS",
+      "DIVER_CHESTPLATE",
+      "DIVER_HELMET",
+      "DIVER_LEGGINGS"
+     ],
+     "child": "SNORKELING"
+    },
+    {
+     "id": "FINWAVE",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "pieces": [
+      "FINWAVE_BELT",
+      "FINWAVE_CLOAK",
+      "FINWAVE_GLOVES"
+     ],
+     "child": "ICHTHYIC"
+    },
+    {
+     "id": "LAVA_SEA_CREATURE",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "pieces": [
+      "FLAMING_CHESTPLATE",
+      "MOOGMA_LEGGINGS",
+      "SLUG_BOOTS",
+      "TAURUS_HELMET"
+     ]
+    },
+    {
+     "id": "NUTCRACKER",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "pieces": [
+      "NUTCRACKER_BOOTS",
+      "NUTCRACKER_CHESTPLATE",
+      "NUTCRACKER_HELMET",
+      "NUTCRACKER_LEGGINGS"
+     ],
+     "child": "SNOW_SUIT"
+    },
+    {
+     "id": "SILVER_HUNTER",
+     "xp": 12,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "pieces": [
+      "SILVER_HUNTER_BOOTS",
+      "SILVER_HUNTER_CHESTPLATE",
+      "SILVER_HUNTER_HELMET",
+      "SILVER_HUNTER_LEGGINGS"
+     ],
+     "child": "BRONZE_HUNTER"
+    },
+    {
+     "id": "GILLSPLASH",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "fishing",
+     "pieces": [
+      "GILLSPLASH_BELT",
+      "GILLSPLASH_CLOAK",
+      "GILLSPLASH_GLOVES"
+     ],
+     "child": "FINWAVE"
+    },
+    {
+     "id": "THUNDER",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "fishing",
+     "pieces": [
+      "THUNDERBOLT_NECKLACE",
+      "THUNDER_BOOTS",
+      "THUNDER_CHESTPLATE",
+      "THUNDER_HELMET",
+      "THUNDER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "GOLD_HUNTER",
+     "xp": 16,
+     "stage": "PROFESSIONAL",
+     "skill": "fishing",
+     "pieces": [
+      "GOLD_HUNTER_BOOTS",
+      "GOLD_HUNTER_CHESTPLATE",
+      "GOLD_HUNTER_HELMET",
+      "GOLD_HUNTER_LEGGINGS"
+     ],
+     "child": "SILVER_HUNTER"
+    },
+    {
+     "id": "MAGMA_LORD",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "fishing",
+     "pieces": [
+      "MAGMA_LORD_BOOTS",
+      "MAGMA_LORD_CHESTPLATE",
+      "MAGMA_LORD_GAUNTLET",
+      "MAGMA_LORD_HELMET",
+      "MAGMA_LORD_LEGGINGS"
+     ]
+    },
+    {
+     "id": "DIAMOND_HUNTER",
+     "xp": 25,
+     "stage": "MASTER",
+     "skill": "fishing",
+     "pieces": [
+      "DIAMOND_HUNTER_BOOTS",
+      "DIAMOND_HUNTER_CHESTPLATE",
+      "DIAMOND_HUNTER_HELMET",
+      "DIAMOND_HUNTER_LEGGINGS"
+     ],
+     "child": "GOLD_HUNTER"
+    },
+    {
+     "id": "PARK",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging",
+     "pieces": [
+      "CHARLIE_TROUSERS",
+      "KELLY_TSHIRT",
+      "MELODY_SHOES",
+      "MOLE_HAT"
+     ]
+    },
+    {
+     "id": "LEAFLET",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "foraging",
+     "pieces": [
+      "LEAFLET_BOOTS",
+      "LEAFLET_CHESTPLATE",
+      "LEAFLET_HELMET",
+      "LEAFLET_LEGGINGS"
+     ]
+    },
+    {
+     "id": "CANOPY",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "foraging",
+     "pieces": [
+      "CANOPY_BOOTS",
+      "CANOPY_CHESTPLATE",
+      "CANOPY_HELMET",
+      "CANOPY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "FIG",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "pieces": [
+      "FIG_BOOTS",
+      "FIG_CHESTPLATE",
+      "FIG_HELMET",
+      "FIG_LEGGINGS"
+     ],
+     "child": "CANOPY"
+    },
+    {
+     "id": "HONEYCOMB",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "pieces": [
+      "HONEYCOMB_NECKLACE"
+     ]
+    },
+    {
+     "id": "MANGROVE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "pieces": [
+      "MANGROVE_GRIPPERS",
+      "MANGROVE_LOCKET"
+     ]
+    },
+    {
+     "id": "HELIX_ARMOR",
+     "xp": 9,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "pieces": [
+      "HELIX_ARMOR_BOOTS",
+      "HELIX_ARMOR_CHESTPLATE",
+      "HELIX_ARMOR_HELMET",
+      "HELIX_ARMOR_LEGGINGS"
+     ],
+     "child": "FIG"
+    },
+    {
+     "id": "ROTTEN",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ROTTEN_BOOTS",
+      "ROTTEN_CHESTPLATE",
+      "ROTTEN_HELMET",
+      "ROTTEN_LEGGINGS"
+     ]
+    },
+    {
+     "id": "HEAVY",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering",
+     "pieces": [
+      "HEAVY_BOOTS",
+      "HEAVY_CHESTPLATE",
+      "HEAVY_HELMET",
+      "HEAVY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SKELETON_GRUNT",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SKELETON_GRUNT_BOOTS",
+      "SKELETON_GRUNT_CHESTPLATE",
+      "SKELETON_GRUNT_HELMET",
+      "SKELETON_GRUNT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SKELETON_MASTER",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SKELETON_MASTER_BOOTS",
+      "SKELETON_MASTER_CHESTPLATE",
+      "SKELETON_MASTER_HELMET",
+      "SKELETON_MASTER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SKELETON_SOLDIER",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SKELETON_SOLDIER_BOOTS",
+      "SKELETON_SOLDIER_CHESTPLATE",
+      "SKELETON_SOLDIER_HELMET",
+      "SKELETON_SOLDIER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SUPER_HEAVY",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SUPER_HEAVY_BOOTS",
+      "SUPER_HEAVY_CHESTPLATE",
+      "SUPER_HEAVY_HELMET",
+      "SUPER_HEAVY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ZOMBIE_SOLDIER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ZOMBIE_SOLDIER_BOOTS",
+      "ZOMBIE_SOLDIER_CHESTPLATE",
+      "ZOMBIE_SOLDIER_HELMET",
+      "ZOMBIE_SOLDIER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "BOUNCY",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "BOUNCY_BOOTS",
+      "BOUNCY_CHESTPLATE",
+      "BOUNCY_HELMET",
+      "BOUNCY_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SKELETOR",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SKELETOR_BOOTS",
+      "SKELETOR_CHESTPLATE",
+      "SKELETOR_HELMET",
+      "SKELETOR_LEGGINGS"
+     ]
+    },
+    {
+     "id": "POWER_WITHER",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "pieces": [
+      "POWER_WITHER_BOOTS",
+      "POWER_WITHER_CHESTPLATE",
+      "POWER_WITHER_HELMET",
+      "POWER_WITHER_LEGGINGS"
+     ],
+     "child": "SPEED_WITHER"
+    },
+    {
+     "id": "SPEED_WITHER",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SPEED_WITHER_BOOTS",
+      "SPEED_WITHER_CHESTPLATE",
+      "SPEED_WITHER_HELMET",
+      "SPEED_WITHER_LEGGINGS"
+     ],
+     "child": "WISE_WITHER"
+    },
+    {
+     "id": "TANK_WITHER",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "pieces": [
+      "TANK_WITHER_BOOTS",
+      "TANK_WITHER_CHESTPLATE",
+      "TANK_WITHER_HELMET",
+      "TANK_WITHER_LEGGINGS"
+     ],
+     "child": "WITHER"
+    },
+    {
+     "id": "WISE_WITHER",
+     "xp": 6,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "pieces": [
+      "WISE_WITHER_BOOTS",
+      "WISE_WITHER_CHESTPLATE",
+      "WISE_WITHER_HELMET",
+      "WISE_WITHER_LEGGINGS"
+     ],
+     "child": "TANK_WITHER"
+    },
+    {
+     "id": "ADAPTIVE",
+     "xp": 7,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ADAPTIVE_BELT",
+      "ADAPTIVE_BOOTS",
+      "ADAPTIVE_CHESTPLATE",
+      "ADAPTIVE_HELMET",
+      "ADAPTIVE_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ZOMBIE_KNIGHT",
+     "xp": 7,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ZOMBIE_KNIGHT_BOOTS",
+      "ZOMBIE_KNIGHT_CHESTPLATE",
+      "ZOMBIE_KNIGHT_HELMET",
+      "ZOMBIE_KNIGHT_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ZOMBIE_COMMANDER",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ZOMBIE_COMMANDER_BOOTS",
+      "ZOMBIE_COMMANDER_CHESTPLATE",
+      "ZOMBIE_COMMANDER_HELMET",
+      "ZOMBIE_COMMANDER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SHADOW_ASSASSIN",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SHADOW_ASSASSIN_BOOTS",
+      "SHADOW_ASSASSIN_CHESTPLATE",
+      "SHADOW_ASSASSIN_CLOAK",
+      "SHADOW_ASSASSIN_HELMET",
+      "SHADOW_ASSASSIN_LEGGINGS"
+     ]
+    },
+    {
+     "id": "SKELETON_LORD",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "SKELETON_LORD_BOOTS",
+      "SKELETON_LORD_CHESTPLATE",
+      "SKELETON_LORD_HELMET",
+      "SKELETON_LORD_LEGGINGS"
+     ]
+    },
+    {
+     "id": "WITHER",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "pieces": [
+      "WITHER_BOOTS",
+      "WITHER_CHESTPLATE",
+      "WITHER_HELMET",
+      "WITHER_LEGGINGS"
+     ]
+    },
+    {
+     "id": "ZOMBIE_LORD",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "ZOMBIE_LORD_BOOTS",
+      "ZOMBIE_LORD_CHESTPLATE",
+      "ZOMBIE_LORD_HELMET",
+      "ZOMBIE_LORD_LEGGINGS"
+     ]
+    },
+    {
+     "id": "NECROMANCER_LORD",
+     "xp": 12,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "pieces": [
+      "NECROMANCER_LORD_BOOTS",
+      "NECROMANCER_LORD_CHESTPLATE",
+      "NECROMANCER_LORD_HELMET",
+      "NECROMANCER_LORD_LEGGINGS"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "farming",
+   "name": "Farming",
+   "icon": "GOLDEN_HOE",
+   "entries": [
+    {
+     "id": "BASIC_CHICKEN_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_COW_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_MUSHROOM_COW_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_PIG_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_RABBIT_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_SHEEP_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "CHICKEN_HEAD",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "ROOKIE_FARMING_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "ROOKIE_HOE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_GARDENING_AXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "BASIC_GARDENING_HOE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "CHICKEN_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_CHICKEN_AXE"
+    },
+    {
+     "id": "COW_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_COW_AXE"
+    },
+    {
+     "id": "GARDEN_SCYTHE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "child": "SAM_SCYTHE"
+    },
+    {
+     "id": "HOE_OF_GREAT_TILLING",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "HYDRO_CAN_1000",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "HYDRO_CAN_TURBO_2000",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "child": "HYDRO_CAN_1000"
+    },
+    {
+     "id": "MUSHROOM_COW_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_MUSHROOM_COW_AXE"
+    },
+    {
+     "id": "PIG_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_PIG_AXE"
+    },
+    {
+     "id": "PLANT_DIAGNOSTICS_TOOL",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "RABBIT_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_RABBIT_AXE"
+    },
+    {
+     "id": "SAM_SCYTHE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "SHEEP_AXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "BASIC_SHEEP_AXE"
+    },
+    {
+     "id": "SKYMART_TURBO_VACUUM",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "child": "SKYMART_VACUUM"
+    },
+    {
+     "id": "SKYMART_VACUUM",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "SPRAYONATOR",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "ADVANCED_GARDENING_AXE",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "child": "BASIC_GARDENING_AXE"
+    },
+    {
+     "id": "ADVANCED_GARDENING_HOE",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "farming",
+     "child": "BASIC_GARDENING_HOE"
+    },
+    {
+     "id": "ENCHANTED_JACK_O_LANTERN",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "HOE_OF_GREATER_TILLING",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "HOE_OF_GREAT_TILLING"
+    },
+    {
+     "id": "SPORE_HARVESTER",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "farming"
+    },
+    {
+     "id": "SUNFLOWER_HEAD",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "farming"
+    },
+    {
+     "id": "THORNLEAF_SCYTHE",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "farming"
+    },
+    {
+     "id": "CACTUS_KNIFE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "COCO_CHOPPER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "FARMER_BOOTS",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "FUNGI_CUTTER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "HOE_OF_GREATEST_TILLING",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "HOE_OF_GREATER_TILLING"
+    },
+    {
+     "id": "HYDRO_CAN_ULTRA_3000",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "HYDRO_CAN_TURBO_2000"
+    },
+    {
+     "id": "JUICY_SPRAYONATOR",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "SPRAYONATOR"
+    },
+    {
+     "id": "MELON_DICER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "MOBYS_SHEARS",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "PEST_VEST",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "PUMPKIN_DICER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "RANCHERS_BOOTS",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "FARMER_BOOTS"
+    },
+    {
+     "id": "SKYMART_HYPER_VACUUM",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming",
+     "child": "SKYMART_TURBO_VACUUM"
+    },
+    {
+     "id": "THEORETICAL_HOE_CANE_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_CARROT_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_POTATO_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_SUNFLOWER_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_WARTS_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_WHEAT_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "THEORETICAL_HOE_WILD_ROSE_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "farming"
+    },
+    {
+     "id": "CACTUS_KNIFE_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "CACTUS_KNIFE"
+    },
+    {
+     "id": "COCO_CHOPPER_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "COCO_CHOPPER"
+    },
+    {
+     "id": "FUNGI_CUTTER_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "FUNGI_CUTTER"
+    },
+    {
+     "id": "MELON_DICER_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "MELON_DICER"
+    },
+    {
+     "id": "PUMPKIN_DICER_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "PUMPKIN_DICER"
+    },
+    {
+     "id": "THEORETICAL_HOE_CANE_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_CANE_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_CARROT_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_CARROT_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_POTATO_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_POTATO_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_SUNFLOWER_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_SUNFLOWER_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_WARTS_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WARTS_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_WHEAT_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WHEAT_1"
+    },
+    {
+     "id": "THEORETICAL_HOE_WILD_ROSE_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WILD_ROSE_1"
+    },
+    {
+     "id": "AQUAMASTER_X",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "HYDRO_CAN_ULTRA_3000"
+    },
+    {
+     "id": "INFINI_VACUUM",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "farming",
+     "child": "SKYMART_HYPER_VACUUM"
+    },
+    {
+     "id": "SQUEAKY_MOUSEMAT",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "farming"
+    },
+    {
+     "id": "AQUAMASTER_HYDROMAX",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "AQUAMASTER_X"
+    },
+    {
+     "id": "CACTUS_KNIFE_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "CACTUS_KNIFE_2"
+    },
+    {
+     "id": "COCO_CHOPPER_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "COCO_CHOPPER_2"
+    },
+    {
+     "id": "FUNGI_CUTTER_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "FUNGI_CUTTER_2"
+    },
+    {
+     "id": "INFINI_VACUUM_HOOVERIUS",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "INFINI_VACUUM"
+    },
+    {
+     "id": "MELON_DICER_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "MELON_DICER_2"
+    },
+    {
+     "id": "PUMPKIN_DICER_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "PUMPKIN_DICER_2"
+    },
+    {
+     "id": "SALTY_SPRAYONATOR",
+     "xp": 8,
+     "stage": "PROFESSIONAL",
+     "skill": "farming",
+     "child": "JUICY_SPRAYONATOR"
+    },
+    {
+     "id": "THEORETICAL_HOE_CANE_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_CANE_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_CARROT_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_CARROT_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_POTATO_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_POTATO_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_SUNFLOWER_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_SUNFLOWER_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_WARTS_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WARTS_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_WHEAT_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WHEAT_2"
+    },
+    {
+     "id": "THEORETICAL_HOE_WILD_ROSE_3",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "farming",
+     "child": "THEORETICAL_HOE_WILD_ROSE_2"
+    },
+    {
+     "id": "ZORROS_CAPE",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "farming"
+    }
+   ]
+  },
+  {
+   "id": "mining",
+   "name": "Mining",
+   "icon": "IRON_PICKAXE",
+   "entries": [
+    {
+     "id": "FLINT_SHOVEL",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "mining"
+    },
+    {
+     "id": "GOLEM_HAT",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "mining"
+    },
+    {
+     "id": "LANTERN",
+     "xp": 1,
+     "stage": "AMATEUR",
+     "skill": "mining"
+    },
+    {
+     "id": "PROMISING_SPADE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "mining"
+    },
+    {
+     "id": "BANDAGED_MITHRIL_PICKAXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "mining",
+     "child": "FRACTURED_MITHRIL_PICKAXE"
+    },
+    {
+     "id": "FALLEN_STAR_TRACKER",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "mining"
+    },
+    {
+     "id": "FRACTURED_MITHRIL_PICKAXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "mining"
+    },
+    {
+     "id": "LAPIS_PICKAXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "mining"
+    },
+    {
+     "id": "MITHRIL_PICKAXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "child": "BANDAGED_MITHRIL_PICKAXE"
+    },
+    {
+     "id": "PROMISING_PICKAXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "mining"
+    },
+    {
+     "id": "ROOKIE_PICKAXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "mining"
+    },
+    {
+     "id": "RUSTY_TITANIUM_PICKAXE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "ZOMBIE_PICKAXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "mining"
+    },
+    {
+     "id": "ARMADILLO_MASK",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "FALLEN_STAR_HAT",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "JUNGLE_PICKAXE",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "mining"
+    },
+    {
+     "id": "MITHRIL_LANTERN",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "child": "LANTERN"
+    },
+    {
+     "id": "REFINED_MITHRIL_PICKAXE",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "child": "MITHRIL_PICKAXE"
+    },
+    {
+     "id": "STARFALL_SEASONING",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "STONK_PICKAXE",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "TITANIUM_PICKAXE",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "child": "RUSTY_TITANIUM_PICKAXE"
+    },
+    {
+     "id": "GEMSTONE_DRILL_1",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "GOBLIN_OMELETTE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "MITHRIL_DRILL_ENGINE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "REFINED_TITANIUM_PICKAXE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "mining",
+     "child": "TITANIUM_PICKAXE"
+    },
+    {
+     "id": "GEMSTONE_DRILL_2",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "GEMSTONE_DRILL_1"
+    },
+    {
+     "id": "MITHRIL_FUEL_TANK",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "mining"
+    },
+    {
+     "id": "TITANIUM_LANTERN",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "MITHRIL_LANTERN"
+    },
+    {
+     "id": "GOBLIN_OMELETTE_PESTO",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "GOBLIN_OMELETTE"
+    },
+    {
+     "id": "GOBLIN_OMELETTE_SUNNY_SIDE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "mining"
+    },
+    {
+     "id": "MITHRIL_DRILL_1",
+     "xp": 6,
+     "stage": "INTERMEDIATE",
+     "skill": "mining"
+    },
+    {
+     "id": "ROYAL_PIGEON",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "mining"
+    },
+    {
+     "id": "TITANIUM_DRILL_ENGINE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "MITHRIL_DRILL_ENGINE"
+    },
+    {
+     "id": "ENCHANTED_TIME_CLOCK",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "mining"
+    },
+    {
+     "id": "GEMSTONE_DRILL_3",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "GEMSTONE_DRILL_2"
+    },
+    {
+     "id": "TITANIUM_FUEL_TANK",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "child": "MITHRIL_FUEL_TANK"
+    },
+    {
+     "id": "GEMSTONE_GAUNTLET",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "mining"
+    },
+    {
+     "id": "GLACITE_LANTERN",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "child": "TITANIUM_LANTERN"
+    },
+    {
+     "id": "GOBLIN_OMELETTE_SPICY",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "mining"
+    },
+    {
+     "id": "REINFORCED_CHISEL",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "mining"
+    },
+    {
+     "id": "RUBY_POLISHED_DRILL_ENGINE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "child": "TITANIUM_DRILL_ENGINE"
+    },
+    {
+     "id": "DWARVEN_HANDWARMERS",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "mining"
+    },
+    {
+     "id": "GEMSTONE_DRILL_4",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "child": "GEMSTONE_DRILL_3"
+    },
+    {
+     "id": "GEMSTONE_FUEL_TANK",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "child": "TITANIUM_FUEL_TANK"
+    },
+    {
+     "id": "GLACITE_CHISEL",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "child": "REINFORCED_CHISEL"
+    },
+    {
+     "id": "MITHRIL_DRILL_2",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "MITHRIL_DRILL_1"
+    },
+    {
+     "id": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "child": "RUBY_POLISHED_DRILL_ENGINE"
+    },
+    {
+     "id": "TITANIUM_DRILL_1",
+     "xp": 10,
+     "stage": "SKILLED",
+     "skill": "mining"
+    },
+    {
+     "id": "TUNGSTEN_KEYCHAIN",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "mining"
+    },
+    {
+     "id": "AMBER_POLISHED_DRILL_ENGINE",
+     "xp": 15,
+     "stage": "MASTER",
+     "skill": "mining",
+     "child": "SAPPHIRE_POLISHED_DRILL_ENGINE"
+    },
+    {
+     "id": "GOBLIN_OMELETTE_BLUE_CHEESE",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "mining"
+    },
+    {
+     "id": "PERFECTLY_CUT_FUEL_TANK",
+     "xp": 15,
+     "stage": "MASTER",
+     "skill": "mining",
+     "child": "GEMSTONE_FUEL_TANK"
+    },
+    {
+     "id": "PERFECT_CHISEL",
+     "xp": 15,
+     "stage": "MASTER",
+     "skill": "mining",
+     "child": "GLACITE_CHISEL"
+    },
+    {
+     "id": "TITANIUM_DRILL_2",
+     "xp": 15,
+     "stage": "SKILLED",
+     "skill": "mining",
+     "child": "TITANIUM_DRILL_1"
+    },
+    {
+     "id": "TITANIUM_DRILL_3",
+     "xp": 15,
+     "stage": "EXPERT",
+     "skill": "mining",
+     "child": "TITANIUM_DRILL_2"
+    },
+    {
+     "id": "WILL_O_WISP",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "child": "GLACITE_LANTERN"
+    },
+    {
+     "id": "TITANIUM_DRILL_4",
+     "xp": 20,
+     "stage": "PROFESSIONAL",
+     "skill": "mining",
+     "child": "TITANIUM_DRILL_3"
+    },
+    {
+     "id": "DIVAN_DRILL",
+     "xp": 25,
+     "stage": "MASTER",
+     "skill": "mining",
+     "child": "TITANIUM_DRILL_4"
+    }
+   ]
+  },
+  {
+   "id": "fishing",
+   "name": "Fishing",
+   "icon": "FISHING_ROD",
+   "entries": [
+    {
+     "id": "FISH_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "SALMON_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "SQUID_HAT",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "CHALLENGE_ROD",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "COMMON_HOOK",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "FESTIVE_SINKER",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "FROGGLES",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "HOTSPOT_RADAR",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "fishing"
+    },
+    {
+     "id": "JUNK_SINKER",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "MUSIC_PANTS",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "PRISMARINE_SINKER",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "SALMON_MASK",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "fishing"
+    },
+    {
+     "id": "SPONGE_SINKER",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "SQUID_BOOTS",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "CHAMP_ROD",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "child": "CHALLENGE_ROD"
+    },
+    {
+     "id": "CHUM_SINKER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "ICY_SINKER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "LUMINOUS_BRACELET",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "fishing"
+    },
+    {
+     "id": "RED_SWEATER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "SPEEDY_LINE",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "STINGY_SINKER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "TOTEM_OF_CORRUPTION",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "FROGGLES_SILVER",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "child": "FROGGLES"
+    },
+    {
+     "id": "LOTUS_SINKER",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "STARTER_LAVA_ROD",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "WATER_HYDRA_HEAD",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "fishing"
+    },
+    {
+     "id": "LEGEND_ROD",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "child": "CHAMP_ROD"
+    },
+    {
+     "id": "PHANTOM_HOOK",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "FROGGLES_GOLD",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "fishing",
+     "child": "FROGGLES_SILVER"
+    },
+    {
+     "id": "HOTSPOT_HOOK",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "HOTSPOT_SINKER",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "MAGMA_ROD",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "POLISHED_TOPAZ_ROD",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "PUDDLE_JUMPER_HOOK",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "TREASURE_HOOK",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "TROPHY_LINE",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "UMBERELLA",
+     "xp": 6,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "SHREDDED_LINE",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "fishing"
+    },
+    {
+     "id": "ROD_OF_THE_SEA",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "child": "LEGEND_ROD"
+    },
+    {
+     "id": "TERA_SHELL_NECKLACE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "TITAN_LINE",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "fishing"
+    },
+    {
+     "id": "FROGGLES_DIAMOND",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "child": "FROGGLES_GOLD"
+    },
+    {
+     "id": "INFERNO_ROD",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "fishing",
+     "child": "MAGMA_ROD"
+    },
+    {
+     "id": "TIKI_MASK",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "fishing"
+    },
+    {
+     "id": "HELLFIRE_ROD",
+     "xp": 20,
+     "stage": "PROFESSIONAL",
+     "skill": "fishing",
+     "child": "INFERNO_ROD"
+    }
+   ]
+  },
+  {
+   "id": "foraging",
+   "name": "Foraging",
+   "icon": "JUNGLE_SAPLING",
+   "entries": [
+    {
+     "id": "EFFICIENT_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "PROMISING_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "ROOKIE_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "SERIOUSLY_DAMAGED_AXE",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "TINY_SCAFFOLDING",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "DECENT_AXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "foraging",
+     "child": "SERIOUSLY_DAMAGED_AXE"
+    },
+    {
+     "id": "FIG_AXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "foraging"
+    },
+    {
+     "id": "JUNGLE_AXE",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "foraging"
+    },
+    {
+     "id": "MEDIUM_SCAFFOLDING",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "foraging",
+     "child": "TINY_SCAFFOLDING"
+    },
+    {
+     "id": "SCULPTORS_AXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "SWEET_AXE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "foraging"
+    },
+    {
+     "id": "BEE_MASK",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "foraging"
+    },
+    {
+     "id": "FROG_MASK",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "foraging"
+    },
+    {
+     "id": "LARGE_SCAFFOLDING",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "foraging",
+     "child": "MEDIUM_SCAFFOLDING"
+    },
+    {
+     "id": "TREECAPITATOR_AXE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "foraging",
+     "child": "JUNGLE_AXE"
+    },
+    {
+     "id": "FIGSTONE_AXE",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "foraging",
+     "child": "FIG_AXE"
+    },
+    {
+     "id": "MANGROVE_VINE",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "foraging"
+    },
+    {
+     "id": "HELIX_CHOPPER",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "child": "FIGSTONE_AXE"
+    },
+    {
+     "id": "TORRHUS_BELT",
+     "xp": 8,
+     "stage": "PROFESSIONAL",
+     "skill": "foraging",
+     "child": "MANGROVE_VINE"
+    },
+    {
+     "id": "VEILSHROOM_BRACELET",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "foraging",
+     "child": "MANGROVE"
+    }
+   ]
+  },
+  {
+   "id": "dungeoneering",
+   "name": "Dungeoneering",
+   "icon": "SKELETON_SKULL",
+   "entries": [
+    {
+     "id": "CLEAVER",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "DUNGEON_STONE",
+     "xp": 1,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "CRYPT_DREADLORD_SWORD",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "DARK_GOGGLES",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "HYPER_CLEAVER",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "SUPER_CLEAVER"
+    },
+    {
+     "id": "MENDER_FEDORA",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "MENDER_HELMET"
+    },
+    {
+     "id": "MENDER_HELMET",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "METAL_CHESTPLATE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "STONE_CHESTPLATE"
+    },
+    {
+     "id": "SHADOW_GOGGLES",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "DARK_GOGGLES"
+    },
+    {
+     "id": "SNIPER_BOW",
+     "xp": 2,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "STONE_CHESTPLATE",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SUPER_CLEAVER",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "CLEAVER"
+    },
+    {
+     "id": "SUPER_UNDEAD_BOW",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering",
+     "child": "UNDEAD_BOW"
+    },
+    {
+     "id": "UNDEAD_BOW",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "CONJURING_SWORD",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "CRYPT_BOW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "DEATH_BOW",
+     "xp": 3,
+     "stage": "EXPERT",
+     "skill": "dungeoneering",
+     "child": "SUPER_UNDEAD_BOW"
+    },
+    {
+     "id": "GIANT_CLEAVER",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "child": "HYPER_CLEAVER"
+    },
+    {
+     "id": "MACHINE_GUN_BOW",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SECRET_TRACKER",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SNIPER_HELMET",
+     "xp": 3,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "ZOMBIE_COMMANDER_WHIP",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "ZOMBIE_KNIGHT_SWORD",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "ZOMBIE_SOLDIER_CUTLASS",
+     "xp": 3,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "BALLOON_SNAKE",
+     "xp": 4,
+     "stage": "AMATEUR",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "BONZO_MASK",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "EARTH_SHARD",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SILENT_DEATH",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "ASTRAEA",
+     "xp": 5,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "NECRON_BLADE"
+    },
+    {
+     "id": "BONZO_STAFF",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "FEL_SWORD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_BONZO_HEAD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_LIVID_HEAD",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_NECRON_HEAD",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_PROFESSOR_HEAD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_SADAN_HEAD",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_SCARF_HEAD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "GOLD_THORN_HEAD",
+     "xp": 5,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "HYPERION",
+     "xp": 5,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "VALKYRIE"
+    },
+    {
+     "id": "SCYLLA",
+     "xp": 5,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "ASTRAEA"
+    },
+    {
+     "id": "STONE_BLADE",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "THORNS_BOOTS",
+     "xp": 5,
+     "stage": "INTERMEDIATE",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "VALKYRIE",
+     "xp": 5,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "SCYLLA"
+    },
+    {
+     "id": "BONE_NECKLACE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "FLOWER_OF_TRUTH",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "LIVID_DAGGER",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "MENDER_CROWN",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "child": "MENDER_FEDORA"
+    },
+    {
+     "id": "SOULWEAVER_GLOVES",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "STEEL_CHESTPLATE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "child": "METAL_CHESTPLATE"
+    },
+    {
+     "id": "WITHER_GOGGLES",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "child": "SHADOW_GOGGLES"
+    },
+    {
+     "id": "NECROMANCER_SWORD",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SPIRIT_SWORD",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "WITHER_CLOAK",
+     "xp": 7,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "BAT_WAND",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "BONE_BOOMERANG",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "BONE_REAVER",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering",
+     "child": "SPIRIT_SWORD"
+    },
+    {
+     "id": "BOUQUET_OF_LIES",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "dungeoneering",
+     "child": "FLOWER_OF_TRUTH"
+    },
+    {
+     "id": "DUNGEONBREAKER",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "FELTHORN_REAPER",
+     "xp": 8,
+     "stage": "EXPERT",
+     "skill": "dungeoneering",
+     "child": "BONE_REAVER"
+    },
+    {
+     "id": "ICE_SPRAY_WAND",
+     "xp": 8,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "ITEM_SPIRIT_BOW",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "LAST_BREATH",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SHADOW_FURY",
+     "xp": 8,
+     "stage": "SKILLED",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "DIAMOND_BONZO_HEAD",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "child": "GOLD_BONZO_HEAD"
+    },
+    {
+     "id": "DIAMOND_LIVID_HEAD",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "GOLD_LIVID_HEAD"
+    },
+    {
+     "id": "DIAMOND_NECRON_HEAD",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "GOLD_NECRON_HEAD"
+    },
+    {
+     "id": "DIAMOND_PROFESSOR_HEAD",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "child": "GOLD_PROFESSOR_HEAD"
+    },
+    {
+     "id": "DIAMOND_SADAN_HEAD",
+     "xp": 10,
+     "stage": "MASTER",
+     "skill": "dungeoneering",
+     "child": "GOLD_SADAN_HEAD"
+    },
+    {
+     "id": "DIAMOND_SCARF_HEAD",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "child": "GOLD_SCARF_HEAD"
+    },
+    {
+     "id": "DIAMOND_THORN_HEAD",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering",
+     "child": "GOLD_THORN_HEAD"
+    },
+    {
+     "id": "GIANTS_SWORD",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "INFINITE_SPIRIT_LEAP",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "INFINITE_SUPERBOOM_TNT",
+     "xp": 10,
+     "stage": "PROFESSIONAL",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "SPIRIT_MASK",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "PRECURSOR_EYE",
+     "xp": 12,
+     "stage": "EXPERT",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "NECRON_BLADE",
+     "xp": 20,
+     "stage": "MASTER",
+     "skill": "dungeoneering"
+    },
+    {
+     "id": "DARK_CLAYMORE",
+     "xp": 30,
+     "stage": "MASTER",
+     "skill": "dungeoneering"
+    }
+   ]
+  },
+  {
+   "id": "hunting",
+   "name": "Hunting",
+   "icon": "LEAD",
+   "entries": [
+    {
+     "id": "ABYSMAL_LASSO",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "BASIC_FISHING_NET",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "RETIA_BASICA",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "VENATOR_GENESIS",
+     "xp": 1,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "DAVIDS_CLOAK",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "MEDIUM_FISHING_NET",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "hunting",
+     "child": "BASIC_FISHING_NET"
+    },
+    {
+     "id": "RETIA_MELIORA",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "hunting",
+     "child": "RETIA_BASICA"
+    },
+    {
+     "id": "SAFARI_BELT",
+     "xp": 2,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting"
+    },
+    {
+     "id": "SILVA_DOMINUS",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "hunting",
+     "child": "VENATOR_GENESIS"
+    },
+    {
+     "id": "SMALL_POCKET_BLACK_HOLE",
+     "xp": 2,
+     "stage": "STARTER",
+     "skill": "hunting"
+    },
+    {
+     "id": "VINERIP_LASSO",
+     "xp": 2,
+     "stage": "AMATEUR",
+     "skill": "hunting",
+     "child": "ABYSMAL_LASSO"
+    },
+    {
+     "id": "RETIA_ROBUSTA",
+     "xp": 3,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting",
+     "child": "RETIA_MELIORA"
+    },
+    {
+     "id": "CURSUS_FERAE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting",
+     "child": "SILVA_DOMINUS"
+    },
+    {
+     "id": "ENTANGLER_LASSO",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting",
+     "child": "VINERIP_LASSO"
+    },
+    {
+     "id": "MEDIUM_POCKET_BLACK_HOLE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting",
+     "child": "SMALL_POCKET_BLACK_HOLE"
+    },
+    {
+     "id": "PELT_BELT",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting"
+    },
+    {
+     "id": "RETIA_FORTA",
+     "xp": 4,
+     "stage": "SKILLED",
+     "skill": "hunting",
+     "child": "RETIA_ROBUSTA"
+    },
+    {
+     "id": "TALBOTS_THEODOLITE",
+     "xp": 4,
+     "stage": "INTERMEDIATE",
+     "skill": "hunting"
+    },
+    {
+     "id": "RETIA_SUPREMA",
+     "xp": 5,
+     "stage": "EXPERT",
+     "skill": "hunting",
+     "child": "RETIA_FORTA"
+    },
+    {
+     "id": "LARGE_POCKET_BLACK_HOLE",
+     "xp": 6,
+     "stage": "SKILLED",
+     "skill": "hunting",
+     "child": "MEDIUM_POCKET_BLACK_HOLE"
+    },
+    {
+     "id": "TURBO_FISHING_NET",
+     "xp": 7,
+     "stage": "SKILLED",
+     "skill": "hunting",
+     "child": "MEDIUM_FISHING_NET"
+    },
+    {
+     "id": "APEX_PRAEDATOR",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "hunting",
+     "child": "CURSUS_FERAE"
+    },
+    {
+     "id": "EVERSTRETCH_LASSO",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "hunting",
+     "child": "ENTANGLER_LASSO"
+    },
+    {
+     "id": "GIGANTIC_FISHING_NET",
+     "xp": 10,
+     "stage": "EXPERT",
+     "skill": "hunting",
+     "child": "TURBO_FISHING_NET"
+    },
+    {
+     "id": "NEX_TITANUM",
+     "xp": 15,
+     "stage": "PROFESSIONAL",
+     "skill": "hunting",
+     "child": "APEX_PRAEDATOR"
+    }
+   ]
+  },
+  {
+   "id": "special",
+   "name": "Special Items",
+   "icon": "CAKE",
+   "entries": [
+    {
+     "id": "AATROX_BADPHONE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "AATROX_BATPHONE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ALPHA_PICK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ANCIENT_ELEVATOR",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "APOTHEJERRY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "AQUAMARINE_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_MAGMA_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_MAGMA_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_MAGMA_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_MAGMA_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_THE_RESISTANCE_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_THE_RESISTANCE_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ARMOR_OF_THE_RESISTANCE_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ASPECT_OF_THE_JERRY_SIGNATURE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BAG_OF_CASH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BANANA_MONKEY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BASKETBALL_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BATTLE_DISC",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BAT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BEACH_BALL_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BEDROCK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BEE_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BERRY_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_ARTIFACT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_CARD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_DISPLAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_HEIRLOOM",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_RELIC",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_RING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BINGO_TALISMAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BLAZE_HAT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BONZO_STATUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BOOK_OF_STATS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BREAD_BOWL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "BUNNY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CAKE_SOUL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CANDY_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CENTURY_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CHILL_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CHILL_THE_FISH_2",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CHOCO_RABBIT_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CITRINE_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CLOWNFISH_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CLOWN_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CLUCK_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "COLLECTION_DISPLAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CORRUPTED_NETHER_STAR",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "COTTON_CANDY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CREATIVE_MIND",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "CYCLOPS_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DANTE_RING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DANTE_TALISMAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DARK_PEBBLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DCTR_SPACE_HELM",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DEAD_BUSH_OF_LOVE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DEFUSE_KIT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DETECTIVE_WALLET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DIAMOND_BARDING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DIAMOND_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DIRT_ROD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DITTO_SKIN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DITTO_SKULL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DIVAN_ALLOY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUECES_BUILDER_CLAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUNGEON_DISC_1",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUNGEON_DISC_2",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUNGEON_DISC_3",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUNGEON_DISC_4",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUNGEON_DISC_5",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "DUST_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EASTER_EGG_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EDITOR_PENCIL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EGG_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EMBER_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EMBER_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EMBER_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EMBER_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EMBER_ROD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ENDSTONE_ROSE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "END_STONE_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ENRAGER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EON_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_AQUA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_BLACK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_BROWN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_CYAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_DARK_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_EXPIRED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_GRAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_HEPHAESTUS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_MAGENTA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_ORANGE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_PINK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_PURPLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_RED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_SEVEN_SEAS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_SILVER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_STARBORN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_WHITE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EPOCH_CAKE_YELLOW",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ETERNAL_FLAME_RING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EXPERIMENT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "EXTREME_BINGO_CARD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FAIRY_FLUTE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FAIRY_WINGS_CHARM",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FAMILY_DOUBLOON",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FARMING_FOR_DUMMIES",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FESTIVE_JERRY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FESTIVE_SKELETON_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FESTIVE_ZOMBIE_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FISHY_PENGUIN_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FISH_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FISH_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FLAMEBREAKER_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FLAMEBREAKER_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FLAMEBREAKER_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FLAMEBREAKER_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FOSSIL_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "FRENCH_BREAD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GABAGOOL_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GAME_ANNIHILATOR",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GAME_BREAKER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GAME_FIXER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GENERALS_ARMOR_OF_THE_RESISTANCE_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GENERALS_ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GENERALS_ARMOR_OF_THE_RESISTANCE_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GENERALS_ARMOR_OF_THE_RESISTANCE_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GENERALS_HOPE_OF_THE_RESISTANCE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GHAST_HEAD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GHOST_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GIANT_FISHING_ROD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GIANT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GIFT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GINGERBREAD_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOD_POTION",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOD_POTION_2",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOLDEN_DANTE_STATUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOLDOR_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOLD_BARDING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOLD_CANDY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GOLD_GIFT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GORF_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_ARTIFACT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_BELT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_CLOAK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_GLOVES",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_NECKLACE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_RING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_STAFF",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_SWORD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GREAT_SPOOK_TALISMAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "GRINCH_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HAPPY_EMOJI_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HAPPY_MASK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HEADLESS_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HELIX",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HERMIT_CRAB_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "HOPE_OF_THE_RESISTANCE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ICE_CREAM_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ICE_LOLLY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "IRON_BARDING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "JASPER_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "JUNGLE_HEART",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "KILLER_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "KLOONBOAT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "LADY_BUG_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "LANTERN_OF_THE_DEAD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "LOUDMOUTH_BASS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MAGMA_BOW",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MAGMA_CUBE_HEAD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MAXOR_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MELON_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MOB_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MUMMY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "MYTH_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "NAME_TAG",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "NETHER_STAR",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "NEW_YEAR_CAKE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "NOPE_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ONYX_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "OOPS_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "OPAL_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PAINT_CARTRIDGE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PARTY_HAT_CRAB",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PARTY_HAT_CRAB_ANIMATED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PARTY_HAT_SLOTH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PARTY_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PENGUIN_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PERIDOT_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_BLACK_CAT_IVORY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_BLACK_CAT_ONYX",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_CHICKEN_BABY_CHICK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_DOLPHIN_SNUBNOSE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_DRAGON_NEON_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_DRAGON_NEON_PURPLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_DRAGON_NEON_RED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_DRAGON_PASTEL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_MONOCHROME",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_ORANGE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_PINK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_PURPLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ELEPHANT_RED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ENDERMAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ENDERMAN_SLAYER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ENDERMITE_RADIANT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_GUARDIAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_HORSE_ZOMBIE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_JERRY_GREEN_ELF",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_JERRY_RED_ELF",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_MEGALODON_BABY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_MEGALODON_BULLHEAD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_MONKEY_GOLDEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_MONKEY_GORILLA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_MONKEY_SUNGLASSES",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_RABBIT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_RABBIT_AQUAMARINE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_RABBIT_ROSE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_COOL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_DERP",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_EMBARRASSED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_LAUGH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_SMILE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_ROCK_THINKING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_AQUA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_BLACK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_BROWN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_GRAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_LIGHT_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_LIGHT_GRAY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_LIGHT_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_MAGENTA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_NEON_BLUE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_NEON_GREEN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_NEON_RED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_NEON_YELLOW",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_ORANGE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_PINK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_PURPLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_RED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_WHITE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SHEEP_YELLOW",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SILVERFISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_SILVERFISH_FOSSILIZED",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_TIGER_TWILIGHT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_WHALE_ORCA",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_WITHER",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_WOLF",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_WOLF_HENZO_DOGGO",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PET_SKIN_YETI_GROWN_UP",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PIG_MASK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PINK_BUNNY_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PINK_DONUT_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PLASTIC_SHOVEL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POLAR_BEAR_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POLISHED_PEBBLE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_BASKET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_CROWN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_RING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_SILVER_MEDAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_SPREADING",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "POTATO_TALISMAN",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PRESENT_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PRICELESS_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PROMISING_HOE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PUFFERFISH_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PUMPKIN_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "PUZZLE_CUBE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "QUALITY_MAP",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "RABBIT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "RECOMBOBULATOR_3000",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "REINDEER_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "REVENGE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "RIBBIT_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ROBOT_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ROCK_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "RUBY_CRYSTAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SALMON_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SALMON_CHESTPLATE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SALMON_HELMET",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SALMON_LEGGINGS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SANDCASTLE_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SANTA_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SCARECROW_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SEAL_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SEA_LANTERN_HAT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SECRET_BINGO_CARD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SHARK_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SHINY_ORB",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SHINY_RELIC",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SHINY_ROD",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SHRIMP_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SINGING_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SKELETON_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SKULL_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SLOTH_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOWFLAKE_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOWMAN_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOW_BELT",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOW_CLOAK",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOW_GLOVES",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SNOW_NECKLACE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SPOOKY_DISC",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SPOOKY_PIE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SPOOK_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SPRING_BOOTS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "STEW_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "STOCK_OF_STONKS",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "STORM_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SUMMONING_EYE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SUN_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SUPER_COMPACTOR_3000",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "SWAMP_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "THE_ART_OF_PEACE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "THE_ART_OF_WAR",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "THE_CAKE",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "TREE_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "TROPICAL_BIRD_1_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "TROPICAL_BIRD_2_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "UNDEAD_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "WAND_OF_RECALL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "WHITE_TIGER_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "WIKI_JOURNAL",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "WINTER_DISC",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "WORM_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ZOMBIE_EYE_PERSONALITY",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    },
+    {
+     "id": "ZOOP_THE_FISH",
+     "xp": 0,
+     "stage": "STARTER",
+     "skill": "special"
+    }
+   ]
+  }
+ ]
+}

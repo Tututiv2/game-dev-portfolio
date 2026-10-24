@@ -1,0 +1,1495 @@
+[
+ {
+  "id": "WYLD_HELMET",
+  "name": "Wildthorn Hood",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "HELMET",
+  "lore": [
+   "&7Rift Time: &a+15s",
+   "&7Intelligence: &b+10",
+   "",
+   "&7Woven from thicket vines. Each",
+   "&7monster you slay in the Rift gives",
+   "&7back &a+1s &7of Rift Time.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "killTime": 1,
+   "riftStats": {
+    "RIFT_TIME": 15,
+    "RIFT_INTELLIGENCE": 10
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyOTkxMjgyNjYwNSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM4NTkzYjkxMDU4ZmYyNGEwZjY4NDUxMzBlZDNlNDQ5NTY5Y2U5YzZiMjJmYTljZDFlZDczNjBiNTA0NWVhMyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "WYLD_CHESTPLATE",
+  "name": "Wildthorn Jerkin",
+  "material": "CHAINMAIL_CHESTPLATE",
+  "rarity": "UNCOMMON",
+  "category": "CHESTPLATE",
+  "lore": [
+   "&7Rift Time: &a+15s",
+   "",
+   "&7Scratchy, but it keeps the",
+   "&7Rift's chill off.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 15
+   }
+  }
+ },
+ {
+  "id": "WYLD_LEGGINGS",
+  "name": "Wildthorn Breeches",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "UNCOMMON",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Rift Time: &a+15s",
+   "",
+   "&7Mostly bark.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 15
+   }
+  },
+  "color": "#35B73B"
+ },
+ {
+  "id": "WYLD_BOOTS",
+  "name": "Wildthorn Treads",
+  "material": "LEATHER_BOOTS",
+  "rarity": "UNCOMMON",
+  "category": "BOOTS",
+  "lore": [
+   "&7Rift Time: &a+15s",
+   "",
+   "&7Leave no tracks in the moss.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 15
+   }
+  },
+  "color": "#154918"
+ },
+ {
+  "id": "WYLD_SWORD",
+  "name": "Wildthorn Blade",
+  "material": "WOODEN_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+2",
+   "",
+   "&7A branch that decided to",
+   "&7become a sword.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_DAMAGE": 2
+   }
+  }
+ },
+ {
+  "id": "LEECH_SWORD",
+  "name": "Leech Sword",
+  "material": "WOODEN_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+3",
+   "",
+   "&7Restores &b3 Mana &7every time",
+   "&7it hits a Rift monster.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "manaOnHit": 3,
+   "riftStats": {
+    "RIFT_DAMAGE": 3
+   }
+  }
+ },
+ {
+  "id": "TACTICIAN_MURDER_WEAPON",
+  "name": "Inspector's Exhibit A",
+  "material": "STONE_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+4",
+   "",
+   "&7Evidence from a crime that",
+   "&7has not happened yet.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_DAMAGE": 4
+   }
+  }
+ },
+ {
+  "id": "SELF_RECURSIVE_PICKAXE",
+  "name": "Looping Pickaxe",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+5",
+   "",
+   "&7A sword that remembers being",
+   "&7a pickaxe. Mines &9Living Metal",
+   "&7faster.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "livingMetal": true,
+   "riftStats": {
+    "RIFT_DAMAGE": 5
+   }
+  }
+ },
+ {
+  "id": "ANTI_SENTIENT_PICKAXE",
+  "name": "Mindless Pickaxe",
+  "material": "WOODEN_PICKAXE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+5",
+   "",
+   "&7It stopped thinking. It did",
+   "&7not stop swinging.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "livingMetal": true,
+   "riftStats": {
+    "RIFT_DAMAGE": 5
+   }
+  }
+ },
+ {
+  "id": "EON_PICKAXE",
+  "name": "Aeon Pickaxe",
+  "material": "GOLDEN_PICKAXE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+5",
+   "",
+   "&7Older than the cave it digs.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "livingMetal": true,
+   "riftStats": {
+    "RIFT_DAMAGE": 5
+   }
+  }
+ },
+ {
+  "id": "CHRONO_PICKAXE",
+  "name": "Clockwork Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+5",
+   "",
+   "&7Ticks in time with your",
+   "&7Rift Time.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "livingMetal": true,
+   "riftStats": {
+    "RIFT_DAMAGE": 5
+   }
+  }
+ },
+ {
+  "id": "SILVER_LACED_KARAMBIT",
+  "name": "Silverthread Karambit",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+5",
+   "&7Speed: &f+10",
+   "",
+   "&7Deals &c+50% &7Rift Damage to",
+   "&7vampires and their thralls.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "vampireBonus": 0.5,
+   "riftStats": {
+    "RIFT_DAMAGE": 5,
+    "RIFT_SPEED": 10
+   }
+  },
+  "requirements": [
+   "slayer:vampire:1"
+  ]
+ },
+ {
+  "id": "SILVERTWIST_KARAMBIT",
+  "name": "Silvercoil Karambit",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "lore": [
+   "&7Rift Damage: &5+6",
+   "&7Speed: &f+15",
+   "",
+   "&7Deals &c+100% &7Rift Damage to",
+   "&7vampires and their thralls.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "vampireBonus": 1.0,
+   "riftStats": {
+    "RIFT_DAMAGE": 6,
+    "RIFT_SPEED": 15
+   }
+  },
+  "requirements": [
+   "slayer:vampire:4"
+  ]
+ },
+ {
+  "id": "ASPECT_OF_THE_LEECH_1",
+  "name": "Leechstep Wand I",
+  "material": "WOODEN_SHOVEL",
+  "rarity": "UNCOMMON",
+  "category": "WAND",
+  "lore": [
+   "&7A wand that drinks the space",
+   "&7between here and there.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "blink": 5
+  },
+  "abilities": [
+   {
+    "id": "rift_leechstep",
+    "name": "Leechstep",
+    "trigger": "RIGHT_CLICK",
+    "mana": 20,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Step &a5 blocks &7ahead of you.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ASPECT_OF_THE_LEECH_2",
+  "name": "Leechstep Wand II",
+  "material": "WOODEN_SHOVEL",
+  "rarity": "RARE",
+  "category": "WAND",
+  "lore": [
+   "&7It has learned to drink more.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "blink": 7
+  },
+  "abilities": [
+   {
+    "id": "rift_leechstep",
+    "name": "Leechstep",
+    "trigger": "RIGHT_CLICK",
+    "mana": 20,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Step &a7 blocks &7ahead of you.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ASPECT_OF_THE_LEECH_3",
+  "name": "Leechstep Wand III",
+  "material": "WOODEN_SHOVEL",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "lore": [
+   "&7It drinks whole hallways.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "blink": 9
+  },
+  "abilities": [
+   {
+    "id": "rift_leechstep",
+    "name": "Leechstep",
+    "trigger": "RIGHT_CLICK",
+    "mana": 20,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Step &a9 blocks &7ahead of you.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NOT_DEADGEHOG_MASK",
+  "name": "Spineback Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "HELMET",
+  "lore": [
+   "&7Rift Time: &a+30s",
+   "&7Intelligence: &b+15",
+   "",
+   "&7The deadgehog would like it back.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 30,
+    "RIFT_INTELLIGENCE": 15
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4MTE0NTkxNDMxNSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc5YThhMGIyZmMzNDU3NmIxM2M3YWYwMjA3OTA3NGY3NWUyNmJiNDkyNDRlZWE1ZTg4NDFmMGIxM2ZhN2YwNjIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "AGARICUS_CAP_CAP",
+  "name": "Mushroom Cap Cap",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "lore": [
+   "&7Rift Time: &a+50s",
+   "&7Intelligence: &b+15",
+   "",
+   "&7A cap made of caps.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 50,
+    "RIFT_INTELLIGENCE": 15
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2NjAwMjI2MjUyMywKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4NDQ2ZDQ5ZTJmZTQ1MzM3Yzg1ODc1NzQzN2YwNDg2OTlhMGRmMzUxMDUxODdhMTk3NDEyMmVhZTliZjdlY2MiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "DETRANSFIGURED_MASK",
+  "name": "Borrowed Face",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "lore": [
+   "&7Rift Time: &a+80s",
+   "&7Intelligence: &b+20",
+   "",
+   "&7Someone in the Plaza is looking",
+   "&7for this.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 80,
+    "RIFT_INTELLIGENCE": 20
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODcxMTcxODc5MCwKICAicHJvZmlsZUlkIiA6ICI3ZDJhY2YzOGQ3YTQ0YjU0YTliMGNkYTZhNzk1YmNmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb3VuY2luZXNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFiNmJiOGVjNjMyNTYyYjUxMzMwMGNiOTQxM2Q3Zjc5NzQ2NzFlNjdhYWFmMjBkZWQxZjM3ZDhjMWM1MGI4OGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "ETALPTSEHC_NORI",
+  "name": "etalptsehC deppilF",
+  "material": "IRON_CHESTPLATE",
+  "rarity": "RARE",
+  "category": "CHESTPLATE",
+  "lore": [
+   "&7Rift Time: &a+30s",
+   "",
+   "&7.sdrawkcab no ti tup uoY",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 30
+   }
+  }
+ },
+ {
+  "id": "ORANGE_CHESTPLATE",
+  "name": "Carrot Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "lore": [
+   "&7Rift Time: &a+45s",
+   "&7Intelligence: &b+5",
+   "&7Mana Regen: &b+10%",
+   "",
+   "&7Rabbits will not stop staring.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 45,
+    "RIFT_INTELLIGENCE": 5,
+    "RIFT_MANA_REGEN": 10
+   }
+  },
+  "color": "#FF4600"
+ },
+ {
+  "id": "CHICKEN_LEGGS",
+  "name": "Hen Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "RARE",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Rift Time: &a+35s",
+   "",
+   "&7Farmer Wilma's thanks, sewn",
+   "&7from her best feathers.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 35
+   }
+  },
+  "color": "#FFF200"
+ },
+ {
+  "id": "FEMURGROWTH_LEGGINGS",
+  "name": "Bonegrowth Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Rift Time: &a+65s",
+   "&7Speed: &f-4",
+   "&7Mana Regen: &b+5%",
+   "",
+   "&7Heavy, but the Rift lasts longer",
+   "&7in them.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 65,
+    "RIFT_MANA_REGEN": 5,
+    "RIFT_SPEED": -4
+   }
+  },
+  "color": "#48FF00"
+ },
+ {
+  "id": "GUNTHER_SNEAKERS",
+  "name": "Racer's Sneakers",
+  "material": "LEATHER_BOOTS",
+  "rarity": "RARE",
+  "category": "BOOTS",
+  "lore": [
+   "&7Rift Time: &a+30s",
+   "&7Speed: &f+4",
+   "",
+   "&7Earned by beating the West Village",
+   "&7race in under a minute.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 30,
+    "RIFT_SPEED": 4
+   }
+  },
+  "color": "#4F2886"
+ },
+ {
+  "id": "EXCEEDINGLY_COMFY_SNEAKERS",
+  "name": "Cloudstep Sneakers",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "lore": [
+   "&7Rift Time: &a+45s",
+   "&7Speed: &f+5",
+   "",
+   "&7Like walking on Rift fog.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 45,
+    "RIFT_SPEED": 5
+   }
+  },
+  "color": "#380024"
+ },
+ {
+  "id": "SNAKE_IN_A_BOOT",
+  "name": "Serpent Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "lore": [
+   "&7Rift Time: &a+60s",
+   "&7Speed: &f+7",
+   "",
+   "&7There is definitely something",
+   "&7alive in the left one.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 60,
+    "RIFT_SPEED": 7
+   }
+  },
+  "color": "#1A004C"
+ },
+ {
+  "id": "UGLY_BOOTS",
+  "name": "Hideous Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "MYTHIC",
+  "category": "BOOTS",
+  "lore": [
+   "&7Rift Time: &a+80s",
+   "&7Speed: &f+9",
+   "",
+   "&7So ugly that time itself looks",
+   "&7away and forgets to pass.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 80,
+    "RIFT_SPEED": 9
+   }
+  },
+  "color": "#3333FF"
+ },
+ {
+  "id": "BURNED_PANTS",
+  "name": "Singed Trousers",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "RARE",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Rift Time: &a-4s",
+   "",
+   "&7They cost you time to wear.",
+   "&7Nobody knows why you would.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": -4
+   }
+  },
+  "color": "#0C0C96"
+ },
+ {
+  "id": "WIZARD_FACE",
+  "name": "Archmage's Visage",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "HELMET",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+130s",
+   "&7Intelligence: &b+26",
+   "",
+   "&7The Starkeeper's prize for",
+   "&7those who reached the summit.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 130,
+    "RIFT_INTELLIGENCE": 26,
+    "RIFT_HEALTH": 1
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3OTU1NDg4NzMzMiwKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80M2I3OTdhZTAxM2QyYjg4MmRiMzE2MzQ2NWI5MTJmMDNkNTdjODJkNDRkZjA0ODZkZjAzMmU3YmFiODY0NzlhIgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "WARM_WIZARD_FACE",
+  "name": "Warm Visage",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+130s",
+   "&7Intelligence: &b+26",
+   "",
+   "&7Still warm. Do not ask.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 130,
+    "RIFT_INTELLIGENCE": 26,
+    "RIFT_HEALTH": 1
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczMzg4NTY4NDkzMywKICAicHJvZmlsZUlkIiA6ICJkMWRkMDJlOWQwN2E0YWU1YWRjYWQyYzI5YTZhYmIyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pd2lzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDk4YTEyZjMyYTAyODRiNzRmZWZiOWU5ODJhMWU5ZWMyNDg3NzY2NDcwYWExMjMwZjZmMjZmOWFhY2UzZGU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0",
+  "requirements": [
+   "slayer:vampire:1"
+  ]
+ },
+ {
+  "id": "WARM_WIZARD_FACE_2",
+  "name": "Warmer Visage",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "HELMET",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+130s",
+   "&7Intelligence: &b+26",
+   "",
+   "&7Warmer still.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 130,
+    "RIFT_INTELLIGENCE": 26,
+    "RIFT_HEALTH": 1
+   }
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczMzg4NTY4NDkzMywKICAicHJvZmlsZUlkIiA6ICJkMWRkMDJlOWQwN2E0YWU1YWRjYWQyYzI5YTZhYmIyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pd2lzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDk4YTEyZjMyYTAyODRiNzRmZWZiOWU5ODJhMWU5ZWMyNDg3NzY2NDcwYWExMjMwZjZmMjZmOWFhY2UzZGU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0",
+  "requirements": [
+   "slayer:vampire:4"
+  ]
+ },
+ {
+  "id": "WIZARDMAN_LEGGINGS",
+  "name": "Spellwright Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "MYTHIC",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+100s",
+   "&7Mana Regen: &b+8%",
+   "",
+   "&7Stitched with spare spells.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 100,
+    "RIFT_HEALTH": 1,
+    "RIFT_MANA_REGEN": 8
+   }
+  }
+ },
+ {
+  "id": "S_LOGO_CHESTPLATE",
+  "name": "Champion's Crest",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "MYTHIC",
+  "category": "CHESTPLATE",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+85s",
+   "&7Intelligence: &b+32",
+   "&7Mana Regen: &b+30%",
+   "",
+   "&7For champions of the Rift.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 85,
+    "RIFT_INTELLIGENCE": 32,
+    "RIFT_HEALTH": 1,
+    "RIFT_MANA_REGEN": 30
+   }
+  },
+  "color": "#FFD700"
+ },
+ {
+  "id": "ANTI_BITE_SCARF",
+  "name": "Fangguard Scarf",
+  "material": "RED_CARPET",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+100s",
+   "&7Intelligence: &b+20",
+   "",
+   "&7Bloodfiends find your neck far",
+   "&7less appetising.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 100,
+    "RIFT_INTELLIGENCE": 20,
+    "RIFT_HEALTH": 1
+   }
+  },
+  "requirements": [
+   "slayer:vampire:1"
+  ]
+ },
+ {
+  "id": "ANTI_BITE_SCARF_2",
+  "name": "Fangguard Scarf II",
+  "material": "RED_CARPET",
+  "rarity": "MYTHIC",
+  "category": "HELMET",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+110s",
+   "&7Intelligence: &b+22",
+   "",
+   "&7Bloodfiends refuse to even",
+   "&7look at your neck.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 110,
+    "RIFT_INTELLIGENCE": 22,
+    "RIFT_HEALTH": 1
+   }
+  },
+  "requirements": [
+   "slayer:vampire:4"
+  ]
+ },
+ {
+  "id": "LIVELY_SEPULTURE_CHESTPLATE",
+  "name": "Living Crypt Chestplate",
+  "material": "CHAINMAIL_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+65s",
+   "&7Intelligence: &b+30",
+   "&7Mana Regen: &b+25%",
+   "",
+   "&7A tomb that walks with you.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 65,
+    "RIFT_HEALTH": 1,
+    "RIFT_INTELLIGENCE": 30,
+    "RIFT_MANA_REGEN": 25
+   }
+  },
+  "requirements": [
+   "slayer:vampire:5"
+  ]
+ },
+ {
+  "id": "LEGGINGS_OF_THE_COVEN",
+  "name": "Leggings of the Circle",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "lore": [
+   "&7Hearts: &c+1❤",
+   "&7Rift Time: &a+80s",
+   "&7Mana Regen: &b+6%",
+   "",
+   "&7Worn by those who hunt the",
+   "&7hunters.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "no_reforge"
+  ],
+  "extra": {
+   "riftStats": {
+    "RIFT_TIME": 80,
+    "RIFT_HEALTH": 1,
+    "RIFT_MANA_REGEN": 6
+   }
+  },
+  "requirements": [
+   "slayer:vampire:3"
+  ]
+ },
+ {
+  "id": "HEALING_MELON",
+  "name": "Healing Melon",
+  "material": "GLISTERING_MELON_SLICE",
+  "rarity": "UNCOMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7A slice that remembers being",
+   "&7alive.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "heal": 2
+  },
+  "abilities": [
+   {
+    "id": "rift_melon",
+    "name": "Mend",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Eat to restore &c2❤ &7Hearts.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "JUICY_HEALING_MELON",
+  "name": "Juicy Healing Melon",
+  "material": "MELON",
+  "rarity": "EPIC",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Drips everywhere.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "heal": 4
+  },
+  "abilities": [
+   {
+    "id": "rift_melon",
+    "name": "Mend",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Eat to restore &c4❤ &7Hearts.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "requirements": [
+   "slayer:vampire:2"
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "LUSCIOUS_HEALING_MELON",
+  "name": "Luscious Healing Melon",
+  "material": "MELON",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Almost too good to eat.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "heal": 6
+  },
+  "abilities": [
+   {
+    "id": "rift_melon",
+    "name": "Mend",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Eat to restore &c6❤ &7Hearts.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "requirements": [
+   "slayer:vampire:4"
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "RIFT_SPEED_ELIXIR",
+  "name": "Rift Speed Elixir",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Fizzes when you shake it.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "elixir": "speed"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDA1MDI4OTA2MSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmODE1MWRlYjM5NTUzMjkyYjlhNjk2NzQ4MzJkZGE4MDAxNzgwY2E5ODE4MGEwNmVhZjliMzY4OTMwYjViYiIKICAgIH0KICB9Cn0=",
+  "abilities": [
+   {
+    "id": "rift_elixir",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Gain &f+30 ✦ Speed &7for &a2 minutes&7.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "RIFT_STRENGTH_ELIXIR",
+  "name": "Rift Might Elixir",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Tastes like iron filings.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "elixir": "damage"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTIxMzMyMDY3NSwKICAicHJvZmlsZUlkIiA6ICIzNDkxZjJiOTdjMDE0MWE2OTM2YjFjMjJhMmEwMGZiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXNzc3N1aGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEwMGM1M2NmNTdjYWNjN2Y1ZThlM2ZlODRiMmY1ZGIxMjJjZDc2ZmNlZDc4MGE5NTNiOTk2MzlmYjMxOTg4MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "abilities": [
+   {
+    "id": "rift_elixir",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Gain &5+5 Rift Damage &7for &a2 minutes&7.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "RIFT_JUMP_ELIXIR",
+  "name": "Rift Jump Elixir",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Your knees feel springy.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "elixir": "jump"
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTIxMzI3MzYzOSwKICAicHJvZmlsZUlkIiA6ICI1N2IzZGZiNWY4YTY0OWUyOGI1NDRlNGZmYzYzMjU2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWthcm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJhYzk5MjZkY2ZiNzY0MWExNjIxMjY5MTEyNmUwM2Q5NWQ2NDZhZDM0NWI3NWExOTIwNjFhMWE5MzlkODkwMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "abilities": [
+   {
+    "id": "rift_elixir",
+    "name": "Drink",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Jump much higher for &a2 minutes&7.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "HOT_DOG",
+  "name": "Hot Dog",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7From the cart in the Plaza.",
+   "&7Restores &c1❤ &7Heart.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {
+   "heal": 1
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjgwODQ2MTU5NywKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0Yzg2NjdlMWU2NzA5NTI0ZDhmNzYzZDFhZGQwNWE4NDVlNWJhMGE0ZmU5MDc2ZmUwYjU4NzE5MWVmNWMwIgogICAgfQogIH0KfQ==",
+  "abilities": [
+   {
+    "id": "rift_melon",
+    "name": "Eat",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Restore &c1❤ &7Heart.",
+     "&7Only works inside the Rift."
+    ]
+   }
+  ],
+  "maxStack": 64
+ },
+ {
+  "id": "DISCRITE",
+  "name": "Shardlite",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A crystal that only grows",
+   "&7where time pools.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "rift_transferable"
+  ],
+  "extra": {},
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzY2NjUzMzk2NywKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlYzI5MmIzYWE2NjVkNjAwMWE5OTgzMTM5NjYyMTJlYWM1NDE3ZWE5MGY4M2JhYTQ2YjQ4YTk5NDI2OThmMyIKICAgIH0KICB9Cn0=",
+  "maxStack": 64
+ },
+ {
+  "id": "SPOTLITE",
+  "name": "Glimmerlite",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Catches the light from",
+   "&7tomorrow.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift",
+   "rift_transferable"
+  ],
+  "extra": {},
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzY2NjUxOTEzNCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVmNGM1N2U3NDRhMGZlMzk1ZmIxNDVlNzQ5NmE4NWNjYzQxMjc3Mzk1NDMzYjk4YjczYzdmMjliZjU0ZGNjMzUiCiAgICB9CiAgfQp9",
+  "maxStack": 64
+ },
+ {
+  "id": "LARVA_HOOK",
+  "name": "Larva Hook",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Sticky. Very sticky.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "MIRRORED_STICK",
+  "name": "kcitS",
+  "material": "STICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7.kcits a s'tI",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "MIRRORED_STRING",
+  "name": "gnirtS",
+  "material": "STRING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7.gnirts emoS",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "MIRRORED_SLIME_BALL",
+  "name": "llabemilS",
+  "material": "SLIME_BALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7.ymils llitS",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "MIRRORED_WOOD",
+  "name": "knalP dooW",
+  "material": "OAK_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7.doow sdrawkcaB",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "MIRRORED_LEASH",
+  "name": "daeL",
+  "material": "LEAD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7.daeL",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "maxStack": 64
+ },
+ {
+  "id": "BERBERIS_BLOWGUN",
+  "name": "Berberis Blowgun",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Thorns, a hollow stem and a lot",
+   "&7of patience.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "abilities": [
+   {
+    "id": "rift_blowgun",
+    "name": "Swhooomp",
+    "trigger": "RIGHT_CLICK",
+    "mana": 5,
+    "cooldown": 0.4,
+    "lore": [
+     "&7Shoot a thorn. It does no damage, except",
+     "&7to chickens and Pufflings. Pops balloons",
+     "&7and presses buttons from afar."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "DEAD_CAT_DETECTOR",
+  "name": "Whisker Finder",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hums when a piece of Pharaoh",
+   "&7is near.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "abilities": [
+   {
+    "id": "rift_meownar",
+    "name": "Meowdar",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 9,
+    "lore": [
+     "&7Ping the &5Rift &7for the pieces of",
+     "&9Pharaoh&7's soul."
+    ]
+   }
+  ],
+  "maxStack": 1
+ },
+ {
+  "id": "TIME_GUN",
+  "name": "Timeshift Pistol",
+  "material": "DIAMOND_HORSE_ARMOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Points at rocks. Changes their",
+   "&7birthday.",
+   "",
+   "&dRift item: works only inside the Rift."
+  ],
+  "tags": [
+   "rift"
+  ],
+  "extra": {},
+  "abilities": [
+   {
+    "id": "rift_time_gun",
+    "name": "Quantum Shift",
+    "trigger": "RIGHT_CLICK",
+    "mana": 2,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Aim at &9Timite &7to make it &aYoungite&7.",
+     "&7Sneak to make it &8Obsolite &7instead.",
+     "&7It changes back after a minute."
+    ]
+   }
+  ],
+  "maxStack": 1
+ }
+]

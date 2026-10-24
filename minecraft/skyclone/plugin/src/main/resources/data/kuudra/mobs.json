@@ -1,0 +1,2557 @@
+[
+ {
+  "id": "kuudra_follower_basic",
+  "name": "Leviathan Follower",
+  "level": 100,
+  "entity": "HUSK",
+  "health": 25000,
+  "damage": 400,
+  "speed": 1.1,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "kuudra_follower",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "STONE_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "follower",
+   "tier": "basic",
+   "tokens": 4,
+   "role": "common",
+   "weight": 10,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_landmine_basic",
+  "name": "Leviathan Landmine",
+  "level": 100,
+  "entity": "MAGMA_CUBE",
+  "health": 8000,
+  "damage": 900,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "kuudra_landmine",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "kuudra_landmine"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "landmine",
+   "tier": "basic",
+   "tokens": 3,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_cube_basic",
+  "name": "Inferno Magma Cube",
+  "level": 100,
+  "entity": "MAGMA_CUBE",
+  "health": 18000,
+  "damage": 350,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "inferno_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_cube",
+   "tier": "basic",
+   "tokens": 4,
+   "role": "common",
+   "weight": 4,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_berserker_basic",
+  "name": "Leviathan Berserker",
+  "level": 100,
+  "entity": "WITHER_SKELETON",
+  "health": 40000,
+  "damage": 650,
+  "speed": 1.25,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "kuudra_berserker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "berserker",
+   "tier": "basic",
+   "tokens": 8,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 4,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_knocker_basic",
+  "name": "Leviathan Knocker",
+  "level": 100,
+  "entity": "VINDICATOR",
+  "health": 60000,
+  "damage": 500,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "kuudra_knocker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "knocker",
+   "tier": "basic",
+   "tokens": 10,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wandering_blaze_basic",
+  "name": "Wandering Blaze",
+  "level": 100,
+  "entity": "BLAZE",
+  "health": 30000,
+  "damage": 450,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "wandering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wandering_blaze",
+   "tier": "basic",
+   "tokens": 8,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blight_basic",
+  "name": "Blight",
+  "level": 100,
+  "entity": "BOGGED",
+  "health": 35000,
+  "damage": 500,
+  "speed": 1.1,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "blight",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_blight"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blight",
+   "tier": "basic",
+   "tokens": 8,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_explosive_imp_basic",
+  "name": "Explosive Imp",
+  "level": 100,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 15000,
+  "damage": 1200,
+  "speed": 1.35,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "explosive_imp",
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_imp"
+  ],
+  "equipment": {
+   "HEAD": "TNT"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "explosive_imp",
+   "tier": "basic",
+   "tokens": 5,
+   "role": "common",
+   "weight": 2,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_follower_basic",
+  "name": "Magma Follower",
+  "level": 100,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 120000,
+  "damage": 900,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 45,
+  "family": "magma_follower",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "GOLDEN_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_follower",
+   "tier": "basic",
+   "tokens": 25,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_dropship_basic",
+  "name": "Dropship",
+  "level": 100,
+  "entity": "GHAST",
+  "health": 300000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 45,
+  "family": "dropship",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "flying",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "dropship",
+   "tier": "basic",
+   "tokens": 0,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wither_sentry_basic",
+  "name": "Wither Sentry",
+  "level": 100,
+  "entity": "SKELETON",
+  "health": 80000,
+  "damage": 700,
+  "speed": 0.9,
+  "combatXp": 80,
+  "coins": 45,
+  "family": "wither_sentry",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "BOW"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wither_sentry",
+   "tier": "basic",
+   "tokens": 15,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blazing_golem_basic",
+  "name": "Blazing Golem",
+  "level": 100,
+  "entity": "IRON_GOLEM",
+  "health": 250000,
+  "damage": 1500,
+  "speed": 0.85,
+  "combatXp": 80,
+  "coins": 45,
+  "family": "blazing_golem",
+  "flags": [
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blazing_golem",
+   "tier": "basic",
+   "tokens": 35,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_slasher_basic",
+  "name": "Leviathan Slasher",
+  "level": 100,
+  "entity": "WITHER_SKELETON",
+  "health": 500000,
+  "damage": 2000,
+  "speed": 1.1,
+  "combatXp": 80,
+  "coins": 45,
+  "family": "kuudra_slasher",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD",
+   "HEAD": "NETHERITE_HELMET"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "slasher",
+   "tier": "basic",
+   "tokens": 60,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_cindermite_basic",
+  "name": "Cindermite",
+  "level": 100,
+  "entity": "ENDERMITE",
+  "health": 10000,
+  "damage": 300,
+  "speed": 1.4,
+  "combatXp": 40,
+  "coins": 15,
+  "family": "cindermite",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "cindermite",
+   "tier": "basic",
+   "tokens": 2,
+   "role": "lair",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "leviathan_basic",
+  "name": "Magma Leviathan",
+  "level": 100,
+  "entity": "MAGMA_CUBE",
+  "health": 10000000,
+  "damage": 800,
+  "speed": 1.0,
+  "combatXp": 1500,
+  "coins": 0,
+  "family": "kuudra",
+  "flags": [
+   "boss",
+   "no_ai",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_boss"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "boss",
+   "tier": "basic",
+   "size": 12,
+   "scale": 2.4,
+   "mobTypes": [
+    "magmatic"
+   ]
+  }
+ },
+ {
+  "id": "kuudra_follower_hot",
+  "name": "Leviathan Follower",
+  "level": 200,
+  "entity": "HUSK",
+  "health": 62500,
+  "damage": 640,
+  "speed": 1.1,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "kuudra_follower",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "STONE_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "follower",
+   "tier": "hot",
+   "tokens": 6,
+   "role": "common",
+   "weight": 10,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_landmine_hot",
+  "name": "Leviathan Landmine",
+  "level": 200,
+  "entity": "MAGMA_CUBE",
+  "health": 20000,
+  "damage": 1440,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "kuudra_landmine",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "kuudra_landmine"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "landmine",
+   "tier": "hot",
+   "tokens": 4,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_cube_hot",
+  "name": "Inferno Magma Cube",
+  "level": 200,
+  "entity": "MAGMA_CUBE",
+  "health": 45000,
+  "damage": 560,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "inferno_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_cube",
+   "tier": "hot",
+   "tokens": 6,
+   "role": "common",
+   "weight": 4,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_berserker_hot",
+  "name": "Leviathan Berserker",
+  "level": 200,
+  "entity": "WITHER_SKELETON",
+  "health": 100000,
+  "damage": 1040,
+  "speed": 1.25,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "kuudra_berserker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "berserker",
+   "tier": "hot",
+   "tokens": 12,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 4,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_knocker_hot",
+  "name": "Leviathan Knocker",
+  "level": 200,
+  "entity": "VINDICATOR",
+  "health": 150000,
+  "damage": 800,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "kuudra_knocker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "knocker",
+   "tier": "hot",
+   "tokens": 15,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wandering_blaze_hot",
+  "name": "Wandering Blaze",
+  "level": 200,
+  "entity": "BLAZE",
+  "health": 75000,
+  "damage": 720,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "wandering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wandering_blaze",
+   "tier": "hot",
+   "tokens": 12,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blight_hot",
+  "name": "Blight",
+  "level": 200,
+  "entity": "BOGGED",
+  "health": 87500,
+  "damage": 800,
+  "speed": 1.1,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "blight",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_blight"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blight",
+   "tier": "hot",
+   "tokens": 12,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_explosive_imp_hot",
+  "name": "Explosive Imp",
+  "level": 200,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 37500,
+  "damage": 1920,
+  "speed": 1.35,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "explosive_imp",
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_imp"
+  ],
+  "equipment": {
+   "HEAD": "TNT"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "explosive_imp",
+   "tier": "hot",
+   "tokens": 8,
+   "role": "common",
+   "weight": 2,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_follower_hot",
+  "name": "Magma Follower",
+  "level": 200,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 300000,
+  "damage": 1440,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 90,
+  "family": "magma_follower",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "GOLDEN_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_follower",
+   "tier": "hot",
+   "tokens": 38,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_dropship_hot",
+  "name": "Dropship",
+  "level": 200,
+  "entity": "GHAST",
+  "health": 750000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 90,
+  "family": "dropship",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "flying",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "dropship",
+   "tier": "hot",
+   "tokens": 0,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wither_sentry_hot",
+  "name": "Wither Sentry",
+  "level": 200,
+  "entity": "SKELETON",
+  "health": 200000,
+  "damage": 1120,
+  "speed": 0.9,
+  "combatXp": 160,
+  "coins": 90,
+  "family": "wither_sentry",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "BOW"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wither_sentry",
+   "tier": "hot",
+   "tokens": 22,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blazing_golem_hot",
+  "name": "Blazing Golem",
+  "level": 200,
+  "entity": "IRON_GOLEM",
+  "health": 625000,
+  "damage": 2400,
+  "speed": 0.85,
+  "combatXp": 160,
+  "coins": 90,
+  "family": "blazing_golem",
+  "flags": [
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blazing_golem",
+   "tier": "hot",
+   "tokens": 52,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_slasher_hot",
+  "name": "Leviathan Slasher",
+  "level": 200,
+  "entity": "WITHER_SKELETON",
+  "health": 1250000,
+  "damage": 3200,
+  "speed": 1.1,
+  "combatXp": 160,
+  "coins": 90,
+  "family": "kuudra_slasher",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD",
+   "HEAD": "NETHERITE_HELMET"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "slasher",
+   "tier": "hot",
+   "tokens": 90,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_cindermite_hot",
+  "name": "Cindermite",
+  "level": 200,
+  "entity": "ENDERMITE",
+  "health": 25000,
+  "damage": 480,
+  "speed": 1.4,
+  "combatXp": 80,
+  "coins": 30,
+  "family": "cindermite",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "cindermite",
+   "tier": "hot",
+   "tokens": 3,
+   "role": "lair",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "leviathan_hot",
+  "name": "Magma Leviathan",
+  "level": 200,
+  "entity": "MAGMA_CUBE",
+  "health": 25000000,
+  "damage": 1300,
+  "speed": 1.0,
+  "combatXp": 3000,
+  "coins": 0,
+  "family": "kuudra",
+  "flags": [
+   "boss",
+   "no_ai",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_boss"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "boss",
+   "tier": "hot",
+   "size": 12,
+   "scale": 2.4,
+   "mobTypes": [
+    "magmatic"
+   ]
+  }
+ },
+ {
+  "id": "kuudra_follower_burning",
+  "name": "Leviathan Follower",
+  "level": 300,
+  "entity": "HUSK",
+  "health": 150000,
+  "damage": 1000,
+  "speed": 1.1,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "kuudra_follower",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "STONE_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "follower",
+   "tier": "burning",
+   "tokens": 8,
+   "role": "common",
+   "weight": 10,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_landmine_burning",
+  "name": "Leviathan Landmine",
+  "level": 300,
+  "entity": "MAGMA_CUBE",
+  "health": 48000,
+  "damage": 2250,
+  "speed": 1.0,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "kuudra_landmine",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "kuudra_landmine"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "landmine",
+   "tier": "burning",
+   "tokens": 6,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_cube_burning",
+  "name": "Inferno Magma Cube",
+  "level": 300,
+  "entity": "MAGMA_CUBE",
+  "health": 108000,
+  "damage": 875,
+  "speed": 1.0,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "inferno_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_cube",
+   "tier": "burning",
+   "tokens": 8,
+   "role": "common",
+   "weight": 4,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_berserker_burning",
+  "name": "Leviathan Berserker",
+  "level": 300,
+  "entity": "WITHER_SKELETON",
+  "health": 240000,
+  "damage": 1625,
+  "speed": 1.25,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "kuudra_berserker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "berserker",
+   "tier": "burning",
+   "tokens": 16,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 4,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_knocker_burning",
+  "name": "Leviathan Knocker",
+  "level": 300,
+  "entity": "VINDICATOR",
+  "health": 360000,
+  "damage": 1250,
+  "speed": 1.0,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "kuudra_knocker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "knocker",
+   "tier": "burning",
+   "tokens": 20,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wandering_blaze_burning",
+  "name": "Wandering Blaze",
+  "level": 300,
+  "entity": "BLAZE",
+  "health": 180000,
+  "damage": 1125,
+  "speed": 1.0,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "wandering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wandering_blaze",
+   "tier": "burning",
+   "tokens": 16,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blight_burning",
+  "name": "Blight",
+  "level": 300,
+  "entity": "BOGGED",
+  "health": 210000,
+  "damage": 1250,
+  "speed": 1.1,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "blight",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_blight"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blight",
+   "tier": "burning",
+   "tokens": 16,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_explosive_imp_burning",
+  "name": "Explosive Imp",
+  "level": 300,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 90000,
+  "damage": 3000,
+  "speed": 1.35,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "explosive_imp",
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_imp"
+  ],
+  "equipment": {
+   "HEAD": "TNT"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "explosive_imp",
+   "tier": "burning",
+   "tokens": 10,
+   "role": "common",
+   "weight": 2,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_follower_burning",
+  "name": "Magma Follower",
+  "level": 300,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 720000,
+  "damage": 2250,
+  "speed": 1.0,
+  "combatXp": 240,
+  "coins": 135,
+  "family": "magma_follower",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "GOLDEN_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_follower",
+   "tier": "burning",
+   "tokens": 50,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_dropship_burning",
+  "name": "Dropship",
+  "level": 300,
+  "entity": "GHAST",
+  "health": 1800000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 240,
+  "coins": 135,
+  "family": "dropship",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "flying",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "dropship",
+   "tier": "burning",
+   "tokens": 0,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wither_sentry_burning",
+  "name": "Wither Sentry",
+  "level": 300,
+  "entity": "SKELETON",
+  "health": 480000,
+  "damage": 1750,
+  "speed": 0.9,
+  "combatXp": 240,
+  "coins": 135,
+  "family": "wither_sentry",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "BOW"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wither_sentry",
+   "tier": "burning",
+   "tokens": 30,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blazing_golem_burning",
+  "name": "Blazing Golem",
+  "level": 300,
+  "entity": "IRON_GOLEM",
+  "health": 1500000,
+  "damage": 3750,
+  "speed": 0.85,
+  "combatXp": 240,
+  "coins": 135,
+  "family": "blazing_golem",
+  "flags": [
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blazing_golem",
+   "tier": "burning",
+   "tokens": 70,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_slasher_burning",
+  "name": "Leviathan Slasher",
+  "level": 300,
+  "entity": "WITHER_SKELETON",
+  "health": 3000000,
+  "damage": 5000,
+  "speed": 1.1,
+  "combatXp": 240,
+  "coins": 135,
+  "family": "kuudra_slasher",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD",
+   "HEAD": "NETHERITE_HELMET"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "slasher",
+   "tier": "burning",
+   "tokens": 120,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_cindermite_burning",
+  "name": "Cindermite",
+  "level": 300,
+  "entity": "ENDERMITE",
+  "health": 60000,
+  "damage": 750,
+  "speed": 1.4,
+  "combatXp": 120,
+  "coins": 45,
+  "family": "cindermite",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "cindermite",
+   "tier": "burning",
+   "tokens": 4,
+   "role": "lair",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "leviathan_burning",
+  "name": "Magma Leviathan",
+  "level": 300,
+  "entity": "MAGMA_CUBE",
+  "health": 60000000,
+  "damage": 2000,
+  "speed": 1.0,
+  "combatXp": 6000,
+  "coins": 0,
+  "family": "kuudra",
+  "flags": [
+   "boss",
+   "no_ai",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_boss"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "boss",
+   "tier": "burning",
+   "size": 12,
+   "scale": 2.4,
+   "mobTypes": [
+    "magmatic"
+   ]
+  }
+ },
+ {
+  "id": "kuudra_follower_fiery",
+  "name": "Leviathan Follower",
+  "level": 400,
+  "entity": "HUSK",
+  "health": 375000,
+  "damage": 1600,
+  "speed": 1.1,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "kuudra_follower",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "STONE_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "follower",
+   "tier": "fiery",
+   "tokens": 10,
+   "role": "common",
+   "weight": 10,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_landmine_fiery",
+  "name": "Leviathan Landmine",
+  "level": 400,
+  "entity": "MAGMA_CUBE",
+  "health": 120000,
+  "damage": 3600,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "kuudra_landmine",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "kuudra_landmine"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "landmine",
+   "tier": "fiery",
+   "tokens": 8,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_cube_fiery",
+  "name": "Inferno Magma Cube",
+  "level": 400,
+  "entity": "MAGMA_CUBE",
+  "health": 270000,
+  "damage": 1400,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "inferno_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_cube",
+   "tier": "fiery",
+   "tokens": 10,
+   "role": "common",
+   "weight": 4,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_berserker_fiery",
+  "name": "Leviathan Berserker",
+  "level": 400,
+  "entity": "WITHER_SKELETON",
+  "health": 600000,
+  "damage": 2600,
+  "speed": 1.25,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "kuudra_berserker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "berserker",
+   "tier": "fiery",
+   "tokens": 20,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 4,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_knocker_fiery",
+  "name": "Leviathan Knocker",
+  "level": 400,
+  "entity": "VINDICATOR",
+  "health": 900000,
+  "damage": 2000,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "kuudra_knocker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "knocker",
+   "tier": "fiery",
+   "tokens": 25,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wandering_blaze_fiery",
+  "name": "Wandering Blaze",
+  "level": 400,
+  "entity": "BLAZE",
+  "health": 450000,
+  "damage": 1800,
+  "speed": 1.0,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "wandering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wandering_blaze",
+   "tier": "fiery",
+   "tokens": 20,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blight_fiery",
+  "name": "Blight",
+  "level": 400,
+  "entity": "BOGGED",
+  "health": 525000,
+  "damage": 2000,
+  "speed": 1.1,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "blight",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_blight"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blight",
+   "tier": "fiery",
+   "tokens": 20,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_explosive_imp_fiery",
+  "name": "Explosive Imp",
+  "level": 400,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 225000,
+  "damage": 4800,
+  "speed": 1.35,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "explosive_imp",
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_imp"
+  ],
+  "equipment": {
+   "HEAD": "TNT"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "explosive_imp",
+   "tier": "fiery",
+   "tokens": 12,
+   "role": "common",
+   "weight": 2,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_follower_fiery",
+  "name": "Magma Follower",
+  "level": 400,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 1800000,
+  "damage": 3600,
+  "speed": 1.0,
+  "combatXp": 320,
+  "coins": 180,
+  "family": "magma_follower",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "GOLDEN_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_follower",
+   "tier": "fiery",
+   "tokens": 62,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_dropship_fiery",
+  "name": "Dropship",
+  "level": 400,
+  "entity": "GHAST",
+  "health": 4500000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 320,
+  "coins": 180,
+  "family": "dropship",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "flying",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "dropship",
+   "tier": "fiery",
+   "tokens": 0,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wither_sentry_fiery",
+  "name": "Wither Sentry",
+  "level": 400,
+  "entity": "SKELETON",
+  "health": 1200000,
+  "damage": 2800,
+  "speed": 0.9,
+  "combatXp": 320,
+  "coins": 180,
+  "family": "wither_sentry",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "BOW"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wither_sentry",
+   "tier": "fiery",
+   "tokens": 38,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blazing_golem_fiery",
+  "name": "Blazing Golem",
+  "level": 400,
+  "entity": "IRON_GOLEM",
+  "health": 3750000,
+  "damage": 6000,
+  "speed": 0.85,
+  "combatXp": 320,
+  "coins": 180,
+  "family": "blazing_golem",
+  "flags": [
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blazing_golem",
+   "tier": "fiery",
+   "tokens": 88,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_slasher_fiery",
+  "name": "Leviathan Slasher",
+  "level": 400,
+  "entity": "WITHER_SKELETON",
+  "health": 7500000,
+  "damage": 8000,
+  "speed": 1.1,
+  "combatXp": 320,
+  "coins": 180,
+  "family": "kuudra_slasher",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD",
+   "HEAD": "NETHERITE_HELMET"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "slasher",
+   "tier": "fiery",
+   "tokens": 150,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_cindermite_fiery",
+  "name": "Cindermite",
+  "level": 400,
+  "entity": "ENDERMITE",
+  "health": 150000,
+  "damage": 1200,
+  "speed": 1.4,
+  "combatXp": 160,
+  "coins": 60,
+  "family": "cindermite",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "cindermite",
+   "tier": "fiery",
+   "tokens": 5,
+   "role": "lair",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "leviathan_fiery",
+  "name": "Magma Leviathan",
+  "level": 400,
+  "entity": "MAGMA_CUBE",
+  "health": 150000000,
+  "damage": 3200,
+  "speed": 1.0,
+  "combatXp": 12000,
+  "coins": 0,
+  "family": "kuudra",
+  "flags": [
+   "boss",
+   "no_ai",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_boss"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "boss",
+   "tier": "fiery",
+   "size": 12,
+   "scale": 2.4,
+   "mobTypes": [
+    "magmatic"
+   ]
+  }
+ },
+ {
+  "id": "kuudra_follower_infernal",
+  "name": "Leviathan Follower",
+  "level": 500,
+  "entity": "HUSK",
+  "health": 1000000,
+  "damage": 2400,
+  "speed": 1.1,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "kuudra_follower",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "CHEST": "LEATHER_CHESTPLATE",
+   "HAND": "STONE_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "follower",
+   "tier": "infernal",
+   "tokens": 12,
+   "role": "common",
+   "weight": 10,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_landmine_infernal",
+  "name": "Leviathan Landmine",
+  "level": 500,
+  "entity": "MAGMA_CUBE",
+  "health": 320000,
+  "damage": 5400,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "kuudra_landmine",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "kuudra_landmine"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "landmine",
+   "tier": "infernal",
+   "tokens": 9,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_cube_infernal",
+  "name": "Inferno Magma Cube",
+  "level": 500,
+  "entity": "MAGMA_CUBE",
+  "health": 720000,
+  "damage": 2100,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "inferno_magma_cube",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_cube",
+   "tier": "infernal",
+   "tokens": 12,
+   "role": "common",
+   "weight": 4,
+   "firstWave": 1,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_berserker_infernal",
+  "name": "Leviathan Berserker",
+  "level": 500,
+  "entity": "WITHER_SKELETON",
+  "health": 1600000,
+  "damage": 3900,
+  "speed": 1.25,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "kuudra_berserker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "berserker",
+   "tier": "infernal",
+   "tokens": 24,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 4,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_knocker_infernal",
+  "name": "Leviathan Knocker",
+  "level": 500,
+  "entity": "VINDICATOR",
+  "health": 2400000,
+  "damage": 3000,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "kuudra_knocker",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "knocker",
+   "tier": "infernal",
+   "tokens": 30,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wandering_blaze_infernal",
+  "name": "Wandering Blaze",
+  "level": 500,
+  "entity": "BLAZE",
+  "health": 1200000,
+  "damage": 2700,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "wandering_blaze",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "flying"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wandering_blaze",
+   "tier": "infernal",
+   "tokens": 24,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blight_infernal",
+  "name": "Blight",
+  "level": 500,
+  "entity": "BOGGED",
+  "health": 1400000,
+  "damage": 3000,
+  "speed": 1.1,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "blight",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [
+   "kuudra_blight"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blight",
+   "tier": "infernal",
+   "tokens": 24,
+   "role": "common",
+   "weight": 3,
+   "firstWave": 3,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_explosive_imp_infernal",
+  "name": "Explosive Imp",
+  "level": 500,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 600000,
+  "damage": 7200,
+  "speed": 1.35,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "explosive_imp",
+  "flags": [
+   "aggressive",
+   "baby",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_imp"
+  ],
+  "equipment": {
+   "HEAD": "TNT"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "explosive_imp",
+   "tier": "infernal",
+   "tokens": 15,
+   "role": "common",
+   "weight": 2,
+   "firstWave": 2,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_magma_follower_infernal",
+  "name": "Magma Follower",
+  "level": 500,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 4800000,
+  "damage": 5400,
+  "speed": 1.0,
+  "combatXp": 400,
+  "coins": 225,
+  "family": "magma_follower",
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "MAGMA_BLOCK",
+   "HAND": "GOLDEN_AXE"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "magma_follower",
+   "tier": "infernal",
+   "tokens": 75,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_dropship_infernal",
+  "name": "Dropship",
+  "level": 500,
+  "entity": "GHAST",
+  "health": 12000000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 400,
+  "coins": 225,
+  "family": "dropship",
+  "flags": [
+   "no_ai",
+   "fire_immune",
+   "flying",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "dropship",
+   "tier": "infernal",
+   "tokens": 0,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_wither_sentry_infernal",
+  "name": "Wither Sentry",
+  "level": 500,
+  "entity": "SKELETON",
+  "health": 3200000,
+  "damage": 4200,
+  "speed": 0.9,
+  "combatXp": 400,
+  "coins": 225,
+  "family": "wither_sentry",
+  "flags": [
+   "aggressive"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HEAD": "WITHER_SKELETON_SKULL",
+   "HAND": "BOW"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "wither_sentry",
+   "tier": "infernal",
+   "tokens": 45,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_blazing_golem_infernal",
+  "name": "Blazing Golem",
+  "level": 500,
+  "entity": "IRON_GOLEM",
+  "health": 10000000,
+  "damage": 9000,
+  "speed": 0.85,
+  "combatXp": 400,
+  "coins": 225,
+  "family": "blazing_golem",
+  "flags": [
+   "aggressive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_knocker"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "blazing_golem",
+   "tier": "infernal",
+   "tokens": 105,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_slasher_infernal",
+  "name": "Leviathan Slasher",
+  "level": 500,
+  "entity": "WITHER_SKELETON",
+  "health": 20000000,
+  "damage": 12000,
+  "speed": 1.1,
+  "combatXp": 400,
+  "coins": 225,
+  "family": "kuudra_slasher",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "behaviours": [],
+  "equipment": {
+   "HAND": "NETHERITE_SWORD",
+   "HEAD": "NETHERITE_HELMET"
+  },
+  "drops": [],
+  "extra": {
+   "kuudraKind": "slasher",
+   "tier": "infernal",
+   "tokens": 180,
+   "role": "elite",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "kuudra_cindermite_infernal",
+  "name": "Cindermite",
+  "level": 500,
+  "entity": "ENDERMITE",
+  "health": 400000,
+  "damage": 1800,
+  "speed": 1.4,
+  "combatXp": 200,
+  "coins": 75,
+  "family": "cindermite",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "cindermite",
+   "tier": "infernal",
+   "tokens": 6,
+   "role": "lair",
+   "weight": 0,
+   "firstWave": 0,
+   "mobTypes": [
+    "kuudra_follower",
+    "magmatic"
+   ],
+   "nameplate": "show"
+  }
+ },
+ {
+  "id": "leviathan_infernal",
+  "name": "Magma Leviathan",
+  "level": 500,
+  "entity": "MAGMA_CUBE",
+  "health": 800000000,
+  "damage": 4800,
+  "speed": 1.0,
+  "combatXp": 24000,
+  "coins": 0,
+  "family": "kuudra",
+  "flags": [
+   "boss",
+   "no_ai",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "kuudra_boss"
+  ],
+  "equipment": {},
+  "drops": [],
+  "extra": {
+   "kuudraKind": "boss",
+   "tier": "infernal",
+   "size": 12,
+   "scale": 2.4,
+   "mobTypes": [
+    "magmatic"
+   ]
+  }
+ }
+]

@@ -1,0 +1,5011 @@
+[
+ {
+  "id": "ACACIA_DOOR_ITEM",
+  "name": "Acacia Door",
+  "material": "ACACIA_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ACACIA_FENCE",
+  "name": "Acacia Fence",
+  "material": "ACACIA_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "ACACIA_FENCE_GATE",
+  "name": "Acacia Fence Gate",
+  "material": "ACACIA_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ACACIA_STAIRS",
+  "name": "Acacia Stairs",
+  "material": "ACACIA_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ACTIVATOR_RAIL",
+  "name": "Activator Rail",
+  "material": "ACTIVATOR_RAIL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A rail for minecarts to ride on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ANVIL",
+  "name": "Anvil",
+  "material": "ANVIL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 45.0,
+  "lore": [
+   "&7Repairs, renames and combines items."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "APPLE",
+  "name": "Apple",
+  "material": "APPLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ARMOR_STAND",
+  "name": "Armor Stand",
+  "material": "ARMOR_STAND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A stand for displaying armour."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BAKED_POTATO",
+  "name": "Baked Potato",
+  "material": "BAKED_POTATO",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BANNER",
+  "name": "Black Banner",
+  "material": "BLACK_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:1",
+  "name": "Red Banner",
+  "material": "RED_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:10",
+  "name": "Lime Banner",
+  "material": "LIME_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:11",
+  "name": "Yellow Banner",
+  "material": "YELLOW_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:12",
+  "name": "Light Blue Banner",
+  "material": "LIGHT_BLUE_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:13",
+  "name": "Magenta Banner",
+  "material": "MAGENTA_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:14",
+  "name": "Orange Banner",
+  "material": "ORANGE_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:15",
+  "name": "White Banner",
+  "material": "WHITE_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:2",
+  "name": "Green Banner",
+  "material": "GREEN_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:3",
+  "name": "Brown Banner",
+  "material": "BROWN_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:4",
+  "name": "Blue Banner",
+  "material": "BLUE_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:5",
+  "name": "Purple Banner",
+  "material": "PURPLE_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:6",
+  "name": "Cyan Banner",
+  "material": "CYAN_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:7",
+  "name": "Light Gray Banner",
+  "material": "LIGHT_GRAY_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:8",
+  "name": "Gray Banner",
+  "material": "GRAY_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BANNER:9",
+  "name": "Pink Banner",
+  "material": "PINK_BANNER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound",
+   "vanilla"
+  ],
+  "npcSell": 12.2,
+  "extra": {
+   "derivedPrice": true,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A decorative banner. Hang it up or",
+   "&7place it on the ground."
+  ]
+ },
+ {
+  "id": "BARRIER",
+  "name": "Barrier",
+  "material": "BARRIER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7An invisible, unbreakable barrier",
+   "&7block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BED",
+  "name": "Bed",
+  "material": "RED_BED",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7A bed. Sleep through the night."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BIRCH_DOOR_ITEM",
+  "name": "Birch Door",
+  "material": "BIRCH_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BIRCH_FENCE",
+  "name": "Birch Fence",
+  "material": "BIRCH_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "BIRCH_FENCE_GATE",
+  "name": "Birch Fence Gate",
+  "material": "BIRCH_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BIRCH_WOOD_STAIRS",
+  "name": "Birch Stairs",
+  "material": "BIRCH_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BOAT",
+  "name": "Boat",
+  "material": "OAK_BOAT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A boat for crossing water."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BOOK",
+  "name": "Book",
+  "material": "BOOK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "extra": {
+   "referencePrice": 12.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A book. Used for enchanting and",
+   "&7bookshelves."
+  ]
+ },
+ {
+  "id": "BOOKSHELF",
+  "name": "Bookshelf",
+  "material": "BOOKSHELF",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A shelf of books. Placed near an",
+   "&7enchanting table it unlocks stronger",
+   "&7enchantments."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BOOK_AND_QUILL",
+  "name": "Book and Quill",
+  "material": "WRITABLE_BOOK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7A book you can write in."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BOWL",
+  "name": "Bowl",
+  "material": "BOWL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.3,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7An empty bowl for stews and soups."
+  ]
+ },
+ {
+  "id": "BREAD",
+  "name": "Bread",
+  "material": "BREAD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BREWING_STAND_ITEM",
+  "name": "Brewing Stand",
+  "material": "BREWING_STAND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7A brewing station for turning bottles",
+   "&7into potions."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BRICK",
+  "name": "Bricks",
+  "material": "BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Compressed from &a4 &7Brick&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BRICK_STAIRS",
+  "name": "Brick Stairs",
+  "material": "BRICK_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BUCKET",
+  "name": "Bucket",
+  "material": "BUCKET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7An empty bucket for carrying water,",
+   "&7lava and milk."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CAKE",
+  "name": "Cake",
+  "material": "CAKE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7A whole cake. Place it and take a",
+   "&7slice at a time."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET",
+  "name": "Carpet",
+  "material": "WHITE_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.3,
+  "extra": {
+   "referencePrice": 1.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A thin decorative floor covering."
+  ]
+ },
+ {
+  "id": "CARPET:1",
+  "name": "Orange Carpet",
+  "material": "ORANGE_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:10",
+  "name": "Purple Carpet",
+  "material": "PURPLE_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:11",
+  "name": "Blue Carpet",
+  "material": "BLUE_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:12",
+  "name": "Brown Carpet",
+  "material": "BROWN_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:13",
+  "name": "Green Carpet",
+  "material": "GREEN_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:14",
+  "name": "Red Carpet",
+  "material": "RED_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:15",
+  "name": "Black Carpet",
+  "material": "BLACK_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:2",
+  "name": "Magenta Carpet",
+  "material": "MAGENTA_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:3",
+  "name": "Light Blue Carpet",
+  "material": "LIGHT_BLUE_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:4",
+  "name": "Yellow Carpet",
+  "material": "YELLOW_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:5",
+  "name": "Lime Carpet",
+  "material": "LIME_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:6",
+  "name": "Pink Carpet",
+  "material": "PINK_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:7",
+  "name": "Gray Carpet",
+  "material": "GRAY_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:8",
+  "name": "Light Gray Carpet",
+  "material": "LIGHT_GRAY_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARPET:9",
+  "name": "Cyan Carpet",
+  "material": "CYAN_CARPET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A thin decorative floor covering."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CARROT_STICK",
+  "name": "Carrot on a Stick",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Steers a saddled pig."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CAULDRON_ITEM",
+  "name": "Cauldron",
+  "material": "CAULDRON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7A large pot that holds water, lava or",
+   "&7powder snow."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CHEST",
+  "name": "Chest",
+  "material": "CHEST",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A chest for storing items."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CLAY_BRICK",
+  "name": "Brick",
+  "material": "BRICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Compresses into &aBricks&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COBBLESTONE_STAIRS",
+  "name": "Cobblestone Stairs",
+  "material": "COBBLESTONE_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COBBLE_WALL",
+  "name": "Cobblestone Wall",
+  "material": "COBBLESTONE_WALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A wall for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COMPASS",
+  "name": "Compass",
+  "material": "COMPASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "extra": {
+   "referencePrice": 12.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A compass. Its needle points toward",
+   "&7spawn."
+  ]
+ },
+ {
+  "id": "COOKED_BEEF",
+  "name": "Cooked Beef",
+  "material": "COOKED_BEEF",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKED_CHICKEN",
+  "name": "Cooked Chicken",
+  "material": "COOKED_CHICKEN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKED_FISH",
+  "name": "Cooked Fish",
+  "material": "COOKED_COD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKED_FISH:1",
+  "name": "Cooked Salmon",
+  "material": "COOKED_SALMON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKED_MUTTON",
+  "name": "Cooked Mutton",
+  "material": "COOKED_MUTTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKED_RABBIT",
+  "name": "Cooked Rabbit",
+  "material": "COOKED_RABBIT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COOKIE",
+  "name": "Cookie",
+  "material": "COOKIE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.3,
+  "lore": [
+   "&7A quick snack. Eat it to restore",
+   "&7hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DARK_OAK_DOOR_ITEM",
+  "name": "Dark Oak Door",
+  "material": "DARK_OAK_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DARK_OAK_FENCE",
+  "name": "Dark Oak Fence",
+  "material": "DARK_OAK_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "DARK_OAK_FENCE_GATE",
+  "name": "Dark Oak Fence Gate",
+  "material": "DARK_OAK_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DARK_OAK_STAIRS",
+  "name": "Dark Oak Stairs",
+  "material": "DARK_OAK_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DAYLIGHT_DETECTOR",
+  "name": "Daylight Detector",
+  "material": "DAYLIGHT_DETECTOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7Gives off a redstone signal in",
+   "&7daylight."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DEAD_BUSH",
+  "name": "Dead Bush",
+  "material": "DEAD_BUSH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A dry, dead shrub."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DETECTOR_RAIL",
+  "name": "Detector Rail",
+  "material": "DETECTOR_RAIL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A rail for minecarts to ride on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIAMOND_BARDING",
+  "name": "Diamond Horse Armor",
+  "material": "DIAMOND_HORSE_ARMOR",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7Armour for a horse."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIODE",
+  "name": "Repeater",
+  "material": "REPEATER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A redstone component that delays and",
+   "&7repeats a signal."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIRT",
+  "name": "Dirt",
+  "material": "DIRT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aCoarse Dirt&7, &aFarming",
+   "&aIsland&7 and 1 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIRT:1",
+  "name": "Coarse Dirt",
+  "material": "COARSE_DIRT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DISPENSER",
+  "name": "Dispenser",
+  "material": "DISPENSER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7Fires or uses the items inside it when",
+   "&7powered."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DRAGON_EGG",
+  "name": "Dragon Egg",
+  "material": "DRAGON_EGG",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7A rare trophy egg left behind by a",
+   "&7dragon."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DROPPER",
+  "name": "Dropper",
+  "material": "DROPPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7Drops the items inside it when",
+   "&7powered."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EMPTY_MAP",
+  "name": "Empty Map",
+  "material": "MAP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 25.0,
+  "lore": [
+   "&7An empty map. Use it to chart the area",
+   "&7around you."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENCHANTMENT_TABLE",
+  "name": "Enchantment Table",
+  "material": "ENCHANTING_TABLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 40.0,
+  "lore": [
+   "&7Enchants tools, weapons and armour."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENDER_CHEST",
+  "name": "Ender Chest",
+  "material": "ENDER_CHEST",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 55.0,
+  "lore": [
+   "&7A chest whose contents follow you to",
+   "&7every ender chest."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENDER_PORTAL_FRAME",
+  "name": "End Portal Frame",
+  "material": "END_PORTAL_FRAME",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7A frame block from an ancient portal."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EXPLOSIVE_MINECART",
+  "name": "Minecart with TNT",
+  "material": "TNT_MINECART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 22.0,
+  "lore": [
+   "&7A minecart. Rides along rails."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EYE_OF_ENDER",
+  "name": "Eye of Ender",
+  "material": "ENDER_EYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 11.0,
+  "extra": {
+   "referencePrice": 15.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A pearl infused with blaze powder.",
+   "&7Thrown, it flies toward a stronghold."
+  ]
+ },
+ {
+  "id": "FENCE",
+  "name": "Oak Fence",
+  "material": "OAK_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "FENCE_GATE",
+  "name": "Oak Fence Gate",
+  "material": "OAK_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "FERMENTED_SPIDER_EYE",
+  "name": "Fermented Spider Eye",
+  "material": "FERMENTED_SPIDER_EYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Brewed into a potion, it turns the",
+   "&7effect into its opposite."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "FIREWORK",
+  "name": "Firework Rocket",
+  "material": "FIREWORK_ROCKET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A firework rocket. Launch it for a",
+   "&7show."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "FIREWORK_CHARGE",
+  "name": "Firework Star",
+  "material": "FIREWORK_STAR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A firework star. Adds colour and shape",
+   "&7to a rocket."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  },
+  "tags": [
+   "vanilla"
+  ]
+ },
+ {
+  "id": "FLINT_AND_STEEL",
+  "name": "Flint and Steel",
+  "material": "FLINT_AND_STEEL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "extra": {
+   "referencePrice": 7.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7Strikes a spark to light fires and",
+   "&7portals."
+  ]
+ },
+ {
+  "id": "FURNACE",
+  "name": "Furnace",
+  "material": "FURNACE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7Smelts ores and cooks food."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GLASS",
+  "name": "Glass",
+  "material": "GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBeacon I&7, &aDaylight",
+   "&aDetector&7 and 22 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GLASS_BOTTLE",
+  "name": "Glass Bottle",
+  "material": "GLASS_BOTTLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7An empty bottle. Fill it with water to",
+   "&7start brewing."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLDEN_APPLE",
+  "name": "Golden Apple",
+  "material": "GOLDEN_APPLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A golden apple. Eating it grants",
+   "&7Regeneration and Absorption."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLDEN_APPLE:1",
+  "name": "Enchanted Golden Apple",
+  "material": "ENCHANTED_GOLDEN_APPLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 125.0,
+  "lore": [
+   "&7A rare enchanted apple with powerful",
+   "&7healing effects."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  },
+  "tags": [
+   "vanilla"
+  ]
+ },
+ {
+  "id": "GOLDEN_CARROT",
+  "name": "Golden Carrot",
+  "material": "GOLDEN_CARROT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7A carrot wrapped in gold. Filling",
+   "&7food, and brewed into Night Vision."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_BARDING",
+  "name": "Gold Horse Armor",
+  "material": "GOLDEN_HORSE_ARMOR",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 750.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7Armour for a horse."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_NUGGET",
+  "name": "Gold Nugget",
+  "material": "GOLD_NUGGET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.3,
+  "lore": [
+   "&7A small piece of gold. Nine make a",
+   "&7gold ingot."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_PLATE",
+  "name": "Light Weighted Pressure Plate",
+  "material": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "lore": [
+   "&7Gives off a redstone signal when",
+   "&7stepped on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_RECORD",
+  "name": "Music Disc - 13",
+  "material": "MUSIC_DISC_13",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GRASS",
+  "name": "Grass",
+  "material": "GRASS_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GREEN_RECORD",
+  "name": "Music Disc - Cat",
+  "material": "MUSIC_DISC_CAT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GRILLED_PORK",
+  "name": "Cooked Porkchop",
+  "material": "COOKED_PORKCHOP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Cooked food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "HARD_CLAY",
+  "name": "Hardened Clay",
+  "material": "TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aWhite Hardened Clay&7,",
+   "&7&aOrange Hardened Clay&7 and 14 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "HOPPER",
+  "name": "Hopper",
+  "material": "HOPPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "extra": {
+   "referencePrice": 15.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7Moves items into and out of",
+   "&7containers."
+  ]
+ },
+ {
+  "id": "HOPPER_MINECART",
+  "name": "Minecart with Hopper",
+  "material": "HOPPER_MINECART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "extra": {
+   "referencePrice": 22.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A minecart. Rides along rails."
+  ]
+ },
+ {
+  "id": "INK_SACK:1",
+  "name": "Rose Red",
+  "material": "RED_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ]
+ },
+ {
+  "id": "INK_SACK:11",
+  "name": "Dandelion Yellow",
+  "material": "YELLOW_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "INK_SACK:12",
+  "name": "Light Blue Dye",
+  "material": "LIGHT_BLUE_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.7,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ]
+ },
+ {
+  "id": "INK_SACK:13",
+  "name": "Magenta Dye",
+  "material": "MAGENTA_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ]
+ },
+ {
+  "id": "INK_SACK:14",
+  "name": "Orange Dye",
+  "material": "ORANGE_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.7,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ]
+ },
+ {
+  "id": "INK_SACK:5",
+  "name": "Purple Dye",
+  "material": "PURPLE_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "INK_SACK:6",
+  "name": "Cyan Dye",
+  "material": "CYAN_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "INK_SACK:7",
+  "name": "Light Gray Dye",
+  "material": "LIGHT_GRAY_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.7,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ]
+ },
+ {
+  "id": "INK_SACK:8",
+  "name": "Gray Dye",
+  "material": "GRAY_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A dye for colouring wool, glass, beds",
+   "&7and more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_BARDING",
+  "name": "Iron Horse Armor",
+  "material": "IRON_HORSE_ARMOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7Armour for a horse."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_DOOR",
+  "name": "Iron Door",
+  "material": "IRON_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "extra": {
+   "referencePrice": 12.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A door you can open and close."
+  ]
+ },
+ {
+  "id": "IRON_FENCE",
+  "name": "Iron Bars",
+  "material": "IRON_BARS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.7,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "IRON_PLATE",
+  "name": "Heavy Weighted Pressure Plate",
+  "material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7Gives off a redstone signal when",
+   "&7stepped on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_TRAPDOOR",
+  "name": "Iron Trapdoor",
+  "material": "IRON_TRAPDOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A trapdoor you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ITEM_FRAME",
+  "name": "Item Frame",
+  "material": "ITEM_FRAME",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7A frame for displaying an item on a",
+   "&7wall."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JACK_O_LANTERN",
+  "name": "Jack o' Lantern",
+  "material": "JACK_O_LANTERN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JUKEBOX",
+  "name": "Jukebox",
+  "material": "JUKEBOX",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7Plays music discs."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JUNGLE_DOOR_ITEM",
+  "name": "Jungle Door",
+  "material": "JUNGLE_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JUNGLE_FENCE",
+  "name": "Jungle Fence",
+  "material": "JUNGLE_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "JUNGLE_FENCE_GATE",
+  "name": "Jungle Fence Gate",
+  "material": "JUNGLE_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JUNGLE_WOOD_STAIRS",
+  "name": "Jungle Stairs",
+  "material": "JUNGLE_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LADDER",
+  "name": "Ladder",
+  "material": "LADDER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A ladder you can climb."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LAVA_BUCKET",
+  "name": "Lava Bucket",
+  "material": "LAVA_BUCKET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A bucket of lava. Pour it out to place",
+   "&7a lava source."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LEASH",
+  "name": "Lead",
+  "material": "LEAD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A leash for leading animals around."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LEAVES",
+  "name": "Oak Leaves",
+  "material": "OAK_LEAVES",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Leaves from a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LEAVES_2",
+  "name": "Acacia Leaves",
+  "material": "ACACIA_LEAVES",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Leaves from a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LEVER",
+  "name": "Lever",
+  "material": "LEVER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A redstone switch you flip on and off."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LONG_GRASS:1",
+  "name": "Long Grass",
+  "material": "SHORT_GRASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A tuft of tall grass."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LONG_GRASS:2",
+  "name": "Fern",
+  "material": "FERN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A small fern."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MELON_SEEDS",
+  "name": "Melon Seeds",
+  "material": "MELON_SEEDS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Seeds. Plant them on farmland."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MILK_BUCKET",
+  "name": "Milk Bucket",
+  "material": "MILK_BUCKET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7A bucket of milk. Drinking it clears",
+   "&7every potion effect."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MINECART",
+  "name": "Minecart",
+  "material": "MINECART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A minecart. Rides along rails."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MUSHROOM_SOUP",
+  "name": "Mushroom Soup",
+  "material": "MUSHROOM_STEW",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7A hearty stew. Eat it to restore",
+   "&7hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_BRICK_ITEM",
+  "name": "Nether Brick",
+  "material": "NETHER_BRICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Compresses into &aNether Bricks&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_BRICK_STAIRS",
+  "name": "Nether Brick Stairs",
+  "material": "NETHER_BRICK_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_FENCE",
+  "name": "Nether Brick Fence",
+  "material": "NETHER_BRICK_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A fence for walling off an area."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_STAR",
+  "name": "Nether Star",
+  "material": "NETHER_STAR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7A star dropped by a powerful boss.",
+   "&7Used to craft a beacon."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NOTE_BLOCK",
+  "name": "Noteblock",
+  "material": "NOTE_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Plays a note when hit or powered."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PAINTING",
+  "name": "Painting",
+  "material": "PAINTING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A decorative painting for your walls."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PAPER",
+  "name": "Paper",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A sheet of paper. Used for books, maps",
+   "&7and rockets."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PISTON_BASE",
+  "name": "Piston",
+  "material": "PISTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A redstone component that pushes",
+   "&7blocks."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PISTON_STICKY_BASE",
+  "name": "Sticky Piston",
+  "material": "STICKY_PISTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7A redstone component that pushes and",
+   "&7pulls blocks."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POTION",
+  "name": "Water Bottle",
+  "material": "POTION",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A bottle of water, the base of every",
+   "&7potion."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POWERED_MINECART",
+  "name": "Minecart with Furnace",
+  "material": "FURNACE_MINECART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7A minecart. Rides along rails."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "POWERED_RAIL",
+  "name": "Powered Rail",
+  "material": "POWERED_RAIL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A rail for minecarts to ride on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PRISMARINE:2",
+  "name": "Dark Prismarine",
+  "material": "DARK_PRISMARINE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PUMPKIN_PIE",
+  "name": "Pumpkin Pie",
+  "material": "PUMPKIN_PIE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7Food. Eat it to restore hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PUMPKIN_SEEDS",
+  "name": "Pumpkin Seeds",
+  "material": "PUMPKIN_SEEDS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Seeds. Plant them on farmland."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "QUARTZ_STAIRS",
+  "name": "Quartz Stairs",
+  "material": "QUARTZ_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RABBIT_STEW",
+  "name": "Rabbit Stew",
+  "material": "RABBIT_STEW",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "lore": [
+   "&7A hearty stew. Eat it to restore",
+   "&7hunger."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RAILS",
+  "name": "Rail",
+  "material": "RAIL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.7,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A rail for minecarts to ride on."
+  ]
+ },
+ {
+  "id": "RECORD_10",
+  "name": "Music Disc - Ward",
+  "material": "MUSIC_DISC_WARD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_11",
+  "name": "Music Disc - 11",
+  "material": "MUSIC_DISC_11",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_12",
+  "name": "Music Disc - Wait",
+  "material": "MUSIC_DISC_WAIT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_3",
+  "name": "Music Disc - Blocks",
+  "material": "MUSIC_DISC_BLOCKS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_4",
+  "name": "Music Disc - Chirp",
+  "material": "MUSIC_DISC_CHIRP",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_5",
+  "name": "Music Disc - Far",
+  "material": "MUSIC_DISC_FAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_6",
+  "name": "Music Disc - Mall",
+  "material": "MUSIC_DISC_MALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_7",
+  "name": "Music Disc - Mellohi",
+  "material": "MUSIC_DISC_MELLOHI",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_8",
+  "name": "Music Disc - Stal",
+  "material": "MUSIC_DISC_STAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RECORD_9",
+  "name": "Music Disc - Strad",
+  "material": "MUSIC_DISC_STRAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "lore": [
+   "&7A music disc. Plays a song in a",
+   "&7jukebox."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE_COMPARATOR",
+  "name": "Comparator",
+  "material": "COMPARATOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7A redstone component that compares and",
+   "&7measures signals."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE_LAMP_OFF",
+  "name": "Redstone Lamp",
+  "material": "REDSTONE_LAMP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "lore": [
+   "&7A lamp that lights up when powered by",
+   "&7redstone."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE_TORCH_ON",
+  "name": "Redstone Torch",
+  "material": "REDSTONE_TORCH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A redstone power source shaped like a",
+   "&7torch."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_SANDSTONE:1",
+  "name": "Chiseled Red Sandstone",
+  "material": "CHISELED_RED_SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_SANDSTONE:2",
+  "name": "Cut Red Sandstone",
+  "material": "CUT_RED_SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_SANDSTONE_STAIRS",
+  "name": "Red Sandstone Stairs",
+  "material": "RED_SANDSTONE_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SADDLE",
+  "name": "Saddle",
+  "material": "SADDLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7A saddle for riding horses and pigs."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SANDSTONE:1",
+  "name": "Chiseled Sandstone",
+  "material": "CHISELED_SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block."
+  ]
+ },
+ {
+  "id": "SANDSTONE:2",
+  "name": "Cut Sandstone",
+  "material": "CUT_SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SANDSTONE_STAIRS",
+  "name": "Sandstone Stairs",
+  "material": "SANDSTONE_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPLING:1",
+  "name": "Spruce Sapling",
+  "material": "SPRUCE_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPLING:2",
+  "name": "Birch Sapling",
+  "material": "BIRCH_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPLING:3",
+  "name": "Jungle Sapling",
+  "material": "JUNGLE_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPLING:4",
+  "name": "Acacia Sapling",
+  "material": "ACACIA_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPLING:5",
+  "name": "Dark Oak Sapling",
+  "material": "DARK_OAK_SAPLING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A sapling. Plant it to grow a tree."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SEA_LANTERN",
+  "name": "Sea Lantern",
+  "material": "SEA_LANTERN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 45.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SIGN",
+  "name": "Oak Sign",
+  "material": "OAK_SIGN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A sign you can write on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SKULL_ITEM",
+  "name": "Skeleton Skull",
+  "material": "SKELETON_SKULL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7A skeleton's skull. Wear it or place",
+   "&7it as decoration."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SMOOTH_BRICK",
+  "name": "Stone Bricks",
+  "material": "STONE_BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aMossy Stone Bricks&7,",
+   "&7&aStone Brick Stairs&7 and 2 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SMOOTH_BRICK:1",
+  "name": "Mossy Stone Bricks",
+  "material": "MOSSY_STONE_BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SMOOTH_BRICK:2",
+  "name": "Cracked Stone Bricks",
+  "material": "CRACKED_STONE_BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SMOOTH_BRICK:3",
+  "name": "Chiseled Stone Bricks",
+  "material": "CHISELED_STONE_BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SMOOTH_STAIRS",
+  "name": "Stone Brick Stairs",
+  "material": "STONE_BRICK_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SOUL_SAND",
+  "name": "Soul Sand",
+  "material": "SOUL_SAND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aNether Wart Island&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SPECKLED_MELON",
+  "name": "Glistering Melon Slice",
+  "material": "GLISTERING_MELON_SLICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.5,
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Glistering",
+   "&aMelon Slice&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SPRUCE_DOOR_ITEM",
+  "name": "Spruce Door",
+  "material": "SPRUCE_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SPRUCE_FENCE",
+  "name": "Spruce Fence",
+  "material": "SPRUCE_FENCE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 1.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A fence for walling off an area."
+  ]
+ },
+ {
+  "id": "SPRUCE_FENCE_GATE",
+  "name": "Spruce Fence Gate",
+  "material": "SPRUCE_FENCE_GATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A gate in a fence that you can open",
+   "&7and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SPRUCE_WOOD_STAIRS",
+  "name": "Spruce Stairs",
+  "material": "SPRUCE_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY",
+  "name": "White Hardened Clay",
+  "material": "WHITE_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:1",
+  "name": "Orange Hardened Clay",
+  "material": "ORANGE_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:10",
+  "name": "Purple Hardened Clay",
+  "material": "PURPLE_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:11",
+  "name": "Blue Hardened Clay",
+  "material": "BLUE_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:12",
+  "name": "Brown Hardened Clay",
+  "material": "BROWN_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:13",
+  "name": "Green Hardened Clay",
+  "material": "GREEN_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:14",
+  "name": "Red Hardened Clay",
+  "material": "RED_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:15",
+  "name": "Black Hardened Clay",
+  "material": "BLACK_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:2",
+  "name": "Magenta Hardened Clay",
+  "material": "MAGENTA_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:3",
+  "name": "Light Blue Hardened Clay",
+  "material": "LIGHT_BLUE_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:4",
+  "name": "Yellow Hardened Clay",
+  "material": "YELLOW_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:5",
+  "name": "Lime Hardened Clay",
+  "material": "LIME_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:6",
+  "name": "Pink Hardened Clay",
+  "material": "PINK_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:7",
+  "name": "Gray Hardened Clay",
+  "material": "GRAY_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:8",
+  "name": "Light Gray Hardened Clay",
+  "material": "LIGHT_GRAY_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_CLAY:9",
+  "name": "Cyan Hardened Clay",
+  "material": "CYAN_TERRACOTTA",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS",
+  "name": "White Stained Glass",
+  "material": "WHITE_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aWhite Stained Glass",
+   "&aPane&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS:1",
+  "name": "Orange Stained Glass",
+  "material": "ORANGE_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aOrange Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:10",
+  "name": "Purple Stained Glass",
+  "material": "PURPLE_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPurple Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:11",
+  "name": "Blue Stained Glass",
+  "material": "BLUE_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBlue Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:12",
+  "name": "Brown Stained Glass",
+  "material": "BROWN_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.3,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBrown Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:13",
+  "name": "Green Stained Glass",
+  "material": "GREEN_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.5,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aGreen Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:14",
+  "name": "Red Stained Glass",
+  "material": "RED_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aRed Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:15",
+  "name": "Black Stained Glass",
+  "material": "BLACK_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.2,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBlack Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:2",
+  "name": "Magenta Stained Glass",
+  "material": "MAGENTA_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aMagenta Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:3",
+  "name": "Light Blue Stained Glass",
+  "material": "LIGHT_BLUE_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLight Blue Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:4",
+  "name": "Yellow Stained Glass",
+  "material": "YELLOW_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aYellow Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:5",
+  "name": "Lime Stained Glass",
+  "material": "LIME_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLime Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:6",
+  "name": "Pink Stained Glass",
+  "material": "PINK_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPink Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:7",
+  "name": "Gray Stained Glass",
+  "material": "GRAY_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aGray Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:8",
+  "name": "Light Gray Stained Glass",
+  "material": "LIGHT_GRAY_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLight Gray Stained Glass",
+   "&aPane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS:9",
+  "name": "Cyan Stained Glass",
+  "material": "CYAN_STAINED_GLASS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.1,
+  "extra": {
+   "referencePrice": 3.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aCyan Stained Glass Pane&7."
+  ]
+ },
+ {
+  "id": "STAINED_GLASS_PANE",
+  "name": "White Stained Glass Pane",
+  "material": "WHITE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:1",
+  "name": "Orange Stained Glass Pane",
+  "material": "ORANGE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:10",
+  "name": "Purple Stained Glass Pane",
+  "material": "PURPLE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:11",
+  "name": "Blue Stained Glass Pane",
+  "material": "BLUE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:12",
+  "name": "Brown Stained Glass Pane",
+  "material": "BROWN_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:13",
+  "name": "Green Stained Glass Pane",
+  "material": "GREEN_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:14",
+  "name": "Red Stained Glass Pane",
+  "material": "RED_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:15",
+  "name": "Black Stained Glass Pane",
+  "material": "BLACK_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:2",
+  "name": "Magenta Stained Glass Pane",
+  "material": "MAGENTA_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:3",
+  "name": "Light Blue Stained Glass Pane",
+  "material": "LIGHT_BLUE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:4",
+  "name": "Yellow Stained Glass Pane",
+  "material": "YELLOW_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:5",
+  "name": "Lime Stained Glass Pane",
+  "material": "LIME_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:6",
+  "name": "Pink Stained Glass Pane",
+  "material": "PINK_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:7",
+  "name": "Gray Stained Glass Pane",
+  "material": "GRAY_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:8",
+  "name": "Light Gray Stained Glass Pane",
+  "material": "LIGHT_GRAY_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STAINED_GLASS_PANE:9",
+  "name": "Cyan Stained Glass Pane",
+  "material": "CYAN_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP",
+  "name": "Smooth Stone Slab",
+  "material": "SMOOTH_STONE_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:1",
+  "name": "Sandstone Slab",
+  "material": "SANDSTONE_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:3",
+  "name": "Cobblestone Slab",
+  "material": "COBBLESTONE_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:4",
+  "name": "Brick Slab",
+  "material": "BRICK_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:5",
+  "name": "Stone Brick Slab",
+  "material": "STONE_BRICK_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:6",
+  "name": "Nether Brick Slab",
+  "material": "NETHER_BRICK_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STEP:7",
+  "name": "Quartz Slab",
+  "material": "QUARTZ_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A half-height building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STICK",
+  "name": "Stick",
+  "material": "STICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.25,
+  "lore": [
+   "&7A basic crafting material for tools,",
+   "&7torches and fences."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STONE:1",
+  "name": "Granite",
+  "material": "GRANITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPolished Granite&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STONE:2",
+  "name": "Polished Granite",
+  "material": "POLISHED_GRANITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STONE:3",
+  "name": "Diorite",
+  "material": "DIORITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 2.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aGranite&7, &aPolished",
+   "&aDiorite&7 and 1 more."
+  ]
+ },
+ {
+  "id": "STONE:4",
+  "name": "Polished Diorite",
+  "material": "POLISHED_DIORITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.8,
+  "extra": {
+   "referencePrice": 2.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block."
+  ]
+ },
+ {
+  "id": "STONE:5",
+  "name": "Andesite",
+  "material": "ANDESITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.9,
+  "extra": {
+   "referencePrice": 2.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPolished Andesite&7."
+  ]
+ },
+ {
+  "id": "STONE:6",
+  "name": "Polished Andesite",
+  "material": "POLISHED_ANDESITE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.9,
+  "extra": {
+   "referencePrice": 2.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A common building block."
+  ]
+ },
+ {
+  "id": "STONE_BUTTON",
+  "name": "Stone Button",
+  "material": "STONE_BUTTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A redstone button that sends a short",
+   "&7pulse."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STONE_PLATE",
+  "name": "Stone Pressure Plate",
+  "material": "STONE_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Gives off a redstone signal when",
+   "&7stepped on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STORAGE_MINECART",
+  "name": "Minecart with Chest",
+  "material": "CHEST_MINECART",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7A minecart. Rides along rails."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SUGAR",
+  "name": "Sugar",
+  "material": "SUGAR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Sweet and fast. Brewed into Swiftness,",
+   "&7and baked into cakes."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "THIN_GLASS",
+  "name": "Glass Pane",
+  "material": "GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.75,
+  "lore": [
+   "&7A thin pane of glass for windows."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "TNT",
+  "name": "TNT",
+  "material": "TNT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 15.0,
+  "lore": [
+   "&7An explosive block. Light it and stand",
+   "&7back."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "TORCH",
+  "name": "Torch",
+  "material": "TORCH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.3,
+  "lore": [
+   "&7A torch. Lights up the area around it."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "TRAPPED_CHEST",
+  "name": "Trapped Chest",
+  "material": "TRAPPED_CHEST",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.3,
+  "extra": {
+   "referencePrice": 4.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A chest that gives off a redstone",
+   "&7signal when opened."
+  ]
+ },
+ {
+  "id": "TRAP_DOOR",
+  "name": "Wooden Trapdoor",
+  "material": "OAK_TRAPDOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.5,
+  "lore": [
+   "&7A trapdoor you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "TRIPWIRE_HOOK",
+  "name": "Tripwire Hook",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.3,
+  "extra": {
+   "referencePrice": 2.0,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7Hooks a tripwire that triggers",
+   "&7redstone."
+  ]
+ },
+ {
+  "id": "VINE",
+  "name": "Vines",
+  "material": "VINE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A climbing vine that grows down walls."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WATCH",
+  "name": "Clock",
+  "material": "CLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7A clock. Shows the time of day."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WATER_BUCKET",
+  "name": "Water Bucket",
+  "material": "WATER_BUCKET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "lore": [
+   "&7A bucket of water. Pour it out to",
+   "&7place a water source."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD",
+  "name": "Oak Planks",
+  "material": "OAK_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBed&7, &aBoat&7 and 25 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD:1",
+  "name": "Spruce Planks",
+  "material": "SPRUCE_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aSpruce Door&7, &aSpruce",
+   "&aFence&7 and 3 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD:2",
+  "name": "Birch Planks",
+  "material": "BIRCH_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBirch Door&7, &aBirch Fence&7",
+   "&7and 3 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD:3",
+  "name": "Jungle Planks",
+  "material": "JUNGLE_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aJungle Door&7, &aJungle",
+   "&aFence&7 and 3 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD:4",
+  "name": "Acacia Planks",
+  "material": "ACACIA_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aAcacia Door&7, &aAcacia",
+   "&aFence&7 and 3 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD:5",
+  "name": "Dark Oak Planks",
+  "material": "DARK_OAK_PLANKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aDark Oak Door&7, &aDark Oak",
+   "&aFence&7 and 3 more."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD_BUTTON",
+  "name": "Wooden Button",
+  "material": "OAK_BUTTON",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7A redstone button that sends a short",
+   "&7pulse."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD_DOOR",
+  "name": "Oak Door",
+  "material": "OAK_DOOR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A door you can open and close."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD_PLATE",
+  "name": "Wooden Pressure Plate",
+  "material": "OAK_PRESSURE_PLATE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Gives off a redstone signal when",
+   "&7stepped on."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD_STAIRS",
+  "name": "Oak Stairs",
+  "material": "OAK_STAIRS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "lore": [
+   "&7Stairs for building."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOD_STEP",
+  "name": "Oak Slab",
+  "material": "OAK_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOD_STEP:1",
+  "name": "Spruce Slab",
+  "material": "SPRUCE_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOD_STEP:2",
+  "name": "Birch Slab",
+  "material": "BIRCH_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOD_STEP:3",
+  "name": "Jungle Slab",
+  "material": "JUNGLE_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOD_STEP:4",
+  "name": "Acacia Slab",
+  "material": "ACACIA_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOD_STEP:5",
+  "name": "Dark Oak Slab",
+  "material": "DARK_OAK_SLAB",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.2,
+  "extra": {
+   "referencePrice": 0.5,
+   "family": "blocks",
+   "vanilla": true
+  },
+  "lore": [
+   "&7A half-height building block."
+  ]
+ },
+ {
+  "id": "WOOL:1",
+  "name": "Orange Wool",
+  "material": "ORANGE_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aOrange Banner&7 and &aOrange",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:10",
+  "name": "Purple Wool",
+  "material": "PURPLE_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPurple Banner&7 and &aPurple",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:11",
+  "name": "Blue Wool",
+  "material": "BLUE_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBlue Banner&7 and &aBlue",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:12",
+  "name": "Brown Wool",
+  "material": "BROWN_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBrown Banner&7 and &aBrown",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:13",
+  "name": "Green Wool",
+  "material": "GREEN_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aGreen Banner&7 and &aGreen",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:14",
+  "name": "Red Wool",
+  "material": "RED_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aRed Banner&7 and &aRed",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:15",
+  "name": "Black Wool",
+  "material": "BLACK_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aBlack Banner&7 and &aBlack",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:2",
+  "name": "Magenta Wool",
+  "material": "MAGENTA_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aMagenta Banner&7 and",
+   "&7&aMagenta Carpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:3",
+  "name": "Light Blue Wool",
+  "material": "LIGHT_BLUE_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLight Blue Banner&7 and",
+   "&7&aLight Blue Carpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:4",
+  "name": "Yellow Wool",
+  "material": "YELLOW_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aYellow Banner&7 and &aYellow",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:5",
+  "name": "Lime Wool",
+  "material": "LIME_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLime Banner&7 and &aLime",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:6",
+  "name": "Pink Wool",
+  "material": "PINK_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aPink Banner&7 and &aPink",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:7",
+  "name": "Gray Wool",
+  "material": "GRAY_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aGray Banner&7 and &aGray",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:8",
+  "name": "Light Gray Wool",
+  "material": "LIGHT_GRAY_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aLight Gray Banner&7 and",
+   "&7&aLight Gray Carpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WOOL:9",
+  "name": "Cyan Wool",
+  "material": "CYAN_WOOL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7A common building block.",
+   "&7Used to craft &aCyan Banner&7 and &aCyan",
+   "&aCarpet&7."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WORKBENCH",
+  "name": "Crafting Table",
+  "material": "CRAFTING_TABLE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7A crafting table with a full 3x3 grid."
+  ],
+  "extra": {
+   "family": "blocks",
+   "vanilla": true
+  }
+ }
+]

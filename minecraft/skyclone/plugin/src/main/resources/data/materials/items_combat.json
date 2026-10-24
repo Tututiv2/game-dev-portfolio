@@ -1,0 +1,2925 @@
+[
+ {
+  "id": "ABSOLUTE_ENDER_PEARL",
+  "name": "Absolute Ender Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 11200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Enchanted Ender",
+   "&7Pearl&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ANCIENT_CLAW",
+  "name": "Ancient Claw",
+  "material": "FLINT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Ancient",
+   "&aClaw&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ARACHNE_FANG",
+  "name": "Broodmother's Fang",
+  "material": "BONE_MEAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aVaccine Ring&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ARACHNE_FRAGMENT",
+  "name": "Broodmother Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ARACHNE_KEEPER_FRAGMENT",
+  "name": "Weaver's Calling",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ARROW_BUNDLE_MAGMA",
+  "name": "Bundle of Magma Arrows",
+  "material": "MAGMA_CREAM",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "BLAZE_ROD",
+  "name": "Blaze Rod",
+  "material": "BLAZE_ROD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Blaze",
+   "&aPowder&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "BLAZE_ROD",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "BLAZE_ROD_DISTILLATE",
+  "name": "Blaze Rod Distillate",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "BLUE_ICE_HUNK",
+  "name": "Hunk of Blue Ice",
+  "material": "SNOWBALL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Hunk of Ice&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "BONE",
+  "name": "Bone",
+  "material": "BONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Bone&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "BONE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CAGED_WISP",
+  "name": "Caged Wisp",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MDgxODk5NDY3OCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhZjk4MTBhNzRlN2E4MmMwYzJjNDQ1NjZkMTNlMDUwNTE5YWMzNTIwZjBkYTU4YzA3NGFlMDdmMDM4NWI0NzkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 5000000.0,
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CHEESE_FUEL",
+  "name": "Tasty Cheese",
+  "material": "HONEYCOMB",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CHILI_PEPPER",
+  "name": "Chili Pepper",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3OTU2MTY4OTMyMSwKICAicHJvZmlsZUlkIiA6ICI3MWM1OTI5YmYzOTI0MGQwODBhYWM1OTNlODFkZTQ0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2NrbGFuZGJveTk5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4NTljOGRmMTEwOWMwOGE3NTYyNzVmMWQyODg3YzI3NDgwNDlmZTMzODc3NzY5YTdiNDE1ZDU2ZWRhNDY5ZDgiCiAgICB9CiAgfQp9",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aStuffed Chili Pepper&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "CHILI_PEPPER"
+  }
+ },
+ {
+  "id": "CHIRPING_STEREO",
+  "name": "Chirping Stereo",
+  "material": "JUKEBOX",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSuper Fairground",
+   "&aEntertainment System&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "COMPACT_OOZE",
+  "name": "Compact Ooze",
+  "material": "SLIME_BALL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aFire Fury Staff&7, &aScourge",
+   "&aCloak&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "COMPOST",
+  "name": "Compost",
+  "material": "BONE_MEAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCompost Bundle&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CONTROL_SWITCH",
+  "name": "Control Switch",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CORLEONITE",
+  "name": "Gangsterite",
+  "material": "QUARTZ",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "COVEN_SEAL",
+  "name": "Coven Seal",
+  "material": "NETHER_WART",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aMaddox Badphone&7,",
+   "&7&aFangguard Scarf&7 and 5 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CRUDE_GABAGOOL_DISTILLATE",
+  "name": "Gourmet Meat Distillate",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CRYOPOWDER_SHARD",
+  "name": "Fragmented Cryopowder",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcwODU1MDcwOTg2MSwKICAicHJvZmlsZUlkIiA6ICI0NTlkNzVlNjMyOWQ0MzQ1ODk4NjkxN2VjMTc3ZTA2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2lkYXV4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0NjQ4NzRkZjQ1MmMxZDcxN2VkZGQwZmIzYjg0ODIwMmFkMTU1NzEyNDVhZjZmYWRlMmVjZjUxNGYzYzgwYmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aFrosty the Howitzer&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "CRYSTAL_FRAGMENT",
+  "name": "Crystal Fragment",
+  "material": "QUARTZ",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCatalyst&7, &aCrystal Boots&7",
+   "&7and 6 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DARK_QUEENS_SOUL_DROP",
+  "name": "Shadow Queen's Soul",
+  "material": "CLAY_BALL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSouls Rebound&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DEADGEHOG_SPINE",
+  "name": "Deadgehog Spine",
+  "material": "ARROW",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aLeech Sword&7 and",
+   "&7&aSpineback Mask&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DEEP_ROOT",
+  "name": "Deep Root",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPressure Artifact&7,",
+   "&7&aPressure Ring&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DERELICT_ASHE",
+  "name": "Derelict Ashe",
+  "material": "GUNPOWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aMolten Powder&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DIGESTED_MOSQUITO",
+  "name": "Digested Mosquito",
+  "material": "ROTTEN_FLESH",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBloodsucker Shortbow&7 and",
+   "&7&aTarantula Ring&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "DUNG",
+  "name": "Dung",
+  "material": "BROWN_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 100.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ECTOPLASM",
+  "name": "Ectoplasm",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBat Person Artifact&7, &aBat",
+   "&aPerson Ring&7 and 4 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ELECTRON_TRANSMITTER",
+  "name": "Electron Transmitter",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_ANCIENT_CLAW",
+  "name": "Enchanted Ancient Claw",
+  "material": "FLINT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 32000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Ancient Claw&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_BLAZE_POWDER",
+  "name": "Enchanted Blaze Powder",
+  "material": "BLAZE_POWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1440.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Blaze Rod&7.",
+   "&7Compresses into &aEnchanted Blaze Rod&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_BLAZE_ROD",
+  "name": "Enchanted Blaze Rod",
+  "material": "BLAZE_ROD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 230400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Blaze",
+   "&7Powder&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_BONE",
+  "name": "Enchanted Bone",
+  "material": "BONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Bone&7.",
+   "&7Compresses into &aEnchanted Bone Block&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_BONE_BLOCK",
+  "name": "Enchanted Bone Block",
+  "material": "CHISELED_QUARTZ_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 51200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Bone&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_CHARCOAL",
+  "name": "Enchanted Charcoal",
+  "material": "CHARCOAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 192.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_ENDER_PEARL",
+  "name": "Enchanted Ender Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 140.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a20 &7Ender Pearl&7.",
+   "&7Compresses into &aAbsolute Ender Pearl&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_EYE_OF_ENDER",
+  "name": "Enchanted Eye of Ender",
+  "material": "ENDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 2496.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "referencePrice": 3520.0,
+   "family": "combat"
+  },
+  "lore": [
+   "&7Combined from &a64 &7Blaze Powder &7and &a16",
+   "&a&7Enchanted Ender Pearl&7."
+  ]
+ },
+ {
+  "id": "ENCHANTED_FERMENTED_SPIDER_EYE",
+  "name": "Enchanted Fermented Spider Eye",
+  "material": "FERMENTED_SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 31000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Combined from &a64 &7Brown Mushroom, &a64",
+   "&a&7Sugar &7and &a64 &7Enchanted Spider Eye&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_FIREWORK_ROCKET",
+  "name": "Enchanted Firework Rocket",
+  "material": "FIREWORK_ROCKET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 40992.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "referencePrice": 41000.0,
+   "family": "combat"
+  },
+  "lore": [
+   "&7Combined from &a64 &7Enchanted Gunpowder",
+   "&7&7and &a16 &7Paper&7."
+  ]
+ },
+ {
+  "id": "ENCHANTED_GHAST_TEAR",
+  "name": "Enchanted Ghast Tear",
+  "material": "GHAST_TEAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 80.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a5 &7Ghast Tear&7.",
+   "&7Compresses into &aSilver Fang&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_GUNPOWDER",
+  "name": "Enchanted Gunpowder",
+  "material": "GUNPOWDER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Gunpowder&7.",
+   "&7Compresses into &aEnchanted Firework",
+   "&aRocket&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_MAGMA_CREAM",
+  "name": "Enchanted Magma Cream",
+  "material": "MAGMA_CREAM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1280.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Magma Cream&7.",
+   "&7Compresses into &aWhipped Magma Cream&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_ROTTEN_FLESH",
+  "name": "Enchanted Rotten Flesh",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Rotten Flesh&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_SLIME_BALL",
+  "name": "Enchanted Slimeball",
+  "material": "SLIME_BALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Slimeball&7.",
+   "&7Compresses into &aEnchanted Slime Block&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_SLIME_BLOCK",
+  "name": "Enchanted Slime Block",
+  "material": "SLIME_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Slimeball&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_SPIDER_EYE",
+  "name": "Enchanted Spider Eye",
+  "material": "SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Spider Eye&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENCHANTED_STRING",
+  "name": "Enchanted String",
+  "material": "STRING",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "referencePrice": 576.0,
+   "family": "combat"
+  },
+  "lore": [
+   "&7Compressed from &a160 &7String&7."
+  ]
+ },
+ {
+  "id": "ENDERMAN_CORTEX_REWRITER",
+  "name": "Enderman Cortex Rewriter",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MzQ5NjM0MzU5NjIsInByb2ZpbGVJZCI6ImQzNGFhMmI4MzFkYTRkMjY5NjU1ZTMzYzE0M2YwOTZjIiwicHJvZmlsZU5hbWUiOiJFbmRlckRyYWdvbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwNzU5NGUyZGYyNzM5MjFhNzdjMTAxZDBiZmRmYTExMTVhYmVkNWI5YjIwMjllYjQ5NmNlYmE5YmRiYjRiMyJ9fX0=",
+  "npcSell": 80000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENDER_PEARL",
+  "name": "Ender Pearl",
+  "material": "ENDER_PEARL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 7.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Ender Pearl&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "ENDER_PEARL",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENDSTONE_ROSE",
+  "name": "End Stone Rose",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 3000.0,
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ENSNARED_SNAIL",
+  "name": "Ensnared Snail",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczODc1NzgzNTc2MSwKICAicHJvZmlsZUlkIiA6ICJjNDIzYjQwMWZiOGU0ODc3YjMzMmVmMjhiZDdlZGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFjdGlvbkJyaW5lWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MzJiN2UwZmJkOTc2ZDU1OWZiYjIxOGQ5ZjRlNTNjOTM1NGY2OGIxZjM2M2MwNDgyMTI3MDkyNzI0Mjc0ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 1000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "EXCEEDINGLY_RARE_ENDER_ARTIFACT_UPGRADER",
+  "name": "Exceedingly Rare Ender Artifact Upgrade",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjQzNTAxODQ5MywKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1OTIzMWE5NDY5ODdlYTUzMTQxNzg5YTA5NDk2ZjA5OGQ2ZWNhYzQxMmEwMWUwYTI0YzkwNmE5OWZkYmQ5YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aEnder Relic&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "FEL_SKULL",
+  "name": "Fel Skull",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY5NDQ0NzI4Nzc0NSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlN2Q1OTg0NzAxMTk4YjVmMTdjNWI5MzA3NDgxYzczZjZlY2I2M2ViY2FlZDQxYzFlYTg1Yzk5YzIwNDRjYWUiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aFelthorn Reaper&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "FOUL_FLESH",
+  "name": "Foul Flesh",
+  "material": "CHARCOAL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient"
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "FROSTY_CRUX",
+  "name": "Frosty Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NTM2NDIxNTU2OSwKICAicHJvZmlsZUlkIiA6ICJlOWRlMDE0NjExZDI0NGY5OTVjNmNiMjhkMDk5MWExNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGl6YWJldGhUcnVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lOGU4OWVjNTkyMjljZjUyYmQwY2ZkNWY3OWY3Yjc3NjhiNGM0OTZjMGU4NzE4NGI3OGIyZjdjNjY4NTYxOTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCruxmotion&7, &aCrux",
+   "&aHeirloom&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "FROZEN_SCUTE",
+  "name": "Frozen Scute",
+  "material": "PLAYER_HEAD",
+  "rarity": "MYTHIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc1NzM2MzQ3NzQ1MiwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZkMTYzZmIxMjdiYzJmZDAyY2I2ZjYwYzJiYTAzYTVkYzVhYzhjNzY1NWY5MTY2YWZiZmYxMGE1MzIxNzA2NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 5000000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "FTX_3070",
+  "name": "GFX 3070",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GHAST_TEAR",
+  "name": "Ghast Tear",
+  "material": "GHAST_TEAR",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 16.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Ghast Tear&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "GHAST_TEAR",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GILL_MEMBRANE",
+  "name": "Gill Membrane",
+  "material": "KELP",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 70.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aAbyssal Boots&7, &aAbyssal",
+   "&aChestplate&7 and 7 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GLACITE_AMALGAMATION",
+  "name": "Glacite Amalgamation",
+  "material": "PACKED_ICE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GLACITE_JEWEL",
+  "name": "Glacite Jewel",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GLOWSTONE_DUST_DISTILLATE",
+  "name": "Glowstone Distillate",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOBLIN_EGG",
+  "name": "Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 421.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOBLIN_EGG_BLUE",
+  "name": "Blue Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aStrong Signal Ring&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOBLIN_EGG_GREEN",
+  "name": "Green Goblin Egg",
+  "material": "EGG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOBLIN_EGG_RED",
+  "name": "Red Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 25000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOBLIN_EGG_YELLOW",
+  "name": "Yellow Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOLDEN_POWDER",
+  "name": "Golden Powder",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aOrnate Zombie Sword&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GOLEM_POPPY",
+  "name": "Ancient Rose",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aFel Rose&7 and &aFlower of",
+   "&aTruth&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "GREEN_CANDY",
+  "name": "Green Candy",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzA4ODM1NSwKICAicHJvZmlsZUlkIiA6ICIyMWNjMzkxZmNkMjc0NzY5OTg5Y2M3M2VjYWRiNTE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHT1NUTFk5NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzFjMGJkNzZhNjU1ZDVkOGZlYTViMDZkYWFmMWZiOGQ4MDYwYmYwODIzZWJiYzZlYjZmOTljOGVlNWEzNWFhIgogICAgfQogIH0KfQ==",
+  "npcSell": 500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBlast o' Lantern&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "HOLY_FRAGMENT",
+  "name": "Holy Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aHoly Dragon Boots&7, &aHoly",
+   "&aDragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JELLY",
+  "name": "Jelly",
+  "material": "SLIME_BALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 100.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aRoyal Jelly&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JERRY_BOX_BLUE",
+  "name": "Blue Snowman Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTc2NDY1Mzc1OSwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhYzMxMWZhYjdhYzczNzgyYjIyMTIwMGU2Y2Q0YWNiYmIyMTdjNjJlNzg3YjIxMzYzNWQ1ZTUyZjc1YzM3MmIiCiAgICB9CiAgfQp9",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JERRY_BOX_GOLDEN",
+  "name": "Golden Snowman Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzM2NjY2NjczNiwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkZTZkNjc4ZWU4MmZhNWFlOWVkYTNmYTMzZDM5YTQxNDEzZThkZWU0NDM2ZjNlYjUxYmQ4OTcxMzIxZjc5IgogICAgfQogIH0KfQ==",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JERRY_BOX_GREEN",
+  "name": "Green Snowman Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTc2NDYzMjI3MCwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhZGY2M2ExODYzMmFmNzJkY2VjYzA1ZDlhNWFkYjYwYzY4YTE4ZmZiYjU4ZTM2YWM0M2IxMGNlYjkzNGE3YiIKICAgIH0KICB9Cn0=",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JERRY_BOX_PURPLE",
+  "name": "Purple Snowman Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDA2NzUzMiwKICAicHJvZmlsZUlkIiA6ICI2NGVkZjMxNTljZGY0ODBmYTZmY2UzYzA0NzlmNzUwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYW1lc2t5MTIzNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hM2Y3NWM1MjgxY2NiYjc2NzU5ZmRkNTcxMDYxMjBlYjljMWRiMTI4YjM4NmQ0MzhlMDY1OWYzMTJlYjcxNWE1IgogICAgfQogIH0KfQ==",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "JUNGLE_KEY",
+  "name": "Jungle Key",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "KELVIN_INVERTER",
+  "name": "Kelvin Inverter",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 100000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aEntropy Suppressor&7 and",
+   "&7&aWisp Upgrade Stone&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "LARVA_SILK",
+  "name": "Larva Silk",
+  "material": "STRING",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "LEECH_SUPREME_FRAGMENT",
+  "name": "Supreme Leech Fragment",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ3NzgxMDAxOCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMzEzMjQzMDM0YmNiMWE1MjhlZmYxYzRiMGFkYjMyMDc0NTVjYWRmZDhjOWNjZDVhNzVhZjk3NTc5MGY3MDUyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aLeechstep Wand I&7,",
+   "&7&aBloodbadge&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "LIL_PAD",
+  "name": "Lil' Pad",
+  "material": "LILY_PAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aLeechstep Wand I&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "LOCUST_LARVA",
+  "name": "Locust Larva",
+  "material": "SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MAGMA_CREAM",
+  "name": "Magma Cream",
+  "material": "MAGMA_CREAM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Magma Cream&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "MAGMA_CREAM",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MAGMA_CREAM_DISTILLATE",
+  "name": "Magma Cream Distillate",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MANTI_CORE",
+  "name": "Manti-core",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc1MjUxNDEzNDgxMSwKICAicHJvZmlsZUlkIiA6ICI3ZGExYjViODdhMTg0NzgyOTQ2ZjZiYTdhMmNiMDhlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSeWt1bk9jYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0ZjFlYjI5YmY4MzE0NzAzMzk0YzYyNGM1ODMyZTBkZmJjZThmYTZjMjU4NzAyMDVkNjdkOTZlZDc0M2JmOTAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "npcSell": 5000000.0,
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aManticore Claw&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MATCH_STICKS",
+  "name": "Match-Sticks",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aImplosion Belt&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "METAPHORIC_EGG",
+  "name": "Metaphoric Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aHen Leggings&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MILLENIA_OLD_BLAZE_ASHES",
+  "name": "Millennia-Old Blaze Ashes",
+  "material": "GUNPOWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBlaze Talisman&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MIMIC_FRAGMENT",
+  "name": "Mimic Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aLesser Orb of Healing&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MITE_GEL",
+  "name": "Mite Gel",
+  "material": "PURPLE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aMixed Mite Gel&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "MUTED_BARK",
+  "name": "Muted Bark",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODIwMzI5NjgxMSwKICAicHJvZmlsZUlkIiA6ICI5MGQ1NDY0OGEzNWE0YmExYTI2Yjg1YTg4NTU4OGJlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdW4wbWlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY3MWUzNDQ2ZWZhYmYwZmQ1NDdhM2Q1NGU5M2ZhM2M3ODA0MGFiMzNmODhjNDBkOTE5YjRlZGQ3ZWE0YmI3NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "NETHER_STALK_DISTILLATE",
+  "name": "Nether Wart Distillate",
+  "material": "GLASS_BOTTLE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "NULLIFIED_METAL",
+  "name": "Nullified Metal",
+  "material": "BLUE_CARPET",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aFrozen Water Pungi&7 and",
+   "&7&aLooping Pickaxe&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "NULL_ATOM",
+  "name": "Null Atom",
+  "material": "ENDER_EYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 33333.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aNull Edge&7, &aSinhunter",
+   "&aScythe&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "NULL_SPHERE",
+  "name": "Null Sphere",
+  "material": "ENDER_PEARL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aNull Ovoid&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "OLD_FRAGMENT",
+  "name": "Old Wyrm Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aOld Dragon Boots&7, &aOld",
+   "&aDragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PLANT_MATTER",
+  "name": "Plant Matter",
+  "material": "VINE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 100.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PLASMA",
+  "name": "Plasma",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 20000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aAnguish Artifact&7,",
+   "&7&aAnguish Ring&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PRIMORDIAL_EYE",
+  "name": "Primordial Eye",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczODI0MzI4OTc5MSwKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhZDQ0YjRjNDYzNTY0OGQ1YmQyMTIxMGRjYjZiMzE0ZDQ4OWRjZDc1YmM3OTMyYzU2OTBlMTJkODg5ODJhMzQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aThe Primordial&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PROTECTOR_FRAGMENT",
+  "name": "Protector Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aProtector Dragon Boots&7,",
+   "&7&aProtector Dragon Chestplate&7 and 2",
+   "&7more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PUFF_CRUX",
+  "name": "Puff Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyNDA4MzEyOTI3MCwKICAicHJvZmlsZUlkIiA6ICI5ZTA5YzM4ZGUzZTY0MDA2OTAwYzAwZTJiOTQ3ZTQwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4RFRPTUFTX1lUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmMjdlNTNmMTAxYzM0OTgwMWZjMzMyYWQyM2EzMjU0NzI1ODE4YTAxNzA3ZDU1MmU2MzNhNjM0YWUyY2YwZDEiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCelestial Starstone&7,",
+   "&7&aRespiration Artifact&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "PUMPKIN_BOMB",
+  "name": "Blast o' Lantern",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzI0ODAzNDA3OSwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjNmZkNWQ5MDY4M2EwZjk1NmUyOGNkMTM0ODJmOTFiZDdjZmU1MGU1Yzg1M2Y0ZTg1ZTYyNmI1Zjk3MDFiOTMiCiAgICB9CiAgfQp9",
+  "npcSell": 437.5,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "referencePrice": 530.0,
+   "family": "combat"
+  },
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPumpkin Launcher&7."
+  ]
+ },
+ {
+  "id": "PURPLE_CANDY",
+  "name": "Purple Candy",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzQxNDc0NTAyNSwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MTYxMWQ4NzRlODc0ZTMyMmExMTk5YjNiN2I5ZTkzNGJiYjBkYmVkNTg3ZWU4ZmNkNmNjYzFiMDdlMjgxNjUxIgogICAgfQogIH0KfQ==",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aGhoul Buster&7 and &aSpooky",
+   "&aWater Orb&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "REVENANT_CATALYST",
+  "name": "Ghoul Catalyst",
+  "material": "BLAZE_POWDER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 8000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aReaper Boots&7, &aReaper",
+   "&aChestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "REVENANT_FLESH",
+  "name": "Ghoul Flesh",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aGhoul Viscera&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "REVENANT_VISCERA",
+  "name": "Ghoul Viscera",
+  "material": "COOKED_PORKCHOP",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Combined from &a128 &7Ghoul Flesh &7and &a32",
+   "&a&7Enchanted String&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ROBOTRON_REFLECTOR",
+  "name": "Automaton Reflector",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "ROTTEN_FLESH",
+  "name": "Rotten Flesh",
+  "material": "ROTTEN_FLESH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Rotten",
+   "&aFlesh&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "ROTTEN_FLESH",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SCRIBE_CRUX",
+  "name": "Scribe Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjkwOTc0MDA5NSwKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMGVlNzgxYjc5YjFmZGMxNGFjMDhiNTA0NDhjZDkxNzRmNzFlMTU1NTE2ZTNiZjU0MmEyZDZjNDY2ZWFjZjgyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCruxmotion&7, &aCrux Relic&7",
+   "&7and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHADOW_CRUX",
+  "name": "Shadow Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTIzMzA1NzU4MCwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NjYzhhNjkwYzg5ZWJmMDFhZGYwNDQwYzBhM2Q1NDBlMmRiODljZmM5N2FkM2I4ZTAxODEwYmYzMjg5ZjY3YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCruxmotion&7, &aCrux Ring&7",
+   "&7and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHAME_CRUX",
+  "name": "Shy Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwODAzNjEzOTQ4NSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCruxmotion&7 and &aCrux",
+   "&aTalisman&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHARD_OF_THE_SHREDDED",
+  "name": "Shredded Tendon",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjEyNDkwMzA5MSwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMTA4NTdlODcyNzExZTdlNjkyNWM5ZWYxMTE1MzUzYjQ3ZjU4ZWYwN2ViNWMyZDU2NWYxZjg2MDIzZTdhMjg0IgogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aHalberd of the Shredded&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHATTERED_PENDANT",
+  "name": "Shattered Locket",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTI0MjcyMDI4OSwKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE4NWEzZGRhZGUyY2RhZGY0MDRjOTE0NTczMzE3NjRmYWRjOTIwYTIxNDIxOTdmOTk1OTEwNjg2ZThiZDY4OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 5000000.0,
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHIMMERING_WOOL",
+  "name": "Shimmering Wool",
+  "material": "YELLOW_WOOL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 5000000.0,
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aGolden Fleece&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHINY_SHARD",
+  "name": "Shiny Token",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzc0MTkyMDU5OCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzJkOGEwZjM1YTJlMmE3NmUwZjgxNzhlYWU5NjVjOTAxODc0ZTQ0NTI3ZDVkZGUxYjA2ZDVlMzljNWQ5ZTJkIgogICAgfQogIH0KfQ==",
+  "tags": [
+   "soulbound"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SHRIVELED_WASP",
+  "name": "Shriveled Wasp",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczODU4NDU2NTIxNCwKICAicHJvZmlsZUlkIiA6ICI5YjhhN2NlMmJlYjI0NjdkYTJjZmU4MzQ1YTNjOTZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyR2FtZXJTaGFsb20iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRkYzkwM2JhODBmNDQwMDBmZWNlZjdjY2NmMjdmYWU2ZjBkY2IyZDA5NGM1Njc1OTJiZjJjMWRiNGIyZTk3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 100000.0,
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aShriveled Bracelet&7,",
+   "&7&aShriveled Cornea&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SIGNAL_ENHANCER",
+  "name": "Signal Enhancer",
+  "material": "COMPARATOR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SILVER_FANG",
+  "name": "Silver Fang",
+  "material": "GHAST_TEAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a25 &7Enchanted Ghast",
+   "&7Tear&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SKELETON_KEY",
+  "name": "Skeleton Key",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SLIME_BALL",
+  "name": "Slimeball",
+  "material": "SLIME_BALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Slimeball&7,",
+   "&7&aSlime Block&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "SLIME_BALL",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SLIME_BLOCK",
+  "name": "Slime Block",
+  "material": "SLIME_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 45.0,
+  "lore": [
+   "&7Compressed from &a9 &7Slimeball&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SLUDGE_JUICE",
+  "name": "Sludge Juice",
+  "material": "GLASS_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 1000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SORROW",
+  "name": "Sorrow",
+  "material": "GHAST_TEAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aAnguish Artifact&7,",
+   "&7&aAnguish Ring&7 and 5 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SOUL_STRING",
+  "name": "Soul String",
+  "material": "STRING",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBone Necklace&7, &aBraided",
+   "&aGryphon Feather&7 and 6 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SPIDER_CATALYST",
+  "name": "Spider Catalyst",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aRecluse Fang&7, &aSpider",
+   "&aShortbow&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SPIDER_EYE",
+  "name": "Spider Eye",
+  "material": "SPIDER_EYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Spider Eye&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "SPIDER_EYE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SPIRIT_BONE",
+  "name": "Spirit Bone",
+  "material": "BONE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBonemerang&7, &aBone",
+   "&aNecklace&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SPIRIT_WING",
+  "name": "Spirit Wing",
+  "material": "FEATHER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSpirit Sceptre&7 and &aBone",
+   "&aNecklace&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SPLATTER_CRUX",
+  "name": "Splatter Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3NzE1NDA2Mzc5MiwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI0NzVjMmExMTRmMzBmMGQ2NjA1Y2VmNzA4MTEwYTUzMzMzZjE3MjNiYzc2MjYyMmFiNGEyNWRjZmNkMGZkNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCruxmotion&7 and &aCrux",
+   "&aChronomicon&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SPOOKY_SHARD",
+  "name": "Spooky Fragment",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY5ODMzMzYxODQyNCwKICAicHJvZmlsZUlkIiA6ICI0YzhjNTIxZjMxZDI0ZDc1OThlNTI4YjRlODExOGMwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXR5YXdhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODg0ZWQxOTUwYmI4YjE5OGFkYTgxOTE2ODQ0MDBiZDY2NDBlMDM3MTA0ODFjODEyMmI3ODBiOWVkMWJkOThjIgogICAgfQogIH0KfQ==",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBat Person Artifact&7, &aBat",
+   "&aPerson Boots&7 and 5 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SQUEAKY_MOUSEMAT",
+  "name": "Squeaky Mousemat",
+  "material": "BLACK_CARPET",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 1000000.0,
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "STARFALL",
+  "name": "Starfall",
+  "material": "NETHER_STAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 15.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBeacon I&7 and &aMeteor",
+   "&aChunk&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "STRING",
+  "name": "String",
+  "material": "STRING",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted String&7, &aWeb&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "STRING",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STRONG_FRAGMENT",
+  "name": "Strong Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aStrong Dragon Boots&7,",
+   "&7&aStrong Dragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "STUFFED_CHILI_PEPPER",
+  "name": "Stuffed Chili Pepper",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY1ODczMDU4NDQ2OCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1OTlmOTU5ZjBlYmNiMWViMGYyZTU4NTJkMTIyY2E1NWJmNTI1OGZkNDYxM2FiNTBkNzJhZDhjZjVlMTI2MDMiCiAgICB9CiAgfQp9",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Chili Pepper&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "STURDY_BONE",
+  "name": "Sturdy Bone",
+  "material": "BONE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aMedium Fishing Net&7 and",
+   "&7&aTurbo Fishing Net&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SUBZERO_INVERTER",
+  "name": "Subzero Inverter",
+  "material": "COMPARATOR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aWisp Upgrade Stone&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SULPHUR",
+  "name": "Gunpowder",
+  "material": "GUNPOWDER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Gunpowder&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "collection": "SULPHUR",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SUPERIOR_FRAGMENT",
+  "name": "Superior Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSuperior Dragon Boots&7,",
+   "&7&aSuperior Dragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SUPERLITE_MOTOR",
+  "name": "Superlite Motor",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SUSPICIOUS_SCRAP",
+  "name": "Suspicious Scrap",
+  "material": "IRON_NUGGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "SYNTHETIC_HEART",
+  "name": "Synthetic Heart",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 50000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aPrecursor Apparatus&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "TARANTULA_CATALYST",
+  "name": "Broodweaver Catalyst",
+  "material": "BLAZE_POWDER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 10000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aBloodsucker Shortbow&7,",
+   "&7&aPrimordial Boots&7 and 6 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "TARANTULA_WEB",
+  "name": "Broodweaver Web",
+  "material": "STRING",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aBroodweaver Silk&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "TREASURITE",
+  "name": "Treasurite",
+  "material": "GOLD_INGOT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 5000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "TUNGSTEN_KEY",
+  "name": "Tungsten Key",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "UMBER_KEY",
+  "name": "Umber Key",
+  "material": "DEAD_BUSH",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "UNDEAD_CATALYST",
+  "name": "Undead Catalyst",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 2000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aRevenant Falchion&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "UNFANGED_VAMPIRE_PART",
+  "name": "Unfanged Vampire Part",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjM0MTc0MiwKICAicHJvZmlsZUlkIiA6ICJhYWZmMDUwYTExOTk0NzM1YjEyNDVlNDk0MGFlZjY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXN0SW1tb3J0YWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE4ODNlYjVlNDdjZWVlZDAyMDYzZmI4ZWMwZjc1ODQ3MTdhYzhjNzk1MjFhZTMyY2YwNjA2ZWJjZjc0MGU3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aVampire Dentist Relic&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "UNSTABLE_FRAGMENT",
+  "name": "Unstable Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aUnstable Dragon Boots&7,",
+   "&7&aUnstable Dragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "VAMPIRIC_MELON",
+  "name": "Vampiric Melon",
+  "material": "MELON",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Compresses into &aEnchanted Vampiric",
+   "&aMelon&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "VOLTA",
+  "name": "Volta",
+  "material": "LIGHTNING_ROD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 1111.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "VOLT_CRUX",
+  "name": "Volt Crux",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY3MzYzNjkyOTE0NiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTAyYjdhY2IzY2NjMGE3MjI5YThkZWUyNGY1OWYzMTZkZjA1YzYxZTVlY2M3OWUyOWE1MzU4YWRiZDJmYmFlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aHen Leggings&7, &aCruxmotion&7",
+   "&7and 3 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WARDEN_HEART",
+  "name": "Warden Heart",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDQwMjM1OTkxMSwKICAicHJvZmlsZUlkIiA6ICJiYjdjY2E3MTA0MzQ0NDEyOGQzMDg5ZTEzYmRmYWI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXVyZW5jaW8wMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xOWEzYjVmYWIwMWRmYWJmMWY4YTgxNDQ0MGE4Y2U4MGRlMTA5YjEzNWE1MWFlZjIyNWM5ZWU5OGZlNDQ3ZTAiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSentinel Helmet&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WEAK_WOLF_CATALYST",
+  "name": "Weak Wolf Catalyst",
+  "material": "BONE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aWolf Ring&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WEB",
+  "name": "Web",
+  "material": "COBWEB",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7Compressed from &a9 &7String&7."
+  ],
+  "extra": {
+   "family": "combat",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "WHIPPED_MAGMA_CREAM",
+  "name": "Whipped Magma Cream",
+  "material": "MAGMA_CREAM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 204800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Magma",
+   "&7Cream&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WILSON_ENGINEERING_PLANS",
+  "name": "Tinker's Engineering Plans",
+  "material": "BOOK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aSOS Flare&7."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WISE_FRAGMENT",
+  "name": "Wise Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aWise Dragon Boots&7, &aWise",
+   "&aDragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WITHER_CATALYST",
+  "name": "Wither Catalyst",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aCatacombs Expert Ring&7,",
+   "&7&aWarden's Blade (Unrefined)&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "WOLF_TOOTH",
+  "name": "Wolf Tooth",
+  "material": "GHAST_TEAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aGolden Tooth&7, &aRadiant",
+   "&aPower Orb&7 and 1 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "YOGGIE",
+  "name": "Yoggie",
+  "material": "SUGAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 100.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aLavaborn Boots&7, &aLavaborn",
+   "&aChestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ },
+ {
+  "id": "YOUNG_FRAGMENT",
+  "name": "Young Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 2500.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Dropped by monsters.",
+   "&7Used to craft &aYoung Dragon Boots&7,",
+   "&7&aYoung Dragon Chestplate&7 and 2 more."
+  ],
+  "extra": {
+   "family": "combat"
+  }
+ }
+]

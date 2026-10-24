@@ -1,0 +1,1242 @@
+<title>Three More Server Templates</title>
+<style>
+/* ── tokens ─────────────────────────────────────────────────────────── */
+:root{
+  --ground:#e8eae9;
+  --panel:#f3f4f3;
+  --panel2:#dde1e0;
+  --line:#c4cbc9;
+  --line-soft:#d6dbda;
+  --ink:#131a1c;
+  --ink2:#4c5a5e;
+  --ink3:#76858a;
+  --night:#b23c26;
+  --rime:#1f7d86;
+  --green:#4a7a30;
+  --hot:#a5382a;
+  --accent:var(--ink2);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#0e1113; --panel:#161b1e; --panel2:#1d2429;
+    --line:#2b3339; --line-soft:#222a2f;
+    --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+    --night:#d0553f; --rime:#5fc3cc; --green:#8bbb64; --hot:#d8685a;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0e1113; --panel:#161b1e; --panel2:#1d2429;
+  --line:#2b3339; --line-soft:#222a2f;
+  --ink:#e4e9eb; --ink2:#98a6ac; --ink3:#6a777e;
+  --night:#d0553f; --rime:#5fc3cc; --green:#8bbb64; --hot:#d8685a;
+}
+:root[data-theme="light"]{
+  --ground:#e8eae9; --panel:#f3f4f3; --panel2:#dde1e0;
+  --line:#c4cbc9; --line-soft:#d6dbda;
+  --ink:#131a1c; --ink2:#4c5a5e; --ink3:#76858a;
+  --night:#b23c26; --rime:#1f7d86; --green:#4a7a30; --hot:#a5382a;
+}
+:root{
+  --display:"Bahnschrift","DIN Alternate","HelveticaNeue-CondensedBold","Arial Narrow",
+            "Roboto Condensed",system-ui,sans-serif;
+  --body:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:"Cascadia Mono",Consolas,"SF Mono","Roboto Mono",ui-monospace,monospace;
+}
+
+/* ── base ───────────────────────────────────────────────────────────── */
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px 120px}
+.measure{max-width:68ch}
+p{margin:0 0 1.05em}
+strong{font-weight:600;color:var(--ink)}
+code{font-family:var(--mono);font-size:.86em;background:var(--panel2);padding:1px 5px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink3);margin:0}
+
+/* ── channel switcher ───────────────────────────────────────────────── */
+.bar{position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb,var(--ground) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line-soft)}
+.bar-in{max-width:1180px;margin:0 auto;padding:9px 28px;display:flex;align-items:center;
+  gap:8px;flex-wrap:wrap}
+.bar-mark{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink3);margin-right:auto}
+.chan{display:flex;align-items:center;gap:7px;font-family:var(--display);font-size:15px;
+  letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);text-decoration:none;
+  padding:4px 10px;border:1px solid transparent;border-radius:2px;
+  transition:color .15s,border-color .15s,background .15s}
+.chan:hover{color:var(--ink);border-color:var(--line);background:var(--panel)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--c);flex:none}
+.chan.n{--c:var(--night)} .chan.i{--c:var(--rime)} .chan.g{--c:var(--green)}
+
+/* ── masthead ───────────────────────────────────────────────────────── */
+.mast{padding:78px 0 42px;border-bottom:1px solid var(--line)}
+.mast h1{font-size:clamp(42px,8vw,98px);line-height:.92;letter-spacing:-.015em;
+  text-transform:uppercase;margin:14px 0 0}
+.mast .lede{margin-top:26px;color:var(--ink2);font-size:19px}
+.mast .lede em{color:var(--ink);font-style:italic}
+
+/* ── the thesis strip ───────────────────────────────────────────────── */
+.thesis-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin:40px 0 0}
+.ts{background:var(--panel);padding:18px 18px 20px}
+.ts.done{background:var(--panel2)}
+.ts .ch{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink3);margin:0 0 8px}
+.ts h4{font-size:21px;letter-spacing:.03em;text-transform:uppercase;color:var(--c,var(--ink2))}
+.ts.n{--c:var(--night)} .ts.i{--c:var(--rime)} .ts.g{--c:var(--green)}
+.ts p{font-size:14px;line-height:1.45;color:var(--ink2);margin:7px 0 0}
+.ts .verb{font-family:var(--mono);font-size:11px;color:var(--ink3);margin-top:10px;
+  border-top:1px solid var(--line-soft);padding-top:8px;display:block}
+
+/* ── section shell ──────────────────────────────────────────────────── */
+.tpl{padding-top:96px;scroll-margin-top:56px}
+.tpl.n{--accent:var(--night)} .tpl.i{--accent:var(--rime)} .tpl.g{--accent:var(--green)}
+.band{border-top:3px solid var(--accent);padding-top:20px;margin-bottom:34px}
+.band .pillar{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent)}
+.band h2{font-size:clamp(40px,7vw,78px);line-height:.94;letter-spacing:-.01em;
+  text-transform:uppercase;margin:8px 0 0}
+.band .sub{font-size:20px;line-height:1.42;color:var(--ink2);margin:16px 0 0;max-width:46ch;
+  font-style:italic}
+h3.sec{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-family:var(--mono);
+  font-weight:400;color:var(--ink3);border-top:1px solid var(--line-soft);padding-top:11px;
+  margin:52px 0 18px}
+h4.sub2{font-size:20px;letter-spacing:.03em;margin:26px 0 8px;color:var(--ink)}
+
+/* ── signature panel ────────────────────────────────────────────────── */
+.sig{border:1px solid var(--accent);background:var(--panel);padding:28px 30px 30px;
+  margin:26px 0 0;position:relative}
+.sig::before{content:attr(data-tag);position:absolute;top:-9px;left:22px;background:var(--ground);
+  padding:0 9px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent)}
+.sig h4{font-family:var(--display);font-size:30px;letter-spacing:.03em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 12px}
+.sig p:last-child{margin-bottom:0}
+.sig + .sig{margin-top:34px}
+
+/* ── diagram: gaze cone ─────────────────────────────────────────────── */
+.cone-row{display:flex;gap:34px;align-items:center;flex-wrap:wrap;
+  margin:24px 0 0;padding-top:22px;border-top:1px solid var(--line-soft)}
+.cone{position:relative;width:214px;height:214px;flex:none;border-radius:50%;
+  background:var(--panel2);overflow:hidden}
+.cone .wide{position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from -39deg,var(--accent) 0 78deg,transparent 78deg);opacity:.16}
+.cone .narrow{position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from -21deg,var(--accent) 0 42deg,transparent 42deg);opacity:.42}
+.cone .eye{position:absolute;left:50%;top:50%;width:9px;height:9px;margin:-4.5px;border-radius:50%;
+  background:var(--ink)}
+.cone b{position:absolute;width:11px;height:11px;margin:-5.5px 0 0 -5.5px;
+  background:var(--hot);border-radius:50%}
+.cone b.froze{background:var(--accent);border-radius:0;width:10px;height:13px;margin-top:-6.5px}
+.cone-key{font-size:15px;line-height:1.55;min-width:240px;flex:1}
+.cone-key p{margin:0 0 .7em}
+.cone-key .k{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);margin-bottom:7px}
+.cone-key .k i{width:10px;height:13px;background:var(--accent);flex:none}
+.cone-key .k i.free{background:var(--hot);border-radius:50%;width:11px;height:11px}
+.cone-cap{font-family:var(--mono);font-size:11px;color:var(--ink3);margin-top:12px;line-height:1.5}
+
+/* ── diagram: temperature band ──────────────────────────────────────── */
+.therm{margin:24px 0 0;padding-top:22px;border-top:1px solid var(--line-soft)}
+.therm-grid{display:grid;grid-template-columns:120px 1fr;gap:6px 14px;align-items:center;
+  min-width:520px}
+.therm-lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink2);text-align:right}
+.therm-track{position:relative;height:19px;background:var(--panel2)}
+.therm-track i{position:absolute;top:0;bottom:0;background:var(--accent);opacity:.5}
+.therm-track i.warn{background:var(--hot);opacity:.55}
+.therm-track i.win{background:var(--accent);opacity:1}
+.therm-axis{position:relative;height:20px;margin-top:2px}
+.therm-axis span{position:absolute;transform:translateX(-50%);font-family:var(--mono);
+  font-size:10px;color:var(--ink3);font-variant-numeric:tabular-nums}
+.therm-note{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin:14px 0 0;
+  line-height:1.55}
+.therm-note b{color:var(--hot);font-weight:400}
+
+/* ── diagram: scent scale ───────────────────────────────────────────── */
+.scent{margin:24px 0 0;padding-top:22px;border-top:1px solid var(--line-soft);min-width:520px}
+.scent-row{display:grid;grid-template-columns:160px 1fr 74px;gap:14px;align-items:center;
+  padding:6px 0;border-bottom:1px solid var(--line-soft)}
+.scent-row:last-child{border-bottom:0}
+.scent-row .what{font-size:14.5px;color:var(--ink2)}
+.scent-row .bar{height:13px;background:var(--accent);opacity:.75}
+.scent-row .r{font-family:var(--mono);font-size:12.5px;color:var(--ink);text-align:right;
+  font-variant-numeric:tabular-nums}
+.scent-row.peak .bar{opacity:1;background:var(--hot)}
+.scent-row.peak .r{color:var(--hot)}
+
+/* ── world section diagram ──────────────────────────────────────────── */
+.xsec{margin:22px 0 0;min-width:580px}
+.xsec-head{display:grid;grid-template-columns:78px 92px 1fr;gap:14px;font-family:var(--mono);
+  font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);
+  padding-bottom:7px;border-bottom:1px solid var(--line)}
+.xrow{display:grid;grid-template-columns:78px 92px 1fr;gap:14px;align-items:stretch;
+  border-bottom:1px solid var(--line-soft)}
+.xy{font-family:var(--mono);font-size:11px;color:var(--ink3);text-align:right;padding:9px 0 0;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.xb{background:var(--panel2);min-height:var(--h,34px);position:relative}
+.xb.solid{background:var(--accent);opacity:.5}
+.xb.safe{background:var(--accent);opacity:.2}
+.xb.deep{background:var(--ink);opacity:.7}
+.xb.fog{background:linear-gradient(180deg,var(--panel2) 0%,var(--accent) 50%,var(--panel2) 100%);
+  opacity:.45}
+.xb.hatch{background:repeating-linear-gradient(-45deg,var(--panel2) 0 5px,transparent 5px 10px)}
+.xlab{padding:8px 0;font-size:14.5px;line-height:1.45;color:var(--ink2)}
+.xlab b{font-family:var(--display);font-size:16px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--ink);display:block;font-weight:600}
+.xrow.hot .xb{background:var(--hot);opacity:.5}
+.xrow.hot .xlab b{color:var(--hot)}
+.callout{border-left:3px solid var(--accent);padding:2px 0 2px 18px;margin:26px 0 0;
+  font-size:16px;line-height:1.55;max-width:66ch}
+.callout b{font-family:var(--display);font-size:17px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--accent);display:block;font-weight:600;margin-bottom:4px}
+.rev{font-family:var(--mono);font-size:11.5px;color:var(--ink3);border-left:2px solid var(--ink3);
+  padding:3px 0 3px 13px;margin:20px 0 0;line-height:1.55;max-width:66ch}
+.rev b{color:var(--ink2);font-weight:400;text-transform:uppercase;letter-spacing:.1em;
+  font-size:10px;display:block;margin-bottom:3px}
+
+/* ── tables ─────────────────────────────────────────────────────────── */
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14px}
+th,td{text-align:left;padding:8px 14px 8px 0;border-bottom:1px solid var(--line-soft);
+  vertical-align:top}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3);font-weight:400;border-bottom-color:var(--line);white-space:nowrap}
+td.m{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+td.k{color:var(--ink2)}
+td.a{color:var(--accent);font-family:var(--display);font-size:16px;letter-spacing:.03em;
+  text-transform:uppercase;white-space:nowrap}
+.verdict{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 7px;border:1px solid var(--line);color:var(--ink2);white-space:nowrap;
+  display:inline-block}
+.verdict.reskin{border-color:var(--accent);color:var(--accent)}
+.verdict.new{border-color:var(--hot);color:var(--hot)}
+
+/* ── chips, rosters, splits ─────────────────────────────────────────── */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);background:var(--panel);padding:9px 13px;font-size:14px;
+  line-height:1.35;max-width:236px}
+.chips b{display:block;font-family:var(--display);font-size:16px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--accent);font-weight:600}
+.chips i{font-style:normal;color:var(--ink2);font-size:13px}
+.roster{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:14px}
+.roster li{padding-left:17px;border-left:2px solid var(--line);font-size:16px;line-height:1.55}
+.roster li b{font-family:var(--display);font-size:18px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink);display:block;font-weight:600}
+.roster li.key{border-left-color:var(--accent)}
+.roster li em{color:var(--ink2)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+
+/* ── law / cost ─────────────────────────────────────────────────────── */
+.law{border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin:44px 0 0;font-size:22px;
+  line-height:1.4;font-style:italic;color:var(--ink)}
+.law span{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink3);font-style:normal;margin-bottom:7px}
+.cost{display:grid;grid-template-columns:auto 1fr;gap:10px 20px;margin:10px 0 0;font-size:15px;
+  align-items:baseline}
+.cost dt{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink3);white-space:nowrap}
+.cost dd{margin:0;color:var(--ink2)}
+.gauge{display:inline-flex;gap:3px;vertical-align:middle;margin-right:9px}
+.gauge i{width:13px;height:9px;background:var(--panel2);border:1px solid var(--line)}
+.gauge i.on{background:var(--accent);border-color:var(--accent)}
+
+/* ── closing ────────────────────────────────────────────────────────── */
+.close{margin-top:110px;border-top:1px solid var(--line);padding-top:34px}
+.close h2{font-size:34px;letter-spacing:.02em;text-transform:uppercase}
+.graft{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
+.graft div{--accent:var(--ink2)}
+.graft div.n{--accent:var(--night)} .graft div.i{--accent:var(--rime)} .graft div.g{--accent:var(--green)}
+.graft h4{font-family:var(--display);font-size:19px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--accent);border-top:2px solid var(--accent);padding-top:9px;margin:0 0 8px}
+.graft p{font-size:15px;line-height:1.5;color:var(--ink2);margin:0}
+
+@media (max-width:900px){
+  .thesis-strip,.graft{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr;gap:0}
+  .wrap{padding:0 20px 90px}
+  .bar-in{padding:9px 20px}
+  .bar-mark{display:none}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<nav class="bar">
+  <div class="bar-in">
+    <span class="bar-mark">Volume II — three more channels</span>
+    <a class="chan n" href="#nightside"><span class="dot"></span>Nightside</a>
+    <a class="chan i" href="#rimefall"><span class="dot"></span>Rimefall</a>
+    <a class="chan g" href="#greendark"><span class="dot"></span>Greendark</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">Volume II · rev. 2 · The Still is greenlit · Husk Belt and Skyrot held on file</p>
+    <h1>Three More Ways<br>To Be Found</h1>
+    <div class="measure">
+      <p class="lede">The Din worked because of one rule underneath it: <em>the infected perceive
+      you through exactly one channel, and that channel is also your economy.</em> Get that right and
+      every enchant, every upgrade and every greedy decision retunes itself for free.</p>
+      <p class="lede">So here are three more channels. Not three reskins of sound — each one
+      produces a genuinely different <em>verb</em> at the pickaxe, a different social shape, and a
+      different endgame inversion.</p>
+    </div>
+
+    <div class="thesis-strip">
+      <div class="ts done">
+        <p class="ch">Volume I — building</p>
+        <h4>The Still</h4>
+        <p>They hear you. Noise is the meter, and your sell price rides it.</p>
+        <span class="verb">Verb: push into the red</span>
+      </div>
+      <div class="ts n">
+        <p class="ch">Channel — sight</p>
+        <h4>Nightside</h4>
+        <p>They freeze when watched. Mining means turning your back.</p>
+        <span class="verb">Verb: choose where to look</span>
+      </div>
+      <div class="ts i">
+        <p class="ch">Channel — heat</p>
+        <h4>Rimefall</h4>
+        <p>They hunt warmth. Warm enough to live, cold enough to hide.</p>
+        <span class="verb">Verb: hold a needle in a band</span>
+      </div>
+      <div class="ts g">
+        <p class="ch">Channel — scent</p>
+        <h4>Greendark</h4>
+        <p>They smell your pockets. Wealth is the beacon, and the forest remembers.</p>
+        <span class="verb">Verb: decide what to carry</span>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════ NIGHTSIDE ══════ -->
+  <section class="tpl n" id="nightside">
+    <div class="band">
+      <p class="pillar">Channel one — sight</p>
+      <h2>Nightside</h2>
+      <p class="sub">They stop when you look at them. You have one face, and the ore is behind you.</p>
+    </div>
+
+    <div class="measure">
+      <p>A tidally locked world around a red dwarf that is most of the way through dying. One face
+      has been in daylight since the planet formed; one has never seen the star at all. The dayside
+      is stripped — three generations of people too frightened to cross the line have taken
+      everything there was. Everything that's left is on the nightside.</p>
+      <p>The nightside is full of statues. Some of them are statues.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>You Cannot Mine And Watch</h4>
+      <p>The <strong>Effigies</strong> freeze the instant they enter a player's gaze cone — 42°,
+      forty blocks, line of sight required — and they hold the pose indefinitely. They have had
+      centuries to get good at it, and the nightside is genuinely littered with real statuary they
+      can stand among. The moment they leave your cone they move, and they move fast.</p>
+      <p>And mining requires facing the block. <strong>Every swing turns your back on the room.</strong>
+      That single collision is the whole server: the resource you're spending isn't stamina or
+      durability, it's <em>attention</em>, and you have exactly one unit of it.</p>
+
+      <div class="cone-row">
+        <div class="cone" role="img" aria-label="Diagram: a 42-degree gaze cone freezing three effigies while six others outside the cone remain free to move.">
+          <div class="wide"></div>
+          <div class="narrow"></div>
+          <b class="froze" style="left:50%;top:22%"></b>
+          <b class="froze" style="left:43%;top:32%"></b>
+          <b class="froze" style="left:57%;top:14%"></b>
+          <b style="left:22%;top:38%"></b>
+          <b style="left:78%;top:44%"></b>
+          <b style="left:31%;top:70%"></b>
+          <b style="left:66%;top:76%"></b>
+          <b style="left:15%;top:60%"></b>
+          <b style="left:86%;top:66%"></b>
+          <div class="eye"></div>
+        </div>
+        <div class="cone-key">
+          <div class="k"><i></i>Frozen — inside the cone</div>
+          <div class="k"><i class="free"></i>Free — everywhere else</div>
+          <p>Three held. Six moving. The faint outer wedge is <strong>Wide Angle</strong> at the top
+          of the Watch tree — 78°, and still not a room.</p>
+          <p class="cone-cap">42° base · 40 blocks · line of sight required · freeze is absolute and
+          lasts as long as you hold it</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sig" data-tag="Two layers, and the difference is the economy">
+      <h4>Gaze Pauses. Light Petrifies.</h4>
+      <p>Two different things stop an Effigy, and keeping them separate is what makes the rest of the
+      server work.</p>
+      <p><strong>Gaze pauses.</strong> Your look cone holds them perfectly, for exactly as long as
+      you hold it, and the instant you look away they move. It's free, it's instant, it's unlimited
+      — and it produces <em>nothing</em>. Gaze is how you survive a room.</p>
+      <p><strong>Light petrifies.</strong> Anything held in real light long enough stops being able
+      to move ever again. It becomes stone, permanently, and stone can be broken, and broken effigy
+      is <strong>Chalk</strong>. Light is how you <em>clear</em> a room.</p>
+      <p>So a Watchman keeps you alive tonight and a lamp makes the shaft permanently safer. That
+      split is why the terminator matters, why the Long Look is the Watch capstone, and — as it turns
+      out — why anyone would ever point a lamp at somebody else.</p>
+    </div>
+
+    <div class="sig" data-tag="The social consequence">
+      <h4>The Watch</h4>
+      <p>Because one player physically cannot mine and hold a room, the core loop is a
+      <strong>pair</strong>: a Miner and a <strong>Watchman</strong>. Solo is entirely playable at
+      roughly half speed, with a lot of turning around, and it is much more frightening — but the
+      economy is built for two.</p>
+      <p>So the Watch gets its own full progression ladder. <strong>A support class in a prison
+      server, which does not exist anywhere.</strong> Watch XP accrues per second of effigy-time
+      held, and the perks are all about the geometry of attention rather than damage or yield.</p>
+
+      <div class="scroll">
+        <table>
+          <tr><th>Watch perk</th><th class="m">Unlock</th><th>Effect</th></tr>
+          <tr><td class="a">Cold Read</td><td class="m">Watch 10</td>
+            <td class="k">Genuine statues get a faint outline. Stops you burning attention on rocks —
+            and teaches you how often you were.</td></tr>
+          <tr><td class="a">Peripheral</td><td class="m">Watch 25</td>
+            <td class="k">A single HUD tick when something unfreezes behind you. No direction, no
+            distance. Just: <em>it moved.</em></td></tr>
+          <tr><td class="a">Afterimage</td><td class="m">Watch 40</td>
+            <td class="k">Targets stay frozen 0.15s per level after leaving your cone. At the cap
+            (~3s) one Watchman can hold a whole chamber by sweeping it, and watching a good one work
+            is genuinely beautiful.</td></tr>
+          <tr><td class="a">Wide Angle</td><td class="m">Watch 60</td>
+            <td class="k">Cone 42° → 78°. Costs you the ability to freeze at range: the far
+            threshold drops to 24 blocks.</td></tr>
+          <tr><td class="a">The Long Look</td><td class="m">Watch 90</td>
+            <td class="k">Hold one target unbroken for 60s and it fixes <em>permanently</em>. Real
+            stone. Harvestable. The Watchman's version of a killing blow.</td></tr>
+        </table>
+      </div>
+      <p style="margin-top:18px">Watchmen take a cut of the Miner's haul, agreed by contract before
+      the run. And <code>/watch</code> publishes two numbers per Watchman: hours held, and
+      <strong>partners lost on their shift</strong>. A public death record attached to a support
+      role. People will care about that number more than they care about money.</p>
+    </div>
+
+    <div class="sig" data-tag="The world clock">
+      <h4>The Terminator Moves</h4>
+      <p>The lock isn't perfect — the planet librates, and the light line sweeps across the surface
+      on a four-hour real cycle. Safe and lethal are separated by a moving frontier, and the richest
+      ore sits just inside the dark, so the best shifts are worked in the sweeping shadow with
+      daylight at your back as an escape route you can physically see.</p>
+      <p>Effigies caught by the advancing light are <strong>fixed permanently</strong> — they become
+      real stone, and they can be broken for <strong>Chalk</strong>. When the line sweeps back, every
+      unfixed statue in the shaft you just cleared stands up. Dawn is when mining gets easy. Dusk is
+      when you find out how many of the things you'd been standing next to were waiting.</p>
+    </div>
+
+    <h3 class="sec">The nightside</h3>
+    <ul class="roster">
+      <li><b>Effigy</b>The baseline. Freezes under gaze, sprints when free, poses convincingly.
+        Individually not that dangerous, which is what makes the bluff work.</li>
+      <li class="key"><b>Mimic Plinth</b>Stands on a real pedestal, among real statues, in a real
+        gallery. Statistically most of the gallery is safe. That is the entire mechanic.</li>
+      <li><b>Chorus</b>Six effigies that only unfreeze together — you have to break line of sight
+        with all six at once, so a Chorus room is a genuine spatial puzzle.</li>
+      <li class="key"><b>The Unlooked</b>Cannot be frozen at all, because it has no face to observe.
+        It's the one thing in the game the Watch cannot touch, and it only spawns in the deepest
+        Leagues. The moment a veteran meets one is the moment the game changes for them.</li>
+      <li><b>The Gallery</b>World boss. A courtyard of four hundred figures, of which eleven are
+        alive, and you have to walk through it.</li>
+    </ul>
+
+    <h3 class="sec">Islands — the lamp economy</h3>
+    <p class="rev"><b>Revised from your note</b>You were right: the first draft had you aiming at a
+    neighbour out of pure goodwill, which means nobody would ever do it. The fix falls straight out
+    of the two-layer rule — <strong>light petrifies, and whoever's light did the petrifying owns the
+    stone.</strong></p>
+    <div class="split">
+      <div>
+        <h4 class="sub2">Why you'd point it at someone</h4>
+        <p>A beam aimed at a working shaft fixes Effigies into stone all night long. That stone is
+        <strong>Chalk</strong>, and it belongs to the lamp, not to the ground. The miner takes the
+        ore. The lamp holder takes the Chalk. Two resources, one operation, nothing to split and
+        nothing to argue about.</p>
+        <p>And aiming at your own quiet island petrifies <em>nothing</em>, because nothing comes to a
+        quiet island. <strong>A lamp only earns when it's pointed at danger</strong> — which means
+        pointed at somebody who is being loud, deep and productive.</p>
+      </div>
+      <div>
+        <h4 class="sub2">What that turns into</h4>
+        <p>Beam slots are limited per island by tier, so good positions are scarce and tradeable. A
+        productive miner advertises — <em>"L19, running till dawn, two slots open"</em> — and lamp
+        holders compete over the best shafts the way people compete over good real estate.</p>
+        <p>Your <em>"I shine you, you shine me"</em> handshake still happens, and now it happens
+        because it <strong>pays both ways</strong> rather than as a favour. And swinging your lamp
+        away mid-shift doesn't only kill your partner — it cuts off your own Chalk mid-flow.
+        Betrayal costs money here, which is exactly why it stays rare, deliberate, and worth talking
+        about for months afterwards.</p>
+      </div>
+    </div>
+
+    <div class="callout"><b>Three careers, and none of them overlap</b>
+      The <strong>Miner</strong> takes the ore and takes the risk. The <strong>Watchman</strong>
+      stands in the room and holds it in real time, for a cut and a public reputation. The
+      <strong>Lamplighter</strong> never enters the shaft at all — they burn their own Lumen from
+      kilometres away to farm Chalk off somebody else's danger. A prison server with a genuine
+      third career that is neither combat nor mining does not currently exist anywhere.
+    </div>
+
+    <h3 class="sec">The world, in section</h3>
+    <div class="measure">
+      <p>Nightside runs sideways rather than down — rank is distance from the light, so the section
+      is a walk, not a shaft. And spawn sits directly on the line.</p>
+    </div>
+    <div class="scroll">
+      <div class="xsec">
+        <div class="xsec-head"><span>km from line</span><span>Layer</span><span></span></div>
+        <div class="xrow">
+          <div class="xy">−40 · −2</div><div class="xb safe" style="--h:36px"></div>
+          <div class="xlab"><b>The Dayside</b>Stripped bare three generations ago. Safe, worthless,
+          and full of people who never crossed.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">−2 · 0</div><div class="xb solid" style="--h:58px"></div>
+          <div class="xlab"><b>The Sill — spawn</b>The last lit town, built along a cliff edge
+          directly on the terminator, so the light line sweeps <em>through the streets</em> four
+          times a day. Half the town stands in gold and half stands in shadow, and which half is
+          yours depends on the hour. It costs you one moving light source and it is the best spawn
+          in these six designs.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">0 · 1</div><div class="xb fog" style="--h:42px"></div>
+          <div class="xlab"><b>The Drop</b>Switchbacks down the cliff face into fog. You lose sight
+          of the Sill about two thirds of the way down, and that moment is when new players
+          understand what kind of game this is.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">1 · 26</div><div class="xb hatch" style="--h:100px"></div>
+          <div class="xlab"><b>The Leagues</b>The nightside floor. L1–L26 spread outward, each
+          further from the light and getting fewer minutes of libration per cycle. Ground fog
+          throughout — you work inside a twelve-block bubble and the statues arrive out of it.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">26 · 70</div><div class="xb deep" style="--h:58px"></div>
+          <div class="xlab"><b>The Deeper Dark</b>Prestige. No libration reaches this far. It has
+          never been light here and it never will be.</div>
+        </div>
+        <div class="xrow hot">
+          <div class="xy">180</div><div class="xb" style="--h:34px"></div>
+          <div class="xlab"><b>The Far Face</b>The antipode. Ascension.</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sec">Space — the Far Face</h3>
+    <p class="rev"><b>Revised from your note</b>Agreed — "your lamp replaces your eyes" was a weak
+    ending. Same verb, worse tool, no reason to care. This is the version that earns the ascension.</p>
+    <div class="measure">
+      <p>The antipode is the point where light has never fallen. Not once, in four billion years.
+      Nothing there was ever observed, so nothing there ever learned to freeze.</p>
+      <p><strong>They learned to do it to you.</strong></p>
+      <p>On the Far Face, being inside something's line of sight <em>locks you in place</em>. A
+      <strong>Regard</strong> does not chase. It looks. You stop. Then it walks toward you without
+      hurrying, and you watch it come the entire way. The polarity of the whole game reverses: you
+      spent a career aiming your attention, and now the game is about staying out of somebody
+      else's. Cover matters. Corners matter. Mining blind matters. The open ground you sprinted
+      across carelessly for a year is now the thing that kills you.</p>
+      <p>And your Watch levels are the one thing that carries — a career spent holding eye contact is
+      precisely what shortens their hold on you. The best Watchmen make the best survivors. It's the
+      only point in the design where a support career converts into personal power, and it lands as
+      a payoff rather than a handout because you spent a year earning it first.</p>
+      <p><strong>The Audience</strong> is the world boss, and it isn't one thing. It's a ring of
+      them, facing inward. Walk into the middle and you do not move again.</p>
+    </div>
+
+    <h3 class="sec">Spine map</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Leagues L1–L26</td>
+          <td class="k">Distance past the terminator. Deeper Leagues get fewer minutes of libration
+          light per cycle — the ladder is measured in <em>how much dark you can stand</em>.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>The Deeper Dark</td>
+          <td class="k">Identical curve and ladder multiplier.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>The Far Face</td>
+          <td class="k">Permanent multipliers, an <code>[FF#]</code> badge, and the gaze mechanic
+          switching off.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Skills (4)</td><td>Five — Mining, Smelting, Selling, Acrobatics, <em>Watch</em></td>
+          <td class="k">One new tree on machinery you already have. It's the most important addition
+          in this template and it's the cheapest.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Void Surge</td><td>The Long Night</td>
+          <td class="k">Libration stalls. No light sweep for forty minutes. Nothing gets fixed,
+          nothing gets easier, and every shaft on the server stays populated.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">The Descent</td><td>The Blind Run</td>
+          <td class="k">Your gaze cone is hidden from the HUD. You still freeze things — you just
+          can't see what you're holding. Pay scales with duration.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Gangs</td><td>Lighthouse rings</td>
+          <td class="k">Membership is literally who is pointing at whom. Gang colour is lamp colour.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>Gaze freeze</td>
+          <td class="k">A dot product against look vector, a range check, a ray, and an AI toggle.
+          Cheap, deterministic, and never desyncs the way sound-based systems can.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Libration sweep</td>
+          <td class="k">A scheduled light/spawn state per region strip. One timer, twenty-six strips.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Money</b><i>Sells and gear</i></li>
+      <li><b>Chalk</b><i>Broken from petrified effigies. Belongs to whoever's light fixed them</i></li>
+      <li><b>Lumen</b><i>Lamp fuel. You burn it farming somebody else's danger</i></li>
+      <li><b>Vigil</b><i>Watch-only. Non-tradeable, so the role can never be bought</i></li>
+      <li><b>Ash</b><i>Far Face</i></li>
+    </ul>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p><strong>Lamp colour and beam shape.</strong> Aimed, moving, and visible across the entire
+      nightside from kilometres out — the most-seen cosmetic in any of these six designs, and it is
+      structurally impossible for it to be pay-to-win because the beam's <em>reach</em> is fixed and
+      only its look is for sale. Below that: crosshair styles, Watchman insignia, and the pose your
+      permanently-fixed effigies are mounted in back at your platform. A veteran Watchman's base is a
+      sculpture garden of things they personally stared to death.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>You have one face. Everything you are looking at is
+    something else you are not.</p>
+
+    <h3 class="sec">Build cost</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>Overall</dt>
+      <dd>Medium — and technically the <em>safest</em> of all six, because gaze is deterministic
+      client-agnostic maths rather than an inferred sensory model.</dd>
+      <dt>Cheap</dt><dd>The cone check. The Watch tree (your skills system with one more entry).
+        Lighthouse aiming. Libration as a region timer.</dd>
+      <dt>Expensive</dt><dd>Making "frozen" <em>read</em>. Mobs must lock mid-stride and look
+        carved, not paused — that's pose work, no ambient animation, no particles, no nameplate.
+        And you have to hand-salt enough real statuary into the world that the bluff lands, which is
+        builder time, not code time.</dd>
+      <dt>Risk</dt><dd>Two-player dependency can strand solo players at off-peak hours. Ship
+        <strong>Watch Posts</strong> — buildable, expensive, immobile pillars that hold a fixed 20°
+        cone — so a solo miner can buy back some of what a partner gives, badly and at cost.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ RIMEFALL ═══════ -->
+  <section class="tpl i" id="rimefall">
+    <div class="band">
+      <p class="pillar">Channel two — heat</p>
+      <h2>Rimefall</h2>
+      <p class="sub">They don't want to eat you. They want to hold you.</p>
+    </div>
+
+    <div class="measure">
+      <p>An ice moon around a gas giant that takes up half the sky. The moon is flexed and kneaded by
+      that gravity, which is why there's ore, why there are quakes, and why the ocean under the ice
+      is warm. Something down there is the reason nothing on the surface is alive any more.</p>
+      <p>The survivors live in domes on the sheet and dig for what the flexing pushes up.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>Core Temp Is A Band, Not A Bar</h4>
+      <p>One number. Three forces pulling it in different directions, all of them lethal:</p>
+      <p><strong>Heat keeps you alive.</strong> Below 28°C you are dying, visibly, on a clock.<br>
+      <strong>Heat powers your tools.</strong> Every swing spends it — better picks spend more.<br>
+      <strong>Heat is how they find you.</strong> Above 35°C the Cold can read you from ninety blocks.</p>
+      <p>The survivable-and-hidden window is about <strong>31–34°C</strong>, and every system in the
+      game is pushing you out of it. Veterans "<strong>run cold</strong>" — deliberately hypothermic
+      at three hearts, invisible, one bad tick from dead. It'll be server slang inside a week.</p>
+
+      <div class="therm scroll">
+        <div class="therm-grid">
+          <div class="therm-lab">Alive</div>
+          <div class="therm-track"><i style="left:25%;right:0"></i></div>
+          <div class="therm-lab">Hidden</div>
+          <div class="therm-track"><i style="left:0;right:31.25%"></i></div>
+          <div class="therm-lab">The window</div>
+          <div class="therm-track"><i class="win" style="left:43.75%;right:37.5%"></i></div>
+          <div class="therm-lab">Flexstone</div>
+          <div class="therm-track"><i style="left:0;right:0"></i></div>
+          <div class="therm-lab">Rime crystal</div>
+          <div class="therm-track"><i style="left:0;right:43.75%"></i></div>
+          <div class="therm-lab">Magmite</div>
+          <div class="therm-track"><i class="warn" style="left:75%;right:0"></i></div>
+          <div class="therm-lab"></div>
+          <div class="therm-axis">
+            <span style="left:0">24°</span><span style="left:25%">28°</span>
+            <span style="left:50%">32°</span><span style="left:75%">36°</span>
+            <span style="left:100%">40°</span>
+          </div>
+        </div>
+        <p class="therm-note">Read the bottom row again. <b>Magmite's working range does not
+        intersect the hidden band at all.</b> There is no build, no enchant and no amount of money
+        that lets you cut magmite without lighting yourself up — the only question is who you bring
+        and how fast you work.</p>
+      </div>
+    </div>
+
+    <div class="sig" data-tag="Why it isn't The Still again">
+      <h4>The Material Sets The Band</h4>
+      <p>In The Still you push a meter into the red and get paid for nerve. Here you are
+      <strong>holding a needle inside a narrow window while the rock you're cutting decides where
+      that window is</strong>. Rime crystal shatters if you're warm, so you work it while dying.
+      Magmite won't cut if you're cool, so you work it while visible. Flexstone is fine anywhere,
+      which is why it's cheap.</p>
+      <p>That single rule turns the entire gear tree into a <strong>thermal management</strong>
+      vocabulary that no Minecraft server has ever used: vents, sinks, coolant loops, insulation,
+      bleed valves. The enchant ladder becomes <em>Bleed</em> (dump heat fast), <em>Kindle</em>,
+      <em>Lag</em> (slows change in both directions — the defensive pick), <em>Deadman</em>
+      (auto-vents at 36°C, saves your life, wrecks your rime yield).</p>
+      <p>And it retunes everything you've already built for free, because every existing enchant just
+      gains a <code>heatPerProc</code> field.</p>
+    </div>
+
+    <div class="sig" data-tag="Islands">
+      <h4>Your Dome Melts Its Own Foundation</h4>
+      <p>Islands are hab domes standing on an ice sheet with a real, tracked, per-chunk thickness.
+      Your dome's heat thins the ice under it. Your build's mass presses down on it. Both numbers are
+      visible in your own base, on a panel you will learn to check obsessively.</p>
+      <p>Get it wrong and the dome <strong>goes through</strong>. Not a debuff — the whole thing,
+      into the black water, gone. Thickness recovers slowly, so upkeep means pumping cold,
+      reinforcing with Ballast, or simply building smaller than you can afford. Every other island
+      sink in these six designs bleeds you gradually. This one waits, and then takes everything at
+      once.</p>
+    </div>
+
+    <h3 class="sec">The world, in section</h3>
+    <p class="rev"><b>Answering your layout question</b>Yes — the ocean is under the ice, and the
+    layout <em>is</em> the design. Paper gives you −64 to 320 and this world spends every block of it
+    on one idea: <strong>everything you own is standing on the ceiling of an ocean.</strong></p>
+    <div class="scroll">
+      <div class="xsec">
+        <div class="xsec-head"><span>Y range</span><span>Layer</span><span></span></div>
+        <div class="xrow">
+          <div class="xy">320 · 220</div><div class="xb" style="--h:38px"></div>
+          <div class="xlab"><b>Sky</b>The gas giant takes up half of it and never moves. Aurora
+          where its magnetosphere drags across the moon.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">220 · 165</div><div class="xb safe" style="--h:44px"></div>
+          <div class="xlab"><b>Domes</b>Your build space. Everything you own, standing on ice.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">160</div><div class="xb solid" style="--h:22px"></div>
+          <div class="xlab"><b>The surface</b>Flat white to the horizon, whiteout fog at ninety
+          blocks so it reads as endless in every direction.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">160 · 20</div><div class="xb hatch" style="--h:126px"></div>
+          <div class="xlab"><b>The sheet</b>140 blocks of ice, and your entire career. Bores are
+          chambers cut into it: B1 at Y150 within sight of town, B26 at Y70 far out on the plain,
+          prestige bores P1–P30 from Y65 down to Y28. Rank is depth <em>and</em> distance at the same
+          time, so the ladder is also a commute.</div>
+        </div>
+        <div class="xrow hot">
+          <div class="xy">20 · 18</div><div class="xb" style="--h:16px"></div>
+          <div class="xlab"><b>The last ice</b>Two blocks. Visible from the floor of the deepest
+          bore. Not a rule — a taboo.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">18 · −55</div><div class="xb deep" style="--h:74px"></div>
+          <div class="xlab"><b>The Warm Dark</b>Ocean. Black, fogged to eight blocks, 4°C, constant.
+          Ascension only.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">−55 · −64</div><div class="xb" style="--h:24px"></div>
+          <div class="xlab"><b>The floor</b>And what has been down there the whole time.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout"><b>Metres of ice below you</b>
+      Every bore carries one HUD readout, and it is the cruellest number in these six designs. At B1
+      it says <strong>130</strong>. At P30 it says <strong>8</strong>. Your rank ladder is measured
+      in how much ice is left between you and the water, and you watch that number fall for your
+      entire career. The Bore event is drilling past your licensed depth five metres at a time —
+      paying more each time, counting down in front of you.
+    </div>
+
+    <div class="callout"><b>And your dome is down there</b>
+      When a dome goes through the sheet it doesn't despawn. It <em>lands</em>. There are wrecked
+      domes scattered across the ocean floor with names still on them. Ascend, and you can go and
+      find yours — and take back what's left of the thing you lost in your first month. It costs you
+      a stored coordinate and a schematic paste, and it buys the single best emotional payoff
+      anywhere in this document.
+    </div>
+
+    <h3 class="sec">The Cold</h3>
+    <ul class="roster">
+      <li><b>Numb</b>Common, slow, arms already out. Ambient temperature, so your thermal HUD shows
+        it as background until it's close.</li>
+      <li class="key"><b>Clasp</b>Grapples and holds. While held your core temp falls 6× and you
+        cannot mine, cannot swing, cannot leave. Someone has to come and break you out, and the
+        arithmetic of whether they'll make it is the most stressful maths on the server.</li>
+      <li><b>Sleeper</b>Buried in the drift at exactly ambient. Invisible to every detection method
+        in the game. Wakes when something warm passes within three blocks.</li>
+      <li class="key"><b>The Warmth</b>Reads on your thermal HUD exactly like a campfire. In a game
+        where heat is life, this is the cruellest possible mob and it is absolutely the correct
+        design. Everyone gets caught by their first one. Nobody forgets it.</li>
+      <li><b>Whitemother</b>World boss — a storm front with a body somewhere inside it. You never
+        see all of her at once.</li>
+    </ul>
+
+    <h3 class="sec">Space — the Warm Dark</h3>
+    <div class="measure">
+      <p>The endgame is not up. It's <strong>down, through the sheet, into the ocean.</strong></p>
+      <p>Down there the water is a constant 4°C and you cannot regulate at all — the band system you
+      spent a year mastering simply stops functioning. You carry heat down in a tank, it only ever
+      goes one way, and the tension changes shape entirely: not a needle to hold, a
+      <strong>countdown to spend</strong>. Ascension doesn't scale the challenge. It replaces it.</p>
+      <p>And the thing the Cold were made from is down there, and it is warm, and it has been warm
+      this whole time.</p>
+    </div>
+
+    <h3 class="sec">Spine map</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Bores B1–B26</td>
+          <td class="k">Drill stations punched through the sheet at increasing depth. Same ladder,
+          same costs, colder ambient at each step so the band gets harder to hold.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>Deep Ice</td>
+          <td class="k">Unchanged maths.</td><td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>The Warm Dark</td>
+          <td class="k">Under the sheet. The mechanic changes shape rather than scaling.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Custom ores (6)</td><td>Thermal ores</td>
+          <td class="k">Each unlocks with a working temperature instead of a prestige gate. Same
+          six-item progression, entirely new decision attached.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Pets (19)</td><td>Thermal symbiotes</td>
+          <td class="k">Finally a pet with real mechanical weight that isn't pay-to-win: each one
+          regulates your temperature differently, trading one danger for another. Still earned only,
+          still never sold.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Void Surge</td><td>Whiteout</td>
+          <td class="k">Server-wide. Ambient drops 20°, every dome's heater burns 4×, and every
+          player's band narrows at once.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">The Descent</td><td>The Bore</td>
+          <td class="k">Push-your-luck straight down through the sheet. Every 50m pays more. Hit
+          water and you and everything on you are gone.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>Core temp</td>
+          <td class="k">One float, three inputs, and it retunes your entire existing gear ladder for
+          free. Cheapest high-impact system in this document.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Ice sheet state</td>
+          <td class="k">Per-chunk thickness, thermal diffusion, mass load, and a collapse that is
+          spectacular without corrupting anything. This is the real cost.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Money</b><i>Sells and gear</i></li>
+      <li><b>Calor</b><i>Bottled heat. Banked, spent, stolen, gifted</i></li>
+      <li><b>Rime</b><i>Crystal. Thermal gear and enchants</i></li>
+      <li><b>Ballast</b><i>Ice reinforcement. Keeps your dome up</i></li>
+      <li><b>Brine</b><i>The Warm Dark</i></li>
+    </ul>
+    <div class="measure">
+      <p style="margin-top:16px"><strong>Calor is the best currency in any of these six designs</strong>,
+      because it is simultaneously money and lifespan. You can be robbed of the time you had left.
+      You can hand a stranger twenty minutes of being alive. Every economic interaction on this
+      server carries a second meaning for free, and you didn't have to write a word of it.</p>
+    </div>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p><strong>Dome silhouettes and window light.</strong> A flat white plain under a gas giant is
+      the most legible backdrop in any of these worlds — a lit dome reads from an enormous distance
+      and there is nothing else to look at. Plus breath plumes, visor frost patterns, and heater
+      flame colour. Nothing sold touches temperature, ever.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>Warm enough to live, cold enough to hide, exact enough to
+    work. Pick two. You will never have three.</p>
+
+    <h3 class="sec">Build cost</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Overall</dt>
+      <dd>Medium-heavy. The mechanic is cheap; the ice sheet is not.</dd>
+      <dt>Cheap</dt><dd>Core temp. Working temperatures (a lookup table). Calor. The whole thermal
+        enchant rewrite is a field on existing objects.</dd>
+      <dt>Expensive</dt><dd>Per-chunk ice thickness with diffusion, and a dome collapse that is safe,
+        spectacular and non-destructive to player data. <strong>Prototype the collapse before you
+        promise it to anyone</strong> — it's the feature people will join for and the one most likely
+        to eat a month.</dd>
+      <dt>Risk</dt><dd>A band is much less forgiving than a bar. New players will die to
+        hypothermia repeatedly in the first hour and blame the game. Give the first three Bores a
+        wide, generous window and narrow it as they climb, so the difficulty is in the ladder rather
+        than the tutorial.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ GREENDARK ══════ -->
+  <section class="tpl g" id="greendark">
+    <div class="band">
+      <p class="pillar">Channel three — scent, and memory</p>
+      <h2>Greendark</h2>
+      <p class="sub">It doesn't hunt players. It hunts wealth — and it never forgets where it found some.</p>
+    </div>
+
+    <div class="measure">
+      <p>The spores came down eleven years ago on something that fell out of orbit. What grew out of
+      them is one organism, it covers the world now, and it is extremely patient. People live up in
+      the canopy because the floor belongs to the Root.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>You Smell Like What You Are Carrying</h4>
+      <p>Your <strong>scent radius</strong> is a direct function of your inventory's sell value.
+      Empty pockets are almost nothing. A full load is a flare. The Root does not track players — it
+      tracks value, and it will walk past a broke man to reach a rich one.</p>
+
+      <div class="scent scroll">
+        <div class="scent-row"><div class="what">Empty pockets</div>
+          <div class="bar" style="width:5.7%"></div><div class="r">8 m</div></div>
+        <div class="scent-row"><div class="what">Tools and a snack</div>
+          <div class="bar" style="width:15.7%"></div><div class="r">22 m</div></div>
+        <div class="scent-row"><div class="what">Half a shift</div>
+          <div class="bar" style="width:39%"></div><div class="r">55 m</div></div>
+        <div class="scent-row"><div class="what">Full load, common ore</div>
+          <div class="bar" style="width:64%"></div><div class="r">90 m</div></div>
+        <div class="scent-row peak"><div class="what">Full load, deep ore</div>
+          <div class="bar" style="width:100%"></div><div class="r">140 m</div></div>
+      </div>
+
+      <p style="margin-top:20px">Which means <strong>the grind loop and the horror loop are the same
+      loop.</strong> Every prison server has a "mine until full, then walk to the sell chest" rhythm.
+      This one makes that walk the actual game. Banking often costs you time. Banking rarely costs
+      you everything.</p>
+      <p>And the counter-play writes itself without you designing any of it: <strong>decoys</strong>
+      (drop a stack of gold to bloom a false plume and leave the other way — wealth as a smoke
+      grenade), <strong>mules</strong> (split a haul so neither of you crosses a threshold),
+      <strong>scent-tight cases</strong> (heavy, slow, few slots, and the only encumbrance system
+      players will ever thank you for), and <strong>ambush</strong> — because
+      <code>/nose</code> shows other players nearby plumes by intensity but never by identity. That
+      ninety-metre bloom is either a rich stranger or bait, and there is no way to know but to go
+      and look.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>The Root Remembers, Server-Wide</h4>
+      <p>Every infected on the map is a fruiting body of one mycelial network. What one learns, all
+      of them know — permanently, decaying only very slowly. Killing them does nothing. The knowledge
+      is in the floor.</p>
+      <p>The Root keeps a live heat map of <strong>where players actually went</strong>. Not a
+      spawn table you wrote: a record of behaviour. Attention accumulates on high-traffic tiles.
+      Attention becomes pressure. Pressure becomes ambush density, then root-walls, then a
+      <strong>Bloom</strong> — a permanent hostile installation grown in the exact place your
+      players love most.</p>
+      <p><strong>This is a difficulty curve driven entirely by player behaviour, and it solves a real
+      problem you already have.</strong> On every prison server everyone converges on the current
+      meta mine and it goes stale and you nerf it in a patch. Here, the meta mine
+      <em>becomes the dangerous mine automatically</em>. The map rebalances itself, popularity is
+      punished by the world instead of by you, and you never write another nerf note.</p>
+    </div>
+
+    <div class="sig" data-tag="What memory looks like on the ground">
+      <h4>The Creep</h4>
+      <p>Attention isn't only a number in a database — the Root grows <strong>tissue</strong> into
+      the places it's thinking about. Pale ropes, bladders, fans of something between fungus and
+      muscle, spreading over ground, walls, ceilings and your own bridges.</p>
+      <p>It isn't a mob. It doesn't attack. <strong>It only has to be touched.</strong> Brush creep
+      and it ruptures: a spore burst that spikes your scent radius by +60m for ninety seconds. You
+      take no damage whatsoever. You are simply <em>announced</em>, in the worst place, at the worst
+      possible time.</p>
+      <p>Creep grows fastest where attention is highest, so the routes everybody uses are the routes
+      that slowly close. Traversing a popular corridor turns into a genuine platforming problem that
+      gets tighter every week the server keeps using it — and you can read the server's whole history
+      off the ground. Dense creep means this was somebody's favourite way home. New players learn
+      where the money is by following the overgrowth, which is precisely where it is most dangerous.</p>
+    </div>
+
+    <div class="sig" data-tag="Your note — the Bloom, escalated">
+      <h4>The Boss Is Made Of Your Playtime</h4>
+      <p>You were right that a Bloom shouldn't just sit there being a debuff. It should
+      <strong>grow, it should be killable, and it should pay.</strong></p>
+      <p>Past the creep threshold a Bloom takes root, and then it keeps feeding on the attention
+      still flowing in. Seven stages, each bigger, meaner, wider — and worth more. Which means a
+      Bloom's stage is a direct readout of <em>how many hours your server collectively poured into
+      that spot</em>. Nobody spawns it. Nobody schedules it. You farm it into existence without
+      meaning to, and then you have to deal with what you made.</p>
+
+      <div class="scroll">
+        <table>
+          <tr><th>Stage</th><th class="m">Creep radius</th><th>What changes</th></tr>
+          <tr><td class="a">1 · Seeded</td><td class="m">20 m</td>
+            <td class="k">A bud. Barely a mob. Kill it now and it costs you nothing — and pays you
+            almost nothing.</td></tr>
+          <tr><td class="a">2 · Rooted</td><td class="m">40 m</td>
+            <td class="k">Structure. Begins spawning Fruit on its own.</td></tr>
+          <tr><td class="a">3 · Swollen</td><td class="m">70 m</td>
+            <td class="k">Ambient scent penalty across the whole zone. Working nearby now costs you
+            visibility whether you like it or not.</td></tr>
+          <tr><td class="a">4 · Crowned</td><td class="m">110 m</td>
+            <td class="k">Grows a canopy and the area visibly darkens. You can see it from the Bole.</td></tr>
+          <tr><td class="a">5 · Gravid</td><td class="m">150 m</td>
+            <td class="k">It starts seeding <em>new</em> Blooms nearby. This is the line where the
+            server collectively realises it should have handled this.</td></tr>
+          <tr><td class="a">6 · Ancient</td><td class="m">200 m</td>
+            <td class="k">The grove is a no-go without a full crew. Multi-gang raid territory.</td></tr>
+          <tr><td class="a">7 · The Mother</td><td class="m">Spreading</td>
+            <td class="k">It stops taking attention and starts taking <strong>ground</strong>. Creep
+            advances on its own, toward the Bole, and it does not stop.</td></tr>
+        </table>
+      </div>
+
+      <p style="margin-top:20px">Kill it and the reward scales with the stage it reached, paid in
+      <strong>Spore</strong> — plus a trophy engraved with the grove's name and the date, which is
+      permanent public proof that your server let one get that far and then handled it.</p>
+      <p><strong>And killing a Bloom wipes the attention inside its radius.</strong> The raid
+      <em>is</em> the reset. Which closes the entire loop with nothing scheduled and nothing
+      configured: grind → attention → creep → Bloom → raid → clean ground → grind.</p>
+    </div>
+
+    <div class="sig" data-tag="The behaviour that creates">
+      <h4>People Will Farm Their Own Boss</h4>
+      <p>Watch what falls out of that reward curve. Kill it early: easy, safe, cheap. Let it grow:
+      your best mine gets harder every single day, and the payout climbs.</p>
+      <p>So gangs will <strong>deliberately feed a Bloom</strong> — keep grinding beside it to fatten
+      it up, then defend it from other players who want it dead <em>now</em> because it's strangling
+      their grove. One gang's investment is another gang's infestation, and both of them are right.</p>
+      <p><strong>Defending a boss from being killed is a PvP objective no server has</strong>, because
+      bosses are normally server property. Here the boss is somebody's savings account, and everyone
+      can watch it getting bigger from the Bole.</p>
+    </div>
+
+    <div class="sig" data-tag="The answer">
+      <h4>Burning Back</h4>
+      <p>Fire is the one thing the Root cannot remember through. A burned tile loses its accumulated
+      attention and starts again at nothing.</p>
+      <p>So the server develops a real, communal, ritualised practice of <strong>burning back</strong>
+      the places it works — and burning is expensive, slow, dangerous and visible from every platform
+      in sight. The great mines stay great only because somebody maintains them, and maintenance is a
+      <em>public act</em> that everybody benefits from and somebody has to pay for.</p>
+      <p>Gangs will form around burn schedules. Groves will be defended, taxed, and fought over on
+      the basis of who cleared them last. That is your entire social endgame, and it grew out of one
+      decaying float per chunk.</p>
+    </div>
+
+    <h3 class="sec">Spawn — the Bole</h3>
+    <p class="rev"><b>Your idea, taken</b>One enormous tree that everyone lives on, beats scattered
+    canopy platforms outright. It gives the server a single silhouette, a vertical social ladder, and
+    a descent into fog. Here it is with the one twist I'd add.</p>
+    <div class="split">
+      <div>
+        <p><strong>The Bole</strong> is a tree the size of a mountain, and the entire server lives
+        lashed to its trunk — platforms, walkways, hollowed chambers, market halls cut into
+        heartwood. Higher up the Bole means better districts, so where you live is legible to
+        everyone without it being your rank.</p>
+        <p>And the twist: <strong>the Bole is part of the Root, and everybody knows it.</strong> It
+        has never eaten anyone and nobody can say why. You live inside the mouth of the thing that is
+        hunting you, under a truce no one understands, and there is an entire civic religion built
+        around not giving it a reason.</p>
+      </div>
+      <div>
+        <p>You leave by the <strong>Long Ladder</strong> and descend the trunk into fog. You lose
+        sight of the Bole about two thirds of the way down and everything below that is the game.</p>
+        <p>Bridges out on the floor are player-built and shared, and a bridge is a <strong>scent
+        corridor</strong> — a rich neighbourhood drags pressure onto everyone connected to it, so who
+        you let build toward you is a real economic decision. Wealthy districts fund burn crews or
+        they get eaten. Poor districts stay quiet and stay safe. The class dynamics are entirely
+        emergent and completely legible from the trunk.</p>
+      </div>
+    </div>
+
+    <h3 class="sec">The world, in section</h3>
+    <div class="scroll">
+      <div class="xsec">
+        <div class="xsec-head"><span>Y range</span><span>Layer</span><span></span></div>
+        <div class="xrow">
+          <div class="xy">320 · 250</div><div class="xb" style="--h:34px"></div>
+          <div class="xlab"><b>The crown</b>Canopy above the Bole, lantern moths, and the launch
+          structure visible far beyond it. You can see the endgame from spawn on your first night.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">250 · 150</div><div class="xb safe" style="--h:82px"></div>
+          <div class="xlab"><b>The Bole</b>Spawn, the Bazaar, banks, districts. Safe — for reasons
+          nobody has ever established.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">150 · 110</div><div class="xb solid" style="--h:34px"></div>
+          <div class="xlab"><b>The Long Ladder</b>The descent down the trunk.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">110 · 80</div><div class="xb fog" style="--h:42px"></div>
+          <div class="xlab"><b>The fog line</b>Where the Bole disappears behind you. This is where
+          most people turn back on their first attempt, and they should.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">80 · 10</div><div class="xb hatch" style="--h:78px"></div>
+          <div class="xlab"><b>The floor</b>Cuts C1–C26 spread across it. Ground fog throughout.</div>
+        </div>
+        <div class="xrow">
+          <div class="xy">10 · −30</div><div class="xb deep" style="--h:48px"></div>
+          <div class="xlab"><b>The root line</b>Prestige. Where the network runs thickest and the
+          creep never stops.</div>
+        </div>
+        <div class="xrow hot">
+          <div class="xy">−30 · −64</div><div class="xb" style="--h:34px"></div>
+          <div class="xlab"><b>The Deep</b>The descent event. No banking, and the loot is the timer.</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sec">Space — the Canopy Break</h3>
+    <div class="measure">
+      <p>The thing that fell was a <strong>seedship</strong>, and most of it is still in orbit, and
+      the planet is being terraformed into a launcher. The whole biosphere is one organ building a
+      gun and aiming it at the next world.</p>
+      <p>Ascension is the <strong>Canopy Break</strong> — up past the treeline into the launch
+      structure, where there is no soil, so no network, so no memory. Nothing up there has ever seen
+      a human and nothing up there can ever learn.</p>
+      <p>Which sounds like relief for about a day. Then it lands: <em>nothing you do up there
+      accumulates.</em> No place ever gets safer. No route ever becomes routine. Every encounter is
+      first contact, forever, and you cannot make anywhere yours. Down below, the world knew you far
+      too well. Up here it can never know you at all, and it turns out that's the worse of the two.</p>
+    </div>
+
+    <h3 class="sec">Spine map</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Cuts C1–C26</td>
+          <td class="k">Groves burned clear at increasing depth into the forest floor. Same costs,
+          same ladder.</td><td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Mine resets</td><td>Regrowth</td>
+          <td class="k">Groves grow back on a timer — and grow back <em>worse</em> if they were
+          heavily worked. A diegetic mine reset with a memory, using the machinery you already have
+          plus one state modifier.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>The Deep Wood</td>
+          <td class="k">Unchanged.</td><td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>The Canopy Break</td>
+          <td class="k">Above the treeline. No network, no memory, no accumulation.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">/sellall pricing</td><td>Scent radius</td>
+          <td class="k">You already price a whole inventory in one call. Scent is that number
+          through a curve. This is close to <em>free</em>.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Void Surge</td><td>The Flowering</td>
+          <td class="k">Every Bloom releases at once, server-wide. Scent radii triple. The twenty
+          minutes after the announcement — the entire server sprinting for the nearest bank,
+          abandoning hauls, screaming in chat — is the best comedy any of these designs produce.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">The Descent</td><td>The Deep</td>
+          <td class="k">Below the root line, where the network is densest and the value is highest.
+          Your scent doesn't shrink down there and you cannot bank. <strong>The loot is the
+          timer</strong> — every single thing you pick up makes the trip back worse. That's a
+          genuinely new version of push-your-luck.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Auction house</td><td>The Bazaar</td>
+          <td class="k">Held in the canopy. A busy market day is a server-wide scent event, so
+          commerce is dangerous, so markets need guards, so guards need paying.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>The attention heat map</td>
+          <td class="k">One decaying float per chunk. The most interesting thing in this entire
+          document per line of code written.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Burn / regrowth</td>
+          <td class="k">The real work — but build it as a state modifier on your existing mine-reset
+          system, not as new terrain code.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Money</b><i>Sells and gear</i></li>
+      <li><b>Ash</b><i>From burned tiles. Buys burn tools — spend the forest to fight the forest</i></li>
+      <li><b>Sap</b><i>Great trees only. Canopy expansion</i></li>
+      <li><b>Spore</b><i>Harvested from Blooms. Reeks</i></li>
+      <li><b>Sterile</b><i>Canopy Break. The only currency with no smell</i></li>
+    </ul>
+    <div class="measure">
+      <p style="margin-top:16px"><strong>Spore is the sharpest object in these six designs:</strong>
+      a high-tier currency that <em>increases your scent radius while you hold it</em>. A currency you
+      are punished for hoarding. Every prison server on earth has an inflation problem caused by
+      players sitting on enormous piles of the top currency — this one makes the pile itself hunt
+      you, and the economy self-drains without a single tax.</p>
+    </div>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p><strong>Their own plume.</strong> Scent is rendered as a drifting particle trail whose
+      density is your carried value, and its colour, shape and drift pattern are cosmetic. You can
+      never make it smaller — only prettier. Rich players are ostentatiously, dangerously visible and
+      they pay for the privilege of being visible in <em>style</em>, which is the single most
+      pay-to-win-proof monetisation in this document. Below that: hold silhouettes, lantern moths,
+      and bridge styles.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>The world keeps score. Everything you take, you carry —
+    and everywhere you go, it learns.</p>
+
+    <h3 class="sec">Build cost</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>Overall</dt>
+      <dd>Medium — and the best idea-to-effort ratio of all six.</dd>
+      <dt>Cheap</dt><dd>Scent radius (a curve over a value you already compute). The heat map (a
+        float per chunk with decay). The Flowering. The Deep. Spore.</dd>
+      <dt>Expensive</dt><dd>Burn mechanics and regrowth, and the canopy world itself — trees at
+        terrain scale are a builder problem more than a code one.</dd>
+      <dt>Risk</dt><dd>An emergent difficulty curve can run away and quietly strangle your best
+        mine. Cap per-tile pressure, decay it faster than you think you need to, and put the Root's
+        heat map on a <code>/config</code> page from <em>day one</em> — you need to be able to see
+        the map the way the Root sees it or you will be debugging a ghost.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ CLOSING ════════ -->
+  <section class="close">
+    <p class="eyebrow">Grafting — if you'd rather not start over</p>
+    <h2>Three things you could steal for The Still</h2>
+    <div class="measure">
+      <p>You're already building The Still, and these are whole servers. But each has one piece that
+      bolts onto the Din without touching its design — and picking pieces beats picking servers.</p>
+    </div>
+    <div class="graft">
+      <div class="n">
+        <h4>Take the Watch</h4>
+        <p>A support skill tree with a public reputation number, on machinery you already have. In
+        The Still it becomes a <strong>Listener</strong> — a second player who stays silent so the
+        miner can be loud, and whose Din budget is spent on someone else's greed. Turns a solo
+        horror server into a two-person one for almost nothing.</p>
+      </div>
+      <div class="i">
+        <h4>Take Calor</h4>
+        <p>A currency that is also your lifespan. In The Still the direct equivalent is
+        <strong>bottled quiet</strong> — a consumable that eats Din, tradeable, giftable, stealable.
+        Suddenly a rich player can buy their way out of a Choir and a poor one can sell them the
+        chance to.</p>
+      </div>
+      <div class="g">
+        <h4>Take the heat map</h4>
+        <p>One decaying float per chunk recording where players actually went — and it is
+        <strong>channel-agnostic</strong>. It feeds noise, heat or scent identically, so it drops
+        into The Still unchanged: <strong>the shafts everyone works get louder</strong>, ambient Din
+        floor rising with traffic. Your meta mine nerfs itself forever and you never write another
+        patch note. And the Bloom comes free with it — let a shaft's floor climb long enough and
+        something should be <em>living</em> in it, worth killing, worth arguing over.</p>
+      </div>
+    </div>
+  </section>
+
+</div>

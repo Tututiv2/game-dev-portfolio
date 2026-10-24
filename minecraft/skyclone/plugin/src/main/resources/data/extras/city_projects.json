@@ -1,0 +1,374 @@
+[
+ {
+  "id": "harbor_restoration",
+  "name": "Harbor Restoration",
+  "icon": "FISHING_ROD",
+  "desc": [
+   "The old pier is rotting into the pond.",
+   "Rebuild it board by board."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "skill_xp",
+   "skill": "FISHING",
+   "value": 0.05,
+   "text": "+5% Fishing XP"
+  },
+  "components": [
+   {
+    "id": "pier_planks",
+    "name": "Pier Planks",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_OAK_LOG": 64
+    },
+    "stat": "FISHING_SPEED",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "net_racks",
+    "name": "Net Racks",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_STRING": 64
+    },
+    "stat": "FISHING_SPEED",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "lighthouse_lamp",
+    "name": "Lighthouse Lamp",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_GLOWSTONE_DUST": 32
+    },
+    "stat": "SEA_CREATURE_CHANCE",
+    "value": 0.5,
+    "sbxp": 10
+   },
+   {
+    "id": "bait_cellar",
+    "name": "Bait Cellar",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_RAW_FISH": 64
+    },
+    "stat": "SEA_CREATURE_CHANCE",
+    "value": 0.5,
+    "sbxp": 10
+   }
+  ]
+ },
+ {
+  "id": "library_wing",
+  "name": "Grand Library Wing",
+  "icon": "BOOKSHELF",
+  "desc": [
+   "The library has run out of shelves.",
+   "Fund a new wing for the scribes."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "skill_xp",
+   "skill": "ENCHANTING",
+   "value": 0.05,
+   "text": "+5% Enchanting XP"
+  },
+  "components": [
+   {
+    "id": "oak_shelves",
+    "name": "Oak Shelves",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_PAPER": 64
+    },
+    "stat": "INTELLIGENCE",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "reading_lamps",
+    "name": "Reading Lamps",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_GLOWSTONE_DUST": 32
+    },
+    "stat": "INTELLIGENCE",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "ink_vats",
+    "name": "Ink Vats",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_INK_SACK": 64
+    },
+    "stat": "INTELLIGENCE",
+    "value": 3,
+    "sbxp": 10
+   },
+   {
+    "id": "lapis_dome",
+    "name": "Lapis Dome",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_LAPIS_LAZULI": 128
+    },
+    "stat": "ENCHANTING_WISDOM",
+    "value": 1,
+    "sbxp": 10
+   }
+  ]
+ },
+ {
+  "id": "guildhall",
+  "name": "Miners' Guildhall",
+  "icon": "IRON_PICKAXE",
+  "desc": [
+   "Miners need a hall to swap stories",
+   "and sharpen picks between shifts."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "skill_xp",
+   "skill": "MINING",
+   "value": 0.05,
+   "text": "+5% Mining XP"
+  },
+  "components": [
+   {
+    "id": "stone_footings",
+    "name": "Stone Footings",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_COBBLESTONE": 128
+    },
+    "stat": "MINING_SPEED",
+    "value": 5,
+    "sbxp": 10
+   },
+   {
+    "id": "iron_beams",
+    "name": "Iron Beams",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_IRON": 64
+    },
+    "stat": "MINING_SPEED",
+    "value": 5,
+    "sbxp": 10
+   },
+   {
+    "id": "coal_furnaces",
+    "name": "Coal Furnaces",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_COAL": 64
+    },
+    "stat": "MINING_FORTUNE",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "mithril_bell",
+    "name": "Mithril Bell",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_MITHRIL": 32
+    },
+    "stat": "MINING_FORTUNE",
+    "value": 3,
+    "sbxp": 10
+   }
+  ]
+ },
+ {
+  "id": "granary",
+  "name": "Farmers' Granary",
+  "icon": "HAY_BLOCK",
+  "desc": [
+   "Harvests rot without a dry store.",
+   "Raise a granary for the whole valley."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "skill_xp",
+   "skill": "FARMING",
+   "value": 0.05,
+   "text": "+5% Farming XP"
+  },
+  "components": [
+   {
+    "id": "grain_bins",
+    "name": "Grain Bins",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_WHEAT": 128
+    },
+    "stat": "FARMING_FORTUNE",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "root_cellar",
+    "name": "Root Cellar",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_POTATO": 64,
+     "ENCHANTED_CARROT": 64
+    },
+    "stat": "FARMING_FORTUNE",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "sugar_mill",
+    "name": "Sugar Mill",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_SUGAR": 64
+    },
+    "stat": "FARMING_FORTUNE",
+    "value": 3,
+    "sbxp": 10
+   },
+   {
+    "id": "weathervane",
+    "name": "Weathervane",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_GOLD": 64
+    },
+    "stat": "FARMING_WISDOM",
+    "value": 1,
+    "sbxp": 10
+   }
+  ]
+ },
+ {
+  "id": "watchtower",
+  "name": "Graveyard Watchtower",
+  "icon": "STONE_BRICKS",
+  "desc": [
+   "Something keeps climbing out of the",
+   "graveyard at night. Build a lookout."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "mob_coins",
+   "value": 0.05,
+   "text": "+5% coins from mobs"
+  },
+  "components": [
+   {
+    "id": "palisade",
+    "name": "Palisade",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_ROTTEN_FLESH": 64
+    },
+    "stat": "STRENGTH",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "bone_braziers",
+    "name": "Bone Braziers",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_BONE": 64
+    },
+    "stat": "STRENGTH",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "signal_horn",
+    "name": "Signal Horn",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_GUNPOWDER": 64
+    },
+    "stat": "DEFENSE",
+    "value": 5,
+    "sbxp": 10
+   },
+   {
+    "id": "watch_crystal",
+    "name": "Watch Crystal",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_ENDER_PEARL": 32
+    },
+    "stat": "CRIT_DAMAGE",
+    "value": 2,
+    "sbxp": 10
+   }
+  ]
+ },
+ {
+  "id": "festival_grounds",
+  "name": "Festival Grounds",
+  "icon": "FIREWORK_ROCKET",
+  "desc": [
+   "A proper field for fairs, fireworks",
+   "and the odd parade."
+  ],
+  "goal": 40,
+  "perk": {
+   "type": "magic_find",
+   "value": 2,
+   "text": "+2 Magic Find for everyone"
+  },
+  "components": [
+   {
+    "id": "bunting",
+    "name": "Bunting",
+    "coins": 250000,
+    "items": {
+     "ENCHANTED_PAPER": 32,
+     "ENCHANTED_STRING": 32
+    },
+    "stat": "SPEED",
+    "value": 2,
+    "sbxp": 10
+   },
+   {
+    "id": "stage",
+    "name": "Stage",
+    "coins": 500000,
+    "items": {
+     "ENCHANTED_SPRUCE_LOG": 64
+    },
+    "stat": "HEALTH",
+    "value": 5,
+    "sbxp": 10
+   },
+   {
+    "id": "lanterns",
+    "name": "Lanterns",
+    "coins": 1000000,
+    "items": {
+     "ENCHANTED_GLOWSTONE_DUST": 64
+    },
+    "stat": "MAGIC_FIND",
+    "value": 1,
+    "sbxp": 10
+   },
+   {
+    "id": "fountain",
+    "name": "Fountain",
+    "coins": 2000000,
+    "items": {
+     "ENCHANTED_PRISMARINE_SHARD": 64
+    },
+    "stat": "PET_LUCK",
+    "value": 1,
+    "sbxp": 10
+   }
+  ]
+ }
+]

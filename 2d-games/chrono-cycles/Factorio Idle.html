@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRONO-CYCLES v7.6</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&family=Share+Tech+Mono&display=swap');
+
+        :root {
+            --bg: #050508;
+            --panel: rgba(8, 8, 10, 0.95);
+            --border: 1px solid rgba(255, 255, 255, 0.15);
+            --accent: #ff3333;
+            --inf-accent: #bd00ff;
+            --shop-grad: linear-gradient(135deg, #ff00cc, #3333ff);
+            --text-main: #eee;
+        }
+
+        body {
+            margin: 0; overflow: hidden; background: var(--bg); color: var(--text-main);
+            font-family: 'Rajdhani', sans-serif;
+            display: flex; height: 100vh; user-select: none;
+        }
+
+        canvas { position: absolute; top: 0; left: 0; z-index: 0; }
+
+        /* LOADING SCREEN */
+        #loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; z-index: 99999; display: none;
+            flex-direction: column; justify-content: center; align-items: center;
+            opacity: 0; transition: opacity 1s;
+        }
+        .loader-text {
+            font-family: 'Orbitron'; color: #40e0d0; font-size: 2rem; letter-spacing: 5px;
+            animation: pulse 1s infinite alternate;
+        }
+        .loader-bar {
+            width: 300px; height: 4px; background: #333; margin-top: 20px; position: relative; overflow: hidden;
+        }
+        .loader-progress {
+            position: absolute; top: 0; left: 0; height: 100%; width: 0%; background: #40e0d0;
+            box-shadow: 0 0 20px #40e0d0;
+            animation: load 3s ease-in-out forwards;
+        }
+        @keyframes load { 0% { width: 0%; } 100% { width: 100%; } }
+        @keyframes pulse { from { opacity: 0.5; text-shadow: 0 0 10px #40e0d0; } to { opacity: 1; text-shadow: 0 0 30px #40e0d0; } }
+
+        /* TOP RIGHT UI */
+        .top-right-ui {
+            position: fixed; top: 20px; right: 20px; z-index: 9001;
+            display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+        }
+        .icon-row { display: flex; gap: 15px; }
+        .icon-btn {
+            font-size: 1.5rem; color: #666; cursor: pointer; transition: 0.3s;
+            background: none; border: none; padding: 5px;
+        }
+        .icon-btn:hover { color: #fff; transform: scale(1.1); }
+        
+        /* Auto-off hint arrow - MOVED UNDER COG */
+        #settings-hint {
+            display: none; color: #40e0d0; font-family: 'Share Tech Mono'; font-size: 0.8rem;
+            animation: bounceDown 1s infinite; margin-right: 5px; text-align: right;
+        }
+        @keyframes bounceDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+
+        /* SETTINGS MODAL */
+        .modal {
+            position: fixed; top: 70px; right: 20px; width: 300px;
+            background: rgba(10, 10, 15, 0.98); border: 1px solid #444;
+            padding: 15px; display: none; flex-direction: column; gap: 15px;
+            z-index: 9001; box-shadow: 0 5px 20px rgba(0,0,0,0.8);
+            max-height: 80vh; overflow-y: auto;
+        }
+        
+        /* SHOP MODAL - CENTERED */
+        #shop-modal {
+            top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 400px; right: auto;
+        }
+
+        .modal.open { display: flex; }
+        .setting-row { display: flex; flex-direction: column; gap: 5px; }
+        .setting-label { font-family: 'Share Tech Mono'; font-size: 0.8rem; color: #aaa; }
+        input[type=range] { width: 100%; cursor: pointer; accent-color: var(--accent); }
+        .toggle-btn {
+            background: #222; border: 1px solid #444; color: #888; padding: 8px;
+            cursor: pointer; font-family: 'Share Tech Mono'; font-size: 0.8rem; width: 100%;
+            transition: 0.2s;
+        }
+        .toggle-btn:hover { background: #333; color: #fff; }
+        .toggle-btn.active { background: var(--accent); color: black; border-color: var(--accent); font-weight: bold; }
+
+        /* ACHIEVEMENTS LIST */
+        .ach-list-item {
+            background: rgba(255,255,255,0.05); border: 1px solid #333; padding: 10px;
+            display: flex; gap: 10px; align-items: center;
+        }
+        .ach-list-item.locked { opacity: 0.5; filter: grayscale(1); }
+        .ach-icon-sm { font-size: 1.2rem; }
+
+        /* SHOP ITEMS */
+        .shop-item {
+            background: rgba(255,255,255,0.05); border: 1px solid #555; padding: 10px;
+            display: flex; flex-direction: column; gap: 5px;
+        }
+        .shop-btn {
+            background: var(--shop-grad); border: none; color: white;
+            padding: 8px; font-weight: bold; cursor: pointer; font-family: 'Orbitron'; font-size: 0.8rem;
+        }
+        .shop-btn:disabled { opacity: 0.5; filter: grayscale(1); cursor: not-allowed; }
+        .shop-btn.owned { background: #33ff33; color: black; pointer-events: none; }
+
+        /* EVENT BANNER (TOP) */
+        #event-banner {
+            position: fixed; top: -150px; left: 50%; transform: translateX(-50%);
+            width: 450px; background: #111; border: 2px solid #fff;
+            padding: 20px; z-index: 8000; text-align: center;
+            transition: top 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 0 30px rgba(0,0,0,0.8);
+            border-radius: 0 0 10px 10px;
+        }
+        #event-banner.active { top: 0; }
+        
+        .evt-solar { background: linear-gradient(180deg, #620 0%, #111 100%) !important; border-color: #f80 !important; }
+        .evt-time { background: linear-gradient(180deg, #024 0%, #111 100%) !important; border-color: #40e0d0 !important; }
+        .evt-warp { background: linear-gradient(180deg, #404 0%, #111 100%) !important; border-color: #f0f !important; }
+        .evt-void { background: linear-gradient(180deg, #222 0%, #000 100%) !important; border-color: #888 !important; }
+        .evt-frenzy { background: linear-gradient(180deg, #500 0%, #202 100%) !important; border-color: #f00 !important; }
+
+        .event-title { font-family: 'Orbitron'; font-weight: 900; color: #fff; font-size: 1.4rem; margin-bottom: 5px; text-transform: uppercase; text-shadow: 0 0 10px currentColor; }
+        .event-desc { font-family: 'Share Tech Mono'; color: #ccc; font-size: 1rem; margin-bottom: 10px; }
+        .event-timer-bar { width: 100%; height: 6px; background: rgba(0,0,0,0.5); position: relative; border-radius: 3px; overflow: hidden; }
+        .event-timer-fill { height: 100%; background: #fff; width: 100%; transition: width 0.1s linear; }
+
+        .ui-layer {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 10; pointer-events: none;
+            display: flex; justify-content: space-between;
+        }
+
+        /* --- LEFT PANEL --- */
+        .control-panel {
+            width: 460px; background: var(--panel); border-right: var(--border);
+            padding: 0; pointer-events: auto;
+            display: flex; flex-direction: column;
+            box-shadow: 10px 0 50px rgba(0,0,0,0.8);
+        }
+
+        .header {
+            padding: 15px; background: linear-gradient(to bottom, rgba(255,255,255,0.03), transparent);
+            border-bottom: 1px solid #333;
+        }
+        .header h1 { margin: 0; font-family: 'Orbitron'; font-weight: 900; font-size: 1.6rem; color: #fff; text-shadow: 0 0 10px var(--accent); }
+
+        /* WARP BUTTON */
+        #warp-btn {
+            display: none; margin-top: 15px; width: 100%; padding: 20px;
+            background: linear-gradient(90deg, #000, #40e0d0, #000);
+            background-size: 200% 200%;
+            border: 2px solid #40e0d0; color: #fff;
+            font-family: 'Orbitron'; font-weight: 900; letter-spacing: 3px; font-size: 1.1rem;
+            cursor: pointer; animation: pulseCyan 3s infinite alternate, shine 3s infinite linear;
+            text-shadow: 0 0 10px #40e0d0;
+        }
+        
+        #return-btn {
+            display: none; margin-top: 15px; width: 100%; padding: 15px;
+            background: #111; border: 1px solid #666; color: #888;
+            font-family: 'Orbitron'; cursor: pointer; transition: 0.3s;
+        }
+        #return-btn:hover { background: #222; color: #fff; border-color: #fff; }
+
+        @keyframes pulseCyan { 0% { box-shadow: 0 0 10px #40e0d0; } 100% { box-shadow: 0 0 30px #40e0d0; } }
+        @keyframes shine { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }
+        #warp-btn:hover { color: #000; background: #40e0d0; }
+
+        /* PRESTIGE BOX */
+        #prestige-container { display: none; }
+        
+        .prestige-box {
+            background: linear-gradient(45deg, #1a1a2e, #16213e);
+            border: 1px solid #4488ff; padding: 12px; margin-top: 10px;
+            border-radius: 4px; display: flex; justify-content: space-between; align-items: center;
+        }
+        .chronon-display { color: #4488ff; font-weight: bold; font-family: 'Orbitron'; font-size: 1.1rem; }
+        .prestige-btn {
+            background: #4488ff; color: #000; border: none; padding: 8px 15px;
+            font-family: 'Orbitron'; font-size: 0.7rem; cursor: pointer; font-weight: bold; width: 150px;
+        }
+        .prestige-btn:hover { background: #fff; }
+        .prestige-btn:disabled { opacity: 0.5; cursor: not-allowed; background: #555; color: #ccc; }
+
+        /* SHOP BUTTON */
+        .shop-open-btn {
+            margin-top: 5px; width: 100%; padding: 8px;
+            background: var(--shop-grad); border: none; color: white;
+            font-family: 'Orbitron'; font-weight: bold; cursor: pointer;
+            text-shadow: 0 0 5px rgba(0,0,0,0.5);
+        }
+        .shop-open-btn:hover { filter: brightness(1.2); }
+
+        /* MULTIPLIER BUTTONS */
+        .mult-controls { display: flex; gap: 5px; margin-top: 10px; margin-bottom: 10px; }
+        .mult-btn {
+            flex: 1; background: #222; border: 1px solid #444; color: #888;
+            font-family: 'Share Tech Mono'; cursor: pointer; padding: 5px;
+            transition: 0.2s;
+        }
+        .mult-btn:hover { background: #333; color: #fff; }
+        .mult-btn.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: bold; }
+
+        /* RPM DROPDOWN */
+        .rpm-wrapper { margin-top: 10px; }
+        .rpm-summary {
+            background: #080808; border: 1px solid #333; padding: 10px; border-radius: 4px;
+            cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+            transition: 0.2s;
+        }
+        .rpm-summary:hover { border-color: #666; }
+        .rpm-list {
+            display: none; background: #050505; border: 1px solid #333; border-top: none;
+            max-height: 150px; overflow-y: auto;
+        }
+        .rpm-list.open { display: block; }
+        .rpm-item {
+            padding: 8px 10px; font-family: 'Share Tech Mono'; font-size: 0.8rem;
+            border-bottom: 1px solid #222; display: flex; justify-content: space-between;
+            color: #888;
+        }
+        .rpm-val { color: #fff; }
+        .rpm-boost { font-size: 0.7rem; color: #0f0; margin-left: 5px; }
+
+        .scroll-area { flex: 1; overflow-y: auto; padding: 20px; }
+        .scroll-area::-webkit-scrollbar { width: 4px; }
+        .scroll-area::-webkit-scrollbar-thumb { background: #444; }
+
+        /* UPGRADES */
+        .layer-group { margin-bottom: 30px; position: relative; }
+        .layer-header {
+            font-family: 'Orbitron'; font-size: 1.1rem; color: var(--layer-color);
+            border-bottom: 2px solid var(--layer-color); margin-bottom: 10px;
+            padding-bottom: 5px; text-transform: uppercase; letter-spacing: 2px; font-weight: bold;
+            text-shadow: 0 0 10px var(--layer-color);
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        
+        .overclock-btn {
+            background: transparent; border: 1px solid var(--layer-color);
+            color: var(--layer-color); font-size: 0.9rem; padding: 5px 10px;
+            cursor: pointer; font-family: 'Orbitron'; transition: 0.2s;
+            display: none; 
+            font-weight: bold; border-radius: 4px;
+            animation: pulseGlow 2s infinite;
+        }
+        .overclock-btn.visible { display: block; }
+        
+        @keyframes pulseGlow { 0% { box-shadow: 0 0 5px var(--layer-color); } 50% { box-shadow: 0 0 15px var(--layer-color); } 100% { box-shadow: 0 0 5px var(--layer-color); } }
+        .overclock-btn:hover { background: var(--layer-color); color: #000; }
+
+        .upgrade-card {
+            background: rgba(255,255,255,0.03); 
+            border: 1px solid rgba(255,255,255,0.1); 
+            padding: 15px; margin-bottom: 10px; border-radius: 4px;
+            cursor: pointer; transition: 0.1s; position: relative;
+            display: grid; grid-template-columns: 1fr auto; gap: 15px; align-items: center;
+        }
+        .upgrade-card:hover { background: rgba(255,255,255,0.08); transform: translateX(5px); }
+        .upgrade-card:active { transform: scale(0.99); }
+        .upgrade-card.locked { opacity: 0.5; filter: grayscale(1); pointer-events: none; border-color: transparent !important; }
+
+        .u-info { display: flex; flex-direction: column; }
+        .u-name { font-weight: 700; color: #fff; font-size: 1.1rem; font-family: 'Rajdhani'; }
+        .u-desc { font-size: 0.8rem; color: #888; line-height: 1.2; margin-top: 3px; }
+        .u-current { font-size: 0.8rem; color: #66f; margin-top: 2px; font-weight: bold; }
+        
+        .u-meta { text-align: right; display: flex; flex-direction: column; align-items: flex-end; }
+        .u-cost { font-family: 'Share Tech Mono'; color: var(--layer-color); font-size: 1rem; font-weight: bold; }
+        .u-lvl { font-size: 0.85rem; color: #777; font-family: 'Share Tech Mono'; margin-top: 2px; }
+
+        /* --- CENTER HUD --- */
+        .center-hud {
+            position: absolute; top: 50px; left: 50%; transform: translateX(-50%);
+            text-align: center; pointer-events: auto; z-index: 20;
+        }
+        .shards-val { 
+            font-size: 5rem; font-family: 'Orbitron'; font-weight: 700; 
+            color: #fff; text-shadow: 0 0 30px rgba(255, 255, 255, 0.2); line-height: 1;
+        }
+        
+        /* CLICK COMBO BAR */
+        #click-combo-container {
+            margin-top: 10px; opacity: 0; transition: opacity 0.3s;
+        }
+        .combo-text { font-family: 'Orbitron'; font-size: 0.8rem; color: #ff3333; letter-spacing: 2px; }
+        .combo-bar { width: 300px; height: 4px; background: #333; margin: 5px auto; position: relative; }
+        .combo-fill { width: 0%; height: 100%; background: #ff3333; transition: width 0.1s linear; }
+
+        /* Dropdown for Currency */
+        .currency-select {
+            position: relative; display: inline-block; margin-top: 10px;
+        }
+        .curr-btn {
+            background: transparent; border: 1px solid transparent; color: #888;
+            font-size: 1.2rem; letter-spacing: 4px; text-transform: uppercase; font-weight: 600;
+            cursor: pointer; padding: 5px 15px; transition: 0.2s;
+        }
+        .curr-btn:hover { border-color: #444; color: #fff; background: rgba(0,0,0,0.5); }
+        .curr-list {
+            position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+            background: #111; border: 1px solid #444; min-width: 200px;
+            display: none; flex-direction: column; max-height: 300px; overflow-y: auto;
+        }
+        .curr-list.show { display: flex; }
+        .curr-opt {
+            padding: 10px; color: #ccc; cursor: pointer; text-align: left; font-size: 0.9rem;
+            border-bottom: 1px solid #222; font-family: 'Share Tech Mono';
+        }
+        .curr-opt:hover { background: #222; color: #fff; }
+
+        /* --- BOTTOM RIGHT LORE BOX --- */
+        #lore-box {
+            position: fixed; bottom: 20px; right: 20px; width: 350px;
+            background: rgba(0, 0, 0, 0.9); border: 1px solid #333;
+            padding: 20px; border-radius: 0px; 
+            border-left: 4px solid #fff;
+            pointer-events: auto; z-index: 50;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+            transition: 0.5s;
+        }
+        .lore-title { font-family: 'Orbitron'; font-size: 0.8rem; color: #666; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 2px;}
+        .lore-text { font-family: 'Share Tech Mono'; font-size: 0.9rem; color: #ccc; line-height: 1.5; }
+        .lore-blink { animation: blink 1s infinite; display: inline-block; width: 8px; height: 15px; background: #fff; vertical-align: middle; margin-left: 5px;}
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+        /* --- POPUPS --- */
+        .popup-area {
+            position: absolute; top: 160px; left: 50%; transform: translateX(-50%);
+            display: flex; flex-direction: column; align-items: center; gap: 10px; z-index: 100;
+        }
+        .achievement {
+            background: rgba(0,0,0,0.95); border: 1px solid var(--c); border-left: 5px solid var(--c);
+            padding: 15px 30px; display: flex; align-items: center; gap: 15px; width: 500px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.8); animation: slideDown 0.5s forwards;
+        }
+        @keyframes slideDown { from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .ach-icon { font-size: 2rem; }
+        .ach-text h3 { margin: 0; font-family: 'Orbitron'; color: var(--c); font-size: 1rem; }
+        .ach-text p { margin: 5px 0 0; color: #ccc; font-size: 0.85rem; }
+
+        /* --- DEV MENU --- */
+        .dev-toggle {
+            position: fixed; bottom: 10px; right: 10px; background: #222; color: #444;
+            border: 1px solid #333; width: 30px; height: 30px; border-radius: 50%;
+            cursor: pointer; z-index: 9999; font-weight: bold; pointer-events: auto;
+        }
+        .dev-menu {
+            position: fixed; bottom: 50px; right: 20px; width: 200px;
+            background: #111; border: 1px solid #f44; padding: 10px;
+            display: none; pointer-events: auto; z-index: 9999;
+        }
+        .dev-menu.open { display: block; }
+        .dev-btn {
+            width: 100%; background: #300; border: 1px solid #600; color: #f88;
+            padding: 8px; margin-bottom: 5px; cursor: pointer; text-transform: uppercase; font-size: 0.7rem;
+        }
+        .dev-btn:hover { background: #f00; color: #fff; }
+
+        /* Floater */
+        .floater {
+            position: absolute; pointer-events: none; 
+            font-family: 'Share Tech Mono'; font-weight: bold; font-size: 1.5rem;
+            animation: floatUp 1s forwards; text-shadow: 0 0 5px currentColor;
+        }
+        /* GRADIENT TEXT FOR INFINITY */
+        .gradient-text {
+            background: linear-gradient(90deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: none !important;
+            font-size: 2rem !important;
+            font-weight: 900;
+        }
+        @keyframes floatUp { 0% { opacity: 1; transform: translateY(0) scale(1); } 100% { opacity: 0; transform: translateY(-50px) scale(1.5); } }
+
+        /* Reality Button */
+        #reality-btn {
+            margin-top: 15px; padding: 10px 30px; background: #000; border: 1px solid #fff;
+            color: #fff; font-family: 'Orbitron'; letter-spacing: 5px; cursor: pointer;
+            transition: 0.3s; animation: glitch 2s infinite; display: none;
+        }
+        #reality-btn:hover { background: #fff; color: #000; }
+        @keyframes glitch { 0% { transform: translate(0); } 20% { transform: translate(-2px, 2px); } 40% { transform: translate(-2px, -2px); } 60% { transform: translate(2px, 2px); } 80% { transform: translate(2px, -2px); } 100% { transform: translate(0); } }
+
+    </style>
+</head>
+<body>
+
+    <div id="flash-overlay"></div>
+    <div id="loading-screen">
+        <div class="loader-text">ENTERING INFINITY</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div id="event-banner">
+        <div class="event-title">EVENT TITLE</div>
+        <div class="event-desc">Event description</div>
+        <div class="event-timer-bar"><div class="event-timer-fill" id="event-fill"></div></div>
+    </div>
+
+    <div class="top-right-ui">
+        <div class="icon-row">
+            <button class="icon-btn" onclick="document.getElementById('ach-modal').classList.toggle('open'); UI.showAchievements()">🏆</button>
+            <button class="icon-btn" onclick="document.getElementById('settings-modal').classList.toggle('open')">⚙</button>
+        </div>
+        <span id="settings-hint">You can turn points back on here &#8593;</span>
+    </div>
+
+    <div id="settings-modal" class="modal">
+        <div style="color:white; font-weight:bold; text-align:center; margin-bottom:5px;">SETTINGS</div>
+        <div class="setting-row">
+            <span class="setting-label">MASTER VOLUME</span>
+            <input type="range" min="0" max="100" value="50" oninput="AudioSys.setMaster(this.value)">
+        </div>
+        <div class="setting-row">
+            <span class="setting-label">SFX VOLUME</span>
+            <input type="range" min="0" max="100" value="50" oninput="AudioSys.setSFX(this.value)">
+        </div>
+        <button class="toggle-btn" id="mute-ticks-btn" onclick="AudioSys.toggleTicks()">MUTE TICKS: OFF</button>
+        <button class="toggle-btn active" id="floaters-btn" onclick="UI.toggleFloaters()">FLOATING TEXT: ON</button>
+    </div>
+
+    <div id="ach-modal" class="modal">
+        <div style="color:white; font-weight:bold; text-align:center; margin-bottom:5px;">ACHIEVEMENTS</div>
+        <div id="ach-list-container"></div>
+        <button class="toggle-btn" onclick="document.getElementById('ach-modal').classList.remove('open')">CLOSE</button>
+    </div>
+
+    <div id="shop-modal" class="modal">
+        <div style="color:white; font-weight:bold; text-align:center; margin-bottom:5px; background:var(--shop-grad); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">CHRONON SHOP</div>
+        <div style="text-align:center; color:#4488ff; font-family:'Orbitron'; font-size:0.8rem; margin-bottom:10px;">Available: <span id="shop-chronon-val">0</span></div>
+        
+        <div class="shop-item">
+            <div style="color:#fff; font-weight:bold; font-size:0.9rem;">ENTROPY AUTOMATION</div>
+            <div style="color:#888; font-size:0.7rem;">Auto-buys Layer 1 upgrades.</div>
+            <button class="shop-btn" id="shop-auto-btn" onclick="Game.buyShopItem('autoBuy')">BUY (5 Chronons)</button>
+        </div>
+        <button class="toggle-btn" onclick="document.getElementById('shop-modal').classList.remove('open')">CLOSE</button>
+    </div>
+
+    <canvas id="game-canvas"></canvas>
+
+    <div id="lore-box">
+        <div class="lore-title">System Log</div>
+        <div class="lore-text" id="lore-content">Initializing...</div>
+    </div>
+
+    <div class="ui-layer">
+        
+        <div class="control-panel">
+            <div class="header">
+                <h1>CHRONO ENGINE</h1>
+                
+                <button id="warp-btn" onclick="Game.warpToInfinity()">
+                    ∞ WARP TO INFINITY ∞
+                </button>
+                
+                <button id="return-btn" onclick="Game.returnToCircles()">
+                    &lt;&lt; STABILIZE REALITY
+                </button>
+
+                <div id="circle-ui-group">
+                    <div id="prestige-container">
+                        <div class="prestige-box">
+                            <div>
+                                <div style="font-size:0.7rem; color:#888;">CHRONONS (Global +10% ea)</div>
+                                <div class="chronon-display"><span id="chronon-val">0</span> CHRONONS</div>
+                            </div>
+                            <button class="prestige-btn" id="prestige-btn" onclick="Game.doPrestige()">REWIND TIME</button>
+                        </div>
+                        <button class="shop-open-btn" onclick="document.getElementById('shop-modal').classList.add('open'); UI.updateShopUI()">OPEN CHRONON SHOP</button>
+                    </div>
+
+                    <div class="mult-controls">
+                        <button class="mult-btn active" onclick="UI.setBuy(1, this)">1x</button>
+                        <button class="mult-btn" onclick="UI.setBuy(5, this)">5x</button>
+                        <button class="mult-btn" onclick="UI.setBuy(10, this)">10x</button>
+                        <button class="mult-btn" onclick="UI.setBuy(100, this)">100x</button>
+                        <button class="mult-btn" onclick="UI.setBuy(-1, this)">MAX</button>
+                    </div>
+
+                    <div class="rpm-wrapper">
+                        <div class="rpm-summary" onclick="UI.toggleRPM()">
+                            <span style="font-family:'Orbitron'; font-size:1.1rem; color:#fff"><span id="rpm-display">0</span> RPM</span>
+                            <span style="font-size:0.7rem; color:#666">SYSTEM VELOCITY ▼</span>
+                        </div>
+                        <div class="rpm-list" id="rpm-list"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-area" id="upgrades"></div>
+        </div>
+
+        <div class="center-hud">
+            <div class="shards-val" id="main-display-val">0</div>
+            
+            <div id="click-combo-container">
+                <div class="combo-text" id="combo-text">CLICK COMBO: +0%</div>
+                <div class="combo-bar"><div class="combo-fill" id="combo-fill"></div></div>
+            </div>
+
+            <div class="currency-select">
+                <button class="curr-btn" id="main-display-name" onclick="UI.toggleCurrList()">TIME SHARDS ▼</button>
+                <div class="curr-list" id="curr-list">
+                    </div>
+            </div>
+            
+            <button id="reality-btn" onclick="alert('REALITY FRACTURED. (Content Ending Placeholder - You Win!)')">REALITY</button>
+        </div>
+
+        <div class="popup-area" id="popups"></div>
+    </div>
+
+    <button class="dev-toggle" onclick="document.getElementById('dev-menu').classList.toggle('open')">~</button>
+    <div class="dev-menu" id="dev-menu">
+        <div style="color:#f44; font-weight:bold; margin-bottom:5px; text-align:center;">DEV CONSOLE</div>
+        <button class="dev-btn" onclick="Game.triggerEvent()">Force Random Event</button>
+        <button class="dev-btn" onclick="Game.cheatMoney()">+1e30 All Res</button>
+        <button class="dev-btn" onclick="Game.unlockAll()">Unlock All Layers</button>
+        <button class="dev-btn" onclick="Game.maxSpeed()">Set Speed to 1T</button>
+        <button class="dev-btn" onclick="localStorage.clear(); location.reload()">Wipe Save</button>
+    </div>
+
+    <script>
+        /**
+         * CHRONO-CYCLES v7.6
+         */
+
+        const CONFIG = {
+            layers: [
+                { name: "Entropy", currency: "Time Shards", icon: "⏳", color: "#ff3333", unlockRPM: 3000, lore: "The spark. Kinetic force creates the initial Entropy needed for existence." },
+                { name: "Biomass", currency: "Genetic Code", icon: "🧬", color: "#33ff33", unlockRPM: 3000, lore: "Organic matter stabilizes within the Cosmic Aether." },
+                { name: "Aether", currency: "Cosmic Essence", icon: "💠", color: "#3388ff", unlockRPM: 3000, lore: "Matter dissolves into pure energy. The Cosmic Aether flows freely." },
+                { name: "Plasma", currency: "Ionized Gas", icon: "⚡", color: "#ffaa00", unlockRPM: 3000, lore: "Superheated matter achieves stellar ignition. Plasma arcs detect." },
+                { name: "Dark Matter", currency: "Void Mass", icon: "🌑", color: "#8800ff", unlockRPM: 3000, lore: "Invisible mass detected. Dark Matter binds the galaxy together." },
+                { name: "Quantum", currency: "Q-Bits", icon: "⚛️", color: "#00ffff", unlockRPM: 3000, lore: "Sub-atomic breakdown. Entanglement established across space-time." },
+                { name: "Exotic", currency: "Strange Matter", icon: "🧿", color: "#ff00ff", unlockRPM: 3000, lore: "Physics breaking down. Exotic particles defying gravity." },
+                { name: "Chronos", currency: "Seconds", icon: "🕰️", color: "#ffffff", unlockRPM: 3000, lore: "Time dilation active. We are harvesting raw time." },
+                { name: "Event Horizon", currency: "Hawking Radiation", icon: "🕳️", color: "#444444", unlockRPM: 3000, lore: "Approaching the point of no return. Light cannot escape." },
+                { name: "Singularity", currency: "Zero-Point Energy", icon: "🌌", color: "#000000", unlockRPM: 3000, lore: "Infinite density achieved. The Dimension Warp is ready." }
+            ],
+            baseRadius: 60,
+            spacing: 35,
+            friction: 2.0,
+            clickTorque: 0.7, 
+            redTorque: 0.35,    
+            maxTorque: 1e15, 
+            visualRPMCap: 3000
+        };
+
+        const AudioSys = {
+            ctx: null,
+            masterGain: null, sfxGain: null, masterVol: 0.5, sfxVol: 0.5, muteTicks: false,
+
+            init() {
+                if (!this.ctx) {
+                    try {
+                        this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                        this.masterGain = this.ctx.createGain(); 
+                        this.sfxGain = this.ctx.createGain();
+                        this.masterGain.gain.value = this.masterVol; 
+                        this.sfxGain.gain.value = this.sfxVol;
+                        this.masterGain.connect(this.ctx.destination); 
+                        this.sfxGain.connect(this.masterGain);
+                    } catch(e) { console.error("Audio Init Failed", e); }
+                }
+                if(this.ctx && this.ctx.state === 'suspended') this.ctx.resume();
+            },
+            setMaster(val) { this.masterVol = val / 100; if(this.masterGain) this.masterGain.gain.value = this.masterVol; },
+            setSFX(val) { this.sfxVol = val / 100; if(this.sfxGain) this.sfxGain.gain.value = this.sfxVol; },
+            toggleTicks() {
+                this.muteTicks = !this.muteTicks;
+                document.getElementById('mute-ticks-btn').innerText = `MUTE TICKS: ${this.muteTicks ? "ON" : "OFF"}`;
+                document.getElementById('mute-ticks-btn').classList.toggle('active');
+            },
+            playTick(layer) {
+                if(this.muteTicks || !this.ctx) return;
+                try {
+                    const t = this.ctx.currentTime;
+                    const osc = this.ctx.createOscillator(); const gain = this.ctx.createGain();
+                    osc.frequency.setValueAtTime(400 - (layer * 30), t); osc.type = 'sine';
+                    gain.gain.setValueAtTime(0.1, t); gain.gain.exponentialRampToValueAtTime(0.001, t + 0.03); 
+                    osc.connect(gain); gain.connect(this.sfxGain); osc.start(t); osc.stop(t + 0.03);
+                } catch(e) {}
+            },
+            playWarp() {
+                // Max Speed Sound (Sawtooth)
+                if(!this.ctx) return;
+                const t = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator(); const gain = this.ctx.createGain();
+                osc.type = 'sawtooth'; osc.frequency.setValueAtTime(100, t); osc.frequency.linearRampToValueAtTime(1000, t + 3);
+                gain.gain.setValueAtTime(0.11, t); gain.gain.linearRampToValueAtTime(0, t + 3);
+                osc.connect(gain); gain.connect(this.sfxGain); osc.start(t); osc.stop(t + 3);
+            },
+            playTeleport() {
+                // Dimension Shift Sound (Heavy Implosion)
+                if(!this.ctx) return;
+                const t = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator(); const gain = this.ctx.createGain();
+                osc.type = 'square'; 
+                osc.frequency.setValueAtTime(50, t); 
+                osc.frequency.exponentialRampToValueAtTime(800, t + 0.2); 
+                osc.frequency.exponentialRampToValueAtTime(10, t + 1.5); 
+                gain.gain.setValueAtTime(0.3, t);
+                gain.gain.exponentialRampToValueAtTime(0.001, t + 1.5);
+                osc.connect(gain); gain.connect(this.sfxGain); osc.start(t); osc.stop(t + 1.5);
+            },
+            playUnlock() {
+                if(!this.ctx) return;
+                const t = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator(); const gain = this.ctx.createGain();
+                osc.type = 'sawtooth'; osc.frequency.setValueAtTime(110, t); osc.frequency.exponentialRampToValueAtTime(880, t + 0.6);
+                gain.gain.setValueAtTime(0.1, t); gain.gain.exponentialRampToValueAtTime(0.01, t + 0.6);
+                const drone = this.ctx.createOscillator(); const droneGain = this.ctx.createGain();
+                drone.type = 'triangle'; drone.frequency.setValueAtTime(55, t);
+                droneGain.gain.setValueAtTime(0.1, t); droneGain.gain.setValueAtTime(0.1, t + 1.5); droneGain.gain.exponentialRampToValueAtTime(0.001, t + 2.0); 
+                osc.connect(gain); gain.connect(this.sfxGain); drone.connect(droneGain); droneGain.connect(this.sfxGain);
+                osc.start(t); osc.stop(t + 0.6); drone.start(t); drone.stop(t + 2.0);
+            }
+        };
+
+        const Game = {
+            dimension: 0, resources: new Array(10).fill(0), rings: [], unlockedLayers: 1, selectedRes: 0, 
+            lastTime: performance.now(), buyAmount: 1, chronons: 0, infinityPoints: 0, autoBuyLayer1: false,
+            
+            settings: { floaters: true },
+            hasAutoDisabledFloaters: false,
+            disableScheduled: false,
+
+            // CLICK COMBO
+            clickCombo: 0, 
+            comboGrace: 0,
+
+            // GLOBAL EVENT SYSTEM
+            activeEvent: null, eventTimer: 0, nextEventTime: 90,
+
+            // INFINITY STATE
+            blackHoleSize: 10, blackHoleMass: 0, infUpgrades: { weave: 0, void: 0 },
+            voidParticles: [], // Holds active particle objects
+
+            // SOUND TRACKING
+            hasPlayedMaxSound: new Array(10).fill(false),
+
+            init() {
+                this.resetRings(); 
+                this.validateState();
+                UI.init(); Renderer.init();
+                UI.setLore("The Singularity is dormant. Strike the Core to generate Entropy.");
+                this.loop();
+                window.addEventListener('mousedown', (e) => {
+                    AudioSys.init();
+                    if(e.target.tagName === 'CANVAS') {
+                        if(this.dimension === 0) this.handleCircleClick(e);
+                        else this.handleInfinityClick(e);
+                    }
+                });
+                window.addEventListener('keydown', (e) => { if(e.key === '`' || e.key === '~') document.getElementById('dev-menu').classList.toggle('open'); });
+            },
+            
+            validateState() {
+                this.resources = this.resources.map(r => isNaN(r) ? 0 : r);
+                this.rings.forEach(r => {
+                    if(isNaN(r.velocity)) r.velocity = 0;
+                    if(isNaN(r.torque)) r.torque = 0;
+                    if(isNaN(r.angle)) r.angle = 0;
+                });
+            },
+
+            handleCircleClick(e) {
+                const dx = e.clientX - window.innerWidth/2; const dy = e.clientY - window.innerHeight/2;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                let clickedLayer = -1;
+                for(let i=0; i<this.unlockedLayers; i++) {
+                    const r = CONFIG.baseRadius + (i * CONFIG.spacing);
+                    if(Math.abs(dist - r) < 20) { clickedLayer = i; break; }
+                }
+
+                let layerIdx = (clickedLayer !== -1) ? clickedLayer : 0;
+                let base = (layerIdx === 0) ? CONFIG.redTorque : CONFIG.clickTorque;
+                
+                // CLICK COMBO LOGIC
+                this.clickCombo += 0.005; // +0.5%
+                if(this.clickCombo > 0.5) this.clickCombo = 0.5; 
+                this.comboGrace = 0.25; 
+                
+                UI.spawnComboText(`+${(this.clickCombo * 100).toFixed(1)}%`, e.clientX, e.clientY);
+
+                // FLAT IMPULSE
+                let boost = (this.rings[layerIdx].upgrades.auto * 5) + (base * 100); 
+                
+                if (this.activeEvent && this.activeEvent.name === "KINETIC FRENZY") {
+                     boost += this.rings[layerIdx].velocity * 0.05; 
+                }
+                
+                this.rings[layerIdx].velocity += boost;
+
+                Renderer.clickEffect(e.clientX, e.clientY, CONFIG.layers[layerIdx].color);
+                UI.updateComboUI();
+            },
+
+            handleInfinityClick(e) {
+                const dx = e.clientX - window.innerWidth/2; const dy = e.clientY - window.innerHeight/2;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                if(dist < this.blackHoleSize + 20) {
+                    this.blackHoleMass += 1;
+                    if(this.blackHoleSize < 450) {
+                        this.blackHoleSize = 10 + Math.log(this.blackHoleMass + 1) * 15;
+                    }
+                    this.infinityPoints += 1; // Manual click always gives at least 1
+                    UI.spawnText(`+1 Essence`, 0, true);
+                    Renderer.clickEffect(e.clientX, e.clientY, '#bd00ff');
+                    UI.updateMainDisplay();
+                }
+            },
+
+            resetRings() {
+                this.rings = [];
+                for(let i=0; i<CONFIG.layers.length; i++) {
+                    this.rings.push({
+                        angle: 0, velocity: 0, torque: 0,
+                        upgrades: { speed: 0, value: 0, auto: 0 },
+                        baseVal: Math.pow(8, i), solidTime: 0, prestigeLevel: 0
+                    });
+                }
+            },
+
+            warpToInfinity() {
+                const load = document.getElementById('loading-screen'); load.style.display = 'flex';
+                setTimeout(() => load.style.opacity = 1, 10); AudioSys.playTeleport(); // IMPLOSION SOUND
+                setTimeout(() => {
+                    this.dimension = 1; 
+                    UI.setLore("DIMENSION: INFINITY. STRUCTURE: STABLE. BEGIN.");
+                    document.getElementById('warp-btn').style.display = 'none';
+                    document.getElementById('return-btn').style.display = 'block';
+                    document.getElementById('circle-ui-group').style.display = 'none';
+                    document.getElementById('click-combo-container').style.display = 'none';
+                    
+                    UI.buildInfinityUpgrades();
+                    
+                    document.getElementById('main-display-name').innerText = "INFINITY ESSENCE";
+                    document.getElementById('main-display-name').style.color = "#bd00ff";
+                    document.getElementById('main-display-val').style.color = "#bd00ff";
+                    document.getElementById('main-display-val').innerText = Format(this.infinityPoints);
+                    document.querySelector('.currency-select').style.pointerEvents = "none";
+                    load.style.opacity = 0; setTimeout(() => load.style.display = 'none', 1000);
+                }, 3000);
+            },
+
+            returnToCircles() {
+                const load = document.getElementById('loading-screen');
+                document.querySelector('.loader-text').innerText = "STABILIZING REALITY";
+                load.style.display = 'flex'; setTimeout(() => load.style.opacity = 1, 10); AudioSys.playTeleport();
+                setTimeout(() => {
+                    this.dimension = 0;
+                    UI.setLore("Reality stabilized. Cycle restart.");
+                    document.getElementById('return-btn').style.display = 'none';
+                    document.getElementById('circle-ui-group').style.display = 'block';
+                    document.querySelector('.currency-select').style.pointerEvents = "auto";
+                    UI.buildUpgrades(); UI.updateRPMList(); UI.updateCurrList(); UI.selectCurr(0);
+                    UI.updatePrestigeUI(); 
+                    load.style.opacity = 0; setTimeout(() => load.style.display = 'none', 1000);
+                }, 3000);
+            },
+
+            getTotalValue() {
+                let total = 0;
+                for(let i=0; i<this.unlockedLayers; i++) {
+                    total += this.resources[i] * Math.pow(10, i); 
+                }
+                return total;
+            },
+
+            doPrestige() {
+                const totalVal = this.getTotalValue();
+                const pending = Math.floor(totalVal / 50000);
+                
+                if(totalVal < 50000) return;
+
+                if(confirm(`HARD RESET REWIND? You will lose ALL upgrades, layers, and purify levels. You will gain ${pending} Chronons.`)) {
+                    this.chronons += pending; 
+                    this.resources.fill(0); 
+                    this.unlockedLayers = 1;
+                    
+                    this.resetRings(); 
+                    this.selectedRes = 0;
+                    
+                    UI.buildUpgrades(); 
+                    UI.updateCurrList();
+                    UI.selectCurr(0);
+                    UI.updateRPMList(); 
+
+                    UI.setLore("Time has been rewritten. The cycles are stronger.");
+                    Achievements.show("TEMPORAL REWRITE", `Gained ${pending} Chronons.`, "#4488ff");
+                    Achievements.unlock("prestige");
+                    document.getElementById('warp-btn').style.display = 'none';
+                    
+                    if (this.hasAutoDisabledFloaters) {
+                        this.settings.floaters = true;
+                        this.hasAutoDisabledFloaters = false;
+                        this.disableScheduled = false;
+                        UI.toggleFloaters(); // Resets UI
+                        document.getElementById('settings-hint').style.display = 'none';
+                    }
+
+                    UI.updatePrestigeUI();
+                }
+            },
+
+            overclockLayer(idx) {
+                if(confirm(`Purify ${CONFIG.layers[idx].name}? Resets upgrades AND currency but grants +50% Multiplier.`)) {
+                    this.rings[idx].upgrades.speed = 0;
+                    this.rings[idx].upgrades.value = 0;
+                    this.rings[idx].upgrades.auto = 0;
+                    this.rings[idx].prestigeLevel++;
+                    this.rings[idx].torque = 0;
+                    this.rings[idx].velocity = 0;
+                    this.resources[idx] = 0; 
+                    UI.buildUpgrades();
+                    Achievements.show("LAYER PURIFIED", `${CONFIG.layers[idx].name} Overclocked x${this.rings[idx].prestigeLevel}`, CONFIG.layers[idx].color);
+                }
+            },
+
+            buyShopItem(item) {
+                if(item === 'autoBuy') {
+                    if(this.chronons >= 5 && !this.autoBuyLayer1) {
+                        this.chronons -= 5; this.autoBuyLayer1 = true;
+                        UI.updateShopUI(); UI.updatePrestigeUI(); Achievements.show("AUTOMATION ONLINE", "Entropy Layer is now self-sustaining.", "#0f0");
+                    }
+                }
+            },
+
+            runAutoBuy() {
+                if(!this.autoBuyLayer1 || this.dimension === 1) return;
+                ['speed', 'value', 'auto'].forEach(type => {
+                    let cost = this.calculateSingleCost(0, type, this.rings[0].upgrades[type]);
+                    if(this.resources[0] >= cost) {
+                        this.resources[0] -= cost; this.rings[0].upgrades[type]++; UI.updateButtons();
+                    }
+                });
+            },
+
+            addTorque(idx, amount) {
+                if(isNaN(this.rings[idx].torque)) this.rings[idx].torque = 0;
+                this.rings[idx].torque += amount;
+                if(this.rings[idx].torque > CONFIG.maxTorque) this.rings[idx].torque = CONFIG.maxTorque;
+            },
+
+            getSynergyBoost(idx) {
+                if (idx === 0) return 1.0; 
+                const threshold = 10000000 * Math.pow(10, idx - 1);
+                const parentRes = this.resources[idx - 1];
+                return 1.0 + (parentRes / threshold);
+            },
+
+            getChrononBoost() { return 1 + (this.chronons * 0.1); },
+
+            getLayerMult(idx) {
+                let speedMult = 1 + (this.rings[idx].upgrades.speed * 0.25);
+                let weight = 1 / (idx * 0.4 + 1);
+                let globalBoost = this.getChrononBoost();
+                let evtSpeed = this.eventSpeed || 1;
+                let comboBoost = 1 + this.clickCombo;
+                return speedMult * weight * globalBoost * evtSpeed * comboBoost;
+            },
+
+            triggerEvent() {
+                const events = [
+                    { name: "SOLAR FLARE", desc: "Energy Production x2", type: "evt-solar", dur: 25, apply: (g) => g.eventMult = 2 },
+                    { name: "TIME DILATION", desc: "System Speed x0.5", type: "evt-time", dur: 20, apply: (g) => g.eventSpeed = 0.5 },
+                    { name: "KINETIC SURGE", desc: "System Speed x1.5", type: "evt-warp", dur: 20, apply: (g) => g.eventSpeed = 1.5 },
+                    { name: "METEOR SHOWER", desc: "Torque +50 to All Layers", type: "evt-solar", dur: 5, apply: (g) => g.rings.forEach(r => r.torque += 50) },
+                    { name: "COSMIC ALIGNMENT", desc: "Friction Reduced by 50%", type: "evt-void", dur: 25, apply: (g) => g.eventFriction = 0.5 },
+                    { name: "QUANTUM TUNNEL", desc: "Instant 60s Production", type: "evt-warp", dur: 3, apply: (g) => { 
+                        g.rings.forEach((r, i) => { if(i < g.unlockedLayers) g.resources[i] += r.velocity * 60 * r.baseVal; });
+                        UI.spawnText("QUANTUM SKIP!", 0, true);
+                    }},
+                    { name: "KINETIC FRENZY", desc: "Clicking Adds 5% Current RPM (Stackable)", type: "evt-frenzy", dur: 20, apply: (g) => {} }
+                ];
+                const ev = events[Math.floor(Math.random() * events.length)];
+                this.activeEvent = ev;
+                this.eventTimer = ev.dur;
+                this.eventTotalTime = ev.dur;
+                this.eventMult = 1; this.eventSpeed = 1; this.eventFriction = 1;
+                ev.apply(this);
+                
+                const banner = document.getElementById('event-banner');
+                banner.className = ""; 
+                banner.classList.add(ev.type); 
+                banner.querySelector('.event-title').innerText = ev.name;
+                banner.querySelector('.event-desc').innerText = ev.desc;
+                banner.classList.add('active');
+            },
+
+            tick(dt) {
+                if (isNaN(dt) || dt > 0.1) dt = 0.016; 
+                
+                try {
+                    this.runAutoBuy();
+
+                    // CLICK COMBO DECAY WITH GRACE PERIOD
+                    if (this.comboGrace > 0) {
+                        this.comboGrace -= dt;
+                    } else if(this.clickCombo > 0) {
+                        this.clickCombo -= dt * 0.1; 
+                        if(this.clickCombo < 0) this.clickCombo = 0;
+                        UI.updateComboUI();
+                    }
+
+                    // PARTICLE LOGIC (VOID SIPHON)
+                    if (this.dimension === 1) {
+                        const targetCount = this.infUpgrades.void;
+                        // Add particles if needed
+                        while (this.voidParticles.length < targetCount) {
+                            Renderer.spawnVoidParticle();
+                        }
+                        // Remove if too many (shouldn't happen with upgrade logic but safety)
+                        if (this.voidParticles.length > targetCount) {
+                            this.voidParticles.length = targetCount;
+                        }
+                        
+                        // Update particle logic
+                        this.voidParticles.forEach(p => {
+                            let dx = (window.innerWidth/2) - p.x;
+                            let dy = (window.innerHeight/2) - p.y;
+                            let dist = Math.sqrt(dx*dx + dy*dy);
+                            
+                            // Move towards center
+                            p.x += dx * 0.02;
+                            p.y += dy * 0.02;
+                            
+                            // Hit Center?
+                            if(dist < 20) {
+                                this.infinityPoints += 1;
+                                UI.updateMainDisplay();
+                                // Respawn at random edge
+                                let ang = Math.random() * Math.PI * 2;
+                                let r = Math.max(window.innerWidth, window.innerHeight)/1.5;
+                                p.x = (window.innerWidth/2) + Math.cos(ang)*r;
+                                p.y = (window.innerHeight/2) + Math.sin(ang)*r;
+                                // Create history trail reset
+                                p.history = [];
+                            }
+                            
+                            // Trail Logic
+                            p.history.push({x: p.x, y: p.y});
+                            if(p.history.length > 10) p.history.shift();
+                        });
+                    }
+
+                    // REALITY BUTTON GATE
+                    if(this.dimension === 1 && this.infinityPoints >= 1e100) {
+                        document.getElementById('reality-btn').style.display = 'block';
+                    }
+
+                    // EVENT TIMER
+                    if (this.activeEvent) {
+                        this.eventTimer -= dt;
+                        const pct = (this.eventTimer / this.eventTotalTime) * 100;
+                        document.getElementById('event-fill').style.width = pct + "%";
+
+                        if(this.eventTimer <= 0) {
+                            this.activeEvent = null;
+                            this.eventMult = 1; this.eventSpeed = 1; this.eventFriction = 1;
+                            document.getElementById('event-banner').classList.remove('active');
+                        }
+                    } else {
+                        this.nextEventTime -= dt;
+                        if(this.nextEventTime <= 0) {
+                            this.triggerEvent();
+                            this.nextEventTime = Math.random() * 90 + 90; 
+                        }
+                    }
+
+                    // AUTO-DISABLE FLOATERS LOGIC
+                    if (!this.hasAutoDisabledFloaters && this.unlockedLayers === 10) {
+                        let allMax = true;
+                        this.rings.forEach(r => { if(r.velocity < CONFIG.visualRPMCap) allMax = false; });
+                        
+                        if(allMax) {
+                            if(!this.disableScheduled) {
+                                this.disableScheduled = true;
+                                setTimeout(() => {
+                                    if (!this.hasAutoDisabledFloaters) {
+                                        this.settings.floaters = false;
+                                        this.hasAutoDisabledFloaters = true;
+                                        
+                                        // Update UI
+                                        const btn = document.getElementById('floaters-btn');
+                                        btn.innerText = "FLOATING TEXT: OFF";
+                                        btn.classList.remove('active');
+
+                                        document.getElementById('settings-hint').style.display = 'block';
+                                        Achievements.show("Singularity Stabilized", "Adding balance to the universe.", "#40e0d0");
+                                        UI.setLore("The Universe has stabilized. The noise of creation fades.");
+                                    }
+                                }, 1000); 
+                            }
+                        }
+                    }
+
+                    // PHYSICS LOOP
+                    this.rings.forEach((ring, i) => {
+                        if (i >= this.unlockedLayers) return;
+                        
+                        let minTorque = ring.upgrades.auto * 25; 
+                        let fric = CONFIG.friction * (this.eventFriction !== undefined ? this.eventFriction : 1);
+
+                        if (ring.torque > minTorque) {
+                            ring.torque -= fric * dt * (1 + ring.torque * 0.02);
+                            if (ring.torque < minTorque) ring.torque = minTorque;
+                        } else if (ring.torque < minTorque) {
+                            ring.torque += fric * dt * 5;
+                        }
+                        if(ring.torque < 0) ring.torque = 0;
+
+                        let mult = this.getLayerMult(i);
+                        let targetVelocity = ring.torque * mult;
+
+                        ring.velocity += (targetVelocity - ring.velocity) * 5 * dt;
+                        
+                        if(isNaN(ring.velocity)) ring.velocity = 0;
+
+                        if (ring.velocity > 2950 && !this.hasPlayedMaxSound[i]) {
+                            AudioSys.playWarp();
+                            this.hasPlayedMaxSound[i] = true;
+                        }
+                        if (ring.velocity < 2000) {
+                            this.hasPlayedMaxSound[i] = false;
+                        }
+
+                        let rads = (ring.velocity / 60) * (Math.PI * 2) * dt;
+                        ring.angle += rads;
+
+                        if (ring.velocity >= CONFIG.visualRPMCap) ring.solidTime += dt;
+                        else ring.solidTime = 0;
+
+                        // HIGH RPM OPTIMIZATION
+                        let rotations = rads / (Math.PI * 2);
+                        if (rotations >= 1) {
+                            let count = Math.floor(rotations);
+                            ring.angle %= (Math.PI * 2);
+                            this.processBulkLaps(i, count);
+                        } else {
+                            if (ring.angle >= Math.PI * 2) {
+                                ring.angle %= (Math.PI * 2);
+                                this.completeLap(i);
+                            }
+                        }
+                    });
+
+                    if (this.dimension === 0 && this.unlockedLayers < CONFIG.layers.length) {
+                        let currentRing = this.rings[this.unlockedLayers - 1];
+                        if (currentRing.velocity >= CONFIG.visualRPMCap) {
+                            this.unlockLayer();
+                        }
+                    }
+                } catch (e) {
+                    console.error("Game Loop Error:", e);
+                }
+            },
+
+            processBulkLaps(idx, count) {
+                const ring = this.rings[idx];
+                if (this.dimension === 0) {
+                    let prestigeMult = 1 + (ring.prestigeLevel * 0.5); 
+                    let evtMult = this.eventMult || 1;
+                    let baseReward = ring.baseVal * Math.pow(1.6, ring.upgrades.value) * this.getChrononBoost() * prestigeMult * evtMult;
+                    let totalReward = baseReward * count;
+                    this.resources[idx] += totalReward;
+                    
+                    Renderer.flash(idx);
+                    AudioSys.playTick(idx);
+
+                    if (this.settings.floaters) {
+                        if(idx === this.selectedRes || Math.random() > 0.5) {
+                            UI.spawnText(`+${Format(totalReward)} (x${count})`, idx);
+                        }
+                    }
+                    if(idx === this.selectedRes) UI.updateMainDisplay();
+                }
+            },
+
+            completeLap(idx) {
+                this.processBulkLaps(idx, 1);
+            },
+
+            unlockLayer() {
+                this.unlockedLayers++;
+                const l = CONFIG.layers[this.unlockedLayers-1];
+                if(this.rings[this.unlockedLayers-1]) {
+                    this.rings[this.unlockedLayers-1].velocity = 0;
+                    this.rings[this.unlockedLayers-1].torque = 0;
+                }
+                Renderer.triggerJuice(this.unlockedLayers-1, l.color);
+                AudioSys.playUnlock(); 
+                UI.setLore(l.lore);
+                Achievements.show("SYSTEM EXPANSION", `Layer ${this.unlockedLayers} initialized: ${l.name}`, l.color);
+                Achievements.unlock(`layer_${this.unlockedLayers}`);
+                if(this.unlockedLayers >= 10) {
+                    document.getElementById('warp-btn').style.display = 'block';
+                    Achievements.show("SINGULARITY REACHED", "The Warp Gate is open.", "#40e0d0");
+                    Achievements.unlock("singularity");
+                }
+                UI.buildUpgrades(); UI.updateRPMList(); UI.updateCurrList();
+                UI.updatePrestigeUI(); 
+            },
+
+            getCostAndCount(layerIdx, type) {
+                let count = 0; let cost = 0; let desired = this.buyAmount;
+                let currentRes = this.resources[layerIdx];
+                let currentLvl = this.rings[layerIdx].upgrades[type];
+
+                if (desired === -1) { 
+                    let safety = 1000;
+                    while(safety > 0) {
+                        let nextCost = this.calculateSingleCost(layerIdx, type, currentLvl + count);
+                        if (currentRes >= cost + nextCost) { cost += nextCost; count++; } else break;
+                        safety--;
+                    }
+                    if(count === 0) { cost = this.calculateSingleCost(layerIdx, type, currentLvl); count = 1; }
+                } else {
+                    count = desired;
+                    for(let i=0; i<desired; i++) cost += this.calculateSingleCost(layerIdx, type, currentLvl + i);
+                }
+                return { cost, count };
+            },
+
+            calculateSingleCost(layerIdx, type, lvl) {
+                if(layerIdx === 0) {
+                    if (type === 'auto') return Math.floor(10 * Math.pow(2.2, lvl)); 
+                    if (type === 'speed') return Math.floor(5 * Math.pow(1.6, lvl)); 
+                    if (type === 'value') return Math.floor(15 * Math.pow(2.3, lvl));
+                }
+                let base = 100 * Math.pow(12, layerIdx); 
+                if (type === 'speed') return Math.floor(base * Math.pow(2.2, lvl)); 
+                if (type === 'value') return Math.floor(base * Math.pow(4.2, lvl)); 
+                if (type === 'auto') return Math.floor(base * Math.pow(1.9, lvl));
+                return 0;
+            },
+
+            buy(layerIdx, type) {
+                let data = this.getCostAndCount(layerIdx, type);
+                if(this.buyAmount !== -1 && this.resources[layerIdx] < data.cost) return; 
+                if(this.buyAmount === -1 && this.resources[layerIdx] < data.cost && data.count === 1) return; 
+
+                if (this.buyAmount !== -1 && this.resources[layerIdx] >= data.cost) {
+                    this.resources[layerIdx] -= data.cost;
+                    this.rings[layerIdx].upgrades[type] += data.count;
+                } else if (this.buyAmount === -1) {
+                    if (this.resources[layerIdx] >= data.cost) {
+                        this.resources[layerIdx] -= data.cost;
+                        this.rings[layerIdx].upgrades[type] += data.count;
+                    }
+                }
+                UI.updateButtons();
+                if(layerIdx === this.selectedRes) UI.updateMainDisplay();
+            },
+
+            cheatMoney() { this.resources.fill(1e30); this.chronons += 1000; UI.updatePrestigeUI(); },
+            unlockAll() { this.unlockedLayers = 10; document.getElementById('warp-btn').style.display = 'block'; UI.buildUpgrades(); UI.updateRPMList(); UI.updateCurrList(); UI.updatePrestigeUI(); },
+            maxSpeed() { this.rings.forEach(r => { r.torque = 1e12; r.velocity = 1e12; }); },
+
+            loop() {
+                const now = performance.now();
+                const dt = (now - this.lastTime) / 1000;
+                this.lastTime = now;
+                this.tick(dt);
+                Renderer.draw();
+                if(this.dimension === 0) UI.updateRealtime();
+                requestAnimationFrame(() => this.loop());
+            }
+        };
+
+        const Renderer = {
+            canvas: document.getElementById('game-canvas'),
+            ctx: null, cx: 0, cy: 0,
+            flashes: new Array(10).fill(0), shockwaves: [], clickWaves: [], particles: [], impulseShake: 0, stars: [],
+
+            init() {
+                this.ctx = this.canvas.getContext('2d');
+                window.addEventListener('resize', () => this.resize());
+                this.resize();
+                // Init Stars
+                for(let i=0; i<100; i++) this.stars.push({x: Math.random(), y: Math.random(), s: Math.random() * 2});
+            },
+            resize() {
+                this.canvas.width = window.innerWidth;
+                this.canvas.height = window.innerHeight;
+                this.cx = this.canvas.width/2; this.cy = this.canvas.height/2;
+            },
+            flash(i) { this.flashes[i] = 1.0; },
+            clickEffect(x, y, c) { this.clickWaves.push({x,y,r:0,a:1, c}); },
+            
+            spawnVoidParticle() {
+                const ang = Math.random() * Math.PI * 2;
+                const r = Math.max(window.innerWidth, window.innerHeight) / 1.5;
+                Game.voidParticles.push({
+                    x: this.cx + Math.cos(ang)*r, y: this.cy + Math.sin(ang)*r,
+                    history: [] // Added History for trails
+                });
+            },
+            
+            updateVoidParticles(spawn) {
+                // Handled in Game Loop Tick to ensure logic separation
+            },
+            
+            getGradient(r, color) {
+                const grad = this.ctx.createRadialGradient(0, 0, r - 5, 0, 0, r + 5);
+                grad.addColorStop(0, 'rgba(0,0,0,0)'); grad.addColorStop(0.2, color); grad.addColorStop(0.5, '#fff'); grad.addColorStop(0.8, color); grad.addColorStop(1, 'rgba(0,0,0,0)');
+                return grad;
+            },
+            triggerJuice(i, color) {
+                this.shockwaves.push({ r: CONFIG.baseRadius + (i * CONFIG.spacing), w: 50, a: 1, c: color, speed: 2 });
+                this.impulseShake = 20;
+                const f = document.getElementById('flash-overlay');
+                f.style.opacity = 0.5;
+                setTimeout(() => f.style.opacity = 0, 50);
+                for(let p=0; p<50; p++) {
+                    const ang = Math.random() * Math.PI * 2; const spd = Math.random() * 5 + 2;
+                    this.particles.push({ x: this.cx, y: this.cy, vx: Math.cos(ang) * spd, vy: Math.sin(ang) * spd, life: 1.0, color: color });
+                }
+            },
+            draw() {
+                this.ctx.fillStyle = '#050508'; this.ctx.fillRect(0,0,this.canvas.width, this.canvas.height);
+                
+                // SPACE BACKGROUND
+                if(Game.dimension === 1) {
+                    this.ctx.fillStyle = '#fff';
+                    this.stars.forEach(s => {
+                        this.ctx.globalAlpha = Math.random() * 0.5 + 0.3;
+                        this.ctx.beginPath();
+                        this.ctx.arc(s.x * this.canvas.width, s.y * this.canvas.height, s.s, 0, Math.PI*2);
+                        this.ctx.fill();
+                    });
+                    this.ctx.globalAlpha = 1;
+                }
+
+                let shakeX = 0, shakeY = 0;
+                if(this.impulseShake > 0) { shakeX += (Math.random() - 0.5) * this.impulseShake; shakeY += (Math.random() - 0.5) * this.impulseShake; this.impulseShake *= 0.9; }
+                this.ctx.save(); this.ctx.translate(this.cx + shakeX, this.cy + shakeY);
+
+                // DRAW VOID PARTICLES
+                if(Game.dimension === 1) {
+                    Game.voidParticles.forEach(p => {
+                        // Draw Head
+                        this.ctx.fillStyle = '#bd00ff';
+                        this.ctx.beginPath(); this.ctx.arc(p.x - this.cx, p.y - this.cy, 4, 0, Math.PI*2); this.ctx.fill();
+                        
+                        // Draw Trail
+                        if(p.history.length > 1) {
+                            this.ctx.strokeStyle = 'rgba(189, 0, 255, 0.4)';
+                            this.ctx.lineWidth = 2;
+                            this.ctx.beginPath();
+                            this.ctx.moveTo(p.history[0].x - this.cx, p.history[0].y - this.cy);
+                            for(let i=1; i<p.history.length; i++) {
+                                this.ctx.lineTo(p.history[i].x - this.cx, p.history[i].y - this.cy);
+                            }
+                            this.ctx.stroke();
+                        }
+                    });
+                }
+
+                for(let i=this.particles.length-1; i>=0; i--) {
+                    let p = this.particles[i]; p.x += p.vx; p.y += p.vy; 
+                    p.life -= 0.02;
+                    this.ctx.fillStyle = p.color; this.ctx.globalAlpha = p.life;
+                    this.ctx.beginPath(); this.ctx.arc(p.x - this.cx, p.y - this.cy, 3, 0, Math.PI*2); this.ctx.fill();
+                    if(p.life <= 0) this.particles.splice(i,1);
+                }
+                this.ctx.globalAlpha = 1;
+
+                if(Game.dimension === 0) this.drawCircles(); else this.drawInfinity();
+
+                for(let i=this.shockwaves.length-1; i>=0; i--) {
+                    let s = this.shockwaves[i];
+                    this.ctx.beginPath(); this.ctx.arc(0, 0, s.r, 0, Math.PI*2);
+                    const grad = this.ctx.createRadialGradient(0, 0, s.r - 20, 0, 0, s.r + 20);
+                    grad.addColorStop(0, 'rgba(0,0,0,0)'); grad.addColorStop(0.5, s.c); grad.addColorStop(1, 'rgba(0,0,0,0)');
+                    this.ctx.strokeStyle = grad; this.ctx.lineWidth = s.w; this.ctx.globalAlpha = s.a;
+                    this.ctx.stroke(); s.r += s.speed; s.w *= 0.95; s.a -= 0.02;
+                    if(s.a <= 0) this.shockwaves.splice(i, 1);
+                }
+                this.ctx.restore();
+
+                this.ctx.lineWidth = 2;
+                for(let i=this.clickWaves.length-1; i>=0; i--) {
+                    let w = this.clickWaves[i];
+                    this.ctx.strokeStyle = w.c; this.ctx.globalAlpha = w.a;
+                    this.ctx.beginPath(); this.ctx.arc(w.x, w.y, w.r, 0, Math.PI*2); this.ctx.stroke();
+                    w.r += 10; w.a -= 0.05; if(w.a<=0) this.clickWaves.splice(i,1);
+                }
+                this.ctx.globalAlpha = 1;
+            },
+            drawCircles() {
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const ring = Game.rings[i];
+                    const r = CONFIG.baseRadius + (i * CONFIG.spacing);
+                    const color = CONFIG.layers[i].color;
+                    if(this.flashes[i] > 0) this.flashes[i] -= 0.05;
+                    let glow = Math.max(0, this.flashes[i]);
+                    let rpmShakeX = 0, rpmShakeY = 0;
+                    if(i === Game.unlockedLayers - 1 && i < 9) {
+                        let rpm = ring.velocity;
+                        if(rpm > 300) { let intensity = (rpm / 5000) * 4; rpmShakeX = (Math.random() - 0.5) * intensity; rpmShakeY = (Math.random() - 0.5) * intensity; }
+                    }
+                    this.ctx.save(); this.ctx.translate(rpmShakeX, rpmShakeY);
+                    this.ctx.beginPath(); this.ctx.arc(0, 0, r, 0, Math.PI*2);
+                    this.ctx.strokeStyle = this.getGradient(r, color); this.ctx.lineWidth = 4; this.ctx.globalAlpha = 0.4 + (glow * 0.5); this.ctx.stroke();
+                    this.ctx.beginPath();
+                    if (ring.velocity > CONFIG.visualRPMCap) this.ctx.arc(0, 0, r, 0, Math.PI * 2);
+                    else this.ctx.arc(0, 0, r, -Math.PI/2, ring.angle - Math.PI/2);
+                    this.ctx.globalAlpha = 1; this.ctx.lineWidth = 6; this.ctx.strokeStyle = color; this.ctx.shadowColor = color; this.ctx.shadowBlur = 15 + (glow * 20); this.ctx.stroke(); this.ctx.shadowBlur = 0;
+                    if (ring.velocity <= CONFIG.visualRPMCap) {
+                        let hx = Math.cos(ring.angle - Math.PI/2)*r; let hy = Math.sin(ring.angle - Math.PI/2)*r;
+                        this.ctx.fillStyle = '#fff'; this.ctx.beginPath(); this.ctx.arc(hx, hy, 4, 0, Math.PI*2); this.ctx.fill();
+                    }
+                    this.ctx.restore();
+                }
+            },
+            drawInfinity() {
+                // DRAW BLACK HOLE
+                this.ctx.beginPath();
+                this.ctx.arc(0, 0, Game.blackHoleSize, 0, Math.PI * 2);
+                this.ctx.fillStyle = "#000";
+                this.ctx.fill();
+                this.ctx.lineWidth = 3;
+                this.ctx.strokeStyle = "#bd00ff";
+                this.ctx.shadowBlur = 20;
+                this.ctx.shadowColor = "#bd00ff";
+                this.ctx.stroke();
+                this.ctx.shadowBlur = 0;
+
+                // ACCRETION DISC
+                this.ctx.beginPath();
+                this.ctx.arc(0, 0, Game.blackHoleSize + 15, 0, Math.PI*2);
+                this.ctx.strokeStyle = "rgba(189, 0, 255, 0.5)"; 
+                this.ctx.lineWidth = 2;
+                this.ctx.stroke();
+            }
+        };
+
+        const UI = {
+            init() { this.buildUpgrades(); this.updateRPMList(); this.updateCurrList(); this.updatePrestigeUI(); this.updateShopUI(); this.buildAchievements(); },
+            toggleRPM() { if(Game.unlockedLayers > 1) document.getElementById('rpm-list').classList.toggle('open'); },
+            toggleCurrList() { if(Game.unlockedLayers > 1) document.getElementById('curr-list').classList.toggle('show'); },
+            selectCurr(idx) { Game.selectedRes = idx; document.getElementById('curr-list').classList.remove('show'); this.updateMainDisplay(); },
+            setBuy(amount, btn) { Game.buyAmount = amount; document.querySelectorAll('.mult-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); this.updateButtons(); },
+            toggleFloaters() {
+                Game.settings.floaters = !Game.settings.floaters;
+                const btn = document.getElementById('floaters-btn');
+                btn.innerText = `FLOATING TEXT: ${Game.settings.floaters ? "ON" : "OFF"}`;
+                btn.classList.toggle('active');
+            },
+            updateComboUI() {
+                if(Game.clickCombo > 0) {
+                    document.getElementById('click-combo-container').style.opacity = 1;
+                    document.getElementById('combo-text').innerText = `CLICK COMBO: +${(Game.clickCombo * 100).toFixed(1)}%`;
+                    document.getElementById('combo-fill').style.width = (Game.clickCombo / 0.5 * 100) + "%";
+                } else {
+                    document.getElementById('click-combo-container').style.opacity = 0;
+                }
+            },
+            spawnComboText(text, x, y) {
+                const el = document.createElement('div');
+                el.innerText = text;
+                el.style.position = 'absolute';
+                el.style.left = x + 'px';
+                el.style.top = y + 'px';
+                el.style.color = '#ff3333';
+                el.style.fontWeight = 'bold';
+                el.style.fontSize = '1rem';
+                el.style.pointerEvents = 'none';
+                el.style.textShadow = '0 0 5px #000';
+                el.style.animation = 'floatUp 0.5s ease-out forwards';
+                document.body.appendChild(el);
+                setTimeout(() => el.remove(), 500);
+            },
+            updateCurrList() {
+                const list = document.getElementById('curr-list'); list.innerHTML = '';
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const l = CONFIG.layers[i]; const div = document.createElement('div'); div.className = 'curr-opt';
+                    div.innerHTML = `${l.name} (${l.icon})`; div.onclick = () => this.selectCurr(i); list.appendChild(div);
+                }
+            },
+            buildUpgrades() {
+                const con = document.getElementById('upgrades'); con.innerHTML = '';
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const layer = CONFIG.layers[i]; const group = document.createElement('div'); group.className = 'layer-group';
+                    const header = document.createElement('div'); header.className = 'layer-header';
+                    header.style.setProperty('--layer-color', layer.color);
+                    
+                    let mult = 1 + (Game.rings[i].prestigeLevel * 0.5);
+                    header.innerHTML = `<span>${layer.name} GEAR (x${mult.toFixed(1)})</span>`;
+                    
+                    const ocBtn = document.createElement('button');
+                    ocBtn.className = 'overclock-btn';
+                    ocBtn.id = `oc-btn-${i}`;
+                    ocBtn.innerText = `PURIFY (x${mult.toFixed(1)} -> x${(mult + 0.5).toFixed(1)})`;
+                    ocBtn.onclick = () => Game.overclockLayer(i);
+                    header.appendChild(ocBtn);
+
+                    group.appendChild(header);
+                    
+                    let nextAuto = (Game.rings[i].upgrades.auto + 1) * 25; 
+                    let multVal = Game.getLayerMult(i);
+                    let projectedRPM = nextAuto * multVal;
+
+                    let nextSpeed = ((1 + ((Game.rings[i].upgrades.speed + 1) * 0.25)) * 100).toFixed(0) + "%";
+                    let nextVal = "x" + Math.pow(1.6, Game.rings[i].upgrades.value + 1).toFixed(1);
+
+                    group.appendChild(this.createCard(i, 'auto', 'Perpetual Motor', 'Maintains minimum RPM.', layer.color, `Next: ${Format(projectedRPM)} RPM`));
+                    group.appendChild(this.createCard(i, 'speed', 'Kinetic Lubricant', 'Reduces friction.', layer.color, `Next: ${nextSpeed}`));
+                    group.appendChild(this.createCard(i, 'value', 'Matter Compression', 'Increases yield.', layer.color, `Next: ${nextVal}`));
+                    
+                    con.appendChild(group);
+                }
+                this.updateButtons();
+            },
+            buildInfinityUpgrades() {
+                const con = document.getElementById('upgrades'); con.innerHTML = '';
+                const header = document.createElement('div'); 
+                header.innerHTML = `<div style="text-align:center; color:#bd00ff; font-family:'Orbitron'; margin-bottom:20px; font-size:1.2rem;">COSMIC WEAVE STABILIZER</div>`;
+                con.appendChild(header);
+                
+                let cost1 = 10 * Math.pow(1.5, Game.infUpgrades.void);
+                const card1 = document.createElement('div'); card1.className = 'upgrade-card';
+                card1.style.borderColor = '#bd00ff';
+                card1.innerHTML = `<div class="u-info"><span class="u-name">Void Siphon</span><span class="u-desc">Absorb background radiation. 1 Particle per level.</span></div><div class="u-meta"><span class="u-cost">${Format(cost1)} Essence</span><span class="u-lvl">LVL ${Game.infUpgrades.void}</span></div>`;
+                card1.onclick = () => {
+                    if(Game.infinityPoints >= cost1) { Game.infinityPoints -= cost1; Game.infUpgrades.void++; UI.updateMainDisplay(); UI.buildInfinityUpgrades(); }
+                };
+                con.appendChild(card1);
+
+                let cost2 = 50 * Math.pow(2.0, Game.infUpgrades.weave);
+                const card2 = document.createElement('div'); card2.className = 'upgrade-card';
+                card2.style.borderColor = '#bd00ff';
+                card2.innerHTML = `<div class="u-info"><span class="u-name">Event Horizon</span><span class="u-desc">Strengthens the singularity. Click Combo Max +5%</span></div><div class="u-meta"><span class="u-cost">${Format(cost2)} Essence</span><span class="u-lvl">LVL ${Game.infUpgrades.weave}</span></div>`;
+                card2.onclick = () => {
+                    if(Game.infinityPoints >= cost2) { Game.infinityPoints -= cost2; Game.infUpgrades.weave++; UI.updateMainDisplay(); UI.buildInfinityUpgrades(); }
+                };
+                con.appendChild(card2);
+                
+                if(Game.infUpgrades.void > 5) document.getElementById('reality-btn').style.display = 'block';
+            },
+            updateRPMList() {
+                const list = document.getElementById('rpm-list'); list.innerHTML = '';
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const l = CONFIG.layers[i]; const d = document.createElement('div'); d.className = 'rpm-item';
+                    let boost = Game.getSynergyBoost(i); let boostText = boost > 1.0 ? `<span class="rpm-boost">(+${((boost-1)*100).toFixed(0)}%)</span>` : '';
+                    let trueRPM = Math.floor(Game.rings[i].velocity);
+                    d.innerHTML = `<span>${l.name}</span> <span class="rpm-val" id="rpm-item-${i}">${Format(trueRPM)} ${boostText}</span>`; 
+                    list.appendChild(d);
+                }
+            },
+            createCard(layerIdx, type, name, desc, color, currentStat) {
+                const el = document.createElement('div'); el.className = 'upgrade-card';
+                el.style.setProperty('--layer-color', color); el.style.borderColor = color; 
+                el.id = `btn-${layerIdx}-${type}`; el.onclick = () => Game.buy(layerIdx, type);
+                el.innerHTML = `<div class="u-info"><span class="u-name">${name}</span><span class="u-desc">${desc}</span><span class="u-current" id="stat-${layerIdx}-${type}">${currentStat}</span></div><div class="u-meta"><span class="u-cost" id="cost-${layerIdx}-${type}">0</span><span class="u-lvl" id="lvl-${layerIdx}-${type}">LVL 0</span></div>`;
+                return el;
+            },
+            updateButtons() {
+                if(Game.dimension === 1) return; 
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const ocBtn = document.getElementById(`oc-btn-${i}`);
+                    if(ocBtn) {
+                        if(Game.rings[i].upgrades.speed >= 10 && Game.rings[i].upgrades.value >= 10 && Game.rings[i].upgrades.auto >= 10) {
+                            ocBtn.classList.add('visible');
+                        } else {
+                            ocBtn.classList.remove('visible');
+                        }
+                    }
+
+                    ['speed', 'value', 'auto'].forEach(type => {
+                        let data = Game.getCostAndCount(i, type);
+                        let displayCost = data.cost; let displayLvl = Game.rings[i].upgrades[type];
+                        document.getElementById(`cost-${i}-${type}`).innerText = Format(displayCost);
+                        let plusText = data.count > 0 ? `+${data.count}` : ''; if(Game.buyAmount === -1) plusText = data.count > 0 ? `+${data.count}` : '(MAX)';
+                        document.getElementById(`lvl-${i}-${type}`).innerText = `LVL ${displayLvl} ${plusText}`;
+                        let nextLvl = displayLvl + 1; 
+                        
+                        let statText = "";
+                        if(type==='auto') { 
+                            let nextAuto = (Game.rings[i].upgrades.auto + 1) * 25; 
+                            let multVal = Game.getLayerMult(i);
+                            statText = `Next: ${Format(nextAuto * multVal)} RPM`; 
+                        }
+                        if(type==='speed') statText = `Next: ${((1 + (nextLvl * 0.25)) * 100).toFixed(0)}%`;
+                        if(type==='value') statText = `Next: x${Math.pow(1.6, nextLvl).toFixed(1)}`;
+                        
+                        document.getElementById(`stat-${i}-${type}`).innerText = statText;
+                        const btn = document.getElementById(`btn-${i}-${type}`);
+                        if(Game.resources[i] >= displayCost && data.count > 0) { btn.classList.remove('locked'); btn.style.borderColor = CONFIG.layers[i].color; } else btn.classList.add('locked');
+                    });
+                }
+            },
+            updatePrestigeUI() {
+                const totalVal = Game.getTotalValue();
+                
+                if(totalVal < 10000 && Game.chronons === 0) {
+                    document.getElementById('prestige-container').style.display = 'none';
+                    return;
+                }
+                document.getElementById('prestige-container').style.display = 'block';
+                document.getElementById('chronon-val').innerText = Format(Game.chronons);
+                
+                let pending = Math.floor(totalVal / 50000);
+                const btn = document.getElementById('prestige-btn');
+                
+                if(totalVal >= 50000) { 
+                    btn.disabled = false; btn.innerText = `REWIND (+${pending})`; 
+                    btn.title = "Reset game to gain Chronons"; 
+                } else { 
+                    btn.disabled = true; btn.innerText = "LOCKED (Req: 50k Value)"; 
+                    btn.title = "Requires 50,000 Total System Value to unlock Time Travel"; 
+                }
+            },
+            updateShopUI() {
+                document.getElementById('shop-chronon-val').innerText = Format(Game.chronons);
+                const btn = document.getElementById('shop-auto-btn');
+                if(Game.autoBuyLayer1) { btn.innerText = "OWNED"; btn.classList.add('owned'); } else { if(Game.chronons >= 5) btn.disabled = false; else btn.disabled = true; }
+            },
+            updateMainDisplay() {
+                if(Game.dimension === 1) {
+                    document.getElementById('main-display-val').innerText = Format(Game.infinityPoints);
+                    return;
+                }
+                const idx = Game.selectedRes; const l = CONFIG.layers[idx];
+                document.getElementById('main-display-val').innerText = Format(Game.resources[idx]);
+                document.getElementById('main-display-val').style.color = l.color;
+                document.getElementById('main-display-name').innerText = `${l.currency} ▼`;
+            },
+            updateRealtime() {
+                let trueRPM = Game.rings[0].velocity;
+                document.getElementById('rpm-display').innerText = Format(trueRPM);
+                
+                for(let i=0; i<Game.unlockedLayers; i++) {
+                    const el = document.getElementById(`rpm-item-${i}`);
+                    if(el) {
+                        let boost = Game.getSynergyBoost(i);
+                        let boostText = boost > 1.0 ? `<span class="rpm-boost">(+${((boost-1)*100).toFixed(0)}%)</span>` : '';
+                        el.innerHTML = `${Format(Game.rings[i].velocity)} ${boostText}`;
+                    }
+                }
+                this.updateButtons(); this.updateMainDisplay(); this.updatePrestigeUI();
+            },
+            setLore(text) {
+                const box = document.getElementById('lore-content'); box.innerHTML = text + '<span class="lore-blink"></span>';
+                if(Game.dimension === 0) {
+                    const color = CONFIG.layers[Game.unlockedLayers-1] ? CONFIG.layers[Game.unlockedLayers-1].color : '#fff';
+                    document.getElementById('lore-box').style.borderColor = color;
+                } else document.getElementById('lore-box').style.borderColor = "#40e0d0";
+            },
+            spawnText(text, layerIdx, isGradient = false) {
+                if(!Game.settings.floaters) return;
+
+                const el = document.createElement('div');
+                el.className = 'floater';
+                if(isGradient) el.classList.add('gradient-text'); 
+                el.innerText = text;
+                const cx = window.innerWidth / 2;
+                const cy = window.innerHeight / 2;
+                const r = CONFIG.baseRadius + (layerIdx * CONFIG.spacing);
+                const ang = Math.random() * Math.PI * 2;
+                el.style.left = (cx + Math.cos(ang) * (r + 20)) + 'px';
+                el.style.top = (cy + Math.sin(ang) * (r + 20)) + 'px';
+                
+                if(!isGradient) {
+                    const color = CONFIG.layers[layerIdx] ? CONFIG.layers[layerIdx].color : '#fff';
+                    el.style.color = color;
+                    el.style.textShadow = `0 0 5px ${color}`;
+                }
+
+                document.body.appendChild(el);
+                setTimeout(() => el.remove(), 1000);
+            },
+            buildAchievements() {
+                const con = document.getElementById('ach-list-container');
+                con.innerHTML = '';
+                Achievements.list.forEach(a => {
+                    const div = document.createElement('div');
+                    div.className = `ach-list-item ${a.unlocked ? '' : 'locked'}`;
+                    div.innerHTML = `<span class="ach-icon-sm">🏆</span><span style="font-family:'Orbitron'; font-size:0.8rem; color:${a.unlocked ? '#fff' : '#888'}">${a.name}</span>`;
+                    con.appendChild(div);
+                });
+            },
+            showAchievements() {
+                this.buildAchievements();
+            }
+        };
+
+        const Achievements = {
+            list: [
+                { id: "layer_2", name: "Biomass Unlocked", unlocked: false },
+                { id: "layer_3", name: "Aether Unlocked", unlocked: false },
+                { id: "layer_5", name: "Dark Matter Unlocked", unlocked: false },
+                { id: "layer_8", name: "Chronos Unlocked", unlocked: false },
+                { id: "singularity", name: "The Singularity", unlocked: false },
+                { id: "prestige", name: "Time Traveler", unlocked: false }
+            ],
+            unlock(id) {
+                const ach = this.list.find(a => a.id === id);
+                if(ach && !ach.unlocked) {
+                    ach.unlocked = true;
+                }
+            },
+            show(title, desc, color) {
+                const area = document.getElementById('popups'); const div = document.createElement('div'); div.className = 'achievement';
+                div.style.setProperty('--c', color); div.innerHTML = `<div class="ach-icon">🏆</div><div class="ach-text"><h3>${title}</h3><p>${desc}</p></div>`;
+                area.appendChild(div); setTimeout(()=>div.remove(), 6000);
+            }
+        };
+
+        function Format(n) {
+            if(n < 1000) return n.toFixed(2);
+            const suffixes = ["k", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", "Dc", "Ud", "Dd", "Td", "Qad", "Qid"];
+            const suffixNum = Math.floor(("" + Math.floor(n)).length / 3);
+            let shortValue = parseFloat((suffixNum != 0 ? (n / Math.pow(1000, suffixNum)) : n).toPrecision(3));
+            if (suffixNum > suffixes.length) return n.toExponential(2);
+            return shortValue.toFixed(2) + suffixes[suffixNum - 1];
+        }
+
+        window.onload = () => Game.init();
+
+    </script>
+</body>
+</html>

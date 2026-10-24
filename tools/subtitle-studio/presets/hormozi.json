@@ -1,0 +1,23 @@
+{
+  "name": "hormozi",
+  "label": "Hormozi",
+  "font": "Anton",
+  "font_fallbacks": [
+    "Bebas Neue",
+    "Impact",
+    "Arial Black"
+  ],
+  "bold": false,
+  "casing": "upper",
+  "size_pct": 10.5,
+  "letter_spacing_pct": 1.0,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#C8FF00",
+  "outline_colour": "#000000",
+  "outline_pct": 0.42,
+  "shadow_pct": 0.3,
+  "highlight": "colour",
+  "position": "bottom",
+  "margin_v_pct": 16.0,
+  "default_reveal": "WORD_POP"
+}

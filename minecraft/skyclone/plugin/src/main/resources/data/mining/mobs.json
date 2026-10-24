@@ -1,0 +1,436 @@
+[
+ {
+  "id": "mining_golden_goblin",
+  "name": "Golden Goblin",
+  "level": 50,
+  "entity": "ZOMBIE",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.6,
+  "combatXp": 50,
+  "coins": 200,
+  "family": "golden_goblin",
+  "flags": [
+   "baby",
+   "passive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "GOLDEN_CHESTPLATE",
+   "LEGS": "GOLDEN_LEGGINGS",
+   "FEET": "GOLDEN_BOOTS"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   }
+  ]
+ },
+ {
+  "id": "mining_diamond_goblin",
+  "name": "Diamond Goblin",
+  "level": 100,
+  "entity": "ZOMBIE",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.8,
+  "combatXp": 200,
+  "coins": 1000,
+  "family": "diamond_goblin",
+  "flags": [
+   "baby",
+   "passive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HEAD": "DIAMOND_HELMET",
+   "CHEST": "DIAMOND_CHESTPLATE",
+   "LEGS": "DIAMOND_LEGGINGS",
+   "FEET": "DIAMOND_BOOTS"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   }
+  ]
+ },
+ {
+  "id": "mining_powder_ghast",
+  "name": "Powder Ghast",
+  "level": 250,
+  "entity": "GHAST",
+  "health": 3000,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 300,
+  "coins": 500,
+  "family": "powder_ghast",
+  "flags": [
+   "passive",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "drops": []
+ },
+ {
+  "id": "mining_star_sentry",
+  "name": "Star Sentry",
+  "level": 70,
+  "entity": "BLAZE",
+  "health": 2500,
+  "damage": 300,
+  "speed": 1.0,
+  "combatXp": 80,
+  "coins": 60,
+  "family": "star_sentry",
+  "flags": [
+   "aggressive",
+   "fire_immune"
+  ],
+  "drops": [
+   {
+    "item": "STARFALL",
+    "min": 2,
+    "max": 5,
+    "chance": 1.0
+   }
+  ]
+ },
+ {
+  "id": "mining_raid_weakling",
+  "name": "Weakling Goblin",
+  "level": 5,
+  "entity": "ZOMBIE",
+  "health": 200,
+  "damage": 40,
+  "speed": 1.0,
+  "combatXp": 4,
+  "coins": 3,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "LEATHER_HELMET"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours",
+   "scale": 0.8
+  }
+ },
+ {
+  "id": "mining_raid_weakling_bow",
+  "name": "Weakling Goblin",
+  "level": 5,
+  "entity": "SKELETON",
+  "health": 200,
+  "damage": 35,
+  "speed": 1.0,
+  "combatXp": 4,
+  "coins": 3,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "BOW",
+   "HEAD": "LEATHER_HELMET"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours",
+   "scale": 0.8
+  }
+ },
+ {
+  "id": "mining_raid_battler",
+  "name": "Goblin Battler",
+  "level": 60,
+  "entity": "ZOMBIE",
+  "health": 3000,
+  "damage": 200,
+  "speed": 1.1,
+  "combatXp": 30,
+  "coins": 15,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD",
+   "HEAD": "IRON_HELMET",
+   "CHEST": "CHAINMAIL_CHESTPLATE"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.03
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours",
+   "scale": 0.9
+  }
+ },
+ {
+  "id": "mining_raid_creepertamer",
+  "name": "Creepertamer",
+  "level": 90,
+  "entity": "ZOMBIE",
+  "health": 6000,
+  "damage": 260,
+  "speed": 1.0,
+  "combatXp": 60,
+  "coins": 30,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive"
+  ],
+  "equipment": {
+   "HAND": "STICK",
+   "HEAD": "CREEPER_HEAD"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours",
+   "scale": 0.9
+  }
+ },
+ {
+  "id": "mining_raid_cutthroat",
+  "name": "Goblin Cutthroat",
+  "level": 150,
+  "entity": "ZOMBIE",
+  "health": 15000,
+  "damage": 380,
+  "speed": 1.15,
+  "combatXp": 150,
+  "coins": 100,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {
+   "HAND": "IRON_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "CHAINMAIL_CHESTPLATE"
+  },
+  "drops": [
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours"
+  }
+ },
+ {
+  "id": "mining_raid_golem",
+  "name": "Goblin Golem",
+  "level": 150,
+  "entity": "IRON_GOLEM",
+  "health": 25000,
+  "damage": 320,
+  "speed": 0.8,
+  "combatXp": 150,
+  "coins": 100,
+  "family": "goblin_raiders",
+  "flags": [
+   "aggressive",
+   "no_knockback"
+  ],
+  "equipment": {},
+  "drops": [
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   }
+  ],
+  "extra": {
+   "tune": "Goblin Raiders (NEU bestiary mining_3): ids/levels from the reference roster; HP inside the reference Goblin range 200-50,000 (NEU GOBLIN_MONSTER); damage/xp/coins/drops are ours"
+  }
+ },
+ {
+  "id": "mining_worm",
+  "name": "Cave Worm",
+  "level": 5,
+  "entity": "SILVERFISH",
+  "health": 5000,
+  "damage": 300,
+  "speed": 1.0,
+  "combatXp": 60,
+  "coins": 100,
+  "family": "worm",
+  "flags": [
+   "aggressive"
+  ],
+  "drops": [
+   {
+    "item": "WORM_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_AMETHYST_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ROUGH_AMBER_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ROUGH_SAPPHIRE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ]
+ },
+ {
+  "id": "mining_scatha",
+  "name": "Tunnel Wyrm",
+  "level": 10,
+  "entity": "ENDERMITE",
+  "health": 10000,
+  "damage": 500,
+  "speed": 1.1,
+  "combatXp": 250,
+  "coins": 400,
+  "family": "scatha",
+  "flags": [
+   "aggressive"
+  ],
+  "drops": [
+   {
+    "item": "WORM_MEMBRANE",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_TOPAZ_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FINE_AMETHYST_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   },
+   {
+    "item": "FINE_JADE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "FINE_AMBER_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "FINE_SAPPHIRE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "SCATHA;2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0024,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "SCATHA;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0012,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "SCATHA;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004,
+    "label": "RNGESUS"
+   }
+  ]
+ }
+]

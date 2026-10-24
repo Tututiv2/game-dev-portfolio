@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>Probe</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--
+      Measure the SHIPPING engine, not a copy of it. probe/Boost.cs and app/BoostEngine.cs drifted
+      apart once already: the probe was measuring a limiter while the app ran a compressor, so the
+      numbers here described code nobody was listening to.
+    -->
+    <Compile Include="..\app\BoostEngine.cs" Link="BoostEngine.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="ZombieSurge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ZombieSurge"
+        Title="Zombie Surge - Undead Rounds"
+        Width="1000"
+        Height="650"
+        MinWidth="800"
+        MinHeight="500"
+        Background="Black"
+        WindowStartupLocation="CenterScreen"
+        Focusable="True"
+        PreviewKeyDown="Window_OnKeyDown"
+        PreviewKeyUp="Window_OnKeyUp"
+        MouseMove="Window_OnMouseMove"
+        MouseDown="Window_OnMouseButton"
+        MouseUp="Window_OnMouseButton"
+        Loaded="Window_OnLoaded">
+  <local:GameSurface x:Name="GameRoot" />
+</Window>

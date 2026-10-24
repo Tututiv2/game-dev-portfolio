@@ -1,0 +1,126 @@
+{
+  "props": [
+    {
+      "slug": "barrel_rusted",
+      "subject": "a heavily rusted steel oil drum barrel, dented and weathered, industrial",
+      "seed": 624597516,
+      "prompt": "a heavily rusted steel oil drum barrel, dented and weathered, industrial. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 1500,
+      "sourceTris": 493792,
+      "finalTris": 1500,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\barrel_rusted_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\barrel_rusted_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\barrel_rusted.fbx",
+      "sourceFlatness": 0.71937,
+      "sourceSolidity": 0.69401,
+      "degenerateReasons": [],
+      "degenerate": false,
+      "decimateStages": 9
+    },
+    {
+      "slug": "crate_wooden",
+      "subject": "a weathered wooden shipping crate made of rough planks, industrial storage",
+      "seed": 159275073,
+      "prompt": "a weathered wooden shipping crate made of rough planks, industrial storage. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 1200,
+      "sourceTris": 1198696,
+      "finalTris": 1200,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\crate_wooden_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\crate_wooden_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\crate_wooden.fbx",
+      "sourceFlatness": 0.96429,
+      "sourceSolidity": 0.26025,
+      "degenerateReasons": [],
+      "degenerate": false,
+      "decimateStages": 10
+    },
+    {
+      "slug": "debris_pile",
+      "subject": "a pile of broken concrete rubble with twisted rebar sticking out",
+      "seed": 1002249300,
+      "prompt": "a pile of broken concrete rubble with twisted rebar sticking out. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 2500,
+      "sourceTris": 401412,
+      "finalTris": 2500,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\debris_pile_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\debris_pile_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\debris_pile.fbx",
+      "sourceFlatness": 0.58498,
+      "sourceSolidity": 0.21944,
+      "degenerateReasons": [],
+      "degenerate": false,
+      "decimateStages": 8
+    },
+    {
+      "slug": "generator_unit",
+      "subject": "a rusted industrial diesel generator unit with pipes, vents and a control panel",
+      "seed": 1134466052,
+      "prompt": "a rusted industrial diesel generator unit with pipes, vents and a control panel. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 3000,
+      "sourceTris": 656880,
+      "finalTris": 2998,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\generator_unit_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\generator_unit_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\generator_unit.fbx",
+      "sourceFlatness": 0.59127,
+      "sourceSolidity": 0.19772,
+      "degenerateReasons": [
+        "solidity 0.1977 (encloses only 19.8% of its bounding box; a solid prop is 0.3-0.8) - this is hollow or made of plates"
+      ],
+      "degenerate": true,
+      "decimateStages": 8
+    },
+    {
+      "slug": "pallet_stack",
+      "subject": "a stack of worn wooden shipping pallets",
+      "seed": 1343424938,
+      "prompt": "a stack of worn wooden shipping pallets. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 1500,
+      "sourceTris": 2193136,
+      "finalTris": 2408,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\pallet_stack_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\pallet_stack_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\pallet_stack.fbx",
+      "sourceFlatness": 0.90476,
+      "sourceSolidity": 0.30225,
+      "degenerateReasons": [],
+      "degenerate": false,
+      "decimateStages": 16
+    },
+    {
+      "slug": "shrine_obelisk",
+      "subject": "a weathered carved stone obelisk shrine covered in moss and runes",
+      "seed": 990226187,
+      "prompt": "a weathered carved stone obelisk shrine covered in moss and runes. A single isolated object photographed alone on a plain flat white studio background. The entire object is visible with generous empty space around it, centred in frame, shown from a three-quarter angle with soft even lighting, sharp focus and fine detail. There is nothing else in the picture - no people, no hands, no scenery, no text.",
+      "targetTris": 2000,
+      "sourceTris": 194036,
+      "finalTris": 2000,
+      "lods": [
+        "Assets\\_Project\\Art\\Props\\shrine_obelisk_LOD1.fbx",
+        "Assets\\_Project\\Art\\Props\\shrine_obelisk_LOD2.fbx"
+      ],
+      "bakeError": null,
+      "output": "Assets\\_Project\\Art\\Props\\shrine_obelisk.fbx",
+      "sourceFlatness": 0.37154,
+      "sourceSolidity": 0.56061,
+      "degenerateReasons": [],
+      "degenerate": false,
+      "decimateStages": 7
+    }
+  ]
+}

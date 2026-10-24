@@ -1,0 +1,29 @@
+{
+  "title": "Can 4 AIs Beat Hypixel SkyBlock?",
+  "paths": {
+    "skyclone": "D:\\projects\\SkyblockClone",
+    "skyclone_server_template": "D:\\projects\\SkyblockClone\\server",
+    "testpilot": "D:\\projects\\SkyblockClone\\tools\\testpilot",
+    "launcher": "D:\\projects\\MinecraftLauncher",
+    "launcher_instance": "Fabric-26.1.2",
+    "shadow": "D:\\projects\\Shadow",
+    "show_server": "D:\\projects\\AISkyShow\\server",
+    "episodes": "D:\\projects\\AISkyShow\\episodes"
+  },
+  "ports": {
+    "server": 25640, "rcon": 25641, "showcontrol": 25642,
+    "pilot": [25650, 25651, 25652, 25653], "pilot_camera": 25654,
+    "showcam": 25660, "orchestrator": 5650, "obs": 4455
+  },
+  "rcon_password": "aisky",
+  "obs_password": "",
+  "monitor": {
+    "_note": "Second monitor measured 2026-10-03: DISPLAY2 at x=-3840 y=6, 3840x2160 (DISPLAY1 primary 3840x2160 at 0,0). Tiles are 2x2 of 1920x1080 (window client size; title bar eats ~31px so height is trimmed).",
+    "tiles": [[-3840, 6], [-1920, 6], [-3840, 1086], [-1920, 1086]],
+    "tile_window": "1904x1041",
+    "camera_pos": [-3840, 6],
+    "camera_window": "1920x1080"
+  },
+  "client": {"fps": 30, "render_distance": 6},
+  "ruleset": "sprint30"
+}

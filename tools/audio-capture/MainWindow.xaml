@@ -1,0 +1,192 @@
+<Window x:Class="AudioCapture.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Audio Capture" Height="946" Width="680"
+        MinHeight="640" MinWidth="600"
+        Background="{StaticResource Bg}"
+        WindowStartupLocation="CenterScreen"
+        UseLayoutRounding="True" TextOptions.TextRenderingMode="ClearType">
+
+    <Window.Resources>
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background" Value="{StaticResource Panel}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Line}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="16"/>
+            <Setter Property="Margin" Value="0,0,0,12"/>
+        </Style>
+        <LinearGradientBrush x:Key="MeterFill" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="#FF4ADE80" Offset="0"/>
+            <GradientStop Color="#FF4ADE80" Offset="0.62"/>
+            <GradientStop Color="#FFFACC15" Offset="0.82"/>
+            <GradientStop Color="#FFFF4D5A" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+
+    <Grid Margin="18,16,18,16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- ── header ─────────────────────────────────────────────── -->
+        <StackPanel Grid.Row="0" Margin="2,0,0,14">
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Width="9" Height="9" Fill="{StaticResource Accent}" VerticalAlignment="Center" Margin="0,0,9,0"/>
+                <TextBlock Text="Audio Capture" FontSize="20" FontWeight="Bold"/>
+            </StackPanel>
+            <TextBlock Style="{StaticResource Hint}" Margin="18,3,0,0"
+                       Text="Records audio only — microphone, everything on screen, or both mixed — straight into a WAV a TTS model takes as-is."/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="0,0,-8,0" Padding="0,0,8,0">
+            <StackPanel>
+
+                <!-- ── source ─────────────────────────────────────── -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="SOURCE" Style="{StaticResource Label}"/>
+
+                        <Border Background="{StaticResource Panel2}" CornerRadius="8" Padding="3" HorizontalAlignment="Left"
+                                BorderBrush="{StaticResource Line}" BorderThickness="1" Margin="0,0,0,14">
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton x:Name="ModeMic"  Style="{StaticResource Pill}" Content="Microphone" IsChecked="True"
+                                             Checked="Mode_Changed"/>
+                                <RadioButton x:Name="ModeSys"  Style="{StaticResource Pill}" Content="Screen / system audio"
+                                             Checked="Mode_Changed"/>
+                                <RadioButton x:Name="ModeBoth" Style="{StaticResource Pill}" Content="Both"
+                                             Checked="Mode_Changed"/>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- mic -->
+                        <Grid x:Name="MicRow" Margin="0,0,0,12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="120"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                                <TextBlock Text="Microphone" Style="{StaticResource Label}"/>
+                                <ComboBox x:Name="MicDevice"/>
+                                <Border x:Name="MicTrack" Height="8" CornerRadius="4" Background="#FF23272F" Margin="0,9,0,0">
+                                    <Rectangle x:Name="MicFill" HorizontalAlignment="Left" Width="0"
+                                               RadiusX="4" RadiusY="4" Fill="{StaticResource MeterFill}"/>
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Top">
+                                <TextBlock x:Name="MicGainLabel" Text="GAIN  1.0×" Style="{StaticResource Label}"/>
+                                <Slider x:Name="MicGain" Minimum="0.2" Maximum="4" Value="1" Height="30"
+                                        ValueChanged="Gain_Changed"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- system -->
+                        <Grid x:Name="SysRow">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="120"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                                <TextBlock Text="Screen / system audio (playback device to capture)" Style="{StaticResource Label}"/>
+                                <ComboBox x:Name="SysDevice"/>
+                                <Border x:Name="SysTrack" Height="8" CornerRadius="4" Background="#FF23272F" Margin="0,9,0,0">
+                                    <Rectangle x:Name="SysFill" HorizontalAlignment="Left" Width="0"
+                                               RadiusX="4" RadiusY="4" Fill="{StaticResource MeterFill}"/>
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Top">
+                                <TextBlock x:Name="SysGainLabel" Text="GAIN  1.0×" Style="{StaticResource Label}"/>
+                                <Slider x:Name="SysGain" Minimum="0.2" Maximum="4" Value="1" Height="30"
+                                        ValueChanged="Gain_Changed"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── output ─────────────────────────────────────── -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="OUTPUT FORMAT" Style="{StaticResource Label}"/>
+                        <ComboBox x:Name="RatePreset" Margin="0,0,0,7"/>
+                        <TextBlock x:Name="RateHint" Style="{StaticResource Hint}" Margin="2,0,0,12"/>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,14">
+                            <CheckBox x:Name="Stereo" Content="Stereo" Margin="0,0,22,0" Checked="Rate_Changed" Unchecked="Rate_Changed"/>
+                            <CheckBox x:Name="TrimSilence" Content="Trim leading / trailing silence" IsChecked="True" Margin="0,0,22,0"/>
+                            <CheckBox x:Name="Normalise"   Content="Normalise to −1 dBFS" IsChecked="True"/>
+                        </StackPanel>
+
+                        <TextBlock Text="SAVE TO" Style="{StaticResource Label}"/>
+                        <Grid Margin="0,0,0,12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="OutFolder" Grid.Column="0" MinHeight="30"/>
+                            <Button Grid.Column="1" Content="Browse" Style="{StaticResource Ghost}" Margin="8,0,0,0" Click="Browse_Click"/>
+                            <Button Grid.Column="2" Content="Open"   Style="{StaticResource Ghost}" Margin="6,0,0,0" Click="Open_Click"/>
+                        </Grid>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="0,0,16,0">
+                                <TextBlock Text="FILE NAME PREFIX" Style="{StaticResource Label}"/>
+                                <TextBox x:Name="Prefix" Text="voice" MinHeight="30"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                                <CheckBox x:Name="DatasetMode" Content="Dataset mode  —  wavs/ + metadata.csv (LJSpeech)"
+                                          Checked="Dataset_Changed" Unchecked="Dataset_Changed"/>
+                                <TextBlock x:Name="DatasetHint" Style="{StaticResource Hint}" Margin="25,5,0,0"
+                                           Text="Off: one timestamped file per take, ready as an IndexTTS voice prompt."/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── transcript ─────────────────────────────────── -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="TRANSCRIPT  (optional)" Style="{StaticResource Label}"/>
+                        <TextBox x:Name="Transcript" Height="62" AcceptsReturn="True" TextWrapping="Wrap"
+                                 VerticalContentAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+                        <TextBlock Style="{StaticResource Hint}" Margin="0,6,0,0"
+                                   Text="What you are about to say. Saved beside the WAV as .txt, or as the metadata.csv line in dataset mode — IndexTTS uses it as the prompt text."/>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- ── transport ──────────────────────────────────────────── -->
+        <StackPanel Grid.Row="2" Margin="0,4,0,0">
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="RecordBtn" Grid.Column="0" Style="{StaticResource Big}" Content="● &#160;Record" Click="Record_Click"/>
+                <Border Grid.Column="1" Background="{StaticResource Panel}" BorderBrush="{StaticResource Line}" BorderThickness="1"
+                        CornerRadius="8" Padding="18,0" Margin="10,0,0,0" MinWidth="130">
+                    <TextBlock x:Name="Elapsed" Text="00:00.0" FontSize="22" FontFamily="Consolas"
+                               VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="Status" Grid.Column="0" Style="{StaticResource Hint}" VerticalAlignment="Center"
+                           Margin="0,0,12,0" Text="Ready.  Ctrl+Shift+R starts and stops from anywhere."/>
+                <CheckBox x:Name="AskAfterTake" Grid.Column="1" Content="Name each take when it ends"
+                          IsChecked="True" VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

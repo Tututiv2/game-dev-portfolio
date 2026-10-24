@@ -1,0 +1,973 @@
+<title>Three Server Templates</title>
+<style>
+/* ── tokens ─────────────────────────────────────────────────────────── */
+:root{
+  --ground:#e8eae9;
+  --panel:#f3f4f3;
+  --panel2:#dde1e0;
+  --line:#c4cbc9;
+  --line-soft:#d6dbda;
+  --ink:#131a1c;
+  --ink2:#4c5a5e;
+  --ink3:#76858a;
+  --still:#b06318;
+  --belt:#37687f;
+  --rot:#6b41a0;
+  --hot:#a5382a;
+  --bile:#7f7016;
+  --accent:var(--ink2);
+  --shadow:0 1px 0 rgba(19,26,28,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#0e1113;
+    --panel:#161b1e;
+    --panel2:#1d2429;
+    --line:#2b3339;
+    --line-soft:#222a2f;
+    --ink:#e4e9eb;
+    --ink2:#98a6ac;
+    --ink3:#6a777e;
+    --still:#e39a4a;
+    --belt:#93b8d0;
+    --rot:#a87fd0;
+    --hot:#d8685a;
+    --bile:#cbb955;
+    --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0e1113;
+  --panel:#161b1e;
+  --panel2:#1d2429;
+  --line:#2b3339;
+  --line-soft:#222a2f;
+  --ink:#e4e9eb;
+  --ink2:#98a6ac;
+  --ink3:#6a777e;
+  --still:#e39a4a;
+  --belt:#93b8d0;
+  --rot:#a87fd0;
+  --hot:#d8685a;
+  --bile:#cbb955;
+  --shadow:0 1px 0 rgba(0,0,0,.4);
+}
+:root[data-theme="light"]{
+  --ground:#e8eae9;
+  --panel:#f3f4f3;
+  --panel2:#dde1e0;
+  --line:#c4cbc9;
+  --line-soft:#d6dbda;
+  --ink:#131a1c;
+  --ink2:#4c5a5e;
+  --ink3:#76858a;
+  --still:#b06318;
+  --belt:#37687f;
+  --rot:#6b41a0;
+  --hot:#a5382a;
+  --bile:#7f7016;
+  --shadow:0 1px 0 rgba(19,26,28,.06);
+}
+
+/* ── type roles ─────────────────────────────────────────────────────── */
+:root{
+  --display:"Bahnschrift","DIN Alternate","HelveticaNeue-CondensedBold","Arial Narrow",
+            "Roboto Condensed",system-ui,sans-serif;
+  --body:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:"Cascadia Mono",Consolas,"SF Mono","Roboto Mono",ui-monospace,monospace;
+}
+
+/* ── base ───────────────────────────────────────────────────────────── */
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px 120px}
+.measure{max-width:68ch}
+p{margin:0 0 1.05em}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+strong{font-weight:600;color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+h1,h2,h3,h4,.disp{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink3);margin:0;
+}
+
+/* ── channel switcher ───────────────────────────────────────────────── */
+.bar{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb,var(--ground) 88%,transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line-soft);
+}
+.bar-in{
+  max-width:1180px;margin:0 auto;padding:9px 28px;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+}
+.bar-mark{
+  font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink3);margin-right:auto;
+}
+.chan{
+  display:flex;align-items:center;gap:7px;
+  font-family:var(--display);font-size:15px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--ink2);text-decoration:none;
+  padding:4px 10px;border:1px solid transparent;border-radius:2px;
+  transition:color .15s,border-color .15s,background .15s;
+}
+.chan:hover{color:var(--ink);border-color:var(--line);background:var(--panel)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--c);flex:none}
+.chan.s{--c:var(--still)} .chan.b{--c:var(--belt)} .chan.r{--c:var(--rot)}
+
+/* ── masthead ───────────────────────────────────────────────────────── */
+.mast{padding:78px 0 42px;border-bottom:1px solid var(--line)}
+.mast h1{
+  font-size:clamp(44px,8.5vw,104px);line-height:.92;letter-spacing:-.015em;
+  text-transform:uppercase;margin:14px 0 0;
+}
+.mast .lede{margin-top:26px;color:var(--ink2);font-size:19px}
+.mast .lede em{color:var(--ink);font-style:italic}
+
+/* ── comparison strip ───────────────────────────────────────────────── */
+.compare{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin:42px 0 0}
+.cc{background:var(--panel);padding:22px 20px 24px;--accent:var(--ink2)}
+.cc.s{--accent:var(--still)} .cc.b{--accent:var(--belt)} .cc.r{--accent:var(--rot)}
+.cc-rule{height:3px;background:var(--accent);width:34px;margin-bottom:16px}
+.cc h3{font-size:27px;letter-spacing:.02em;text-transform:uppercase;color:var(--accent)}
+.cc .pillar{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink3);margin:5px 0 13px}
+.cc p{font-size:15.5px;line-height:1.5;color:var(--ink2);margin:0 0 14px}
+.cc dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:5px 12px;
+  font-family:var(--mono);font-size:11.5px;line-height:1.45}
+.cc dt{color:var(--ink3);text-transform:uppercase;letter-spacing:.08em}
+.cc dd{margin:0;color:var(--ink)}
+
+/* ── section shell ──────────────────────────────────────────────────── */
+.tpl{padding-top:96px;scroll-margin-top:56px}
+.tpl.s{--accent:var(--still)}
+.tpl.b{--accent:var(--belt)}
+.tpl.r{--accent:var(--rot)}
+.band{border-top:3px solid var(--accent);padding-top:20px;margin-bottom:34px}
+.band .pillar{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);
+}
+.band h2{
+  font-size:clamp(40px,7vw,78px);line-height:.94;letter-spacing:-.01em;
+  text-transform:uppercase;margin:8px 0 0;
+}
+.band .thesis{
+  font-size:20px;line-height:1.42;color:var(--ink2);margin:16px 0 0;max-width:44ch;
+  font-style:italic;
+}
+
+h3.sec{
+  font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-family:var(--mono);
+  font-weight:400;color:var(--ink3);
+  border-top:1px solid var(--line-soft);padding-top:11px;margin:52px 0 18px;
+}
+h4.sub{font-size:20px;letter-spacing:.03em;margin:26px 0 8px;color:var(--ink)}
+
+/* ── signature panel: the one loud element per template ─────────────── */
+.sig{
+  border:1px solid var(--accent);
+  background:var(--panel);
+  padding:28px 30px 30px;margin:26px 0 0;
+  position:relative;
+}
+.sig::before{
+  content:attr(data-tag);position:absolute;top:-9px;left:22px;
+  background:var(--ground);padding:0 9px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);
+}
+.sig h4{font-family:var(--display);font-size:30px;letter-spacing:.03em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 12px}
+.sig p:last-child{margin-bottom:0}
+.sig + .sig{margin-top:34px}
+
+/* ── din meter ──────────────────────────────────────────────────────── */
+.din{margin:22px 0 4px;border-top:1px solid var(--line-soft);padding-top:20px}
+.din-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:11px}
+.din-state{font-family:var(--display);font-size:23px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--accent);transition:color .3s}
+.din-mult{font-family:var(--mono);font-size:23px;color:var(--ink);font-variant-numeric:tabular-nums}
+.din-mult span{font-size:12px;color:var(--ink3);letter-spacing:.1em}
+.din-track{display:flex;gap:2px;height:26px}
+.din-seg{flex:1;background:var(--panel2);position:relative;overflow:hidden}
+.din-seg i{position:absolute;inset:0 100% 0 0;background:var(--accent);opacity:.85;
+  transition:right .09s linear}
+.din-seg[data-lvl="4"] i{background:var(--hot)}
+.din-labels{display:flex;gap:2px;margin-top:7px}
+.din-labels span{flex:1;font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink3);text-align:center}
+.din-labels span.on{color:var(--ink)}
+.din-note{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin:13px 0 0;line-height:1.5}
+
+/* ── tables ─────────────────────────────────────────────────────────── */
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14px}
+th,td{text-align:left;padding:8px 14px 8px 0;border-bottom:1px solid var(--line-soft);
+  vertical-align:top}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3);font-weight:400;border-bottom-color:var(--line);white-space:nowrap}
+td{font-family:var(--body)}
+td.m,th.m{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+td.k{color:var(--ink2)}
+td.a{color:var(--accent);font-family:var(--display);font-size:16px;letter-spacing:.03em;
+  text-transform:uppercase;white-space:nowrap}
+.verdict{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 7px;border:1px solid var(--line);color:var(--ink2);white-space:nowrap;display:inline-block}
+.verdict.reskin{border-color:var(--accent);color:var(--accent)}
+.verdict.new{border-color:var(--hot);color:var(--hot)}
+
+/* ── currency chips ─────────────────────────────────────────────────── */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0;padding:0;list-style:none}
+.chips li{
+  border:1px solid var(--line);background:var(--panel);padding:9px 13px;
+  font-size:14px;line-height:1.35;max-width:230px;
+}
+.chips b{display:block;font-family:var(--display);font-size:16px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--accent);font-weight:600}
+.chips i{font-style:normal;color:var(--ink2);font-size:13px}
+
+/* ── mob / event lists ──────────────────────────────────────────────── */
+.roster{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:14px}
+.roster li{padding-left:17px;border-left:2px solid var(--line);font-size:16px;line-height:1.55}
+.roster li b{font-family:var(--display);font-size:18px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink);display:block;font-weight:600}
+.roster li.key{border-left-color:var(--accent)}
+.roster li em{color:var(--ink2)}
+
+/* ── two-column split ───────────────────────────────────────────────── */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+
+/* ── law / cost footers ─────────────────────────────────────────────── */
+.law{
+  border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin:44px 0 0;
+  font-size:22px;line-height:1.4;font-style:italic;color:var(--ink);
+}
+.law span{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink3);font-style:normal;margin-bottom:7px}
+.cost{display:grid;grid-template-columns:auto 1fr;gap:10px 20px;margin:10px 0 0;
+  font-size:15px;align-items:baseline}
+.cost dt{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink3);white-space:nowrap}
+.cost dd{margin:0;color:var(--ink2)}
+.gauge{display:inline-flex;gap:3px;vertical-align:middle;margin-right:9px}
+.gauge i{width:13px;height:9px;background:var(--panel2);border:1px solid var(--line)}
+.gauge i.on{background:var(--accent);border-color:var(--accent)}
+
+/* ── closing ────────────────────────────────────────────────────────── */
+.close{margin-top:110px;border-top:1px solid var(--line);padding-top:34px}
+.close h2{font-size:34px;letter-spacing:.02em;text-transform:uppercase}
+.pick{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
+.pick div{--accent:var(--ink2)}
+.pick div.s{--accent:var(--still)} .pick div.b{--accent:var(--belt)} .pick div.r{--accent:var(--rot)}
+.pick h4{font-family:var(--display);font-size:19px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--accent);border-top:2px solid var(--accent);padding-top:9px;margin:0 0 8px}
+.pick p{font-size:15px;line-height:1.5;color:var(--ink2);margin:0}
+
+@media (max-width:900px){
+  .compare,.pick{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr;gap:0}
+  .wrap{padding:0 20px 90px}
+  .bar-in{padding:9px 20px}
+  .bar-mark{display:none}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+
+<nav class="bar">
+  <div class="bar-in">
+    <span class="bar-mark">Three server templates — pick one</span>
+    <a class="chan s" href="#still"><span class="dot"></span>The Still</a>
+    <a class="chan b" href="#belt"><span class="dot"></span>Husk Belt</a>
+    <a class="chan r" href="#skyrot"><span class="dot"></span>Skyrot</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">Volume I · Zombies · Space · Islands · Grind — The Still greenlit, the other two held</p>
+    <h1>Three Servers<br>You Could Build Next</h1>
+    <div class="measure">
+      <p class="lede">Not Shadow Prison in a costume. Each of these takes the <em>spine</em> you
+      already built — rank ladder, prestige, ascension, sinks, pity, cosmetics-only monetisation —
+      and hangs a different central tension on it. Each one has a single signature mechanic no
+      other server has, and each one is <em>honest about what it would cost to build.</em></p>
+    </div>
+
+    <div class="compare">
+      <div class="cc s">
+        <div class="cc-rule"></div>
+        <h3>The Still</h3>
+        <p class="pillar">Zombie-led</p>
+        <p>The infected are blind. They hunt sound. Mining is the loudest thing a human can do.</p>
+        <dl>
+          <dt>Signature</dt><dd>The Din</dd>
+          <dt>Tension</dt><dd>Greed is audible</dd>
+          <dt>Islands</dt><dd>Lit rigs over fog</dd>
+          <dt>Build</dt><dd>Medium</dd>
+        </dl>
+      </div>
+      <div class="cc b">
+        <div class="cc-rule"></div>
+        <h3>Husk Belt</h3>
+        <p class="pillar">Space-led</p>
+        <p>A finite asteroid belt that is genuinely being used up — and every player death leaves a
+        walking corpse behind.</p>
+        <dl>
+          <dt>Signature</dt><dd>The Husk</dd>
+          <dt>Tension</dt><dd>Nothing lasts</dd>
+          <dt>Islands</dt><dd>Rocks you own</dd>
+          <dt>Build</dt><dd>Heavy</dd>
+        </dl>
+      </div>
+      <div class="cc r">
+        <div class="cc-rule"></div>
+        <h3>Skyrot</h3>
+        <p class="pillar">Island-led</p>
+        <p>Your island's altitude <em>is</em> your rank. Everyone can look up and see who's winning.</p>
+        <dl>
+          <dt>Signature</dt><dd>The Rot Tide</dd>
+          <dt>Tension</dt><dd>Rot pays for height</dd>
+          <dt>Islands</dt><dd>The whole game</dd>
+          <dt>Build</dt><dd>Heaviest</dd>
+        </dl>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════ THE STILL ══════ -->
+  <section class="tpl s" id="still">
+    <div class="band">
+      <p class="pillar">Template one — zombie-led</p>
+      <h2>The Still</h2>
+      <p class="thesis">Everything worth having is in the dark, and the dark can hear you.</p>
+    </div>
+
+    <div class="measure">
+      <p>Eleven years after the Hush. The infected didn't lose their minds, they lost their
+      <strong>eyes</strong> — every one of them, at once, in the same hour. What replaced sight was
+      hearing so acute that a dropped pebble carries eighty blocks through fog.</p>
+      <p>What's left of humanity lives on <strong>rigs</strong>: bolted steel platforms suspended
+      over a drowned, fog-choked continent, strung with sodium lamps that run on fuel you have to go
+      down and dig up. Everything of value is beneath the fog. You descend, you mine, and every
+      block you break is a bell rung in a room full of things listening for bells.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>The Din</h4>
+      <p>A per-player noise value. Breaking a block adds Din. Efficiency adds more. AoE enchants add
+      it per block in the volume — one Oblivion swing is forty-five bells at once. Din decays only
+      while you're standing still, at 4/second, which is agonisingly slow when something is walking
+      toward you.</p>
+      <p><strong>And your sell price scales with the Din you were at when the block broke.</strong>
+      Blocks cracked open at SWARM are worth 2.2×. At CHOIR, 4×. So the correct play — the play
+      every good player converges on — is to deliberately climb into the danger band and mine right
+      on the edge of what you can survive, then run. The grind dial and the terror dial are the same
+      dial. That is the entire server in one sentence.</p>
+
+      <div class="din" id="dinDemo">
+        <div class="din-head">
+          <div class="din-state" id="dinState">Quiet</div>
+          <div class="din-mult"><span>SELL ×</span> <b id="dinMult">1.00</b></div>
+        </div>
+        <div class="din-track">
+          <div class="din-seg" data-lvl="0"><i></i></div>
+          <div class="din-seg" data-lvl="1"><i></i></div>
+          <div class="din-seg" data-lvl="2"><i></i></div>
+          <div class="din-seg" data-lvl="3"><i></i></div>
+          <div class="din-seg" data-lvl="4"><i></i></div>
+        </div>
+        <div class="din-labels">
+          <span>Quiet</span><span>Stirring</span><span>Drawn</span><span>Swarm</span><span>Choir</span>
+        </div>
+        <p class="din-note">0–120 nothing · 120–400 heads turn · 400–900 a pack arrives · 900–1800
+        continuous spawn pressure, your torches start going out · 1800+ the shaft comes. You do not
+        win a Choir. You leave one.</p>
+      </div>
+    </div>
+
+    <div class="sig" data-tag="The counter-play">
+      <h4>Power Is Loud</h4>
+      <p>Every upgrade in the game either makes more noise or makes less money — there is no clean
+      power. Muffling gear (wool wraps, felt-lined picks, the <strong>Hush I–V</strong> enchant at
+      −8% Din and −4% Fortune per level) buys you safety by taxing your yield directly. The best
+      players on the server run <em>zero</em> muffling and simply outrun the horde, and everyone can
+      tell who they are by how fast the ground shakes when they log in.</p>
+    </div>
+
+    <h3 class="sec">The horde — blind, and built entirely around sound</h3>
+    <ul class="roster">
+      <li><b>Ear</b>Common, slow, staggers toward the last loud thing it heard. Trivial alone,
+        arithmetic in a crowd.</li>
+      <li class="key"><b>Crier</b>Does not attack. <em>Screams.</em> Instantly adds +150 Din and
+        pings your exact position to everything within 80 blocks. Kill it first, and kill it quietly,
+        which is a genuinely interesting problem.</li>
+      <li><b>Lattice</b>A knot of four fused bodies. Splits into four Ears when broken — and
+        breaking it is loud.</li>
+      <li class="key"><b>The Long Quiet</b>Spawns only at CHOIR. It cannot perceive you at all while
+        your Din is zero, so it waits. Standing perfectly motionless in the dark while it breathes
+        three blocks away is the best twenty seconds this server has.</li>
+      <li><b>The Bell</b>World boss, cathedral-sized, embedded in the drowned city beneath the
+        deepest shaft. It rings. When it rings, <em>every player on the server</em> gains Din.</li>
+    </ul>
+
+    <h3 class="sec">Islands — your rig, and its perimeter</h3>
+    <div class="split">
+      <div>
+        <p>Your island is a platform bolted over the fog, in a visible grid alongside everyone
+        else's. It has a <strong>perimeter</strong>: a ring of lamp-posts burning <strong>Pitch</strong>,
+        which you mine. Perimeter lit means a mob-free, buildable, decorated home. Perimeter dark
+        means the rig gets visited after nightfall.</p>
+        <p>Pitch burn scales with rig footprint, so <strong>expanding your island permanently raises
+        your upkeep</strong>. Your flex costs you forever, which is the cleanest money sink in any
+        of these three designs.</p>
+      </div>
+      <div>
+        <p>The social layer comes free from the geometry: rigs are physically adjacent, and a dark
+        rig is visible from three rigs away. You can look out from your porch and see exactly who
+        ran out of fuel this week. Nobody had to build a shame leaderboard — the skybox is the
+        leaderboard.</p>
+        <p>Rig tiers run 16×16 up to 96×96, bought with <strong>Salt</strong>, which only comes off
+        the drowned flats at Depth 14+.</p>
+      </div>
+    </div>
+
+    <h3 class="sec">Space — the endgame, and the reveal</h3>
+    <div class="measure">
+      <p>The Hush was not a virus. It's a <strong>transmission</strong>, it never stopped, and it
+      originates from a fixed point in the sky that does not move with the stars. The endgame is
+      <strong>the Listening Post</strong>: a server-funded orbital tether built off the tallest rig,
+      and Ascension means you climb it.</p>
+      <p>Above the fog there is no air, so there is no sound, so <em>there is no Din and there are no
+      infected.</em> The ore up there is worth ten times anything below. And the entire game inverts:
+      you mine in absolute silence, with no horde and no meter — except that every block you break,
+      the signal answers <strong>you personally</strong>, by name, in chat.</p>
+    </div>
+
+    <h3 class="sec">Spine map — what you already have vs. what you'd write</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Depths D1–D26</td>
+          <td class="k">Shafts hung beneath the rigs. Deeper = richer ore, less light, and a higher
+          <em>base Din floor</em> just for standing there.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>Cold Depths C1–C30</td>
+          <td class="k">Same curve, same 1.09× ladder multiplier. Flavour: the fog freezes.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>The Climb</td>
+          <td class="k">Permanent +15% sell, +25% Static find, white <code>[LP#]</code> badge — and
+          access to the silent orbital mines.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Void Surge</td><td>The Night Shift</td>
+          <td class="k">Every rig's perimeter drains 4× for twelve minutes, server-wide. Burn your
+          reserve or go dark and fight. Dawn publishes the list of who stayed lit.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">The Descent</td><td>Choir Runs</td>
+          <td class="k">4-player co-op. Climb to CHOIR inside a sealed vault and survive 90 seconds.
+          Payout scales with how <em>fast</em> you got there, i.e. how recklessly.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Pity system</td><td>Unchanged</td>
+          <td class="k">Still colour and whispers, never numbers. Fits the fog perfectly.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Enchant ladder</td><td>Din-weighted enchants</td>
+          <td class="k">Every existing enchant gains one new field: <code>dinPerProc</code>. That
+          single number retunes the whole 54-enchant ladder around the new tension.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>The Din itself</td>
+          <td class="k">A float per player, a bossbar, five thresholds, and a spawn-pressure hook.
+          Genuinely cheap. The expensive part is mob targeting driven by Din instead of line-of-sight.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Perimeter fuel</td>
+          <td class="k">A region with a burn timer and spawn suppression. Cheap.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Money</b><i>Sells, scaled by the Din you mined at</i></li>
+      <li><b>Salt</b><i>Rig expansion. Drowned flats only</i></li>
+      <li><b>Pitch</b><i>Perimeter fuel. Burns forever</i></li>
+      <li><b>Teeth</b><i>Named infected. Buys Hush gear and mutations</i></li>
+      <li><b>Static</b><i>Post-Climb only. Silent mines</i></li>
+    </ul>
+
+    <h4 class="sub">The Bone Market</h4>
+    <div class="measure">
+      <p>Teeth buy <strong>mutations</strong> — permanent player traits that each carry a real
+      downside, so builds diverge instead of converging. <em>Deaf</em>: −40% Din generated, and −25%
+      of your own mob-detection range, because you can't hear them either. <em>Hollow Lungs</em>:
+      breathe the fog, lose two hearts permanently. <em>Chorded</em>: you can see nearby players' Din
+      — and they can see yours.</p>
+    </div>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p>Perimeter <strong>lamp colours</strong>. Your rig's lights are visible to every neighbour
+      across the fog, every night, forever — it is the single largest passive flex surface in any of
+      these three designs, and it's purely cosmetic. Beyond that: rig banners, personal ambient
+      soundscapes, and fog-parting particle auras. No perk touches Din, yield, or safety. Ever.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>Power is loud. Nothing in this game makes you stronger
+    without also making you easier to find.</p>
+
+    <h3 class="sec">Build cost — honest</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>Overall</dt>
+      <dd>Medium. The cheapest of the three, and the one you could soft-launch fastest.</dd>
+      <dt>Cheap</dt><dd>The Din meter itself is one float and a bossbar. Perimeter fuel is a timer.
+        Rigs are a schematic paste. Depths are your existing mine system, renamed.</dd>
+      <dt>Expensive</dt><dd>Sound-driven mob AI. Do <em>not</em> rewrite pathfinding — override
+        target selection and periodically re-aim existing mobs at the loudest player in range. It
+        fakes convincingly and it's the difference between two weeks and two months.</dd>
+      <dt>Risk</dt><dd>Din tuning is the whole game. If the 4× band is survivable, everyone lives
+        there and the horror evaporates. Ship it with a <code>/config</code> page and expect to
+        retune it weekly for a month.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ HUSK BELT ══════ -->
+  <section class="tpl b" id="belt">
+    <div class="band">
+      <p class="pillar">Template two — space-led</p>
+      <h2>Husk Belt</h2>
+      <p class="thesis">The belt is running out, and the dead are still on shift.</p>
+    </div>
+
+    <div class="measure">
+      <p>The mining consortium went dark ninety years ago and nobody came to collect the bodies.
+      Nothing decays in vacuum, so the crews are all still there — suited, frozen, and eventually
+      standing back up. You're a contract miner with a debt number and an oxygen tank, working a
+      belt that is visibly, permanently being consumed.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>The Husk</h4>
+      <p>When you die anywhere in the belt, your body stays where it fell — and then it gets up. A
+      <strong>Husk</strong> spawns at your death coordinates, wearing a cosmetic ghost of the
+      loadout you died in, with your username floating over it in grey. It has HP scaled to your
+      contract level. It patrols that rock. Anyone can kill it, including you.</p>
+      <p>Killing <em>your own</em> husk refunds 60% of what you dropped. Killing <em>someone
+      else's</em> pays you 35%, pays them nothing, and sends them a single line of chat:
+      <strong>"Someone put you down. — &lt;name&gt;"</strong></p>
+      <p>Husks accumulate. A dangerous asteroid becomes visibly a graveyard of named ghosts, and new
+      players learn which rocks are lethal <em>by reading the nametags before they land</em>. A
+      well-known player's husk becomes a trophy other people hunt. Your entire zombie pillar is
+      player-generated — you never have to design an encounter for it again.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>The Belt Is Finite</h4>
+      <p>Asteroids are real, placed, shared world objects with a finite ore budget. Work a rock long
+      enough and it depletes, cracks, and <strong>calves</strong> — visibly breaks apart and is gone
+      from the map. Permanently. There are roughly 400 rocks at any moment and
+      <code>/belt</code> renders them coloured by remaining yield, so server-wide depletion is public
+      information.</p>
+      <p>New rock arrives on <strong>the Stream</strong>: every six hours, three to nine fresh
+      asteroids drift in from outside, composition rolled at arrival. Occasionally something
+      extraordinary shows up, it gets announced, and everyone burns fuel to be there.</p>
+      <p>You <strong>claim</strong> rocks with Fuel. A claim decays after 48 hours unworked, and it
+      is <em>contestable</em> — a rival can file a Dispute, which opens a ten-minute PvP window on
+      that rock and nowhere else. The consequence is that the belt develops real geography and real
+      politics. Rich veins are worth fighting for, exhausted regions become derelict slums, and the
+      map redraws itself weekly without you touching a single config.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>Oxygen Is The Clock</h4>
+      <p>Outside a pressurised volume you're on tank. O₂ drains constantly, faster while mining,
+      much faster while sprinting. Running out doesn't kill you — it <strong>greys you out</strong>:
+      colour drains from the world, sound muffles to a heartbeat, then damage starts, then you're a
+      husk. Every trip is a timed sortie with a decision at the halfway mark.</p>
+      <p>Tanks are the upgrade ladder that pickaxes are elsewhere: T1 at 90 seconds up to T12 at 22
+      minutes. Suit modules trade oxygen for yield directly, and the greed curve writes itself.</p>
+    </div>
+
+    <h3 class="sec">Islands — a berth you keep, a rock you lose</h3>
+    <div class="split">
+      <div>
+        <h4 class="sub">Your Berth</h4>
+        <p>A hab module on the station ring. Small, pressurised, permanent, decorated, clearance-gated.
+        This is where your stuff lives and where you log out. It is safe and it never changes, which
+        is exactly the point — it's the only thing in the game that doesn't.</p>
+      </div>
+      <div>
+        <h4 class="sub">Your Claim</h4>
+        <p>An actual asteroid you own, seal, pressurise and build on. It's your real island, and it
+        <em>will</em> die — when the rock calves, everything you built is jettisoned to storage and
+        the rock is deleted from the world. Veterans develop a ritual around working a dying claim's
+        last shift. Impermanence is the feature.</p>
+      </div>
+    </div>
+
+    <h3 class="sec">Spine map — what you already have vs. what you'd write</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Clearance 1–26</td>
+          <td class="k">Clearance gates belt rings and station decks rather than individual mines.
+          Same cost curve, same rankup GUI.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>Contracts 1–30</td>
+          <td class="k">Each reset wipes your debt balance and clearance, grants permanent Salvage
+          Rating. Identical maths.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>The Deep Black</td>
+          <td class="k">You leave the belt for the outer dark. +18% ore value, +30% husk payout,
+          black-on-white <code>[DB#]</code>.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">GPU rigs &amp; crypto</td><td>Refinery &amp; ore futures</td>
+          <td class="k">Drops in almost untouched — 35 tiers of refinery module, hash rate becomes
+          throughput, BTC/LTC become two traded ore commodities whose price moves with
+          <em>actual server-wide extraction volume.</em> That last change is small and turns a
+          simulated market into a real one.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Gangs + capture points</td><td>Shoals + regions</td>
+          <td class="k">A Shoal holds a <em>region</em>, not a point, and collects an automatic
+          percentage of every ton non-members mine inside it. Wars are about revenue, not flags.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Serialised collectibles</td><td>Consortium salvage</td>
+          <td class="k">Untouched, and thematically stronger here — serial-numbered pre-collapse
+          equipment with float wear is exactly what it already is.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>Husks</td>
+          <td class="k">A mob with the dead player's UUID, name and loadout snapshot in PDC. Cheap,
+          and it's the best idea in this document.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Finite asteroids</td>
+          <td class="k">Per-rock ore budget, depletion state, and calving as a scheduled world edit.
+          This is the real cost centre.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>Oxygen + claims + fuel travel</td>
+          <td class="k">Three interlocking systems. None individually hard, all needing tuning
+          against each other.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Events &amp; sub-games</h3>
+    <ul class="roster">
+      <li class="key"><b>The Stream</b>The six-hourly arrival. Announced 90 seconds ahead with a
+        trajectory. First player to break a block on a fresh rock earns <em>First Cut</em> — a
+        permanent line on that asteroid's plaque, readable by everyone who ever mines it, until the
+        day it calves.</li>
+      <li><b>Derelicts</b>Dead consortium ships, procedurally restocked, crewed by NPC husks. No
+        mining — pure extraction dungeons, and the best gear source in the game.</li>
+      <li><b>The Foundry</b>Ore → components → rig parts → hulls. A genuinely deep crafting tree
+        standing in for the enchant ladder.</li>
+      <li><b>The Quiet Audit</b>Periodically the consortium's automated systems wake up and
+        repossess. A random claim turns hostile and spawns drones; whoever clears it takes the rock,
+        owner or not.</li>
+    </ul>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Credits</b><i>Standard, against a debt number</i></li>
+      <li><b>Fuel</b><i>Travel between rocks — distance is a real tax</i></li>
+      <li><b>Cores</b><i>Station tech and berth tiers</i></li>
+      <li><b>Claim Chits</b><i>Husk kills. Traded and hoarded</i></li>
+      <li><b>Black Ice</b><i>Deep Black only</i></li>
+    </ul>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p><strong>Their own corpse.</strong> Husk skins, husk auras, the shade of the nametag, the
+      pose it stands in. Players will pay real money to have a good-looking body that other people
+      have to fight — and it is impossible to make that pay-to-win, because a fancier husk is not a
+      stronger husk. Then: hull liveries, berth decor, suit lights, and the trail your ship leaves
+      crossing the belt.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>Everything runs out. Oxygen, fuel, claims, rocks. The only
+    permanent things you own are your rating and your reputation.</p>
+
+    <h3 class="sec">Build cost — honest</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Overall</dt>
+      <dd>Heavy. The concept is the strongest of the three; the world management is the price.</dd>
+      <dt>Cheap</dt><dd>Husks. Oxygen. Fuel. Claims. All of these are bookkeeping on data you
+        already track.</dd>
+      <dt>Expensive</dt><dd>Four hundred live, stateful, destructible world objects with async
+        chunk edits and a public map. Calving a rock while three players stand on it is a real
+        engineering problem and you should design the answer before you write the feature.</dd>
+      <dt>Risk</dt><dd>Genuine scarcity is a knife. If the Stream under-delivers by even 15%, the
+        early game starves and new players quit on day one. Instrument extraction-vs-arrival from
+        the first hour and be willing to make the Stream rate reactive rather than fixed.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ SKYROT ═════════ -->
+  <section class="tpl r" id="skyrot">
+    <div class="band">
+      <p class="pillar">Template three — island-led</p>
+      <h2>Skyrot</h2>
+      <p class="thesis">Your rank is a number on the Y axis, and everyone can read it from the ground.</p>
+    </div>
+
+    <div class="measure">
+      <p>The world is a warm black sea with things swimming in it. The only land left is what floats.
+      You begin on a rotting hunk of dirt six blocks above the waterline, and the first thing you do
+      is look up — because the entire server is stacked above you in the same skybox, and you can
+      see every single person who is further along than you are.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>Altitude Is Rank</h4>
+      <p>There is no rank sign. There's a <strong>lift</strong>. Ranking up physically raises your
+      island, permanently, in the shared world — twenty-six rungs at roughly nine blocks each from
+      Y=64, then Strata 1–30 pushing toward the ceiling, then Break Orbit.</p>
+      <p>You can stand on your porch and look straight up at the endgame hanging over you, and look
+      down at everyone you've passed. The server needs no leaderboard, no scoreboard rank column and
+      no prefix, because <em>the sky is the leaderboard</em> and it's rendered in the client for free.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>The Rot Tide</h4>
+      <p>Every night — twenty real minutes — the sea rises. Usually to Y=80. On a <strong>Black
+      Tide</strong>, past Y=140. Anything below the line floods with drowned, and your island's soil
+      begins converting to <strong>Rotflesh Stone</strong>, which is worthless and has to be cut out
+      by hand. Low altitude isn't just poverty, it's structural damage on a nightly timer.</p>
+      <p><strong>And the rot is the currency.</strong> Rotflesh smelts into <strong>Bile</strong>,
+      and Bile is the only thing that buys altitude. You cannot rise unless you have been flooded.</p>
+      <p>So the optimal player deliberately builds a sacrificial low wing hanging beneath their
+      island, lets it drown every night, and harvests it at dawn. The punishment <em>is</em> the
+      fuel. Players in the upper Strata have no rot at all, which means they must buy Bile from the
+      poor — or lower <strong>anchors</strong>, chunks of their own island dropped into the tide on
+      chains. An anchor rots, produces Bile, and can be <strong>cut</strong> by anyone who climbs it.
+      A rich player's supply line is a physical, visible, severable object hanging in the dark.</p>
+    </div>
+
+    <div class="sig" data-tag="Signature mechanic">
+      <h4>Grafting</h4>
+      <p>Islands grow by fusing land. <strong>Grafts</strong> are themed chunks — Salt Shelf, Coral
+      Bone, Basalt Wedge, Glassed Plain, Bonefield, twenty-odd more — each with its own ore table,
+      its own build palette, and its own rot resistance. They're pulled from the tide, dropped by
+      tide bosses, auctioned, and won.</p>
+      <p>Your island is therefore a walkable, physical trophy case of everything you have ever
+      earned. Two players at identical altitude look nothing alike. Prestige is
+      <strong>calving</strong>: you snap the island down to a single graft of your choosing, fall
+      back to Y=64, and keep both a permanent multiplier and your <code>/atlas</code> — the complete
+      history of every graft you've held, each re-earnable at a 40% discount.</p>
+    </div>
+
+    <h3 class="sec">The drowned</h3>
+    <ul class="roster">
+      <li><b>Cling</b>Grabs your island's edge and hauls itself up. Cheap, constant, and the reason
+        you build a lip.</li>
+      <li><b>Bloom</b>A drifting spore mass. Doesn't attack — touches your island and rots a 7×7 of
+        it instantly. You shoot these or you lose ground.</li>
+      <li class="key"><b>Kelpwright</b>Drags players <em>down</em>, off the island, into the sea.
+        There is no fall damage in this game because falling isn't the danger. Landing in the tide is.</li>
+      <li class="key"><b>Mother Salt</b>Black Tide boss. Walks on the surface of the water at the
+        height of a twenty-block tower, and everyone on the server watches her go past.</li>
+    </ul>
+
+    <h3 class="sec">Space — the thin band, and the ring</h3>
+    <div class="measure">
+      <p>Past Strata 25 the atmosphere gives out. Above Y=280 there's no weather, no tide, and no
+      air — the final band of islands sits in near-vacuum, and the ore that grows on the undersides
+      of the highest rocks is <strong>skyrot</strong> itself: the origin of the infection, which has
+      been falling <em>down</em> onto the world this whole time.</p>
+      <p>Break Orbit and your island detaches from the sky entirely and joins a slow
+      <strong>orbital ring</strong> — visible to every player on the server, every night, as moving
+      lights crossing overhead. New players see them on their first evening and ask what they are.</p>
+    </div>
+
+    <h3 class="sec">Spine map — what you already have vs. what you'd write</h3>
+    <div class="scroll">
+      <table>
+        <tr><th>Shadow Prison system</th><th>Becomes</th><th>Notes</th><th class="m">Work</th></tr>
+        <tr><td class="a">Mine ranks a–z</td><td>Rungs A–Z (altitude)</td>
+          <td class="k">Same cost curve, same ladder maths, same rankup command. The only new part
+          is that paying moves your island.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige 1–30</td><td>Strata 1–30</td>
+          <td class="k">Reset drops you to Y=64 and calves the island. Emotionally brutal in exactly
+          the way prestige should be.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Ascension</td><td>Break Orbit</td>
+          <td class="k">Permanent multipliers, plus a light in the sky with your name on it.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Mine resets</td><td>Tide cycle regrowth</td>
+          <td class="k">Your island's interior <em>is</em> your mine and it regenerates on the tide,
+          composed from your grafts. The reset stops being a server chore and becomes weather.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Prestige Cells</td><td>Grafts</td>
+          <td class="k">You already have tiered plot expansion that preserves player builds. Grafts
+          are that system with a themed block palette and an ore table bolted on.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Gangs</td><td>Tethers</td>
+          <td class="k">Chain your island to a neighbour's. Tethered islands share tide defence,
+          split Bile, and you can walk across. Alliances become physical infrastructure you can see
+          from the ground — and that someone can cut.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">The Descent</td><td>The Drop</td>
+          <td class="k">Cut your own lift and free-fall <em>yourself</em> into the tide on a timer.
+          Everything you break down there is worth 5×, and you climb back out on chains you place
+          yourself. If the tide crests while you're below, you don't come back.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">Auction house</td><td>Harvest Court</td>
+          <td class="k">A weekly public auction of the server's grafts. Land is scarce and everyone
+          watches who buys what.</td>
+          <td><span class="verdict reskin">Reskin</span></td></tr>
+        <tr><td class="a">—</td><td>Island altitude moves</td>
+          <td class="k">Copy-paste-clear on a schematic. Not conceptually hard; brutal at scale with
+          players and entities standing on it.</td>
+          <td><span class="verdict new">New</span></td></tr>
+        <tr><td class="a">—</td><td>The tide</td>
+          <td class="k">Do not literally raise water. Use a per-player Y check, a regional block
+          conversion tick, a fog/overlay shader, and a spawn plane. Same experience, a fraction of
+          the cost.</td>
+          <td><span class="verdict new">New</span></td></tr>
+      </table>
+    </div>
+
+    <h3 class="sec">Currencies</h3>
+    <ul class="chips">
+      <li><b>Money</b><i>Sells, gear, the day-to-day</i></li>
+      <li><b>Bile</b><i>Altitude. Only comes from rot</i></li>
+      <li><b>Grafts</b><i>Land itself, traded as objects</i></li>
+      <li><b>Chain</b><i>Anchors, lifts, tethers</i></li>
+      <li><b>Pearl</b><i>Tide bosses only. Cosmetics</i></li>
+      <li><b>Vacuum Salt</b><i>The thin band</i></li>
+    </ul>
+
+    <h3 class="sec">What people buy</h3>
+    <div class="measure">
+      <p><strong>The light in the sky.</strong> Break Orbit players are visible to the entire server
+      every single night, and the colour and shape of that light is purchasable. Nothing else in any
+      of these three designs is seen by that many people that often. Below that: graft skins, chain
+      and tether styles, lift animations, and the pattern the tide leaves on your island's underside
+      at dawn.</p>
+    </div>
+
+    <p class="law"><span>The one law</span>The thing that hurts you is the thing that pays you. Rot,
+    tide and altitude are one system, not three.</p>
+
+    <h3 class="sec">Build cost — honest</h3>
+    <dl class="cost">
+      <dt><span class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>Overall</dt>
+      <dd>Heaviest. The most original of the three and the one most likely to eat six months.</dd>
+      <dt>Cheap</dt><dd>Bile, grafts, tethers, the Harvest Court, the Drop. Most of this is your
+        Prestige Cell system wearing a hat.</dd>
+      <dt>Expensive</dt><dd>Moving live islands vertically in a shared world, every rank-up, for
+        every player, forever. Plus per-island mine regeneration on a global tide clock. Prototype
+        the lift <em>first</em>, before you write a single line of anything else — if that one
+        operation isn't smooth, the whole design collapses.</dd>
+      <dt>Risk</dt><dd>Visible hierarchy cuts both ways. Being permanently, spatially able to see
+        that you're at the bottom is powerful motivation for some players and a quit trigger for
+        others. Mitigate with a starting altitude floor and a fast, generous first five rungs.</dd>
+    </dl>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════ CLOSING ════════ -->
+  <section class="close">
+    <p class="eyebrow">If you're picking one</p>
+    <h2>Which of these to build</h2>
+    <div class="measure">
+      <p>All three reuse your prestige maths, your pity system, your crate and enchant ladders, your
+      config-GUI discipline and your cosmetics-only monetisation law. What differs is the
+      <em>central tension</em> — and how much new engineering it demands before anyone can play it.</p>
+    </div>
+    <div class="pick">
+      <div class="s">
+        <h4>Build The Still if…</h4>
+        <p>You want something playable in weeks, not seasons. It's one number layered over the game
+        you've already written, and that number turns every existing enchant into a decision. Lowest
+        risk, highest immediate return.</p>
+      </div>
+      <div class="b">
+        <h4>Build Husk Belt if…</h4>
+        <p>You want the idea people will talk about. Player deaths generating the enemies is the
+        best mechanic in this document and it costs almost nothing. Ship the husks alone on your
+        existing server as a test before committing to the finite belt.</p>
+      </div>
+      <div class="r">
+        <h4>Build Skyrot if…</h4>
+        <p>You want the one nobody has made. It's the most beautiful and the most dangerous — the
+        whole design rests on one technical operation, so build that operation first and let it tell
+        you whether the server is possible.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  var demo=document.getElementById('dinDemo');
+  if(!demo) return;
+  var segs=[].slice.call(demo.querySelectorAll('.din-seg i')),
+      labels=[].slice.call(demo.querySelectorAll('.din-labels span')),
+      stateEl=document.getElementById('dinState'),
+      multEl=document.getElementById('dinMult');
+
+  var BANDS=[
+    {name:'Quiet',    lo:0,    hi:120,  mult:1.00},
+    {name:'Stirring', lo:120,  hi:400,  mult:1.25},
+    {name:'Drawn',    lo:400,  hi:900,  mult:1.60},
+    {name:'Swarm',    lo:900,  hi:1800, mult:2.20},
+    {name:'Choir',    lo:1800, hi:2600, mult:4.00}
+  ];
+
+  function paint(din){
+    for(var i=0;i<BANDS.length;i++){
+      var b=BANDS[i];
+      var f=Math.max(0,Math.min(1,(din-b.lo)/(b.hi-b.lo)));
+      segs[i].style.right=(100-f*100)+'%';
+      labels[i].classList.toggle('on', din>=b.lo);
+    }
+    var cur=BANDS[0];
+    for(var j=0;j<BANDS.length;j++){ if(din>=BANDS[j].lo) cur=BANDS[j]; }
+    stateEl.textContent=cur.name;
+    stateEl.style.color = cur.name==='Choir' ? 'var(--hot)' : 'var(--accent)';
+    var t=Math.max(0,Math.min(1,(din-cur.lo)/(cur.hi-cur.lo)));
+    var nxt=BANDS[Math.min(BANDS.length-1,BANDS.indexOf(cur)+1)];
+    multEl.textContent=(cur.mult+(nxt.mult-cur.mult)*t).toFixed(2);
+  }
+
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    paint(1150);
+    return;
+  }
+
+  var din=0, rising=true, hold=0, last=null;
+  function frame(ts){
+    if(last===null) last=ts;
+    var dt=Math.min(0.05,(ts-last)/1000); last=ts;
+    if(hold>0){ hold-=dt; }
+    else if(rising){
+      din+=300*dt;
+      if(din>=2450){ din=2450; rising=false; hold=1.6; }
+    } else {
+      din-=900*dt;
+      if(din<=0){ din=0; rising=true; hold=1.1; }
+    }
+    paint(din);
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Aether Conductor</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <!-- Render layers -->
+  <canvas id="void" aria-hidden="true"></canvas>   <!-- starfield void background -->
+  <canvas id="scene"></canvas>                       <!-- hex grid + nodes + particles -->
+
+  <!-- HUD overlay -->
+  <div id="hud">
+    <!-- Top bar -->
+    <header id="topbar">
+      <div class="res res-aether" title="Aether">
+        <span class="glyph">&#10022;</span>
+        <span class="label">AETHER</span>
+        <span class="val" id="aether-val">0</span>
+      </div>
+      <div class="res res-essence" title="Essence — fuels Research & Collapse">
+        <span class="glyph">&#9672;</span>
+        <span class="label">ESSENCE</span>
+        <span class="val" id="essence-val">0</span>
+      </div>
+      <div class="res res-echo" id="echo-display" title="Echoes — permanent prestige currency" hidden>
+        <span class="glyph">&#9851;</span>
+        <span class="label">ECHOES</span>
+        <span class="val" id="echo-val">0</span>
+      </div>
+      <div class="res res-key" id="key-display" title="Keys — reroll Dimension choices" hidden>
+        <span class="glyph">&#9919;</span>
+        <span class="label">KEYS</span>
+        <span class="val" id="key-val">0</span>
+      </div>
+      <div class="res res-eps" title="Aether per second">
+        <span class="glyph">&#10227;</span>
+        <span class="label">EPS</span>
+        <span class="val" id="eps-val">0</span>
+      </div>
+      <div class="dim-chip" id="dim-chip" hidden></div>
+      <div class="topbar-spacer"></div>
+      <button class="panel-btn" data-open="research">Research</button>
+      <button class="panel-btn" data-open="prestige">Collapse</button>
+      <button class="panel-btn" data-open="layout">Assist</button>
+      <button class="panel-btn" data-open="codex">Codex</button>
+      <button class="panel-btn" data-open="savepanel">Save</button>
+      <div class="fps" id="fps-readout" hidden>0 fps</div>
+      <button class="icon-btn" id="dev-toggle" title="Dev panel ( ` )">&#9881;</button>
+    </header>
+
+    <!-- Left: shop -->
+    <aside id="shop">
+      <div class="panel-title">CONDUCTORS</div>
+      <div id="shop-list"></div>
+      <div class="hint" id="shop-hint">Press <kbd>Space</kbd> to siphon Aether.</div>
+    </aside>
+
+    <!-- Right: stats / codex -->
+    <aside id="sidebar">
+      <div class="panel">
+        <div class="panel-title">FLOW</div>
+        <canvas id="eps-spark" width="180" height="44"></canvas>
+        <div class="stat-row"><span>Drip</span><span id="stat-drip">0/s</span></div>
+        <div class="stat-row"><span>Direct</span><span id="stat-direct">0/s</span></div>
+        <div class="stat-row"><span>Networked</span><span id="stat-net">0/s</span></div>
+        <div class="stat-row total"><span>Total EPS</span><span id="stat-total">0/s</span></div>
+        <div class="stat-row"><span>Nodes / Links</span><span id="stat-nodes">0 / 0</span></div>
+        <div class="stat-row bottleneck" id="stat-bottleneck" hidden><span>&#9888; Bottleneck</span><span id="stat-bottleneck-val">0%</span></div>
+        <div class="stat-row melt" id="stat-melt" hidden><span>&#9760; Melted</span><span id="stat-melt-val">0</span></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title">MAP</div>
+        <canvas id="minimap" width="186" height="150"></canvas>
+      </div>
+      <div class="panel">
+        <div class="panel-title">CODEX</div>
+        <div class="codex-count" id="codex-count">0 / 12 &nbsp;&#10067;&#10067;&#10067;</div>
+      </div>
+    </aside>
+
+    <!-- Bottom: toolbar -->
+    <footer id="toolbar">
+      <div class="tools">
+        <button class="tool active" data-tool="place">Place</button>
+        <button class="tool" data-tool="wire">Wire</button>
+        <button class="tool" data-tool="inspect">Inspect</button>
+      </div>
+      <button class="siphon-btn" id="siphon-btn"><span>&#9889;</span> Siphon <kbd>Space</kbd></button>
+      <div class="surge" id="surge-status">Surge: <span>&mdash;</span></div>
+    </footer>
+
+    <!-- Toast -->
+    <div id="toast-stack"></div>
+  </div>
+
+  <!-- Overlay panels -->
+  <div class="overlay" id="research" hidden>
+    <div class="overlay-card">
+      <button class="overlay-close" data-close="research">&times;</button>
+      <h2>Research</h2>
+      <p class="overlay-sub">Spend <b id="research-essence">0</b> Essence. Resets on Collapse.</p>
+      <div class="research-grid" id="research-grid"></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="prestige" hidden>
+    <div class="overlay-card">
+      <button class="overlay-close" data-close="prestige">&times;</button>
+      <h2>Collapse</h2>
+      <p class="overlay-sub">Collapse the lattice to reset your run and bank <b>Echoes</b> — permanent global power.</p>
+      <div class="collapse-box">
+        <div class="collapse-info">
+          <div>This run's Essence: <b id="collapse-run-essence">0</b></div>
+          <div>Echoes on Collapse: <b id="collapse-gain" class="gold">0</b></div>
+          <div>Total Echoes: <b id="collapse-total">0</b> &middot; Collapses: <b id="collapse-count">0</b></div>
+        </div>
+        <button id="collapse-btn" class="collapse-do">Collapse</button>
+      </div>
+      <h3>Echo Shop <span class="muted">(permanent)</span></h3>
+      <div class="echo-grid" id="echo-grid"></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="codex" hidden>
+    <div class="overlay-card">
+      <button class="overlay-close" data-close="codex">&times;</button>
+      <h2>Codex</h2>
+      <p class="overlay-sub">Discovered conductors and secrets. Some entries remain hidden until found.</p>
+      <h3>Conductors</h3>
+      <div class="codex-grid" id="codex-nodes"></div>
+      <h3>Secrets <span class="muted" id="codex-secret-count">0 / 12</span></h3>
+      <div class="codex-grid" id="codex-secrets"></div>
+    </div>
+  </div>
+
+  <!-- Layout assistant -->
+  <div class="overlay" id="layout" hidden>
+    <div class="overlay-card">
+      <button class="overlay-close" data-close="layout">&times;</button>
+      <h2>Layout Assistant</h2>
+      <p class="overlay-sub">Auto-wire your placed nodes. Pick a strategy — your current wiring is replaced.</p>
+      <div class="layout-grid" id="layout-grid"></div>
+    </div>
+  </div>
+
+  <!-- Save / transfer -->
+  <div class="overlay" id="savepanel" hidden>
+    <div class="overlay-card">
+      <button class="overlay-close" data-close="savepanel">&times;</button>
+      <h2>Save Transfer</h2>
+      <p class="overlay-sub">Back up or move your save. Importing overwrites your current game.</p>
+      <h3>Export</h3>
+      <textarea id="save-export" class="save-box" readonly placeholder="Press Generate"></textarea>
+      <div class="save-actions">
+        <button id="save-generate" class="mini-btn">Generate</button>
+        <button id="save-copy" class="mini-btn">Copy</button>
+      </div>
+      <h3>Import</h3>
+      <textarea id="save-import" class="save-box" placeholder="Paste a save string here"></textarea>
+      <div class="save-actions">
+        <button id="save-load" class="mini-btn primary">Import &amp; Reload</button>
+        <span id="save-msg" class="muted"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dimension select (roguelite fork) -->
+  <div class="overlay dim-overlay" id="dimselect" hidden>
+    <div class="overlay-card dim-card">
+      <h2>Choose a Dimension</h2>
+      <p class="overlay-sub">Your lattice has collapsed. Step into a new reality — each bends the rules. <span id="dim-keys-note" class="muted"></span></p>
+      <div class="dim-grid" id="dim-grid"></div>
+      <div class="dim-foot">
+        <button id="dim-reroll" class="mini-btn">&#10227; Reroll (1 Key)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dev panel -->
+  <div id="dev-panel" hidden>
+    <div class="dev-title">DEV PANEL <span>( ` to toggle )</span></div>
+    <button data-dev="add1k">+1,000 Aether</button>
+    <button data-dev="add1m">+1,000,000 Aether</button>
+    <button data-dev="ess">+10,000 Essence</button>
+    <button data-dev="echo">+50 Echoes</button>
+    <button data-dev="keys">+5 Keys</button>
+    <button data-dev="surge">Force Surge</button>
+    <button data-dev="melt">Melt Random Node</button>
+    <button data-dev="skip1h">Skip +1 hour</button>
+    <button data-dev="fps">Toggle FPS</button>
+    <button data-dev="wipe" class="danger">Wipe Save</button>
+  </div>
+
+  <!-- Offline progress modal -->
+  <div id="modal-backdrop" hidden>
+    <div id="offline-modal" role="dialog" aria-modal="true">
+      <h2>Welcome back, Conductor</h2>
+      <p id="offline-time">You were away for &mdash;</p>
+      <div class="offline-breakdown" id="offline-breakdown"></div>
+      <div class="offline-total" id="offline-total">+0 Aether</div>
+      <button id="offline-claim">Collect</button>
+    </div>
+  </div>
+
+  <!-- Intro tooltip -->
+  <div id="intro-tip">A fracture pulses before you. Press <kbd>Space</kbd> to siphon Aether.</div>
+
+  <!-- Bundled classic script so the game runs by simply opening this file (file://).
+       Source lives in src/ as ES modules; run `node build.mjs` to regenerate. -->
+  <script src="game.bundle.js"></script>
+</body>
+</html>

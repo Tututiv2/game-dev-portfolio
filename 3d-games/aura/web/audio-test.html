@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURA audio test</title>
+<style>
+  :root { --bg: #07090d; --panel: #0f141c; --line: #1e2a38; --fg: #d7e3f0; --dim: #7d8ea3; --aura: #4fdcff; --bad: #ff5a6a; --ok: #6dff9c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, sans-serif; padding: 16px; }
+  h1 { margin: 0 0 4px; font-size: 20px; letter-spacing: .08em; color: var(--aura); }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--dim); margin: 0 0 8px; }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin: 12px 0; }
+  button { background: #16202c; color: var(--fg); border: 1px solid #2a3a4e; border-radius: 6px; padding: 6px 10px; margin: 2px; cursor: pointer; font: inherit; }
+  button:hover { border-color: var(--aura); }
+  button.big { font-weight: 600; border-color: var(--aura); }
+  label { display: inline-flex; align-items: center; gap: 6px; margin: 4px 12px 4px 0; color: var(--dim); }
+  input[type=range] { width: 120px; }
+  select, input[type=number] { background: #16202c; color: var(--fg); border: 1px solid #2a3a4e; border-radius: 6px; padding: 5px; font: inherit; }
+  pre { white-space: pre-wrap; background: #05070a; border: 1px solid var(--line); border-radius: 6px; padding: 10px; font: 12px/1.45 ui-monospace, Consolas, monospace; margin: 8px 0 0; overflow-x: auto; }
+  #beat { display: inline-block; width: 64px; height: 64px; border-radius: 50%; background: var(--aura); opacity: .1; vertical-align: middle; margin-right: 12px; }
+  #status { display: inline-block; vertical-align: middle; font: 13px ui-monospace, Consolas, monospace; white-space: pre; }
+  .row { display: flex; flex-wrap: wrap; align-items: center; }
+</style>
+</head>
+<body>
+<h1>AURA — audio test bench</h1>
+<div style="color:var(--dim)">Synthesised phonk, SFX and ambient. The self-test runs on load (offline render, no gesture needed).</div>
+
+<section>
+  <h2>Self-test</h2>
+  <button id="selftest" class="big">Run self-test</button>
+  <pre id="results">waiting…</pre>
+</section>
+
+<section>
+  <h2>Engine</h2>
+  <div class="row">
+    <button id="init" class="big">Init audio</button>
+    <label>master <input id="vMaster" type="range" min="0" max="1" step="0.01" value="0.9"></label>
+    <label>music <input id="vMusic" type="range" min="0" max="1" step="0.01" value="0.85"></label>
+    <label>sfx <input id="vSfx" type="range" min="0" max="1" step="0.01" value="0.9"></label>
+  </div>
+  <div class="row">
+    <label>ambient <input id="amb" type="range" min="0" max="1" step="0.01" value="0.6"></label>
+    <label>muffle <input id="muf" type="range" min="0" max="1" step="0.01" value="0"></label>
+    <label>slow-mo <input id="slow" type="range" min="0.15" max="1" step="0.01" value="1"></label>
+  </div>
+</section>
+
+<section>
+  <h2>Music</h2>
+  <div class="row">
+    <select id="track"><option value="code">Code Phonk (claim-free)</option></select>
+    <button id="select">Select</button>
+    <button id="preview">Preview drop</button>
+  </div>
+  <div class="row">
+    <button id="awaken" class="big">Start awakening</button>
+    <button id="cut">Cut</button>
+    <button id="stop">Stop (fade)</button>
+    <button id="boom">Boom</button>
+  </div>
+  <div class="row">
+    <label>practice bpm <input id="bpm" type="number" value="130" min="60" max="200" style="width:70px"></label>
+    <button id="practice">Start practice</button>
+    <label><input id="metro" type="checkbox"> metronome</label>
+  </div>
+  <div class="row" style="margin-top:8px"><span id="beat"></span><span id="status">no music</span></div>
+</section>
+
+<section>
+  <h2>SFX</h2>
+  <div id="sfx" class="row"></div>
+  <label>pitch <input id="pitch" type="range" min="0.5" max="2" step="0.01" value="1"></label>
+  <label>pan <input id="pan" type="range" min="-1" max="1" step="0.01" value="0"></label>
+</section>
+
+<script type="module">
+import { AudioEngine, SFX_NAMES } from './audio/engine.js';
+import { renderPhonkOffline, measureChainLatency, buildMaster, PHONK_BPM } from './audio/phonk.js';
+import { playSfx } from './audio/sfx.js';
+import { detectDrop, detectTempo } from './sim/analyze.js';
+
+const $ = (id) => document.getElementById(id);
+const engine = new AudioEngine();
+window.AURA_AUDIO = engine;
+let info = null, plan = null;
+
+// ------------------------------------------------------------ self-test
+async function selfTest() {
+  const pre = $('results');
+  const lines = [];
+  let ok = true;
+  const log = (s) => { lines.push(s); pre.textContent = lines.join('\n'); };
+  const check = (name, pass, detail) => { ok = ok && pass; log(`${pass ? 'PASS' : 'FAIL'}  ${name}  —  ${detail}`); };
+  document.title = 'RUNNING';
+  try {
+    const sr = 44100, bpm = 130, beat = 60 / bpm, bar = 4 * beat, dropAt = 2 * bar;
+    const L = await measureChainLatency(sr);
+    log(`master chain latency (compressor look-ahead): ${(L * 1000).toFixed(2)} ms`);
+    const t0 = performance.now();
+    const buf = await renderPhonkOffline(20, bpm, sr);
+    log(`rendered 20 s of code phonk in ${Math.round(performance.now() - t0)} ms`);
+    const n = buf.length, mono = new Float32Array(n);
+    const chs = [buf.getChannelData(0), buf.getChannelData(1)];
+    let peak = 0, nan = false;
+    for (let i = 0; i < n; i++) {
+      const a = chs[0][i], b = chs[1][i];
+      if (!isFinite(a) || !isFinite(b)) nan = true;
+      mono[i] = (a + b) / 2;
+      peak = Math.max(peak, Math.abs(a), Math.abs(b));
+    }
+    const rms = (a, b) => {
+      const i0 = Math.max(0, Math.round(a * sr)), i1 = Math.min(n, Math.round(b * sr));
+      let s = 0; for (let i = i0; i < i1; i++) s += mono[i] * mono[i];
+      return Math.sqrt(s / Math.max(1, i1 - i0));
+    };
+    const db = (x) => (20 * Math.log10(Math.max(1e-12, x))).toFixed(1) + ' dB';
+
+    const drop = detectDrop(mono, sr, { minT: 1 });
+    check('detectDrop finds the drop at 2 bars', drop.time != null && Math.abs(drop.time - dropAt) <= 0.05,
+      `found ${drop.time?.toFixed(3)} s, expected ${dropAt.toFixed(3)} s (err ${((drop.time - dropAt) * 1000).toFixed(1)} ms, conf ${drop.confidence.toFixed(2)})`);
+    const tempo = detectTempo(mono, sr);
+    check('detectTempo finds 130 BPM', Math.abs(tempo.bpm - bpm) <= 1, `found ${tempo.bpm} BPM, firstBeat ${tempo.firstBeat.toFixed(3)} s`);
+
+    const silence = rms(dropAt - beat + L + 0.003, dropAt + L - 0.0005);
+    const dropR = rms(dropAt + L, dropAt + L + bar);
+    check('last beat before the drop is silent', silence < 0.01 * dropR,
+      `silence RMS ${db(silence)} vs drop-bar RMS ${db(dropR)} (${(silence / dropR * 100).toFixed(4)} %)`);
+    const lead = rms(0, dropAt - beat);
+    check('drop bar is much louder than the lead-in', dropR > 3 * lead,
+      `lead-in ${db(lead)}, drop ${db(dropR)}, +${(20 * Math.log10(dropR / lead)).toFixed(1)} dB`);
+
+    let on = -1;
+    for (let i = Math.round((dropAt - beat / 2) * sr); i < n; i++) if (Math.abs(mono[i]) > 1e-4) { on = i; break; }
+    const onT = on / sr, expect = dropAt + L;
+    check('drop onset lands on dropAt (+ chain latency) to the sample', on > 0 && Math.abs(onT - expect) <= 1.5 / sr + 0.0005,
+      `first sound at ${onT.toFixed(5)} s, expected ${expect.toFixed(5)} s (${Math.round((onT - expect) * sr)} samples)`);
+
+    // Every beat after the drop should be an attack (kick or clap): 12 ms after vs 12 ms
+    // before. Control: the same test 3/8 of a beat OFF the grid must mostly fail, which is
+    // what proves the attacks sit on grid.beatTime(k) and not merely everywhere.
+    const attack = (t) => rms(t, t + 0.012) > 1.1 * rms(t - 0.012, t - 0.001);
+    let onG = 0, offG = 0; const nb = 32;
+    for (let k = 1; k <= nb; k++) {
+      if (attack(dropAt + k * beat + L)) onG++;
+      if (attack(dropAt + (k + 0.375) * beat + L)) offG++;
+    }
+    check('an attack on every beat after the drop, not between (grid alignment)', onG >= nb * 0.9 && offG <= nb * 0.5,
+      `${onG}/${nb} beats attack at grid time + latency; ${offG}/${nb} off-grid control points do`);
+    check('no clipping / no NaN', !nan && peak < 1.0, `peak ${db(peak)}${nan ? ', NaN found' : ''}`);
+
+    // SFX: every contract name renders something audible through the real master chain.
+    const bad = [];
+    const peaks = [];
+    for (const name of SFX_NAMES) {
+      const ctx = new OfflineAudioContext(2, Math.round(sr * 3), sr);
+      const m = buildMaster(ctx);
+      const verb = ctx.createGain(); verb.connect(m.input);
+      playSfx({ ctx, sfxIn: m.input, verbIn: verb, slowmo: 1 }, name, { at: 0.02 });
+      const r = await ctx.startRendering();
+      let p = 0; const d = r.getChannelData(0);
+      for (let i = 0; i < d.length; i++) { const a = Math.abs(d[i]); if (!(a <= 10)) { p = NaN; break; } if (a > p) p = a; }
+      peaks.push(`${name} ${isNaN(p) ? 'NaN' : db(p)}`);
+      if (!(p > 0.02) || !(p < 1)) bad.push(name);
+    }
+    const need = 'swing swingHeavy hit slice sever clang clangPerfect block whoosh jump land step stepHeavy goblinGrowl goblinAttack goblinDie ogreRoar ogreSwing ogreImpact heartbeat getUpPulse auraBurst uiTick uiSelect flowUp flowBreak reset throw deflect bodyFall impactFrame whiteout'.split(' ');
+    const missing = need.filter((x) => !SFX_NAMES.includes(x));
+    check('all contract SFX exist', missing.length === 0, missing.length ? 'missing: ' + missing.join(', ') : `${need.length} names`);
+    check('every SFX is audible and unclipped', bad.length === 0, bad.length ? 'bad: ' + bad.join(', ') : 'peaks: ' + peaks.join(', '));
+  } catch (e) {
+    ok = false;
+    log('FAIL  exception: ' + (e && e.stack || e));
+  }
+  log('');
+  log(ok ? 'ALL PASS' : 'SOMETHING FAILED');
+  document.title = ok ? 'PASS' : 'FAIL';
+}
+$('selftest').onclick = selfTest;
+selfTest();
+
+// ------------------------------------------------------------ manual bench
+const need = () => { if (!engine.ctx) { $('status').textContent = 'press Init audio first'; return false; } return true; };
+
+$('init').onclick = async () => {
+  await engine.init();
+  engine.setAmbient(+$('amb').value, 1);
+  $('status').textContent = `ready — ${engine.ctx.sampleRate} Hz, output latency ${(engine.outputLatency * 1000).toFixed(1)} ms (chain ${(engine.chainLatency * 1000).toFixed(1)} ms)`;
+};
+for (const [id, k] of [['vMaster', 'master'], ['vMusic', 'music'], ['vSfx', 'sfx']]) {
+  $(id).oninput = () => engine.setVolumes({ [k]: +$(id).value });
+}
+$('amb').oninput = () => engine.setAmbient(+$('amb').value, 0.5);
+$('muf').oninput = () => engine.setMuffle(+$('muf').value, 0.3);
+$('slow').oninput = () => engine.setSlowmo(+$('slow').value);
+
+for (const name of SFX_NAMES) {
+  const b = document.createElement('button');
+  b.textContent = name;
+  b.onclick = () => { if (need()) engine.sfx(name, { pitch: +$('pitch').value, pan: +$('pan').value }); };
+  $('sfx').appendChild(b);
+}
+
+engine.music.listTracks().then((list) => {
+  const sel = $('track');
+  sel.innerHTML = '';
+  for (const t of list) { const o = document.createElement('option'); o.value = t.id; o.textContent = t.name; sel.appendChild(o); }
+});
+$('select').onclick = async () => {
+  $('status').textContent = 'decoding + analysing…';
+  info = await engine.music.select($('track').value);
+  $('status').textContent = JSON.stringify(info);
+};
+$('preview').onclick = async () => {
+  if (!need()) return;
+  if (!info) info = await engine.music.select($('track').value);
+  plan = engine.music.previewDrop();
+};
+$('awaken').onclick = async () => {
+  if (!need()) return;
+  if (!info) info = await engine.music.select($('track').value);
+  plan = engine.music.startAwakening();
+};
+$('practice').onclick = async () => {
+  if (!need()) return;
+  if (!info) info = await engine.music.select($('track').value);
+  engine.music.startPractice(+$('bpm').value || PHONK_BPM);
+  plan = null;
+  engine.music.setMetronome($('metro').checked);
+};
+$('metro').onchange = () => engine.music.setMetronome($('metro').checked);
+$('cut').onclick = () => { if (need()) engine.music.cut(); };
+$('stop').onclick = () => { if (need()) engine.music.stop(1.5); };
+$('boom').onclick = () => { if (need()) engine.music.boom(); };
+
+function frame() {
+  const g = engine.music.grid;
+  if (engine.ctx && g) {
+    const t = engine.now - engine.outputLatency;
+    $('beat').style.opacity = (0.1 + 0.9 * g.pulse(t)).toFixed(3);
+    const k = Math.floor(g.beatAt(t));
+    let s = `beat ${k}  bar ${Math.floor(k / 4)}  bpm ${g.bpm}`;
+    if (plan) {
+      const dt = plan.dropAt - t;
+      s += dt > 0 ? `\ndrop in ${dt.toFixed(2)} s` : `\nDROPPED ${(-dt).toFixed(1)} s ago · next section drop ${(engine.music.nextSectionDrop(t) - t).toFixed(2)} s`;
+    }
+    $('status').textContent = s;
+  } else {
+    $('beat').style.opacity = 0.1;
+  }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

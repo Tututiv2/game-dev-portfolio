@@ -1,0 +1,560 @@
+[
+ {
+  "id": "rift:LEECH_SWORD",
+  "type": "CRAFTING",
+  "result": "LEECH_SWORD",
+  "amount": 1,
+  "grid": [
+   "DEADGEHOG_SPINE:2",
+   "LEECH_SUPREME_FRAGMENT:2",
+   "DEADGEHOG_SPINE:2",
+   "DEADGEHOG_SPINE:2",
+   "LEECH_SUPREME_FRAGMENT:2",
+   "DEADGEHOG_SPINE:2",
+   "DEADGEHOG_SPINE:2",
+   "WYLD_SWORD:1",
+   "DEADGEHOG_SPINE:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:EON_PICKAXE",
+  "type": "CRAFTING",
+  "result": "EON_PICKAXE",
+  "amount": 1,
+  "grid": [
+   "YOUNGITE:8",
+   "ANTI_SENTIENT_PICKAXE:1",
+   "YOUNGITE:8",
+   "",
+   "YOUNGITE:8",
+   "",
+   "",
+   "YOUNGITE:8",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:CHRONO_PICKAXE",
+  "type": "CRAFTING",
+  "result": "CHRONO_PICKAXE",
+  "amount": 1,
+  "grid": [
+   "TIMITE:16",
+   "EON_PICKAXE:1",
+   "TIMITE:16",
+   "",
+   "TIMITE:16",
+   "",
+   "",
+   "TIMITE:16",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:SILVER_LACED_KARAMBIT",
+  "type": "CRAFTING",
+  "result": "SILVER_LACED_KARAMBIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "SILVER_FANG:12",
+   "",
+   "",
+   "SELF_RECURSIVE_PICKAXE:1",
+   "",
+   "",
+   "COVEN_SEAL:12",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:SILVERTWIST_KARAMBIT",
+  "type": "CRAFTING",
+  "result": "SILVERTWIST_KARAMBIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "SILVER_FANG:64",
+   "",
+   "",
+   "SILVER_LACED_KARAMBIT:1",
+   "",
+   "",
+   "BLOODBADGE:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ASPECT_OF_THE_LEECH_1",
+  "type": "CRAFTING",
+  "result": "ASPECT_OF_THE_LEECH_1",
+  "amount": 1,
+  "grid": [
+   "",
+   "LIL_PAD:64",
+   "",
+   "",
+   "LIL_PAD:64",
+   "",
+   "",
+   "LEECH_SUPREME_FRAGMENT:8",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ASPECT_OF_THE_LEECH_2",
+  "type": "CRAFTING",
+  "result": "ASPECT_OF_THE_LEECH_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "TRANSMISSION_TUNER:1",
+   "ASPECT_OF_THE_LEECH_1:1",
+   "TRANSMISSION_TUNER:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ASPECT_OF_THE_LEECH_3",
+  "type": "CRAFTING",
+  "result": "ASPECT_OF_THE_LEECH_3",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "SUPER_LEECH_MODIFIER:1",
+   "ASPECT_OF_THE_LEECH_2:1",
+   "SUPER_LEECH_MODIFIER:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:NOT_DEADGEHOG_MASK",
+  "type": "CRAFTING",
+  "result": "NOT_DEADGEHOG_MASK",
+  "amount": 1,
+  "grid": [
+   "DEADGEHOG_SPINE:2",
+   "DEADGEHOG_SPINE:2",
+   "DEADGEHOG_SPINE:2",
+   "DEADGEHOG_SPINE:2",
+   "WYLD_HELMET:1",
+   "DEADGEHOG_SPINE:2",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:AGARICUS_CAP_CAP",
+  "type": "CRAFTING",
+  "result": "AGARICUS_CAP_CAP",
+  "amount": 1,
+  "grid": [
+   "AGARICUS_CAP:10",
+   "AGARICUS_CAP:10",
+   "AGARICUS_CAP:10",
+   "AGARICUS_CAP:10",
+   "NOT_DEADGEHOG_MASK:1",
+   "AGARICUS_CAP:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ORANGE_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "ORANGE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "HALF_EATEN_CARROT:64",
+   "",
+   "HALF_EATEN_CARROT:64",
+   "HALF_EATEN_CARROT:64",
+   "ETALPTSEHC_NORI:1",
+   "HALF_EATEN_CARROT:64",
+   "HALF_EATEN_CARROT:64",
+   "HALF_EATEN_CARROT:64",
+   "HALF_EATEN_CARROT:64"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:CHICKEN_LEGGS",
+  "type": "CRAFTING",
+  "result": "CHICKEN_LEGGS",
+  "amount": 1,
+  "grid": [
+   "VOLT_CRUX:8",
+   "WYLD_LEGGINGS:1",
+   "VOLT_CRUX:8",
+   "METAPHORIC_EGG:8",
+   "",
+   "METAPHORIC_EGG:8",
+   "METAPHORIC_EGG:8",
+   "",
+   "METAPHORIC_EGG:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:FEMURGROWTH_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "FEMURGROWTH_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SHADOW_CRUX:8",
+   "CHICKEN_LEGGS:1",
+   "VOLT_CRUX:8",
+   "BACTE_FRAGMENT:2",
+   "",
+   "BACTE_FRAGMENT:2",
+   "BACTE_FRAGMENT:2",
+   "",
+   "BACTE_FRAGMENT:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:GUNTHER_SNEAKERS",
+  "type": "CRAFTING",
+  "result": "GUNTHER_SNEAKERS",
+  "amount": 1,
+  "grid": [
+   "SHADOW_CRUX:2",
+   "GUNTHESIZER_LICHEN:1",
+   "SHADOW_CRUX:2",
+   "SHADOW_CRUX:2",
+   "WYLD_BOOTS:1",
+   "SHADOW_CRUX:2",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:SNAKE_IN_A_BOOT",
+  "type": "CRAFTING",
+  "result": "SNAKE_IN_A_BOOT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "METAL_HEART:5",
+   "",
+   "METAL_HEART:5",
+   "METAL_HEART:5",
+   "",
+   "EXCEEDINGLY_COMFY_SNEAKERS:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:UGLY_BOOTS",
+  "type": "CRAFTING",
+  "result": "UGLY_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "UGLY_BOOTS_FRAGMENT:1",
+   "",
+   "UGLY_BOOTS_FRAGMENT:1",
+   "SNAKE_IN_A_BOOT:1",
+   "UGLY_BOOTS_FRAGMENT:1",
+   "",
+   "UGLY_BOOTS_FRAGMENT:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:WARM_WIZARD_FACE",
+  "type": "CRAFTING",
+  "result": "WARM_WIZARD_FACE",
+  "amount": 1,
+  "grid": [
+   "",
+   "WIZARD_FACE:1",
+   "",
+   "",
+   "ANTI_BITE_SCARF:1",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:WIZARDMAN_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "WIZARDMAN_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "",
+   "TIGHT_PANTS_FRAGMENT:1",
+   "",
+   "TIGHT_PANTS_FRAGMENT:1",
+   "LEGGINGS_OF_THE_COVEN:1",
+   "TIGHT_PANTS_FRAGMENT:1",
+   "",
+   "TIGHT_PANTS_FRAGMENT:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:S_LOGO_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "S_LOGO_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "",
+   "S_LOGO_FRAGMENT:1",
+   "",
+   "S_LOGO_FRAGMENT:1",
+   "LIVELY_SEPULTURE_CHESTPLATE:1",
+   "S_LOGO_FRAGMENT:1",
+   "",
+   "S_LOGO_FRAGMENT:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ANTI_BITE_SCARF",
+  "type": "CRAFTING",
+  "result": "ANTI_BITE_SCARF",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "COVEN_SEAL:8",
+   "",
+   "COVEN_SEAL:8",
+   "COVEN_SEAL:8",
+   "DETRANSFIGURED_MASK:1",
+   "COVEN_SEAL:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:ANTI_BITE_SCARF_2",
+  "type": "CRAFTING",
+  "result": "ANTI_BITE_SCARF_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "SCARF_STUDIES:1",
+   "",
+   "BLOODBADGE:1",
+   "ANTI_BITE_SCARF:1",
+   "BLOODBADGE:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:LIVELY_SEPULTURE_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "LIVELY_SEPULTURE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "METAL_HEART:32",
+   "",
+   "METAL_HEART:32",
+   "WILTED_BERBERIS_BUNCH:6",
+   "ORANGE_CHESTPLATE:1",
+   "WILTED_BERBERIS_BUNCH:6",
+   "WILTED_BERBERIS_BUNCH:6",
+   "BLOODBADGE:12",
+   "WILTED_BERBERIS_BUNCH:6"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:LEGGINGS_OF_THE_COVEN",
+  "type": "CRAFTING",
+  "result": "LEGGINGS_OF_THE_COVEN",
+  "amount": 1,
+  "grid": [
+   "FEMURGROWTH_LEGGINGS:1",
+   "BLOODBADGE:1",
+   "LEGGINGS_OF_THE_PACK:1",
+   "METAL_HEART:6",
+   "",
+   "METAL_HEART:6",
+   "METAL_HEART:6",
+   "",
+   "METAL_HEART:6"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:HEALING_MELON",
+  "type": "CRAFTING",
+  "result": "HEALING_MELON",
+  "amount": 1,
+  "grid": [
+   "VAMPIRIC_MELON:2",
+   "",
+   "",
+   "VAMPIRIC_MELON:2",
+   "VAMPIRIC_MELON:2",
+   "",
+   "VAMPIRIC_MELON:2",
+   "VAMPIRIC_MELON:2",
+   "VAMPIRIC_MELON:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:JUICY_HEALING_MELON",
+  "type": "CRAFTING",
+  "result": "JUICY_HEALING_MELON",
+  "amount": 1,
+  "grid": [
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2",
+   "HEALING_MELON:1",
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2",
+   "COVEN_SEAL:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:LUSCIOUS_HEALING_MELON",
+  "type": "CRAFTING",
+  "result": "LUSCIOUS_HEALING_MELON",
+  "amount": 1,
+  "grid": [
+   "",
+   "BLOODBADGE:1",
+   "",
+   "",
+   "JUICY_HEALING_MELON:1",
+   "",
+   "",
+   "BLOODBADGE:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:DISCRITE",
+  "type": "CRAFTING",
+  "result": "DISCRITE",
+  "amount": 1,
+  "grid": [
+   "OBSOLITE:64",
+   "TIMITE:64",
+   "OBSOLITE:64",
+   "TIMITE:64",
+   "YOUNGITE:64",
+   "TIMITE:64",
+   "OBSOLITE:64",
+   "TIMITE:64",
+   "OBSOLITE:64"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:MIRRORED_STICK",
+  "type": "CRAFTING",
+  "result": "MIRRORED_STICK",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "MIRRORED_WOOD:1",
+   "",
+   "",
+   "MIRRORED_WOOD:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:MIRRORED_LEASH",
+  "type": "CRAFTING",
+  "result": "MIRRORED_LEASH",
+  "amount": 1,
+  "grid": [
+   "",
+   "MIRRORED_STRING:1",
+   "MIRRORED_STRING:1",
+   "",
+   "SLIME_BALL:1",
+   "MIRRORED_STRING:1",
+   "MIRRORED_STRING:1",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:BERBERIS_BLOWGUN",
+  "type": "CRAFTING",
+  "result": "BERBERIS_BLOWGUN",
+  "amount": 1,
+  "grid": [
+   "",
+   "WILTED_BERBERIS:20",
+   "",
+   "",
+   "WILTED_BERBERIS:20",
+   "",
+   "",
+   "WILTED_BERBERIS:20",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "rift:TIME_GUN",
+  "type": "CRAFTING",
+  "result": "TIME_GUN",
+  "amount": 1,
+  "grid": [
+   "",
+   "YOUNGITE:8",
+   "YOUNGITE:8",
+   "YOUNGITE:8",
+   "BERBERIS_BLOWGUN:1",
+   "",
+   "YOUNGITE:8",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ }
+]

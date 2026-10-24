@@ -1,0 +1,828 @@
+{
+ "baseStageSeconds": 14400,
+ "minStageSeconds": 6063,
+ "size": 5,
+ "xpPerHarvest": 320,
+ "crops": [
+  {
+   "crop": "WHEAT",
+   "yield": 72,
+   "cycles": 8,
+   "effects": [
+    "harvest_boost"
+   ]
+  },
+  {
+   "crop": "CARROT",
+   "yield": 175,
+   "cycles": 8,
+   "effects": [
+    "xp_boost"
+   ]
+  },
+  {
+   "crop": "POTATO",
+   "yield": 150,
+   "cycles": 8,
+   "effects": [
+    "immunity"
+   ]
+  },
+  {
+   "crop": "PUMPKIN",
+   "yield": 68,
+   "cycles": 11,
+   "effects": [
+    "bonus_drops"
+   ]
+  },
+  {
+   "crop": "SUGAR_CANE",
+   "yield": 136,
+   "cycles": 8,
+   "effects": [
+    "improved_xp_boost",
+    "harvest_loss"
+   ]
+  },
+  {
+   "crop": "MELON",
+   "yield": 320,
+   "cycles": 11,
+   "effects": [
+    "water_retain"
+   ]
+  },
+  {
+   "crop": "CACTUS",
+   "yield": 132,
+   "cycles": 8,
+   "effects": [
+    "improved_water_retain",
+    "harvest_loss"
+   ]
+  },
+  {
+   "crop": "COCOA_BEANS",
+   "yield": 120,
+   "cycles": 6,
+   "effects": [
+    "immunity"
+   ]
+  },
+  {
+   "crop": "MUSHROOM",
+   "yield": 30,
+   "cycles": 6,
+   "effects": [
+    "improved_harvest_boost",
+    "water_drain"
+   ]
+  },
+  {
+   "crop": "NETHER_WART",
+   "yield": 108,
+   "cycles": 8,
+   "effects": [
+    "improved_harvest_boost",
+    "xp_loss"
+   ]
+  },
+  {
+   "crop": "SUNFLOWER",
+   "yield": 232,
+   "cycles": 15,
+   "effects": [
+    "bonus_drops"
+   ]
+  },
+  {
+   "crop": "MOONFLOWER",
+   "yield": 232,
+   "cycles": 15,
+   "effects": [
+    "bonus_drops"
+   ]
+  },
+  {
+   "crop": "WILD_ROSE",
+   "yield": 200,
+   "cycles": 15,
+   "effects": [
+    "effect_spread"
+   ]
+  }
+ ],
+ "effects": {
+  "harvest_boost": {
+   "name": "Harvest Boost",
+   "desc": "&a+20% &7yield to neighbours",
+   "kind": "yield",
+   "value": 20
+  },
+  "improved_harvest_boost": {
+   "name": "Improved Harvest Boost",
+   "desc": "&a+30% &7yield to neighbours",
+   "kind": "yield",
+   "value": 30
+  },
+  "xp_boost": {
+   "name": "XP Boost",
+   "desc": "&a+20% &7Farming XP to neighbours",
+   "kind": "xp",
+   "value": 20
+  },
+  "improved_xp_boost": {
+   "name": "Improved XP Boost",
+   "desc": "&a+30% &7Farming XP to neighbours",
+   "kind": "xp",
+   "value": 30
+  },
+  "water_retain": {
+   "name": "Water Retain",
+   "desc": "&a+50% &7water kept by neighbours",
+   "kind": "water",
+   "value": 50
+  },
+  "improved_water_retain": {
+   "name": "Improved Water Retain",
+   "desc": "&a+100% &7water kept by neighbours",
+   "kind": "water",
+   "value": 100
+  },
+  "immunity": {
+   "name": "Immunity",
+   "desc": "&7Neighbours ignore negative effects",
+   "kind": "immunity",
+   "value": 0
+  },
+  "effect_spread": {
+   "name": "Effect Spread",
+   "desc": "&7Passes neighbours' effects along",
+   "kind": "spread",
+   "value": 0
+  },
+  "bonus_drops": {
+   "name": "Bonus Drops",
+   "desc": "&7Rolls the Harvest Bounty when harvested",
+   "kind": "bounty",
+   "value": 0
+  },
+  "harvest_loss": {
+   "name": "Harvest Loss",
+   "desc": "&c-20% &7yield to neighbours",
+   "kind": "yield",
+   "value": -20
+  },
+  "xp_loss": {
+   "name": "XP Loss",
+   "desc": "&c-20% &7Farming XP to neighbours",
+   "kind": "xp",
+   "value": -20
+  },
+  "water_drain": {
+   "name": "Water Drain",
+   "desc": "&c-30% &7water kept by neighbours",
+   "kind": "water",
+   "value": -30
+  }
+ },
+ "mutations": [
+  {
+   "id": "SCOURROOT",
+   "name": "Grimroot",
+   "rarity": "COMMON",
+   "material": "HANGING_ROOTS",
+   "needs": [
+    "PUMPKIN",
+    "MOONFLOWER"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "BLASTBERRY",
+   "name": "Boomberry",
+   "rarity": "RARE",
+   "material": "SWEET_BERRIES",
+   "needs": [
+    "MOONFLOWER",
+    "MOONFLOWER",
+    "SUNFLOWER",
+    "SUNFLOWER"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "CHEESEBITE",
+   "name": "Curdbloom",
+   "rarity": "RARE",
+   "material": "OXEYE_DAISY",
+   "needs": [
+    "PUMPKIN",
+    "PUMPKIN",
+    "CARROT",
+    "CARROT"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "STOPLIGHT_PETAL",
+   "name": "Signal Petal",
+   "rarity": "EPIC",
+   "material": "POPPY",
+   "needs": [
+    "SCOURROOT",
+    "WILD_ROSE",
+    "SUNFLOWER"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "STARTLEVINE",
+   "name": "Jumpvine",
+   "rarity": "EPIC",
+   "material": "GLOW_LICHEN",
+   "needs": [
+    "SCOURROOT",
+    "MUSHROOM",
+    "WHEAT"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "SHADEVINE",
+   "name": "Duskvine",
+   "rarity": "COMMON",
+   "material": "VINE",
+   "needs": [
+    "COCOA_BEANS",
+    "NETHER_WART"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "GODSEED",
+   "name": "Worldseed",
+   "rarity": "LEGENDARY",
+   "material": "TORCHFLOWER_SEEDS",
+   "needs": [
+    "BLASTBERRY",
+    "STOPLIGHT_PETAL",
+    "MELON"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "CREAMBLOOM",
+   "name": "Milkpetal",
+   "rarity": "UNCOMMON",
+   "material": "LILY_OF_THE_VALLEY",
+   "needs": [
+    "MUSHROOM",
+    "MUSHROOM",
+    "MOONFLOWER"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  },
+  {
+   "id": "CINDERSHADE",
+   "name": "Embershade",
+   "rarity": "UNCOMMON",
+   "material": "CRIMSON_FUNGUS",
+   "needs": [
+    "SUGAR_CANE",
+    "POTATO",
+    "PUMPKIN"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  },
+  {
+   "id": "LONELILY",
+   "name": "Lonepetal",
+   "rarity": "COMMON",
+   "material": "AZURE_BLUET",
+   "needs": [
+    "POTATO",
+    "SUNFLOWER"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "FLESHTRAP",
+   "name": "Gnawtrap",
+   "rarity": "RARE",
+   "material": "PITCHER_POD",
+   "needs": [
+    "CARROT",
+    "CARROT",
+    "COCOA_BEANS",
+    "COCOA_BEANS"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "GLOOMGOURD",
+   "name": "Murkgourd",
+   "rarity": "COMMON",
+   "material": "CARVED_PUMPKIN",
+   "needs": [
+    "CARROT",
+    "MOONFLOWER"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "JERRYFLOWER",
+   "name": "Geraldflower",
+   "rarity": "LEGENDARY",
+   "material": "CORNFLOWER",
+   "needs": [
+    "STOPLIGHT_PETAL",
+    "CINDERSHADE",
+    "POTATO"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "SHELLFRUIT",
+   "name": "Husknut",
+   "rarity": "EPIC",
+   "material": "TURTLE_SCUTE",
+   "needs": [
+    "SHADEVINE",
+    "WILD_ROSE",
+    "CARROT"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "CHOCONUT",
+   "name": "Cacaonut",
+   "rarity": "COMMON",
+   "material": "BROWN_DYE",
+   "needs": [
+    "WILD_ROSE",
+    "POTATO"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "THUNDERLING",
+   "name": "Stormsprout",
+   "rarity": "EPIC",
+   "material": "LIGHTNING_ROD",
+   "needs": [
+    "GLOOMGOURD",
+    "COCOA_BEANS",
+    "SUGAR_CANE"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "MAGIC_JELLYBEAN",
+   "name": "Wonder Jellybean",
+   "rarity": "RARE",
+   "material": "SLIME_BALL",
+   "needs": [
+    "POTATO",
+    "POTATO",
+    "MOONFLOWER",
+    "MOONFLOWER"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "NOCTILUME",
+   "name": "Nightglow",
+   "rarity": "RARE",
+   "material": "GLOW_BERRIES",
+   "needs": [
+    "MUSHROOM",
+    "MUSHROOM",
+    "NETHER_WART",
+    "NETHER_WART"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "TIMESTALK",
+   "name": "Clockstalk",
+   "rarity": "LEGENDARY",
+   "material": "CLOCK",
+   "needs": [
+    "FLESHTRAP",
+    "CREAMBLOOM",
+    "WHEAT"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "ALL_IN_ALOE",
+   "name": "Jackpot Aloe",
+   "rarity": "LEGENDARY",
+   "material": "SEA_PICKLE",
+   "needs": [
+    "SHELLFRUIT",
+    "STOPLIGHT_PETAL",
+    "WHEAT"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "PUFFERCLOUD",
+   "name": "Puffbloom",
+   "rarity": "EPIC",
+   "material": "WHITE_DYE",
+   "needs": [
+    "SHADEVINE",
+    "CACTUS",
+    "WILD_ROSE"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "TURTLELLINI",
+   "name": "Shellini",
+   "rarity": "RARE",
+   "material": "LILY_PAD",
+   "needs": [
+    "WHEAT",
+    "WHEAT",
+    "CARROT",
+    "CARROT"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "ASHWREATH",
+   "name": "Cinderwreath",
+   "rarity": "COMMON",
+   "material": "DEAD_BUSH",
+   "needs": [
+    "MELON",
+    "MOONFLOWER"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "ZOMBUD",
+   "name": "Deadbud",
+   "rarity": "EPIC",
+   "material": "WITHER_ROSE",
+   "needs": [
+    "CHOCONUT",
+    "PUMPKIN",
+    "MOONFLOWER"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "DEVOURER",
+   "name": "Gobbler",
+   "rarity": "LEGENDARY",
+   "material": "BIG_DRIPLEAF",
+   "needs": [
+    "FLESHTRAP",
+    "CINDERSHADE",
+    "MOONFLOWER"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "CHOCOBERRY",
+   "name": "Cocoaberry",
+   "rarity": "UNCOMMON",
+   "material": "COCOA_BEANS",
+   "needs": [
+    "MOONFLOWER",
+    "PUMPKIN",
+    "MOONFLOWER"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  },
+  {
+   "id": "SNOOZLING",
+   "name": "Drowsling",
+   "rarity": "RARE",
+   "material": "SPORE_BLOSSOM",
+   "needs": [
+    "CACTUS",
+    "CACTUS",
+    "COCOA_BEANS",
+    "COCOA_BEANS"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "DUSTGRAIN",
+   "name": "Siltgrain",
+   "rarity": "COMMON",
+   "material": "WHEAT_SEEDS",
+   "needs": [
+    "SUGAR_CANE",
+    "POTATO"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "THORNSHADE",
+   "name": "Briarshade",
+   "rarity": "UNCOMMON",
+   "material": "SWEET_BERRIES",
+   "needs": [
+    "WHEAT",
+    "MOONFLOWER",
+    "NETHER_WART"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  },
+  {
+   "id": "CHLORONITE",
+   "name": "Leafstone",
+   "rarity": "RARE",
+   "material": "MOSS_BLOCK",
+   "needs": [
+    "CACTUS",
+    "CACTUS",
+    "POTATO",
+    "POTATO"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "DO_NOT_EAT_SHROOM",
+   "name": "Don't-Eat Cap",
+   "rarity": "RARE",
+   "material": "RED_MUSHROOM",
+   "needs": [
+    "MUSHROOM",
+    "MUSHROOM",
+    "NETHER_WART",
+    "NETHER_WART"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "GLASSCORN",
+   "name": "Crystalcorn",
+   "rarity": "LEGENDARY",
+   "material": "AMETHYST_CLUSTER",
+   "needs": [
+    "DO_NOT_EAT_SHROOM",
+    "THORNSHADE",
+    "POTATO"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "VEILSHROOM",
+   "name": "Shroudcap",
+   "rarity": "COMMON",
+   "material": "BROWN_MUSHROOM",
+   "needs": [
+    "CARROT",
+    "COCOA_BEANS"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "WITHERBLOOM",
+   "name": "Blightbloom",
+   "rarity": "COMMON",
+   "material": "WITHER_ROSE",
+   "needs": [
+    "MELON",
+    "CACTUS"
+   ],
+   "chance": 0.25,
+   "copper": 250,
+   "cycles": 4,
+   "vine": 0.05
+  },
+  {
+   "id": "DUSKBLOOM",
+   "name": "Eveningbloom",
+   "rarity": "UNCOMMON",
+   "material": "ALLIUM",
+   "needs": [
+    "MOONFLOWER",
+    "COCOA_BEANS",
+    "MOONFLOWER"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  },
+  {
+   "id": "PLANTBOY_ADVANCE",
+   "name": "Sprout Pocket Console",
+   "rarity": "EPIC",
+   "material": "OBSERVER",
+   "needs": [
+    "LONELILY",
+    "CARROT",
+    "POTATO"
+   ],
+   "chance": 0.06,
+   "copper": 1000,
+   "cycles": 8,
+   "vine": 0.2
+  },
+  {
+   "id": "SOGGYBUD",
+   "name": "Dampbud",
+   "rarity": "RARE",
+   "material": "KELP",
+   "needs": [
+    "POTATO",
+    "POTATO",
+    "CACTUS",
+    "CACTUS"
+   ],
+   "chance": 0.1,
+   "copper": 750,
+   "cycles": 6,
+   "vine": 0.12
+  },
+  {
+   "id": "PHANTOMLEAF",
+   "name": "Wraithleaf",
+   "rarity": "LEGENDARY",
+   "material": "PHANTOM_MEMBRANE",
+   "needs": [
+    "SNOOZLING",
+    "TURTLELLINI",
+    "MUSHROOM"
+   ],
+   "chance": 0.03,
+   "copper": 1500,
+   "cycles": 10,
+   "vine": 0.35
+  },
+  {
+   "id": "COALROOT",
+   "name": "Charroot",
+   "rarity": "UNCOMMON",
+   "material": "COAL",
+   "needs": [
+    "COCOA_BEANS",
+    "SUNFLOWER",
+    "POTATO"
+   ],
+   "chance": 0.15,
+   "copper": 500,
+   "cycles": 5,
+   "vine": 0.08
+  }
+ ],
+ "bounty": [
+  {
+   "item": "OVERCLOCKER_3000",
+   "chance": 0.0005
+  },
+  {
+   "item": "IRIDIUM",
+   "chance": 0.002
+  },
+  {
+   "item": "BURROWING_SPORES",
+   "chance": 0.002
+  },
+  {
+   "item": "OVERGROWN_GRASS",
+   "chance": 0.001
+  },
+  {
+   "item": "EVERGREEN_GARDEN_CHIP",
+   "chance": 0.03
+  },
+  {
+   "item": "SYNTHESIS_GARDEN_CHIP",
+   "chance": 0.03
+  },
+  {
+   "item": "ETHEREAL_VINE",
+   "chance": 0.05
+  }
+ ],
+ "plantCost": 64,
+ "waterMax": 10,
+ "waterPerStage": [
+  2,
+  3
+ ],
+ "analyzerLevels": [
+  1,
+  10,
+  15,
+  20,
+  30,
+  40
+ ],
+ "analyzerReward": {
+  "fortune": 5,
+  "cropGrowth": 10,
+  "skyblockXp": 15,
+  "firstItem": "BIOANALYSIS_TALISMAN"
+ }
+}

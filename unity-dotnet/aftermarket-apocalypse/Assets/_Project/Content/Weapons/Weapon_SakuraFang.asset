@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9687d966df47a32438154a2cef978ee1, type: 3}
+  m_Name: Weapon_SakuraFang
+  m_EditorClassIdentifier: Aftermarket.Runtime::WeaponDefinition
+  weaponName: SakuraFang
+  displayName: Sakura Fang
+  viewModelPrefab: {fileID: 3050190453257001157, guid: dadd1d9e1c3721b4f9fbf0e9babe9a98, type: 3}
+  damage: 200
+  headshotMultiplier: 5
+  range: 300
+  impactForce: 6
+  fireRate: 1.15
+  allowButtonHold: 0
+  sprintToFireDelay: 0.35
+  recoilUp: 6.5
+  recoilSide: 1.6
+  magazineSize: 5
+  maxReserve: 40
+  reloadTime: 2.6
+  wallbuyCost: 1500
+  wallbuyAmmoCost: 750

@@ -1,0 +1,1249 @@
+[
+ {
+  "id": "alchemy:awkward",
+  "type": "OTHER",
+  "result": "POTION_AWKWARD",
+  "amount": 1,
+  "inputs": [
+   "POTION:1",
+   "NETHER_STALK:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:sugar",
+  "type": "OTHER",
+  "result": "POTION_SPEED;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar",
+  "type": "OTHER",
+  "result": "POTION_SPEED;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar_cane",
+  "type": "OTHER",
+  "result": "POTION_SPEED;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_SUGAR_CANE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:strength:blaze_powder",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "BLAZE_POWDER:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:strength:enchanted_blaze_powder",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_BLAZE_POWDER:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:strength:enchanted_blaze_rod",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_BLAZE_ROD:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:healing:speckled_melon",
+  "type": "OTHER",
+  "result": "POTION_HEALING;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "SPECKLED_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:healing:enchanted_melon",
+  "type": "OTHER",
+  "result": "POTION_HEALING;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:healing:enchanted_glistering_melon",
+  "type": "OTHER",
+  "result": "POTION_HEALING;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_GLISTERING_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:jump_boost:rabbit_foot",
+  "type": "OTHER",
+  "result": "POTION_JUMP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "RABBIT_FOOT:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:jump_boost:enchanted_rabbit_foot",
+  "type": "OTHER",
+  "result": "POTION_JUMP_BOOST;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_RABBIT_FOOT:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:resistance:cactus",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus_green",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_CACTUS_GREEN:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:water_breathing:raw_fish:3",
+  "type": "OTHER",
+  "result": "POTION_WATER_BREATHING;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "RAW_FISH:3:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:water_breathing:enchanted_pufferfish",
+  "type": "OTHER",
+  "result": "POTION_WATER_BREATHING;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_PUFFERFISH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:regeneration:ghast_tear",
+  "type": "OTHER",
+  "result": "POTION_REGENERATION;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "GHAST_TEAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:regeneration:enchanted_ghast_tear",
+  "type": "OTHER",
+  "result": "POTION_REGENERATION;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_GHAST_TEAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:mana:mutton",
+  "type": "OTHER",
+  "result": "POTION_MANA;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:mana:enchanted_mutton",
+  "type": "OTHER",
+  "result": "POTION_MANA;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:mana:enchanted_cooked_mutton",
+  "type": "OTHER",
+  "result": "POTION_MANA;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_COOKED_MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:critical:flint",
+  "type": "OTHER",
+  "result": "POTION_CRITICAL;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "FLINT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:GRAVEL:7"
+ },
+ {
+  "id": "alchemy:archery:feather",
+  "type": "OTHER",
+  "result": "POTION_ARCHERY;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "FEATHER:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:FEATHER:3"
+ },
+ {
+  "id": "alchemy:haste:coal",
+  "type": "OTHER",
+  "result": "POTION_HASTE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "COAL:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:COAL:3"
+ },
+ {
+  "id": "alchemy:absorption:gold_ingot",
+  "type": "OTHER",
+  "result": "POTION_ABSORPTION;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "GOLD_INGOT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:GOLD_INGOT:6"
+ },
+ {
+  "id": "alchemy:absorption:enchanted_gold",
+  "type": "OTHER",
+  "result": "POTION_ABSORPTION;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_GOLD:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:GOLD_INGOT:6"
+ },
+ {
+  "id": "alchemy:absorption:enchanted_gold_block",
+  "type": "OTHER",
+  "result": "POTION_ABSORPTION;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_GOLD_BLOCK:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:GOLD_INGOT:6"
+ },
+ {
+  "id": "alchemy:adrenaline:ink_sack:3",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "INK_SACK:3:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cocoa",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_COCOA:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cookie",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;5",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_COOKIE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:rabbit:rabbit",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:rabbit:enchanted_rabbit",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:agility:enchanted_cake",
+  "type": "OTHER",
+  "result": "POTION_AGILITY;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_CAKE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RAW_CHICKEN:8"
+ },
+ {
+  "id": "alchemy:night_vision:golden_carrot",
+  "type": "OTHER",
+  "result": "POTION_NIGHT_VISION;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "GOLDEN_CARROT:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:fire_resistance:magma_cream",
+  "type": "OTHER",
+  "result": "POTION_FIRE_RESISTANCE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "MAGMA_CREAM:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:spelunker:mithril_ore",
+  "type": "OTHER",
+  "result": "POTION_SPELUNKER;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "MITHRIL_ORE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MITHRIL_ORE:3"
+ },
+ {
+  "id": "alchemy:experience:ink_sack:4",
+  "type": "OTHER",
+  "result": "POTION_EXPERIENCE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "INK_SACK:4:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:4:6"
+ },
+ {
+  "id": "alchemy:stun:obsidian",
+  "type": "OTHER",
+  "result": "POTION_STUN;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "OBSIDIAN:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:OBSIDIAN:6"
+ },
+ {
+  "id": "alchemy:dodge:raw_fish:1",
+  "type": "OTHER",
+  "result": "POTION_DODGE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "RAW_FISH:1:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RAW_FISH:1:2"
+ },
+ {
+  "id": "alchemy:true_defense:true_essence",
+  "type": "OTHER",
+  "result": "POTION_TRUE_DEFENSE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "TRUE_ESSENCE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:spirit:foul_flesh",
+  "type": "OTHER",
+  "result": "POTION_SPIRIT;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "FOUL_FLESH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:pet_luck:enchanted_rabbit_hide",
+  "type": "OTHER",
+  "result": "POTION_PET_LUCK;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_RABBIT_HIDE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:8"
+ },
+ {
+  "id": "alchemy:knockback:slime_ball",
+  "type": "OTHER",
+  "result": "POTION_KNOCKBACK;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "SLIME_BALL:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:SLIME_BALL:4"
+ },
+ {
+  "id": "alchemy:burning:sand:1",
+  "type": "OTHER",
+  "result": "POTION_BURNING;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "SAND:1:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:SAND:6"
+ },
+ {
+  "id": "alchemy:venomous:poisonous_potato",
+  "type": "OTHER",
+  "result": "POTION_VENOMOUS;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "POISONOUS_POTATO:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:POTATO_ITEM:5"
+ },
+ {
+  "id": "alchemy:wounded:netherrack",
+  "type": "OTHER",
+  "result": "POTION_WOUNDED;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "NETHERRACK:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:NETHERRACK:2"
+ },
+ {
+  "id": "alchemy:cold_resistance:enchanted_glacite",
+  "type": "OTHER",
+  "result": "POTION_COLD_RESISTANCE;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_GLACITE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:GLACITE:2"
+ },
+ {
+  "id": "alchemy:poison:spider_eye",
+  "type": "OTHER",
+  "result": "POTION_POISON;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "SPIDER_EYE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:poison:enchanted_spider_eye",
+  "type": "OTHER",
+  "result": "POTION_POISON;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_SPIDER_EYE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:blindness:ink_sack",
+  "type": "OTHER",
+  "result": "POTION_BLINDNESS;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "INK_SACK:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:6"
+ },
+ {
+  "id": "alchemy:blindness:enchanted_ink_sack",
+  "type": "OTHER",
+  "result": "POTION_BLINDNESS;3",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_INK_SACK:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:6"
+ },
+ {
+  "id": "alchemy:weakness:fermented_spider_eye",
+  "type": "OTHER",
+  "result": "POTION_WEAKNESS;1",
+  "amount": 1,
+  "inputs": [
+   "POTION:1",
+   "FERMENTED_SPIDER_EYE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:weakness:enchanted_fermented_spider_eye",
+  "type": "OTHER",
+  "result": "POTION_WEAKNESS;3",
+  "amount": 1,
+  "inputs": [
+   "POTION:1",
+   "ENCHANTED_FERMENTED_SPIDER_EYE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:combat_xp_boost:enchanted_rotten_flesh",
+  "type": "OTHER",
+  "result": "POTION_COMBAT_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_ROTTEN_FLESH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:mining_xp_boost:enchanted_cobblestone",
+  "type": "OTHER",
+  "result": "POTION_MINING_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_COBBLESTONE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:foraging_xp_boost:enchanted_oak_log",
+  "type": "OTHER",
+  "result": "POTION_FORAGING_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_OAK_LOG:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:fishing_xp_boost:enchanted_raw_fish",
+  "type": "OTHER",
+  "result": "POTION_FISHING_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_RAW_FISH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:farming_xp_boost:enchanted_wheat",
+  "type": "OTHER",
+  "result": "POTION_FARMING_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:enchanting_xp_boost:enchanted_lapis_lazuli",
+  "type": "OTHER",
+  "result": "POTION_ENCHANTING_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_LAPIS_LAZULI:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:alchemy_xp_boost:enchanted_nether_stalk",
+  "type": "OTHER",
+  "result": "POTION_ALCHEMY_XP_BOOST;1",
+  "amount": 1,
+  "inputs": [
+   "POTION_AWKWARD:1",
+   "ENCHANTED_NETHER_STALK:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:sugar:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;1",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;3",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar_cane:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;5",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_SUGAR_CANE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:adrenaline:ink_sack:3:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;1",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "INK_SACK:3:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cocoa:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;3",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_COCOA:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cookie:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;5",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_COOKIE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:rabbit:rabbit:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;1",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:rabbit:enchanted_rabbit:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;3",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:agility:enchanted_cake:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_AGILITY;1",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "ENCHANTED_CAKE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RAW_CHICKEN:8"
+ },
+ {
+  "id": "alchemy:spirit:foul_flesh:cheap_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPIRIT;1",
+  "amount": 1,
+  "inputs": [
+   "CHEAP_COFFEE:1",
+   "FOUL_FLESH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:sugar:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;1",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;3",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar_cane:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;5",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_SUGAR_CANE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:adrenaline:ink_sack:3:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;1",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "INK_SACK:3:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cocoa:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;3",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_COCOA:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cookie:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;5",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_COOKIE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:rabbit:rabbit:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;1",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:rabbit:enchanted_rabbit:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;3",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:agility:enchanted_cake:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_AGILITY;1",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "ENCHANTED_CAKE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RAW_CHICKEN:8"
+ },
+ {
+  "id": "alchemy:spirit:foul_flesh:decent_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPIRIT;1",
+  "amount": 1,
+  "inputs": [
+   "DECENT_COFFEE:1",
+   "FOUL_FLESH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:sugar:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;1",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;3",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:speed:enchanted_sugar_cane:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPEED;5",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_SUGAR_CANE:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:adrenaline:ink_sack:3:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;1",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "INK_SACK:3:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cocoa:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;3",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_COCOA:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:adrenaline:enchanted_cookie:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_ADRENALINE;5",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_COOKIE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:3:7"
+ },
+ {
+  "id": "alchemy:rabbit:rabbit:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;1",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:rabbit:enchanted_rabbit:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_RABBIT;3",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_RABBIT:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "alchemy:agility:enchanted_cake:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_AGILITY;1",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "ENCHANTED_CAKE:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:RAW_CHICKEN:8"
+ },
+ {
+  "id": "alchemy:spirit:foul_flesh:black_coffee",
+  "type": "OTHER",
+  "result": "POTION_SPIRIT;1",
+  "amount": 1,
+  "inputs": [
+   "BLACK_COFFEE:1",
+   "FOUL_FLESH:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:resistance:cactus:tepid_green_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;1",
+  "amount": 1,
+  "inputs": [
+   "TEPID_GREEN_TEA:1",
+   "CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus_green:tepid_green_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;3",
+  "amount": 1,
+  "inputs": [
+   "TEPID_GREEN_TEA:1",
+   "ENCHANTED_CACTUS_GREEN:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus:tepid_green_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;5",
+  "amount": 1,
+  "inputs": [
+   "TEPID_GREEN_TEA:1",
+   "ENCHANTED_CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:healing:speckled_melon:pulpous_orange_juice",
+  "type": "OTHER",
+  "result": "POTION_HEALING;1",
+  "amount": 1,
+  "inputs": [
+   "PULPOUS_ORANGE_JUICE:1",
+   "SPECKLED_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:healing:enchanted_melon:pulpous_orange_juice",
+  "type": "OTHER",
+  "result": "POTION_HEALING;3",
+  "amount": 1,
+  "inputs": [
+   "PULPOUS_ORANGE_JUICE:1",
+   "ENCHANTED_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:healing:enchanted_glistering_melon:pulpous_orange_juice",
+  "type": "OTHER",
+  "result": "POTION_HEALING;5",
+  "amount": 1,
+  "inputs": [
+   "PULPOUS_ORANGE_JUICE:1",
+   "ENCHANTED_GLISTERING_MELON:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:mana:mutton:bitter_ice_tea",
+  "type": "OTHER",
+  "result": "POTION_MANA;1",
+  "amount": 1,
+  "inputs": [
+   "BITTER_ICE_TEA:1",
+   "MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:mana:enchanted_mutton:bitter_ice_tea",
+  "type": "OTHER",
+  "result": "POTION_MANA;3",
+  "amount": 1,
+  "inputs": [
+   "BITTER_ICE_TEA:1",
+   "ENCHANTED_MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:mana:enchanted_cooked_mutton:bitter_ice_tea",
+  "type": "OTHER",
+  "result": "POTION_MANA;5",
+  "amount": 1,
+  "inputs": [
+   "BITTER_ICE_TEA:1",
+   "ENCHANTED_COOKED_MUTTON:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:MUTTON:4"
+ },
+ {
+  "id": "alchemy:experience:ink_sack:4:bitter_ice_tea",
+  "type": "OTHER",
+  "result": "POTION_EXPERIENCE;1",
+  "amount": 1,
+  "inputs": [
+   "BITTER_ICE_TEA:1",
+   "INK_SACK:4:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:INK_SACK:4:6"
+ },
+ {
+  "id": "alchemy:strength:blaze_powder:knockoff_cola",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;1",
+  "amount": 1,
+  "inputs": [
+   "KNOCKOFF_COLA:1",
+   "BLAZE_POWDER:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:strength:enchanted_blaze_powder:knockoff_cola",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;3",
+  "amount": 1,
+  "inputs": [
+   "KNOCKOFF_COLA:1",
+   "ENCHANTED_BLAZE_POWDER:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:strength:enchanted_blaze_rod:knockoff_cola",
+  "type": "OTHER",
+  "result": "POTION_STRENGTH;5",
+  "amount": 1,
+  "inputs": [
+   "KNOCKOFF_COLA:1",
+   "ENCHANTED_BLAZE_ROD:1"
+  ],
+  "station": "Brewing Stand"
+ },
+ {
+  "id": "alchemy:wounded:netherrack:scarleton_premium",
+  "type": "OTHER",
+  "result": "POTION_WOUNDED;1",
+  "amount": 1,
+  "inputs": [
+   "SCARLETON_PREMIUM:1",
+   "NETHERRACK:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:NETHERRACK:2"
+ },
+ {
+  "id": "alchemy:resistance:cactus:red_thornleaf_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;1",
+  "amount": 1,
+  "inputs": [
+   "RED_THORNLEAF_TEA:1",
+   "CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus_green:red_thornleaf_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;3",
+  "amount": 1,
+  "inputs": [
+   "RED_THORNLEAF_TEA:1",
+   "ENCHANTED_CACTUS_GREEN:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ },
+ {
+  "id": "alchemy:resistance:enchanted_cactus:red_thornleaf_tea",
+  "type": "OTHER",
+  "result": "POTION_RESISTANCE;5",
+  "amount": 1,
+  "inputs": [
+   "RED_THORNLEAF_TEA:1",
+   "ENCHANTED_CACTUS:1"
+  ],
+  "station": "Brewing Stand",
+  "unlock": "collection:CACTUS:3"
+ }
+]

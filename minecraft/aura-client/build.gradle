@@ -1,0 +1,75 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+base {
+    archivesName = 'auracapes'
+}
+
+// One source tree, several Minecraft versions. Build another one with
+//   gradlew build -Pminecraft_version=26.1.2 -Pfabric_api_version=0.155.3+26.1.2
+// The MC version goes into the jar name (auracapes-1.0.0+mc26.2.jar) so a jar
+// built for one version can never be mistaken for the other.
+version = "${project.version}+mc${project.minecraft_version}"
+
+repositories {
+    mavenCentral()
+}
+
+// The few calls that differ between 26.1.x and 26.2 (where setScreen lives,
+// what type the GUI skin renderer takes) live in a per-version source folder
+// with identical class names, so everything else compiles unchanged for both.
+def compatDir = project.minecraft_version.startsWith("26.1") ? "mc26_1" : "mc26_2"
+sourceSets.main.java.srcDir "src/${compatDir}/java"
+
+loom {
+    // NOTE: splitEnvironmentSourceSets() is deliberately NOT called.
+    // This mod is client-only and its one mixin targets a client class, so a
+    // split would put that class out of reach of the main source set for no
+    // gain. fabric.mod.json declares the client entrypoint instead.
+    runs {
+        client {
+            runDir = "run/client"
+            programArgs("--username", project.dev_username)
+        }
+    }
+}
+
+dependencies {
+    // No `mappings` line. See gradle.properties before you "fix" this.
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    // Unit tests for the pure /mods dependency rules (com.auracapes.mods.ModPlan).
+    testImplementation "org.junit.jupiter:junit-jupiter:5.11.4"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher:1.11.4"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "failed"
+        exceptionFormat "full"
+    }
+}
+
+java {
+    withSourcesJar()
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(project.java_version as int)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = project.java_version as int
+    it.options.encoding = 'UTF-8'
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version, "minecraft_version": project.minecraft_version
+    }
+}

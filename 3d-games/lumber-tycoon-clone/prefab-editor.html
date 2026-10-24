@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prefab editor — Lumber Tycoon Clone</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; background: #12141a; color: #e8eaed; }
+    #pe-ui {
+      position: fixed;
+      left: 12px;
+      top: 12px;
+      z-index: 10;
+      width: min(360px, 94vw);
+      max-height: calc(100vh - 24px);
+      max-height: calc(100dvh - 24px);
+      padding: 14px 16px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+      background: rgba(18, 20, 26, 0.94);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    #pe-ui::-webkit-scrollbar {
+      width: 8px;
+    }
+    #pe-ui::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.18);
+      border-radius: 4px;
+    }
+    #pe-ui::-webkit-scrollbar-track {
+      background: rgba(0,0,0,0.2);
+      border-radius: 4px;
+    }
+    #pe-ui h1 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
+    #pe-ui p { margin: 0 0 10px; font-size: 12px; opacity: 0.9; }
+    #pe-ui label { display: block; margin-bottom: 6px; font-size: 12px; }
+    #pe-kind, #pe-parts, #pe-new-name, #pe-new-type, #pe-mat-color, #pe-tex-preset {
+      width: 100%;
+      margin-bottom: 8px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: #11151c;
+      color: #eee;
+      font-size: 13px;
+      font-family: inherit;
+    }
+    #pe-mat-color { padding: 4px 6px; height: 32px; }
+    #pe-global-scale { width: 100%; }
+    .pe-row { display: flex; gap: 8px; align-items: center; margin: 6px 0 10px; flex-wrap: wrap; }
+    .pe-row > * { flex: 1; }
+    .pe-row .pe-small { flex: 0 0 auto; }
+    .pe-section {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.10);
+    }
+    .pe-mini { font-size: 11px; opacity: 0.9; }
+    .pe-actions-2 { display: flex; gap: 6px; flex-wrap: wrap; }
+    .pe-actions-2 button {
+      padding: 7px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: pointer;
+      font-size: 12px;
+      font-family: inherit;
+      background: #2a3038;
+      color: #e8eaed;
+    }
+    .pe-actions-2 button:hover { filter: brightness(1.08); }
+    #pe-shape-quick-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 8px;
+    }
+    #pe-shape-quick-wrap button {
+      padding: 5px 7px;
+      font-size: 11px;
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: #232830;
+      color: #e8eaed;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    #pe-shape-quick-wrap button:hover { filter: brightness(1.12); }
+    #pe-gizmo-modes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      margin: 8px 0 10px;
+      font-size: 12px;
+    }
+    #pe-gizmo-modes label { display: inline-flex; align-items: center; gap: 4px; margin: 0; cursor: pointer; }
+    #pe-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    #pe-actions button, #pe-actions label.pe-file {
+      padding: 7px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: pointer;
+      font-size: 12px;
+      font-family: inherit;
+      background: #2a3038;
+      color: #e8eaed;
+    }
+    #pe-actions button:hover, #pe-actions label.pe-file:hover { filter: brightness(1.08); }
+    #pe-actions button.pe-primary { background: #2d6a4f; border-color: rgba(120, 200, 150, 0.35); }
+    #pe-actions button.pe-danger { background: #5a3030; }
+    #pe-actions label.pe-file { display: inline-block; margin: 0; }
+    #pe-import { display: none; }
+    #pe-status {
+      font-size: 12px;
+      color: #d4e8ff;
+      line-height: 1.45;
+      min-height: 3em;
+      padding: 8px 10px;
+      margin-top: 8px;
+      background: rgba(0, 40, 80, 0.35);
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      border-radius: 8px;
+    }
+    #pe-status code { font-size: 10px; background: rgba(0,0,0,0.35); padding: 1px 4px; border-radius: 4px; }
+    #pe-debug-hint {
+      font-size: 11px;
+      color: #aaccee;
+      margin-top: 6px;
+      opacity: 0.95;
+    }
+    #pe-canvas-wrap {
+      position: fixed;
+      inset: 0;
+    }
+    a.back { color: #8cf; font-size: 12px; }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="pe-ui">
+    <h1>Prefab editor</h1>
+    <p>
+      Click a part to select it, then use the gizmo to move, rotate, or scale.
+      <strong>Curve bend (cylinder)</strong> below bakes a smooth bend into multiple cylinder pieces (good for <code>axe</code> handles).
+      Saves to <code>LT2_PrefabEdits</code>. Use <strong>Tree (default wood)</strong>, <strong>Tree (Spook wood)</strong>, and <strong>Tree (void / purple neon)</strong> in the kind list for separate previews (void trees in the game use the <code>treeVoid</code> mesh when saved, otherwise they fall back to <code>tree</code>). <strong>Plank (classic wood)</strong> and <strong>Plank (Spook / neon)</strong> match simple-sawmill plank looks for reference (the game still builds planks procedurally when you cut logs). The game reads <strong>conveyor</strong>, <strong>shelf</strong>, and <strong>simple sawmill</strong> (<code>sawmill</code> prefab key) when those prefabs are saved. <strong>Starter axe (first-person)</strong> (<code>axe</code>): with no saved JSON for this kind, the editor loads <code>models/files/axe.obj</code> + the PNG next to it (no MTL required). The main game uses the same OBJ for the held axe. Use <strong>＋ New prefab…</strong> for a custom prefab key.
+    </p>
+    <label for="pe-kind">Prefab kind</label>
+    <select id="pe-kind" aria-label="Prefab kind"></select>
+    <label for="pe-parts">Selected part</label>
+    <select id="pe-parts" aria-label="Part name"></select>
+
+    <div class="pe-section" aria-label="Global scale">
+      <div class="pe-mini"><strong>Whole prefab scale</strong> (baked into parts on save / download)</div>
+      <div class="pe-row">
+        <input type="range" id="pe-global-scale" min="0.25" max="3.00" step="0.01" value="1.00" />
+        <span class="pe-small pe-mini" style="min-width:84px;text-align:right;"><span id="pe-global-scale-val">1.00</span>x</span>
+      </div>
+    </div>
+
+    <div class="pe-section" id="pe-conveyor-belt-section" style="display:none;" aria-label="Conveyor belt speed">
+      <div class="pe-mini"><strong>Belt speed</strong> — multiplier on in-game push along the belt (saved with this prefab; reload map / restart game to apply).</div>
+      <label for="pe-conveyor-belt-mul">Strength: <span id="pe-conveyor-belt-mul-val">1.00</span>×</label>
+      <input type="range" id="pe-conveyor-belt-mul" min="0.25" max="4" step="0.05" value="1" />
+    </div>
+
+    <div class="pe-section" id="pe-sawmill-zone-section" style="display:none;" aria-label="Simple sawmill plank convert zone">
+      <div class="pe-mini"><strong>Plank convert zone</strong> — cyan box: axis-aligned volume in <strong>sawmill local space</strong> where the <strong>whole</strong> log (including length) must fit to convert (+X = front). Not exported as mesh; saved on <strong>Save</strong>. Invisible in-game. If long logs never cut, widen <strong>X min / X max</strong> or click <strong>Reset</strong> for the new wider defaults.</div>
+      <label for="pe-saw-zone-xmin">X min (back … front): <span id="pe-saw-zone-xmin-val">0</span></label>
+      <input type="range" id="pe-saw-zone-xmin" min="-4.5" max="1.5" step="0.02" />
+      <label for="pe-saw-zone-xmax">X max: <span id="pe-saw-zone-xmax-val">0</span></label>
+      <input type="range" id="pe-saw-zone-xmax" min="-1.5" max="4.5" step="0.02" />
+      <label for="pe-saw-zone-halfz">Half-width Z: <span id="pe-saw-zone-halfz-val">0</span></label>
+      <input type="range" id="pe-saw-zone-halfz" min="0.12" max="1.8" step="0.01" />
+      <label for="pe-saw-zone-centery">Center Y: <span id="pe-saw-zone-centery-val">0</span></label>
+      <input type="range" id="pe-saw-zone-centery" min="-0.2" max="1.8" step="0.01" />
+      <label for="pe-saw-zone-halfy">Half-height Y: <span id="pe-saw-zone-halfy-val">0</span></label>
+      <input type="range" id="pe-saw-zone-halfy" min="0.08" max="1.4" step="0.01" />
+      <div class="pe-actions-2" style="margin-top:8px;">
+        <button type="button" id="pe-saw-zone-reset">Reset zone to defaults</button>
+      </div>
+    </div>
+
+    <div class="pe-section" id="pe-tree-branch-section" style="display:none;" aria-label="Procedural tree crown">
+      <div class="pe-mini"><strong>Crown</strong> — thick columns grow from the <strong>top</strong> of the main trunk (not separate mesh parts). <strong>Min / max</strong> = how many columns (2–6). <strong>Twigs</strong> = small side branches per column. Preview seed saved on <strong>Save</strong>; in-game layout uses map position.</div>
+      <label style="display:flex;align-items:center;gap:8px;margin-top:8px;">
+        <input type="checkbox" id="pe-tree-branch-enabled" checked />
+        Enable crown
+      </label>
+      <label for="pe-tree-branch-min">Min crown columns</label>
+      <input type="number" id="pe-tree-branch-min" min="2" max="6" step="1" value="2" />
+      <label for="pe-tree-branch-max">Max crown columns</label>
+      <input type="number" id="pe-tree-branch-max" min="2" max="6" step="1" value="4" />
+      <label for="pe-tree-branch-segments">Small twigs per column: <span id="pe-tree-branch-segments-val">3</span></label>
+      <input type="range" id="pe-tree-branch-segments" min="2" max="6" step="1" value="3" />
+      <div class="pe-actions-2" style="margin-top:8px;">
+        <button type="button" id="pe-tree-branch-random">Random crown</button>
+      </div>
+    </div>
+
+    <div class="pe-section" aria-label="Neon tree">
+      <div class="pe-mini"><strong>Spook wood glow</strong> — neon color + emissive + selective bloom in the game (saved to <code>LT2_NeonTreeSettings</code>). Prefab preview bloom applies on kind <strong>Plank (Spook / neon)</strong>.</div>
+      <label for="pe-neon-color">Neon color</label>
+      <input type="color" id="pe-neon-color" value="#ff9933" />
+      <label for="pe-neon-intensity">Glow intensity: <span id="pe-neon-intensity-val">5.2</span></label>
+      <input type="range" id="pe-neon-intensity" min="0.5" max="12" step="0.1" value="5.2" />
+    </div>
+
+    <div class="pe-section" id="pe-cyl-bend-section" aria-label="Cylinder curve bend">
+      <div class="pe-mini"><strong>Curve bend (cylinder)</strong> — select a <strong>cylinder</strong> part, set angle + segments, then bake. Replaces it with several shorter cylinders along a Catmull–Rom spline (still normal prefab JSON).</div>
+      <label for="pe-bend-deg">Total bend (°): <span id="pe-bend-deg-val">32</span></label>
+      <input type="range" id="pe-bend-deg" min="0" max="130" step="1" value="32" />
+      <label for="pe-bend-seg">Segments: <span id="pe-bend-seg-val">10</span></label>
+      <input type="range" id="pe-bend-seg" min="4" max="22" step="1" value="10" />
+      <div class="pe-actions-2" style="margin-top:8px;">
+        <button type="button" id="pe-bend-apply">Bake bend on selected cylinder</button>
+      </div>
+      <p class="pe-mini" style="margin-top:8px;line-height:1.35;">Bend is <strong>baked</strong> into more primitives (not a live Blender-style modifier).</p>
+    </div>
+
+    <div class="pe-section" aria-label="Material">
+      <div class="pe-mini"><strong>Material</strong> (selected part)</div>
+      <label for="pe-mat-color">Color</label>
+      <input type="color" id="pe-mat-color" value="#888888" />
+      <div class="pe-actions-2">
+        <button type="button" id="pe-mat-apply">Apply to selected</button>
+        <button type="button" id="pe-mat-apply-all">Apply to all parts</button>
+      </div>
+    </div>
+
+    <div class="pe-section" aria-label="Textures">
+      <div class="pe-mini"><strong>Textures</strong> (selected part — color map)</div>
+      <label for="pe-tex-preset">Preset library</label>
+      <select id="pe-tex-preset">
+        <option value="">— Choose a preset —</option>
+      </select>
+      <div class="pe-actions-2" style="margin-top:6px;">
+        <button type="button" id="pe-tex-preset-apply">Apply preset</button>
+      </div>
+      <label for="pe-tex-file" style="margin-top:10px;">Your image (optional)</label>
+      <input type="file" id="pe-tex-file" accept="image/*" />
+      <div class="pe-actions-2" style="margin-top:8px;">
+        <button type="button" id="pe-tex-apply">Apply image as map</button>
+        <button type="button" id="pe-tex-clear">Clear map</button>
+      </div>
+      <p class="pe-mini" id="pe-tex-hint" style="margin-top:8px;line-height:1.35;">No selection.</p>
+    </div>
+
+    <div class="pe-section" aria-label="Create new part">
+      <div class="pe-mini"><strong>Create new part</strong></div>
+      <label for="pe-new-name">Name</label>
+      <input id="pe-new-name" placeholder="e.g. rail_mid" />
+      <label for="pe-new-type">Primitive</label>
+      <select id="pe-new-type">
+        <optgroup label="Basics">
+          <option value="box">Box</option>
+          <option value="rounded_box">Smoothed box (rounded edges)</option>
+          <option value="plane">Plane (flat quad)</option>
+          <option value="circle">Circle (filled disk)</option>
+          <option value="ring">Ring (washer)</option>
+        </optgroup>
+        <optgroup label="Round / tubes">
+          <option value="sphere">Sphere</option>
+          <option value="cylinder">Cylinder</option>
+          <option value="cone">Cone</option>
+          <option value="capsule">Capsule</option>
+          <option value="torus">Torus (donut)</option>
+          <option value="torus_knot">Torus knot</option>
+        </optgroup>
+        <optgroup label="Crystals / polyhedra">
+          <option value="tetrahedron">Tetrahedron (4 faces)</option>
+          <option value="octahedron">Octahedron</option>
+          <option value="dodecahedron">Dodecahedron</option>
+          <option value="icosahedron">Icosahedron</option>
+        </optgroup>
+      </select>
+      <div class="pe-actions-2">
+        <button type="button" id="pe-new-add">Add part</button>
+        <button type="button" id="pe-delete">Delete selected</button>
+      </div>
+      <div class="pe-mini" style="margin-top:10px;"><strong>Quick add</strong> (uses name field + color above)</div>
+      <div id="pe-shape-quick-wrap" aria-label="Quick shape buttons">
+        <button type="button" data-pe-shape="box">Box</button>
+        <button type="button" data-pe-shape="rounded_box" title="Box with blended corners">Smooth box</button>
+        <button type="button" data-pe-shape="plane">Plane</button>
+        <button type="button" data-pe-shape="circle">Circle</button>
+        <button type="button" data-pe-shape="ring">Ring</button>
+        <button type="button" data-pe-shape="sphere">Sphere</button>
+        <button type="button" data-pe-shape="cylinder">Cylinder</button>
+        <button type="button" data-pe-shape="cone">Cone</button>
+        <button type="button" data-pe-shape="capsule">Capsule</button>
+        <button type="button" data-pe-shape="torus">Torus</button>
+        <button type="button" data-pe-shape="torus_knot">Knot</button>
+        <button type="button" data-pe-shape="tetrahedron">Tet</button>
+        <button type="button" data-pe-shape="octahedron">Oct</button>
+        <button type="button" data-pe-shape="dodecahedron">Dod</button>
+        <button type="button" data-pe-shape="icosahedron">Ico</button>
+      </div>
+      <div class="pe-mini" style="margin-top:6px;opacity:0.85;">Tip: select a part then Ctrl+C / Ctrl+V to duplicate it. Planes/rings lie flat (XY); rotate as needed.</div>
+      <p class="pe-mini" style="margin-top:8px;line-height:1.35;opacity:0.88;"><strong>Smoothed box</strong> is a rectangular solid with softly blended edges (like a worn handle). Use <strong>Scale</strong> on the gizmo to change width/height/depth; use a <strong>texture preset</strong> for wood grain.</p>
+    </div>
+    <div id="pe-gizmo-modes">
+      <span style="opacity:0.85;">Gizmo:</span>
+      <label><input type="radio" name="pe-gizmo" id="pe-mode-translate" checked /> Move</label>
+      <label><input type="radio" name="pe-gizmo" id="pe-mode-select" /> Select</label>
+      <label><input type="radio" name="pe-gizmo" id="pe-mode-rotate" /> Rotate</label>
+      <label><input type="radio" name="pe-gizmo" id="pe-mode-scale" /> Scale</label>
+    </div>
+    <div id="pe-actions">
+      <button type="button" class="pe-primary" id="pe-save">Save</button>
+      <button type="button" id="pe-download">Download JSON</button>
+      <label class="pe-file" for="pe-import">Import JSON</label>
+      <input type="file" id="pe-import" accept=".json,application/json" />
+      <button type="button" class="pe-danger" id="pe-delete-prefab">Delete prefab</button>
+      <button type="button" id="pe-reset">Reset kind</button>
+    </div>
+    <div class="pe-mini" style="margin-top:8px;opacity:0.9;"><strong>Status</strong> (below) — same messages go to <strong>Debug log</strong> (bottom-right button).</div>
+    <div id="pe-status"></div>
+    <p id="pe-debug-hint">No status yet? Click <strong>Debug log</strong> bottom-right — it mirrors the browser console (F12).</p>
+    <p style="margin:10px 0 0;"><a class="back" href="./index.html">← Back to game</a>
+      · <a class="back" href="./map-editor.html">Map editor</a></p>
+  </div>
+  <div id="pe-canvas-wrap"></div>
+  <script type="module" src="./prefab-editor.js"></script>
+</body>
+</html>

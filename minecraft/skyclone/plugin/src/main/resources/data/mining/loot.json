@@ -1,0 +1,1590 @@
+{
+ "treasure_chest": {
+  "powder": [
+   200,
+   1000
+  ],
+  "rolls": [
+   3,
+   6
+  ],
+  "table": [
+   {
+    "item": "ZONE_GEM_ROUGH",
+    "min": 20,
+    "max": 60,
+    "weight": 40
+   },
+   {
+    "item": "ZONE_GEM_FLAWED",
+    "min": 1,
+    "max": 4,
+    "weight": 20
+   },
+   {
+    "item": "ZONE_GEM_FINE",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   },
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 3,
+    "weight": 10,
+    "zoneGem": "AMBER"
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 2,
+    "weight": 6,
+    "zoneGem": "AMBER"
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "weight": 3,
+    "zoneGem": "AMBER"
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "weight": 2,
+    "zoneGem": "AMBER"
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "AMBER"
+   },
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 2,
+    "max": 6,
+    "weight": 8,
+    "zoneGem": "AMETHYST"
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 3,
+    "weight": 6,
+    "zoneGem": "JADE"
+   },
+   {
+    "item": "WISHING_COMPASS",
+    "min": 1,
+    "max": 1,
+    "weight": 5
+   },
+   {
+    "item": "OIL_BARREL",
+    "min": 1,
+    "max": 1,
+    "weight": 4
+   },
+   {
+    "item": "ASCENSION_ROPE",
+    "min": 1,
+    "max": 1,
+    "weight": 3
+   },
+   {
+    "item": "YOGGIE",
+    "min": 1,
+    "max": 3,
+    "weight": 4,
+    "zoneGem": "TOPAZ"
+   },
+   {
+    "item": "BOB_OMB",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   },
+   {
+    "item": "CONTROL_SWITCH",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "ELECTRON_TRANSMITTER",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "FTX_3070",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "ROBOTRON_REFLECTOR",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "SUPERLITE_MOTOR",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "SYNTHETIC_HEART",
+    "min": 1,
+    "max": 1,
+    "weight": 1,
+    "zoneGem": "SAPPHIRE"
+   },
+   {
+    "item": "JUNGLE_HEART",
+    "min": 1,
+    "max": 1,
+    "weight": 0.3,
+    "zoneGem": "AMETHYST"
+   },
+   {
+    "item": "PICKONIMBUS",
+    "min": 1,
+    "max": 1,
+    "weight": 0.5
+   },
+   {
+    "item": "PREHISTORIC_EGG",
+    "min": 1,
+    "max": 1,
+    "weight": 0.3
+   },
+   {
+    "item": "ZONE_CRYSTAL",
+    "min": 1,
+    "max": 1,
+    "weight": 0.2
+   }
+  ]
+ },
+ "nucleus": {
+  "powder": [
+   2500,
+   5000
+  ],
+  "miningXp": 20000,
+  "hotmXp": 800,
+  "always": [
+   {
+    "item": "FINE_AMETHYST_GEM",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "item": "FINE_JADE_GEM",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "item": "FINE_SAPPHIRE_GEM",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "item": "FINE_AMBER_GEM",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "item": "FINE_TOPAZ_GEM",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": [
+   14,
+   19
+  ],
+  "table": [
+   {
+    "item": "DIVAN_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "weight": 7058
+   },
+   {
+    "item": "JADERALD",
+    "min": 1,
+    "max": 1,
+    "weight": 1489
+   },
+   {
+    "item": "GEMSTONE_MIXTURE",
+    "min": 1,
+    "max": 1,
+    "weight": 701
+   },
+   {
+    "item": "DIVAN_ALLOY",
+    "min": 1,
+    "max": 1,
+    "weight": 17
+   },
+   {
+    "item": "CONTROL_SWITCH",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "ELECTRON_TRANSMITTER",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "FTX_3070",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "ROBOTRON_REFLECTOR",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "SUPERLITE_MOTOR",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "SYNTHETIC_HEART",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "TREASURITE",
+    "min": 1,
+    "max": 3,
+    "weight": 29794.7
+   },
+   {
+    "item": "GOBLIN_EGG",
+    "min": 1,
+    "max": 3,
+    "weight": 17876.82
+   },
+   {
+    "item": "GOBLIN_EGG_GREEN",
+    "min": 1,
+    "max": 2,
+    "weight": 8938.41
+   },
+   {
+    "item": "GOBLIN_EGG_RED",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "GOBLIN_EGG_YELLOW",
+    "min": 1,
+    "max": 1,
+    "weight": 5958.94
+   },
+   {
+    "item": "GOBLIN_EGG_BLUE",
+    "min": 1,
+    "max": 1,
+    "weight": 2979.47
+   },
+   {
+    "item": "SLUDGE_JUICE",
+    "min": 2,
+    "max": 6,
+    "weight": 23835.76
+   },
+   {
+    "item": "YOGGIE",
+    "min": 1,
+    "max": 3,
+    "weight": 17876.82
+   },
+   {
+    "item": "WISHING_COMPASS",
+    "min": 1,
+    "max": 1,
+    "weight": 23835.76
+   },
+   {
+    "item": "OIL_BARREL",
+    "min": 1,
+    "max": 1,
+    "weight": 17876.82
+   },
+   {
+    "item": "ASCENSION_ROPE",
+    "min": 1,
+    "max": 1,
+    "weight": 17876.82
+   },
+   {
+    "item": "BOB_OMB",
+    "min": 1,
+    "max": 1,
+    "weight": 11917.88
+   },
+   {
+    "item": "JUNGLE_HEART",
+    "min": 1,
+    "max": 1,
+    "weight": 2979.47
+   },
+   {
+    "item": "PICKONIMBUS",
+    "min": 1,
+    "max": 1,
+    "weight": 4469.2
+   },
+   {
+    "item": "PREHISTORIC_EGG",
+    "min": 1,
+    "max": 1,
+    "weight": 2979.47
+   },
+   {
+    "item": "ZONE_GEM_FLAWED",
+    "min": 1,
+    "max": 4,
+    "weight": 67038.07
+   }
+  ]
+ },
+ "corpse": {
+  "lapis": {
+   "key": null,
+   "powder": [
+    500,
+    500
+   ],
+   "rolls": [
+    3,
+    6
+   ],
+   "table": [
+    {
+     "item": "FLAWED_ONYX_GEM",
+     "min": 20,
+     "max": 20,
+     "weight": 5.97
+    },
+    {
+     "item": "FLAWED_ONYX_GEM",
+     "min": 40,
+     "max": 40,
+     "weight": 5.97
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 1.49
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 0.74
+    },
+    {
+     "item": "FLAWED_PERIDOT_GEM",
+     "min": 20,
+     "max": 20,
+     "weight": 5.97
+    },
+    {
+     "item": "FLAWED_PERIDOT_GEM",
+     "min": 40,
+     "max": 40,
+     "weight": 5.97
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 1.49
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 0.74
+    },
+    {
+     "item": "FLAWED_CITRINE_GEM",
+     "min": 20,
+     "max": 20,
+     "weight": 5.97
+    },
+    {
+     "item": "FLAWED_CITRINE_GEM",
+     "min": 40,
+     "max": 40,
+     "weight": 5.97
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 1.49
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 0.74
+    },
+    {
+     "item": "FLAWED_AQUAMARINE_GEM",
+     "min": 20,
+     "max": 20,
+     "weight": 5.97
+    },
+    {
+     "item": "FLAWED_AQUAMARINE_GEM",
+     "min": 40,
+     "max": 40,
+     "weight": 5.97
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 1.49
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 0.74
+    },
+    {
+     "item": "ENCHANTED_UMBER",
+     "min": 1,
+     "max": 1,
+     "weight": 2.98
+    },
+    {
+     "item": "ENCHANTED_UMBER",
+     "min": 2,
+     "max": 2,
+     "weight": 1.49
+    },
+    {
+     "item": "ENCHANTED_UMBER",
+     "min": 4,
+     "max": 4,
+     "weight": 0.74
+    },
+    {
+     "item": "REFINED_UMBER",
+     "min": 1,
+     "max": 1,
+     "weight": 0.14
+    },
+    {
+     "item": "ENCHANTED_TUNGSTEN",
+     "min": 1,
+     "max": 1,
+     "weight": 2.98
+    },
+    {
+     "item": "ENCHANTED_TUNGSTEN",
+     "min": 2,
+     "max": 2,
+     "weight": 1.49
+    },
+    {
+     "item": "ENCHANTED_TUNGSTEN",
+     "min": 4,
+     "max": 4,
+     "weight": 0.74
+    },
+    {
+     "item": "REFINED_TUNGSTEN",
+     "min": 1,
+     "max": 1,
+     "weight": 0.14
+    },
+    {
+     "item": "ENCHANTED_GLACITE",
+     "min": 1,
+     "max": 1,
+     "weight": 2.98
+    },
+    {
+     "item": "ENCHANTED_GLACITE",
+     "min": 2,
+     "max": 2,
+     "weight": 1.49
+    },
+    {
+     "item": "ENCHANTED_GLACITE",
+     "min": 4,
+     "max": 4,
+     "weight": 0.74
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 1,
+     "max": 1,
+     "weight": 0.14
+    },
+    {
+     "item": "GLACITE_JEWEL",
+     "min": 1,
+     "max": 1,
+     "weight": 2.98
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 1,
+     "max": 1,
+     "weight": 2.98
+    },
+    {
+     "item": "GOBLIN_EGG",
+     "min": 1,
+     "max": 1,
+     "weight": 4.77
+    },
+    {
+     "item": "GOBLIN_EGG",
+     "min": 2,
+     "max": 2,
+     "weight": 2.38
+    },
+    {
+     "item": "GOBLIN_EGG",
+     "min": 4,
+     "max": 4,
+     "weight": 1.19
+    },
+    {
+     "item": "GOBLIN_EGG_GREEN",
+     "min": 1,
+     "max": 1,
+     "weight": 4.17
+    },
+    {
+     "item": "GOBLIN_EGG_GREEN",
+     "min": 2,
+     "max": 2,
+     "weight": 2.08
+    },
+    {
+     "item": "GOBLIN_EGG_GREEN",
+     "min": 1,
+     "max": 1,
+     "weight": 1.04
+    },
+    {
+     "item": "GOBLIN_EGG_YELLOW",
+     "min": 1,
+     "max": 1,
+     "weight": 4.17
+    },
+    {
+     "item": "GOBLIN_EGG_YELLOW",
+     "min": 2,
+     "max": 2,
+     "weight": 2.08
+    },
+    {
+     "item": "GOBLIN_EGG_YELLOW",
+     "min": 4,
+     "max": 4,
+     "weight": 1.04
+    },
+    {
+     "item": "GOBLIN_EGG_RED",
+     "min": 1,
+     "max": 1,
+     "weight": 4.17
+    },
+    {
+     "item": "GOBLIN_EGG_RED",
+     "min": 2,
+     "max": 2,
+     "weight": 2.08
+    },
+    {
+     "item": "GOBLIN_EGG_RED",
+     "min": 4,
+     "max": 4,
+     "weight": 1.04
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.14
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.14
+    },
+    {
+     "item": "BEJEWELED_HANDLE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.59
+    },
+    {
+     "item": "BEJEWELED_HANDLE",
+     "min": 2,
+     "max": 2,
+     "weight": 0.29
+    },
+    {
+     "item": "BEJEWELED_HANDLE",
+     "min": 4,
+     "max": 4,
+     "weight": 0.14
+    }
+   ],
+   "hotmXp": 100
+  },
+  "umber": {
+   "key": "UMBER_KEY",
+   "powder": [
+    5000,
+    5000
+   ],
+   "rolls": [
+    4,
+    7
+   ],
+   "table": [
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_ONYX_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_PERIDOT_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_CITRINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_AQUAMARINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 2,
+     "max": 2,
+     "weight": 10.7
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 4,
+     "max": 4,
+     "weight": 5.35
+    },
+    {
+     "item": "GOBLIN_EGG_BLUE",
+     "min": 1,
+     "max": 1,
+     "weight": 1.22
+    },
+    {
+     "item": "REFINED_UMBER",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "UMBER_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.07
+    },
+    {
+     "item": "REFINED_TUNGSTEN",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "TUNGSTEN_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.07
+    },
+    {
+     "item": "MITHRIL_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "OPAL_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "ONYX_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "PERIDOT_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "AQUAMARINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "CITRINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "SKELETON_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.06
+    },
+    {
+     "item": "DWARVEN_OS_METALLIC_MINIS",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "ENCHANTMENT_ICE_COLD_1",
+     "min": 1,
+     "max": 1,
+     "weight": 1.22
+    },
+    {
+     "item": "FROZEN_SCUTE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.06
+    },
+    {
+     "item": "CAGED_WISP",
+     "min": 1,
+     "max": 1,
+     "weight": 0.03
+    }
+   ]
+  },
+  "tungsten": {
+   "key": "TUNGSTEN_KEY",
+   "powder": [
+    5000,
+    5000
+   ],
+   "rolls": [
+    4,
+    7
+   ],
+   "table": [
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_ONYX_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_ONYX_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_PERIDOT_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_PERIDOT_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_CITRINE_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_CITRINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 4,
+     "max": 4,
+     "weight": 10.7
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 8,
+     "max": 8,
+     "weight": 5.35
+    },
+    {
+     "item": "FINE_AQUAMARINE_GEM",
+     "min": 16,
+     "max": 16,
+     "weight": 2.67
+    },
+    {
+     "item": "FLAWLESS_AQUAMARINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 0.38
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 2,
+     "max": 2,
+     "weight": 10.7
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 4,
+     "max": 4,
+     "weight": 5.35
+    },
+    {
+     "item": "GOBLIN_EGG_BLUE",
+     "min": 1,
+     "max": 1,
+     "weight": 1.22
+    },
+    {
+     "item": "REFINED_UMBER",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "UMBER_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.07
+    },
+    {
+     "item": "REFINED_TUNGSTEN",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "TUNGSTEN_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.07
+    },
+    {
+     "item": "MITHRIL_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "OPAL_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "ONYX_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "PERIDOT_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "AQUAMARINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "CITRINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 0.61
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    },
+    {
+     "item": "SKELETON_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.06
+    },
+    {
+     "item": "DWARVEN_OS_METALLIC_MINIS",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "ENCHANTMENT_ICE_COLD_1",
+     "min": 1,
+     "max": 1,
+     "weight": 1.22
+    },
+    {
+     "item": "FROZEN_SCUTE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.06
+    },
+    {
+     "item": "CAGED_WISP",
+     "min": 1,
+     "max": 1,
+     "weight": 0.03
+    }
+   ]
+  },
+  "vanguard": {
+   "key": "SKELETON_KEY",
+   "powder": [
+    25000,
+    25000
+   ],
+   "rolls": [
+    5,
+    8
+   ],
+   "table": [
+    {
+     "item": "FLAWLESS_ONYX_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "FLAWLESS_ONYX_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "FLAWLESS_CITRINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "FLAWLESS_CITRINE_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "FLAWLESS_PERIDOT_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "FLAWLESS_PERIDOT_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "FLAWLESS_AQUAMARINE_GEM",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "FLAWLESS_AQUAMARINE_GEM",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 8,
+     "max": 8,
+     "weight": 4.88
+    },
+    {
+     "item": "SUSPICIOUS_SCRAP",
+     "min": 16,
+     "max": 16,
+     "weight": 2.44
+    },
+    {
+     "item": "GOBLIN_EGG_BLUE",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "GOBLIN_EGG_BLUE",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "REFINED_UMBER",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "REFINED_UMBER",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "UMBER_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.91
+    },
+    {
+     "item": "REFINED_TUNGSTEN",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "REFINED_TUNGSTEN",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "TUNGSTEN_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.91
+    },
+    {
+     "item": "MITHRIL_PLATE",
+     "min": 1,
+     "max": 1,
+     "weight": 1.83
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "GLACITE_AMALGAMATION",
+     "min": 4,
+     "max": 4,
+     "weight": 1.22
+    },
+    {
+     "item": "OPAL_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "ONYX_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "PERIDOT_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "AQUAMARINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "CITRINE_CRYSTAL",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "UMBER_KEY",
+     "min": 4,
+     "max": 4,
+     "weight": 1.22
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 2,
+     "max": 2,
+     "weight": 2.44
+    },
+    {
+     "item": "TUNGSTEN_KEY",
+     "min": 4,
+     "max": 4,
+     "weight": 1.22
+    },
+    {
+     "item": "SKELETON_KEY",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "DWARVEN_OS_METALLIC_MINIS",
+     "min": 1,
+     "max": 1,
+     "weight": 3.66
+    },
+    {
+     "item": "ENCHANTMENT_ICE_COLD_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4.88
+    },
+    {
+     "item": "FROZEN_SCUTE",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "CAGED_WISP",
+     "min": 1,
+     "max": 1,
+     "weight": 0.3
+    },
+    {
+     "item": "SHATTERED_PENDANT",
+     "min": 1,
+     "max": 1,
+     "weight": 0.15
+    }
+   ]
+  }
+ },
+ "goblins": {
+  "golden": {
+   "powder": [
+    800,
+    1500
+   ]
+  },
+  "diamond": {
+   "powder": [
+    2500,
+    5000
+   ]
+  }
+ },
+ "raffle": [
+  {
+   "item": "MITHRIL_POWDER",
+   "min": 1000,
+   "max": 5000,
+   "weight": 50
+  },
+  {
+   "item": "COINS",
+   "min": 10000,
+   "max": 50000,
+   "weight": 30
+  },
+  {
+   "item": "TREASURITE",
+   "min": 1,
+   "max": 3,
+   "weight": 10
+  },
+  {
+   "item": "GOBLIN_EGG_BLUE",
+   "min": 1,
+   "max": 1,
+   "weight": 3
+  },
+  {
+   "item": "DIVAN_FRAGMENT",
+   "min": 1,
+   "max": 1,
+   "weight": 1
+  }
+ ],
+ "fetchur": [
+  {
+   "item": "YELLOW_STAINED_GLASS",
+   "amount": 20
+  },
+  {
+   "item": "COMPASS",
+   "amount": 1
+  },
+  {
+   "item": "MITHRIL_ORE",
+   "amount": 20
+  },
+  {
+   "item": "FIREWORK_ROCKET",
+   "amount": 1
+  },
+  {
+   "item": "RED_WOOL",
+   "amount": 50
+  },
+  {
+   "item": "IRON_DOOR",
+   "amount": 1
+  },
+  {
+   "item": "RABBIT_FOOT",
+   "amount": 3
+  },
+  {
+   "item": "TNT",
+   "amount": 1
+  },
+  {
+   "item": "FLINT",
+   "amount": 6
+  },
+  {
+   "item": "PRISMARINE",
+   "amount": 1
+  },
+  {
+   "item": "OBSIDIAN",
+   "amount": 10
+  },
+  {
+   "item": "COBBLESTONE",
+   "amount": 50
+  },
+  {
+   "item": "PUMPKIN",
+   "amount": 2
+  },
+  {
+   "item": "PRISMARINE_SHARD",
+   "amount": 1
+  },
+  {
+   "item": "PACKED_ICE",
+   "amount": 4
+  }
+ ],
+ "excavator": {
+  "fossilChance": 0.1,
+  "fossils": [
+   "SPINE_FOSSIL",
+   "CLUBBED_FOSSIL",
+   "UGLY_FOSSIL",
+   "FOOTPRINT_FOSSIL",
+   "WEBBED_FOSSIL",
+   "TUSK_FOSSIL"
+  ],
+  "rolls": [
+   10,
+   14
+  ],
+  "dyeChance": 2e-06,
+  "dye": "DYE_FOSSIL",
+  "table": [
+   {
+    "item": "GLACITE_POWDER",
+    "min": 1000,
+    "max": 10000,
+    "weight": 30
+   },
+   {
+    "item": "FLAWED_AQUAMARINE_GEM",
+    "min": 1,
+    "max": 3,
+    "weight": 8
+   },
+   {
+    "item": "FLAWED_ONYX_GEM",
+    "min": 1,
+    "max": 3,
+    "weight": 8
+   },
+   {
+    "item": "FLAWED_CITRINE_GEM",
+    "min": 1,
+    "max": 3,
+    "weight": 8
+   },
+   {
+    "item": "FLAWED_PERIDOT_GEM",
+    "min": 1,
+    "max": 3,
+    "weight": 8
+   },
+   {
+    "item": "ENCHANTED_GLACITE",
+    "min": 1,
+    "max": 8,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTED_UMBER",
+    "min": 1,
+    "max": 8,
+    "weight": 8
+   },
+   {
+    "item": "ENCHANTED_TUNGSTEN",
+    "min": 1,
+    "max": 8,
+    "weight": 8
+   },
+   {
+    "item": "GLACITE_JEWEL",
+    "min": 1,
+    "max": 2,
+    "weight": 6
+   },
+   {
+    "item": "ESSENCE_FOSSIL",
+    "min": 10,
+    "max": 40,
+    "weight": 20
+   },
+   {
+    "item": "ENCHANTMENT_PALEONTOLOGIST_1",
+    "min": 1,
+    "max": 1,
+    "weight": 1.2
+   },
+   {
+    "item": "FOSSIL_THE_FISH",
+    "min": 1,
+    "max": 1,
+    "weight": 0.3
+   }
+  ]
+ }
+}

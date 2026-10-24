@@ -1,0 +1,122 @@
+[
+ {
+  "id": "mayors_spooky_trick_or_treater_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_trick_or_treater",
+  "max": 4,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_scary_jerry_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_scary_jerry",
+  "max": 3,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_wraith_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_wraith",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_phantom_spirit_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_phantom_spirit",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_batty_witch_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_batty_witch",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_crazy_witch_graveyard",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "spooky_crazy_witch",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_trick_or_treater_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_trick_or_treater",
+  "max": 4,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_scary_jerry_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_scary_jerry",
+  "max": 3,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_wraith_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_wraith",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_phantom_spirit_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_phantom_spirit",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_batty_witch_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_batty_witch",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ },
+ {
+  "id": "mayors_spooky_crazy_witch_wilderness",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "spooky_crazy_witch",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 64,
+  "condition": "event:spooky_festival"
+ }
+]

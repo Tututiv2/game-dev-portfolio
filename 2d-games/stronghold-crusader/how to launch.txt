@@ -1,0 +1,22 @@
+How to launch the game (local)
+
+1. Open a terminal in this folder:
+   Stronghold crusader
+
+2. Install dependencies (first time, or after package.json changes):
+   npm install
+
+3. Start the local server:
+   npm start
+
+   (This runs: node server.js)
+
+4. In your browser, open:
+   http://localhost:3000
+
+5. To stop the server, press Ctrl+C in the terminal.
+
+Optional:
+- Use another port: set PORT then start, e.g. in PowerShell:
+    $env:PORT=8080; npm start
+- Run tests: npm run test:sprite-editor

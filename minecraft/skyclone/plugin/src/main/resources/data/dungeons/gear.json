@@ -1,0 +1,8111 @@
+[
+ {
+  "id": "ZOMBIE_SOLDIER_HELMET",
+  "name": "Zombie Soldier Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 43,
+   "HEALTH": 21
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#D07F00",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Soldier Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_soldier",
+  "setBonusName": "Phalanx",
+  "setBonusLore": [
+   "&7Every other player wearing the full",
+   "&7set within &a30 &7blocks grants you",
+   "&a+30❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_SOLDIER_CHESTPLATE",
+  "name": "Zombie Soldier Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 81,
+   "HEALTH": 43
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#D07F00",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Soldier Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_soldier",
+  "setBonusName": "Phalanx",
+  "setBonusLore": [
+   "&7Every other player wearing the full",
+   "&7set within &a30 &7blocks grants you",
+   "&a+30❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_SOLDIER_LEGGINGS",
+  "name": "Zombie Soldier Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 71,
+   "HEALTH": 34
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#D07F00",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Soldier Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_soldier",
+  "setBonusName": "Phalanx",
+  "setBonusLore": [
+   "&7Every other player wearing the full",
+   "&7set within &a30 &7blocks grants you",
+   "&a+30❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_SOLDIER_BOOTS",
+  "name": "Zombie Soldier Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 36,
+   "HEALTH": 17
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#D07F00",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Soldier Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_soldier",
+  "setBonusName": "Phalanx",
+  "setBonusLore": [
+   "&7Every other player wearing the full",
+   "&7set within &a30 &7blocks grants you",
+   "&a+30❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_KNIGHT_HELMET",
+  "name": "Zombie Knight Helmet",
+  "material": "GOLDEN_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 54,
+   "STRENGTH": 10
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:14"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Knight Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 320
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_knight",
+  "setBonusName": "Oathbound",
+  "setBonusLore": [
+   "&7While you hold a &5Zombie Knight Sword&7,",
+   "&7gain &a+50❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_KNIGHT_CHESTPLATE",
+  "name": "Zombie Knight Chestplate",
+  "material": "GOLDEN_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 96,
+   "STRENGTH": 20
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:14"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Knight Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 320
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_knight",
+  "setBonusName": "Oathbound",
+  "setBonusLore": [
+   "&7While you hold a &5Zombie Knight Sword&7,",
+   "&7gain &a+50❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_KNIGHT_LEGGINGS",
+  "name": "Zombie Knight Leggings",
+  "material": "GOLDEN_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 85,
+   "STRENGTH": 15
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:14"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Knight Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 320
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_knight",
+  "setBonusName": "Oathbound",
+  "setBonusLore": [
+   "&7While you hold a &5Zombie Knight Sword&7,",
+   "&7gain &a+50❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_KNIGHT_BOOTS",
+  "name": "Zombie Knight Boots",
+  "material": "GOLDEN_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 46,
+   "STRENGTH": 10
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:14"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Knight Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 320
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_knight",
+  "setBonusName": "Oathbound",
+  "setBonusLore": [
+   "&7While you hold a &5Zombie Knight Sword&7,",
+   "&7gain &a+50❈ Defense&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_COMMANDER_HELMET",
+  "name": "Zombie Commander Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 22,
+   "HEALTH": 39,
+   "STRENGTH": 8,
+   "INTELLIGENCE": 4
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#D51230",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Commander Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_commander",
+  "setBonusName": "Drill Sergeant",
+  "setBonusLore": [
+   "&7Every &a50 &7zombies you slay grant",
+   "&c+5❤ Health &7while the set is worn.",
+   "&7Caps at &c+500❤&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_COMMANDER_CHESTPLATE",
+  "name": "Zombie Commander Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 35,
+   "HEALTH": 59,
+   "STRENGTH": 8,
+   "INTELLIGENCE": 4
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#D51230",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Commander Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_commander",
+  "setBonusName": "Drill Sergeant",
+  "setBonusLore": [
+   "&7Every &a50 &7zombies you slay grant",
+   "&c+5❤ Health &7while the set is worn.",
+   "&7Caps at &c+500❤&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_COMMANDER_LEGGINGS",
+  "name": "Zombie Commander Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 30,
+   "HEALTH": 51,
+   "STRENGTH": 8,
+   "INTELLIGENCE": 4
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#D51230",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Commander Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_commander",
+  "setBonusName": "Drill Sergeant",
+  "setBonusLore": [
+   "&7Every &a50 &7zombies you slay grant",
+   "&c+5❤ Health &7while the set is worn.",
+   "&7Caps at &c+500❤&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_COMMANDER_BOOTS",
+  "name": "Zombie Commander Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 17,
+   "HEALTH": 32,
+   "STRENGTH": 8,
+   "INTELLIGENCE": 4
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#D51230",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Commander Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_commander",
+  "setBonusName": "Drill Sergeant",
+  "setBonusLore": [
+   "&7Every &a50 &7zombies you slay grant",
+   "&c+5❤ Health &7while the set is worn.",
+   "&7Caps at &c+500❤&7."
+  ]
+ },
+ {
+  "id": "ZOMBIE_LORD_HELMET",
+  "name": "Zombie Lord Helmet",
+  "material": "GOLDEN_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 25,
+   "HEALTH": 56,
+   "STRENGTH": 7,
+   "INTELLIGENCE": 7
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Lord Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+10❁ Strength &7and &a+10❈ Defense&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "ZOMBIE_LORD_CHESTPLATE",
+  "name": "Zombie Lord Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 39,
+   "HEALTH": 85,
+   "STRENGTH": 7,
+   "INTELLIGENCE": 7
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#9B01C1",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Lord Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+10❁ Strength &7and &a+10❈ Defense&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "ZOMBIE_LORD_LEGGINGS",
+  "name": "Zombie Lord Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 33,
+   "HEALTH": 73,
+   "STRENGTH": 7,
+   "INTELLIGENCE": 7
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#9B01C1",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Lord Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+10❁ Strength &7and &a+10❈ Defense&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "ZOMBIE_LORD_BOOTS",
+  "name": "Zombie Lord Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 19,
+   "HEALTH": 45,
+   "STRENGTH": 7,
+   "INTELLIGENCE": 7
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#9B01C1",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Zombie Lord Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "zombie_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+10❁ Strength &7and &a+10❈ Defense&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "SKELETON_SOLDIER_HELMET",
+  "name": "Skeleton Soldier Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 26,
+   "HEALTH": 16,
+   "CRIT_DAMAGE": 16,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#FFBC0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Soldier Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_soldier",
+  "setBonusName": "Volley",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_SOLDIER_CHESTPLATE",
+  "name": "Skeleton Soldier Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 42,
+   "HEALTH": 26,
+   "CRIT_DAMAGE": 17,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#FFBC0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Soldier Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_soldier",
+  "setBonusName": "Volley",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_SOLDIER_LEGGINGS",
+  "name": "Skeleton Soldier Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 38,
+   "HEALTH": 24,
+   "CRIT_DAMAGE": 17,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#FFBC0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Soldier Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_soldier",
+  "setBonusName": "Volley",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_SOLDIER_BOOTS",
+  "name": "Skeleton Soldier Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 22,
+   "HEALTH": 14,
+   "CRIT_DAMAGE": 17,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:9"
+  ],
+  "npcSell": 1,
+  "color": "#FFBC0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Soldier Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_soldier",
+  "setBonusName": "Volley",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_MASTER_HELMET",
+  "name": "Skeleton Master Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 26,
+   "HEALTH": 16,
+   "CRIT_DAMAGE": 22,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#FF6B0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Master Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_master",
+  "setBonusName": "Marksman",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_MASTER_CHESTPLATE",
+  "name": "Skeleton Master Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 42,
+   "HEALTH": 26,
+   "CRIT_DAMAGE": 22,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#FF6B0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Master Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_master",
+  "setBonusName": "Marksman",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_MASTER_LEGGINGS",
+  "name": "Skeleton Master Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 38,
+   "HEALTH": 24,
+   "CRIT_DAMAGE": 22,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#FF6B0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Master Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_master",
+  "setBonusName": "Marksman",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_MASTER_BOOTS",
+  "name": "Skeleton Master Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 22,
+   "HEALTH": 14,
+   "CRIT_DAMAGE": 22,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Arrows deal &a+5% &7damage."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#FF6B0B",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Master Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_master",
+  "setBonusName": "Marksman",
+  "setBonusLore": [
+   "&7Arrows deal an extra &a25% &7damage."
+  ]
+ },
+ {
+  "id": "SKELETON_LORD_HELMET",
+  "name": "Skeleton Lord Helmet",
+  "material": "GOLDEN_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 32,
+   "HEALTH": 16,
+   "CRIT_DAMAGE": 19,
+   "CRIT_CHANCE": 1
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Lord Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+5❁ Strength &7and &9+10☠ Crit Damage&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "SKELETON_LORD_CHESTPLATE",
+  "name": "Skeleton Lord Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 52,
+   "HEALTH": 26,
+   "CRIT_DAMAGE": 19,
+   "CRIT_CHANCE": 1
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#268105",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Lord Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+5❁ Strength &7and &9+10☠ Crit Damage&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "SKELETON_LORD_LEGGINGS",
+  "name": "Skeleton Lord Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 48,
+   "HEALTH": 24,
+   "CRIT_DAMAGE": 19,
+   "CRIT_CHANCE": 1
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#268105",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Lord Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+5❁ Strength &7and &9+10☠ Crit Damage&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "SKELETON_LORD_BOOTS",
+  "name": "Skeleton Lord Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 28,
+   "HEALTH": 14,
+   "CRIT_DAMAGE": 19,
+   "CRIT_CHANCE": 1
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:25"
+  ],
+  "npcSell": 1,
+  "color": "#268105",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeleton Lord Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "skeleton_lord",
+  "setBonusName": "Lord of the Halls",
+  "setBonusLore": [
+   "&7Each minute you spend in a dungeon run",
+   "&7grants &c+5❁ Strength &7and &9+10☠ Crit Damage&7.",
+   "&8(Up to 10 minutes)"
+  ]
+ },
+ {
+  "id": "SKELETOR_HELMET",
+  "name": "Bonelord Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 25,
+   "HEALTH": 15,
+   "CRIT_DAMAGE": 20,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Each piece shortens the Bone Plating",
+   "&7cooldown by &a1s&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY5NTQyMTcwMTc5OSwKICAicHJvZmlsZUlkIiA6ICJhMzdlOGYyM2MyMTk0NjJiYjY3ZWUxY2I5OTM2YWY2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb29yYWxleSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84OWQwNzRhZDliOTk3MTg3OWViMzI1YmRkZmYzNjc1ZjcyMjQ4NTZiZDZkNTY5ZmM4ZDQ4M2MxMzNkNzMwMDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeletor Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeletor",
+  "setBonusName": "Bone Collector",
+  "setBonusLore": [
+   "&7Every &a10 &7Bonelords you slay grant",
+   "&c+1❁ Strength &7and &9+1☠ Crit Damage&7.",
+   "&8(Up to +100 each)"
+  ]
+ },
+ {
+  "id": "SKELETOR_CHESTPLATE",
+  "name": "Bonelord Chestplate",
+  "material": "CHAINMAIL_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 40,
+   "HEALTH": 25,
+   "CRIT_DAMAGE": 20,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Each piece shortens the Bone Plating",
+   "&7cooldown by &a1s&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 5000,
+  "color": "#918F89",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeletor Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeletor",
+  "setBonusName": "Bone Collector",
+  "setBonusLore": [
+   "&7Every &a10 &7Bonelords you slay grant",
+   "&c+1❁ Strength &7and &9+1☠ Crit Damage&7.",
+   "&8(Up to +100 each)"
+  ]
+ },
+ {
+  "id": "SKELETOR_LEGGINGS",
+  "name": "Bonelord Leggings",
+  "material": "CHAINMAIL_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 36,
+   "HEALTH": 22,
+   "CRIT_DAMAGE": 20,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Each piece shortens the Bone Plating",
+   "&7cooldown by &a1s&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 5000,
+  "color": "#918F89",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeletor Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeletor",
+  "setBonusName": "Bone Collector",
+  "setBonusLore": [
+   "&7Every &a10 &7Bonelords you slay grant",
+   "&c+1❁ Strength &7and &9+1☠ Crit Damage&7.",
+   "&8(Up to +100 each)"
+  ]
+ },
+ {
+  "id": "SKELETOR_BOOTS",
+  "name": "Bonelord Boots",
+  "material": "CHAINMAIL_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 20,
+   "HEALTH": 13,
+   "CRIT_DAMAGE": 20,
+   "CRIT_CHANCE": 2
+  },
+  "lore": [
+   "&7Each piece shortens the Bone Plating",
+   "&7cooldown by &a1s&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 5000,
+  "color": "#918F89",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Skeletor Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 15
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 240
+     }
+    ]
+   ]
+  },
+  "setId": "skeletor",
+  "setBonusName": "Bone Collector",
+  "setBonusLore": [
+   "&7Every &a10 &7Bonelords you slay grant",
+   "&c+1❁ Strength &7and &9+1☠ Crit Damage&7.",
+   "&8(Up to +100 each)"
+  ]
+ },
+ {
+  "id": "CRYPT_WITHERLORD_HELMET",
+  "name": "Crypt Witherlord Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 70
+  },
+  "lore": [
+   "&7Withered foes deal &a5% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#450101",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Crypt Witherlord Helmet"
+  }
+ },
+ {
+  "id": "CRYPT_WITHERLORD_CHESTPLATE",
+  "name": "Crypt Witherlord Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 120
+  },
+  "lore": [
+   "&7Withered foes deal &a5% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#450101",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Crypt Witherlord Chestplate"
+  }
+ },
+ {
+  "id": "CRYPT_WITHERLORD_LEGGINGS",
+  "name": "Crypt Witherlord Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 95
+  },
+  "lore": [
+   "&7Withered foes deal &a5% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#450101",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Crypt Witherlord Leggings"
+  }
+ },
+ {
+  "id": "CRYPT_WITHERLORD_BOOTS",
+  "name": "Crypt Witherlord Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 5,
+   "DEFENSE": 65
+  },
+  "lore": [
+   "&7Withered foes deal &a5% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:18"
+  ],
+  "npcSell": 1,
+  "color": "#450101",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Crypt Witherlord Boots"
+  }
+ },
+ {
+  "id": "BOUNCY_HELMET",
+  "name": "Bouncy Helmet",
+  "material": "LEATHER_HELMET",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "HEALTH": 65,
+   "CRIT_CHANCE": 5
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#ADFF2F",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bouncy Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ]
+  },
+  "setId": "bouncy",
+  "setBonusName": "Ricochet",
+  "setBonusLore": [
+   "&7Your arrows have a &a25% &7chance to",
+   "&7bounce on to a second target."
+  ]
+ },
+ {
+  "id": "BOUNCY_CHESTPLATE",
+  "name": "Bouncy Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "RARE",
+  "category": "CHESTPLATE",
+  "stats": {
+   "HEALTH": 120,
+   "CRIT_CHANCE": 5
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#ADFF2F",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bouncy Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ]
+  },
+  "setId": "bouncy",
+  "setBonusName": "Ricochet",
+  "setBonusLore": [
+   "&7Your arrows have a &a25% &7chance to",
+   "&7bounce on to a second target."
+  ]
+ },
+ {
+  "id": "BOUNCY_LEGGINGS",
+  "name": "Bouncy Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "RARE",
+  "category": "LEGGINGS",
+  "stats": {
+   "HEALTH": 105,
+   "CRIT_CHANCE": 5
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#ADFF2F",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bouncy Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ]
+  },
+  "setId": "bouncy",
+  "setBonusName": "Ricochet",
+  "setBonusLore": [
+   "&7Your arrows have a &a25% &7chance to",
+   "&7bounce on to a second target."
+  ]
+ },
+ {
+  "id": "BOUNCY_BOOTS",
+  "name": "Bouncy Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "RARE",
+  "category": "BOOTS",
+  "stats": {
+   "HEALTH": 55,
+   "CRIT_CHANCE": 5
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:12"
+  ],
+  "npcSell": 1,
+  "color": "#ADFF2F",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bouncy Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ]
+  },
+  "setId": "bouncy",
+  "setBonusName": "Ricochet",
+  "setBonusLore": [
+   "&7Your arrows have a &a25% &7chance to",
+   "&7bounce on to a second target."
+  ]
+ },
+ {
+  "id": "ADAPTIVE_HELMET",
+  "name": "Adaptive Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 50,
+   "HEALTH": 110,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAzOTAzMjUzOCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZjBkMzRhYWE3MTQzNzc5ODM3MDFjMWJiZTliM2Y2ZTdiMzBjYjM4NTcxYmMwYTJmZDc1NDFkN2VkYjE2MzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "DEFENSIVE"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ]
+   ]
+  },
+  "setId": "adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "ADAPTIVE_CHESTPLATE",
+  "name": "Adaptive Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 85,
+   "HEALTH": 170,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "DEFENSIVE"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "ADAPTIVE_LEGGINGS",
+  "name": "Adaptive Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 65,
+   "HEALTH": 145,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "DEFENSIVE"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ]
+   ]
+  },
+  "setId": "adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "ADAPTIVE_BOOTS",
+  "name": "Adaptive Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 45,
+   "HEALTH": 90,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "DEFENSIVE"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ]
+   ]
+  },
+  "setId": "adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "STARRED_ADAPTIVE_HELMET",
+  "name": "Adaptive Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 60,
+   "HEALTH": 120,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAzOTAzMjUzOCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZjBkMzRhYWE3MTQzNzc5ODM3MDFjMWJiZTliM2Y2ZTdiMzBjYjM4NTcxYmMwYTJmZDc1NDFkN2VkYjE2MzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ]
+   ]
+  },
+  "setId": "starred_adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "STARRED_ADAPTIVE_CHESTPLATE",
+  "name": "Adaptive Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 95,
+   "HEALTH": 180,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "starred_adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "STARRED_ADAPTIVE_LEGGINGS",
+  "name": "Adaptive Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 75,
+   "HEALTH": 155,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ]
+   ]
+  },
+  "setId": "starred_adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "STARRED_ADAPTIVE_BOOTS",
+  "name": "Adaptive Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 55,
+   "HEALTH": 100,
+   "STRENGTH": 15,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Bends to your dungeon class:",
+   "&cBerserk&7: &c+20❁ Strength",
+   "&aHealer&7: &a+5☄ Mending&7, &c+40❤ Health",
+   "&bMage&7: &b+50✎ Intelligence",
+   "&7Tank: &a+30❈ Defense",
+   "&6Archer&7: &9+5☣ Crit Chance&7, &9+15☠ Crit Damage"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 20000,
+  "color": "#BFBCB2",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Adaptive Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ]
+   ]
+  },
+  "setId": "starred_adaptive",
+  "setBonusName": "Ever Learning",
+  "setBonusLore": [
+   "&7Each piece gains &a+2% &7stats for every",
+   "&a5 &7Catacombs levels you have."
+  ]
+ },
+ {
+  "id": "SHADOW_ASSASSIN_HELMET",
+  "name": "Shade Stalker Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 7,
+   "DEFENSE": 70,
+   "HEALTH": 160,
+   "STRENGTH": 25,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0NjY3MzMxNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWFhMTRkZTljMTU4ZDM1MTM5NDljODVjYWJiOWUzNzg0OGI5ODRlYzNmYjViNDRhMzIxOWY0ZmI1OGEwMGRhIgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "JASPER"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "SHADOW_ASSASSIN_CHESTPLATE",
+  "name": "Shade Stalker Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "SPEED": 7,
+   "DEFENSE": 110,
+   "HEALTH": 240,
+   "STRENGTH": 25,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 35
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "SHADOW_ASSASSIN_LEGGINGS",
+  "name": "Shade Stalker Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "EPIC",
+  "category": "LEGGINGS",
+  "stats": {
+   "SPEED": 7,
+   "DEFENSE": 95,
+   "HEALTH": 210,
+   "STRENGTH": 25,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "SHADOW_ASSASSIN_BOOTS",
+  "name": "Shade Stalker Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 7,
+   "DEFENSE": 55,
+   "HEALTH": 125,
+   "STRENGTH": 25,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "STARRED_SHADOW_ASSASSIN_HELMET",
+  "name": "Shade Stalker Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 8,
+   "DEFENSE": 70,
+   "HEALTH": 170,
+   "STRENGTH": 30,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0NjY3MzMxNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWFhMTRkZTljMTU4ZDM1MTM5NDljODVjYWJiOWUzNzg0OGI5ODRlYzNmYjViNDRhMzIxOWY0ZmI1OGEwMGRhIgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "starred_shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
+  "name": "Shade Stalker Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "SPEED": 8,
+   "DEFENSE": 110,
+   "HEALTH": 250,
+   "STRENGTH": 30,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 35
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "starred_shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "STARRED_SHADOW_ASSASSIN_LEGGINGS",
+  "name": "Shade Stalker Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "SPEED": 8,
+   "DEFENSE": 95,
+   "HEALTH": 220,
+   "STRENGTH": 30,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "starred_shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "STARRED_SHADOW_ASSASSIN_BOOTS",
+  "name": "Shade Stalker Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 8,
+   "DEFENSE": 55,
+   "HEALTH": 135,
+   "STRENGTH": 30,
+   "CRIT_DAMAGE": 25
+  },
+  "lore": [
+   "&7Piece Bonus: &6Sinew",
+   "&7After you teleport, gain &c+10❁ Strength",
+   "&7for &a10s&7. &8(3s cooldown)"
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Assassin Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "setId": "starred_shadow_assassin",
+  "setBonusName": "Silent Hunt",
+  "setBonusLore": [
+   "&7Each monster you slay in the Catacombs",
+   "&7grants &c+1❁ Strength &7for the rest",
+   "&7of the run."
+  ]
+ },
+ {
+  "id": "NECROMANCER_LORD_HELMET",
+  "name": "Necromancer Lord Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 160,
+   "HEALTH": 200,
+   "INTELLIGENCE": 15
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDAxNDg2MiwKICAicHJvZmlsZUlkIiA6ICJlY2Q0ZTI4NjdkMmE0MTE2OTljYzlkMjMzYmM1YmEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXRlZEtub3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhZGU4YmFlNTY3YTA2NzBmYmViMDI1ZTYzNTA2YTA2ZTQwMTBlZjY2NDRmZjdiNTU2YmRmOTNkMjYwODk1NCIKICAgIH0KICB9Cn0=",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necromancer Lord Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "necromancer_lord",
+  "setBonusName": "Soul Whisper",
+  "setBonusLore": [
+   "&7In the Catacombs, deal &a+20% &7damage",
+   "&7to undead monsters."
+  ]
+ },
+ {
+  "id": "NECROMANCER_LORD_CHESTPLATE",
+  "name": "Necromancer Lord Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 250,
+   "HEALTH": 300,
+   "INTELLIGENCE": 10
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necromancer Lord Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 70
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 450
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 750
+     }
+    ]
+   ]
+  },
+  "setId": "necromancer_lord",
+  "setBonusName": "Soul Whisper",
+  "setBonusLore": [
+   "&7In the Catacombs, deal &a+20% &7damage",
+   "&7to undead monsters."
+  ]
+ },
+ {
+  "id": "NECROMANCER_LORD_LEGGINGS",
+  "name": "Necromancer Lord Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 220,
+   "HEALTH": 250,
+   "INTELLIGENCE": 10
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 5000,
+  "color": "#370147",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necromancer Lord Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 35
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "necromancer_lord",
+  "setBonusName": "Soul Whisper",
+  "setBonusLore": [
+   "&7In the Catacombs, deal &a+20% &7damage",
+   "&7to undead monsters."
+  ]
+ },
+ {
+  "id": "NECROMANCER_LORD_BOOTS",
+  "name": "Necromancer Lord Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 150,
+   "HEALTH": 180,
+   "INTELLIGENCE": 10
+  },
+  "lore": [],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 5000,
+  "color": "#400352",
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necromancer Lord Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 30
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 60
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 120
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ]
+   ]
+  },
+  "setId": "necromancer_lord",
+  "setBonusName": "Soul Whisper",
+  "setBonusLore": [
+   "&7In the Catacombs, deal &a+20% &7damage",
+   "&7to undead monsters."
+  ]
+ },
+ {
+  "id": "WITHER_HELMET",
+  "name": "Wither Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 100,
+   "HEALTH": 200,
+   "INTELLIGENCE": 30
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4OTY4MzY3MDM4NywKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTExMjk0MDk3ODk1ODlhZTFiNDNlMWQ4MjhjMDZmYzlhMjEzYjc4MzQ4YTY4YjczMTNiZGQ0MDFkNzQ4NWNjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Wither Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WITHER_CHESTPLATE",
+  "name": "Wither Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 250,
+   "HEALTH": 300,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Wither Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1000
+     }
+    ]
+   ]
+  },
+  "setId": "wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WITHER_LEGGINGS",
+  "name": "Wither Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 220,
+   "HEALTH": 250,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Wither Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 700
+     }
+    ]
+   ]
+  },
+  "setId": "wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WITHER_BOOTS",
+  "name": "Wither Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 150,
+   "HEALTH": 180,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#000000",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Wither Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "POWER_WITHER_HELMET",
+  "name": "Morvane's Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 100,
+   "HEALTH": 180,
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 30,
+   "INTELLIGENCE": 30
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzI0OTc5MywKICAicHJvZmlsZUlkIiA6ICIwNjEzY2I1Y2QxYjg0M2JjYjI4OTk1NWU4N2QzMGEyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJicmVhZGxvYWZzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYmJiMmZhN2E2Y2EwODcyODBlYTBjYjU2NGI0MWVmMWFlNDA0YTE5ZjdhODEyOGQzZDI4YzUxOWE4NWUwNjNmIgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necron's Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "power_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "POWER_WITHER_CHESTPLATE",
+  "name": "Morvane's Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 140,
+   "HEALTH": 260,
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 30,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#E7413C",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necron's Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1000
+     }
+    ]
+   ]
+  },
+  "setId": "power_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "POWER_WITHER_LEGGINGS",
+  "name": "Morvane's Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 125,
+   "HEALTH": 230,
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 30,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#E75C3C",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necron's Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 700
+     }
+    ]
+   ]
+  },
+  "setId": "power_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "POWER_WITHER_BOOTS",
+  "name": "Morvane's Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 85,
+   "HEALTH": 145,
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 30,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#E76E3C",
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Necron's Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "power_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "TANK_WITHER_HELMET",
+  "name": "Aurik's Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 180,
+   "HEALTH": 210,
+   "INTELLIGENCE": 30
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzIwODgzNSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNDkyM2UyOGExODdmZTZhZjIyNzhiNzM5NGVmMjUzYTk2MzMxZmEyZGMwNzMxODc5Yzc4MGJmZWUyNDQyMjhhIgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "DEFENSIVE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Goldor's Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "tank_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "TANK_WITHER_CHESTPLATE",
+  "name": "Aurik's Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 275,
+   "HEALTH": 310,
+   "INTELLIGENCE": 20
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#45413C",
+  "gemSlots": [
+   "DEFENSIVE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Goldor's Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1000
+     }
+    ]
+   ]
+  },
+  "setId": "tank_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "TANK_WITHER_LEGGINGS",
+  "name": "Aurik's Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 240,
+   "HEALTH": 260,
+   "INTELLIGENCE": 20
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#65605A",
+  "gemSlots": [
+   "DEFENSIVE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Goldor's Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 700
+     }
+    ]
+   ]
+  },
+  "setId": "tank_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "TANK_WITHER_BOOTS",
+  "name": "Aurik's Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 165,
+   "HEALTH": 190,
+   "INTELLIGENCE": 20
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#88837E",
+  "gemSlots": [
+   "DEFENSIVE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Goldor's Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "tank_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "SPEED_WITHER_HELMET",
+  "name": "Gravax's Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 30,
+   "DEFENSE": 80,
+   "HEALTH": 180,
+   "CRIT_DAMAGE": 45,
+   "INTELLIGENCE": 15
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you, and your arrows deal &a+5%&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzMwNDc1OCwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmIwZWQ1OTU5MTkwZDQxNWU3MjZhMTVmMjk4NDAwN2E2N2E1ZmQ0ZWE1NjcxZDBkNjc2ZjlmNjQxYjViYWMiCiAgICB9CiAgfQp9",
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Maxor's Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "speed_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "SPEED_WITHER_CHESTPLATE",
+  "name": "Gravax's Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "SPEED": 30,
+   "DEFENSE": 120,
+   "HEALTH": 260,
+   "CRIT_DAMAGE": 45,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you, and your arrows deal &a+5%&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#4A14B7",
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Maxor's Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1000
+     }
+    ]
+   ]
+  },
+  "setId": "speed_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "SPEED_WITHER_LEGGINGS",
+  "name": "Gravax's Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "SPEED": 30,
+   "DEFENSE": 105,
+   "HEALTH": 230,
+   "CRIT_DAMAGE": 45,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you, and your arrows deal &a+5%&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#5D2FB9",
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Maxor's Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 700
+     }
+    ]
+   ]
+  },
+  "setId": "speed_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "SPEED_WITHER_BOOTS",
+  "name": "Gravax's Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 30,
+   "DEFENSE": 65,
+   "HEALTH": 145,
+   "CRIT_DAMAGE": 45,
+   "INTELLIGENCE": 10
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you, and your arrows deal &a+5%&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#8969C8",
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Maxor's Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "speed_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WISE_WITHER_HELMET",
+  "name": "Tempestra's Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 80,
+   "HEALTH": 180,
+   "INTELLIGENCE": 400
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTYyMzM2NjgxNiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mODMxNTljNWJiN2Q4MDQ1NGQyZDY0NmIxNTc3NGI3MTE2YWFiY2IzYWY1YjY3NzdhMjc1NzNmYzQ1Zjc4NTRmIgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "SAPPHIRE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Storm's Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "wise_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WISE_WITHER_CHESTPLATE",
+  "name": "Tempestra's Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "LEGENDARY",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 120,
+   "HEALTH": 260,
+   "INTELLIGENCE": 250
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#1793C4",
+  "gemSlots": [
+   "SAPPHIRE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Storm's Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1000
+     }
+    ]
+   ]
+  },
+  "setId": "wise_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WISE_WITHER_LEGGINGS",
+  "name": "Tempestra's Leggings",
+  "material": "LEATHER_LEGGINGS",
+  "rarity": "LEGENDARY",
+  "category": "LEGGINGS",
+  "stats": {
+   "DEFENSE": 105,
+   "HEALTH": 230,
+   "INTELLIGENCE": 250
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#17A8C4",
+  "gemSlots": [
+   "SAPPHIRE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Storm's Leggings",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 400
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 700
+     }
+    ]
+   ]
+  },
+  "setId": "wise_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "WISE_WITHER_BOOTS",
+  "name": "Tempestra's Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "DEFENSE": 65,
+   "HEALTH": 145,
+   "INTELLIGENCE": 250
+  },
+  "lore": [
+   "&7Withered foes deal &a10% &7less damage",
+   "&7to you."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 5000,
+  "color": "#1CD4E4",
+  "gemSlots": [
+   "SAPPHIRE",
+   "COMBAT"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Storm's Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 350
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 500
+     }
+    ]
+   ]
+  },
+  "setId": "wise_wither",
+  "setBonusName": "Witherborn",
+  "setBonusLore": [
+   "&7Every &a30s &7a wither imp gathers at your",
+   "&7side, flies to the nearest monster and",
+   "&7bursts for magic damage."
+  ]
+ },
+ {
+  "id": "BONZO_MASK",
+  "name": "Grinko's Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 100,
+   "HEALTH": 100,
+   "INTELLIGENCE": 100
+  },
+  "lore": [
+   "&7A clown's mask that refuses to let its",
+   "&7wearer die in the Catacombs."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F1:1"
+  ],
+  "npcSell": 0,
+  "skull": "eyJ0aW1lc3RhbXAiOjE1ODc5MDgzMDU4MjYsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MTZlY2JmNWI4ZGEwMGIwNWYzMTZlYzZhZjYxZThiZDAyODA1YjIxZWI4ZTQ0MDE1MTQ2OGRjNjU2NTQ5YyJ9fX0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bonzo's Mask",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 5
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ]
+   ],
+   "cheat": "clownin"
+  },
+  "abilities": [
+   {
+    "id": "dungeons_clownin",
+    "name": "Last Laugh",
+    "trigger": "PASSIVE",
+    "cooldown": 360,
+    "lore": [
+     "&7Instead of dying in the Catacombs, gain",
+     "&7damage immunity and &c+20❁ Strength",
+     "&7for &a3s &7and heal to full. Higher",
+     "&7Catacombs levels shorten the cooldown",
+     "&7and raise the Strength."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "STARRED_BONZO_MASK",
+  "name": "Grinko's Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 100,
+   "HEALTH": 125,
+   "INTELLIGENCE": 150
+  },
+  "lore": [
+   "&7A clown's mask that refuses to let its",
+   "&7wearer die in the Catacombs."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F1:1"
+  ],
+  "npcSell": 0,
+  "skull": "eyJ0aW1lc3RhbXAiOjE1ODc5MDgzMDU4MjYsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MTZlY2JmNWI4ZGEwMGIwNWYzMTZlYzZhZjYxZThiZDAyODA1YjIxZWI4ZTQ0MDE1MTQ2OGRjNjU2NTQ5YyJ9fX0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Bonzo's Mask",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 5
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 25
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ]
+   ],
+   "cheat": "clownin"
+  },
+  "abilities": [
+   {
+    "id": "dungeons_clownin",
+    "name": "Last Laugh",
+    "trigger": "PASSIVE",
+    "cooldown": 360,
+    "lore": [
+     "&7Instead of dying in the Catacombs, gain",
+     "&7damage immunity and &c+20❁ Strength",
+     "&7for &a3s &7and heal to full. Higher",
+     "&7Catacombs levels shorten the cooldown",
+     "&7and raise the Strength."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SPIRIT_MASK",
+  "name": "Spirit Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 15,
+   "DEFENSE": 50,
+   "HEALTH": 100,
+   "INTELLIGENCE": 20
+  },
+  "lore": [
+   "&7Woven from the breath of the grove."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 20000,
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MDUyMjI5OTg3MzQsInByb2ZpbGVJZCI6IjBiZTU2MmUxNzIyODQ3YmQ5MDY3MWYxNzNjNjA5NmNhIiwicHJvZmlsZU5hbWUiOiJ4Y29vbHgzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiZTcyMWQ3YWQ4YWI5NjVmMDhjYmVjMGI4MzRmNzc5YjUxOTdmNzlkYTRhZWEzZDEzZDI1M2VjZTlkZWMyIn19fQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Spirit Mask",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ],
+   "cheat": "second_wind"
+  },
+  "abilities": [
+   {
+    "id": "dungeons_second_wind",
+    "name": "Second Wind",
+    "trigger": "PASSIVE",
+    "cooldown": 30,
+    "lore": [
+     "&7Instead of dying, gain &f+50✦ Speed",
+     "&7and damage immunity for &a3s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "STARRED_SPIRIT_MASK",
+  "name": "Spirit Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "SPEED": 25,
+   "DEFENSE": 75,
+   "HEALTH": 100,
+   "INTELLIGENCE": 25
+  },
+  "lore": [
+   "&7Woven from the breath of the grove."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:15"
+  ],
+  "npcSell": 20000,
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MDUyMjI5OTg3MzQsInByb2ZpbGVJZCI6IjBiZTU2MmUxNzIyODQ3YmQ5MDY3MWYxNzNjNjA5NmNhIiwicHJvZmlsZU5hbWUiOiJ4Y29vbHgzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiZTcyMWQ3YWQ4YWI5NjVmMDhjYmVjMGI4MzRmNzc5YjUxOTdmNzlkYTRhZWEzZDEzZDI1M2VjZTlkZWMyIn19fQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Spirit Mask",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ],
+   "cheat": "second_wind",
+   "heal": 0.1
+  },
+  "abilities": [
+   {
+    "id": "dungeons_second_wind",
+    "name": "Second Wind",
+    "trigger": "PASSIVE",
+    "cooldown": 30,
+    "lore": [
+     "&7Instead of dying, gain &f+50✦ Speed",
+     "&7and damage immunity for &a3s&7, and",
+     "&7heal &c10%❤ &7over &a5s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "THORNS_BOOTS",
+  "name": "Spirit Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "EPIC",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 25,
+   "DEFENSE": 50,
+   "HEALTH": 150,
+   "STRENGTH": 25,
+   "INTELLIGENCE": 50
+  },
+  "lore": [
+   "&7Light enough to walk on the wind."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F4:1"
+  ],
+  "npcSell": 100000,
+  "color": "#BFBFBF",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Spirit Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "abilities": [
+   {
+    "id": "dungeons_spirit_glide",
+    "name": "Spirit Glide",
+    "trigger": "SNEAK",
+    "mana": 250,
+    "cooldown": 60,
+    "lore": [
+     "&7Sneak to rise and glide as a spirit",
+     "&7for &a5s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "STARRED_THORNS_BOOTS",
+  "name": "Spirit Boots",
+  "material": "LEATHER_BOOTS",
+  "rarity": "LEGENDARY",
+  "category": "BOOTS",
+  "stats": {
+   "SPEED": 35,
+   "DEFENSE": 50,
+   "HEALTH": 150,
+   "STRENGTH": 35,
+   "INTELLIGENCE": 50
+  },
+  "lore": [
+   "&7Light enough to walk on the wind."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F4:1"
+  ],
+  "npcSell": 100000,
+  "color": "#BFBFBF",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Spirit Boots",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 100
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 200
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  },
+  "abilities": [
+   {
+    "id": "dungeons_spirit_glide",
+    "name": "Spirit Glide",
+    "trigger": "SNEAK",
+    "mana": 250,
+    "cooldown": 60,
+    "lore": [
+     "&7Sneak to rise and glide as a spirit",
+     "&7for &a5s&7."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MENDER_HELMET",
+  "name": "Mender Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "HEALTH": 80
+  },
+  "lore": [
+   "&7Grants &a+50☄ Mending &7in dungeons."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [],
+  "npcSell": 1,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2MjgwODg2NSwKICAicHJvZmlsZUlkIiA6ICJiM2E3NjExNGVmMzI0ZjYyYWM4NDRiOWJmNTY1NGFiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcmd1eW1hbnBlcnNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMzMwMTk1MGExZTgwY2RmZWU4MmNmY2E0Y2IwZDhhZWVhNzEyZmUzMzMxY2NkN2UxZTU1NzIyMjMwYmQ0M2ZmIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Mender Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ],
+   "dungeonStats": {
+    "MENDING": 50
+   }
+  }
+ },
+ {
+  "id": "MENDER_FEDORA",
+  "name": "Mender Fedora",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "HEALTH": 220
+  },
+  "lore": [
+   "&7Grants &a+65☄ Mending &7and &4+65♨ Vitality",
+   "&7in dungeons."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2Mjg3NDg0NiwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyZDBlN2I2MGZhZGY5YjA4MDVhYTg2NmVkN2JkMjk4MGFiZWEwODEyZGIyYjcxNTA3NTJhNzFmYmYyZTIwZWYiCiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Mender Fedora",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 300
+     }
+    ]
+   ],
+   "dungeonStats": {
+    "MENDING": 65,
+    "VITALITY": 65
+   }
+  }
+ },
+ {
+  "id": "MENDER_CROWN",
+  "name": "Mender Crown",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "HEALTH": 270
+  },
+  "lore": [
+   "&7Grants &a+80☄ Mending &7and &4+80♨ Vitality",
+   "&7in dungeons."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2Mjg1NDkzOSwKICAicHJvZmlsZUlkIiA6ICJmNmYxY2IxMmYzNDU0MDRlYjZlNjU2NGE2ZDlmMjU2NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXJlbGl1c0dlbWluaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YzdlMTA3MGQxMjU4MWJkNDhlODBmNTkwNTRlOTI0MTJlNDUzYTYyN2VkMjk4OGIzYTVhMzVmZDVjNzA4ZTBkIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Mender Crown",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 600
+     }
+    ]
+   ],
+   "dungeonStats": {
+    "MENDING": 80,
+    "VITALITY": 80
+   }
+  }
+ },
+ {
+  "id": "DARK_GOGGLES",
+  "name": "Dark Goggles",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "ABILITY_DAMAGE": 25,
+   "INTELLIGENCE": 150
+  },
+  "lore": [
+   "&7Lenses ground for seeing spells."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [],
+  "npcSell": 1,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDQxNjQ4MTIyNSwKICAicHJvZmlsZUlkIiA6ICIzNDkxZjJiOTdjMDE0MWE2OTM2YjFjMjJhMmEwMGZiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXNzc3N1aGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkzMTk1MjU4MjVmMWYzMDcyN2ViOTQwZDNhMDY0MjZiYzRjZWMwN2ZiZDgwYWY1Y2QxNDZlM2ViMzg3OWY2OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Dark Goggles",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 160
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "SHADOW_GOGGLES",
+  "name": "Shadow Goggles",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "ABILITY_DAMAGE": 35,
+   "INTELLIGENCE": 200
+  },
+  "lore": [
+   "&7Lenses ground for seeing spells."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2NTE2MjgwMiwKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4cWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ2NWE4NDdlMTE0ZWY2MmU3ODMzY2JmYjJmZTVkZTU3NjRiYWI1ZjEwYWYxMjVmZDJkMzE2MjM4MjY4Mjc5ZiIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Shadow Goggles",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "WITHER_GOGGLES",
+  "name": "Wither Goggles",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "stats": {
+   "ABILITY_DAMAGE": 45,
+   "INTELLIGENCE": 300
+  },
+  "lore": [
+   "&7Lenses ground for seeing spells."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTU0MzM0MTg4MSwKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjZWI4ZjA3NThlMmQ4YWM0OWRlNmY5Nzc2MDNjN2JmYzIzZmQ4MmE4NTc0ODEwYTQ1ZjVlOTdjNjQzNmQ3OSIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Wither Goggles",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "STONE_CHESTPLATE",
+  "name": "Stone Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "RARE",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 130
+  },
+  "lore": [
+   "&7In dungeons, players within &a10 &7blocks",
+   "&7of you take &a5% &7less damage &8(30 as Tank)&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [],
+  "npcSell": 1,
+  "color": "#D9D9D9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Stone Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ],
+   "aura": 0.05
+  }
+ },
+ {
+  "id": "METAL_CHESTPLATE",
+  "name": "Metal Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 230
+  },
+  "lore": [
+   "&7In dungeons, players within &a10 &7blocks",
+   "&7of you take &a8% &7less damage &8(30 as Tank)&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 1,
+  "color": "#D9D9D9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Metal Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 300
+     }
+    ]
+   ],
+   "aura": 0.08
+  }
+ },
+ {
+  "id": "STEEL_CHESTPLATE",
+  "name": "Steel Chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "rarity": "EPIC",
+  "category": "CHESTPLATE",
+  "stats": {
+   "DEFENSE": 330
+  },
+  "lore": [
+   "&7In dungeons, players within &a10 &7blocks",
+   "&7of you take &a10% &7less damage &8(30 as Tank)&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 0,
+  "color": "#D9D9D9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Steel Chestplate",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 600
+     }
+    ]
+   ],
+   "aura": 0.1
+  }
+ },
+ {
+  "id": "SNIPER_HELMET",
+  "name": "Sniper Helmet",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 10,
+   "HEALTH": 100
+  },
+  "lore": [
+   "&7Arrows deal &a+1% &7damage for every",
+   "&a2 &7blocks they flew past &a20&7."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "catacombs:8"
+  ],
+  "npcSell": 1,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzE5NzA4NSwKICAicHJvZmlsZUlkIiA6ICI5ODY5ZmUyY2FjMjA0YmJmYjc1Y2Y1Mjk2ZTY0MDQ5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZW5yaXF1ZTkzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IxOGMwNzFmMDgwZGJhNTBhNjJhNjI2M2ZmNzI0ZWRjMTU3Y2U0ZmI0ODgzY2NlZmYyNDkxZDViYmRlODMwYzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Sniper Helmet",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 10
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 20
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 40
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 80
+     }
+    ],
+    [
+     {
+      "essence": "UNDEAD",
+      "amount": 160
+     }
+    ]
+   ],
+   "sniper": true
+  }
+ },
+ {
+  "id": "PRECURSOR_EYE",
+  "name": "Forerunner Eye",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 222,
+   "HEALTH": 222,
+   "INTELLIGENCE": 222
+  },
+  "lore": [
+   "&7The eye still remembers how to see."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "enchantable",
+   "recombable",
+   "museum",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 1000,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ3OTI0MjkyNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmMwNjgzYjIwMTljYTNkMzk0NzI3M2UzOTRiZmNhMWI0ZDcxYjYxYjY3YjM5NDc0YzJkNmQ3M2E5YjY3NTA4IgogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "RUBY",
+   "AMETHYST"
+  ],
+  "extra": {
+   "src": "dungeons",
+   "refName": "Precursor Eye",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "WITHER",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 150
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 300
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 600
+     }
+    ],
+    [
+     {
+      "essence": "WITHER",
+      "amount": 1200
+     }
+    ]
+   ]
+  },
+  "abilities": [
+   {
+    "id": "dungeons_eye_beam",
+    "name": "Eye Beam",
+    "trigger": "SNEAK",
+    "mana": 40,
+    "cooldown": 1,
+    "damage": 4000,
+    "scaling": 0.2,
+    "lore": [
+     "&7Hold Sneak to fire a beam ahead of you.",
+     "&7Its damage doubles every second for &a5s",
+     "&7and its mana cost grows by &b25%&7. Mana",
+     "&7is only spent when the beam hits."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "GOLD_BONZO_HEAD",
+  "name": "Golden Grinko Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 10,
+   "HEALTH": 20,
+   "STRENGTH": 5
+  },
+  "lore": [
+   "&7Earned by defeating Grinko many times.",
+   "&7Its stats are &adoubled &7on &cFloor I&7.",
+   "",
+   "&8A ringmaster who learned the dark arts to please his parents."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F1:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTcxMjkyOTEwOSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVlNzVlYWU4NjliZjBjMjk4ZWU0ODc5MGE2MmMyZDYxNDA3OTBiZDQ4MWIxZGU4OWI3NjhkNTJmMjhjNzRhOSIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Bonzo Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 1
+  }
+ },
+ {
+  "id": "DIAMOND_BONZO_HEAD",
+  "name": "Diamond Grinko Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 20,
+   "HEALTH": 50,
+   "STRENGTH": 10
+  },
+  "lore": [
+   "&7Earned by defeating Grinko many times.",
+   "&7Its stats are &adoubled &7on &cFloor I&7.",
+   "",
+   "&8A ringmaster who learned the dark arts to please his parents."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_BONZO:6"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzYzODUyNCwKICAicHJvZmlsZUlkIiA6ICI5YjhhN2NlMmJlYjI0NjdkYTJjZmU4MzQ1YTNjOTZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyR2FtZXJTaGFsb20iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFlMjAxYjA2ZjEwYjViNGViMDEzMGVjZDdkNTlmYWM3ZTRlMDEzYmJkNGY1ZDVkMDQ2MzU4MGZiMDU0OWE4YiIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Bonzo Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 1
+  }
+ },
+ {
+  "id": "GOLD_SCARF_HEAD",
+  "name": "Golden Veilwright Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 15,
+   "HEALTH": 30,
+   "STRENGTH": 10
+  },
+  "lore": [
+   "&7Earned by defeating Veilwright many times.",
+   "&7Its stats are &adoubled &7on &cFloor II&7.",
+   "",
+   "&8Taught a whole class of undead, and graded them harshly."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F2:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzIxODg3MCwKICAicHJvZmlsZUlkIiA6ICJkM2Y5MjEyMjY3YzM0YzEwYWNjOWZkNGI5MDFkYjI0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXl3ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTJmOTBhMmE2NmQ3ZjkzN2NmOWZiMTVjN2Q4YWVmOTdkMzhmNTYyYmQ5Njc4YjI0ZjRjOTA0YjY1YmNjNjBjIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Scarf Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 2
+  }
+ },
+ {
+  "id": "DIAMOND_SCARF_HEAD",
+  "name": "Diamond Veilwright Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 30,
+   "HEALTH": 70,
+   "STRENGTH": 15
+  },
+  "lore": [
+   "&7Earned by defeating Veilwright many times.",
+   "&7Its stats are &adoubled &7on &cFloor II&7.",
+   "",
+   "&8Taught a whole class of undead, and graded them harshly."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_SCARF:6"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDE1MzQyMywKICAicHJvZmlsZUlkIiA6ICJhMmI1ZjhlM2MxZDI0ZmUzYTlkMzNiZTFhNzEzYTUwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXBpb0dvZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGE1Y2EyZjY4MDA1MTZhNjNkMjU4NzhlYjdhNzEzZTgwZDYzYjYyZjlmNmNhYjNmMzEwOTdmOTQ5NGI2MTIxIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Scarf Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 2
+  }
+ },
+ {
+  "id": "GOLD_PROFESSOR_HEAD",
+  "name": "Golden Lecturer Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 20,
+   "HEALTH": 40,
+   "STRENGTH": 10
+  },
+  "lore": [
+   "&7Earned by defeating the Lecturer many times.",
+   "&7Its stats are &adoubled &7on &cFloor III&7.",
+   "",
+   "&8Lectured on guardians until the guardians lectured back."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F3:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDE3MzE2NSwKICAicHJvZmlsZUlkIiA6ICI3MThiZmYxOTQxN2U0MjNiYjFjMDY0OGMzN2UxYmMwMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja0VuZXJneVBUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4Y2EwM2Q3OGQxNTdkZjM0ZThjNDI4ODFmZjU3ZWE4OTgxODM2N2U0MGUyODhkYTdmOGI0MWNjYTVjMWQ0MDYiCiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Professor Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 3
+  }
+ },
+ {
+  "id": "DIAMOND_PROFESSOR_HEAD",
+  "name": "Diamond Lecturer Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 40,
+   "HEALTH": 100,
+   "STRENGTH": 20
+  },
+  "lore": [
+   "&7Earned by defeating the Lecturer many times.",
+   "&7Its stats are &adoubled &7on &cFloor III&7.",
+   "",
+   "&8Lectured on guardians until the guardians lectured back."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_THE_PROFESSOR:6"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4ODcyMjM0NDUzNiwKICAicHJvZmlsZUlkIiA6ICI2NjI3NjU4MzhkMWQ0YmU0YjU1NmRkOTQwMmE1MDU0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTWF0dEd6ejI4OV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIzYzNhZDhjNDQxMDE0NTA5NTI4MDc3OTI5M2NjMWU3OTA0YjZmY2U5M2Q3MDM3OGFjNWYzMjAzMmJhMWQ4NiIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Professor Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 3
+  }
+ },
+ {
+  "id": "GOLD_THORN_HEAD",
+  "name": "Golden Bramblemaw Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 25,
+   "HEALTH": 50,
+   "STRENGTH": 15
+  },
+  "lore": [
+   "&7Earned by defeating Bramblemaw many times.",
+   "&7Its stats are &adoubled &7on &cFloor IV&7.",
+   "",
+   "&8The grove grew teeth, and the teeth learned to roar."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F4:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzU1Mzc0OSwKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQwMTY4ZTdmN2JjY2QxOWI1YTFlZGU5YTE5NmI0MWM1N2M5MTk4NWVjNzIzYmNmNDIyMDk2NzUyNTU4MjE1OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Thorn Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 4
+  }
+ },
+ {
+  "id": "DIAMOND_THORN_HEAD",
+  "name": "Diamond Bramblemaw Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 50,
+   "HEALTH": 130,
+   "STRENGTH": 25
+  },
+  "lore": [
+   "&7Earned by defeating Bramblemaw many times.",
+   "&7Its stats are &adoubled &7on &cFloor IV&7.",
+   "",
+   "&8The grove grew teeth, and the teeth learned to roar."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_THORN:6"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzM1NjQ3OSwKICAicHJvZmlsZUlkIiA6ICI4NDIyMDRlNjY4ODA0ODdiYWU1YTA1OTUzOTRmOTk0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJuZWE4OW8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgzYTFmZmFkY2M2Y2NjNTQ5MDVmMmE3OWI5NjNhMzM5YmI5ZTBiMGJjZWE0MjgyNTJhMTdmMDFlMzE3YmVjMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Thorn Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 4
+  }
+ },
+ {
+  "id": "GOLD_LIVID_HEAD",
+  "name": "Golden Lurid Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 30,
+   "HEALTH": 60,
+   "STRENGTH": 15
+  },
+  "lore": [
+   "&7Earned by defeating Lurid many times.",
+   "&7Its stats are &adoubled &7on &cFloor V&7.",
+   "",
+   "&8Nobody ever found out which one was the real one."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F5:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTA1NDYzNjc3MSwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyNTEyYWM2Y2M1ZDhjN2FlM2RkZGVlZTJjNDI5ZDRhMmQ2YTgzNDFiZGUwNTZlMThlNWFlMjEwMTFiYmU2NDMiCiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Livid Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 5
+  }
+ },
+ {
+  "id": "DIAMOND_LIVID_HEAD",
+  "name": "Diamond Lurid Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 60,
+   "HEALTH": 160,
+   "STRENGTH": 30
+  },
+  "lore": [
+   "&7Earned by defeating Lurid many times.",
+   "&7Its stats are &adoubled &7on &cFloor V&7.",
+   "",
+   "&8Nobody ever found out which one was the real one."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_LIVID:7"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjYwNzEwMCwKICAicHJvZmlsZUlkIiA6ICIzMjNiYjlkYzkwZWU0Nzk5YjUxYzE3NjRmZDRhNjI3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOcGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyNjhlMzY1MDVmMTMxMjM4NGViMzZlZDQ3N2Y0YzIwNTM1NzZjNjAwNThmZDI2YmVkZTI0ZDkwY2I0Y2Y3YmYiCiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Livid Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 5
+  }
+ },
+ {
+  "id": "GOLD_SADAN_HEAD",
+  "name": "Golden Gorrak Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 35,
+   "HEALTH": 70,
+   "STRENGTH": 15
+  },
+  "lore": [
+   "&7Earned by defeating Gorrak many times.",
+   "&7Its stats are &adoubled &7on &cFloor VI&7.",
+   "",
+   "&8Built giants out of stone because nobody else would listen."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F6:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDEyNDIxMTUxNiwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3NjZhMGQyMWQyNjFjODc4NzYzY2E4MjY0Y2QyZGQwYjE3ZWNmYWMzNDI0MTFkYjA3ODg2YjA3OGU2Y2IwMTMiCiAgICB9CiAgfQp9",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Sadan Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 6
+  }
+ },
+ {
+  "id": "DIAMOND_SADAN_HEAD",
+  "name": "Diamond Gorrak Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 70,
+   "HEALTH": 190,
+   "STRENGTH": 35
+  },
+  "lore": [
+   "&7Earned by defeating Gorrak many times.",
+   "&7Its stats are &adoubled &7on &cFloor VI&7.",
+   "",
+   "&8Built giants out of stone because nobody else would listen."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_SADAN:7"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjI2NzY4MTEwNywKICAicHJvZmlsZUlkIiA6ICJkYmQ4MDQ2M2EwMzY0Y2FjYjI3OGNhODBhMDBkZGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4bG9nMjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M2M2M0ZjdmOGY1YjhjNWZlMWJhYzlhNzA4ZTVhNjJjY2QwNDk3MDA3MmFhYjVlMzIzYjFiN2Q0MDA0ZjRhMiIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Sadan Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 6
+  }
+ },
+ {
+  "id": "GOLD_NECRON_HEAD",
+  "name": "Golden Morvane Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 40,
+   "HEALTH": 80,
+   "STRENGTH": 15
+  },
+  "lore": [
+   "&7Earned by defeating Morvane many times.",
+   "&7Its stats are &adoubled &7on &cFloor VII&7.",
+   "",
+   "&8The last warden of the withered vault."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "dungeon_completion:F7:1"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzIwNDAxMSwKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjY5ZTBiNDFkYTRmZDU4ZjYyNWJmZDE0MGJiNWIyNGY4NGQ1NmVkZTY2NThiNjhmMTI0NDc4MDQyY2RhZmU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Golden Necron Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "GOLD",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "GOLD",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 7
+  }
+ },
+ {
+  "id": "DIAMOND_NECRON_HEAD",
+  "name": "Diamond Morvane Head",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "HELMET",
+  "stats": {
+   "DEFENSE": 80,
+   "HEALTH": 220,
+   "STRENGTH": 40
+  },
+  "lore": [
+   "&7Earned by defeating Morvane many times.",
+   "&7Its stats are &adoubled &7on &cFloor VII&7.",
+   "",
+   "&8The last warden of the withered vault."
+  ],
+  "dungeon": true,
+  "tags": [
+   "reforgeable",
+   "museum",
+   "soulbound",
+   "dungeon_gear"
+  ],
+  "requirements": [
+   "collection:BOSS_NECRON:7"
+  ],
+  "npcSell": 0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzM5MDg5NDU4NiwKICAicHJvZmlsZUlkIiA6ICJjNWFhNTRhNmNmNTI0YmFmYmRiODUwNmUyMjRiNzViZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWNyb25IYW5kbGVQTFMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIxMTVjZGM0NWZkODRmMjFmYmE3YWMwZjJiYzc3YmMzYjYzMDJiZTY3MDg0MmY2ZTExZjY2ZWI1NTdmMTNlZSIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "src": "dungeons",
+   "refName": "Diamond Necron Head",
+   "upgrade_costs": [
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 50
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 75
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 125
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 250
+     }
+    ],
+    [
+     {
+      "essence": "DIAMOND",
+      "amount": 500
+     }
+    ]
+   ],
+   "bossHead": 7
+  }
+ },
+ {
+  "id": "IMPLOSION_SCROLL",
+  "name": "Implosion",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "maxStack": 1,
+  "lore": [
+   "&7Bind it to a &6Warden's Blade &7or one of",
+   "&7its four refinements at the &dScroll",
+   "&dAltar &8(/dungeons scrolls)&7.",
+   "",
+   "&6Ability: Implosion &e&lRIGHT CLICK",
+   "&7Blast every monster within &a10 &7blocks",
+   "&7for &c10,000 &7magic damage.",
+   "&8Mana Cost: &3300",
+   "&8Cooldown: &a10s"
+  ],
+  "dungeon": true,
+  "tags": [
+   "wither_scroll"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "scroll": "implosion"
+  }
+ },
+ {
+  "id": "SHADOW_WARP_SCROLL",
+  "name": "Shadow Warp",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "maxStack": 1,
+  "lore": [
+   "&7Bind it to a &6Warden's Blade &7or one of",
+   "&7its four refinements at the &dScroll",
+   "&dAltar &8(/dungeons scrolls)&7.",
+   "",
+   "&6Ability: Shadow Warp &e&lRIGHT CLICK",
+   "&7Step &a10 &7blocks ahead through shadow.",
+   "&8Mana Cost: &3300",
+   "&8Cooldown: &a10s"
+  ],
+  "dungeon": true,
+  "tags": [
+   "wither_scroll"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "scroll": "shadow_warp"
+  }
+ },
+ {
+  "id": "WITHER_SHIELD_SCROLL",
+  "name": "Wither Shield",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "maxStack": 1,
+  "lore": [
+   "&7Bind it to a &6Warden's Blade &7or one of",
+   "&7its four refinements at the &dScroll",
+   "&dAltar &8(/dungeons scrolls)&7.",
+   "",
+   "&6Ability: Wither Shield &e&lRIGHT CLICK",
+   "&7Take &a10% &7less damage for &a5s &7and gain",
+   "&7an absorption shield that grows with",
+   "&7your Catacombs level.",
+   "&8Mana Cost: &3150",
+   "&8Cooldown: &a10s"
+  ],
+  "dungeon": true,
+  "tags": [
+   "wither_scroll"
+  ],
+  "npcSell": 1,
+  "extra": {
+   "src": "dungeons",
+   "scroll": "wither_shield"
+  }
+ },
+ {
+  "id": "DUNGEON_CHEST_KEY",
+  "name": "Dungeon Chest Key",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lets you open one &aextra &7reward chest",
+   "&7at the end of a dungeon run.",
+   "",
+   "&8Consumed when used."
+  ],
+  "tags": [
+   "bazaar",
+   "dungeon_key"
+  ],
+  "npcSell": 5000,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "KISMET_FEATHER",
+  "name": "Fate Feather",
+  "material": "FEATHER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&7Keep it in your inventory and open a",
+   "&7reward chest: you may &areroll &7that",
+   "&7chest's contents once.",
+   "",
+   "&8One reroll per run."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "INFINITE_SPIRIT_LEAP",
+  "name": "Endless Soul Leap",
+  "material": "ENDER_EYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A Soul Leap that never runs out.",
+   "",
+   "&cDungeons only!"
+  ],
+  "dungeon": true,
+  "maxStack": 1,
+  "abilities": [
+   {
+    "id": "dungeons_infinileap",
+    "name": "Soul Leap",
+    "trigger": "RIGHT_CLICK",
+    "cooldown": 2,
+    "lore": [
+     "&7Leap to any living teammate."
+    ]
+   }
+  ],
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "MAXOR_ENERGY_CRYSTAL",
+  "name": "Energy Crystal",
+  "material": "NETHER_STAR",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Carry it to an empty podium.",
+   "",
+   "&cVanishes when the fight ends."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "WITHER_RELIC_APEX",
+  "name": "Verdant Relic",
+  "material": "LIME_DYE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it in the &agreen &7cauldron."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "glow": true,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "WITHER_RELIC_FLAME",
+  "name": "Ember Relic",
+  "material": "ORANGE_DYE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it in the &6orange &7cauldron."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "glow": true,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "WITHER_RELIC_ICE",
+  "name": "Frost Relic",
+  "material": "LIGHT_BLUE_DYE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it in the &bblue &7cauldron."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "glow": true,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "WITHER_RELIC_POWER",
+  "name": "Might Relic",
+  "material": "RED_DYE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it in the &cred &7cauldron."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "glow": true,
+  "extra": {
+   "src": "dungeons"
+  }
+ },
+ {
+  "id": "WITHER_RELIC_SOUL",
+  "name": "Soul Relic",
+  "material": "PURPLE_DYE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Place it in the &5purple &7cauldron."
+  ],
+  "tags": [
+   "no_trade",
+   "no_ah",
+   "dungeon_only"
+  ],
+  "maxStack": 1,
+  "glow": true,
+  "extra": {
+   "src": "dungeons"
+  }
+ }
+]

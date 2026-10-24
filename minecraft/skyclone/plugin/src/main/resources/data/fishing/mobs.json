@@ -1,0 +1,5852 @@
+[
+ {
+  "id": "sc_squid",
+  "name": "Squid",
+  "level": 1,
+  "entity": "SQUID",
+  "health": 120,
+  "damage": 22,
+  "speed": 1.0,
+  "combatXp": 1,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "INK_SACK",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   }
+  ],
+  "family": "squid",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 25,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A squid wriggles up with your line.",
+   "fishingLevel": 1,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "squid"
+   ],
+   "refName": "Squid"
+  }
+ },
+ {
+  "id": "sc_sea_walker",
+  "name": "Sea Walker",
+  "level": 1,
+  "entity": "DROWNED",
+  "health": 100.0,
+  "damage": 20,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "ROTTEN_FLESH",
+    "min": 5,
+    "max": 9,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "sea_walker",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 25,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "Something soggy climbs out of the water: a Sea Walker.",
+   "fishingLevel": 1,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Sea Walker"
+  }
+ },
+ {
+  "id": "sc_night_squid",
+  "name": "Night Squid",
+  "level": 3,
+  "entity": "GLOW_SQUID",
+  "health": 4000.0,
+  "damage": 104,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "INK_SACK",
+    "min": 6,
+    "max": 17,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "SQUID_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.08
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "night_squid",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 25,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "The dark water stirs - a Night Squid rises.",
+   "fishingLevel": 3,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "squid"
+   ],
+   "refName": "Night Squid"
+  }
+ },
+ {
+  "id": "sc_sea_guardian",
+  "name": "Sea Guardian",
+  "level": 33,
+  "entity": "GUARDIAN",
+  "health": 5000.0,
+  "damage": 115,
+  "speed": 1.0,
+  "combatXp": 30,
+  "coins": 24,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "PRISMARINE_CRYSTALS",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "PRISMARINE_SHARD",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "SEA_LANTERN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "sea_guardian",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 247,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A Sea Guardian blinks at you from the deep.",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Sea Guardian"
+  }
+ },
+ {
+  "id": "sc_sea_witch",
+  "name": "Sea Witch",
+  "level": 35,
+  "entity": "WITCH",
+  "health": 6000.0,
+  "damage": 125,
+  "speed": 1.0,
+  "combatXp": 30,
+  "coins": 35,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:1",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "FAIRY_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FAIRY_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FAIRY_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "FAIRY_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "sea_witch",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 350,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "You spilled a Sea Witch's cauldron. She is not pleased.",
+   "fishingLevel": 7,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Sea Witch"
+  }
+ },
+ {
+  "id": "sc_sea_archer",
+  "name": "Sea Archer",
+  "level": 36,
+  "entity": "SKELETON",
+  "health": 7000.0,
+  "damage": 134,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 36,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "BONE",
+    "min": 8,
+    "max": 13,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 3.3e-07
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "sea_archer",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 360,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Sea Archer surfaces with its bow already drawn.",
+   "fishingLevel": 9,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Sea Archer"
+  }
+ },
+ {
+  "id": "sc_rider_of_the_deep",
+  "name": "Deep Rider",
+  "level": 54,
+  "entity": "ZOMBIE",
+  "health": 20000.0,
+  "damage": 215,
+  "speed": 1.0,
+  "combatXp": 15,
+  "coins": 54,
+  "drops": [
+   {
+    "item": "DARK_BAIT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTMENT_MAGNET_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_FEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTED_ROTTEN_FLESH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "rider_of_the_deep",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY4Nzk4NjQ4ODcyMiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZmI3ZGJiZTAwMmY2OTQ2Mzc2ODExM2MxZTkyNTg0ODE5N2Y1OWI2MjY5NGNlMTA1NzkyZGQ1YTUyZGMxN2ExIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "fishingXp": 540,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Deep Rider gallops out of the waves.",
+   "fishingLevel": 11,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Rider of the Deep"
+  }
+ },
+ {
+  "id": "sc_catfish",
+  "name": "Catfish",
+  "level": 59,
+  "entity": "OCELOT",
+  "health": 26000.0,
+  "damage": 242,
+  "speed": 1.0,
+  "combatXp": 25,
+  "coins": 73,
+  "drops": [
+   {
+    "item": "RAW_FISH:2",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:3",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:1",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTMENT_FRAIL_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "catfish",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 737,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "Is that a cat? A Catfish!",
+   "fishingLevel": 13,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Catfish"
+  }
+ },
+ {
+  "id": "sc_sea_leech",
+  "name": "Sea Leech",
+  "level": 74,
+  "entity": "SILVERFISH",
+  "health": 60000.0,
+  "damage": 353,
+  "speed": 1.0,
+  "combatXp": 35,
+  "coins": 92,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 3,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:2",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   },
+   {
+    "item": "ENCHANTMENT_SPIKED_HOOK_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "sea_leech",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 925,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A slimy Sea Leech latches onto your hook.",
+   "fishingLevel": 16,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Sea Leech"
+  }
+ },
+ {
+  "id": "sc_guardian_defender",
+  "name": "Guardian Defender",
+  "level": 75,
+  "entity": "GUARDIAN",
+  "health": 70000.0,
+  "damage": 379,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 112,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 5,
+    "max": 7,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 15,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_LURE_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_PRISMARINE_CRYSTALS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTED_PRISMARINE_SHARD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.6
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "guardian_defender",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1125,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Guardian Defender rises to protect its waters.",
+   "fishingLevel": 17,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Guardian Defender"
+  }
+ },
+ {
+  "id": "sc_deep_sea_protector",
+  "name": "Deep Sea Protector",
+  "level": 90,
+  "entity": "IRON_GOLEM",
+  "health": 150000.0,
+  "damage": 534,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 135,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 12,
+    "max": 15,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:2",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_IRON",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_ANGLER_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "deep_sea_protector",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 4,
+   "slamMult": 1.5,
+   "fishingXp": 1350,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "The Deep Sea Protector wakes from its long sleep!",
+   "fishingLevel": 18,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Deep Sea Protector"
+  }
+ },
+ {
+  "id": "sc_water_hydra",
+  "name": "Water Hydra",
+  "level": 119,
+  "entity": "DROWNED",
+  "health": 500000.0,
+  "damage": 917,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 238,
+  "drops": [
+   {
+    "item": "RAW_FISH",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:2",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:1",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH:3",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 16,
+    "max": 18,
+    "chance": 1.0
+   },
+   {
+    "item": "FISH_AFFINITY_TALISMAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.3
+   },
+   {
+    "item": "WATER_HYDRA_HEAD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.14
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "water_hydra",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_split"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY2MDk1ODgxMzQ0NywKICAicHJvZmlsZUlkIiA6ICJjOTgyNzhiY2Y0YzI0ZWM4ODQxMDE1MzRhNWIyN2Y3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYWlhX2xpbmsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ2YmNkM2JlYTBkZmYxZjQ1ZDgwOGU3YTg1NTBmOTUxMDZhZjQxYjZkOGQxOGEwNzkzZTE5YzkyNTVhZTg0NSIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "splitAt": 0.5,
+   "fishingXp": 2380,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "Three heads break the surface - the Water Hydra wants a fight.",
+   "fishingLevel": 19,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Water Hydra"
+  }
+ },
+ {
+  "id": "sc_sea_emperor",
+  "name": "Tidelord",
+  "level": 150,
+  "entity": "ELDER_GUARDIAN",
+  "health": 800000.0,
+  "damage": 1133,
+  "speed": 1.0,
+  "combatXp": 120,
+  "coins": 150,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DIVER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "FLYING_FISH;2",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "FLYING_FISH;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "FLYING_FISH;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "sea_emperor",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 5,
+   "slamMult": 1.6,
+   "fishingXp": 3000,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "The sea itself bows as the Tidelord rises.",
+   "fishingLevel": 24,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Sea Emperor"
+  }
+ },
+ {
+  "id": "sc_carrot_king",
+  "name": "Carrot Monarch",
+  "level": 63,
+  "entity": "RABBIT",
+  "health": 32000.0,
+  "damage": 266,
+  "speed": 1.0,
+  "combatXp": 30,
+  "coins": 78,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "SPONGE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTMENT_CASTER_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_CARROT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HAT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "ENCHANTED_RABBIT_FOOT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PET_ITEM_LUCKY_CLOVER_DROP",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0066
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "carrot_king",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 787,
+   "rarity": "RARE",
+   "rare": true,
+   "catchMessage": "A crowned rabbit hops out of the water. The Carrot Monarch has arrived!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Carrot King"
+  }
+ },
+ {
+  "id": "sc_agarimoo",
+  "name": "Mooshroom Diver",
+  "level": 81,
+  "entity": "MOOSHROOM",
+  "health": 55000.0,
+  "damage": 340,
+  "speed": 1.0,
+  "combatXp": 32,
+  "coins": 101,
+  "drops": [
+   {
+    "item": "RED_MUSHROOM",
+    "min": 35,
+    "max": 55,
+    "chance": 1.0
+   },
+   {
+    "item": "AGARIMOO_TONGUE",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "agarimoo",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1012,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "Your chumcap bucket rattles - a Mooshroom Diver surfaces.",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Agarimoo"
+  }
+ },
+ {
+  "id": "sc_oasis_rabbit",
+  "name": "Oasis Rabbit",
+  "level": 4,
+  "entity": "RABBIT",
+  "health": 10000.0,
+  "damage": 158,
+  "speed": 1.0,
+  "combatXp": 1,
+  "coins": 4,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.7
+   },
+   {
+    "item": "RABBIT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.7
+   },
+   {
+    "item": "ENCHANTED_RABBIT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "oasis_rabbit",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 40,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A drenched Oasis Rabbit paddles to shore.",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Oasis Rabbit"
+  }
+ },
+ {
+  "id": "sc_oasis_sheep",
+  "name": "Oasis Sheep",
+  "level": 4,
+  "entity": "SHEEP",
+  "health": 10000.0,
+  "damage": 158,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 4,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MUTTON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ENCHANTED_COOKED_MUTTON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "oasis_sheep",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 40,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A very wet Oasis Sheep climbs out of the pool.",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Oasis Sheep"
+  }
+ },
+ {
+  "id": "sc_small_mithril_grubber",
+  "name": "Small Ore Grubber",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 6000,
+  "damage": 125,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "MITHRIL_ORE",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MITHRIL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "mithril_grubber",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 245,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A small Ore Grubber wriggles out of the quarry water.",
+   "fishingLevel": 6,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Small Mithril Grubber",
+   "powder": {
+    "mithril": 250
+   }
+  }
+ },
+ {
+  "id": "sc_medium_mithril_grubber",
+  "name": "Medium Ore Grubber",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 12000,
+  "damage": 171,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "MITHRIL_ORE",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MITHRIL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "mithril_grubber",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 245,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A medium Ore Grubber wriggles out of the quarry water.",
+   "fishingLevel": 6,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Medium Mithril Grubber",
+   "powder": {
+    "mithril": 500
+   }
+  }
+ },
+ {
+  "id": "sc_large_mithril_grubber",
+  "name": "Large Ore Grubber",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 24000,
+  "damage": 234,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "MITHRIL_ORE",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MITHRIL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "mithril_grubber",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 245,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A large Ore Grubber wriggles out of the quarry water.",
+   "fishingLevel": 6,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Large Mithril Grubber",
+   "powder": {
+    "mithril": 1000
+   }
+  }
+ },
+ {
+  "id": "sc_bloated_mithril_grubber",
+  "name": "Bloated Ore Grubber",
+  "level": 15,
+  "entity": "SILVERFISH",
+  "health": 48000,
+  "damage": 320,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "MITHRIL_ORE",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_FISH",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MITHRIL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "mithril_grubber",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 245,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A bloated Ore Grubber wriggles out of the quarry water.",
+   "fishingLevel": 6,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Bloated Mithril Grubber",
+   "powder": {
+    "mithril": 2000
+   }
+  }
+ },
+ {
+  "id": "sc_water_worm",
+  "name": "Water Worm",
+  "level": 71,
+  "entity": "SILVERFISH",
+  "health": 50000.0,
+  "damage": 325,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 88,
+  "drops": [
+   {
+    "item": "ROUGH_AMBER_GEM",
+    "min": 10,
+    "max": 17,
+    "chance": 1.0
+   },
+   {
+    "item": "WORM_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "water_worm",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 887,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Water Worm burrows out of the cave pool.",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Water Worm"
+  }
+ },
+ {
+  "id": "sc_poisoned_water_worm",
+  "name": "Poisoned Water Worm",
+  "level": 83,
+  "entity": "ENDERMITE",
+  "health": 75000.0,
+  "damage": 391,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 103,
+  "drops": [
+   {
+    "item": "ROUGH_AMBER_GEM",
+    "min": 20,
+    "max": 30,
+    "chance": 1.0
+   },
+   {
+    "item": "HARD_STONE",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "WORM_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "poisoned_water_worm",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1037,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Poisoned Water Worm oozes up from the depths.",
+   "fishingLevel": 17,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Poisoned Water Worm"
+  }
+ },
+ {
+  "id": "sc_abyssal_miner",
+  "name": "Abyssal Miner",
+  "level": 182,
+  "entity": "ZOMBIE",
+  "health": 2000000.0,
+  "damage": 1712,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 364,
+  "drops": [
+   {
+    "item": "FLAWED_AMETHYST_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "FLAWED_JADE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "FLAWED_SAPPHIRE_GEM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ROUGH_AMETHYST_GEM",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_JADE_GEM",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "ROUGH_SAPPHIRE_GEM",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "QUARTZ",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_PISCARY_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "abyssal_miner",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDM0NDMxMzcxNCwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiZTA1Y2ZhZTJjNmE3ZDQ3ZGEyY2U4OGIzZTAwYzcyYTE0NWNjMzIxOGYwNDFiM2RkNWJkNWZhNWNhODI3IgogICAgfQogIH0KfQ==",
+  "extra": {
+   "slamEvery": 9,
+   "slamRadius": 4,
+   "slamMult": 1.4,
+   "fishingXp": 3640,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "An Abyssal Miner smashes its way out of the water!",
+   "fishingLevel": 24,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Abyssal Miner"
+  }
+ },
+ {
+  "id": "sc_flaming_worm",
+  "name": "Flaming Worm",
+  "level": 92,
+  "entity": "SILVERFISH",
+  "health": 100000.0,
+  "damage": 445,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 115,
+  "drops": [
+   {
+    "item": "ROUGH_SAPPHIRE_GEM",
+    "min": 20,
+    "max": 30,
+    "chance": 1.0
+   },
+   {
+    "item": "ETERNAL_FLAME_RING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "WORM_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "flaming_worm",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1150,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Flaming Worm wriggles out of the magma.",
+   "fishingLevel": 19,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Flaming Worm"
+  }
+ },
+ {
+  "id": "sc_lava_blaze",
+  "name": "Lava Blaze",
+  "level": 123,
+  "entity": "BLAZE",
+  "health": 400000.0,
+  "damage": 830,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 184,
+  "drops": [
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 20,
+    "max": 30,
+    "chance": 1.0
+   },
+   {
+    "item": "BLAZE_ROD",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "ETERNAL_FLAME_RING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "MAGMA_CORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "BLAZEN_SPHERE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "lava_blaze",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_fireball"
+  ],
+  "extra": {
+   "fireballEvery": 5,
+   "fishingXp": 1845,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Lava Blaze climbs out of the molten rock.",
+   "fishingLevel": 20,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Lava Blaze"
+  }
+ },
+ {
+  "id": "sc_lava_pigman",
+  "name": "Lava Pigman",
+  "level": 129,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 450000.0,
+  "damage": 875,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 193,
+  "drops": [
+   {
+    "item": "ROUGH_TOPAZ_GEM",
+    "min": 20,
+    "max": 30,
+    "chance": 1.0
+   },
+   {
+    "item": "ETERNAL_FLAME_RING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "MAGMA_CORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "lava_pigman",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MTU4NTkzMDEyMTEsInByb2ZpbGVJZCI6IjE4YTJiYjUwMzM0YTQwODQ5MTg0MmMzODAyNTFhMjRiIiwicHJvZmlsZU5hbWUiOiJNSEZfUGlnWm9tYmllIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NGU5YzZlOTg1ODJmZmQ4ZmY4ZmViMzMyMmNkMTg0OWM0M2ZiMTZiMTU4YWJiMTFjYTdiNDJlZGE3NzQzZWIifX19",
+  "extra": {
+   "fishingXp": 1935,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Lava Pigman snorts its way out of the lava!",
+   "fishingLevel": 22,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic",
+    "undead"
+   ],
+   "refName": "Lava Pigman"
+  }
+ },
+ {
+  "id": "sc_magma_slug",
+  "name": "Magma Slug",
+  "level": 186,
+  "entity": "MAGMA_CUBE",
+  "health": 500000.0,
+  "damage": 917,
+  "speed": 1.0,
+  "combatXp": 100,
+  "coins": 186,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "LUMP_OF_MAGMA",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "SLUG_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "magma_slug",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1860,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Magma Slug oozes out of the lava.",
+   "fishingLevel": 27,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Magma Slug"
+  }
+ },
+ {
+  "id": "sc_moogma",
+  "name": "Magma Cow",
+  "level": 203,
+  "entity": "MOOSHROOM",
+  "health": 750000.0,
+  "damage": 1101,
+  "speed": 1.0,
+  "combatXp": 67,
+  "coins": 203,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "MOOGMA_LEGGINGS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "MOOGMA_PELT",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "moogma",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 2030,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A long moo echoes from the lava. A Magma Cow!",
+   "fishingLevel": 28,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Moogma"
+  }
+ },
+ {
+  "id": "sc_lava_leech",
+  "name": "Lava Leech",
+  "level": 215,
+  "entity": "ENDERMITE",
+  "health": 1000000.0,
+  "damage": 1253,
+  "speed": 1.0,
+  "combatXp": 1000,
+  "coins": 268,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 20,
+    "max": 20,
+    "chance": 1.0
+   },
+   {
+    "item": "CUP_OF_BLOOD",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "BLADE_OF_THE_VOLCANO",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "PITCHIN_KOI",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "lava_leech",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 2687,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A small but nasty Lava Leech grabs your line.",
+   "fishingLevel": 30,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Lava Leech"
+  }
+ },
+ {
+  "id": "sc_pyroclastic_worm",
+  "name": "Pyroclastic Worm",
+  "level": 221,
+  "entity": "SILVERFISH",
+  "health": 1200000,
+  "damage": 1360,
+  "speed": 1.0,
+  "combatXp": 400,
+  "coins": 276,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "PYROCLASTIC_SCALE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_CHARM_1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "pyroclastic_worm",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 2762,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "The heat spikes as a Pyroclastic Worm surfaces.",
+   "fishingLevel": 31,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Pyroclastic Worm"
+  }
+ },
+ {
+  "id": "sc_lava_flame",
+  "name": "Lava Flame",
+  "level": 219,
+  "entity": "BLAZE",
+  "health": 1500000.0,
+  "damage": 1504,
+  "speed": 1.0,
+  "combatXp": 2000,
+  "coins": 273,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 40,
+    "max": 40,
+    "chance": 1.0
+   },
+   {
+    "item": "FLAMING_HEART",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FLAMING_CHESTPLATE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "lava_flame",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_fireball"
+  ],
+  "extra": {
+   "fireballEvery": 4,
+   "fishingXp": 2737,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Lava Flame shoots out of the lava!",
+   "fishingLevel": 33,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Lava Flame"
+  }
+ },
+ {
+  "id": "sc_fire_eel",
+  "name": "Fire Eel",
+  "level": 243,
+  "entity": "GUARDIAN",
+  "health": 2000000.0,
+  "damage": 1712,
+  "speed": 1.0,
+  "combatXp": 2000,
+  "coins": 303,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 50,
+    "max": 50,
+    "chance": 1.0
+   },
+   {
+    "item": "ORB_OF_ENERGY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "STAFF_OF_THE_VOLCANO",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "fire_eel",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_fireball"
+  ],
+  "extra": {
+   "fireballEvery": 4,
+   "fishingXp": 3037,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Fire Eel coils out of the molten depths.",
+   "fishingLevel": 34,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Fire Eel"
+  }
+ },
+ {
+  "id": "sc_taurus",
+  "name": "Taurus",
+  "level": 262,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 3000000.0,
+  "damage": 2054,
+  "speed": 1.0,
+  "combatXp": 4000,
+  "coins": 393,
+  "drops": [
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "HORN_OF_TAURUS",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "TAURUS_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "taurus",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzU0MTIyNDQ3OSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0MmEwNmNkNzVlZjMwN2MxOTEzYmE3YTIyNGZiMjA4MmQ4YTJjNTI1NGZkMWJmMDA2MTI1YTA4N2E5YTg2OCIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 4,
+   "slamMult": 1.5,
+   "fishingXp": 3930,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "Taurus charges out of the lava on his burning steed!",
+   "fishingLevel": 35,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic",
+    "undead"
+   ],
+   "refName": "Taurus"
+  }
+ },
+ {
+  "id": "sc_thunder",
+  "name": "Thunder",
+  "level": 324,
+  "entity": "GUARDIAN",
+  "health": 35000000.0,
+  "damage": 6205,
+  "speed": 1.0,
+  "combatXp": 10000,
+  "coins": 648,
+  "drops": [
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "THUNDER_SHARDS",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_ULTIMATE_FLASH_1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.015
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "thunder",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_lightning"
+  ],
+  "extra": {
+   "lightningEvery": 5,
+   "fishingXp": 6480,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "The ground shakes. Thunder rolls up out of the lava.",
+   "fishingLevel": 36,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Thunder"
+  }
+ },
+ {
+  "id": "sc_lord_jawbus",
+  "name": "Lord Gnashmaw",
+  "level": 597,
+  "entity": "IRON_GOLEM",
+  "health": 100000000.0,
+  "damage": 9953,
+  "speed": 1.0,
+  "combatXp": 10000,
+  "coins": 2985,
+  "drops": [
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_LORD_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RADIOACTIVE_VIAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "lord_jawbus",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_fireball",
+   "fishing_slam"
+  ],
+  "extra": {
+   "fireballEvery": 3,
+   "slamEvery": 10,
+   "slamRadius": 5,
+   "slamMult": 3.0,
+   "requires": "trophy:title:2",
+   "fishingXp": 14925,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "You have angered something ancient... Lord Gnashmaw rises from the lava!",
+   "fishingLevel": 45,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Lord Jawbus"
+  }
+ },
+ {
+  "id": "sc_plhlegblast",
+  "name": "Phlegmburst",
+  "level": 210,
+  "entity": "GLOW_SQUID",
+  "health": 500000000.0,
+  "damage": 20534,
+  "speed": 1.0,
+  "combatXp": 300,
+  "coins": 1050,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "INK_SACK",
+    "min": 30,
+    "max": 51,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 2,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_INK_SACK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "SQUID_BOOTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "plhlegblast",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 5250,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "WHOA! A Phlegmburst gurgles up from the pool.",
+   "fishingLevel": 36,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Plhlegblast"
+  }
+ },
+ {
+  "id": "sc_fried_chicken",
+  "name": "Fried Chicken",
+  "level": 86,
+  "entity": "CHICKEN",
+  "health": 65000.0,
+  "damage": 366,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 64,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_FISH",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FRIED_FEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ENCHANTED_RAW_CHICKEN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "fried_chicken",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 645,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "Smells like dinner. It's a Fried Chicken!",
+   "fishingLevel": 14,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Fried Chicken"
+  }
+ },
+ {
+  "id": "sc_volcanic_snail",
+  "name": "Volcanic Snail",
+  "level": 90,
+  "entity": "MAGMA_CUBE",
+  "health": 150000,
+  "damage": 534,
+  "speed": 1.0,
+  "combatXp": 108,
+  "coins": 90,
+  "drops": [
+   {
+    "item": "MAGMA_FISH",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "SEARED_ESCARGOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "volcanic_snail",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 900,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "Ouch, that's hot! You reeled in a Volcanic Snail.",
+   "fishingLevel": 17,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Volcanic Snail"
+  }
+ },
+ {
+  "id": "sc_fireproof_witch",
+  "name": "Fireproof Witch",
+  "level": 150,
+  "entity": "WITCH",
+  "health": 65000.0,
+  "damage": 366,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 187,
+  "drops": [
+   {
+    "item": "SULPHUR",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_FISH",
+    "min": 60,
+    "max": 60,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GLOWSTONE_DUST",
+    "min": 60,
+    "max": 60,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTED_GUNPOWDER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ENCHANTED_GLOWSTONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "SINGED_POWDER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENCHANTMENT_FIRE_PROTECTION_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0001
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "fireproof_witch",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1875,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "Something's brewing in the lava: a Fireproof Witch!",
+   "fishingLevel": 22,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Fireproof Witch"
+  }
+ },
+ {
+  "id": "sc_magma_pillar",
+  "name": "Magma Pillar",
+  "level": 220,
+  "entity": "BLAZE",
+  "health": 2500000,
+  "damage": 1892,
+  "speed": 1.0,
+  "combatXp": 330,
+  "coins": 330,
+  "drops": [
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MAGMA_CREAM",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTMENT_MAGMARIZER_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "magma_pillar",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_fireball"
+  ],
+  "extra": {
+   "fireballEvery": 3,
+   "fishingXp": 3300,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Magma Pillar towers up out of the lava.",
+   "fishingLevel": 31,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Magma Pillar"
+  }
+ },
+ {
+  "id": "sc_fiery_scuttler",
+  "name": "Fiery Scuttler",
+  "level": 291,
+  "entity": "MAGMA_CUBE",
+  "health": 10000000.0,
+  "damage": 3531,
+  "speed": 1.0,
+  "combatXp": 12500,
+  "coins": 582,
+  "drops": [
+   {
+    "item": "SCORCHED_CRAB_STICK",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_BLAZE_ROD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "SEVERED_PINCER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "SCUTTLER_SHELL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "fiery_scuttler",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 6,
+   "slamRadius": 4,
+   "slamMult": 1.5,
+   "fishingXp": 5820,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "A Fiery Scuttler sidles up to you... with friends.",
+   "fishingLevel": 37,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Fiery Scuttler"
+  }
+ },
+ {
+  "id": "sc_ragnarok",
+  "name": "Ragnarok",
+  "level": 612,
+  "entity": "WITHER_SKELETON",
+  "health": 125000000.0,
+  "damage": 11004,
+  "speed": 1.0,
+  "combatXp": 7500,
+  "coins": 3060,
+  "drops": [
+   {
+    "item": "MAGMA_FISH_SILVER",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_COAL",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "CHAIN_END_TIMES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "BRIMSTONE_HANDLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "BURNT_TEXTS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "DYE_CARMINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "ragnarok",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [
+   "fishing_slam",
+   "fishing_fireball"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTA5ODExNTMwMCwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlMWZlMjE0YjcxZjZlYTY5YzU0MWE4NjFjNjRiYWZkYTdiZjliODVkZTVkZDE3YWIyYjZjY2QxZDMyYjAzOSIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 6,
+   "slamMult": 2.5,
+   "fireballEvery": 3,
+   "fishingXp": 15300,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "The sky darkens and the lava boils. Ragnarok has come.",
+   "fishingLevel": 47,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic",
+    "undead"
+   ],
+   "refName": "Ragnarok"
+  }
+ },
+ {
+  "id": "sc_frog_man",
+  "name": "Frog Man",
+  "level": 24,
+  "entity": "DROWNED",
+  "health": 2500.0,
+  "damage": 85,
+  "speed": 1.0,
+  "combatXp": 40,
+  "coins": 18,
+  "drops": [
+   {
+    "item": "HALF_EATEN_MUSHROOM",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "CLAY_BALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "frog_man",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDU3NTgwNzg0NSwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxNTdmMTlkYTA3N2EzZGY0OWIyOTI1ZmI2ZThiNDAwMjIyYmE2ZTU1OWU4NjgxNWY5YjI5NmQ5ZTk2NjdkZDciCiAgICB9CiAgfQp9",
+  "extra": {
+   "fishingXp": 180,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "Half frog, half man, all trouble - it's Frog Man!",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Frog Man"
+  }
+ },
+ {
+  "id": "sc_inkling",
+  "name": "Inkspawn",
+  "level": 38,
+  "entity": "SQUID",
+  "health": 6500.0,
+  "damage": 130,
+  "speed": 1.0,
+  "combatXp": 12,
+  "coins": 38,
+  "drops": [
+   {
+    "item": "INK_SACK",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_INK_SACK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "CLAY_BALL",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "inkling",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 380,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A tiny Inkspawn squirts out of the hotspot.",
+   "fishingLevel": 7,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "squid"
+   ],
+   "refName": "Inkling"
+  }
+ },
+ {
+  "id": "sc_snapping_turtle",
+  "name": "Snapping Turtle",
+  "level": 60,
+  "entity": "TURTLE",
+  "health": 35000.0,
+  "damage": 277,
+  "speed": 1.0,
+  "combatXp": 30,
+  "coins": 75,
+  "drops": [
+   {
+    "item": "CLAY_BALL",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_CLAY_BALL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "BROKEN_RADAR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "EDIBLE_SEAWEED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "snapping_turtle",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 750,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A very angry Snapping Turtle is coming your way!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Snapping Turtle"
+  }
+ },
+ {
+  "id": "sc_manta_ray",
+  "name": "Manta Ray",
+  "level": 124,
+  "entity": "PHANTOM",
+  "health": 300000,
+  "damage": 729,
+  "speed": 1.0,
+  "combatXp": 41,
+  "coins": 186,
+  "drops": [
+   {
+    "item": "CLAY_BALL",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_CLAY_BALL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ENCHANTED_CLAY_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "manta_ray",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1860,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Manta Ray glides up out of the hotspot.",
+   "fishingLevel": 19,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Manta Ray"
+  }
+ },
+ {
+  "id": "sc_blue_ringed_octopus",
+  "name": "Blue Ringed Octopus",
+  "level": 237,
+  "entity": "GLOW_SQUID",
+  "health": 4000000.0,
+  "damage": 2338,
+  "speed": 1.0,
+  "combatXp": 5000,
+  "coins": 474,
+  "drops": [
+   {
+    "item": "ENCHANTED_CLAY_BALL",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "BLUE_RING",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_CLAY_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "OCTOPUS_TENDRIL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "blue_ringed_octopus",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 4,
+   "slamMult": 1.6,
+   "fishingXp": 4740,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "Bright rings flash beneath you - a Blue Ringed Octopus!",
+   "fishingLevel": 35,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Blue Ringed Octopus"
+  }
+ },
+ {
+  "id": "sc_wiki_tiki",
+  "name": "Tiki Totem",
+  "level": 592,
+  "entity": "IRON_GOLEM",
+  "health": 75000000.0,
+  "damage": 8744,
+  "speed": 1.0,
+  "combatXp": 7500,
+  "coins": 2960,
+  "drops": [
+   {
+    "item": "ENCHANTED_JUNGLE_LOG",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_CLAY_BALL",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TROUBLED_BUBBLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "ENCHANTED_CLAY_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TIKI_MASK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "wiki_tiki",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 6,
+   "slamMult": 2.2,
+   "fishingXp": 14800,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "The water froths and a Tiki Totem lurches out. You will pay for this!",
+   "fishingLevel": 40,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Wiki Tiki"
+  }
+ },
+ {
+  "id": "sc_trash_gobbler",
+  "name": "Trash Gobbler",
+  "level": 17,
+  "entity": "ENDERMITE",
+  "health": 2000.0,
+  "damage": 76,
+  "speed": 1.0,
+  "combatXp": 15,
+  "coins": 12,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "CAN_OF_WORMS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "trash_gobbler",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 127,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "The Trash Gobbler is hungry, and you look edible.",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Trash Gobbler"
+  }
+ },
+ {
+  "id": "sc_dumpster_diver",
+  "name": "Dumpster Diver",
+  "level": 21,
+  "entity": "ZOMBIE",
+  "health": 2500.0,
+  "damage": 85,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 21,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "BRONZE_BOWL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "OVERFLOWING_TRASH_CAN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "dumpster_diver",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDkxNjY1NzY2MiwKICAicHJvZmlsZUlkIiA6ICI0ZThjZjYxNzVhMzg0MmMxYjhkZjcyMmUxODdjZGY1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdGl0ZV9MaWNvcm5lXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNWM1ZWI1ZWUwNzJjMDY1ODA5ODZkMTJhMDI5ZTI4MDEwYzEyOTA4NzU1MzQ4MTBjNTMxNDBiYzc2ZGFiZmViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "fishingXp": 210,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Dumpster Diver crawls out of the bayou muck.",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Dumpster Diver"
+  }
+ },
+ {
+  "id": "sc_banshee",
+  "name": "Banshee",
+  "level": 56,
+  "entity": "VEX",
+  "health": 17500.0,
+  "damage": 203,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 70,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "TORN_CLOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.03
+   },
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "CALCIFIED_HEART",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "banshee",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 700,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A mournful wail drifts over the swamp. A Banshee!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Banshee"
+  }
+ },
+ {
+  "id": "sc_bayou_sludge",
+  "name": "Bayou Sludge",
+  "level": 64,
+  "entity": "SLIME",
+  "health": 20000.0,
+  "damage": 215,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 96,
+  "drops": [
+   {
+    "item": "WATER_LILY",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "SLIME_BALL",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SLIME_BALL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "POISON_SAMPLE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "ENCHANTMENT_BLESSING_6",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "ENCHANTED_SLIME_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "bayou_sludge",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 960,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A wobbling heap of swamp gunk rises: the Bayou Sludge!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Bayou Sludge"
+  }
+ },
+ {
+  "id": "sc_alligator",
+  "name": "Alligator",
+  "level": 132,
+  "entity": "RAVAGER",
+  "health": 600000.0,
+  "damage": 996,
+  "speed": 1.0,
+  "combatXp": 75,
+  "coins": 264,
+  "drops": [
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ALLIGATOR_SKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "CONDENSED_WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "alligator",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 4,
+   "slamMult": 1.5,
+   "fishingXp": 2640,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "A long snout cuts through the water. Alligator!",
+   "fishingLevel": 20,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Alligator"
+  }
+ },
+ {
+  "id": "sc_titanoboa",
+  "name": "Titanoboa",
+  "level": 517,
+  "entity": "DROWNED",
+  "health": 45000000.0,
+  "damage": 6948,
+  "speed": 1.0,
+  "combatXp": 175,
+  "coins": 2585,
+  "drops": [
+   {
+    "item": "ENCHANTED_WATER_LILY",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "CONDENSED_WATER_LILY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "SNAKE_EYES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0011
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "TITANOBOA_SHED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0022
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "titanoboa",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTczOTU0OTUyMDAxMCwKICAicHJvZmlsZUlkIiA6ICI2OGVmMmM5NTc5NjM0MjE4YjYwNTM5YWVlOTU3NWJiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVNdWx0aUFjb3VudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDVmMmMwYmJmZTNiOGIxOWI3NDUyMDcyZGI2OWE1ZjU5ZGEzOGZmNjE0MTU1NDUxNTZlNTcwMWUxYmU3NTZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 6,
+   "slamMult": 2.2,
+   "fishingXp": 12925,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "The water bulges for twenty blocks. A Titanoboa uncoils!",
+   "fishingLevel": 30,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Titanoboa"
+  }
+ },
+ {
+  "id": "sc_bogged",
+  "name": "Bogged",
+  "level": 25,
+  "entity": "BOGGED",
+  "health": 3000.0,
+  "damage": 92,
+  "speed": 1.0,
+  "combatXp": 8,
+  "coins": 18,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "MANGROVE_LOG",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   }
+  ],
+  "family": "bogged",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 187,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A Bogged staggers out of the marsh, dripping moss.",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Bogged"
+  }
+ },
+ {
+  "id": "sc_wetwing",
+  "name": "Wetwing",
+  "level": 46,
+  "entity": "PHANTOM",
+  "health": 8000.0,
+  "damage": 143,
+  "speed": 1.0,
+  "combatXp": 15,
+  "coins": 46,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "MANGROVE_LOG",
+    "min": 16,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "WET_WATER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   },
+   {
+    "item": "ENCHANTED_MANGROVE_LOG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "family": "wetwing",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 460,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "Look up! A Wetwing shakes itself dry above you.",
+   "fishingLevel": 7,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Wetwing"
+  }
+ },
+ {
+  "id": "sc_tadgang",
+  "name": "Tadgang",
+  "level": 29,
+  "entity": "FROG",
+  "health": 5000.0,
+  "damage": 115,
+  "speed": 1.0,
+  "combatXp": 5,
+  "coins": 36,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "MANGROVE_LOG",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "GILL_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTED_MANGROVE_LOG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   }
+  ],
+  "family": "tadgang",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 362,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A whole gang of tadpoles swarms your bobber!",
+   "fishingLevel": 9,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Tadgang"
+  }
+ },
+ {
+  "id": "sc_ent",
+  "name": "Ent",
+  "level": 60,
+  "entity": "IRON_GOLEM",
+  "health": 25000.0,
+  "damage": 238,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 90,
+  "drops": [
+   {
+    "item": "MANGROVE_LOG",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MANGROVE_LOG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "SEA_LUMIES",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-05
+   }
+  ],
+  "family": "ent",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 900,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "An Ent, old as the marsh itself, rises from the reeds.",
+   "fishingLevel": 12,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Ent"
+  }
+ },
+ {
+  "id": "sc_loch_emperor",
+  "name": "Loch Sovereign",
+  "level": 101,
+  "entity": "ELDER_GUARDIAN",
+  "health": 800000.0,
+  "damage": 1133,
+  "speed": 1.0,
+  "combatXp": 33,
+  "coins": 202,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "DIVER_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTED_MANGROVE_LOG",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "family": "loch_emperor",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 5,
+   "slamMult": 1.8,
+   "fishingXp": 2020,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "The Loch Sovereign rises, crowned in weed.",
+   "fishingLevel": 20,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "The Loch Emperor"
+  }
+ },
+ {
+  "id": "sc_nessie",
+  "name": "Loch Wyrm",
+  "level": 292,
+  "entity": "SNIFFER",
+  "health": 2000000.0,
+  "damage": 1712,
+  "speed": 1.0,
+  "combatXp": 3000,
+  "coins": 1460,
+  "drops": [
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_MANGROVE_LOG",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "MANGCORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "MOUND_OF_SEAGRASS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "VIBRANT_CORAL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "nessie",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 6,
+   "slamMult": 2.0,
+   "fishingXp": 7300,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "Ripples, then a long neck... the Loch Wyrm is real!",
+   "fishingLevel": 25,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Nessie"
+  }
+ },
+ {
+  "id": "sc_stridersurfer",
+  "name": "Lava Strider",
+  "level": 62,
+  "entity": "STRIDER",
+  "health": 20000.0,
+  "damage": 215,
+  "speed": 1.0,
+  "combatXp": 35,
+  "coins": 77,
+  "drops": [
+   {
+    "item": "GILL_MEMBRANE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "STURDY_BONE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.4
+   }
+  ],
+  "family": "stridersurfer",
+  "flags": [
+   "sea_creature",
+   "aggressive",
+   "magmatic",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 775,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Lava Strider surfs your line right out of the vent.",
+   "fishingLevel": 17,
+   "lava": true,
+   "types": [
+    "sea_creature",
+    "magmatic"
+   ],
+   "refName": "Stridersurfer"
+  }
+ },
+ {
+  "id": "sc_atoll_croaker",
+  "name": "Atoll Croaker",
+  "level": 45,
+  "entity": "FROG",
+  "health": 15000.0,
+  "damage": 189,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 33,
+  "drops": [
+   {
+    "item": "LOTUS",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "atoll_croaker",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 337,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A curious Atoll Croaker gulps down your bait.",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Atoll Croaker"
+  }
+ },
+ {
+  "id": "sc_lotus_guardian",
+  "name": "Lotus Guardian",
+  "level": 55,
+  "entity": "IRON_GOLEM",
+  "health": 25000.0,
+  "damage": 238,
+  "speed": 1.0,
+  "combatXp": 66,
+  "coins": 55,
+  "drops": [
+   {
+    "item": "LOTUS",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FROGCOIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "lotus_guardian",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 550,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Lotus Guardian stands up out of the lagoon.",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Lotus Guardian"
+  }
+ },
+ {
+  "id": "sc_gorf",
+  "name": "Grof",
+  "level": 65,
+  "entity": "FROG",
+  "health": 40000.0,
+  "damage": 294,
+  "speed": 1.0,
+  "combatXp": 85,
+  "coins": 81,
+  "drops": [
+   {
+    "item": "LOTUS",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "LOTUS_SILVER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "REVERSE_REFORGE_STONE_CORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-07
+   }
+  ],
+  "family": "gorf",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 812,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "What is THAT? A... Grof?",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "gorF"
+  }
+ },
+ {
+  "id": "sc_drowned_captain",
+  "name": "Drowned Captain",
+  "level": 74,
+  "entity": "DROWNED",
+  "health": 60000.0,
+  "damage": 353,
+  "speed": 1.0,
+  "combatXp": 111,
+  "coins": 111,
+  "drops": [
+   {
+    "item": "LOTUS",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "LOTUS_SILVER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.2
+   },
+   {
+    "item": "ENCHANTED_GOLD_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "UNLUCKY_DOUBLOON",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "drowned_captain",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1110,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A Drowned Captain seizes your bobber!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Drowned Captain"
+  }
+ },
+ {
+  "id": "sc_puddle_jumper",
+  "name": "Puddle Jumper",
+  "level": 1,
+  "entity": "FROG",
+  "health": 5,
+  "damage": 0,
+  "speed": 1.0,
+  "combatXp": 200,
+  "coins": 2,
+  "drops": [
+   {
+    "item": "LOTUS_SILVER",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "LOTUS_GOLD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "puddle_jumper",
+  "flags": [
+   "sea_creature",
+   "passive"
+  ],
+  "behaviours": [
+   "fishing_puddle_jumper"
+  ],
+  "extra": {
+   "elusive": true,
+   "rideSeconds": 6,
+   "escapeSeconds": 40,
+   "hopEvery": 2.5,
+   "fishingXp": 25,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "A Puddle Jumper is getting ready to leap - cast your rod into it and hold on tight!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Puddle Jumper"
+  }
+ },
+ {
+  "id": "sc_frog_prince",
+  "name": "Frog Prince",
+  "level": 292,
+  "entity": "FROG",
+  "health": 1000000,
+  "damage": 1253,
+  "speed": 1.0,
+  "combatXp": 1320,
+  "coins": 1460,
+  "drops": [
+   {
+    "item": "LOTUS_SILVER",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "LOTUS_GOLD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "PRINCE_CROWN_JEWEL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "frog_prince",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 5,
+   "slamMult": 2.0,
+   "fishingXp": 7300,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "Kneel before the Frog Prince... or else!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Frog Prince"
+  }
+ },
+ {
+  "id": "sc_haggard",
+  "name": "Haggard",
+  "level": 44,
+  "entity": "HUSK",
+  "health": 15000,
+  "damage": 189,
+  "speed": 1.0,
+  "combatXp": 14,
+  "coins": 33,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "haggard",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjAwNjAwMywKICAicHJvZmlsZUlkIiA6ICIxZjk0OTQzN2RlYmQ0ODgyYTlhYzZhZmZmN2RhNDcxMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWlra2FLIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzN2JlNzc4MWEzYWU0NDU0ZjQ2NzBlMTY4NmRjMTdhMDdkZDMyMWQ2ZjY3MGJhODBmOTFlMzkxZjA3NjMzMjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "extra": {
+   "fishingXp": 330,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A Haggard staggers up the bank, spoiling for a fight!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Haggard"
+  }
+ },
+ {
+  "id": "sc_brineling",
+  "name": "Saltling",
+  "level": 58,
+  "entity": "DROWNED",
+  "health": 30000,
+  "damage": 259,
+  "speed": 1.0,
+  "combatXp": 19,
+  "coins": 58,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "SEA_BRINE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "brineling",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNjkyOTIyOCwKICAicHJvZmlsZUlkIiA6ICI0YzZhZTVkNzc0ZDE0MjBkYmJiNThjNDMzZGM3NjNlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdXN0VHJhbnNHaXJsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4ZGRmNDVmMmExNmU2NjJjNjY3NTQxNDIyY2JiZDk0NDM5OGIxYTkwYzUwMGIwMzMwOGIxYzk5YzEwMDAzZDMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "extra": {
+   "fishingXp": 580,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A Saltling cuts you off with a stream of bubbles!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Brineling"
+  }
+ },
+ {
+  "id": "sc_sprawl",
+  "name": "Sprawl",
+  "level": 71,
+  "entity": "SPIDER",
+  "health": 60000,
+  "damage": 353,
+  "speed": 1.0,
+  "combatXp": 23,
+  "coins": 88,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "family": "sprawl",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 887,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Sprawl unfolds out of the blue, and it has seen you.",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Sprawl"
+  }
+ },
+ {
+  "id": "sc_torrid",
+  "name": "Torrid",
+  "level": 85,
+  "entity": "VEX",
+  "health": 120000,
+  "damage": 483,
+  "speed": 1.0,
+  "combatXp": 28,
+  "coins": 127,
+  "drops": [
+   {
+    "item": "SEA_LUMIES",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "WATER_HYACINTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "torrid",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_fireball"
+  ],
+  "extra": {
+   "fireballEvery": 5,
+   "fishingXp": 1275,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "Laughter skims across the water - a Torrid!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Torrid"
+  }
+ },
+ {
+  "id": "sc_silkbreeze",
+  "name": "Silkdrift",
+  "level": 105,
+  "entity": "BREEZE",
+  "health": 400000,
+  "damage": 830,
+  "speed": 1.3,
+  "combatXp": 35,
+  "coins": 210,
+  "drops": [
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SUBLIME_SILK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "DISTANT_ECHO",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "silkbreeze",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 2100,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "Something zips over the springs - a Silkdrift!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Silkbreeze"
+  }
+ },
+ {
+  "id": "sc_giant_isopod",
+  "name": "Giant Isopod",
+  "level": 186,
+  "entity": "ARMADILLO",
+  "health": 3000000,
+  "damage": 2054,
+  "speed": 1.0,
+  "combatXp": 62,
+  "coins": 930,
+  "drops": [
+   {
+    "item": "ENCHANTED_SEA_LUMIES",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ISOPOD_HUSK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "REINFORCED_NETTING",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "giant_isopod",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 5,
+   "slamMult": 2.0,
+   "fishingXp": 4650,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "A Giant Isopod is dredged up out of the depths!",
+   "fishingLevel": 15,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Giant Isopod"
+  }
+ },
+ {
+  "id": "sc_frozen_steve",
+  "name": "Frozen Wanderer",
+  "level": 1,
+  "entity": "STRAY",
+  "health": 700.0,
+  "damage": 48,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "ESSENCE_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ICE",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "WHITE_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ICE_HUNK",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ICY_SINKER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-06
+   }
+  ],
+  "family": "frozen_steve",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1NzQ3MjAxMzcxMjUsInByb2ZpbGVJZCI6ImEyZjgzNDU5NWM4OTRhMjdhZGQzMDQ5NzE2Y2E5MTBjIiwicHJvZmlsZU5hbWUiOiJiUHVuY2giLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0NjkwZjVhYTZkMGU4MDBmOWI4ZDE4OTBmYzE1OGI5MjE4MTlhODFkZmQ3MzQyYTIxNzBlN2VmYzQ2YjllZDcifX19",
+  "extra": {
+   "fishingXp": 25,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "A Frozen Wanderer thaws out of the pond after years under the ice.",
+   "fishingLevel": 1,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Frozen Steve"
+  }
+ },
+ {
+  "id": "sc_frosty",
+  "name": "Frosty",
+  "level": 3,
+  "entity": "SNOW_GOLEM",
+  "health": 7000,
+  "damage": 134,
+  "speed": 1.0,
+  "combatXp": 30,
+  "coins": 3,
+  "drops": [
+   {
+    "item": "ESSENCE_ICE",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ICE",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "SNOW_BLOCK",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ICE_HUNK",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "WHITE_GIFT",
+    "min": 0,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "GREEN_GIFT",
+    "min": 0,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_SNOW_BLOCK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "RED_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "ENCHANTED_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-06
+   }
+  ],
+  "family": "frosty",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 30,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "It's a snowman! He seems friendly enough.",
+   "fishingLevel": 1,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Frosty"
+  }
+ },
+ {
+  "id": "sc_grinch",
+  "name": "Gift Goblin",
+  "level": 25,
+  "entity": "ZOMBIE",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.4,
+  "combatXp": 25,
+  "coins": 31,
+  "drops": [
+   {
+    "item": "WHITE_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "GREEN_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RED_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ESSENCE_ICE",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "grinch",
+  "flags": [
+   "sea_creature",
+   "baby",
+   "passive"
+  ],
+  "behaviours": [],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1NzYxNTc2NDMzOTQsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1MDhlNGEyZjg4NTAyYzAxOTY1MmIyNDM3Yjc2YzgyZmVkZmY5MDkxMzg5ZDg4MTE4ZWNjNjczZjYyOGI1NDcifX19",
+  "extra": {
+   "fishingXp": 312,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A Gift Goblin is running off with the presents - catch him!",
+   "fishingLevel": 13,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Grinch"
+  }
+ },
+ {
+  "id": "sc_nutcracker",
+  "name": "Nutcracker",
+  "level": 115,
+  "entity": "ZOMBIE",
+  "health": 4000000.0,
+  "damage": 2338,
+  "speed": 1.0,
+  "combatXp": 38,
+  "coins": 172,
+  "drops": [
+   {
+    "item": "RED_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ESSENCE_ICE",
+    "min": 12,
+    "max": 24,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "WALNUT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ENCHANTED_PACKED_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-06
+   }
+  ],
+  "family": "nutcracker",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "eyJ0aW1lc3RhbXAiOjE0OTQ5NjQ1NzMzMzgsInByb2ZpbGVJZCI6IjM4OTVkMzFjYTZjMDRjMTg4NWIzOGNlNTk5ZWQ4MGZmIiwicHJvZmlsZU5hbWUiOiJTaXJvdG9wIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0MDdlNjZjODFiMTQ0M2MyZTdkZmM0ZDY1ODNlYjE5YzYyMmZhMjJmMzRmYmY5OWZlNmM0NWY3NmEifX19",
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 4,
+   "slamMult": 1.4,
+   "fishingXp": 1725,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A forgotten Nutcracker marches up from under the ice.",
+   "fishingLevel": 28,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Nutcracker"
+  }
+ },
+ {
+  "id": "sc_yeti",
+  "name": "Yeti",
+  "level": 175,
+  "entity": "POLAR_BEAR",
+  "health": 2000000.0,
+  "damage": 1712,
+  "speed": 1.0,
+  "combatXp": 1,
+  "coins": 350,
+  "drops": [
+   {
+    "item": "ESSENCE_ICE",
+    "min": 100,
+    "max": 100,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_ICE",
+    "min": 32,
+    "max": 64,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_RAW_FISH",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "RED_GIFT",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PACKED_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "BLUE_ICE_HUNK",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "BABY_YETI;0",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "HILT_OF_TRUE_ICE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "yeti",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 5,
+   "slamMult": 1.8,
+   "fishingXp": 3500,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "What in the world is THAT? A Yeti!",
+   "fishingLevel": 25,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Yeti"
+  }
+ },
+ {
+  "id": "sc_reindrake",
+  "name": "Frost Drake",
+  "level": 186,
+  "entity": "PHANTOM",
+  "health": 2500000,
+  "damage": 1892,
+  "speed": 1.0,
+  "combatXp": 62,
+  "coins": 930,
+  "drops": [
+   {
+    "item": "WHITE_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "GREEN_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RED_GIFT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "ENCHANTMENT_PROSPERITY_1",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "DYE_ICEBERG",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "reindrake",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_gifts",
+   "fishing_slam"
+  ],
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 5,
+   "slamMult": 2.0,
+   "fishingXp": 4650,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "Ice cracks and a Frost Drake takes shape from the depths.",
+   "fishingLevel": 35,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic"
+   ],
+   "refName": "Reindrake"
+  }
+ },
+ {
+  "id": "sc_jumpin_jack",
+  "name": "Hopping Jack",
+  "level": 28,
+  "entity": "ZOMBIE",
+  "health": 3000,
+  "damage": 92,
+  "speed": 1.0,
+  "combatXp": 9,
+  "coins": 21,
+  "drops": [
+   {
+    "item": "PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   }
+  ],
+  "family": "jumpin_jack",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 210,
+   "rarity": "COMMON",
+   "rare": false,
+   "catchMessage": "Look out! Hopping Jack bounces at you.",
+   "fishingLevel": 6,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead",
+    "spooky"
+   ],
+   "refName": "Jumpin' Jack"
+  }
+ },
+ {
+  "id": "sc_scarecrow",
+  "name": "Scarecrow",
+  "level": 32,
+  "entity": "ZOMBIE",
+  "health": 4500.0,
+  "damage": 110,
+  "speed": 1.0,
+  "combatXp": 10,
+  "coins": 32,
+  "drops": [
+   {
+    "item": "PUMPKIN",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "GREEN_CANDY",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.025
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.25
+   },
+   {
+    "item": "DYE_MIDNIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-06
+   }
+  ],
+  "family": "scarecrow",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 320,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "Phew, only a Scarecrow.",
+   "fishingLevel": 9,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead",
+    "spooky"
+   ],
+   "refName": "Scarecrow"
+  }
+ },
+ {
+  "id": "sc_nightmare",
+  "name": "Nightmare",
+  "level": 77,
+  "entity": "SKELETON_HORSE",
+  "health": 35000.0,
+  "damage": 277,
+  "speed": 1.0,
+  "combatXp": 20,
+  "coins": 96,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "PUMPKIN",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "LUCKY_HOOF",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "DYE_MIDNIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-06
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "nightmare",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 962,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "Hooves thud under the waves. A Nightmare surfaces.",
+   "fishingLevel": 14,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "spooky"
+   ],
+   "refName": "Nightmare"
+  }
+ },
+ {
+  "id": "sc_werewolf",
+  "name": "Werewolf",
+  "level": 69,
+  "entity": "WOLF",
+  "health": 50000.0,
+  "damage": 325,
+  "speed": 1.0,
+  "combatXp": 50,
+  "coins": 103,
+  "drops": [
+   {
+    "item": "WEREWOLF_SKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PUMPKIN",
+    "min": 16,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.15
+   },
+   {
+    "item": "DEEP_SEA_ORB",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   },
+   {
+    "item": "DYE_MIDNIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 1e-06
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-07
+   }
+  ],
+  "family": "werewolf",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "extra": {
+   "fishingXp": 1035,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "The moon is full... a Werewolf leaps out!",
+   "fishingLevel": 17,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "spooky"
+   ],
+   "refName": "Werewolf"
+  }
+ },
+ {
+  "id": "sc_phantom_fisher",
+  "name": "Phantom Fisher",
+  "level": 157,
+  "entity": "STRAY",
+  "health": 1000000.0,
+  "damage": 1253,
+  "speed": 1.0,
+  "combatXp": 100,
+  "coins": 314,
+  "drops": [
+   {
+    "item": "PURPLE_CANDY",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "DEEP_SEA_ORB",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "PHANTOM_HOOK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_MIDNIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "phantom_fisher",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDAyNDY0MjMyNywKICAicHJvZmlsZUlkIiA6ICI0ZmFkNjk2NTIxNGI0NGQ4YjAxYzlhZTVjZDQ0MDVjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaXBfYXNpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5YmMwMWYyOTlmOThkNTY1YTI3YmExMGExMjkzOTE1YWU4YmVlZWZiOGE2Nzg0NWUyMzMxZGJlNmZkNmZkNiIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 4,
+   "slamMult": 1.6,
+   "fishingXp": 3140,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "The ghost of a long-drowned fisher has come for its rod.",
+   "fishingLevel": 21,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead",
+    "spooky"
+   ],
+   "refName": "Phantom Fisher"
+  }
+ },
+ {
+  "id": "sc_grim_reaper",
+  "name": "Grim Reaper",
+  "level": 312,
+  "entity": "WITHER_SKELETON",
+  "health": 3000000.0,
+  "damage": 2054,
+  "speed": 1.0,
+  "combatXp": 150,
+  "coins": 1560,
+  "drops": [
+   {
+    "item": "PURPLE_CANDY",
+    "min": 8,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "SOUL_FRAGMENT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "SHREDDED_LINE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DEEP_SEA_ORB",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "PET_ITEM_VAMPIRE_FANG",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "POLISHED_PUMPKIN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "BOBBIN_SCRIPTURES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "DYE_MIDNIGHT",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   },
+   {
+    "item": "DYE_AQUAMARINE",
+    "min": 1,
+    "max": 1,
+    "chance": 2e-05
+   }
+  ],
+  "family": "grim_reaper",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDA1NDA5MDUwMCwKICAicHJvZmlsZUlkIiA6ICI5NGMzZGM3YTdiMmQ0NzQ1YmVlYjQzZDc2ZjRjNDVkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25fVml0b0Nvcmxlb25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4YTYxOTRhNWIyMTdiOWY1YTNkZmVjY2U1ZjNlZmU2OTY3NDA1MDM5YjgyZmEwYzRlODk1OTE3NWYzMmU3NWEiCiAgICB9CiAgfQp9",
+  "extra": {
+   "slamEvery": 7,
+   "slamRadius": 5,
+   "slamMult": 2.0,
+   "fishingXp": 7800,
+   "rarity": "MYTHIC",
+   "rare": true,
+   "catchMessage": "No... death itself rises from the water!",
+   "fishingLevel": 26,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead",
+    "spooky"
+   ],
+   "refName": "Grim Reaper"
+  }
+ },
+ {
+  "id": "sc_nurse_shark",
+  "name": "Nurse Shark",
+  "level": 22,
+  "entity": "DROWNED",
+  "health": 2500.0,
+  "damage": 85,
+  "speed": 1.2,
+  "combatXp": 20,
+  "coins": 22,
+  "drops": [
+   {
+    "item": "SHARK_FIN",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "NURSE_SHARK_TOOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "CARNIVAL_TICKET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "family": "nurse_shark",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5ODA1MzgyMjMyNCwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDY3Y2NlZmJhNWQ4MTFmNDdlM2UxODQzODU1NmI3MDQzOTNhYWZjYWZjY2VkZDVkMDk4MTk5OTI4NmY1OThhIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "fishingXp": 220,
+   "rarity": "UNCOMMON",
+   "rare": false,
+   "catchMessage": "A small fin pokes out of the water: a Nurse Shark.",
+   "fishingLevel": 5,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Nurse Shark"
+  }
+ },
+ {
+  "id": "sc_blue_shark",
+  "name": "Blue Shark",
+  "level": 52,
+  "entity": "DROWNED",
+  "health": 25000.0,
+  "damage": 238,
+  "speed": 1.25,
+  "combatXp": 40,
+  "coins": 65,
+  "drops": [
+   {
+    "item": "SHARK_FIN",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "BLUE_SHARK_TOOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "CARNIVAL_TICKET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0015
+   }
+  ],
+  "family": "blue_shark",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTU3NzE1MTQ4NCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zODFlMWQwNmU1ZjA2NTRhNjgyYTMyNjQ5MDViNWRjNGI4ZTdiNjEzYWI2Njk3YWM0NWYyZTBkYTNiYzliNGZkIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "fishingXp": 650,
+   "rarity": "RARE",
+   "rare": false,
+   "catchMessage": "A fin as blue as the sea - a Blue Shark!",
+   "fishingLevel": 10,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Blue Shark"
+  }
+ },
+ {
+  "id": "sc_tiger_shark",
+  "name": "Tiger Shark",
+  "level": 99,
+  "entity": "DROWNED",
+  "health": 250000.0,
+  "damage": 671,
+  "speed": 1.3,
+  "combatXp": 80,
+  "coins": 148,
+  "drops": [
+   {
+    "item": "SHARK_FIN",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "TIGER_SHARK_TOOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "MEGALODON;3",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "CARNIVAL_TICKET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "family": "tiger_shark",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1NzI5NDIzNzE2NjcsInByb2ZpbGVJZCI6ImQzMDQwY2FhNmNiMTRkNzZhNzI4NmNkMWJlYmQxZWE5IiwicHJvZmlsZU5hbWUiOiJQdXJpayIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE1NzU5NzdlNmJkMGM3YWRkOTRlMmQ4ZmRjYzJhZjc3ZTM2YzQ0ZDZiNGM2Nzc4ODg2MmE5NDAwMGJlNjM5OSJ9fX0=",
+  "extra": {
+   "fishingXp": 1485,
+   "rarity": "EPIC",
+   "rare": false,
+   "catchMessage": "A striped hunter bursts from the deep: Tiger Shark!",
+   "fishingLevel": 18,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Tiger Shark"
+  }
+ },
+ {
+  "id": "sc_great_white_shark",
+  "name": "Great White Shark",
+  "level": 160,
+  "entity": "DROWNED",
+  "health": 1500000.0,
+  "damage": 1504,
+  "speed": 1.35,
+  "combatXp": 160,
+  "coins": 320,
+  "drops": [
+   {
+    "item": "SHARK_FIN",
+    "min": 16,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "GREAT_WHITE_SHARK_TOOTH",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   },
+   {
+    "item": "MEGALODON;4",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01
+   },
+   {
+    "item": "CARNIVAL_TICKET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "family": "great_white_shark",
+  "flags": [
+   "sea_creature",
+   "aggressive"
+  ],
+  "behaviours": [
+   "fishing_slam"
+  ],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1ODM1ODM2OTcwOTMsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlMmU1ODY1NDI5ZGQyNTIwYmJjNzAzZTRhOWYyZjFhYmQ1ZTFjYzVkMzFiOGE5YWNiZjc0YjdhOTdjOTM3YWEifX19",
+  "extra": {
+   "slamEvery": 8,
+   "slamRadius": 4,
+   "slamMult": 1.8,
+   "fishingXp": 3200,
+   "rarity": "LEGENDARY",
+   "rare": true,
+   "catchMessage": "A Great White Shark has your scent, and it is hungry!",
+   "fishingLevel": 24,
+   "lava": false,
+   "types": [
+    "sea_creature",
+    "aquatic",
+    "undead"
+   ],
+   "refName": "Great White Shark"
+  }
+ }
+]

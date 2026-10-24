@@ -1,0 +1,70 @@
+[
+ {
+  "item": "EGGLOCATOR",
+  "cost": 50000,
+  "prestige": 1
+ },
+ {
+  "item": "STEAMED_CHOCOLATE_FISH",
+  "cost": 10000000,
+  "prestige": 1
+ },
+ {
+  "item": "DYE_CHOCOLATE",
+  "cost": 250000000,
+  "prestige": 2
+ },
+ {
+  "item": "PET_ITEM_CHOCOLATE_SYRINGE",
+  "cost": 500000000,
+  "prestige": 3
+ },
+ {
+  "item": "CHOCOLATE_FACTORY_BARN_SKIN",
+  "cost": 2000000000,
+  "prestige": 4
+ },
+ {
+  "item": "HOT_CHOCOLATE_MIXIN",
+  "cost": 1500000000,
+  "prestige": 6,
+  "optional": true
+ },
+ {
+  "item": "ZORROS_CAPE",
+  "cost": 4000000000,
+  "prestige": 1,
+  "requires": "zorro",
+  "optional": true
+ },
+ {
+  "item": "NIBBLE_CHOCOLATE_STICK",
+  "cost": 25000000,
+  "prestige": 2,
+  "talisman": true
+ },
+ {
+  "item": "SMOOTH_CHOCOLATE_BAR",
+  "cost": 100000000,
+  "prestige": 3,
+  "talisman": true
+ },
+ {
+  "item": "RICH_CHOCOLATE_CHUNK",
+  "cost": 300000000,
+  "prestige": 4,
+  "talisman": true
+ },
+ {
+  "item": "GANACHE_CHOCOLATE_SLAB",
+  "cost": 1000000000,
+  "prestige": 5,
+  "talisman": true
+ },
+ {
+  "item": "PRESTIGE_CHOCOLATE_REALM",
+  "cost": 3000000000,
+  "prestige": 6,
+  "talisman": true
+ }
+]

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>AISky Overlay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/overlay.css">
+</head>
+<body class="mode-grid">
+<!-- OBS: Browser source, URL http://127.0.0.1:5650/overlay, 1920x1080, tick "Control audio via OBS"
+     (this page IS the voice track). In a normal browser add ?demo=1 for a fake game backdrop. -->
+<div id="stage">
+  <div id="backdrop"><div class="q"></div><div class="q"></div><div class="q"></div><div class="q"></div><div class="cam"></div></div>
+  <div id="quads"></div>
+  <div id="clock" class="idle">
+    <div class="ep">EP 01</div>
+    <div class="box"><div class="row"><span class="t">00:00</span><span class="tot">/ 30:00</span></div><div class="bar"><i></i></div></div>
+    <div class="state">PAUSED</div>
+  </div>
+  <div id="ticker"><div class="label">SKYBLOCK FEED</div><div class="lane"></div></div>
+  <div id="narr"><div class="lab">NARRATOR</div><div class="text"></div></div>
+  <div id="letterbox"><div class="bar top"></div><div class="bar bot"></div></div>
+  <div id="center-caps"></div>
+  <div id="cine-chat"></div>
+  <div id="lower"><div class="kick">LIVE</div><div class="title"></div><div class="sub"></div></div>
+  <div id="intro"><div class="band"></div><div class="ghost"></div><div class="num"></div><div class="nm"></div><div class="ar"></div></div>
+  <div id="speed"></div>
+  <div id="flash"></div>
+  <div id="title"><div class="rays"></div><div class="l1"></div><div class="l2"></div><div class="l3"></div><div class="cast"></div><div class="ep"></div></div>
+  <div id="unlock">&#128264; Click to enable voice audio</div>
+  <div id="conn">RECONNECTING&hellip;</div>
+</div>
+<script src="/static/overlay.js"></script>
+</body>
+</html>

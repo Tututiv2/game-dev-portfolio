@@ -1,0 +1,5903 @@
+[
+ {
+  "id": "armor:ABYSSAL_HELMET#0",
+  "type": "CRAFTING",
+  "result": "ABYSSAL_HELMET",
+  "amount": 1,
+  "grid": [
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64",
+   "DIVER_FRAGMENT:1",
+   "DIVER_HELMET:1",
+   "DIVER_FRAGMENT:1",
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:8"
+ },
+ {
+  "id": "armor:ABYSSAL_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "ABYSSAL_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64",
+   "DIVER_FRAGMENT:1",
+   "DIVER_CHESTPLATE:1",
+   "DIVER_FRAGMENT:1",
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:8"
+ },
+ {
+  "id": "armor:ABYSSAL_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "ABYSSAL_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64",
+   "DIVER_FRAGMENT:1",
+   "DIVER_LEGGINGS:1",
+   "DIVER_FRAGMENT:1",
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:8"
+ },
+ {
+  "id": "armor:ABYSSAL_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "ABYSSAL_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64",
+   "DIVER_FRAGMENT:1",
+   "DIVER_BOOTS:1",
+   "DIVER_FRAGMENT:1",
+   "GILL_MEMBRANE:64",
+   "ENCHANTED_SEA_LUMIES:16",
+   "GILL_MEMBRANE:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:8"
+ },
+ {
+  "id": "armor:ARMOR_OF_YOG_HELMET#0",
+  "type": "CRAFTING",
+  "result": "ARMOR_OF_YOG_HELMET",
+  "amount": 1,
+  "grid": [
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "FLAME_BREAKER_HELMET:1",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:ARMOR_OF_YOG_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "ARMOR_OF_YOG_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "FLAME_BREAKER_CHESTPLATE:1",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:ARMOR_OF_YOG_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "ARMOR_OF_YOG_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "FLAME_BREAKER_LEGGINGS:1",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:ARMOR_OF_YOG_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "ARMOR_OF_YOG_BOOTS",
+  "amount": 1,
+  "grid": [
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "FLAME_BREAKER_BOOTS:1",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5",
+   "YOGGIE:5"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:BAT_PERSON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "BAT_PERSON_HELMET",
+  "amount": 1,
+  "grid": [
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_HELMET:1",
+   "SPOOKY_SHARD:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:BAT_PERSON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "BAT_PERSON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "SPOOKY_SHARD:1",
+   "SPOOKY_CHESTPLATE:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:BAT_PERSON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "BAT_PERSON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_LEGGINGS:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "",
+   "SPOOKY_SHARD:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:BAT_PERSON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "BAT_PERSON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "SPOOKY_SHARD:1",
+   "SPOOKY_BOOTS:1",
+   "SPOOKY_SHARD:1",
+   "SPOOKY_SHARD:1",
+   "",
+   "SPOOKY_SHARD:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:BERSERKER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "BERSERKER_HELMET",
+  "amount": 1,
+  "grid": [
+   "MAGMA_CHUNK:20",
+   "BURNING_EYE:50",
+   "MAGMA_CHUNK:20",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SAND:1:7"
+ },
+ {
+  "id": "armor:BERSERKER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "BERSERKER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "BURNING_EYE:50",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "MAGMA_CHUNK:20",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "MAGMA_CHUNK:20"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SAND:1:7"
+ },
+ {
+  "id": "armor:BERSERKER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "BERSERKER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "BURNING_EYE:50",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "MAGMA_CHUNK:20",
+   "",
+   "MAGMA_CHUNK:20",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "",
+   "ENCHANTED_RED_SAND_CUBE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SAND:1:7"
+ },
+ {
+  "id": "armor:BERSERKER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "BERSERKER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "",
+   "ENCHANTED_RED_SAND_CUBE:1",
+   "MAGMA_CHUNK:20",
+   "",
+   "MAGMA_CHUNK:20",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SAND:1:7"
+ },
+ {
+  "id": "armor:BLAZE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "BLAZE_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BLAZE_ROD:7"
+ },
+ {
+  "id": "armor:BLAZE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "BLAZE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BLAZE_ROD:7"
+ },
+ {
+  "id": "armor:BLAZE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "BLAZE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BLAZE_ROD:7"
+ },
+ {
+  "id": "armor:BLAZE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "BLAZE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "ENCHANTED_BLAZE_ROD:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BLAZE_ROD:7"
+ },
+ {
+  "id": "armor:BLOBFISH_HAT#0",
+  "type": "CRAFTING",
+  "result": "BLOBFISH_HAT",
+  "amount": 1,
+  "grid": [
+   "WATER_LILY:1",
+   "WATER_LILY:1",
+   "WATER_LILY:1",
+   "WATER_LILY:1",
+   "CLAY_BALL:1",
+   "WATER_LILY:1",
+   "CLAY_BALL:1",
+   "CLAY_BALL:1",
+   "CLAY_BALL:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:2"
+ },
+ {
+  "id": "armor:CACTUS_HELMET#0",
+  "type": "CRAFTING",
+  "result": "CACTUS_HELMET",
+  "amount": 1,
+  "grid": [
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "",
+   "CACTUS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CACTUS:2"
+ },
+ {
+  "id": "armor:CACTUS_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "CACTUS_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CACTUS:1",
+   "",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CACTUS:2"
+ },
+ {
+  "id": "armor:CACTUS_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "CACTUS_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "CACTUS:1",
+   "",
+   "CACTUS:1",
+   "CACTUS:1",
+   "",
+   "CACTUS:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CACTUS:2"
+ },
+ {
+  "id": "armor:CACTUS_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "CACTUS_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CACTUS:1",
+   "",
+   "CACTUS:1",
+   "CACTUS:1",
+   "",
+   "CACTUS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CACTUS:2"
+ },
+ {
+  "id": "armor:CHALLENGER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "CHALLENGER_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_GOLD:16",
+   "GRIFFIN_FEATHER:4",
+   "ENCHANTED_GOLD:16",
+   "ANCIENT_CLAW:32",
+   "",
+   "ANCIENT_CLAW:32",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CHALLENGER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "CHALLENGER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_GOLD:16",
+   "",
+   "ENCHANTED_GOLD:16",
+   "GRIFFIN_FEATHER:1",
+   "ENCHANTED_GOLD:16",
+   "GRIFFIN_FEATHER:1",
+   "GRIFFIN_FEATHER:1",
+   "ANCIENT_CLAW:64",
+   "GRIFFIN_FEATHER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CHALLENGER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "CHALLENGER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ANCIENT_CLAW:64",
+   "ENCHANTED_GOLD:16",
+   "ANCIENT_CLAW:64",
+   "GRIFFIN_FEATHER:1",
+   "",
+   "GRIFFIN_FEATHER:1",
+   "GRIFFIN_FEATHER:1",
+   "",
+   "GRIFFIN_FEATHER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CHALLENGER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "CHALLENGER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_GOLD:32",
+   "",
+   "ENCHANTED_GOLD:32",
+   "GRIFFIN_FEATHER:2",
+   "",
+   "GRIFFIN_FEATHER:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CHICKEN_HEAD#0",
+  "type": "CRAFTING",
+  "result": "CHICKEN_HEAD",
+  "amount": 1,
+  "grid": [
+   "EGG:1",
+   "EGG:1",
+   "EGG:1",
+   "EGG:1",
+   "",
+   "EGG:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_CHICKEN:3"
+ },
+ {
+  "id": "armor:CLOWNFISH_HAT#0",
+  "type": "CRAFTING",
+  "result": "CLOWNFISH_HAT",
+  "amount": 1,
+  "grid": [
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1",
+   "",
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1",
+   "RAW_FISH:2:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:2:1"
+ },
+ {
+  "id": "armor:COW_HEAD#0",
+  "type": "CRAFTING",
+  "result": "COW_HEAD",
+  "amount": 1,
+  "grid": [
+   "RAW_BEEF:1",
+   "RAW_BEEF:1",
+   "RAW_BEEF:1",
+   "RAW_BEEF:1",
+   "",
+   "RAW_BEEF:1",
+   "RAW_BEEF:1",
+   "RAW_BEEF:1",
+   "RAW_BEEF:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LEATHER:2"
+ },
+ {
+  "id": "armor:CREEPER_HAT#0",
+  "type": "CRAFTING",
+  "result": "CREEPER_HAT",
+  "amount": 1,
+  "grid": [
+   "SULPHUR:1",
+   "SULPHUR:1",
+   "SULPHUR:1",
+   "SULPHUR:1",
+   "",
+   "SULPHUR:1",
+   "SULPHUR:1",
+   "SULPHUR:1",
+   "SULPHUR:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SULPHUR:2"
+ },
+ {
+  "id": "armor:SKELETON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SKELETON_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BONE:64",
+   "ENCHANTED_BONE:64",
+   "ENCHANTED_BONE:64",
+   "ENCHANTED_BONE:64",
+   "",
+   "ENCHANTED_BONE:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BONE:8"
+ },
+ {
+  "id": "armor:GUARDIAN_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "GUARDIAN_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "PRISMARINE_SHARD:64",
+   "",
+   "PRISMARINE_SHARD:64",
+   "PRISMARINE_SHARD:64",
+   "PRISMARINE_CRYSTALS:64",
+   "PRISMARINE_SHARD:64",
+   "PRISMARINE_CRYSTALS:64",
+   "PRISMARINE_CRYSTALS:64",
+   "PRISMARINE_CRYSTALS:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PRISMARINE_CRYSTALS:5"
+ },
+ {
+  "id": "armor:CREEPER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "CREEPER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_GUNPOWDER:32",
+   "ENCHANTED_GUNPOWDER:32",
+   "ENCHANTED_GUNPOWDER:32",
+   "ENCHANTED_GUNPOWDER:32",
+   "",
+   "ENCHANTED_GUNPOWDER:32",
+   "ENCHANTED_GUNPOWDER:32",
+   "",
+   "ENCHANTED_GUNPOWDER:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SULPHUR:8"
+ },
+ {
+  "id": "armor:SPIDER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SPIDER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_STRING:64",
+   "",
+   "ENCHANTED_STRING:64",
+   "ENCHANTED_STRING:64",
+   "",
+   "ENCHANTED_STRING:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:STRING:8"
+ },
+ {
+  "id": "armor:CROPIE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "CROPIE_HELMET",
+  "amount": 1,
+  "grid": [
+   "CROPIE:10",
+   "ENCHANTED_HAY_BALE:8",
+   "CROPIE:10",
+   "BOX_OF_SEEDS:3",
+   "MELON_HELMET:1",
+   "BOX_OF_SEEDS:3",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CROPIE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "CROPIE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CROPIE:10",
+   "MELON_CHESTPLATE:1",
+   "CROPIE:10",
+   "BOX_OF_SEEDS:3",
+   "ENCHANTED_HAY_BALE:8",
+   "BOX_OF_SEEDS:3",
+   "ENCHANTED_BAKED_POTATO:15",
+   "ENCHANTED_BAKED_POTATO:15",
+   "ENCHANTED_BAKED_POTATO:15"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CROPIE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "CROPIE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CROPIE:10",
+   "ENCHANTED_HAY_BALE:8",
+   "CROPIE:10",
+   "BOX_OF_SEEDS:3",
+   "MELON_LEGGINGS:1",
+   "BOX_OF_SEEDS:3",
+   "ENCHANTED_GOLDEN_CARROT:15",
+   "",
+   "ENCHANTED_GOLDEN_CARROT:15"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CROPIE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "CROPIE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CROPIE:10",
+   "",
+   "CROPIE:10",
+   "ENCHANTED_HAY_BALE:8",
+   "MELON_BOOTS:1",
+   "ENCHANTED_HAY_BALE:8",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CROWN_OF_AVARICE#0",
+  "type": "CRAFTING",
+  "result": "CROWN_OF_AVARICE",
+  "amount": 1,
+  "grid": [
+   "GRIFFIN_FEATHER:16",
+   "ENCHANTED_GOLD_BLOCK:8",
+   "GRIFFIN_FEATHER:16",
+   "ENCHANTED_GOLD_BLOCK:8",
+   "CROWN_OF_GREED:1",
+   "ENCHANTED_GOLD_BLOCK:8",
+   "GRIFFIN_FEATHER:16",
+   "AVARICIOUS_CHALICE:2",
+   "GRIFFIN_FEATHER:16"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CRYSTAL_HELMET#0",
+  "type": "CRAFTING",
+  "result": "CRYSTAL_HELMET",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CRYSTAL_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "CRYSTAL_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CRYSTAL_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "CRYSTAL_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:CRYSTAL_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "CRYSTAL_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "CRYSTAL_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:DIAMOND_HELMET#0",
+  "type": "CRAFTING",
+  "result": "DIAMOND_HELMET",
+  "amount": 1,
+  "grid": [
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:DIAMOND_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "DIAMOND_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:DIAMOND_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "DIAMOND_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:DIAMOND_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "DIAMOND_BOOTS",
+  "amount": 1,
+  "grid": [
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1",
+   "DIAMOND:1",
+   "",
+   "DIAMOND:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:DIVAN_HELMET#0",
+  "type": "FORGE",
+  "result": "DIVAN_HELMET",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_RUBY_GEM:1",
+   "GEMSTONE_MIXTURE:10",
+   "DIVAN_FRAGMENT:5"
+  ],
+  "durationSeconds": 86400,
+  "station": "Forge"
+ },
+ {
+  "id": "armor:DIVAN_CHESTPLATE#0",
+  "type": "FORGE",
+  "result": "DIVAN_CHESTPLATE",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:10",
+   "FLAWLESS_RUBY_GEM:1",
+   "DIVAN_FRAGMENT:8"
+  ],
+  "durationSeconds": 86400,
+  "station": "Forge"
+ },
+ {
+  "id": "armor:DIVAN_LEGGINGS#0",
+  "type": "FORGE",
+  "result": "DIVAN_LEGGINGS",
+  "amount": 1,
+  "inputs": [
+   "DIVAN_FRAGMENT:7",
+   "FLAWLESS_RUBY_GEM:1",
+   "GEMSTONE_MIXTURE:10"
+  ],
+  "durationSeconds": 86400,
+  "station": "Forge"
+ },
+ {
+  "id": "armor:DIVAN_BOOTS#0",
+  "type": "FORGE",
+  "result": "DIVAN_BOOTS",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:10",
+   "FLAWLESS_RUBY_GEM:1",
+   "DIVAN_FRAGMENT:4"
+  ],
+  "durationSeconds": 86400,
+  "station": "Forge"
+ },
+ {
+  "id": "armor:DIVER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "DIVER_HELMET",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   "",
+   "GILL_MEMBRANE:16",
+   "SNORKELING_HELMET:1",
+   "GILL_MEMBRANE:16",
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:6"
+ },
+ {
+  "id": "armor:DIVER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "DIVER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   "",
+   "GILL_MEMBRANE:16",
+   "SNORKELING_CHESTPLATE:1",
+   "GILL_MEMBRANE:16",
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:6"
+ },
+ {
+  "id": "armor:DIVER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "DIVER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   "",
+   "GILL_MEMBRANE:16",
+   "SNORKELING_LEGGINGS:1",
+   "GILL_MEMBRANE:16",
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:6"
+ },
+ {
+  "id": "armor:DIVER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "DIVER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   "",
+   "GILL_MEMBRANE:16",
+   "SNORKELING_BOOTS:1",
+   "GILL_MEMBRANE:16",
+   "",
+   "ENCHANTED_SEA_LUMIES:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SEA_LUMIES:6"
+ },
+ {
+  "id": "armor:EMBER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "EMBER_HELMET",
+  "amount": 1,
+  "grid": [
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:EMBER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "EMBER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:EMBER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "EMBER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:EMBER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "EMBER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1",
+   "EMBER_FRAGMENT:1",
+   "",
+   "EMBER_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:EMERALD_ARMOR_HELMET#0",
+  "type": "CRAFTING",
+  "result": "EMERALD_ARMOR_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:EMERALD:9"
+ },
+ {
+  "id": "armor:EMERALD_ARMOR_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "EMERALD_ARMOR_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:EMERALD:9"
+ },
+ {
+  "id": "armor:EMERALD_ARMOR_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "EMERALD_ARMOR_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:EMERALD:9"
+ },
+ {
+  "id": "armor:EMERALD_ARMOR_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "EMERALD_ARMOR_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "ENCHANTED_EMERALD_BLOCK:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:EMERALD:9"
+ },
+ {
+  "id": "armor:ENCHANTED_JACK_O_LANTERN#0",
+  "type": "CRAFTING",
+  "result": "ENCHANTED_JACK_O_LANTERN",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_PUMPKIN:32",
+   "",
+   "ENCHANTED_PUMPKIN:32",
+   "ENCHANTED_PUMPKIN:32",
+   "ENCHANTED_PUMPKIN:32",
+   "",
+   "TORCH:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PUMPKIN:7"
+ },
+ {
+  "id": "armor:FARMER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FARMER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PUMPKIN:64",
+   "",
+   "ENCHANTED_PUMPKIN:64",
+   "ENCHANTED_PUMPKIN:64",
+   "",
+   "ENCHANTED_PUMPKIN:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PUMPKIN:9"
+ },
+ {
+  "id": "armor:FARM_ARMOR_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FARM_ARMOR_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "FARM_SUIT_HELMET:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:6"
+ },
+ {
+  "id": "armor:FARM_ARMOR_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FARM_ARMOR_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "FARM_SUIT_CHESTPLATE:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:6"
+ },
+ {
+  "id": "armor:FARM_ARMOR_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FARM_ARMOR_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "FARM_SUIT_LEGGINGS:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:6"
+ },
+ {
+  "id": "armor:FARM_ARMOR_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FARM_ARMOR_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "FARM_SUIT_BOOTS:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:6"
+ },
+ {
+  "id": "armor:FARM_SUIT_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FARM_SUIT_HELMET",
+  "amount": 1,
+  "grid": [
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "",
+   "WHEAT:8",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:2"
+ },
+ {
+  "id": "armor:FARM_SUIT_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FARM_SUIT_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "WHEAT:8",
+   "",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:2"
+ },
+ {
+  "id": "armor:FARM_SUIT_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FARM_SUIT_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "WHEAT:8",
+   "",
+   "WHEAT:8",
+   "WHEAT:8",
+   "",
+   "WHEAT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:2"
+ },
+ {
+  "id": "armor:FARM_SUIT_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FARM_SUIT_BOOTS",
+  "amount": 1,
+  "grid": [
+   "WHEAT:8",
+   "",
+   "WHEAT:8",
+   "WHEAT:8",
+   "",
+   "WHEAT:8",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WHEAT:2"
+ },
+ {
+  "id": "armor:FERMENTO_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FERMENTO_HELMET",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_SUGAR_CANE:32",
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_HUGE_MUSHROOM_2:16",
+   "SQUASH_HELMET:1",
+   "ENCHANTED_HUGE_MUSHROOM_1:16",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:FERMENTO_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FERMENTO_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_FERMENTO:1",
+   "SQUASH_CHESTPLATE:1",
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_HUGE_MUSHROOM_2:16",
+   "ENCHANTED_SUGAR_CANE:32",
+   "ENCHANTED_HUGE_MUSHROOM_1:16",
+   "MUTANT_NETHER_STALK:15",
+   "ENCHANTED_CACTUS:25",
+   "MUTANT_NETHER_STALK:15"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:FERMENTO_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FERMENTO_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_SUGAR_CANE:32",
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_HUGE_MUSHROOM_2:16",
+   "SQUASH_LEGGINGS:1",
+   "ENCHANTED_HUGE_MUSHROOM_1:16",
+   "MUTANT_NETHER_STALK:20",
+   "",
+   "MUTANT_NETHER_STALK:20"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:FERMENTO_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FERMENTO_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_FERMENTO:1",
+   "",
+   "CONDENSED_FERMENTO:1",
+   "ENCHANTED_HUGE_MUSHROOM_2:16",
+   "SQUASH_BOOTS:1",
+   "ENCHANTED_HUGE_MUSHROOM_1:16",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:FIG_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FIG_HELMET",
+  "amount": 1,
+  "grid": [
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "CANOPY_HELMET:1",
+   "FIGSTONE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:8"
+ },
+ {
+  "id": "armor:FIG_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FIG_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "CANOPY_CHESTPLATE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:8"
+ },
+ {
+  "id": "armor:FIG_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FIG_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "CANOPY_LEGGINGS:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "",
+   "FIGSTONE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:8"
+ },
+ {
+  "id": "armor:FIG_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FIG_BOOTS",
+  "amount": 1,
+  "grid": [
+   "FIGSTONE:1",
+   "CANOPY_BOOTS:1",
+   "FIGSTONE:1",
+   "FIGSTONE:1",
+   "",
+   "FIGSTONE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:8"
+ },
+ {
+  "id": "armor:FISH_HAT#0",
+  "type": "CRAFTING",
+  "result": "FISH_HAT",
+  "amount": 1,
+  "grid": [
+   "RAW_FISH:1",
+   "RAW_FISH:1",
+   "RAW_FISH:1",
+   "RAW_FISH:1",
+   "",
+   "RAW_FISH:1",
+   "RAW_FISH:1",
+   "RAW_FISH:1",
+   "RAW_FISH:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1"
+ },
+ {
+  "id": "armor:FLAME_BREAKER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FLAME_BREAKER_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:5"
+ },
+ {
+  "id": "armor:FLAME_BREAKER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FLAME_BREAKER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:5"
+ },
+ {
+  "id": "armor:FLAME_BREAKER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FLAME_BREAKER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:5"
+ },
+ {
+  "id": "armor:FLAME_BREAKER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FLAME_BREAKER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20",
+   "ENCHANTED_HARD_STONE:20",
+   "",
+   "ENCHANTED_HARD_STONE:20"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:5"
+ },
+ {
+  "id": "armor:FROGGLES#0",
+  "type": "CRAFTING",
+  "result": "FROGGLES",
+  "amount": 1,
+  "grid": [
+   "LOTUS:1",
+   "LOTUS:1",
+   "LOTUS:1",
+   "LOTUS:1",
+   "",
+   "LOTUS:1",
+   "LOTUS:1",
+   "LOTUS:1",
+   "LOTUS:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:1"
+ },
+ {
+  "id": "armor:FROGGLES_DIAMOND#0",
+  "type": "CRAFTING",
+  "result": "FROGGLES_DIAMOND",
+  "amount": 1,
+  "grid": [
+   "",
+   "LOTUS_DIAMOND:1",
+   "",
+   "CONDENSED_WATER_LILY:2",
+   "FROGGLES_GOLD:1",
+   "CONDENSED_WATER_LILY:2",
+   "",
+   "LOTUS_DIAMOND:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:11"
+ },
+ {
+  "id": "armor:FROGGLES_GOLD#0",
+  "type": "CRAFTING",
+  "result": "FROGGLES_GOLD",
+  "amount": 1,
+  "grid": [
+   "",
+   "LOTUS_GOLD:1",
+   "",
+   "ENCHANTED_WATER_LILY:32",
+   "FROGGLES_SILVER:1",
+   "ENCHANTED_WATER_LILY:32",
+   "",
+   "LOTUS_GOLD:1",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:7"
+ },
+ {
+  "id": "armor:FROGGLES_SILVER#0",
+  "type": "CRAFTING",
+  "result": "FROGGLES_SILVER",
+  "amount": 1,
+  "grid": [
+   "",
+   "LOTUS_SILVER:4",
+   "",
+   "ENCHANTED_WATER_LILY:8",
+   "FROGGLES:1",
+   "ENCHANTED_WATER_LILY:8",
+   "",
+   "LOTUS_SILVER:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:4"
+ },
+ {
+  "id": "armor:FROZEN_BLAZE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "FROZEN_BLAZE_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "BLAZE_HELMET:1",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ICE:9"
+ },
+ {
+  "id": "armor:FROZEN_BLAZE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "FROZEN_BLAZE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "BLAZE_CHESTPLATE:1",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ICE:9"
+ },
+ {
+  "id": "armor:FROZEN_BLAZE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "FROZEN_BLAZE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "BLAZE_LEGGINGS:1",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ICE:9"
+ },
+ {
+  "id": "armor:FROZEN_BLAZE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "FROZEN_BLAZE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "BLAZE_BOOTS:1",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8",
+   "ENCHANTED_PACKED_ICE:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ICE:9"
+ },
+ {
+  "id": "armor:GLOSSY_MINERAL_HELMET#0",
+  "type": "CRAFTING",
+  "result": "GLOSSY_MINERAL_HELMET",
+  "amount": 1,
+  "grid": [
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "MINERAL_HELMET:1",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GLOSSY_MINERAL_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "GLOSSY_MINERAL_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "MINERAL_CHESTPLATE:1",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GLOSSY_MINERAL_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "GLOSSY_MINERAL_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "MINERAL_LEGGINGS:1",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GLOSSY_MINERAL_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "GLOSSY_MINERAL_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "MINERAL_BOOTS:1",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2",
+   "GLOSSY_GEMSTONE:2"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GOLD_HELMET#0",
+  "type": "CRAFTING",
+  "result": "GOLD_HELMET",
+  "amount": 1,
+  "grid": [
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GOLD_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "GOLD_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GOLD_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "GOLD_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GOLD_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "GOLD_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1",
+   "GOLD_INGOT:1",
+   "",
+   "GOLD_INGOT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:GOLEM_ARMOR_HELMET#0",
+  "type": "CRAFTING",
+  "result": "GOLEM_ARMOR_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:6"
+ },
+ {
+  "id": "armor:GOLEM_ARMOR_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "GOLEM_ARMOR_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:6"
+ },
+ {
+  "id": "armor:GOLEM_ARMOR_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "GOLEM_ARMOR_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:6"
+ },
+ {
+  "id": "armor:GOLEM_ARMOR_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "GOLEM_ARMOR_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10",
+   "ENCHANTED_IRON:10",
+   "",
+   "ENCHANTED_IRON:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:6"
+ },
+ {
+  "id": "armor:GOLEM_HAT#0",
+  "type": "CRAFTING",
+  "result": "GOLEM_HAT",
+  "amount": 1,
+  "grid": [
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:2"
+ },
+ {
+  "id": "armor:GROWTH_HELMET#0",
+  "type": "CRAFTING",
+  "result": "GROWTH_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG_2:1:9"
+ },
+ {
+  "id": "armor:GROWTH_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "GROWTH_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG_2:1:9"
+ },
+ {
+  "id": "armor:GROWTH_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "GROWTH_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG_2:1:9"
+ },
+ {
+  "id": "armor:GROWTH_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "GROWTH_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "ENCHANTED_DARK_OAK_LOG:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG_2:1:9"
+ },
+ {
+  "id": "armor:HARDENED_DIAMOND_HELMET#0",
+  "type": "CRAFTING",
+  "result": "HARDENED_DIAMOND_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:7"
+ },
+ {
+  "id": "armor:HARDENED_DIAMOND_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "HARDENED_DIAMOND_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:7"
+ },
+ {
+  "id": "armor:HARDENED_DIAMOND_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "HARDENED_DIAMOND_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:7"
+ },
+ {
+  "id": "armor:HARDENED_DIAMOND_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "HARDENED_DIAMOND_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1",
+   "ENCHANTED_DIAMOND:1",
+   "",
+   "ENCHANTED_DIAMOND:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:7"
+ },
+ {
+  "id": "armor:HEAT_HELMET#0",
+  "type": "CRAFTING",
+  "result": "HEAT_HELMET",
+  "amount": 1,
+  "grid": [
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "TANK_MINER_HELMET:1",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:2"
+ },
+ {
+  "id": "armor:HEAT_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "HEAT_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "TANK_MINER_CHESTPLATE:1",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:2"
+ },
+ {
+  "id": "armor:HEAT_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "HEAT_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "TANK_MINER_LEGGINGS:1",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:2"
+ },
+ {
+  "id": "armor:HEAT_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "HEAT_BOOTS",
+  "amount": 1,
+  "grid": [
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "TANK_MINER_BOOTS:1",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32",
+   "HARD_STONE:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HARD_STONE:2"
+ },
+ {
+  "id": "armor:HELIANTHUS_HELMET#0",
+  "type": "CRAFTING",
+  "result": "HELIANTHUS_HELMET",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_WILD_ROSE:64",
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_SUNFLOWER:64",
+   "FERMENTO_HELMET:1",
+   "COMPACTED_MOONFLOWER:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HELIANTHUS_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "HELIANTHUS_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_HELIANTHUS:1",
+   "FERMENTO_CHESTPLATE:1",
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_SUNFLOWER:32",
+   "COMPACTED_WILD_ROSE:32",
+   "COMPACTED_SUNFLOWER:32",
+   "COMPACTED_MOONFLOWER:32",
+   "COMPACTED_WILD_ROSE:32",
+   "COMPACTED_MOONFLOWER:32"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HELIANTHUS_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "HELIANTHUS_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_WILD_ROSE:64",
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_SUNFLOWER:32",
+   "FERMENTO_LEGGINGS:1",
+   "COMPACTED_SUNFLOWER:32",
+   "COMPACTED_MOONFLOWER:32",
+   "",
+   "COMPACTED_MOONFLOWER:32"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HELIANTHUS_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "HELIANTHUS_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_HELIANTHUS:1",
+   "",
+   "CONDENSED_HELIANTHUS:1",
+   "COMPACTED_SUNFLOWER:64",
+   "FERMENTO_BOOTS:1",
+   "COMPACTED_MOONFLOWER:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HELIX_ARMOR_HELMET#0",
+  "type": "CRAFTING",
+  "result": "HELIX_ARMOR_HELMET",
+  "amount": 1,
+  "grid": [
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "FIG_HELMET:1",
+   "HELIXIS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HELIX_LOG:8"
+ },
+ {
+  "id": "armor:HELIX_ARMOR_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "HELIX_ARMOR_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "HELIXIS:1",
+   "",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "FIG_CHESTPLATE:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "HELIXIS:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HELIX_LOG:8"
+ },
+ {
+  "id": "armor:HELIX_ARMOR_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "HELIX_ARMOR_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "HELIXIS:1",
+   "FIG_LEGGINGS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "",
+   "HELIXIS:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HELIX_LOG:8"
+ },
+ {
+  "id": "armor:HELIX_ARMOR_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "HELIX_ARMOR_BOOTS",
+  "amount": 1,
+  "grid": [
+   "HELIXIS:1",
+   "FIG_BOOTS:1",
+   "HELIXIS:1",
+   "HELIXIS:1",
+   "",
+   "HELIXIS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HELIX_LOG:8"
+ },
+ {
+  "id": "armor:HOLY_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "HOLY_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HOLY_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "HOLY_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HOLY_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "HOLY_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:HOLY_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "HOLY_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10",
+   "HOLY_FRAGMENT:10",
+   "",
+   "HOLY_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:IRON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "IRON_HELMET",
+  "amount": 1,
+  "grid": [
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:IRON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "IRON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:IRON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "IRON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:IRON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "IRON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1",
+   "IRON_INGOT:1",
+   "",
+   "IRON_INGOT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:LEAFLET_HELMET#0",
+  "type": "CRAFTING",
+  "result": "LEAFLET_HELMET",
+  "amount": 1,
+  "grid": [
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "",
+   "LOG:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:2"
+ },
+ {
+  "id": "armor:LEAFLET_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "LEAFLET_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "LOG:1",
+   "",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:2"
+ },
+ {
+  "id": "armor:LEAFLET_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "LEAFLET_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "LOG:1",
+   "",
+   "LOG:1",
+   "LOG:1",
+   "",
+   "LOG:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:2"
+ },
+ {
+  "id": "armor:LEAFLET_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "LEAFLET_BOOTS",
+  "amount": 1,
+  "grid": [
+   "LOG:1",
+   "",
+   "LOG:1",
+   "LOG:1",
+   "",
+   "LOG:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:2"
+ },
+ {
+  "id": "armor:LEATHER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "LEATHER_HELMET",
+  "amount": 1,
+  "grid": [
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "",
+   "LEATHER:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:LEATHER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "LEATHER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "LEATHER:1",
+   "",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:LEATHER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "LEATHER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "LEATHER:1",
+   "",
+   "LEATHER:1",
+   "LEATHER:1",
+   "",
+   "LEATHER:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:LEATHER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "LEATHER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "LEATHER:1",
+   "",
+   "LEATHER:1",
+   "LEATHER:1",
+   "",
+   "LEATHER:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MAGMA_FISH_HAT#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_FISH_HAT",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1",
+   "",
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1",
+   "MAGMA_FISH:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:1"
+ },
+ {
+  "id": "armor:MAGMA_LORD_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_LORD_HELMET",
+  "amount": 1,
+  "grid": [
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MAGMA_LORD_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_LORD_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MAGMA_LORD_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_LORD_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MAGMA_LORD_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_LORD_BOOTS",
+  "amount": 1,
+  "grid": [
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "MAGMA_LORD_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MELON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MELON_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "PUMPKIN_HELMET:1",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:POTATO_ITEM:9"
+ },
+ {
+  "id": "armor:MELON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MELON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "PUMPKIN_CHESTPLATE:1",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:POTATO_ITEM:9"
+ },
+ {
+  "id": "armor:MELON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MELON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "PUMPKIN_LEGGINGS:1",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:POTATO_ITEM:9"
+ },
+ {
+  "id": "armor:MELON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MELON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "PUMPKIN_BOOTS:1",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32",
+   "ENCHANTED_POTATO:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:POTATO_ITEM:9"
+ },
+ {
+  "id": "armor:MINERAL_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MINERAL_HELMET",
+  "amount": 1,
+  "grid": [
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "HARDENED_DIAMOND_HELMET:1",
+   "REFINED_MINERAL:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MINERAL_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MINERAL_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "HARDENED_DIAMOND_CHESTPLATE:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MINERAL_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MINERAL_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "HARDENED_DIAMOND_LEGGINGS:1",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "",
+   "REFINED_MINERAL:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MINERAL_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MINERAL_BOOTS",
+  "amount": 1,
+  "grid": [
+   "REFINED_MINERAL:1",
+   "",
+   "REFINED_MINERAL:1",
+   "REFINED_MINERAL:1",
+   "HARDENED_DIAMOND_BOOTS:1",
+   "REFINED_MINERAL:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MINER_OUTFIT_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MINER_OUTFIT_HELMET",
+  "amount": 1,
+  "grid": [
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:2"
+ },
+ {
+  "id": "armor:MINER_OUTFIT_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MINER_OUTFIT_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:2"
+ },
+ {
+  "id": "armor:MINER_OUTFIT_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MINER_OUTFIT_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:2"
+ },
+ {
+  "id": "armor:MINER_OUTFIT_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MINER_OUTFIT_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1",
+   "IRON_BLOCK:1",
+   "",
+   "IRON_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:IRON_INGOT:2"
+ },
+ {
+  "id": "armor:MITHRIL_COAT#0",
+  "type": "CRAFTING",
+  "result": "MITHRIL_COAT",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MITHRIL:4",
+   "",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4",
+   "ENCHANTED_MITHRIL:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MITHRIL_ORE:7"
+ },
+ {
+  "id": "armor:MUSHROOM_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MUSHROOM_HELMET",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MUSHROOM_COLLECTION:2"
+ },
+ {
+  "id": "armor:MUSHROOM_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MUSHROOM_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MUSHROOM_COLLECTION:2"
+ },
+ {
+  "id": "armor:MUSHROOM_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MUSHROOM_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MUSHROOM_COLLECTION:2"
+ },
+ {
+  "id": "armor:MUSHROOM_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MUSHROOM_BOOTS",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1",
+   "RED_MUSHROOM:1",
+   "",
+   "RED_MUSHROOM:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MUSHROOM_COLLECTION:2"
+ },
+ {
+  "id": "armor:MUSIC_PANTS#0",
+  "type": "CRAFTING",
+  "result": "MUSIC_PANTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SPONGE:1",
+   "ENCHANTED_SPONGE:1",
+   "ENCHANTED_SPONGE:1",
+   "PRISMARINE_SHARD:1",
+   "",
+   "PRISMARINE_SHARD:1",
+   "PRISMARINE_SHARD:1",
+   "",
+   "PRISMARINE_SHARD:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:7"
+ },
+ {
+  "id": "armor:MYTHOS_HELMET#0",
+  "type": "CRAFTING",
+  "result": "MYTHOS_HELMET",
+  "amount": 1,
+  "grid": [
+   "",
+   "MYTHOS_FRAGMENT:2",
+   "",
+   "ENCHANTED_ANCIENT_CLAW:32",
+   "CHALLENGER_HELMET:1",
+   "ENCHANTED_ANCIENT_CLAW:32",
+   "",
+   "MYTHOS_FRAGMENT:2",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MYTHOS_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "MYTHOS_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "",
+   "MYTHOS_FRAGMENT:2",
+   "",
+   "ENCHANTED_GOLD_BLOCK:16",
+   "CHALLENGER_CHESTPLATE:1",
+   "ENCHANTED_GOLD_BLOCK:16",
+   "",
+   "MYTHOS_FRAGMENT:2",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MYTHOS_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "MYTHOS_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "",
+   "MYTHOS_FRAGMENT:2",
+   "",
+   "GRIFFIN_FEATHER:32",
+   "CHALLENGER_LEGGINGS:1",
+   "GRIFFIN_FEATHER:32",
+   "",
+   "MYTHOS_FRAGMENT:2",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:MYTHOS_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "MYTHOS_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "MYTHOS_FRAGMENT:2",
+   "",
+   "ENCHANTED_ANCIENT_CLAW:16",
+   "CHALLENGER_BOOTS:1",
+   "ENCHANTED_ANCIENT_CLAW:16",
+   "",
+   "MYTHOS_FRAGMENT:2",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:NUTCRACKER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "NUTCRACKER_HELMET",
+  "amount": 1,
+  "grid": [
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "SNOW_SUIT_HELMET:1",
+   "WALNUT:3",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:NUTCRACKER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "NUTCRACKER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "WALNUT:3",
+   "SNOW_SUIT_CHESTPLATE:1",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:NUTCRACKER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "NUTCRACKER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "WALNUT:3",
+   "SNOW_SUIT_LEGGINGS:1",
+   "WALNUT:3",
+   "WALNUT:3",
+   "",
+   "WALNUT:3"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:NUTCRACKER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "NUTCRACKER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "WALNUT:3",
+   "SNOW_SUIT_BOOTS:1",
+   "WALNUT:3",
+   "WALNUT:3",
+   "",
+   "WALNUT:3",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:OLD_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "OLD_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:OLD_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "OLD_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:OLD_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "OLD_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:OLD_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "OLD_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10",
+   "OLD_FRAGMENT:10",
+   "",
+   "OLD_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_1#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_1",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:9"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_1#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_1",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:9"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_1#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_1",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:9"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_1#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_1",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DIAMOND:9"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_10#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_10",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_9:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_10#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_10",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_9:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_10#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_10",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_9:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_10#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_10",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_9:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_11#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_11",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_10:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_11#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_11",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_10:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_11#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_11",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_10:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_11#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_11",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_10:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_12#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_12",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_11:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_12#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_12",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_11:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_12#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_12",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_11:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_12#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_12",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_11:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_2#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_1:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_2#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_1:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_2#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_1:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_2#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_2",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_1:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_3#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_3",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_2:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_3#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_3",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_2:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_3#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_3",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_2:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_3#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_3",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_2:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_4#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_4",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_3:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_4#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_4",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_3:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_4#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_4",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_3:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_4#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_4",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_3:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_5#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_5",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_4:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_5#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_5",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_4:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_5#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_5",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_4:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_5#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_5",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_4:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_6#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_6",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_5:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_6#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_6",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_5:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_6#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_6",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_5:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_6#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_6",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_5:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_7#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_7",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_6:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_7#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_7",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_6:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_7#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_7",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_6:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_7#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_7",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_6:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_8#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_8",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_7:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_8#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_8",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_7:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_8#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_8",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_7:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_8#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_8",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_7:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_HELMET_9#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_HELMET_9",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_HELMET_8:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_CHESTPLATE_9#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_CHESTPLATE_9",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_CHESTPLATE_8:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_LEGGINGS_9#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_LEGGINGS_9",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_LEGGINGS_8:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PERFECT_BOOTS_9#0",
+  "type": "CRAFTING",
+  "result": "PERFECT_BOOTS_9",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "PERFECT_BOOTS_8:1",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   "",
+   "ENCHANTED_DIAMOND_BLOCK:1",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PROTECTOR_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "PROTECTOR_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PROTECTOR_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "PROTECTOR_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PROTECTOR_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "PROTECTOR_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PROTECTOR_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "PROTECTOR_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "PROTECTOR_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:PUFFERFISH_HAT#0",
+  "type": "CRAFTING",
+  "result": "PUFFERFISH_HAT",
+  "amount": 1,
+  "grid": [
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:3:3"
+ },
+ {
+  "id": "armor:PUMPKIN_HELMET#0",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "FARM_ARMOR_HELMET:1",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CARROT_ITEM:8"
+ },
+ {
+  "id": "armor:PUMPKIN_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "FARM_ARMOR_CHESTPLATE:1",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CARROT_ITEM:8"
+ },
+ {
+  "id": "armor:PUMPKIN_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "FARM_ARMOR_LEGGINGS:1",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CARROT_ITEM:8"
+ },
+ {
+  "id": "armor:PUMPKIN_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "FARM_ARMOR_BOOTS:1",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8",
+   "ENCHANTED_CARROT:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CARROT_ITEM:8"
+ },
+ {
+  "id": "armor:RABBIT_HELMET#0",
+  "type": "CRAFTING",
+  "result": "RABBIT_HELMET",
+  "amount": 1,
+  "grid": [
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RABBIT:2"
+ },
+ {
+  "id": "armor:RABBIT_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "RABBIT_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RABBIT:2"
+ },
+ {
+  "id": "armor:RABBIT_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "RABBIT_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RABBIT:2"
+ },
+ {
+  "id": "armor:RABBIT_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "RABBIT_BOOTS",
+  "amount": 1,
+  "grid": [
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1",
+   "RABBIT_HIDE:1",
+   "",
+   "RABBIT_HIDE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RABBIT:2"
+ },
+ {
+  "id": "armor:RANCHERS_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "RANCHERS_BOOTS",
+  "amount": 1,
+  "grid": [
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2",
+   "FARMER_BOOTS:1",
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2",
+   "POLISHED_PUMPKIN:2"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PUMPKIN:11"
+ },
+ {
+  "id": "armor:RED_SWEATER#0",
+  "type": "CRAFTING",
+  "result": "RED_SWEATER",
+  "amount": 1,
+  "grid": [
+   "LOTUS:16",
+   "",
+   "LOTUS:16",
+   "LOTUS:16",
+   "REDSTONE:32",
+   "LOTUS:16",
+   "REDSTONE:32",
+   "REDSTONE:32",
+   "REDSTONE:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:2"
+ },
+ {
+  "id": "armor:REKINDLED_EMBER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "REKINDLED_EMBER_HELMET",
+  "amount": 1,
+  "grid": [
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:REKINDLED_EMBER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "REKINDLED_EMBER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:REKINDLED_EMBER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "REKINDLED_EMBER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:REKINDLED_EMBER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "REKINDLED_EMBER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "REKINDLED_EMBER_FRAGMENT:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SALMON_HELMET_NEW#0",
+  "type": "CRAFTING",
+  "result": "SALMON_HELMET_NEW",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:6"
+ },
+ {
+  "id": "armor:SALMON_CHESTPLATE_NEW#0",
+  "type": "CRAFTING",
+  "result": "SALMON_CHESTPLATE_NEW",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:6"
+ },
+ {
+  "id": "armor:SALMON_LEGGINGS_NEW#0",
+  "type": "CRAFTING",
+  "result": "SALMON_LEGGINGS_NEW",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:6"
+ },
+ {
+  "id": "armor:SALMON_BOOTS_NEW#0",
+  "type": "CRAFTING",
+  "result": "SALMON_BOOTS_NEW",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "ENCHANTED_RAW_SALMON:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:6"
+ },
+ {
+  "id": "armor:SALMON_HAT#0",
+  "type": "CRAFTING",
+  "result": "SALMON_HAT",
+  "amount": 1,
+  "grid": [
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1",
+   "",
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1",
+   "RAW_FISH:1:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:1"
+ },
+ {
+  "id": "armor:SEA_LANTERN_HAT#0",
+  "type": "CRAFTING",
+  "result": "SEA_LANTERN_HAT",
+  "amount": 1,
+  "grid": [
+   "PRISMARINE_CRYSTALS:1",
+   "PRISMARINE_CRYSTALS:1",
+   "PRISMARINE_CRYSTALS:1",
+   "PRISMARINE_CRYSTALS:1",
+   "",
+   "PRISMARINE_CRYSTALS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PRISMARINE_CRYSTALS:1"
+ },
+ {
+  "id": "armor:SHARK_SCALE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SHARK_SCALE_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN:1",
+   "SPONGE_HELMET:1",
+   "ENCHANTED_SHARK_FIN:1",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SHARK_SCALE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SHARK_SCALE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN:1",
+   "SPONGE_CHESTPLATE:1",
+   "ENCHANTED_SHARK_FIN:1",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SHARK_SCALE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SHARK_SCALE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN:1",
+   "SPONGE_LEGGINGS:1",
+   "ENCHANTED_SHARK_FIN:1",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SHARK_SCALE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SHARK_SCALE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN:1",
+   "SPONGE_BOOTS:1",
+   "ENCHANTED_SHARK_FIN:1",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SHIMMERING_LIGHT_HOOD#0",
+  "type": "CRAFTING",
+  "result": "SHIMMERING_LIGHT_HOOD",
+  "amount": 1,
+  "grid": [
+   "X:50",
+   "X:50",
+   "X:50",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MYCEL:9"
+ },
+ {
+  "id": "armor:SHIMMERING_LIGHT_TUNIC#0",
+  "type": "CRAFTING",
+  "result": "SHIMMERING_LIGHT_TUNIC",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "Y:30",
+   "Z:10",
+   "Y:30",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "ENCHANTED_MYCELIUM_CUBE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MYCEL:9"
+ },
+ {
+  "id": "armor:SHIMMERING_LIGHT_TROUSERS#0",
+  "type": "CRAFTING",
+  "result": "SHIMMERING_LIGHT_TROUSERS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "Z:10",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "Y:30",
+   "",
+   "Y:30",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "",
+   "ENCHANTED_MYCELIUM_CUBE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MYCEL:9"
+ },
+ {
+  "id": "armor:SHIMMERING_LIGHT_SLIPPERS#0",
+  "type": "CRAFTING",
+  "result": "SHIMMERING_LIGHT_SLIPPERS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "",
+   "ENCHANTED_MYCELIUM_CUBE:1",
+   "X:50",
+   "",
+   "X:50",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MYCEL:9"
+ },
+ {
+  "id": "armor:SKELETON_HAT#0",
+  "type": "CRAFTING",
+  "result": "SKELETON_HAT",
+  "amount": 1,
+  "grid": [
+   "BONE:1",
+   "BONE:1",
+   "BONE:1",
+   "BONE:1",
+   "",
+   "BONE:1",
+   "BONE:1",
+   "BONE:1",
+   "BONE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:BONE:4"
+ },
+ {
+  "id": "armor:SLIME_HAT#0",
+  "type": "CRAFTING",
+  "result": "SLIME_HAT",
+  "amount": 1,
+  "grid": [
+   "SLIME_BALL:1",
+   "SLIME_BALL:1",
+   "SLIME_BALL:1",
+   "SLIME_BALL:1",
+   "",
+   "SLIME_BALL:1",
+   "SLIME_BALL:1",
+   "SLIME_BALL:1",
+   "SLIME_BALL:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SLIME_BALL:2"
+ },
+ {
+  "id": "armor:SORROW_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SORROW_HELMET",
+  "amount": 1,
+  "grid": [
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "",
+   "SORROW:3",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SORROW_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SORROW_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "SORROW:3",
+   "",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SORROW_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SORROW_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "SORROW:3",
+   "",
+   "SORROW:3",
+   "SORROW:3",
+   "",
+   "SORROW:3"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SORROW_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SORROW_BOOTS",
+  "amount": 1,
+  "grid": [
+   "SORROW:3",
+   "",
+   "SORROW:3",
+   "SORROW:3",
+   "",
+   "SORROW:3",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SPEEDSTER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SPEEDSTER_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SUGAR_CANE:4"
+ },
+ {
+  "id": "armor:SPEEDSTER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SPEEDSTER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SUGAR_CANE:4"
+ },
+ {
+  "id": "armor:SPEEDSTER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SPEEDSTER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SUGAR_CANE:4"
+ },
+ {
+  "id": "armor:SPEEDSTER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SPEEDSTER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "ENCHANTED_SUGAR:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SUGAR_CANE:4"
+ },
+ {
+  "id": "armor:SPIDER_HAT#0",
+  "type": "CRAFTING",
+  "result": "SPIDER_HAT",
+  "amount": 1,
+  "grid": [
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1",
+   "",
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1",
+   "SPIDER_EYE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPIDER_EYE:3"
+ },
+ {
+  "id": "armor:SPONGE_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SPONGE_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:9"
+ },
+ {
+  "id": "armor:SPONGE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SPONGE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:9"
+ },
+ {
+  "id": "armor:SPONGE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SPONGE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:9"
+ },
+ {
+  "id": "armor:SPONGE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SPONGE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1",
+   "ENCHANTED_WET_SPONGE:1",
+   "",
+   "ENCHANTED_WET_SPONGE:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:9"
+ },
+ {
+  "id": "armor:SQUASH_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SQUASH_HELMET",
+  "amount": 1,
+  "grid": [
+   "SQUASH:10",
+   "POLISHED_PUMPKIN:8",
+   "SQUASH:10",
+   "ENCHANTED_MELON_BLOCK:24",
+   "CROPIE_HELMET:1",
+   "ENCHANTED_MELON_BLOCK:24",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SQUASH_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SQUASH_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "SQUASH:10",
+   "CROPIE_CHESTPLATE:1",
+   "SQUASH:10",
+   "ENCHANTED_MELON_BLOCK:24",
+   "POLISHED_PUMPKIN:8",
+   "ENCHANTED_MELON_BLOCK:24",
+   "ENCHANTED_COOKIE:10",
+   "ENCHANTED_COOKIE:10",
+   "ENCHANTED_COOKIE:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SQUASH_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SQUASH_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SQUASH:10",
+   "POLISHED_PUMPKIN:8",
+   "SQUASH:10",
+   "ENCHANTED_MELON_BLOCK:24",
+   "CROPIE_LEGGINGS:1",
+   "ENCHANTED_MELON_BLOCK:24",
+   "ENCHANTED_COOKIE:10",
+   "",
+   "ENCHANTED_COOKIE:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SQUASH_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SQUASH_BOOTS",
+  "amount": 1,
+  "grid": [
+   "SQUASH:10",
+   "",
+   "SQUASH:10",
+   "POLISHED_PUMPKIN:6",
+   "CROPIE_BOOTS:1",
+   "POLISHED_PUMPKIN:6",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SQUID_HAT#0",
+  "type": "CRAFTING",
+  "result": "SQUID_HAT",
+  "amount": 1,
+  "grid": [
+   "INK_SACK:1",
+   "INK_SACK:1",
+   "INK_SACK:1",
+   "INK_SACK:1",
+   "",
+   "INK_SACK:1",
+   "INK_SACK:1",
+   "INK_SACK:1",
+   "INK_SACK:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:INK_SACK:1"
+ },
+ {
+  "id": "armor:STRONG_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "STRONG_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:STRONG_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "STRONG_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:STRONG_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "STRONG_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:STRONG_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "STRONG_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10",
+   "STRONG_FRAGMENT:10",
+   "",
+   "STRONG_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SUNFLOWER_HEAD#0",
+  "type": "CRAFTING",
+  "result": "SUNFLOWER_HEAD",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1",
+   "",
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1",
+   "ENCHANTED_SUNFLOWER:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:DOUBLE_PLANT:2"
+ },
+ {
+  "id": "armor:SUPERIOR_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "SUPERIOR_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SUPERIOR_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "SUPERIOR_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SUPERIOR_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "SUPERIOR_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:SUPERIOR_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "SUPERIOR_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "SUPERIOR_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THERMODYNAMIC_HELMET#0",
+  "type": "CRAFTING",
+  "result": "THERMODYNAMIC_HELMET",
+  "amount": 1,
+  "grid": [
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "SPEEDSTER_HELMET:1",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THERMODYNAMIC_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "THERMODYNAMIC_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "SPEEDSTER_CHESTPLATE:1",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THERMODYNAMIC_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "THERMODYNAMIC_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "SPEEDSTER_LEGGINGS:1",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THERMODYNAMIC_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "THERMODYNAMIC_BOOTS",
+  "amount": 1,
+  "grid": [
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "SPEEDSTER_BOOTS:1",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8",
+   "ENCHANTED_SUGAR_CANE:64",
+   "CANE_KNOT:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THUNDER_HELMET#0",
+  "type": "CRAFTING",
+  "result": "THUNDER_HELMET",
+  "amount": 1,
+  "grid": [
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THUNDER_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "THUNDER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THUNDER_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "THUNDER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:THUNDER_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "THUNDER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1",
+   "THUNDER_SHARDS:1",
+   "",
+   "THUNDER_SHARDS:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:UNSTABLE_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "UNSTABLE_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:UNSTABLE_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "UNSTABLE_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:UNSTABLE_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "UNSTABLE_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:UNSTABLE_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "UNSTABLE_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "UNSTABLE_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:VAMPIRE_WITCH_MASK#0",
+  "type": "CRAFTING",
+  "result": "VAMPIRE_WITCH_MASK",
+  "amount": 1,
+  "grid": [
+   "ECTOPLASM:1",
+   "ECTOPLASM:1",
+   "ECTOPLASM:1",
+   "ECTOPLASM:1",
+   "WITCH_MASK:1",
+   "ECTOPLASM:1",
+   "ECTOPLASM:1",
+   "VAMPIRE_MASK:1",
+   "ECTOPLASM:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WEREWOLF_HELMET#0",
+  "type": "CRAFTING",
+  "result": "WEREWOLF_HELMET",
+  "amount": 1,
+  "grid": [
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WEREWOLF_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "WEREWOLF_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WEREWOLF_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "WEREWOLF_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WEREWOLF_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "WEREWOLF_BOOTS",
+  "amount": 1,
+  "grid": [
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4",
+   "WEREWOLF_SKIN:4",
+   "",
+   "WEREWOLF_SKIN:4",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WISE_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "WISE_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WISE_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "WISE_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WISE_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "WISE_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:WISE_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "WISE_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10",
+   "WISE_FRAGMENT:10",
+   "",
+   "WISE_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:YOUNG_DRAGON_HELMET#0",
+  "type": "CRAFTING",
+  "result": "YOUNG_DRAGON_HELMET",
+  "amount": 1,
+  "grid": [
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:YOUNG_DRAGON_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "YOUNG_DRAGON_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:YOUNG_DRAGON_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "YOUNG_DRAGON_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:YOUNG_DRAGON_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "YOUNG_DRAGON_BOOTS",
+  "amount": 1,
+  "grid": [
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "YOUNG_FRAGMENT:10",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "armor:ZOMBIE_CHESTPLATE#0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ZOMBIE_HEART:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ZOMBIE_HEART:1",
+   "ZOMBIE_HEART:1",
+   "ZOMBIE_HEART:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ROTTEN_FLESH:8"
+ },
+ {
+  "id": "armor:ZOMBIE_LEGGINGS#0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ZOMBIE_HEART:1",
+   "ZOMBIE_HEART:1",
+   "ZOMBIE_HEART:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "",
+   "ENCHANTED_ROTTEN_FLESH:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ROTTEN_FLESH:8"
+ },
+ {
+  "id": "armor:ZOMBIE_BOOTS#0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ZOMBIE_HEART:1",
+   "",
+   "ZOMBIE_HEART:1",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ROTTEN_FLESH:8"
+ },
+ {
+  "id": "armor:ZOMBIE_HAT#0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE_HAT",
+  "amount": 1,
+  "grid": [
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ROTTEN_FLESH:5"
+ },
+ {
+  "id": "armor:ZOMBIE_HEART#0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE_HEART",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32",
+   "ENCHANTED_ROTTEN_FLESH:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ROTTEN_FLESH:6"
+ }
+]

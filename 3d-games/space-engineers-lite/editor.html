@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universe Editor - Space Engineers Lite</title>
+  <link rel="stylesheet" href="css/editor.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="editor-root">
+    <aside id="editor-panel">
+      <h2>Universe Editor</h2>
+      <div class="group">
+        <label>Universe Name</label>
+        <input id="universe-name" type="text" />
+      </div>
+      <div class="group inline">
+        <button id="btn-add-sun">Add Sun</button>
+        <button id="btn-add-planet">Add Planet</button>
+      </div>
+      <div class="group inline">
+        <button id="btn-preview-toggle">Pause Preview</button>
+        <label>Preview Speed</label>
+        <input id="preview-speed" type="number" step="0.1" min="0" value="1" />
+      </div>
+      <div class="group inline">
+        <button id="btn-export">Export JSON</button>
+        <button id="btn-save-library">Save To Library</button>
+        <button id="btn-play">Play This Universe</button>
+      </div>
+      <div class="group inline">
+        <label for="file-import" class="file-label">Import JSON</label>
+        <input id="file-import" type="file" accept=".json,application/json" />
+      </div>
+
+      <h3>Selected Body</h3>
+      <div id="selected-empty">Select a body in the viewport.</div>
+      <div id="selected-fields" class="hidden">
+        <div class="group">
+          <label>Name</label>
+          <input id="body-name" type="text" />
+        </div>
+        <div class="group">
+          <label>Type</label>
+          <select id="body-type">
+            <option value="sun">sun</option>
+            <option value="planet">planet</option>
+            <option value="moon">moon</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+        <div class="group">
+          <label>Parent</label>
+          <select id="body-parent"></select>
+        </div>
+        <div class="group"><label>Radius</label><input id="body-radius" type="number" step="10" min="10" /></div>
+        <div class="group"><label>Color (hex)</label><input id="body-color" type="text" /></div>
+        <div class="group"><label>Surface Gravity</label><input id="body-gravity" type="number" step="0.1" min="0" /></div>
+
+        <h4>Orbit</h4>
+        <div class="group"><label>Semi Major</label><input id="orbit-semi" type="number" step="10" min="0" /></div>
+        <div class="group"><label>Inclination (rad)</label><input id="orbit-inc" type="number" step="0.01" /></div>
+        <div class="group"><label>Phase (rad)</label><input id="orbit-phase" type="number" step="0.01" /></div>
+        <div class="group"><label>Orbit Speed (rad/tick)</label><input id="orbit-speed" type="number" step="0.00001" /></div>
+
+        <h4>Rotation</h4>
+        <div class="group"><label>Spin Speed (rad/s)</label><input id="rot-spin" type="number" step="0.0001" /></div>
+        <div class="group"><label>Axial Tilt (rad)</label><input id="rot-tilt" type="number" step="0.01" /></div>
+
+        <div class="group inline">
+          <button id="btn-delete">Delete Body</button>
+        </div>
+      </div>
+      <p id="editor-status">Ready.</p>
+      <p class="hint">Controls: mouse drag to orbit/pan, wheel to zoom, click body to edit, drag selected body to reposition orbit.</p>
+      <p class="hint">Shortcuts: Ctrl+C copy, Ctrl+V paste, Ctrl+X cut, Ctrl+Z undo.</p>
+    </aside>
+    <main id="viewport"></main>
+  </div>
+
+  <script type="module" src="js/editorMain.js"></script>
+</body>
+</html>

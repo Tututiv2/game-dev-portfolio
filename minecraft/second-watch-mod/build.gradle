@@ -1,0 +1,85 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+base {
+    archivesName = 'secondwatch'
+}
+
+repositories {
+    maven {
+        name = 'Henkelmax (Simple Voice Chat API)'
+        url = 'https://maven.maxhenkel.de/repository/public'
+    }
+    mavenCentral()
+}
+
+loom {
+    // The phantom needs Mannequin.DATA_PROFILE, which is protected.
+    accessWidenerPath = file("src/main/resources/secondwatch.accesswidener")
+
+    splitEnvironmentSourceSets()
+
+    mods {
+        "secondwatch" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+
+    runs {
+        client {
+            // Its own directory: sharing one with the server means both fight
+            // over run/logs/latest.log every launch.
+            runDir = "run/client"
+            programArgs("--username", project.dev_username)
+        }
+    }
+}
+
+dependencies {
+    // NOTE: no `mappings` line. Minecraft 26.x is shipped deobfuscated.
+    // See gradle.properties for the evidence before you "fix" this.
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    compileOnly "de.maxhenkel.voicechat:voicechat-api:${project.voicechat_api_version}"
+
+    // The pure core (com.secondwatch.core) has zero Minecraft imports so the whole
+    // design can be tested headlessly in seconds instead of by playing for an hour.
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+processResources {
+    def v = project.version
+    inputs.property 'version', v
+    inputs.property 'loader_version', project.loader_version
+    inputs.property 'minecraft_version', project.minecraft_version
+
+    filesMatching('fabric.mod.json') {
+        expand 'version': v,
+               'loader_version': project.loader_version,
+               'minecraft_version': project.minecraft_version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = Integer.parseInt(project.java_version)
+    it.options.encoding = 'UTF-8'
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}

@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Engineers: Gravity & Grids</title>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #000; font-family: 'Segoe UI', sans-serif; user-select: none; }
+        #game-ui { position: absolute; width: 100%; height: 100%; pointer-events: none; }
+        
+        #crosshair {
+            position: absolute; top: 50%; left: 50%; width: 4px; height: 4px; 
+            background: rgba(255, 255, 255, 0.9); border-radius: 50%;
+            transform: translate(-50%, -50%); box-shadow: 0 0 5px white;
+        }
+        #hud-left {
+            position: absolute; bottom: 100px; left: 20px;
+            color: #0af; font-family: 'Consolas', monospace; font-size: 14px;
+            text-shadow: 0 0 2px black; background: rgba(0, 10, 20, 0.8);
+            padding: 15px; border-left: 3px solid #0af; border-radius: 4px;
+        }
+        .stat-row { display: flex; justify-content: space-between; width: 220px; margin-bottom: 4px; }
+        .stat-val { color: #fff; font-weight: bold; }
+        .active-sys { color: #0f0; } .inactive-sys { color: #f00; }
+
+        /* SHIP HUD */
+        #hud-ship {
+            position: absolute; bottom: 100px; right: 20px;
+            width: 300px; background: rgba(0, 10, 20, 0.85);
+            border-right: 3px solid #f0a500; border-radius: 4px;
+            padding: 20px; display: none;
+            font-family: 'Consolas', monospace; color: white;
+        }
+        #power-bar-container {
+            width: 100%; height: 20px; background: #333; margin: 10px 0;
+            border: 1px solid #555; position: relative;
+        }
+        #power-bar-fill {
+            height: 100%; width: 100%; background: linear-gradient(90deg, #f00, #ff0, #0f0);
+            transition: width 0.1s linear;
+        }
+        #power-text { position: absolute; top: 0; left: 50%; transform:translateX(-50%); font-size: 12px; font-weight: bold; text-shadow: 0 0 2px black; line-height: 20px; }
+        .ship-control { display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px; }
+        .key-hint { background: #333; padding: 2px 6px; border-radius: 3px; font-size: 10px; color: #aaa; border: 1px solid #555; }
+
+        /* DEV MENU */
+        #dev-menu {
+            position: absolute; top: 10px; left: 10px; width: 250px;
+            background: rgba(0,0,0,0.8); border: 1px solid #444; color: #0f0;
+            font-family: monospace; padding: 10px; pointer-events: auto;
+            z-index: 2000;
+        }
+        #dev-menu h3 { margin: 0 0 10px 0; border-bottom: 1px solid #444; font-size: 14px; }
+        .dev-row { margin-bottom: 8px; display: flex; flex-direction: column; }
+        .dev-row label { font-size: 11px; color: #aaa; display: flex; justify-content: space-between; }
+        .dev-row input { width: 100%; }
+
+        /* HOTBAR */
+        #hotbar-container {
+            position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+            display: flex; gap: 5px; pointer-events: auto;
+        }
+        .slot {
+            width: 60px; height: 60px; background: rgba(20, 25, 30, 0.9);
+            border: 2px solid #444; color: white; position: relative;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: bold; transition: 0.1s; cursor: pointer;
+        }
+        .slot.selected { border-color: #0af; box-shadow: 0 0 15px #0af; background: #002244; transform: translateY(-5px); }
+        .slot-num { position: absolute; top: 2px; left: 4px; font-size: 10px; color: #888; }
+
+        /* INVENTORY */
+        #library-modal {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 800px; height: 600px; background: rgba(10, 15, 20, 0.98);
+            border: 1px solid #0af; display: none; flex-direction: column;
+            pointer-events: auto; z-index: 1000; box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        }
+        #lib-header { padding: 20px; background: rgba(0, 50, 100, 0.2); border-bottom: 1px solid #333; display: flex; gap: 20px; }
+        .lib-tab { padding: 10px 20px; background: #222; border: 1px solid #444; color: #aaa; cursor: pointer; font-weight: bold; }
+        .lib-tab.active { background: #0af; color: #000; border-color: #0af; }
+        #lib-content { padding: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 10px; overflow-y: auto; }
+        .lib-item {
+            width: 80px; height: 80px; background: #222; border: 1px solid #444;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            cursor: grab; transition: 0.2s;
+        }
+        .lib-item:hover { border-color: #fff; background: #333; }
+        .item-name { font-size: 10px; margin-top: 5px; text-align: center; color: #ccc; }
+
+        #messages {
+            position: absolute; top: 20px; right: 20px;
+            text-align: right; color: rgba(255,255,255,0.7); font-size: 12px; pointer-events: none;
+            background: rgba(0,0,0,0.5); padding: 5px 10px; border-radius: 10px;
+        }
+        
+        #grid-mode-indicator {
+            position: absolute; bottom: 80px; left: 50%; transform: translateX(-50%);
+            font-size: 12px; font-weight: bold; color: #f0a500; text-shadow: 0 0 2px black;
+        }
+    </style>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="game-ui">
+        <div id="crosshair"></div>
+        <div id="grid-mode-indicator">MODE: LARGE GRID (2.5m)</div>
+        
+        <div id="dev-menu">
+            <h3>DEV CONSOLE [M]</h3>
+            <div class="dev-row">
+                <label>THRUST POWER <span id="val-thrust">300</span></label>
+                <input type="range" min="10" max="1000" value="300" oninput="updateConfig('thrustPower', this.value)">
+            </div>
+            <div class="dev-row">
+                <label>GRAVITY (Base) <span id="val-grav">9.8</span></label>
+                <input type="range" min="0" max="50" value="9.8" oninput="updateConfig('gravityForce', this.value)">
+            </div>
+            <div class="dev-row">
+                <label>ORBIT SPEED <span id="val-orbit">1.0</span>x</label>
+                <input type="range" min="0" max="10" step="0.1" value="1.0" oninput="updateConfig('timeScale', this.value)">
+            </div>
+            <div class="dev-row">
+                <label>JETPACK SPEED <span id="val-jet">50</span></label>
+                <input type="range" min="10" max="200" value="50" oninput="updateConfig('jetpackSpeed', this.value)">
+            </div>
+        </div>
+
+        <div id="hud-left">
+            <div class="stat-row"><span>SPEED</span> <span class="stat-val" id="hud-speed">0.0 m/s</span></div>
+            <div class="stat-row"><span>ALTITUDE</span> <span class="stat-val" id="hud-alt">0 m</span></div>
+            <div class="stat-row"><span>GRAVITY</span> <span class="stat-val" id="hud-g">1.00 G</span></div>
+            <div class="stat-row"><span>PLANET</span> <span class="stat-val" id="hud-planet">NONE</span></div>
+            <div class="stat-row"><span>SUIT DAMP</span> <span class="stat-val" id="hud-damp-suit">ON</span></div>
+            <div class="stat-row"><span>JETPACK</span> <span class="stat-val" id="hud-jet">OFF</span></div>
+            <div style="margin-top:10px; font-size:11px; color:#888;">[G] INVENTORY | [B] TOGGLE GRID SIZE</div>
+        </div>
+
+        <div id="hud-ship">
+            <h3 style="margin:0 0 10px 0; color:#f0a500;">SHIP SYSTEMS</h3>
+            <div class="ship-control"><span>MAIN POWER</span><div><span class="key-hint">Y</span> <span id="ship-state-power" class="active-sys">ONLINE</span></div></div>
+            <div class="ship-control"><span>DAMPENERS</span><div><span class="key-hint">Z</span> <span id="ship-state-damp">ON</span></div></div>
+            <div class="ship-control"><span>LANDING GEAR</span><div><span class="key-hint">P</span> <span id="ship-state-park">OFF</span></div></div>
+            <div style="margin-top:15px; font-size:12px; color:#aaa;">BATTERY LEVEL</div>
+            <div id="power-bar-container"><div id="power-bar-fill"></div><div id="power-text">100%</div></div>
+            <div style="font-size:10px; text-align:right; margin-top:2px;" id="power-draw">Draw: 0 kW</div>
+        </div>
+    </div>
+
+    <div id="hotbar-container"></div>
+
+    <div id="library-modal">
+        <div id="lib-header">
+            <div class="lib-tab active" onclick="setTab('structure')">Structure</div>
+            <div class="lib-tab" onclick="setTab('propulsion')">Propulsion</div>
+            <div class="lib-tab" onclick="setTab('systems')">Systems</div>
+            <div class="lib-tab" onclick="setTab('tools')">Tools</div>
+        </div>
+        <div id="lib-content"></div>
+    </div>
+
+    <div id="messages">
+        SCROLL: Zoom | ALT: Orbit | G: Inventory | B: Grid Size | X: Jetpack | Z: Dampeners | P: Park | Y: Power | R/T/Y: Block Rotate
+    </div>
+
+    <script type="module">
+        import * as THREE from 'https://cdn.skypack.dev/three@0.136.0';
+        import { PointerLockControls } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/PointerLockControls.js';
+
+        // --- CONFIG ---
+        const CONFIG = {
+            planetRadius: 4000, 
+            gravityCutoff: 12000, // Increased for better falloff feel
+            gravityForce: 9.8,
+            largeGridSize: 2.5,
+            smallGridSize: 0.5,
+            playerSpeed: 10.0,
+            jetpackSpeed: 50.0,
+            thrustPower: 300.0, 
+            shipRotSpeed: 1.0,
+            batteryCapacity: 1000.0,
+            thrusterDrain: 2.0,
+            rechargeRate: 1.0,
+            viewDistance: 2000000,
+            timeScale: 1.0,
+            planetRotSpeed: 0.05 
+        };
+
+        // Dev Menu logic
+        window.updateConfig = (key, val) => {
+            CONFIG[key] = parseFloat(val);
+            if(key === 'thrustPower') document.getElementById('val-thrust').innerText = val;
+            if(key === 'gravityForce') document.getElementById('val-grav').innerText = val;
+            if(key === 'timeScale') document.getElementById('val-orbit').innerText = val;
+            if(key === 'jetpackSpeed') document.getElementById('val-jet').innerText = val;
+        };
+
+        // II. Block Dictionary Update
+        const BLOCKS = {
+            1: { name: "Armor", color: 0x555555, type: 'cube', cat: 'structure', mass: 20 },
+            2: { name: "Thruster", color: 0xffaa00, type: 'cone', cat: 'propulsion', mass: 100 },
+            3: { name: "Battery", color: 0x228822, type: 'cube', emissive: 0x00ff00, cat: 'systems', mass: 80 },
+            4: { name: "Cockpit", color: 0xdddddd, type: 'cockpit', cat: 'tools', mass: 50 },
+            5: { name: "Glass", color: 0x88ccff, type: 'cube', opacity: 0.3, cat: 'structure', mass: 5 },
+            6: { name: "Drill", color: 0xcc4444, type: 'drill', cat: 'tools', mass: 150 },
+            7: { name: "Light", color: 0xffffaa, type: 'cube', emissive: 0xffffaa, cat: 'systems', mass: 5 },
+            8: { name: "Wheel", color: 0x222222, type: 'cylinder', cat: 'propulsion', mass: 40 },
+            9: { name: "Beam", color: 0x444444, type: 'cube', cat: 'structure', mass: 10 },
+            10: { name: "Land Gear", color: 0x444444, type: 'pad', cat: 'structure', mass: 30 },
+            11: { name: "Grav Gen", color: 0x0000aa, type: 'gravity', emissive: 0x0000ff, cat: 'systems', mass: 200 } // Planar Gravity
+        };
+
+        // --- STATE ---
+        let camera, scene, renderer, controls;
+        let lastTime = performance.now();
+        let raycaster;
+        let activePlanet = null;
+        
+        const grids = [];
+        const interactables = [];
+        const celestialBodies = [];
+        const Hotbar = [1, 2, 3, 4, 10, 6, 7, 8, 9, 11]; 
+        let isLibraryOpen = false;
+        let draggedItem = null;
+
+        const Player = {
+            wrapper: new THREE.Object3D(),
+            velocity: new THREE.Vector3(),
+            onGround: false,
+            jetpack: false,
+            suitDampeners: true,
+            inShip: false,
+            controlledGrid: null,
+            activeCockpit: null,
+            height: 1.8,
+            rotationX: 0,
+            radius: 0.8
+        };
+
+        const CamState = { distance: 0, orbitX: 0, orbitY: 0 };
+
+        const Build = {
+            activeSlotIndex: 0,
+            selectedBlockId: 1,
+            isActive: true,
+            rotation: new THREE.Quaternion(),
+            ghost: null,
+            targetGrid: null,
+            valid: false,
+            mode: 'large' // 'large' or 'small'
+        };
+
+        const Input = { w:0, a:0, s:0, d:0, sp:0, c:0, q:0, e:0, alt: false };
+
+        init();
+
+        function init() {
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x000000);
+            scene.fog = new THREE.FogExp2(0x000000, 0.000001); 
+
+            camera = new THREE.PerspectiveCamera(60, window.innerWidth/innerHeight, 0.1, CONFIG.viewDistance);
+            Player.wrapper.position.set(0, CONFIG.planetRadius + 10, 0); 
+            scene.add(Player.wrapper);
+
+            renderer = new THREE.WebGLRenderer({ antialias: true, logarithmicDepthBuffer: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.shadowMap.enabled = true;
+            document.body.appendChild(renderer.domElement);
+
+            setupSolarSystem();
+            
+            const home = celestialBodies.find(b => b.userData.name === "Terra");
+            if(home) {
+                // FIXED SPAWN: Calculate actual terrain height + buffer
+                const spawnDir = new THREE.Vector3(0,0,1);
+                const h = getPlanetTerrainHeight(home, spawnDir);
+                Player.wrapper.position.copy(home.position).add(spawnDir.multiplyScalar(h + 10));
+            } else {
+                Player.wrapper.position.set(0, CONFIG.planetRadius + 50, 0);
+            }
+            scene.add(Player.wrapper);
+
+            setupBuildSystem();
+            setupUI();
+
+            controls = new PointerLockControls(camera, document.body);
+            
+            document.addEventListener('keydown', onKeyDown);
+            document.addEventListener('keyup', onKeyUp);
+            document.addEventListener('mousedown', onMouseDown);
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('wheel', onWheel, { passive: false });
+            window.addEventListener('resize', onResize);
+
+            document.addEventListener('click', (e) => {
+                if(!isLibraryOpen && !controls.isLocked && e.target.id !== 'dev-menu' && !e.target.closest('#dev-menu')) controls.lock();
+            });
+
+            animate();
+        }
+
+        // --- SHARED MATH (Visuals + Physics Sync) ---
+        function getPlanetTerrainHeight(planet, direction) {
+            const radius = planet.userData.radius;
+            // Normalize direction to get point on unit sphere, then scale to radius
+            const point = direction.clone().normalize().multiplyScalar(radius);
+            const x = point.x; const y = point.y; const z = point.z;
+            
+            // Same noise logic as createPlanet
+            const n1 = Math.sin(x*0.002) * Math.cos(y*0.002) * Math.sin(z*0.002);
+            const n2 = Math.sin(x*0.01 + 100) * Math.cos(y*0.01 + 100);
+            const totalNoise = (n1 * 5) + n2;
+            const displacement = 1 + (totalNoise * 0.02);
+            
+            return radius * displacement;
+        }
+
+        // --- SOLAR SYSTEM ---
+        function setupSolarSystem() {
+            // SUN GLOW
+            const canvas = document.createElement('canvas'); canvas.width = 128; canvas.height = 128;
+            const context = canvas.getContext('2d');
+            const gradient = context.createRadialGradient(64, 64, 0, 64, 64, 64);
+            gradient.addColorStop(0, 'rgba(255, 200, 100, 1)');
+            gradient.addColorStop(0.2, 'rgba(255, 150, 50, 0.8)');
+            gradient.addColorStop(0.5, 'rgba(255, 100, 0, 0.2)');
+            gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+            context.fillStyle = gradient; context.fillRect(0,0,128,128);
+            const tex = new THREE.CanvasTexture(canvas);
+            const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, blending: THREE.AdditiveBlending }));
+            sprite.scale.set(60000, 60000, 1);
+            scene.add(sprite);
+
+            // SUN LIGHT
+            const sunLight = new THREE.PointLight(0xffffff, 2, 0, 0);
+            sunLight.position.set(0, 0, 0);
+            sunLight.castShadow = true;
+            sunLight.shadow.mapSize.set(4096, 4096);
+            sunLight.shadow.camera.far = 200000;
+            scene.add(sunLight);
+            
+            const sun = new THREE.Mesh(new THREE.SphereGeometry(10000, 64, 64), new THREE.MeshBasicMaterial({ color: 0xffaa00 }));
+            scene.add(sun);
+            scene.add(new THREE.AmbientLight(0x222222));
+
+            // PLANETS
+            const createPlanet = (radius, color, dist, speed, name, gravity) => {
+                const geo = new THREE.SphereGeometry(radius, 128, 128);
+                const posAttribute = geo.attributes.position;
+                for (let i = 0; i < posAttribute.count; i++) {
+                    const v = new THREE.Vector3().fromBufferAttribute(posAttribute, i);
+                    
+                    // Match logic in getPlanetTerrainHeight
+                    const n1 = Math.sin(v.x*0.002) * Math.cos(v.y*0.002) * Math.sin(v.z*0.002);
+                    const n2 = Math.sin(v.x*0.01 + 100) * Math.cos(v.y*0.01 + 100);
+                    const totalNoise = (n1 * 5) + n2;
+                    const displacement = 1 + (totalNoise * 0.02); 
+                    
+                    posAttribute.setXYZ(i, v.x*displacement, v.y*displacement, v.z*displacement);
+                }
+                geo.computeVertexNormals();
+                const mat = new THREE.MeshStandardMaterial({ color: color, roughness: 0.8, metalness: 0.1 });
+                const mesh = new THREE.Mesh(geo, mat);
+                mesh.userData = { 
+                    isPlanet: true, radius: radius, orbitDist: dist, orbitSpeed: speed, 
+                    angle: Math.random() * Math.PI * 2, name: name,
+                    surfaceGravity: gravity, frameRot: 0, angularVelocity: new THREE.Vector3(),
+                    previousPosition: new THREE.Vector3() // Store previous position for Orbit Sphere logic
+                };
+                mesh.position.set(Math.cos(mesh.userData.angle)*dist, 0, Math.sin(mesh.userData.angle)*dist);
+                mesh.userData.previousPosition.copy(mesh.position); // Initialize
+                scene.add(mesh);
+                interactables.push(mesh);
+                celestialBodies.push(mesh);
+                return mesh;
+            };
+
+            createPlanet(CONFIG.planetRadius, 0x3a4b2c, 40000, 0.00005, "Terra", 9.8); 
+            createPlanet(6000, 0xffaa00, 80000, 0.00002, "Jupiterus", 11.76);
+            createPlanet(3000, 0xaa2222, 120000, 0.00003, "Marsus", 8.8);
+            createPlanet(2500, 0x88ccff, 160000, 0.00004, "Neptunus", 9.0);
+            createPlanet(1500, 0xaaaaaa, 200000, 0.00006, "Luna", 2.45);
+            createPlanet(9000, 0xddccaa, 300000, 0.00001, "Saturnus", 10.0);
+
+            // Stars
+            const sGeo = new THREE.BufferGeometry();
+            const sPos = [];
+            for(let i=0;i<20000;i++){ const v=new THREE.Vector3().randomDirection().multiplyScalar(400000); sPos.push(v.x,v.y,v.z); }
+            sGeo.setAttribute('position', new THREE.Float32BufferAttribute(sPos,3));
+            scene.add(new THREE.Points(sGeo, new THREE.PointsMaterial({color:0xffffff, size:20})));
+        }
+
+        function updateOrbits(dt) {
+            const timeDelta = dt * CONFIG.timeScale;
+            celestialBodies.forEach(p => {
+                // Store previous position BEFORE moving
+                p.userData.previousPosition.copy(p.position);
+
+                // Orbital Motion
+                if(p.userData.orbitSpeed) {
+                    p.userData.angle += p.userData.orbitSpeed * CONFIG.timeScale;
+                    p.position.x = Math.cos(p.userData.angle) * p.userData.orbitDist;
+                    p.position.z = Math.sin(p.userData.angle) * p.userData.orbitDist;
+                }
+                
+                // Axial Rotation
+                const rotAmt = CONFIG.planetRotSpeed * timeDelta;
+                p.rotation.y += rotAmt;
+                p.userData.frameRot = rotAmt; 
+                // Store angular velocity vector for physics matching
+                p.userData.angularVelocity.set(0, CONFIG.planetRotSpeed * CONFIG.timeScale, 0); 
+            });
+        }
+
+        // --- GEOMETRY FACTORY ---
+        function createBlockGeometry(id, gridSize) {
+            const def = BLOCKS[id]; 
+            const s = gridSize; // Dynamic grid size
+            
+            if(def.type === 'cone') {
+                const g = new THREE.Group();
+                const b = new THREE.Mesh(new THREE.ConeGeometry(s*0.4, s, 16).rotateX(Math.PI/2).translate(0,0,s*0.25), new THREE.MeshStandardMaterial({color: def.color}));
+                const n = new THREE.Mesh(new THREE.CylinderGeometry(s*0.2, s*0.3, s*0.1).rotateX(Math.PI/2), new THREE.MeshStandardMaterial({color:0x333333})); n.position.set(0,0,-s*0.25);
+                g.add(b); g.add(n); return g;
+            } 
+            else if(def.type === 'cockpit') return new THREE.BoxGeometry(s*0.8, s*0.8, s*0.8);
+            else if(def.type === 'cylinder') return new THREE.CylinderGeometry(s*0.4, s*0.4, s*0.4, 32).rotateZ(Math.PI/2);
+            else if(def.type === 'gravity') {
+                const g = new THREE.Group();
+                const base = new THREE.Mesh(new THREE.BoxGeometry(s, s*0.2, s), new THREE.MeshStandardMaterial({color:0x222222})); base.position.y = -s*0.4;
+                const core = new THREE.Mesh(new THREE.SphereGeometry(s*0.3), new THREE.MeshStandardMaterial({color:0x0000ff, emissive:0x0000aa})); 
+                g.add(base); g.add(core); return g;
+            }
+            else if(def.type === 'pad') {
+                const g = new THREE.Group();
+                const foot = new THREE.Mesh(new THREE.BoxGeometry(s*0.8, s*0.2, s*0.8), new THREE.MeshStandardMaterial({color:0x222222})); foot.position.y = -s*0.4;
+                const strut = new THREE.Mesh(new THREE.CylinderGeometry(s*0.3, s*0.3, s*0.6), new THREE.MeshStandardMaterial({color:0x555555}));
+                const light = new THREE.Mesh(new THREE.SphereGeometry(s*0.1), new THREE.MeshBasicMaterial({color:0xff0000}));
+                light.name = "statusLight"; light.position.set(0, 0, s*0.3);
+                g.add(foot); g.add(strut); g.add(light);
+                return g;
+            }
+            else return new THREE.BoxGeometry(s,s,s);
+        }
+
+        function setupUI() { renderHotbar(); renderLibrary('structure'); }
+        window.setTab = function(cat) {
+            document.querySelectorAll('.lib-tab').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+            renderLibrary(cat);
+        }
+        function renderLibrary(category) {
+            const container = document.getElementById('lib-content');
+            container.innerHTML = '';
+            for(const [id, def] of Object.entries(BLOCKS)) {
+                if(def.cat === category) {
+                    const el = document.createElement('div');
+                    el.className = 'lib-item';
+                    el.draggable = true;
+                    el.innerHTML = `<div style="width:30px; height:30px; background:#${def.color.toString(16)}"></div><span class="item-name">${def.name}</span>`;
+                    el.addEventListener('dragstart', (e) => { draggedItem = parseInt(id); });
+                    container.appendChild(el);
+                }
+            }
+        }
+        function renderHotbar() {
+            const container = document.getElementById('hotbar-container');
+            container.innerHTML = '';
+            Hotbar.forEach((itemId, index) => {
+                const el = document.createElement('div');
+                el.className = 'slot';
+                if(Build.isActive && Build.activeSlotIndex === index) el.classList.add('selected');
+                const def = BLOCKS[itemId];
+                el.innerHTML = def ? 
+                    `<span class="slot-num">${index+1}</span><div style="width:30px; height:30px; background:#${def.color.toString(16)}; border:1px solid #fff;"></div>` :
+                    `<span class="slot-num">${index+1}</span>`;
+                el.addEventListener('dragover', (e) => e.preventDefault());
+                el.addEventListener('drop', (e) => { e.preventDefault(); if(draggedItem) { Hotbar[index] = draggedItem; renderHotbar(); if(Build.activeSlotIndex === index) selectSlot(index); }});
+                el.addEventListener('mousedown', () => selectSlot(index));
+                container.appendChild(el);
+            });
+        }
+        function toggleLibrary() {
+            isLibraryOpen = !isLibraryOpen;
+            const modal = document.getElementById('library-modal');
+            if(isLibraryOpen) { modal.style.display = 'flex'; controls.unlock(); } else { modal.style.display = 'none'; controls.lock(); }
+        }
+        function selectSlot(index) {
+            if(Build.isActive && Build.activeSlotIndex === index) {
+                Build.isActive = false; Build.ghost.visible = false; renderHotbar(); return;
+            }
+            Build.activeSlotIndex = index; Build.selectedBlockId = Hotbar[index];
+            Build.isActive = true; Build.ghost.visible = true;
+            updateGhostGeometry(Build.selectedBlockId); renderHotbar();
+        }
+        function toggleGridMode() {
+            Build.mode = Build.mode === 'large' ? 'small' : 'large';
+            const size = Build.mode === 'large' ? CONFIG.largeGridSize : CONFIG.smallGridSize;
+            document.getElementById('grid-mode-indicator').innerText = `MODE: ${Build.mode.toUpperCase()} GRID (${size}m)`;
+            updateGhostGeometry(Build.selectedBlockId);
+        }
+
+        // --- GRID CLASS ---
+        class SEGrid extends THREE.Group {
+            constructor(isStatic, gridSize = CONFIG.largeGridSize) {
+                super();
+                this.isStatic = isStatic;
+                this.gridSize = gridSize; 
+                this.blocks = new Map();
+                this.gravityGenerators = []; 
+                this.velocity = new THREE.Vector3();
+                this.angularVelocity = new THREE.Vector3();
+                this.dampeners = true;
+                this.isOn = true;
+                this.isParked = false; 
+                this.totalCapacity = 0;
+                this.currentPower = 0;
+                this.powerDraw = 0;
+                this.thrustCaps = { up:0, down:0, left:0, right:0, fwd:0, back:0 };
+            }
+
+            addBlock(localPos, id, quat) {
+                const k = `${Math.round(localPos.x)},${Math.round(localPos.y)},${Math.round(localPos.z)}`;
+                if(this.blocks.has(k)) return;
+                const def = BLOCKS[id];
+                const s = this.gridSize; 
+                
+                let geo = createBlockGeometry(id, s);
+                let mat = null;
+                let mesh;
+
+                if(geo.isGroup) {
+                    mesh = geo;
+                } else {
+                    mat = new THREE.MeshStandardMaterial({ color: def.color, roughness:0.6, emissive:def.emissive||0x000000 });
+                    mesh = new THREE.Mesh(geo, mat);
+                }
+
+                mesh.userData = { isBlock:true, id:id, grid:this, localPos:localPos.clone() };
+                const pivot = new THREE.Object3D();
+                pivot.position.copy(localPos).multiplyScalar(s);
+                pivot.add(mesh);
+                mesh.quaternion.copy(quat);
+                mesh.userData.quat = quat.clone();
+                this.add(pivot);
+                this.blocks.set(k, mesh);
+                
+                if(def.type === 'gravity') {
+                    this.gravityGenerators.push(mesh);
+                }
+
+                const addToInteract = (obj) => {
+                    if(obj.isMesh) { obj.userData = mesh.userData; interactables.push(obj); }
+                    if(obj.children.length) obj.children.forEach(addToInteract);
+                };
+                addToInteract(mesh);
+                this.recalcSystem();
+            }
+
+            removeBlock(mesh) {
+                let target = mesh;
+                while(target.parent && target.parent !== this && !target.userData.isBlock) target = target.parent;
+                
+                let foundKey = null;
+                for(const [k, m] of this.blocks.entries()) {
+                    let hasMesh = false;
+                    m.traverse(c => { if(c===mesh) hasMesh = true; });
+                    if(hasMesh) { foundKey = k; break; }
+                }
+
+                if(foundKey) {
+                    const foundMesh = this.blocks.get(foundKey);
+                    // Remove from Grav Gen list if applicable
+                    if(BLOCKS[foundMesh.userData.id].type === 'gravity') {
+                        const idx = this.gravityGenerators.indexOf(foundMesh);
+                        if(idx > -1) this.gravityGenerators.splice(idx, 1);
+                    }
+
+                    this.blocks.delete(foundKey);
+                    this.remove(foundMesh.parent); 
+                    this.recalcSystem();
+                    if(this.children.length === 0) {
+                        grids.splice(grids.indexOf(this), 1); scene.remove(this);
+                    } else { 
+                        this.handleSplits(); 
+                    }
+                }
+            }
+
+            handleSplits() {
+                const allBlocks = Array.from(this.blocks.values());
+                const visited = new Set();
+                const islands = [];
+
+                for (let block of allBlocks) {
+                    if (visited.has(block)) continue;
+                    const island = [];
+                    const queue = [block];
+                    visited.add(block);
+
+                    while(queue.length > 0) {
+                        const curr = queue.shift();
+                        island.push(curr);
+                        const pos = curr.userData.localPos;
+                        const neighbors = [
+                            new THREE.Vector3(1,0,0), new THREE.Vector3(-1,0,0),
+                            new THREE.Vector3(0,1,0), new THREE.Vector3(0,-1,0),
+                            new THREE.Vector3(0,0,1), new THREE.Vector3(0,0,-1)
+                        ];
+
+                        for(let n of neighbors) {
+                            const nPos = pos.clone().add(n);
+                            const k = `${Math.round(nPos.x)},${Math.round(nPos.y)},${Math.round(nPos.z)}`;
+                            if(this.blocks.has(k)) {
+                                const nb = this.blocks.get(k);
+                                if(!visited.has(nb)) { visited.add(nb); queue.push(nb); }
+                            }
+                        }
+                    }
+                    islands.push(island);
+                }
+
+                if(islands.length > 1) {
+                    islands.sort((a,b) => b.length - a.length);
+                    for(let i=1; i<islands.length; i++) {
+                        this.detachIsland(islands[i]);
+                    }
+                }
+                this.checkAnchors();
+            }
+
+            detachIsland(islandBlocks) {
+                const newGrid = new SEGrid(false, this.gridSize); 
+                newGrid.position.copy(this.position);
+                newGrid.quaternion.copy(this.quaternion);
+                scene.add(newGrid);
+                grids.push(newGrid);
+
+                islandBlocks.forEach(mesh => {
+                    const pivot = mesh.parent;
+                    const pos = mesh.userData.localPos;
+                    const k = `${Math.round(pos.x)},${Math.round(pos.y)},${Math.round(pos.z)}`;
+                    
+                    this.blocks.delete(k);
+                    this.remove(pivot);
+                    
+                    if(BLOCKS[mesh.userData.id].type === 'gravity') {
+                        const idx = this.gravityGenerators.indexOf(mesh);
+                        if(idx > -1) this.gravityGenerators.splice(idx, 1);
+                    }
+
+                    newGrid.addBlock(pos, mesh.userData.id, mesh.userData.quat);
+                });
+                
+                this.recalcSystem();
+                newGrid.checkAnchors();
+            }
+
+            checkAnchors() {
+                if(!this.isStatic) return;
+                let anchored = false;
+                let bestP = null;
+                celestialBodies.forEach(p => { if(this.position.distanceTo(p.position) < p.userData.radius * 2) bestP = p; });
+
+                if(bestP) {
+                    const limit = bestP.userData.radius + this.gridSize;
+                    const temp = new THREE.Vector3();
+                    for(const c of this.children) {
+                        c.children[0].getWorldPosition(temp);
+                        if(temp.distanceTo(bestP.position) < limit) { anchored = true; break; }
+                    }
+                }
+                if(!anchored) this.isStatic = false;
+            }
+
+            recalcSystem() {
+                this.thrustCaps = { up:0, down:0, left:0, right:0, fwd:0, back:0 };
+                this.totalCapacity = 0;
+                let gears = 0;
+                
+                this.blocks.forEach(m => {
+                    const id = m.userData.id;
+                    if(id === 2) {
+                        const dir = new THREE.Vector3(0,0,1).applyQuaternion(m.userData.quat);
+                        dir.x=Math.round(dir.x); dir.y=Math.round(dir.y); dir.z=Math.round(dir.z);
+                        const p = CONFIG.thrustPower;
+                        if(dir.z===1) this.thrustCaps.fwd += p;
+                        if(dir.z===-1) this.thrustCaps.back += p;
+                        if(dir.x===1) this.thrustCaps.left += p;
+                        if(dir.x===-1) this.thrustCaps.right += p;
+                        if(dir.y===1) this.thrustCaps.down += p;
+                        if(dir.y===-1) this.thrustCaps.up += p;
+                    }
+                    if(id === 3) this.totalCapacity += CONFIG.batteryCapacity;
+                    if(id === 10) gears++;
+                });
+                
+                if(this.currentPower > this.totalCapacity) this.currentPower = this.totalCapacity;
+                if(this.currentPower <= 0 && this.totalCapacity > 0) this.currentPower = this.totalCapacity;
+                
+                this.updateGearVisuals();
+            }
+
+            updateGearVisuals() {
+                this.blocks.forEach(m => {
+                    if(m.userData.id === 10) {
+                        m.traverse(c => {
+                            if(c.name === "statusLight") {
+                                c.material.color.setHex(this.isParked ? 0x00ff00 : 0xff0000);
+                            }
+                        });
+                    }
+                });
+            }
+        }
+
+        // --- GRAVITY & PHYSICS ---
+        function getGravityInfo(pos) {
+            let totalG = new THREE.Vector3(0,0,0);
+            let strongestP = null;
+            let maxGMag = 0;
+
+            // 1. Planetary Gravity (Falloff)
+            celestialBodies.forEach(p => {
+                const dist = pos.distanceTo(p.position);
+                if(dist < p.userData.radius * 4) { // Cutoff
+                    const surfaceG = p.userData.surfaceGravity || CONFIG.gravityForce;
+                    const ratio = p.userData.radius / dist;
+                    const gMag = surfaceG * (ratio * ratio);
+                    
+                    if(gMag > 0.05) {
+                        const dir = p.position.clone().sub(pos).normalize();
+                        totalG.add(dir.multiplyScalar(gMag));
+
+                        if(gMag > maxGMag) {
+                            maxGMag = gMag;
+                            strongestP = p;
+                        }
+                    }
+                }
+            });
+
+            // 2. Planar Gravity (Generators)
+            grids.forEach(g => {
+                if(g.isOn && g.currentPower > 0) {
+                    g.gravityGenerators.forEach(gen => {
+                        const genWorldPos = new THREE.Vector3();
+                        gen.getWorldPosition(genWorldPos);
+                        
+                        const localPos = pos.clone().applyMatrix4(g.matrixWorld.clone().invert());
+                        const genLocal = gen.userData.localPos.clone().multiplyScalar(g.gridSize);
+                        
+                        const range = 50; 
+                        if(Math.abs(localPos.x - genLocal.x) < range && 
+                           Math.abs(localPos.z - genLocal.z) < range &&
+                           Math.abs(localPos.y - genLocal.y) < range) {
+                             
+                            const down = new THREE.Vector3(0,-1,0).applyQuaternion(gen.getWorldQuaternion(new THREE.Quaternion()));
+                            totalG.add(down.multiplyScalar(9.8)); 
+                        }
+                    });
+                }
+            });
+
+            return { vec: totalG, planet: strongestP };
+        }
+
+        function checkCollisions(nextPos) {
+            const pRad = 0.5;
+            for(const grid of grids) {
+                const distToGrid = nextPos.distanceTo(grid.position);
+                if(distToGrid > 100) continue;
+                const inv = grid.matrixWorld.clone().invert();
+                const localP = nextPos.clone().applyMatrix4(inv);
+                const bHalf = grid.gridSize / 2;
+                
+                for(const [key, mesh] of grid.blocks) {
+                    const bPos = mesh.userData.localPos.clone().multiplyScalar(grid.gridSize);
+                    
+                    if(localP.x > bPos.x - bHalf - pRad && localP.x < bPos.x + bHalf + pRad &&
+                       localP.y > bPos.y - bHalf - pRad && localP.y < bPos.y + bHalf + pRad &&
+                       localP.z > bPos.z - bHalf - pRad && localP.z < bPos.z + bHalf + pRad) 
+                    {
+                        if (localP.y > bPos.y + bHalf - 0.2) return { type: 'floor', y: bPos.y + bHalf + pRad, grid: grid };
+                        
+                        const dx = localP.x - bPos.x; const dy = localP.y - bPos.y; const dz = localP.z - bPos.z;
+                        let push = new THREE.Vector3(0,0,0);
+                        if(Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > Math.abs(dz)) push.x = Math.sign(dx);
+                        else if(Math.abs(dy) > Math.abs(dz)) push.y = Math.sign(dy);
+                        else push.z = Math.sign(dz);
+                        push.transformDirection(grid.matrixWorld).normalize().multiplyScalar(0.2); 
+                        return { type: 'push', vec: push, grid: grid };
+                    }
+                }
+            }
+            return null;
+        }
+
+        function updatePhysics(dt) {
+            const steps = 1;
+            const subDt = dt / steps;
+
+            for(let s=0; s<steps; s++) {
+                // PLAYER
+                if(!Player.inShip) {
+                    const gInfo = getGravityInfo(Player.wrapper.position);
+                    activePlanet = gInfo.planet;
+                    
+                    // --- THE SPHERE LOGIC (ORBIT + ROTATION FIX) ---
+                    if(activePlanet) {
+                        const distToPlanet = Player.wrapper.position.distanceTo(activePlanet.position);
+                        
+                        // "The Sphere": If inside gravity cuttoff, lock to planet movement
+                        if(distToPlanet < activePlanet.userData.radius * 2.0) {
+                            // 1. Orbital Move: How much did planet move this frame?
+                            // Apply that delta to player so we ride the "train"
+                            const planetDelta = activePlanet.position.clone().sub(activePlanet.userData.previousPosition);
+                            if(planetDelta.length() > 0) {
+                                Player.wrapper.position.add(planetDelta);
+                            }
+
+                            // 2. Rotational Lock (Treadmill Fix): If on ground, spin with surface
+                            if(Player.onGround) {
+                                const rot = activePlanet.userData.frameRot * (subDt/dt);
+                                const relPos = Player.wrapper.position.clone().sub(activePlanet.position);
+                                relPos.applyAxisAngle(new THREE.Vector3(0,1,0), rot);
+                                Player.wrapper.position.copy(activePlanet.position).add(relPos);
+                                Player.wrapper.rotateY(rot);
+                            }
+                        }
+                    }
+
+                    // Orient to Gravity
+                    if(gInfo.vec.length() > 0.1 && !Player.jetpack) {
+                        const targetUp = gInfo.vec.clone().negate().normalize();
+                        const currentUp = new THREE.Vector3(0,1,0).applyQuaternion(Player.wrapper.quaternion);
+                        const q = new THREE.Quaternion().setFromUnitVectors(currentUp, targetUp);
+                        const smoothQ = new THREE.Quaternion().copy(Player.wrapper.quaternion).slerp(Player.wrapper.quaternion.clone().premultiply(q), 0.1);
+                        Player.wrapper.quaternion.copy(smoothQ);
+                    }
+
+                    const speed = Player.jetpack ? CONFIG.jetpackSpeed : CONFIG.playerSpeed;
+                    const cFwd = new THREE.Vector3(); camera.getWorldDirection(cFwd);
+                    const wUp = new THREE.Vector3(0,1,0).applyQuaternion(Player.wrapper.quaternion);
+                    const cRight = new THREE.Vector3().crossVectors(cFwd, wUp).normalize();
+                    if(!Player.jetpack) { cFwd.projectOnPlane(wUp).normalize(); cRight.projectOnPlane(wUp).normalize(); }
+
+                    const inputDir = new THREE.Vector3();
+                    if(Input.w) inputDir.add(cFwd);
+                    if(Input.s) inputDir.sub(cFwd);
+                    if(Input.d) inputDir.add(cRight);
+                    if(Input.a) inputDir.sub(cRight);
+
+                    if(inputDir.length()>0) {
+                        inputDir.normalize().multiplyScalar(speed * subDt * 5); // Acceleration
+                        Player.velocity.add(inputDir);
+                    } else if (Player.onGround) {
+                        // Friction stops "local" movement
+                        Player.velocity.multiplyScalar(0.9);
+                    }
+
+                    if(Player.jetpack) {
+                        if(Input.sp) Player.velocity.add(wUp.clone().multiplyScalar(speed*subDt*2));
+                        if(Input.c) Player.velocity.add(wUp.clone().multiplyScalar(-speed*subDt*2));
+                        if(Player.suitDampeners && inputDir.length()===0 && !Input.sp && !Input.c) {
+                            Player.velocity.multiplyScalar(0.9);
+                        }
+                        if(Input.q) Player.wrapper.rotateZ(2*subDt);
+                        if(Input.e) Player.wrapper.rotateZ(-2*subDt);
+                    } else {
+                        if(Input.sp && Player.onGround) { 
+                            Player.velocity.add(wUp.clone().multiplyScalar(8)); 
+                            Player.onGround = false; 
+                        }
+                    }
+
+                    if(!Player.jetpack) Player.velocity.add(gInfo.vec.clone().multiplyScalar(subDt));
+                    
+                    let nextPos = Player.wrapper.position.clone().add(Player.velocity.clone().multiplyScalar(subDt));
+                    
+                    // --- TERRAIN HEIGHT COLLISION (Hill Clipping Fix) ---
+                    if(activePlanet) {
+                        const dirToPlayer = nextPos.clone().sub(activePlanet.position).normalize();
+                        const terrainHeight = getPlanetTerrainHeight(activePlanet, dirToPlayer);
+                        const floorHeight = terrainHeight + Player.height;
+                        const distToCenter = nextPos.distanceTo(activePlanet.position);
+
+                        if(distToCenter < floorHeight) {
+                            nextPos.copy(activePlanet.position).add(dirToPlayer.multiplyScalar(floorHeight));
+                            
+                            const normal = dirToPlayer;
+                            const velIntoPlane = Player.velocity.dot(normal);
+                            if(velIntoPlane < 0) {
+                                Player.velocity.sub(normal.multiplyScalar(velIntoPlane));
+                            }
+                            Player.onGround = true;
+                        } else {
+                            Player.onGround = false;
+                        }
+                    }
+
+                    // Grid Collision
+                    const col = checkCollisions(nextPos);
+                    if(col) {
+                        if(col.type==='floor') { 
+                            const up = Player.wrapper.position.clone().sub(activePlanet ? activePlanet.position : new THREE.Vector3()).normalize();
+                            if(Player.velocity.dot(up) < 0) Player.velocity.projectOnPlane(up); 
+                            Player.onGround = true; 
+                            nextPos.add(up.multiplyScalar(0.1));
+                            
+                            if(!col.grid.isStatic) {
+                                Player.velocity.add(col.grid.velocity.clone().multiplyScalar(0.1)); 
+                            }
+                        }
+                        else if(col.type==='push') { nextPos.add(col.vec); Player.velocity.set(0,0,0); }
+                    }
+
+                    Player.wrapper.position.copy(nextPos);
+                }
+
+                // GRIDS PHYSICS
+                grids.forEach(g => {
+                    const gInfo = getGravityInfo(g.position);
+                    
+                    // --- SPHERE LOGIC FOR GRIDS ---
+                    if(gInfo.planet) {
+                        const dist = g.position.distanceTo(gInfo.planet.position);
+                        if(dist < gInfo.planet.userData.radius * 2.0) {
+                             const pDelta = gInfo.planet.position.clone().sub(gInfo.planet.userData.previousPosition);
+                             if(pDelta.length() > 0) g.position.add(pDelta);
+                        }
+                    }
+
+                    if(g.isStatic && gInfo.planet) {
+                        const rotAmt = gInfo.planet.userData.frameRot;
+                        if(rotAmt) {
+                             const rel = g.position.clone().sub(gInfo.planet.position);
+                             rel.applyAxisAngle(new THREE.Vector3(0,1,0), rotAmt);
+                             g.position.copy(gInfo.planet.position).add(rel);
+                             g.rotateY(rotAmt);
+                             g.updateMatrixWorld(); 
+                             return; 
+                        }
+                    }
+
+                    if(g.isStatic) return;
+
+                    g.powerDraw = 0;
+                    let inputActive = false;
+                    if(Player.inShip && Player.controlledGrid === g) {
+                        if(Input.w||Input.s||Input.a||Input.d||Input.sp||Input.c||Input.q||Input.e) inputActive=true;
+                    }
+
+                    if(g.isOn && g.currentPower > 0 && !g.isParked) {
+                        if(Player.inShip && Player.controlledGrid === g) {
+                            const rotS = CONFIG.shipRotSpeed * subDt;
+                            if(Input.q) g.angularVelocity.z += rotS;
+                            if(Input.e) g.angularVelocity.z -= rotS;
+                        }
+
+                        g.angularVelocity.multiplyScalar(0.9);
+
+                        const fwd = new THREE.Vector3(0,0,-1).applyQuaternion(g.quaternion);
+                        const right = new THREE.Vector3(1,0,0).applyQuaternion(g.quaternion);
+                        const up = new THREE.Vector3(0,1,0).applyQuaternion(g.quaternion);
+
+                        const apply = (active, cap, vec) => {
+                            if(active && cap > 0) {
+                                g.velocity.add(vec.multiplyScalar(cap * subDt * 0.005));
+                                g.powerDraw += CONFIG.thrusterDrain;
+                            }
+                        };
+
+                        if(Player.inShip && Player.controlledGrid === g) {
+                            apply(Input.w, g.thrustCaps.fwd, fwd);
+                            apply(Input.s, g.thrustCaps.back, fwd.clone().negate());
+                            apply(Input.a, g.thrustCaps.left, right.clone().negate());
+                            apply(Input.d, g.thrustCaps.right, right);
+                            apply(Input.sp, g.thrustCaps.up, up);
+                            apply(Input.c, g.thrustCaps.down, up.clone().negate());
+                        }
+
+                        if(g.dampeners && !g.isParked) {
+                            if(!inputActive) {
+                                // Dampen absolute
+                                g.velocity.multiplyScalar(0.99);
+                            }
+                            
+                            const descendCmd = (Player.inShip && Player.controlledGrid === g && Input.c);
+                            if(!descendCmd) {
+                                const localG = gInfo.vec.clone().applyQuaternion(g.quaternion.clone().invert());
+                                if(localG.y < 0 && g.thrustCaps.up > 0) {
+                                    const antiG = gInfo.vec.clone().negate().multiplyScalar(subDt);
+                                    g.velocity.add(antiG); 
+                                    g.powerDraw += CONFIG.thrusterDrain;
+                                }
+                            }
+                        }
+                        g.currentPower -= g.powerDraw * subDt;
+                        if(g.currentPower < 0) g.currentPower = 0;
+
+                    } else {
+                        if(g.isParked) { 
+                            g.velocity.set(0,0,0); g.angularVelocity.set(0,0,0); 
+                             if(gInfo.planet) {
+                                const rotAmt = gInfo.planet.userData.frameRot;
+                                if(rotAmt) {
+                                     const rel = g.position.clone().sub(gInfo.planet.position);
+                                     rel.applyAxisAngle(new THREE.Vector3(0,1,0), rotAmt);
+                                     g.position.copy(gInfo.planet.position).add(rel);
+                                     g.rotateY(rotAmt);
+                                }
+                             }
+                        }
+                        if(!g.isOn) {
+                            g.currentPower += CONFIG.rechargeRate * subDt;
+                            if(g.currentPower > g.totalCapacity) g.currentPower = g.totalCapacity;
+                        }
+                    }
+
+                    if(!g.isParked) g.velocity.add(gInfo.vec.clone().multiplyScalar(subDt));
+                    if(!g.isParked) g.position.add(g.velocity.clone().multiplyScalar(subDt));
+                    
+                    // Planet Collision (Grid + Hills)
+                    if(gInfo.planet) {
+                        const dir = g.position.clone().sub(gInfo.planet.position).normalize();
+                        const h = getPlanetTerrainHeight(gInfo.planet, dir);
+                        if(g.position.distanceTo(gInfo.planet.position) < h + g.gridSize) {
+                            g.position.copy(gInfo.planet.position).add(dir.multiplyScalar(h + g.gridSize));
+                            g.velocity.multiplyScalar(0.5); 
+                        }
+                    }
+
+                    const q = new THREE.Quaternion().setFromEuler(new THREE.Euler(
+                        g.angularVelocity.x*subDt, g.angularVelocity.y*subDt, g.angularVelocity.z*subDt
+                    ));
+                    g.quaternion.multiply(q);
+
+                    if(Player.inShip && Player.controlledGrid === g) {
+                        Player.wrapper.position.copy(g.position);
+                        Player.wrapper.quaternion.copy(g.quaternion);
+                    }
+                });
+            }
+        }
+
+        // --- CAMERA ---
+        function updateCamera() {
+            if(Player.inShip && Player.controlledGrid && Player.activeCockpit) {
+                const ship = Player.controlledGrid;
+                const cockpitPos = new THREE.Vector3();
+                Player.activeCockpit.getWorldPosition(cockpitPos);
+                
+                const camRot = ship.quaternion.clone();
+                const orbitQ = new THREE.Quaternion().setFromEuler(new THREE.Euler(CamState.orbitY, CamState.orbitX, 0, 'YXZ'));
+                camRot.multiply(orbitQ);
+                
+                const offset = new THREE.Vector3(0, 0, CamState.distance + 0.1); 
+                offset.applyQuaternion(camRot);
+                
+                camera.position.copy(cockpitPos).add(offset);
+                camera.quaternion.copy(camRot);
+                
+            } else {
+                const offset = new THREE.Vector3(0, Player.height, 0);
+                offset.applyQuaternion(Player.wrapper.quaternion);
+                const pos = Player.wrapper.position.clone().add(offset);
+                camera.position.copy(pos);
+                const lookQ = new THREE.Quaternion().setFromEuler(new THREE.Euler(Player.rotationX, 0, 0, 'YXZ'));
+                const finalQ = Player.wrapper.quaternion.clone().multiply(lookQ);
+                camera.quaternion.copy(finalQ);
+            }
+        }
+
+        // --- BUILD SYSTEM ---
+        function setupBuildSystem() {
+            raycaster = new THREE.Raycaster();
+            Build.ghost = new THREE.Group();
+            scene.add(Build.ghost);
+            updateGhostGeometry(Build.selectedBlockId);
+        }
+        function updateGhostGeometry(id) {
+            while(Build.ghost.children.length > 0) Build.ghost.remove(Build.ghost.children[0]);
+            
+            const size = Build.mode === 'large' ? CONFIG.largeGridSize : CONFIG.smallGridSize;
+            const geoStruct = createBlockGeometry(id, size);
+            
+            const ghostMat = new THREE.MeshBasicMaterial({color:0x00ff00, wireframe:true, opacity:0.5, transparent:true});
+
+            if(geoStruct.isGroup) {
+                geoStruct.children.forEach(c => {
+                    const m = new THREE.Mesh(c.geometry, ghostMat);
+                    m.position.copy(c.position);
+                    m.rotation.copy(c.rotation);
+                    Build.ghost.add(m);
+                });
+            } else {
+                const mesh = new THREE.Mesh(geoStruct, ghostMat);
+                Build.ghost.add(mesh);
+            }
+        }
+        function updateBuildTool() {
+            if(Player.inShip || !Build.isActive || isLibraryOpen) { Build.ghost.visible = false; return; }
+            Build.ghost.visible = true;
+            raycaster.setFromCamera(new THREE.Vector2(0,0), camera);
+            const hits = raycaster.intersectObjects(interactables, true);
+            
+            const fwd = new THREE.Vector3(); camera.getWorldDirection(fwd);
+            const floatPos = camera.position.clone().add(fwd.multiplyScalar(5));
+            Build.ghost.position.copy(floatPos);
+            Build.ghost.quaternion.copy(Player.wrapper.quaternion);
+            Build.targetGrid = null;
+
+            if(hits.length > 0 && hits[0].distance < 30) {
+                const h = hits[0];
+                const rawObj = h.object;
+                
+                let obj = rawObj;
+                while(obj.parent && !obj.userData.isBlock && !obj.userData.isPlanet) obj = obj.parent;
+
+                if(obj.userData.isPlanet) {
+                    Build.targetGrid = null; Build.ghost.position.copy(h.point);
+                    const up = h.point.clone().normalize();
+                    Build.ghost.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0), up);
+                } else if(obj.userData.grid) {
+                    const g = obj.userData.grid;
+                    
+                    const currentGridSize = Build.mode === 'large' ? CONFIG.largeGridSize : CONFIG.smallGridSize;
+                    if(g.gridSize !== currentGridSize) {
+                        Build.targetGrid = null;
+                        Build.ghost.position.copy(h.point);
+                        Build.ghost.quaternion.copy(g.quaternion);
+                    } else {
+                        Build.targetGrid = g;
+                        const inv = g.matrixWorld.clone().invert();
+                        
+                        const localHit = h.point.clone().applyMatrix4(inv);
+                        const blockCenter = obj.userData.localPos.clone();
+                        const diff = localHit.sub(blockCenter);
+                        const localNorm = new THREE.Vector3();
+                        if(Math.abs(diff.x) > Math.abs(diff.y) && Math.abs(diff.x) > Math.abs(diff.z)) localNorm.x = Math.sign(diff.x);
+                        else if(Math.abs(diff.y) > Math.abs(diff.z)) localNorm.y = Math.sign(diff.y);
+                        else localNorm.z = Math.sign(diff.z);
+
+                        const newL = obj.userData.localPos.clone().add(localNorm).round();
+                        Build.ghost.position.copy(newL.clone().multiplyScalar(g.gridSize).applyMatrix4(g.matrixWorld));
+                        Build.ghost.quaternion.copy(g.quaternion);
+                        Build.localPos = newL;
+                    }
+                }
+            }
+            Build.ghost.quaternion.multiply(Build.rotation);
+        }
+        function onMouseDown(e) {
+            if(isLibraryOpen || !controls.isLocked) return;
+            if(e.button === 0 && Build.isActive && Build.ghost.visible) {
+                if(Build.targetGrid) Build.targetGrid.addBlock(Build.localPos, Build.selectedBlockId, Build.rotation);
+                else {
+                    const dist = Build.ghost.position.length();
+                    let isStatic = false;
+                    if(activePlanet && Build.ghost.position.distanceTo(activePlanet.position) < activePlanet.userData.radius + 20) isStatic = true;
+                    
+                    const size = Build.mode === 'large' ? CONFIG.largeGridSize : CONFIG.smallGridSize;
+                    const g = new SEGrid(isStatic, size);
+                    if(isStatic) { 
+                        const up = Build.ghost.position.clone().sub(activePlanet.position).normalize(); 
+                        g.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0), up); 
+                    }
+                    else g.quaternion.copy(Player.wrapper.quaternion);
+                    g.position.copy(Build.ghost.position);
+                    g.addBlock(new THREE.Vector3(0,0,0), Build.selectedBlockId, Build.rotation);
+                    scene.add(g); grids.push(g);
+                }
+            }
+            if(e.button === 2) {
+                raycaster.setFromCamera(new THREE.Vector2(0,0), camera);
+                const hits = raycaster.intersectObjects(interactables, true);
+                if(hits.length > 0 && hits[0].distance < 30) {
+                    let obj = hits[0].object;
+                    while(obj.parent && !obj.userData.isBlock) obj = obj.parent;
+                    if(obj.userData.grid) obj.userData.grid.removeBlock(obj);
+                }
+            }
+        }
+
+        // --- CONTROLS ---
+        function onKeyDown(e) {
+            if(isLibraryOpen) { if(e.code==='KeyG'||e.code==='Escape') toggleLibrary(); return; }
+            if(e.code==='KeyW') Input.w=1;
+            if(e.code==='KeyS') Input.s=1;
+            if(e.code==='KeyA') Input.a=1;
+            if(e.code==='KeyD') Input.d=1;
+            if(e.code==='Space') Input.sp=1;
+            if(e.code==='KeyC') Input.c=1;
+            if(e.code==='KeyQ') Input.q=1;
+            if(e.code==='KeyE') Input.e=1;
+            if(e.code==='AltLeft') Input.alt=true;
+            if(e.code==='KeyM') { const m=document.getElementById('dev-menu'); m.style.display = m.style.display==='none'?'block':'none'; controls.unlock(); }
+            
+            if(e.key>='1' && e.key<='9') selectSlot(parseInt(e.key)-1);
+            if(e.key === '0') selectSlot(9); // 10th slot
+
+            if(!e.repeat) {
+                if(e.code==='KeyX') { Player.jetpack=!Player.jetpack; updateHUD(); }
+                if(e.code==='KeyZ') { if(Player.inShip) Player.controlledGrid.dampeners=!Player.controlledGrid.dampeners; else Player.suitDampeners=!Player.suitDampeners; updateHUD(); }
+                if(e.code==='KeyG') toggleLibrary();
+                if(e.code==='KeyF') handleInteract();
+                if(e.code==='KeyB') toggleGridMode();
+                
+                if(e.code==='KeyR') Build.rotation.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0), Math.PI/2));
+                if(e.code==='KeyT') Build.rotation.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0), Math.PI/2));
+                if(e.code==='KeyY' && !Player.inShip) Build.rotation.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,0,1), Math.PI/2));
+
+                if(Player.inShip && Player.controlledGrid) {
+                    if(e.code==='KeyP') {
+                        const g = Player.controlledGrid;
+                        g.isParked = !g.isParked;
+                        g.updateGearVisuals();
+                    }
+                    if(e.code==='KeyY') Player.controlledGrid.isOn = !Player.controlledGrid.isOn;
+                }
+            }
+        }
+        function onKeyUp(e) {
+            if(e.code==='KeyW') Input.w=0;
+            if(e.code==='KeyS') Input.s=0;
+            if(e.code==='KeyA') Input.a=0;
+            if(e.code==='KeyD') Input.d=0;
+            if(e.code==='Space') Input.sp=0;
+            if(e.code==='KeyC') Input.c=0;
+            if(e.code==='KeyQ') Input.q=0;
+            if(e.code==='KeyE') Input.e=0;
+            if(e.code==='AltLeft') Input.alt=false;
+        }
+        function onMouseMove(e) {
+            if(!controls.isLocked) return;
+            const sens = 0.002;
+            if(Player.inShip) {
+                if(Input.alt) {
+                    CamState.orbitX -= e.movementX * sens;
+                    CamState.orbitY -= e.movementY * sens;
+                    CamState.orbitY = Math.max(-1.5, Math.min(1.5, CamState.orbitY));
+                } else {
+                    const g = Player.controlledGrid;
+                    g.angularVelocity.y -= e.movementX * sens * 2;
+                    g.angularVelocity.x -= e.movementY * sens * 2;
+                }
+            } else {
+                Player.wrapper.rotateY(-e.movementX * sens);
+                Player.rotationX -= e.movementY * sens;
+                Player.rotationX = Math.max(-1.5, Math.min(1.5, Player.rotationX));
+            }
+        }
+        function onWheel(e) {
+            if(!Player.inShip) return;
+            CamState.distance += e.deltaY * 0.01;
+            CamState.distance = Math.max(0, Math.min(50, CamState.distance));
+        }
+        function onResize() { camera.aspect=window.innerWidth/window.innerHeight; camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth,window.innerHeight); }
+        
+        function handleInteract() {
+            if(Player.inShip) {
+                Player.inShip = false; Player.controlledGrid = null; Player.activeCockpit = null;
+                CamState.distance = 0; 
+                Player.wrapper.position.add(new THREE.Vector3(0,3,0).applyQuaternion(Player.wrapper.quaternion));
+                document.getElementById('hud-ship').style.display = 'none';
+            } else {
+                raycaster.setFromCamera(new THREE.Vector2(0,0), camera);
+                const hits = raycaster.intersectObjects(interactables, true);
+                if(hits.length>0 && hits[0].distance<8) {
+                    let obj = hits[0].object;
+                    while(obj.parent && !obj.userData.isBlock) obj = obj.parent;
+                    
+                    if(obj.userData.id===4) {
+                        const g = obj.userData.grid;
+                        if(g.isStatic) { g.isStatic=false; alert("Station -> Ship"); }
+                        Player.inShip = true; 
+                        Player.controlledGrid = g;
+                        Player.activeCockpit = obj;
+                        document.getElementById('hud-ship').style.display = 'block';
+                    }
+                }
+            }
+            updateHUD();
+        }
+        function updateHUD() {
+            document.getElementById('hud-jet').innerText = Player.jetpack ? "ON" : "OFF";
+            document.getElementById('hud-damp-suit').innerText = Player.suitDampeners ? "ON" : "OFF";
+            document.getElementById('hud-damp-suit').className = Player.suitDampeners ? 'active-sys' : 'inactive-sys';
+            document.getElementById('hud-planet').innerText = activePlanet ? activePlanet.userData.name : "DEEP SPACE";
+            
+            if(Player.inShip && Player.controlledGrid) {
+                const g = Player.controlledGrid;
+                document.getElementById('ship-state-power').innerText = g.isOn ? "ONLINE" : "OFFLINE";
+                document.getElementById('ship-state-power').className = g.isOn ? "active-sys" : "inactive-sys";
+                
+                document.getElementById('ship-state-damp').innerText = g.dampeners ? "ON" : "OFF";
+                document.getElementById('ship-state-damp').className = g.dampeners ? "active-sys" : "inactive-sys";
+                
+                document.getElementById('ship-state-park').innerText = g.isParked ? "LOCKED" : "OFF";
+                document.getElementById('ship-state-park').className = g.isParked ? "inactive-sys" : "active-sys";
+
+                const pct = g.totalCapacity > 0 ? (g.currentPower / g.totalCapacity) * 100 : 0;
+                document.getElementById('power-bar-fill').style.width = pct + "%";
+                document.getElementById('power-text').innerText = pct.toFixed(1) + "%";
+                document.getElementById('power-draw').innerText = "Draw: " + (g.powerDraw * 100).toFixed(0) + " kW";
+            }
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            const time = performance.now();
+            const dt = Math.min((time-lastTime)/1000, 0.1);
+            lastTime = time;
+            if(controls.isLocked) {
+                updateOrbits(dt);
+                updatePhysics(dt);
+                updateBuildTool();
+                const speed = Player.inShip ? Player.controlledGrid.velocity.length() : Player.velocity.length();
+                document.getElementById('hud-speed').innerText = speed.toFixed(1) + " m/s";
+                const alt = activePlanet ? Player.wrapper.position.distanceTo(activePlanet.position)-activePlanet.userData.radius : 0;
+                document.getElementById('hud-alt').innerText = alt.toFixed(0) + " m";
+            }
+            updateCamera();
+            renderer.render(scene, camera);
+        }
+    </script>
+</body>
+</html>

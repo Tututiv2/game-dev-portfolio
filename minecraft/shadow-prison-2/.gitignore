@@ -1,0 +1,8 @@
+server/*
+!server/server.properties
+!server/eula.txt
+plugin/build/
+plugin/.gradle/
+*.db
+*.db-wal
+*.db-shm

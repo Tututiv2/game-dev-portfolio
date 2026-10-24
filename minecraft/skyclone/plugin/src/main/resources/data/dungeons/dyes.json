@@ -1,0 +1,52 @@
+[
+ {
+  "id": "DYE_LIVID",
+  "name": "Lurid Dye",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "COSMETIC",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTE4OTA0OSwKICAicHJvZmlsZUlkIiA6ICIwMzA5NGIxMzM1ZjY0M2RlOGQxM2MzN2MzYTliOTQxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2FzdGVyRnJlYWtERSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84OGIwMjE0MTg5YjVhZjhlNzM1YzlkMjJlYmNiZjZlMjk3YTY1MGU4N2VlNTNhOTI3MGZkNzI0YzdiMzI4ZmZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Changes the color of an armor piece",
+   "&7to &7#CEB7AA&7!",
+   "",
+   "&8A rare drop from Lurid's reward chests."
+  ],
+  "color": "#CEB7AA",
+  "tags": [
+   "museum",
+   "cosmetic"
+  ],
+  "extra": {
+   "dye": "#CEB7AA",
+   "source": "dungeons"
+  }
+ },
+ {
+  "id": "DYE_NECRON",
+  "name": "Morvane Dye",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "COSMETIC",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTI3ODI0OSwKICAicHJvZmlsZUlkIiA6ICJmZDJlZDMzMzI0Mjk0ZThmOWVlZGNiN2RhMWJiNzlkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFtYWdnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3NzBmNmNjYWY4ODYxZGEzYzg4MTI4MjVhZmFlYzVhOTVjNWYzMzZmNzI4YTI2ZjEzNWEyNTk0YjQ4NzU0MDIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Changes the color of an armor piece",
+   "&7to &6#E7413C&7!",
+   "",
+   "&8A rare drop from Morvane's reward chests."
+  ],
+  "color": "#E7413C",
+  "tags": [
+   "museum",
+   "cosmetic"
+  ],
+  "extra": {
+   "dye": "#E7413C",
+   "source": "dungeons"
+  }
+ }
+]

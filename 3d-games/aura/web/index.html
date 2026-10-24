@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="letterbox"><div class="lb top"></div><div class="lb bot"></div></div>
+
+<div id="hud" class="hidden">
+  <div id="vitals">
+    <div class="bar-row"><span class="label">HP</span><div id="hp" class="bar"><i class="lag"></i><i class="fill"></i></div></div>
+    <div class="bar-row"><span class="label">AURA</span><div id="aura" class="bar aura"><i class="fill"></i></div><span id="auraReady">[Q] RELEASE</span></div>
+    <div id="dash" title="air dash"><span class="pip"></span><span class="lbl">AIR DASH</span></div>
+  </div>
+  <div id="score">
+    <div id="scoreNum">0</div>
+    <div id="flow"><span class="word">FLOW</span> <b id="flowMult">x1.0</b></div>
+  </div>
+  <div id="boss" class="hidden"><div class="name">OGRE</div><div id="bossbar" class="bar"><i class="lag"></i><i class="fill"></i></div></div>
+  <div id="crosshair"></div>
+  <div id="beat"></div>
+  <div id="view"></div>
+  <div id="popups"></div>
+  <div id="timing" class="hidden">
+    <div class="strip"><div class="zone good"></div><div class="zone perfect"></div><div class="center"></div><div id="ticks"></div></div>
+    <div class="scale"><span>EARLY</span><span id="lastMs">&nbsp;</span><span>LATE</span></div>
+    <div id="dojoStats"></div>
+  </div>
+</div>
+
+<div id="subtitle"></div>
+<div id="prompt"></div>
+<div id="ring"><div class="outer"></div><div class="inner"></div><div class="label">CLICK ON THE DROP</div></div>
+<div id="titlecard"><div class="kanji">覚醒</div><div class="en">AWAKENED</div></div>
+<div id="lockhint" class="hidden">CLICK TO FIGHT</div>
+
+<div id="menu" class="screen">
+  <div class="brand">
+    <div class="logo">AURA</div>
+    <div class="tag">be the one they clip.</div>
+  </div>
+  <div class="menu-buttons">
+    <button id="bPlay" class="big">PLAY</button>
+    <button id="bSkip">SKIP TO THE AWAKENING</button>
+    <button id="bDojo">DOJO &mdash; PRACTICE</button>
+    <button id="bSettings">SETTINGS</button>
+  </div>
+  <div class="music-pick">
+    <label>MUSIC <select id="track"></select></label>
+    <div id="trackInfo"></div>
+    <div id="dropNudge" class="hidden">
+      <button data-nudge="-0.5">&laquo;</button><button data-nudge="-0.05">&lsaquo;</button>
+      <span id="dropAt"></span>
+      <button data-nudge="0.05">&rsaquo;</button><button data-nudge="0.5">&raquo;</button>
+      <button id="bHearDrop">HEAR DROP</button>
+    </div>
+    <div class="hint">Your own phonk: drop .mp3 files into <code>AURA\music</code> and reload. The drop is found automatically.</div>
+  </div>
+  <div class="controls">
+    <div><b>WASD</b> move</div><div><b>MOUSE</b> look</div>
+    <div><b>LMB</b> attack</div><div><b>RMB / F</b> parry <i>(+ flick toward the swing)</i></div>
+    <div><b>SPACE</b> jump</div><div><b>SHIFT</b> dash (one in the air)</div>
+    <div><b>Q</b> aura release</div><div><b>V</b> first / third person</div>
+  </div>
+</div>
+
+<div id="settings" class="screen hidden">
+  <h2>SETTINGS</h2>
+  <div class="grid">
+    <label>Mouse sensitivity <input type="range" id="sSens" min="0.3" max="3" step="0.05"><span></span></label>
+    <label>Field of view <input type="range" id="sFov" min="60" max="110" step="1"><span></span></label>
+    <label>Timing offset (ms) <input type="range" id="sOffset" min="-150" max="150" step="1"><span></span></label>
+    <label>Master volume <input type="range" id="sMaster" min="0" max="1" step="0.01"><span></span></label>
+    <label>Music volume <input type="range" id="sMusic" min="0" max="1" step="0.01"><span></span></label>
+    <label>SFX volume <input type="range" id="sSfx" min="0" max="1" step="0.01"><span></span></label>
+    <label class="chk"><input type="checkbox" id="sInvert"> Invert mouse Y</label>
+    <label class="chk"><input type="checkbox" id="sBeatHud"> Show beat pulse</label>
+  </div>
+  <h3>SKILL LAYERS</h3>
+  <div class="grid">
+    <label class="chk"><input type="checkbox" id="lDirectional"> <b>Directional parry</b> &mdash; flick toward the swing</label>
+    <label class="chk"><input type="checkbox" id="lFlow"> <b>Flow</b> &mdash; everything on the beat</label>
+    <label class="chk"><input type="checkbox" id="lReset"> <b>Aura Reset</b> &mdash; air dash only refills on a touch</label>
+    <label class="chk"><input type="checkbox" id="lDeflect"> <b>Deflect-aim</b> &mdash; perfect-parry spears down your crosshair</label>
+  </div>
+  <div class="row">
+    <button id="bCalibrate">CALIBRATE TIMING</button>
+    <span id="calibInfo">Tap SPACE on the clicks. Sets the timing offset for your setup.</span>
+  </div>
+  <button id="bBack" class="big">BACK</button>
+</div>
+
+<div id="pause" class="screen hidden">
+  <div class="logo small">PAUSED</div>
+  <div class="pause-vol">
+    <label>MASTER <input type="range" id="pMaster" min="0" max="1" step="0.01"><span></span></label>
+    <label>MUSIC <input type="range" id="pMusic" min="0" max="1" step="0.01"><span></span></label>
+    <label>SFX <input type="range" id="pSfx" min="0" max="1" step="0.01"><span></span></label>
+  </div>
+  <div class="menu-buttons">
+    <button id="bResume" class="big">RESUME</button>
+    <button id="bPauseSettings">SETTINGS</button>
+    <button id="bQuit">QUIT TO TITLE</button>
+  </div>
+</div>
+
+<div id="end" class="screen hidden">
+  <div id="endTitle" class="logo small"></div>
+  <div id="rank"></div>
+  <div id="endStats"></div>
+  <div class="menu-buttons">
+    <button id="bAgain" class="big">AGAIN</button>
+    <button id="bReplay">REPLAY THE AWAKENING</button>
+    <button id="bEndDojo">DOJO</button>
+    <button id="bEndQuit">TITLE</button>
+  </div>
+</div>
+
+<div id="dojoPanel" class="hidden">
+  <div class="head">DOJO <span>[TAB] hide &middot; [ESC] menu</span></div>
+  <div class="drills">
+    <button data-drill="parry" class="on">PARRY</button>
+    <button data-drill="deflect">DEFLECT</button>
+    <button data-drill="reset">AURA RESET</button>
+    <button data-drill="flow">FLOW</button>
+  </div>
+  <div id="drillDesc"></div>
+  <label>BPM <input type="range" id="dBpm" min="70" max="170" step="1" value="130"><span id="dBpmV">130</span></label>
+  <label class="chk"><input type="checkbox" id="dMusic" checked> Phonk (off = metronome only)</label>
+  <label class="chk"><input type="checkbox" id="dRing"> Training wheels: show the hit ring</label>
+  <label class="chk"><input type="checkbox" id="dDirectional" checked> Directional parry</label>
+  <button id="dReset">RESET STATS</button>
+</div>
+
+<script type="module" src="game.js"></script>
+</body>
+</html>

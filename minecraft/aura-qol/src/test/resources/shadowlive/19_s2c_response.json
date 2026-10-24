@@ -1,0 +1,10 @@
+{
+ "direction": "s2c",
+ "type": 11,
+ "name": "RESPONSE",
+ "fields": {
+  "reqId": 300,
+  "status": 2,
+  "retryAfterMs": 4500
+ }
+}

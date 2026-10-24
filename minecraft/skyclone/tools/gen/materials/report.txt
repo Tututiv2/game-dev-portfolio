@@ -1,0 +1,83 @@
+selected 1354 skipped {'unique/unstackable': 339, 'excluded pattern': 426, 'minion': 719, 'furniture': 236, 'legacy item': 4, 'unobtainable': 2, 'categorised enchanted (HELMET)': 1}
+pulled in as ingredients: 0
+unlock: collections.json collection:WILD_ROSE:4 over crafttext collection:WILD_ROSE:3 for COMPACTED_WILD_ROSE
+unlock: collections.json collection:LOG_2:3 over crafttext collection:LOG_2:6 for ENCHANTED_ACACIA_LOG
+unlock: collections.json collection:BLAZE_ROD:3 over crafttext collection:BLAZE_ROD:4 for ENCHANTED_BLAZE_POWDER
+unlock: collections.json collection:BLAZE_ROD:6 over crafttext collection:BLAZE_ROD:7 for ENCHANTED_BLAZE_ROD
+unlock: collections.json collection:GHAST_TEAR:3 over crafttext collection:GHAST_TEAR:4 for ENCHANTED_GHAST_TEAR
+unlock: collections.json collection:GLOWSTONE_DUST:5 over crafttext collection:GLOWSTONE_DUST:6 for ENCHANTED_GLOWSTONE
+unlock: collections.json collection:GLOWSTONE_DUST:3 over crafttext collection:GLOWSTONE_DUST:4 for ENCHANTED_GLOWSTONE_DUST
+unlock: collections.json collection:GOLD_INGOT:5 over crafttext collection:GOLD_INGOT:4 for ENCHANTED_GOLD
+unlock: collections.json collection:GOLD_INGOT:5 over crafttext collection:GOLD_INGOT:4 for ENCHANTED_GOLD
+unlock: collections.json collection:GOLD_INGOT:8 over crafttext collection:GOLD_INGOT:7 for ENCHANTED_GOLD_BLOCK
+unlock: collections.json collection:LOG:3:3 over crafttext collection:LOG:3:6 for ENCHANTED_JUNGLE_LOG
+unlock: collections.json collection:LEATHER:4 over crafttext collection:LEATHER:6 for ENCHANTED_LEATHER
+unlock: collections.json collection:MAGMA_CREAM:3 over crafttext collection:MAGMA_CREAM:5 for ENCHANTED_MAGMA_CREAM
+unlock: collections.json collection:MITHRIL_ORE:2 over crafttext collection:MITHRIL_ORE:3 for ENCHANTED_MITHRIL
+unlock: collections.json collection:LOG:3 over crafttext collection:LOG:6 for ENCHANTED_OAK_LOG
+unlock: collections.json collection:SUGAR_CANE:6 over crafttext collection:SUGAR_CANE:5 for ENCHANTED_PAPER
+unlock: collections.json collection:PORK:3 over crafttext collection:PORK:4 for ENCHANTED_PORK
+unlock: collections.json collection:LEATHER:5 over crafttext collection:LEATHER:4 for ENCHANTED_RAW_BEEF
+unlock: collections.json collection:GLOWSTONE_DUST:6 over crafttext collection:GLOWSTONE_DUST:7 for ENCHANTED_REDSTONE_LAMP
+unlock: collections.json collection:SPONGE:4 over crafttext collection:SPONGE:3 for ENCHANTED_SPONGE
+unlock: collections.json collection:LOG:1:3 over crafttext collection:LOG:1:6 for ENCHANTED_SPRUCE_LOG
+unlock: collections.json collection:SUGAR_CANE:3 over crafttext collection:SUGAR_CANE:4 for ENCHANTED_SUGAR
+unlock: collections.json collection:WHEAT:4 over crafttext collection:WHEAT:5 for ENCHANTED_WHEAT
+unlock: collections.json collection:CARROT_ITEM:9 over crafttext collection:CARROT_ITEM:8 for SUPERB_CARROT_CANDY
+unlock: collections.json collection:LOG:1:7 over crafttext collection:LOG:2:7 for WOODCUTTING_CRYSTAL
+recipes 603 ambiguous dropped 0 unknown ingredients {'RIFT_BUCKET': 3, 'STRETCHING_STICKS': 3, 'SPIRIT_LEAP': 1, 'LOTUS_WATER_ORB': 1, 'EXPORTABLE_CARROTS': 1, 'COLOSSAL_EXP_BOTTLE_UPGRADE': 1, 'HYPER_CATALYST_UPGRADE': 1, 'LITTLEFOOT_FLUFF': 1, 'TUTTI_FRUTTI_POISON': 1, 'THORNSHADE': 1, 'STONE_SLAB2': 1, 'TELEPORT_PAD': 1, 'CREAMBLOOM': 1, 'ULTIMATE_CARROT_CANDY_UPGRADE': 1}
+dropped ENCHANTED_ without a recipe: ENCHANTED_BONE_MEAL
+dropped ENCHANTED_ without a recipe: ENCHANTED_CARROT_ON_A_STICK
+dropped ENCHANTED_ without a recipe: ENCHANTED_COOKED_BEEF
+dropped ENCHANTED_ without a recipe: ENCHANTED_FISH:2
+dropped ENCHANTED_ without a recipe: ENCHANTED_GRIFFIN_FEATHER
+dropped ENCHANTED_ without a recipe: ENCHANTED_MUSHROOM_SOUP
+derived npc prices: 42
+prices clamped to input value: 62
+compression recipes whose output sells for MORE than inputs: 0
+misc lore: described by kind 422 | still generic 0
+forced material = id for PUMPKIN (was CARVED_PUMPKIN)
+forced material = id for SUSPICIOUS_STEW (was PLAYER_HEAD)
+vanilla tags added: 16
+wrote items_blocks.json 311
+wrote items_combat.json 164
+wrote items_farming.json 86
+wrote items_fishing.json 99
+wrote items_foraging.json 52
+wrote items_mining.json 180
+wrote items_misc.json 456
+renames: 94
+possessive names kept (review): 32
+    AGATHA_COUPON | Herbalist's Coupon
+    ARACHNE_FANG | Broodmother's Fang
+    ARACHNE_KEEPER_FRAGMENT | Weaver's Calling
+    ARCHITECT_FIRST_DRAFT | Architect's First Draft
+    BARRY_PEN | Clerk's Fancy Pen
+    BEZOS | Tycoon's Coin
+    DARK_QUEENS_SOUL_DROP | Shadow Queen's Soul
+    DIVAN_ALLOY | Sultan's Alloy
+    DIVAN_POWDER_COATING | Sultan's Powder Coating
+    DIVER_FRAGMENT | Abyssal Emperor's Skull
+    EINARY_RED_HOODIE | Courier's Red Hoodie
+    EMMETT_POINTER | Professor's Pointer
+    FAIRY_WINGS_CHARM | Fairy Wing's Charm
+    FINNS_FOCACCIA | Fisher's Focaccia
+    GIANT_FRAGMENT_BIGFOOT | Strider's Bola
+    GIANT_FRAGMENT_LASER | Beam Giant's Eye
+    GUNTHESIZER_LICHEN | Racer's Lichen
+    HORSEMAN_CANDLE | Headless Rider's Candle
+    KAT_BOUQUET | Pet Sitter's Bouquet
+    KAT_FLOWER | Pet Sitter's Flower
+    MATRIARCH_PARFUM | Matriarch's Perfume
+    MIRIA_COUPON | Curator's Coupon
+    MIRIA_PRIZE | Curator's Prize
+    PLUMBER_SPONGE | Plumber's Sponge
+    PRINCE_CROWN_JEWEL | Prince's Crown Jewel
+    RABBIT_FOOT | Rabbit's Foot
+    SAULS_RECOMMENDATION | Captain's Recommendation
+    STARLYN_PRIZE | Herbalist's Prize
+    THE_WATCHERS_HEAD | The Overseer's Head
+    UBIKS_CUBE | Puzzler's Cube
+    WILSON_ENGINEERING_PLANS | Tinker's Engineering Plans
+    ZOG_ANVIL | Tamer's Anvil
+integration fallbacks written: 33

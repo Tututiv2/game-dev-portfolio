@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+numpy
+opencv-python-headless
+Pillow
+SQLAlchemy
+alembic
+psycopg[binary]

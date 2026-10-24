@@ -1,0 +1,1062 @@
+[
+ {
+  "id": "storage:BEGINNER_AGRONOMY_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_AGRONOMY_SACK",
+  "amount": 1,
+  "grid": [
+   "WHEAT:1",
+   "WHEAT:1",
+   "WHEAT:1",
+   "WHEAT:1",
+   "LEATHER:1",
+   "WHEAT:1",
+   "WHEAT:1",
+   "WHEAT:1",
+   "WHEAT:1"
+  ],
+  "unlock": "collection:WHEAT:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:BEGINNER_COMBAT_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_COMBAT_SACK",
+  "amount": 1,
+  "grid": [
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "LEATHER:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1",
+   "ROTTEN_FLESH:1"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:BEGINNER_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "LEATHER:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1",
+   "RAW_FISH:3:1"
+  ],
+  "unlock": "collection:RAW_FISH:3:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:BEGINNER_FORAGING_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_FORAGING_SACK",
+  "amount": 1,
+  "grid": [
+   "LOG:2:1",
+   "LOG:2:1",
+   "LOG:2:1",
+   "LOG:2:1",
+   "LEATHER:1",
+   "LOG:2:1",
+   "LOG:2:1",
+   "LOG:2:1",
+   "LOG:2:1"
+  ],
+  "unlock": "collection:LOG:2:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:BEGINNER_HUSBANDRY_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_HUSBANDRY_SACK",
+  "amount": 1,
+  "grid": [
+   "MUTTON:1",
+   "MUTTON:1",
+   "MUTTON:1",
+   "MUTTON:1",
+   "LEATHER:1",
+   "MUTTON:1",
+   "MUTTON:1",
+   "MUTTON:1",
+   "MUTTON:1"
+  ],
+  "unlock": "collection:MUTTON:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:BEGINNER_MINING_SACK#0",
+  "type": "CRAFTING",
+  "result": "BEGINNER_MINING_SACK",
+  "amount": 1,
+  "grid": [
+   "COAL:1",
+   "COAL:1",
+   "COAL:1",
+   "COAL:1",
+   "LEATHER:1",
+   "COAL:1",
+   "COAL:1",
+   "COAL:1",
+   "COAL:1"
+  ],
+  "unlock": "collection:COAL:2",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:GARDEN_SACK#0",
+  "type": "CRAFTING",
+  "result": "GARDEN_SACK",
+  "amount": 1,
+  "grid": [
+   "BOX_OF_SEEDS:1",
+   "FERMENTO:1",
+   "BOX_OF_SEEDS:1",
+   "FERMENTO:1",
+   "ENCHANTED_LEATHER:1",
+   "FERMENTO:1",
+   "BOX_OF_SEEDS:1",
+   "FERMENTO:1",
+   "BOX_OF_SEEDS:1"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:GREATER_BACKPACK#0",
+  "type": "CRAFTING",
+  "result": "GREATER_BACKPACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12",
+   "LARGE_BACKPACK:1",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_LEATHER:12"
+  ],
+  "unlock": "collection:LEATHER:11",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:JUMBO_BACKPACK#0",
+  "type": "CRAFTING",
+  "result": "JUMBO_BACKPACK",
+  "amount": 1,
+  "grid": [
+   "",
+   "JUMBO_BACKPACK_UPGRADE:1",
+   "",
+   "",
+   "GREATER_BACKPACK:1",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_AGRONOMY_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_AGRONOMY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64",
+   "MEDIUM_AGRONOMY_SACK:1",
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64",
+   "ENCHANTED_WHEAT:64"
+  ],
+  "unlock": "collection:WHEAT:10",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_BACKPACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_BACKPACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6",
+   "MEDIUM_BACKPACK:1",
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6",
+   "ENCHANTED_LEATHER:6"
+  ],
+  "unlock": "collection:LEATHER:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_CANDY_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_CANDY_SACK",
+  "amount": 1,
+  "grid": [
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4",
+   "TRICK_OR_TREAT_BAG:1",
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4",
+   "PUMPKIN_GUTS:4"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_COMBAT_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_COMBAT_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "MEDIUM_COMBAT_SACK:1",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8",
+   "ENCHANTED_ROTTEN_FLESH:8"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_DRAGON_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_DRAGON_SACK",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:8",
+   "DRAGON_HORN:1",
+   "CRYSTAL_FRAGMENT:8",
+   "DRAGON_HORN:1",
+   "MEDIUM_DRAGON_SACK:1",
+   "DRAGON_HORN:1",
+   "CRYSTAL_FRAGMENT:8",
+   "DRAGON_HORN:1",
+   "CRYSTAL_FRAGMENT:8"
+  ],
+  "unlock": "collection:ENDER_PEARL:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_AGRONOMY_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_AGRONOMY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_HAY_BALE:3",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_HAY_BALE:3",
+   "ENCHANTED_HAY_BALE:2",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_HAY_BALE:2",
+   "ENCHANTED_HAY_BALE:2",
+   "ENCHANTED_HAY_BALE:2",
+   "ENCHANTED_HAY_BALE:2"
+  ],
+  "unlock": "collection:WHEAT:11",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_COMBAT_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_COMBAT_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_ROTTEN_FLESH:16",
+   "ENCHANTED_ROTTEN_FLESH:16"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:10",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_PUFFERFISH:16"
+  ],
+  "unlock": "collection:RAW_FISH:3:10",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_FORAGING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_FORAGING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_BIRCH_LOG:16",
+   "ENCHANTED_BIRCH_LOG:16"
+  ],
+  "unlock": "collection:LOG:2:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_HUSBANDRY_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_HUSBANDRY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_MUTTON:16",
+   "ENCHANTED_MUTTON:16"
+  ],
+  "unlock": "collection:MUTTON:10",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_ENCHANTED_MINING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_ENCHANTED_MINING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_STRING:16",
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_LEATHER:12",
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_COAL:16",
+   "ENCHANTED_COAL:16"
+  ],
+  "unlock": "collection:COAL:10",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_EVENTS_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_EVENTS_SACK",
+  "amount": 1,
+  "grid": [
+   "CARNIVAL_TICKET:10",
+   "LARGE_WINTER_SACK:1",
+   "CARNIVAL_TICKET:10",
+   "CARNIVAL_TICKET:10",
+   "LARGE_CANDY_SACK:1",
+   "CARNIVAL_TICKET:10",
+   "CARNIVAL_TICKET:10",
+   "CARNIVAL_TICKET:10",
+   "CARNIVAL_TICKET:10"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8",
+   "MEDIUM_FISHING_SACK:1",
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8",
+   "ENCHANTED_PUFFERFISH:8"
+  ],
+  "unlock": "collection:RAW_FISH:3:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_FORAGING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_FORAGING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8",
+   "MEDIUM_FORAGING_SACK:1",
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8",
+   "ENCHANTED_BIRCH_LOG:8"
+  ],
+  "unlock": "collection:LOG:2:8",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_GEMSTONE_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_GEMSTONE_SACK",
+  "amount": 1,
+  "grid": [
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1",
+   "MEDIUM_GEMSTONE_SACK:1",
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1",
+   "FINE_RUBY_GEM:1"
+  ],
+  "unlock": "collection:GEMSTONE_COLLECTION:6",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_HUSBANDRY_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_HUSBANDRY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8",
+   "MEDIUM_HUSBANDRY_SACK:1",
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8",
+   "ENCHANTED_MUTTON:8"
+  ],
+  "unlock": "collection:MUTTON:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_LAVA_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_LAVA_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40",
+   "MEDIUM_LAVA_FISHING_SACK:1",
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40",
+   "MAGMA_FISH_SILVER:40"
+  ],
+  "unlock": "collection:MAGMA_FISH:11",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_MINING_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_MINING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8",
+   "MEDIUM_MINING_SACK:1",
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8",
+   "ENCHANTED_COAL:8"
+  ],
+  "unlock": "collection:COAL:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_MUTATIONS_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_MUTATIONS_SACK",
+  "amount": 1,
+  "grid": [
+   "FLESHTRAP:4",
+   "BLASTBERRY:4",
+   "FLESHTRAP:4",
+   "CHEESEBITE:4",
+   "MEDIUM_MUTATIONS_SACK:1",
+   "CHEESEBITE:4",
+   "FLESHTRAP:4",
+   "BLASTBERRY:4",
+   "FLESHTRAP:4"
+  ],
+  "unlock": "garden:analyzer:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_NETHER_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_NETHER_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SULPHUR_CUBE:1",
+   "KADA_LEAD:60",
+   "ENCHANTED_SULPHUR_CUBE:1",
+   "KADA_LEAD:60",
+   "MEDIUM_NETHER_SACK:1",
+   "KADA_LEAD:60",
+   "ENCHANTED_SULPHUR_CUBE:1",
+   "KADA_LEAD:60",
+   "ENCHANTED_SULPHUR_CUBE:1"
+  ],
+  "unlock": "collection:SULPHUR_ORE:8",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:LARGE_SLAYER_SACK#0",
+  "type": "CRAFTING",
+  "result": "LARGE_SLAYER_SACK",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1",
+   "MEDIUM_SLAYER_SACK:1",
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1",
+   "GOLDEN_TOOTH:1"
+  ],
+  "unlock": "slayer:wolf:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_AGRONOMY_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_AGRONOMY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32",
+   "SMALL_AGRONOMY_SACK:1",
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32",
+   "ENCHANTED_WHEAT:32"
+  ],
+  "unlock": "collection:WHEAT:8",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_BACKPACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_BACKPACK",
+  "amount": 1,
+  "grid": [
+   "LEATHER:64",
+   "LEATHER:64",
+   "LEATHER:64",
+   "LEATHER:64",
+   "SMALL_BACKPACK:1",
+   "LEATHER:64",
+   "LEATHER:64",
+   "LEATHER:64",
+   "LEATHER:64"
+  ],
+  "unlock": "collection:LEATHER:6",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_COMBAT_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_COMBAT_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "SMALL_COMBAT_SACK:1",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4",
+   "ENCHANTED_ROTTEN_FLESH:4"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_DRAGON_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_DRAGON_SACK",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:4",
+   "SUMMONING_EYE:1",
+   "CRYSTAL_FRAGMENT:4",
+   "SUMMONING_EYE:1",
+   "SMALL_DRAGON_SACK:1",
+   "SUMMONING_EYE:1",
+   "CRYSTAL_FRAGMENT:4",
+   "SUMMONING_EYE:1",
+   "CRYSTAL_FRAGMENT:4"
+  ],
+  "unlock": "collection:ENDER_PEARL:6",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4",
+   "SMALL_FISHING_SACK:1",
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4",
+   "ENCHANTED_PUFFERFISH:4"
+  ],
+  "unlock": "collection:RAW_FISH:3:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_FORAGING_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_FORAGING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4",
+   "SMALL_FORAGING_SACK:1",
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4",
+   "ENCHANTED_BIRCH_LOG:4"
+  ],
+  "unlock": "collection:LOG:2:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_GEMSTONE_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_GEMSTONE_SACK",
+  "amount": 1,
+  "grid": [
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10",
+   "SMALL_GEMSTONE_SACK:1",
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10",
+   "FLAWED_RUBY_GEM:10"
+  ],
+  "unlock": "collection:GEMSTONE_COLLECTION:3",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_HUSBANDRY_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_HUSBANDRY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4",
+   "SMALL_HUSBANDRY_SACK:1",
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4",
+   "ENCHANTED_MUTTON:4"
+  ],
+  "unlock": "collection:MUTTON:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_LAVA_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_LAVA_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10",
+   "SMALL_LAVA_FISHING_SACK:1",
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10",
+   "MAGMA_FISH_SILVER:10"
+  ],
+  "unlock": "collection:MAGMA_FISH:9",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_MINING_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_MINING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4",
+   "SMALL_MINING_SACK:1",
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4",
+   "ENCHANTED_COAL:4"
+  ],
+  "unlock": "collection:COAL:7",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_MUTATIONS_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_MUTATIONS_SACK",
+  "amount": 1,
+  "grid": [
+   "CHOCOBERRY:2",
+   "CREAMBLOOM:2",
+   "CHOCOBERRY:2",
+   "COALROOT:2",
+   "SMALL_MUTATIONS_SACK:1",
+   "COALROOT:2",
+   "CHOCOBERRY:2",
+   "CREAMBLOOM:2",
+   "CHOCOBERRY:2"
+  ],
+  "unlock": "garden:analyzer:3",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_NETHER_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_NETHER_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SULPHUR:16",
+   "KADA_LEAD:40",
+   "ENCHANTED_SULPHUR:16",
+   "KADA_LEAD:40",
+   "SMALL_NETHER_SACK:1",
+   "KADA_LEAD:40",
+   "ENCHANTED_SULPHUR:16",
+   "KADA_LEAD:40",
+   "ENCHANTED_SULPHUR:16"
+  ],
+  "unlock": "collection:SULPHUR_ORE:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:MEDIUM_SLAYER_SACK#0",
+  "type": "CRAFTING",
+  "result": "MEDIUM_SLAYER_SACK",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1",
+   "SMALL_SLAYER_SACK:1",
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1",
+   "TARANTULA_SILK:1"
+  ],
+  "unlock": "slayer:spider:6",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_AGRONOMY_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_AGRONOMY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "BEGINNER_AGRONOMY_SACK:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1",
+   "ENCHANTED_WHEAT:1"
+  ],
+  "unlock": "collection:WHEAT:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_BACKPACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_BACKPACK",
+  "amount": 1,
+  "grid": [
+   "LEATHER:10",
+   "LEATHER:10",
+   "LEATHER:10",
+   "LEATHER:10",
+   "",
+   "LEATHER:10",
+   "LEATHER:10",
+   "LEATHER:10",
+   "LEATHER:10"
+  ],
+  "unlock": "collection:LEATHER:3",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_COMBAT_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_COMBAT_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "BEGINNER_COMBAT_SACK:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1",
+   "ENCHANTED_ROTTEN_FLESH:1"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_DRAGON_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_DRAGON_SACK",
+  "amount": 1,
+  "grid": [
+   "CRYSTAL_FRAGMENT:2",
+   "DRAGON_CLAW:1",
+   "CRYSTAL_FRAGMENT:2",
+   "DRAGON_CLAW:1",
+   "ENCHANTED_LEATHER:1",
+   "DRAGON_CLAW:1",
+   "CRYSTAL_FRAGMENT:2",
+   "DRAGON_CLAW:1",
+   "CRYSTAL_FRAGMENT:2"
+  ],
+  "unlock": "collection:ENDER_PEARL:4",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "BEGINNER_FISHING_SACK:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1",
+   "ENCHANTED_PUFFERFISH:1"
+  ],
+  "unlock": "collection:RAW_FISH:3:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_FORAGING_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_FORAGING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "BEGINNER_FORAGING_SACK:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1",
+   "ENCHANTED_BIRCH_LOG:1"
+  ],
+  "unlock": "collection:LOG:2:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_GEMSTONE_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_GEMSTONE_SACK",
+  "amount": 1,
+  "grid": [
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10",
+   "ENCHANTED_LEATHER:1",
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10",
+   "ROUGH_RUBY_GEM:10"
+  ],
+  "unlock": "collection:GEMSTONE_COLLECTION:1",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_HUSBANDRY_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_HUSBANDRY_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1",
+   "BEGINNER_HUSBANDRY_SACK:1",
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1",
+   "ENCHANTED_MUTTON:1"
+  ],
+  "unlock": "collection:MUTTON:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_LAVA_FISHING_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_LAVA_FISHING_SACK",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1",
+   "ENCHANTED_LEATHER:1",
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1",
+   "MAGMA_FISH_SILVER:1"
+  ],
+  "unlock": "collection:MAGMA_FISH:6",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_MINING_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_MINING_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "BEGINNER_MINING_SACK:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1"
+  ],
+  "unlock": "collection:COAL:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_MUTATIONS_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_MUTATIONS_SACK",
+  "amount": 1,
+  "grid": [
+   "VEILSHROOM:1",
+   "DUSTGRAIN:1",
+   "VEILSHROOM:1",
+   "DUSTGRAIN:1",
+   "ENCHANTED_LEATHER:1",
+   "DUSTGRAIN:1",
+   "VEILSHROOM:1",
+   "DUSTGRAIN:1",
+   "VEILSHROOM:1"
+  ],
+  "unlock": "garden:analyzer:1",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_NETHER_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_NETHER_SACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1",
+   "KADA_LEAD:20",
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1",
+   "ENCHANTED_SULPHUR:1"
+  ],
+  "unlock": "collection:SULPHUR_ORE:3",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "storage:SMALL_SLAYER_SACK#0",
+  "type": "CRAFTING",
+  "result": "SMALL_SLAYER_SACK",
+  "amount": 1,
+  "grid": [
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1",
+   "ENCHANTED_LEATHER:1",
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1",
+   "REVENANT_VISCERA:1"
+  ],
+  "unlock": "slayer:zombie:5",
+  "station": "Crafting Table"
+ }
+]

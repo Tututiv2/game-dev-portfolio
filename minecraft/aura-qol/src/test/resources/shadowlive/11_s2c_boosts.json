@@ -1,0 +1,21 @@
+{
+ "direction": "s2c",
+ "type": 7,
+ "name": "BOOSTS",
+ "fields": {
+  "boosts": [
+   {
+    "id": "sell_2x",
+    "name": "Sell Booster",
+    "multiplierText": "x2.0",
+    "expiresAtMs": 1791850360000
+   },
+   {
+    "id": "global_tokens",
+    "name": "Global Token Rush",
+    "multiplierText": "+50%",
+    "expiresAtMs": 0
+   }
+  ]
+ }
+}

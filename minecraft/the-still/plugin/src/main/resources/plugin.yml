@@ -1,0 +1,20 @@
+name: TheStill
+version: '${project.version}'
+main: com.thestill.TheStillPlugin
+api-version: '26.1'
+author: Tutut
+description: Noise calls. Heat keeps.
+
+# Paper downloads these into server/libraries on first load. Must match the
+# compileOnly coordinate in build.gradle.kts exactly.
+libraries:
+  - org.xerial:sqlite-jdbc:3.47.1.0
+
+# No `commands:` block on purpose. Commands register through Brigadier at
+# runtime (see com.thestill.command.CommandService), so adding a command is one
+# Java file and never an edit to this file.
+
+permissions:
+  thestill.admin:
+    description: Full administrative access to The Still.
+    default: op

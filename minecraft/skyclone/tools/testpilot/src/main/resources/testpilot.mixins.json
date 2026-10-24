@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.testpilot.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatComponentMixin",
+    "GuiMixin",
+    "MinecraftInvoker",
+    "MinecraftKeybindsMixin",
+    "MouseHandlerMixin",
+    "OptionsMixin",
+    "PlayerTabOverlayAccessor",
+    "WindowMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

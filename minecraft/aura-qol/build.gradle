@@ -1,0 +1,98 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+base {
+    archivesName = 'auraqol'
+}
+
+// One source tree, several Minecraft versions. Build another one with
+//   gradlew build -Pminecraft_version=26.1.2 -Pfabric_api_version=0.155.3+26.1.2
+// The MC version goes into the jar name (auraqol-1.0.0+mc26.2.jar) so a jar
+// built for one version can never be mistaken for the other.
+version = "${project.version}+mc${project.minecraft_version}"
+
+// The few calls Mojang moved between 26.1 and 26.2 live in com.auraqol.compat.Mc,
+// once per version; exactly one copy is compiled.
+def mcLine = project.minecraft_version.startsWith('26.1') ? 'mc26_1' : 'mc26_2'
+sourceSets.main.java.srcDir "src/${mcLine}/java"
+
+repositories {
+    mavenCentral()
+}
+
+loom {
+    // NOTE: splitEnvironmentSourceSets() is deliberately NOT called.
+    // This mod is client-only and its one mixin targets a client class, so a
+    // split would put that class out of reach of the main source set for no
+    // gain. fabric.mod.json declares the client entrypoint instead.
+    runs {
+        client {
+            runDir = "run/client"
+            programArgs("--username", project.dev_username)
+            // Test hooks, both off by default and neither sends any input:
+            //   -PquickPlay=localhost:25655  joins that server straight from launch
+            //   -Pselftest                   logs what the SkyBlock features compute
+            if (project.hasProperty('quickPlay')) {
+                programArgs("--quickPlayMultiplayer", project.quickPlay.toString())
+            }
+            if (project.hasProperty('selftest')) {
+                vmArg("-Dauraqol.selftest=true")
+            }
+            //   -Pdemo                       context panels draw samples when they have no data
+            if (project.hasProperty('demo')) {
+                vmArg("-Dauraqol.demo=true")
+            }
+            //   -PholdAttack                 dev self test holds the attack key in-process
+            //                                (no OS input) to exercise blocks/s against RCON setblock
+            if (project.hasProperty('holdAttack')) {
+                vmArg("-Dauraqol.holdattack=true")
+            }
+        }
+    }
+}
+
+dependencies {
+    // No `mappings` line. See gradle.properties before you "fix" this.
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    // Unit tests for the pure SkyBlock logic (com.auraqol.skyblock): rates,
+    // price parsing and keys, sidebar/sack/trade text, to-do storage. They
+    // never start Minecraft - that is the point of keeping that logic pure.
+    testImplementation "org.junit.jupiter:junit-jupiter:5.11.4"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher:1.11.4"
+}
+
+test {
+    useJUnitPlatform()
+    // LiveSourcesTest hits the real price endpoints; off unless -Plive=true,
+    // so a build never depends on the network.
+    systemProperty 'auraqol.live', (project.findProperty('live') ?: 'false').toString()
+    testLogging.showStandardStreams = project.hasProperty('live')
+    testLogging {
+        events "failed"
+        exceptionFormat "full"
+    }
+}
+
+java {
+    withSourcesJar()
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(project.java_version as int)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = project.java_version as int
+    it.options.encoding = 'UTF-8'
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version, "minecraft_version": project.minecraft_version
+    }
+}

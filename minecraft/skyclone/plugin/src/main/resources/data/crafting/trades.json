@@ -1,0 +1,237 @@
+[
+ {
+  "id": "trade_enchanted_bone_meal",
+  "name": "Enchanted Bone Meal",
+  "result": "ENCHANTED_BONE_MEAL",
+  "amount": 1,
+  "cost": [
+   "BONE:2"
+  ],
+  "unlock": "collection:BONE:2",
+  "collection": "BONE"
+ },
+ {
+  "id": "trade_teleport_pad",
+  "name": "Teleport Pad",
+  "result": "TELEPORT_PAD",
+  "amount": 1,
+  "cost": [
+   "COINS:2500",
+   "ENDER_PEARL:16"
+  ],
+  "unlock": "collection:ENDER_PEARL:7",
+  "collection": "ENDER_PEARL"
+ },
+ {
+  "id": "trade_milk_bucket",
+  "name": "Milk Bucket",
+  "result": "MILK_BUCKET",
+  "amount": 1,
+  "cost": [
+   "COINS:12",
+   "LEATHER:1"
+  ],
+  "unlock": "collection:LEATHER:2",
+  "collection": "LEATHER"
+ },
+ {
+  "id": "trade_oak_leaves",
+  "name": "Oak Leaves",
+  "result": "LEAVES",
+  "amount": 4,
+  "cost": [
+   "LOG:1"
+  ],
+  "unlock": "collection:LOG:2",
+  "collection": "LOG"
+ },
+ {
+  "id": "trade_spruce_leaves",
+  "name": "Spruce Leaves",
+  "result": "LEAVES:1",
+  "amount": 4,
+  "cost": [
+   "LOG:1:1"
+  ],
+  "unlock": "collection:LOG:1:2",
+  "collection": "LOG:1"
+ },
+ {
+  "id": "trade_birch_leaves",
+  "name": "Birch Leaves",
+  "result": "LEAVES:2",
+  "amount": 4,
+  "cost": [
+   "LOG:2:1"
+  ],
+  "unlock": "collection:LOG:2:2",
+  "collection": "LOG:2"
+ },
+ {
+  "id": "trade_jungle_leaves",
+  "name": "Jungle Leaves",
+  "result": "LEAVES:3",
+  "amount": 4,
+  "cost": [
+   "LOG:3:1"
+  ],
+  "unlock": "collection:LOG:3:2",
+  "collection": "LOG:3"
+ },
+ {
+  "id": "trade_vines",
+  "name": "Vines",
+  "result": "VINE",
+  "amount": 2,
+  "cost": [
+   "LOG:3:2"
+  ],
+  "unlock": "collection:LOG:3:4",
+  "collection": "LOG:3"
+ },
+ {
+  "id": "trade_acacia_leaves",
+  "name": "Acacia Leaves",
+  "result": "LEAVES_2",
+  "amount": 4,
+  "cost": [
+   "LOG_2:1"
+  ],
+  "unlock": "collection:LOG_2:2",
+  "collection": "LOG_2"
+ },
+ {
+  "id": "trade_dark_oak_leaves",
+  "name": "Dark Oak Leaves",
+  "result": "LEAVES_2:1",
+  "amount": 4,
+  "cost": [
+   "LOG_2:1:1"
+  ],
+  "unlock": "collection:LOG_2:1:2",
+  "collection": "LOG_2:1"
+ },
+ {
+  "id": "trade_lava_bucket",
+  "name": "Lava Bucket",
+  "result": "LAVA_BUCKET",
+  "amount": 1,
+  "cost": [
+   "COINS:12",
+   "MAGMA_CREAM:1"
+  ],
+  "unlock": "collection:MAGMA_CREAM:5",
+  "collection": "MAGMA_CREAM"
+ },
+ {
+  "id": "trade_nether_brick",
+  "name": "Nether Brick",
+  "result": "NETHER_BRICK_ITEM",
+  "amount": 1,
+  "cost": [
+   "NETHERRACK:2"
+  ],
+  "unlock": "collection:NETHERRACK:3",
+  "collection": "NETHERRACK"
+ },
+ {
+  "id": "trade_water_bucket",
+  "name": "Water Bucket",
+  "result": "WATER_BUCKET",
+  "amount": 1,
+  "cost": [
+   "COINS:12"
+  ],
+  "unlock": "collection:RAW_FISH:2:2",
+  "collection": "RAW_FISH:2"
+ },
+ {
+  "id": "trade_soul_sand",
+  "name": "Soul Sand",
+  "result": "SOUL_SAND",
+  "amount": 1,
+  "cost": [
+   "SAND:4"
+  ],
+  "unlock": "collection:SAND:3",
+  "collection": "SAND"
+ },
+ {
+  "id": "trade_dirt",
+  "name": "Dirt",
+  "result": "DIRT",
+  "amount": 1,
+  "cost": [
+   "SEEDS:4"
+  ],
+  "unlock": "collection:SEEDS:1",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_clay_ball",
+  "name": "Clay Ball",
+  "result": "CLAY_BALL",
+  "amount": 1,
+  "cost": [
+   "SEEDS:8"
+  ],
+  "unlock": "collection:SEEDS:2",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_long_grass",
+  "name": "Long Grass",
+  "result": "LONG_GRASS:1",
+  "amount": 1,
+  "cost": [
+   "SEEDS:3"
+  ],
+  "unlock": "collection:SEEDS:3",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_fern",
+  "name": "Fern",
+  "result": "LONG_GRASS:2",
+  "amount": 1,
+  "cost": [
+   "SEEDS:3"
+  ],
+  "unlock": "collection:SEEDS:4",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_dead_bush",
+  "name": "Dead Bush",
+  "result": "DEAD_BUSH",
+  "amount": 1,
+  "cost": [
+   "SEEDS:3"
+  ],
+  "unlock": "collection:SEEDS:5",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_double_tallgrass",
+  "name": "Double Tallgrass",
+  "result": "DOUBLE_PLANT:2",
+  "amount": 1,
+  "cost": [
+   "SEEDS:4"
+  ],
+  "unlock": "collection:SEEDS:6",
+  "collection": "SEEDS"
+ },
+ {
+  "id": "trade_sponge",
+  "name": "Sponge",
+  "result": "SPONGE",
+  "amount": 1,
+  "cost": [
+   "COINS:80",
+   "PRISMARINE_SHARD:4"
+  ],
+  "unlock": "collection:SPONGE:1",
+  "collection": "SPONGE"
+ }
+]

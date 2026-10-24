@@ -1,0 +1,44 @@
+{
+  "name": "shadow-designer",
+  "version": "0.1.0",
+  "description": "Desktop wrapper for sprite animator HTML projects.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "generate:assets": "node scripts/generate-brand-assets.js",
+    "build:exe": "npm run generate:assets && electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^37.3.1",
+    "electron-builder": "^26.0.12",
+    "png-to-ico": "^3.0.1",
+    "pngjs": "^7.0.0"
+  },
+  "build": {
+    "appId": "com.shadow.designer",
+    "productName": "Shadow Designer",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "splash.html",
+      "assets/**"
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false,
+      "target": [
+        "portable"
+      ],
+      "artifactName": "Shadow-Designer.exe"
+    }
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17"
+  }
+}

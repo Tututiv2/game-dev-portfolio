@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desert Rails — design spec (parts 1–10)</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <style>
+      main { max-width: 52rem; margin: 0 auto; padding: 1rem 1.25rem 2rem; }
+      main h1 { font-size: 1.25rem; margin-top: 0; }
+      main h2 { font-size: 1rem; margin: 1.5rem 0 0.5rem; color: #9a8a78; }
+      main p, main li { line-height: 1.5; color: #d0c4b0; }
+      main ul { padding-left: 1.2rem; }
+      main a { color: #9bc4ff; }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Design spec <span class="sub">(Dead Rails–style HTML build)</span></h1>
+      <a href="/">Play 3D prototype</a>
+    </header>
+    <main>
+      <p>
+        <strong>Scope</strong> — Fan design document. The game now uses <strong>Three.js</strong> and a
+        <strong>Node + Socket.IO</strong> host so a crew can share one run. Balance still lives in
+        <code>public/config.json</code>.
+      </p>
+      <h2>Part 8 — UI/UX (updated)</h2>
+      <ul>
+        <li>3D world view: train, rails, desert ground, day/night sky tint.</li>
+        <li>HTML HUD + modals; server log list synced to all players.</li>
+      </ul>
+      <h2>Part 9 — Technical (updated)</h2>
+      <ul>
+        <li>Client: Vite, <code>src/main.js</code>, <code>src/world3d.js</code> (Three.js).</li>
+        <li>Server: <code>server/index.js</code> + <code>server/gameEngine.js</code> (authoritative state).</li>
+        <li>Dev: Vite on port 5173 proxies <code>/socket.io</code> to the game server (3001).</li>
+        <li>Prod: <code>npm run build</code> then <code>npm start</code> — one process serves <code>dist</code> + websockets (default port 3001).</li>
+      </ul>
+      <h2>Part 10 — File layout (updated)</h2>
+      <ul>
+        <li><code>index.html</code> — Vite entry</li>
+        <li><code>src/main.js</code> — network + UI</li>
+        <li><code>src/world3d.js</code> — Three.js scene</li>
+        <li><code>server/</code> — Socket.IO + game tick</li>
+        <li><code>public/config.json</code>, <code>public/css/main.css</code></li>
+      </ul>
+      <h2>Earlier parts (1–7)</h2>
+      <p>Same design goals: fuel, outposts, bridge finale, co-op on one train. See the original spec notes in the project plan.</p>
+    </main>
+  </body>
+</html>

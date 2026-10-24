@@ -1,0 +1,1640 @@
+{
+ "families": [
+  {
+   "id": "AGRONOMY",
+   "name": "Agronomy",
+   "field": "&aFarming",
+   "order": 0,
+   "sacks": [
+    "BEGINNER_AGRONOMY_SACK",
+    "SMALL_AGRONOMY_SACK",
+    "MEDIUM_AGRONOMY_SACK",
+    "LARGE_AGRONOMY_SACK"
+   ],
+   "contents": [
+    "BROWN_MUSHROOM",
+    "CACTUS",
+    "INK_SACK:2",
+    "CARROT_ITEM",
+    "INK_SACK:3",
+    "GOLDEN_CARROT",
+    "HAY_BLOCK",
+    "JACK_O_LANTERN",
+    "MELON",
+    "MOONFLOWER",
+    "NETHER_STALK",
+    "POISONOUS_POTATO",
+    "POTATO_ITEM",
+    "PUMPKIN",
+    "RED_MUSHROOM",
+    "SEEDS",
+    "SUGAR_CANE",
+    "DOUBLE_PLANT",
+    "WHEAT",
+    "WILD_ROSE"
+   ]
+  },
+  {
+   "id": "ENCH_AGRONOMY",
+   "name": "Enchanted Agronomy",
+   "field": "&aFarming &7(enchanted)",
+   "order": 1,
+   "sacks": [
+    "LARGE_ENCHANTED_AGRONOMY_SACK"
+   ],
+   "contents": [
+    "BOX_OF_SEEDS",
+    "COMPACTED_MOONFLOWER",
+    "COMPACTED_SUNFLOWER",
+    "COMPACTED_WILD_ROSE",
+    "ENCHANTED_BAKED_POTATO",
+    "ENCHANTED_BREAD",
+    "ENCHANTED_BROWN_MUSHROOM",
+    "ENCHANTED_HUGE_MUSHROOM_1",
+    "ENCHANTED_CACTUS",
+    "ENCHANTED_CACTUS_GREEN",
+    "ENCHANTED_CARROT",
+    "ENCHANTED_COCOA",
+    "ENCHANTED_COOKIE",
+    "ENCHANTED_GOLDEN_CARROT",
+    "ENCHANTED_HAY_BALE",
+    "ENCHANTED_MELON_BLOCK",
+    "ENCHANTED_MELON",
+    "ENCHANTED_MOONFLOWER",
+    "ENCHANTED_NETHER_STALK",
+    "ENCHANTED_POISONOUS_POTATO",
+    "ENCHANTED_POTATO",
+    "ENCHANTED_PUMPKIN",
+    "ENCHANTED_RED_MUSHROOM",
+    "ENCHANTED_HUGE_MUSHROOM_2",
+    "ENCHANTED_SEEDS",
+    "ENCHANTED_SUGAR",
+    "ENCHANTED_SUGAR_CANE",
+    "ENCHANTED_SUNFLOWER",
+    "ENCHANTED_WHEAT",
+    "ENCHANTED_WILD_ROSE",
+    "MUTANT_NETHER_STALK",
+    "POLISHED_PUMPKIN"
+   ]
+  },
+  {
+   "id": "HUSBANDRY",
+   "name": "Husbandry",
+   "field": "&aanimal farming",
+   "order": 2,
+   "sacks": [
+    "BEGINNER_HUSBANDRY_SACK",
+    "SMALL_HUSBANDRY_SACK",
+    "MEDIUM_HUSBANDRY_SACK",
+    "LARGE_HUSBANDRY_SACK"
+   ],
+   "contents": [
+    "EGG",
+    "FEATHER",
+    "LEATHER",
+    "RABBIT_HIDE",
+    "RABBIT_FOOT",
+    "RAW_BEEF",
+    "RAW_CHICKEN",
+    "MUTTON",
+    "PORK",
+    "RABBIT",
+    "WOOL"
+   ]
+  },
+  {
+   "id": "ENCH_HUSBANDRY",
+   "name": "Enchanted Husbandry",
+   "field": "&aanimal farming &7(enchanted)",
+   "order": 3,
+   "sacks": [
+    "LARGE_ENCHANTED_HUSBANDRY_SACK"
+   ],
+   "contents": [
+    "ENCHANTED_COOKED_MUTTON",
+    "ENCHANTED_GRILLED_PORK",
+    "ENCHANTED_COOKED_RABBIT",
+    "ENCHANTED_EGG",
+    "ENCHANTED_FEATHER",
+    "ENCHANTED_LEATHER",
+    "ENCHANTED_RABBIT_FOOT",
+    "ENCHANTED_RABBIT_HIDE",
+    "ENCHANTED_RAW_BEEF",
+    "ENCHANTED_RAW_CHICKEN",
+    "ENCHANTED_MUTTON",
+    "ENCHANTED_PORK",
+    "ENCHANTED_RABBIT",
+    "ENCHANTED_WOOL",
+    "SUPER_EGG"
+   ]
+  },
+  {
+   "id": "MINING",
+   "name": "Mining",
+   "field": "&bMining",
+   "order": 4,
+   "sacks": [
+    "BEGINNER_MINING_SACK",
+    "SMALL_MINING_SACK",
+    "MEDIUM_MINING_SACK",
+    "LARGE_MINING_SACK"
+   ],
+   "contents": [
+    "COAL",
+    "COBBLESTONE",
+    "DIAMOND",
+    "EMERALD",
+    "ENDER_STONE",
+    "FLINT",
+    "GLACITE",
+    "GLOSSY_GEMSTONE",
+    "GOLD_INGOT",
+    "GRAVEL",
+    "HARD_STONE",
+    "ICE",
+    "IRON_INGOT",
+    "INK_SACK:4",
+    "MITHRIL_ORE",
+    "MYCEL",
+    "QUARTZ",
+    "NETHERRACK",
+    "OBSIDIAN",
+    "OIL_BARREL",
+    "PACKED_ICE",
+    "PLASMA",
+    "SAND:1",
+    "REDSTONE",
+    "REFINED_MINERAL",
+    "SAND",
+    "SNOW_BLOCK",
+    "STARFALL",
+    "STONE",
+    "SULPHUR_ORE",
+    "SUNFLOWER_OIL",
+    "TITANIUM_ORE",
+    "TREASURITE",
+    "TUNGSTEN",
+    "UMBER",
+    "VOLTA",
+    "BIOFUEL"
+   ]
+  },
+  {
+   "id": "ENCH_MINING",
+   "name": "Enchanted Mining",
+   "field": "&bMining &7(enchanted)",
+   "order": 5,
+   "sacks": [
+    "LARGE_ENCHANTED_MINING_SACK"
+   ],
+   "contents": [
+    "CONCENTRATED_STONE",
+    "ENCHANTED_COAL",
+    "ENCHANTED_COAL_BLOCK",
+    "ENCHANTED_COBBLESTONE",
+    "ENCHANTED_DIAMOND",
+    "ENCHANTED_DIAMOND_BLOCK",
+    "ENCHANTED_EMERALD",
+    "ENCHANTED_EMERALD_BLOCK",
+    "ENCHANTED_ENDSTONE",
+    "ENCHANTED_FLINT",
+    "ENCHANTED_GLACITE",
+    "ENCHANTED_GLOWSTONE",
+    "ENCHANTED_GLOWSTONE_DUST",
+    "ENCHANTED_GOLD_BLOCK",
+    "ENCHANTED_GOLD",
+    "ENCHANTED_HARD_STONE",
+    "ENCHANTED_ICE",
+    "ENCHANTED_IRON_BLOCK",
+    "ENCHANTED_IRON",
+    "ENCHANTED_LAPIS_LAZULI",
+    "ENCHANTED_LAPIS_LAZULI_BLOCK",
+    "ENCHANTED_MITHRIL",
+    "ENCHANTED_MYCELIUM",
+    "ENCHANTED_MYCELIUM_CUBE",
+    "ENCHANTED_QUARTZ",
+    "ENCHANTED_NETHERRACK",
+    "ENCHANTED_OBSIDIAN",
+    "ENCHANTED_PACKED_ICE",
+    "ENCHANTED_QUARTZ_BLOCK",
+    "ENCHANTED_RED_SAND",
+    "ENCHANTED_RED_SAND_CUBE",
+    "ENCHANTED_REDSTONE_BLOCK",
+    "ENCHANTED_REDSTONE",
+    "ENCHANTED_SAND",
+    "ENCHANTED_SNOW_BLOCK",
+    "ENCHANTED_SULPHUR",
+    "ENCHANTED_SULPHUR_CUBE",
+    "ENCHANTED_TITANIUM",
+    "ENCHANTED_TUNGSTEN",
+    "ENCHANTED_UMBER"
+   ]
+  },
+  {
+   "id": "GEMSTONE",
+   "name": "Gemstone",
+   "field": "&dgemstone mining",
+   "order": 6,
+   "sacks": [
+    "SMALL_GEMSTONE_SACK",
+    "MEDIUM_GEMSTONE_SACK",
+    "LARGE_GEMSTONE_SACK",
+    "EXTRA_LARGE_GEMSTONE_SACK"
+   ],
+   "contents": [
+    "ROUGH_JADE_GEM",
+    "FLAWED_JADE_GEM",
+    "FINE_JADE_GEM",
+    "ROUGH_AMBER_GEM",
+    "FLAWED_AMBER_GEM",
+    "FINE_AMBER_GEM",
+    "ROUGH_TOPAZ_GEM",
+    "FLAWED_TOPAZ_GEM",
+    "FINE_TOPAZ_GEM",
+    "ROUGH_SAPPHIRE_GEM",
+    "FLAWED_SAPPHIRE_GEM",
+    "FINE_SAPPHIRE_GEM",
+    "ROUGH_AMETHYST_GEM",
+    "FLAWED_AMETHYST_GEM",
+    "FINE_AMETHYST_GEM",
+    "ROUGH_JASPER_GEM",
+    "FLAWED_JASPER_GEM",
+    "FINE_JASPER_GEM",
+    "ROUGH_RUBY_GEM",
+    "FLAWED_RUBY_GEM",
+    "FINE_RUBY_GEM",
+    "ROUGH_OPAL_GEM",
+    "FLAWED_OPAL_GEM",
+    "FINE_OPAL_GEM",
+    "ROUGH_ONYX_GEM",
+    "FLAWED_ONYX_GEM",
+    "FINE_ONYX_GEM",
+    "ROUGH_AQUAMARINE_GEM",
+    "FLAWED_AQUAMARINE_GEM",
+    "FINE_AQUAMARINE_GEM",
+    "ROUGH_CITRINE_GEM",
+    "FLAWED_CITRINE_GEM",
+    "FINE_CITRINE_GEM",
+    "ROUGH_PERIDOT_GEM",
+    "FLAWED_PERIDOT_GEM",
+    "FINE_PERIDOT_GEM"
+   ],
+   "weights": {
+    "ROUGH_JADE_GEM": {
+     "group": "JADE",
+     "weight": 1
+    },
+    "FLAWED_JADE_GEM": {
+     "group": "JADE",
+     "weight": 80
+    },
+    "FINE_JADE_GEM": {
+     "group": "JADE",
+     "weight": 6400
+    },
+    "ROUGH_AMBER_GEM": {
+     "group": "AMBER",
+     "weight": 1
+    },
+    "FLAWED_AMBER_GEM": {
+     "group": "AMBER",
+     "weight": 80
+    },
+    "FINE_AMBER_GEM": {
+     "group": "AMBER",
+     "weight": 6400
+    },
+    "ROUGH_TOPAZ_GEM": {
+     "group": "TOPAZ",
+     "weight": 1
+    },
+    "FLAWED_TOPAZ_GEM": {
+     "group": "TOPAZ",
+     "weight": 80
+    },
+    "FINE_TOPAZ_GEM": {
+     "group": "TOPAZ",
+     "weight": 6400
+    },
+    "ROUGH_SAPPHIRE_GEM": {
+     "group": "SAPPHIRE",
+     "weight": 1
+    },
+    "FLAWED_SAPPHIRE_GEM": {
+     "group": "SAPPHIRE",
+     "weight": 80
+    },
+    "FINE_SAPPHIRE_GEM": {
+     "group": "SAPPHIRE",
+     "weight": 6400
+    },
+    "ROUGH_AMETHYST_GEM": {
+     "group": "AMETHYST",
+     "weight": 1
+    },
+    "FLAWED_AMETHYST_GEM": {
+     "group": "AMETHYST",
+     "weight": 80
+    },
+    "FINE_AMETHYST_GEM": {
+     "group": "AMETHYST",
+     "weight": 6400
+    },
+    "ROUGH_JASPER_GEM": {
+     "group": "JASPER",
+     "weight": 1
+    },
+    "FLAWED_JASPER_GEM": {
+     "group": "JASPER",
+     "weight": 80
+    },
+    "FINE_JASPER_GEM": {
+     "group": "JASPER",
+     "weight": 6400
+    },
+    "ROUGH_RUBY_GEM": {
+     "group": "RUBY",
+     "weight": 1
+    },
+    "FLAWED_RUBY_GEM": {
+     "group": "RUBY",
+     "weight": 80
+    },
+    "FINE_RUBY_GEM": {
+     "group": "RUBY",
+     "weight": 6400
+    },
+    "ROUGH_OPAL_GEM": {
+     "group": "OPAL",
+     "weight": 1
+    },
+    "FLAWED_OPAL_GEM": {
+     "group": "OPAL",
+     "weight": 80
+    },
+    "FINE_OPAL_GEM": {
+     "group": "OPAL",
+     "weight": 6400
+    },
+    "ROUGH_ONYX_GEM": {
+     "group": "ONYX",
+     "weight": 1
+    },
+    "FLAWED_ONYX_GEM": {
+     "group": "ONYX",
+     "weight": 80
+    },
+    "FINE_ONYX_GEM": {
+     "group": "ONYX",
+     "weight": 6400
+    },
+    "ROUGH_AQUAMARINE_GEM": {
+     "group": "AQUAMARINE",
+     "weight": 1
+    },
+    "FLAWED_AQUAMARINE_GEM": {
+     "group": "AQUAMARINE",
+     "weight": 80
+    },
+    "FINE_AQUAMARINE_GEM": {
+     "group": "AQUAMARINE",
+     "weight": 6400
+    },
+    "ROUGH_CITRINE_GEM": {
+     "group": "CITRINE",
+     "weight": 1
+    },
+    "FLAWED_CITRINE_GEM": {
+     "group": "CITRINE",
+     "weight": 80
+    },
+    "FINE_CITRINE_GEM": {
+     "group": "CITRINE",
+     "weight": 6400
+    },
+    "ROUGH_PERIDOT_GEM": {
+     "group": "PERIDOT",
+     "weight": 1
+    },
+    "FLAWED_PERIDOT_GEM": {
+     "group": "PERIDOT",
+     "weight": 80
+    },
+    "FINE_PERIDOT_GEM": {
+     "group": "PERIDOT",
+     "weight": 6400
+    }
+   }
+  },
+  {
+   "id": "DWARVEN",
+   "name": "Dwarven",
+   "field": "&bthe dwarven mines",
+   "order": 7,
+   "sacks": [
+    "DWARVEN_MINES_SACK"
+   ],
+   "contents": [
+    "BIOFUEL",
+    "GLACITE_JEWEL",
+    "GOBLIN_EGG",
+    "OIL_BARREL",
+    "PLASMA",
+    "SORROW",
+    "SUSPICIOUS_SCRAP",
+    "TUNGSTEN_KEY",
+    "UMBER_KEY",
+    "VOLTA",
+    "GOBLIN_EGG_BLUE",
+    "GOBLIN_EGG_GREEN",
+    "GOBLIN_EGG_RED",
+    "GOBLIN_EGG_YELLOW"
+   ]
+  },
+  {
+   "id": "HOLLOWS",
+   "name": "Hollows",
+   "field": "&bthe crystal caverns",
+   "order": 8,
+   "sacks": [
+    "CRYSTAL_HOLLOWS_SACK"
+   ],
+   "contents": [
+    "ASCENSION_ROPE",
+    "BOB_OMB",
+    "CONTROL_SWITCH",
+    "CORLEONITE",
+    "ELECTRON_TRANSMITTER",
+    "FTX_3070",
+    "JUNGLE_KEY",
+    "OIL_BARREL",
+    "PRECURSOR_APPARATUS",
+    "ROBOTRON_REFLECTOR",
+    "SLUDGE_JUICE",
+    "SUPERLITE_MOTOR",
+    "SYNTHETIC_HEART",
+    "WISHING_COMPASS",
+    "YOGGIE"
+   ]
+  },
+  {
+   "id": "COMBAT",
+   "name": "Combat",
+   "field": "&cCombat",
+   "order": 9,
+   "sacks": [
+    "BEGINNER_COMBAT_SACK",
+    "SMALL_COMBAT_SACK",
+    "MEDIUM_COMBAT_SACK",
+    "LARGE_COMBAT_SACK"
+   ],
+   "contents": [
+    "ARACHNE_FRAGMENT",
+    "ARACHNE_KEEPER_FRAGMENT",
+    "BLAZE_ROD",
+    "BONE",
+    "CHILI_PEPPER",
+    "ENDER_PEARL",
+    "GHAST_TEAR",
+    "SULPHUR",
+    "MAGMA_CREAM",
+    "ROTTEN_FLESH",
+    "SLIME_BALL",
+    "SOUL_STRING",
+    "SPIDER_EYE",
+    "STRING"
+   ]
+  },
+  {
+   "id": "ENCH_COMBAT",
+   "name": "Enchanted Combat",
+   "field": "&cCombat &7(enchanted)",
+   "order": 10,
+   "sacks": [
+    "LARGE_ENCHANTED_COMBAT_SACK"
+   ],
+   "contents": [
+    "ABSOLUTE_ENDER_PEARL",
+    "ENCHANTED_BLAZE_POWDER",
+    "ENCHANTED_BLAZE_ROD",
+    "ENCHANTED_BONE",
+    "ENCHANTED_BONE_BLOCK",
+    "ENCHANTED_ENDER_PEARL",
+    "ENCHANTED_EYE_OF_ENDER",
+    "ENCHANTED_GHAST_TEAR",
+    "ENCHANTED_GUNPOWDER",
+    "ENCHANTED_MAGMA_CREAM",
+    "ENCHANTED_ROTTEN_FLESH",
+    "ENCHANTED_SLIME_BLOCK",
+    "ENCHANTED_SLIME_BALL",
+    "ENCHANTED_SPIDER_EYE",
+    "ENCHANTED_STRING",
+    "SILVER_FANG",
+    "STUFFED_CHILI_PEPPER",
+    "WHIPPED_MAGMA_CREAM"
+   ]
+  },
+  {
+   "id": "SLAYER",
+   "name": "Slayer",
+   "field": "&cslayer bosses",
+   "order": 11,
+   "sacks": [
+    "SMALL_SLAYER_SACK",
+    "MEDIUM_SLAYER_SACK",
+    "LARGE_SLAYER_SACK"
+   ],
+   "contents": [
+    "BLAZE_ROD_DISTILLATE",
+    "CRUDE_GABAGOOL",
+    "DERELICT_ASHE",
+    "CRUDE_GABAGOOL_DISTILLATE",
+    "GLOWSTONE_DUST_DISTILLATE",
+    "GOLDEN_TOOTH",
+    "HEMOBOMB",
+    "HEMOGLASS",
+    "HEMOVIBE",
+    "MAGMA_CREAM_DISTILLATE",
+    "MOLTEN_POWDER",
+    "NETHER_STALK_DISTILLATE",
+    "NULL_ATOM",
+    "NULL_OVOID",
+    "NULL_SPHERE",
+    "RAW_SOULFLOW",
+    "REVENANT_CATALYST",
+    "REVENANT_FLESH",
+    "REVENANT_VISCERA",
+    "SOULFLOW",
+    "SPIDER_CATALYST",
+    "TARANTULA_CATALYST",
+    "TARANTULA_SILK",
+    "TARANTULA_WEB",
+    "TOXIC_ARROW_POISON",
+    "TWILIGHT_ARROW_POISON",
+    "UNDEAD_CATALYST",
+    "WOLF_TOOTH"
+   ]
+  },
+  {
+   "id": "DRAGON",
+   "name": "Dragon",
+   "field": "&5dragon fights",
+   "order": 12,
+   "sacks": [
+    "SMALL_DRAGON_SACK",
+    "MEDIUM_DRAGON_SACK",
+    "LARGE_DRAGON_SACK"
+   ],
+   "contents": [
+    "CRYSTAL_FRAGMENT",
+    "HOLY_FRAGMENT",
+    "MITE_GEL",
+    "OLD_FRAGMENT",
+    "PROTECTOR_FRAGMENT",
+    "RITUAL_RESIDUE",
+    "STRONG_FRAGMENT",
+    "SUPERIOR_FRAGMENT",
+    "UNSTABLE_FRAGMENT",
+    "WISE_FRAGMENT",
+    "YOUNG_FRAGMENT"
+   ]
+  },
+  {
+   "id": "NETHER",
+   "name": "Nether",
+   "field": "&cthe nether",
+   "order": 13,
+   "sacks": [
+    "SMALL_NETHER_SACK",
+    "MEDIUM_NETHER_SACK",
+    "LARGE_NETHER_SACK"
+   ],
+   "contents": [
+    "BEZOS",
+    "BLAZE_ASHES",
+    "BLAZE_ROD",
+    "BURNING_EYE",
+    "COMPACT_OOZE",
+    "CORRUPTED_FRAGMENT",
+    "DIGESTED_MUSHROOMS",
+    "ENCHANTED_CHARCOAL",
+    "FLAMES",
+    "GAZING_PEARL",
+    "GHAST_TEAR",
+    "GLOWSTONE_DUST",
+    "HALLOWED_SKULL",
+    "HEAVY_PEARL",
+    "KADA_LEAD",
+    "KUUDRA_TEETH",
+    "LEATHER_CLOTH",
+    "LUMINO_FIBER",
+    "MAGMA_CHUNK",
+    "MAGMA_CREAM",
+    "MAGMAG",
+    "MATCH_STICKS",
+    "MILLENIA_OLD_BLAZE_ASHES",
+    "MUTATED_BLAZE_ASHES",
+    "MYCEL",
+    "QUARTZ",
+    "CORRUPTED_NETHER_STAR",
+    "NETHER_STALK",
+    "NETHERRACK",
+    "SAND:1",
+    "REKINDLED_EMBER_FRAGMENT",
+    "SPECTRE_DUST",
+    "SPELL_POWDER",
+    "SULPHUR_ORE",
+    "SULPHURIC_COAL",
+    "TENTACLE_MEAT",
+    "WITHER_SOUL"
+   ]
+  },
+  {
+   "id": "DUNGEON",
+   "name": "Dungeon",
+   "field": "&cdungeon runs",
+   "order": 14,
+   "sacks": [
+    "LARGE_DUNGEON_SACK"
+   ],
+   "contents": [
+    "GOLEM_POPPY",
+    "ARCHITECT_FIRST_DRAFT",
+    "GIANT_FRAGMENT_BIGFOOT",
+    "BONZO_FRAGMENT",
+    "DUNGEON_DECOY",
+    "DUNGEON_CHEST_KEY",
+    "FEL_PEARL",
+    "HEALING_TISSUE",
+    "INFLATABLE_JERRY",
+    "GIANT_FRAGMENT_BOULDER",
+    "KISMET_FEATHER",
+    "GIANT_FRAGMENT_LASER",
+    "LIVID_FRAGMENT",
+    "MIMIC_FRAGMENT",
+    "SCARF_FRAGMENT",
+    "SPIRIT_LEAP",
+    "SUPERBOOM_TNT",
+    "THORN_FRAGMENT",
+    "DUNGEON_TRAP",
+    "WITHER_CATALYST"
+   ]
+  },
+  {
+   "id": "RUNE",
+   "name": "Rune",
+   "field": "&5runes",
+   "order": 15,
+   "sacks": [
+    "SMALL_RUNES_SACK",
+    "MEDIUM_RUNES_SACK",
+    "LARGE_RUNES_SACK",
+    "RUNE_SACK"
+   ],
+   "contents": []
+  },
+  {
+   "id": "FORAGING",
+   "name": "Foraging",
+   "field": "&2Foraging",
+   "order": 16,
+   "sacks": [
+    "BEGINNER_FORAGING_SACK",
+    "SMALL_FORAGING_SACK",
+    "MEDIUM_FORAGING_SACK",
+    "LARGE_FORAGING_SACK"
+   ],
+   "contents": [
+    "LOG_2",
+    "SAPLING:4",
+    "APPLE",
+    "BAMBOO",
+    "LOG:2",
+    "SAPLING:2",
+    "LOG_2:1",
+    "SAPLING:5",
+    "DEEP_ROOT",
+    "FIG_LOG",
+    "FLEXBONE",
+    "GILL_MEMBRANE",
+    "LOG:3",
+    "SAPLING:3",
+    "LUSHLILAC",
+    "MANGROVE_LOG",
+    "LOG",
+    "SAPLING",
+    "SEA_LUMIES",
+    "LOG:1",
+    "SAPLING:1",
+    "STARLYN_PRIZE",
+    "STICK",
+    "STRETCHING_STICKS",
+    "STURDY_BONE",
+    "TENDER_WOOD",
+    "VINESAP",
+    "WET_WATER",
+    "RUBY_VEILSHROOM",
+    "MIRIA_PRIZE",
+    "HONEYCOMB",
+    "HELIX_LOG"
+   ]
+  },
+  {
+   "id": "ENCH_FORAGING",
+   "name": "Enchanted Foraging",
+   "field": "&2Foraging &7(enchanted)",
+   "order": 17,
+   "sacks": [
+    "LARGE_ENCHANTED_FORAGING_SACK"
+   ],
+   "contents": [
+    "ENCHANTED_ACACIA_LOG",
+    "ENCHANTED_BIRCH_LOG",
+    "ENCHANTED_DARK_OAK_LOG",
+    "ENCHANTED_FIG_LOG",
+    "ENCHANTED_JUNGLE_LOG",
+    "ENCHANTED_MANGROVE_LOG",
+    "ENCHANTED_OAK_LOG",
+    "ENCHANTED_SEA_LUMIES",
+    "ENCHANTED_SPRUCE_LOG",
+    "ENCHANTED_TENDER_WOOD",
+    "ENCHANTED_VINESAP",
+    "ENCHANTED_HELIX_LOG",
+    "ENCHANTED_HONEYCOMB",
+    "ENCHANTED_HONEYCOMB_BLOCK",
+    "ENCHANTED_RUBY_VEILSHROOM",
+    "HELIXIS",
+    "VEILSHROOM_BUNCH",
+    "FIGSTONE",
+    "MANGCORE"
+   ]
+  },
+  {
+   "id": "FLOWER",
+   "name": "Flower",
+   "field": "&eflower picking",
+   "order": 18,
+   "sacks": [
+    "FLOWER_SACK"
+   ],
+   "contents": [
+    "RED_ROSE:2",
+    "RED_ROSE:3",
+    "RED_ROSE:1",
+    "YELLOW_FLOWER",
+    "ENCHANTED_DANDELION",
+    "ENCHANTED_POPPY",
+    "ENDSTONE_ROSE",
+    "DOUBLE_PLANT:1",
+    "RED_ROSE:5",
+    "RED_ROSE:8",
+    "DOUBLE_PLANT:5",
+    "RED_ROSE:7",
+    "RED_ROSE",
+    "RED_ROSE:4",
+    "DOUBLE_PLANT:4",
+    "RED_ROSE:6"
+   ]
+  },
+  {
+   "id": "FISHING",
+   "name": "Fishing",
+   "field": "&3Fishing",
+   "order": 19,
+   "sacks": [
+    "BEGINNER_FISHING_SACK",
+    "SMALL_FISHING_SACK",
+    "MEDIUM_FISHING_SACK",
+    "LARGE_FISHING_SACK"
+   ],
+   "contents": [
+    "AGARIMOO_TONGUE",
+    "ALLIGATOR_SKIN",
+    "BLUE_RING",
+    "BLUE_SHARK_TOOTH",
+    "BROKEN_RADAR",
+    "BRONZE_BOWL",
+    "BUSTED_BELT_BUCKLE",
+    "CAN_OF_WORMS",
+    "CHUM",
+    "CLAY_BALL",
+    "DIVER_FRAGMENT",
+    "FROGCOIN",
+    "GLOWING_MUSHROOM",
+    "HALF_EATEN_MUSHROOM",
+    "INK_SACK",
+    "WATER_LILY",
+    "LOTUS",
+    "NURSE_SHARK_TOOTH",
+    "OLD_LEATHER_BOOT",
+    "PRISMARINE_CRYSTALS",
+    "PRISMARINE_SHARD",
+    "RAW_FISH:3",
+    "RAW_FISH",
+    "RAW_FISH:1",
+    "RUSTY_COIN",
+    "SHARK_FIN",
+    "SPONGE",
+    "TIGER_SHARK_TOOTH",
+    "TORN_CLOTH",
+    "RAW_FISH:2",
+    "WORM_MEMBRANE",
+    "REVERSE_REFORGE_STONE_CORE"
+   ]
+  },
+  {
+   "id": "ENCH_FISHING",
+   "name": "Enchanted Fishing",
+   "field": "&3Fishing &7(enchanted)",
+   "order": 20,
+   "sacks": [
+    "LARGE_ENCHANTED_FISHING_SACK"
+   ],
+   "contents": [
+    "CONDENSED_WATER_LILY",
+    "ENCHANTED_CLAY_BALL",
+    "ENCHANTED_CLAY_BLOCK",
+    "ENCHANTED_COOKED_FISH",
+    "ENCHANTED_COOKED_SALMON",
+    "ENCHANTED_INK_SACK",
+    "ENCHANTED_WATER_LILY",
+    "ENCHANTED_PRISMARINE_CRYSTALS",
+    "ENCHANTED_PRISMARINE_SHARD",
+    "ENCHANTED_PUFFERFISH",
+    "ENCHANTED_RAW_FISH",
+    "ENCHANTED_RAW_SALMON",
+    "ENCHANTED_SHARK_FIN",
+    "ENCHANTED_SPONGE",
+    "ENCHANTED_CLOWNFISH",
+    "ENCHANTED_WET_SPONGE",
+    "LOTUS_GOLD",
+    "LOTUS_SILVER"
+   ]
+  },
+  {
+   "id": "LAVA_FISHING",
+   "name": "Lava Fishing",
+   "field": "&6lava fishing",
+   "order": 21,
+   "sacks": [
+    "SMALL_LAVA_FISHING_SACK",
+    "MEDIUM_LAVA_FISHING_SACK",
+    "LARGE_LAVA_FISHING_SACK"
+   ],
+   "contents": [
+    "BLAZE_POWDER",
+    "COAL",
+    "CUP_OF_BLOOD",
+    "FLAMING_HEART",
+    "FRIED_FEATHER",
+    "MAGMA_FISH_GOLD",
+    "HORN_OF_TAURUS",
+    "LAVA_SHELL",
+    "LUMP_OF_MAGMA",
+    "MAGMA_CREAM",
+    "MAGMA_FISH",
+    "MOOGMA_PELT",
+    "NETHERRACK",
+    "ORB_OF_ENERGY",
+    "PYROCLASTIC_SCALE",
+    "SCORCHED_CRAB_STICK",
+    "SEARED_ESCARGOT",
+    "MAGMA_FISH_SILVER",
+    "SINGED_POWDER",
+    "THUNDER_SHARDS"
+   ]
+  },
+  {
+   "id": "TROPHY_BRONZE",
+   "name": "Bronze Trophy",
+   "field": "&6trophy fishing &7(bronze)",
+   "order": 22,
+   "sacks": [
+    "BRONZE_TROPHY_FISHING_SACK"
+   ],
+   "contents": [
+    "BLOBFISH_BRONZE",
+    "FLYFISH_BRONZE",
+    "GOLDEN_FISH_BRONZE",
+    "GUSHER_BRONZE",
+    "KARATE_FISH_BRONZE",
+    "LAVA_HORSE_BRONZE",
+    "MANA_RAY_BRONZE",
+    "MOLDFIN_BRONZE",
+    "SKELETON_FISH_BRONZE",
+    "SLUGFISH_BRONZE",
+    "SOUL_FISH_BRONZE",
+    "STEAMING_HOT_FLOUNDER_BRONZE",
+    "SULPHUR_SKITTER_BRONZE",
+    "VANILLE_BRONZE",
+    "VOLCANIC_STONEFISH_BRONZE",
+    "OBFUSCATED_FISH_1_BRONZE",
+    "OBFUSCATED_FISH_2_BRONZE",
+    "OBFUSCATED_FISH_3_BRONZE"
+   ]
+  },
+  {
+   "id": "TROPHY_SILVER",
+   "name": "Silver Trophy",
+   "field": "&6trophy fishing &7(silver)",
+   "order": 23,
+   "sacks": [
+    "SILVER_TROPHY_FISHING_SACK"
+   ],
+   "contents": [
+    "BLOBFISH_SILVER",
+    "FLYFISH_SILVER",
+    "GOLDEN_FISH_SILVER",
+    "GUSHER_SILVER",
+    "KARATE_FISH_SILVER",
+    "LAVA_HORSE_SILVER",
+    "MANA_RAY_SILVER",
+    "MOLDFIN_SILVER",
+    "SKELETON_FISH_SILVER",
+    "SLUGFISH_SILVER",
+    "SOUL_FISH_SILVER",
+    "STEAMING_HOT_FLOUNDER_SILVER",
+    "SULPHUR_SKITTER_SILVER",
+    "VANILLE_SILVER",
+    "VOLCANIC_STONEFISH_SILVER",
+    "OBFUSCATED_FISH_1_SILVER",
+    "OBFUSCATED_FISH_2_SILVER",
+    "OBFUSCATED_FISH_3_SILVER"
+   ]
+  },
+  {
+   "id": "TROPHY_GOLD",
+   "name": "Gold Trophy",
+   "field": "&6trophy fishing &7(gold)",
+   "order": 24,
+   "sacks": [
+    "GOLD_TROPHY_FISHING_SACK"
+   ],
+   "contents": [
+    "BLOBFISH_GOLD",
+    "FLYFISH_GOLD",
+    "GOLDEN_FISH_GOLD",
+    "GUSHER_GOLD",
+    "KARATE_FISH_GOLD",
+    "LAVA_HORSE_GOLD",
+    "MANA_RAY_GOLD",
+    "MOLDFIN_GOLD",
+    "SKELETON_FISH_GOLD",
+    "SLUGFISH_GOLD",
+    "SOUL_FISH_GOLD",
+    "STEAMING_HOT_FLOUNDER_GOLD",
+    "SULPHUR_SKITTER_GOLD",
+    "VANILLE_GOLD",
+    "VOLCANIC_STONEFISH_GOLD",
+    "OBFUSCATED_FISH_1_GOLD",
+    "OBFUSCATED_FISH_2_GOLD",
+    "OBFUSCATED_FISH_3_GOLD"
+   ]
+  },
+  {
+   "id": "TROPHY_DIAMOND",
+   "name": "Diamond Trophy",
+   "field": "&6trophy fishing &7(diamond)",
+   "order": 25,
+   "sacks": [
+    "DIAMOND_TROPHY_FISHING_SACK"
+   ],
+   "contents": [
+    "BLOBFISH_DIAMOND",
+    "FLYFISH_DIAMOND",
+    "GOLDEN_FISH_DIAMOND",
+    "GUSHER_DIAMOND",
+    "KARATE_FISH_DIAMOND",
+    "LAVA_HORSE_DIAMOND",
+    "MANA_RAY_DIAMOND",
+    "MOLDFIN_DIAMOND",
+    "SKELETON_FISH_DIAMOND",
+    "SLUGFISH_DIAMOND",
+    "SOUL_FISH_DIAMOND",
+    "STEAMING_HOT_FLOUNDER_DIAMOND",
+    "SULPHUR_SKITTER_DIAMOND",
+    "VANILLE_DIAMOND",
+    "VOLCANIC_STONEFISH_DIAMOND",
+    "OBFUSCATED_FISH_1_DIAMOND",
+    "OBFUSCATED_FISH_2_DIAMOND",
+    "OBFUSCATED_FISH_3_DIAMOND"
+   ]
+  },
+  {
+   "id": "FROG_BRONZE",
+   "name": "Bronze Trophy Frog",
+   "field": "&2frog hunting &7(bronze)",
+   "order": 26,
+   "sacks": [
+    "BRONZE_TROPHY_FROG_SACK"
+   ],
+   "contents": [
+    "COMMON_FROG_BRONZE",
+    "LEAP_FROG_BRONZE",
+    "EXPLODING_FROG_BRONZE",
+    "REALITY_HOPPER_BRONZE",
+    "WETLANDS_FROG_BRONZE",
+    "SEA_FROG_BRONZE",
+    "BULLFROG_BRONZE",
+    "BLESSED_FROG_BRONZE",
+    "TREE_FROG_BRONZE",
+    "CAVE_FROG_BRONZE",
+    "HIGHLANDS_FROG_BRONZE",
+    "PUDDLE_JUMPER_BRONZE"
+   ]
+  },
+  {
+   "id": "FROG_SILVER",
+   "name": "Silver Trophy Frog",
+   "field": "&2frog hunting &7(silver)",
+   "order": 27,
+   "sacks": [
+    "SILVER_TROPHY_FROG_SACK"
+   ],
+   "contents": [
+    "COMMON_FROG_SILVER",
+    "LEAP_FROG_SILVER",
+    "EXPLODING_FROG_SILVER",
+    "REALITY_HOPPER_SILVER",
+    "WETLANDS_FROG_SILVER",
+    "SEA_FROG_SILVER",
+    "BULLFROG_SILVER",
+    "BLESSED_FROG_SILVER",
+    "TREE_FROG_SILVER",
+    "CAVE_FROG_SILVER",
+    "HIGHLANDS_FROG_SILVER",
+    "PUDDLE_JUMPER_SILVER"
+   ]
+  },
+  {
+   "id": "GARDEN",
+   "name": "Garden",
+   "field": "&athe Garden",
+   "order": 28,
+   "sacks": [
+    "GARDEN_SACK"
+   ],
+   "contents": [
+    "AGGOURDIAN",
+    "BIOFUEL",
+    "BOTROOT",
+    "CACTUS_FLOWER",
+    "CANE_KNOT",
+    "CARROT_ZEST",
+    "COMPOST",
+    "CORNUCOPIA",
+    "CROPIE",
+    "CRYSTALIZED_MOONLIGHT",
+    "DEEPFRIES",
+    "DESIGNER_COFFEE_BEANS",
+    "DUNG",
+    "ETHEREAL_VINE",
+    "FEASTFUNGUS",
+    "FERMENTO",
+    "FINE_FLOUR",
+    "FLORAL_GELATIN",
+    "HELIANTHUS",
+    "HONEY_JAR",
+    "JELLY",
+    "MELON_JUICE",
+    "PLANT_MATTER",
+    "SALTED_SUNFLOWER_SEEDS",
+    "SQUASH",
+    "SUNFLOWER_OIL",
+    "CHEESE_FUEL"
+   ]
+  },
+  {
+   "id": "MUTATIONS",
+   "name": "Mutations",
+   "field": "&acrop mutations",
+   "order": 29,
+   "sacks": [
+    "SMALL_MUTATIONS_SACK",
+    "MEDIUM_MUTATIONS_SACK",
+    "LARGE_MUTATIONS_SACK"
+   ],
+   "contents": [
+    "ALL_IN_ALOE",
+    "ASHWREATH",
+    "BLASTBERRY",
+    "CHEESEBITE",
+    "CHLORONITE",
+    "CHOCOBERRY",
+    "CHOCONUT",
+    "CHORUS_FRUIT",
+    "CINDERSHADE",
+    "COALROOT",
+    "CREAMBLOOM",
+    "DEAD_PLANT",
+    "DEVOURER",
+    "DO_NOT_EAT_SHROOM",
+    "DUSKBLOOM",
+    "DUSTGRAIN",
+    "FLESHTRAP",
+    "GLASSCORN",
+    "GLOOMGOURD",
+    "GODSEED",
+    "LONELILY",
+    "MAGIC_JELLYBEAN",
+    "NOCTILUME",
+    "PHANTOMLEAF",
+    "PLANTBOY_ADVANCE",
+    "PUFFERCLOUD",
+    "SCOURROOT",
+    "SHADEVINE",
+    "SHELLFRUIT",
+    "SNOOZLING",
+    "SOGGYBUD",
+    "STARTLEVINE",
+    "STOPLIGHT_PETAL",
+    "THORNSHADE",
+    "THUNDERLING",
+    "TIMESTALK",
+    "TURTLELLINI",
+    "VEILSHROOM",
+    "WITHERBLOOM",
+    "ZOMBUD"
+   ]
+  },
+  {
+   "id": "SPOOKY",
+   "name": "Spooky",
+   "field": "&6spooky season",
+   "order": 30,
+   "sacks": [
+    "LARGE_CANDY_SACK"
+   ],
+   "contents": [
+    "DARK_CANDY",
+    "ECTOPLASM",
+    "GREEN_CANDY",
+    "PUMPKIN_GUTS",
+    "PURPLE_CANDY",
+    "SPOOKY_SHARD",
+    "WEREWOLF_SKIN"
+   ]
+  },
+  {
+   "id": "WINTER",
+   "name": "Winter",
+   "field": "&bthe winter season",
+   "order": 31,
+   "sacks": [
+    "LARGE_WINTER_SACK"
+   ],
+   "contents": [
+    "ENCHANTED_ICE",
+    "ENCHANTED_PACKED_ICE",
+    "ENCHANTED_SNOW_BLOCK",
+    "GLACIAL_FRAGMENT",
+    "GREEN_GIFT",
+    "BLUE_ICE_HUNK",
+    "ICE_HUNK",
+    "ICE",
+    "PACKED_ICE",
+    "PARTY_GIFT",
+    "SNOW_BLOCK",
+    "SNOW_BALL",
+    "WALNUT",
+    "WHITE_GIFT",
+    "WINTER_FRAGMENT",
+    "RED_GIFT",
+    "VOLCANIC_ROCK"
+   ]
+  },
+  {
+   "id": "EVENTS",
+   "name": "Events",
+   "field": "&eseasonal events",
+   "order": 32,
+   "sacks": [
+    "LARGE_EVENTS_SACK"
+   ],
+   "contents": [
+    "AGATHA_COUPON",
+    "ANCIENT_CLAW",
+    "BLUE_SHARK_TOOTH",
+    "CARNIVAL_TICKET",
+    "DARK_CANDY",
+    "ECTOPLASM",
+    "ENCHANTED_ANCIENT_CLAW",
+    "ENCHANTED_SHARK_FIN",
+    "FISHY_TREAT",
+    "GLACIAL_FRAGMENT",
+    "GLOSSY_GEMSTONE",
+    "GREEN_CANDY",
+    "GREEN_GIFT",
+    "GRIFFIN_FEATHER",
+    "BLUE_ICE_HUNK",
+    "ICE_HUNK",
+    "JACOBS_TICKET",
+    "MIRIA_COUPON",
+    "MYTHOS_FRAGMENT",
+    "NURSE_SHARK_TOOTH",
+    "PARTY_GIFT",
+    "PUMPKIN_GUTS",
+    "PURPLE_CANDY",
+    "REFINED_MINERAL",
+    "SHARK_FIN",
+    "SNOW_BALL",
+    "SPOOKY_SHARD",
+    "TIGER_SHARK_TOOTH",
+    "TOKEN_OF_THE_CENTURY",
+    "WALNUT",
+    "WEREWOLF_SKIN",
+    "WHITE_GIFT",
+    "WINTER_FRAGMENT",
+    "RED_GIFT",
+    "VOLCANIC_ROCK"
+   ]
+  },
+  {
+   "id": "WITCH",
+   "name": "Witch",
+   "field": "&5witchcraft",
+   "order": 33,
+   "sacks": [
+    "WITCH_SACK"
+   ],
+   "contents": [
+    "BRITTLE_POWDER",
+    "CONSOLE_PANEL",
+    "DIRTY_FINGERNAILS",
+    "FESTERING_FLY",
+    "FROG_LEGS",
+    "FUNNY_BONE",
+    "GELATINOUS_GLOOP",
+    "GLACIATED_BRAINS",
+    "JAWBREAKER",
+    "NEVER_MELT_ICE",
+    "PIXIE_DUST",
+    "ROTTED_LEAF",
+    "RUFFLED_FEATHER",
+    "SHIELD_DUST",
+    "SMOLDERING_EMBERS",
+    "SPELL_SOOT",
+    "SPIDER_EGG",
+    "VOID_OOZE",
+    "WARMED_FLAKES",
+    "WATERBORNE_LICE"
+   ]
+  }
+ ],
+ "sacks": {
+  "BEGINNER_AGRONOMY_SACK": {
+   "family": "AGRONOMY",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_AGRONOMY_SACK": {
+   "family": "AGRONOMY",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_AGRONOMY_SACK": {
+   "family": "AGRONOMY",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_AGRONOMY_SACK": {
+   "family": "AGRONOMY",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_AGRONOMY_SACK": {
+   "family": "ENCH_AGRONOMY",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "BEGINNER_HUSBANDRY_SACK": {
+   "family": "HUSBANDRY",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_HUSBANDRY_SACK": {
+   "family": "HUSBANDRY",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_HUSBANDRY_SACK": {
+   "family": "HUSBANDRY",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_HUSBANDRY_SACK": {
+   "family": "HUSBANDRY",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_HUSBANDRY_SACK": {
+   "family": "ENCH_HUSBANDRY",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "BEGINNER_MINING_SACK": {
+   "family": "MINING",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_MINING_SACK": {
+   "family": "MINING",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_MINING_SACK": {
+   "family": "MINING",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_MINING_SACK": {
+   "family": "MINING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_MINING_SACK": {
+   "family": "ENCH_MINING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_GEMSTONE_SACK": {
+   "family": "GEMSTONE",
+   "capacity": 128000,
+   "tier": "SMALL"
+  },
+  "MEDIUM_GEMSTONE_SACK": {
+   "family": "GEMSTONE",
+   "capacity": 512000,
+   "tier": "MEDIUM"
+  },
+  "LARGE_GEMSTONE_SACK": {
+   "family": "GEMSTONE",
+   "capacity": 2560000,
+   "tier": "LARGE"
+  },
+  "EXTRA_LARGE_GEMSTONE_SACK": {
+   "family": "GEMSTONE",
+   "capacity": 12800000,
+   "tier": "EXTRA_LARGE"
+  },
+  "DWARVEN_MINES_SACK": {
+   "family": "DWARVEN",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "CRYSTAL_HOLLOWS_SACK": {
+   "family": "HOLLOWS",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "BEGINNER_COMBAT_SACK": {
+   "family": "COMBAT",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_COMBAT_SACK": {
+   "family": "COMBAT",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_COMBAT_SACK": {
+   "family": "COMBAT",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_COMBAT_SACK": {
+   "family": "COMBAT",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_COMBAT_SACK": {
+   "family": "ENCH_COMBAT",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_SLAYER_SACK": {
+   "family": "SLAYER",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_SLAYER_SACK": {
+   "family": "SLAYER",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_SLAYER_SACK": {
+   "family": "SLAYER",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_DRAGON_SACK": {
+   "family": "DRAGON",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_DRAGON_SACK": {
+   "family": "DRAGON",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_DRAGON_SACK": {
+   "family": "DRAGON",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_NETHER_SACK": {
+   "family": "NETHER",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_NETHER_SACK": {
+   "family": "NETHER",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_NETHER_SACK": {
+   "family": "NETHER",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_DUNGEON_SACK": {
+   "family": "DUNGEON",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_RUNES_SACK": {
+   "family": "RUNE",
+   "capacity": 64,
+   "tier": "SMALL"
+  },
+  "MEDIUM_RUNES_SACK": {
+   "family": "RUNE",
+   "capacity": 64,
+   "tier": "MEDIUM"
+  },
+  "LARGE_RUNES_SACK": {
+   "family": "RUNE",
+   "capacity": 64,
+   "tier": "LARGE"
+  },
+  "RUNE_SACK": {
+   "family": "RUNE",
+   "capacity": 64,
+   "tier": "LARGE"
+  },
+  "BEGINNER_FORAGING_SACK": {
+   "family": "FORAGING",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_FORAGING_SACK": {
+   "family": "FORAGING",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_FORAGING_SACK": {
+   "family": "FORAGING",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_FORAGING_SACK": {
+   "family": "FORAGING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_FORAGING_SACK": {
+   "family": "ENCH_FORAGING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "FLOWER_SACK": {
+   "family": "FLOWER",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "BEGINNER_FISHING_SACK": {
+   "family": "FISHING",
+   "capacity": 640,
+   "tier": "BEGINNER"
+  },
+  "SMALL_FISHING_SACK": {
+   "family": "FISHING",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_FISHING_SACK": {
+   "family": "FISHING",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_FISHING_SACK": {
+   "family": "FISHING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_ENCHANTED_FISHING_SACK": {
+   "family": "ENCH_FISHING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_LAVA_FISHING_SACK": {
+   "family": "LAVA_FISHING",
+   "capacity": 2240,
+   "tier": "SMALL"
+  },
+  "MEDIUM_LAVA_FISHING_SACK": {
+   "family": "LAVA_FISHING",
+   "capacity": 6720,
+   "tier": "MEDIUM"
+  },
+  "LARGE_LAVA_FISHING_SACK": {
+   "family": "LAVA_FISHING",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "BRONZE_TROPHY_FISHING_SACK": {
+   "family": "TROPHY_BRONZE",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "SILVER_TROPHY_FISHING_SACK": {
+   "family": "TROPHY_SILVER",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "GOLD_TROPHY_FISHING_SACK": {
+   "family": "TROPHY_GOLD",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "DIAMOND_TROPHY_FISHING_SACK": {
+   "family": "TROPHY_DIAMOND",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "BRONZE_TROPHY_FROG_SACK": {
+   "family": "FROG_BRONZE",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "SILVER_TROPHY_FROG_SACK": {
+   "family": "FROG_SILVER",
+   "capacity": 512,
+   "tier": "LARGE"
+  },
+  "GARDEN_SACK": {
+   "family": "GARDEN",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "SMALL_MUTATIONS_SACK": {
+   "family": "MUTATIONS",
+   "capacity": 64,
+   "tier": "SMALL"
+  },
+  "MEDIUM_MUTATIONS_SACK": {
+   "family": "MUTATIONS",
+   "capacity": 256,
+   "tier": "MEDIUM"
+  },
+  "LARGE_MUTATIONS_SACK": {
+   "family": "MUTATIONS",
+   "capacity": 1024,
+   "tier": "LARGE"
+  },
+  "LARGE_CANDY_SACK": {
+   "family": "SPOOKY",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_WINTER_SACK": {
+   "family": "WINTER",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "LARGE_EVENTS_SACK": {
+   "family": "EVENTS",
+   "capacity": 20160,
+   "tier": "LARGE"
+  },
+  "WITCH_SACK": {
+   "family": "WITCH",
+   "capacity": 20160,
+   "tier": "LARGE"
+  }
+ },
+ "quiver": [
+  "ARROW",
+  "REINFORCED_IRON_ARROW",
+  "GOLD_TIPPED_ARROW",
+  "REDSTONE_TIPPED_ARROW",
+  "EMERALD_TIPPED_ARROW",
+  "BOUNCY_ARROW",
+  "ICY_ARROW",
+  "ARMORSHRED_ARROW",
+  "EXPLOSIVE_ARROW",
+  "GLUE_ARROW",
+  "NANSORB_ARROW",
+  "MAGMA_ARROW"
+ ]
+}

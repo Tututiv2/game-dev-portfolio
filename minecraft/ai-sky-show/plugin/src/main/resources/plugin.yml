@@ -1,0 +1,18 @@
+name: ShowControl
+version: '${project.version}'
+main: com.aisky.showcontrol.ShowControlPlugin
+api-version: '26.2'
+author: Tutut
+description: "Can 4 AIs Beat Hypixel SkyBlock?" show rig - event feed, agent state, camera fallback, rulesets.
+depend: [SkyClone]
+
+commands:
+  show:
+    description: AI show control (reset, start, stop, freeze, mark, camera, cam, ruleset, status, test, emit)
+    usage: /show <reset|start|stop|freeze|mark|camera|cam|ruleset|status|test|emit>
+    permission: aisky.show
+
+permissions:
+  aisky.show:
+    description: Run /show (console, RCON and ops).
+    default: op

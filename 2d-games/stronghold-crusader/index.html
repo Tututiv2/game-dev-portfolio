@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Stronghold Crusader Prototype</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="title-wrap">
+      <h1>Stronghold Crusader</h1>
+      <p>Prototype Build Flow</p>
+    </header>
+
+    <main class="panel" id="screen-root"></main>
+  </div>
+
+  <template id="screen-main-menu">
+    <section class="screen">
+      <h2>Main Menu</h2>
+      <p class="screen-sub">Start from a clean menu-first pipeline.</p>
+      <div class="menu-buttons">
+        <button data-action="go-missions">Missions</button>
+        <button data-action="load-game">Load Game</button>
+        <button data-action="go-settings">Settings</button>
+        <button data-action="coming-soon">Multiplayer (Soon)</button>
+        <button data-action="coming-soon">Map Editor (Soon)</button>
+        <button data-action="go-sprite-editor">Sprite Pipeline Editor</button>
+        <button data-action="go-item-editor">Item Creator</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-sprite-editor">
+    <section class="screen sprite-editor-screen">
+      <div class="sprite-editor-head">
+        <div>
+          <h2>Sprite Pipeline Editor</h2>
+          <p class="screen-sub">Author, validate, and export 8-direction unit animation manifests.</p>
+        </div>
+        <div class="menu-buttons row sprite-editor-head-actions">
+          <button data-action="sprite-new-project">New Project</button>
+          <button data-action="sprite-load-project">Load Project</button>
+          <button data-action="sprite-save-project">Save Project</button>
+          <button data-action="sprite-export-atlas">Export Atlas + Manifest</button>
+          <button data-action="sprite-redo">Redo</button>
+        </div>
+      </div>
+
+      <div class="sprite-editor-layout">
+        <div class="sprite-editor-col">
+          <div class="sprite-editor-card">
+            <strong>3D mesh (animator)</strong>
+            <div id="sprite-mesh-readout" class="small-readout">No 3D mesh linked.</div>
+            <div id="sprite-mesh-viewport" class="sprite-mesh-viewport"></div>
+            <div class="menu-buttons row">
+              <button type="button" data-action="sprite-mesh-clear">Clear mesh</button>
+            </div>
+          </div>
+
+          <div class="sprite-editor-card">
+            <strong>Project</strong>
+            <div class="form-grid">
+              <label>
+                Project Name
+                <input id="sprite-project-name" type="text" placeholder="CrusaderUnitSet" />
+              </label>
+              <label>
+                Archetype
+                <select id="sprite-project-archetype">
+                  <option value="unit">Unit</option>
+                  <option value="building">Building</option>
+                  <option value="effect">Effect</option>
+                </select>
+              </label>
+              <label>
+                Unit Type
+                <select id="sprite-unit-type">
+                  <option value="militia">militia</option>
+                  <option value="skirmisher">skirmisher</option>
+                  <option value="templar">templar</option>
+                  <option value="raider">raider</option>
+                  <option value="swordsman">swordsman</option>
+                </select>
+              </label>
+              <label>
+                Naming Pattern
+                <input id="sprite-naming-pattern" type="text" placeholder="unit_<anim>_<dir>_<frame>" />
+              </label>
+              <label>
+                Source Sheet (PNG)
+                <input id="sprite-sheet-file" type="file" accept=".png,image/png" />
+              </label>
+            </div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-import-sheet">Import Sheet</button>
+              <button data-action="sprite-reset-sheet">Clear Sheet</button>
+            </div>
+            <div id="sprite-sheet-meta" class="small-readout">No sheet loaded.</div>
+          </div>
+
+          <div class="sprite-editor-card">
+            <strong>Animations</strong>
+            <div class="menu-buttons row">
+              <button data-action="sprite-add-animation">Add Animation</button>
+              <button data-action="sprite-remove-animation">Remove Animation</button>
+            </div>
+            <label>
+              Active Animation
+              <select id="sprite-animation-select"></select>
+            </label>
+            <div class="menu-buttons row">
+              <button data-action="sprite-add-frame">Add Frame</button>
+              <button data-action="sprite-remove-frame">Remove Frame</button>
+            </div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-frame-shift-left">Shift Frame Left</button>
+              <button data-action="sprite-frame-shift-right">Shift Frame Right</button>
+            </div>
+            <label>
+              Active Direction
+              <select id="sprite-direction-select">
+                <option value="N">N</option>
+                <option value="NE">NE</option>
+                <option value="E">E</option>
+                <option value="SE">SE</option>
+                <option value="S">S</option>
+                <option value="SW">SW</option>
+                <option value="W">W</option>
+                <option value="NW">NW</option>
+              </select>
+            </label>
+            <label>
+              Active Frame Index
+              <input id="sprite-frame-index" type="number" min="0" step="1" value="0" />
+            </label>
+            <div id="sprite-frame-list" class="small-readout">No frames.</div>
+            <div id="sprite-direction-matrix" class="small-readout">Direction matrix pending.</div>
+          </div>
+        </div>
+
+        <div class="sprite-editor-col">
+          <div class="sprite-editor-card">
+            <strong>Frame Metadata</strong>
+            <div class="sprite-frame-grid">
+              <label>X<input id="sprite-frame-x" type="number" min="0" step="1" value="0" /></label>
+              <label>Y<input id="sprite-frame-y" type="number" min="0" step="1" value="0" /></label>
+              <label>W<input id="sprite-frame-w" type="number" min="1" step="1" value="64" /></label>
+              <label>H<input id="sprite-frame-h" type="number" min="1" step="1" value="64" /></label>
+              <label>Duration (ms)<input id="sprite-frame-duration" type="number" min="20" step="10" value="120" /></label>
+              <label>Pivot X<input id="sprite-pivot-x" type="number" min="-128" max="128" step="1" value="0" /></label>
+              <label>Pivot Y<input id="sprite-pivot-y" type="number" min="-128" max="128" step="1" value="0" /></label>
+              <label>Foot Y<input id="sprite-foot-y" type="number" min="-128" max="128" step="1" value="0" /></label>
+              <label>Collision W<input id="sprite-collision-w" type="number" min="1" step="1" value="32" /></label>
+              <label>Collision H<input id="sprite-collision-h" type="number" min="1" step="1" value="32" /></label>
+              <label>Collision X<input id="sprite-collision-x" type="number" min="-256" max="256" step="1" value="0" /></label>
+              <label>Collision Y<input id="sprite-collision-y" type="number" min="-256" max="256" step="1" value="0" /></label>
+            </div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-apply-frame-meta">Apply Frame</button>
+              <button data-action="sprite-autoslice-grid">Auto Slice Grid</button>
+            </div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-apply-import-preset">Apply Import Preset</button>
+              <select id="sprite-import-preset">
+                <option value="single_row">Single Row Frames</option>
+                <option value="chatgpt_sheet_v1">ChatGPT Sheet (rows = anims, cols = frames)</option>
+                <option value="dirs_rows_v1">Direction Rows (rows = dirs, cols = frames)</option>
+              </select>
+            </div>
+            <label class="sprite-checkbox">
+              <input id="sprite-team-mask-enabled" type="checkbox" />
+              Team mask enabled for this frame
+            </label>
+            <label class="sprite-checkbox">
+              <input id="sprite-shadow-enabled" type="checkbox" checked />
+              Shadow enabled for this frame
+            </label>
+            <label class="sprite-checkbox">
+              <input id="sprite-onion-enabled" type="checkbox" />
+              Onion-skin previous frame
+            </label>
+            <label>
+              Onion Opacity
+              <input id="sprite-onion-opacity" type="range" min="0" max="100" step="5" value="35" />
+            </label>
+            <label class="sprite-checkbox">
+              <input id="sprite-ghost-enabled" type="checkbox" />
+              Ghost next frame
+            </label>
+            <label>
+              Ghost Opacity
+              <input id="sprite-ghost-opacity" type="range" min="0" max="100" step="5" value="25" />
+            </label>
+            <label class="sprite-checkbox">
+              <input id="sprite-symmetry-enabled" type="checkbox" />
+              Symmetry Mode (mirror across vertical axis)
+            </label>
+            <label>
+              Symmetry Axis (% sheet width)
+              <input id="sprite-symmetry-axis" type="range" min="0" max="100" step="1" value="50" />
+            </label>
+          </div>
+
+          <div class="sprite-editor-card">
+            <strong>Validation and QA</strong>
+            <div class="menu-buttons row">
+              <button data-action="sprite-validate-project">Run Validation</button>
+              <button data-action="sprite-run-smoke">Run Smoke Test</button>
+            </div>
+            <div id="sprite-validation-readout" class="small-readout">Validation has not run.</div>
+            <div id="sprite-qa-readout" class="small-readout">Smoke test has not run.</div>
+          </div>
+
+          <div class="sprite-editor-card">
+            <strong>Export / Runtime Hook</strong>
+            <div class="menu-buttons row">
+              <button data-action="sprite-export-manifest">Export Manifest JSON</button>
+              <button data-action="sprite-register-runtime">Register Runtime Asset</button>
+            </div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-save-snapshot">Save Snapshot</button>
+              <button data-action="sprite-restore-snapshot">Restore Snapshot</button>
+            </div>
+            <label>
+              Snapshot Slot
+              <select id="sprite-snapshot-slot">
+                <option value="slot1">slot1</option>
+                <option value="slot2">slot2</option>
+                <option value="slot3">slot3</option>
+                <option value="slot4">slot4</option>
+              </select>
+            </label>
+            <div id="sprite-export-readout" class="small-readout">No export yet.</div>
+            <div id="sprite-runtime-readout" class="small-readout">Runtime registry idle.</div>
+            <div id="sprite-snapshot-readout" class="small-readout">Snapshots: slot1:empty | slot2:empty | slot3:empty | slot4:empty</div>
+          </div>
+        </div>
+
+        <div class="sprite-editor-col">
+          <div class="sprite-editor-card">
+            <strong>Preview</strong>
+            <canvas id="sprite-preview-canvas" width="440" height="300"></canvas>
+            <div class="small-readout">Drag on preview to set frame rect. Drag near symmetry guide to move axis. Shortcuts: Ctrl+C copy, Ctrl+V paste, Ctrl+Z undo, Ctrl+Y or Ctrl+Shift+Z redo, arrows nudge frame (Shift=8px).</div>
+            <div class="menu-buttons row">
+              <button data-action="sprite-preview-play">Play</button>
+              <button data-action="sprite-preview-stop">Stop</button>
+            </div>
+            <label>
+              Team Color
+              <select id="sprite-preview-team">
+                <option value="player">Player</option>
+                <option value="enemy">Enemy</option>
+              </select>
+            </label>
+            <label>
+              Tile Contrast
+              <select id="sprite-preview-bg">
+                <option value="sand">Sand</option>
+                <option value="grass">Grass</option>
+                <option value="rock">Rock</option>
+                <option value="lake">Lake</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-buttons row">
+        <button data-action="go-main">Back to Main Menu</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-item-editor">
+    <section class="screen item-editor-screen item-editor-blender">
+      <header class="item-editor-topbar">
+        <div class="item-editor-title-block">
+          <h2>Item Creator</h2>
+          <p class="screen-sub item-editor-sub">Blender-style viewport — big center preview, tools left, properties right.</p>
+        </div>
+        <div class="menu-buttons row item-editor-top-actions">
+          <button type="button" class="btn-primary" data-action="item-save-project">Save</button>
+          <button type="button" data-action="item-load-project">Load</button>
+          <button type="button" data-action="item-new-project">New</button>
+          <button type="button" data-action="item-export-json">Export JSON</button>
+          <button type="button" data-action="item-open-in-animator">Open in Sprite / Animator</button>
+        </div>
+      </header>
+
+      <div class="item-editor-workspace">
+        <aside class="item-editor-toolbar-left sprite-editor-card">
+          <div class="toolgroup">
+            <span class="toolgroup-label">Viewport</span>
+            <div class="toolgrid toolgrid--4">
+              <button type="button" data-action="item-view-preset" data-view="front" title="Front">Front</button>
+              <button type="button" data-action="item-view-preset" data-view="right" title="Right">Right</button>
+              <button type="button" data-action="item-view-preset" data-view="top" title="Top">Top</button>
+              <button type="button" data-action="item-view-preset" data-view="bottom" title="Bottom">Bottom</button>
+              <button type="button" data-action="item-view-preset" data-view="persp" title="Perspective">Persp</button>
+              <button type="button" data-action="item-reset-camera" title="Reset camera">Reset cam</button>
+            </div>
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Transform (LMB on canvas)</span>
+            <div class="toolgrid toolgrid--2">
+              <button type="button" data-action="item-set-tool" data-item-tool="orbit" title="Rotate view">Orbit</button>
+              <button type="button" data-action="item-set-tool" data-item-tool="move" title="Move selection">Move</button>
+              <button type="button" data-action="item-set-tool" data-item-tool="scale" title="Scale selection">Scale</button>
+              <button type="button" data-action="item-set-tool" data-item-tool="rotate" title="Rotate selection">Rotate</button>
+              <button type="button" data-action="item-set-tool" data-item-tool="paint" title="Brush paint (drag on mesh). Middle mouse = orbit.">Paint</button>
+            </div>
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Paint</span>
+            <label class="tool-checkbox">
+              Color
+              <input id="item-paint-color" type="color" value="#c49a6c" />
+            </label>
+            <label>
+              Symmetry (world)
+              <select id="item-paint-symmetry">
+                <option value="none">Off</option>
+                <option value="worldX">Mirror X</option>
+                <option value="worldY">Mirror Y</option>
+                <option value="worldZ">Mirror Z</option>
+              </select>
+            </label>
+            <p class="small-readout">Paint brush: click or drag on parts. Drag empty space to orbit. Middle mouse = orbit.</p>
+            <div class="toolgrid toolgrid--2">
+              <button type="button" data-action="item-paint-bucket-all" title="Apply color to every part">Paint bucket (all)</button>
+            </div>
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Textures (selected part)</span>
+            <p class="small-readout item-texture-hint">Drop a PNG/JPG/WebP on the 3D preview, or pick a preset.</p>
+            <div class="toolgrid toolgrid--3 item-texture-presets">
+              <button type="button" data-action="item-texture-preset" data-item-texture="wood">Wood</button>
+              <button type="button" data-action="item-texture-preset" data-item-texture="stone">Stone</button>
+              <button type="button" data-action="item-texture-preset" data-item-texture="metal">Metal</button>
+              <button type="button" data-action="item-texture-preset" data-item-texture="fabric">Fabric</button>
+              <button type="button" data-action="item-texture-preset" data-item-texture="checker">Checker</button>
+            </div>
+            <div class="menu-buttons row">
+              <button type="button" data-action="item-texture-browse">Browse image…</button>
+              <button type="button" data-action="item-clear-texture">Clear texture</button>
+            </div>
+            <input id="item-texture-file" type="file" accept="image/*" class="visually-hidden" aria-label="Texture file" />
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Add mesh</span>
+            <div class="toolgrid toolgrid--2">
+              <button type="button" data-action="item-add-primitive" data-item-shape="box">Add Box</button>
+              <button type="button" data-action="item-add-primitive" data-item-shape="cylinder">Add Cylinder</button>
+              <button type="button" data-action="item-add-part">Add blank</button>
+              <button type="button" data-action="item-duplicate-part">Duplicate</button>
+            </div>
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Object</span>
+            <div class="toolgrid toolgrid--2">
+              <button type="button" data-action="item-remove-part">Delete part</button>
+              <button type="button" data-action="item-apply-part">Apply props</button>
+            </div>
+          </div>
+          <div class="toolgroup">
+            <span class="toolgroup-label">Display</span>
+            <div class="toolgrid toolgrid--2">
+              <label class="sprite-checkbox tool-checkbox">
+                <input id="item-preview-grid" type="checkbox" checked />
+                Grid
+              </label>
+              <label class="sprite-checkbox tool-checkbox">
+                <input id="item-wireframe-enabled" type="checkbox" />
+                Wireframe
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <div class="item-editor-viewport-column">
+          <div id="item-viewport-wrap" class="item-editor-viewport-wrap">
+            <canvas id="item-preview-canvas"></canvas>
+            <div class="item-viewport-hud">
+              <span id="item-mode-badge" class="item-mode-badge">Tool</span>
+            </div>
+          </div>
+          <div id="item-preview-readout" class="item-viewport-footer small-readout">Ready.</div>
+        </div>
+
+        <aside class="item-editor-sidebar-right sprite-editor-card">
+          <strong>Properties</strong>
+          <div class="form-grid">
+            <label>
+              Project name
+              <input id="item-project-name" type="text" value="SimpleItem" />
+            </label>
+            <label>
+              Category
+              <select id="item-project-category">
+                <option value="prop">Prop</option>
+                <option value="weapon">Weapon</option>
+                <option value="tool">Tool</option>
+                <option value="decor">Decor</option>
+              </select>
+            </label>
+            <label>
+              Background
+              <input id="item-bg-color" type="color" value="#2a2115" />
+            </label>
+          </div>
+          <div class="panel-section">
+            <strong>Hierarchy</strong>
+            <div id="item-hierarchy-tree" class="item-hierarchy-tree small-readout"></div>
+            <label>
+              Flat / legacy pick
+              <select id="item-part-select"></select>
+            </label>
+            <label>
+              Set parent (selected)
+              <select id="item-reparent-parent"></select>
+            </label>
+            <div class="menu-buttons row">
+              <button type="button" data-action="item-reparent-selected">Apply parent</button>
+            </div>
+            <p class="small-readout">Drag a row onto another to reparent.</p>
+          </div>
+          <div id="item-part-properties" class="panel-section">
+            <strong>Active part</strong>
+            <div class="sprite-frame-grid">
+              <label>Name<input id="item-part-name" type="text" value="part-1" /></label>
+              <label>Shape
+                <select id="item-part-shape">
+                  <option value="box">Box</option>
+                  <option value="cylinder">Cylinder</option>
+                </select>
+              </label>
+              <label>X<input id="item-part-x" type="number" min="-200" max="200" step="1" value="0" /></label>
+              <label>Y<input id="item-part-y" type="number" min="-200" max="200" step="1" value="0" /></label>
+              <label>Z<input id="item-part-z" type="number" min="-200" max="200" step="1" value="0" /></label>
+              <label>W<input id="item-part-w" type="number" min="1" max="300" step="1" value="40" /></label>
+              <label>H<input id="item-part-h" type="number" min="1" max="300" step="1" value="40" /></label>
+              <label>D<input id="item-part-d" type="number" min="1" max="300" step="1" value="40" /></label>
+              <label>Yaw<input id="item-part-yaw" type="number" min="-180" max="180" step="1" value="0" /></label>
+              <label>Color<input id="item-part-color" type="color" value="#a88d5f" /></label>
+            </div>
+            <div id="item-part-texture-status" class="small-readout">No texture on this part.</div>
+            <div class="menu-buttons row">
+              <button type="button" data-action="item-apply-part">Apply</button>
+            </div>
+          </div>
+          <div id="item-project-readout" class="small-readout">—</div>
+        </aside>
+      </div>
+
+      <footer class="item-editor-bottombar menu-buttons row">
+        <button type="button" data-action="go-main">Back to Main Menu</button>
+      </footer>
+    </section>
+  </template>
+
+  <template id="screen-dev-menu">
+    <section class="screen">
+      <h2>Developer Menu</h2>
+      <p class="screen-sub">Testing shortcuts and save-state controls.</p>
+      <div class="menu-buttons">
+        <button data-action="dev-unlock-all">Unlock All Missions</button>
+        <button data-action="dev-reset-progress">Reset Campaign Progress</button>
+        <button data-action="dev-clear-saves">Clear Mission Saves</button>
+        <button data-action="go-main">Back</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-settings">
+    <section class="screen">
+      <h2>Settings</h2>
+      <p class="screen-sub">Game-wide options before missions/gameplay.</p>
+      <div class="form-grid">
+        <label>
+          Music Volume
+          <input id="music-volume" type="range" min="0" max="100" />
+        </label>
+        <label>
+          SFX Volume
+          <input id="sfx-volume" type="range" min="0" max="100" />
+        </label>
+        <label>
+          Difficulty
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="normal">Normal</option>
+            <option value="hard">Hard</option>
+            <option value="very-hard">Very Hard</option>
+          </select>
+        </label>
+        <label>
+          Unit Controls
+          <select id="unit-control-preset">
+            <option value="classic">Classic (Drag pan + Shift box + Right-click command)</option>
+            <option value="rts">RTS (Left-drag box select + Right-drag pan)</option>
+          </select>
+        </label>
+      </div>
+      <div class="menu-buttons row">
+        <button data-action="save-settings">Save Settings</button>
+        <button data-action="go-main">Back</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-missions">
+    <section class="screen campaign-screen">
+      <h2>Campaign Map</h2>
+      <p class="screen-sub">A large world map with mission nodes and path progression.</p>
+      <div class="campaign-layout">
+        <div class="campaign-main">
+          <div class="campaign-toolbar">
+            <button data-action="zoom-out">-</button>
+            <button data-action="zoom-in">+</button>
+            <button data-action="reset-map">Reset View</button>
+            <span class="campaign-hint">Drag to pan, scroll to zoom</span>
+          </div>
+          <div id="campaign-viewport" class="campaign-viewport">
+            <div id="campaign-world" class="campaign-world"></div>
+          </div>
+        </div>
+        <aside class="campaign-side" id="mission-side-panel"></aside>
+      </div>
+      <div class="menu-buttons row">
+        <button data-action="go-main">Back</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-mission-briefing">
+    <section class="screen briefing-screen">
+      <div class="briefing-card">
+        <h2 id="briefing-title">Mission Briefing</h2>
+        <p id="briefing-objective" class="screen-sub"></p>
+        <div class="briefing-grid" id="briefing-meta"></div>
+        <div class="menu-buttons row">
+          <button data-action="launch-mission">Start Mission (Stub)</button>
+          <button data-action="go-missions">Back to Campaign Map</button>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-mission-play">
+    <section class="screen mission-play-screen">
+      <div class="mission-hud">
+        <div>
+          <strong id="play-mission-title">Mission</strong>
+          <p id="play-mission-objective"></p>
+        </div>
+        <div class="mission-hud-right">
+          <span id="play-status-tag" class="tag">Running</span>
+          <span id="play-timer" class="tag">00:00</span>
+          <button data-action="pause-mission">Pause</button>
+        </div>
+      </div>
+
+      <div class="mission-stage">
+        <div class="mission-canvas-stack">
+          <canvas id="mission-canvas" width="1600" height="900"></canvas>
+        </div>
+
+        <div class="mission-objectives-panel">
+          <h3>Objectives</h3>
+          <div id="mission-objective-list" class="small-readout"></div>
+        </div>
+
+        <div class="mission-minimap-wrap">
+          <div class="minimap-title">Minimap</div>
+          <canvas id="mission-minimap" width="260" height="180"></canvas>
+          <button class="mini-btn" data-action="toggle-event-log">Event Log</button>
+        </div>
+
+        <div class="mission-context-panel" id="mission-context-panel">
+          <div class="context-head">
+            <strong id="context-title">Context</strong>
+            <button class="mini-btn" data-action="clear-context">X</button>
+          </div>
+
+          <div id="context-panel-empty" class="small-readout">Select keep, barracks, unit, or a tile.</div>
+
+          <div id="context-panel-keep" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Mission Economy</strong>
+              <div id="mission-resource-panel" class="small-readout"></div>
+            </div>
+            <div class="panel-section">
+              <strong>Popularity & Population</strong>
+              <div class="mission-controls-grid">
+                <label>
+                  Taxes
+                  <select id="mission-tax-mode">
+                    <option value="bribe">Generous Bribe (+7)</option>
+                    <option value="none">No Taxes (+0)</option>
+                    <option value="light">Light Taxes (-2)</option>
+                    <option value="heavy">Heavy Taxes (-12)</option>
+                    <option value="cruel">Cruel Taxes (-24)</option>
+                  </select>
+                </label>
+                <label>
+                  Rations
+                  <select id="mission-ration-mode">
+                    <option value="none">No Rations (-20)</option>
+                    <option value="half">Half Rations (-5)</option>
+                    <option value="normal">Normal Rations (+0)</option>
+                    <option value="double">Double Rations (+6)</option>
+                  </select>
+                </label>
+              </div>
+              <div id="mission-popularity-panel" class="small-readout"></div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="toggle-research-rules">Toggle Research</button>
+                <button data-action="toggle-upkeep-rules">Toggle Upkeep</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="context-panel-barracks" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Military Command</strong>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="recruit-militia" data-recruit-unit-type="militia">Recruit Militia</button>
+                <button data-action="recruit-skirmisher" data-recruit-unit-type="skirmisher">Recruit Skirmisher</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="recruit-templar" data-recruit-unit-type="templar">Recruit Templar</button>
+                <button data-action="command-move-mode">Move Command</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="cancel-barracks-queue">Cancel Last Recruit</button>
+                <button data-action="delete-selected-building">Delete Building</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="clear-context">Close</button>
+              </div>
+              <div id="barracks-queue-card" class="small-readout">Queue: 0/2</div>
+              <div id="barracks-queue-progress" class="small-readout">Training: Idle</div>
+              <div id="unit-command-card" class="small-readout">No unit selected.</div>
+            </div>
+          </div>
+
+          <div id="context-panel-stockpile" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Stockpile</strong>
+              <div id="stockpile-readout" class="small-readout">No stockpile selected.</div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="delete-selected-building">Delete Building</button>
+                <button data-action="clear-context">Close</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="context-panel-building" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Building</strong>
+              <div id="building-readout" class="small-readout">No building selected.</div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="delete-selected-building">Delete Building</button>
+                <button data-action="clear-context">Close</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="context-panel-unit" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Unit Command</strong>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="stance-stand">Stand</button>
+                <button data-action="stance-defensive">Defensive</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="stance-aggressive">Aggressive</button>
+                <button data-action="command-move-mode">Move Command</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="command-mode-hold-line" data-command-mode="hold-line">Hold Line</button>
+                <button data-action="command-mode-focus-fire" data-command-mode="focus-fire">Focus Fire</button>
+              </div>
+              <div class="menu-buttons row mission-build-buttons">
+                <button data-action="command-mode-normal" data-command-mode="normal">Normal</button>
+                <button data-action="command-mode-fallback" data-command-mode="fallback">Fallback</button>
+              </div>
+              <div id="unit-command-card-secondary" class="small-readout">No unit selected.</div>
+            </div>
+          </div>
+
+          <div id="context-panel-tile" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Tile Inspector</strong>
+              <div id="mission-tile-info" class="small-readout">No tile selected.</div>
+            </div>
+          </div>
+
+          <div id="context-panel-event" class="context-body hidden">
+            <div class="panel-section first">
+              <strong>Event Log</strong>
+              <div id="mission-event-log" class="small-readout event-log"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-buildbar" id="mission-buildbar">
+          <div class="buildbar-head">
+            <strong>Build Menu</strong>
+            <div class="buildbar-head-actions">
+              <button class="mini-btn" data-action="toggle-dev-menu">Dev</button>
+              <button class="mini-btn" data-action="toggle-buildbar">_</button>
+            </div>
+          </div>
+          <div class="buildbar-categories">
+            <button class="mini-btn build-cat-btn" data-action="build-cat-economy" data-build-category-tab="economy">Economy</button>
+            <button class="mini-btn build-cat-btn" data-action="build-cat-food" data-build-category-tab="food">Food</button>
+            <button class="mini-btn build-cat-btn" data-action="build-cat-industry" data-build-category-tab="industry">Industry</button>
+            <button class="mini-btn build-cat-btn" data-action="build-cat-defense" data-build-category-tab="defense">Defense</button>
+          </div>
+          <div class="buildbar-body" id="mission-buildbar-body">
+            <div class="menu-buttons row mission-build-buttons">
+              <button class="build-option-btn" data-build-type="stockpile" data-build-category="economy" data-action="build-stockpile">Stockpile</button>
+              <button class="build-option-btn" data-build-type="house" data-build-category="economy" data-action="build-house">House</button>
+            </div>
+            <div class="menu-buttons row mission-build-buttons">
+              <button class="build-option-btn" data-build-type="woodcutter" data-build-category="industry" data-action="build-woodcutter">Woodcutter</button>
+              <button class="build-option-btn" data-build-type="stone-camp" data-build-category="industry" data-action="build-stone-camp">Stone Camp</button>
+            </div>
+            <div class="menu-buttons row mission-build-buttons">
+              <button class="build-option-btn" data-build-type="iron-furny" data-build-category="industry" data-action="build-iron-furny">Iron Furny</button>
+              <button class="build-option-btn" data-build-type="cow-building" data-build-category="industry" data-action="build-cow-building">Cow Building</button>
+            </div>
+            <div class="menu-buttons row mission-build-buttons">
+              <button class="build-option-btn" data-build-type="apple-farm" data-build-category="food" data-action="build-apple-farm">Apple Farm</button>
+              <button class="build-option-btn" data-build-type="granary" data-build-category="food" data-action="build-granary">Granary</button>
+            </div>
+            <div class="menu-buttons row mission-build-buttons">
+              <button class="build-option-btn" data-build-type="barracks" data-build-category="defense" data-action="build-barracks">Barracks</button>
+              <button class="build-option-btn cancel-btn" data-action="cancel-build-mode">Cancel Build</button>
+            </div>
+            <div id="build-mode-status" class="small-readout">Build mode: none</div>
+          </div>
+        </div>
+
+        <div class="mission-controls">
+          <button data-action="toggle-dev-menu">Dev</button>
+          <button data-action="save-mission-runtime">Save</button>
+          <button data-action="load-mission-runtime">Load</button>
+          <button data-action="restart-mission">Restart</button>
+          <button data-action="exit-to-map">Exit</button>
+        </div>
+
+        <div class="mission-mobile-quick hidden" id="mission-mobile-quick">
+          <div class="mobile-quick-head">
+            <strong>Quick Command</strong>
+            <span id="mobile-quick-selection">0 selected</span>
+          </div>
+          <div class="menu-buttons row mission-build-buttons">
+            <button data-action="quick-move-arm">Move/Attack</button>
+            <button data-action="quick-clear-selection">Clear</button>
+          </div>
+          <div class="menu-buttons row mission-build-buttons">
+            <button data-action="quick-stance-stand">Stand</button>
+            <button data-action="quick-stance-defensive">Defensive</button>
+            <button data-action="quick-stance-aggressive">Aggressive</button>
+          </div>
+        </div>
+
+        <div class="mission-dev-panel hidden" id="mission-dev-panel">
+          <div class="context-head">
+            <strong>Developer Menu</strong>
+            <button class="mini-btn" data-action="toggle-dev-menu">X</button>
+          </div>
+          <div class="menu-buttons mission-dev-buttons">
+            <button data-action="dev-add-resources">+500 Resources</button>
+            <button data-action="dev-recruit-free-militia">Spawn Militia</button>
+            <button data-action="dev-unlock-all">Unlock All Missions</button>
+            <button data-action="dev-reset-progress">Reset Campaign Progress</button>
+            <button data-action="dev-clear-saves">Clear Mission Saves</button>
+          </div>
+          <div id="mission-sanity-readout" class="small-readout">Sanity: pending</div>
+        </div>
+
+        <div class="mission-pause-overlay hidden" id="mission-pause-overlay">
+          <div class="mission-pause-card">
+            <h3>Paused</h3>
+            <div class="menu-buttons">
+              <button data-action="pause-resume">Resume</button>
+              <button data-action="pause-options">Options</button>
+              <button data-action="pause-restart">Restart Mission</button>
+              <button data-action="pause-save">Save Game</button>
+              <button data-action="pause-exit">Exit to Map</button>
+            </div>
+            <div class="pause-options hidden" id="pause-options-panel">
+              <label>
+                Unit Controls
+                <select id="pause-unit-control-preset">
+                  <option value="classic">Classic (Drag pan + Shift box + Right-click command)</option>
+                  <option value="rts">RTS (Left-drag box select + Right-drag pan)</option>
+                </select>
+              </label>
+              <div class="menu-buttons row">
+                <button data-action="pause-apply-options">Apply Options</button>
+                <button data-action="pause-close-options">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="toast-template">
+    <div class="toast" id="toast"></div>
+  </template>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script src="./data/item-scene.js"></script>
+  <script src="./data/model-registry.js"></script>
+  <script type="module" src="./data/item-editor-three.js"></script>
+  <script type="module" src="./data/sprite-mesh-preview.js"></script>
+  <script type="module" src="./data/mission-three-layer.js"></script>
+  <script src="./data/campaign-map.js"></script>
+  <script src="./data/sprite-project-schema.js"></script>
+  <script src="./data/sprite-registry.js"></script>
+  <script src="./data/sprite-exporter.js"></script>
+  <script defer src="./game.js"></script>
+</body>
+</html>

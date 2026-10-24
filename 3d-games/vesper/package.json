@@ -1,0 +1,31 @@
+{
+  "name": "vesper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node tools/bundle.mjs",
+    "shots": "node tests/shoot.mjs",
+    "verify": "node tests/verify_oneclick.mjs",
+    "ablate": "node tests/ablate.mjs",
+    "harvest": "node tests/harvest.mjs",
+    "roster": "node tests/roster.mjs",
+    "biomes": "node tests/biomes.mjs",
+    "walk": "node tests/walk.mjs",
+    "stand": "node tests/standshot.mjs",
+    "gallery": "node tests/groundgallery.mjs",
+    "daynight": "node tests/daynight.mjs --all",
+    "nearfield": "node tests/nearfield.mjs",
+    "ab": "node tests/uniform_ab.mjs",
+    "ships": "node tests/ships.mjs",
+    "depth": "node tests/depthslice.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0",
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "three": "^0.171.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "maxDistanceMeters": 80000,
+  "outpostEveryMeters": 10000,
+  "finaleAtMeters": 80000,
+  "finaleBufferMeters": 2000,
+  "startingCash": 80,
+  "startingGoldBars": 1,
+  "startingFuelInEngine": 35,
+  "fuelMax": 100,
+  "fuelPerCoal": 22,
+  "fuelFromCorpse": 8,
+  "fuelFromNewspaper": 4,
+  "baseBurnPerSecondDriving": 1.1,
+  "speedMetersPerSecond": 7,
+  "stoppedThreatToIntegrity": 4.5,
+  "integrityDamageToPlayer": 0.8,
+  "playerMaxHealth": 100,
+  "trainIntegrityMax": 100,
+  "nightStartHour": 19.5,
+  "dayStartHour": 5.5,
+  "hoursPerRealSecond": 0.12,
+  "nightEnemyTickDamage": 0.15,
+  "fullMoonName": "Full Moon (wolves)",
+  "bloodMoonName": "Blood Moon (vampires)",
+  "prices": {
+    "coal": 5,
+    "newspaper": 2,
+    "bandage": 8,
+    "metal_sheet": 12,
+    "revolver_ammo": 2,
+    "revolver": 40
+  },
+  "sellPrices": {
+    "gold_bar": 45,
+    "corpse": 4,
+    "scrap": 2
+  },
+  "outpostShops": {
+    "stockCoal": 20,
+    "stockAmmo": 30
+  }
+}

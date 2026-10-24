@@ -1,0 +1,704 @@
+[
+ {
+  "id": "AUTO_SMELTER",
+  "slot": "upgrade",
+  "smelt": true
+ },
+ {
+  "id": "COMPACTOR",
+  "slot": "upgrade",
+  "compact": "block"
+ },
+ {
+  "id": "SUPER_COMPACTOR_3000",
+  "slot": "upgrade",
+  "compact": "enchanted"
+ },
+ {
+  "id": "DWARVEN_COMPACTOR",
+  "slot": "upgrade",
+  "smelt": true,
+  "compact": "enchanted"
+ },
+ {
+  "id": "DIAMOND_SPREADING",
+  "slot": "upgrade",
+  "spread": {
+   "item": "DIAMOND",
+   "perItem": 0.1
+  }
+ },
+ {
+  "id": "POTATO_SPREADING",
+  "slot": "upgrade",
+  "spread": {
+   "item": "POTATO_ITEM",
+   "perItem": 0.1
+  },
+  "onePerProfile": true
+ },
+ {
+  "id": "KRAMPUS_HELMET",
+  "slot": "upgrade",
+  "spread": {
+   "item": "RED_GIFT",
+   "perItem": 0.001
+  },
+  "onePerProfile": true
+ },
+ {
+  "id": "SLEEPY_HOLLOW",
+  "slot": "upgrade",
+  "spread": {
+   "item": "PURPLE_CANDY",
+   "perItem": 0.005
+  },
+  "onePerProfile": true
+ },
+ {
+  "id": "MINION_EXPANDER",
+  "slot": "upgrade",
+  "speed": 5,
+  "radius": 1
+ },
+ {
+  "id": "FLYCATCHER_UPGRADE",
+  "slot": "upgrade",
+  "speed": 20,
+  "requirement": "slayer:spider:6"
+ },
+ {
+  "id": "BERBERIS_FUEL_INJECTOR",
+  "slot": "upgrade",
+  "speed": 15,
+  "categories": [
+   "FARMING"
+  ],
+  "spread": {
+   "item": "LUSH_BERBERIS",
+   "perItem": 0.01
+  }
+ },
+ {
+  "id": "ENCHANTED_EGG",
+  "slot": "upgrade",
+  "types": [
+   "CHICKEN"
+  ],
+  "addDrops": [
+   {
+    "item": "EGG",
+    "avg": 1
+   }
+  ]
+ },
+ {
+  "id": "FLINT_SHOVEL",
+  "slot": "upgrade",
+  "types": [
+   "GRAVEL"
+  ],
+  "setDrops": [
+   {
+    "item": "FLINT",
+    "avg": 1
+   }
+  ]
+ },
+ {
+  "id": "ENCHANTED_SHEARS",
+  "slot": "upgrade",
+  "types": [
+   "SHEEP"
+  ],
+  "addDrops": [
+   {
+    "item": "WOOL",
+    "avg": 1
+   }
+  ]
+ },
+ {
+  "id": "DAYSWITCH",
+  "slot": "upgrade",
+  "types": [
+   "SUNFLOWER"
+  ],
+  "speed": 20,
+  "setDrops": [
+   {
+    "item": "DOUBLE_PLANT",
+    "avg": 3
+   }
+  ]
+ },
+ {
+  "id": "NIGHTSWITCH",
+  "slot": "upgrade",
+  "types": [
+   "SUNFLOWER"
+  ],
+  "speed": 20,
+  "setDrops": [
+   {
+    "item": "MOONFLOWER",
+    "avg": 3
+   }
+  ]
+ },
+ {
+  "id": "THORNY_VINES",
+  "slot": "upgrade",
+  "types": [
+   "FLOWER"
+  ],
+  "speed": 20,
+  "setDrops": [
+   {
+    "item": "WILD_ROSE",
+    "avg": 1
+   }
+  ]
+ },
+ {
+  "id": "LESSER_SOULFLOW_ENGINE",
+  "slot": "upgrade",
+  "output": 0.5,
+  "perSecond": {
+   "item": "RAW_SOULFLOW",
+   "every": 1800
+  },
+  "requirement": "slayer:enderman:2"
+ },
+ {
+  "id": "SOULFLOW_ENGINE",
+  "slot": "upgrade",
+  "output": 0.5,
+  "perSecond": {
+   "item": "RAW_SOULFLOW",
+   "every": 900
+  },
+  "requirement": "slayer:enderman:5",
+  "voidlingTierBonus": 3
+ },
+ {
+  "id": "CORRUPT_SOIL",
+  "slot": "upgrade",
+  "kinds": [
+   "MOB"
+  ],
+  "addDrops": [
+   {
+    "item": "SULPHUR_ORE",
+    "avg": 0.5
+   },
+   {
+    "item": "CORRUPTED_FRAGMENT",
+    "avg": 0.5
+   }
+  ]
+ },
+ {
+  "id": "SUPER_JACOB_SYSTEM",
+  "slot": "upgrade",
+  "categories": [
+   "FARMING"
+  ],
+  "onePerProfile": true,
+  "perSecond": {
+   "item": "JACOBS_TICKET",
+   "every": 10800
+  }
+ },
+ {
+  "id": "FREE_WILL",
+  "slot": "freewill",
+  "speed": 10
+ },
+ {
+  "id": "BUDGET_HOPPER",
+  "slot": "shipping",
+  "sell": 0.5
+ },
+ {
+  "id": "ENCHANTED_HOPPER",
+  "slot": "shipping",
+  "sell": 0.7
+ },
+ {
+  "id": "SMALL_ENCHANTED_CHEST",
+  "slot": "chest",
+  "slots": 3
+ },
+ {
+  "id": "MEDIUM_ENCHANTED_CHEST",
+  "slot": "chest",
+  "slots": 9
+ },
+ {
+  "id": "LARGE_ENCHANTED_CHEST",
+  "slot": "chest",
+  "slots": 15
+ },
+ {
+  "id": "XLARGE_ENCHANTED_CHEST",
+  "slot": "chest",
+  "slots": 21
+ },
+ {
+  "id": "XXLARGE_ENCHANTED_CHEST",
+  "slot": "chest",
+  "slots": 27
+ },
+ {
+  "id": "MITHRIL_INFUSION",
+  "slot": "infusion",
+  "speed": 10
+ },
+ {
+  "id": "FARM_CRYSTAL",
+  "slot": "crystal",
+  "speed": 10,
+  "categories": [
+   "FARMING"
+  ]
+ },
+ {
+  "id": "WOODCUTTING_CRYSTAL",
+  "slot": "crystal",
+  "speed": 10,
+  "categories": [
+   "FORAGING"
+  ]
+ },
+ {
+  "id": "MITHRIL_CRYSTAL",
+  "slot": "crystal",
+  "speed": 10,
+  "categories": [
+   "MINING"
+  ]
+ },
+ {
+  "id": "WINTER_ISLAND_CRYSTAL",
+  "slot": "crystal",
+  "speed": 5,
+  "types": [
+   "SNOW"
+  ]
+ },
+ {
+  "id": "CORNUCOPIA_CRYSTAL",
+  "slot": "crystal",
+  "speed": 10,
+  "categories": [
+   "FARMING"
+  ],
+  "perUniqueType": 1
+ },
+ {
+  "id": "POSTCARD",
+  "slot": "crystal",
+  "speed": 5
+ },
+ {
+  "id": "BEACON_1",
+  "slot": "beacon",
+  "speed": 2,
+  "tier": 1,
+  "requirement": "hotm:1"
+ },
+ {
+  "id": "BEACON_2",
+  "slot": "beacon",
+  "speed": 4,
+  "tier": 2,
+  "requirement": "hotm:2"
+ },
+ {
+  "id": "BEACON_3",
+  "slot": "beacon",
+  "speed": 6,
+  "tier": 3,
+  "requirement": "hotm:3"
+ },
+ {
+  "id": "BEACON_4",
+  "slot": "beacon",
+  "speed": 8,
+  "tier": 4,
+  "requirement": "hotm:4"
+ },
+ {
+  "id": "BEACON_5",
+  "slot": "beacon",
+  "speed": 10,
+  "tier": 5,
+  "requirement": "hotm:5"
+ },
+ {
+  "id": "POWER_CRYSTAL",
+  "slot": "power",
+  "seconds": 172800
+ },
+ {
+  "id": "SCORCHED_POWER_CRYSTAL",
+  "slot": "power",
+  "seconds": 172800,
+  "speed": 1
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_REVENANT_12",
+  "slot": "stone",
+  "types": [
+   "REVENANT"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_TARANTULA_12",
+  "slot": "stone",
+  "types": [
+   "TARANTULA"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_OAK_12",
+  "slot": "stone",
+  "types": [
+   "OAK"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_SPRUCE_12",
+  "slot": "stone",
+  "types": [
+   "SPRUCE"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_BIRCH_12",
+  "slot": "stone",
+  "types": [
+   "BIRCH"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_DARK_OAK_12",
+  "slot": "stone",
+  "types": [
+   "DARK_OAK"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_ACACIA_12",
+  "slot": "stone",
+  "types": [
+   "ACACIA"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_JUNGLE_12",
+  "slot": "stone",
+  "types": [
+   "JUNGLE"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_FISHING_12",
+  "slot": "stone",
+  "types": [
+   "FISHING"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_CLAY_12",
+  "slot": "stone",
+  "types": [
+   "CLAY"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "GENERATOR_UPGRADE_STONE_LILY_PAD_12",
+  "slot": "stone",
+  "types": [
+   "LILY_PAD"
+  ],
+  "fromTier": 11,
+  "toTier": 12
+ },
+ {
+  "id": "SNOWMAN_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTY3MjEzODA2MCwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1ODU2MWMwMjdlMDM2OGE4M2Y4NDk0NjNkNDJhMzA1NmU3MDk3NjRjNGMzYjQwZDgxYzhmM2VhN2EwZDZkMDciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "PUFFERFISH_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1NTc2MjM1NzU4NiwKICAicHJvZmlsZUlkIiA6ICI1ZmI5NjkwZGEyNzI0OWQxYjgxNGE4MDk2NGU1ZGY1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZWV2aWFoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViMjAyNmM1NzY3NmJjOTU3N2JjN2QxZWQ2YTNmOGFiYThjM2NjYWRhZTg5NmE1NDE0ZDAzMTVlN2VlMTAzZmYiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "FISH_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MjEwMDAzMzMzNywKICAicHJvZmlsZUlkIiA6ICI2MTI4MTA4MjU5M2Q0OGQ2OWIzMmI3YjlkMzIxMGUxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJuaWNyb25pYzcyMTk2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxMDMwZjYzYzBlMGQwN2VjMjEyOGQyNThiNTFhZWE5ZWUyYmUwZThjZjhjY2ExYTU5MzA1MzIxMmNmNWRlOSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "WHITE_TIGER_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjMzOTg5MSwKICAicHJvZmlsZUlkIiA6ICJmZTYxY2RiMjUyMTA0ODYzYTljY2E2ODAwZDRiMzgzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeVNoYWRvd3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgxNTdjNzJkN2Q0ZmI5NTE2MTdmYzZhOGEzMDFmN2NkMGVlNmEzNzg2ZDZlYTIyNzk0OTk0NjIxMjRmMzM1YiIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "HERMIT_CRAB_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MTgxMzY2ODU2NCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI5ZGQ2OWRjNmQ1YzlmMTAzNjFkMzVmZWE1MDE2NWIwYWJjZmFiMDIzMGQ1ODhlYjlkNmUyYTY4ZDhjMzBkMyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "GHOST_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5Mzc2ODcwNTUyOCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZjYzZTgxZWZjMDMxMGI3ZGFiMmIxZjNmNzg2MWY2Y2RmZmEzNmM0M2Y5NWFmNzgwOGEzZTcxZWJhNzZjODJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "CHOCO_RABBIT_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTkzOTQxMzQ3NCwKICAicHJvZmlsZUlkIiA6ICJlNGUxYmY5NzMwZWI0NDRhYmIyOGIxODgxN2Q0M2YzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSU1PR0FNRVMwMzIxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhODE1Mzk4ZTdkYTg5YjFiYzA4ZjY0NmNhZmM4ZTdiODEzZGEwYmUwZWVjMGNjZTZkM2VmZjUyMDc4MDEwMjYiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "REINDEER_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjMyMTYyNjA4OSwKICAicHJvZmlsZUlkIiA6ICJiYjdjY2E3MTA0MzQ0NDEyOGQzMDg5ZTEzYmRmYWI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXVyZW5jaW8zMDMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVkZDViMDBhNWZiYzJkYWFiNThmMzNkODZiYmM0ZmY4ZDI1OGM5YmRhNjU3NTVjMDMwNTg5MGJiYTA5NjAxZiIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SUN_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzEyOTcwMDAsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczYTM3YzU4NmU4NTYxNGRhZWJiZDhjZDRlYmM1M2EwYzNhY2VhNjM2NmRkMDRjZTQ4MjNjN2U3MjU1YmQ0NzUifX19"
+ },
+ {
+  "id": "HAPPY_EMOJI_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzE4ODU0MjQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyMzdjNmYxZDJmNzE0YmM3ZTVkM2I3ODIyZmI3MWRlZjBkMWVkYWVkMmUzNjY1NDJmZDMyMDcxZjE4MDM5OCJ9fX0="
+ },
+ {
+  "id": "LADY_BUG_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1ODU2MTMxOTE3OTUsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI3OGM1ZGQ0ZTg1Njk4OWMzYzk0NmNiODYxZDczYjMyNzY2MGYwN2E5OGVlYzY3NTg4Y2U3ZDc1NGNiMDhiYSJ9fX0="
+ },
+ {
+  "id": "GRINCH_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NzMyNzA0MDcwODksInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhMWQ0NWYwMTAyZDE0MTBhMDYxZjc0YmVmMzI5Y2UzY2ZhYTE2ZDA3NjJlNWM5NTgxZmE1ZWIwMDMyZWFmNjAifX19"
+ },
+ {
+  "id": "PRESENT_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjU4MDA1MDY0NCwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EzYzg1NjMyNzFhMDE3ZDM0NTc1Y2M2ZmEyODM4MWM3MzRlYmE0NjE3ZmVlZjZjYTVmN2QwYTVmZWRhNDNkMyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "EASTER_EGG_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjg2NzgzMzE5NywKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lY2VkZGMyM2Y5ZDk2YmFhYTBkMmQ3YjllYzE4MGNkN2JlYTU0NDdkMzljNDI1Y2E5ZTQ0ZDg4MDhlYTExZWEwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "BASKETBALL_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDkwODU4MjcyOCwKICAicHJvZmlsZUlkIiA6ICJiN2ZkYmU2N2NkMDA0NjgzYjlmYTllM2UxNzczODI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkM2ZlMGE5NTQwZTYwNGYxMjQ5ZTE2YzEwNWNkYTQ1ODEyYjIwMzcwN2NmOTNmZTY2ZmJhNTExOWUzODc4ODMiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "BUNNY_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1ODU1ODcxNjgyODAsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwYTM3YjVkMDc5ZWI3OWQ4N2VkNWVkYTJjZjk1YTVhZTc2MTA2MmViMDk0OTllZjMzMDc4NDEwODgzY2E3MiJ9fX0="
+ },
+ {
+  "id": "PENGUIN_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjU3ODkxNTIyMiwKICAicHJvZmlsZUlkIiA6ICI2MTI4MTA4MjU5M2Q0OGQ2OWIzMmI3YjlkMzIxMGUxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGROaWNrVGhlUmVhcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2N2Y1MzNmNjRiNWVkNDk3MGFkYjc5YThhYzMzYzBkNjFjNmQ4MDQzYmM5ZDIyZTcyMTA0NjQ0YTRhNDIxOGIiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "END_STONE_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzM3MDYwODQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwZjhhMjc1MmU3MzNlOGQ5MTUyYjFjZjBhMzg1OTYxZmExYmE3N2RhZWQ4ZDJlNGUwMjM0ODY5MTYxMDUyOSJ9fX0="
+ },
+ {
+  "id": "SHARK_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDkwOTE3ODU0NywKICAicHJvZmlsZUlkIiA6ICI2NGExOGZiZmQ0YWY0Yzg0YjliN2FjZmNlNDRmMTAzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJieVJPTkFMX1lUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwOGNmMzI1OGYzYjk3YmM3MTlmZTNmMmZiN2UxOTUxMWZlODNlYTBiY2Q4NmYzOWUyYzk4NGQyM2Y2ZWM4MDYiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "SLOTH_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMjUxNDYzMDIsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ4NTY0Y2ViYjQ2MDRiZDQ2ODdhYWQyNzRiNzNkZmI1MjRhODlmNWMwNTU2YWViZGY1ODBkODllN2Q4MWEyNyJ9fX0="
+ },
+ {
+  "id": "ICE_CREAM_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzI5NzgyMDIsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyOGY0OTAzODhlYzdmNTRiYzk3NTViNGMxZGIwZTkwOGY0MDgyOWFhNTI2OGM2NmNjYTZlNmZhYmNiY2Y2OTMifX19"
+ },
+ {
+  "id": "ZOMBIE_EYE_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4ODQ1OTgxNzMzMiwKICAicHJvZmlsZUlkIiA6ICJlZmI1ZWQ2YjVjOTU0ODBlYWFmMjAyZDIxOWVmNjBjNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaWtlSHdhazAwMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zY2NkZWM0YTllYTA4NDVkMzgzYzhkZTBjNmFiZWE1NmYyZWRmMDE2MGU1ZDkxMmI5Y2E3ZDc1NjlmM2JlNWVmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SKULL_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjgzNDU4ODM2OTUsInByb2ZpbGVJZCI6IjQ0MDNkYzU0NzViYzRiMTVhNTQ4Y2ZkYTZiMGViN2Q5IiwicHJvZmlsZU5hbWUiOiJHR0dhbWVyc1lUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZjJlNzc2NzU3MDY0MzgyZDI4YTUxOGI4OGQ5OGJkNDhjNjZhMTQxNjhiNTdlNmI2NTc2ZWZlMzAwMTQxMTFhIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0="
+ },
+ {
+  "id": "BEACH_BALL_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzIxNzc2ODUsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE0ZmI2NWVjODBkMTE5ZThmNjU3ZWU2NzVhMjczODgwMWFkNzMzMGYyYzYxY2Q2MGZhNWI4YTg4YzA2OTU2ZSJ9fX0="
+ },
+ {
+  "id": "PINK_DONUT_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTcwMjk0NDkwOSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyNTIwNmMzMWU2NzU0ODEwY2QzN2VjZWM5YTlmYmNiZjk4ZTdkNTQ3YWI4MjdjYmRhYTgxNzkxOGFmN2M2MWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "UNDEAD_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjgzNDE1ODczODksInByb2ZpbGVJZCI6IjVmODMyZGMzNWM4MTQ4YjI5ZmQ1MTJjOTBjYmI0OTQ5IiwicHJvZmlsZU5hbWUiOiJ0b29nZXIiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQyY2VmZDAyYjc0OThhM2UwYmY5ZDA1OTY0ZTFjNTIxYmU3ZmIyNjNhMjcyYTdlMTYxNzdkYTM1YTkzNjhiM2IifX19"
+ },
+ {
+  "id": "GINGERBREAD_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MDU4NzU5MTY5OSwKICAicHJvZmlsZUlkIiA6ICI1YjQ5YmJjNzkzZmM0YTczYmIyZjJkOTYwMjk4YjhhMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFa2VsZ2FucyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NTJmNGM4NWUzZThkOTM3ZWM1OTg4NmM5ZDEyMmU0ZmEwNDU5YjM0NmUwNDMwMWNjZjEyZDNmMmY0Mjc5NTQzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SANTA_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4ODY5MDY3Nzc3OSwKICAicHJvZmlsZUlkIiA6ICIwYjBiNGI0NWIxMmQ0ZTQ2OGRkMDc0OWU3ZGQyMTkwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4TWFyc2hoXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTc4YWUwM2Q4NDIyN2YyMWZhMjM2ODJkOWM2MjAxMzEwMDBmZmI3NjczMzk1NTMzYjI3NDBmYTgzYWIxMDM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "KILLER_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzEyMDU1NjU5MSwKICAicHJvZmlsZUlkIiA6ICJjOTAzOGQzZjRiMTg0M2JiYjUwNTU5ZGE3MWFjMTk2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQk5SY29vbGNhdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MjBjMzA2Y2ZlNGM3MmY5ZDg3MGNlYzQ3Zjk1YWM0ZjUxMDNmMjBjOTY2ZDkyMDRhNjc2MDIyYjQ2MDI4NmI3IgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "FESTIVE_JERRY_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEyMjczMzU3NiwKICAicHJvZmlsZUlkIiA6ICJmZDQ3Y2I4YjgzNjQ0YmY3YWIyYmUxODZkYjI1ZmMwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyZGMzZDJmMGQ1N2RiMzlkMGQwNDUzZTJiMGRlZjkxZGFhZTE1ZWVlMzE4Y2ZhZThjMDg2NjMzMTQzMGQxMTQiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "ROBOT_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzY5NzAwNDUzNiwKICAicHJvZmlsZUlkIiA6ICI2OTU3YjQyOTZiOTI0NGJkOGQzNWJiZGU4M2JiZDI3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb2xpblBBUEEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA5MDExMzg1ZjE5YzY4MGY4YmIzOWNiNmI3NTk5MWRkNDdjMTcxMmRjYzI3NjM0ODliYjgyZWMwYzljZjQ0MiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "ICE_LOLLY_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzMxODU5NTQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUwOTAyY2RmMTUwN2RlODVmZTFlNjA1NzEzZDY1MjYyMjZlMjZhZGY0NjRkY2MyMzM3MWE3ZTQ2YjVjZWM2ZSJ9fX0="
+ },
+ {
+  "id": "PUMPKIN_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTk5ODg2NjkxMiwKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY2ZGM1NjUyMDEyZWVhOTI2YzBmNjM4YjY4MjBlMGQyMGViOTRjZjBhMDhiMTZiM2UxMDlkNWU1NDlhZWZiOSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SEAL_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTczNjQyNzYwNTczNywKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM2ZTIzYzUxYTE0NmM5ZmQ5MjhlOTlkMGUwNmVhNGRmNGMzMmY2OGY1ZjdlYzczZDJiMjMzMDI5N2MwYzE4YzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "BEE_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5ODI1MTc5NzUyOCwKICAicHJvZmlsZUlkIiA6ICI5ZDEzZjcyMTcxM2E0N2U0OTAwZTMyZGVkNjBjNDY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWxvZGFvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3YmI0YzVkYjJjNDZhYmY4YTVkZDgzN2U0MzY4NmRhMjUxMTA0NDlkM2EzOTZkZmZjMDk4MGNiYTdmM2UxYTEiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "HEADLESS_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc2MjMyMzQ2Njg1NiwKICAicHJvZmlsZUlkIiA6ICJhYTUwNjRmMDUzOWQ0YmFhYTVkOGMzODllY2JiNGFlMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4WF9FbXBsb3ltZW50X1h4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxMjIyYjc2ZjdiY2FlZGY1OGRjMjA3YjM4OGQwZGI1YzdlNGYwMzVjZWY0ZmI2YWJhNjZiMmIzYTk3Y2Y3OWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "PINK_BUNNY_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjk2MDExNDY4NiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2NkZGY1YjIwY2I1MGQ2NjAwZTUzMzNjNmJiM2ZiMTViNDc0MWYxN2UzNjc1ZmMyYmZjMDljMmNkMDllNjE5IgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "MUMMY_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTc1NjY1ODM3MSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwNTdkMjVhYmM4MDgyYzlhY2Y1M2M3NzFiZjRiZmY1OTUzYjkzOTdkODdmYWE3ZDBiOGFiNjEyZDU5OWVmYiIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "SCARECROW_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMjE3MjQxNjg0MSwKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWViYzZiZDE1YmViZDExOTNmNzhjMTJkMzVhZmVjMGJlNmEwN2EyZWFhOTE4MGMzZjQ5OWRjMzY2Mjg5ODk2MSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "FISHY_PENGUIN_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc2NDg3Mzg5ODQ2NCwKICAicHJvZmlsZUlkIiA6ICJlZGUyYzdhMGFjNjM0MTNiYjA5ZDNmMGJlZTllYzhlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVEZXZKYWRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IzOTgzY2Q0NzE0OWQ3NmI4OWY4OWE1ODQ1MGI5Zjc5ODkxMWM4MDI5OWFiNWExM2ZjNGJkZTk1ZmMwNGQ1MDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "CLOWNFISH_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MTgxMzQ4NTE3MiwKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExOTgxMmNjNTdiNzhjMzM2NmQwNzY3Nzg3NDVmN2Q4MWU5MzY3NjlhOGQyOGNhYzY4ZDQ4MzZmZmU5NTgxMjEiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "CYCLOPS_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzMzcyOTEyNTYyMCwKICAicHJvZmlsZUlkIiA6ICI3NWQ3OTQxMjI0OTM0OTI4YTE1Njc3NjYyODhjN2I1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYWdpY01hamVzdGljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0M2Q4Zjc3NDQwMTlmMjNiN2ZkNjRiY2JjOGEyYTE2ZjhhYzIxZWVkZDExODY1ZDk3YjZiNmMxOTBmYjFhZjAiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "FESTIVE_ZOMBIE_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYzODEyMzAxNjAxMSwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNjYjQxNWY4N2ExNzMyMjFkMWE5OWVlNzhkMTlmYjk4YzEyNmUyM2EwNjc3ZGQwZWUxNzgwM2QxN2JhNGI1YyIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "FESTIVE_SKELETON_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwODEzODUwNzU3OSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZWM3NmZmZTJjZGRlMGEwY2UyZWI4NjEyMTg3OTZlOTIwYTIzYjEzNmNmMjkzZmIyZWM4YTljMjY1MGQ1ZjBlIgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "APOTHEJERRY_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc4ODQ1OTgyNTM5MiwKICAicHJvZmlsZUlkIiA6ICIzMjA3MWFlYjYzZjI0NmY0YTVlMGZhMWY3ODg3ZGRhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcl9HZW5lcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGM0NTZjOWJkODc5ZWQyMjJhYmU4ZGNjOGYxYjA1OTFkZjVhYmRmZTRjMjM3ODc0OTgwNTIzZmQ2NjQwMTM1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "POLAR_BEAR_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc2NDg3MzgyODgxNSwKICAicHJvZmlsZUlkIiA6ICJiNzAwZDM2YjRkYmE0NDQzOTUzNjc4NDVlNWViZTA5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJleGVjdXRvcnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViMTNhMmI2MTZjOTY3ZWQyM2Q4YjAzNmJlZWExODBhYmU2YTRhOTk0YzMxMTJiMDVlYjJkZTNjODRiY2ZhNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "MELON_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzAxMDQ4ODgsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk1OTE0ZjUxMGYyOGE5MzY4YzI1YTEyNjBhZGU3NzllMDRkNWIwZDM5ODZiODI3OWEyZDFkYWJmYjBmYjg0MSJ9fX0="
+ },
+ {
+  "id": "BANANA_MONKEY_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzY5NzY5ODcyMSwKICAicHJvZmlsZUlkIiA6ICIyY2Y2MzExZjUyMTM0NTE2YTEyNTY3NWUwMzk3NmU2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaWdodHN0b2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkNTFhMDA0Nzc1ZDE4ZDAzMTllNjVlMWVkMjFmNmM0ZjU1OTk5NDRhYWJjNDQyZDBjMTVmZDExNzc5MzVlNTMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SANDCASTLE_PERSONALITY",
+  "slot": "skin",
+  "texture": "eyJ0aW1lc3RhbXAiOjE1NjMyMzI1Nzg0MjIsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MDk4YTQ3OThkOWE4YWM1YTEwNzdjMjg2Yzg1ZGNlOThjYmM1MjRiODZjMDAzNTAwY2YwYTA0ZjlkZGZhNSJ9fX0="
+ },
+ {
+  "id": "TROPICAL_BIRD_1_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjM2MDg1NywKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlOWVlNmM5NDcyYTFmOThhYjlmNzg0NDc4NTQwNWRmYThiNTZkOGUyMzFjZDMyNjc1YWM1YmFhOTg0OWJlOSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "TROPICAL_BIRD_2_PERSONALITY",
+  "slot": "skin",
+  "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjM5MDc5NywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZDNjYzE2OTg0N2I0ZWYyOTM4ZmNmN2Y4Yzg0NzAxMTI1ZjlmYWY5MTBjZDA4MjBlY2Q2ZmRjZmNhZjViOGIiCiAgICB9CiAgfQp9"
+ }
+]

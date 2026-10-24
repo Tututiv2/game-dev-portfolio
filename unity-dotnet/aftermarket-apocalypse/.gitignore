@@ -1,0 +1,84 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Never commit these
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.vs/
+.gradle/
+ExportedObj/
+*.unitypackage
+
+# Visual Studio / Rider generated
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+.vscode/
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crash reports
+sysinfo.txt
+crashlytics-build.properties
+
+# Test + build output produced by the batchmode verification runs
+/TestResults*.xml
+# Every batchmode/forge log at the root, not an enumerated list of the ones we
+# happened to name so far. `/unity_*.log` did not match an ad-hoc `u7.log` and a
+# build log got committed.
+/*.log
+/Logs/
+
+# Scratch space for any future asset tooling (Phase 3). Generated intermediates
+# stay out of git; only the budgeted, engine-ready model under Assets/ is kept.
+/Tools/**/_work/
+
+# Screenshot output from Tools > Aftermarket > Capture Map Screenshots.
+# Regenerable, and binary — keep it out of the history.
+/Screenshots/
+
+# On-disk copies of the map scene taken before each destructive re-seed.
+# git also has them, but deleting a scene is not undoable and a backup that
+# does not depend on the tree being clean costs nothing.
+/Backups/
+
+# Python bytecode from running the forge scripts.
+__pycache__/
+*.pyc
+Tools/_verify/
+
+# Test Runner leftovers. The PlayMode runner writes an InitTestScene<GUID> into
+# Assets/ on every run and does not always clean it up; these are regenerated,
+# never authored. Listed after the !Assets/**/*.meta negation above so the .meta
+# is ignored too -- later patterns win.
+/[Aa]ssets/InitTestScene*.unity
+/[Aa]ssets/InitTestScene*.unity.meta
+/TestResults.xml
+/PlayResults.xml
+/unity_test.log

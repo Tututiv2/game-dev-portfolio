@@ -1,0 +1,66 @@
+[
+ {
+  "id": "barn_cows",
+  "island": "barn",
+  "area": "pen.cow",
+  "mob": "barn_cow",
+  "max": 6,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "barn_pigs",
+  "island": "barn",
+  "area": "pen.pig",
+  "mob": "barn_pig",
+  "max": 6,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "barn_chickens",
+  "island": "barn",
+  "area": "pen.chicken",
+  "mob": "barn_chicken",
+  "max": 8,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "barn_sheep",
+  "island": "barn",
+  "area": "pen.sheep",
+  "mob": "barn_sheep",
+  "max": 6,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "barn_rabbits",
+  "island": "barn",
+  "area": "pen.rabbit",
+  "mob": "barn_rabbit",
+  "max": 6,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "desert_rabbits",
+  "island": "mushroom_desert",
+  "area": "desert.rabbits",
+  "mob": "desert_rabbit",
+  "max": 8,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "desert_sheep",
+  "island": "mushroom_desert",
+  "area": "keep.sheep",
+  "mob": "desert_sheep",
+  "max": 8,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "desert_mooshrooms",
+  "island": "mushroom_desert",
+  "area": "gorge.mooshrooms",
+  "mob": "desert_mooshroom",
+  "max": 8,
+  "respawnSeconds": 15
+ }
+]

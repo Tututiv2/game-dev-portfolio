@@ -1,0 +1,63 @@
+[
+  {
+    "id": "RAW_SOULFLOW",
+    "name": "Raw Soulstream",
+    "material": "BLAZE_POWDER",
+    "rarity": "UNCOMMON",
+    "category": "MATERIAL",
+    "tags": ["bazaar"],
+    "lore": [
+      "&7Hold and right-click to internalize,",
+      "&7gaining &3+1⸎ Soulstream&7!",
+      "&8Sneak + right-click: the whole stack.",
+      "",
+      "&8Compresses into Soulstream."
+    ],
+    "extra": {"family": "misc", "src": "soulflow"}
+  },
+  {
+    "id": "SOULFLOW",
+    "name": "Soulstream",
+    "material": "BLAZE_POWDER",
+    "rarity": "RARE",
+    "category": "MATERIAL",
+    "glow": true,
+    "npcSell": 1.0,
+    "tags": ["bazaar"],
+    "lore": [
+      "&7Hold and right-click to internalize,",
+      "&7gaining &3+160⸎ Soulstream&7!",
+      "&8Sneak + right-click: the whole stack."
+    ],
+    "extra": {"family": "misc", "src": "soulflow"}
+  },
+  {
+    "id": "SOUL_ESOWARD",
+    "name": "Soulguard Sprig",
+    "material": "BIRCH_SAPLING",
+    "rarity": "RARE",
+    "category": "NONE",
+    "requirements": ["slayer:enderman:3"],
+    "lore": [
+      "&7A sapling grown in the shadow of",
+      "&7the void, still humming with souls."
+    ],
+    "abilities": [
+      {
+        "id": "soulflow_soulward",
+        "name": "Soulguard",
+        "trigger": "RIGHT_CLICK",
+        "mana": 350,
+        "cooldown": 20,
+        "lore": [
+          "&7Nothing can hurt you for &a5s&7, but",
+          "&7you cannot hurt anything either.",
+          "&7Afterwards your damage is &chalved",
+          "&7for &a2s&7.",
+          "&8Soulstream Cost: &310⸎"
+        ]
+      }
+    ],
+    "extra": {"src": "soulflow"}
+  }
+]

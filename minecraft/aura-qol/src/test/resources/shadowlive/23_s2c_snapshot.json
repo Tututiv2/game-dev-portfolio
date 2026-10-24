@@ -1,0 +1,65 @@
+{
+ "direction": "s2c",
+ "type": 2,
+ "name": "SNAPSHOT",
+ "fields": {
+  "frames": [
+   {
+    "name": "BREAKS",
+    "type": 3,
+    "fields": {
+     "count": 128,
+     "valueCents": 2147483648123,
+     "perBlock": [
+      {
+       "blockKey": "STONE",
+       "count": 127
+      },
+      {
+       "blockKey": "DIAMOND_ORE",
+       "count": 1
+      }
+     ]
+    }
+   },
+   {
+    "name": "INCOME",
+    "type": 4,
+    "fields": {
+     "sourceId": "selling",
+     "displayName": "Selling",
+     "amountCents": 1250000,
+     "serverTimeMs": 1791850000500
+    }
+   },
+   {
+    "name": "BALANCE",
+    "type": 5,
+    "fields": {
+     "balanceCents": 98765432100,
+     "extras": [
+      {
+       "key": "btc",
+       "display": "0.0123 BTC"
+      },
+      {
+       "key": "ltc",
+       "display": "4.5 LTC"
+      }
+     ]
+    }
+   },
+   {
+    "name": "PROGRESS",
+    "type": 6,
+    "fields": {
+     "rankDisplay": "C",
+     "nextRankDisplay": "D",
+     "nextRankCostCents": 5000000,
+     "prestige": 3,
+     "blocksMinedTotal": 1234567
+    }
+   }
+  ]
+ }
+}

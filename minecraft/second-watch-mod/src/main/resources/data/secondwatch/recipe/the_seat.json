@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "III", "ARA", "III" ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "A": "minecraft:amethyst_block",
+    "R": "secondwatch:resonator"
+  },
+  "result": { "id": "secondwatch:the_seat", "count": 1 }
+}

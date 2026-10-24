@@ -1,0 +1,7 @@
+[
+ {"id": "galatea_parched_west", "island": "torrhus_canyon", "area": "mobs.parched.west", "mob": "galatea_parched", "max": 10, "respawnSeconds": 8},
+ {"id": "galatea_parched_east", "island": "torrhus_canyon", "area": "mobs.parched.east", "mob": "galatea_parched", "max": 6, "respawnSeconds": 8},
+ {"id": "galatea_grizzly", "island": "torrhus_canyon", "area": "mobs.grizzly", "mob": "galatea_grizzly_bear", "max": 1, "respawnSeconds": 300},
+ {"id": "galatea_queen_ant", "island": "torrhus_canyon", "area": "mobs.ants", "mob": "galatea_queen_ant", "max": 1, "respawnSeconds": 120},
+ {"id": "galatea_soldier_ants", "island": "torrhus_canyon", "area": "mobs.ants", "mob": "galatea_soldier_ant", "max": 6, "respawnSeconds": 10}
+]

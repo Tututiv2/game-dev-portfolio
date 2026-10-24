@@ -1,0 +1,4145 @@
+{
+ "npcName": "Brannoc the Slayer",
+ "types": [
+  {
+   "id": "zombie",
+   "name": "Ghoul Horror",
+   "ref": "Revenant Horror",
+   "mobWord": "Zombie",
+   "color": "2",
+   "icon": "ROTTEN_FLESH",
+   "entities": [
+    "ZOMBIE",
+    "HUSK",
+    "ZOMBIE_VILLAGER",
+    "DROWNED",
+    "ZOMBIFIED_PIGLIN",
+    "ZOGLIN"
+   ],
+   "unlock": null,
+   "xp": [
+    5,
+    15,
+    200,
+    1000,
+    5000,
+    20000,
+    100000,
+    400000,
+    1000000
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Skilled",
+    "Hardened",
+    "Bulldozer",
+    "Savage",
+    "Deathbringer",
+    "Necrovanquisher",
+    "Grave Lord"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_zombie_1",
+     "health": 500,
+     "dps": 15,
+     "trueDps": 0,
+     "level": 10,
+     "cost": 2000,
+     "spawnXp": 150,
+     "slayerXp": 5,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 100.0
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_zombie_2",
+     "health": 20000,
+     "dps": 25,
+     "trueDps": 0,
+     "level": 70,
+     "cost": 7500,
+     "spawnXp": 1440,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "skill:combat:5",
+     "difficulty": "Strong",
+     "tokenWeight": 81.15
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_zombie_3",
+     "health": 400000,
+     "dps": 120,
+     "trueDps": 0,
+     "level": 310,
+     "cost": 20000,
+     "spawnXp": 2400,
+     "slayerXp": 100,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "skill:combat:10",
+     "difficulty": "Challenging",
+     "tokenWeight": 77.006
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_zombie_4",
+     "health": 1500000,
+     "dps": 400,
+     "trueDps": 0,
+     "level": 610,
+     "cost": 50000,
+     "spawnXp": 4800,
+     "slayerXp": 500,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "skill:combat:15",
+     "difficulty": "Deadly",
+     "tokenWeight": 73.4335
+    },
+    {
+     "tier": 5,
+     "mob": "slayer_zombie_5",
+     "health": 10000000,
+     "dps": 2400,
+     "trueDps": 0,
+     "level": 1580,
+     "cost": 100000,
+     "spawnXp": 6000,
+     "slayerXp": 1500,
+     "combatXp": 500,
+     "bits": 15,
+     "heal": 200,
+     "requirement": "skill:combat:25 & slayer:zombie:7",
+     "difficulty": "Excruciating",
+     "tokenWeight": 61.0575
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "HEALTH": 2
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "HEALTH": 2
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "HEALTH": 3
+     },
+     "notes": [],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "HEALTH": 3
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "HEALTH": 4
+     },
+     "notes": [],
+     "sbXp": 75
+    },
+    {
+     "level": 6,
+     "stats": {
+      "HEALTH": 4
+     },
+     "notes": [],
+     "sbXp": 100
+    },
+    {
+     "level": 7,
+     "stats": {
+      "HEALTH": 5
+     },
+     "notes": [
+      "Unlocks &4Tier V &7quests"
+     ],
+     "sbXp": 125
+    },
+    {
+     "level": 8,
+     "stats": {
+      "HEALTH": 5,
+      "HEALTH_REGEN": 30
+     },
+     "notes": [
+      "Zombie Brain Mixin in the Slayer Shop"
+     ],
+     "sbXp": 150
+    },
+    {
+     "level": 9,
+     "stats": {
+      "HEALTH": 6
+     },
+     "notes": [],
+     "sbXp": 150
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Life Drain",
+     "desc": "Every &a4s &7it rips health out of you and heals itself by exactly what it took. Defense applies."
+    },
+    {
+     "tier": 2,
+     "name": "Pestilence",
+     "desc": "A sickly aura hurts everyone close every second and shreds &a25% &7of their Defense."
+    },
+    {
+     "tier": 3,
+     "name": "Enrage",
+     "desc": "Every &a40s &7it gets mad, then &cenraged &7for &a12s&7: faster and hitting twice as hard."
+    },
+    {
+     "tier": 5,
+     "name": "Redemption",
+     "desc": "Regenerates &a0.1% &7of its health every second and shrugs off ability damage."
+    },
+    {
+     "tier": 5,
+     "name": "Explosive Assault",
+     "desc": "Lobs TNT at marked circles. A hit heals it by a huge amount - keep moving."
+    },
+    {
+     "tier": 5,
+     "name": "Thermonuclear",
+     "desc": "Every &a30s &7it roots itself and charges a blast that hits everything within &a7 &7blocks."
+    }
+   ],
+   "loot": [
+    {
+     "item": "REVENANT_FLESH",
+     "min": [
+      1,
+      9,
+      30,
+      50,
+      63
+     ],
+     "max": [
+      3,
+      18,
+      50,
+      64,
+      64
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "DYE_MATCHA",
+     "min": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      1e-05,
+      4e-05,
+      0.0001,
+      0.0002,
+      0.0004
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 75000000
+    },
+    {
+     "item": "FOUL_FLESH",
+     "min": [
+      0,
+      1,
+      1,
+      2,
+      3
+     ],
+     "max": [
+      0,
+      2,
+      2,
+      3,
+      4
+     ],
+     "chance": [
+      0.0,
+      16.16,
+      16.08,
+      16.22,
+      13.6082
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 3093
+    },
+    {
+     "item": "ZOMBIE_SLAYER_RUNE",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.67,
+      2.61,
+      6.33,
+      6.2679
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 7977
+    },
+    {
+     "item": "UNDEAD_CATALYST",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      2.02,
+      2.01,
+      0.6,
+      2.0202
+     ],
+     "minLevel": 3,
+     "token": false,
+     "independent": false,
+     "rng": 24750
+    },
+    {
+     "item": "ENCHANTMENT_SMITE_6",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.4,
+      0.81,
+      0.402
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 124370
+    },
+    {
+     "item": "BEHEADED_HORROR",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.08,
+      0.16,
+      0.1608
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 310925
+    },
+    {
+     "item": "REVENANT_CATALYST",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      1.01,
+      1.01,
+      1.0101
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 49500
+    },
+    {
+     "item": "SHARD_PARAGON",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0.25,
+      0.5
+     ],
+     "minLevel": 5,
+     "shard": true,
+     "name": "Paragon Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": true,
+     "rng": 250000
+    },
+    {
+     "item": "SNAKE_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.16,
+      0.1505
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 332250
+    },
+    {
+     "item": "SCYTHE_BLADE",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.06,
+      0.1021
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 489900
+    },
+    {
+     "item": "REVENANT_VISCERA",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      13.6082
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 3674
+    },
+    {
+     "item": "FESTERING_MAGGOT",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1361
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 367424
+    },
+    {
+     "item": "SHARD_OF_THE_SHREDDED",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0544
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 918562
+    },
+    {
+     "item": "SEVERED_HAND",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0476
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 1049785
+    },
+    {
+     "item": "WARDEN_HEART",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0136
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 3674250
+    },
+    {
+     "item": "SHARD_REVENANT",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.804,
+      1.2165,
+      1.3608
+     ],
+     "minLevel": 0,
+     "shard": true,
+     "name": "Revenant Shard",
+     "rarity": "RARE",
+     "token": false,
+     "independent": false
+    }
+   ],
+   "minibosses": [
+    {
+     "mob": "slayer_mini_revenant_sycophant",
+     "type": "zombie",
+     "minTier": 3,
+     "combatXp": 360
+    },
+    {
+     "mob": "slayer_mini_revenant_champion",
+     "type": "zombie",
+     "minTier": 4,
+     "combatXp": 600
+    },
+    {
+     "mob": "slayer_mini_deformed_revenant",
+     "type": "zombie",
+     "minTier": 4,
+     "combatXp": 1200
+    },
+    {
+     "mob": "slayer_mini_atoned_champion",
+     "type": "zombie",
+     "minTier": 5,
+     "combatXp": 2000
+    },
+    {
+     "mob": "slayer_mini_atoned_revenant",
+     "type": "zombie",
+     "minTier": 5,
+     "combatXp": 3000
+    }
+   ],
+   "t5name": "Penitent Horror"
+  },
+  {
+   "id": "spider",
+   "name": "Broodweaver Patriarch",
+   "ref": "Tarantula Broodfather",
+   "mobWord": "Spider",
+   "color": "4",
+   "icon": "COBWEB",
+   "entities": [
+    "SPIDER",
+    "CAVE_SPIDER"
+   ],
+   "unlock": {
+    "type": "zombie",
+    "tier": 2
+   },
+   "xp": [
+    5,
+    15,
+    200,
+    1000,
+    5000,
+    20000,
+    100000,
+    400000,
+    1000000
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Skilled",
+    "Hardened",
+    "Bulldozer",
+    "Savage",
+    "Pest Purger",
+    "Brood Breaker",
+    "Silk Sovereign"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_spider_1",
+     "health": 1000,
+     "dps": 35,
+     "trueDps": 0,
+     "level": 10,
+     "cost": 2000,
+     "spawnXp": 250,
+     "slayerXp": 5,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 84.746
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_spider_2",
+     "health": 30000,
+     "dps": 55,
+     "trueDps": 0,
+     "level": 80,
+     "cost": 7500,
+     "spawnXp": 650,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "skill:combat:5",
+     "difficulty": "Strong",
+     "tokenWeight": 83.16
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_spider_3",
+     "health": 900000,
+     "dps": 260,
+     "trueDps": 0,
+     "level": 470,
+     "cost": 20000,
+     "spawnXp": 1500,
+     "slayerXp": 100,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "skill:combat:10",
+     "difficulty": "Challenging",
+     "tokenWeight": 79.8
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_spider_4",
+     "health": 2400000,
+     "dps": 530,
+     "trueDps": 0,
+     "level": 770,
+     "cost": 50000,
+     "spawnXp": 3000,
+     "slayerXp": 500,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "skill:combat:15",
+     "difficulty": "Debilitating",
+     "tokenWeight": 76.273
+    },
+    {
+     "tier": 5,
+     "mob": "slayer_spider_5",
+     "health": 10000000,
+     "dps": 2200,
+     "trueDps": 0,
+     "level": 1580,
+     "cost": 100000,
+     "spawnXp": 10000,
+     "slayerXp": 1500,
+     "combatXp": 500,
+     "bits": 15,
+     "heal": 200,
+     "requirement": "skill:combat:25 & slayer:spider:7",
+     "difficulty": "Excruciating",
+     "tokenWeight": 77.501
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "CRIT_DAMAGE": 1
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "CRIT_DAMAGE": 1
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "CRIT_DAMAGE": 1
+     },
+     "notes": [],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "CRIT_DAMAGE": 1
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "CRIT_DAMAGE": 2
+     },
+     "notes": [],
+     "sbXp": 75
+    },
+    {
+     "level": 6,
+     "stats": {
+      "CRIT_DAMAGE": 2
+     },
+     "notes": [],
+     "sbXp": 100
+    },
+    {
+     "level": 7,
+     "stats": {
+      "CRIT_DAMAGE": 2
+     },
+     "notes": [
+      "Unlocks &4Tier V &7quests"
+     ],
+     "sbXp": 125
+    },
+    {
+     "level": 8,
+     "stats": {
+      "CRIT_DAMAGE": 3,
+      "ALCHEMY_WISDOM": 5
+     },
+     "notes": [
+      "Spider Egg Mixin in the Slayer Shop"
+     ],
+     "sbXp": 150
+    },
+    {
+     "level": 9,
+     "stats": {
+      "CRIT_DAMAGE": 3
+     },
+     "notes": [],
+     "sbXp": 150
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Backstab",
+     "desc": "Leaps behind you now and then. Hits from behind deal &c+20% &7(T5: &c+80%&7)."
+    },
+    {
+     "tier": 2,
+     "name": "Paralytic Venom",
+     "desc": "Its bite saps your Vitality and Speed (T5: &c-75% &7each, and no Absorption)."
+    },
+    {
+     "tier": 3,
+     "name": "Web Cocoon",
+     "desc": "At &a66% &7and &a33% &7health it hides in a cocoon and lays egg sacs. Pop them before they hatch!"
+    },
+    {
+     "tier": 4,
+     "name": "Bat Barrage",
+     "desc": "Releases bats. Every bat alive drains a slice of your max health each second."
+    },
+    {
+     "tier": 5,
+     "name": "Bound in Death",
+     "desc": "When it falls, the Elder Broodmother fuses with it into the &cTwinbound Brood&7."
+    }
+   ],
+   "loot": [
+    {
+     "item": "TARANTULA_WEB",
+     "min": [
+      1,
+      9,
+      16,
+      32,
+      64
+     ],
+     "max": [
+      3,
+      18,
+      32,
+      48,
+      64
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "TOXIC_ARROW_POISON",
+     "min": [
+      4,
+      6,
+      16,
+      32,
+      64
+     ],
+     "max": [
+      8,
+      8,
+      32,
+      48,
+      64
+     ],
+     "chance": [
+      15.254,
+      15.094,
+      14.845,
+      14.966,
+      12.809
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 3277
+    },
+    {
+     "item": "DYE_BRICK_RED",
+     "min": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      1e-05,
+      4e-05,
+      0.0001,
+      0.0002,
+      0.0002
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 75000000
+    },
+    {
+     "item": "SPIDER_CATALYST",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      1.048,
+      2.062,
+      0.624,
+      0.178
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 24250
+    },
+    {
+     "item": "BITE_RUNE",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.698,
+      2.674,
+      6.48,
+      6.48
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 7657
+    },
+    {
+     "item": "TARANTULA_CATALYST",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.247,
+      0.378,
+      0.427
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 117941
+    },
+    {
+     "item": "ENCHANTMENT_BANE_OF_ARTHROPODS_6",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.206,
+      0.416,
+      0.356
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 120269
+    },
+    {
+     "item": "FLY_SWATTER",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.083,
+      0.166,
+      0.214
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 235883
+    },
+    {
+     "item": "TARANTULA_TALISMAN",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.083,
+      0.166,
+      0.214
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 235883
+    },
+    {
+     "item": "DARKNESS_WITHIN_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.39,
+      0.77
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 75430
+    },
+    {
+     "item": "VIAL_OF_VENOM",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.083,
+      0.142
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 353825
+    },
+    {
+     "item": "DIGESTED_MOSQUITO",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.058,
+      0.071
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 707650
+    },
+    {
+     "item": "SHARD_PARAGON",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0.25,
+      0.5
+     ],
+     "minLevel": 5,
+     "shard": true,
+     "name": "Paragon Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": true,
+     "rng": 250000
+    },
+    {
+     "item": "SHRIVELED_WASP",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.071
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 353825
+    },
+    {
+     "item": "ENSNARED_SNAIL",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.043
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 1179416
+    },
+    {
+     "item": "PRIMORDIAL_EYE",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.014
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 3538250
+    },
+    {
+     "item": "SHARD_PRIMORDIAL",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0,
+      0.71
+     ],
+     "minLevel": 0,
+     "shard": true,
+     "name": "Primordial Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": false
+    }
+   ],
+   "minibosses": [
+    {
+     "mob": "slayer_mini_tarantula_vermin",
+     "type": "spider",
+     "minTier": 3,
+     "combatXp": 220
+    },
+    {
+     "mob": "slayer_mini_tarantula_beast",
+     "type": "spider",
+     "minTier": 4,
+     "combatXp": 450
+    },
+    {
+     "mob": "slayer_mini_mutant_tarantula",
+     "type": "spider",
+     "minTier": 4,
+     "combatXp": 1200
+    }
+   ],
+   "t5name": "Broodweaver Patriarch"
+  },
+  {
+   "id": "wolf",
+   "name": "Fenris Packlord",
+   "ref": "Sven Packmaster",
+   "mobWord": "Wolf",
+   "color": "f",
+   "icon": "BONE",
+   "entities": [
+    "WOLF"
+   ],
+   "unlock": {
+    "type": "spider",
+    "tier": 2
+   },
+   "xp": [
+    10,
+    30,
+    250,
+    1500,
+    5000,
+    20000,
+    100000,
+    400000,
+    1000000
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Skilled",
+    "Hardened",
+    "Bulldozer",
+    "Savage",
+    "Pack Hunter",
+    "Pack Leader",
+    "Alpha Fang"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_wolf_1",
+     "health": 2000,
+     "dps": 60,
+     "trueDps": 0,
+     "level": 20,
+     "cost": 2000,
+     "spawnXp": 250,
+     "slayerXp": 5,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 100.0
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_wolf_2",
+     "health": 40000,
+     "dps": 80,
+     "trueDps": 10,
+     "level": 100,
+     "cost": 7500,
+     "spawnXp": 650,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "skill:combat:5",
+     "difficulty": "Strong",
+     "tokenWeight": 82.65
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_wolf_3",
+     "health": 750000,
+     "dps": 180,
+     "trueDps": 50,
+     "level": 430,
+     "cost": 20000,
+     "spawnXp": 1500,
+     "slayerXp": 100,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "skill:combat:10",
+     "difficulty": "Challenging",
+     "tokenWeight": 79.46
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_wolf_4",
+     "health": 2000000,
+     "dps": 440,
+     "trueDps": 200,
+     "level": 700,
+     "cost": 50000,
+     "spawnXp": 3000,
+     "slayerXp": 500,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "skill:combat:15",
+     "difficulty": "Deadly",
+     "tokenWeight": 74.19
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "SPEED": 1
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "HEALTH": 2
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "SPEED": 1
+     },
+     "notes": [
+      "A free &aSlayer Hotline &7(claim it in the Slayer menu)"
+     ],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "HEALTH": 2
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "CRIT_DAMAGE": 1
+     },
+     "notes": [],
+     "sbXp": 75
+    },
+    {
+     "level": 6,
+     "stats": {
+      "HEALTH": 3
+     },
+     "notes": [],
+     "sbXp": 100
+    },
+    {
+     "level": 7,
+     "stats": {
+      "CRIT_DAMAGE": 2
+     },
+     "notes": [],
+     "sbXp": 125
+    },
+    {
+     "level": 8,
+     "stats": {
+      "SPEED": 1
+     },
+     "notes": [
+      "Lose &a5% &7fewer coins on death",
+      "Wolf Fur Mixin in the Slayer Shop"
+     ],
+     "sbXp": 150
+    },
+    {
+     "level": 9,
+     "stats": {
+      "HEALTH": 5
+     },
+     "notes": [],
+     "sbXp": 150
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Agile",
+     "desc": "Small and very fast - hard to pin down."
+    },
+    {
+     "tier": 2,
+     "name": "True Damage",
+     "desc": "Its bites carry extra damage that ignores your Defense."
+    },
+    {
+     "tier": 3,
+     "name": "Call the Pups",
+     "desc": "At &a50% &7health it stops, turns invulnerable and calls five pups. Kill them all!"
+    }
+   ],
+   "loot": [
+    {
+     "item": "WOLF_TOOTH",
+     "min": [
+      1,
+      9,
+      30,
+      50
+     ],
+     "max": [
+      3,
+      18,
+      50,
+      64
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "DYE_CELESTE",
+     "min": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      1e-05,
+      4e-05,
+      0.0001,
+      0.0002
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 75000000
+    },
+    {
+     "item": "HAMSTER_WHEEL",
+     "min": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "max": [
+      0,
+      1,
+      4,
+      5
+     ],
+     "chance": [
+      0.0,
+      16.67,
+      16.59,
+      16.49
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 3000
+    },
+    {
+     "item": "SPIRIT_RUNE",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.68,
+      2.68,
+      6.42
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 7917
+    },
+    {
+     "item": "ENCHANTMENT_CRITICAL_6",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.41,
+      0.82
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 61634
+    },
+    {
+     "item": "FURBALL",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.82,
+      1.62
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 30637
+    },
+    {
+     "item": "RED_CLAW_EGG",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.04,
+      0.12
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 410900
+    },
+    {
+     "item": "COUTURE_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.24
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 219833
+    },
+    {
+     "item": "GRIZZLY_BAIT",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.06
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 880500
+    },
+    {
+     "item": "OVERFLUX_CAPACITOR",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.04
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 1232700
+    },
+    {
+     "item": "SHARD_PARAGON",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0.25
+     ],
+     "minLevel": 5,
+     "shard": true,
+     "name": "Paragon Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": true,
+     "rng": 250000
+    }
+   ],
+   "minibosses": [
+    {
+     "mob": "slayer_mini_pack_enforcer",
+     "type": "wolf",
+     "minTier": 3,
+     "combatXp": 70
+    },
+    {
+     "mob": "slayer_mini_sven_follower",
+     "type": "wolf",
+     "minTier": 4,
+     "combatXp": 300
+    },
+    {
+     "mob": "slayer_mini_sven_alpha",
+     "type": "wolf",
+     "minTier": 4,
+     "combatXp": 900
+    }
+   ]
+  },
+  {
+   "id": "enderman",
+   "name": "Nullshade Seraph",
+   "ref": "Voidgloom Seraph",
+   "mobWord": "Enderman",
+   "color": "5",
+   "icon": "ENDER_PEARL",
+   "entities": [
+    "ENDERMAN",
+    "ENDERMITE"
+   ],
+   "unlock": {
+    "type": "wolf",
+    "tier": 4
+   },
+   "xp": [
+    10,
+    30,
+    250,
+    1500,
+    5000,
+    20000,
+    100000,
+    400000,
+    1000000
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Skilled",
+    "Hardened",
+    "Bulldozer",
+    "Savage",
+    "Voidwracker",
+    "Null Breaker",
+    "End of Ends"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_enderman_1",
+     "health": 300000,
+     "dps": 800,
+     "trueDps": 0,
+     "level": 270,
+     "cost": 2000,
+     "spawnXp": 2750,
+     "slayerXp": 5,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 100.0
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_enderman_2",
+     "health": 12000000,
+     "dps": 2720,
+     "trueDps": 0,
+     "level": 1730,
+     "cost": 7500,
+     "spawnXp": 6600,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "slayerkill:enderman:1",
+     "difficulty": "Strong",
+     "tokenWeight": 84.18
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_enderman_3",
+     "health": 50000000,
+     "dps": 7650,
+     "trueDps": 0,
+     "level": 3530,
+     "cost": 20000,
+     "spawnXp": 11000,
+     "slayerXp": 100,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "slayerkill:enderman:2",
+     "difficulty": "Challenging",
+     "tokenWeight": 72.1
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_enderman_4",
+     "health": 210000000,
+     "dps": 11000,
+     "trueDps": 0,
+     "level": 7240,
+     "cost": 50000,
+     "spawnXp": 22000,
+     "slayerXp": 500,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "slayerkill:enderman:3",
+     "difficulty": "Guaranteed Doom",
+     "tokenWeight": 64.0536
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "HEALTH": 1
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "INTELLIGENCE": 2
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "HEALTH": 2
+     },
+     "notes": [],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "INTELLIGENCE": 2
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "HEALTH": 3
+     },
+     "notes": [],
+     "sbXp": 75
+    },
+    {
+     "level": 6,
+     "stats": {
+      "INTELLIGENCE": 5
+     },
+     "notes": [],
+     "sbXp": 100
+    },
+    {
+     "level": 7,
+     "stats": {
+      "HEALTH": 4
+     },
+     "notes": [],
+     "sbXp": 125
+    },
+    {
+     "level": 8,
+     "stats": {
+      "INTELLIGENCE": 4
+     },
+     "notes": [
+      "End Portal Fumes in the Slayer Shop"
+     ],
+     "sbXp": 150
+    },
+    {
+     "level": 9,
+     "stats": {
+      "HEALTH": 5
+     },
+     "notes": [],
+     "sbXp": 150
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Hitshield",
+     "desc": "A shield that breaks by number of HITS, not damage. It returns at &a66% &7and &a33%&7."
+    },
+    {
+     "tier": 1,
+     "name": "Ferocity Ward",
+     "desc": "While its shield is down it takes &c75% &7less extra Ferocity hits."
+    },
+    {
+     "tier": 2,
+     "name": "Dissonance",
+     "desc": "Blinks next to you and blasts everything within &a6.5 &7blocks."
+    },
+    {
+     "tier": 2,
+     "name": "Void Glyphs",
+     "desc": "Throws glyphs. Stand next to one before it bursts, or take a lethal blast."
+    },
+    {
+     "tier": 3,
+     "name": "Nukekubi Heads",
+     "desc": "Below &a33% &7floating heads fixate on you. Look at them to pop them."
+    },
+    {
+     "tier": 4,
+     "name": "Heartbreak Beams",
+     "desc": "Turns invulnerable and spins &a12 &7beams of void around itself. Dodge them."
+    }
+   ],
+   "loot": [
+    {
+     "item": "NULL_SPHERE",
+     "min": [
+      2,
+      14,
+      60,
+      105
+     ],
+     "max": [
+      3,
+      24,
+      80,
+      155
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "DYE_BYZANTIUM",
+     "min": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      1e-05,
+      4e-05,
+      0.0001,
+      0.0002
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 75000000
+    },
+    {
+     "item": "TWILIGHT_ARROW_POISON",
+     "min": [
+      0,
+      16,
+      24,
+      60
+     ],
+     "max": [
+      0,
+      16,
+      32,
+      64
+     ],
+     "chance": [
+      0.0,
+      15.15,
+      13.41,
+      12.7
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 3300
+    },
+    {
+     "item": "SUMMONING_EYE",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.67,
+      0.6,
+      0.565
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 74250
+    },
+    {
+     "item": "ENDERSNAKE_RUNE",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      2.42,
+      5.2977
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 9438
+    },
+    {
+     "item": "TRANSMISSION_TUNER",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      2.23,
+      2.2355
+     ],
+     "minLevel": 3,
+     "token": false,
+     "independent": false,
+     "rng": 22366
+    },
+    {
+     "item": "HAZMAT_ENDERMAN",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      1.04,
+      1.5527
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 32202
+    },
+    {
+     "item": "ENCHANTMENT_MANA_STEAL_1",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      4.47,
+      4.4709
+     ],
+     "minLevel": 3,
+     "token": false,
+     "independent": false,
+     "rng": 11183
+    },
+    {
+     "item": "NULL_ATOM",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      3.73,
+      4.9404
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 10120
+    },
+    {
+     "item": "POCKET_ESPRESSO_MACHINE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.3882
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 128809
+    },
+    {
+     "item": "ENCHANTMENT_SMARTY_PANTS_1",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      1.7644
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 28338
+    },
+    {
+     "item": "SINFUL_DICE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.4587
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 108992
+    },
+    {
+     "item": "DRAGON_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.6622
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 75505
+    },
+    {
+     "item": "SHARD_PARAGON",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0.25
+     ],
+     "minLevel": 5,
+     "shard": true,
+     "name": "Paragon Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": true,
+     "rng": 250000
+    },
+    {
+     "item": "HANDY_BLOOD_CHALICE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.1764
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 283380
+    },
+    {
+     "item": "PET_SKIN_ENDERMAN_SLAYER",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.1656
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 302020
+    },
+    {
+     "item": "ETHERWARP_MERGER",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.4235
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 118075
+    },
+    {
+     "item": "JUDGEMENT_CORE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0565
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 885562
+    },
+    {
+     "item": "EXCEEDINGLY_RARE_ENDER_ARTIFACT_UPGRADER",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0282
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 1771125
+    },
+    {
+     "item": "ENCHANT_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0464
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 1078642
+    },
+    {
+     "item": "ENDSTONE_IDOL",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0141
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 3542250
+    }
+   ],
+   "minibosses": [
+    {
+     "mob": "slayer_mini_voidling_devotee",
+     "type": "enderman",
+     "minTier": 3,
+     "combatXp": 1500
+    },
+    {
+     "mob": "slayer_mini_voidling_radical",
+     "type": "enderman",
+     "minTier": 4,
+     "combatXp": 3000
+    },
+    {
+     "mob": "slayer_mini_voidcrazed_maniac",
+     "type": "enderman",
+     "minTier": 4,
+     "combatXp": 6000
+    }
+   ]
+  },
+  {
+   "id": "blaze",
+   "name": "Cinder Demonlord",
+   "ref": "Inferno Demonlord",
+   "mobWord": "Blaze",
+   "color": "6",
+   "icon": "BLAZE_POWDER",
+   "entities": [
+    "BLAZE",
+    "MAGMA_CUBE",
+    "WITHER_SKELETON",
+    "PIGLIN",
+    "PIGLIN_BRUTE",
+    "GHAST",
+    "ZOMBIFIED_PIGLIN"
+   ],
+   "unlock": {
+    "type": "enderman",
+    "tier": 3
+   },
+   "xp": [
+    10,
+    30,
+    250,
+    1500,
+    5000,
+    20000,
+    100000,
+    400000,
+    1000000
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Skilled",
+    "Hardened",
+    "Bulldozer",
+    "Savage",
+    "Hellsplitter",
+    "Demon Eater",
+    "Cinder King"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_blaze_1",
+     "health": 2500000,
+     "dps": 400,
+     "trueDps": 0,
+     "level": 400,
+     "cost": 10000,
+     "spawnXp": 6000,
+     "slayerXp": 5,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 78.74
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_blaze_2",
+     "health": 10000000,
+     "dps": 1500,
+     "trueDps": 0,
+     "level": 1200,
+     "cost": 25000,
+     "spawnXp": 14400,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "slayerkill:blaze:1",
+     "difficulty": "Strong",
+     "tokenWeight": 59.874
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_blaze_3",
+     "health": 45000000,
+     "dps": 4000,
+     "trueDps": 0,
+     "level": 2400,
+     "cost": 60000,
+     "spawnXp": 18000,
+     "slayerXp": 100,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "slayerkill:blaze:2",
+     "difficulty": "Challenging",
+     "tokenWeight": 55.056
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_blaze_4",
+     "health": 150000000,
+     "dps": 9000,
+     "trueDps": 0,
+     "level": 5000,
+     "cost": 150000,
+     "spawnXp": 36000,
+     "slayerXp": 500,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "slayerkill:blaze:3",
+     "difficulty": "Overwhelming Despair",
+     "tokenWeight": 48.002
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "HEALTH": 3
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "STRENGTH": 1
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "HEALTH": 4
+     },
+     "notes": [],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "TRUE_DEFENSE": 1
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "HEALTH": 5
+     },
+     "notes": [],
+     "sbXp": 75
+    },
+    {
+     "level": 6,
+     "stats": {
+      "STRENGTH": 2
+     },
+     "notes": [],
+     "sbXp": 100
+    },
+    {
+     "level": 7,
+     "stats": {
+      "HEALTH": 6
+     },
+     "notes": [],
+     "sbXp": 125
+    },
+    {
+     "level": 8,
+     "stats": {
+      "TRUE_DEFENSE": 2
+     },
+     "notes": [
+      "Gourmet Mixin in the Slayer Shop"
+     ],
+     "sbXp": 150
+    },
+    {
+     "level": 9,
+     "stats": {
+      "HEALTH": 7
+     },
+     "notes": [],
+     "sbXp": 150
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Immolate",
+     "desc": "Burns everything near it every second with true damage that grows as it weakens."
+    },
+    {
+     "tier": 1,
+     "name": "Demon Split",
+     "desc": "At &a50% &7(T3+: &a66% &7and &a33%&7) it splits into two demons and is invulnerable until both die."
+    },
+    {
+     "tier": 2,
+     "name": "Attuned Shield",
+     "desc": "Only a dagger attuned to its shield colour hurts it. The colour shifts every &a8 &7matching hits."
+    },
+    {
+     "tier": 2,
+     "name": "Fire Pillars",
+     "desc": "Raises a pillar that must take &a8 &7hits within &a7s&7. If it erupts, everyone near it dies."
+    },
+    {
+     "tier": 3,
+     "name": "Fire Pit Dance",
+     "desc": "Below &a33% &7the ground lights up in patterns. Do not stand in the fire."
+    }
+   ],
+   "loot": [
+    {
+     "item": "DERELICT_ASHE",
+     "min": [
+      6,
+      12,
+      60,
+      110
+     ],
+     "max": [
+      8,
+      22,
+      80,
+      155
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "ENCHANTED_BLAZE_POWDER",
+     "min": [
+      1,
+      2,
+      4,
+      16
+     ],
+     "max": [
+      1,
+      3,
+      8,
+      40
+     ],
+     "chance": [
+      21.26,
+      13.171,
+      12.588,
+      11.727
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 3833
+    },
+    {
+     "item": "DYE_FLAME",
+     "min": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      1e-05,
+      4e-05,
+      0.0001,
+      0.0002
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 75000000
+    },
+    {
+     "item": "POTION_WISP_ICE;1",
+     "min": [
+      0,
+      1,
+      2,
+      5
+     ],
+     "max": [
+      0,
+      1,
+      2,
+      5
+     ],
+     "chance": [
+      0.0,
+      2.809,
+      2.688,
+      2.527
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false
+    },
+    {
+     "item": "ARROW_BUNDLE_MAGMA",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      8.427,
+      8.065,
+      7.582
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 5340
+    },
+    {
+     "item": "MANA_DISINTEGRATOR",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      3.933,
+      3.763,
+      3.538
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 11442
+    },
+    {
+     "item": "SCORCHED_BOOKS",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      2.247,
+      2.151,
+      2.022
+     ],
+     "minLevel": 2,
+     "token": false,
+     "independent": false,
+     "rng": 20025
+    },
+    {
+     "item": "KELVIN_INVERTER",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      2.809,
+      2.688,
+      2.527
+     ],
+     "minLevel": 3,
+     "token": false,
+     "independent": false,
+     "rng": 16020
+    },
+    {
+     "item": "BLAZE_ROD_DISTILLATE",
+     "min": [
+      0,
+      4,
+      10,
+      24
+     ],
+     "max": [
+      0,
+      4,
+      14,
+      32
+     ],
+     "chance": [
+      0.0,
+      3.933,
+      3.763,
+      3.538
+     ],
+     "minLevel": 3,
+     "lootshareOnly": true,
+     "token": false,
+     "independent": false
+    },
+    {
+     "item": "GLOWSTONE_DUST_DISTILLATE",
+     "min": [
+      0,
+      4,
+      10,
+      24
+     ],
+     "max": [
+      0,
+      4,
+      14,
+      32
+     ],
+     "chance": [
+      0.0,
+      3.933,
+      3.763,
+      3.538
+     ],
+     "minLevel": 3,
+     "lootshareOnly": true,
+     "token": false,
+     "independent": false
+    },
+    {
+     "item": "MAGMA_CREAM_DISTILLATE",
+     "min": [
+      0,
+      4,
+      10,
+      24
+     ],
+     "max": [
+      0,
+      4,
+      14,
+      32
+     ],
+     "chance": [
+      0.0,
+      3.933,
+      3.763,
+      3.538
+     ],
+     "minLevel": 3,
+     "lootshareOnly": true,
+     "token": false,
+     "independent": false
+    },
+    {
+     "item": "NETHER_STALK_DISTILLATE",
+     "min": [
+      0,
+      4,
+      10,
+      24
+     ],
+     "max": [
+      0,
+      4,
+      14,
+      32
+     ],
+     "chance": [
+      0.0,
+      3.933,
+      3.763,
+      3.538
+     ],
+     "minLevel": 3,
+     "lootshareOnly": true,
+     "token": false,
+     "independent": false
+    },
+    {
+     "item": "CRUDE_GABAGOOL_DISTILLATE",
+     "min": [
+      0,
+      4,
+      10,
+      24
+     ],
+     "max": [
+      0,
+      4,
+      14,
+      32
+     ],
+     "chance": [
+      0.0,
+      5.19,
+      4.87,
+      4.43
+     ],
+     "minLevel": 3,
+     "token": false,
+     "independent": false,
+     "rng": 11955
+    },
+    {
+     "item": "LAVATEARS_RUNE",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.93,
+      1.955
+     ],
+     "minLevel": 1,
+     "token": false,
+     "independent": false,
+     "rng": 21437
+    },
+    {
+     "item": "SCORCHED_POWER_CRYSTAL",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      3.226,
+      3.033
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 14224
+    },
+    {
+     "item": "ARCHFIEND_DICE",
+     "min": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      1.075,
+      1.011
+     ],
+     "minLevel": 4,
+     "token": false,
+     "independent": false,
+     "rng": 42675
+    },
+    {
+     "item": "ENCHANTMENT_FIRE_ASPECT_3",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      1.264
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 37608
+    },
+    {
+     "item": "SHARD_PARAGON",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0,
+      0,
+      0,
+      0.25
+     ],
+     "minLevel": 5,
+     "shard": true,
+     "name": "Paragon Shard",
+     "rarity": "LEGENDARY",
+     "token": false,
+     "independent": true,
+     "rng": 250000
+    },
+    {
+     "item": "FIERY_BURST_RUNE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.174
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 241175
+    },
+    {
+     "item": "FLAWED_OPAL_GEM",
+     "min": [
+      0,
+      0,
+      0,
+      240
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      400
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      2.78
+     ],
+     "minLevel": 5,
+     "token": false,
+     "independent": false,
+     "rng": 17094
+    },
+    {
+     "item": "ENCHANTMENT_ULTIMATE_REITERATE_1",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      1.769
+     ],
+     "minLevel": 6,
+     "token": false,
+     "independent": false,
+     "rng": 26862
+    },
+    {
+     "item": "HIGH_CLASS_ARCHFIEND_DICE",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.217
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 188040
+    },
+    {
+     "item": "WILSON_ENGINEERING_PLANS",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.086
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 553058
+    },
+    {
+     "item": "SUBZERO_INVERTER",
+     "min": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.086
+     ],
+     "minLevel": 7,
+     "token": false,
+     "independent": false,
+     "rng": 553058
+    },
+    {
+     "item": "SHARD_BURNINGSOUL",
+     "min": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0,
+      1.54,
+      2.9,
+      5.27
+     ],
+     "minLevel": 3,
+     "shard": true,
+     "name": "Burningsoul Demon Shard",
+     "rarity": "EPIC",
+     "token": false,
+     "independent": false
+    }
+   ],
+   "minibosses": [
+    {
+     "mob": "slayer_mini_flare_demon",
+     "type": "blaze",
+     "minTier": 3,
+     "combatXp": 1200
+    },
+    {
+     "mob": "slayer_mini_kindleheart_demon",
+     "type": "blaze",
+     "minTier": 4,
+     "combatXp": 2400
+    },
+    {
+     "mob": "slayer_mini_burningsoul_demon",
+     "type": "blaze",
+     "minTier": 4,
+     "combatXp": 8000
+    }
+   ],
+   "immolate": [
+    [
+     45,
+     65,
+     115
+    ],
+    [
+     65,
+     130,
+     190
+    ],
+    [
+     80,
+     160,
+     320
+    ],
+    [
+     385,
+     575,
+     955
+    ]
+   ],
+   "demons": {
+    "hp": [
+     500000,
+     1750000,
+     5000000,
+     10000000
+    ],
+    "dps": [
+     2500,
+     8000,
+     15000,
+     30000
+    ]
+   }
+  },
+  {
+   "id": "vampire",
+   "name": "Duskborne Bloodfiend",
+   "ref": "Riftstalker Bloodfiend",
+   "mobWord": "Vampire",
+   "color": "4",
+   "icon": "REDSTONE",
+   "entities": [],
+   "unlock": {
+    "type": "wolf",
+    "tier": 3
+   },
+   "xp": [
+    20,
+    75,
+    240,
+    840,
+    2400
+   ],
+   "levelNames": [
+    "Novice",
+    "Apprentice",
+    "Coven Hunter",
+    "Heartpiercer",
+    "Night Lord"
+   ],
+   "tiers": [
+    {
+     "tier": 1,
+     "mob": "slayer_vampire_1",
+     "health": 625,
+     "dps": 0.5,
+     "trueDps": 0,
+     "level": 60,
+     "cost": 2000,
+     "spawnXp": 600,
+     "slayerXp": 10,
+     "combatXp": 50,
+     "bits": 2,
+     "heal": 40,
+     "requirement": null,
+     "difficulty": "Beginner",
+     "tokenWeight": 100.0
+    },
+    {
+     "tier": 2,
+     "mob": "slayer_vampire_2",
+     "health": 1100,
+     "dps": 1,
+     "trueDps": 0,
+     "level": 180,
+     "cost": 4000,
+     "spawnXp": 1200,
+     "slayerXp": 25,
+     "combatXp": 100,
+     "bits": 5,
+     "heal": 80,
+     "requirement": "slayerkill:vampire:1",
+     "difficulty": "Strong",
+     "tokenWeight": 54.91
+    },
+    {
+     "tier": 3,
+     "mob": "slayer_vampire_3",
+     "health": 1800,
+     "dps": 1,
+     "trueDps": 0,
+     "level": 420,
+     "cost": 5000,
+     "spawnXp": 1800,
+     "slayerXp": 60,
+     "combatXp": 200,
+     "bits": 8,
+     "heal": 120,
+     "requirement": "slayerkill:vampire:2",
+     "difficulty": "Challenging",
+     "tokenWeight": 50.01
+    },
+    {
+     "tier": 4,
+     "mob": "slayer_vampire_4",
+     "health": 2400,
+     "dps": 1,
+     "trueDps": 0,
+     "level": 780,
+     "cost": 7000,
+     "spawnXp": 2400,
+     "slayerXp": 120,
+     "combatXp": 500,
+     "bits": 12,
+     "heal": 160,
+     "requirement": "skill:combat:15 & slayerkill:vampire:3",
+     "difficulty": "Truly Painful",
+     "tokenWeight": 50.09
+    },
+    {
+     "tier": 5,
+     "mob": "slayer_vampire_5",
+     "health": 3000,
+     "dps": 1.5,
+     "trueDps": 0,
+     "level": 1200,
+     "cost": 10000,
+     "spawnXp": 3000,
+     "slayerXp": 150,
+     "combatXp": 500,
+     "bits": 15,
+     "heal": 200,
+     "requirement": "skill:combat:25 & slayerkill:vampire:4",
+     "difficulty": "Excruciating",
+     "tokenWeight": 49.17
+    }
+   ],
+   "rewards": [
+    {
+     "level": 1,
+     "stats": {
+      "RIFT_TIME": 20
+     },
+     "notes": [],
+     "sbXp": 15
+    },
+    {
+     "level": 2,
+     "stats": {
+      "RIFT_TIME": 30
+     },
+     "notes": [],
+     "sbXp": 25
+    },
+    {
+     "level": 3,
+     "stats": {
+      "RIFT_TIME": 45
+     },
+     "notes": [],
+     "sbXp": 35
+    },
+    {
+     "level": 4,
+     "stats": {
+      "RIFT_TIME": 60
+     },
+     "notes": [],
+     "sbXp": 50
+    },
+    {
+     "level": 5,
+     "stats": {
+      "RIFT_TIME": 80
+     },
+     "notes": [],
+     "sbXp": 75
+    }
+   ],
+   "abilities": [
+    {
+     "tier": 1,
+     "name": "Coagulation",
+     "desc": "Drains your blood every &a1.5s &7to heal itself."
+    },
+    {
+     "tier": 1,
+     "name": "Spectral Form",
+     "desc": "Turns into a swarm of bats and reappears next to you."
+    },
+    {
+     "tier": 1,
+     "name": "Mania",
+     "desc": "Turns invulnerable and paints a safe ring on the ground. Stand in it or bleed."
+    },
+    {
+     "tier": 2,
+     "name": "Twin Claws",
+     "desc": "A telegraphed slam in front of it. Step to the side!"
+    },
+    {
+     "tier": 2,
+     "name": "Stone Wrath",
+     "desc": "Raises blood gargoyles that sap your maximum health while they live."
+    },
+    {
+     "tier": 3,
+     "name": "Spring Trap",
+     "desc": "Drops a spring on you. Hit it with alternating left and right clicks or be crushed."
+    },
+    {
+     "tier": 3,
+     "name": "Command",
+     "desc": "Shouts an order - JUMP, SNEAK, LOOK UP or LOOK DOWN. Obey in time or pay."
+    },
+    {
+     "tier": 5,
+     "name": "Blood Ichor",
+     "desc": "Spawns ichor that only its own Twin Claws can break. Bait the slam into it."
+    },
+    {
+     "tier": 1,
+     "name": "Execution",
+     "desc": "It cannot drop below &a20% &7health except to a &aSteak Stake&7."
+    }
+   ],
+   "loot": [
+    {
+     "item": "COVEN_SEAL",
+     "min": [
+      8,
+      10,
+      28,
+      52,
+      64
+     ],
+     "max": [
+      10,
+      16,
+      48,
+      64,
+      128
+     ],
+     "chance": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "minLevel": 0,
+     "token": true,
+     "independent": false
+    },
+    {
+     "item": "DYE_SANGRIA",
+     "min": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.001,
+      0.00125,
+      0.00167,
+      0.0025,
+      0.01
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": true,
+     "rng": 750000
+    },
+    {
+     "item": "ENCHANTED_BOOK_BUNDLE_QUANTUM",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      13.33,
+      12.5,
+      12.2,
+      11.98
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 1687
+    },
+    {
+     "item": "SOULTWIST_RUNE",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      11.76,
+      12.5,
+      10.87,
+      10.7
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 1912
+    },
+    {
+     "item": "BUBBA_BLISTER",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      10.0,
+      9.37,
+      9.15,
+      8.98
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 2250
+    },
+    {
+     "item": "CHOCOLATE_CHIP",
+     "min": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      10.0,
+      9.37,
+      9.15,
+      8.98
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 2250
+    },
+    {
+     "item": "GUARDIAN_LUCKY_BLOCK",
+     "min": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      6.25,
+      6.1,
+      5.99
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 3600
+    },
+    {
+     "item": "MCGRUBBER_BURGER",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      1.22,
+      1.2
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 18450
+    },
+    {
+     "item": "UNFANGED_VAMPIRE_PART",
+     "min": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      1.22,
+      1.2
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 18450
+    },
+    {
+     "item": "ENCHANTED_BOOK_BUNDLE_THE_ONE",
+     "min": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "max": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "chance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.8
+     ],
+     "minLevel": 0,
+     "token": false,
+     "independent": false,
+     "rng": 12525
+    }
+   ],
+   "minibosses": []
+  }
+ ]
+}

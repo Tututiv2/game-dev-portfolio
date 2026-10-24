@@ -1,0 +1,31 @@
+{
+ "_note": "Canyon Journal (ref. Helia's 7 chapters / 63 tasks, research 03 section 24). Task kinds: zone:<zoneId>, talk:<npcId>, kill:<mobId>, fish (any catch on the island), gain:<ITEM_ID>. Rewards are // TUNE (the reference pays Foraging XP + Desert Whispers + Safari Essence; this game pays Foraging XP + coins).",
+ "chapters": [
+  {"id": "arrival", "name": "Arrival", "foragingXp": 5000, "coins": 10000, "tasks": [
+   {"id": "talk_calla", "text": "Talk to Wayfinder Calla", "kind": "talk:galatea_calla", "need": 1},
+   {"id": "see_springs", "text": "Reach Torrent Springs", "kind": "zone:torrhus_canyon_springs", "need": 1},
+   {"id": "see_path", "text": "Walk the Spring Path", "kind": "zone:torrhus_canyon_path", "need": 1},
+   {"id": "see_heights", "text": "Climb to Torrent Heights", "kind": "zone:torrhus_canyon_heights", "need": 1},
+   {"id": "talk_morwen", "text": "Talk to Diver Morwen", "kind": "talk:galatea_morwen", "need": 1}
+  ]},
+  {"id": "floor", "name": "The Canyon Floor", "foragingXp": 15000, "coins": 25000, "tasks": [
+   {"id": "kill_parched", "text": "Kill 25 Parched", "kind": "kill:galatea_parched", "need": 25},
+   {"id": "see_temple", "text": "Find the Desert Temple", "kind": "zone:torrhus_canyon_temple", "need": 1},
+   {"id": "see_haven", "text": "Find Hotspot Haven", "kind": "zone:torrhus_canyon_haven", "need": 1},
+   {"id": "fish_canyon", "text": "Catch 30 things in the canyon's waters", "kind": "fish", "need": 30}
+  ]},
+  {"id": "underground", "name": "Under the Canyon", "foragingXp": 30000, "coins": 50000, "tasks": [
+   {"id": "see_ants", "text": "Enter Ant's Cave", "kind": "zone:torrhus_canyon_ants", "need": 1},
+   {"id": "kill_soldiers", "text": "Kill 30 Soldier Ants", "kind": "kill:galatea_soldier_ant", "need": 30},
+   {"id": "kill_queen", "text": "Kill 3 Queen Ants", "kind": "kill:galatea_queen_ant", "need": 3},
+   {"id": "talk_overseer", "text": "Talk to the Ant Overseer", "kind": "talk:galatea_ant_overseer", "need": 1}
+  ]},
+  {"id": "heights", "name": "The Heights", "foragingXp": 60000, "coins": 100000, "tasks": [
+   {"id": "talk_bramwyn", "text": "Talk to Forager Bramwyn", "kind": "talk:galatea_bramwyn", "need": 1},
+   {"id": "gain_helix", "text": "Gather 1,000 Spiral Logs", "kind": "gain:HELIX_LOG", "need": 1000},
+   {"id": "talk_hollin", "text": "Visit Beekeeper Hollin's hives", "kind": "talk:galatea_hollin", "need": 1},
+   {"id": "see_safari", "text": "Find the Critter Safari Entrance", "kind": "zone:torrhus_canyon_safari", "need": 1},
+   {"id": "kill_grizzly", "text": "Kill the Grizzly Bear", "kind": "kill:galatea_grizzly_bear", "need": 1}
+  ]}
+ ]
+}

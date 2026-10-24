@@ -1,0 +1,128 @@
+[
+ {
+  "id": "BOOSTER_COOKIE",
+  "name": "Boon Cookie",
+  "material": "COOKIE",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "glow": true,
+  "lore": [
+   "&7Eat it to gain the &dBoon Buff &7for",
+   "&b4 &7days. Time stacks and keeps ticking",
+   "&7while you are offline.",
+   "",
+   "&8- &7Earn &bBits &7while you play",
+   "&8- &3+25 Wisdom &7on every skill",
+   "&8- &b+15 Magic Find",
+   "&8- &7Your &6coins &7are safe when you die",
+   "&8- &eFlight &7on your island and garden",
+   "&8- &7Use &a/bank &7from anywhere",
+   "&8- &7Remote access to menus that honour it",
+   "",
+   "&eRight-click to eat!"
+  ],
+  "abilities": [
+   {
+    "id": "bank_eat_cookie",
+    "name": "Eat",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": []
+   }
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "bank": "cookie",
+   "hours": 96
+  }
+ },
+ {
+  "id": "FREE_COOKIE",
+  "name": "Boon Cookie &8(Gift)",
+  "material": "COOKIE",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "glow": true,
+  "lore": [
+   "&7Eat it to gain the &dBoon Buff &7for",
+   "&b4 &7days. Time stacks and keeps ticking",
+   "&7while you are offline.",
+   "",
+   "&8- &7Earn &bBits &7while you play",
+   "&8- &3+25 Wisdom &7on every skill",
+   "&8- &b+15 Magic Find",
+   "&8- &7Your &6coins &7are safe when you die",
+   "&8- &eFlight &7on your island and garden",
+   "&8- &7Use &a/bank &7from anywhere",
+   "&8- &7Remote access to menus that honour it",
+   "",
+   "&8A welcome gift. It cannot be traded.",
+   "",
+   "&eRight-click to eat!"
+  ],
+  "abilities": [
+   {
+    "id": "bank_eat_cookie",
+    "name": "Eat",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": []
+   }
+  ],
+  "tags": [
+   "soulbound",
+   "no_trade",
+   "no_ah"
+  ],
+  "extra": {
+   "bank": "cookie",
+   "hours": 96
+  }
+ },
+ {
+  "id": "PERSONAL_BANK_ITEM",
+  "name": "Pocket Bank",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "NONE",
+  "skull": "eyJ0aW1lc3RhbXAiOjE0ODU0NjAwMjA1OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzNmU5NGY2YzM0YTM1NDY1ZmNlNGE5MGYyZTI1OTc2Mzg5ZWI5NzA5YTEyMjczNTc0ZmY3MGZkNGRhYTY4NTIifX19",
+  "maxStack": 1,
+  "lore": [
+   "&7Your bank account, carried",
+   "&7in your pocket.",
+   ""
+  ],
+  "abilities": [
+   {
+    "id": "bank_pocket_open",
+    "name": "Open Bank",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Opens your bank account from",
+     "&7anywhere."
+    ]
+   },
+   {
+    "id": "bank_pocket_deposit",
+    "name": "Quick Deposit",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Puts your whole purse into",
+     "&7the bank."
+    ]
+   }
+  ],
+  "tags": [],
+  "extra": {
+   "bank": "pocket"
+  }
+ }
+]

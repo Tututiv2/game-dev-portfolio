@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Shadertoy Post — shader compile check</title>
+<style>
+  body   { background:#12141a; color:#d8dae0; font:14px/1.55 Consolas,monospace; padding:24px; }
+  h1     { font-size:16px; letter-spacing:.08em; text-transform:uppercase; color:#8b90a0; margin:0 0 18px; }
+  .row   { padding:6px 10px; border-left:3px solid #2a2e3a; margin-bottom:3px; background:#171a22; }
+  .pass  { border-left-color:#3fb950; }
+  .fail  { border-left-color:#f85149; background:#1e1518; }
+  .name  { display:inline-block; width:170px; color:#e6e8ee; }
+  .ok    { color:#3fb950; } .bad { color:#f85149; }
+  pre    { color:#ff9492; margin:8px 0 2px; white-space:pre-wrap; font-size:13px; }
+  #sum   { margin-top:18px; padding:10px 12px; background:#171a22; border-left:3px solid #58a6ff; }
+</style>
+<h1>Shadertoy Post — shader compile check</h1>
+<div id="out"></div>
+<div id="sum">running…</div>
+
+<script>
+/* ---------------------------------------------------------------------------
+   Compiles the pack's real final.fsh — includes resolved the way Iris resolves
+   them — once per EFFECT value, against this machine's actual GPU driver.
+
+   Iris targets desktop GLSL 330; WebGL2 speaks GLSL ES 3.00. The dialects
+   differ only in the header and in what's implicitly declared, so the header is
+   rewritten below and everything past it is compiled verbatim. That covers the
+   effect code, which is the part that can actually be wrong.
+--------------------------------------------------------------------------- */
+
+const PACK   = '../ShadertoyPost/shaders';
+const EFFECTS = ['Off','CRT','VHS','Kaleidoscope','Underwater',
+                 'Retro','Dream Glow','Cel / Outline','Custom'];
+
+const out = document.getElementById('out');
+const sum = document.getElementById('sum');
+
+async function readFile(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`cannot read ${path} (${r.status})`);
+  return r.text();
+}
+
+/* Iris resolves #include "/x" relative to the shaders/ folder. So do we. */
+async function resolveIncludes(src, seen = new Set()) {
+  const lines = src.split('\n');
+  const result = [];
+  for (const line of lines) {
+    const m = line.match(/^\s*#include\s+"([^"]+)"/);
+    if (!m) { result.push(line); continue; }
+    const path = PACK + m[1];
+    if (seen.has(path)) { result.push(`// (already included ${m[1]})`); continue; }
+    seen.add(path);
+    result.push(`// ---- begin ${m[1]} ----`);
+    result.push(await resolveIncludes(await readFile(path), seen));
+    result.push(`// ---- end ${m[1]} ----`);
+  }
+  return result.join('\n');
+}
+
+/* Rewrite the desktop-GL header into an ES 3.00 one. */
+function toES(src, effect) {
+  src = src.replace(/^#version.*$/m, '');
+  /* The option defines are edited by Iris at load time; do the same here. */
+  src = src.replace(/^#define EFFECT .*$/m, `#define EFFECT ${effect}`);
+  return `#version 300 es
+precision highp float;
+precision highp int;
+precision highp sampler2D;
+${src}`;
+}
+
+const VS = `#version 300 es
+in vec2 pos;
+out vec2 texcoord;
+void main(){ texcoord = pos * 0.5 + 0.5; gl_Position = vec4(pos, 0.0, 1.0); }`;
+
+function compile(gl, type, src) {
+  const s = gl.createShader(type);
+  gl.shaderSource(s, src);
+  gl.compileShader(s);
+  if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+    const log = gl.getShaderInfoLog(s);
+    gl.deleteShader(s);
+    return { ok: false, log, src };
+  }
+  return { ok: true, shader: s };
+}
+
+/* Map a driver error's line number back to a readable source line. */
+function annotate(log, src) {
+  const lines = src.split('\n');
+  return log.trim().split('\n').filter(Boolean).map(err => {
+    const m = err.match(/^(?:ERROR|WARNING):\s*\d+:(\d+)/);
+    if (!m) return err;
+    const n = parseInt(m[1], 10);
+    const ctx = lines[n - 1] !== undefined ? `\n        > ${lines[n - 1].trim()}` : '';
+    return err + ctx;
+  }).join('\n');
+}
+
+(async () => {
+  const canvas = document.createElement('canvas');
+  const gl = canvas.getContext('webgl2');
+  if (!gl) { sum.innerHTML = '<span class="bad">No WebGL2 — cannot check.</span>'; return; }
+
+  let raw;
+  try {
+    raw = await readFile(PACK + '/final.fsh');
+  } catch (e) {
+    sum.innerHTML = `<span class="bad">${e.message}</span><br>` +
+      'Open this page through <b>Check Shaders.bat</b>, not by double-clicking it — ' +
+      'browsers block file:// reads.';
+    return;
+  }
+
+  const vs = compile(gl, gl.VERTEX_SHADER, VS);
+  let failed = 0;
+
+  for (let e = 0; e < EFFECTS.length; e++) {
+    const src = toES(await resolveIncludes(raw), e);
+    const fs  = compile(gl, gl.FRAGMENT_SHADER, src);
+
+    const row = document.createElement('div');
+    row.className = 'row ' + (fs.ok ? 'pass' : 'fail');
+
+    if (!fs.ok) {
+      failed++;
+      row.innerHTML = `<span class="name">${e}. ${EFFECTS[e]}</span><span class="bad">COMPILE FAILED</span>`;
+      const pre = document.createElement('pre');
+      pre.textContent = annotate(fs.log, src);
+      row.appendChild(pre);
+      console.error(`[verify] EFFECT ${e} (${EFFECTS[e]}) failed:\n` + annotate(fs.log, src));
+    } else {
+      /* Compiling is most of it, but link too — that catches a mainImage_*
+         that was called and never defined, which compiling alone lets past. */
+      const p = gl.createProgram();
+      gl.attachShader(p, vs.shader); gl.attachShader(p, fs.shader);
+      gl.linkProgram(p);
+      const linked = gl.getProgramParameter(p, gl.LINK_STATUS);
+      if (!linked) {
+        failed++;
+        row.className = 'row fail';
+        row.innerHTML = `<span class="name">${e}. ${EFFECTS[e]}</span><span class="bad">LINK FAILED</span>`;
+        const pre = document.createElement('pre');
+        pre.textContent = gl.getProgramInfoLog(p);
+        row.appendChild(pre);
+        console.error(`[verify] EFFECT ${e} (${EFFECTS[e]}) link failed: ` + gl.getProgramInfoLog(p));
+      } else {
+        row.innerHTML = `<span class="name">${e}. ${EFFECTS[e]}</span><span class="ok">compiled + linked</span>`;
+        console.log(`[verify] EFFECT ${e} (${EFFECTS[e]}) OK`);
+      }
+      gl.deleteProgram(p);
+    }
+    out.appendChild(row);
+  }
+
+  const msg = failed === 0
+    ? `<span class="ok">ALL ${EFFECTS.length} EFFECTS COMPILED.</span> ` +
+      `Renderer: ${gl.getParameter(gl.RENDERER)}`
+    : `<span class="bad">${failed} of ${EFFECTS.length} FAILED.</span>`;
+  sum.innerHTML = msg;
+  console.log(`[verify] DONE failed=${failed}`);
+})();
+</script>

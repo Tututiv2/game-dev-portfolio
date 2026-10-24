@@ -1,0 +1,9031 @@
+[
+ {
+  "id": "absorb",
+  "name": "Absorb",
+  "referenceName": "Absorb",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &3+{0}☯ Foraging Wisdom&7 and &6+{1}☘ Foraging Fortune&7. Levels up as you chop logs.",
+  "short": "Grants &3+{0}☯ Foraging Wisdom&7 and Foraging Fortune; levels up as you chop logs.",
+  "stats": [
+   {
+    "stat": "FORAGING_WISDOM",
+    "series": 0
+   },
+   {
+    "stat": "FORAGING_FORTUNE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "logs_chopped",
+   "thresholds": [
+    1000,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    7000,
+    8000,
+    9000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "aiming",
+  "name": "Dragon Seeker",
+  "referenceName": "Dragon Tracer",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 8,
+  "desc": "Your arrows curve toward dragons within &a{0}&7 blocks.",
+  "short": "Your arrows curve toward dragons within &a{0}&7 blocks.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "dragon_seeker",
+   "dragon_tracer"
+  ]
+ },
+ {
+  "id": "angler",
+  "name": "Angler",
+  "referenceName": "Angler",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   75
+  ],
+  "skill": 4,
+  "desc": "Grants &3+{0}α Sea Creature Chance&7.",
+  "short": "Grants &3+{0}α Sea Creature Chance&7.",
+  "stats": [
+   {
+    "stat": "SEA_CREATURE_CHANCE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "aqua_affinity",
+  "name": "Aqua Affinity",
+  "referenceName": "Aqua Affinity",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 1,
+  "combinable": true,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [
+   15
+  ],
+  "skill": 0,
+  "desc": "Mine at full speed while underwater.",
+  "short": "Mine at full speed while underwater.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "arcane",
+  "name": "Woodsplitter",
+  "referenceName": "Woodsplitter",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    60,
+    80
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [],
+  "skill": 5,
+  "desc": "Increases damage dealt to woodland mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to woodland mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "woodsplitter"
+  ]
+ },
+ {
+  "id": "bane_of_arthropods",
+  "name": "Bane of Arthropods",
+  "referenceName": "Bane of Arthropods",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Increases damage dealt to arthropod mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to arthropod mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "big_brain",
+  "name": "Big Brain",
+  "referenceName": "Big Brain",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "small_brain"
+  ],
+  "values": [
+   [
+    0,
+    0,
+    15,
+    20,
+    25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   0,
+   0,
+   60,
+   80,
+   100
+  ],
+  "skill": 21,
+  "desc": "Grants &b+{0}✎ Intelligence&7.",
+  "short": "Grants &b+{0}✎ Intelligence&7.",
+  "stats": [
+   {
+    "stat": "INTELLIGENCE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "blast_protection",
+  "name": "Blast Protection",
+  "referenceName": "Blast Protection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "fire_protection",
+   "projectile_protection",
+   "protection"
+  ],
+  "values": [
+   [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &a+{0}❈ Defense&7 against explosions.",
+  "short": "Grants &a+{0}❈ Defense&7 against explosions.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "blessing",
+  "name": "Blessing",
+  "referenceName": "Blessing",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 9,
+  "desc": "Raises the chance that treasure catches are GREAT or OUTSTANDING by &a{0}%&7.",
+  "short": "Raises the chance that treasure catches are GREAT or OUTSTANDING by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "bug_blender",
+  "name": "Pest Pulper",
+  "referenceName": "Bug Blender",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "VACUUM"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    20,
+    40,
+    60,
+    80,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Farming Fortune&7 while vacuuming pests.",
+  "short": "Grants &6+{0}☘ Farming Fortune&7 while vacuuming pests.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "pest_pulper"
+  ]
+ },
+ {
+  "id": "caster",
+  "name": "Caster",
+  "referenceName": "Caster",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   75
+  ],
+  "skill": 15,
+  "desc": "&a{0}%&7 chance to keep your bait when you cast.",
+  "short": "&a{0}%&7 chance to keep your bait when you cast.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "cayenne",
+  "name": "Cayenne",
+  "referenceName": "Cayenne",
+  "ultimate": false,
+  "minLevel": 4,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BELT",
+   "CLOAK",
+   "GLOVES",
+   "NECKLACE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    0,
+    0.8,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0.4,
+    0.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   100,
+   100,
+   100,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &c+{0}❤ Health&7 and &f+{1}❂ True Defense&7 for each digit of your Accessory Power.",
+  "short": "Grants &c+{0}❤ Health&7 and True Defense for each digit of your Accessory Power.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "champion",
+  "name": "Champion",
+  "referenceName": "Champion",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3,
+    3.7778,
+    4.5556,
+    5.3333,
+    6.1111,
+    6.8889,
+    7.6667,
+    8.4444,
+    9.2222,
+    10
+   ],
+   [
+    1.4,
+    1.8,
+    2.2,
+    2.6,
+    3,
+    3.4,
+    3.8,
+    4.2,
+    4.6,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   10
+  ],
+  "skill": 0,
+  "desc": "Gain &a{0}%&7 extra Combat XP, and every kill pays &6+{1} coins&7. Levels up from the Combat XP you earn.",
+  "short": "Gain &a{0}%&7 extra Combat XP. Levels up from the Combat XP you earn.",
+  "stats": [
+   {
+    "stat": "COMBAT_WISDOM",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "combat_xp",
+   "thresholds": [
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000,
+    1500000,
+    2000000,
+    2500000,
+    3000000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "chance",
+  "name": "Chance",
+  "referenceName": "Chance",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    15,
+    30,
+    45,
+    60,
+    75
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   15,
+   30,
+   45,
+   100,
+   200
+  ],
+  "skill": 11,
+  "desc": "Increases the chance of a monster dropping an item by &a{0}%&7.",
+  "short": "Increases the chance of a monster dropping an item by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "charm",
+  "name": "Charm",
+  "referenceName": "Charm",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50
+  ],
+  "skill": 25,
+  "desc": "Raises the chance of a higher-tier trophy catch by &a{0}%&7.",
+  "short": "Raises the chance of a higher-tier trophy catch by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "cleave",
+  "name": "Cleave",
+  "referenceName": "Cleave",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   [
+    3.3,
+    3.6,
+    3.9,
+    4.2,
+    4.5,
+    4.8
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 4,
+  "desc": "Deals &a{0}%&7 of your hit to other monsters within &a{1}&7 blocks of the target.",
+  "short": "Deals &a{0}%&7 of your hit to other monsters near the target.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "compact",
+  "name": "Compact",
+  "referenceName": "Compact",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    0.25,
+    0.2856,
+    0.3211,
+    0.3567,
+    0.3922,
+    0.4278,
+    0.4633,
+    0.4989,
+    0.5344,
+    0.57
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25
+  ],
+  "skill": 0,
+  "desc": "Grants &3+{0}☯ Mining Wisdom&7 and a &a{1}%&7 chance for a mined block to drop its enchanted form. Levels up as you mine.",
+  "short": "Grants &3+{0}☯ Mining Wisdom&7 and a chance at enchanted drops; levels up as you mine.",
+  "stats": [
+   {
+    "stat": "MINING_WISDOM",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "blocks_mined",
+   "thresholds": [
+    100,
+    500,
+    1500,
+    5000,
+    15000,
+    50000,
+    150000,
+    500000,
+    1000000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "corruption",
+  "name": "Corruption",
+  "referenceName": "Corruption",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50
+  ],
+  "skill": 25,
+  "desc": "&a{0}%&7 chance for a sea creature to surface corrupted.",
+  "short": "&a{0}%&7 chance for a sea creature to surface corrupted.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "counter_strike",
+  "name": "Riposte",
+  "referenceName": "Counter-Strike",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "CHESTPLATE",
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   0,
+   0,
+   60,
+   80,
+   100
+  ],
+  "skill": 22,
+  "desc": "The first hit an enemy lands on you grants &a+{0}❈ Defense&7 for &a7s&7.",
+  "short": "The first hit an enemy lands on you grants &a+{0}❈ Defense&7 for &a7s&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "riposte"
+  ]
+ },
+ {
+  "id": "critical",
+  "name": "Critical",
+  "referenceName": "Critical",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50,
+    70,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   75,
+   200
+  ],
+  "skill": 9,
+  "desc": "Increases &9☠ Crit Damage&7 by &a{0}%&7.",
+  "short": "Increases &9☠ Crit Damage&7 by &a{0}%&7.",
+  "stats": [
+   {
+    "stat": "CRIT_DAMAGE",
+    "series": 0
+   }
+  ],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "cubism",
+  "name": "Cubism",
+  "referenceName": "Cubism",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 3,
+  "desc": "Increases damage dealt to slimes, magma cubes and creepers by &a{0}%&7.",
+  "short": "Increases damage dealt to slimes, magma cubes and creepers by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "cultivating",
+  "name": "Cultivating",
+  "referenceName": "Cultivating",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &3+{0}☯ Farming Wisdom&7 and &6+{1}☘ Farming Fortune&7. Levels up as you harvest crops.",
+  "short": "Grants &3+{0}☯ Farming Wisdom&7 and Farming Fortune; levels up as you harvest.",
+  "stats": [
+   {
+    "stat": "FARMING_WISDOM",
+    "series": 0
+   },
+   {
+    "stat": "FARMING_FORTUNE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "crops_harvested",
+   "thresholds": [
+    1000,
+    5000,
+    25000,
+    100000,
+    300000,
+    1500000,
+    5000000,
+    20000000,
+    50000000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "dedication",
+  "name": "Dedication",
+  "referenceName": "Dedication",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 4,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.5,
+    0.75,
+    1,
+    2
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   100
+  ],
+  "skill": 12,
+  "desc": "Grants &6{0}☘ Farming Fortune&7 for a crop, multiplied by your milestone in that crop.",
+  "short": "Grants &6{0}☘ Farming Fortune&7 for a crop, multiplied by your milestone in that crop.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "delicate",
+  "name": "Delicate",
+  "referenceName": "Delicate",
+  "ultimate": false,
+  "minLevel": 5,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [],
+  "rarity": [
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Leaves stems and young crops standing when you swing through them.",
+  "short": "Leaves stems and young crops standing when you swing through them.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "depth_strider",
+  "name": "Depth Strider",
+  "referenceName": "Depth Strider",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "BOOTS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "frost_walker"
+  ],
+  "values": [
+   [
+    33,
+    67,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30
+  ],
+  "skill": 0,
+  "desc": "Cuts how much water slows you down by &a{0}%&7.",
+  "short": "Cuts how much water slows you down by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "divine_gift",
+  "name": "Divine Gift",
+  "referenceName": "Divine Gift",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   50,
+   100,
+   150
+  ],
+  "skill": 0,
+  "desc": "Grants &b+{0}✯ Magic Find&7.",
+  "short": "Grants &b+{0}✯ Magic Find&7.",
+  "stats": [
+   {
+    "stat": "MAGIC_FIND",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "dragon_hunter",
+  "name": "Gravity",
+  "referenceName": "Gravity",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   50,
+   100,
+   150,
+   200,
+   250
+  ],
+  "skill": 16,
+  "desc": "Increases damage dealt to airborne mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to airborne mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "gravity"
+  ]
+ },
+ {
+  "id": "efficiency",
+  "name": "Efficiency",
+  "referenceName": "Efficiency",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "DRILL",
+   "GAUNTLET",
+   "HOE",
+   "PICKAXE",
+   "SHEARS",
+   "SHOVEL"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    30,
+    50,
+    70,
+    90,
+    110,
+    130,
+    150,
+    170,
+    190,
+    210
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}⸕ Mining Speed&7.",
+  "short": "Grants &6+{0}⸕ Mining Speed&7.",
+  "stats": [
+   {
+    "stat": "MINING_SPEED",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "ender_slayer",
+  "name": "Ender Slayer",
+  "referenceName": "Ender Slayer",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   25,
+   30,
+   40,
+   75,
+   200
+  ],
+  "skill": 11,
+  "desc": "Increases damage dealt to ender mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to ender mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "execute",
+  "name": "Execute",
+  "referenceName": "Execute",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "prosecute",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1,
+    1.25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 14,
+  "desc": "Increases damage dealt by &a{0}%&7 for every percent of health your target is missing.",
+  "short": "Increases damage dealt by &a{0}%&7 for every percent of health your target is missing.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "experience",
+  "name": "Experience",
+  "referenceName": "Experience",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "PICKAXE",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    12.5,
+    25,
+    37.5,
+    50,
+    62.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   15,
+   30,
+   45,
+   75
+  ],
+  "skill": 0,
+  "desc": "&a{0}%&7 chance for mobs and ores to drop double experience.",
+  "short": "&a{0}%&7 chance for mobs and ores to drop double experience.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "expertise",
+  "name": "Expertise",
+  "referenceName": "Expertise",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.6,
+    1.2,
+    1.8,
+    2.4,
+    3,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25
+  ],
+  "skill": 0,
+  "desc": "Grants &3+{0}α Sea Creature Chance&7 and &3+{1}☯ Fishing Wisdom&7. Levels up as you kill sea creatures.",
+  "short": "Grants &3+{0}α Sea Creature Chance&7; levels up from sea creature kills.",
+  "stats": [
+   {
+    "stat": "SEA_CREATURE_CHANCE",
+    "series": 0
+   },
+   {
+    "stat": "FISHING_WISDOM",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "sea_creature_kills",
+   "thresholds": [
+    50,
+    100,
+    250,
+    500,
+    1000,
+    2500,
+    5500,
+    10000,
+    15000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "feast",
+  "name": "Feast",
+  "referenceName": "Feast",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 5,
+  "desc": "Grants &a+{0}&7 Overbloom.",
+  "short": "Grants &a+{0}&7 Overbloom.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "feather_falling",
+  "name": "Feather Falling",
+  "referenceName": "Feather Falling",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "skill": 0,
+  "desc": "You can fall &a{0}&7 extra blocks safely, and fall damage is cut by &a{1}%&7.",
+  "short": "You can fall &a{0}&7 extra blocks without getting hurt.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "ferocious_mana",
+  "name": "Vivacious Vitality",
+  "referenceName": "Vivacious Vitality",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "hardened_mana",
+   "mana_vampire",
+   "strong_mana"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   30,
+   45,
+   60,
+   75,
+   90,
+   180,
+   240,
+   300,
+   360,
+   420
+  ],
+  "skill": 22,
+  "desc": "Turns &a{0}%&7 of the Vitality you spend into Attack Speed for 10s (up to 5).",
+  "short": "Turns &a{0}%&7 of the Vitality you spend into Attack Speed for 10s (up to 5).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "vivacious_vitality"
+  ]
+ },
+ {
+  "id": "fire_aspect",
+  "name": "Fire Aspect",
+  "referenceName": "Fire Aspect",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 2,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    3,
+    4,
+    4
+   ],
+   [
+    3,
+    6,
+    9
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   15,
+   30
+  ],
+  "skill": 0,
+  "desc": "Sets enemies alight for &a{0}s&7, burning them for &a{1}%&7 of your hit every second.",
+  "short": "Sets enemies alight for &a{0}s&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "fire_protection",
+  "name": "Fire Protection",
+  "referenceName": "Fire Protection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "blast_protection",
+   "projectile_protection",
+   "protection"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &f+{0}❂ True Defense&7 against fire and lava.",
+  "short": "Grants &f+{0}❂ True Defense&7 against fire and lava.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "first_strike",
+  "name": "First Strike",
+  "referenceName": "First Strike",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 4,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "triple_strike",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    25,
+    50,
+    75,
+    100,
+    125
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   30,
+   40,
+   75,
+   200
+  ],
+  "skill": 10,
+  "desc": "Your first hit on a mob deals &a{0}%&7 more melee damage.",
+  "short": "Your first hit on a mob deals &a{0}%&7 more melee damage.",
+  "stats": [],
+  "experiments": [
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "flame",
+  "name": "Flame",
+  "referenceName": "Flame",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 2,
+  "tableMax": 2,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3.5,
+    4
+   ],
+   [
+    3,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25,
+   50
+  ],
+  "skill": 0,
+  "desc": "Arrows set enemies alight for &a{0}s&7, burning them for &a{1}%&7 of the hit every second.",
+  "short": "Arrows set enemies alight for &a{0}s&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "forest_pledge",
+  "name": "Forest Pledge",
+  "referenceName": "Forest Pledge",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 12,
+  "desc": "Grants &6+{0}☘ Foraging Fortune&7.",
+  "short": "Grants &6+{0}☘ Foraging Fortune&7.",
+  "stats": [
+   {
+    "stat": "FORAGING_FORTUNE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "fortune",
+  "name": "Fortune",
+  "referenceName": "Fortune",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 4,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "silk_touch",
+   "smelting_touch"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    45
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   15,
+   30,
+   45
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Mining Fortune&7, raising your odds of extra drops.",
+  "short": "Grants &6+{0}☘ Mining Fortune&7, raising your odds of extra drops.",
+  "stats": [
+   {
+    "stat": "MINING_FORTUNE",
+    "series": 0
+   }
+  ],
+  "experiments": [
+   4
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "frail",
+  "name": "Frail",
+  "referenceName": "Frail",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2.5,
+    5,
+    7.5,
+    10,
+    12.5,
+    15,
+    17.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   75
+  ],
+  "skill": 14,
+  "desc": "Sea creatures you hook surface with &a{0}%&7 less health.",
+  "short": "Sea creatures you hook surface with &a{0}%&7 less health.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "frost_walker",
+  "name": "Frost Walker",
+  "referenceName": "Frost Walker",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 2,
+  "tableMax": 2,
+  "combinable": true,
+  "categories": [
+   "BOOTS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "depth_strider"
+  ],
+  "values": [
+   [
+    1,
+    2
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   10,
+   20
+  ],
+  "skill": 0,
+  "desc": "Walking over water freezes a path of ice &a{0}&7 blocks wide around you.",
+  "short": "Walking over water freezes a path of ice &a{0}&7 blocks wide around you.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "giant_killer",
+  "name": "Giant Killer",
+  "referenceName": "Giant Killer",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "titan_killer",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    0.9,
+    1.2
+   ],
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    45,
+    65
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   100,
+   200
+  ],
+  "skill": 8,
+  "desc": "Increases damage dealt by &a{0}%&7 for each percent of max health your target has above yours, up to &a{1}%&7.",
+  "short": "Increases damage by &a{0}%&7 for each percent of extra health your target has over you.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "great_spook",
+  "name": "Dread",
+  "referenceName": "Great Spook",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &a+1&7 Fear while you wear the haunted set.",
+  "short": "Grants &a+1&7 Fear while you wear the haunted set.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "dread"
+  ]
+ },
+ {
+  "id": "green_thumb",
+  "name": "Green Thumb",
+  "referenceName": "Green Thumb",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BELT",
+   "CLOAK",
+   "GLOVES",
+   "NECKLACE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 24,
+  "desc": "Grants &6{0}☘ Farming Fortune&7 for each unique garden visitor you have served.",
+  "short": "Grants &6{0}☘ Farming Fortune&7 for each unique garden visitor you have served.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "growth",
+  "name": "Growth",
+  "referenceName": "Growth",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   95,
+   199
+  ],
+  "skill": 5,
+  "desc": "Grants &c+{0}❤ Health&7.",
+  "short": "Grants &c+{0}❤ Health&7.",
+  "stats": [
+   {
+    "stat": "HEALTH",
+    "series": 0
+   }
+  ],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "hardened_mana",
+  "name": "Hardened Vitality",
+  "referenceName": "Hardened Vitality",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ferocious_mana",
+   "mana_vampire",
+   "strong_mana"
+  ],
+  "values": [
+   [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   30,
+   45,
+   60,
+   75,
+   90,
+   180,
+   240,
+   300,
+   360,
+   420
+  ],
+  "skill": 22,
+  "desc": "Turns &a{0}%&7 of the Vitality you spend into Defense for 10s (up to 25).",
+  "short": "Turns &a{0}%&7 of the Vitality you spend into Defense for 10s (up to 25).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "hardened_vitality"
+  ]
+ },
+ {
+  "id": "harvesting",
+  "name": "Harvesting",
+  "referenceName": "Harvesting",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    12.5,
+    25,
+    37.5,
+    50,
+    62.5,
+    75
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   5,
+   10,
+   15,
+   20,
+   25
+  ],
+  "skill": 2,
+  "desc": "Grants &6+{0}☘ Farming Fortune&7, raising your odds of extra crops.",
+  "short": "Grants &6+{0}☘ Farming Fortune&7, raising your odds of extra crops.",
+  "stats": [
+   {
+    "stat": "FARMING_FORTUNE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "hecatomb",
+  "name": "Hecatomb",
+  "referenceName": "Hecatomb",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.28,
+    0.36,
+    0.44,
+    0.52,
+    0.6,
+    0.68,
+    0.76,
+    0.84,
+    0.92,
+    1
+   ],
+   [
+    0.56,
+    0.72,
+    0.88,
+    1.04,
+    1.2,
+    1.36,
+    1.52,
+    1.68,
+    1.84,
+    2
+   ],
+   [
+    2.6,
+    3.2,
+    3.8,
+    4.4,
+    5,
+    5.6,
+    6.2,
+    6.8,
+    7.4,
+    8
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25
+  ],
+  "skill": 0,
+  "desc": "Gain &a+{0}%&7 Catacombs XP and &a+{1}%&7 class XP (doubled on S+ runs), plus &c+{2}❤&7 per 10 Catacombs levels. Levels up from S runs.",
+  "short": "Gain &a+{0}%&7 Catacombs XP and more class XP; levels up from S runs.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": {
+   "type": "s_runs",
+   "thresholds": [
+    2,
+    5,
+    10,
+    20,
+    30,
+    40,
+    60,
+    80,
+    100
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "ice_cold",
+  "name": "Ice Cold",
+  "referenceName": "Ice Cold",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   27,
+   41,
+   55,
+   68,
+   82
+  ],
+  "skill": 30,
+  "desc": "Grants &b+{0}❄ Cold Resistance&7.",
+  "short": "Grants &b+{0}❄ Cold Resistance&7.",
+  "stats": [
+   {
+    "stat": "COLD_RESISTANCE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "impaling",
+  "name": "Impaling",
+  "referenceName": "Impaling",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   30,
+   40,
+   50
+  ],
+  "skill": 12,
+  "desc": "Increases damage dealt to aquatic mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to aquatic mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "infinite_quiver",
+  "name": "Infinite Quiver",
+  "referenceName": "Infinite Quiver",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "skill": 2,
+  "desc": "&a{0}%&7 chance not to use up an arrow when you fire.",
+  "short": "&a{0}%&7 chance not to use up an arrow when you fire.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "karma",
+  "name": "Karma",
+  "referenceName": "Karma",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "&a{0}%&7 chance for tree gifts to hold double loot.",
+  "short": "&a{0}%&7 chance for tree gifts to hold double loot.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "knockback",
+  "name": "Knockback",
+  "referenceName": "Knockback",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 2,
+  "tableMax": 2,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    3,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   15,
+   30
+  ],
+  "skill": 0,
+  "desc": "Knocks enemies back an extra &a{0}&7 blocks.",
+  "short": "Knocks enemies back an extra &a{0}&7 blocks.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "lapidary",
+  "name": "Lapidary",
+  "referenceName": "Lapidary",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ],
+   [
+    20,
+    40,
+    60,
+    80,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   25,
+   50,
+   100,
+   150,
+   200
+  ],
+  "skill": 22,
+  "desc": "Grants &6+{0}☘ Gemstone Fortune&7 and &6+{1}⸕ Mining Speed&7 while mining gemstones.",
+  "short": "Grants &6+{0}☘ Gemstone Fortune&7 and faster gemstone mining.",
+  "stats": [
+   {
+    "stat": "GEMSTONE_FORTUNE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "lethality",
+  "name": "Lethality",
+  "referenceName": "Lethality",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    1.2,
+    2.4,
+    3.6,
+    4.8,
+    6,
+    9
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 14,
+  "desc": "Each melee hit lowers your target's ❈ Defense by &a{0}%&7 for 4s, stacking up to 4 times.",
+  "short": "Each melee hit lowers your target's ❈ Defense by &a{0}%&7 for 4s, stacking up to 4 times.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "life_steal",
+  "name": "Life Steal",
+  "referenceName": "Life Steal",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "mana_steal",
+   "syphon",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    2.4,
+    4.8,
+    7.2,
+    9.6,
+    12
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   50,
+   200
+  ],
+  "skill": 5,
+  "desc": "Heals you for &c{0}❤&7 every time you hit a mob.",
+  "short": "Heals you for &c{0}❤&7 every time you hit a mob.",
+  "stats": [],
+  "experiments": [
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "looting",
+  "name": "Looting",
+  "referenceName": "Looting",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    15,
+    30,
+    45,
+    60,
+    75
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   15,
+   30,
+   45,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Increases the chance of a monster dropping an item by &a{0}%&7.",
+  "short": "Increases the chance of a monster dropping an item by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "luck",
+  "name": "Luck",
+  "referenceName": "Luck",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   75,
+   200
+  ],
+  "skill": 3,
+  "desc": "Increases the chance of monsters dropping their armor by &a{0}%&7.",
+  "short": "Increases the chance of monsters dropping their armor by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "luck_of_the_sea",
+  "name": "Luck of the Sea",
+  "referenceName": "Luck of the Sea",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    3.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}⛃ Treasure Chance&7.",
+  "short": "Grants &6+{0}⛃ Treasure Chance&7.",
+  "stats": [
+   {
+    "stat": "TREASURE_CHANCE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "lure",
+  "name": "Lure",
+  "referenceName": "Lure",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   50
+  ],
+  "skill": 0,
+  "desc": "Cuts the longest possible wait for a bite by &a{0}%&7.",
+  "short": "Cuts the longest possible wait for a bite by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "magmarizer",
+  "name": "Pyroclasm",
+  "referenceName": "Pyroclasm",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    60,
+    80
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [],
+  "skill": 9,
+  "desc": "Increases damage dealt to magmatic mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to magmatic mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "pyroclasm"
+  ]
+ },
+ {
+  "id": "magnet",
+  "name": "Magnet",
+  "referenceName": "Magnet",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   75
+  ],
+  "skill": 13,
+  "desc": "Grants &a{0}&7 extra experience orbs for every catch.",
+  "short": "Grants &a{0}&7 extra experience orbs for every catch.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "mana_steal",
+  "name": "Mana Steal",
+  "referenceName": "Mana Steal",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "life_steal",
+   "syphon",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.25,
+    0.5,
+    0.75
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30
+  ],
+  "skill": 20,
+  "desc": "Restores &b{0}%&7 of your max mana each time you hit.",
+  "short": "Restores &b{0}%&7 of your max mana each time you hit.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "mana_vampire",
+  "name": "Vampiric Vitality",
+  "referenceName": "Vampiric Vitality",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ferocious_mana",
+   "hardened_mana",
+   "strong_mana"
+  ],
+  "values": [
+   [
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   30,
+   45,
+   60,
+   75,
+   90,
+   180,
+   240,
+   300,
+   360,
+   420
+  ],
+  "skill": 22,
+  "desc": "Heals &c{0}❤&7 for every point of Vitality you spend.",
+  "short": "Heals &c{0}❤&7 for every point of Vitality you spend.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "vampiric_vitality"
+  ]
+ },
+ {
+  "id": "overload",
+  "name": "Overload",
+  "referenceName": "Overload",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   50,
+   100,
+   150,
+   200,
+   250
+  ],
+  "skill": 33,
+  "desc": "Increases &9☠ Crit Damage&7 by &a{0}%&7 and &9☣ Crit Chance&7 by &a{1}%&7. Above 100% Crit Chance, hits may turn into Mega Crits dealing &a{2}%&7 extra.",
+  "short": "Increases Crit Damage and Crit Chance by &a{0}%&7, with a shot at Mega Crits.",
+  "stats": [
+   {
+    "stat": "CRIT_DAMAGE",
+    "series": 0
+   },
+   {
+    "stat": "CRIT_CHANCE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "paleontologist",
+  "name": "Paleontologist",
+  "referenceName": "Paleontologist",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2.5,
+    5,
+    7.5,
+    10,
+    12.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   23,
+   45,
+   91,
+   136,
+   179
+  ],
+  "skill": 27,
+  "desc": "Raises the chance of finding Suspicious Scrap in glacite shafts by &a{0}%&7.",
+  "short": "Raises the chance of finding Suspicious Scrap in glacite shafts by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "pesterminator",
+  "name": "Pestbane",
+  "referenceName": "Pesterminator",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   5,
+   9,
+   13,
+   18,
+   23
+  ],
+  "skill": 10,
+  "desc": "Grants &6+{0}☘ Farming Fortune&7 and &2+{1}ൠ Bonus Pest Chance&7.",
+  "short": "Grants &6+{0}☘ Farming Fortune&7 and Bonus Pest Chance.",
+  "stats": [
+   {
+    "stat": "FARMING_FORTUNE",
+    "series": 0
+   },
+   {
+    "stat": "PEST_CHANCE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "pestbane"
+  ]
+ },
+ {
+  "id": "petalfall",
+  "name": "Petal Shower",
+  "referenceName": "Petalfall",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 12,
+  "desc": "Grants &a+{0}&7 Timber.",
+  "short": "Grants &a+{0}&7 Timber.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "petal_shower"
+  ]
+ },
+ {
+  "id": "piercing",
+  "name": "Piercing",
+  "referenceName": "Piercing",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 1,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    25
+   ]
+  ],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [
+   30
+  ],
+  "skill": 17,
+  "desc": "Arrows pass through enemies; every extra target takes &a{0}%&7 of the damage.",
+  "short": "Arrows pass through enemies; every extra target takes &a{0}%&7 of the damage.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "piscary",
+  "name": "Piscary",
+  "referenceName": "Piscary",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   8,
+   16,
+   24,
+   36,
+   48,
+   60
+  ],
+  "skill": 8,
+  "desc": "Grants &b+{0}☂ Fishing Speed&7.",
+  "short": "Grants &b+{0}☂ Fishing Speed&7.",
+  "stats": [
+   {
+    "stat": "FISHING_SPEED",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "power",
+  "name": "Power",
+  "referenceName": "Power",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    8,
+    16,
+    24,
+    32,
+    40,
+    50,
+    65
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   95,
+   200
+  ],
+  "skill": 0,
+  "desc": "Increases bow damage by &a{0}%&7.",
+  "short": "Increases bow damage by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "pristine",
+  "name": "Prismatic",
+  "referenceName": "Prismatic",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   25,
+   50,
+   100,
+   150,
+   200
+  ],
+  "skill": 22,
+  "desc": "Grants &5+{0}✧ Pristine&7, raising the quality of gemstones you mine.",
+  "short": "Grants &5+{0}✧ Pristine&7, raising the quality of gemstones you mine.",
+  "stats": [
+   {
+    "stat": "PRISTINE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "prismatic"
+  ]
+ },
+ {
+  "id": "projectile_protection",
+  "name": "Projectile Protection",
+  "referenceName": "Projectile Protection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "blast_protection",
+   "fire_protection",
+   "protection"
+  ],
+  "values": [
+   [
+    7,
+    14,
+    21,
+    28,
+    35,
+    42,
+    49
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &a+{0}❈ Defense&7 against projectiles.",
+  "short": "Grants &a+{0}❈ Defense&7 against projectiles.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "prosecute",
+  "name": "Prosecute",
+  "referenceName": "Prosecute",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "execute",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.7,
+    1
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 25,
+  "desc": "Increases damage dealt by &a{0}%&7 for every percent of health your target still has.",
+  "short": "Increases damage dealt by &a{0}%&7 for every percent of health your target still has.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "prosperity",
+  "name": "Prosperity",
+  "referenceName": "Prosperity",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BELT",
+   "CLOAK",
+   "GLOVES",
+   "NECKLACE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3,
+    6,
+    9,
+    12,
+    15
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   100,
+   100,
+   100,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &c+{0}❤ Health&7.",
+  "short": "Grants &c+{0}❤ Health&7.",
+  "stats": [
+   {
+    "stat": "HEALTH",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "protection",
+  "name": "Protection",
+  "referenceName": "Protection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "blast_protection",
+   "fire_protection",
+   "projectile_protection"
+  ],
+  "values": [
+   [
+    4,
+    8,
+    12,
+    16,
+    20,
+    25,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Grants &a+{0}❈ Defense&7.",
+  "short": "Grants &a+{0}❈ Defense&7.",
+  "stats": [
+   {
+    "stat": "DEFENSE",
+    "series": 0
+   }
+  ],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "punch",
+  "name": "Punch",
+  "referenceName": "Punch",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 2,
+  "tableMax": 2,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   15,
+   30
+  ],
+  "skill": 0,
+  "desc": "Arrows knock enemies back an extra &a{0}&7 blocks.",
+  "short": "Arrows knock enemies back an extra &a{0}&7 blocks.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "quantum",
+  "name": "Quantum",
+  "referenceName": "Quantum",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "NECKLACE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    0,
+    0,
+    1.2,
+    1.6,
+    2
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   50,
+   50,
+   100
+  ],
+  "skill": 0,
+  "desc": "Grants &4+{0}♨ Vitality&7 on weekdays, and &3+{1}☯&7 of a random Wisdom on weekends.",
+  "short": "Grants &4+{0}♨ Vitality&7 on weekdays and Wisdom on weekends.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "quick_bite",
+  "name": "Quick Bite",
+  "referenceName": "Quick Bite",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   18,
+   23,
+   27,
+   36,
+   45
+  ],
+  "skill": 23,
+  "desc": "Fish swim toward your bobber &a{0}%&7 faster.",
+  "short": "Fish swim toward your bobber &a{0}%&7 faster.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "rainbow",
+  "name": "Rainbow",
+  "referenceName": "Rainbow",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "SHEARS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   10
+  ],
+  "skill": 6,
+  "desc": "Sheared sheep drop wool of a random colour, and take on that colour.",
+  "short": "Sheared sheep drop wool of a random colour, and take on that colour.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "reflection",
+  "name": "Reflection",
+  "referenceName": "Reflection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "CHESTPLATE",
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "thorns"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    2,
+    5,
+    10,
+    20,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "skill": 24,
+  "desc": "Grants &b+{0}✎ Intelligence&7 and &f+{1}❂ True Defense&7. An arrow that hits you costs its shooter &a{2}x&7 your Intelligence.",
+  "short": "Grants &b+{0}✎ Intelligence&7 and True Defense, and punishes archers.",
+  "stats": [
+   {
+    "stat": "INTELLIGENCE",
+    "series": 0
+   },
+   {
+    "stat": "TRUE_DEFENSE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "rejuvenate",
+  "name": "Rejuvenate",
+  "referenceName": "Rejuvenate",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "respite"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 10,
+  "desc": "Grants &c+{0}❣ Health Regen&7.",
+  "short": "Grants &c+{0}❣ Health Regen&7.",
+  "stats": [
+   {
+    "stat": "HEALTH_REGEN",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "replenish",
+  "name": "Replenish",
+  "referenceName": "Replenish",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [],
+  "rarity": [
+   "RARE"
+  ],
+  "cost": [
+   50
+  ],
+  "skill": 7,
+  "desc": "Breaking crops replants them from the seeds in your inventory.",
+  "short": "Breaking crops replants them from the seeds in your inventory.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "respiration",
+  "name": "Respiration",
+  "referenceName": "Respiration",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 4,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    15,
+    30,
+    45,
+    60
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30
+  ],
+  "skill": 0,
+  "desc": "Grants &a+{0}&7 Respiration, letting you stay underwater longer.",
+  "short": "Grants &a+{0}&7 Respiration, letting you stay underwater longer.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "respite",
+  "name": "Respite",
+  "referenceName": "Respite",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "rejuvenate"
+  ],
+  "values": [
+   [
+    3,
+    6,
+    9,
+    12,
+    15
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 23,
+  "desc": "Grants &c+{0}❣ Health Regen&7 while out of combat.",
+  "short": "Grants &c+{0}❣ Health Regen&7 while out of combat.",
+  "stats": [],
+  "experiments": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "scavenger",
+  "name": "Scavenger",
+  "referenceName": "Scavenger",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    1.5,
+    1.8
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 1,
+  "desc": "Collect &6{0} coins&7 per monster level on every kill.",
+  "short": "Collect &6{0} coins&7 per monster level on every kill.",
+  "stats": [],
+  "experiments": [
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "scuba",
+  "name": "Scuba",
+  "referenceName": "Scuba",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 5,
+  "desc": "Grants &9+{0} Pressure Resistance&7 for diving deep.",
+  "short": "Grants &9+{0} Pressure Resistance&7 for diving deep.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "sharpness",
+  "name": "Sharpness",
+  "referenceName": "Sharpness",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Increases melee damage dealt by &a{0}%&7.",
+  "short": "Increases melee damage dealt by &a{0}%&7.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "silk_touch",
+  "name": "Silk Touch",
+  "referenceName": "Silk Touch",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 1,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "DRILL",
+   "GAUNTLET",
+   "HOE",
+   "PICKAXE",
+   "SHEARS",
+   "SHOVEL"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "fortune",
+   "smelting_touch"
+  ],
+  "values": [],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [
+   10
+  ],
+  "skill": 0,
+  "desc": "Lets you collect blocks that would normally drop something else.",
+  "short": "Lets you collect blocks that would normally drop something else.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "small_brain",
+  "name": "Small Brain",
+  "referenceName": "Small Brain",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "big_brain"
+  ],
+  "values": [
+   [
+    0,
+    0,
+    -15,
+    -20,
+    -25
+   ],
+   [
+    0,
+    0,
+    1,
+    2,
+    3
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   60,
+   80,
+   100
+  ],
+  "skill": 21,
+  "desc": "Changes your Intelligence by &b{0}✎&7 and grants &f+{1}❂ True Defense&7.",
+  "short": "Changes your Intelligence by &b{0}✎&7 in exchange for True Defense.",
+  "stats": [
+   {
+    "stat": "INTELLIGENCE",
+    "series": 0
+   },
+   {
+    "stat": "TRUE_DEFENSE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "smarty_pants",
+  "name": "Smarty Pants",
+  "referenceName": "Smarty Pants",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "skill": 21,
+  "desc": "Grants &b+{0}✎ Intelligence&7.",
+  "short": "Grants &b+{0}✎ Intelligence&7.",
+  "stats": [
+   {
+    "stat": "INTELLIGENCE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "smelting_touch",
+  "name": "Smelting Touch",
+  "referenceName": "Smelting Touch",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 1,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE",
+   "SHOVEL"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "fortune",
+   "silk_touch"
+  ],
+  "values": [],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [
+   5
+  ],
+  "skill": 0,
+  "desc": "Blocks you break come out already smelted.",
+  "short": "Blocks you break come out already smelted.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "smite",
+  "name": "Smite",
+  "referenceName": "Smite",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   100,
+   200
+  ],
+  "skill": 0,
+  "desc": "Increases damage dealt to undead, skeletal and wither mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to undead, skeletal and wither mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "smoldering",
+  "name": "Smoldering",
+  "referenceName": "Smoldering",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 23,
+  "desc": "Increases damage dealt to infernal mobs by &a{0}%&7.",
+  "short": "Increases damage dealt to infernal mobs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "snipe",
+  "name": "Snipe",
+  "referenceName": "Snipe",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 4,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30
+  ],
+  "skill": 6,
+  "desc": "Arrows deal &a+{0}%&7 damage for every 10 blocks they travel.",
+  "short": "Arrows deal &a+{0}%&7 damage for every 10 blocks they travel.",
+  "stats": [],
+  "experiments": [
+   4
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "spiked_hook",
+  "name": "Spiked Hook",
+  "referenceName": "Spiked Hook",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   75
+  ],
+  "skill": 18,
+  "desc": "Your fishing rod deals &a{0}%&7 more damage to monsters.",
+  "short": "Your fishing rod deals &a{0}%&7 more damage to monsters.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "stealth",
+  "name": "Stealth",
+  "referenceName": "Stealth",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Timid creatures have a &a{0}%&7 chance to hold still instead of fleeing.",
+  "short": "Timid creatures have a &a{0}%&7 chance to hold still instead of fleeing.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "strong_mana",
+  "name": "Strong Vitality",
+  "referenceName": "Strong Vitality",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ferocious_mana",
+   "hardened_mana",
+   "mana_vampire"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC",
+   "LEGENDARY",
+   "MYTHIC",
+   "MYTHIC"
+  ],
+  "cost": [
+   30,
+   45,
+   60,
+   75,
+   90,
+   180,
+   240,
+   300,
+   360,
+   420
+  ],
+  "skill": 22,
+  "desc": "Turns &a{0}%&7 of the Vitality you spend into Strength for 10s (up to 30).",
+  "short": "Turns &a{0}%&7 of the Vitality you spend into Strength for 10s (up to 30).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "strong_vitality"
+  ]
+ },
+ {
+  "id": "sugar_rush",
+  "name": "Sugar Rush",
+  "referenceName": "Sugar Rush",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    2,
+    4,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30
+  ],
+  "skill": 7,
+  "desc": "Grants &f+{0}✦ Speed&7.",
+  "short": "Grants &f+{0}✦ Speed&7.",
+  "stats": [
+   {
+    "stat": "SPEED",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "sunder",
+  "name": "Sunder",
+  "referenceName": "Sunder",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    12.5,
+    25,
+    37.5,
+    50,
+    62.5,
+    75
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   5,
+   10,
+   15,
+   20,
+   25
+  ],
+  "skill": 2,
+  "desc": "Grants &6+{0}☘ Farming Fortune&7 on axes.",
+  "short": "Grants &6+{0}☘ Farming Fortune&7 on axes.",
+  "stats": [
+   {
+    "stat": "FARMING_FORTUNE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "syphon",
+  "name": "Drain",
+  "referenceName": "Drain",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "life_steal",
+   "mana_steal",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   45,
+   200
+  ],
+  "skill": 15,
+  "desc": "Every hit on a mob restores &4+{0}♨ Vitality&7 (1s cooldown).",
+  "short": "Every hit on a mob restores &4+{0}♨ Vitality&7 (1s cooldown).",
+  "stats": [],
+  "experiments": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": [
+   "drain"
+  ]
+ },
+ {
+  "id": "tabasco",
+  "name": "Scoville",
+  "referenceName": "Tabasco",
+  "ultimate": false,
+  "minLevel": 2,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    2,
+    3
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   500,
+   500,
+   500
+  ],
+  "skill": 0,
+  "desc": "Grants &c+{0}&7 weapon damage.",
+  "short": "Grants &c+{0}&7 weapon damage.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "scoville"
+  ]
+ },
+ {
+  "id": "thorns",
+  "name": "Thorns",
+  "referenceName": "Thorns",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 4,
+  "tableMax": 3,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "reflection"
+  ],
+  "values": [
+   [
+    3,
+    6,
+    9,
+    12
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   15,
+   30,
+   45
+  ],
+  "skill": 0,
+  "desc": "&a50%&7 chance to send &a{0}%&7 of the damage you take back at the attacker.",
+  "short": "&a50%&7 chance to send &a{0}%&7 of the damage you take back at the attacker.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "thunderbolt",
+  "name": "Thunderbolt",
+  "referenceName": "Thunderbolt",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "thunderlord",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    4,
+    8,
+    12,
+    16,
+    20,
+    25,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 20,
+  "desc": "Every 3rd hit on a monster calls lightning, dealing &a{0}%&7 of the hit to up to 10 monsters within 2 blocks.",
+  "short": "Every 3rd hit on a monster calls lightning, dealing &a{0}%&7 of the hit to up to 10 monsters within 2 blocks.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "thunderlord",
+  "name": "Stormlord",
+  "referenceName": "Thunderlord",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "thunderbolt",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    8,
+    16,
+    24,
+    32,
+    40,
+    50,
+    60
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200,
+   0
+  ],
+  "skill": 14,
+  "desc": "Every 3rd hit on a monster calls lightning, dealing &a{0}%&7 of the hit's damage.",
+  "short": "Every 3rd hit on a monster calls lightning, dealing &a{0}%&7 of the hit's damage.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": [
+   "stormlord"
+  ]
+ },
+ {
+  "id": "tidal",
+  "name": "Tidal",
+  "referenceName": "Tidal",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5,
+    10,
+    15
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25,
+   40,
+   55
+  ],
+  "skill": 13,
+  "desc": "Grants &a+{0}%&7 ❈ Defense against sea creatures.",
+  "short": "Grants &a+{0}%&7 ❈ Defense against sea creatures.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "titan_killer",
+  "name": "Titan Killer",
+  "referenceName": "Titan Killer",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "giant_killer",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+   ],
+   [
+    6,
+    12,
+    18,
+    24,
+    40,
+    60,
+    80
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   100,
+   200
+  ],
+  "skill": 28,
+  "desc": "Increases damage dealt by &a{0}%&7 for every 100 Defense your target has, up to &a{1}%&7.",
+  "short": "Increases damage dealt by &a{0}%&7 for every 100 Defense your target has.",
+  "stats": [],
+  "experiments": [
+   6,
+   7
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "toxophilite",
+  "name": "Toxophilite",
+  "referenceName": "Toxophilite",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 10,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    3,
+    3.7778,
+    4.5556,
+    5.3333,
+    6.1111,
+    6.8889,
+    7.6667,
+    8.4444,
+    9.2222,
+    10
+   ],
+   [
+    3.7,
+    4.4,
+    5.1,
+    5.8,
+    6.5,
+    7.2,
+    7.9,
+    8.6,
+    9.3,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [
+   25
+  ],
+  "skill": 0,
+  "desc": "Gain &a{0}%&7 extra Combat XP and &9+{1}☣ Crit Chance&7. Levels up from the Combat XP you earn with a bow.",
+  "short": "Gain &a{0}%&7 extra Combat XP and some Crit Chance; levels up as you shoot.",
+  "stats": [
+   {
+    "stat": "COMBAT_WISDOM",
+    "series": 0
+   },
+   {
+    "stat": "CRIT_CHANCE",
+    "series": 1
+   }
+  ],
+  "experiments": [],
+  "levelBy": {
+   "type": "bow_combat_xp",
+   "thresholds": [
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000,
+    1500000,
+    2000000,
+    2500000,
+    3000000
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "id": "transylvanian",
+  "name": "Sanguine",
+  "referenceName": "Transylvanian",
+  "ultimate": false,
+  "minLevel": 4,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    0,
+    2,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    20,
+    40
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   100,
+   150
+  ],
+  "skill": 0,
+  "desc": "Heals &c{0}❤&7 per second for each enemy within 10 blocks, up to &c{1}❤&7 per second.",
+  "short": "Heals &c{0}❤&7 per second for each enemy close by.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "sanguine"
+  ]
+ },
+ {
+  "id": "triple_strike",
+  "name": "Triple-Strike",
+  "referenceName": "Triple-Strike",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 4,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "first_strike",
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   20,
+   30,
+   40,
+   75,
+   200
+  ],
+  "skill": 19,
+  "desc": "Your first three hits on a mob deal &a{0}%&7 more melee damage.",
+  "short": "Your first three hits on a mob deal &a{0}%&7 more melee damage.",
+  "stats": [],
+  "experiments": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "true_protection",
+  "name": "True Protection",
+  "referenceName": "True Protection",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "CHESTPLATE",
+   "HELMET"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [
+   40
+  ],
+  "skill": 15,
+  "desc": "Grants &f+{0}❂ True Defense&7.",
+  "short": "Grants &f+{0}❂ True Defense&7.",
+  "stats": [
+   {
+    "stat": "TRUE_DEFENSE",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_cactus",
+  "name": "Turbo-Cacti",
+  "referenceName": "Turbo-Cacti",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Cactus Fortune&7.",
+  "short": "Grants &6+{0}☘ Cactus Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "turbo_cacti"
+  ]
+ },
+ {
+  "id": "turbo_cane",
+  "name": "Turbo-Cane",
+  "referenceName": "Turbo-Cane",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Sugar Cane Fortune&7.",
+  "short": "Grants &6+{0}☘ Sugar Cane Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_carrot",
+  "name": "Turbo-Carrot",
+  "referenceName": "Turbo-Carrot",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Carrot Fortune&7.",
+  "short": "Grants &6+{0}☘ Carrot Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_coco",
+  "name": "Turbo-Cocoa",
+  "referenceName": "Turbo-Cocoa",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Cocoa Bean Fortune&7.",
+  "short": "Grants &6+{0}☘ Cocoa Bean Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "turbo_cocoa"
+  ]
+ },
+ {
+  "id": "turbo_melon",
+  "name": "Turbo-Melon",
+  "referenceName": "Turbo-Melon",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Melon Fortune&7.",
+  "short": "Grants &6+{0}☘ Melon Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_moonflower",
+  "name": "Turbo-Moonflower",
+  "referenceName": "Turbo-Moonflower",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Moonflower Fortune&7.",
+  "short": "Grants &6+{0}☘ Moonflower Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_mushrooms",
+  "name": "Turbo-Mushrooms",
+  "referenceName": "Turbo-Mushrooms",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Mushroom Fortune&7.",
+  "short": "Grants &6+{0}☘ Mushroom Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_potato",
+  "name": "Turbo-Potato",
+  "referenceName": "Turbo-Potato",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Potato Fortune&7.",
+  "short": "Grants &6+{0}☘ Potato Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_pumpkin",
+  "name": "Turbo-Pumpkin",
+  "referenceName": "Turbo-Pumpkin",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Pumpkin Fortune&7.",
+  "short": "Grants &6+{0}☘ Pumpkin Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_rose",
+  "name": "Turbo-Rose",
+  "referenceName": "Turbo-Rose",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_sunflower",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Wild Rose Fortune&7.",
+  "short": "Grants &6+{0}☘ Wild Rose Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_sunflower",
+  "name": "Turbo-Sunflower",
+  "referenceName": "Turbo-Sunflower",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_warts",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Sunflower Fortune&7.",
+  "short": "Grants &6+{0}☘ Sunflower Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_warts",
+  "name": "Turbo-Warts",
+  "referenceName": "Turbo-Warts",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_wheat"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "UNCOMMON"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Nether Wart Fortune&7.",
+  "short": "Grants &6+{0}☘ Nether Wart Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "turbo_wheat",
+  "name": "Turbo-Wheat",
+  "referenceName": "Turbo-Wheat",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "turbo_cactus",
+   "turbo_cane",
+   "turbo_carrot",
+   "turbo_coco",
+   "turbo_melon",
+   "turbo_moonflower",
+   "turbo_mushrooms",
+   "turbo_potato",
+   "turbo_pumpkin",
+   "turbo_rose",
+   "turbo_sunflower",
+   "turbo_warts"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "skill": 0,
+  "desc": "Grants &6+{0}☘ Wheat Fortune&7.",
+  "short": "Grants &6+{0}☘ Wheat Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "ultimate_bank",
+  "name": "Bank",
+  "referenceName": "Bank",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ],
+   [
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 16,
+  "desc": "Keep &a{0}%&7 of your purse when you die, and enemies drop &6+{1} coins&7.",
+  "short": "Keep &a{0}%&7 of your purse when you die.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "bank"
+  ]
+ },
+ {
+  "id": "ultimate_bobbin_time",
+  "name": "Bobber's Chorus",
+  "referenceName": "Bobbin' Time",
+  "ultimate": true,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    0,
+    0,
+    0.6,
+    0.8,
+    1
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 24,
+  "desc": "Boosts every fishing stat and Magic Find by &a{0}%&7 for each bobber within 30 blocks (up to 5).",
+  "short": "Boosts every fishing stat and Magic Find by &a{0}%&7 for each bobber within 30 blocks (up to 5).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "bobbers_chorus",
+   "bobbin_time"
+  ]
+ },
+ {
+  "id": "ultimate_chimera",
+  "name": "Chimera",
+  "referenceName": "Chimera",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    20,
+    40,
+    60,
+    80,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 31,
+  "desc": "Copies &a{0}%&7 of your active pet's stats.",
+  "short": "Copies &a{0}%&7 of your active pet's stats.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "chimera"
+  ]
+ },
+ {
+  "id": "ultimate_combo",
+  "name": "Combo",
+  "referenceName": "Combo",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 24,
+  "desc": "Each kill adds &a+{0}%&7 damage, stacking up to &a{1}&7 kills that land within &a{2}s&7 of each other.",
+  "short": "Each kill adds &a+{0}%&7 damage while your streak lasts.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "combo"
+  ]
+ },
+ {
+  "id": "ultimate_crop_fever",
+  "name": "Crop Fever",
+  "referenceName": "Crop Fever",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "HOE"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0.001,
+    0.002,
+    0.003,
+    0.004,
+    0.005
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 32,
+  "desc": "Breaking crops has a &a{0}%&7 chance to start 60s of Crop Fever: extra crop rolls, +15 Overbloom and &6+100☘ Farming Fortune&7.",
+  "short": "Breaking crops has a &a{0}%&7 chance to start 60s of Crop Fever: extra crop rolls, +15 Overbloom and &6+100☘ Farming Fortune&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "crop_fever"
+  ]
+ },
+ {
+  "id": "ultimate_fatal_tempo",
+  "name": "Fatal Tempo",
+  "referenceName": "Fatal Tempo",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 37,
+  "desc": "Each hit raises your ⫽ Ferocity by &a{0}%&7, up to 200%, until 3s after your last attack.",
+  "short": "Each hit raises your ⫽ Ferocity by &a{0}%&7, up to 200%, until 3s after your last attack.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "fatal_tempo"
+  ]
+ },
+ {
+  "id": "ultimate_first_impression",
+  "name": "First Impression",
+  "referenceName": "First Impression",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 14,
+  "desc": "Log breaks made with a melee swing grant &a+{0}∮ Sweep&7, and the first log of each tree grants &a+{1}∮ Sweep&7.",
+  "short": "Log breaks made with a melee swing grant &a+{0}∮ Sweep&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "first_impression"
+  ]
+ },
+ {
+  "id": "ultimate_flash",
+  "name": "Flash",
+  "referenceName": "Flash",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "FISHING_ROD",
+   "FISHING_WEAPON"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 30,
+  "desc": "&a{0}%&7 chance for a fish to bite the moment your bobber lands.",
+  "short": "&a{0}%&7 chance for a fish to bite the moment your bobber lands.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "flash"
+  ]
+ },
+ {
+  "id": "ultimate_flowstate",
+  "name": "Flowstate",
+  "referenceName": "Flowstate",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 3,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "DRILL",
+   "GAUNTLET",
+   "PICKAXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 15,
+  "desc": "Each block in a mining streak grants &6+{0}⸕ Mining Speed&7, up to 200 blocks; the streak breaks after 10s idle.",
+  "short": "Each block in a mining streak grants &6+{0}⸕ Mining Speed&7, up to 200 blocks; the streak breaks after 10s idle.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "flowstate"
+  ]
+ },
+ {
+  "id": "ultimate_habanero_tactics",
+  "name": "Pepper Tactics",
+  "referenceName": "Habanero Tactics",
+  "ultimate": true,
+  "minLevel": 4,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    0,
+    0,
+    0,
+    20,
+    25
+   ],
+   [
+    0,
+    0,
+    0,
+    6,
+    7.5
+   ],
+   [
+    0,
+    0,
+    0,
+    2.5,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    10,
+    15
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 28,
+  "desc": "With a slayer weapon: deal &a+{0}%&7 damage, gain &3+{2}☯ Combat Wisdom&7, and heal &a+{1}%&7 more from wands.",
+  "short": "Deal &a+{0}%&7 damage with slayer weapons, with more wisdom and healing.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "habanero_tactics",
+   "pepper_tactics"
+  ]
+ },
+ {
+  "id": "ultimate_inferno",
+  "name": "Inferno",
+  "referenceName": "Inferno",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE",
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    125,
+    150,
+    175,
+    200,
+    225
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 37,
+  "desc": "Every 10th hit on a mob traps it in flames that deal &a{0}%&7 of that hit over 5s.",
+  "short": "Every 10th hit on a mob traps it in flames that deal &a{0}%&7 of that hit over 5s.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "inferno"
+  ]
+ },
+ {
+  "id": "ultimate_jerry",
+  "name": "Ultimate Jest",
+  "referenceName": "Ultimate Jerry",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [],
+  "tags": [],
+  "itemIds": [
+   "ASPECT_OF_THE_JERRY"
+  ],
+  "conflicts": [],
+  "values": [
+   [
+    1000,
+    2000,
+    3000,
+    4000,
+    5000
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 18,
+  "desc": "Raises the base damage of the jester's blade by &a{0}%&7.",
+  "short": "Raises the base damage of the jester's blade by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "jerry",
+   "ultimate_jest"
+  ]
+ },
+ {
+  "id": "ultimate_last_stand",
+  "name": "Last Stand",
+  "referenceName": "Last Stand",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    2.5,
+    5,
+    7.5,
+    10,
+    12.5
+   ],
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 30,
+  "desc": "Dropping below 40% health grants &a+{0}%&7 ❈ Defense for 10s and restores &a{1}&7 Vitality (30s cooldown).",
+  "short": "Dropping below 40% health grants &a+{0}%&7 Defense for 10s.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "last_stand"
+  ]
+ },
+ {
+  "id": "ultimate_legion",
+  "name": "Legion",
+  "referenceName": "Legion",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    0.07,
+    0.14,
+    0.21,
+    0.28,
+    0.35
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 34,
+  "desc": "Boosts every combat stat and Magic Find by &a{0}%&7 for each player within 30 blocks (up to 20).",
+  "short": "Boosts every combat stat and Magic Find by &a{0}%&7 for each player within 30 blocks (up to 20).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "legion"
+  ]
+ },
+ {
+  "id": "ultimate_missile",
+  "name": "Missile",
+  "referenceName": "Missile",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "AXE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 14,
+  "desc": "Cuts the log penalty on thrown axes by &a{0}%&7.",
+  "short": "Cuts the log penalty on thrown axes by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "missile"
+  ]
+ },
+ {
+  "id": "ultimate_no_pain_no_gain",
+  "name": "No Pain No Gain",
+  "referenceName": "No Pain No Gain",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    20,
+    40,
+    60,
+    80,
+    100
+   ],
+   [
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 29,
+  "desc": "&a{0}%&7 chance to gain &a{1}&7 experience orbs whenever a mob hits you.",
+  "short": "&a{0}%&7 chance to gain experience whenever a mob hits you.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "no_pain_no_gain"
+  ]
+ },
+ {
+  "id": "ultimate_one_for_all",
+  "name": "One For All",
+  "referenceName": "One For All",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "tableMax": 0,
+  "combinable": false,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "bane_of_arthropods",
+   "cleave",
+   "critical",
+   "cubism",
+   "dragon_hunter",
+   "ender_slayer",
+   "execute",
+   "experience",
+   "fire_aspect",
+   "first_strike",
+   "giant_killer",
+   "impaling",
+   "knockback",
+   "lethality",
+   "life_steal",
+   "looting",
+   "luck",
+   "mana_steal",
+   "prosecute",
+   "scavenger",
+   "sharpness",
+   "smite",
+   "smoldering",
+   "syphon",
+   "thunderbolt",
+   "thunderlord",
+   "titan_killer",
+   "triple_strike",
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise",
+   "vampirism",
+   "venomous",
+   "vicious"
+  ],
+  "values": [
+   [
+    500
+   ]
+  ],
+  "rarity": [
+   "COMMON"
+  ],
+  "cost": [],
+  "skill": 38,
+  "desc": "Strips every other enchantment from the weapon but raises its damage by &a{0}%&7.",
+  "short": "Strips every other enchantment from the weapon but raises its damage by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "one_for_all"
+  ]
+ },
+ {
+  "id": "ultimate_refrigerate",
+  "name": "Refrigerate",
+  "referenceName": "Refrigerate",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    3,
+    3.75,
+    4.5,
+    5.25,
+    6
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 20,
+  "desc": "Turns &a{0}%&7 of the mana you spend into ❈ Defense for 10s (up to 150).",
+  "short": "Turns &a{0}%&7 of the mana you spend into ❈ Defense for 10s (up to 150).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "refrigerate"
+  ]
+ },
+ {
+  "id": "ultimate_reiterate",
+  "name": "Duplex",
+  "referenceName": "Duplex",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   [
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 28,
+  "desc": "Fires a second arrow dealing &a{0}%&7 of the first; targets it hits take &a{1}x&7 fire damage for 60s.",
+  "short": "Fires a second arrow dealing &a{0}%&7 of the first.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "duplex",
+   "reiterate"
+  ]
+ },
+ {
+  "id": "ultimate_rend",
+  "name": "Rend",
+  "referenceName": "Rend",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 32,
+  "desc": "Left-click to rip your arrows out of nearby enemies, each dealing &a{0}%&7 of your last critical shot (up to 5 arrows, 2s cooldown).",
+  "short": "Left-click to rip your arrows out of nearby enemies, each dealing &a{0}%&7 of your last critical shot (up to 5 arrows, 2s cooldown).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "rend"
+  ]
+ },
+ {
+  "id": "ultimate_soul_eater",
+  "name": "Soul Eater",
+  "referenceName": "Soul Eater",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 36,
+  "desc": "Stores &a{0}x&7 the damage of the last monster you killed and adds it as ❁ Strength to your next critical hit.",
+  "short": "Stores &a{0}x&7 the damage of the last monster you killed and adds it as ❁ Strength to your next critical hit.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "soul_eater"
+  ]
+ },
+ {
+  "id": "ultimate_sunset",
+  "name": "Sunset",
+  "referenceName": "Sunset",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "HOE",
+   "LEGGINGS"
+  ],
+  "tags": [
+   "farming_tool"
+  ],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_swarm",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    -1,
+    -2,
+    -3,
+    -4,
+    -5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 27,
+  "desc": "By day, &a+{0}&7 Overbloom; by night, your garden visitor cooldown changes by &a{1}%&7.",
+  "short": "By day, &a+{0}&7 Overbloom; by night, visitors come back sooner.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "sunset"
+  ]
+ },
+ {
+  "id": "ultimate_swarm",
+  "name": "Swarm",
+  "referenceName": "Swarm",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_wisdom",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    10
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 35,
+  "desc": "Increases your damage by &a{0}%&7 for each enemy within 10 blocks (up to 10).",
+  "short": "Increases your damage by &a{0}%&7 for each enemy within 10 blocks (up to 10).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "swarm"
+  ]
+ },
+ {
+  "id": "ultimate_the_one",
+  "name": "The One",
+  "referenceName": "The One",
+  "ultimate": true,
+  "minLevel": 4,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "NECKLACE"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [],
+  "values": [
+   [
+    0,
+    0,
+    0,
+    0.5,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0.1,
+    0.2
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 25,
+  "desc": "Grants &c+{0}❤ Health&7 and &c+{1}❁ Strength&7 for every collection you have maxed.",
+  "short": "Grants &c+{0}❤ Health&7 and Strength for every maxed collection.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "the_one"
+  ]
+ },
+ {
+  "id": "ultimate_wisdom",
+  "name": "Wisdom",
+  "referenceName": "Wisdom",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOOTS",
+   "CHESTPLATE",
+   "HELMET",
+   "LEGGINGS"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wise"
+  ],
+  "values": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    20,
+    40,
+    60,
+    80,
+    100
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [],
+  "skill": 27,
+  "desc": "Grants &b+{0}✎ Intelligence&7 for every 5 experience levels you hold, up to &b{1}&7.",
+  "short": "Grants &b+{0}✎ Intelligence&7 for every 5 experience levels you hold.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "wisdom"
+  ]
+ },
+ {
+  "id": "ultimate_wise",
+  "name": "Ultimate Wise",
+  "referenceName": "Ultimate Wise",
+  "ultimate": true,
+  "minLevel": 1,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DRILL",
+   "DUNGEON_WEAPON",
+   "FISHING_ROD",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "HOE",
+   "LONGSWORD",
+   "PICKAXE",
+   "SHEARS",
+   "SHOVEL",
+   "SWORD",
+   "WAND"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_bank",
+   "ultimate_bobbin_time",
+   "ultimate_chimera",
+   "ultimate_combo",
+   "ultimate_fatal_tempo",
+   "ultimate_first_impression",
+   "ultimate_flash",
+   "ultimate_flowstate",
+   "ultimate_habanero_tactics",
+   "ultimate_inferno",
+   "ultimate_last_stand",
+   "ultimate_legion",
+   "ultimate_missile",
+   "ultimate_no_pain_no_gain",
+   "ultimate_one_for_all",
+   "ultimate_refrigerate",
+   "ultimate_reiterate",
+   "ultimate_rend",
+   "ultimate_soul_eater",
+   "ultimate_sunset",
+   "ultimate_swarm",
+   "ultimate_wisdom"
+  ],
+  "values": [
+   [
+    10,
+    20,
+    30,
+    40,
+    50
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   50,
+   100,
+   150,
+   200,
+   250
+  ],
+  "skill": 20,
+  "desc": "Lowers this item's ability mana costs by &a{0}%&7.",
+  "short": "Lowers this item's ability mana costs by &a{0}%&7.",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": [
+   "wise"
+  ]
+ },
+ {
+  "id": "vampirism",
+  "name": "Vampirism",
+  "referenceName": "Vampirism",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 6,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 15,
+  "desc": "Heals &c{0}❤&7 every time you kill a mob (0.5s cooldown).",
+  "short": "Heals &c{0}❤&7 every time you kill a mob (0.5s cooldown).",
+  "stats": [],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "venomous",
+  "name": "Venomous",
+  "referenceName": "Venomous",
+  "ultimate": false,
+  "minLevel": 1,
+  "maxLevel": 7,
+  "tableMax": 5,
+  "combinable": true,
+  "categories": [
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    2,
+    4,
+    6,
+    8,
+    12,
+    15,
+    20
+   ],
+   [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.2,
+    1.6,
+    2
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON",
+   "RARE",
+   "EPIC"
+  ],
+  "cost": [
+   20,
+   25,
+   30,
+   40,
+   50,
+   200
+  ],
+  "skill": 17,
+  "desc": "Each hit slows the target by &a{0}%&7 and poisons it for &a{1}%&7 of your damage per second, stacking up to 40 hits for 5s.",
+  "short": "Each hit slows the target by &a{0}%&7 and poisons it.",
+  "stats": [],
+  "experiments": [
+   6
+  ],
+  "levelBy": null,
+  "aliases": []
+ },
+ {
+  "id": "vicious",
+  "name": "Vicious",
+  "referenceName": "Vicious",
+  "ultimate": false,
+  "minLevel": 3,
+  "maxLevel": 5,
+  "tableMax": 0,
+  "combinable": true,
+  "categories": [
+   "BOW",
+   "DUNGEON_WEAPON",
+   "FISHING_WEAPON",
+   "GAUNTLET",
+   "LONGSWORD",
+   "SWORD"
+  ],
+  "tags": [],
+  "itemIds": [],
+  "conflicts": [
+   "ultimate_one_for_all"
+  ],
+  "values": [
+   [
+    0,
+    0,
+    3,
+    4,
+    5
+   ]
+  ],
+  "rarity": [
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "COMMON",
+   "UNCOMMON"
+  ],
+  "cost": [
+   0,
+   0,
+   60,
+   80,
+   100
+  ],
+  "skill": 26,
+  "desc": "Grants &c+{0}⫽ Ferocity&7.",
+  "short": "Grants &c+{0}⫽ Ferocity&7.",
+  "stats": [
+   {
+    "stat": "FEROCITY",
+    "series": 0
+   }
+  ],
+  "experiments": [],
+  "levelBy": null,
+  "aliases": []
+ }
+]

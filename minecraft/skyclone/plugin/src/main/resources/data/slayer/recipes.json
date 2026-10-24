@@ -1,0 +1,1006 @@
+[
+ {
+  "id": "slayer:REVENANT_VISCERA",
+  "type": "CRAFTING",
+  "result": "REVENANT_VISCERA",
+  "amount": 1,
+  "grid": [
+   "",
+   "REVENANT_FLESH:32",
+   "",
+   "REVENANT_FLESH:32",
+   "ENCHANTED_STRING:32",
+   "REVENANT_FLESH:32",
+   "",
+   "REVENANT_FLESH:32",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:2"
+ },
+ {
+  "id": "slayer:TARANTULA_SILK",
+  "type": "CRAFTING",
+  "result": "TARANTULA_SILK",
+  "amount": 1,
+  "grid": [
+   "",
+   "TARANTULA_WEB:32",
+   "",
+   "TARANTULA_WEB:32",
+   "ENCHANTED_FLINT:32",
+   "TARANTULA_WEB:32",
+   "",
+   "TARANTULA_WEB:32",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:2"
+ },
+ {
+  "id": "slayer:GOLDEN_TOOTH",
+  "type": "CRAFTING",
+  "result": "GOLDEN_TOOTH",
+  "amount": 1,
+  "grid": [
+   "",
+   "WOLF_TOOTH:32",
+   "",
+   "WOLF_TOOTH:32",
+   "ENCHANTED_GOLD:32",
+   "WOLF_TOOTH:32",
+   "",
+   "WOLF_TOOTH:32",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "slayer:NULL_OVOID",
+  "type": "CRAFTING",
+  "result": "NULL_OVOID",
+  "amount": 1,
+  "grid": [
+   "",
+   "NULL_SPHERE:32",
+   "",
+   "NULL_SPHERE:32",
+   "ENCHANTED_OBSIDIAN:32",
+   "NULL_SPHERE:32",
+   "",
+   "NULL_SPHERE:32",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:2"
+ },
+ {
+  "id": "slayer:NULL_EDGE",
+  "type": "CRAFTING",
+  "result": "NULL_EDGE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MITHRIL:32",
+   "NULL_ATOM",
+   "ENCHANTED_MITHRIL:32",
+   "ENCHANTED_MITHRIL:32",
+   "NULL_ATOM",
+   "ENCHANTED_MITHRIL:32",
+   "ENCHANTED_MITHRIL:32",
+   "NULL_ATOM",
+   "ENCHANTED_MITHRIL:32"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "slayer:NULL_BLADE",
+  "type": "CRAFTING",
+  "result": "NULL_BLADE",
+  "amount": 1,
+  "grid": [
+   "NULL_OVOID:16",
+   "NULL_EDGE",
+   "NULL_OVOID:16",
+   "ENCHANTED_QUARTZ_BLOCK:32",
+   "NULL_EDGE",
+   "ENCHANTED_QUARTZ_BLOCK:32",
+   "NULL_OVOID:16",
+   "NULL_EDGE",
+   "NULL_OVOID:16"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "slayer:REVENANT_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "REVENANT_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:32",
+   "",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "REVENANT_VISCERA",
+   "ENCHANTED_DIAMOND:32",
+   "REVENANT_VISCERA",
+   "REVENANT_VISCERA",
+   "REVENANT_VISCERA"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:5"
+ },
+ {
+  "id": "slayer:REVENANT_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "REVENANT_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "REVENANT_VISCERA",
+   "REVENANT_VISCERA",
+   "REVENANT_VISCERA",
+   "ENCHANTED_DIAMOND:16",
+   "",
+   "ENCHANTED_DIAMOND:16",
+   "ENCHANTED_DIAMOND:16",
+   "",
+   "ENCHANTED_DIAMOND:16"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:4"
+ },
+ {
+  "id": "slayer:REVENANT_BOOTS",
+  "type": "CRAFTING",
+  "result": "REVENANT_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:32",
+   "",
+   "ENCHANTED_DIAMOND:32",
+   "REVENANT_VISCERA",
+   "",
+   "REVENANT_VISCERA",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:4"
+ },
+ {
+  "id": "slayer:REAPER_MASK",
+  "type": "CRAFTING",
+  "result": "REAPER_MASK",
+  "amount": 1,
+  "grid": [
+   "REVENANT_VISCERA:32",
+   "",
+   "REVENANT_VISCERA:32",
+   "BEHEADED_HORROR",
+   "ENCHANTED_STRING:32",
+   "REVIVED_HEART",
+   "REVENANT_VISCERA:32",
+   "",
+   "REVENANT_VISCERA:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "slayer:REAPER_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "REAPER_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_CATALYST",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_CHESTPLATE",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_VISCERA:64",
+   "ENCHANTED_DIAMOND_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "slayer:REAPER_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "REAPER_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_CATALYST",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_LEGGINGS",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_VISCERA:64",
+   "ENCHANTED_DIAMOND_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "slayer:REAPER_BOOTS",
+  "type": "CRAFTING",
+  "result": "REAPER_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_CATALYST",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_BOOTS",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "ENCHANTED_DIAMOND_BLOCK",
+   "REVENANT_VISCERA:64",
+   "ENCHANTED_DIAMOND_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:7"
+ },
+ {
+  "id": "slayer:CRYSTALLIZED_HEART",
+  "type": "CRAFTING",
+  "result": "CRYSTALLIZED_HEART",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "ZOMBIE_HEART",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32",
+   "ENCHANTED_DIAMOND:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:3"
+ },
+ {
+  "id": "slayer:REVIVED_HEART",
+  "type": "CRAFTING",
+  "result": "REVIVED_HEART",
+  "amount": 1,
+  "grid": [
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART",
+   "CRYSTALLIZED_HEART",
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART",
+   "ZOMBIE_HEART"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:6"
+ },
+ {
+  "id": "slayer:WARDEN_HELMET",
+  "type": "CRAFTING",
+  "result": "WARDEN_HELMET",
+  "amount": 1,
+  "grid": [
+   "REVIVED_HEART",
+   "WARDEN_HEART",
+   "REVIVED_HEART",
+   "ENCHANTED_IRON_BLOCK:64",
+   "",
+   "ENCHANTED_IRON_BLOCK:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:8"
+ },
+ {
+  "id": "slayer:TARANTULA_HELMET",
+  "type": "CRAFTING",
+  "result": "TARANTULA_HELMET",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK",
+   "TARANTULA_SILK",
+   "TARANTULA_SILK",
+   "ENCHANTED_IRON:64",
+   "",
+   "ENCHANTED_IRON:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:5"
+ },
+ {
+  "id": "slayer:TARANTULA_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "TARANTULA_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:64",
+   "",
+   "ENCHANTED_IRON:64",
+   "ENCHANTED_IRON:64",
+   "TARANTULA_SILK",
+   "ENCHANTED_IRON:64",
+   "TARANTULA_SILK",
+   "TARANTULA_SILK",
+   "TARANTULA_SILK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:5"
+ },
+ {
+  "id": "slayer:TARANTULA_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "TARANTULA_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK",
+   "TARANTULA_SILK",
+   "TARANTULA_SILK",
+   "ENCHANTED_IRON:64",
+   "",
+   "ENCHANTED_IRON:64",
+   "ENCHANTED_IRON:64",
+   "",
+   "ENCHANTED_IRON:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:4"
+ },
+ {
+  "id": "slayer:TARANTULA_BOOTS",
+  "type": "CRAFTING",
+  "result": "TARANTULA_BOOTS",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK",
+   "SPIDER_CATALYST",
+   "TARANTULA_SILK",
+   "ENCHANTED_IRON:64",
+   "SPIDER_BOOTS",
+   "ENCHANTED_IRON:64",
+   "TARANTULA_SILK",
+   "ENCHANTED_IRON:64",
+   "TARANTULA_SILK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:4"
+ },
+ {
+  "id": "slayer:PRIMORDIAL_HELMET",
+  "type": "CRAFTING",
+  "result": "PRIMORDIAL_HELMET",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_CATALYST",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_HELMET",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_SILK:64",
+   "ENCHANTED_IRON_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "slayer:PRIMORDIAL_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "PRIMORDIAL_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_CATALYST",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_CHESTPLATE",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_SILK:64",
+   "ENCHANTED_IRON_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "slayer:PRIMORDIAL_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "PRIMORDIAL_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_CATALYST",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_LEGGINGS",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_SILK:64",
+   "ENCHANTED_IRON_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "slayer:PRIMORDIAL_BOOTS",
+  "type": "CRAFTING",
+  "result": "PRIMORDIAL_BOOTS",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_CATALYST",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_BOOTS",
+   "ENCHANTED_IRON_BLOCK",
+   "ENCHANTED_IRON_BLOCK",
+   "TARANTULA_SILK:64",
+   "ENCHANTED_IRON_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "slayer:MASTIFF_HELMET",
+  "type": "CRAFTING",
+  "result": "MASTIFF_HELMET",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GROWTH_HELMET",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:4"
+ },
+ {
+  "id": "slayer:MASTIFF_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "MASTIFF_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GROWTH_CHESTPLATE",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_GOLD:16",
+   "GOLDEN_TOOTH"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:4"
+ },
+ {
+  "id": "slayer:MASTIFF_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "MASTIFF_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GROWTH_LEGGINGS",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:4"
+ },
+ {
+  "id": "slayer:MASTIFF_BOOTS",
+  "type": "CRAFTING",
+  "result": "MASTIFF_BOOTS",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GROWTH_BOOTS",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_DIAMOND:16",
+   "GOLDEN_TOOTH"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:4"
+ },
+ {
+  "id": "slayer:HELMET_OF_THE_PACK",
+  "type": "CRAFTING",
+  "result": "HELMET_OF_THE_PACK",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH",
+   "GOLDEN_TOOTH",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32",
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "slayer:CHESTPLATE_OF_THE_PACK",
+  "type": "CRAFTING",
+  "result": "CHESTPLATE_OF_THE_PACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32",
+   "ENCHANTED_MUTTON:32",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_MUTTON:32",
+   "GOLDEN_TOOTH",
+   "GOLDEN_TOOTH",
+   "GOLDEN_TOOTH"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "slayer:LEGGINGS_OF_THE_PACK",
+  "type": "CRAFTING",
+  "result": "LEGGINGS_OF_THE_PACK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MUTTON:32",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_MUTTON:32",
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32",
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "slayer:BOOTS_OF_THE_PACK",
+  "type": "CRAFTING",
+  "result": "BOOTS_OF_THE_PACK",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "GOLDEN_TOOTH",
+   "",
+   "GOLDEN_TOOTH",
+   "ENCHANTED_MUTTON:32",
+   "",
+   "ENCHANTED_MUTTON:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "slayer:FINAL_DESTINATION_HELMET",
+  "type": "CRAFTING",
+  "result": "FINAL_DESTINATION_HELMET",
+  "amount": 1,
+  "grid": [
+   "NULL_OVOID",
+   "NULL_OVOID",
+   "NULL_OVOID",
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:4"
+ },
+ {
+  "id": "slayer:FINAL_DESTINATION_CHESTPLATE",
+  "type": "CRAFTING",
+  "result": "FINAL_DESTINATION_CHESTPLATE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "ENCHANTED_REDSTONE:64",
+   "ENCHANTED_REDSTONE:64",
+   "NULL_OVOID",
+   "ENCHANTED_REDSTONE:64",
+   "NULL_OVOID",
+   "NULL_OVOID",
+   "NULL_OVOID"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:4"
+ },
+ {
+  "id": "slayer:FINAL_DESTINATION_LEGGINGS",
+  "type": "CRAFTING",
+  "result": "FINAL_DESTINATION_LEGGINGS",
+  "amount": 1,
+  "grid": [
+   "NULL_OVOID",
+   "NULL_OVOID",
+   "NULL_OVOID",
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "ENCHANTED_REDSTONE:64",
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "ENCHANTED_REDSTONE:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:4"
+ },
+ {
+  "id": "slayer:FINAL_DESTINATION_BOOTS",
+  "type": "CRAFTING",
+  "result": "FINAL_DESTINATION_BOOTS",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_REDSTONE:64",
+   "",
+   "ENCHANTED_REDSTONE:64",
+   "NULL_OVOID",
+   "",
+   "NULL_OVOID"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:4"
+ },
+ {
+  "id": "slayer:AATROX_BATPHONE",
+  "type": "CRAFTING",
+  "result": "AATROX_BATPHONE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_REDSTONE",
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_COBBLESTONE",
+   "ENCHANTED_IRON",
+   "ENCHANTED_COBBLESTONE"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:3"
+ },
+ {
+  "id": "slayer:RADIANT_POWER_ORB",
+  "type": "CRAFTING",
+  "result": "RADIANT_POWER_ORB",
+  "amount": 1,
+  "grid": [
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2",
+   "ENCHANTED_EMERALD:8",
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2",
+   "WOLF_TOOTH:2"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:2"
+ },
+ {
+  "id": "slayer:MANA_FLUX_POWER_ORB",
+  "type": "CRAFTING",
+  "result": "MANA_FLUX_POWER_ORB",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_LAPIS_LAZULI_BLOCK",
+   "GOLDEN_TOOTH:8",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK",
+   "GOLDEN_TOOTH:8",
+   "RADIANT_POWER_ORB",
+   "GOLDEN_TOOTH:8",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK",
+   "GOLDEN_TOOTH:8",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:6"
+ },
+ {
+  "id": "slayer:OVERFLUX_POWER_ORB",
+  "type": "CRAFTING",
+  "result": "OVERFLUX_POWER_ORB",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH:32",
+   "OVERFLUX_CAPACITOR",
+   "GOLDEN_TOOTH:32",
+   "ENCHANTED_REDSTONE_BLOCK:8",
+   "MANA_FLUX_POWER_ORB",
+   "ENCHANTED_REDSTONE_BLOCK:8",
+   "GOLDEN_TOOTH:32",
+   "ENCHANTED_REDSTONE_BLOCK:8",
+   "GOLDEN_TOOTH:32"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:7"
+ },
+ {
+  "id": "slayer:PLASMAFLUX_POWER_ORB",
+  "type": "CRAFTING",
+  "result": "PLASMAFLUX_POWER_ORB",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_OBSIDIAN:64",
+   "PLASMA_NUCLEUS",
+   "ENCHANTED_OBSIDIAN:64",
+   "GOLDEN_TOOTH:24",
+   "OVERFLUX_POWER_ORB",
+   "GOLDEN_TOOTH:24",
+   "ENCHANTED_OBSIDIAN:64",
+   "GOLDEN_TOOTH:24",
+   "ENCHANTED_OBSIDIAN:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:7"
+ },
+ {
+  "id": "slayer:WARNING_FLARE",
+  "type": "CRAFTING",
+  "result": "WARNING_FLARE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SULPHUR:16",
+   "",
+   "",
+   "MOLTEN_POWDER:8",
+   "",
+   "",
+   "MOLTEN_POWDER:8",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:3"
+ },
+ {
+  "id": "slayer:ALERT_FLARE",
+  "type": "CRAFTING",
+  "result": "ALERT_FLARE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_SULPHUR:32",
+   "INFERNO_VERTEX:8",
+   "",
+   "MOLTEN_POWDER:64",
+   "",
+   "INFERNO_VERTEX:8",
+   "WARNING_FLARE",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:6"
+ },
+ {
+  "id": "slayer:SOS_FLARE",
+  "type": "CRAFTING",
+  "result": "SOS_FLARE",
+  "amount": 1,
+  "grid": [
+   "INFERNO_VERTEX:8",
+   "ENCHANTED_SULPHUR:32",
+   "INFERNO_APEX",
+   "MOLTEN_POWDER:64",
+   "",
+   "MOLTEN_POWDER:64",
+   "WILSON_ENGINEERING_PLANS",
+   "ALERT_FLARE",
+   "INFERNO_VERTEX:8"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:7"
+ },
+ {
+  "id": "slayer:STEAK_STAKE",
+  "type": "CRAFTING",
+  "result": "STEAK_STAKE",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "ENCHANTED_IRON",
+   "",
+   "COVEN_SEAL:3",
+   "",
+   "STICK",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "note": "Rift ingredients replaced"
+ },
+ {
+  "id": "slayer:SHARP_STEAK_STAKE",
+  "type": "CRAFTING",
+  "result": "SHARP_STEAK_STAKE",
+  "amount": 1,
+  "grid": [
+   "COVEN_SEAL",
+   "COVEN_SEAL",
+   "COVEN_SEAL",
+   "COVEN_SEAL",
+   "STEAK_STAKE",
+   "COVEN_SEAL",
+   "COVEN_SEAL",
+   "COVEN_SEAL",
+   "COVEN_SEAL"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:vampire:3"
+ },
+ {
+  "id": "slayer:WEIRD_TUBA",
+  "type": "CRAFTING",
+  "result": "WEIRD_TUBA",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:20",
+   "",
+   "ENCHANTED_IRON:20",
+   "ENCHANTED_IRON:20",
+   "GOLDEN_TOOTH:20",
+   "ENCHANTED_IRON:20",
+   "",
+   "ENCHANTED_IRON:20",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:wolf:5"
+ },
+ {
+  "id": "slayer:WEIRDER_TUBA",
+  "type": "CRAFTING",
+  "result": "WEIRDER_TUBA",
+  "amount": 1,
+  "grid": [
+   "GOLDEN_TOOTH:4",
+   "",
+   "GOLDEN_TOOTH:4",
+   "GOLDEN_TOOTH:4",
+   "WEIRD_TUBA",
+   "GOLDEN_TOOTH:4",
+   "",
+   "COVEN_SEAL",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:vampire:4"
+ },
+ {
+  "id": "slayer:GLOOMLOCK_GRIMOIRE",
+  "type": "CRAFTING",
+  "result": "GLOOMLOCK_GRIMOIRE",
+  "amount": 1,
+  "grid": [
+   "NULL_OVOID:4",
+   "ENCHANTED_GUNPOWDER:64",
+   "NULL_OVOID:4",
+   "ENCHANTED_QUARTZ_BLOCK:4",
+   "BOOK",
+   "ENCHANTED_QUARTZ_BLOCK:4",
+   "NULL_OVOID:4",
+   "ENCHANTED_GUNPOWDER:64",
+   "NULL_OVOID:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:enderman:5"
+ },
+ {
+  "id": "slayer:HOLY_ICE",
+  "type": "CRAFTING",
+  "result": "HOLY_ICE",
+  "amount": 1,
+  "grid": [
+   "COVEN_SEAL:4",
+   "ICE:20",
+   "COVEN_SEAL:4",
+   "ICE:20",
+   "ICE:20",
+   "ICE:20",
+   "COVEN_SEAL:4",
+   "ICE:20",
+   "COVEN_SEAL:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:vampire:1"
+ },
+ {
+  "id": "slayer:TACTICAL_INSERTION",
+  "type": "CRAFTING",
+  "result": "TACTICAL_INSERTION",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "TESSELLATED_ENDER_PEARL:4",
+   "",
+   "INFERNO_VERTEX:8",
+   "",
+   "MOLTEN_POWDER:48",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:blaze:4"
+ },
+ {
+  "id": "slayer:VOODOO_DOLL",
+  "type": "CRAFTING",
+  "result": "VOODOO_DOLL",
+  "amount": 1,
+  "grid": [
+   "ARROW:64",
+   "ENCHANTED_GHAST_TEAR:32",
+   "ARROW:64",
+   "ENCHANTED_PUFFERFISH",
+   "PUMPKIN_GENERATOR_9",
+   "ENCHANTED_PUFFERFISH",
+   "ARROW:64",
+   "CRYSTALLIZED_HEART",
+   "ARROW:64"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:5"
+ },
+ {
+  "id": "slayer:VOODOO_DOLL_WILTED",
+  "type": "CRAFTING",
+  "result": "VOODOO_DOLL_WILTED",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON:16",
+   "ENCHANTED_PUFFERFISH:3",
+   "ENCHANTED_IRON:16",
+   "ENCHANTED_IRON:16",
+   "VOIDLING_GENERATOR_2",
+   "ENCHANTED_GHAST_TEAR:13",
+   "ZOMBIE_HEART",
+   "ENCHANTED_IRON:16",
+   "VOODOO_DOLL"
+  ],
+  "station": "Crafting Table",
+  "unlock": "slayer:zombie:5"
+ }
+]

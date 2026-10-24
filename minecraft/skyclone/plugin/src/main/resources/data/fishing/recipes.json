@@ -1,0 +1,852 @@
+[
+ {
+  "id": "fishing:FISHING_ROD#0",
+  "type": "CRAFTING",
+  "result": "FISHING_ROD",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "STICK",
+   "",
+   "STICK",
+   "STRING",
+   "STICK",
+   "",
+   "STRING"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:CHAMP_ROD#0",
+  "type": "CRAFTING",
+  "result": "CHAMP_ROD",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY",
+   "CHALLENGE_ROD",
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY",
+   "ENCHANTED_WATER_LILY"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:7"
+ },
+ {
+  "id": "fishing:LEGEND_ROD#0",
+  "type": "CRAFTING",
+  "result": "LEGEND_ROD",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16",
+   "CHAMP_ROD",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_WATER_LILY:16"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:9"
+ },
+ {
+  "id": "fishing:ROD_OF_THE_SEA#0",
+  "type": "CRAFTING",
+  "result": "ROD_OF_THE_SEA",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN",
+   "GREAT_WHITE_SHARK_TOOTH",
+   "ENCHANTED_SHARK_FIN",
+   "GREAT_WHITE_SHARK_TOOTH",
+   "LEGEND_ROD",
+   "GREAT_WHITE_SHARK_TOOTH",
+   "ENCHANTED_SHARK_FIN",
+   "GREAT_WHITE_SHARK_TOOTH",
+   "ENCHANTED_SHARK_FIN"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:POLISHED_TOPAZ_ROD#0",
+  "type": "FORGE",
+  "result": "POLISHED_TOPAZ_ROD",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:3",
+   "FLAWLESS_TOPAZ_GEM:2"
+  ],
+  "durationSeconds": 43200,
+  "station": "Forge",
+  "unlock": "hotm:5"
+ },
+ {
+  "id": "fishing:MAGMA_ROD#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_ROD",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "STICK",
+   "",
+   "STICK",
+   "MAGMA_FISH_SILVER:5",
+   "STICK",
+   "",
+   "MAGMA_FISH_SILVER:5"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:4"
+ },
+ {
+  "id": "fishing:INFERNO_ROD#0",
+  "type": "CRAFTING",
+  "result": "INFERNO_ROD",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_ROD",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2",
+   "MAGMA_FISH_GOLD:2"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:8"
+ },
+ {
+  "id": "fishing:HELLFIRE_ROD#0",
+  "type": "CRAFTING",
+  "result": "HELLFIRE_ROD",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10",
+   "INFERNO_ROD",
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10",
+   "MAGMA_FISH_GOLD:10"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:12"
+ },
+ {
+  "id": "fishing:HELLFIRE_ROD#1",
+  "type": "CRAFTING",
+  "result": "HELLFIRE_ROD",
+  "amount": 1,
+  "grid": [
+   "",
+   "MAGMA_FISH_DIAMOND",
+   "",
+   "MAGMA_FISH_DIAMOND",
+   "INFERNO_ROD",
+   "MAGMA_FISH_DIAMOND",
+   "",
+   "MAGMA_FISH_DIAMOND",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:12"
+ },
+ {
+  "id": "fishing:COMMON_HOOK#0",
+  "type": "CRAFTING",
+  "result": "COMMON_HOOK",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "ENCHANTED_WATER_LILY",
+   "",
+   "",
+   "ENCHANTED_WATER_LILY",
+   "",
+   "ENCHANTED_RAW_FISH",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:5"
+ },
+ {
+  "id": "fishing:HOTSPOT_HOOK#0",
+  "type": "CRAFTING",
+  "result": "HOTSPOT_HOOK",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "CONDENSED_WATER_LILY",
+   "",
+   "",
+   "BROKEN_RADAR:8",
+   "",
+   "INK_SPLAT:16",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:PUDDLE_JUMPER_HOOK#0",
+  "type": "CRAFTING",
+  "result": "PUDDLE_JUMPER_HOOK",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "LOTUS_GOLD",
+   "",
+   "",
+   "LOTUS_GOLD",
+   "",
+   "ENCHANTED_RAW_FISH:32",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:8"
+ },
+ {
+  "id": "fishing:TITAN_LINE#0",
+  "type": "CRAFTING",
+  "result": "TITAN_LINE",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "CONDENSED_WATER_LILY",
+   "",
+   "BAYOU_WATER_ORB",
+   "",
+   "TITANOBOA_SHED",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:TROPHY_LINE#0",
+  "type": "CRAFTING",
+  "result": "TROPHY_LINE",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "LOTUS_GOLD:2",
+   "",
+   "LOTUS_GOLD:2",
+   "",
+   "LOTUS_GOLD:2",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:9"
+ },
+ {
+  "id": "fishing:PRISMARINE_SINKER#0",
+  "type": "CRAFTING",
+  "result": "PRISMARINE_SINKER",
+  "amount": 1,
+  "grid": [
+   "",
+   "WATER_LILY:16",
+   "",
+   "",
+   "PRISMARINE_CRYSTALS:8",
+   "",
+   "",
+   "PRISMARINE_SHARD:8",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PRISMARINE_SHARD:4"
+ },
+ {
+  "id": "fishing:SPONGE_SINKER#0",
+  "type": "CRAFTING",
+  "result": "SPONGE_SINKER",
+  "amount": 1,
+  "grid": [
+   "",
+   "WATER_LILY:16",
+   "",
+   "",
+   "SPONGE:4",
+   "",
+   "",
+   "SPONGE:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:SPONGE:2"
+ },
+ {
+  "id": "fishing:HOTSPOT_SINKER#0",
+  "type": "CRAFTING",
+  "result": "HOTSPOT_SINKER",
+  "amount": 1,
+  "grid": [
+   "",
+   "SEARED_ESCARGOT:16",
+   "",
+   "",
+   "SINGED_POWDER:8",
+   "",
+   "",
+   "ENCHANTED_CLAY_BLOCK",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:LOTUS_SINKER#0",
+  "type": "CRAFTING",
+  "result": "LOTUS_SINKER",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_WATER_LILY:32",
+   "",
+   "",
+   "LOTUS_SILVER:8",
+   "",
+   "",
+   "LOTUS_SILVER:8",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOTUS:5"
+ },
+ {
+  "id": "fishing:MINNOW_BAIT#0",
+  "type": "CRAFTING",
+  "result": "MINNOW_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "RAW_FISH",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1"
+ },
+ {
+  "id": "fishing:FISH_BAIT#0",
+  "type": "CRAFTING",
+  "result": "FISH_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "RAW_FISH:1",
+   "RAW_FISH",
+   "",
+   "RAW_FISH",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:1:5"
+ },
+ {
+  "id": "fishing:LIGHT_BAIT#0",
+  "type": "CRAFTING",
+  "result": "LIGHT_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "PRISMARINE_CRYSTALS:2",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PRISMARINE_CRYSTALS:2"
+ },
+ {
+  "id": "fishing:DARK_BAIT#0",
+  "type": "CRAFTING",
+  "result": "DARK_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "INK_SACK",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:INK_SACK:2"
+ },
+ {
+  "id": "fishing:SPIKED_BAIT#0",
+  "type": "CRAFTING",
+  "result": "SPIKED_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "RAW_FISH",
+   "",
+   "",
+   "RAW_FISH:3",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:3:1"
+ },
+ {
+  "id": "fishing:SPOOKY_BAIT#0",
+  "type": "CRAFTING",
+  "result": "SPOOKY_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "PUMPKIN",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PUMPKIN:4"
+ },
+ {
+  "id": "fishing:CARROT_BAIT#0",
+  "type": "CRAFTING",
+  "result": "CARROT_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "CARROT_ITEM",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:CARROT_ITEM:3"
+ },
+ {
+  "id": "fishing:CORRUPTED_BAIT#0",
+  "type": "CRAFTING",
+  "result": "CORRUPTED_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "CORRUPTED_FRAGMENT",
+   "MAGMA_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:5"
+ },
+ {
+  "id": "fishing:BLESSED_BAIT#0",
+  "type": "CRAFTING",
+  "result": "BLESSED_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "GOLD_BLOCK",
+   "RAW_FISH",
+   "PRISMARINE_CRYSTALS",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:PRISMARINE_CRYSTALS:6"
+ },
+ {
+  "id": "fishing:ICE_BAIT#0",
+  "type": "CRAFTING",
+  "result": "ICE_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "ICE",
+   "RAW_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:ICE:2"
+ },
+ {
+  "id": "fishing:SHARK_BAIT#0",
+  "type": "CRAFTING",
+  "result": "SHARK_BAIT",
+  "amount": 1,
+  "grid": [
+   "SHARK_FIN",
+   "SHARK_FIN",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:HOT_BAIT#0",
+  "type": "CRAFTING",
+  "result": "HOT_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "BLAZE_ASHES",
+   "MAGMA_FISH",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:2"
+ },
+ {
+  "id": "fishing:WORM_BAIT#0",
+  "type": "CRAFTING",
+  "result": "WORM_BAIT",
+  "amount": 16,
+  "grid": [
+   "",
+   "",
+   "",
+   "WORM_MEMBRANE",
+   "CLAY_BALL",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:WHALE_BAIT#0",
+  "type": "CRAFTING",
+  "result": "WHALE_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "FISH_BAIT",
+   "LIGHT_BAIT",
+   "DARK_BAIT",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:6"
+ },
+ {
+  "id": "fishing:WHALE_BAIT#1",
+  "type": "CRAFTING",
+  "result": "WHALE_BAIT",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "RAW_FISH:4",
+   "INK_SACK",
+   "RAW_FISH:1",
+   "",
+   "",
+   "PRISMARINE_CRYSTALS:2",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:WATER_LILY:6"
+ },
+ {
+  "id": "fishing:HOTSPOT_BAIT#0",
+  "type": "CRAFTING",
+  "result": "HOTSPOT_BAIT",
+  "amount": 32,
+  "grid": [
+   "",
+   "",
+   "",
+   "ENCHANTED_PUFFERFISH",
+   "SCORCHED_CRAB_STICK",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:RAW_FISH:3:8"
+ },
+ {
+  "id": "fishing:MAGMA_FISH_DIAMOND#0",
+  "type": "CRAFTING",
+  "result": "MAGMA_FISH_DIAMOND",
+  "amount": 1,
+  "grid": [
+   "",
+   "MAGMA_FISH_GOLD:4",
+   "",
+   "MAGMA_FISH_GOLD:4",
+   "MAGMA_FISH_GOLD:4",
+   "MAGMA_FISH_GOLD:4",
+   "",
+   "MAGMA_FISH_GOLD:4",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:MAGMA_FISH:10"
+ },
+ {
+  "id": "fishing:HOTSPOT_RADAR#0",
+  "type": "CRAFTING",
+  "result": "HOTSPOT_RADAR",
+  "amount": 1,
+  "grid": [
+   "BRONZE_BOWL",
+   "",
+   "BRONZE_BOWL",
+   "REDSTONE",
+   "BROKEN_RADAR",
+   "REDSTONE",
+   "IRON_INGOT",
+   "IRON_INGOT",
+   "IRON_INGOT"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:BAYOU_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "BAYOU_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "BUSTED_BELT_BUCKLE:8",
+   "OLD_LEATHER_BOOT",
+   "ALLIGATOR_SKIN:8",
+   "BRONZE_BOWL:16",
+   "WATER_ORB",
+   "TORN_CLOTH:16",
+   "CONDENSED_WATER_LILY",
+   "RUSTY_COIN:64",
+   "POISON_SAMPLE"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:HOTSPOT_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "HOTSPOT_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "HALF_EATEN_MUSHROOM:64",
+   "SCORCHED_CRAB_STICK:8",
+   "FRIED_FEATHER:64",
+   "BROKEN_RADAR:8",
+   "WATER_ORB",
+   "SINGED_POWDER:8",
+   "INK_SPLAT:16",
+   "BLUE_RING:8",
+   "SEARED_ESCARGOT:16"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:SHARK_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "SHARK_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SHARK_FIN",
+   "GREAT_WHITE_SHARK_TOOTH",
+   "ENCHANTED_SHARK_FIN",
+   "BLUE_SHARK_TOOTH:6",
+   "WATER_ORB",
+   "NURSE_SHARK_TOOTH:12",
+   "ENCHANTED_SHARK_FIN",
+   "TIGER_SHARK_TOOTH:4",
+   "ENCHANTED_SHARK_FIN"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RAW_FISH:16",
+   "ENCHANTED_SPONGE:8",
+   "ENCHANTED_RAW_SALMON:16",
+   "ENCHANTED_PRISMARINE_SHARD:16",
+   "ENCHANTED_WATER_LILY:16",
+   "ENCHANTED_PRISMARINE_CRYSTALS:16",
+   "ENCHANTED_CLAY_BALL:16",
+   "ENCHANTED_PUFFERFISH:16",
+   "ENCHANTED_CLOWNFISH:16"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:LAVA_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "LAVA_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "MAGMA_FISH_SILVER:16",
+   "THUNDER_SHARDS:2",
+   "MAGMA_FISH_SILVER:16",
+   "MOOGMA_PELT:64",
+   "WATER_ORB",
+   "LUMP_OF_MAGMA:64",
+   "CUP_OF_BLOOD:32",
+   "HORN_OF_TAURUS:16",
+   "FLAMING_HEART:32"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:SPOOKY_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "SPOOKY_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "PURPLE_CANDY:16",
+   "SOUL_FRAGMENT",
+   "PURPLE_CANDY:16",
+   "WEREWOLF_SKIN:8",
+   "WATER_ORB",
+   "WEREWOLF_SKIN:8",
+   "PURPLE_CANDY:16",
+   "WEREWOLF_SKIN:8",
+   "PURPLE_CANDY:16"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:WINTER_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "WINTER_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "ICE_HUNK:32",
+   "ENCHANTED_SNOW_BLOCK:64",
+   "ICE_HUNK:32",
+   "WHITE_GIFT:64",
+   "WATER_ORB",
+   "GREEN_GIFT:16",
+   "ICE_HUNK:32",
+   "BLUE_ICE_HUNK:32",
+   "ICE_HUNK:32"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:LOTUS_WATER_ORB#0",
+  "type": "CRAFTING",
+  "result": "LOTUS_WATER_ORB",
+  "amount": 1,
+  "grid": [
+   "FROGCOIN:8",
+   "REVERSE_REFORGE_STONE_CORE:8",
+   "FROGCOIN:8",
+   "LOTUS_GOLD:8",
+   "WATER_ORB",
+   "LOTUS_GOLD:8",
+   "FROGCOIN:8",
+   "UNLUCKY_DOUBLOON:8",
+   "FROGCOIN:8"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:EMPTY_CHUMCAP_BUCKET#0",
+  "type": "CRAFTING",
+  "result": "EMPTY_CHUMCAP_BUCKET",
+  "amount": 1,
+  "grid": [
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP",
+   "EMPTY_CHUM_BUCKET",
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP",
+   "AGARICUS_CHUM_CAP"
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "fishing:THUNDER_IN_A_BOTTLE_EMPTY#0",
+  "type": "CRAFTING",
+  "result": "THUNDER_IN_A_BOTTLE_EMPTY",
+  "amount": 1,
+  "grid": [
+   "",
+   "ORB_OF_ENERGY",
+   "",
+   "ORB_OF_ENERGY",
+   "GLASS_BOTTLE",
+   "ORB_OF_ENERGY",
+   "",
+   "ORB_OF_ENERGY",
+   ""
+  ],
+  "station": "Crafting Table"
+ }
+]

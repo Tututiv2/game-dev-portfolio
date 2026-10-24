@@ -1,0 +1,3799 @@
+{
+ "effects": [
+  {
+   "id": "speed",
+   "name": "Speed",
+   "line": "&9",
+   "color": "#7CAFC6",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": "slowness",
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a5&7.",
+     "stats": {
+      "SPEED": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a10&7.",
+     "stats": {
+      "SPEED": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a15&7.",
+     "stats": {
+      "SPEED": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a20&7.",
+     "stats": {
+      "SPEED": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a25&7.",
+     "stats": {
+      "SPEED": 25.0
+     },
+     "params": {}
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a30&7.",
+     "stats": {
+      "SPEED": 30.0
+     },
+     "params": {}
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a35&7.",
+     "stats": {
+      "SPEED": 35.0
+     },
+     "params": {}
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &f✦ Speed &7by &a40&7.",
+     "stats": {
+      "SPEED": 40.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "strength",
+   "name": "Strength",
+   "line": "&4",
+   "color": "#932423",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": "weakness",
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a5&7.",
+     "stats": {
+      "STRENGTH": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a12.5&7.",
+     "stats": {
+      "STRENGTH": 12.5
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a20&7.",
+     "stats": {
+      "STRENGTH": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a30&7.",
+     "stats": {
+      "STRENGTH": 30.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a40&7.",
+     "stats": {
+      "STRENGTH": 40.0
+     },
+     "params": {}
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a50&7.",
+     "stats": {
+      "STRENGTH": 50.0
+     },
+     "params": {}
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a60&7.",
+     "stats": {
+      "STRENGTH": 60.0
+     },
+     "params": {}
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &c❁ Strength &7by &a75&7.",
+     "stats": {
+      "STRENGTH": 75.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "healing",
+   "name": "Healing",
+   "line": "&c",
+   "color": "#F82423",
+   "kind": "instant",
+   "extendable": false,
+   "corruptsTo": "damage",
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 5,
+     "desc": "&7Restores &c5❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 5.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 5,
+     "desc": "&7Restores &c10❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 10.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 5,
+     "desc": "&7Restores &c15❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 15.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 5,
+     "desc": "&7Restores &c20❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 20.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 5,
+     "desc": "&7Restores &c25❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 25.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 5,
+     "desc": "&7Restores &c30❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 30.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 5,
+     "desc": "&7Restores &c35❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 35.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 5,
+     "desc": "&7Restores &c40❤ Health &7every second while it lasts.",
+     "stats": {},
+     "params": {
+      "heal_per_sec": 40.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "damage",
+   "name": "Damage",
+   "line": "&4",
+   "color": "#430A09",
+   "kind": "instant",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 0,
+     "desc": "&7Deals &c20 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 20.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 0,
+     "desc": "&7Deals &c50 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 50.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 0,
+     "desc": "&7Deals &c100 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 100.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 0,
+     "desc": "&7Deals &c150 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 150.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 0,
+     "desc": "&7Deals &c200 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 200.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 0,
+     "desc": "&7Deals &c300 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 300.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 0,
+     "desc": "&7Deals &c400 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 400.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 0,
+     "desc": "&7Deals &c500 &7damage the moment it lands.",
+     "stats": {},
+     "params": {
+      "damage": 500.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "jump_boost",
+   "name": "Jump Boost",
+   "line": "&b",
+   "color": "#22FF4C",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": "slowness",
+   "vanilla": "JUMP_BOOST",
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Lets you jump up to &a1.9 &7blocks high.",
+     "stats": {},
+     "params": {
+      "jump_height": 1.9,
+      "amp": 0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Lets you jump up to &a2.5 &7blocks high.",
+     "stats": {},
+     "params": {
+      "jump_height": 2.5,
+      "amp": 1
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Lets you jump up to &a3.2 &7blocks high.",
+     "stats": {},
+     "params": {
+      "jump_height": 3.2,
+      "amp": 2
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Lets you jump up to &a4.1 &7blocks high.",
+     "stats": {},
+     "params": {
+      "jump_height": 4.1,
+      "amp": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "resistance",
+   "name": "Resistance",
+   "line": "&a",
+   "color": "#99453A",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a5&7.",
+     "stats": {
+      "DEFENSE": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a10&7.",
+     "stats": {
+      "DEFENSE": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a15&7.",
+     "stats": {
+      "DEFENSE": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a20&7.",
+     "stats": {
+      "DEFENSE": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a30&7.",
+     "stats": {
+      "DEFENSE": 30.0
+     },
+     "params": {}
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a40&7.",
+     "stats": {
+      "DEFENSE": 40.0
+     },
+     "params": {}
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a50&7.",
+     "stats": {
+      "DEFENSE": 50.0
+     },
+     "params": {}
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Increases your &a❈ Defense &7by &a60&7.",
+     "stats": {
+      "DEFENSE": 60.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "water_breathing",
+   "name": "Water Breathing",
+   "line": "&3",
+   "color": "#2E5299",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 6,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Gives a &a15% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 15.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Gives a &a30% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 30.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Gives a &a45% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 45.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Gives a &a60% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 60.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Gives a &a80% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 80.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Gives a &a100% &7chance to shrug off each drowning hit.",
+     "stats": {},
+     "params": {
+      "drown_block": 100.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "regeneration",
+   "name": "Regeneration",
+   "line": "&d",
+   "color": "#CD5CAB",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a2.5&7.",
+     "stats": {
+      "HEALTH_REGEN": 2.5
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a5&7.",
+     "stats": {
+      "HEALTH_REGEN": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a7.5&7.",
+     "stats": {
+      "HEALTH_REGEN": 7.5
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a10&7.",
+     "stats": {
+      "HEALTH_REGEN": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a12.5&7.",
+     "stats": {
+      "HEALTH_REGEN": 12.5
+     },
+     "params": {}
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a15&7.",
+     "stats": {
+      "HEALTH_REGEN": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a20&7.",
+     "stats": {
+      "HEALTH_REGEN": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 45,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a25&7.",
+     "stats": {
+      "HEALTH_REGEN": 25.0
+     },
+     "params": {}
+    },
+    {
+     "level": 9,
+     "rarity": "EPIC",
+     "seconds": 150,
+     "desc": "&7Increases your &c❣ Health Regen &7by &a30&7.",
+     "stats": {
+      "HEALTH_REGEN": 30.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "mana",
+   "name": "Mana",
+   "line": "&b",
+   "color": "#3D8AE8",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Refills &b1✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 1.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Refills &b2✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 2.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Refills &b3✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 3.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Refills &b4✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 4.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Refills &b5✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 5.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Refills &b6✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 6.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Refills &b7✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 7.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Refills &b8✎ Mana &7every second.",
+     "stats": {},
+     "params": {
+      "mana_per_sec": 8.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "critical",
+   "name": "Critical",
+   "line": "&4",
+   "color": "#B02E26",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &9☣ Crit Chance &7by &a10% &7and your &9☠ Crit Damage &7by &a10%&7.",
+     "stats": {
+      "CRIT_CHANCE": 10.0,
+      "CRIT_DAMAGE": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &9☣ Crit Chance &7by &a15% &7and your &9☠ Crit Damage &7by &a20%&7.",
+     "stats": {
+      "CRIT_CHANCE": 15.0,
+      "CRIT_DAMAGE": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &9☣ Crit Chance &7by &a20% &7and your &9☠ Crit Damage &7by &a30%&7.",
+     "stats": {
+      "CRIT_CHANCE": 20.0,
+      "CRIT_DAMAGE": 30.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &9☣ Crit Chance &7by &a25% &7and your &9☠ Crit Damage &7by &a40%&7.",
+     "stats": {
+      "CRIT_CHANCE": 25.0,
+      "CRIT_DAMAGE": 40.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "archery",
+   "name": "Archery",
+   "line": "&b",
+   "color": "#5BC0DE",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your arrows deal &a12.5% &7more damage.",
+     "stats": {},
+     "params": {
+      "archery": 12.5
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your arrows deal &a25% &7more damage.",
+     "stats": {},
+     "params": {
+      "archery": 25.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your arrows deal &a50% &7more damage.",
+     "stats": {},
+     "params": {
+      "archery": 50.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your arrows deal &a75% &7more damage.",
+     "stats": {},
+     "params": {
+      "archery": 75.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "haste",
+   "name": "Haste",
+   "line": "&e",
+   "color": "#D9C043",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6⸕ Mining Speed &7by &a50&7.",
+     "stats": {
+      "MINING_SPEED": 50.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6⸕ Mining Speed &7by &a100&7.",
+     "stats": {
+      "MINING_SPEED": 100.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6⸕ Mining Speed &7by &a150&7.",
+     "stats": {
+      "MINING_SPEED": 150.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6⸕ Mining Speed &7by &a200&7.",
+     "stats": {
+      "MINING_SPEED": 200.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "absorption",
+   "name": "Absorption",
+   "line": "&6",
+   "color": "#2552A5",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &620 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 20.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &640 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 40.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &660 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 60.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &680 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 80.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6100 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 100.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6150 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 150.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6200 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 200.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6300 &7points of absorption health.",
+     "stats": {},
+     "params": {
+      "absorption": 300.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "adrenaline",
+   "name": "Adrenaline",
+   "line": "&c",
+   "color": "#E04E3B",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &620 &7absorption health and adds &a5 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 5.0
+     },
+     "params": {
+      "absorption": 20.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &640 &7absorption health and adds &a10 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 10.0
+     },
+     "params": {
+      "absorption": 40.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &660 &7absorption health and adds &a15 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 15.0
+     },
+     "params": {
+      "absorption": 60.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Wraps you in &680 &7absorption health and adds &a20 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 20.0
+     },
+     "params": {
+      "absorption": 80.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6100 &7absorption health and adds &a25 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 25.0
+     },
+     "params": {
+      "absorption": 100.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6150 &7absorption health and adds &a30 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 30.0
+     },
+     "params": {
+      "absorption": 150.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6200 &7absorption health and adds &a35 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 35.0
+     },
+     "params": {
+      "absorption": 200.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Wraps you in &6300 &7absorption health and adds &a40 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 40.0
+     },
+     "params": {
+      "absorption": 300.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "rabbit",
+   "name": "Rabbit",
+   "line": "&a",
+   "color": "#B5A07F",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": "JUMP_BOOST",
+   "brewable": true,
+   "brewMax": 6,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost I &7and &a+10 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 10.0
+     },
+     "params": {
+      "amp": 0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost I &7and &a+20 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 20.0
+     },
+     "params": {
+      "amp": 0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost II &7and &a+30 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 30.0
+     },
+     "params": {
+      "amp": 1
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost II &7and &a+40 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 40.0
+     },
+     "params": {
+      "amp": 1
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost III &7and &a+50 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 50.0
+     },
+     "params": {
+      "amp": 2
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7A light step: &aJump Boost III &7and &a+60 &f✦ Speed&7.",
+     "stats": {
+      "SPEED": 60.0
+     },
+     "params": {
+      "amp": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "agility",
+   "name": "Agility",
+   "line": "&5",
+   "color": "#7B3FA0",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a10 &f✦ Speed &7and gives mob attacks a &a10% &7chance to miss you.",
+     "stats": {
+      "SPEED": 10.0
+     },
+     "params": {
+      "dodge": 10.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a20 &f✦ Speed &7and gives mob attacks a &a20% &7chance to miss you.",
+     "stats": {
+      "SPEED": 20.0
+     },
+     "params": {
+      "dodge": 20.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a30 &f✦ Speed &7and gives mob attacks a &a30% &7chance to miss you.",
+     "stats": {
+      "SPEED": 30.0
+     },
+     "params": {
+      "dodge": 30.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a40 &f✦ Speed &7and gives mob attacks a &a40% &7chance to miss you.",
+     "stats": {
+      "SPEED": 40.0
+     },
+     "params": {
+      "dodge": 40.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "night_vision",
+   "name": "Night Vision",
+   "line": "&9",
+   "color": "#1F1FA1",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": "invisibility",
+   "vanilla": "NIGHT_VISION",
+   "brewable": true,
+   "brewMax": 2,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Lets you see clearly in the dark.",
+     "stats": {},
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Lets you see clearly in the dark.",
+     "stats": {},
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "invisibility",
+   "name": "Invisibility",
+   "line": "&7",
+   "color": "#7F8392",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": "INVISIBILITY",
+   "brewable": true,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Hides you from sight.",
+     "stats": {},
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "fire_resistance",
+   "name": "Fire Resistance",
+   "line": "&6",
+   "color": "#E49A3A",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Takes &a10% &7off fire and lava damage.",
+     "stats": {},
+     "params": {
+      "fire_reduce": 10.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "spelunker",
+   "name": "Spelunker",
+   "line": "&6",
+   "color": "#E1B04A",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6☘ Mining Fortune &7by &a5&7.",
+     "stats": {
+      "MINING_FORTUNE": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6☘ Mining Fortune &7by &a10&7.",
+     "stats": {
+      "MINING_FORTUNE": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6☘ Mining Fortune &7by &a15&7.",
+     "stats": {
+      "MINING_FORTUNE": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &6☘ Mining Fortune &7by &a20&7.",
+     "stats": {
+      "MINING_FORTUNE": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Increases your &6☘ Mining Fortune &7by &a25&7.",
+     "stats": {
+      "MINING_FORTUNE": 25.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "experience",
+   "name": "Experience",
+   "line": "&a",
+   "color": "#99FF33",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Experience orbs you collect are worth &a5% &7more.",
+     "stats": {},
+     "params": {
+      "exp": 5.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Experience orbs you collect are worth &a10% &7more.",
+     "stats": {},
+     "params": {
+      "exp": 10.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Experience orbs you collect are worth &a15% &7more.",
+     "stats": {},
+     "params": {
+      "exp": 15.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Experience orbs you collect are worth &a20% &7more.",
+     "stats": {},
+     "params": {
+      "exp": 20.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "stun",
+   "name": "Stun",
+   "line": "&8",
+   "color": "#4A4A4A",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your hits have a &a10% &7chance to freeze a mob for &a1s&7. Thrown, it freezes mobs for &a1s&7.",
+     "stats": {},
+     "params": {
+      "stun_chance": 10.0,
+      "stun_secs": 1.0,
+      "stun_splash": 1.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your hits have a &a20% &7chance to freeze a mob for &a1s&7. Thrown, it freezes mobs for &a1.25s&7.",
+     "stats": {},
+     "params": {
+      "stun_chance": 20.0,
+      "stun_secs": 1.0,
+      "stun_splash": 1.25
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your hits have a &a30% &7chance to freeze a mob for &a1s&7. Thrown, it freezes mobs for &a1.5s&7.",
+     "stats": {},
+     "params": {
+      "stun_chance": 30.0,
+      "stun_secs": 1.0,
+      "stun_splash": 1.5
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your hits have a &a40% &7chance to freeze a mob for &a1s&7. Thrown, it freezes mobs for &a1.75s&7.",
+     "stats": {},
+     "params": {
+      "stun_chance": 40.0,
+      "stun_secs": 1.0,
+      "stun_splash": 1.75
+     }
+    }
+   ]
+  },
+  {
+   "id": "dodge",
+   "name": "Dodge",
+   "line": "&8",
+   "color": "#A8A8A8",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Mob attacks have a &a10% &7chance to miss you.",
+     "stats": {},
+     "params": {
+      "dodge": 10.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Mob attacks have a &a20% &7chance to miss you.",
+     "stats": {},
+     "params": {
+      "dodge": 20.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Mob attacks have a &a30% &7chance to miss you.",
+     "stats": {},
+     "params": {
+      "dodge": 30.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Mob attacks have a &a40% &7chance to miss you.",
+     "stats": {},
+     "params": {
+      "dodge": 40.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "true_defense",
+   "name": "True Resistance",
+   "line": "&f",
+   "color": "#F2F2F2",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f❂ True Defense &7by &a5&7.",
+     "stats": {
+      "TRUE_DEFENSE": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f❂ True Defense &7by &a10&7.",
+     "stats": {
+      "TRUE_DEFENSE": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f❂ True Defense &7by &a15&7.",
+     "stats": {
+      "TRUE_DEFENSE": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &f❂ True Defense &7by &a20&7.",
+     "stats": {
+      "TRUE_DEFENSE": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "spirit",
+   "name": "Spirit",
+   "line": "&b",
+   "color": "#9AD7EC",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a10 &f✦ Speed &7and &a10% &9☠ Crit Damage&7.",
+     "stats": {
+      "SPEED": 10.0,
+      "CRIT_DAMAGE": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a20 &f✦ Speed &7and &a20% &9☠ Crit Damage&7.",
+     "stats": {
+      "SPEED": 20.0,
+      "CRIT_DAMAGE": 20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a30 &f✦ Speed &7and &a30% &9☠ Crit Damage&7.",
+     "stats": {
+      "SPEED": 30.0,
+      "CRIT_DAMAGE": 30.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a40 &f✦ Speed &7and &a40% &9☠ Crit Damage&7.",
+     "stats": {
+      "SPEED": 40.0,
+      "CRIT_DAMAGE": 40.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "pet_luck",
+   "name": "Pet Luck",
+   "line": "&d",
+   "color": "#E28CC8",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &d♣ Pet Luck &7by &a5&7, so pets drop and roll higher more often.",
+     "stats": {
+      "PET_LUCK": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &d♣ Pet Luck &7by &a10&7, so pets drop and roll higher more often.",
+     "stats": {
+      "PET_LUCK": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &d♣ Pet Luck &7by &a15&7, so pets drop and roll higher more often.",
+     "stats": {
+      "PET_LUCK": 15.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &d♣ Pet Luck &7by &a20&7, so pets drop and roll higher more often.",
+     "stats": {
+      "PET_LUCK": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "knockback",
+   "name": "Knockback",
+   "line": "&2",
+   "color": "#4C7A2A",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your hits push enemies back &a20% &7further.",
+     "stats": {},
+     "params": {
+      "knockback": 20.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your hits push enemies back &a40% &7further.",
+     "stats": {},
+     "params": {
+      "knockback": 40.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your hits push enemies back &a60% &7further.",
+     "stats": {},
+     "params": {
+      "knockback": 60.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your hits push enemies back &a80% &7further.",
+     "stats": {},
+     "params": {
+      "knockback": 80.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "burning",
+   "name": "Burning",
+   "line": "&6",
+   "color": "#FF7F27",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Fire you set on enemies burns &a5% &7longer.",
+     "stats": {},
+     "params": {
+      "burning": 5.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Fire you set on enemies burns &a10% &7longer.",
+     "stats": {},
+     "params": {
+      "burning": 10.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Fire you set on enemies burns &a15% &7longer.",
+     "stats": {},
+     "params": {
+      "burning": 15.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Fire you set on enemies burns &a20% &7longer.",
+     "stats": {},
+     "params": {
+      "burning": 20.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "venomous",
+   "name": "Venomous",
+   "line": "&2",
+   "color": "#4E9331",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Slows by &c5 &f✦ Speed &7and deals &c5 &7damage every second.",
+     "stats": {
+      "SPEED": -5.0
+     },
+     "params": {
+      "poison_dps": 5.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Slows by &c10 &f✦ Speed &7and deals &c10 &7damage every second.",
+     "stats": {
+      "SPEED": -10.0
+     },
+     "params": {
+      "poison_dps": 10.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Slows by &c15 &f✦ Speed &7and deals &c15 &7damage every second.",
+     "stats": {
+      "SPEED": -15.0
+     },
+     "params": {
+      "poison_dps": 15.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Slows by &c20 &f✦ Speed &7and deals &c20 &7damage every second.",
+     "stats": {
+      "SPEED": -20.0
+     },
+     "params": {
+      "poison_dps": 20.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "wounded",
+   "name": "Wounded",
+   "line": "&4",
+   "color": "#5A1A1A",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Cuts all healing received by &c25%&7.",
+     "stats": {},
+     "params": {
+      "heal_reduce": 25.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Cuts all healing received by &c50%&7.",
+     "stats": {},
+     "params": {
+      "heal_reduce": 50.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Cuts all healing received by &c75%&7.",
+     "stats": {},
+     "params": {
+      "heal_reduce": 75.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Cuts all healing received by &c100%&7.",
+     "stats": {},
+     "params": {
+      "heal_reduce": 100.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "cold_resistance",
+   "name": "Cold Resistance",
+   "line": "&b",
+   "color": "#BDE7F2",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &b❄ Cold Resistance &7by &a2.5&7.",
+     "stats": {
+      "COLD_RESISTANCE": 2.5
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &b❄ Cold Resistance &7by &a5&7.",
+     "stats": {
+      "COLD_RESISTANCE": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &b❄ Cold Resistance &7by &a7.5&7.",
+     "stats": {
+      "COLD_RESISTANCE": 7.5
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Increases your &b❄ Cold Resistance &7by &a10&7.",
+     "stats": {
+      "COLD_RESISTANCE": 10.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "magic_find",
+   "name": "Magic Find",
+   "line": "&b",
+   "color": "#55FFFF",
+   "kind": "buff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a10 &b✯ Magic Find&7, for better odds at rare drops.",
+     "stats": {
+      "MAGIC_FIND": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a25 &b✯ Magic Find&7, for better odds at rare drops.",
+     "stats": {
+      "MAGIC_FIND": 25.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a50 &b✯ Magic Find&7, for better odds at rare drops.",
+     "stats": {
+      "MAGIC_FIND": 50.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Adds &a75 &b✯ Magic Find&7, for better odds at rare drops.",
+     "stats": {
+      "MAGIC_FIND": 75.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "stamina",
+   "name": "Stamina",
+   "line": "&a",
+   "color": "#7CE36B",
+   "kind": "instant",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 0,
+     "desc": "&7Instantly restores &c150❤ Health &7and &b50✎ Mana&7.",
+     "stats": {},
+     "params": {
+      "heal_instant": 150.0,
+      "mana_instant": 50.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 0,
+     "desc": "&7Instantly restores &c215❤ Health &7and &b100✎ Mana&7.",
+     "stats": {},
+     "params": {
+      "heal_instant": 215.0,
+      "mana_instant": 100.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 0,
+     "desc": "&7Instantly restores &c315❤ Health &7and &b150✎ Mana&7.",
+     "stats": {},
+     "params": {
+      "heal_instant": 315.0,
+      "mana_instant": 150.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 0,
+     "desc": "&7Instantly restores &c515❤ Health &7and &b200✎ Mana&7.",
+     "stats": {},
+     "params": {
+      "heal_instant": 515.0,
+      "mana_instant": 200.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "slowness",
+   "name": "Slowness",
+   "line": "&8",
+   "color": "#5A6C81",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c20&7.",
+     "stats": {
+      "SPEED": -20.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c40&7.",
+     "stats": {
+      "SPEED": -40.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c75&7.",
+     "stats": {
+      "SPEED": -75.0
+     },
+     "params": {}
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c99&7.",
+     "stats": {
+      "SPEED": -99.0
+     },
+     "params": {}
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c150&7.",
+     "stats": {
+      "SPEED": -150.0
+     },
+     "params": {}
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c240&7.",
+     "stats": {
+      "SPEED": -240.0
+     },
+     "params": {}
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c380&7.",
+     "stats": {
+      "SPEED": -380.0
+     },
+     "params": {}
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Drags your &f✦ Speed &7down by &c500&7.",
+     "stats": {
+      "SPEED": -500.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "weakness",
+   "name": "Weakness",
+   "line": "&8",
+   "color": "#484D48",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 8,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c5 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 5.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c10 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 10.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c15 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 15.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c20 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 20.0
+     }
+    },
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c25 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 25.0
+     }
+    },
+    {
+     "level": 6,
+     "rarity": "RARE",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c30 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 30.0
+     }
+    },
+    {
+     "level": 7,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c40 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 40.0
+     }
+    },
+    {
+     "level": 8,
+     "rarity": "EPIC",
+     "seconds": 180,
+     "desc": "&7Your attacks deal &c50 &7less damage.",
+     "stats": {},
+     "params": {
+      "weakness": 50.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "poison",
+   "name": "Poison",
+   "line": "&2",
+   "color": "#4E9331",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 4,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Deals &c10 &7damage every second.",
+     "stats": {},
+     "params": {
+      "poison_dps": 10.0
+     }
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 180,
+     "desc": "&7Deals &c20 &7damage every second.",
+     "stats": {},
+     "params": {
+      "poison_dps": 20.0
+     }
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Deals &c40 &7damage every second.",
+     "stats": {},
+     "params": {
+      "poison_dps": 40.0
+     }
+    },
+    {
+     "level": 4,
+     "rarity": "UNCOMMON",
+     "seconds": 180,
+     "desc": "&7Deals &c60 &7damage every second.",
+     "stats": {},
+     "params": {
+      "poison_dps": 60.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "blindness",
+   "name": "Blindness",
+   "line": "&8",
+   "color": "#1F1F23",
+   "kind": "debuff",
+   "extendable": true,
+   "corruptsTo": null,
+   "vanilla": "BLINDNESS",
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 3,
+     "desc": "&7Clouds your sight.",
+     "stats": {},
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 3,
+     "desc": "&7Clouds your sight.",
+     "stats": {},
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 3,
+     "desc": "&7Clouds your sight.",
+     "stats": {},
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "combat_xp_boost",
+   "name": "Combat XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Combat Wisdom&7, so Combat &7XP comes faster.",
+     "stats": {
+      "COMBAT_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Combat Wisdom&7, so Combat &7XP comes faster.",
+     "stats": {
+      "COMBAT_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Combat Wisdom&7, so Combat &7XP comes faster.",
+     "stats": {
+      "COMBAT_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "mining_xp_boost",
+   "name": "Mining XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Mining Wisdom&7, so Mining &7XP comes faster.",
+     "stats": {
+      "MINING_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Mining Wisdom&7, so Mining &7XP comes faster.",
+     "stats": {
+      "MINING_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Mining Wisdom&7, so Mining &7XP comes faster.",
+     "stats": {
+      "MINING_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "foraging_xp_boost",
+   "name": "Foraging XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Foraging Wisdom&7, so Foraging &7XP comes faster.",
+     "stats": {
+      "FORAGING_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Foraging Wisdom&7, so Foraging &7XP comes faster.",
+     "stats": {
+      "FORAGING_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Foraging Wisdom&7, so Foraging &7XP comes faster.",
+     "stats": {
+      "FORAGING_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "fishing_xp_boost",
+   "name": "Fishing XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Fishing Wisdom&7, so Fishing &7XP comes faster.",
+     "stats": {
+      "FISHING_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Fishing Wisdom&7, so Fishing &7XP comes faster.",
+     "stats": {
+      "FISHING_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Fishing Wisdom&7, so Fishing &7XP comes faster.",
+     "stats": {
+      "FISHING_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "farming_xp_boost",
+   "name": "Farming XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Farming Wisdom&7, so Farming &7XP comes faster.",
+     "stats": {
+      "FARMING_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Farming Wisdom&7, so Farming &7XP comes faster.",
+     "stats": {
+      "FARMING_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Farming Wisdom&7, so Farming &7XP comes faster.",
+     "stats": {
+      "FARMING_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "enchanting_xp_boost",
+   "name": "Enchanting XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Enchanting Wisdom&7, so Enchanting &7XP comes faster.",
+     "stats": {
+      "ENCHANTING_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Enchanting Wisdom&7, so Enchanting &7XP comes faster.",
+     "stats": {
+      "ENCHANTING_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Enchanting Wisdom&7, so Enchanting &7XP comes faster.",
+     "stats": {
+      "ENCHANTING_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "alchemy_xp_boost",
+   "name": "Alchemy XP Boost",
+   "line": "&6",
+   "color": "#E8B830",
+   "kind": "xp",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": true,
+   "brewMax": 3,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 720,
+     "desc": "&7Adds &35☯ Alchemy Wisdom&7, so Alchemy &7XP comes faster.",
+     "stats": {
+      "ALCHEMY_WISDOM": 5.0
+     },
+     "params": {}
+    },
+    {
+     "level": 2,
+     "rarity": "COMMON",
+     "seconds": 1440,
+     "desc": "&7Adds &310☯ Alchemy Wisdom&7, so Alchemy &7XP comes faster.",
+     "stats": {
+      "ALCHEMY_WISDOM": 10.0
+     },
+     "params": {}
+    },
+    {
+     "level": 3,
+     "rarity": "UNCOMMON",
+     "seconds": 2160,
+     "desc": "&7Adds &320☯ Alchemy Wisdom&7, so Alchemy &7XP comes faster.",
+     "stats": {
+      "ALCHEMY_WISDOM": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "mushed_glowy_tonic",
+   "name": "Glowmash Tonic",
+   "line": "&3",
+   "color": "#3FD0B3",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 3600,
+     "desc": "&7Adds &b30 ☂ Fishing Speed&7.",
+     "stats": {
+      "FISHING_SPEED": 30.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "stinky_cheese",
+   "name": "Pungent Cheese Mist",
+   "line": "&e",
+   "color": "#E2D06A",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 3600,
+     "desc": "&7Adds &220 ൠ Bonus Pest Chance&7. Pests cannot resist the smell.",
+     "stats": {
+      "PEST_CHANCE": 20.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "harvest_harbinger",
+   "name": "Harvest Herald",
+   "line": "&6",
+   "color": "#E2A03A",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 5,
+   "levels": [
+    {
+     "level": 5,
+     "rarity": "RARE",
+     "seconds": 1500,
+     "desc": "&7Adds &650 ☘ Farming Fortune&7.",
+     "stats": {
+      "FARMING_FORTUNE": 50.0
+     },
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "wisp_ice",
+   "name": "Chilled Spirit Water",
+   "line": "&b",
+   "color": "#A0E8FF",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 300,
+     "desc": "&7Adds &c10 ❣ Health Regen &7and &f25 ❂ True Defense&7.",
+     "stats": {
+      "HEALTH_REGEN": 10.0,
+      "TRUE_DEFENSE": 25.0
+     },
+     "params": {}
+    }
+   ],
+   "splashOnly": true
+  },
+  {
+   "id": "rift_gravity",
+   "name": "Gravity",
+   "line": "&d",
+   "color": "#B58CFF",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 600,
+     "desc": "&7Raises the gravity around you, so &dPufflings &7turn up more often in the Rift.",
+     "stats": {},
+     "params": {
+      "puff_rate": 1
+     }
+    }
+   ],
+   "splashOnly": true
+  },
+  {
+   "id": "secrets",
+   "name": "Secret",
+   "line": "&5",
+   "color": "#5E2D79",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 1200,
+     "desc": "&7One sip and the hidden &dsecrets &7of a dungeon show themselves to you.",
+     "stats": {},
+     "params": {
+      "secret_sight": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "great_spook",
+   "potionItem": "GREAT_SPOOK_POTION",
+   "name": "Dread",
+   "line": "&6",
+   "color": "#FF8C1A",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 86400,
+     "desc": "&7Adds &6+3 Fear&7: the Dread festival's horrors find you sooner.",
+     "stats": {},
+     "params": {
+      "fear": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "jyrre",
+   "potionItem": "NEW_BOTTLE_OF_JYRRE",
+   "name": "Midnight Wit",
+   "line": "&b",
+   "color": "#5BC8F5",
+   "kind": "special",
+   "extendable": false,
+   "corruptsTo": null,
+   "vanilla": null,
+   "brewable": false,
+   "brewMax": 1,
+   "scaled": true,
+   "levels": [
+    {
+     "level": 1,
+     "rarity": "COMMON",
+     "seconds": 3600,
+     "desc": "&7Adds &b✎ Intelligence &7for as long as it lasts.",
+     "stats": {
+      "INTELLIGENCE": 1
+     },
+     "params": {}
+    }
+   ]
+  }
+ ],
+ "ingredients": [
+  {
+   "item": "SUGAR",
+   "effect": "speed",
+   "level": 1,
+   "xp": 5,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_SUGAR",
+   "effect": "speed",
+   "level": 3,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_SUGAR_CANE",
+   "effect": "speed",
+   "level": 5,
+   "xp": 15000,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "BLAZE_POWDER",
+   "effect": "strength",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_BLAZE_POWDER",
+   "effect": "strength",
+   "level": 3,
+   "xp": 500,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_BLAZE_ROD",
+   "effect": "strength",
+   "level": 5,
+   "xp": 23000,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "SPECKLED_MELON",
+   "effect": "healing",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_MELON",
+   "effect": "healing",
+   "level": 3,
+   "xp": 250,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_GLISTERING_MELON",
+   "effect": "healing",
+   "level": 5,
+   "xp": 500,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "RABBIT_FOOT",
+   "effect": "jump_boost",
+   "level": 1,
+   "xp": 12,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_RABBIT_FOOT",
+   "effect": "jump_boost",
+   "level": 3,
+   "xp": 600,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "CACTUS",
+   "effect": "resistance",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:CACTUS:3",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_CACTUS_GREEN",
+   "effect": "resistance",
+   "level": 3,
+   "xp": 250,
+   "unlock": "collection:CACTUS:3",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_CACTUS",
+   "effect": "resistance",
+   "level": 5,
+   "xp": 500,
+   "unlock": "collection:CACTUS:3",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "RAW_FISH:3",
+   "effect": "water_breathing",
+   "level": 1,
+   "xp": 12,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_PUFFERFISH",
+   "effect": "water_breathing",
+   "level": 3,
+   "xp": 600,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "GHAST_TEAR",
+   "effect": "regeneration",
+   "level": 1,
+   "xp": 30,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_GHAST_TEAR",
+   "effect": "regeneration",
+   "level": 5,
+   "xp": 120,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "MUTTON",
+   "effect": "mana",
+   "level": 1,
+   "xp": 0,
+   "unlock": "collection:MUTTON:4",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_MUTTON",
+   "effect": "mana",
+   "level": 3,
+   "xp": 0,
+   "unlock": "collection:MUTTON:4",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_COOKED_MUTTON",
+   "effect": "mana",
+   "level": 5,
+   "xp": 0,
+   "unlock": "collection:MUTTON:4",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "FLINT",
+   "effect": "critical",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:GRAVEL:7",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "FEATHER",
+   "effect": "archery",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:FEATHER:3",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "COAL",
+   "effect": "haste",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:COAL:3",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "GOLD_INGOT",
+   "effect": "absorption",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:GOLD_INGOT:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_GOLD",
+   "effect": "absorption",
+   "level": 3,
+   "xp": 300,
+   "unlock": "collection:GOLD_INGOT:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_GOLD_BLOCK",
+   "effect": "absorption",
+   "level": 5,
+   "xp": 15000,
+   "unlock": "collection:GOLD_INGOT:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "INK_SACK:3",
+   "effect": "adrenaline",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:INK_SACK:3:7",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_COCOA",
+   "effect": "adrenaline",
+   "level": 3,
+   "xp": 300,
+   "unlock": "collection:INK_SACK:3:7",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_COOKIE",
+   "effect": "adrenaline",
+   "level": 5,
+   "xp": 15000,
+   "unlock": "collection:INK_SACK:3:7",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "RABBIT",
+   "effect": "rabbit",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:RABBIT:3",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_RABBIT",
+   "effect": "rabbit",
+   "level": 3,
+   "xp": 300,
+   "unlock": "collection:RABBIT:3",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_CAKE",
+   "effect": "agility",
+   "level": 1,
+   "xp": 400,
+   "unlock": "collection:RAW_CHICKEN:8",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "GOLDEN_CARROT",
+   "effect": "night_vision",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "MAGMA_CREAM",
+   "effect": "fire_resistance",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "MITHRIL_ORE",
+   "effect": "spelunker",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:MITHRIL_ORE:3",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "INK_SACK:4",
+   "effect": "experience",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:INK_SACK:4:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "OBSIDIAN",
+   "effect": "stun",
+   "level": 1,
+   "xp": 15,
+   "unlock": "collection:OBSIDIAN:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "RAW_FISH:1",
+   "effect": "dodge",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:RAW_FISH:1:2",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "TRUE_ESSENCE",
+   "effect": "true_defense",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "FOUL_FLESH",
+   "effect": "spirit",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_RABBIT_HIDE",
+   "effect": "pet_luck",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:RABBIT:8",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "SLIME_BALL",
+   "effect": "knockback",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:SLIME_BALL:4",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "SAND:1",
+   "effect": "burning",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:SAND:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "POISONOUS_POTATO",
+   "effect": "venomous",
+   "level": 1,
+   "xp": 20,
+   "unlock": "collection:POTATO_ITEM:5",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "NETHERRACK",
+   "effect": "wounded",
+   "level": 1,
+   "xp": 5,
+   "unlock": "collection:NETHERRACK:2",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_GLACITE",
+   "effect": "cold_resistance",
+   "level": 1,
+   "xp": 10,
+   "unlock": "collection:GLACITE:2",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "SPIDER_EYE",
+   "effect": "poison",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_SPIDER_EYE",
+   "effect": "poison",
+   "level": 3,
+   "xp": 0,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "INK_SACK",
+   "effect": "blindness",
+   "level": 1,
+   "xp": 0,
+   "unlock": "collection:INK_SACK:6",
+   "base": "AWKWARD",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_INK_SACK",
+   "effect": "blindness",
+   "level": 3,
+   "xp": 0,
+   "unlock": "collection:INK_SACK:6",
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "FERMENTED_SPIDER_EYE",
+   "effect": "weakness",
+   "level": 1,
+   "xp": 10,
+   "unlock": null,
+   "base": "WATER",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_FERMENTED_SPIDER_EYE",
+   "effect": "weakness",
+   "level": 3,
+   "xp": 15000,
+   "unlock": null,
+   "base": "WATER",
+   "tune": false
+  },
+  {
+   "item": "ENCHANTED_ROTTEN_FLESH",
+   "effect": "combat_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_COBBLESTONE",
+   "effect": "mining_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_OAK_LOG",
+   "effect": "foraging_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_RAW_FISH",
+   "effect": "fishing_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_WHEAT",
+   "effect": "farming_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_LAPIS_LAZULI",
+   "effect": "enchanting_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  },
+  {
+   "item": "ENCHANTED_NETHER_STALK",
+   "effect": "alchemy_xp_boost",
+   "level": 1,
+   "xp": 300,
+   "unlock": null,
+   "base": "AWKWARD",
+   "tune": true
+  }
+ ],
+ "modifiers": [
+  {
+   "item": "NETHER_STALK",
+   "type": "AWKWARD",
+   "amount": 0,
+   "xp": 1
+  },
+  {
+   "item": "GLOWSTONE_DUST",
+   "type": "LEVEL",
+   "amount": 1,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_GLOWSTONE_DUST",
+   "type": "LEVEL",
+   "amount": 2,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_GLOWSTONE",
+   "type": "LEVEL",
+   "amount": 3,
+   "xp": 5
+  },
+  {
+   "item": "REDSTONE",
+   "type": "DURATION",
+   "amount": 480,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_REDSTONE",
+   "type": "DURATION",
+   "amount": 960,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_REDSTONE_BLOCK",
+   "type": "DURATION",
+   "amount": 2400,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_REDSTONE_LAMP",
+   "type": "BOTH",
+   "amount": 960,
+   "levels": 3,
+   "xp": 5
+  },
+  {
+   "item": "SULPHUR",
+   "type": "SPLASH",
+   "amount": 1,
+   "xp": 5
+  },
+  {
+   "item": "ENCHANTED_GUNPOWDER",
+   "type": "SPLASH",
+   "amount": 2,
+   "xp": 5
+  },
+  {
+   "item": "FERMENTED_SPIDER_EYE",
+   "type": "CORRUPT",
+   "amount": 0,
+   "xp": 10
+  }
+ ],
+ "god": {
+  "speed": 8,
+  "strength": 8,
+  "resistance": 8,
+  "regeneration": 9,
+  "mana": 8,
+  "critical": 4,
+  "archery": 4,
+  "haste": 4,
+  "jump_boost": 4,
+  "adrenaline": 8,
+  "water_breathing": 6,
+  "night_vision": 2,
+  "fire_resistance": 1,
+  "rabbit": 6,
+  "agility": 4,
+  "spelunker": 5,
+  "experience": 4,
+  "dodge": 4,
+  "true_defense": 4,
+  "spirit": 4,
+  "pet_luck": 4,
+  "stun": 4,
+  "burning": 4
+ },
+ "bundles": {
+  "dungeon": [
+   {
+    "level": 1,
+    "rarity": "COMMON",
+    "seconds": 1200,
+    "effects": {
+     "regeneration": 1,
+     "strength": 3,
+     "critical": 1,
+     "speed": 1,
+     "resistance": 1
+    }
+   },
+   {
+    "level": 2,
+    "rarity": "COMMON",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 2,
+     "strength": 3,
+     "critical": 1,
+     "speed": 2,
+     "resistance": 1
+    }
+   },
+   {
+    "level": 3,
+    "rarity": "UNCOMMON",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 3,
+     "strength": 3,
+     "critical": 2,
+     "speed": 2,
+     "resistance": 2
+    }
+   },
+   {
+    "level": 4,
+    "rarity": "UNCOMMON",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 3,
+     "strength": 4,
+     "critical": 2,
+     "speed": 2,
+     "resistance": 3,
+     "archery": 1
+    }
+   },
+   {
+    "level": 5,
+    "rarity": "RARE",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 3,
+     "strength": 4,
+     "critical": 3,
+     "speed": 2,
+     "resistance": 4,
+     "archery": 2
+    }
+   },
+   {
+    "level": 6,
+    "rarity": "RARE",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 4,
+     "strength": 4,
+     "critical": 3,
+     "speed": 3,
+     "resistance": 4,
+     "archery": 3
+    }
+   },
+   {
+    "level": 7,
+    "rarity": "EPIC",
+    "seconds": 2400,
+    "effects": {
+     "regeneration": 4,
+     "strength": 5,
+     "critical": 3,
+     "speed": 3,
+     "resistance": 5,
+     "archery": 3
+    }
+   }
+  ]
+ },
+ "brews": [
+  {
+   "item": "CHEAP_COFFEE",
+   "name": "Cheap Coffee",
+   "flat": {
+    "SPEED": 5
+   },
+   "pct": {},
+   "effects": null,
+   "desc": "Adds &f+5 Speed &7to potions with that stat."
+  },
+  {
+   "item": "DECENT_COFFEE",
+   "name": "Decent Coffee",
+   "flat": {
+    "SPEED": 8
+   },
+   "pct": {},
+   "effects": null,
+   "desc": "Adds &f+8 Speed &7to potions with that stat."
+  },
+  {
+   "item": "BLACK_COFFEE",
+   "name": "Black Coffee",
+   "flat": {
+    "SPEED": 12
+   },
+   "pct": {},
+   "effects": null,
+   "desc": "Adds &f+12 Speed &7to potions with that stat."
+  },
+  {
+   "item": "TEPID_GREEN_TEA",
+   "name": "Tepid Green Tea",
+   "flat": {},
+   "pct": {
+    "DEFENSE": 10
+   },
+   "effects": null,
+   "desc": "Raises the &aDefense &7of potions by &a+10%&7."
+  },
+  {
+   "item": "PULPOUS_ORANGE_JUICE",
+   "name": "Pulpous Orange Juice",
+   "flat": {},
+   "pct": {
+    "heal_per_sec": 5,
+    "heal_instant": 5
+   },
+   "effects": null,
+   "desc": "Raises the &cHealth &7restored by potions by &a+5%&7."
+  },
+  {
+   "item": "BITTER_ICE_TEA",
+   "name": "Bitter Iced Tea",
+   "flat": {},
+   "pct": {
+    "mana_per_sec": 20,
+    "mana_instant": 20,
+    "exp": 20
+   },
+   "effects": null,
+   "desc": "Raises the &bMana &7and &3Experience &7of potions by &a+20%&7."
+  },
+  {
+   "item": "KNOCKOFF_COLA",
+   "name": "Knockoff Cola",
+   "flat": {},
+   "pct": {
+    "STRENGTH": 5
+   },
+   "effects": null,
+   "desc": "Raises the &cStrength &7of potions by &a+5%&7."
+  },
+  {
+   "item": "SCARLETON_PREMIUM",
+   "name": "Carmine Premium",
+   "flat": {},
+   "pct": {
+    "heal_reduce": 10
+   },
+   "effects": null,
+   "desc": "Makes &4Wounded &7potions &a10% &7stronger."
+  },
+  {
+   "item": "RED_THORNLEAF_TEA",
+   "name": "Red Thornleaf Tea",
+   "flat": {
+    "reflect": 5
+   },
+   "pct": {},
+   "effects": [
+    "resistance"
+   ],
+   "desc": "Brews &aResistance &7potions only. While it lasts, &a5% &7of the damage a monster deals you is thrown back at it."
+  }
+ ]
+}

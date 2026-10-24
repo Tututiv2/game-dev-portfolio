@@ -1,0 +1,6 @@
+{
+  "name": "learn-to-fly",
+  "private": true,
+  "type": "module",
+  "description": "Not a build step. Node needs this one field to read src/**/*.js as ES modules, which is what lets tests/run-tests.mjs import the real sim. There are no dependencies and nothing to install."
+}

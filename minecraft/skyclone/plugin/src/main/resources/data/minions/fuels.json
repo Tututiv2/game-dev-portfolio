@@ -1,0 +1,405 @@
+[
+ {
+  "id": "COAL",
+  "seconds": 1800,
+  "speed": 5,
+  "mult": 1
+ },
+ {
+  "id": "CHARCOAL",
+  "seconds": 1800,
+  "speed": 5,
+  "mult": 1
+ },
+ {
+  "id": "COAL_BLOCK",
+  "seconds": 18000,
+  "speed": 5,
+  "mult": 1
+ },
+ {
+  "id": "ENCHANTED_BREAD",
+  "seconds": 43200,
+  "speed": 5,
+  "mult": 1
+ },
+ {
+  "id": "ENCHANTED_COAL",
+  "seconds": 86400,
+  "speed": 10,
+  "mult": 1
+ },
+ {
+  "id": "ENCHANTED_CHARCOAL",
+  "seconds": 129600,
+  "speed": 20,
+  "mult": 1
+ },
+ {
+  "id": "SOLAR_PANEL",
+  "seconds": 0,
+  "speed": 25,
+  "mult": 1,
+  "solar": true
+ },
+ {
+  "id": "ENCHANTED_LAVA_BUCKET",
+  "seconds": 0,
+  "speed": 25,
+  "mult": 1
+ },
+ {
+  "id": "MAGMA_BUCKET",
+  "seconds": 0,
+  "speed": 30,
+  "mult": 1
+ },
+ {
+  "id": "PLASMA_BUCKET",
+  "seconds": 0,
+  "speed": 35,
+  "mult": 1
+ },
+ {
+  "id": "EVERBURNING_FLAME",
+  "seconds": 0,
+  "speed": 35,
+  "mult": 1,
+  "categoryBonus": {
+   "COMBAT": 5,
+   "SLAYER": 5
+  }
+ },
+ {
+  "id": "HAMSTER_WHEEL",
+  "seconds": 86400,
+  "speed": 50,
+  "mult": 1
+ },
+ {
+  "id": "FOUL_FLESH",
+  "seconds": 18000,
+  "speed": 90,
+  "mult": 1
+ },
+ {
+  "id": "CHEESE_FUEL",
+  "seconds": 3600,
+  "speed": 0,
+  "mult": 2
+ },
+ {
+  "id": "CATALYST",
+  "seconds": 10800,
+  "speed": 0,
+  "mult": 3
+ },
+ {
+  "id": "HYPER_CATALYST",
+  "seconds": 21600,
+  "speed": 0,
+  "mult": 4
+ },
+ {
+  "id": "JACOBS_PARTICIPATION_MEDAL",
+  "seconds": 259200,
+  "speed": 0,
+  "mult": 1,
+  "onlyCategory": "FARMING",
+  "onePerProfile": true,
+  "perSecond": {
+   "item": "JACOBS_TICKET",
+   "every": 14400
+  }
+ },
+ {
+  "id": "INFERNO_FUEL_CRUDE_GABAGOOL",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 10,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "CRUDE_GABAGOOL",
+   "avg": 1.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_FUEL_GLOWSTONE_DUST",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 10,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "GLOWSTONE_DUST",
+   "avg": 2.5,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_FUEL_MAGMA_CREAM",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 10,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "MAGMA_CREAM",
+   "avg": 2.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_FUEL_NETHER_STALK",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 10,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "NETHER_STALK",
+   "avg": 5.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_FUEL_BLAZE_ROD",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 10,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "BLAZE_ROD",
+   "avg": 1.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HEAVY_CRUDE_GABAGOOL",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 15,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "CRUDE_GABAGOOL",
+   "avg": 1.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HEAVY_GLOWSTONE_DUST",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 15,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "GLOWSTONE_DUST",
+   "avg": 2.5,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HEAVY_MAGMA_CREAM",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 15,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "MAGMA_CREAM",
+   "avg": 2.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HEAVY_NETHER_STALK",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 15,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "NETHER_STALK",
+   "avg": 5.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HEAVY_BLAZE_ROD",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 15,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "BLAZE_ROD",
+   "avg": 1.0,
+   "replace": 0.8
+  }
+ },
+ {
+  "id": "INFERNO_HYPERGOLIC_CRUDE_GABAGOOL",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 20,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "CRUDE_GABAGOOL",
+   "avg": 1.0,
+   "replace": 0.8
+  },
+  "extras": [
+   {
+    "item": "CHILI_PEPPER",
+    "avg": 0.00641025641025641
+   },
+   {
+    "item": "INFERNO_VERTEX",
+    "avg": 6.11097531165974e-05
+   },
+   {
+    "item": "REAPER_PEPPER",
+    "avg": 2.1825388164528505e-06
+   },
+   {
+    "item": "GABAGOOL_THE_FISH",
+    "avg": 2.5e-06
+   },
+   {
+    "item": "INFERNO_APEX",
+    "avg": 9.5367431640625e-07
+   }
+  ]
+ },
+ {
+  "id": "INFERNO_HYPERGOLIC_GLOWSTONE_DUST",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 20,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "GLOWSTONE_DUST",
+   "avg": 2.5,
+   "replace": 0.8
+  },
+  "extras": [
+   {
+    "item": "CHILI_PEPPER",
+    "avg": 0.00641025641025641
+   },
+   {
+    "item": "INFERNO_VERTEX",
+    "avg": 6.11097531165974e-05
+   },
+   {
+    "item": "REAPER_PEPPER",
+    "avg": 2.1825388164528505e-06
+   },
+   {
+    "item": "GABAGOOL_THE_FISH",
+    "avg": 2.5e-06
+   },
+   {
+    "item": "INFERNO_APEX",
+    "avg": 9.5367431640625e-07
+   }
+  ]
+ },
+ {
+  "id": "INFERNO_HYPERGOLIC_MAGMA_CREAM",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 20,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "MAGMA_CREAM",
+   "avg": 2.0,
+   "replace": 0.8
+  },
+  "extras": [
+   {
+    "item": "CHILI_PEPPER",
+    "avg": 0.00641025641025641
+   },
+   {
+    "item": "INFERNO_VERTEX",
+    "avg": 6.11097531165974e-05
+   },
+   {
+    "item": "REAPER_PEPPER",
+    "avg": 2.1825388164528505e-06
+   },
+   {
+    "item": "GABAGOOL_THE_FISH",
+    "avg": 2.5e-06
+   },
+   {
+    "item": "INFERNO_APEX",
+    "avg": 9.5367431640625e-07
+   }
+  ]
+ },
+ {
+  "id": "INFERNO_HYPERGOLIC_NETHER_STALK",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 20,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "NETHER_STALK",
+   "avg": 5.0,
+   "replace": 0.8
+  },
+  "extras": [
+   {
+    "item": "CHILI_PEPPER",
+    "avg": 0.00641025641025641
+   },
+   {
+    "item": "INFERNO_VERTEX",
+    "avg": 6.11097531165974e-05
+   },
+   {
+    "item": "REAPER_PEPPER",
+    "avg": 2.1825388164528505e-06
+   },
+   {
+    "item": "GABAGOOL_THE_FISH",
+    "avg": 2.5e-06
+   },
+   {
+    "item": "INFERNO_APEX",
+    "avg": 9.5367431640625e-07
+   }
+  ]
+ },
+ {
+  "id": "INFERNO_HYPERGOLIC_BLAZE_ROD",
+  "seconds": 86400,
+  "speed": 0,
+  "mult": 20,
+  "onlyType": "INFERNO",
+  "specialty": {
+   "item": "BLAZE_ROD",
+   "avg": 1.0,
+   "replace": 0.8
+  },
+  "extras": [
+   {
+    "item": "CHILI_PEPPER",
+    "avg": 0.00641025641025641
+   },
+   {
+    "item": "INFERNO_VERTEX",
+    "avg": 6.11097531165974e-05
+   },
+   {
+    "item": "REAPER_PEPPER",
+    "avg": 2.1825388164528505e-06
+   },
+   {
+    "item": "GABAGOOL_THE_FISH",
+    "avg": 2.5e-06
+   },
+   {
+    "item": "INFERNO_APEX",
+    "avg": 9.5367431640625e-07
+   }
+  ]
+ }
+]

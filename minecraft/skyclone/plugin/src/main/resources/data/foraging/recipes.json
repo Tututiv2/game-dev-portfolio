@@ -1,0 +1,190 @@
+[
+ {
+  "id": "foraging:PROMISING_AXE#0",
+  "type": "CRAFTING",
+  "result": "PROMISING_AXE",
+  "amount": 1,
+  "grid": [
+   "",
+   "IRON_BLOCK",
+   "IRON_BLOCK",
+   "",
+   "STICK",
+   "IRON_BLOCK",
+   "",
+   "STICK",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "foraging:JUNGLE_AXE#0",
+  "type": "CRAFTING",
+  "result": "JUNGLE_AXE",
+  "amount": 1,
+  "grid": [
+   "",
+   "LOG:1:32",
+   "LOG:1:32",
+   "",
+   "STICK",
+   "LOG:1:32",
+   "",
+   "STICK",
+   ""
+  ],
+  "station": "Crafting Table"
+ },
+ {
+  "id": "foraging:TREECAPITATOR_AXE#0",
+  "type": "CRAFTING",
+  "result": "TREECAPITATOR_AXE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "JUNGLE_AXE",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4",
+   "ENCHANTED_JUNGLE_LOG:4"
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:3:7"
+ },
+ {
+  "id": "foraging:SCULPTORS_AXE#0",
+  "type": "CRAFTING",
+  "result": "SCULPTORS_AXE",
+  "amount": 1,
+  "grid": [
+   "",
+   "LOG:2:64",
+   "LOG:2:64",
+   "",
+   "STICK",
+   "LOG:2:64",
+   "STICK",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:LOG:2:4"
+ },
+ {
+  "id": "foraging:FIG_AXE#0",
+  "type": "CRAFTING",
+  "result": "FIG_AXE",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_FIG_LOG:10",
+   "ENCHANTED_FIG_LOG:10",
+   "",
+   "STRETCHING_STICKS:4",
+   "ENCHANTED_FIG_LOG:10",
+   "",
+   "STRETCHING_STICKS:4",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:4"
+ },
+ {
+  "id": "foraging:FIGSTONE_AXE#0",
+  "type": "CRAFTING",
+  "result": "FIGSTONE_AXE",
+  "amount": 1,
+  "grid": [
+   "FIGSTONE",
+   "FIGSTONE",
+   "",
+   "FIG_AXE",
+   "FIGSTONE",
+   "",
+   "FIGSTONE",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:FIG_LOG:6"
+ },
+ {
+  "id": "foraging:HELIX_CHOPPER#0",
+  "type": "CRAFTING",
+  "result": "HELIX_CHOPPER",
+  "amount": 1,
+  "grid": [
+   "HELIXIS",
+   "HELIXIS",
+   "",
+   "FIGSTONE_AXE",
+   "HELIXIS",
+   "",
+   "FLEXBONE:8",
+   "",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HELIX_LOG:6"
+ },
+ {
+  "id": "foraging:FUN_SIZED_POT_OF_HONEYCOMB#0",
+  "type": "CRAFTING",
+  "result": "FUN_SIZED_POT_OF_HONEYCOMB",
+  "amount": 1,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "HONEYCOMB:64",
+   "",
+   "",
+   "HELIX_LOG:64",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HONEYCOMB:1"
+ },
+ {
+  "id": "foraging:FAMILY_SIZED_POT_OF_HONEYCOMB#0",
+  "type": "CRAFTING",
+  "result": "FAMILY_SIZED_POT_OF_HONEYCOMB",
+  "amount": 8,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "ENCHANTED_HONEYCOMB:8",
+   "",
+   "",
+   "ENCHANTED_HELIX_LOG:32",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HONEYCOMB:3"
+ },
+ {
+  "id": "foraging:JUMBO_POT_OF_HONEYCOMB#0",
+  "type": "CRAFTING",
+  "result": "JUMBO_POT_OF_HONEYCOMB",
+  "amount": 8,
+  "grid": [
+   "",
+   "",
+   "",
+   "",
+   "ENCHANTED_HONEYCOMB:16",
+   "",
+   "",
+   "HELIXIS",
+   ""
+  ],
+  "station": "Crafting Table",
+  "unlock": "collection:HONEYCOMB:5"
+ }
+]

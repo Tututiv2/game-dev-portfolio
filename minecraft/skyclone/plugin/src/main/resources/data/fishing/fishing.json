@@ -1,0 +1,2436 @@
+{
+ "pools": [
+  {
+   "id": "water",
+   "name": "Open Water",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 0,
+   "islands": [],
+   "creatures": [
+    {
+     "mob": "sc_squid",
+     "weight": 1200,
+     "level": 1
+    },
+    {
+     "mob": "sc_sea_walker",
+     "weight": 800,
+     "level": 1
+    },
+    {
+     "mob": "sc_night_squid",
+     "weight": 600,
+     "cond": "night&bait:DARK_BAIT",
+     "level": 3
+    },
+    {
+     "mob": "sc_sea_guardian",
+     "weight": 600,
+     "level": 5
+    },
+    {
+     "mob": "sc_sea_witch",
+     "weight": 700,
+     "level": 7
+    },
+    {
+     "mob": "sc_sea_archer",
+     "weight": 550,
+     "level": 9
+    },
+    {
+     "mob": "sc_rider_of_the_deep",
+     "weight": 400,
+     "level": 11
+    },
+    {
+     "mob": "sc_catfish",
+     "weight": 250,
+     "level": 13
+    },
+    {
+     "mob": "sc_sea_leech",
+     "weight": 160,
+     "level": 16
+    },
+    {
+     "mob": "sc_guardian_defender",
+     "weight": 130,
+     "level": 17
+    },
+    {
+     "mob": "sc_deep_sea_protector",
+     "weight": 88,
+     "level": 18
+    },
+    {
+     "mob": "sc_water_hydra",
+     "weight": 18,
+     "level": 19
+    },
+    {
+     "mob": "sc_sea_emperor",
+     "weight": 6,
+     "level": 24
+    }
+   ]
+  },
+  {
+   "id": "park",
+   "name": "Park Waters",
+   "liquid": "water",
+   "mode": "add",
+   "islands": [
+    "park"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_night_squid",
+     "weight": 600,
+     "cond": "night",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "oasis",
+   "name": "Desert Oasis",
+   "liquid": "water",
+   "mode": "add",
+   "islands": [
+    "mushroom_desert"
+   ],
+   "keywords": [
+    "oasis"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_oasis_rabbit",
+     "weight": 300,
+     "level": 10
+    },
+    {
+     "mob": "sc_oasis_sheep",
+     "weight": 700,
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "quarry",
+   "name": "Flooded Quarry",
+   "liquid": "water",
+   "mode": "add",
+   "islands": [
+    "dwarven_mines"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_small_mithril_grubber",
+     "weight": 200,
+     "level": 6
+    },
+    {
+     "mob": "sc_medium_mithril_grubber",
+     "weight": 110,
+     "level": 6
+    },
+    {
+     "mob": "sc_large_mithril_grubber",
+     "weight": 55,
+     "level": 6
+    },
+    {
+     "mob": "sc_bloated_mithril_grubber",
+     "weight": 20,
+     "level": 6
+    }
+   ]
+  },
+  {
+   "id": "hollows_water",
+   "name": "Hollows Pools",
+   "liquid": "water",
+   "mode": "add",
+   "islands": [
+    "crystal_hollows"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_water_worm",
+     "weight": 300,
+     "cond": "zone:goblin",
+     "level": 15
+    },
+    {
+     "mob": "sc_poisoned_water_worm",
+     "weight": 300,
+     "cond": "zone:goblin",
+     "level": 17
+    },
+    {
+     "mob": "sc_abyssal_miner",
+     "weight": 90,
+     "cond": "zone:mithril|precursor|jungle",
+     "level": 24
+    }
+   ]
+  },
+  {
+   "id": "hollows_lava",
+   "name": "Hollows Magma",
+   "liquid": "lava",
+   "mode": "base",
+   "priority": 10,
+   "islands": [
+    "crystal_hollows"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_flaming_worm",
+     "weight": 180,
+     "cond": "zone:precursor&above:64",
+     "level": 19
+    },
+    {
+     "mob": "sc_lava_blaze",
+     "weight": 36,
+     "cond": "zone:magma",
+     "level": 20
+    },
+    {
+     "mob": "sc_lava_pigman",
+     "weight": 36,
+     "cond": "zone:magma",
+     "level": 22
+    }
+   ]
+  },
+  {
+   "id": "crimson_lava",
+   "name": "Crimson Lava",
+   "liquid": "lava",
+   "mode": "base",
+   "priority": 10,
+   "islands": [
+    "crimson_isle"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_magma_slug",
+     "weight": 1600,
+     "level": 27
+    },
+    {
+     "mob": "sc_moogma",
+     "weight": 1200,
+     "level": 28
+    },
+    {
+     "mob": "sc_lava_leech",
+     "weight": 600,
+     "level": 30
+    },
+    {
+     "mob": "sc_pyroclastic_worm",
+     "weight": 400,
+     "level": 31
+    },
+    {
+     "mob": "sc_lava_flame",
+     "weight": 360,
+     "level": 33
+    },
+    {
+     "mob": "sc_fire_eel",
+     "weight": 280,
+     "level": 34
+    },
+    {
+     "mob": "sc_taurus",
+     "weight": 160,
+     "level": 35
+    },
+    {
+     "mob": "sc_thunder",
+     "weight": 40,
+     "level": 36
+    },
+    {
+     "mob": "sc_lord_jawbus",
+     "weight": 8,
+     "level": 45
+    }
+   ]
+  },
+  {
+   "id": "bayou",
+   "name": "Backwater Bayou",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 10,
+   "islands": [
+    "backwater_bayou"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_trash_gobbler",
+     "weight": 5000,
+     "level": 5
+    },
+    {
+     "mob": "sc_dumpster_diver",
+     "weight": 2875,
+     "level": 5
+    },
+    {
+     "mob": "sc_banshee",
+     "weight": 1500,
+     "level": 10
+    },
+    {
+     "mob": "sc_bayou_sludge",
+     "weight": 500,
+     "level": 15
+    },
+    {
+     "mob": "sc_alligator",
+     "weight": 100,
+     "level": 20
+    },
+    {
+     "mob": "sc_titanoboa",
+     "weight": 25,
+     "level": 30
+    }
+   ]
+  },
+  {
+   "id": "marsh",
+   "name": "Moonmarsh",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 20,
+   "islands": [
+    "galatea"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_bogged",
+     "weight": 5000,
+     "level": 5
+    },
+    {
+     "mob": "sc_wetwing",
+     "weight": 2875,
+     "level": 7
+    },
+    {
+     "mob": "sc_tadgang",
+     "weight": 1500,
+     "level": 9
+    },
+    {
+     "mob": "sc_ent",
+     "weight": 500,
+     "level": 12
+    },
+    {
+     "mob": "sc_loch_emperor",
+     "weight": 100,
+     "level": 20
+    },
+    {
+     "mob": "sc_nessie",
+     "weight": 25,
+     "level": 25
+    }
+   ]
+  },
+  {
+   "id": "marsh_lava",
+   "name": "Marsh Vents",
+   "liquid": "lava",
+   "mode": "base",
+   "priority": 20,
+   "islands": [
+    "galatea",
+    "backwater_bayou"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_stridersurfer",
+     "weight": 200,
+     "level": 17
+    }
+   ]
+  },
+  {
+   "id": "lagoon",
+   "name": "Lotus Atoll",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 20,
+   "islands": [
+    "lotus_atoll"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_atoll_croaker",
+     "weight": 5000,
+     "level": 10
+    },
+    {
+     "mob": "sc_lotus_guardian",
+     "weight": 2875,
+     "level": 10
+    },
+    {
+     "mob": "sc_gorf",
+     "weight": 1500,
+     "level": 10
+    },
+    {
+     "mob": "sc_drowned_captain",
+     "weight": 500,
+     "level": 10
+    },
+    {
+     "mob": "sc_puddle_jumper",
+     "weight": 100,
+     "level": 10
+    },
+    {
+     "mob": "sc_frog_prince",
+     "weight": 25,
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "torrhus",
+   "name": "Torrent Springs",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 20,
+   "islands": [
+    "torrhus_canyon"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_haggard",
+     "weight": 5000,
+     "level": 15
+    },
+    {
+     "mob": "sc_brineling",
+     "weight": 2875,
+     "level": 15
+    },
+    {
+     "mob": "sc_sprawl",
+     "weight": 1500,
+     "level": 15
+    },
+    {
+     "mob": "sc_torrid",
+     "weight": 500,
+     "level": 15
+    },
+    {
+     "mob": "sc_silkbreeze",
+     "weight": 100,
+     "level": 15
+    },
+    {
+     "mob": "sc_giant_isopod",
+     "weight": 25,
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "winter",
+   "name": "Frozen Pond",
+   "liquid": "water",
+   "mode": "base",
+   "priority": 10,
+   "islands": [
+    "jerrys_workshop"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_frozen_steve",
+     "weight": 5000,
+     "level": 1
+    },
+    {
+     "mob": "sc_frosty",
+     "weight": 2875,
+     "level": 1
+    },
+    {
+     "mob": "sc_grinch",
+     "weight": 1500,
+     "level": 13
+    },
+    {
+     "mob": "sc_nutcracker",
+     "weight": 500,
+     "level": 28
+    },
+    {
+     "mob": "sc_yeti",
+     "weight": 100,
+     "level": 25
+    },
+    {
+     "mob": "sc_reindrake",
+     "weight": 25,
+     "level": 35
+    }
+   ]
+  },
+  {
+   "id": "shark",
+   "name": "Fishing Festival",
+   "liquid": "water",
+   "mode": "replace",
+   "chance": 0.15,
+   "trigger": "festival",
+   "creatures": [
+    {
+     "mob": "sc_nurse_shark",
+     "weight": 2875,
+     "level": 5
+    },
+    {
+     "mob": "sc_blue_shark",
+     "weight": 1500,
+     "level": 10
+    },
+    {
+     "mob": "sc_tiger_shark",
+     "weight": 500,
+     "level": 18
+    },
+    {
+     "mob": "sc_great_white_shark",
+     "weight": 100,
+     "level": 24
+    }
+   ]
+  },
+  {
+   "id": "spooky",
+   "name": "Spooky Festival",
+   "liquid": "water",
+   "mode": "replace",
+   "chance": 0.15,
+   "trigger": "spooky",
+   "creatures": [
+    {
+     "mob": "sc_jumpin_jack",
+     "weight": 5000,
+     "level": 6
+    },
+    {
+     "mob": "sc_scarecrow",
+     "weight": 2875,
+     "level": 9
+    },
+    {
+     "mob": "sc_nightmare",
+     "weight": 1500,
+     "level": 14
+    },
+    {
+     "mob": "sc_werewolf",
+     "weight": 500,
+     "level": 17
+    },
+    {
+     "mob": "sc_phantom_fisher",
+     "weight": 100,
+     "level": 21
+    },
+    {
+     "mob": "sc_grim_reaper",
+     "weight": 25,
+     "level": 26
+    }
+   ]
+  },
+  {
+   "id": "water_hotspot",
+   "name": "Water Hotspot",
+   "liquid": "water",
+   "mode": "replace",
+   "chance": 0.15,
+   "trigger": "hotspot",
+   "creatures": [
+    {
+     "mob": "sc_frog_man",
+     "weight": 5000,
+     "level": 5
+    },
+    {
+     "mob": "sc_inkling",
+     "weight": 2875,
+     "level": 7
+    },
+    {
+     "mob": "sc_snapping_turtle",
+     "weight": 1500,
+     "level": 10
+    },
+    {
+     "mob": "sc_manta_ray",
+     "weight": 500,
+     "level": 19
+    },
+    {
+     "mob": "sc_blue_ringed_octopus",
+     "weight": 100,
+     "level": 35
+    },
+    {
+     "mob": "sc_wiki_tiki",
+     "weight": 25,
+     "level": 40
+    }
+   ]
+  },
+  {
+   "id": "lava_hotspot",
+   "name": "Lava Hotspot",
+   "liquid": "lava",
+   "mode": "replace",
+   "chance": 0.15,
+   "trigger": "hotspot",
+   "creatures": [
+    {
+     "mob": "sc_fried_chicken",
+     "weight": 5000,
+     "level": 14
+    },
+    {
+     "mob": "sc_volcanic_snail",
+     "weight": 2875,
+     "level": 17
+    },
+    {
+     "mob": "sc_fireproof_witch",
+     "weight": 1500,
+     "level": 22
+    },
+    {
+     "mob": "sc_magma_pillar",
+     "weight": 500,
+     "level": 31
+    },
+    {
+     "mob": "sc_fiery_scuttler",
+     "weight": 100,
+     "level": 37
+    },
+    {
+     "mob": "sc_ragnarok",
+     "weight": 25,
+     "level": 47
+    }
+   ]
+  },
+  {
+   "id": "carrot",
+   "name": "Carrot Bait",
+   "liquid": "water",
+   "mode": "replace",
+   "chance": 0.05,
+   "trigger": "bait:CARROT_BAIT",
+   "creatures": [
+    {
+     "mob": "sc_carrot_king",
+     "weight": 1,
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "chumcap",
+   "name": "Chumcap Bucket",
+   "liquid": "water",
+   "mode": "replace",
+   "chance": 0.15,
+   "trigger": "chumcap",
+   "creatures": [
+    {
+     "mob": "sc_agarimoo",
+     "weight": 1,
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "plhlegblast",
+   "name": "Phlegm Pool",
+   "liquid": "lava",
+   "mode": "replace",
+   "chance": 0.001,
+   "trigger": "zone:plhleg|phlegm",
+   "islands": [
+    "crimson_isle"
+   ],
+   "creatures": [
+    {
+     "mob": "sc_plhlegblast",
+     "weight": 1,
+     "level": 36
+    }
+   ]
+  }
+ ],
+ "baits": {
+  "MINNOW_BAIT": {
+   "fs": 25
+  },
+  "FISH_BAIT": {
+   "fs": 45
+  },
+  "LIGHT_BAIT": {
+   "rareDay": 1.25
+  },
+  "DARK_BAIT": {
+   "rareNight": 1.25
+  },
+  "SPIKED_BAIT": {
+   "scc": 6
+  },
+  "SPOOKY_BAIT": {
+   "fs": 25,
+   "spookyChance": 0.15
+  },
+  "CARROT_BAIT": {},
+  "CORRUPTED_BAIT": {
+   "fsMult": 0.5,
+   "lavaOnly": true
+  },
+  "BLESSED_BAIT": {
+   "blessed": 0.5
+  },
+  "ICE_BAIT": {
+   "fs": 25,
+   "scc": 4,
+   "island": "jerrys_workshop"
+  },
+  "SHARK_BAIT": {
+   "sharkChance": 0.2
+  },
+  "GLOWY_CHUM_BAIT": {
+   "fs": 25,
+   "scc": 3,
+   "chum": 2
+  },
+  "HOT_BAIT": {
+   "fs": 15,
+   "trophy": 5
+  },
+  "WORM_BAIT": {
+   "fs": 60,
+   "wormsOnly": true,
+   "island": "crystal_hollows"
+  },
+  "GOLDEN_BAIT": {
+   "treasure": 4
+  },
+  "WOODEN_BAIT": {
+   "fs": 10,
+   "treasure": 1
+  },
+  "FROZEN_BAIT": {
+   "fs": 50,
+   "scc": 8,
+   "island": "jerrys_workshop"
+  },
+  "WHALE_BAIT": {
+   "fs": 30,
+   "rareAlways": 1.25
+  },
+  "TREASURE_BAIT": {
+   "fs": 10,
+   "treasure": 2
+  },
+  "HOTSPOT_BAIT": {
+   "hotspotChance": 0.2
+  },
+  "OBFUSCATED_FISH_1_BRONZE": {
+   "trophyBait": "OBFUSCATED_FISH_1",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_1_SILVER": {
+   "trophyBait": "OBFUSCATED_FISH_1",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_1_GOLD": {
+   "trophyBait": "OBFUSCATED_FISH_1",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_1_DIAMOND": {
+   "trophyBait": "OBFUSCATED_FISH_1",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_2_BRONZE": {
+   "trophyBait": "OBFUSCATED_FISH_2",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_2_SILVER": {
+   "trophyBait": "OBFUSCATED_FISH_2",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_2_GOLD": {
+   "trophyBait": "OBFUSCATED_FISH_2",
+   "lavaOnly": true
+  },
+  "OBFUSCATED_FISH_2_DIAMOND": {
+   "trophyBait": "OBFUSCATED_FISH_2",
+   "lavaOnly": true
+  }
+ },
+ "parts": {
+  "COMMON_HOOK": {
+   "slot": "hook",
+   "commonWeight": 1.25
+  },
+  "HOTSPOT_HOOK": {
+   "slot": "hook",
+   "hotspotChance": 0.2
+  },
+  "PHANTOM_HOOK": {
+   "slot": "hook",
+   "spookyChance": 0.2
+  },
+  "TREASURE_HOOK": {
+   "slot": "hook",
+   "noCreatures": true
+  },
+  "PUDDLE_JUMPER_HOOK": {
+   "slot": "hook",
+   "mobWeight": {
+    "sc_puddle_jumper": 5.0
+   }
+  },
+  "SPEEDY_LINE": {
+   "slot": "line",
+   "stats": {
+    "FISHING_SPEED": 10
+   }
+  },
+  "SHREDDED_LINE": {
+   "slot": "line",
+   "damage": 250,
+   "stats": {
+    "FEROCITY": 50
+   }
+  },
+  "TITAN_LINE": {
+   "slot": "line",
+   "stats": {
+    "DOUBLE_HOOK_CHANCE": 2
+   }
+  },
+  "TROPHY_LINE": {
+   "slot": "line",
+   "stats": {
+    "TROPHY_FISH_CHANCE": 5
+   }
+  },
+  "JUNK_SINKER": {
+   "slot": "sinker",
+   "junk": true
+  },
+  "PRISMARINE_SINKER": {
+   "slot": "sinker",
+   "materialize": [
+    "PRISMARINE_SHARD",
+    "PRISMARINE_CRYSTALS"
+   ]
+  },
+  "SPONGE_SINKER": {
+   "slot": "sinker",
+   "materialize": [
+    "SPONGE"
+   ]
+  },
+  "CHUM_SINKER": {
+   "slot": "sinker",
+   "materialize": [
+    "CHUM"
+   ]
+  },
+  "FESTIVE_SINKER": {
+   "slot": "sinker",
+   "festive": 0.05
+  },
+  "ICY_SINKER": {
+   "slot": "sinker",
+   "materialize": [
+    "ICE"
+   ]
+  },
+  "STINGY_SINKER": {
+   "slot": "sinker",
+   "keepBait": 0.1
+  },
+  "HOTSPOT_SINKER": {
+   "slot": "sinker",
+   "hotspotMult": 2.0
+  },
+  "LOTUS_SINKER": {
+   "slot": "sinker",
+   "materialize": [
+    "LOTUS"
+   ]
+  }
+ },
+ "trophy": {
+  "fish": {
+   "SULPHUR_SKITTER": {
+    "name": "Sulphur Skitter",
+    "rarity": "COMMON",
+    "rate": 30,
+    "cond": "sulphur",
+    "fillet": {
+     "bronze": 40,
+     "silver": 60,
+     "gold": 80,
+     "diamond": 120
+    },
+    "desc": "Bites when you stand within &a4 blocks &7of a Sulphur (sponge) block."
+   },
+   "OBFUSCATED_FISH_1": {
+    "name": "Obfuscated 1",
+    "rarity": "COMMON",
+    "rate": 25,
+    "cond": "bait:CORRUPTED_BAIT",
+    "fillet": {
+     "bronze": 16,
+     "silver": 24,
+     "gold": 32,
+     "diamond": 48
+    },
+    "desc": "Bites on Corrupted Bait, or drops from corrupted sea creatures."
+   },
+   "STEAMING_HOT_FLOUNDER": {
+    "name": "Steaming-Hot Flounder",
+    "rarity": "COMMON",
+    "rate": 20,
+    "cond": "geyser",
+    "fillet": {
+     "bronze": 20,
+     "silver": 28,
+     "gold": 40,
+     "diamond": 60
+    },
+    "desc": "Bites when your bobber floats within &a2 blocks &7of a geyser in the volcano."
+   },
+   "GUSHER": {
+    "name": "Gusher",
+    "rarity": "COMMON",
+    "rate": 20,
+    "cond": "eruption",
+    "fillet": {
+     "bronze": 32,
+     "silver": 48,
+     "gold": 64,
+     "diamond": 96
+    },
+    "desc": "Bites in the volcano for a while after an eruption."
+   },
+   "BLOBFISH": {
+    "name": "Blobfish",
+    "rarity": "COMMON",
+    "rate": 25,
+    "cond": "any",
+    "fillet": {
+     "bronze": 4,
+     "silver": 8,
+     "gold": 12,
+     "diamond": 16
+    },
+    "desc": "Lives in every lava pool on the isle."
+   },
+   "OBFUSCATED_FISH_2": {
+    "name": "Obfuscated 2",
+    "rarity": "UNCOMMON",
+    "rate": 20,
+    "cond": "bait:OBFUSCATED_FISH_1",
+    "fillet": {
+     "bronze": 40,
+     "silver": 60,
+     "gold": 80,
+     "diamond": 120
+    },
+    "desc": "Bites when you use an Obfuscated 1 as bait."
+   },
+   "SLUGFISH": {
+    "name": "Slugfish",
+    "rarity": "UNCOMMON",
+    "rate": 15,
+    "cond": "patience",
+    "fillet": {
+     "bronze": 40,
+     "silver": 60,
+     "gold": 80,
+     "diamond": 120
+    },
+    "desc": "Only bites a bobber that has been out for &a20 seconds&7."
+   },
+   "FLYFISH": {
+    "name": "Flyfish",
+    "rarity": "UNCOMMON",
+    "rate": 8,
+    "cond": "height",
+    "fillet": {
+     "bronze": 32,
+     "silver": 48,
+     "gold": 64,
+     "diamond": 96
+    },
+    "desc": "Bites when you fish from &a8 blocks &7or more above the lava in the volcano."
+   },
+   "OBFUSCATED_FISH_3": {
+    "name": "Obfuscated 3",
+    "rarity": "RARE",
+    "rate": 10,
+    "cond": "bait:OBFUSCATED_FISH_2",
+    "fillet": {
+     "bronze": 400,
+     "silver": 700,
+     "gold": 1000,
+     "diamond": 1300
+    },
+    "desc": "Bites when you use an Obfuscated 2 as bait."
+   },
+   "LAVA_HORSE": {
+    "name": "Lavahorse",
+    "rarity": "RARE",
+    "rate": 4,
+    "cond": "any",
+    "fillet": {
+     "bronze": 12,
+     "silver": 16,
+     "gold": 20,
+     "diamond": 24
+    },
+    "desc": "Swims everywhere, but rarely bites."
+   },
+   "MANA_RAY": {
+    "name": "Mana Ray",
+    "rarity": "RARE",
+    "rate": null,
+    "cond": "mana",
+    "fillet": {
+     "bronze": 40,
+     "silver": 60,
+     "gold": 80,
+     "diamond": 120
+    },
+    "desc": "Drawn to anglers holding &b1,200 Mana &7or more. More mana, more bites."
+   },
+   "VOLCANIC_STONEFISH": {
+    "name": "Volcanic Stonefish",
+    "rarity": "RARE",
+    "rate": 4,
+    "cond": "zone:volcano",
+    "fillet": {
+     "bronze": 20,
+     "silver": 28,
+     "gold": 40,
+     "diamond": 60
+    },
+    "desc": "Hides in the volcano's lava."
+   },
+   "VANILLE": {
+    "name": "Plain Vanille",
+    "rarity": "RARE",
+    "rate": 8,
+    "cond": "vanille",
+    "fillet": {
+     "bronze": 80,
+     "silver": 120,
+     "gold": 160,
+     "diamond": 240
+    },
+    "desc": "Only bites a Starter Lava Rod with no enchantments."
+   },
+   "SKELETON_FISH": {
+    "name": "Skeleton Fish",
+    "rarity": "EPIC",
+    "rate": 2,
+    "cond": "zone:desert|dragontail",
+    "fillet": {
+     "bronze": 32,
+     "silver": 48,
+     "gold": 64,
+     "diamond": 96
+    },
+    "desc": "Haunts the lava of the desert and the barbarian town."
+   },
+   "MOLDFIN": {
+    "name": "Moldfin",
+    "rarity": "EPIC",
+    "rate": 2,
+    "cond": "zone:marsh|scarleton",
+    "fillet": {
+     "bronze": 32,
+     "silver": 48,
+     "gold": 64,
+     "diamond": 96
+    },
+    "desc": "Grows in the lava of the marsh and the mage town."
+   },
+   "SOUL_FISH": {
+    "name": "Soul Fish",
+    "rarity": "EPIC",
+    "rate": 2,
+    "cond": "zone:stronghold",
+    "fillet": {
+     "bronze": 32,
+     "silver": 48,
+     "gold": 64,
+     "diamond": 96
+    },
+    "desc": "Swims only in the stronghold's lava."
+   },
+   "KARATE_FISH": {
+    "name": "Karate Fish",
+    "rarity": "EPIC",
+    "rate": 2,
+    "cond": "zone:dojo",
+    "fillet": {
+     "bronze": 40,
+     "silver": 60,
+     "gold": 80,
+     "diamond": 120
+    },
+    "desc": "Trains in the dojo's lava."
+   },
+   "GOLDEN_FISH": {
+    "name": "Golden Fish",
+    "rarity": "LEGENDARY",
+    "rate": null,
+    "cond": "golden",
+    "fillet": {
+     "bronze": 400,
+     "silver": 700,
+     "gold": 1000,
+     "diamond": 1300
+    },
+    "desc": "Appears after you have fished the lava for a long time."
+   }
+  },
+  "tiers": {
+   "chances": {
+    "DIAMOND": 0.002,
+    "GOLD": 0.02,
+    "SILVER": 0.25
+   },
+   "pity": {
+    "GOLD": 100,
+    "DIAMOND": 600
+   },
+   "xpMult": {
+    "BRONZE": 1.0,
+    "SILVER": 1.5,
+    "GOLD": 2.0,
+    "DIAMOND": 3.0
+   }
+  },
+  "xp": {
+   "COMMON": 100,
+   "UNCOMMON": 200,
+   "RARE": 400,
+   "EPIC": 800,
+   "LEGENDARY": 2000
+  },
+  "titles": [
+   {
+    "level": 1,
+    "name": "Novice Trophy Fisher",
+    "tier": "BRONZE"
+   },
+   {
+    "level": 2,
+    "name": "Adept Trophy Fisher",
+    "tier": "SILVER"
+   },
+   {
+    "level": 3,
+    "name": "Expert Trophy Fisher",
+    "tier": "GOLD"
+   },
+   {
+    "level": 4,
+    "name": "Master Trophy Fisher",
+    "tier": "DIAMOND"
+   }
+  ]
+ },
+ "fish": [
+  {
+   "item": "RAW_FISH",
+   "weight": 60,
+   "xp": 5
+  },
+  {
+   "item": "RAW_FISH:1",
+   "weight": 25,
+   "xp": 8
+  },
+  {
+   "item": "RAW_FISH:3",
+   "weight": 13,
+   "xp": 10
+  },
+  {
+   "item": "RAW_FISH:2",
+   "weight": 2,
+   "xp": 20
+  }
+ ],
+ "lavaFish": [
+  {
+   "item": "MAGMA_FISH",
+   "weight": 1,
+   "xp": 15
+  }
+ ],
+ "treasure": {
+  "weights": {
+   "good": 85,
+   "great": 13,
+   "outstanding": 2
+  },
+  "xp": {
+   "good": 25,
+   "great": 75,
+   "outstanding": 250
+  },
+  "water": {
+   "good": [
+    {
+     "item": "COINS",
+     "min": 100,
+     "max": 400,
+     "weight": 20
+    },
+    {
+     "item": "PRISMARINE_SHARD",
+     "min": 2,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "PRISMARINE_CRYSTALS",
+     "min": 2,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "SPONGE",
+     "min": 1,
+     "max": 2,
+     "weight": 10
+    },
+    {
+     "item": "INK_SACK",
+     "min": 4,
+     "max": 8,
+     "weight": 10
+    },
+    {
+     "item": "WATER_LILY",
+     "min": 2,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "CLAY_BALL",
+     "min": 4,
+     "max": 8,
+     "weight": 10
+    },
+    {
+     "item": "RAW_FISH",
+     "min": 4,
+     "max": 8,
+     "weight": 10
+    },
+    {
+     "item": "RAW_FISH:1",
+     "min": 2,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "RAW_FISH:3",
+     "min": 2,
+     "max": 3,
+     "weight": 10
+    },
+    {
+     "item": "RAW_FISH:2",
+     "min": 1,
+     "max": 1,
+     "weight": 5
+    },
+    {
+     "item": "EXP_BOTTLE",
+     "min": 2,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "MINNOW_BAIT",
+     "min": 4,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "FISH_BAIT",
+     "min": 2,
+     "max": 2,
+     "weight": 10
+    },
+    {
+     "item": "LIGHT_BAIT",
+     "min": 2,
+     "max": 2,
+     "weight": 5
+    },
+    {
+     "item": "DARK_BAIT",
+     "min": 2,
+     "max": 2,
+     "weight": 5
+    },
+    {
+     "item": "ENCHANTMENT_LURE_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_ANGLER_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_CASTER_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_LUCK_OF_THE_SEA_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_FRAIL_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_MAGNET_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "ENCHANTMENT_SPIKED_HOOK_1",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    }
+   ],
+   "great": [
+    {
+     "item": "COINS",
+     "min": 1000,
+     "max": 3000,
+     "weight": 20
+    },
+    {
+     "item": "ENCHANTED_RAW_FISH",
+     "min": 1,
+     "max": 1,
+     "weight": 10
+    },
+    {
+     "item": "ENCHANTED_PRISMARINE_SHARD",
+     "min": 1,
+     "max": 1,
+     "weight": 10
+    },
+    {
+     "item": "ENCHANTED_PRISMARINE_CRYSTALS",
+     "min": 1,
+     "max": 1,
+     "weight": 10
+    },
+    {
+     "item": "ENCHANTED_SPONGE",
+     "min": 1,
+     "max": 1,
+     "weight": 6
+    },
+    {
+     "item": "ENCHANTED_INK_SACK",
+     "min": 1,
+     "max": 1,
+     "weight": 10
+    },
+    {
+     "item": "ENCHANTED_CLAY_BALL",
+     "min": 1,
+     "max": 1,
+     "weight": 10
+    },
+    {
+     "item": "GRAND_EXP_BOTTLE",
+     "min": 1,
+     "max": 2,
+     "weight": 10
+    },
+    {
+     "item": "WHALE_BAIT",
+     "min": 1,
+     "max": 2,
+     "weight": 6
+    },
+    {
+     "item": "SPIKED_BAIT",
+     "min": 4,
+     "max": 4,
+     "weight": 10
+    },
+    {
+     "item": "BLESSED_BAIT",
+     "min": 2,
+     "max": 2,
+     "weight": 6
+    },
+    {
+     "item": "ENCHANTMENT_LURE_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_ANGLER_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_CASTER_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_LUCK_OF_THE_SEA_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_FRAIL_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_MAGNET_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_SPIKED_HOOK_3",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+     "min": 1,
+     "max": 1,
+     "weight": 2
+    }
+   ],
+   "outstanding": [
+    {
+     "item": "COINS",
+     "min": 8000,
+     "max": 20000,
+     "weight": 20
+    },
+    {
+     "item": "ENCHANTED_WET_SPONGE",
+     "min": 1,
+     "max": 1,
+     "weight": 4
+    },
+    {
+     "item": "TITANIC_EXP_BOTTLE",
+     "min": 1,
+     "max": 1,
+     "weight": 6
+    },
+    {
+     "item": "PET_ITEM_LUCKY_CLOVER_DROP",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_LURE_5",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_ANGLER_5",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_CASTER_5",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_LUCK_OF_THE_SEA_5",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "ENCHANTMENT_FRAIL_5",
+     "min": 1,
+     "max": 1,
+     "weight": 3
+    },
+    {
+     "item": "CHALLENGE_ROD",
+     "min": 1,
+     "max": 1,
+     "weight": 2
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 4,
+     "max": 4,
+     "weight": 5
+    },
+    {
+     "item": "GOLDEN_BAIT",
+     "min": 2,
+     "max": 2,
+     "weight": 5
+    },
+    {
+     "item": "FISH_AFFINITY_TALISMAN",
+     "min": 1,
+     "max": 1,
+     "weight": 2
+    },
+    {
+     "item": "HOTSPOT_RADAR",
+     "min": 1,
+     "max": 1,
+     "weight": 2
+    }
+   ]
+  },
+  "islands": {
+   "jerrys_workshop": {
+    "great": [
+     {
+      "item": "ICE_BAIT",
+      "min": 4,
+      "max": 4,
+      "weight": 15
+     },
+     {
+      "item": "ICE",
+      "min": 8,
+      "max": 16,
+      "weight": 15
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "ICE_ROD",
+      "min": 1,
+      "max": 1,
+      "weight": 12
+     },
+     {
+      "item": "FROZEN_BAIT",
+      "min": 2,
+      "max": 2,
+      "weight": 12
+     }
+    ]
+   },
+   "backwater_bayou": {
+    "good": [
+     {
+      "item": "RUSTY_COIN",
+      "min": 1,
+      "max": 2,
+      "weight": 12
+     }
+    ],
+    "great": [
+     {
+      "item": "RUSTY_COIN",
+      "min": 2,
+      "max": 4,
+      "weight": 10
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "BAYOU_WATER_ORB",
+      "min": 1,
+      "max": 1,
+      "weight": 4
+     }
+    ]
+   },
+   "crystal_hollows": {
+    "great": [
+     {
+      "item": "ROUGH_SAPPHIRE_GEM",
+      "min": 16,
+      "max": 32,
+      "weight": 10
+     },
+     {
+      "item": "WORM_BAIT",
+      "min": 4,
+      "max": 4,
+      "weight": 8
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "FLAWED_SAPPHIRE_GEM",
+      "min": 1,
+      "max": 3,
+      "weight": 8
+     }
+    ]
+   },
+   "lotus_atoll": {
+    "good": [
+     {
+      "item": "LOTUS",
+      "min": 1,
+      "max": 2,
+      "weight": 12
+     }
+    ],
+    "great": [
+     {
+      "item": "LOTUS",
+      "min": 3,
+      "max": 6,
+      "weight": 10
+     },
+     {
+      "item": "FROGCOIN",
+      "min": 1,
+      "max": 1,
+      "weight": 2
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "LOTUS_SILVER",
+      "min": 1,
+      "max": 1,
+      "weight": 6
+     },
+     {
+      "item": "LOTUS_WATER_ORB",
+      "min": 1,
+      "max": 1,
+      "weight": 2
+     }
+    ]
+   },
+   "torrhus_canyon": {
+    "good": [
+     {
+      "item": "SEA_LUMIES",
+      "min": 2,
+      "max": 4,
+      "weight": 12
+     }
+    ],
+    "great": [
+     {
+      "item": "ENCHANTED_SEA_LUMIES",
+      "min": 1,
+      "max": 1,
+      "weight": 8
+     },
+     {
+      "item": "SEA_BRINE",
+      "min": 1,
+      "max": 1,
+      "weight": 3
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "SUBLIME_SILK",
+      "min": 1,
+      "max": 1,
+      "weight": 3
+     }
+    ]
+   },
+   "galatea": {
+    "good": [
+     {
+      "item": "SEA_LUMIES",
+      "min": 1,
+      "max": 3,
+      "weight": 12
+     },
+     {
+      "item": "MANGROVE_LOG",
+      "min": 4,
+      "max": 8,
+      "weight": 8
+     }
+    ],
+    "great": [
+     {
+      "item": "ENCHANTED_SEA_LUMIES",
+      "min": 1,
+      "max": 1,
+      "weight": 8
+     }
+    ],
+    "outstanding": [
+     {
+      "item": "MOUND_OF_SEAGRASS",
+      "min": 1,
+      "max": 1,
+      "weight": 3
+     }
+    ]
+   }
+  },
+  "junkWeights": {
+   "good": 89,
+   "great": 10,
+   "outstanding": 1
+  },
+  "junk": {
+   "good": [
+    {
+     "item": "RUSTY_COIN",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    }
+   ],
+   "great": [
+    {
+     "item": "BUSTED_BELT_BUCKLE",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    }
+   ],
+   "outstanding": [
+    {
+     "item": "OLD_LEATHER_BOOT",
+     "min": 1,
+     "max": 1,
+     "weight": 5
+    },
+    {
+     "item": "MOBY_DUCK",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    }
+   ]
+  }
+ },
+ "keeperShop": [
+  {
+   "item": "BRONZE_HUNTER_HELMET",
+   "coins": 100000,
+   "title": 1
+  },
+  {
+   "item": "BRONZE_HUNTER_CHESTPLATE",
+   "coins": 100000,
+   "title": 1
+  },
+  {
+   "item": "BRONZE_HUNTER_LEGGINGS",
+   "coins": 100000,
+   "title": 1
+  },
+  {
+   "item": "BRONZE_HUNTER_BOOTS",
+   "coins": 100000,
+   "title": 1
+  },
+  {
+   "item": "ODGERS_BRONZE_TOOTH",
+   "coins": 100000,
+   "title": 1
+  },
+  {
+   "item": "SILVER_HUNTER_HELMET",
+   "coins": 500000,
+   "title": 2
+  },
+  {
+   "item": "SILVER_HUNTER_CHESTPLATE",
+   "coins": 500000,
+   "title": 2
+  },
+  {
+   "item": "SILVER_HUNTER_LEGGINGS",
+   "coins": 500000,
+   "title": 2
+  },
+  {
+   "item": "SILVER_HUNTER_BOOTS",
+   "coins": 500000,
+   "title": 2
+  },
+  {
+   "item": "ODGERS_SILVER_TOOTH",
+   "coins": 500000,
+   "title": 2
+  },
+  {
+   "item": "GOLD_HUNTER_HELMET",
+   "coins": 1000000,
+   "title": 3
+  },
+  {
+   "item": "GOLD_HUNTER_CHESTPLATE",
+   "coins": 1000000,
+   "title": 3
+  },
+  {
+   "item": "GOLD_HUNTER_LEGGINGS",
+   "coins": 1000000,
+   "title": 3
+  },
+  {
+   "item": "GOLD_HUNTER_BOOTS",
+   "coins": 1000000,
+   "title": 3
+  },
+  {
+   "item": "ODGERS_GOLD_TOOTH",
+   "coins": 1000000,
+   "title": 3
+  },
+  {
+   "item": "DIAMOND_HUNTER_HELMET",
+   "coins": 2500000,
+   "title": 4
+  },
+  {
+   "item": "DIAMOND_HUNTER_CHESTPLATE",
+   "coins": 2500000,
+   "title": 4
+  },
+  {
+   "item": "DIAMOND_HUNTER_LEGGINGS",
+   "coins": 2500000,
+   "title": 4
+  },
+  {
+   "item": "DIAMOND_HUNTER_BOOTS",
+   "coins": 2500000,
+   "title": 4
+  },
+  {
+   "item": "ODGERS_DIAMOND_TOOTH",
+   "coins": 2500000,
+   "title": 4
+  },
+  {
+   "item": "STARTER_LAVA_ROD",
+   "coins": 10000,
+   "title": 0
+  },
+  {
+   "item": "BRONZE_TROPHY_FISHING_SACK",
+   "coins": 1000000,
+   "title": 1
+  },
+  {
+   "item": "SILVER_TROPHY_FISHING_SACK",
+   "coins": 5000000,
+   "title": 2
+  },
+  {
+   "item": "GOLD_TROPHY_FISHING_SACK",
+   "coins": 15000000,
+   "title": 3
+  },
+  {
+   "item": "DIAMOND_TROPHY_FISHING_SACK",
+   "coins": 40000000,
+   "title": 4
+  }
+ ],
+ "baitShop": [
+  {
+   "item": "MINNOW_BAIT",
+   "coins": 15
+  },
+  {
+   "item": "FISH_BAIT",
+   "coins": 40
+  },
+  {
+   "item": "LIGHT_BAIT",
+   "coins": 40
+  },
+  {
+   "item": "DARK_BAIT",
+   "coins": 40
+  },
+  {
+   "item": "SPIKED_BAIT",
+   "coins": 80
+  },
+  {
+   "item": "CARROT_BAIT",
+   "coins": 60
+  },
+  {
+   "item": "BLESSED_BAIT",
+   "coins": 150
+  },
+  {
+   "item": "SHARK_BAIT",
+   "coins": 120
+  },
+  {
+   "item": "HOT_BAIT",
+   "coins": 120
+  },
+  {
+   "item": "WHALE_BAIT",
+   "coins": 400
+  },
+  {
+   "item": "HOTSPOT_BAIT",
+   "coins": 5000
+  },
+  {
+   "item": "FISHING_ROD",
+   "coins": 50
+  },
+  {
+   "item": "PRISMARINE_ROD",
+   "coins": 250
+  },
+  {
+   "item": "SPONGE_ROD",
+   "coins": 600
+  },
+  {
+   "item": "HOTSPOT_RADAR",
+   "coins": 25000
+  },
+  {
+   "item": "EMPTY_CHUMCAP_BUCKET",
+   "coins": 20000
+  }
+ ],
+ "partShop": [
+  {
+   "item": "COMMON_HOOK",
+   "coins": 25000
+  },
+  {
+   "item": "PRISMARINE_SINKER",
+   "coins": 10000
+  },
+  {
+   "item": "SPONGE_SINKER",
+   "coins": 12000
+  },
+  {
+   "item": "ICY_SINKER",
+   "coins": 10000
+  },
+  {
+   "item": "CHUM_SINKER",
+   "coins": 10000
+  },
+  {
+   "item": "FESTIVE_SINKER",
+   "coins": 15000
+  },
+  {
+   "item": "HOTSPOT_SINKER",
+   "coins": 750000
+  },
+  {
+   "item": "HOTSPOT_HOOK",
+   "coins": 1000000
+  },
+  {
+   "item": "TITAN_LINE",
+   "coins": 5000000
+  }
+ ],
+ "hotspots": {
+  "hub": 3,
+  "spiders_den": 1,
+  "park": 1,
+  "backwater_bayou": 2,
+  "jerrys_workshop": 2,
+  "crimson_isle": 3,
+  "lotus_atoll": 2,
+  "torrhus_canyon": 2
+ },
+ "fsCaps": {
+  "backwater_bayou": 200,
+  "crimson_isle": 350,
+  "lotus_atoll": 250
+ },
+ "rods": {
+  "FISHING_ROD": {
+   "lava": false
+  },
+  "PRISMARINE_ROD": {
+   "lava": false
+  },
+  "SPONGE_ROD": {
+   "lava": false
+  },
+  "SPEEDSTER_ROD": {
+   "lava": false
+  },
+  "FARMER_ROD": {
+   "lava": false
+  },
+  "CHALLENGE_ROD": {
+   "lava": false
+  },
+  "CHAMP_ROD": {
+   "lava": false
+  },
+  "LEGEND_ROD": {
+   "lava": false
+  },
+  "ROD_OF_THE_SEA": {
+   "lava": false
+  },
+  "ICE_ROD": {
+   "lava": false
+  },
+  "WINTER_ROD": {
+   "lava": false
+  },
+  "YETI_ROD": {
+   "lava": false
+  },
+  "PHANTOM_ROD": {
+   "lava": false
+  },
+  "AUGER_ROD": {
+   "lava": false
+  },
+  "THE_SHREDDER": {
+   "lava": false
+  },
+  "GIANT_FISHING_ROD": {
+   "lava": false
+  },
+  "DIRT_ROD": {
+   "lava": false
+  },
+  "CHUM_ROD": {
+   "lava": false
+  },
+  "STARTER_LAVA_ROD": {
+   "lava": true
+  },
+  "POLISHED_TOPAZ_ROD": {
+   "lava": true
+  },
+  "MAGMA_ROD": {
+   "lava": true
+  },
+  "INFERNO_ROD": {
+   "lava": true
+  },
+  "HELLFIRE_ROD": {
+   "lava": true
+  },
+  "ELLES_LAVA_ROD": {
+   "lava": true
+  }
+ },
+ "jonesy": [
+  {
+   "name": "Chapter I",
+   "xp": 100,
+   "sbXp": 5,
+   "rewards": [
+    {
+     "item": "TREASURE_BAIT",
+     "min": 4,
+     "max": 4,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "talk",
+     "arg": "junk",
+     "label": "Learn about Junk"
+    },
+    {
+     "kind": "part",
+     "arg": "ANY",
+     "label": "Apply a Rod Part"
+    },
+    {
+     "kind": "talk",
+     "arg": "hotspots",
+     "label": "Learn about Hotspots"
+    }
+   ]
+  },
+  {
+   "name": "Chapter II",
+   "xp": 250,
+   "sbXp": 10,
+   "rewards": [
+    {
+     "item": "RUSTY_COIN",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 8,
+     "max": 8,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:1",
+     "label": "Reach Lily Pad Collection I"
+    },
+    {
+     "kind": "fished",
+     "arg": "RUSTY_COIN",
+     "label": "Catch a Rusty Coin"
+    },
+    {
+     "kind": "own",
+     "arg": "TREASURE_BAIT",
+     "label": "Get some Treasure Bait"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_trash_gobbler",
+     "label": "Catch a Trash Gobbler"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_dumpster_diver",
+     "label": "Catch a Dumpster Diver"
+    }
+   ]
+  },
+  {
+   "name": "Chapter III",
+   "xp": 500,
+   "sbXp": 15,
+   "rewards": [
+    {
+     "item": "RUSTY_COIN",
+     "min": 4,
+     "max": 4,
+     "weight": 1
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 16,
+     "max": 16,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:3",
+     "label": "Reach Lily Pad Collection III"
+    },
+    {
+     "kind": "own",
+     "arg": "JUNK_TALISMAN|JUNK_RING|JUNK_ARTIFACT",
+     "label": "Own a Junk Talisman"
+    },
+    {
+     "kind": "own",
+     "arg": "CHALLENGE_ROD",
+     "label": "Own a Challenging Rod"
+    },
+    {
+     "kind": "own",
+     "arg": "BACKWATER_HELMET|BACKWATER_CHESTPLATE|BACKWATER_LEGGINGS|BACKWATER_BOOTS",
+     "label": "Own a piece of Backwater Armor"
+    },
+    {
+     "kind": "pet",
+     "arg": "HERMIT_CRAB:COMMON",
+     "label": "Have a Hermit Crab pet out"
+    },
+    {
+     "kind": "hotspot",
+     "arg": "",
+     "label": "Catch a Hotspot Sea Creature"
+    }
+   ]
+  },
+  {
+   "name": "Chapter IV",
+   "xp": 1000,
+   "sbXp": 20,
+   "rewards": [
+    {
+     "item": "BUSTED_BELT_BUCKLE",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    },
+    {
+     "item": "RUSTY_COIN",
+     "min": 8,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 32,
+     "max": 32,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:5",
+     "label": "Reach Lily Pad Collection V"
+    },
+    {
+     "kind": "fished",
+     "arg": "BUSTED_BELT_BUCKLE",
+     "label": "Catch a Busted Belt Buckle"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_banshee",
+     "label": "Catch a Banshee"
+    },
+    {
+     "kind": "pet",
+     "arg": "HERMIT_CRAB:UNCOMMON",
+     "label": "Have an Uncommon Hermit Crab out"
+    },
+    {
+     "kind": "part",
+     "arg": "STINGY_SINKER",
+     "label": "Apply a Stingy Sinker"
+    },
+    {
+     "kind": "own",
+     "arg": "JUNK_RING|JUNK_ARTIFACT",
+     "label": "Own a Junk Ring"
+    }
+   ]
+  },
+  {
+   "name": "Chapter V",
+   "xp": 2500,
+   "sbXp": 25,
+   "rewards": [
+    {
+     "item": "BUSTED_BELT_BUCKLE",
+     "min": 2,
+     "max": 2,
+     "weight": 1
+    },
+    {
+     "item": "RUSTY_COIN",
+     "min": 16,
+     "max": 16,
+     "weight": 1
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 64,
+     "max": 64,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:7",
+     "label": "Reach Lily Pad Collection VII"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_bayou_sludge",
+     "label": "Catch a Bayou Sludge"
+    },
+    {
+     "kind": "pet",
+     "arg": "HERMIT_CRAB:RARE",
+     "label": "Have a Rare Hermit Crab out"
+    },
+    {
+     "kind": "part",
+     "arg": "SPEEDY_LINE",
+     "label": "Apply a Speedy Line"
+    }
+   ]
+  },
+  {
+   "name": "Chapter VI",
+   "xp": 5000,
+   "sbXp": 30,
+   "rewards": [
+    {
+     "item": "BUSTED_BELT_BUCKLE",
+     "min": 4,
+     "max": 4,
+     "weight": 1
+    },
+    {
+     "item": "RUSTY_COIN",
+     "min": 32,
+     "max": 32,
+     "weight": 1
+    },
+    {
+     "item": "TREASURE_BAIT",
+     "min": 128,
+     "max": 128,
+     "weight": 1
+    }
+   ],
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:8",
+     "label": "Reach Lily Pad Collection VIII"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_alligator",
+     "label": "Catch an Alligator"
+    },
+    {
+     "kind": "fished",
+     "arg": "OLD_LEATHER_BOOT",
+     "label": "Catch an Old Leather Boot"
+    },
+    {
+     "kind": "pet",
+     "arg": "HERMIT_CRAB:EPIC",
+     "label": "Have an Epic Hermit Crab out"
+    },
+    {
+     "kind": "own",
+     "arg": "JUNK_ARTIFACT",
+     "label": "Own a Junk Artifact"
+    }
+   ]
+  },
+  {
+   "name": "Chapter VII",
+   "xp": 10000,
+   "sbXp": 35,
+   "rewards": [],
+   "pearl": true,
+   "tasks": [
+    {
+     "kind": "collection",
+     "arg": "WATER_LILY:9",
+     "label": "Reach Lily Pad Collection IX"
+    },
+    {
+     "kind": "caught",
+     "arg": "sc_titanoboa",
+     "label": "Catch a Titanoboa"
+    },
+    {
+     "kind": "own",
+     "arg": "BAYOU_WATER_ORB",
+     "label": "Craft a Bayou Water Orb"
+    },
+    {
+     "kind": "part",
+     "arg": "TREASURE_HOOK",
+     "label": "Apply a Treasure Hook"
+    },
+    {
+     "kind": "own",
+     "arg": "GOLD_BOTTLE_CAP",
+     "label": "Own a Gold Bottle Cap"
+    },
+    {
+     "kind": "pet",
+     "arg": "HERMIT_CRAB:LEGENDARY",
+     "label": "Have a Legendary Hermit Crab out"
+    }
+   ]
+  }
+ ]
+}

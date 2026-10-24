@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SAGM — analysis debug</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0; padding: 20px; background: #0b0d12; color: #d7dde8;
+        font: 13px/1.5 ui-monospace, "Cascadia Code", Consolas, monospace;
+      }
+      h1 { font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #7f8ea3; margin: 0 0 18px; }
+      .scene { margin-bottom: 26px; border: 1px solid #1e2430; border-radius: 8px; padding: 14px; background: #0f121a; }
+      .scene h2 { font-size: 13px; margin: 0 0 10px; color: #cfe2ff; letter-spacing: .06em; }
+      .row { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+      .panel { display: flex; flex-direction: column; gap: 5px; }
+      .panel > span { color: #6b7a90; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+      canvas { border: 1px solid #232b39; border-radius: 4px; display: block; background: #000; }
+      .meta { min-width: 290px; max-width: 360px; }
+      .meta dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; }
+      .meta dt { color: #6b7a90; }
+      .meta dd { margin: 0; color: #e4ebf5; }
+      .ok { color: #63d69a; }
+      .warn { color: #e8c26a; }
+      .bad { color: #f2766c; }
+      .reasons { margin-top: 8px; color: #8fa0b8; font-size: 11px; }
+    </style>
+  </head>
+  <body>
+    <h1>Analysis debug — synthetic scenes</h1>
+    <div id="out"></div>
+    <script type="module" src="/src/debug.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+# SubtitleStudio dependencies — Python 3.10 on Windows, NVIDIA GPU
+# See BUILD_PROMPT.md §2 and §9. Do not add anything here without reading §9 first.
+
+# --- ASR (M1) ---------------------------------------------------------------
+# 1.2.1, not 1.0.x: BatchedInferencePipeline (added in 1.1) is ~1.5x faster than
+# sequential decoding for the same words, and 1.0.3 additionally needed a manual
+# `requests` install because it imports it without depending on it.
+faster-whisper==1.2.1
+numpy<2                    # 2.x breaks ctranslate2 / faster-whisper wheels
+
+# --- CUDA runtime DLLs that pip does NOT install with the above (§9) --------
+# THE PAIRING IS LOAD-BEARING. ctranslate2 <= 4.4 links cuDNN 8; 4.5+ links
+# cuDNN 9. Mismatch them and the process ABORTS with no Python traceback:
+#   "Could not locate cudnn_ops_infer64_8.dll"   (ct2 4.4 + cuDNN 9)
+#   "Could not locate cudnn_ops64_9.dll"         (ct2 4.5 + cuDNN 8, or none)
+# Change one of these two lines and you must change the other.
+#
+# 4.8.1 specifically: 4.5.0 crashes the whole process with 0xC0000409
+# (STATUS_STACK_BUFFER_OVERRUN) inside the WhisperModel DESTRUCTOR, after a
+# successful transcription, once the audio is long enough (~3 min reproduces it;
+# 15 s does not). Symptom is a run that shows "transcribe 100%" and then dies
+# with no traceback and no output files. Do not downgrade.
+ctranslate2==4.8.1
+nvidia-cudnn-cu12==9.*
+nvidia-cublas-cu12
+
+# --- Subtitle / IO helpers --------------------------------------------------
+srt
+
+# faster-whisper 1.0.3 imports `requests` directly, but huggingface_hub 1.x no
+# longer depends on it, so pip does not pull it in. Without this you get
+# ModuleNotFoundError: No module named 'requests' at model load.
+requests
+
+# --- GUI (M2+; harmless to install now) -------------------------------------
+PySide6==6.7.3

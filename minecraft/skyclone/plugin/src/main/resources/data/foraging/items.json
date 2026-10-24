@@ -1,0 +1,1266 @@
+[
+ {
+  "id": "WOODEN_AXE",
+  "name": "Wooden Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "damage": 10,
+  "lore": [
+   "&7A crude axe. It still bites wood."
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Wooden Axe"
+  }
+ },
+ {
+  "id": "STONE_AXE",
+  "name": "Stone Axe",
+  "material": "STONE_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "damage": 15,
+  "lore": [
+   "&7Heavier than wood and twice as stubborn."
+  ],
+  "npcSell": 2,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Stone Axe"
+  }
+ },
+ {
+  "id": "GOLDEN_AXE",
+  "name": "Golden Axe",
+  "material": "GOLDEN_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "damage": 20,
+  "lore": [
+   "&7Soft metal, sharp edge, short life",
+   "&7anywhere but here."
+  ],
+  "npcSell": 6,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Golden Axe"
+  }
+ },
+ {
+  "id": "IRON_AXE",
+  "name": "Iron Axe",
+  "material": "IRON_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "damage": 25,
+  "lore": [
+   "&7A dependable woodcutter's axe."
+  ],
+  "npcSell": 4,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Iron Axe"
+  }
+ },
+ {
+  "id": "DIAMOND_AXE",
+  "name": "Diamond Axe",
+  "material": "DIAMOND_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 30,
+  "lore": [
+   "&7Splits trunks like kindling."
+  ],
+  "npcSell": 12,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Diamond Axe"
+  }
+ },
+ {
+  "id": "ROOKIE_AXE",
+  "name": "Rookie Foraging Axe",
+  "material": "STONE_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "damage": 20,
+  "lore": [
+   "&7Comes sharpened: gains &aEfficiency I",
+   "&7the first time it fells a log."
+  ],
+  "npcSell": 6,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Rookie Foraging Axe"
+  }
+ },
+ {
+  "id": "PROMISING_AXE",
+  "name": "Promising Axe",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 25,
+  "lore": [
+   "&7Learns as it works: gains &aEfficiency I",
+   "&7after felling &a50 &7logs."
+  ],
+  "npcSell": 20,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Promising Axe",
+   "growsAt": 50
+  }
+ },
+ {
+  "id": "SWEET_AXE",
+  "name": "Sweet Axe",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 25,
+  "lore": [
+   "&7Every log it fells has a &a20% &7chance",
+   "&7to shake loose an &cApple&7."
+  ],
+  "npcSell": 25,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Sweet Axe",
+   "appleChance": 0.2
+  }
+ },
+ {
+  "id": "EFFICIENT_AXE",
+  "name": "Efficient Axe",
+  "material": "IRON_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 25,
+  "lore": [
+   "&7Every log it fells also drops",
+   "&a5 &7planks of the same wood."
+  ],
+  "npcSell": 25,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Efficient Axe",
+   "planks": 5
+  }
+ },
+ {
+  "id": "JUNGLE_AXE",
+  "name": "Sprucecutter",
+  "material": "WOODEN_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "stats": {
+   "SWEEP": 4
+  },
+  "abilities": [
+   {
+    "id": "foraging_throw_axe",
+    "name": "Throwing Axe",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7While on a foraging island, hurl your",
+     "&7axe at a tree up to &a24 &7blocks away.",
+     "&7It fells &a50% &7of the logs a swing would."
+    ]
+   },
+   {
+    "id": "foraging_park_fortune_50",
+    "name": "Park Regular",
+    "trigger": "PASSIVE",
+    "lore": [
+     "&7Gain &6+50☘ Foraging Fortune &7while",
+     "&7in The Park."
+    ]
+   }
+  ],
+  "npcSell": 480,
+  "gemSlots": [
+   "CITRINE"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Spruce Axe",
+   "parkFortune": 50
+  }
+ },
+ {
+  "id": "TREECAPITATOR_AXE",
+  "name": "Timberfeller",
+  "material": "GOLDEN_AXE",
+  "rarity": "EPIC",
+  "category": "AXE",
+  "stats": {
+   "SWEEP": 25
+  },
+  "abilities": [
+   {
+    "id": "foraging_throw_axe",
+    "name": "Throwing Axe",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7While on a foraging island, hurl your",
+     "&7axe at a tree up to &a24 &7blocks away.",
+     "&7It fells &a50% &7of the logs a swing would."
+    ]
+   },
+   {
+    "id": "foraging_park_fortune_100",
+    "name": "Park Devotee",
+    "trigger": "PASSIVE",
+    "lore": [
+     "&7Gain &6+100☘ Foraging Fortune &7while",
+     "&7in The Park."
+    ]
+   }
+  ],
+  "npcSell": 10000,
+  "gemSlots": [
+   "CITRINE",
+   "CITRINE"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Treecapitator",
+   "parkFortune": 100
+  }
+ },
+ {
+  "id": "SCULPTORS_AXE",
+  "name": "Sculptor's Axe",
+  "material": "STONE_AXE",
+  "rarity": "COMMON",
+  "category": "AXE",
+  "abilities": [
+   {
+    "id": "foraging_sculpt",
+    "name": "Carve",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Right-click a log on your own island",
+     "&7to carve it into a six-sided log."
+    ]
+   }
+  ],
+  "npcSell": 64,
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Sculptor's Axe"
+  }
+ },
+ {
+  "id": "SERIOUSLY_DAMAGED_AXE",
+  "name": "Seriously Damaged Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 10,
+  "stats": {
+   "FORAGING_FORTUNE": 5,
+   "SWEEP": 10
+  },
+  "lore": [
+   "&7Chipped, bent and still better than",
+   "&7nothing on the marsh."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_throw_axe",
+    "name": "Throwing Axe",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7While on a foraging island, hurl your",
+     "&7axe at a tree up to &a24 &7blocks away.",
+     "&7It fells &a50% &7of the logs a swing would."
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:12"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Seriously Damaged Axe"
+  }
+ },
+ {
+  "id": "DECENT_AXE",
+  "name": "Decent Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "RARE",
+  "category": "AXE",
+  "damage": 20,
+  "stats": {
+   "FORAGING_FORTUNE": 5,
+   "SWEEP": 24
+  },
+  "lore": [
+   "&7Not great. Not bad. Decent."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_throw_axe",
+    "name": "Throwing Axe",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7While on a foraging island, hurl your",
+     "&7axe at a tree up to &a24 &7blocks away.",
+     "&7It fells &a50% &7of the logs a swing would."
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:15"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Decent Axe"
+  }
+ },
+ {
+  "id": "FIG_AXE",
+  "name": "Fig Hatchet",
+  "material": "WOODEN_AXE",
+  "rarity": "UNCOMMON",
+  "category": "AXE",
+  "damage": 30,
+  "stats": {
+   "SWEEP": 15,
+   "FORAGING_FORTUNE": 20,
+   "STRENGTH": 10
+  },
+  "abilities": [
+   {
+    "id": "foraging_frenzy_2000",
+    "name": "Frenzy",
+    "trigger": "PASSIVE",
+    "lore": [
+     "&7Gains &2+1∮ Sweep &7for every &a2,000",
+     "&7logs it cuts in the Moonmarsh.",
+     "&8(max +20)"
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:12"
+  ],
+  "gemSlots": [
+   "CITRINE"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Fig Hew",
+   "frenzyEvery": 2000,
+   "frenzyMax": 20
+  }
+ },
+ {
+  "id": "FIGSTONE_AXE",
+  "name": "Figstone Cleaver",
+  "material": "STONE_AXE",
+  "rarity": "RARE",
+  "category": "AXE",
+  "damage": 50,
+  "stats": {
+   "SWEEP": 25,
+   "FORAGING_FORTUNE": 35,
+   "STRENGTH": 15
+  },
+  "abilities": [
+   {
+    "id": "foraging_frenzy_10000",
+    "name": "Greater Frenzy",
+    "trigger": "PASSIVE",
+    "lore": [
+     "&7Gains &2+1∮ Sweep &7for every &a10,000",
+     "&7logs it cuts in the Moonmarsh.",
+     "&8(max +20)"
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:15"
+  ],
+  "npcSell": 480,
+  "gemSlots": [
+   "CITRINE",
+   "CITRINE"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Figstone Splitter",
+   "frenzyEvery": 10000,
+   "frenzyMax": 20
+  }
+ },
+ {
+  "id": "HELIX_CHOPPER",
+  "name": "Spiral Chopper",
+  "material": "STONE_AXE",
+  "rarity": "EPIC",
+  "category": "AXE",
+  "damage": 75,
+  "stats": {
+   "SWEEP": 50,
+   "FORAGING_FORTUNE": 50,
+   "STRENGTH": 25
+  },
+  "abilities": [
+   {
+    "id": "foraging_frenzy_20000",
+    "name": "Grand Frenzy",
+    "trigger": "PASSIVE",
+    "lore": [
+     "&7Gains &2+1∮ Sweep &7for every &a20,000",
+     "&7logs it cuts in the Moonmarsh.",
+     "&8(max +40)"
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:20"
+  ],
+  "npcSell": 2000,
+  "gemSlots": [
+   "CITRINE",
+   "CITRINE"
+  ],
+  "tags": [
+   "enchantable",
+   "foraging_axe",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Helix Chopper",
+   "frenzyEvery": 20000,
+   "frenzyMax": 40
+  }
+ },
+ {
+  "id": "PARK_JUNGLE_TRAVEL_SCROLL",
+  "name": "Travel Scroll to Jungle Island",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "maxStack": 1,
+  "lore": [
+   "&7Read it to unlock the &a/warp jungle",
+   "&7destination, straight to Jungle Island.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_read_scroll",
+    "name": "Read",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Unlock the warp for good."
+    ]
+   }
+  ],
+  "tags": [
+   "museum"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "owner": "foraging",
+   "refName": "Travel Scroll to Jungle Island",
+   "warp": "jungle"
+  }
+ },
+ {
+  "id": "PARK_CAVE_TRAVEL_SCROLL",
+  "name": "Travel Scroll to Howling Cave",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "maxStack": 1,
+  "lore": [
+   "&7Read it to unlock the &a/warp howl",
+   "&7destination, straight to the Howling Cave.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_read_scroll",
+    "name": "Read",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Unlock the warp for good."
+    ]
+   }
+  ],
+  "tags": [
+   "museum"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "owner": "foraging",
+   "refName": "Travel Scroll to Howling Cave",
+   "warp": "howl"
+  }
+ },
+ {
+  "id": "FUN_SIZED_POT_OF_HONEYCOMB",
+  "name": "Fun-Sized Pot of Honeycomb",
+  "material": "HONEY_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Smear it on a fig, mangrove or spiral",
+   "&7tree to lather it with honeycomb.",
+   "",
+   "&7A critter comes for the honey after &a60m&7.",
+   "&7Which one depends on the tree.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_lather",
+    "name": "Lather",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Right-click a tree log on the",
+     "&2Moonmarsh &7or in the &6Torrent Canyon&7."
+    ]
+   }
+  ],
+  "requirements": [
+   "collection:HONEYCOMB:1"
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Fun-Sized Pot of Honeycomb",
+   "latherMinutes": 60,
+   "lure": 1
+  }
+ },
+ {
+  "id": "FAMILY_SIZED_POT_OF_HONEYCOMB",
+  "name": "Family-Sized Pot of Honeycomb",
+  "material": "HONEY_BOTTLE",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Smear it on a fig, mangrove or spiral",
+   "&7tree to lather it with honeycomb.",
+   "",
+   "&7A critter comes for the honey after &a30m&7.",
+   "&7Which one depends on the tree.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_lather",
+    "name": "Lather",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Right-click a tree log on the",
+     "&2Moonmarsh &7or in the &6Torrent Canyon&7."
+    ]
+   }
+  ],
+  "requirements": [
+   "collection:HONEYCOMB:3"
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Family-Sized Pot of Honeycomb",
+   "latherMinutes": 30,
+   "lure": 1
+  }
+ },
+ {
+  "id": "JUMBO_POT_OF_HONEYCOMB",
+  "name": "Jumbo Pot of Honeycomb",
+  "material": "HONEY_BOTTLE",
+  "rarity": "EPIC",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Smear it on a fig, mangrove or spiral",
+   "&7tree to lather it with honeycomb.",
+   "",
+   "&7A critter comes for the honey after &a15m&7.",
+   "&7Which one depends on the tree.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_lather",
+    "name": "Lather",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Right-click a tree log on the",
+     "&2Moonmarsh &7or in the &6Torrent Canyon&7."
+    ]
+   }
+  ],
+  "requirements": [
+   "collection:HONEYCOMB:5"
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Jumbo Pot of Honeycomb",
+   "latherMinutes": 15,
+   "lure": 1
+  }
+ },
+ {
+  "id": "BEHEMOTH_POT_OF_HONEYCOMB",
+  "name": "Behemoth Pot of Honeycomb",
+  "material": "HONEY_BLOCK",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Smear it on a fig, mangrove or spiral",
+   "&7tree to lather it with honeycomb.",
+   "",
+   "&7A critter comes for the honey &aat once&7.",
+   "&7Which one depends on the tree.",
+   "",
+   "&8Consumed on use."
+  ],
+  "abilities": [
+   {
+    "id": "foraging_lather",
+    "name": "Lather",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Right-click a tree log on the",
+     "&2Moonmarsh &7or in the &6Torrent Canyon&7."
+    ]
+   }
+  ],
+  "requirements": [
+   "skill:foraging:30"
+  ],
+  "npcSell": 0,
+  "tags": [],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Behemoth Pot of Honeycomb",
+   "latherMinutes": 0,
+   "lure": 1
+  }
+ },
+ {
+  "id": "SWEEP_BOOSTER",
+  "name": "Common Sweep Booster",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": false,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Applies the &bSweep &7booster to",
+   "&7Foraging Armor, Equipment or an Axe.",
+   "",
+   "&7Grants &2Sweep&7.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 25000,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Common Sweep Booster",
+   "booster": "SWEEP",
+   "boosterTier": 1
+  }
+ },
+ {
+  "id": "SWEEP_BOOSTER_UNCOMMON",
+  "name": "Uncommon Sweep Booster Upgrade",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Apply to an item with a &fCommon Sweep",
+   "&fBooster &7to upgrade it to an",
+   "&aUncommon Sweep Booster&7,",
+   "&7which gives &2Sweep &7twice over.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 25000,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Uncommon Sweep Booster Upgrade",
+   "booster": "SWEEP",
+   "boosterTier": 2
+  }
+ },
+ {
+  "id": "FORAGING_FORTUNE_BOOSTER",
+  "name": "Common Foraging Fortune Booster",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": false,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Applies the &bForaging Fortune &7booster to",
+   "&7Foraging Armor, Equipment or an Axe.",
+   "",
+   "&7Grants &6Foraging Fortune&7.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Common Foraging Fortune Booster",
+   "booster": "FORAGING_FORTUNE",
+   "boosterTier": 1
+  }
+ },
+ {
+  "id": "FORAGING_FORTUNE_BOOSTER_UNCOMMON",
+  "name": "Uncommon Foraging Fortune Booster Upgrade",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Apply to an item with a &fCommon Foraging Fortune",
+   "&fBooster &7to upgrade it to an",
+   "&aUncommon Foraging Fortune Booster&7,",
+   "&7which gives &6Foraging Fortune &7twice over.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Uncommon Foraging Fortune Booster Upgrade",
+   "booster": "FORAGING_FORTUNE",
+   "boosterTier": 2
+  }
+ },
+ {
+  "id": "FORAGING_WISDOM_BOOSTER",
+  "name": "Common Foraging Wisdom Booster",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": false,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Applies the &bForaging Wisdom &7booster to",
+   "&7Foraging Armor, Equipment or an Axe.",
+   "",
+   "&7Grants &3Foraging Wisdom&7.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 25000,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Common Foraging Wisdom Booster",
+   "booster": "FORAGING_WISDOM",
+   "boosterTier": 1
+  }
+ },
+ {
+  "id": "FORAGING_WISDOM_BOOSTER_UNCOMMON",
+  "name": "Uncommon Foraging Wisdom Booster Upgrade",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Apply to an item with a &fCommon Foraging Wisdom",
+   "&fBooster &7to upgrade it to an",
+   "&aUncommon Foraging Wisdom Booster&7,",
+   "&7which gives &3Foraging Wisdom &7twice over.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 25000,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Uncommon Foraging Wisdom Booster Upgrade",
+   "booster": "FORAGING_WISDOM",
+   "boosterTier": 2
+  }
+ },
+ {
+  "id": "HUNTING_WISDOM_BOOSTER_COMMON",
+  "name": "Common Hunting Wisdom Booster",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": false,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Applies the &bHunting Wisdom &7booster to",
+   "&7Foraging Armor, Equipment or an Axe.",
+   "",
+   "&7Grants &3Hunting Wisdom&7.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Common Hunting Wisdom Booster",
+   "booster": "HUNTING_WISDOM",
+   "boosterTier": 1
+  }
+ },
+ {
+  "id": "HUNTING_WISDOM_BOOSTER_UNCOMMON",
+  "name": "Uncommon Hunting Wisdom Booster Upgrade",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Apply to an item with a &fCommon Hunting Wisdom",
+   "&fBooster &7to upgrade it to an",
+   "&aUncommon Hunting Wisdom Booster&7,",
+   "&7which gives &3Hunting Wisdom &7twice over.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Uncommon Hunting Wisdom Booster Upgrade",
+   "booster": "HUNTING_WISDOM",
+   "boosterTier": 2
+  }
+ },
+ {
+  "id": "FIGHTING_BOOSTER",
+  "name": "Common Fighting Booster",
+  "material": "PAPER",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "glow": false,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Applies the &bFighting &7booster to",
+   "&7Foraging Armor, Equipment or an Axe.",
+   "",
+   "&7Grants &cmore damage to foraging island creatures&7.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Common Fighting Booster",
+   "booster": "FIGHTING",
+   "boosterTier": 1
+  }
+ },
+ {
+  "id": "FIGHTING_BOOSTER_UNCOMMON",
+  "name": "Uncommon Fighting Booster Upgrade",
+  "material": "PAPER",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "lore": [
+   "&8Booster",
+   "",
+   "&7Apply to an item with a &fCommon Fighting",
+   "&fBooster &7to upgrade it to an",
+   "&aUncommon Fighting Booster&7,",
+   "&7which gives &cmore damage to foraging island creatures &7twice over.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 0,
+  "tags": [
+   "booster"
+  ],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold the item to boost in your",
+     "&7hand and pick this booster."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Uncommon Fighting Booster Upgrade",
+   "booster": "FIGHTING",
+   "boosterTier": 2
+  }
+ },
+ {
+  "id": "TREE_THE_FISH",
+  "name": "Bark the Fish",
+  "material": "COD",
+  "maxStack": 1,
+  "lore": [
+   "&7Some fish grow on trees.",
+   "",
+   "&8A 1 in 2,000 Fig Tree Gift."
+  ],
+  "npcSell": 50000,
+  "tags": [
+   "museum"
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Tree the Fish"
+  }
+ },
+ {
+  "id": "FORESTS_FAVOR",
+  "name": "Forest's Favor",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "maxStack": 1,
+  "glow": true,
+  "lore": [
+   "&7Raises an axe's &dKarma &7by &a1&7.",
+   "&7Can be applied once. &cRequires Karma V!",
+   "",
+   "&8The will of the forest made solid.",
+   "",
+   "&eRight-click to open the Booster Bench!"
+  ],
+  "npcSell": 1000000,
+  "tags": [],
+  "abilities": [
+   {
+    "id": "foraging_booster",
+    "name": "Booster Bench",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold a Karma V axe and pick this."
+    ]
+   }
+  ],
+  "extra": {
+   "owner": "foraging",
+   "refName": "Forest's Favor",
+   "forestsFavor": true
+  }
+ }
+]

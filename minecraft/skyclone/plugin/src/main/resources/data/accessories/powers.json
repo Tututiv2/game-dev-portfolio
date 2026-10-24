@@ -1,0 +1,613 @@
+[
+ {
+  "id": "fortuitous",
+  "name": "Fortuitous",
+  "stone": null,
+  "requirement": null,
+  "starter": true,
+  "base": {
+   "HEALTH": 3.35,
+   "DEFENSE": 1.2,
+   "STRENGTH": 4.8,
+   "CRIT_CHANCE": 4.35,
+   "CRIT_DAMAGE": 4.8
+  },
+  "unique": {}
+ },
+ {
+  "id": "pretty",
+  "name": "Pretty",
+  "stone": null,
+  "requirement": null,
+  "starter": true,
+  "base": {
+   "HEALTH": 1.65,
+   "DEFENSE": 1.2,
+   "SPEED": 0.65,
+   "STRENGTH": 4.8,
+   "INTELLIGENCE": 10.8,
+   "CRIT_CHANCE": 0.475,
+   "CRIT_DAMAGE": 1.2
+  },
+  "unique": {}
+ },
+ {
+  "id": "protected",
+  "name": "Protected",
+  "stone": null,
+  "requirement": null,
+  "starter": true,
+  "base": {
+   "HEALTH": 11.75,
+   "DEFENSE": 10.8,
+   "STRENGTH": 2.4,
+   "CRIT_CHANCE": 0.475,
+   "CRIT_DAMAGE": 1.2
+  },
+  "unique": {}
+ },
+ {
+  "id": "simple",
+  "name": "Simple",
+  "stone": null,
+  "requirement": null,
+  "starter": true,
+  "base": {
+   "HEALTH": 5.02,
+   "DEFENSE": 3.6,
+   "SPEED": 1.2,
+   "STRENGTH": 3.6,
+   "INTELLIGENCE": 5.4,
+   "CRIT_CHANCE": 1.45,
+   "CRIT_DAMAGE": 3.6
+  },
+  "unique": {}
+ },
+ {
+  "id": "warrior",
+  "name": "Warrior",
+  "stone": null,
+  "requirement": null,
+  "starter": true,
+  "base": {
+   "HEALTH": 3.35,
+   "DEFENSE": 1.2,
+   "STRENGTH": 8.4,
+   "CRIT_CHANCE": 2.4,
+   "CRIT_DAMAGE": 6
+  },
+  "unique": {}
+ },
+ {
+  "id": "commando",
+  "name": "Commando",
+  "stone": null,
+  "requirement": "skill:combat:15",
+  "starter": true,
+  "base": {
+   "HEALTH": 5.02,
+   "DEFENSE": 2.4,
+   "STRENGTH": 8.4,
+   "CRIT_CHANCE": 0.475,
+   "CRIT_DAMAGE": 8.4
+  },
+  "unique": {}
+ },
+ {
+  "id": "disciplined",
+  "name": "Disciplined",
+  "stone": null,
+  "requirement": "skill:combat:15",
+  "starter": true,
+  "base": {
+   "HEALTH": 5.02,
+   "DEFENSE": 2.4,
+   "STRENGTH": 7.2,
+   "CRIT_CHANCE": 1.45,
+   "CRIT_DAMAGE": 7.2
+  },
+  "unique": {}
+ },
+ {
+  "id": "inspired",
+  "name": "Inspired",
+  "stone": null,
+  "requirement": "skill:combat:15",
+  "starter": true,
+  "base": {
+   "HEALTH": 1.65,
+   "DEFENSE": 1.2,
+   "STRENGTH": 4.8,
+   "INTELLIGENCE": 16.2,
+   "CRIT_CHANCE": 0.95,
+   "CRIT_DAMAGE": 3.6
+  },
+  "unique": {}
+ },
+ {
+  "id": "ominous",
+  "name": "Ominous",
+  "stone": null,
+  "requirement": "skill:combat:15",
+  "starter": true,
+  "base": {
+   "HEALTH": 5.02,
+   "SPEED": 0.95,
+   "STRENGTH": 3.6,
+   "INTELLIGENCE": 6.1,
+   "CRIT_CHANCE": 1.45,
+   "CRIT_DAMAGE": 3.6,
+   "ATTACK_SPEED": 0.9
+  },
+  "unique": {}
+ },
+ {
+  "id": "prepared",
+  "name": "Prepared",
+  "stone": null,
+  "requirement": "skill:combat:15",
+  "starter": true,
+  "base": {
+   "HEALTH": 12.4,
+   "DEFENSE": 11.3,
+   "STRENGTH": 1.95,
+   "CRIT_CHANCE": 0.4,
+   "CRIT_DAMAGE": 0.95
+  },
+  "unique": {}
+ },
+ {
+  "id": "sanguisuge",
+  "name": "Sanguisuge",
+  "stone": "DISPLACED_LEECH",
+  "requirement": "skill:combat:10",
+  "starter": false,
+  "base": {
+   "HEALTH": 3.3603,
+   "STRENGTH": 14.4005,
+   "CRIT_CHANCE": 0.9604,
+   "CRIT_DAMAGE": 4.7998
+  },
+  "unique": {
+   "INTELLIGENCE": 100.0
+  },
+  "at250": {
+   "HEALTH": 32.4,
+   "STRENGTH": 138.85,
+   "CRIT_CHANCE": 9.26,
+   "CRIT_DAMAGE": 46.28
+  }
+ },
+ {
+  "id": "sighted",
+  "name": "Sighted",
+  "stone": "ENDER_MONOCLE",
+  "requirement": "skill:combat:15",
+  "starter": false,
+  "base": {
+   "INTELLIGENCE": 35.9997
+  },
+  "unique": {
+   "ABILITY_DAMAGE": 3.0
+  },
+  "at250": {
+   "INTELLIGENCE": 347.11
+  }
+ },
+ {
+  "id": "silky",
+  "name": "Silky",
+  "stone": "LUXURIOUS_SPOOL",
+  "requirement": "skill:combat:15",
+  "starter": false,
+  "base": {
+   "CRIT_DAMAGE": 22.8002,
+   "SPEED": 0.6005
+  },
+  "unique": {
+   "ATTACK_SPEED": 5.0
+  },
+  "at250": {
+   "CRIT_DAMAGE": 219.84,
+   "SPEED": 5.79
+  }
+ },
+ {
+  "id": "sweet",
+  "name": "Sweet",
+  "stone": "ROCK_CANDY",
+  "requirement": "skill:combat:15",
+  "starter": false,
+  "base": {
+   "HEALTH": 15.1203,
+   "DEFENSE": 10.7996,
+   "SPEED": 1.2
+  },
+  "unique": {
+   "SPEED": 5.0
+  },
+  "at250": {
+   "HEALTH": 145.79,
+   "DEFENSE": 104.13,
+   "SPEED": 11.57
+  }
+ },
+ {
+  "id": "forceful",
+  "name": "Forceful",
+  "stone": "ACACIA_BIRDHOUSE",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "HEALTH": 1.6801,
+   "STRENGTH": 18.0004,
+   "CRIT_DAMAGE": 4.7998
+  },
+  "unique": {
+   "FEROCITY": 4.0
+  },
+  "at250": {
+   "HEALTH": 16.2,
+   "STRENGTH": 173.56,
+   "CRIT_DAMAGE": 46.28
+  }
+ },
+ {
+  "id": "bloody",
+  "name": "Bloody",
+  "stone": "BEATING_HEART",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "STRENGTH": 10.7996,
+   "CRIT_DAMAGE": 10.7996,
+   "INTELLIGENCE": 3.5999
+  },
+  "unique": {
+   "ATTACK_SPEED": 10.0
+  },
+  "at250": {
+   "STRENGTH": 104.13,
+   "CRIT_DAMAGE": 104.13,
+   "INTELLIGENCE": 34.71
+  }
+ },
+ {
+  "id": "shaded",
+  "name": "Shaded",
+  "stone": "DARK_ORB",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "STRENGTH": 4.7998,
+   "CRIT_DAMAGE": 18.0004,
+   "SPEED": 0.6005
+  },
+  "unique": {
+   "ATTACK_SPEED": 3.0,
+   "FEROCITY": 3.0
+  },
+  "at250": {
+   "STRENGTH": 46.28,
+   "CRIT_DAMAGE": 173.56,
+   "SPEED": 5.79
+  }
+ },
+ {
+  "id": "adept",
+  "name": "Adept",
+  "stone": "END_STONE_SHULKER",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "HEALTH": 16.8004,
+   "DEFENSE": 9.5997,
+   "INTELLIGENCE": 3.5999
+  },
+  "unique": {
+   "HEALTH": 100.0,
+   "DEFENSE": 50.0
+  },
+  "at250": {
+   "HEALTH": 161.99,
+   "DEFENSE": 92.56,
+   "INTELLIGENCE": 34.71
+  }
+ },
+ {
+  "id": "crumbly",
+  "name": "Crumbly",
+  "stone": "CHOCOLATE_CHIP",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "HEALTH": 10.0798,
+   "TRUE_DEFENSE": 1.6324,
+   "CRIT_CHANCE": 0.4802,
+   "ATTACK_SPEED": 0.7198,
+   "INTELLIGENCE": 5.4003
+  },
+  "unique": {
+   "SPEED": 25.0
+  },
+  "at250": {
+   "HEALTH": 97.19,
+   "TRUE_DEFENSE": 15.74,
+   "CRIT_CHANCE": 4.63,
+   "ATTACK_SPEED": 6.94,
+   "INTELLIGENCE": 52.07
+  }
+ },
+ {
+  "id": "itchy",
+  "name": "Itchy",
+  "stone": "FURBALL",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "STRENGTH": 7.1997,
+   "CRIT_DAMAGE": 8.3997,
+   "ATTACK_SPEED": 2.1603,
+   "SPEED": 0.6005
+  },
+  "unique": {
+   "STRENGTH": 15.0,
+   "CRIT_DAMAGE": 15.0
+  },
+  "at250": {
+   "STRENGTH": 69.42,
+   "CRIT_DAMAGE": 80.99,
+   "ATTACK_SPEED": 20.83,
+   "SPEED": 5.79
+  }
+ },
+ {
+  "id": "frozen",
+  "name": "Frozen",
+  "stone": "GLACITE_SHARD",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "DEFENSE": 13.1995,
+   "TRUE_DEFENSE": 1.8357
+  },
+  "unique": {
+   "TRUE_DEFENSE": 10.0,
+   "STRENGTH": 25.0,
+   "CRIT_DAMAGE": 25.0
+  },
+  "at250": {
+   "DEFENSE": 127.27,
+   "TRUE_DEFENSE": 17.7
+  }
+ },
+ {
+  "id": "mythical",
+  "name": "Mythical",
+  "stone": "OBSIDIAN_TABLET",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "HEALTH": 5.7125,
+   "DEFENSE": 4.0801,
+   "STRENGTH": 4.0801,
+   "CRIT_CHANCE": 1.6324,
+   "CRIT_DAMAGE": 4.0801,
+   "INTELLIGENCE": 6.1201,
+   "SPEED": 0.9604
+  },
+  "unique": {
+   "HEALTH": 150.0,
+   "STRENGTH": 40.0
+  },
+  "at250": {
+   "HEALTH": 55.08,
+   "DEFENSE": 39.34,
+   "STRENGTH": 39.34,
+   "CRIT_CHANCE": 15.74,
+   "CRIT_DAMAGE": 39.34,
+   "INTELLIGENCE": 59.01,
+   "SPEED": 9.26
+  }
+ },
+ {
+  "id": "buttery",
+  "name": "Buttery",
+  "stone": "SUNFLOWER_BUTTER",
+  "requirement": "skill:combat:20",
+  "starter": false,
+  "base": {
+   "ATTACK_SPEED": 2.1603,
+   "SPEED": 2.3999
+  },
+  "unique": {
+   "ATTACK_SPEED": 5.0
+  },
+  "at250": {
+   "ATTACK_SPEED": 20.83,
+   "SPEED": 23.14
+  }
+ },
+ {
+  "id": "bubba",
+  "name": "Bloated",
+  "stone": "BUBBA_BLISTER",
+  "requirement": "skill:combat:25",
+  "starter": false,
+  "base": {
+   "HEALTH": 5.0404,
+   "DEFENSE": -9.5997,
+   "TRUE_DEFENSE": 0.8162,
+   "STRENGTH": 5.9998,
+   "CRIT_CHANCE": 0.9604,
+   "CRIT_DAMAGE": 10.7996,
+   "ATTACK_SPEED": 1.8005
+  },
+  "unique": {},
+  "at250": {
+   "HEALTH": 48.6,
+   "DEFENSE": -92.56,
+   "TRUE_DEFENSE": 7.87,
+   "STRENGTH": 57.85,
+   "CRIT_CHANCE": 9.26,
+   "CRIT_DAMAGE": 104.13,
+   "ATTACK_SPEED": 17.36
+  }
+ },
+ {
+  "id": "bizarre",
+  "name": "Bizarre",
+  "stone": "ECCENTRIC_PAINTING",
+  "requirement": "skill:combat:25",
+  "starter": false,
+  "base": {
+   "STRENGTH": -2.3999,
+   "CRIT_DAMAGE": -2.3999,
+   "INTELLIGENCE": 43.2005
+  },
+  "unique": {
+   "ABILITY_DAMAGE": 5.0
+  },
+  "at250": {
+   "STRENGTH": -23.14,
+   "CRIT_DAMAGE": -23.14,
+   "INTELLIGENCE": 416.54
+  }
+ },
+ {
+  "id": "demonic",
+  "name": "Demonic",
+  "stone": "HORNS_OF_TORMENT",
+  "requirement": "skill:combat:25",
+  "starter": false,
+  "base": {
+   "STRENGTH": 5.5196,
+   "INTELLIGENCE": 27.7203
+  },
+  "unique": {
+   "CRIT_DAMAGE": 50.0
+  },
+  "at250": {
+   "STRENGTH": 53.22,
+   "INTELLIGENCE": 267.28
+  }
+ },
+ {
+  "id": "hurtful",
+  "name": "Hurtful",
+  "stone": "MAGMA_URCHIN",
+  "requirement": "skill:combat:25",
+  "starter": false,
+  "base": {
+   "STRENGTH": 4.7998,
+   "CRIT_DAMAGE": 19.2003
+  },
+  "unique": {
+   "ATTACK_SPEED": 15.0
+  },
+  "at250": {
+   "STRENGTH": 46.28,
+   "CRIT_DAMAGE": 185.13
+  }
+ },
+ {
+  "id": "pleasant",
+  "name": "Pleasant",
+  "stone": "PRECIOUS_PEARL",
+  "requirement": "skill:combat:25",
+  "starter": false,
+  "base": {
+   "HEALTH": 13.4401,
+   "DEFENSE": 14.4005
+  },
+  "unique": {},
+  "at250": {
+   "HEALTH": 129.59,
+   "DEFENSE": 138.85
+  }
+ },
+ {
+  "id": "slender",
+  "name": "Slender",
+  "stone": "HAZMAT_ENDERMAN",
+  "requirement": "skill:combat:30",
+  "starter": false,
+  "base": {
+   "HEALTH": 8.3997,
+   "DEFENSE": 5.9998,
+   "STRENGTH": 5.9998,
+   "CRIT_DAMAGE": 5.9998,
+   "ATTACK_SPEED": 1.0796,
+   "INTELLIGENCE": 9.0002,
+   "SPEED": 0.6005
+  },
+  "unique": {
+   "DEFENSE": 100.0,
+   "STRENGTH": 50.0
+  },
+  "at250": {
+   "HEALTH": 80.99,
+   "DEFENSE": 57.85,
+   "STRENGTH": 57.85,
+   "CRIT_DAMAGE": 57.85,
+   "ATTACK_SPEED": 10.41,
+   "INTELLIGENCE": 86.78,
+   "SPEED": 5.79
+  }
+ },
+ {
+  "id": "strong",
+  "name": "Strong",
+  "stone": "MANDRAA",
+  "requirement": "skill:combat:30",
+  "starter": false,
+  "base": {
+   "STRENGTH": 11.9996,
+   "CRIT_DAMAGE": 11.9996
+  },
+  "unique": {
+   "STRENGTH": 25.0,
+   "CRIT_DAMAGE": 25.0
+  },
+  "at250": {
+   "STRENGTH": 115.7,
+   "CRIT_DAMAGE": 115.7
+  }
+ },
+ {
+  "id": "healthy",
+  "name": "Healthy",
+  "stone": "VITAMIN_DEATH",
+  "requirement": "skill:combat:30",
+  "starter": false,
+  "base": {
+   "HEALTH": 33.5998
+  },
+  "unique": {
+   "HEALTH": 200.0
+  },
+  "at250": {
+   "HEALTH": 323.97
+  }
+ },
+ {
+  "id": "scorching",
+  "name": "Scorching",
+  "stone": "SCORCHED_BOOKS",
+  "requirement": "skill:combat:35",
+  "starter": false,
+  "base": {
+   "STRENGTH": 8.3997,
+   "CRIT_DAMAGE": 9.5997,
+   "ATTACK_SPEED": 1.8005
+  },
+  "unique": {
+   "FEROCITY": 7.0
+  },
+  "at250": {
+   "STRENGTH": 80.99,
+   "CRIT_DAMAGE": 92.56,
+   "ATTACK_SPEED": 17.36
+  }
+ }
+]

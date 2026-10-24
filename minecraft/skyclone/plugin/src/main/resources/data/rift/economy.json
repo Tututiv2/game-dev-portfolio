@@ -1,0 +1,551 @@
+{
+ "sell": {
+  "FISHING_ROD": 105,
+  "BOW": 105,
+  "STICK": 15,
+  "STRING": 30,
+  "SAPLING": 2,
+  "SLIME_BALL": 30,
+  "WOOD": 30,
+  "IQ_POINT": 100,
+  "TWO_IQ_POINT": 450,
+  "LIVING_METAL": 5,
+  "SELF_RECURSIVE_PICKAXE": 25,
+  "FROZEN_WATER": 10,
+  "FROZEN_WATER_PUNGI": 10,
+  "METAL_HEART": 250,
+  "LIVING_METAL_ANVIL": 100,
+  "FROSTY_CRUX": 100,
+  "NULLIFIED_METAL": 100,
+  "LM_EGG_LEGS": 100,
+  "LM_EGG_CHEST": 100,
+  "LM_EGG_BOOTS": 100,
+  "LM_EGG_CAP": 100,
+  "SHADOW_CRUX": 100,
+  "BEDWARS_WOOL": 10,
+  "SCRIBE_CRUX": 120,
+  "VOLT_CRUX": 100,
+  "DEADGEHOG_SPINE": 111,
+  "LIL_PAD": 5,
+  "ANTI_SENTIENT_PICKAXE": 25,
+  "DISCRITE": 150,
+  "HIGHLITE": 25000,
+  "SPOTLITE": 2000,
+  "EON_PICKAXE": 25,
+  "SATELITE": 37800,
+  "TIME_GUN": 25,
+  "CHRONO_PICKAXE": 25,
+  "YOUNGITE": 50,
+  "OBSOLITE": 200,
+  "TIMITE": 100,
+  "PUFF_CRUX": 100,
+  "UGLY_BOOTS_FRAGMENT": 1750,
+  "TIGHT_PANTS_FRAGMENT": 1750,
+  "S_LOGO_FRAGMENT": 1750,
+  "MIRRORED_SLIME_BALL": 30,
+  "MIRRORED_STRING": 30,
+  "MIRRORED_WOOD": 30,
+  "MIRRORED_STICK": 15,
+  "MIRRORED_FISHING_ROD": 30,
+  "MIRRORED_LEASH": 75,
+  "TINY_HAMMER": 495,
+  "SHAME_CRUX": 100,
+  "MUTED_BARK": 50,
+  "BUBBA_BLISTER": 10000,
+  "CHOCOLATE_CHIP": 10000,
+  "GARLIC_FLAVORED_GUMMY_BEAR": 4000,
+  "MCGRUBBER_BURGER": 30000,
+  "HEMOBOMB": 400,
+  "HEMOGLASS": 25,
+  "HOLY_ICE": 5,
+  "UNFANGED_VAMPIRE_PART": 50000,
+  "BLOODBADGE": 2000,
+  "COVEN_SEAL": 10,
+  "ENCHANTED_BOOK_BUNDLE_QUANTUM": 8000,
+  "ENCHANTED_BOOK_BUNDLE_THE_ONE": 25000,
+  "LUSCIOUS_HEALING_MELON": 5,
+  "JUICY_HEALING_MELON": 5,
+  "HEALING_MELON": 5,
+  "GUARDIAN_LUCKY_BLOCK": 5000,
+  "TEST_VAMPIRE_CHESTPLATE": 15,
+  "SPLATTER_CRUX": 90,
+  "STEAK_STAKE": 15,
+  "ENCHANTED_VAMPIRIC_MELON": 21000,
+  "VAMPIRIC_MELON": 120,
+  "KEY_TO_KAT_SOUL": 5,
+  "BOTTLED_ODONATA": 40
+ },
+ "transferable": [
+  "AATROX_BATPHONE",
+  "AGARICUS_CAP",
+  "AGARICUS_CHUM_CAP",
+  "ANCIENT_ELEVATOR",
+  "BACTE_FRAGMENT",
+  "BERBERIS_FUEL_INJECTOR",
+  "BIG_BRAIN_TALISMAN",
+  "BLOODBADGE",
+  "BLOOD_DONOR_ARTIFACT",
+  "BLOOD_DONOR_RING",
+  "BLOOD_DONOR_TALISMAN",
+  "BLUETOOTH_RING",
+  "BOTTLED_ODONATA",
+  "BUBBA_BLISTER",
+  "CADUCOUS_FEEDER",
+  "CADUCOUS_STEM",
+  "CHOCOLATE_CHIP",
+  "COVEN_SEAL",
+  "DARK_PEBBLE",
+  "DEADGEHOG_SPINE",
+  "DEAD_CAT_FOOD",
+  "DETECTIVE_WALLET",
+  "DISCRITE",
+  "ELEANOR_CAP",
+  "ELEANOR_SLIPPERS",
+  "ELEANOR_TROUSERS",
+  "ELEANOR_TUNIC",
+  "ENCHANTED_BOOK_BUNDLE_QUANTUM",
+  "ENCHANTED_BOOK_BUNDLE_REFLECTION",
+  "ENCHANTED_BOOK_BUNDLE_THE_ONE",
+  "ENCHANTED_BOOK_BUNDLE_TRANSYLVANIAN",
+  "EXPORTABLE_CARROTS",
+  "FAKE_NEUROSCIENCE_DEGREE",
+  "FAKE_SHURIKEN",
+  "FAMILY_DOUBLOON",
+  "FLEX_HELMET",
+  "FREE_WILL",
+  "FROSTY_CRUX",
+  "FROZEN_WATER",
+  "FUTURE_CALORIES",
+  "GRANDMAS_KNITTING_NEEDLE",
+  "GUARDIAN_LUCKY_BLOCK",
+  "HALF_EATEN_CARROT",
+  "HEMOBOMB",
+  "HEMOGLASS",
+  "HEMOVIBE",
+  "HIGHLITE",
+  "HOCUS_POCUS_CIPHER",
+  "IQ_POINT",
+  "LARVA_SILK",
+  "LEECH_SUPREME_FRAGMENT",
+  "LEGGINGS_OF_THE_PACK",
+  "LIL_PAD",
+  "LIVING_METAL",
+  "METAL_HEART",
+  "MINIATURIZED_TUBULATOR",
+  "NULLIFIED_METAL",
+  "OBSOLITE",
+  "PLACEABLE_FAIRY_SOUL_RIFT",
+  "POLARVOID_BOOK",
+  "PUFF_CRUX",
+  "REHEATED_GUMMY_POLAR_BEAR",
+  "RESPIRATION_ARTIFACT",
+  "RESPIRATION_RING",
+  "RESPIRATION_TALISMAN",
+  "RIFT_NECKLACE_INSIDE",
+  "RIFT_NECKLACE_OUTSIDE",
+  "RIFT_PRISM",
+  "RIFT_WIZARD_TOWER_TRAVEL_SCROLL",
+  "SCARF_GRIMOIRE",
+  "SCARF_STUDIES",
+  "SCARF_THESIS",
+  "SCRIBE_CRUX",
+  "SHADOW_CRUX",
+  "SHAME_CRUX",
+  "SILVER_FANG",
+  "SLICE_OF_BLUEBERRY_CAKE",
+  "SLICE_OF_CHEESECAKE",
+  "SLICE_OF_GREEN_VELVET_CAKE",
+  "SLICE_OF_RED_VELVET_CAKE",
+  "SLICE_OF_STRAWBERRY_SHORTCAKE",
+  "SPLATTER_CRUX",
+  "SPOTLITE",
+  "TALISMAN_ENRICHMENT_ATTACK_SPEED",
+  "TALISMAN_ENRICHMENT_CRITICAL_CHANCE",
+  "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE",
+  "TALISMAN_ENRICHMENT_DEFENSE",
+  "TALISMAN_ENRICHMENT_FEROCITY",
+  "TALISMAN_ENRICHMENT_HEALTH",
+  "TALISMAN_ENRICHMENT_INTELLIGENCE",
+  "TALISMAN_ENRICHMENT_MAGIC_FIND",
+  "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE",
+  "TALISMAN_ENRICHMENT_STRENGTH",
+  "TALISMAN_ENRICHMENT_SWAPPER",
+  "TALISMAN_ENRICHMENT_WALK_SPEED",
+  "TEST_BUCKET_PLEASE_IGNORE",
+  "TIMITE",
+  "TINY_DANCER",
+  "TRANSMISSION_TUNER",
+  "TWO_IQ_POINT",
+  "UNFANGED_VAMPIRE_PART",
+  "VAMPIRE_DENTIST_RELIC",
+  "VAMPIRIC_MELON",
+  "VOLT_CRUX",
+  "WEIRDER_TUBA",
+  "WEIRD_TUBA",
+  "WILTED_BERBERIS",
+  "WILTED_BERBERIS_BUNCH",
+  "YOUNGITE",
+  "ZOOP_THE_FISH"
+ ],
+ "shops": {
+  "glade_peddler": {
+   "name": "Glade Peddlers",
+   "items": [
+    {
+     "item": "WYLD_HELMET",
+     "motes": 150,
+     "requirement": null
+    },
+    {
+     "item": "WYLD_CHESTPLATE",
+     "motes": 200,
+     "requirement": null
+    },
+    {
+     "item": "WYLD_LEGGINGS",
+     "motes": 175,
+     "requirement": null
+    },
+    {
+     "item": "WYLD_BOOTS",
+     "motes": 125,
+     "requirement": null
+    },
+    {
+     "item": "WYLD_SWORD",
+     "motes": 120,
+     "requirement": null
+    },
+    {
+     "item": "HEALING_MELON",
+     "motes": 30,
+     "requirement": null
+    },
+    {
+     "item": "RIFT_SPEED_ELIXIR",
+     "motes": 80,
+     "requirement": null
+    },
+    {
+     "item": "LARVA_HOOK",
+     "motes": 40,
+     "requirement": null
+    },
+    {
+     "item": "EMPTY_ODONATA_BOTTLE",
+     "motes": 15,
+     "requirement": null
+    }
+   ]
+  },
+  "tower_sage": {
+   "name": "Tower Sage",
+   "items": [
+    {
+     "item": "ASPECT_OF_THE_LEECH_1",
+     "motes": 500,
+     "requirement": null
+    },
+    {
+     "item": "ASPECT_OF_THE_LEECH_2",
+     "motes": 1500,
+     "requirement": "rift:charm:mirror"
+    },
+    {
+     "item": "ASPECT_OF_THE_LEECH_3",
+     "motes": 4000,
+     "requirement": "rift:charm:living"
+    },
+    {
+     "item": "RIFT_STRENGTH_ELIXIR",
+     "motes": 120,
+     "requirement": null
+    },
+    {
+     "item": "RIFT_JUMP_ELIXIR",
+     "motes": 90,
+     "requirement": null
+    },
+    {
+     "item": "TACTICIAN_MURDER_WEAPON",
+     "motes": 900,
+     "requirement": "rift:charm:citizen"
+    }
+   ]
+  },
+  "tailor": {
+   "name": "Tailor Penrose",
+   "items": [
+    {
+     "item": "NOT_DEADGEHOG_MASK",
+     "motes": 400,
+     "requirement": null
+    },
+    {
+     "item": "AGARICUS_CAP_CAP",
+     "motes": 600,
+     "requirement": null
+    },
+    {
+     "item": "ORANGE_CHESTPLATE",
+     "motes": 1800,
+     "requirement": null
+    },
+    {
+     "item": "FEMURGROWTH_LEGGINGS",
+     "motes": 2600,
+     "requirement": null
+    },
+    {
+     "item": "EXCEEDINGLY_COMFY_SNEAKERS",
+     "motes": 2400,
+     "requirement": null
+    },
+    {
+     "item": "SNAKE_IN_A_BOOT",
+     "motes": 7500,
+     "requirement": "rift:charm:living"
+    },
+    {
+     "item": "DETRANSFIGURED_MASK",
+     "motes": 3000,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "ETALPTSEHC_NORI",
+     "motes": 900,
+     "requirement": "rift:charm:mirror"
+    },
+    {
+     "item": "HOT_DOG",
+     "motes": 15,
+     "requirement": null
+    }
+   ]
+  },
+  "cave_warden": {
+   "name": "Cave Warden",
+   "items": [
+    {
+     "item": "SELF_RECURSIVE_PICKAXE",
+     "motes": 1200,
+     "requirement": null
+    },
+    {
+     "item": "ANTI_SENTIENT_PICKAXE",
+     "motes": 3000,
+     "requirement": "rift:charm:living"
+    },
+    {
+     "item": "EON_PICKAXE",
+     "motes": 6000,
+     "requirement": "rift:charm:living"
+    },
+    {
+     "item": "CHRONO_PICKAXE",
+     "motes": 9000,
+     "requirement": "rift:charm:globulate"
+    }
+   ]
+  },
+  "chateau_hunter": {
+   "name": "Vampire Hunter Moira",
+   "items": [
+    {
+     "item": "JUICY_HEALING_MELON",
+     "motes": 60,
+     "requirement": "slayer:vampire:2"
+    },
+    {
+     "item": "LUSCIOUS_HEALING_MELON",
+     "motes": 120,
+     "requirement": "slayer:vampire:4"
+    },
+    {
+     "item": "SILVER_LACED_KARAMBIT",
+     "motes": 4000,
+     "requirement": "slayer:vampire:1"
+    },
+    {
+     "item": "SILVERTWIST_KARAMBIT",
+     "motes": 12000,
+     "requirement": "slayer:vampire:4"
+    },
+    {
+     "item": "ANTI_BITE_SCARF",
+     "motes": 6000,
+     "requirement": "slayer:vampire:1"
+    },
+    {
+     "item": "ANTI_BITE_SCARF_2",
+     "motes": 15000,
+     "requirement": "slayer:vampire:4"
+    },
+    {
+     "item": "WARM_WIZARD_FACE",
+     "motes": 9000,
+     "requirement": "slayer:vampire:1"
+    },
+    {
+     "item": "WARM_WIZARD_FACE_2",
+     "motes": 20000,
+     "requirement": "slayer:vampire:4"
+    },
+    {
+     "item": "LEGGINGS_OF_THE_COVEN",
+     "motes": 10000,
+     "requirement": "slayer:vampire:3"
+    },
+    {
+     "item": "LIVELY_SEPULTURE_CHESTPLATE",
+     "motes": 22000,
+     "requirement": "slayer:vampire:5"
+    }
+   ]
+  },
+  "starkeeper": {
+   "name": "The Starkeeper",
+   "items": [
+    {
+     "item": "WIZARD_FACE",
+     "motes": 30000,
+     "requirement": "rift:charm:celestial"
+    },
+    {
+     "item": "WIZARDMAN_LEGGINGS",
+     "motes": 25000,
+     "requirement": "rift:charm:celestial"
+    },
+    {
+     "item": "S_LOGO_CHESTPLATE",
+     "motes": 25000,
+     "requirement": "rift:charm:celestial"
+    },
+    {
+     "item": "UGLY_BOOTS",
+     "motes": 20000,
+     "requirement": "rift:charm:celestial"
+    },
+    {
+     "item": "TIME_GUN",
+     "motes": 2500,
+     "requirement": null
+    }
+   ]
+  },
+  "curator": {
+   "name": "Curator Ilsabet",
+   "items": [
+    {
+     "item": "RIFT_NECKLACE_INSIDE",
+     "motes": 6000,
+     "requirement": "rift:gallery:1"
+    },
+    {
+     "item": "RIFT_NECKLACE_OUTSIDE",
+     "motes": 40000,
+     "requirement": "rift:gallery:8"
+    }
+   ]
+  },
+  "mote_monger": {
+   "name": "Mote Monger",
+   "items": [
+    {
+     "item": "MCGRUBBER_BURGER",
+     "motes": 32000,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "HOT_DOG",
+     "motes": 15,
+     "requirement": null
+    },
+    {
+     "item": "HEALING_MELON",
+     "motes": 30,
+     "requirement": null
+    },
+    {
+     "item": "RIFT_PRISM",
+     "motes": 4000,
+     "requirement": "rift:souls:10"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_SWAPPER",
+     "motes": 1500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_ATTACK_SPEED",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_CRITICAL_CHANCE",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_DEFENSE",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_FEROCITY",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_HEALTH",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_INTELLIGENCE",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_MAGIC_FIND",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_STRENGTH",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    },
+    {
+     "item": "TALISMAN_ENRICHMENT_WALK_SPEED",
+     "motes": 3500,
+     "requirement": "rift:charm:citizen"
+    }
+   ]
+  }
+ },
+ "rewardOnly": [
+  "DEAD_CAT_DETECTOR",
+  "CHICKEN_LEGGS",
+  "GUNTHER_SNEAKERS",
+  "BURNED_PANTS",
+  "DISCRITE",
+  "SPOTLITE",
+  "MIRRORED_STICK",
+  "MIRRORED_STRING",
+  "MIRRORED_SLIME_BALL",
+  "MIRRORED_WOOD",
+  "MIRRORED_LEASH",
+  "LEECH_SWORD"
+ ]
+}

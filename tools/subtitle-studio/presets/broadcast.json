@@ -1,0 +1,24 @@
+{
+  "name": "broadcast",
+  "label": "Broadcast",
+  "font": "Arial",
+  "font_fallbacks": [
+    "Helvetica",
+    "Poppins",
+    "Segoe UI"
+  ],
+  "bold": false,
+  "casing": "none",
+  "size_pct": 5.0,
+  "base_colour": "#FFFFFF",
+  "active_colour": "#FFFFFF",
+  "outline_colour": "#000000",
+  "outline_opacity": 0.85,
+  "border_style": 3,
+  "outline_pct": 0.7,
+  "shadow_pct": 0.0,
+  "highlight": "colour",
+  "position": "bottom",
+  "margin_v_pct": 8.0,
+  "default_reveal": "WHOLE_CARD"
+}

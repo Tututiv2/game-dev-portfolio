@@ -1,0 +1,9 @@
+{
+  "name": "threshold",
+  "private": true,
+  "type": "module",
+  "description": "Not a build step and not a dependency manifest — this file exists only so node treats the project's .js files as ES modules, which is what the browser already does. There is nothing to install. Play.bat serves the folder as-is.",
+  "scripts": {
+    "test": "node tests/run-node.mjs"
+  }
+}

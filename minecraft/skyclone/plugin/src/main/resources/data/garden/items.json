@@ -1,0 +1,2441 @@
+[
+ {
+  "id": "COMPOST",
+  "name": "Compost",
+  "material": "BROWN_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Rich, dark and fresh from the",
+   "&7Composter. Buys new Garden plots,",
+   "&7baits traps and feeds sprayers.",
+   "",
+   "&7Pests drawn to it: &aMosquito, Earthworm"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 4
+ },
+ {
+  "id": "DUNG",
+  "name": "Dung",
+  "material": "BLACK_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aFly, Beetle"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 100
+ },
+ {
+  "id": "HONEY_JAR",
+  "name": "Honey Jar",
+  "material": "HONEY_BOTTLE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aCricket, Moth"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 100
+ },
+ {
+  "id": "PLANT_MATTER",
+  "name": "Plant Matter",
+  "material": "GREEN_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aLocust, Slug"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 100
+ },
+ {
+  "id": "CHEESE_FUEL",
+  "name": "Tasty Cheese",
+  "material": "YELLOW_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aRat, Mite",
+   "",
+   "&7Minions love it too: doubles what",
+   "&7a minion makes for &a1 hour&7."
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 500
+ },
+ {
+  "id": "JELLY",
+  "name": "Jelly",
+  "material": "SLIME_BALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aDragonfly, Firefly, Praying Mantis"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 100
+ },
+ {
+  "id": "MOONDEW",
+  "name": "Night Dew",
+  "material": "GLOW_INK_SAC",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spread it over a Garden plot with a",
+   "&7Plot Sprayer, or bait a Pest Trap.",
+   "",
+   "&7Pests drawn to it: &aLunar Moth"
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "npcSell": 4
+ },
+ {
+  "id": "ENCHANTED_COMPOST",
+  "name": "Compost Bundle",
+  "material": "BROWN_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7160 Compost, tied up with twine.",
+   "&7The bigger Garden plots want these."
+  ],
+  "tags": [
+   "bazaar",
+   "garden"
+  ],
+  "glow": true,
+  "npcSell": 10
+ },
+ {
+  "id": "BIOFUEL",
+  "name": "Biofuel",
+  "material": "LIME_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Machine Fuel",
+   "",
+   "&7Adds &2+3,000 Fuel &7to a machine",
+   "&7that takes fuel, like the Composter.",
+   "",
+   "&7Grown, not drilled."
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "fuel"
+  ],
+  "npcSell": 10000
+ },
+ {
+  "id": "LOCUST_LARVA",
+  "name": "Locust Larva",
+  "material": "SPIDER_EYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumable",
+   "",
+   "&7Eat it on your Garden to drop",
+   "&a+1 Pest &7into your vacuum bag.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "garden",
+   "consumable_garden"
+  ],
+  "npcSell": 0
+ },
+ {
+  "id": "WRIGGLING_LARVA",
+  "name": "Wriggling Larva",
+  "material": "FERMENTED_SPIDER_EYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumable",
+   "",
+   "&7Swallow it to gain &2+2 ൠ Bonus Pest",
+   "&2Chance &7for good. Your stomach",
+   "&7gives up after &a5&7.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "garden",
+   "consumable_garden"
+  ],
+  "npcSell": 250000
+ },
+ {
+  "id": "CHIRPING_STEREO",
+  "name": "Cricket Boombox",
+  "material": "JUKEBOX",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bring it to the Copper Market to",
+   "&7turn a &5Bottomless Vacuum &7into a",
+   "&6Bottomless Vacuum Maximus&7, which",
+   "&7can play vinyls to pests."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 100000
+ },
+ {
+  "id": "FIRE_IN_A_BOTTLE",
+  "name": "Fire in a Bottle",
+  "material": "BLAZE_POWDER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The Pestwarden can use this to",
+   "&7turn a &5Mouse Trap &7into a",
+   "&6Vermin Trap&7."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 100000
+ },
+ {
+  "id": "BOOKWORM_BOOK",
+  "name": "Worn Pest Almanac",
+  "material": "BOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Apply to a vacuum for &c+10❁ Damage&7.",
+   "&7Up to &a5 &7times per vacuum."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 10000
+ },
+ {
+  "id": "PESTHUNTING_GUIDE",
+  "name": "Vermin Handbook",
+  "material": "KNOWLEDGE_BOOK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Combinable in Anvil",
+   "",
+   "&7Raises a Pest Bane enchant on armour",
+   "&7by one level. Needs Pest Bane V.",
+   "",
+   "&7Dog-eared and smelling of mulch."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 1000000
+ },
+ {
+  "id": "SQUEAKY_MOUSEMAT",
+  "name": "Squeaky Mousemat",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found at the bottom of a vacuum",
+   "&7bag, ears and all.",
+   "",
+   "&7Bait a trap with it to catch",
+   "&7Field Mice."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 1000000
+ },
+ {
+  "id": "GREENHOUSE_BLUEPRINT",
+  "name": "Greenhouse Blueprint",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A sketch of a glass growing house.",
+   "&7Bring it to the Greenhouse in your",
+   "&7Garden to build one.",
+   "",
+   "&8* Co-op Soulbound *"
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 0
+ },
+ {
+  "id": "ETHEREAL_VINE",
+  "name": "Ghostvine",
+  "material": "VINE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A vine you can almost see through.",
+   "&7Harvested from greenhouse mutations.",
+   "&7Builds extra greenhouse grids."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 20000
+ },
+ {
+  "id": "OVERCLOCKER_3000",
+  "name": "Overtuner 9000",
+  "material": "COMPARATOR",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Pushes a farming tool past its",
+   "&7level cap, up to level &a50&7."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 250000
+ },
+ {
+  "id": "IRIDIUM",
+  "name": "Iridium",
+  "material": "IRON_NUGGET",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A rare, heavy metal that turns up",
+   "&7in greenhouse harvests."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 0
+ },
+ {
+  "id": "VINYL_PRETTY_FLY",
+  "name": "Buzz Off Vinyl",
+  "material": "MUSIC_DISC_STAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Flys",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "fly"
+  }
+ },
+ {
+  "id": "VINYL_CRICKET_CHOIR",
+  "name": "Night Chorus Vinyl",
+  "material": "MUSIC_DISC_CHIRP",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Crickets",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "cricket"
+  }
+ },
+ {
+  "id": "VINYL_CICADA_SYMPHONY",
+  "name": "Summer Drone Vinyl",
+  "material": "MUSIC_DISC_BLOCKS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Locusts",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "locust"
+  }
+ },
+ {
+  "id": "VINYL_RODENT_REVOLUTION",
+  "name": "Whisker Waltz Vinyl",
+  "material": "MUSIC_DISC_13",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Rats",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "rat"
+  }
+ },
+ {
+  "id": "VINYL_BUZZIN_BEATS",
+  "name": "Hum Along Vinyl",
+  "material": "MUSIC_DISC_WARD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Mosquitos",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "mosquito"
+  }
+ },
+ {
+  "id": "VINYL_EARTHWORM_ENSEMBLE",
+  "name": "Soil Serenade Vinyl",
+  "material": "MUSIC_DISC_MALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Earthworms",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "earthworm"
+  }
+ },
+ {
+  "id": "VINYL_DYNAMITES",
+  "name": "Tiny Thunder Vinyl",
+  "material": "MUSIC_DISC_STRAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Mites",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "mite"
+  }
+ },
+ {
+  "id": "VINYL_WINGS_OF_HARMONY",
+  "name": "Fluttersong Vinyl",
+  "material": "MUSIC_DISC_WAIT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Moths",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "moth"
+  }
+ },
+ {
+  "id": "VINYL_SLOW_AND_GROOVY",
+  "name": "Trail of Slime Vinyl",
+  "material": "MUSIC_DISC_FAR",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Slugs",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "slug"
+  }
+ },
+ {
+  "id": "VINYL_BEETLE",
+  "name": "Shell Shock Vinyl",
+  "material": "MUSIC_DISC_MELLOHI",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Beetles",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "beetle"
+  }
+ },
+ {
+  "id": "VINYL_IMAGINE_DRAGONFLIES",
+  "name": "Skimmer Dreams Vinyl",
+  "material": "MUSIC_DISC_CAT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Dragonflys",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "dragonfly"
+  }
+ },
+ {
+  "id": "VINYL_FIREFLY",
+  "name": "Glow Show Vinyl",
+  "material": "MUSIC_DISC_BLOCKS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Fireflys",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "firefly"
+  }
+ },
+ {
+  "id": "VINYL_PRAY_FOR_ME",
+  "name": "Folded Hands Vinyl",
+  "material": "MUSIC_DISC_MELLOHI",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Spin it on a Bottomless Vacuum",
+   "&7Maximus. While it plays, &6Praying Mantiss",
+   "&7turn up far more often."
+  ],
+  "tags": [
+   "garden",
+   "vinyl"
+  ],
+  "npcSell": 50000,
+  "extra": {
+   "pest": "praying_mantis"
+  }
+ },
+ {
+  "id": "HYPERCHARGE_GARDEN_CHIP",
+  "name": "Surge Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Surge",
+   "&7Temporary &6☘ Farming Fortune &7buffs",
+   "&7are &a3% &7stronger per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 25000,
+  "extra": {
+   "chip": "ff_buffs",
+   "per": 3
+  }
+ },
+ {
+  "id": "QUICKDRAW_GARDEN_CHIP",
+  "name": "Swiftpick Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Swiftpick",
+   "&7Visitors take &a1.5% &7less time to",
+   "&7show up while you harvest crops,",
+   "&7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 25000,
+  "extra": {
+   "chip": "visitor_harvest",
+   "per": 1.5
+  }
+ },
+ {
+  "id": "OVERDRIVE_GARDEN_CHIP",
+  "name": "Redline Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Redline",
+   "&6+5 Crop Fortune &7for the crops of a",
+   "&7running Harvest Fair, per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 150000,
+  "extra": {
+   "chip": "contest_fortune",
+   "per": 5
+  }
+ },
+ {
+  "id": "SYNTHESIS_GARDEN_CHIP",
+  "name": "Fusion Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Fusion",
+   "&7Analysing a mutation in the Crop",
+   "&7Analyzer pays &a1% &7more Copper",
+   "&7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 150000,
+  "extra": {
+   "chip": "analyzer_copper",
+   "per": 1
+  }
+ },
+ {
+  "id": "EVERGREEN_GARDEN_CHIP",
+  "name": "Perennial Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Perennial",
+   "&7Harvests in the Greenhouse give",
+   "&a2% &7more base crops per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 150000,
+  "extra": {
+   "chip": "greenhouse",
+   "per": 2
+  }
+ },
+ {
+  "id": "CROPSHOT_GARDEN_CHIP",
+  "name": "Harvest Shot Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Harvest Shot",
+   "&6+3☘ Farming Fortune &7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 250000,
+  "extra": {
+   "chip": "ff",
+   "per": 3
+  }
+ },
+ {
+  "id": "RAREFINDER_GARDEN_CHIP",
+  "name": "Lucky Find Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Lucky Find",
+   "&d+1.5 Overbloom &7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 1000000,
+  "extra": {
+   "chip": "overbloom",
+   "per": 1.5
+  }
+ },
+ {
+  "id": "VERMIN_VAPORIZER_GARDEN_CHIP",
+  "name": "Pest Zapper Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Pest Zapper",
+   "&2+3ൠ Bonus Pest Chance &7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 100000,
+  "extra": {
+   "chip": "pest_chance",
+   "per": 3
+  }
+ },
+ {
+  "id": "MECHAMIND_GARDEN_CHIP",
+  "name": "Cogmind Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Cogmind",
+   "&7Farming tools earn &a1.5% &7more",
+   "&7tool experience per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 100000,
+  "extra": {
+   "chip": "tool_xp",
+   "per": 1.5
+  }
+ },
+ {
+  "id": "SOWLEDGE_GARDEN_CHIP",
+  "name": "Seedsense Chip",
+  "material": "AMETHYST_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Garden Chip",
+   "",
+   "&6Ability: Seedsense",
+   "&3+1☯ Farming Wisdom &7per level.",
+   "",
+   "&7Redeem chips to raise its rarity:",
+   "&9Rare &71 chip, max level &a10",
+   "&5Epic &7+4 chips, max level &a15",
+   "&6Legendary &7+16 chips, max level &a20",
+   "&7Level it up with &2✿ Sowdust&7.",
+   "",
+   "&eRight-click to redeem!",
+   "&eSneak right-click to redeem all!"
+  ],
+  "tags": [
+   "bazaar",
+   "garden",
+   "garden_chip"
+  ],
+  "npcSell": 100000,
+  "extra": {
+   "chip": "wisdom",
+   "per": 1
+  }
+ },
+ {
+  "id": "JUICY_NOZZLE",
+  "name": "Juicy Nozzle",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bring it to the &aCopper Market &7with a",
+   "&aPlot Sprayer &7to make a &9Juicy Plot Sprayer&7."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 0
+ },
+ {
+  "id": "SALTY_NOZZLE",
+  "name": "Salty Nozzle",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bring it to the &aCopper Market &7with a",
+   "&9Juicy Plot Sprayer &7to make a &5Salty Plot Sprayer&7."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "npcSell": 0
+ },
+ {
+  "id": "GREEN_BANDANA",
+  "name": "Green Bandana",
+  "material": "LIME_DYE",
+  "rarity": "EPIC",
+  "category": "PET_ITEM",
+  "lore": [
+   "&8Consumed on use",
+   "",
+   "&7Tie it on your pet for &6+4☘ Farming",
+   "&6Fortune &7for each of your &aGarden Levels&7.",
+   "",
+   "&eRight-click on your summoned pet to",
+   "&egive it this item!"
+  ],
+  "tags": [
+   "garden",
+   "pet_item"
+  ],
+  "npcSell": 0,
+  "extra": {
+   "fortunePerGardenLevel": 4
+  }
+ },
+ {
+  "id": "SKYMART_VACUUM",
+  "name": "Garden Vacuum",
+  "material": "LIGHTNING_ROD",
+  "rarity": "COMMON",
+  "category": "VACUUM",
+  "lore": [
+   "&7The only thing pests are afraid of."
+  ],
+  "tags": [
+   "garden",
+   "reforgeable"
+  ],
+  "damage": 100,
+  "stats": {
+   "FARMING_FORTUNE": 5
+  },
+  "abilities": [
+   {
+    "id": "garden_vacuum",
+    "name": "Vacuum",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold to pull &c100 &7damage a second",
+     "&7out of pests within &a5.0 &7blocks."
+    ]
+   },
+   {
+    "id": "garden_pest_tracker",
+    "name": "Pest Tracker",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Draws a trail to the nearest",
+     "&7pest in your Garden."
+    ]
+   }
+  ],
+  "glow": false,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "range": 5.0,
+   "vacuumDamage": 100
+  }
+ },
+ {
+  "id": "SKYMART_TURBO_VACUUM",
+  "name": "Turbo Garden Vacuum",
+  "material": "END_ROD",
+  "rarity": "UNCOMMON",
+  "category": "VACUUM",
+  "lore": [
+   "&7The only thing pests are afraid of."
+  ],
+  "tags": [
+   "garden",
+   "reforgeable"
+  ],
+  "damage": 150,
+  "stats": {
+   "FARMING_FORTUNE": 10
+  },
+  "abilities": [
+   {
+    "id": "garden_vacuum",
+    "name": "Vacuum",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold to pull &c150 &7damage a second",
+     "&7out of pests within &a7.5 &7blocks."
+    ]
+   },
+   {
+    "id": "garden_pest_tracker",
+    "name": "Pest Tracker",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Draws a trail to the nearest",
+     "&7pest in your Garden."
+    ]
+   }
+  ],
+  "glow": false,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "range": 7.5,
+   "vacuumDamage": 150
+  }
+ },
+ {
+  "id": "SKYMART_HYPER_VACUUM",
+  "name": "Hyper Garden Vacuum",
+  "material": "BLAZE_ROD",
+  "rarity": "RARE",
+  "category": "VACUUM",
+  "lore": [
+   "&7The only thing pests are afraid of."
+  ],
+  "tags": [
+   "garden",
+   "reforgeable"
+  ],
+  "damage": 200,
+  "stats": {
+   "FARMING_FORTUNE": 15
+  },
+  "abilities": [
+   {
+    "id": "garden_vacuum",
+    "name": "Vacuum",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold to pull &c200 &7damage a second",
+     "&7out of pests within &a10.0 &7blocks."
+    ]
+   },
+   {
+    "id": "garden_pest_tracker",
+    "name": "Pest Tracker",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Draws a trail to the nearest",
+     "&7pest in your Garden."
+    ]
+   }
+  ],
+  "glow": false,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "range": 10.0,
+   "vacuumDamage": 200
+  }
+ },
+ {
+  "id": "INFINI_VACUUM",
+  "name": "Bottomless Vacuum",
+  "material": "BREEZE_ROD",
+  "rarity": "EPIC",
+  "category": "VACUUM",
+  "lore": [
+   "&7The only thing pests are afraid of."
+  ],
+  "tags": [
+   "garden",
+   "reforgeable"
+  ],
+  "damage": 300,
+  "stats": {
+   "FARMING_FORTUNE": 20
+  },
+  "abilities": [
+   {
+    "id": "garden_vacuum",
+    "name": "Vacuum",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold to pull &c300 &7damage a second",
+     "&7out of pests within &a12.5 &7blocks."
+    ]
+   },
+   {
+    "id": "garden_pest_tracker",
+    "name": "Pest Tracker",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Draws a trail to the nearest",
+     "&7pest in your Garden."
+    ]
+   }
+  ],
+  "glow": false,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "range": 12.5,
+   "vacuumDamage": 300
+  }
+ },
+ {
+  "id": "INFINI_VACUUM_HOOVERIUS",
+  "name": "Bottomless Vacuum Maximus",
+  "material": "BREEZE_ROD",
+  "rarity": "LEGENDARY",
+  "category": "VACUUM",
+  "lore": [
+   "&7The only thing pests are afraid of."
+  ],
+  "tags": [
+   "garden",
+   "reforgeable"
+  ],
+  "damage": 400,
+  "stats": {
+   "FARMING_FORTUNE": 25
+  },
+  "abilities": [
+   {
+    "id": "garden_vacuum",
+    "name": "Vacuum",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Hold to pull &c400 &7damage a second",
+     "&7out of pests within &a15.0 &7blocks."
+    ]
+   },
+   {
+    "id": "garden_pest_tracker",
+    "name": "Pest Tracker",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Draws a trail to the nearest",
+     "&7pest in your Garden."
+    ]
+   },
+   {
+    "id": "garden_stereo",
+    "name": "Pest Radio",
+    "trigger": "SNEAK_RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Choose a vinyl to play. Pests that",
+     "&7like the tune show up more often."
+    ]
+   }
+  ],
+  "glow": true,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "range": 15.0,
+   "vacuumDamage": 400
+  }
+ },
+ {
+  "id": "SPRAYONATOR",
+  "name": "Plot Sprayer",
+  "material": "WARPED_FUNGUS_ON_A_STICK",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "lore": [
+   "&7Nozzle bonus while in a sprayed plot:",
+   "&8➜ &2+25 ൠ Bonus Pest Chance",
+   "&8➜ &7Pests are &a1.5x &7more likely there."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "minutes": 30,
+   "bpc": 25,
+   "mult": 1.5,
+   "uses": 1
+  },
+  "abilities": [
+   {
+    "id": "garden_spray",
+    "name": "Spray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 3,
+    "lore": [
+     "&7Coats the plot you stand on with the",
+     "&7selected material for &a30m&7.",
+     "&7Uses &a1 &7of the material."
+    ]
+   },
+   {
+    "id": "garden_spray_config",
+    "name": "Configure",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Pick the material to spray."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "JUICY_SPRAYONATOR",
+  "name": "Juicy Plot Sprayer",
+  "material": "WARPED_FUNGUS_ON_A_STICK",
+  "rarity": "RARE",
+  "category": "NONE",
+  "lore": [
+   "&7Nozzle bonus while in a sprayed plot:",
+   "&8➜ &2+50 ൠ Bonus Pest Chance",
+   "&8➜ &7Pests are &a2.0x &7more likely there."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "minutes": 45,
+   "bpc": 50,
+   "mult": 2.0,
+   "uses": 3
+  },
+  "abilities": [
+   {
+    "id": "garden_spray",
+    "name": "Spray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 3,
+    "lore": [
+     "&7Coats the plot you stand on with the",
+     "&7selected material for &a45m&7.",
+     "&7Uses &a3 &7of the material."
+    ]
+   },
+   {
+    "id": "garden_spray_config",
+    "name": "Configure",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Pick the material to spray."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SALTY_SPRAYONATOR",
+  "name": "Salty Plot Sprayer",
+  "material": "WARPED_FUNGUS_ON_A_STICK",
+  "rarity": "EPIC",
+  "category": "NONE",
+  "lore": [
+   "&7Nozzle bonus while in a sprayed plot:",
+   "&8➜ &2+75 ൠ Bonus Pest Chance",
+   "&8➜ &7Pests are &a3.0x &7more likely there."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "requirements": [
+   "garden:5"
+  ],
+  "extra": {
+   "minutes": 60,
+   "bpc": 75,
+   "mult": 3.0,
+   "uses": 5
+  },
+  "abilities": [
+   {
+    "id": "garden_spray",
+    "name": "Spray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 3,
+    "lore": [
+     "&7Coats the plot you stand on with the",
+     "&7selected material for &a60m&7.",
+     "&7Uses &a5 &7of the material."
+    ]
+   },
+   {
+    "id": "garden_spray_config",
+    "name": "Configure",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Pick the material to spray."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "PEST_REPELLENT",
+  "name": "Pest Repellent",
+  "material": "LIME_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumable",
+   "",
+   "&7A smell pests simply cannot stand.",
+   "&7For &a60m&7 pests take &a2x &7as",
+   "&7long to show up.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "garden",
+   "consumable_garden"
+  ],
+  "glow": false,
+  "extra": {
+   "factor": 2
+  }
+ },
+ {
+  "id": "PEST_REPELLENT_MAX",
+  "name": "Pest Repellent MAX",
+  "material": "LIME_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumable",
+   "",
+   "&7A smell pests simply cannot stand.",
+   "&7For &a60m&7 pests take &a4x &7as",
+   "&7long to show up.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "garden",
+   "consumable_garden"
+  ],
+  "glow": true,
+  "extra": {
+   "factor": 4
+  }
+ },
+ {
+  "id": "PEST_TRAP",
+  "name": "Pest Trap",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "RARE",
+  "category": "NONE",
+  "lore": [
+   "&7Set it in a Garden plot and bait it",
+   "&7to catch pests while you are away.",
+   "&7Holds &a2 &7pests. Up to &a3 &7traps."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 2,
+   "mouseMult": 1.0
+  }
+ },
+ {
+  "id": "MOUSE_PEST_TRAP",
+  "name": "Mouse Trap",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "EPIC",
+  "category": "NONE",
+  "lore": [
+   "&7Set it in a Garden plot and bait it",
+   "&7to catch pests while you are away.",
+   "&7Holds &a3 &7pests. Up to &a3 &7traps.",
+   "",
+   "&7Field Mice are &a3x &7as likely to",
+   "&7wander in."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 3,
+   "mouseMult": 3.0
+  }
+ },
+ {
+  "id": "VERMIN_PEST_TRAP",
+  "name": "Vermin Trap",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "LEGENDARY",
+  "category": "NONE",
+  "lore": [
+   "&7Set it in a Garden plot and bait it",
+   "&7to catch pests while you are away.",
+   "&7Holds &a4 &7pests. Up to &a3 &7traps.",
+   "",
+   "&7Field Mice are &a4x &7as likely to",
+   "&7wander in."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 4,
+   "mouseMult": 4.0
+  }
+ },
+ {
+  "id": "HYDRO_CAN_1000",
+  "name": "Watering Can",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "COMMON",
+  "category": "NONE",
+  "lore": [
+   "&7Keeps greenhouse plants watered.",
+   "&7Holds &b3,000 &7water; refill it from the",
+   "&7greenhouse well."
+  ],
+  "tags": [
+   "garden",
+   "watering_can"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 3000
+  }
+ },
+ {
+  "id": "HYDRO_CAN_TURBO_2000",
+  "name": "Turbo Watering Can",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "lore": [
+   "&7Keeps greenhouse plants watered.",
+   "&7Holds &b6,000 &7water; refill it from the",
+   "&7greenhouse well."
+  ],
+  "tags": [
+   "garden",
+   "watering_can"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 6000
+  }
+ },
+ {
+  "id": "HYDRO_CAN_ULTRA_3000",
+  "name": "Ultra Watering Can",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "RARE",
+  "category": "NONE",
+  "lore": [
+   "&7Keeps greenhouse plants watered.",
+   "&7Holds &b10,000 &7water; refill it from the",
+   "&7greenhouse well."
+  ],
+  "tags": [
+   "garden",
+   "watering_can"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 10000
+  }
+ },
+ {
+  "id": "AQUAMASTER_X",
+  "name": "Rainmaker",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "EPIC",
+  "category": "NONE",
+  "lore": [
+   "&7Keeps greenhouse plants watered.",
+   "&7Holds &b20,000 &7water; refill it from the",
+   "&7greenhouse well."
+  ],
+  "tags": [
+   "garden",
+   "watering_can"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 20000
+  }
+ },
+ {
+  "id": "AQUAMASTER_HYDROMAX",
+  "name": "Rainmaker Deluxe",
+  "material": "CARROT_ON_A_STICK",
+  "rarity": "LEGENDARY",
+  "category": "NONE",
+  "lore": [
+   "&7Keeps greenhouse plants watered.",
+   "&7Holds &b40,000 &7water; refill it from the",
+   "&7greenhouse well."
+  ],
+  "tags": [
+   "garden",
+   "watering_can"
+  ],
+  "maxStack": 1,
+  "extra": {
+   "capacity": 40000
+  }
+ },
+ {
+  "id": "GARDEN_SCYTHE",
+  "name": "Garden Scythe",
+  "material": "IRON_HOE",
+  "rarity": "UNCOMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Clears grass, leaves and flowers",
+   "&7in a &a5x5 &7area of an owned plot."
+  ],
+  "tags": [
+   "garden"
+  ],
+  "extra": {
+   "radius": 2
+  }
+ },
+ {
+  "id": "SAM_SCYTHE",
+  "name": "Starter Scythe",
+  "material": "IRON_HOE",
+  "rarity": "COMMON",
+  "category": "HOE",
+  "lore": [
+   "&7Clears grass, leaves and flowers",
+   "&7in a &a3x3 &7area of an owned plot."
+  ],
+  "tags": [
+   "garden",
+   "soulbound"
+  ],
+  "extra": {
+   "radius": 1
+  }
+ },
+ {
+  "id": "SCOURROOT",
+  "name": "Grimroot",
+  "material": "HANGING_ROOTS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "BLASTBERRY",
+  "name": "Boomberry",
+  "material": "SWEET_BERRIES",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CHEESEBITE",
+  "name": "Curdbloom",
+  "material": "OXEYE_DAISY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "STOPLIGHT_PETAL",
+  "name": "Signal Petal",
+  "material": "POPPY",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "STARTLEVINE",
+  "name": "Jumpvine",
+  "material": "GLOW_LICHEN",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "SHADEVINE",
+  "name": "Duskvine",
+  "material": "VINE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "GODSEED",
+  "name": "Worldseed",
+  "material": "TORCHFLOWER_SEEDS",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CREAMBLOOM",
+  "name": "Milkpetal",
+  "material": "LILY_OF_THE_VALLEY",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CINDERSHADE",
+  "name": "Embershade",
+  "material": "CRIMSON_FUNGUS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "LONELILY",
+  "name": "Lonepetal",
+  "material": "AZURE_BLUET",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "FLESHTRAP",
+  "name": "Gnawtrap",
+  "material": "PITCHER_POD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "GLOOMGOURD",
+  "name": "Murkgourd",
+  "material": "CARVED_PUMPKIN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "JERRYFLOWER",
+  "name": "Geraldflower",
+  "material": "CORNFLOWER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "SHELLFRUIT",
+  "name": "Husknut",
+  "material": "TURTLE_SCUTE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CHOCONUT",
+  "name": "Cacaonut",
+  "material": "BROWN_DYE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "THUNDERLING",
+  "name": "Stormsprout",
+  "material": "LIGHTNING_ROD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "MAGIC_JELLYBEAN",
+  "name": "Wonder Jellybean",
+  "material": "SLIME_BALL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "NOCTILUME",
+  "name": "Nightglow",
+  "material": "GLOW_BERRIES",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "TIMESTALK",
+  "name": "Clockstalk",
+  "material": "CLOCK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "ALL_IN_ALOE",
+  "name": "Jackpot Aloe",
+  "material": "SEA_PICKLE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "PUFFERCLOUD",
+  "name": "Puffbloom",
+  "material": "WHITE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "TURTLELLINI",
+  "name": "Shellini",
+  "material": "LILY_PAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "ASHWREATH",
+  "name": "Cinderwreath",
+  "material": "DEAD_BUSH",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "ZOMBUD",
+  "name": "Deadbud",
+  "material": "WITHER_ROSE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "DEVOURER",
+  "name": "Gobbler",
+  "material": "BIG_DRIPLEAF",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CHOCOBERRY",
+  "name": "Cocoaberry",
+  "material": "COCOA_BEANS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "SNOOZLING",
+  "name": "Drowsling",
+  "material": "SPORE_BLOSSOM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "DUSTGRAIN",
+  "name": "Siltgrain",
+  "material": "WHEAT_SEEDS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "THORNSHADE",
+  "name": "Briarshade",
+  "material": "SWEET_BERRIES",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "CHLORONITE",
+  "name": "Leafstone",
+  "material": "MOSS_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "DO_NOT_EAT_SHROOM",
+  "name": "Don't-Eat Cap",
+  "material": "RED_MUSHROOM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "GLASSCORN",
+  "name": "Crystalcorn",
+  "material": "AMETHYST_CLUSTER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "VEILSHROOM",
+  "name": "Shroudcap",
+  "material": "BROWN_MUSHROOM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "WITHERBLOOM",
+  "name": "Blightbloom",
+  "material": "WITHER_ROSE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Common Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "DUSKBLOOM",
+  "name": "Eveningbloom",
+  "material": "ALLIUM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "PLANTBOY_ADVANCE",
+  "name": "Sprout Pocket Console",
+  "material": "OBSERVER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Epic Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "SOGGYBUD",
+  "name": "Dampbud",
+  "material": "KELP",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Rare Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "PHANTOMLEAF",
+  "name": "Wraithleaf",
+  "material": "PHANTOM_MEMBRANE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Legendary Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ },
+ {
+  "id": "COALROOT",
+  "name": "Charroot",
+  "material": "COAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A greenhouse mutation. It only sprouts",
+   "&7in an empty cell with the right",
+   "&7neighbours.",
+   "",
+   "&8Uncommon Mutation"
+  ],
+  "tags": [
+   "garden",
+   "mutation",
+   "bazaar"
+  ],
+  "npcSell": 1000
+ }
+]

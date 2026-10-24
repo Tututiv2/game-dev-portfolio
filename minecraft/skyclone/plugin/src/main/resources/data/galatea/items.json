@@ -1,0 +1,22 @@
+[
+ {"id": "LOTUS_ATOLL_TRAVEL_SCROLL", "name": "Travel Scroll to the Lotus Atoll", "material": "MAP", "rarity": "RARE", "category": "TRAVEL_SCROLL", "maxStack": 1,
+  "lore": ["&7Read it to keep &a/warp lotus_atoll &7open", "&7from anywhere, ship or no ship.", "", "&8Consumed on use."],
+  "requirements": ["frogs:title:2"],
+  "abilities": [{"id": "galatea_read_scroll", "name": "Read", "trigger": "RIGHT_CLICK", "mana": 0, "cooldown": 0, "lore": ["&7Unlock the destination for good."]}],
+  "tags": ["soulbound", "museum"], "npcSell": 0, "extra": {"owner": "galatea", "scroll": "lotus_atoll"}},
+ {"id": "TORRHUS_CANYON_TRAVEL_SCROLL", "name": "Travel Scroll to Torrent Canyon", "material": "MAP", "rarity": "RARE", "category": "TRAVEL_SCROLL", "maxStack": 1,
+  "lore": ["&7Read it to keep &a/warp torrhus_canyon", "&7open from anywhere.", "", "&8Consumed on use."],
+  "abilities": [{"id": "galatea_read_scroll", "name": "Read", "trigger": "RIGHT_CLICK", "mana": 0, "cooldown": 0, "lore": ["&7Unlock the destination for good."]}],
+  "tags": ["museum"], "npcSell": 0, "extra": {"owner": "galatea", "scroll": "torrhus_canyon"}},
+ {"id": "TORRHUS_SPRINGS_TRAVEL_SCROLL", "name": "Travel Scroll to Torrent Springs", "material": "MAP", "rarity": "RARE", "category": "TRAVEL_SCROLL", "maxStack": 1,
+  "lore": ["&7Read it to unlock &a/warp torrhus_springs&7,", "&7straight to the spring pool.", "", "&8Consumed on use."],
+  "abilities": [{"id": "galatea_read_scroll", "name": "Read", "trigger": "RIGHT_CLICK", "mana": 0, "cooldown": 0, "lore": ["&7Unlock the destination for good."]}],
+  "tags": ["museum"], "npcSell": 0, "extra": {"owner": "galatea", "scroll": "torrhus_springs"}},
+ {"id": "TORRHUS_SAFARI_ENTRANCE_TRAVEL_SCROLL", "name": "Travel Scroll to the Critter Safari Entrance", "material": "MAP", "rarity": "RARE", "category": "TRAVEL_SCROLL", "maxStack": 1,
+  "lore": ["&7Read it to unlock &a/warp torrhus_safari&7,", "&7straight to the Safari gate.", "", "&8Consumed on use."],
+  "abilities": [{"id": "galatea_read_scroll", "name": "Read", "trigger": "RIGHT_CLICK", "mana": 0, "cooldown": 0, "lore": ["&7Unlock the destination for good."]}],
+  "tags": ["museum"], "npcSell": 0, "extra": {"owner": "galatea", "scroll": "torrhus_safari"}},
+ {"id": "RIBBIT_THE_FISH", "name": "Ribbit the Fish", "material": "COOKED_COD", "rarity": "SPECIAL", "category": "MATERIAL", "maxStack": 1,
+  "lore": ["&7It insists it is a fish. It says", "&7nothing else, and certainly not ribbit."],
+  "requirements": ["frogs:title:4"], "tags": ["soulbound", "museum"], "npcSell": 0, "extra": {"owner": "galatea"}}
+]

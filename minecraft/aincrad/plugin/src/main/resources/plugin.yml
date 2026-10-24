@@ -1,0 +1,204 @@
+name: AincradPlugin
+version: '0.1.0'
+main: org.aincrad.plugin.AincradPlugin
+api-version: '26.1'
+description: >-
+  Aincrad prison-MMO project: chunk-mask compiler, generation ledger, layer activation controller,
+  the built-in world editor, and /aincrad admin commands.
+authors: [ "owner + assistant" ]
+commands:
+  aincrad:
+    description: Aincrad administration and diagnostics.
+    usage: /aincrad <status|verify|gen|layer|config>
+    permission: aincrad.admin
+  aed:
+    description: World editor. Same commands as the // shortcuts, e.g. /aed set stone.
+    usage: /aed <command> [args]
+    permission: aincrad.edit
+  "/wand":
+    description: Get the selection rod.
+    usage: //wand
+    permission: aincrad.edit
+  "/pos1":
+    description: Set corner 1 where you stand.
+    usage: //pos1
+    permission: aincrad.edit
+  "/pos2":
+    description: Set corner 2 where you stand.
+    usage: //pos2
+    permission: aincrad.edit
+  "/size":
+    description: Show selection size.
+    usage: //size
+    permission: aincrad.edit
+  "/desel":
+    description: Clear the selection.
+    usage: //desel
+    permission: aincrad.edit
+  "/expand":
+    description: Grow the selection.
+    usage: //expand
+    permission: aincrad.edit
+  "/contract":
+    description: Shrink the selection.
+    usage: //contract
+    permission: aincrad.edit
+  "/shift":
+    description: Slide the selection.
+    usage: //shift
+    permission: aincrad.edit
+  "/set":
+    description: Fill the selection.
+    usage: //set
+    permission: aincrad.edit
+  "/replace":
+    description: Swap one block for another.
+    usage: //replace
+    permission: aincrad.edit
+  "/walls":
+    description: Build the four vertical sides.
+    usage: //walls
+    permission: aincrad.edit
+  "/shell":
+    description: Build all six faces.
+    usage: //shell
+    permission: aincrad.edit
+  "/hollow":
+    description: Empty the inside.
+    usage: //hollow
+    permission: aincrad.edit
+  "/count":
+    description: Count matching blocks.
+    usage: //count
+    permission: aincrad.edit
+  "/distr":
+    description: List what is in the selection.
+    usage: //distr
+    permission: aincrad.edit
+  "/copy":
+    description: Copy the selection.
+    usage: //copy
+    permission: aincrad.edit
+  "/cut":
+    description: Copy then delete.
+    usage: //cut
+    permission: aincrad.edit
+  "/paste":
+    description: Paste the clipboard.
+    usage: //paste
+    permission: aincrad.edit
+  "/rotate":
+    description: Rotate the clipboard.
+    usage: //rotate
+    permission: aincrad.edit
+  "/flip":
+    description: Mirror the clipboard.
+    usage: //flip
+    permission: aincrad.edit
+  "/stack":
+    description: Repeat the selection.
+    usage: //stack
+    permission: aincrad.edit
+  "/move":
+    description: Slide the selection contents.
+    usage: //move
+    permission: aincrad.edit
+  "/sphere":
+    description: Solid sphere.
+    usage: //sphere
+    permission: aincrad.edit
+  "/hsphere":
+    description: Hollow sphere.
+    usage: //hsphere
+    permission: aincrad.edit
+  "/cyl":
+    description: Solid cylinder.
+    usage: //cyl
+    permission: aincrad.edit
+  "/hcyl":
+    description: Hollow cylinder.
+    usage: //hcyl
+    permission: aincrad.edit
+  "/pyramid":
+    description: Solid pyramid.
+    usage: //pyramid
+    permission: aincrad.edit
+  "/hpyramid":
+    description: Hollow pyramid.
+    usage: //hpyramid
+    permission: aincrad.edit
+  "/undo":
+    description: Undo your last edit.
+    usage: //undo
+    permission: aincrad.edit
+  "/redo":
+    description: Redo what you undid.
+    usage: //redo
+    permission: aincrad.edit
+  "/brush":
+    description: Configure the brush.
+    usage: //brush
+    permission: aincrad.edit
+  "/outline":
+    description: Toggle the selection outline.
+    usage: //outline
+    permission: aincrad.edit
+  "/perf":
+    description: Blocks placed per tick.
+    usage: //perf
+    permission: aincrad.edit
+  "/cancel":
+    description: Stop a running operation.
+    usage: //cancel
+    permission: aincrad.edit
+  "/help":
+    description: Editor help menu.
+    usage: //help
+    permission: aincrad.edit
+  "/guide":
+    description: Get the guide as a book.
+    usage: //guide
+    permission: aincrad.edit
+  "/up":
+    description: Rise n blocks on a glass step.
+    usage: //up
+    permission: aincrad.edit
+  "/down":
+    description: Drop n blocks on a glass step.
+    usage: //down
+    permission: aincrad.edit
+  "/jumpto":
+    description: Teleport to the block you are looking at.
+    usage: //jumpto
+    permission: aincrad.edit
+  "/thru":
+    description: Step through the wall you face.
+    usage: //thru
+    permission: aincrad.edit
+  "/ceil":
+    description: Stand on the ceiling above you.
+    usage: //ceil
+    permission: aincrad.edit
+  "/import":
+    description: Import a world saved by another Minecraft version.
+    usage: //import
+    permission: aincrad.edit
+  "/schem":
+    description: Save and load build parts.
+    usage: //schem <save|load|list|delete>
+    permission: aincrad.edit
+  "/island":
+    description: Carve the underside into a floating island.
+    usage: //island [thickness] [radius]
+    permission: aincrad.edit
+  "/apron":
+    description: Grow natural land outward from the island you are standing on.
+    usage: //apron [width] [depth]  -  then //apron confirm
+    permission: aincrad.edit
+permissions:
+  aincrad.admin:
+    description: Full access to Aincrad admin/diagnostic commands.
+    default: op
+  aincrad.edit:
+    description: Use the built-in world editor.
+    default: op

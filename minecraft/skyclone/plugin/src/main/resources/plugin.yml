@@ -1,0 +1,20 @@
+name: SkyClone
+version: '${project.version}'
+main: com.skyclone.SkyPlugin
+api-version: '26.2'
+author: Tutut
+description: A from-scratch SkyBlock-style game (working title).
+
+# Paper downloads these into server/libraries on first load. Must match the
+# compileOnly coordinate in build.gradle.kts exactly.
+libraries:
+  - org.xerial:sqlite-jdbc:3.47.1.0
+
+# No `commands:` block on purpose. Every command registers through
+# com.skyclone.api.command.CommandService at runtime, so adding a command is one
+# call in a module and never an edit to this file. /commands lists them all.
+
+permissions:
+  skyclone.admin:
+    description: Full administrative access (/sb admin commands, dials, builders).
+    default: op

@@ -1,0 +1,159 @@
+{
+ "v": 1,
+ "generated": "5.1.1",
+ "budget": 900,
+ "models": {
+  "anchor": {
+   "file": "anchor.glb",
+   "bytes": 10652,
+   "tris": 348,
+   "verts": 180,
+   "materials": 3,
+   "fit": 1.18
+  },
+  "anomaly": {
+   "file": "anomaly.glb",
+   "bytes": 3104,
+   "tris": 24,
+   "verts": 18,
+   "materials": 1,
+   "fit": 0.8
+  },
+  "astronaut": {
+   "file": "astronaut.glb",
+   "bytes": 20772,
+   "tris": 716,
+   "verts": 384,
+   "materials": 4,
+   "fit": 1.0
+  },
+  "beacon": {
+   "file": "beacon.glb",
+   "bytes": 11416,
+   "tris": 328,
+   "verts": 170,
+   "materials": 3,
+   "fit": 1.07
+  },
+  "bloom": {
+   "file": "bloom.glb",
+   "bytes": 11872,
+   "tris": 134,
+   "verts": 79,
+   "materials": 2,
+   "fit": 1.21
+  },
+  "crater": {
+   "file": "crater.glb",
+   "bytes": 15208,
+   "tris": 220,
+   "verts": 116,
+   "materials": 2,
+   "fit": 0.36
+  },
+  "crystal": {
+   "file": "crystal.glb",
+   "bytes": 2984,
+   "tris": 24,
+   "verts": 18,
+   "materials": 1,
+   "fit": 0.68
+  },
+  "hab": {
+   "file": "hab.glb",
+   "bytes": 8528,
+   "tris": 234,
+   "verts": 125,
+   "materials": 3,
+   "fit": 0.62
+  },
+  "kelp": {
+   "file": "kelp.glb",
+   "bytes": 5000,
+   "tris": 72,
+   "verts": 48,
+   "materials": 1,
+   "fit": 1.0
+  },
+  "kiln": {
+   "file": "kiln.glb",
+   "bytes": 7972,
+   "tris": 104,
+   "verts": 64,
+   "materials": 3,
+   "fit": 1.3
+  },
+  "lantern": {
+   "file": "lantern.glb",
+   "bytes": 10684,
+   "tris": 128,
+   "verts": 72,
+   "materials": 2,
+   "fit": 1.24
+  },
+  "lattice": {
+   "file": "lattice.glb",
+   "bytes": 10976,
+   "tris": 300,
+   "verts": 154,
+   "materials": 4,
+   "fit": 1.0
+  },
+  "luremast": {
+   "file": "luremast.glb",
+   "bytes": 6616,
+   "tris": 146,
+   "verts": 83,
+   "materials": 2,
+   "fit": 1.22
+  },
+  "mast": {
+   "file": "mast.glb",
+   "bytes": 9620,
+   "tris": 192,
+   "verts": 118,
+   "materials": 2,
+   "fit": 1.18
+  },
+  "riftengine": {
+   "file": "riftengine.glb",
+   "bytes": 5216,
+   "tris": 60,
+   "verts": 40,
+   "materials": 2,
+   "fit": 1.12
+  },
+  "stellartap": {
+   "file": "stellartap.glb",
+   "bytes": 8444,
+   "tris": 272,
+   "verts": 140,
+   "materials": 3,
+   "fit": 1.22
+  },
+  "tower": {
+   "file": "tower.glb",
+   "bytes": 8304,
+   "tris": 92,
+   "verts": 60,
+   "materials": 3,
+   "fit": 1.0
+  },
+  "tree": {
+   "file": "tree.glb",
+   "bytes": 8868,
+   "tris": 92,
+   "verts": 56,
+   "materials": 3,
+   "fit": 1.67
+  },
+  "wormgate": {
+   "file": "wormgate.glb",
+   "bytes": 9672,
+   "tris": 292,
+   "verts": 162,
+   "materials": 3,
+   "fit": 1.05
+  }
+ }
+}

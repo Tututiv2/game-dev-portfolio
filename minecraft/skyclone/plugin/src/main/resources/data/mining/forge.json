@@ -1,0 +1,1634 @@
+[
+ {
+  "id": "mining_forge:AMBER_MATERIAL",
+  "type": "FORGE",
+  "result": "AMBER_MATERIAL",
+  "amount": 1,
+  "inputs": [
+   "GOLDEN_PLATE:1",
+   "FINE_AMBER_GEM:12"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:AMBER_NECKLACE",
+  "type": "FORGE",
+  "result": "AMBER_NECKLACE",
+  "amount": 1,
+  "inputs": [
+   "GLOSSY_GEMSTONE:32",
+   "FLAWLESS_AMBER_GEM:2"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:AMBER_POLISHED_DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "AMBER_POLISHED_DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "DRILL_ENGINE:5",
+   "PERFECT_AMBER_GEM:5",
+   "PRECURSOR_APPARATUS:16",
+   "SAPPHIRE_POLISHED_DRILL_ENGINE:1",
+   "PLASMA:32"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:9",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:AMETHYST_GAUNTLET",
+  "type": "FORGE",
+  "result": "AMETHYST_GAUNTLET",
+  "amount": 1,
+  "inputs": [
+   "GLOSSY_GEMSTONE:32",
+   "FLAWLESS_AMETHYST_GEM:2"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:AMMONITE;4",
+  "type": "FORGE",
+  "result": "AMMONITE;4",
+  "amount": 1,
+  "inputs": [
+   "HELIX:1",
+   "COINS:300000"
+  ],
+  "durationSeconds": 259200,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:ANKYLOSAURUS;4",
+  "type": "FORGE",
+  "result": "ANKYLOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_OPAL_GEM:1",
+   "CLUBBED_FOSSIL:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BASE_CAMP_TRAVEL_SCROLL",
+  "type": "FORGE",
+  "result": "BASE_CAMP_TRAVEL_SCROLL",
+  "amount": 1,
+  "inputs": [
+   "COINS:500000",
+   "FLAWLESS_ONYX_GEM:1",
+   "ENCHANTED_ENDER_PEARL:16"
+  ],
+  "durationSeconds": 36000,
+  "unlock": null,
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEACON_2",
+  "type": "FORGE",
+  "result": "BEACON_2",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MITHRIL:5",
+   "BEACON_1:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:MITHRIL_ORE:9 & hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEACON_3",
+  "type": "FORGE",
+  "result": "BEACON_3",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MITHRIL:10",
+   "BEACON_2:1"
+  ],
+  "durationSeconds": 108000,
+  "unlock": "collection:MITHRIL_ORE:9 & hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEACON_4",
+  "type": "FORGE",
+  "result": "BEACON_4",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MITHRIL:20",
+   "BEACON_3:1",
+   "PLASMA:1"
+  ],
+  "durationSeconds": 144000,
+  "unlock": "collection:MITHRIL_ORE:9 & hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEACON_5",
+  "type": "FORGE",
+  "result": "BEACON_5",
+  "amount": 1,
+  "inputs": [
+   "BEACON_4:1",
+   "REFINED_MITHRIL:40",
+   "PLASMA:5"
+  ],
+  "durationSeconds": 180000,
+  "unlock": "collection:MITHRIL_ORE:9 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEJEWELED_COLLAR",
+  "type": "FORGE",
+  "result": "BEJEWELED_COLLAR",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:1",
+   "REFINED_MITHRIL:4"
+  ],
+  "durationSeconds": 7200,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:BEJEWELED_HANDLE",
+  "type": "FORGE",
+  "result": "BEJEWELED_HANDLE",
+  "amount": 1,
+  "inputs": [
+   "GLACITE_JEWEL:3"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+  "type": "FORGE",
+  "result": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+  "amount": 1,
+  "inputs": [
+   "FLAWED_RUBY_GEM:48",
+   "COINS:50000",
+   "ENCHANTED_ENDER_PEARL:16",
+   "FINE_RUBY_GEM:80"
+  ],
+  "durationSeconds": 36000,
+  "unlock": null,
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIAMONITE",
+  "type": "FORGE",
+  "result": "DIAMONITE",
+  "amount": 1,
+  "inputs": [
+   "REFINED_DIAMOND:3"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_BOOTS",
+  "type": "FORGE",
+  "result": "DIVAN_BOOTS",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:10",
+   "FLAWLESS_RUBY_GEM:1",
+   "DIVAN_FRAGMENT:4"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_CHESTPLATE",
+  "type": "FORGE",
+  "result": "DIVAN_CHESTPLATE",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:10",
+   "FLAWLESS_RUBY_GEM:1",
+   "DIVAN_FRAGMENT:8"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_DRILL",
+  "type": "FORGE",
+  "result": "DIVAN_DRILL",
+  "amount": 1,
+  "inputs": [
+   "TITANIUM_DRILL_4:1",
+   "COINS:50000000",
+   "DIVAN_ALLOY:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_HELMET",
+  "type": "FORGE",
+  "result": "DIVAN_HELMET",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_RUBY_GEM:1",
+   "GEMSTONE_MIXTURE:10",
+   "DIVAN_FRAGMENT:5"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_LEGGINGS",
+  "type": "FORGE",
+  "result": "DIVAN_LEGGINGS",
+  "amount": 1,
+  "inputs": [
+   "DIVAN_FRAGMENT:7",
+   "FLAWLESS_RUBY_GEM:1",
+   "GEMSTONE_MIXTURE:10"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_PENDANT",
+  "type": "FORGE",
+  "result": "DIVAN_PENDANT",
+  "amount": 1,
+  "inputs": [
+   "PERFECT_PLATE:1",
+   "DIVAN_FRAGMENT:10",
+   "SHATTERED_PENDANT:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DIVAN_POWDER_COATING",
+  "type": "FORGE",
+  "result": "DIVAN_POWDER_COATING",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MINERAL:32",
+   "GLOSSY_GEMSTONE:32",
+   "ENCHANTED_GOLD_BLOCK:16",
+   "DIVAN_FRAGMENT:5"
+  ],
+  "durationSeconds": 129600,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_IRON_BLOCK:1",
+   "ENCHANTED_REDSTONE_BLOCK:3",
+   "TREASURITE:10",
+   "GOLDEN_PLATE:1"
+  ],
+  "durationSeconds": 108000,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DWARVEN_HANDWARMERS",
+  "type": "FORGE",
+  "result": "DWARVEN_HANDWARMERS",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_JADE_GEM:1",
+   "UMBER_PLATE:1",
+   "FLAWLESS_AMBER_GEM:1",
+   "TUNGSTEN_PLATE:1"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:DWARVEN_METAL",
+  "type": "FORGE",
+  "result": "DWARVEN_METAL",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TUNGSTEN:4",
+   "REFINED_UMBER:4",
+   "GLACITE_AMALGAMATION:4"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:FORGE_TRAVEL_SCROLL",
+  "type": "FORGE",
+  "result": "FORGE_TRAVEL_SCROLL",
+  "amount": 1,
+  "inputs": [
+   "COINS:25000",
+   "ENCHANTED_ENDER_PEARL:16",
+   "MITHRIL_ORE:48",
+   "TITANIUM_ORE:80"
+  ],
+  "durationSeconds": 18000,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:FRIGID_HUSK",
+  "type": "FORGE",
+  "result": "FRIGID_HUSK",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_ONYX_GEM:1",
+   "GLACITE_AMALGAMATION:4"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "collection:GLACITE:5 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:FUEL_TANK",
+  "type": "FORGE",
+  "result": "FUEL_TANK",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_COAL_BLOCK:2"
+  ],
+  "durationSeconds": 36000,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_CHAMBER",
+  "type": "FORGE",
+  "result": "GEMSTONE_CHAMBER",
+  "amount": 1,
+  "inputs": [
+   "WORM_MEMBRANE:100",
+   "GEMSTONE_MIXTURE:1",
+   "COINS:25000"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_DRILL_1",
+  "type": "FORGE",
+  "result": "GEMSTONE_DRILL_1",
+  "amount": 1,
+  "inputs": [
+   "DRILL_ENGINE:1",
+   "FUEL_TANK:1",
+   "FINE_RUBY_GEM:6"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_DRILL_2",
+  "type": "FORGE",
+  "result": "GEMSTONE_DRILL_2",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_DRILL_1:1",
+   "GEMSTONE_MIXTURE:3"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_DRILL_3",
+  "type": "FORGE",
+  "result": "GEMSTONE_DRILL_3",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_TOPAZ_GEM:1",
+   "GEMSTONE_MIXTURE:3",
+   "GEMSTONE_DRILL_2:1",
+   "MAGMA_CORE:8"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_DRILL_4",
+  "type": "FORGE",
+  "result": "GEMSTONE_DRILL_4",
+  "amount": 1,
+  "inputs": [
+   "TREASURITE:100",
+   "FLAWLESS_JASPER_GEM:1",
+   "GEMSTONE_DRILL_3:1",
+   "MAGMA_CORE:16"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_FUEL_TANK",
+  "type": "FORGE",
+  "result": "GEMSTONE_FUEL_TANK",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:10",
+   "TITANIUM_FUEL_TANK:1",
+   "PRECURSOR_APPARATUS:4"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GEMSTONE_MIXTURE",
+  "type": "FORGE",
+  "result": "GEMSTONE_MIXTURE",
+  "amount": 1,
+  "inputs": [
+   "FINE_JADE_GEM:4",
+   "SLUDGE_JUICE:320",
+   "FINE_AMBER_GEM:4",
+   "FINE_SAPPHIRE_GEM:4",
+   "FINE_AMETHYST_GEM:4"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GLACITE_AMALGAMATION",
+  "type": "FORGE",
+  "result": "GLACITE_AMALGAMATION",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_GLACITE:256",
+   "FINE_PERIDOT_GEM:4",
+   "FINE_AQUAMARINE_GEM:4",
+   "FINE_CITRINE_GEM:4",
+   "FINE_ONYX_GEM:4"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "collection:GLACITE:3 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GLACITE_CHISEL",
+  "type": "FORGE",
+  "result": "GLACITE_CHISEL",
+  "amount": 1,
+  "inputs": [
+   "REINFORCED_CHISEL:1",
+   "BEJEWELED_HANDLE:1",
+   "GLACITE_AMALGAMATION:8",
+   "MITHRIL_PLATE:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:9",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GLACITE_LANTERN",
+  "type": "FORGE",
+  "result": "GLACITE_LANTERN",
+  "amount": 1,
+  "inputs": [
+   "TITANIUM_LANTERN:1",
+   "GLACITE_AMALGAMATION:4",
+   "ENCHANTED_EMERALD_BLOCK:2"
+  ],
+  "durationSeconds": 43200,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GLEAMING_CRYSTAL",
+  "type": "FORGE",
+  "result": "GLEAMING_CRYSTAL",
+  "amount": 1,
+  "inputs": [
+   "GLOSSY_GEMSTONE:32",
+   "REFINED_MITHRIL:1",
+   "REFINED_DIAMOND:2"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN;4",
+  "type": "FORGE",
+  "result": "GOBLIN;4",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_AMBER_GEM:1",
+   "UGLY_FOSSIL:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN_OMELETTE",
+  "type": "FORGE",
+  "result": "GOBLIN_OMELETTE",
+  "amount": 1,
+  "inputs": [
+   "GOBLIN_EGG:96"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN_OMELETTE_BLUE_CHEESE",
+  "type": "FORGE",
+  "result": "GOBLIN_OMELETTE_BLUE_CHEESE",
+  "amount": 1,
+  "inputs": [
+   "GOBLIN_OMELETTE:1",
+   "FLAWLESS_SAPPHIRE_GEM:1",
+   "GOBLIN_EGG_BLUE:96"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN_OMELETTE_PESTO",
+  "type": "FORGE",
+  "result": "GOBLIN_OMELETTE_PESTO",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_JADE_GEM:1",
+   "GOBLIN_EGG_GREEN:96",
+   "GOBLIN_OMELETTE:1"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN_OMELETTE_SPICY",
+  "type": "FORGE",
+  "result": "GOBLIN_OMELETTE_SPICY",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_RUBY_GEM:1",
+   "GOBLIN_OMELETTE:1",
+   "GOBLIN_EGG_RED:96"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOBLIN_OMELETTE_SUNNY_SIDE",
+  "type": "FORGE",
+  "result": "GOBLIN_OMELETTE_SUNNY_SIDE",
+  "amount": 1,
+  "inputs": [
+   "GOBLIN_EGG_YELLOW:96",
+   "FLAWLESS_TOPAZ_GEM:1",
+   "GOBLIN_OMELETTE:1"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:GOLDEN_PLATE",
+  "type": "FORGE",
+  "result": "GOLDEN_PLATE",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_GOLD_BLOCK:2",
+   "REFINED_DIAMOND:1",
+   "GLACITE_JEWEL:5"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:HOT_STUFF",
+  "type": "FORGE",
+  "result": "HOT_STUFF",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_TOPAZ_GEM:1",
+   "ENCHANTED_HARD_STONE:128"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "collection:HARD_STONE:4 & hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:JADE_BELT",
+  "type": "FORGE",
+  "result": "JADE_BELT",
+  "amount": 1,
+  "inputs": [
+   "GLOSSY_GEMSTONE:32",
+   "FLAWLESS_JADE_GEM:2"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MAMMOTH;4",
+  "type": "FORGE",
+  "result": "MAMMOTH;4",
+  "amount": 1,
+  "inputs": [
+   "TUSK_FOSSIL:1",
+   "FLAWLESS_ONYX_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_BELT",
+  "type": "FORGE",
+  "result": "MITHRIL_BELT",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_MITHRIL:3"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_CLOAK",
+  "type": "FORGE",
+  "result": "MITHRIL_CLOAK",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_MITHRIL:3"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_DRILL_1",
+  "type": "FORGE",
+  "result": "MITHRIL_DRILL_1",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MITHRIL:3",
+   "DRILL_ENGINE:1",
+   "FUEL_TANK:1"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_DRILL_2",
+  "type": "FORGE",
+  "result": "MITHRIL_DRILL_2",
+  "amount": 1,
+  "inputs": [
+   "GOLDEN_PLATE:1",
+   "MITHRIL_DRILL_1:1",
+   "MITHRIL_PLATE:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "MITHRIL_DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "MITHRIL_PLATE:1",
+   "DRILL_ENGINE:2"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_FUEL_TANK",
+  "type": "FORGE",
+  "result": "MITHRIL_FUEL_TANK",
+  "amount": 1,
+  "inputs": [
+   "REFINED_DIAMOND:5",
+   "REFINED_MITHRIL:10",
+   "FUEL_TANK:5"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_GAUNTLET",
+  "type": "FORGE",
+  "result": "MITHRIL_GAUNTLET",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_MITHRIL:3"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_LANTERN",
+  "type": "FORGE",
+  "result": "MITHRIL_LANTERN",
+  "amount": 1,
+  "inputs": [
+   "LANTERN:1",
+   "REFINED_MITHRIL:1",
+   "ENCHANTED_EMERALD:16"
+  ],
+  "durationSeconds": 1800,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_NECKLACE",
+  "type": "FORGE",
+  "result": "MITHRIL_NECKLACE",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_MITHRIL:3"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MITHRIL_PLATE",
+  "type": "FORGE",
+  "result": "MITHRIL_PLATE",
+  "amount": 1,
+  "inputs": [
+   "GOLDEN_PLATE:1",
+   "REFINED_TITANIUM:1",
+   "REFINED_MITHRIL:5",
+   "ENCHANTED_IRON_BLOCK:1"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:MOLE;4",
+  "type": "FORGE",
+  "result": "MOLE;4",
+  "amount": 1,
+  "inputs": [
+   "COINS:300000",
+   "CLAW_FOSSIL:1"
+  ],
+  "durationSeconds": 259200,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PENGUIN;4",
+  "type": "FORGE",
+  "result": "PENGUIN;4",
+  "amount": 1,
+  "inputs": [
+   "WEBBED_FOSSIL:1",
+   "FLAWLESS_AQUAMARINE_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECTLY_CUT_FUEL_TANK",
+  "type": "FORGE",
+  "result": "PERFECTLY_CUT_FUEL_TANK",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_FUEL_TANK:1",
+   "PRECURSOR_APPARATUS:16",
+   "GEMSTONE_MIXTURE:25",
+   "PLASMA:32"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_AMBER_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_AMBER_GEM",
+  "amount": 1,
+  "inputs": [
+   "AMBER_CRYSTAL:1",
+   "FLAWLESS_AMBER_GEM:5"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_AMETHYST_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_AMETHYST_GEM",
+  "amount": 1,
+  "inputs": [
+   "AMETHYST_CRYSTAL:1",
+   "FLAWLESS_AMETHYST_GEM:5"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_AQUAMARINE_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_AQUAMARINE_GEM",
+  "amount": 1,
+  "inputs": [
+   "AQUAMARINE_CRYSTAL:1",
+   "FLAWLESS_AQUAMARINE_GEM:5"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_CHISEL",
+  "type": "FORGE",
+  "result": "PERFECT_CHISEL",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:1",
+   "GLACITE_CHISEL:1",
+   "PERFECT_PLATE:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_CITRINE_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_CITRINE_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_CITRINE_GEM:5",
+   "CITRINE_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_JADE_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_JADE_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_JADE_GEM:5",
+   "JADE_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_JASPER_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_JASPER_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_JASPER_GEM:5",
+   "JASPER_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_ONYX_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_ONYX_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_ONYX_GEM:5",
+   "ONYX_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_OPAL_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_OPAL_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_OPAL_GEM:5",
+   "OPAL_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_PERIDOT_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_PERIDOT_GEM",
+  "amount": 1,
+  "inputs": [
+   "PERIDOT_CRYSTAL:1",
+   "FLAWLESS_PERIDOT_GEM:5"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_PLATE",
+  "type": "FORGE",
+  "result": "PERFECT_PLATE",
+  "amount": 1,
+  "inputs": [
+   "UMBER_PLATE:1",
+   "TUNGSTEN_PLATE:1",
+   "MITHRIL_PLATE:1"
+  ],
+  "durationSeconds": 1800,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_RUBY_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_RUBY_GEM",
+  "amount": 1,
+  "inputs": [
+   "RUBY_CRYSTAL:1",
+   "FLAWLESS_RUBY_GEM:5"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_SAPPHIRE_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_SAPPHIRE_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_SAPPHIRE_GEM:5",
+   "SAPPHIRE_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PERFECT_TOPAZ_GEM",
+  "type": "FORGE",
+  "result": "PERFECT_TOPAZ_GEM",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_TOPAZ_GEM:5",
+   "TOPAZ_CRYSTAL:1"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "collection:GEMSTONE_COLLECTION:10 & hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PETRIFIED_STARFALL",
+  "type": "FORGE",
+  "result": "PETRIFIED_STARFALL",
+  "amount": 1,
+  "inputs": [
+   "STARFALL:512"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:POCKET_ICEBERG",
+  "type": "FORGE",
+  "result": "POCKET_ICEBERG",
+  "amount": 1,
+  "inputs": [
+   "GLACITE_JEWEL:5"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:POLISHED_TOPAZ_ROD",
+  "type": "FORGE",
+  "result": "POLISHED_TOPAZ_ROD",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:3",
+   "FLAWLESS_TOPAZ_GEM:2"
+  ],
+  "durationSeconds": 43200,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PORTABLE_CAMPFIRE",
+  "type": "FORGE",
+  "result": "PORTABLE_CAMPFIRE",
+  "amount": 1,
+  "inputs": [
+   "REFINED_UMBER:1",
+   "MATCH_STICKS:16"
+  ],
+  "durationSeconds": 1800,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:POWER_CRYSTAL",
+  "type": "FORGE",
+  "result": "POWER_CRYSTAL",
+  "amount": 1,
+  "inputs": [
+   "STARFALL:256"
+  ],
+  "durationSeconds": 7200,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:POWER_RELIC",
+  "type": "FORGE",
+  "result": "POWER_RELIC",
+  "amount": 1,
+  "inputs": [
+   "POWER_ARTIFACT:1",
+   "PERFECT_PLATE:1",
+   "GLACITE_AMALGAMATION:32"
+  ],
+  "durationSeconds": 28800,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:PURE_MITHRIL",
+  "type": "FORGE",
+  "result": "PURE_MITHRIL",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MITHRIL:2"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REFINED_DIAMOND",
+  "type": "FORGE",
+  "result": "REFINED_DIAMOND",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_DIAMOND_BLOCK:2"
+  ],
+  "durationSeconds": 28800,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REFINED_MITHRIL",
+  "type": "FORGE",
+  "result": "REFINED_MITHRIL",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_MITHRIL:160"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REFINED_TITANIUM",
+  "type": "FORGE",
+  "result": "REFINED_TITANIUM",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_TITANIUM:16"
+  ],
+  "durationSeconds": 43200,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REFINED_TUNGSTEN",
+  "type": "FORGE",
+  "result": "REFINED_TUNGSTEN",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_TUNGSTEN:160"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "collection:TUNGSTEN:3 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REFINED_UMBER",
+  "type": "FORGE",
+  "result": "REFINED_UMBER",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_UMBER:160"
+  ],
+  "durationSeconds": 3600,
+  "unlock": "collection:UMBER:3 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:REINFORCED_CHISEL",
+  "type": "FORGE",
+  "result": "REINFORCED_CHISEL",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TUNGSTEN:2",
+   "BEJEWELED_HANDLE:1",
+   "REFINED_UMBER:2",
+   "CHISEL:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:ROCK_GEMSTONE",
+  "type": "FORGE",
+  "result": "ROCK_GEMSTONE",
+  "amount": 1,
+  "inputs": [
+   "TREASURITE:64",
+   "ENCHANTED_COBBLESTONE:128"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:RUBY_POLISHED_DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "RUBY_POLISHED_DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "PERFECT_RUBY_GEM:1",
+   "PRECURSOR_APPARATUS:4",
+   "TITANIUM_DRILL_ENGINE:1",
+   "DRILL_ENGINE:5"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:SAPPHIRE_CLOAK",
+  "type": "FORGE",
+  "result": "SAPPHIRE_CLOAK",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_SAPPHIRE_GEM:2",
+   "GLOSSY_GEMSTONE:32"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:SAPPHIRE_POLISHED_DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "PERFECT_SAPPHIRE_GEM:3",
+   "DRILL_ENGINE:5",
+   "RUBY_POLISHED_DRILL_ENGINE:1",
+   "PLASMA:16",
+   "PRECURSOR_APPARATUS:8"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:SECRET_RAILROAD_PASS",
+  "type": "FORGE",
+  "result": "SECRET_RAILROAD_PASS",
+  "amount": 1,
+  "inputs": [
+   "CORLEONITE:8",
+   "REFINED_MITHRIL:2",
+   "FLAWLESS_RUBY_GEM:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:SKELETON_KEY",
+  "type": "FORGE",
+  "result": "SKELETON_KEY",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:1",
+   "PERFECT_PLATE:1"
+  ],
+  "durationSeconds": 1800,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:SPINOSAURUS;4",
+  "type": "FORGE",
+  "result": "SPINOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "SPINE_FOSSIL:1",
+   "FLAWLESS_AQUAMARINE_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:STARFALL_SEASONING",
+  "type": "FORGE",
+  "result": "STARFALL_SEASONING",
+  "amount": 1,
+  "inputs": [
+   "TREASURITE:16",
+   "STARFALL:64"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_ARTIFACT",
+  "type": "FORGE",
+  "result": "TITANIUM_ARTIFACT",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TITANIUM:12",
+   "TITANIUM_RING:1"
+  ],
+  "durationSeconds": 129600,
+  "unlock": "hotm:4",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_BELT",
+  "type": "FORGE",
+  "result": "TITANIUM_BELT",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TITANIUM:1",
+   "REFINED_MINERAL:16",
+   "MITHRIL_BELT:1"
+  ],
+  "durationSeconds": 16200,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_CLOAK",
+  "type": "FORGE",
+  "result": "TITANIUM_CLOAK",
+  "amount": 1,
+  "inputs": [
+   "MITHRIL_CLOAK:1",
+   "REFINED_TITANIUM:1",
+   "REFINED_MINERAL:16"
+  ],
+  "durationSeconds": 16200,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_DRILL_1",
+  "type": "FORGE",
+  "result": "TITANIUM_DRILL_1",
+  "amount": 1,
+  "inputs": [
+   "FUEL_TANK:1",
+   "DRILL_ENGINE:1",
+   "REFINED_MITHRIL:8",
+   "REFINED_TITANIUM:8",
+   "GOLDEN_PLATE:6"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_DRILL_2",
+  "type": "FORGE",
+  "result": "TITANIUM_DRILL_2",
+  "amount": 1,
+  "inputs": [
+   "MITHRIL_PLATE:5",
+   "REFINED_TITANIUM:12",
+   "REFINED_DIAMOND:10",
+   "TITANIUM_DRILL_1:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_DRILL_3",
+  "type": "FORGE",
+  "result": "TITANIUM_DRILL_3",
+  "amount": 1,
+  "inputs": [
+   "REFINED_DIAMOND:20",
+   "ENCHANTED_IRON_BLOCK:2",
+   "PLASMA:20",
+   "TITANIUM_DRILL_2:1",
+   "REFINED_TITANIUM:16",
+   "MITHRIL_PLATE:10"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_DRILL_4",
+  "type": "FORGE",
+  "result": "TITANIUM_DRILL_4",
+  "amount": 1,
+  "inputs": [
+   "GEMSTONE_MIXTURE:16",
+   "FLAWLESS_RUBY_GEM:1",
+   "MITHRIL_PLATE:10",
+   "REFINED_TITANIUM:32",
+   "CORLEONITE:30",
+   "TITANIUM_DRILL_3:1",
+   "REFINED_DIAMOND:5"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:6",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_DRILL_ENGINE",
+  "type": "FORGE",
+  "result": "TITANIUM_DRILL_ENGINE",
+  "amount": 1,
+  "inputs": [
+   "DRILL_ENGINE:2",
+   "MITHRIL_DRILL_ENGINE:1",
+   "REFINED_TITANIUM:8"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_FUEL_TANK",
+  "type": "FORGE",
+  "result": "TITANIUM_FUEL_TANK",
+  "amount": 1,
+  "inputs": [
+   "REFINED_DIAMOND:5",
+   "REFINED_TITANIUM:10",
+   "FUEL_TANK:5",
+   "MITHRIL_FUEL_TANK:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_GAUNTLET",
+  "type": "FORGE",
+  "result": "TITANIUM_GAUNTLET",
+  "amount": 1,
+  "inputs": [
+   "REFINED_MINERAL:16",
+   "MITHRIL_GAUNTLET:1",
+   "REFINED_TITANIUM:1"
+  ],
+  "durationSeconds": 16200,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_LANTERN",
+  "type": "FORGE",
+  "result": "TITANIUM_LANTERN",
+  "amount": 1,
+  "inputs": [
+   "MITHRIL_LANTERN:1",
+   "REFINED_TITANIUM:2",
+   "ENCHANTED_EMERALD_BLOCK:1"
+  ],
+  "durationSeconds": 14400,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_NECKLACE",
+  "type": "FORGE",
+  "result": "TITANIUM_NECKLACE",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TITANIUM:1",
+   "MITHRIL_NECKLACE:1",
+   "REFINED_MINERAL:16"
+  ],
+  "durationSeconds": 16200,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_RELIC",
+  "type": "FORGE",
+  "result": "TITANIUM_RELIC",
+  "amount": 1,
+  "inputs": [
+   "TITANIUM_ARTIFACT:1",
+   "REFINED_TITANIUM:20"
+  ],
+  "durationSeconds": 259200,
+  "unlock": "hotm:5",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_RING",
+  "type": "FORGE",
+  "result": "TITANIUM_RING",
+  "amount": 1,
+  "inputs": [
+   "TITANIUM_TALISMAN:1",
+   "REFINED_TITANIUM:6"
+  ],
+  "durationSeconds": 72000,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_TALISMAN",
+  "type": "FORGE",
+  "result": "TITANIUM_TALISMAN",
+  "amount": 1,
+  "inputs": [
+   "REFINED_TITANIUM:2"
+  ],
+  "durationSeconds": 50400,
+  "unlock": "hotm:2",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TITANIUM_TESSERACT",
+  "type": "FORGE",
+  "result": "TITANIUM_TESSERACT",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_LAPIS_LAZULI:16",
+   "REFINED_TITANIUM:1"
+  ],
+  "durationSeconds": 21600,
+  "unlock": "hotm:3",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TUNGSTEN_KEY",
+  "type": "FORGE",
+  "result": "TUNGSTEN_KEY",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_TUNGSTEN:192",
+   "BEJEWELED_HANDLE:1"
+  ],
+  "durationSeconds": 30,
+  "unlock": "collection:TUNGSTEN:4 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TUNGSTEN_KEYCHAIN",
+  "type": "FORGE",
+  "result": "TUNGSTEN_KEYCHAIN",
+  "amount": 1,
+  "inputs": [
+   "PERFECT_OPAL_GEM:1",
+   "FUEL_TANK:5",
+   "TUNGSTEN_PLATE:5"
+  ],
+  "durationSeconds": 64800,
+  "unlock": "hotm:8",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TUNGSTEN_PLATE",
+  "type": "FORGE",
+  "result": "TUNGSTEN_PLATE",
+  "amount": 1,
+  "inputs": [
+   "GLACITE_AMALGAMATION:1",
+   "REFINED_TUNGSTEN:4"
+  ],
+  "durationSeconds": 10800,
+  "unlock": "collection:TUNGSTEN:6 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:TYRANNOSAURUS;4",
+  "type": "FORGE",
+  "result": "TYRANNOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "FOOTPRINT_FOSSIL:1",
+   "FLAWLESS_ONYX_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "unlock": "hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:UMBER_KEY",
+  "type": "FORGE",
+  "result": "UMBER_KEY",
+  "amount": 1,
+  "inputs": [
+   "BEJEWELED_HANDLE:1",
+   "ENCHANTED_UMBER:192"
+  ],
+  "durationSeconds": 30,
+  "unlock": "collection:UMBER:4 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:UMBER_PLATE",
+  "type": "FORGE",
+  "result": "UMBER_PLATE",
+  "amount": 1,
+  "inputs": [
+   "REFINED_UMBER:4",
+   "GLACITE_AMALGAMATION:1"
+  ],
+  "durationSeconds": 10800,
+  "unlock": "collection:UMBER:6 & hotm:7",
+  "station": "Forge"
+ },
+ {
+  "id": "mining_forge:WILL_O_WISP",
+  "type": "FORGE",
+  "result": "WILL_O_WISP",
+  "amount": 1,
+  "inputs": [
+   "GLACITE_LANTERN:1",
+   "CAGED_WISP:1",
+   "PERFECT_PLATE:1",
+   "EVERBURNING_FLAME:1",
+   "ENCHANTED_EMERALD_BLOCK:8"
+  ],
+  "durationSeconds": 86400,
+  "unlock": "hotm:10",
+  "station": "Forge"
+ }
+]

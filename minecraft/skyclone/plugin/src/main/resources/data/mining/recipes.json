@@ -1,0 +1,835 @@
+[
+ {
+  "id": "mining:FLAWED_RUBY_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_RUBY_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_RUBY_GEM:16",
+   "",
+   "ROUGH_RUBY_GEM:16",
+   "ROUGH_RUBY_GEM:16",
+   "ROUGH_RUBY_GEM:16",
+   "",
+   "ROUGH_RUBY_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_RUBY_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_RUBY_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_RUBY_GEM:16",
+   "",
+   "FLAWED_RUBY_GEM:16",
+   "FLAWED_RUBY_GEM:16",
+   "FLAWED_RUBY_GEM:16",
+   "",
+   "FLAWED_RUBY_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_RUBY_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_RUBY_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_RUBY_GEM:16",
+   "",
+   "FINE_RUBY_GEM:16",
+   "FINE_RUBY_GEM:16",
+   "FINE_RUBY_GEM:16",
+   "",
+   "FINE_RUBY_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_AMBER_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_AMBER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_AMBER_GEM:16",
+   "",
+   "ROUGH_AMBER_GEM:16",
+   "ROUGH_AMBER_GEM:16",
+   "ROUGH_AMBER_GEM:16",
+   "",
+   "ROUGH_AMBER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_AMBER_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_AMBER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_AMBER_GEM:16",
+   "",
+   "FLAWED_AMBER_GEM:16",
+   "FLAWED_AMBER_GEM:16",
+   "FLAWED_AMBER_GEM:16",
+   "",
+   "FLAWED_AMBER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_AMBER_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_AMBER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_AMBER_GEM:16",
+   "",
+   "FINE_AMBER_GEM:16",
+   "FINE_AMBER_GEM:16",
+   "FINE_AMBER_GEM:16",
+   "",
+   "FINE_AMBER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_SAPPHIRE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_SAPPHIRE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_SAPPHIRE_GEM:16",
+   "",
+   "ROUGH_SAPPHIRE_GEM:16",
+   "ROUGH_SAPPHIRE_GEM:16",
+   "ROUGH_SAPPHIRE_GEM:16",
+   "",
+   "ROUGH_SAPPHIRE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_SAPPHIRE_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_SAPPHIRE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_SAPPHIRE_GEM:16",
+   "",
+   "FLAWED_SAPPHIRE_GEM:16",
+   "FLAWED_SAPPHIRE_GEM:16",
+   "FLAWED_SAPPHIRE_GEM:16",
+   "",
+   "FLAWED_SAPPHIRE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_SAPPHIRE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_SAPPHIRE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_SAPPHIRE_GEM:16",
+   "",
+   "FINE_SAPPHIRE_GEM:16",
+   "FINE_SAPPHIRE_GEM:16",
+   "FINE_SAPPHIRE_GEM:16",
+   "",
+   "FINE_SAPPHIRE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_JADE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_JADE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_JADE_GEM:16",
+   "",
+   "ROUGH_JADE_GEM:16",
+   "ROUGH_JADE_GEM:16",
+   "ROUGH_JADE_GEM:16",
+   "",
+   "ROUGH_JADE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_JADE_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_JADE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_JADE_GEM:16",
+   "",
+   "FLAWED_JADE_GEM:16",
+   "FLAWED_JADE_GEM:16",
+   "FLAWED_JADE_GEM:16",
+   "",
+   "FLAWED_JADE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_JADE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_JADE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_JADE_GEM:16",
+   "",
+   "FINE_JADE_GEM:16",
+   "FINE_JADE_GEM:16",
+   "FINE_JADE_GEM:16",
+   "",
+   "FINE_JADE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_AMETHYST_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_AMETHYST_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_AMETHYST_GEM:16",
+   "",
+   "ROUGH_AMETHYST_GEM:16",
+   "ROUGH_AMETHYST_GEM:16",
+   "ROUGH_AMETHYST_GEM:16",
+   "",
+   "ROUGH_AMETHYST_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_AMETHYST_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_AMETHYST_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_AMETHYST_GEM:16",
+   "",
+   "FLAWED_AMETHYST_GEM:16",
+   "FLAWED_AMETHYST_GEM:16",
+   "FLAWED_AMETHYST_GEM:16",
+   "",
+   "FLAWED_AMETHYST_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_AMETHYST_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_AMETHYST_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_AMETHYST_GEM:16",
+   "",
+   "FINE_AMETHYST_GEM:16",
+   "FINE_AMETHYST_GEM:16",
+   "FINE_AMETHYST_GEM:16",
+   "",
+   "FINE_AMETHYST_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_TOPAZ_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_TOPAZ_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_TOPAZ_GEM:16",
+   "",
+   "ROUGH_TOPAZ_GEM:16",
+   "ROUGH_TOPAZ_GEM:16",
+   "ROUGH_TOPAZ_GEM:16",
+   "",
+   "ROUGH_TOPAZ_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_TOPAZ_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_TOPAZ_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_TOPAZ_GEM:16",
+   "",
+   "FLAWED_TOPAZ_GEM:16",
+   "FLAWED_TOPAZ_GEM:16",
+   "FLAWED_TOPAZ_GEM:16",
+   "",
+   "FLAWED_TOPAZ_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_TOPAZ_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_TOPAZ_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_TOPAZ_GEM:16",
+   "",
+   "FINE_TOPAZ_GEM:16",
+   "FINE_TOPAZ_GEM:16",
+   "FINE_TOPAZ_GEM:16",
+   "",
+   "FINE_TOPAZ_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_JASPER_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_JASPER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_JASPER_GEM:16",
+   "",
+   "ROUGH_JASPER_GEM:16",
+   "ROUGH_JASPER_GEM:16",
+   "ROUGH_JASPER_GEM:16",
+   "",
+   "ROUGH_JASPER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_JASPER_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_JASPER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_JASPER_GEM:16",
+   "",
+   "FLAWED_JASPER_GEM:16",
+   "FLAWED_JASPER_GEM:16",
+   "FLAWED_JASPER_GEM:16",
+   "",
+   "FLAWED_JASPER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_JASPER_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_JASPER_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_JASPER_GEM:16",
+   "",
+   "FINE_JASPER_GEM:16",
+   "FINE_JASPER_GEM:16",
+   "FINE_JASPER_GEM:16",
+   "",
+   "FINE_JASPER_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_OPAL_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_OPAL_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_OPAL_GEM:16",
+   "",
+   "ROUGH_OPAL_GEM:16",
+   "ROUGH_OPAL_GEM:16",
+   "ROUGH_OPAL_GEM:16",
+   "",
+   "ROUGH_OPAL_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_OPAL_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_OPAL_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_OPAL_GEM:16",
+   "",
+   "FLAWED_OPAL_GEM:16",
+   "FLAWED_OPAL_GEM:16",
+   "FLAWED_OPAL_GEM:16",
+   "",
+   "FLAWED_OPAL_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_OPAL_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_OPAL_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_OPAL_GEM:16",
+   "",
+   "FINE_OPAL_GEM:16",
+   "FINE_OPAL_GEM:16",
+   "FINE_OPAL_GEM:16",
+   "",
+   "FINE_OPAL_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_ONYX_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_ONYX_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_ONYX_GEM:16",
+   "",
+   "ROUGH_ONYX_GEM:16",
+   "ROUGH_ONYX_GEM:16",
+   "ROUGH_ONYX_GEM:16",
+   "",
+   "ROUGH_ONYX_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_ONYX_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_ONYX_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_ONYX_GEM:16",
+   "",
+   "FLAWED_ONYX_GEM:16",
+   "FLAWED_ONYX_GEM:16",
+   "FLAWED_ONYX_GEM:16",
+   "",
+   "FLAWED_ONYX_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_ONYX_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_ONYX_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_ONYX_GEM:16",
+   "",
+   "FINE_ONYX_GEM:16",
+   "FINE_ONYX_GEM:16",
+   "FINE_ONYX_GEM:16",
+   "",
+   "FINE_ONYX_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_AQUAMARINE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_AQUAMARINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_AQUAMARINE_GEM:16",
+   "",
+   "ROUGH_AQUAMARINE_GEM:16",
+   "ROUGH_AQUAMARINE_GEM:16",
+   "ROUGH_AQUAMARINE_GEM:16",
+   "",
+   "ROUGH_AQUAMARINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_AQUAMARINE_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_AQUAMARINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_AQUAMARINE_GEM:16",
+   "",
+   "FLAWED_AQUAMARINE_GEM:16",
+   "FLAWED_AQUAMARINE_GEM:16",
+   "FLAWED_AQUAMARINE_GEM:16",
+   "",
+   "FLAWED_AQUAMARINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_AQUAMARINE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_AQUAMARINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_AQUAMARINE_GEM:16",
+   "",
+   "FINE_AQUAMARINE_GEM:16",
+   "FINE_AQUAMARINE_GEM:16",
+   "FINE_AQUAMARINE_GEM:16",
+   "",
+   "FINE_AQUAMARINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_CITRINE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_CITRINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_CITRINE_GEM:16",
+   "",
+   "ROUGH_CITRINE_GEM:16",
+   "ROUGH_CITRINE_GEM:16",
+   "ROUGH_CITRINE_GEM:16",
+   "",
+   "ROUGH_CITRINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_CITRINE_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_CITRINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_CITRINE_GEM:16",
+   "",
+   "FLAWED_CITRINE_GEM:16",
+   "FLAWED_CITRINE_GEM:16",
+   "FLAWED_CITRINE_GEM:16",
+   "",
+   "FLAWED_CITRINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_CITRINE_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_CITRINE_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_CITRINE_GEM:16",
+   "",
+   "FINE_CITRINE_GEM:16",
+   "FINE_CITRINE_GEM:16",
+   "FINE_CITRINE_GEM:16",
+   "",
+   "FINE_CITRINE_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWED_PERIDOT_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWED_PERIDOT_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "ROUGH_PERIDOT_GEM:16",
+   "",
+   "ROUGH_PERIDOT_GEM:16",
+   "ROUGH_PERIDOT_GEM:16",
+   "ROUGH_PERIDOT_GEM:16",
+   "",
+   "ROUGH_PERIDOT_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FINE_PERIDOT_GEM",
+  "type": "CRAFTING",
+  "result": "FINE_PERIDOT_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FLAWED_PERIDOT_GEM:16",
+   "",
+   "FLAWED_PERIDOT_GEM:16",
+   "FLAWED_PERIDOT_GEM:16",
+   "FLAWED_PERIDOT_GEM:16",
+   "",
+   "FLAWED_PERIDOT_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining:FLAWLESS_PERIDOT_GEM",
+  "type": "CRAFTING",
+  "result": "FLAWLESS_PERIDOT_GEM",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_PERIDOT_GEM:16",
+   "",
+   "FINE_PERIDOT_GEM:16",
+   "FINE_PERIDOT_GEM:16",
+   "FINE_PERIDOT_GEM:16",
+   "",
+   "FINE_PERIDOT_GEM:16",
+   ""
+  ],
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:FRACTURED_MITHRIL_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "FRACTURED_MITHRIL_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "COINS:10000"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:BANDAGED_MITHRIL_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "BANDAGED_MITHRIL_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "FRACTURED_MITHRIL_PICKAXE:1",
+   "ENCHANTED_MITHRIL:2"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:MITHRIL_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "MITHRIL_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "BANDAGED_MITHRIL_PICKAXE:1",
+   "ENCHANTED_MITHRIL:64",
+   "BEJEWELED_HANDLE:1",
+   "ENCHANTED_GOLD:32"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:REFINED_MITHRIL_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "REFINED_MITHRIL_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "MITHRIL_PICKAXE:1",
+   "REFINED_MITHRIL:2"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:RUSTY_TITANIUM_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "RUSTY_TITANIUM_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "COINS:50000"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:TITANIUM_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "TITANIUM_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "RUSTY_TITANIUM_PICKAXE:1",
+   "ENCHANTED_TITANIUM:4",
+   "BEJEWELED_HANDLE:1"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:REFINED_TITANIUM_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "REFINED_TITANIUM_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "TITANIUM_PICKAXE:1",
+   "REFINED_TITANIUM:1"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:BIOFUEL",
+  "type": "NPC_SHOP",
+  "result": "BIOFUEL",
+  "amount": 1,
+  "inputs": [
+   "COINS:20000"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:ROOKIE_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "ROOKIE_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "COINS:12"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:PROMISING_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "PROMISING_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "COINS:35"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_smith:CHISEL",
+  "type": "NPC_SHOP",
+  "result": "CHISEL",
+  "amount": 1,
+  "inputs": [
+   "COINS:5000"
+  ],
+  "station": "Pickaxe Smith",
+  "unlock": null
+ },
+ {
+  "id": "mining_hollows:JUNGLE_PICKAXE",
+  "type": "NPC_SHOP",
+  "result": "JUNGLE_PICKAXE",
+  "amount": 1,
+  "inputs": [
+   "SLUDGE_JUICE:200"
+  ],
+  "station": "Hollows Merchant",
+  "unlock": "hotm:4"
+ },
+ {
+  "id": "mining_hollows:WISHING_COMPASS",
+  "type": "NPC_SHOP",
+  "result": "WISHING_COMPASS",
+  "amount": 1,
+  "inputs": [
+   "COINS:5000"
+  ],
+  "station": "Hollows Merchant",
+  "unlock": null
+ },
+ {
+  "id": "mining_hollows:ASCENSION_ROPE",
+  "type": "NPC_SHOP",
+  "result": "ASCENSION_ROPE",
+  "amount": 1,
+  "inputs": [
+   "COINS:25000"
+  ],
+  "station": "Hollows Merchant",
+  "unlock": null
+ },
+ {
+  "id": "mining_hollows:PORTABLE_CAMPFIRE",
+  "type": "NPC_SHOP",
+  "result": "PORTABLE_CAMPFIRE",
+  "amount": 1,
+  "inputs": [
+   "COINS:15000",
+   "MATCH_STICKS:16"
+  ],
+  "station": "Hollows Merchant",
+  "unlock": "hotm:8"
+ },
+ {
+  "id": "mining_hollows:RECALL_POTION",
+  "type": "NPC_SHOP",
+  "result": "RECALL_POTION",
+  "amount": 1,
+  "inputs": [
+   "COINS:40000"
+  ],
+  "station": "Hollows Merchant",
+  "unlock": null
+ }
+]

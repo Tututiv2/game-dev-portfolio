@@ -1,0 +1,517 @@
+{
+ "_note": "The guided new-player chain (research 03 section 2). Design data: order, texts, triggers. Each completed objective pays 5 SkyBlock XP (sblevels.json complete_objectives_xp) plus 'coins' (TUNE: small starter rewards). Trigger types are documented in ObjectiveTrigger.java. 'skippable' objectives can be skipped from the Quest Log (no reward) so a missing module can never strand a player.",
+ "chain": [
+  {
+   "id": "talk_island_helper",
+   "text": "Talk to your Island Helper",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.island_helper"
+    ]
+   },
+   "hint": "Your helper stands right next to where you woke up. Right-click them.",
+   "coins": 0,
+   "skippable": true
+  },
+  {
+   "id": "break_log",
+   "text": "Break a Log",
+   "trigger": {
+    "type": "break",
+    "materials": [
+     "OAK_LOG",
+     "BIRCH_LOG",
+     "SPRUCE_LOG",
+     "JUNGLE_LOG",
+     "ACACIA_LOG",
+     "DARK_OAK_LOG",
+     "MANGROVE_LOG",
+     "CHERRY_LOG",
+     "PALE_OAK_LOG"
+    ],
+    "gather": "FORAGING",
+    "amount": 1
+   },
+   "hint": "Punch the tree on your island until a log drops.",
+   "coins": 10,
+   "skippable": false
+  },
+  {
+   "id": "craft_workbench",
+   "text": "Craft a Workbench",
+   "trigger": {
+    "type": "have",
+    "materials": [
+     "CRAFTING_TABLE"
+    ]
+   },
+   "hint": "Open your inventory crafting grid and turn planks into a crafting table.",
+   "coins": 10,
+   "skippable": false
+  },
+  {
+   "id": "craft_wood_pickaxe",
+   "text": "Craft a Wood Pickaxe",
+   "trigger": {
+    "type": "have",
+    "materials": [
+     "WOODEN_PICKAXE"
+    ]
+   },
+   "hint": "Turn planks into sticks, then craft a Wooden Pickaxe (3 planks over 2 sticks).",
+   "coins": 10,
+   "skippable": false
+  },
+  {
+   "id": "mine_cobblestone",
+   "text": "Mine Cobblestone",
+   "trigger": {
+    "type": "break",
+    "materials": [
+     "COBBLESTONE",
+     "STONE"
+    ],
+    "gather": "MINING",
+    "what": [
+     "COBBLE",
+     "STONE"
+    ],
+    "amount": 5
+   },
+   "hint": "Mine 5 cobblestone with a pickaxe: the rocky quarry mound south of the minion terrace grows its stone back.",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "open_sbmenu",
+   "text": "Open the SkyBlock Menu",
+   "trigger": {
+    "type": "menu",
+    "title": [
+     "skyblock menu"
+    ],
+    "commands": [
+     "sbmenu",
+     "skyblockmenu",
+     "menu"
+    ]
+   },
+   "hint": "Right-click the Nether Star in your last hotbar slot.",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "place_minion",
+   "text": "Place a Minion",
+   "trigger": {
+    "type": "use_category",
+    "category": "MINION",
+    "island": "private_island"
+   },
+   "hint": "Right-click a minion onto your island. It works while you are away.",
+   "coins": 50,
+   "skippable": true
+  },
+  {
+   "id": "go_to_hub",
+   "text": "Go to the Hub",
+   "trigger": {
+    "type": "island",
+    "island": "hub"
+   },
+   "hint": "Walk into the portal on your island, or type /hub.",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "talk_banker",
+   "text": "Talk to the Banker",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.banker",
+     "npc.banker_2"
+    ]
+   },
+   "hint": "The Bank faces the Village square from the north (/village points your compass at its door). Coins in the bank are safe when you die.",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "deposit_coins",
+   "text": "Deposit coins in the Bank",
+   "trigger": {
+    "type": "bank"
+   },
+   "hint": "Open the bank and deposit some of your purse. Banked coins earn interest.",
+   "coins": 50,
+   "skippable": true
+  },
+  {
+   "id": "talk_merchant",
+   "text": "Talk to a Merchant",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.farm_merchant",
+     "npc.mine_merchant",
+     "npc.lumber_merchant",
+     "npc.fish_merchant",
+     "npc.weaponsmith",
+     "npc.armorsmith",
+     "npc.adventurer",
+     "npc.builder",
+     "npc.bartender"
+    ]
+   },
+   "hint": "Merchants around the Hub buy and sell the basics: the Builder, Weaponsmith, Armorsmith and Adventurer are round the Village square (/village).",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "visit_bazaar",
+   "text": "Visit the Bazaar",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.bazaar"
+    ],
+    "island": "hub",
+    "zones": [
+     "bazaar"
+    ]
+   },
+   "hint": "The Bazaar trades materials between every player at live prices. Trading there needs a higher SkyBlock Level, but walking in already counts - /sblevel shows how to earn SkyBlock XP.",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "visit_auction_house",
+   "text": "Visit the Auction House",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.auction_master",
+     "npc.auction_agent_1",
+     "npc.auction_agent_2"
+    ],
+    "island": "hub",
+    "zones": [
+     "auction_house"
+    ]
+   },
+   "hint": "Gear and rare items are bought and sold at the Auction House.",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "talk_fairy",
+   "text": "Talk to the Fairy",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.fairy"
+    ]
+   },
+   "hint": "Wren the Fairy stands on the north-east bank of the Fairy Pond, south-west of the Village square (/village points your compass there). She trades for the souls of her kin.",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "find_fairy_soul",
+   "text": "Find a Fairy Soul",
+   "trigger": {
+    "type": "fairy_found",
+    "amount": 1
+   },
+   "hint": "Fairy Souls hide all over every island: look for a floating pink head and click it to collect it.",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "explore_farm",
+   "text": "Explore the Farm",
+   "trigger": {
+    "type": "area",
+    "island": "hub",
+    "areas": [
+     "farm"
+    ],
+    "zones": [
+     "farm"
+    ]
+   },
+   "hint": "The fields are south-east of the Village (/hubmap gives directions).",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "harvest_wheat",
+   "text": "Harvest Wheat",
+   "trigger": {
+    "type": "break",
+    "materials": [
+     "WHEAT"
+    ],
+    "gather": "FARMING",
+    "what": [
+     "WHEAT"
+    ],
+    "amount": 10
+   },
+   "hint": "Break 10 fully grown wheat in the Farm.",
+   "coins": 50,
+   "skippable": true
+  },
+  {
+   "id": "slay_graveyard",
+   "text": "Slay Zombies in the Graveyard",
+   "trigger": {
+    "type": "kill",
+    "island": "hub",
+    "areas": [
+     "graveyard",
+     "crypt"
+    ],
+    "amount": 5
+   },
+   "hint": "Zombies roam the Graveyard east of the Village, more of them at night. Bank your coins and buy the Armorsmith's iron set first: a death costs half your purse.",
+   "coins": 100,
+   "skippable": false
+  },
+  {
+   "id": "reach_combat_2",
+   "text": "Reach Combat II",
+   "trigger": {
+    "type": "requirement",
+    "key": "skill:combat:2"
+   },
+   "hint": "Every kill gives Combat XP.",
+   "coins": 100,
+   "skippable": true
+  },
+  {
+   "id": "talk_librarian",
+   "text": "Talk to the Librarian",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.librarian",
+     "npc.enchanting_table"
+    ]
+   },
+   "hint": "The Library holds the enchanting table. It is north-east of the Village square; /village points your compass at its door.",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "talk_blacksmith",
+   "text": "Learn about Reforges",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.blacksmith",
+     "npc.reforge_anvil"
+    ]
+   },
+   "hint": "The Blacksmith reforges gear for coins. He works in the Mining District, north-east of the Village (/hubmap gives directions).",
+   "coins": 50,
+   "skippable": false
+  },
+  {
+   "id": "enter_coal_mine",
+   "text": "Travel to the Coal Mine",
+   "trigger": {
+    "type": "area",
+    "island": "hub",
+    "areas": [
+     "coal_mine"
+    ],
+    "zones": [
+     "coal_mine"
+    ]
+   },
+   "hint": "The Coal Mine is dug into the mountain north-east of the Village (/hubmap gives directions).",
+   "coins": 25,
+   "skippable": false
+  },
+  {
+   "id": "mine_coal",
+   "text": "Mine Coal",
+   "trigger": {
+    "type": "break",
+    "materials": [
+     "COAL_ORE",
+     "DEEPSLATE_COAL_ORE"
+    ],
+    "gather": "MINING",
+    "what": [
+     "COAL"
+    ],
+    "amount": 10
+   },
+   "hint": "Mine 10 coal ore in the Coal Mine.",
+   "coins": 100,
+   "skippable": true
+  },
+  {
+   "id": "chop_forest",
+   "text": "Chop logs in the Forest",
+   "trigger": {
+    "type": "break",
+    "materials": [
+     "OAK_LOG",
+     "BIRCH_LOG",
+     "SPRUCE_LOG",
+     "JUNGLE_LOG",
+     "ACACIA_LOG",
+     "DARK_OAK_LOG",
+     "MANGROVE_LOG",
+     "CHERRY_LOG",
+     "PALE_OAK_LOG"
+    ],
+    "gather": "FORAGING",
+    "amount": 20,
+    "island": "hub"
+   },
+   "hint": "Chop 20 logs in the Hub's Forest, west of the Portal Plaza (/hubmap gives directions). The Plaza's own trees are decoration.",
+   "coins": 100,
+   "skippable": true
+  },
+  {
+   "id": "visit_gold_mine",
+   "text": "Visit the Gold Mine",
+   "trigger": {
+    "type": "island",
+    "island": "gold_mine"
+   },
+   "hint": "The Gold Mine lies past the Coal Mine.",
+   "coins": 100,
+   "skippable": false
+  },
+  {
+   "id": "visit_barn",
+   "text": "Visit The Barn",
+   "trigger": {
+    "type": "island",
+    "island": "barn"
+   },
+   "hint": "The Barn is the first Farming Island. Its launch pad is at the east end of the Farm and needs Farming I: harvest some wheat first.",
+   "coins": 100,
+   "skippable": false
+  },
+  {
+   "id": "reach_farming_5",
+   "text": "Reach Farming V",
+   "trigger": {
+    "type": "requirement",
+    "key": "skill:farming:5"
+   },
+   "hint": "Farming crops gives Farming XP.",
+   "coins": 150,
+   "skippable": true
+  },
+  {
+   "id": "reach_foraging_5",
+   "text": "Reach Foraging V",
+   "trigger": {
+    "type": "requirement",
+    "key": "skill:foraging:5"
+   },
+   "hint": "Chopping trees gives Foraging XP.",
+   "coins": 150,
+   "skippable": true
+  },
+  {
+   "id": "visit_park",
+   "text": "Visit The Park",
+   "trigger": {
+    "type": "island",
+    "island": "park"
+   },
+   "hint": "Five forests, one island. Reach it from the Forest.",
+   "coins": 150,
+   "skippable": false
+  },
+  {
+   "id": "talk_slayer_master",
+   "text": "Talk to the Slayer Master",
+   "trigger": {
+    "type": "npc",
+    "anchors": [
+     "npc.slayer_master"
+    ]
+   },
+   "hint": "Find the Slayer Master in the Tavern, east of the Village square (/village). Slayer bosses drop the best early gear.",
+   "coins": 150,
+   "skippable": false
+  },
+  {
+   "id": "visit_deep_caverns",
+   "text": "Visit the Deep Caverns",
+   "trigger": {
+    "type": "island",
+    "island": "deep_caverns"
+   },
+   "hint": "The Deep Caverns are below the Gold Mine.",
+   "coins": 150,
+   "skippable": false
+  },
+  {
+   "id": "visit_spiders_den",
+   "text": "Visit the Spider's Den",
+   "trigger": {
+    "type": "island",
+    "island": "spiders_den"
+   },
+   "hint": "Spiders, webs and a lot of string.",
+   "coins": 150,
+   "skippable": false
+  },
+  {
+   "id": "reach_sblevel_5",
+   "text": "Reach SkyBlock Level 5",
+   "trigger": {
+    "type": "requirement",
+    "key": "sblevel:5"
+   },
+   "hint": "Nearly everything you do for the first time gives SkyBlock XP.",
+   "coins": 250,
+   "skippable": false
+  },
+  {
+   "id": "visit_garden",
+   "text": "Visit the Garden",
+   "trigger": {
+    "type": "island",
+    "island": "garden"
+   },
+   "hint": "Your own farm, unlocked at SkyBlock Level 5. Ask the Gardener in the Hub.",
+   "coins": 250,
+   "skippable": false
+  },
+  {
+   "id": "donate_museum",
+   "text": "Donate to the Museum",
+   "trigger": {
+    "type": "museum",
+    "amount": 1
+   },
+   "hint": "The Museum keeps your finest items on display and pays in SkyBlock XP.",
+   "coins": 250,
+   "skippable": true
+  },
+  {
+   "id": "visit_the_end",
+   "text": "Visit The End",
+   "trigger": {
+    "type": "island",
+    "island": "the_end"
+   },
+   "hint": "The End needs a stronger fighter. Keep raising Combat.",
+   "coins": 500,
+   "skippable": false
+  }
+ ]
+}

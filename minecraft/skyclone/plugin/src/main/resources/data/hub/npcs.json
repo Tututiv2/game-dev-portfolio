@@ -1,0 +1,324 @@
+[
+ {
+  "id": "hub_guide",
+  "anchor": "npc.hub_guide",
+  "name": "&fTown Crier Hollis",
+  "title": "&e&lHUB GUIDE",
+  "hand": "MAP",
+  "lines": [
+   "&7Lost? &eClick me!"
+  ],
+  "then": "hubmap",
+  "intro": [
+   "Welcome to the Hub, traveller! Everything worth doing starts in this square.",
+   "The Bank and Auction House face this square from the north, the Bazaar and Museum from the south. Every one has a door on the square side.",
+   "Every island portal stands in the Portal Plaza, out past the west gate.",
+   "Lost? The map's Village page points your compass at any shop, and at the Fairy Pond. Walk into a district once and I can send you back there any time. Here, take a look."
+  ],
+  "repeat": [
+   "Here's the map. Districts you have walked into can be reached in a blink, and the Village page finds any shop."
+  ]
+ },
+ {
+  "id": "hub_portal_keeper",
+  "anchor": "npc.portal_keeper",
+  "name": "&fWarden Ysolde",
+  "title": "&d&lPORTALS",
+  "hand": "ENDER_PEARL",
+  "lines": [
+   "&7Island directory"
+  ],
+  "then": "portals",
+  "intro": [
+   "Eleven gates, eleven islands. I keep them lit.",
+   "A gate only lets you through once you are strong enough for what lies beyond it.",
+   "The icy one in the middle only wakes in late winter. Ask me and I will show you which ones you can use already."
+  ],
+  "repeat": [
+   "Where to today?"
+  ]
+ },
+ {
+  "id": "hub_lazy_miner",
+  "anchor": "npc.lazy_miner",
+  "name": "&fDozing Miner Aurel",
+  "title": "&6&lCOAL MINE",
+  "hand": "IRON_PICKAXE",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "then": "none",
+  "intro": [
+   "Mmh? Oh. Visitor. Don't mind me, just... resting my eyes.",
+   "The tunnel behind me goes deep into the mountain. Coal, iron, plenty of stone for a fresh pick.",
+   "Grab a pickaxe from the merchant's hut if you haven't got one. The forge next door sharpens anything.",
+   "Want real ore? Walk to the back of the chamber: the old gate there opens onto the Gold Mine. Wake me when you're rich."
+  ],
+  "repeat": [
+   "Zzz... coal's to the north... zzz...",
+   "Mmh? Oh, it's you. Thanks again for the coal."
+  ],
+  "ref": "lazy_miner"
+ },
+ {
+  "id": "hub_lumber_jack",
+  "anchor": "npc.lumber_jack",
+  "name": "&fWoodcutter Ansel",
+  "title": "&2&lFORAGING",
+  "hand": "IRON_AXE",
+  "lines": [],
+  "then": "none",
+  "intro": [
+   "Smell that? Fresh-cut oak. Best smell in the world.",
+   "The whole Forest around this camp is yours to chop. The trees grow back if you give them a minute.",
+   "Get your axe from the lumber merchant, and bring your planks to the carpenter.",
+   "When the oak gets boring, the Park portal leads to forests of every kind."
+  ],
+  "repeat": [
+   "Chop, chop! The Forest won't fell itself."
+  ]
+ },
+ {
+  "id": "hub_mourner",
+  "anchor": "npc.mourner",
+  "name": "&fOld Wenna",
+  "title": "&8&lCHAPEL",
+  "hand": "WITHER_ROSE",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "then": "none",
+  "intro": [
+   "Every night they climb out of their graves, and every morning I count fewer stones.",
+   "The mausoleum stair leads down to the crypts. The ghouls down there hit far harder than the ones up here.",
+   "If you are hunting undead for a contract, the crypts are where the fight is.",
+   "And if you ever see one that glitters... run. Or don't. It drops gold."
+  ],
+  "repeat": [
+   "Mind the graves. Some of them are still occupied."
+  ]
+ },
+ {
+  "id": "hub_farmhand",
+  "anchor": "npc.farmhand",
+  "name": "&fFarmhand Prosper",
+  "title": "&e&lFARM",
+  "hand": "IRON_HOE",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "then": "none",
+  "intro": [
+   "Wheat, carrots, potatoes, pumpkins, melons, cane, cocoa and cactus. We grow the lot.",
+   "Break the crops and they come back on their own; it's not your job to replant here.",
+   "Every few days there's a farming contest on the stage. Bring your best haul.",
+   "See the slime pad at the end of the middle track? Step on it and it flings you to the Barn, fields ten times this size."
+  ],
+  "repeat": [
+   "Fields are ripe. Go on, help yourself."
+  ]
+ },
+ {
+  "id": "hub_castellan",
+  "anchor": "npc.castellan",
+  "name": "&fCastellan Merrow",
+  "title": "&9&lOLD KEEP",
+  "hand": "SHIELD",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "then": "none",
+  "intro": [
+   "This keep held the valley long before the town had a name.",
+   "Climb the corner towers if you like. The view of the mountain is worth the ladder.",
+   "The ruins to the west were our sister fort. Wolves own it now."
+  ],
+  "repeat": [
+   "The towers are open. Mind the battlements."
+  ]
+ },
+ {
+  "id": "hub_wizard",
+  "anchor": "npc.wizard",
+  "name": "&fArchmage Corvin",
+  "title": "&5&lWIZARD",
+  "hand": "BLAZE_ROD",
+  "lines": [
+   "&7The Rift arch"
+  ],
+  "then": "rift",
+  "intro": [
+   "The arch outside is awake. I spent a year listening to it hum, and now it is open.",
+   "Beyond it lies the Rift: a world that runs on its own clock, where time itself is what you spend.",
+   "The Warden of the Arch stands beside it. Bring them a Planar Infusion and they will let you through.",
+   "Here, let me show you what I know of the other side."
+  ],
+  "repeat": [
+   "The Warden is beside the arch, just west of the tower. Mind your clock in there."
+  ],
+  "ref": "wizard"
+ },
+ {
+  "id": "hub_carnival_barker",
+  "anchor": "npc.carnival_barker",
+  "name": "&fBarker Jolyon",
+  "title": "&d&lCARNIVAL",
+  "hand": "FIREWORK_ROCKET",
+  "lines": [
+   "&7Carnival news"
+  ],
+  "then": "carnival",
+  "intro": [
+   "Step right up! When the right mayor holds office, the whole troupe comes to town.",
+   "The Ringmaster sets up beside me and hands out free tickets every day, and the booths open on the Carnival Grounds.",
+   "Ask me any time and I will tell you if the carnival is in town."
+  ],
+  "repeat": []
+ },
+ {
+  "id": "hub_carnival_games",
+  "anchor": "npc.carnival_games",
+  "name": "&fGamesmaster Lulu",
+  "title": "&d&lGAMES",
+  "hand": "BOW",
+  "lines": [
+   "&7Carnival games"
+  ],
+  "then": "carnival",
+  "intro": [
+   "Fruit digging, a zombie shootout, catch-a-fish... all run by the troupe when the carnival is in town.",
+   "The Token Trader stands next to me then: masks and perks for your tokens."
+  ],
+  "repeat": []
+ },
+ {
+  "id": "hub_ship_captain",
+  "anchor": "npc.ship_captain",
+  "name": "&fCaptain Marlowe",
+  "title": "&3&lSHIP",
+  "hand": "COMPASS",
+  "lines": [
+   "&7Ship Navigator"
+  ],
+  "then": "ship",
+  "intro": [
+   "Ahoy! This old girl can carry you anywhere the fish are biting.",
+   "Most folk start in the Bayou: warm water, strange catches, and nobody asking questions.",
+   "The real anglers sail on to the Lotus Atoll once they have the skill for it. Frogs the size of dogs, I swear it.",
+   "Tell me where you want to go and we cast off right away."
+  ],
+  "repeat": [
+   "Where to, sailor?"
+  ]
+ },
+ {
+  "id": "hub_jamie",
+  "anchor": "npc.resident.1",
+  "name": "&fJessamy",
+  "title": "&e&lRETIRED DUELIST",
+  "hand": "IRON_SWORD",
+  "ref": "jamie",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "Oh! A visitor. Mind the sword rack."
+  ],
+  "repeat": [
+   "Keep your guard up, and your blade sharp."
+  ],
+  "then": "none"
+ },
+ {
+  "id": "hub_andrew",
+  "anchor": "npc.resident.2",
+  "name": "&fAndrin",
+  "title": "&e&lRESIDENT",
+  "entity": "VILLAGER",
+  "ref": "andrew",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "Come in, come in. Excuse the mess, I can't bend to tidy."
+  ],
+  "repeat": [
+   "That basket kept me fed all winter. Bless you."
+  ],
+  "then": "none"
+ },
+ {
+  "id": "hub_duke",
+  "anchor": "npc.resident.3",
+  "name": "&fDuke Harrow",
+  "title": "&e&lOLD SOLDIER",
+  "entity": "VILLAGER",
+  "ref": "duke",
+  "hand": "SHIELD",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "At ease, recruit. Wipe your boots."
+  ],
+  "repeat": [
+   "Keep your shield up and your purse in the bank, soldier."
+  ],
+  "then": "none"
+ },
+ {
+  "id": "hub_liam",
+  "anchor": "npc.resident.4",
+  "name": "&fLorcan",
+  "title": "&e&lCOURIER",
+  "entity": "VILLAGER",
+  "ref": "liam",
+  "hand": "PAPER",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "Sorry, sorry, I can't get up. The ankle, you see."
+  ],
+  "repeat": [
+   "The ankle's mending. Back on my rounds soon!"
+  ],
+  "then": "none"
+ },
+ {
+  "id": "hub_goldsworth",
+  "anchor": "npc.resident.5",
+  "name": "&fCurator Ottoline Vane",
+  "title": "&6&lCOLLECTOR",
+  "ref": "madame_eleanor_q_goldsworth_iii",
+  "hand": "GOLD_INGOT",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "Do knock next time. This is a private collection."
+  ],
+  "repeat": [
+   "You may admire the collection. From there."
+  ],
+  "then": "none"
+ },
+ {
+  "id": "hub_wilf",
+  "anchor": "npc.resident.6",
+  "name": "&fWilf",
+  "title": "&e&lPET FAN",
+  "ref": "wilf",
+  "hand": "BONE",
+  "lines": [
+   "&eErrand! &7Click me!"
+  ],
+  "intro": [
+   "Hi! Are you an adventurer? Do you have a pet?"
+  ],
+  "repeat": [
+   "When I grow up I'm going to have a hundred pets."
+  ],
+  "then": "none"
+ }
+]

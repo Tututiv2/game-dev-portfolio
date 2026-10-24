@@ -1,0 +1,181 @@
+[
+ {
+  "id": "starter_blade",
+  "npc": "hub_jamie",
+  "name": "A Blade to Start With",
+  "icon": "WOODEN_SWORD",
+  "about": "Jessamy hung up her sword years ago and keeps a rack of spares for newcomers. She gives one away to anyone who asks.",
+  "steps": [],
+  "reward": {"items": {"ROGUE_SWORD": 1}},
+  "offer": [
+   "New in town? You look like you have never held a proper blade.",
+   "I hung mine up years ago, but I keep a rack of spares for people like you. Here, this one is light and quick."
+  ],
+  "remind": [],
+  "thanks": ["Swing it like you mean it."]
+ },
+ {
+  "id": "harvest_basket",
+  "npc": "hub_andrew",
+  "name": "Andrin's Harvest Basket",
+  "icon": "CARROT",
+  "about": "Andrin's knees gave out before the harvest. He needs carrots and potatoes for the winter cellar, and the Farm grows both.",
+  "steps": [
+   {"text": "Bring 16 Carrots", "trigger": "bring:CARROT_ITEM:16"},
+   {"text": "Bring 16 Potatoes", "trigger": "bring:POTATO_ITEM:16"}
+  ],
+  "reward": {"coins": 500, "sbxp": 3, "skills": {"FARMING": 40}},
+  "offer": [
+   "Oh, my knees. Forty years on the land and now I cannot bend down to a carrot.",
+   "Could you fill my basket? Sixteen carrots and sixteen potatoes. The Farm south-east of the village grows both, and nobody minds you picking.",
+   "I will make it worth your while."
+  ],
+  "remind": ["Sixteen carrots and sixteen potatoes, friend. The Farm is south-east of the village."],
+  "thanks": ["A full basket! The cellar will be full this winter. Take this, and thank you."]
+ },
+ {
+  "id": "stand_your_ground",
+  "npc": "hub_duke",
+  "name": "Stand Your Ground",
+  "icon": "IRON_SWORD",
+  "about": "Duke Harrow held the Graveyard wall in his day. He wants to see you thin out the zombies there before he believes you can fight.",
+  "steps": [
+   {"text": "Slay 15 Graveyard Zombies", "trigger": "kill:hub_graveyard_zombie:15"}
+  ],
+  "reward": {"coins": 750, "sbxp": 3, "skills": {"COMBAT": 60}},
+  "offer": [
+   "When I was your age we held the Graveyard wall with nothing but spears.",
+   "Fifteen zombies. Go and put fifteen of them back in the ground, and then we can talk like soldiers.",
+   "And bank your coins first. The dead are not polite about your purse."
+  ],
+  "remind": ["Fifteen Graveyard zombies. The Graveyard is east of the village. Take them one at a time."],
+  "thanks": ["Fifteen! You will do. Here, a soldier's pay."]
+ },
+ {
+  "id": "two_letters",
+  "npc": "hub_liam",
+  "name": "Two Letters",
+  "icon": "PAPER",
+  "about": "Lorcan the courier has twisted his ankle with two letters still in his bag: one for Old Wenna at the Graveyard chapel, one for Castellan Merrow at the Old Keep.",
+  "steps": [
+   {"text": "Deliver a letter to Old Wenna (Graveyard chapel)", "trigger": "talk:npc.mourner", "note": "Old Wenna takes the letter and tucks it into her shawl."},
+   {"text": "Deliver a letter to Castellan Merrow (Old Keep)", "trigger": "talk:npc.castellan", "note": "Castellan Merrow breaks the seal and nods."}
+  ],
+  "reward": {"coins": 600, "sbxp": 3},
+  "offer": [
+   "Ow, ow. Turned my ankle on the well steps, and I still have two letters to deliver.",
+   "One for Old Wenna at the Graveyard chapel, one for Castellan Merrow up at the Old Keep.",
+   "Would you run them for me? The Hub Map shows both places."
+  ],
+  "remind": ["The letters, friend! Old Wenna at the chapel, and the Castellan at the Old Keep."],
+  "thanks": ["Both delivered? You are faster than I ever was. Here is my fee, every coin of it."]
+ },
+ {
+  "id": "a_connoisseur",
+  "npc": "hub_goldsworth",
+  "name": "A Connoisseur's Eye",
+  "icon": "GOLD_INGOT",
+  "about": "Ottoline Vane only deals with people of taste: show her a reforged item in your hand, and the Village Affinity Talisman (the Adventurer sells it) in your Accessory Bag.",
+  "steps": [
+   {"text": "Hold a reforged item when you talk to her", "trigger": "reforge:*"},
+   {"text": "Carry a Village Affinity Talisman", "trigger": "accessory:VILLAGE_TALISMAN"}
+  ],
+  "reward": {"coins": 1000, "sbxp": 5},
+  "offer": [
+   "You may approach. I only deal with people of taste, you understand.",
+   "Show me a reforged piece in your hand. The Blacksmith in the Mining District will reforge anything for a fee.",
+   "And a Village Affinity Talisman in your bag. The Adventurer sells them. Every resident of standing carries one."
+  ],
+  "remind": ["A reforged piece in your hand, and the Village Affinity Talisman in your bag. I can wait. Briefly."],
+  "thanks": ["Well. You do have an eye after all. A small token of my regard."]
+ },
+ {
+  "id": "show_me_your_pet",
+  "npc": "hub_wilf",
+  "name": "Show Me Your Pet!",
+  "icon": "BONE",
+  "about": "Wilf wants a pet more than anything and is not allowed one. He would love to meet yours, and wants you to ask the Pet Sitter how pets grow.",
+  "steps": [
+   {"text": "Have a pet summoned when you talk to him", "trigger": "pet:*:1"},
+   {"text": "Ask the Pet Sitter about pet upgrades", "trigger": "talk:npc.pet_sitter"}
+  ],
+  "reward": {"coins": 500, "sbxp": 3},
+  "offer": [
+   "Have you got a pet? Mum says I am not allowed one until I am older.",
+   "Can I meet yours? Summon it and come back! Your pets are in the SkyBlock Menu.",
+   "And can you ask the Pet Sitter at Pet Care how they get bigger? I am too shy."
+  ],
+  "remind": ["Did you bring your pet? And did you ask the Pet Sitter? Pet Care is the birch house in the village."],
+  "thanks": ["It is SO cute! And they really grow up? Here, you can have my savings. I was saving for a pet anyway."]
+ },
+ {
+  "id": "lazy_miners_coal",
+  "npc": "hub_lazy_miner",
+  "name": "The Lazy Miner's Quota",
+  "icon": "COAL",
+  "about": "Aurel is supposed to dig his coal quota and would rather not. Mine some in the Coal Mine and bring him a share.",
+  "steps": [
+   {"text": "Mine 20 Coal in the Coal Mine", "trigger": "gather:MINING:COAL:20"},
+   {"text": "Bring Aurel 10 Coal", "trigger": "bring:COAL:10"}
+  ],
+  "reward": {"coins": 300, "sbxp": 3, "skills": {"MINING": 50}},
+  "offer": [
+   "Say, you look like you have strong arms. I have a coal quota to make and a very important nap to take.",
+   "Mine twenty coal back there in the tunnel and bring me ten of it. You keep the rest. I pay, honest."
+  ],
+  "remind": ["Twenty mined, ten for me. The coal is in the tunnel behind me. Zzz..."],
+  "thanks": ["Ten coal! The foreman will think I worked all day. Here, you earned it."]
+ },
+ {
+  "id": "first_harvest",
+  "npc": "hub_farmhand",
+  "name": "First Harvest",
+  "icon": "WHEAT",
+  "about": "Prosper needs a hand with the wheat before the contest. Harvest some on the Farm.",
+  "steps": [
+   {"text": "Harvest 32 Wheat on the Farm", "trigger": "gather:FARMING:WHEAT:32"}
+  ],
+  "reward": {"coins": 300, "sbxp": 3, "skills": {"FARMING": 50}},
+  "offer": [
+   "The contest is coming and the wheat is not going to cut itself.",
+   "Harvest thirty-two wheat in the fields here and come back. Keep what you cut."
+  ],
+  "remind": ["Thirty-two wheat, then come and see me. Any hoe will do; even your fist works."],
+  "thanks": ["Good clean cutting. You have a farmer's hands. Here's your wage."]
+ },
+ {
+  "id": "the_restless",
+  "npc": "hub_mourner",
+  "name": "The Restless",
+  "icon": "ROTTEN_FLESH",
+  "about": "The zombie villagers that rise at night were townsfolk once. Old Wenna asks you to lay five of them to rest and bring her what is left.",
+  "steps": [
+   {"text": "Lay 5 Zombie Villagers to rest (they rise at night)", "trigger": "kill:hub_zombie_villager:5"},
+   {"text": "Bring Old Wenna 10 Rotten Flesh", "trigger": "bring:ROTTEN_FLESH:10"}
+  ],
+  "reward": {"coins": 500, "sbxp": 3, "skills": {"COMBAT": 50}},
+  "offer": [
+   "The ones in the brown smocks, that rise at night. They were townsfolk once. I knew some of them.",
+   "Lay five of them to rest for me. And bring me ten pieces of what is left, so I can bury it properly."
+  ],
+  "remind": ["Five of the zombie villagers. They only rise at night. And ten pieces of flesh for the burying."],
+  "thanks": ["Thank you, child. They can sleep now. Take this, I have no use for coins."]
+ },
+ {
+  "id": "wolves_at_the_fort",
+  "npc": "hub_castellan",
+  "name": "Wolves at the Sister Fort",
+  "icon": "BONE",
+  "about": "The Ruins on the hill at the far west of the Hub were the Old Keep's sister fort. Wolves live there now (and in the Wilderness); the Castellan wants them thinned. Combat III is recommended.",
+  "steps": [
+   {"text": "Slay 5 Wolves (Ruins or Wilderness)", "trigger": "kill:hub_wolf:5"}
+  ],
+  "reward": {"coins": 1000, "sbxp": 5, "skills": {"COMBAT": 100}},
+  "offer": [
+   "The Ruins on the hill were our sister fort. The wolves took it while I was still a squire.",
+   "Thin them out. Five will do for now. Be careful of the old grey ones: they are not like the others."
+  ],
+  "remind": ["Five wolves. The Ruins are on the hill at the far west of the Hub, past the Colosseum; the Wilderness has a few too. Mind the old grey ones."],
+  "thanks": ["Five fewer wolves on the walls. The Keep thanks you, and so do I."]
+ }
+]

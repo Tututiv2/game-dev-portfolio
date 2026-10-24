@@ -1,0 +1,167 @@
+{
+ "ranks": [
+  {
+   "name": "Outsider",
+   "rep": 0,
+   "color": "&7",
+   "sbxp": 0
+  },
+  {
+   "name": "Ally",
+   "rep": 1000,
+   "color": "&a",
+   "sbxp": 10
+  },
+  {
+   "name": "Trusted",
+   "rep": 3000,
+   "color": "&9",
+   "sbxp": 15
+  },
+  {
+   "name": "Honored",
+   "rep": 7000,
+   "color": "&5",
+   "sbxp": 20
+  },
+  {
+   "name": "Champion",
+   "rep": 12000,
+   "color": "&6",
+   "sbxp": 30
+  }
+ ],
+ "factions": {
+  "mage": {
+   "display": "Mages",
+   "color": "&5",
+   "leader": "Archmage Seraphine",
+   "town": "Carmine Spire",
+   "icon": "BLAZE_POWDER",
+   "rival_boss": "crimson_barbarian_duke"
+  },
+  "barbarian": {
+   "display": "Barbarians",
+   "color": "&c",
+   "leader": "Warchief Grathe",
+   "town": "Drakehold",
+   "icon": "IRON_AXE",
+   "rival_boss": "crimson_mage_outlaw"
+  }
+ },
+ "quests_per_day": 5,
+ "daily_bonus_rep": 0,
+ "boss_rep": 10,
+ "rival_boss_rep": 25,
+ "boss_loot": {
+  "min_damage_percent": 1.0,
+  "max_range": 64,
+  "faction": {
+   "mage": [
+    {
+     "item": "ENCHANTED_MYCELIUM",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    }
+   ],
+   "barbarian": [
+    {
+     "item": "ENCHANTED_RED_SAND",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    }
+   ]
+  },
+  "champion": {
+   "crimson_barbarian_duke": [
+    {
+     "item": "LEATHER_CLOTH",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "ESSENCE_CRIMSON",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "KUUDRA_TEETH",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "CORRUPTED_NETHER_STAR",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ],
+   "crimson_mage_outlaw": [
+    {
+     "item": "SPELL_POWDER",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "ESSENCE_CRIMSON",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "KUUDRA_TEETH",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "CORRUPTED_NETHER_STAR",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "quest": [
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.06
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.04
+   }
+  ],
+  "shards": {
+   "crimson_barbarian_duke": "SHARD_BARBARIAN_DUKE_X"
+  }
+ },
+ "kuudra_rep": [
+  10,
+  20,
+  30,
+  40,
+  50
+ ],
+ "emissary_discount": {
+  "1000": 5,
+  "3000": 10,
+  "7000": 15,
+  "12000": 20
+ },
+ "rollim": {
+  "rep": 25,
+  "days": 7,
+  "hours": 24
+ }
+}

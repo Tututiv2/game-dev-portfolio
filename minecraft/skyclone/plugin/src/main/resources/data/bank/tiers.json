@@ -1,0 +1,86 @@
+[
+ {
+  "index": 0,
+  "id": "starter",
+  "name": "Starter",
+  "capacity": 50000000,
+  "coins": 0,
+  "enchantedGoldBlocks": 0,
+  "goldCollection": 0,
+  "museumMilestone": 0,
+  "maxInterest": 250000,
+  "sbxp": 0
+ },
+ {
+  "index": 1,
+  "id": "gold",
+  "name": "Gold",
+  "capacity": 100000000,
+  "coins": 5000000,
+  "enchantedGoldBlocks": 1,
+  "goldCollection": 100000,
+  "museumMilestone": 0,
+  "maxInterest": 300000,
+  "sbxp": 20
+ },
+ {
+  "index": 2,
+  "id": "deluxe",
+  "name": "Deluxe",
+  "capacity": 250000000,
+  "coins": 10000000,
+  "enchantedGoldBlocks": 5,
+  "goldCollection": 250000,
+  "museumMilestone": 3,
+  "maxInterest": 350000,
+  "sbxp": 25
+ },
+ {
+  "index": 3,
+  "id": "super_deluxe",
+  "name": "Super Deluxe",
+  "capacity": 500000000,
+  "coins": 25000000,
+  "enchantedGoldBlocks": 20,
+  "goldCollection": 500000,
+  "museumMilestone": 6,
+  "maxInterest": 390000,
+  "sbxp": 30
+ },
+ {
+  "index": 4,
+  "id": "premier",
+  "name": "Premier",
+  "capacity": 1000000000,
+  "coins": 50000000,
+  "enchantedGoldBlocks": 50,
+  "goldCollection": 1000000,
+  "museumMilestone": 10,
+  "maxInterest": 500000,
+  "sbxp": 35
+ },
+ {
+  "index": 5,
+  "id": "luxurious",
+  "name": "Luxurious",
+  "capacity": 6000000000,
+  "coins": 100000000,
+  "enchantedGoldBlocks": 100,
+  "goldCollection": 2000000,
+  "museumMilestone": 14,
+  "maxInterest": 1000000,
+  "sbxp": 40
+ },
+ {
+  "index": 6,
+  "id": "palatial",
+  "name": "Palatial",
+  "capacity": 60000000000,
+  "coins": 200000000,
+  "enchantedGoldBlocks": 200,
+  "goldCollection": 3000000,
+  "museumMilestone": 18,
+  "maxInterest": 1500000,
+  "sbxp": 50
+ }
+]

@@ -1,0 +1,1769 @@
+{
+ "visitors": [
+  {
+   "id": "an",
+   "name": "Oan",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "WITCH",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "andrew",
+   "name": "Andrin",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "anita",
+   "name": "Harvesta",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "combat_merchant",
+   "name": "Combat Merchant",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "duke",
+   "name": "Duke Harrow",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "farmer_jon",
+   "name": "Farmer Joss",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "fisherman_gerald",
+   "name": "Fisherman Garrick",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "geonathan_greatforge",
+   "name": "Geodric Deepforge",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "COMPOST"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:crystal_hollows",
+   "home": "crystal_hollows"
+  },
+  {
+   "id": "gimley",
+   "name": "Grumley",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "guy",
+   "name": "Gus",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "jack",
+   "name": "Jock",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "jacob",
+   "name": "Harvest Warden Ambrose",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "jotraeline_greatforge",
+   "name": "Jorelle Deepforge",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "COMPOST"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "liam",
+   "name": "Lorcan",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mason",
+   "name": "Mason",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "MUTTON",
+    "POTATO_ITEM",
+    "CARROT_ITEM",
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "odawa",
+   "name": "Odala",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:crystal_hollows",
+   "home": "crystal_hollows"
+  },
+  {
+   "id": "old_shaman_nyko",
+   "name": "Old Shaman Nyro",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:park",
+   "home": "park"
+  },
+  {
+   "id": "plumber_joe",
+   "name": "Plumber Jem",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "CACTUS"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "resident_neighbor",
+   "name": "Resident Neighbor",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "scout_scardius",
+   "name": "Scout Scaldor",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "shaggy",
+   "name": "Scruff",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:spiders_den",
+   "home": "spiders_den"
+  },
+  {
+   "id": "tarwen",
+   "name": "Tarlow",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "trevor",
+   "name": "Trevin",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:mushroom_desert",
+   "home": "mushroom_desert"
+  },
+  {
+   "id": "xalx",
+   "name": "Zalq",
+   "rarity": "UNCOMMON",
+   "level": 1,
+   "wants": [
+    "ENCHANTED_SUGAR"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "chantelle",
+   "name": "Chanterelle",
+   "rarity": "RARE",
+   "level": 2,
+   "wants": [
+    "DOUBLE_PLANT",
+    "MOONFLOWER",
+    "WILD_ROSE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "gwendolyn",
+   "name": "Gwenna",
+   "rarity": "RARE",
+   "level": 2,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "queen_mismyla",
+   "name": "Queen Mirabel",
+   "rarity": "RARE",
+   "level": 2,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "rusty",
+   "name": "Old Rusk",
+   "rarity": "RARE",
+   "level": 2,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:gold_mine",
+   "home": "gold_mine"
+  },
+  {
+   "id": "seymour",
+   "name": "Seward",
+   "rarity": "RARE",
+   "level": 2,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "alchemist",
+   "name": "Alchemist Wendel",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "WITCH",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "bednom",
+   "name": "Bedrun",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "chunk",
+   "name": "Chonk",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:crystal_hollows",
+   "home": "crystal_hollows"
+  },
+  {
+   "id": "dusk",
+   "name": "Gloam",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "emissary_fraiser",
+   "name": "Emissary Fenwick",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "jamie",
+   "name": "Jemma",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "leo",
+   "name": "Leone",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "librarian",
+   "name": "Librarian",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "oringo",
+   "name": "Zebulon the Keeper",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "rhys",
+   "name": "Rhodri",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "JACK_O_LANTERN"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "ryan",
+   "name": "Rowan",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:park",
+   "home": "park"
+  },
+  {
+   "id": "sargwyn",
+   "name": "Sarlwen",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "terry",
+   "name": "Tobin",
+   "rarity": "UNCOMMON",
+   "level": 2,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_paul",
+   "name": "Mayor Osric",
+   "rarity": "LEGENDARY",
+   "level": 3,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "marigold",
+   "name": "Calendula",
+   "rarity": "RARE",
+   "level": 3,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "romero",
+   "name": "Romulo",
+   "rarity": "RARE",
+   "level": 3,
+   "wants": [
+    "MOONFLOWER",
+    "DOUBLE_PLANT",
+    "WILD_ROSE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "shifty",
+   "name": "Shady Sid",
+   "rarity": "RARE",
+   "level": 3,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "banker_broadjaw",
+   "name": "Banker Stoutjaw",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "CACTUS"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "emissary_carlton",
+   "name": "Emissary Carver",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "fear_mongerer",
+   "name": "Dread Peddler",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "felix",
+   "name": "Fennick",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "hornum",
+   "name": "Horvik",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "hungry_hiker",
+   "name": "Hungry Hiker",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "jacobus",
+   "name": "Bagwright Jory",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "lynn",
+   "name": "Lynette",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "resident_snooty",
+   "name": "Resident Snooty",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "stella",
+   "name": "Estrel",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "tom",
+   "name": "Tomlin",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "weaponsmith",
+   "name": "Weaponsmith",
+   "rarity": "UNCOMMON",
+   "level": 3,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "fann",
+   "name": "Pet Trainer",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "NETHER_STALK",
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "fragilis",
+   "name": "Brittlewisp",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "CACTUS"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "hendrik",
+   "name": "Halvard",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "CACTUS"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:jerrys_workshop",
+   "home": "jerrys_workshop"
+  },
+  {
+   "id": "master_tactician_funk",
+   "name": "Master Tactician Fenk",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:park",
+   "home": "park"
+  },
+  {
+   "id": "moby",
+   "name": "Mobley",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "trinity",
+   "name": "Trina",
+   "rarity": "RARE",
+   "level": 4,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "farm_merchant",
+   "name": "Farm Merchant",
+   "rarity": "UNCOMMON",
+   "level": 4,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "farmhand",
+   "name": "Farmhand",
+   "rarity": "UNCOMMON",
+   "level": 4,
+   "wants": [
+    "WHEAT",
+    "CARROT_ITEM",
+    "POTATO_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "lumber_jack",
+   "name": "Lumberjack",
+   "rarity": "UNCOMMON",
+   "level": 4,
+   "wants": [
+    "CARROT_ITEM",
+    "POTATO_ITEM",
+    "MELON",
+    "PUMPKIN",
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "ryu",
+   "name": "Kaito",
+   "rarity": "UNCOMMON",
+   "level": 4,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "vex",
+   "name": "Vesk",
+   "rarity": "UNCOMMON",
+   "level": 4,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "bruuh",
+   "name": "Bruhm",
+   "rarity": "LEGENDARY",
+   "level": 5,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "WITCH",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "dulin",
+   "name": "Dulvar",
+   "rarity": "LEGENDARY",
+   "level": 5,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "erihann",
+   "name": "Erivan",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "frozen_alex",
+   "name": "Frostbitten Aleks",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "DOUBLE_PLANT",
+    "SUGAR_CANE"
+   ],
+   "entity": "SNOW_GOLEM",
+   "requirement": "visited:jerrys_workshop",
+   "home": "jerrys_workshop"
+  },
+  {
+   "id": "gary",
+   "name": "Garvey",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "SNOW_GOLEM",
+   "requirement": "visited:jerrys_workshop",
+   "home": "jerrys_workshop"
+  },
+  {
+   "id": "grandma_wolf",
+   "name": "Granny Lupa",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:spiders_den",
+   "home": "spiders_den"
+  },
+  {
+   "id": "iron_forger",
+   "name": "Iron Forger",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:gold_mine",
+   "home": "gold_mine"
+  },
+  {
+   "id": "marco",
+   "name": "Marcel",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "MOONFLOWER",
+    "DOUBLE_PLANT",
+    "WILD_ROSE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "sherry",
+   "name": "Marnie",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:jerrys_workshop",
+   "home": "jerrys_workshop"
+  },
+  {
+   "id": "spider_tamer",
+   "name": "Spider Tamer",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:spiders_den",
+   "home": "spiders_den"
+  },
+  {
+   "id": "tia_the_fairy",
+   "name": "Wren the Fairy",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "zog",
+   "name": "Pet Supplier Zob",
+   "rarity": "RARE",
+   "level": 5,
+   "wants": [
+    "MELON",
+    "CACTUS"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "emissary_ceanna",
+   "name": "Emissary Cerise",
+   "rarity": "UNCOMMON",
+   "level": 5,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "friendly_hiker",
+   "name": "Friendly Hiker",
+   "rarity": "UNCOMMON",
+   "level": 5,
+   "wants": [
+    "MUTTON",
+    "PORK",
+    "RABBIT"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "pest_wrangler",
+   "name": "Pest Wrangler",
+   "rarity": "UNCOMMON",
+   "level": 5,
+   "wants": [
+    "COMPOST",
+    "DUNG",
+    "HONEY_JAR",
+    "PLANT_MATTER",
+    "CHEESE_FUEL",
+    "JELLY"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_finnegan",
+   "name": "Mayor Wystan",
+   "rarity": "LEGENDARY",
+   "level": 6,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "vargul",
+   "name": "Varguk",
+   "rarity": "LEGENDARY",
+   "level": 6,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "gold_forger",
+   "name": "Gold Forger",
+   "rarity": "RARE",
+   "level": 6,
+   "wants": [
+    "GOLDEN_CARROT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:gold_mine",
+   "home": "gold_mine"
+  },
+  {
+   "id": "pete",
+   "name": "Perrin",
+   "rarity": "RARE",
+   "level": 6,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "arthur",
+   "name": "Arlo",
+   "rarity": "UNCOMMON",
+   "level": 6,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "emissary_wilson",
+   "name": "Emissary Welby",
+   "rarity": "UNCOMMON",
+   "level": 6,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "lift_operator",
+   "name": "Lift Operator",
+   "rarity": "UNCOMMON",
+   "level": 6,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "pearl_dealer",
+   "name": "Pearl Dealer",
+   "rarity": "UNCOMMON",
+   "level": 6,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:the_end",
+   "home": "the_end"
+  },
+  {
+   "id": "wizard",
+   "name": "Wizard",
+   "rarity": "UNCOMMON",
+   "level": 6,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "queen_nyx",
+   "name": "Queen Nyssa",
+   "rarity": "LEGENDARY",
+   "level": 7,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "WITCH",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "alchemage",
+   "name": "Alchemage",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "carpenter",
+   "name": "Carpenter",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "MELON",
+    "CARROT_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "gemma",
+   "name": "Jemima",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:crystal_hollows",
+   "home": "crystal_hollows"
+  },
+  {
+   "id": "lumina",
+   "name": "Lamplighter Luminelle",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "PUMPKIN"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "ophelia",
+   "name": "Ottilie",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dungeon_hub",
+   "home": "dungeon_hub"
+  },
+  {
+   "id": "royal_resident",
+   "name": "Royal Resident",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "WHEAT",
+    "SUGAR_CANE"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "tammy",
+   "name": "Tilly",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "CACTUS"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "tomioka",
+   "name": "Tomoya",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "vinyl_collector",
+   "name": "Vinyl Collector",
+   "rarity": "RARE",
+   "level": 7,
+   "wants": [
+    "RECORD_13"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "dante_goon",
+   "name": "Tyrant's Goon",
+   "rarity": "LEGENDARY",
+   "level": 8,
+   "wants": [
+    "WILD_ROSE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "vincent",
+   "name": "Vinson",
+   "rarity": "LEGENDARY",
+   "level": 8,
+   "wants": [
+    "DOUBLE_PLANT"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "st_jerry",
+   "name": "Saint Gerald",
+   "rarity": "RARE",
+   "level": 8,
+   "wants": [
+    "PUMPKIN",
+    "CACTUS"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:jerrys_workshop",
+   "home": "jerrys_workshop"
+  },
+  {
+   "id": "tyzzo",
+   "name": "Tizzo",
+   "rarity": "RARE",
+   "level": 8,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:the_end",
+   "home": "the_end"
+  },
+  {
+   "id": "hoppity",
+   "name": "Hopsworth",
+   "rarity": "LEGENDARY",
+   "level": 9,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_cole",
+   "name": "Mayor Bram",
+   "rarity": "LEGENDARY",
+   "level": 9,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_diana",
+   "name": "Mayor Orla",
+   "rarity": "LEGENDARY",
+   "level": 9,
+   "wants": [
+    "WHEAT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "archaeologist",
+   "name": "Archaeologist",
+   "rarity": "RARE",
+   "level": 9,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "WITCH",
+   "requirement": "visited:spiders_den",
+   "home": "spiders_den"
+  },
+  {
+   "id": "lazy_miner",
+   "name": "Lazy Miner",
+   "rarity": "RARE",
+   "level": 9,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:gold_mine",
+   "home": "gold_mine"
+  },
+  {
+   "id": "old_man_garry",
+   "name": "Old Man Garrow",
+   "rarity": "RARE",
+   "level": 9,
+   "wants": [
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "tyashoi_alchemist",
+   "name": "Tyrosh Alchemist",
+   "rarity": "RARE",
+   "level": 9,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "baker",
+   "name": "Baker Haverly",
+   "rarity": "LEGENDARY",
+   "level": 10,
+   "wants": [
+    "FINE_FLOUR"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "beth",
+   "name": "Bettina",
+   "rarity": "LEGENDARY",
+   "level": 10,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": "visited:barn",
+   "home": "barn"
+  },
+  {
+   "id": "clerk_seraphine",
+   "name": "Clerk Seralda",
+   "rarity": "LEGENDARY",
+   "level": 10,
+   "wants": [
+    "SUGAR_CANE"
+   ],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "bartender",
+   "name": "Bartender",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "cold_enjoyer",
+   "name": "Cold Enjoyer",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [
+    "CACTUS",
+    "INK_SACK:3"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "dalbrek",
+   "name": "Dolbrin",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "duncan",
+   "name": "Dunstan",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [
+    "MELON"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "emissary_sisko",
+   "name": "Emissary Sorrel",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:crystal_hollows",
+   "home": "crystal_hollows"
+  },
+  {
+   "id": "puzzler",
+   "name": "Puzzler",
+   "rarity": "RARE",
+   "level": 10,
+   "wants": [
+    "CARROT_ITEM"
+   ],
+   "entity": "VILLAGER",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "carrot_king_avatar",
+   "name": "Root Monarch Avatar",
+   "rarity": "LEGENDARY",
+   "level": 11,
+   "wants": [
+    "CARROT_ITEM",
+    "LUCKY_CLOVER"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_aatrox",
+   "name": "Mayor Vexmar",
+   "rarity": "LEGENDARY",
+   "level": 11,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_foxy",
+   "name": "Mayor Pip",
+   "rarity": "LEGENDARY",
+   "level": 11,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "mayor_marina",
+   "name": "Mayor Coralie",
+   "rarity": "LEGENDARY",
+   "level": 11,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "tal_ker",
+   "name": "Tal Vorn",
+   "rarity": "LEGENDARY",
+   "level": 11,
+   "wants": [
+    "MOONFLOWER"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:dwarven_mines",
+   "home": "dwarven_mines"
+  },
+  {
+   "id": "mayor_diaz",
+   "name": "Mayor Mercer",
+   "rarity": "LEGENDARY",
+   "level": 12,
+   "wants": [
+    "POTATO_ITEM"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "pest_wrangler",
+   "name": "Pest Wrangler?",
+   "rarity": "LEGENDARY",
+   "level": 12,
+   "wants": [
+    "CHEESE_FUEL"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "chief_scorn",
+   "name": "Chief Sneer",
+   "rarity": "LEGENDARY",
+   "level": 13,
+   "wants": [
+    "NETHER_STALK"
+   ],
+   "entity": "WITCH",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "elle",
+   "name": "Elia",
+   "rarity": "LEGENDARY",
+   "level": 13,
+   "wants": [
+    "HUGE_MUSHROOM_2"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": "visited:crimson_isle",
+   "home": "crimson_isle"
+  },
+  {
+   "id": "jerry",
+   "name": "Gerald",
+   "rarity": "LEGENDARY",
+   "level": 13,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "madame_eleanor_q_goldsworth_iii",
+   "name": "Curator Ottoline Vane",
+   "rarity": "LEGENDARY",
+   "level": 13,
+   "wants": [
+    "ENCHANTED_GOLDEN_CARROT"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "sirius",
+   "name": "Ashgrave",
+   "rarity": "LEGENDARY",
+   "level": 13,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "ravenous_rhino",
+   "name": "Ravenous Rhino",
+   "rarity": "MYTHIC",
+   "level": 13,
+   "wants": [
+    "BREAD",
+    "CAKE"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "maeve",
+   "name": "Maelis",
+   "rarity": "MYTHIC",
+   "level": 14,
+   "wants": [
+    "CROPIE",
+    "SQUASH",
+    "FERMENTO"
+   ],
+   "entity": "MANNEQUIN",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "taylor",
+   "name": "Tailor Clementine",
+   "rarity": "MYTHIC",
+   "level": 14,
+   "wants": [
+    "DEEPFRIES",
+    "SALTED_SUNFLOWER_SEEDS",
+    "ENCHANTED_BAKED_POTATO",
+    "FLORAL_GELATIN",
+    "MELON_JUICE",
+    "COMPACTED_WILD_ROSE"
+   ],
+   "entity": "WANDERING_TRADER",
+   "requirement": null,
+   "home": null
+  },
+  {
+   "id": "ludleth",
+   "name": "Ludwick",
+   "rarity": "MYTHIC",
+   "level": 15,
+   "wants": [],
+   "entity": "MANNEQUIN",
+   "requirement": "garden:unique:100",
+   "home": null
+  },
+  {
+   "id": "spaceman",
+   "name": "Spaceman",
+   "rarity": "SPECIAL",
+   "level": 15,
+   "wants": [],
+   "entity": "WANDERING_TRADER",
+   "requirement": "garden:unique:75",
+   "home": null
+  }
+ ],
+ "bonus": {
+  "global": [
+   {
+    "item": "HYPERCHARGE_GARDEN_CHIP",
+    "chance": 0.03
+   },
+   {
+    "item": "QUICKDRAW_GARDEN_CHIP",
+    "chance": 0.03
+   },
+   {
+    "item": "FLOWERING_BOUQUET",
+    "chance": 0.02
+   },
+   {
+    "item": "GREEN_BANDANA",
+    "chance": 0.004,
+    "minRarity": "RARE"
+   },
+   {
+    "item": "OVERGROWN_GRASS",
+    "chance": 0.001
+   }
+  ],
+  "special": {
+   "carpenter": [
+    {
+     "item": "GREENHOUSE_BLUEPRINT",
+     "chance": 1.0,
+     "once": true,
+     "minLevel": 7
+    }
+   ],
+   "spaceman": [
+    {
+     "item": "DCTR_SPACE_HELM",
+     "chance": 0.05
+    }
+   ],
+   "jacob": [
+    {
+     "item": "ENCHANTMENT_CULTIVATING_1",
+     "chance": 0.05
+    }
+   ],
+   "anita": [
+    {
+     "item": "ENCHANTMENT_DEDICATION_4",
+     "chance": 0.0004
+    }
+   ],
+   "farmhand": [
+    {
+     "item": "ENCHANTMENT_REPLENISH_1",
+     "chance": 0.05
+    }
+   ],
+   "librarian": [
+    {
+     "item": "ENCHANTMENT_DELICATE_5",
+     "chance": 0.05
+    }
+   ],
+   "maeve": [
+    {
+     "item": "ENCHANTMENT_GREEN_THUMB_1",
+     "chance": 0.25
+    }
+   ],
+   "ludleth": [
+    {
+     "item": "ENCHANTMENT_DEDICATION_4",
+     "chance": 0.05
+    }
+   ],
+   "taylor": [
+    {
+     "item": "ENCHANTMENT_DEDICATION_4",
+     "chance": 0.02
+    }
+   ]
+  }
+ },
+ "rarities": {
+  "UNCOMMON": {
+   "weight": 70,
+   "gardenXp": 1,
+   "copperMin": 15,
+   "copperMax": 40,
+   "size": 1.0,
+   "bits": 0
+  },
+  "RARE": {
+   "weight": 22,
+   "gardenXp": 2,
+   "copperMin": 30,
+   "copperMax": 60,
+   "size": 1.3,
+   "bits": 1
+  },
+  "LEGENDARY": {
+   "weight": 7,
+   "gardenXp": 5,
+   "copperMin": 50,
+   "copperMax": 100,
+   "size": 1.8,
+   "bits": 2
+  },
+  "MYTHIC": {
+   "weight": 1,
+   "gardenXp": 10,
+   "copperMin": 100,
+   "copperMax": 200,
+   "size": 2.5,
+   "bits": 5
+  },
+  "SPECIAL": {
+   "weight": 1,
+   "gardenXp": 10,
+   "copperMin": 100,
+   "copperMax": 250,
+   "size": 2.0,
+   "bits": 5
+  }
+ }
+}

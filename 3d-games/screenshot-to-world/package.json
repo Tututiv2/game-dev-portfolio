@@ -1,0 +1,26 @@
+{
+  "name": "screenshot-ai-game-maker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Drag a photo in, walk around inside it.",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "app": "concurrently -k -s first \"vite\" \"wait-on tcp:5173 && electron .\"",
+    "build": "vite build",
+    "start": "electron .",
+    "debug": "vite --open /debug.html",
+    "shots": "node tests/shoot.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "electron": "^33.2.0",
+    "puppeteer-core": "^24.0.0",
+    "vite": "^6.0.0",
+    "wait-on": "^8.0.1"
+  },
+  "dependencies": {
+    "three": "^0.171.0"
+  }
+}

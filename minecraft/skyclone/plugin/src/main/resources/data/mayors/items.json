@@ -1,0 +1,634 @@
+[
+ {
+  "id": "GREEN_CANDY",
+  "name": "Green Candy",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dropped by mobs during the &6Spooky",
+   "&6Festival&7. Trade it at the &5Dread",
+   "&5Peddler&7. Worth &a1 &7festival point."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzA4ODM1NSwKICAicHJvZmlsZUlkIiA6ICIyMWNjMzkxZmNkMjc0NzY5OTg5Y2M3M2VjYWRiNTE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHT1NUTFk5NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzFjMGJkNzZhNjU1ZDVkOGZlYTViMDZkYWFmMWZiOGQ4MDYwYmYwODIzZWJiYzZlYjZmOTljOGVlNWEzNWFhIgogICAgfQogIH0KfQ==",
+  "npcSell": 500
+ },
+ {
+  "id": "PURPLE_CANDY",
+  "name": "Purple Candy",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The rarer sweet of the &6Spooky Festival&7.",
+   "&7Worth &a5 &7festival points."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzQxNDc0NTAyNSwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MTYxMWQ4NzRlODc0ZTMyMmExMTk5YjNiN2I5ZTkzNGJiYjBkYmVkNTg3ZWU4ZmNkNmNjYzFiMDdlMjgxNjUxIgogICAgfQogIH0KfQ==",
+  "npcSell": 5000
+ },
+ {
+  "id": "WHITE_GIFT",
+  "name": "White Gift",
+  "material": "PLAYER_HEAD",
+  "rarity": "COMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Hold it and right-click another player",
+   "&7to share it: you &bboth &7get the contents!"
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "eyJ0aW1lc3RhbXAiOjE1MTQzMjM1NTc0ODYsInByb2ZpbGVJZCI6IjcwOTU2NDU0NTJkOTRiYTI5YzcwZDFmYTY3YjhkYTQyIiwicHJvZmlsZU5hbWUiOiJIaWRkdXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwZjUzOTg1MTBiMWEwNWFmYzViMjAxZWFkOGJmYzU4M2U1N2Q3MjAyZjUxOTNiMGI3NjFmY2JkMGFlMiJ9fX0="
+ },
+ {
+  "id": "GREEN_GIFT",
+  "name": "Green Gift",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7A sturdier present from the &bWinter",
+   "&bWorkshop&7. Right-click another player to",
+   "&7open it together."
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTE4OTkwMTI3MywKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2ZjVjMTczOGQ1NTFjY2Y0NGZhYzJlODQ3ZmI1ZDZlOTY4M2E2NmMxZGI0YTAyMjNmZDQ1N2E4YmU5ZWI3NmYiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "RED_GIFT",
+  "name": "Red Gift",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7The best present of the season. Right-click",
+   "&7another player to open it together."
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzAwMjIxMjY2MCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0OWIyZjA4YWM0ZTk4NGVjOTk5YjVlZTI2NDg1NGNjNmE2ZGZmMjNjYmM5NzU3OGVkMTA1MjFmZGNkMGU4MzIiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "NEW_YEAR_CAKE",
+  "name": "New Year Cake",
+  "material": "CAKE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Handed out by the &eBaker &7once every",
+   "&7SkyBlock year during the &dNew Year",
+   "&dCelebration&7. Collectors keep every year."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "npcSell": 100,
+  "glow": true,
+  "extra": {
+   "collectible": "new_year"
+  }
+ },
+ {
+  "id": "SPOOKY_PIE",
+  "name": "Spooky Pie",
+  "material": "PUMPKIN_PIE",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A keepsake baked for everyone who earned",
+   "&7points in a &6Spooky Festival&7."
+  ],
+  "tags": [
+   "museum"
+  ],
+  "glow": true,
+  "extra": {
+   "collectible": "spooky"
+  }
+ },
+ {
+  "id": "HORSEMAN_CANDLE",
+  "name": "Rider's Candle",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Light it in the &cGraveyard &7at night to call",
+   "&7the &cHeadless Rider&7."
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0Mjc0Nzk4NiwKICAicHJvZmlsZUlkIiA6ICJlOTUyODY0OGZhYzU0ZDdlOGI0ZGU1NDhiMzU3MDY5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwNjAwMDEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ2Zjc0NjliN2Q5Y2MzNGM4OTkwYTBhZGQ2MzU4NDE5MTdhZjg5Y2E1MmNhZmRkZTU3NTAwN2QxYThjMzk4ZSIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "GRIFFIN_FEATHER",
+  "name": "Griffin Feather",
+  "material": "FEATHER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dug out of a &eGriffin Burrow&7. Still soft",
+   "&7after centuries in the ground."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 5000
+ },
+ {
+  "id": "ANCIENT_CLAW",
+  "name": "Ancient Claw",
+  "material": "FLINT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Torn from a &2Mythological &7creature.",
+   "&7Used in mythic crafting."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 200
+ },
+ {
+  "id": "ENCHANTED_ANCIENT_CLAW",
+  "name": "Enchanted Ancient Claw",
+  "material": "FLINT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7160 &9Ancient Claws &7pressed into one."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 32000,
+  "glow": true
+ },
+ {
+  "id": "DAEDALUS_STICK",
+  "name": "Labyrinth Rod",
+  "material": "STICK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A very rare drop from &2Minotaurs&7.",
+   "&7The heart of a famous blade."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1000000,
+  "glow": true
+ },
+ {
+  "id": "ANCESTRAL_SPADE",
+  "name": "Ancestral Spade",
+  "material": "WOODEN_SHOVEL",
+  "rarity": "RARE",
+  "category": "SHOVEL",
+  "lore": [
+   "&7Reveals and digs &eGriffin Burrows &7in the",
+   "&7Hub while the &2Mythological Ritual &7runs.",
+   "",
+   "&7Burrow chain length: &a4",
+   "",
+   "&7A burrow may hold:",
+   "&8 ● &cMonsters",
+   "&8 ● &fGriffin Feathers",
+   "&8 ● &6Coins"
+  ],
+  "tags": [],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "mayors_spade_echo",
+    "name": "Echo",
+    "trigger": "RIGHT_CLICK",
+    "cooldown": 3,
+    "lore": [
+     "&7Points you toward your next &eburrow&7,",
+     "&7or reveals a fresh chain."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ARCHAIC_SPADE",
+  "name": "Archaic Spade",
+  "material": "STONE_SHOVEL",
+  "rarity": "EPIC",
+  "category": "SHOVEL",
+  "lore": [
+   "&7Reveals and digs &eGriffin Burrows &7in the",
+   "&7Hub while the &2Mythological Ritual &7runs.",
+   "",
+   "&7Burrow chain length: &a6",
+   "",
+   "&7A burrow may hold:",
+   "&8 ● &cMonsters",
+   "&8 ● &fGriffin Feathers",
+   "&8 ● &6Coins",
+   "&8 ● &9Mythos Fragments"
+  ],
+  "tags": [],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "mayors_spade_echo",
+    "name": "Echo",
+    "trigger": "RIGHT_CLICK",
+    "cooldown": 2,
+    "lore": [
+     "&7Points you toward your next &eburrow&7,",
+     "&7or reveals a fresh chain."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DEIFIC_SPADE",
+  "name": "Deific Spade",
+  "material": "GOLDEN_SHOVEL",
+  "rarity": "LEGENDARY",
+  "category": "SHOVEL",
+  "lore": [
+   "&7Reveals and digs &eGriffin Burrows &7in the",
+   "&7Hub while the &2Mythological Ritual &7runs.",
+   "",
+   "&7Burrow chain length: &a8",
+   "",
+   "&7A burrow may hold:",
+   "&8 ● &cMonsters",
+   "&8 ● &fGriffin Feathers",
+   "&8 ● &6Coins",
+   "&8 ● &9Mythos Fragments",
+   "&8 ● &5Braided Griffin Feathers"
+  ],
+  "tags": [],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "mayors_spade_echo",
+    "name": "Echo",
+    "trigger": "RIGHT_CLICK",
+    "cooldown": 1,
+    "lore": [
+     "&7Points you toward your next &eburrow&7,",
+     "&7or reveals a fresh chain."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "STOCK_OF_STONKS",
+  "name": "Share of Stonks",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Won at the &6Stonks Auction &7while the",
+   "&6Economist &7governs. Traders swap them",
+   "&7for rare goods."
+  ],
+  "tags": [
+   "bazaar"
+  ]
+ },
+ {
+  "id": "JERRY_BOX_GREEN",
+  "name": "Green Gerald Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Dropped by a hidden &aGerald&7.",
+   "&7Holds &6coins&7, &3skill XP &7and odd trinkets.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTc2NDYzMjI3MCwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhZGY2M2ExODYzMmFmNzJkY2VjYzA1ZDlhNWFkYjYwYzY4YTE4ZmZiYjU4ZTM2YWM0M2IxMGNlYjkzNGE3YiIKICAgIH0KICB9Cn0="
+ },
+ {
+  "id": "JERRY_BOX_BLUE",
+  "name": "Blue Gerald Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Dropped by a hidden &9Gerald&7.",
+   "&7Holds &6coins&7, &3skill XP &7and odd trinkets.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTc2NDY1Mzc1OSwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhYzMxMWZhYjdhYzczNzgyYjIyMTIwMGU2Y2Q0YWNiYmIyMTdjNjJlNzg3YjIxMzYzNWQ1ZTUyZjc1YzM3MmIiCiAgICB9CiAgfQp9"
+ },
+ {
+  "id": "JERRY_BOX_PURPLE",
+  "name": "Purple Gerald Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Dropped by a hidden &5Gerald&7.",
+   "&7Holds &6coins&7, &3skill XP &7and odd trinkets.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDA2NzUzMiwKICAicHJvZmlsZUlkIiA6ICI2NGVkZjMxNTljZGY0ODBmYTZmY2UzYzA0NzlmNzUwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYW1lc2t5MTIzNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hM2Y3NWM1MjgxY2NiYjc2NzU5ZmRkNTcxMDYxMjBlYjljMWRiMTI4YjM4NmQ0MzhlMDY1OWYzMTJlYjcxNWE1IgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "JERRY_BOX_GOLDEN",
+  "name": "Golden Gerald Box",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7Dropped by a hidden &6Gerald&7.",
+   "&7Holds &6coins&7, &3skill XP &7and odd trinkets.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "bazaar",
+   "usable"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzM2NjY2NjczNiwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkZTZkNjc4ZWU4MmZhNWFlOWVkYTNmYTMzZDM5YTQxNDEzZThkZWU0NDM2ZjNlYjUxYmQ4OTcxMzIxZjc5IgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SIEGE_SNOWBALL",
+  "name": "Packed Snowball",
+  "material": "SNOWBALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The only thing that hurts a &cGift Thief&7.",
+   "&7Handed out at the &bWinter Workshop&7."
+  ],
+  "tags": [
+   "throwable",
+   "no_ah"
+  ]
+ },
+ {
+  "id": "NORTH_STAR",
+  "name": "North Star",
+  "material": "NETHER_STAR",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Earned defending the &bWinter Workshop&7.",
+   "&7Spend them at the workshop emporium."
+  ],
+  "tags": [
+   "no_ah"
+  ],
+  "glow": true
+ },
+ {
+  "id": "PARTY_CHEST",
+  "name": "Party Chest",
+  "material": "CHEST",
+  "rarity": "RARE",
+  "category": "CONSUMABLE",
+  "lore": [
+   "&7A treat-stuffed chest from a festival mob.",
+   "",
+   "&eRight-click to open!"
+  ],
+  "tags": [
+   "usable"
+  ]
+ },
+ {
+  "id": "ZOMBIE_MASK",
+  "name": "Zombie Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Exanimate Blessing",
+   "&7Increases the stats of Undead",
+   "&7armor pieces by +5%.",
+   "",
+   "&8Guh."
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjMyNTQ5NiwKICAicHJvZmlsZUlkIiA6ICJmYjNhZTU0OTU3ODQ0MGVlODIzODJlMDY2MzlhYTkzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXZWx0ZXJ3ZWlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJmYjY1NjUwODJkOWYyZjdhYjhhNThlYzhiNDU0OTA5MTEwMmE3Mjk0NGI5NTZjN2FhZmU0ZDJkNDljZDZkNyIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 1
+  }
+ },
+ {
+  "id": "SALMON_MASK",
+  "name": "Salmon Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Slippery Slope",
+   "&7Gain +10 Speed and +10 Fishing",
+   "&7Speed while in water.",
+   "",
+   "&8Not to be confused with a fish hat."
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI4MzIxMSwKICAicHJvZmlsZUlkIiA6ICJhNDAxZjEzMTZlMjI0ZTNjOTg0ODk1MmVjMzhjMTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVlbnNoZWVwaXJhdGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk2OTc0N2E1YmJjOWEzNjYxZmRlNjhkMzY5YWNmZmNhNTRjOWY5YjE5Zjk0ZGFhMzg3OTk3MDc5NjYyOTI0NCIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 1
+  }
+ },
+ {
+  "id": "ARMADILLO_MASK",
+  "name": "Armadillo Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Soiling! Soiling! Soiling!",
+   "&7Grants +50 Block Fortune.",
+   "",
+   "&8What does the Armadillo say?!"
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjIwMjU0NSwKICAicHJvZmlsZUlkIiA6ICIyNDc2OWQ0ODM1MDU0N2JmYjg4OThiZTJlYzQ5ODZiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJidXNfQTM4TyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjU5YTM0MmJlNGYxMzk5MzM0YzlhNDBlYzI1MDBiODFkMWU3M2FmZThmMjk2ZmU3NjcxMjVkZWRlYzM4ZTRmIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 1
+  }
+ },
+ {
+  "id": "PARROT_MASK",
+  "name": "Parrot Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Party Flock",
+   "&7Nearby players within 20 blocks gain",
+   "&7+1 Strength per upgrade of your",
+   "&7Intimidation Accessory.",
+   "",
+   "&8Squawk, squawk!"
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI2NDM0OCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NGI0M2ZhMzAwMThiMjc5NGNiODJjM2VhYzhhODllODdiMWEyMzA4MGZjZTgwYzUyMjQ2ZTMxYzUzOTQ3YzBkIgogICAgfQogIH0KfQ==",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 1
+  }
+ },
+ {
+  "id": "BEE_MASK",
+  "name": "Bee Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Buzzy Little Bee",
+   "&7Double the base pet stats of your",
+   "&7active Bee pet.",
+   "",
+   "&8Buzz, buzz!"
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjIyNDg1MywKICAicHJvZmlsZUlkIiA6ICI3ZjU2ZjY1MDI2NjY0ZmM1OWFjNWYyYjVjMTNlZGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXhBbnRvbnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0NTBmZjc4N2FiZDk2NmRlN2FlODhkYzhhODEyMTQ5YWM5MWRkZDhmMTIwODY2ZjY5MzlmMmExNzk5OWNkMCIKICAgIH0KICB9Cn0=",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 7,
+   "FORAGING_FORTUNE": 7,
+   "SPEED": 7
+  }
+ },
+ {
+  "id": "FROG_MASK",
+  "name": "Frog Mask",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "HELMET",
+  "lore": [
+   "&6Ability: Stick Around",
+   "&7A random Park region each SkyBlock",
+   "&7day grants +20 Foraging Fortune",
+   "&7and +5 Foraging Wisdom.",
+   "",
+   "&8Ribbit, ribbit!"
+  ],
+  "tags": [],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI0NzQ1NywKICAicHJvZmlsZUlkIiA6ICJmOTEyM2ZjOGQzMzg0OWMwOWFlMzk5YjQ2NDljZDRjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2VfX01heSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NzUyMmExZWFkZjg5OTZmNDJhOGQyZTVmYjBjYTliZmIzYWI0ODNkM2ZiYWY2OGVmMjlhNDJkZThjZWY3NGM1IgogICAgfQogIH0KfQ==",
+  "extra": {
+   "hook": "carnival_mask",
+   "carnivalMask": true
+  },
+  "stats": {
+   "HEALTH": 7,
+   "FORAGING_FORTUNE": 7,
+   "SPEED": 7
+  }
+ },
+ {
+  "id": "CARNIVAL_SHOVEL",
+  "name": "Carnival Shovel",
+  "material": "IRON_SHOVEL",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "lore": [
+   "&7Digs up &6fruit &7in the &6Fruit Digging",
+   "&7booth.",
+   "",
+   "&eDowsing Mode: &cMines",
+   "&7Tells you how many &cbombs &7touch",
+   "&7the square you dig.",
+   "",
+   "&eRight-click to change the Dowsing Mode!"
+  ],
+  "tags": [
+   "no_ah",
+   "no_trade",
+   "soulbound",
+   "no_reforge",
+   "carnival_tool"
+  ]
+ },
+ {
+  "id": "CARNIVAL_DART_TUBE",
+  "name": "Carnival Dart Tube",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "lore": [
+   "&6Ability: Phwomp  &e&lRIGHT CLICK",
+   "&7Fires a dart. Only the &cZombies &7of",
+   "&7the &cZombie Shootout &7mind it."
+  ],
+  "tags": [
+   "no_ah",
+   "no_trade",
+   "soulbound",
+   "no_reforge",
+   "carnival_tool"
+  ]
+ },
+ {
+  "id": "CARNIVAL_FISHING_ROD",
+  "name": "Carnival Rod",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "lore": [
+   "&7Hooks the &3fish &7of the &3Catch a Fish",
+   "&7pond. Hold &eRight-click &7to reel one in."
+  ],
+  "tags": [
+   "no_ah",
+   "no_trade",
+   "soulbound",
+   "no_reforge",
+   "carnival_tool"
+  ]
+ }
+]

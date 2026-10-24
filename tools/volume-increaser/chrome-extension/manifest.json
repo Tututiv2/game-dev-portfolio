@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Volume Increaser (tab boost)",
+  "version": "1.0.1",
+  "description": "Boosts audio/video in the page above 100% using Web Audio (same idea as other Chrome volume extensions).",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Volume Increaser",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

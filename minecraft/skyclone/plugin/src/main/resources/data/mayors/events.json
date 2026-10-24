@@ -1,0 +1,2303 @@
+{
+ "darkAuction": {
+  "_source": "research/05 §5.1",
+  "entryPurse": 400000,
+  "rounds": 5,
+  "darkerRounds": 7,
+  "previewSeconds": 5,
+  "bidSeconds": 10,
+  "lobbySeconds": 60,
+  "lots": [
+   {
+    "item": "ENDER_ARTIFACT",
+    "minBid": 20000000,
+    "weight": 10
+   },
+   {
+    "item": "WITHER_ARTIFACT",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "NETHER_ARTIFACT",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "MAGIC_8_BALL",
+    "minBid": 20000000,
+    "weight": 10
+   },
+   {
+    "item": "ECCENTRIC_PAINTING_BUNDLE",
+    "minBid": 20000000,
+    "weight": 10
+   },
+   {
+    "item": "HOCUS_POCUS_CIPHER",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "MIDAS_SWORD",
+    "minBid": 100000,
+    "weight": 10
+   },
+   {
+    "item": "TURTLE;3",
+    "minBid": 500000,
+    "weight": 5
+   },
+   {
+    "item": "PARROT;3",
+    "minBid": 1000000,
+    "weight": 5
+   },
+   {
+    "item": "JELLYFISH;3",
+    "minBid": 10000000,
+    "weight": 3
+   },
+   {
+    "item": "TURTLE;4",
+    "minBid": 1000000,
+    "weight": 3
+   },
+   {
+    "item": "PARROT;4",
+    "minBid": 1000000,
+    "weight": 3
+   },
+   {
+    "item": "JELLYFISH;4",
+    "minBid": 10000000,
+    "weight": 2
+   },
+   {
+    "item": "FLOWER_GENERATOR_1",
+    "minBid": 2500000,
+    "weight": 4
+   }
+  ],
+  "bookRound": [
+   {
+    "item": "ENCHANTMENT_SHARPNESS_6",
+    "minBid": 500000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_GIANT_KILLER_6",
+    "minBid": 500000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_PROTECTION_6",
+    "minBid": 500000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_GROWTH_6",
+    "minBid": 500000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_POWER_6",
+    "minBid": 500000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_VICIOUS_5",
+    "minBid": 10000000,
+    "weight": 3
+   }
+  ],
+  "darkerLots": [
+   {
+    "item": "ENCHANTMENT_PROTECTION_7",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_SHARPNESS_7",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_POWER_7",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_GROWTH_7",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_GIANT_KILLER_7",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "ENCHANTMENT_COUNTER_STRIKE_5",
+    "minBid": 10000000,
+    "weight": 10
+   },
+   {
+    "item": "MIDAS_STAFF",
+    "minBid": 100000,
+    "weight": 6
+   }
+  ],
+  "darkerFinal": [
+   {
+    "item": "PLASMA_NUCLEUS",
+    "minBid": 20000000,
+    "weight": 10
+   },
+   {
+    "item": "HEGEMONY_ARTIFACT",
+    "minBid": 100000000,
+    "weight": 4
+   }
+  ]
+ },
+ "zoo": {
+  "_source": "neu-repo ORINGO_NPC shop; research/05 §7.9 (rotation)",
+  "legendaryRotation": [
+   "GIRAFFE",
+   "ELEPHANT",
+   "TIGER",
+   "BLUE_WHALE",
+   "MONKEY",
+   "LION"
+  ],
+  "offers": [
+   {
+    "result": "GIRAFFE;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "LOG_2:64"
+    ]
+   },
+   {
+    "result": "GIRAFFE;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_ACACIA_LOG:1"
+    ]
+   },
+   {
+    "result": "GIRAFFE;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_ACACIA_LOG:16"
+    ]
+   },
+   {
+    "result": "GIRAFFE;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_ACACIA_LOG:128"
+    ]
+   },
+   {
+    "result": "GIRAFFE;4",
+    "amount": 1,
+    "coins": 10000000,
+    "cost": [
+     "ENCHANTED_ACACIA_LOG:512"
+    ]
+   },
+   {
+    "result": "BLUE_WHALE;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "RAW_FISH:64"
+    ]
+   },
+   {
+    "result": "BLUE_WHALE;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_RAW_FISH:1"
+    ]
+   },
+   {
+    "result": "BLUE_WHALE;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_RAW_FISH:16"
+    ]
+   },
+   {
+    "result": "BLUE_WHALE;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_COOKED_FISH:1"
+    ]
+   },
+   {
+    "result": "BLUE_WHALE;4",
+    "amount": 1,
+    "coins": 10000000,
+    "cost": [
+     "ENCHANTED_COOKED_FISH:8"
+    ]
+   },
+   {
+    "result": "TIGER;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "RAW_CHICKEN:128"
+    ]
+   },
+   {
+    "result": "TIGER;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_RAW_CHICKEN:2"
+    ]
+   },
+   {
+    "result": "TIGER;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_RAW_CHICKEN:32"
+    ]
+   },
+   {
+    "result": "TIGER;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_RAW_CHICKEN:256"
+    ]
+   },
+   {
+    "result": "TIGER;4",
+    "amount": 1,
+    "coins": 15000000,
+    "cost": [
+     "ENCHANTED_RAW_CHICKEN:1024"
+    ]
+   },
+   {
+    "result": "LION;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "RAW_BEEF:128"
+    ]
+   },
+   {
+    "result": "LION;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_RAW_BEEF:2"
+    ]
+   },
+   {
+    "result": "LION;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_RAW_BEEF:32"
+    ]
+   },
+   {
+    "result": "LION;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_RAW_BEEF:256"
+    ]
+   },
+   {
+    "result": "LION;4",
+    "amount": 1,
+    "coins": 15000000,
+    "cost": [
+     "ENCHANTED_RAW_BEEF:1024"
+    ]
+   },
+   {
+    "result": "MONKEY;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "LOG_2:64"
+    ]
+   },
+   {
+    "result": "MONKEY;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_JUNGLE_LOG:1"
+    ]
+   },
+   {
+    "result": "MONKEY;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_JUNGLE_LOG:16"
+    ]
+   },
+   {
+    "result": "MONKEY;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_JUNGLE_LOG:128"
+    ]
+   },
+   {
+    "result": "MONKEY;4",
+    "amount": 1,
+    "coins": 18000000,
+    "cost": [
+     "ENCHANTED_JUNGLE_LOG:512"
+    ]
+   },
+   {
+    "result": "ELEPHANT;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [
+     "LOG_2:64"
+    ]
+   },
+   {
+    "result": "ELEPHANT;1",
+    "amount": 1,
+    "coins": 25000,
+    "cost": [
+     "ENCHANTED_DARK_OAK_LOG:1"
+    ]
+   },
+   {
+    "result": "ELEPHANT;2",
+    "amount": 1,
+    "coins": 100000,
+    "cost": [
+     "ENCHANTED_DARK_OAK_LOG:16"
+    ]
+   },
+   {
+    "result": "ELEPHANT;3",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "ENCHANTED_DARK_OAK_LOG:128"
+    ]
+   },
+   {
+    "result": "ELEPHANT;4",
+    "amount": 1,
+    "coins": 15000000,
+    "cost": [
+     "ENCHANTED_DARK_OAK_LOG:512"
+    ]
+   }
+  ]
+ },
+ "spooky": {
+  "_source": "research/05 §7.6; neu-repo FEAR_MONGERER_NPC shop",
+  "baseCandyChance": 0.1,
+  "purpleShare": 0.1,
+  "greenPoints": 1,
+  "purplePoints": 5,
+  "trickOrTreatChance": 0.01,
+  "trickOrTreatSpookyChance": 0.03,
+  "shop": [
+   {
+    "result": "TRICK_OR_TREAT_BAG",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:1"
+    ]
+   },
+   {
+    "result": "POTION_SPIRIT;1",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:1"
+    ]
+   },
+   {
+    "result": "CANDY_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:16"
+    ]
+   },
+   {
+    "result": "POTION_MAGIC_FIND;1",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:10"
+    ]
+   },
+   {
+    "result": "BAT_RING",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "BAT_TALISMAN:1",
+     "GREEN_CANDY:64"
+    ]
+   },
+   {
+    "result": "CANDY_RING",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "CANDY_TALISMAN:1",
+     "GREEN_CANDY:64"
+    ]
+   },
+   {
+    "result": "BAT_FIREWORK",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:100"
+    ]
+   },
+   {
+    "result": "INTIMIDATION_RING",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "INTIMIDATION_TALISMAN:1",
+     "GREEN_CANDY:100"
+    ]
+   },
+   {
+    "result": "SUGAR_RUSH;1",
+    "amount": 1,
+    "coins": 250000,
+    "cost": [
+     "GREEN_CANDY:64"
+    ]
+   },
+   {
+    "result": "HORSEMAN_CANDLE",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:32"
+    ]
+   },
+   {
+    "result": "CANDY_ARTIFACT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "CANDY_RING:1",
+     "PURPLE_CANDY:32"
+    ]
+   },
+   {
+    "result": "SPOOKY_HELMET",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "SPOOKY_CHESTPLATE",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "SPOOKY_LEGGINGS",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "SPOOKY_BOOTS",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "BAT_ARTIFACT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "BAT_RING:1",
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "INTIMIDATION_ARTIFACT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "INTIMIDATION_RING:1",
+     "PURPLE_CANDY:100"
+    ]
+   },
+   {
+    "result": "LIFE_STEAL;4",
+    "amount": 1,
+    "coins": 1500000,
+    "cost": [
+     "PURPLE_CANDY:64"
+    ]
+   },
+   {
+    "result": "BLACK_CAT;4",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "PURPLE_CANDY:2000"
+    ]
+   },
+   {
+    "result": "CANDY_RELIC",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "CANDY_ARTIFACT:1",
+     "PURPLE_CANDY:1024"
+    ]
+   },
+   {
+    "result": "ECHOLOCATOR",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "GREEN_CANDY:32"
+    ]
+   }
+  ],
+  "brackets": [
+   {
+    "id": "top50",
+    "name": "Top 50",
+    "rank": 50,
+    "minPoints": 5000,
+    "coins": 1000000,
+    "items": [
+     "SKELETON_HORSE;4",
+     "WITCH_MASK",
+     "ENCHANTMENT_VAMPIRISM_6"
+    ],
+    "sbxp": 75
+   },
+   {
+    "id": "emerald",
+    "name": "Emerald",
+    "minPoints": 5000,
+    "coins": 750000,
+    "items": [
+     "WITCH_MASK",
+     "ENCHANTMENT_VAMPIRISM_6"
+    ],
+    "sbxp": 75
+   },
+   {
+    "id": "diamond",
+    "name": "Diamond",
+    "minPoints": 2000,
+    "coins": 500000,
+    "items": [
+     "WITCH_MASK",
+     "ENCHANTMENT_VAMPIRISM_5"
+    ],
+    "sbxp": 50
+   },
+   {
+    "id": "gold",
+    "name": "Gold",
+    "minPoints": 1750,
+    "coins": 250000,
+    "items": [
+     "ENCHANTMENT_VAMPIRISM_4"
+    ],
+    "sbxp": 40
+   },
+   {
+    "id": "iron",
+    "name": "Iron",
+    "minPoints": 1500,
+    "coins": 100000,
+    "items": [],
+    "sbxp": 30
+   },
+   {
+    "id": "stone",
+    "name": "Stone",
+    "minPoints": 500,
+    "coins": 50000,
+    "items": [],
+    "sbxp": 20,
+    "tune": true
+   },
+   {
+    "id": "wood",
+    "name": "Wood",
+    "minPoints": 100,
+    "coins": 20000,
+    "items": [],
+    "sbxp": 10,
+    "tune": true
+   }
+  ],
+  "candyBoosts": {
+   "armorSets": {
+    "spooky": 0.05,
+    "bat_person": 0.05
+   },
+   "accessories": {
+    "CANDY_RELIC": 0.2,
+    "CANDY_ARTIFACT": 0.15,
+    "CANDY_RING": 0.1,
+    "CANDY_TALISMAN": 0.05
+   },
+   "petBat": 0.2,
+   "_note": "Candy talisman/ring % are TUNE; relic/artifact/bat are research"
+  },
+  "partyChest": {
+   "chance": 0.005,
+   "green": [
+    3,
+    8
+   ],
+   "purple": [
+    0,
+    2
+   ],
+   "coins": [
+    1000,
+    5000
+   ]
+  }
+ },
+ "gifts": {
+  "WHITE_GIFT": {
+   "coins": [
+    1000,
+    5000
+   ],
+   "skillXp": [
+    500,
+    2000
+   ],
+   "northStars": [
+    0,
+    1
+   ],
+   "drops": [
+    {
+     "items": [
+      "SNOW_SUIT_HELMET"
+     ],
+     "chance": 0.00029
+    },
+    {
+     "items": [
+      "SNOW_SUIT_CHESTPLATE"
+     ],
+     "chance": 0.00044
+    },
+    {
+     "items": [
+      "SNOW_SUIT_LEGGINGS"
+     ],
+     "chance": 0.00044
+    },
+    {
+     "items": [
+      "SNOW_SUIT_BOOTS"
+     ],
+     "chance": 0.00029
+    },
+    {
+     "items": [
+      "GIFT_THE_FISH"
+     ],
+     "chance": 0.00059
+    },
+    {
+     "items": [
+      "PRESENTS"
+     ],
+     "chance": 0.00297
+    },
+    {
+     "items": [
+      "NUTCRACKER"
+     ],
+     "chance": 0.00297
+    },
+    {
+     "items": [
+      "BIG_XTREE"
+     ],
+     "chance": 0.00297
+    },
+    {
+     "items": [
+      "SANTA_PERSONALITY"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "GINGERBREAD_PERSONALITY"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "GRINCH_PERSONALITY"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "SCAVENGER;4"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "LUCK;6"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "LOOTING;4"
+     ],
+     "chance": 0.00371
+    },
+    {
+     "items": [
+      "SNOW_GENERATOR_1"
+     ],
+     "chance": 0.00446
+    },
+    {
+     "items": [
+      "BATTLE_DISC"
+     ],
+     "chance": 0.00892
+    },
+    {
+     "items": [
+      "WINTER_DISC"
+     ],
+     "chance": 0.00892
+    },
+    {
+     "items": [
+      "ICE_RUNE;1"
+     ],
+     "chance": 0.05948
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;2",
+      "POTION_MINING_XP_BOOST;2",
+      "POTION_COMBAT_XP_BOOST;2",
+      "POTION_ENCHANTING_XP_BOOST;2",
+      "POTION_FARMING_XP_BOOST;2",
+      "POTION_FORAGING_XP_BOOST;2",
+      "POTION_FISHING_XP_BOOST;2"
+     ],
+     "chance": 0.03718
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;1",
+      "POTION_MINING_XP_BOOST;1",
+      "POTION_COMBAT_XP_BOOST;1",
+      "POTION_ENCHANTING_XP_BOOST;1",
+      "POTION_FARMING_XP_BOOST;1",
+      "POTION_FORAGING_XP_BOOST;1",
+      "POTION_FISHING_XP_BOOST;1"
+     ],
+     "chance": 0.07436
+    }
+   ]
+  },
+  "GREEN_GIFT": {
+   "coins": [
+    5000,
+    20000
+   ],
+   "skillXp": [
+    2000,
+    8000
+   ],
+   "northStars": [
+    1,
+    2
+   ],
+   "drops": [
+    {
+     "items": [
+      "GOLD_GIFT"
+     ],
+     "chance": 0.0003
+    },
+    {
+     "items": [
+      "SNOW_SUIT_HELMET"
+     ],
+     "chance": 0.0006
+    },
+    {
+     "items": [
+      "SNOW_SUIT_CHESTPLATE"
+     ],
+     "chance": 0.0009
+    },
+    {
+     "items": [
+      "SNOW_SUIT_LEGGINGS"
+     ],
+     "chance": 0.0009
+    },
+    {
+     "items": [
+      "SNOW_SUIT_BOOTS"
+     ],
+     "chance": 0.0006
+    },
+    {
+     "items": [
+      "GIFT_THE_FISH"
+     ],
+     "chance": 0.00075
+    },
+    {
+     "items": [
+      "BOTTLE_OF_JYRRE"
+     ],
+     "chance": 0.00302
+    },
+    {
+     "items": [
+      "PRESENTS"
+     ],
+     "chance": 0.00302
+    },
+    {
+     "items": [
+      "NUTCRACKER"
+     ],
+     "chance": 0.00302
+    },
+    {
+     "items": [
+      "BIG_XTREE"
+     ],
+     "chance": 0.00302
+    },
+    {
+     "items": [
+      "SANTA_PERSONALITY"
+     ],
+     "chance": 0.00378
+    },
+    {
+     "items": [
+      "GINGERBREAD_PERSONALITY"
+     ],
+     "chance": 0.00378
+    },
+    {
+     "items": [
+      "GRINCH_PERSONALITY"
+     ],
+     "chance": 0.00378
+    },
+    {
+     "items": [
+      "SCAVENGER;4"
+     ],
+     "chance": 0.00453
+    },
+    {
+     "items": [
+      "LUCK;6"
+     ],
+     "chance": 0.00453
+    },
+    {
+     "items": [
+      "LOOTING;4"
+     ],
+     "chance": 0.00453
+    },
+    {
+     "items": [
+      "SNOW_GENERATOR_1"
+     ],
+     "chance": 0.00756
+    },
+    {
+     "items": [
+      "BATTLE_DISC"
+     ],
+     "chance": 0.00907
+    },
+    {
+     "items": [
+      "WINTER_DISC"
+     ],
+     "chance": 0.00907
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;1",
+      "POTION_MINING_XP_BOOST;1",
+      "POTION_COMBAT_XP_BOOST;1",
+      "POTION_ENCHANTING_XP_BOOST;1",
+      "POTION_FARMING_XP_BOOST;1",
+      "POTION_FORAGING_XP_BOOST;1",
+      "POTION_FISHING_XP_BOOST;1"
+     ],
+     "chance": 0.0189
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;3",
+      "POTION_MINING_XP_BOOST;3",
+      "POTION_COMBAT_XP_BOOST;3",
+      "POTION_ENCHANTING_XP_BOOST;3",
+      "POTION_FARMING_XP_BOOST;3",
+      "POTION_FORAGING_XP_BOOST;3",
+      "POTION_FISHING_XP_BOOST;3"
+     ],
+     "chance": 0.0189
+    },
+    {
+     "items": [
+      "ICE_RUNE;1"
+     ],
+     "chance": 0.06048
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;2",
+      "POTION_MINING_XP_BOOST;2",
+      "POTION_COMBAT_XP_BOOST;2",
+      "POTION_ENCHANTING_XP_BOOST;2",
+      "POTION_FARMING_XP_BOOST;2",
+      "POTION_FORAGING_XP_BOOST;2",
+      "POTION_FISHING_XP_BOOST;2"
+     ],
+     "chance": 0.0756
+    }
+   ]
+  },
+  "RED_GIFT": {
+   "coins": [
+    20000,
+    80000
+   ],
+   "skillXp": [
+    8000,
+    30000
+   ],
+   "northStars": [
+    2,
+    4
+   ],
+   "drops": [
+    {
+     "items": [
+      "DYE_HOLLY"
+     ],
+     "chance": 0.000125
+    },
+    {
+     "items": [
+      "SNOWMAN;4"
+     ],
+     "chance": 0.00025
+    },
+    {
+     "items": [
+      "CRYOPOWDER_SHARD"
+     ],
+     "chance": 0.00025
+    },
+    {
+     "items": [
+      "WINTER_ISLAND"
+     ],
+     "chance": 0.00025
+    },
+    {
+     "items": [
+      "KRAMPUS_HELMET"
+     ],
+     "chance": 0.001
+    },
+    {
+     "items": [
+      "GOLD_GIFT"
+     ],
+     "chance": 0.00125
+    },
+    {
+     "items": [
+      "SNOW_SUIT_HELMET"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "SNOW_SUIT_CHESTPLATE"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "SNOW_SUIT_LEGGINGS"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "SNOW_SUIT_BOOTS"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "GIFT_THE_FISH"
+     ],
+     "chance": 0.001
+    },
+    {
+     "items": [
+      "BOTTLE_OF_JYRRE"
+     ],
+     "chance": 0.01504
+    },
+    {
+     "items": [
+      "PRESENTS"
+     ],
+     "chance": 0.00501
+    },
+    {
+     "items": [
+      "NUTCRACKER"
+     ],
+     "chance": 0.00501
+    },
+    {
+     "items": [
+      "BIG_XTREE"
+     ],
+     "chance": 0.00501
+    },
+    {
+     "items": [
+      "SANTA_PERSONALITY"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "GINGERBREAD_PERSONALITY"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "GRINCH_PERSONALITY"
+     ],
+     "chance": 0.00627
+    },
+    {
+     "items": [
+      "SCAVENGER;4"
+     ],
+     "chance": 0.01003
+    },
+    {
+     "items": [
+      "LUCK;6"
+     ],
+     "chance": 0.01003
+    },
+    {
+     "items": [
+      "LOOTING;4"
+     ],
+     "chance": 0.01003
+    },
+    {
+     "items": [
+      "SNOW_GENERATOR_1"
+     ],
+     "chance": 0.0163
+    },
+    {
+     "items": [
+      "BATTLE_DISC"
+     ],
+     "chance": 0.01504
+    },
+    {
+     "items": [
+      "WINTER_DISC"
+     ],
+     "chance": 0.01504
+    },
+    {
+     "items": [
+      "LARGE_WINTER_SACK"
+     ],
+     "chance": 0.01755
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;3",
+      "POTION_MINING_XP_BOOST;3",
+      "POTION_COMBAT_XP_BOOST;3",
+      "POTION_ENCHANTING_XP_BOOST;3",
+      "POTION_FARMING_XP_BOOST;3",
+      "POTION_FORAGING_XP_BOOST;3",
+      "POTION_FISHING_XP_BOOST;3"
+     ],
+     "chance": 0.1254
+    },
+    {
+     "items": [
+      "ICE_RUNE;1"
+     ],
+     "chance": 0.10032
+    },
+    {
+     "items": [
+      "POTION_ALCHEMY_XP_BOOST;2",
+      "POTION_MINING_XP_BOOST;2",
+      "POTION_COMBAT_XP_BOOST;2",
+      "POTION_ENCHANTING_XP_BOOST;2",
+      "POTION_FARMING_XP_BOOST;2",
+      "POTION_FORAGING_XP_BOOST;2",
+      "POTION_FISHING_XP_BOOST;2"
+     ],
+     "chance": 0.03135
+    }
+   ]
+  }
+ },
+ "jerryBoxes": {
+  "JERRY_BOX_GREEN": {
+   "coins": [
+    5000,
+    25000
+   ],
+   "skillXp": [
+    500,
+    2000
+   ],
+   "drops": [
+    {
+     "items": [
+      "JERRY_TALISMAN_GREEN"
+     ],
+     "chance": 0.02
+    }
+   ]
+  },
+  "JERRY_BOX_BLUE": {
+   "coins": [
+    25000,
+    75000
+   ],
+   "skillXp": [
+    2000,
+    6000
+   ],
+   "drops": [
+    {
+     "items": [
+      "JERRY_TALISMAN_BLUE"
+     ],
+     "chance": 0.02
+    }
+   ]
+  },
+  "JERRY_BOX_PURPLE": {
+   "coins": [
+    75000,
+    300000
+   ],
+   "skillXp": [
+    6000,
+    20000
+   ],
+   "drops": [
+    {
+     "items": [
+      "JERRY_TALISMAN_PURPLE"
+     ],
+     "chance": 0.02
+    },
+    {
+     "items": [
+      "JERRY;3"
+     ],
+     "chance": 0.01
+    }
+   ]
+  },
+  "JERRY_BOX_GOLDEN": {
+   "coins": [
+    300000,
+    1000000
+   ],
+   "skillXp": [
+    20000,
+    60000
+   ],
+   "drops": [
+    {
+     "items": [
+      "JERRY_TALISMAN_GOLDEN"
+     ],
+     "chance": 0.02
+    },
+    {
+     "items": [
+      "JERRY;4"
+     ],
+     "chance": 0.02
+    }
+   ]
+  }
+ },
+ "myth": {
+  "chainLength": 4,
+  "mobChance": 0.75,
+  "radiusMin": 18,
+  "radiusMax": 55,
+  "chainBySpade": {
+   "ANCESTRAL_SPADE": 4,
+   "ARCHAIC_SPADE": 6,
+   "DEIFIC_SPADE": 8
+  },
+  "eruditeBonus": 2,
+  "chainMax": 10,
+  "pools": {
+   "1": {
+    "hunter": 1000,
+    "lynx": 1000
+   },
+   "2": {
+    "hunter": 1000,
+    "lynx": 1000,
+    "nymph": 800,
+    "bull": 800
+   },
+   "3": {
+    "hunter": 1000,
+    "lynx": 1000,
+    "nymph": 800,
+    "bull": 800,
+    "harpy": 600,
+    "gaia": 600
+   },
+   "4": {
+    "hunter": 1000,
+    "lynx": 1000,
+    "nymph": 800,
+    "bull": 800,
+    "harpy": 600,
+    "gaia": 600,
+    "minotaur": 400,
+    "champion": 400
+   },
+   "5": {
+    "hunter": 1000,
+    "lynx": 1000,
+    "nymph": 800,
+    "bull": 800,
+    "harpy": 600,
+    "gaia": 600,
+    "minotaur": 400,
+    "champion": 400,
+    "sphinx": 75,
+    "inquisitor": 75
+   },
+   "6": {
+    "hunter": 1000,
+    "lynx": 1000,
+    "nymph": 800,
+    "bull": 800,
+    "harpy": 600,
+    "gaia": 600,
+    "minotaur": 400,
+    "champion": 400,
+    "sphinx": 75,
+    "inquisitor": 75,
+    "manticore": 15,
+    "minos": 15
+   }
+  },
+  "treasure": {
+   "ANCESTRAL_SPADE": {
+    "coins": [
+     2500,
+     25000
+    ],
+    "drops": [
+     {
+      "items": [
+       "GRIFFIN_FEATHER"
+      ],
+      "chance": 0.6667
+     },
+     {
+      "items": [
+       "MYTH_THE_FISH"
+      ],
+      "chance": 0.0001
+     }
+    ]
+   },
+   "ARCHAIC_SPADE": {
+    "coins": [
+     5000,
+     50000
+    ],
+    "drops": [
+     {
+      "items": [
+       "GRIFFIN_FEATHER"
+      ],
+      "chance": 0.6667
+     },
+     {
+      "items": [
+       "MYTHOS_FRAGMENT"
+      ],
+      "chance": 0.01
+     },
+     {
+      "items": [
+       "MYTH_THE_FISH"
+      ],
+      "chance": 0.0001
+     }
+    ]
+   },
+   "DEIFIC_SPADE": {
+    "coins": [
+     10000,
+     100000
+    ],
+    "drops": [
+     {
+      "items": [
+       "GRIFFIN_FEATHER"
+      ],
+      "chance": 0.6667
+     },
+     {
+      "items": [
+       "MYTHOS_FRAGMENT"
+      ],
+      "chance": 0.02
+     },
+     {
+      "items": [
+       "BRAIDED_GRIFFIN_FEATHER"
+      ],
+      "chance": 0.002
+     },
+     {
+      "items": [
+       "MYTH_THE_FISH"
+      ],
+      "chance": 0.0001
+     }
+    ]
+   }
+  },
+  "shop": [
+   {
+    "result": "GRIFFIN;0",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [],
+    "tune": true
+   },
+   {
+    "result": "ANCESTRAL_SPADE",
+    "amount": 1,
+    "coins": 10000,
+    "cost": [],
+    "tune": true
+   }
+  ]
+ },
+ "newYear": {
+  "_source": "research/05 §7.8; neu-repo BAKER_NPC",
+  "shop": [
+   {
+    "result": "NEW_YEAR_CAKE_BAG",
+    "amount": 1,
+    "coins": 250000,
+    "cost": []
+   }
+  ]
+ },
+ "winter": {
+  "_source": "neu-repo EINARY_NPC (North Stars) + SHERRY_NPC (coins); siege TUNE (research/05 §7.7: 5 rounds)",
+  "einary": [
+   {
+    "result": "WHITE_GIFT_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:20"
+    ]
+   },
+   {
+    "result": "GREEN_GIFT_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:40",
+     "WHITE_GIFT_TALISMAN:1"
+    ]
+   },
+   {
+    "result": "BLUE_GIFT_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:60",
+     "GREEN_GIFT_TALISMAN:1"
+    ]
+   },
+   {
+    "result": "PURPLE_GIFT_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:100",
+     "BLUE_GIFT_TALISMAN:1"
+    ]
+   },
+   {
+    "result": "GOLD_GIFT_TALISMAN",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:200",
+     "PURPLE_GIFT_TALISMAN:1",
+     "GOLD_GIFT:1"
+    ]
+   },
+   {
+    "result": "REINDEER;4",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:60"
+    ]
+   },
+   {
+    "result": "SNOW_CLOAK",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "SNOW_BELT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "SNOW_GLOVES",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "SNOW_NECKLACE",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "ICE_GENERATOR_12",
+    "amount": 1,
+    "coins": 1000000,
+    "cost": [
+     "NORTH_STAR:300",
+     "ICE_GENERATOR_11:1",
+     "ENCHANTED_ICE:1024"
+    ]
+   },
+   {
+    "result": "SNOW_GENERATOR_12",
+    "amount": 1,
+    "coins": 2000000,
+    "cost": [
+     "NORTH_STAR:500",
+     "SNOW_GENERATOR_11:1",
+     "ENCHANTED_SNOW_BLOCK:1024"
+    ]
+   },
+   {
+    "result": "ULTIMATE_REFRIGERATE;1",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10",
+     "VOLCANIC_ROCK:1"
+    ]
+   },
+   {
+    "result": "MAGIC_TOP_HAT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:500",
+     "VOLCANIC_ROCK:10"
+    ]
+   },
+   {
+    "result": "WINTER_FRAGMENT",
+    "amount": 2,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10",
+     "VOLCANIC_ROCK:1"
+    ]
+   },
+   {
+    "result": "LUCK;6",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "LOOTING;4",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   },
+   {
+    "result": "SCAVENGER;4",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "NORTH_STAR:10"
+    ]
+   }
+  ],
+  "sherry": [
+   {
+    "result": "FESTIVE_SINKER",
+    "amount": 1,
+    "coins": 40000,
+    "cost": []
+   },
+   {
+    "result": "ICE_BAIT",
+    "amount": 1,
+    "coins": 12,
+    "cost": []
+   },
+   {
+    "result": "BOTTLE_OF_JYRRE",
+    "amount": 1,
+    "coins": 50000,
+    "cost": []
+   },
+   {
+    "result": "FROSTY_SNOW_BALL",
+    "amount": 1,
+    "coins": 75000,
+    "cost": []
+   },
+   {
+    "result": "ICE",
+    "amount": 1,
+    "coins": 1,
+    "cost": []
+   },
+   {
+    "result": "PACKED_ICE",
+    "amount": 1,
+    "coins": 9,
+    "cost": []
+   },
+   {
+    "result": "LARGE_WINTER_SACK",
+    "amount": 1,
+    "coins": 250000,
+    "cost": []
+   }
+  ],
+  "siege": {
+   "rounds": 5,
+   "breakSeconds": 120,
+   "roundSeconds": 600,
+   "waves": [
+    {
+     "siege_lava_imp": 8,
+     "siege_gift_thief": 3
+    },
+    {
+     "siege_lava_imp": 10,
+     "siege_molten_brute": 2,
+     "siege_gift_thief": 4
+    },
+    {
+     "siege_lava_imp": 12,
+     "siege_molten_brute": 4,
+     "siege_gift_thief": 5
+    },
+    {
+     "siege_lava_imp": 12,
+     "siege_molten_brute": 6,
+     "siege_gift_thief": 6
+    },
+    {
+     "siege_molten_brute": 6,
+     "siege_gift_thief": 6,
+     "siege_lava_behemoth": 1
+    }
+   ],
+   "hpPerRound": 0.5,
+   "northStarsPerRound": 1,
+   "redTop": 1,
+   "greenShare": 0.25,
+   "stolenForNoRed": 3
+  }
+ },
+ "stonks": {
+  "_source": "research/05 §5.3; stock formula TUNE",
+  "minBid": 2000000,
+  "coinsPerStock": 2000000,
+  "shop": [
+   {
+    "result": "GOLDEN_BOUNTY",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "STOCK_OF_STONKS:20"
+    ]
+   },
+   {
+    "result": "AVARICIOUS_CHALICE",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "STOCK_OF_STONKS:50"
+    ]
+   },
+   {
+    "result": "GOLDEN_FRAGMENT",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "STOCK_OF_STONKS:3"
+    ]
+   },
+   {
+    "result": "FRESHLY_MINTED_COINS",
+    "amount": 1,
+    "coins": 0,
+    "cost": [
+     "STOCK_OF_STONKS:1"
+    ]
+   }
+  ]
+ },
+ "carnival": {
+  "ticketsPerDay": 25,
+  "gameCost": 5,
+  "digs": 15,
+  "tokensPerPoint": 0.01,
+  "digSeconds": 300,
+  "shootSeconds": 100,
+  "fishSeconds": 100,
+  "grid": {
+   "DRAGONFRUIT": 1,
+   "MANGO": 10,
+   "COCONUT": 3,
+   "APPLE": 8,
+   "CHERRY": 2,
+   "POMEGRANATE": 4,
+   "DURIAN": 2,
+   "WATERMELON": 4,
+   "BOMB": 10,
+   "RUM": 5
+  },
+  "points": {
+   "DRAGONFRUIT": 1200,
+   "DURIAN": 800,
+   "MANGO": 300,
+   "APPLE": 0,
+   "WATERMELON": 100,
+   "POMEGRANATE": 200,
+   "COCONUT": 200,
+   "CHERRY": 200,
+   "BOMB": 0,
+   "RUM": 0
+  },
+  "goals": [
+   {
+    "id": "fruit_play",
+    "game": "FRUIT",
+    "kind": "plays",
+    "target": 3,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Play &a3 games &7of &6Fruit Digging&7."
+   },
+   {
+    "id": "fruit_score",
+    "game": "FRUIT",
+    "kind": "score",
+    "target": 3000,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Reach &a3,000 score &7in a single game of &6Fruit Digging&7."
+   },
+   {
+    "id": "fruit_apples",
+    "game": "FRUIT",
+    "kind": "apples",
+    "target": 3,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Dig up &a3 Apples &7in a single game of &6Fruit Digging&7."
+   },
+   {
+    "id": "fruit_unique",
+    "game": "FRUIT",
+    "kind": "unique",
+    "target": 5,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Dig up &a5 unique fruits &7in a single game of &6Fruit Digging&7."
+   },
+   {
+    "id": "fruit_dragonfruit",
+    "game": "FRUIT",
+    "kind": "dragonfruit",
+    "target": 1,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Dig up a &dDragonfruit&7."
+   },
+   {
+    "id": "fish_play",
+    "game": "FISH",
+    "kind": "plays",
+    "target": 3,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Play &a3 games &7of &3Catch a Fish&7."
+   },
+   {
+    "id": "fish_score",
+    "game": "FISH",
+    "kind": "score",
+    "target": 3000,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Reach &a3,000 score &7in a single game of &3Catch a Fish&7."
+   },
+   {
+    "id": "fish_caught",
+    "game": "FISH",
+    "kind": "caught",
+    "target": 30,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Catch &a30 Fish &7in a single game of &3Catch a Fish&7."
+   },
+   {
+    "id": "fish_yellow",
+    "game": "FISH",
+    "kind": "yellow",
+    "target": 5,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Catch &a5 Yellow Fish &7in a single game of &3Catch a Fish&7."
+   },
+   {
+    "id": "fish_streak",
+    "game": "FISH",
+    "kind": "streak",
+    "target": 5,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Reach a &a5 Catch Streak &7in a single game of &3Catch a Fish&7."
+   },
+   {
+    "id": "shoot_play",
+    "game": "SHOOT",
+    "kind": "plays",
+    "target": 3,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Play &a3 games &7of &cZombie Shootout&7."
+   },
+   {
+    "id": "shoot_score",
+    "game": "SHOOT",
+    "kind": "score",
+    "target": 3000,
+    "tokens": 50,
+    "tickets": 5,
+    "text": "Reach &a3,000 score &7in a single game of &cZombie Shootout&7."
+   },
+   {
+    "id": "shoot_zombies",
+    "game": "SHOOT",
+    "kind": "kills",
+    "target": 60,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Shoot &a60 Zombies &7in a single game of &cZombie Shootout&7."
+   },
+   {
+    "id": "shoot_diamond",
+    "game": "SHOOT",
+    "kind": "diamond",
+    "target": 5,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Shoot &a5 Diamond Zombies &7in a single game of &cZombie Shootout&7."
+   },
+   {
+    "id": "shoot_lamps",
+    "game": "SHOOT",
+    "kind": "lamps",
+    "target": 5,
+    "tokens": 100,
+    "tickets": 5,
+    "text": "Shoot &a5 Redstone Lamps &7in a single game of &cZombie Shootout&7."
+   }
+  ],
+  "perks": [
+   {
+    "id": "candy_scavenger",
+    "event": "spooky_festival",
+    "name": "Candy Scavenger",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 2,
+    "unit": "%",
+    "effect": "more Candy"
+   },
+   {
+    "id": "spooky_hook",
+    "event": "spooky_festival",
+    "name": "Spooky Savant",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 1,
+    "unit": "%",
+    "effect": "Spooky Sea Creature chance"
+   },
+   {
+    "id": "purple_vogue",
+    "event": "spooky_festival",
+    "name": "Purple Vogue",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 1,
+    "unit": "%",
+    "effect": "chance Green Candy is Purple"
+   },
+   {
+    "id": "trick_or_treat_enthusiast",
+    "event": "spooky_festival",
+    "name": "Treat Seeker",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 0.5,
+    "unit": "%",
+    "effect": "Trick-or-Treat chest chance"
+   },
+   {
+    "id": "icy_hook",
+    "event": "season_of_jerry",
+    "name": "Icy Hook",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 0.5,
+    "unit": "",
+    "effect": "Sea Creature Chance on the Winter Workshop"
+   },
+   {
+    "id": "present_connoissuer",
+    "event": "season_of_jerry",
+    "name": "Present Connoisseur",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 2,
+    "unit": "%",
+    "effect": "more Gifts from the siege"
+   },
+   {
+    "id": "professional_gifter",
+    "event": "season_of_jerry",
+    "name": "Professional Gifter",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 5,
+    "unit": "%",
+    "effect": "Coins and Skill XP from Gifts"
+   },
+   {
+    "id": "red_fad",
+    "event": "season_of_jerry",
+    "name": "Red Fad",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 1,
+    "unit": "%",
+    "effect": "Red Gift chance"
+   },
+   {
+    "id": "fishing_prodigy",
+    "event": "fishing_festival",
+    "name": "Fishing Prodigy",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 2,
+    "unit": "",
+    "effect": "Fishing Wisdom during the festival"
+   },
+   {
+    "id": "shark_sonar",
+    "event": "fishing_festival",
+    "name": "Shark Sonar",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 1,
+    "unit": "%",
+    "effect": "Shark catch chance"
+   },
+   {
+    "id": "denture_collector",
+    "event": "fishing_festival",
+    "name": "Denture Collector",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 10,
+    "unit": "%",
+    "effect": "more Shark Teeth"
+   },
+   {
+    "id": "elasmobranchii_affinity",
+    "event": "fishing_festival",
+    "name": "Shark Affinity",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 50,
+    "unit": "%",
+    "effect": "extra Shark Fin chance"
+   },
+   {
+    "id": "refined_mind",
+    "event": "mining_fiesta",
+    "name": "Refined Mind",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 2,
+    "unit": "%",
+    "effect": "Refined Mineral and Glossy Gemstone finds"
+   },
+   {
+    "id": "fortunate_festivity",
+    "event": "mining_fiesta",
+    "name": "Fortunate Festivity",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 5,
+    "unit": "",
+    "effect": "Mining Fortune during the fiesta"
+   },
+   {
+    "id": "powder_hoarder",
+    "event": "mining_fiesta",
+    "name": "Powder Hoarder",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 2,
+    "unit": "%",
+    "effect": "more Powder"
+   },
+   {
+    "id": "titanium_tenacity",
+    "event": "mining_fiesta",
+    "name": "Titanium Tenacity",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 3,
+    "unit": "%",
+    "effect": "Titanium find chance"
+   },
+   {
+    "id": "storied_stinger",
+    "event": "mythological_ritual",
+    "name": "Storied Stinger",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 5,
+    "unit": "%",
+    "effect": "damage to Mythological creatures"
+   },
+   {
+    "id": "deadly_greed",
+    "event": "mythological_ritual",
+    "name": "Deadly Greed",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 2,
+    "unit": "%",
+    "effect": "Coins from Griffin Burrows"
+   },
+   {
+    "id": "dianas_favor",
+    "event": "mythological_ritual",
+    "name": "Huntress's Favor",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 1,
+    "unit": "",
+    "effect": "Magic Find against Mythological creatures"
+   },
+   {
+    "id": "elusive_hunter",
+    "event": "mythological_ritual",
+    "name": "Elusive Hunter",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 2.5,
+    "unit": "",
+    "effect": "Tracking"
+   },
+   {
+    "id": "natural_talent",
+    "event": "harvest_feast",
+    "name": "Natural Talent",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 1,
+    "unit": "%",
+    "effect": "Seasoning find chance"
+   },
+   {
+    "id": "fortunate_feasting",
+    "event": "harvest_feast",
+    "name": "Fortunate Feasting",
+    "costs": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "perTier": 5,
+    "unit": "",
+    "effect": "Farming Fortune during the feast"
+   },
+   {
+    "id": "feast_crashers",
+    "event": "harvest_feast",
+    "name": "Feast Crashers",
+    "costs": [
+     100,
+     200,
+     400
+    ],
+    "perTier": 2,
+    "unit": "",
+    "effect": "Bonus Pest Chance"
+   },
+   {
+    "id": "leftovers",
+    "event": "harvest_feast",
+    "name": "Leftovers",
+    "costs": [
+     100,
+     1000
+    ],
+    "perTier": 1,
+    "unit": "",
+    "effect": "Feast Flasks"
+   }
+  ],
+  "shop": [
+   {
+    "result": "CARNIVAL_MASK_BAG",
+    "tokens": 250
+   },
+   {
+    "result": "ZOMBIE_MASK",
+    "tokens": 500
+   },
+   {
+    "result": "SALMON_MASK",
+    "tokens": 500
+   },
+   {
+    "result": "ARMADILLO_MASK",
+    "tokens": 1000
+   },
+   {
+    "result": "PARROT_MASK",
+    "tokens": 1000
+   },
+   {
+    "result": "BEE_MASK",
+    "tokens": 2000
+   },
+   {
+    "result": "FROG_MASK",
+    "tokens": 2000
+   }
+  ]
+ },
+ "_notes": {
+  "gifts": "neu-repo WHITE/GREEN/RED_GIFT drop tables; coin and skill XP ranges TUNE (the gift talismans' lore says gifts give both)",
+  "jerryBoxes": "TUNE: research names coins, skill XP and jerry items only",
+  "carnival": "wave 5: reference wiki (Fruit Digging / Zombie Shootout / Catch a Fish / Carnival / Doug / Carnival Token): 7x7 sand, 15 digs, 5 min; 34 fruit + 10 bombs + 5 rum; 100 s shootout and fishing; 5 tickets a game; 1 token per 100 points; goals 50/100 tokens + 5 tickets. Spawn pacing of zombies/fish/lamps is TUNE.",
+  "myth": "wave 5: reference wiki (Mythological Ritual): 75% creature / 25% treasure per burrow, chain 4/6/8 by spade (+2 with the Erudite reforge, max 10), creature weights by Griffin rarity, Ancestral treasure = Griffin Feather 2/3 else 2,500-25,000 coins, Myth the Fish 1/10,000. Archaic/Deific treasure scaling is TUNE."
+ }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Map editor — Lumber Tycoon Clone</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; }
+    #me-ui {
+      position: fixed;
+      left: 12px;
+      top: 12px;
+      z-index: 10;
+      width: min(380px, 96vw);
+      max-height: min(90vh, 620px);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 14px 16px;
+      background: rgba(18, 20, 26, 0.94);
+      color: #e8eaed;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+      font-size: 13px;
+    }
+    #me-ui h1 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
+    #me-ui p { margin: 0 0 8px; opacity: 0.88; line-height: 1.45; font-size: 12px; }
+    #me-ui .me-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+    #me-ui .me-tools button {
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: pointer;
+      font-size: 11px;
+      font-family: inherit;
+      background: #2a3038;
+      color: #e8eaed;
+    }
+    #me-ui .me-tools button:hover { filter: brightness(1.1); }
+    #me-ui .me-tools button.me-active {
+      background: #2d6a4f;
+      border-color: rgba(120, 200, 150, 0.45);
+      color: #fff;
+    }
+    #me-tree-texture-sub {
+      display: none;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin: 4px 0 8px;
+      padding: 8px 10px;
+      background: rgba(0,0,0,0.28);
+      border-radius: 8px;
+      font-size: 11px;
+    }
+    #me-tree-texture-sub .me-sub-label { opacity: 0.9; margin-right: 4px; }
+    #me-tree-texture-sub button {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.14);
+      cursor: pointer;
+      font-size: 11px;
+      font-family: inherit;
+      background: #2a3038;
+      color: #e8eaed;
+    }
+    #me-tree-texture-sub button.me-skin-active {
+      background: #3d5a80;
+      border-color: rgba(140, 180, 255, 0.4);
+      color: #fff;
+    }
+    #me-ui button.me-action {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: inherit;
+      background: #2d6a4f;
+      color: #fff;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+    #me-ui button.secondary { background: #3a4048; }
+    #me-ui button.danger { background: #6a3038; }
+    #me-gizmo-modes {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 14px;
+      font-size: 12px;
+      margin: 4px 0 8px;
+      padding: 8px 10px;
+      background: rgba(0,0,0,0.25);
+      border-radius: 8px;
+    }
+    #me-gizmo-modes label {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+    #me-output {
+      width: 100%;
+      min-height: 140px;
+      flex: 1;
+      font-family: ui-monospace, monospace;
+      font-size: 10px;
+      line-height: 1.35;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #444;
+      background: #0e1014;
+      color: #9cf;
+      resize: vertical;
+    }
+    #me-list {
+      font-size: 12px;
+      max-height: 100px;
+      overflow-y: auto;
+      padding: 6px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    a.back { color: #8cf; font-size: 12px; }
+    code { font-size: 11px; background: rgba(0,0,0,0.35); padding: 1px 5px; border-radius: 4px; }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="me-ui">
+    <h1>Map editor</h1>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px;padding:8px 10px;background:rgba(0,0,0,0.28);border-radius:8px;border:1px solid rgba(255,255,255,0.1);font-size:12px;">
+      <label style="display:flex;align-items:center;gap:6px;">
+        <span style="opacity:0.9;">Editing planet</span>
+        <select id="me-planet-select" style="min-width:160px;padding:5px 8px;border-radius:6px;background:#1b2130;color:#e8eaed;border:1px solid #557;font-size:12px;"></select>
+      </label>
+      <button type="button" class="me-action secondary" id="me-planet-add" title="Add an empty world; switch to it">Add planet…</button>
+      <span style="opacity:0.82;font-size:11px;max-width:100%;">The JSON field <code>defaultPlanetId</code> is whichever planet is selected here when the map saves — the game loads that world’s slice until in-game planet switching exists.</span>
+    </div>
+    <p style="padding:8px 10px;background:rgba(255,180,80,0.12);border-radius:8px;border:1px solid rgba(255,200,120,0.25);font-size:11px;line-height:1.5;">
+      <strong>How saving works:</strong>
+      <strong>Save now</strong> and auto-save write to <em>this browser’s storage</em> (not a file on your drive).
+      To keep a copy on disk, click <strong>Download .json</strong> — that saves <code>lumber-map.json</code> in your Downloads folder. Use <strong>Import .json</strong> to load it back after clearing storage or on another PC.
+      <br/><strong>In the actual game</strong> the <strong>green sell ring</strong>, <strong>placed props</strong> (slab, block, strip, <strong>conveyor</strong>), <strong>chat labels</strong>, <strong>land plots</strong> (Bob’s purchasable lots — <code>plotSites</code> in JSON), and <strong>trees</strong> (new game) load from this map. The <strong>shop interior</strong> (Bob, Rob, shelves, counter) still comes from game code. If you define no land plots, the game falls back to four default lots.
+    </p>
+    <p>
+      The <strong>shop</strong> preview (walls, dock, Bob) matches the game visually. The bright <strong>green ring</strong> is the sell zone — click it (without Shift) to move or scale it. Use <strong>Stretch</strong> to resize the sell radius.
+      <strong>Shift+click</strong> ground places trees/props. Gizmo appears only after you <strong>click</strong> an item again (not right after placing).
+      Orbit by dragging. <kbd>Delete</kbd> removes selection (sell zone cannot be deleted).
+      <strong>Ctrl+Z</strong> undo · <strong>Ctrl+C</strong> copy selection · <strong>Ctrl+V</strong> paste (offset).
+      <strong>Ctrl+click</strong> conveyors to multi-select and batch-rotate belt direction.
+      <strong>F2</strong> edits chat text or <strong>lot name</strong> when a label / land plot is selected.
+    </p>
+    <div style="margin:6px 0 10px;padding:10px 12px;background:rgba(70,120,200,0.12);border-radius:8px;border:1px solid rgba(120,160,255,0.25);font-size:12px;line-height:1.45;">
+      <strong>Terrain</strong> — procedural heightmap saved in map JSON as <code>terrain</code> (hides flat grass preview here; the game matches this mesh visually). Physics still use a flat ground until planet/collision work lands.
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;">
+        <button type="button" class="me-action secondary" id="me-gen-terrain">Generate terrain</button>
+        <button type="button" class="me-action secondary" id="me-clear-terrain">Remove terrain</button>
+      </div>
+    </div>
+    <div class="me-tools" title="What Shift+click places">
+      <button type="button" id="me-tool-tree">Tree</button>
+      <button type="button" id="me-tool-slab">Grey slab</button>
+      <button type="button" id="me-tool-block">Block</button>
+      <button type="button" id="me-tool-strip">Strip</button>
+      <button type="button" id="me-tool-ramp">Ramp</button>
+      <button type="button" id="me-tool-conveyor">Conveyor</button>
+      <button type="button" id="me-tool-label">Chat / text</button>
+      <button type="button" id="me-tool-landPlot">Land plot</button>
+    </div>
+    <div id="me-tree-texture-sub" aria-label="Tree bark style for new trees">
+      <span class="me-sub-label">Tree bark (new placements):</span>
+      <button type="button" id="me-tree-skin-wood">Classic wood</button>
+      <button type="button" id="me-tree-skin-dark">Black + neon cuts</button>
+      <button type="button" id="me-tree-skin-void">Wood + purple neon</button>
+    </div>
+    <div id="me-gizmo-modes">
+      <span style="opacity:0.85;">Gizmo:</span>
+      <label><input type="radio" name="me-gizmo" id="me-mode-translate" checked /> Move</label>
+      <label><input type="radio" name="me-gizmo" id="me-mode-rotate" /> Rotate</label>
+      <label><input type="radio" name="me-gizmo" id="me-mode-scale" /> Stretch</label>
+    </div>
+    <div id="me-conveyor-batch" style="display:none;margin:8px 0;padding:10px 12px;background:rgba(255,180,80,0.12);border-radius:8px;border:1px solid rgba(255,200,120,0.28);font-size:12px;line-height:1.45;">
+      <strong style="color:#ffd699;">Conveyor belt</strong>
+      <span id="me-conveyor-batch-count" style="opacity:0.9;">0</span> selected — orange arrow = belt travel (−local Z; wood slides along the arrow). <strong>Ctrl+click</strong> to add more conveyors, then rotate all together:
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;">
+        <button type="button" class="me-action" id="me-conveyor-rot-90" title="Rotate belt +90° around Y">+90°</button>
+        <button type="button" class="me-action" id="me-conveyor-rot-m90" title="Rotate belt −90° around Y">−90°</button>
+        <button type="button" class="me-action" id="me-conveyor-rot-180" title="Flip belt direction 180°">180°</button>
+      </div>
+    </div>
+    <p id="me-save-status" style="margin:0;font-size:11px;color:#9cf;line-height:1.4;">
+      Your map auto-saves to this browser. Download a file for backups / updates.
+    </p>
+    <div>
+      <button type="button" class="me-action secondary" id="me-delete">Delete selected</button>
+      <button type="button" class="me-action" id="me-export">Refresh export</button>
+      <button type="button" class="me-action secondary" id="me-copy">Copy JSON</button>
+      <button type="button" class="me-action" id="me-download">Download .json</button>
+      <label for="me-import-file" class="me-action secondary" style="display:inline-block;cursor:pointer;margin-right:6px;">
+        Import .json
+      </label>
+      <input type="file" id="me-import-file" accept=".json,application/json" style="display:none" />
+      <button type="button" class="me-action" id="me-apply-game" title="Force-save to browser storage (usually not needed)">Save now</button>
+      <button type="button" class="me-action danger" id="me-clear">Clear all</button>
+    </div>
+    <div id="me-list"></div>
+    <textarea id="me-output" readonly spellcheck="false"></textarea>
+    <p style="margin:0;font-size:11px;opacity:0.85;">
+      Map JSON auto-saves in this browser and reloads in the editor next time. For a permanent backup you control, use <strong>Download .json</strong> and keep the file somewhere safe (e.g. your project folder).
+    </p>
+    <p style="margin:0;"><a class="back" href="./index.html">← Back to game</a>
+      · <a class="back" href="./prefab-editor.html">Prefab editor</a>
+      · <a class="back" href="./universe-editor.html">Universe editor</a></p>
+  </div>
+  <script type="module" src="./map-editor.js"></script>
+</body>
+</html>

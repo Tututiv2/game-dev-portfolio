@@ -1,0 +1,5449 @@
+[
+ {
+  "id": "WOOD_PICKAXE",
+  "name": "Wooden Pickaxe",
+  "material": "WOODEN_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 1,
+   "MINING_SPEED": 70
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "npcSell": 1.0,
+  "damage": 15
+ },
+ {
+  "id": "STONE_PICKAXE",
+  "name": "Stone Pickaxe",
+  "material": "STONE_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 2,
+   "MINING_SPEED": 110
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "npcSell": 2.0,
+  "damage": 20
+ },
+ {
+  "id": "IRON_PICKAXE",
+  "name": "Iron Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 3,
+   "MINING_SPEED": 160
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "npcSell": 4.0,
+  "damage": 25
+ },
+ {
+  "id": "GOLD_PICKAXE",
+  "name": "Golden Pickaxe",
+  "material": "GOLDEN_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 1,
+   "MINING_SPEED": 250
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "npcSell": 6.0,
+  "damage": 15
+ },
+ {
+  "id": "DIAMOND_PICKAXE",
+  "name": "Diamond Pickaxe",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 4,
+   "MINING_SPEED": 220
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "npcSell": 12.0,
+  "damage": 30
+ },
+ {
+  "id": "NETHERITE_PICKAXE",
+  "name": "Netherite Pickaxe",
+  "material": "NETHERITE_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 4,
+   "MINING_SPEED": 260
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "tune": "not in the reference; one step above diamond"
+  },
+  "damage": 35
+ },
+ {
+  "id": "ROOKIE_PICKAXE",
+  "name": "Rookie Pickaxe",
+  "material": "STONE_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 2,
+   "MINING_SPEED": 150,
+   "ORE_FORTUNE": 5
+  },
+  "lore": [
+   "&7A sturdy first pick sold to every",
+   "&7new miner."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 2.0,
+  "damage": 15
+ },
+ {
+  "id": "PROMISING_PICKAXE",
+  "name": "Promising Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 3,
+   "MINING_SPEED": 50
+  },
+  "lore": [
+   "&7Stored Potential: gains &6+10 ⸕ Mining",
+   "&6Speed &7for every &a100 &7blocks you mine",
+   "&7with it, up to &6+250&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 10.0,
+  "extra": {
+   "storedPotential": {
+    "perBlocks": 100,
+    "speed": 10,
+    "max": 250
+   }
+  },
+  "damage": 20
+ },
+ {
+  "id": "ZOMBIE_PICKAXE",
+  "name": "Zombie Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "COMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 3,
+   "MINING_SPEED": 190
+  },
+  "lore": [
+   "&7Rotten: &6+5 ☘ Mining Fortune &7for",
+   "&7every undead mob within &a30 &7blocks of",
+   "&7you (max &6+25&7)."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "undeadFortune": {
+    "per": 5,
+    "max": 25,
+    "radius": 30
+   }
+  }
+ },
+ {
+  "id": "LAPIS_PICKAXE",
+  "name": "Lapis Pickaxe",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 4,
+   "MINING_SPEED": 200
+  },
+  "lore": [
+   "&7Has a &a25% &7chance to double the",
+   "&7experience orbs you get from ores."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 256.0,
+  "extra": {
+   "doubleExpChance": 0.25
+  },
+  "damage": 20
+ },
+ {
+  "id": "STONK_PICKAXE",
+  "name": "Lucky Pick",
+  "material": "GOLDEN_PICKAXE",
+  "rarity": "EPIC",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 1,
+   "MINING_SPEED": 380
+  },
+  "lore": [
+   "&7A gaudy golden pick that cuts end",
+   "&7stone like butter and sometimes",
+   "&7finds a little extra."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 9999.0,
+  "extra": {
+   "endStoneBonus": 0.05
+  }
+ },
+ {
+  "id": "JUNGLE_PICKAXE",
+  "name": "Jungle Pickaxe",
+  "material": "WOODEN_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 330
+  },
+  "lore": [
+   "&7Sometimes turns up &aSludge Juice",
+   "&a&7while you mine in the jungle of the",
+   "&7crystal caverns."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:4"
+  ],
+  "extra": {
+   "sludgeChance": 0.01
+  },
+  "damage": 50
+ },
+ {
+  "id": "FRACTURED_MITHRIL_PICKAXE",
+  "name": "Fractured Mithril Pickaxe",
+  "material": "STONE_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 225,
+   "MINING_FORTUNE": 2
+  },
+  "lore": [
+   "&7Cracked, but it still bites into",
+   "&7mithril."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 500.0,
+  "damage": 30
+ },
+ {
+  "id": "BANDAGED_MITHRIL_PICKAXE",
+  "name": "Bandaged Mithril Pickaxe",
+  "material": "STONE_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 250,
+   "MINING_FORTUNE": 4
+  },
+  "lore": [
+   "&7Patched together and holding, for",
+   "&7now."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:2"
+  ],
+  "npcSell": 500.0,
+  "damage": 30
+ },
+ {
+  "id": "MITHRIL_PICKAXE",
+  "name": "Mithril Pickaxe",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 300,
+   "MINING_FORTUNE": 7
+  },
+  "lore": [
+   "&7A proper dwarven pick, forged from",
+   "&7mithril."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:2"
+  ],
+  "npcSell": 400.0,
+  "damage": 40
+ },
+ {
+  "id": "REFINED_MITHRIL_PICKAXE",
+  "name": "Refined Mithril Pickaxe",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "RARE",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 350,
+   "MINING_FORTUNE": 10
+  },
+  "lore": [
+   "&7Mithril, refined until it shines."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:3"
+  ],
+  "npcSell": 5000.0,
+  "damage": 50
+ },
+ {
+  "id": "RUSTY_TITANIUM_PICKAXE",
+  "name": "Rusty Titanium Pickaxe",
+  "material": "WOODEN_PICKAXE",
+  "rarity": "UNCOMMON",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 100
+  },
+  "lore": [
+   "&7Grants &6+25 ☘ Mining Fortune &7when",
+   "&7mining &fTitanium&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "npcSell": 2500.0,
+  "extra": {
+   "titaniumFortune": 25
+  },
+  "damage": 55
+ },
+ {
+  "id": "TITANIUM_PICKAXE",
+  "name": "Titanium Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "RARE",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 6,
+   "MINING_SPEED": 140
+  },
+  "lore": [
+   "&7Grants &6+50 ☘ Mining Fortune &7when",
+   "&7mining &fTitanium&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:3"
+  ],
+  "npcSell": 5000.0,
+  "extra": {
+   "titaniumFortune": 50
+  },
+  "damage": 60
+ },
+ {
+  "id": "REFINED_TITANIUM_PICKAXE",
+  "name": "Polished Titanium Pickaxe",
+  "material": "IRON_PICKAXE",
+  "rarity": "RARE",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 6,
+   "MINING_SPEED": 200
+  },
+  "lore": [
+   "&7Grants &6+100 ☘ Mining Fortune &7when",
+   "&7mining &fTitanium&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:4"
+  ],
+  "npcSell": 14500.0,
+  "extra": {
+   "titaniumFortune": 100
+  },
+  "damage": 65
+ },
+ {
+  "id": "PICKONIMBUS",
+  "name": "Stratopick 2000",
+  "material": "DIAMOND_PICKAXE",
+  "rarity": "EPIC",
+  "category": "PICKAXE",
+  "stats": {
+   "BREAKING_POWER": 8,
+   "MINING_SPEED": 750
+  },
+  "lore": [
+   "&7A cloud-light pick that shatters",
+   "&7after &a2,000 &7blocks."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:4"
+  ],
+  "npcSell": 12.0,
+  "extra": {
+   "uses": 2000
+  },
+  "damage": 30
+ },
+ {
+  "id": "GEMSTONE_GAUNTLET",
+  "name": "Gemstone Gauntlet",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "GAUNTLET",
+  "stats": {
+   "BREAKING_POWER": 8,
+   "MINING_SPEED": 800,
+   "STRENGTH": 50
+  },
+  "lore": [
+   "&7Mobs you hit on a mining island",
+   "&7spill rough copies of the gems",
+   "&7slotted in this gauntlet &8(2s",
+   "&8cooldown)&7. Killing mobs on a mining",
+   "&7island shaves &a0.5s &7per Perfect gem",
+   "&7off your Forge timers."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "enchantable",
+   "mining",
+   "pickaxe",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:6"
+  ],
+  "extra": {
+   "gauntlet": true
+  },
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxODUyMTY2MzY1NCwKICAicHJvZmlsZUlkIiA6ICIxZDUyMzNkMzg4NjI0YmFmYjAwZTMxNTBhN2FhM2E4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMDAwMDAwMDAwMDAwMDBKIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdiZjAxYzE5OGY2ZTE2OTY1ZTIzMDIzNWNkMjJhNWE5ZjRhNDBlNDA5NDEyMzQ0Nzg5NDhmZjlhNTZlNTE3NzUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "gemSlots": [
+   "JADE",
+   "AMBER",
+   "TOPAZ",
+   "SAPPHIRE",
+   "AMETHYST"
+  ],
+  "damage": 300
+ },
+ {
+  "id": "MITHRIL_DRILL_1",
+  "name": "Mithril Drill MK-I",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 5,
+   "MINING_SPEED": 450,
+   "MINING_FORTUNE": 15
+  },
+  "lore": [
+   "&7Grants &2+20% Mithril Powder&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:2"
+  ],
+  "npcSell": 7000.0,
+  "extra": {
+   "mithrilPowder": 20,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "damage": 65
+ },
+ {
+  "id": "MITHRIL_DRILL_2",
+  "name": "Mithril Drill MK-II",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 6,
+   "MINING_SPEED": 600,
+   "MINING_FORTUNE": 20
+  },
+  "lore": [
+   "&7Grants &2+40% Mithril Powder&7."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:3"
+  ],
+  "npcSell": 29000.0,
+  "extra": {
+   "mithrilPowder": 40,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "damage": 65
+ },
+ {
+  "id": "TITANIUM_DRILL_1",
+  "name": "Titanium Drill TX-1",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 7,
+   "MINING_SPEED": 700,
+   "MINING_FORTUNE": 25
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 36000.0,
+  "extra": {
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "damage": 75
+ },
+ {
+  "id": "TITANIUM_DRILL_2",
+  "name": "Titanium Drill TX-2",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 8,
+   "MINING_SPEED": 900,
+   "MINING_FORTUNE": 40
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 103200.0,
+  "extra": {
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "TITANIUM_DRILL_3",
+  "name": "Titanium Drill TX-3",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 9,
+   "MINING_SPEED": 1200,
+   "MINING_FORTUNE": 70
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 253000.0,
+  "extra": {
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "TITANIUM_DRILL_4",
+  "name": "Titanium Drill TX-4",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "LEGENDARY",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 9,
+   "MINING_SPEED": 1600,
+   "MINING_FORTUNE": 120
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:6"
+  ],
+  "extra": {
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE",
+   "MINING"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "GEMSTONE_DRILL_1",
+  "name": "Ruby Drill R-15",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 7,
+   "MINING_SPEED": 150,
+   "GEMSTONE_FORTUNE": 60,
+   "PRISTINE": 0.5
+  },
+  "lore": [
+   "&7Grants &d+5% Gemstone Powder &7and &6+800",
+   "&6⸕ Mining Speed &7when mining",
+   "&7gemstones."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:4"
+  ],
+  "npcSell": 253000.0,
+  "extra": {
+   "gemPowder": 5,
+   "gemSpeed": 800,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "GEMSTONE_DRILL_2",
+  "name": "Gemstone Drill G-52",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 8,
+   "MINING_SPEED": 300,
+   "GEMSTONE_FORTUNE": 80,
+   "PRISTINE": 1
+  },
+  "lore": [
+   "&7Grants &d+10% Gemstone Powder &7and &6+800",
+   "&6⸕ Mining Speed &7when mining",
+   "&7gemstones."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:4"
+  ],
+  "npcSell": 253000.0,
+  "extra": {
+   "gemPowder": 10,
+   "gemSpeed": 800,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "GEMSTONE_DRILL_3",
+  "name": "Topaz Drill T-12",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 9,
+   "MINING_SPEED": 450,
+   "GEMSTONE_FORTUNE": 100,
+   "PRISTINE": 1.5
+  },
+  "lore": [
+   "&7Grants &d+15% Gemstone Powder &7and &6+800",
+   "&6⸕ Mining Speed &7when mining",
+   "&7gemstones."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 253000.0,
+  "extra": {
+   "gemPowder": 15,
+   "gemSpeed": 800,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "GEMSTONE_DRILL_4",
+  "name": "Jasper Drill J-X",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 9,
+   "MINING_SPEED": 600,
+   "GEMSTONE_FORTUNE": 120,
+   "PRISTINE": 2
+  },
+  "lore": [
+   "&7Grants &d+20% Gemstone Powder &7and &6+800",
+   "&6⸕ Mining Speed &7when mining",
+   "&7gemstones."
+  ],
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:6"
+  ],
+  "npcSell": 253000.0,
+  "extra": {
+   "gemPowder": 20,
+   "gemSpeed": 800,
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "JADE"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "DIVAN_DRILL",
+  "name": "Varnas Drill",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "MYTHIC",
+  "category": "DRILL",
+  "stats": {
+   "BREAKING_POWER": 10,
+   "MINING_SPEED": 1800,
+   "MINING_FORTUNE": 150
+  },
+  "abilities": [
+   {
+    "id": "mining_pickaxe_ability",
+    "name": "Pickaxe Ability",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Fires the ability you picked in your",
+     "&5Heart of the Mountain&7. Choose it",
+     "&7with &e/hotm&7."
+    ]
+   }
+  ],
+  "tags": [
+   "drill",
+   "enchantable",
+   "mining",
+   "reforgeable"
+  ],
+  "requirements": [
+   "hotm:7"
+  ],
+  "extra": {
+   "drill": true,
+   "baseFuel": 3000
+  },
+  "glow": true,
+  "gemSlots": [
+   "AMBER",
+   "AMBER",
+   "JADE",
+   "JADE",
+   "MINING"
+  ],
+  "damage": 75
+ },
+ {
+  "id": "MITHRIL_DRILL_ENGINE",
+  "name": "Mithril-Plated Drill Engine",
+  "material": "PISTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&6+75 ⸕ Mining Speed",
+   "&6+5 ☘ Mining Fortune",
+   "",
+   "&7Fit it into the &aDrill Engine &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 45500.0,
+  "extra": {
+   "drillPart": "engine",
+   "speed": 75,
+   "fortune": 5
+  },
+  "glow": true
+ },
+ {
+  "id": "TITANIUM_DRILL_ENGINE",
+  "name": "Titanium-Plated Drill Engine",
+  "material": "STICKY_PISTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&6+150 ⸕ Mining Speed",
+   "&6+15 ☘ Mining Fortune",
+   "",
+   "&7Fit it into the &aDrill Engine &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 103000.0,
+  "extra": {
+   "drillPart": "engine",
+   "speed": 150,
+   "fortune": 15
+  },
+  "glow": true
+ },
+ {
+  "id": "RUBY_POLISHED_DRILL_ENGINE",
+  "name": "Ruby-Polished Drill Engine",
+  "material": "CRAFTER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&6+250 ⸕ Mining Speed",
+   "&6+30 ☘ Mining Fortune",
+   "",
+   "&7Fit it into the &aDrill Engine &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 103000.0,
+  "extra": {
+   "drillPart": "engine",
+   "speed": 250,
+   "fortune": 30
+  },
+  "glow": true
+ },
+ {
+  "id": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+  "name": "Sapphire-Polished Drill Engine",
+  "material": "DISPENSER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&6+400 ⸕ Mining Speed",
+   "&6+50 ☘ Mining Fortune",
+   "",
+   "&7Fit it into the &aDrill Engine &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:6"
+  ],
+  "npcSell": 103000.0,
+  "extra": {
+   "drillPart": "engine",
+   "speed": 400,
+   "fortune": 50
+  },
+  "glow": true
+ },
+ {
+  "id": "AMBER_POLISHED_DRILL_ENGINE",
+  "name": "Amber-Polished Drill Engine",
+  "material": "OBSERVER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&6+600 ⸕ Mining Speed",
+   "&6+100 ☘ Mining Fortune",
+   "",
+   "&7Fit it into the &aDrill Engine &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:7"
+  ],
+  "npcSell": 103000.0,
+  "extra": {
+   "drillPart": "engine",
+   "speed": 600,
+   "fortune": 100
+  },
+  "glow": true
+ },
+ {
+  "id": "MITHRIL_FUEL_TANK",
+  "name": "Mithril-Infused Fuel Tank",
+  "material": "CAULDRON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&210,000 &7max fuel",
+   "&a-2% &7Pickaxe Ability cooldown",
+   "",
+   "&7Fit it into the &aFuel Tank &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 35300.0,
+  "extra": {
+   "drillPart": "tank",
+   "capacity": 10000,
+   "cooldownCut": 2
+  },
+  "glow": true
+ },
+ {
+  "id": "TITANIUM_FUEL_TANK",
+  "name": "Titanium-Infused Fuel Tank",
+  "material": "CAULDRON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&225,000 &7max fuel",
+   "&a-4% &7Pickaxe Ability cooldown",
+   "",
+   "&7Fit it into the &aFuel Tank &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 46000.0,
+  "extra": {
+   "drillPart": "tank",
+   "capacity": 25000,
+   "cooldownCut": 4
+  },
+  "glow": true
+ },
+ {
+  "id": "GEMSTONE_FUEL_TANK",
+  "name": "Gemstone Fuel Tank",
+  "material": "CAULDRON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&250,000 &7max fuel",
+   "&a-6% &7Pickaxe Ability cooldown",
+   "",
+   "&7Fit it into the &aFuel Tank &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 103000.0,
+  "extra": {
+   "drillPart": "tank",
+   "capacity": 50000,
+   "cooldownCut": 6
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECTLY_CUT_FUEL_TANK",
+  "name": "Perfectly-Cut Fuel Tank",
+  "material": "CAULDRON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&2100,000 &7max fuel",
+   "&a-10% &7Pickaxe Ability cooldown",
+   "",
+   "&7Fit it into the &aFuel Tank &7slot at",
+   "&7the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:7"
+  ],
+  "extra": {
+   "drillPart": "tank",
+   "capacity": 100000,
+   "cooldownCut": 10
+  },
+  "glow": true
+ },
+ {
+  "id": "GOBLIN_OMELETTE",
+  "name": "Goblin Omelette",
+  "material": "PUMPKIN_PIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7A &a25% &7chance that a block costs no",
+   "&7fuel.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 20840.0,
+  "extra": {
+   "fuelSave": 0.25,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "GOBLIN_OMELETTE_PESTO",
+  "name": "Pesto Goblin Omelette",
+  "material": "PUMPKIN_PIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7A &a75% &7chance that a block costs no",
+   "&7fuel.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 20840.0,
+  "extra": {
+   "fuelSave": 0.75,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "GOBLIN_OMELETTE_SPICY",
+  "name": "Spicy Goblin Omelette",
+  "material": "PUMPKIN_PIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7Earn &a+20% &7more powder from every",
+   "&7source.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 20840.0,
+  "extra": {
+   "powder": 20,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "GOBLIN_OMELETTE_SUNNY_SIDE",
+  "name": "Sunny Side Goblin Omelette",
+  "material": "PUMPKIN_PIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7Grants &6+50 ☘ Mining Fortune&7, but the",
+   "&7drill burns &cfour times &7the fuel.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 20840.0,
+  "extra": {
+   "fortune": 50,
+   "fuelMult": 4,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "GOBLIN_OMELETTE_BLUE_CHEESE",
+  "name": "Blue Cheese Goblin Omelette",
+  "material": "PUMPKIN_PIE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7Adds &a+1 level &7to every Heart of the",
+   "&7Mountain perk you have unlocked.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "npcSell": 20840.0,
+  "extra": {
+   "perkLevels": 1,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "TUNGSTEN_KEYCHAIN",
+  "name": "Tungsten Regulator",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7Lowers your &c♨ Heat &7or &b❄ Cold &7by &a1",
+   "&a&7for every &a500 &7fuel burned.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:8"
+  ],
+  "extra": {
+   "tempPer": 500,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "STARFALL_SEASONING",
+  "name": "Starfall Seasoning",
+  "material": "SUGAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Drill Part",
+   "",
+   "&7Grants &6+25 ⸕ Mining Speed &7and &6+10 ☘",
+   "&6Mining Fortune&7, doubled within &a20",
+   "&a&7blocks of a Fallen Star.",
+   "",
+   "&7Fit it into the &aUpgrade Module &7slot",
+   "&7at the &2Drill Mechanic&7."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:2"
+  ],
+  "extra": {
+   "speed": 25,
+   "fortune": 10,
+   "starDouble": 20,
+   "drillPart": "module"
+  },
+  "glow": true
+ },
+ {
+  "id": "DIVAN_POWDER_COATING",
+  "name": "Varnas Powder Coating",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Apply it to a drill at the &2Drill",
+   "&2Mechanic &7for &6+500 ⸕ Mining Speed&7.",
+   "&7One coat per drill."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "coating": 500
+  },
+  "glow": true
+ },
+ {
+  "id": "VOLTA",
+  "name": "Charge Cell",
+  "material": "LIGHTNING_ROD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Machine Fuel",
+   "",
+   "&7Adds &2+10,000 Fuel &7to a drill at the",
+   "&7&2Drill Mechanic&7.",
+   "",
+   "&8Crackles with stored power."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1111.0,
+  "extra": {
+   "fuel": 10000
+  }
+ },
+ {
+  "id": "OIL_BARREL",
+  "name": "Oil Barrel",
+  "material": "BARREL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Machine Fuel",
+   "",
+   "&7Adds &2+10,000 Fuel &7to a drill at the",
+   "&7&2Drill Mechanic&7.",
+   "",
+   "&8Thick, black and very flammable."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1000.0,
+  "extra": {
+   "fuel": 10000
+  }
+ },
+ {
+  "id": "BIOFUEL",
+  "name": "Biofuel",
+  "material": "GREEN_DYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Machine Fuel",
+   "",
+   "&7Adds &2+3,000 Fuel &7to a drill at the",
+   "&7&2Drill Mechanic&7.",
+   "",
+   "&8Brewed from plants; burns clean."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 10000.0,
+  "extra": {
+   "fuel": 3000
+  }
+ },
+ {
+  "id": "DRILL_ENGINE",
+  "name": "Drill Motor",
+  "material": "PISTON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The beating heart of every drill.",
+   "&7Forged at the Forge."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 5884.0
+ },
+ {
+  "id": "FUEL_TANK",
+  "name": "Fuel Canister",
+  "material": "CAULDRON",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Holds the fuel that keeps a drill",
+   "&7turning."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 510.0
+ },
+ {
+  "id": "MITHRIL_ORE",
+  "name": "Mithril",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A blue-green metal the dwarves prize",
+   "&7above gold."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 8.0
+ },
+ {
+  "id": "TITANIUM_ORE",
+  "name": "Titanium",
+  "material": "IRON_NUGGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Bright, light and stubborn. Appears",
+   "&7where mithril has been worked."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 20.0
+ },
+ {
+  "id": "GLACITE",
+  "name": "Rimestone",
+  "material": "PACKED_ICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Ice so old and so cold it has turned",
+   "&7to stone."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 12.0
+ },
+ {
+  "id": "UMBER",
+  "name": "Umber",
+  "material": "BRICK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Earthy brown ore from the frozen",
+   "&7tunnels."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 10.0
+ },
+ {
+  "id": "TUNGSTEN",
+  "name": "Tungsten",
+  "material": "NETHERITE_SCRAP",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Dense grey ore from the frozen",
+   "&7tunnels."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 10.0
+ },
+ {
+  "id": "HARD_STONE",
+  "name": "Hard Stone",
+  "material": "STONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Compressed rock from the crystal",
+   "&7caverns."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 1.0
+ },
+ {
+  "id": "REFINED_MITHRIL",
+  "name": "Refined Mithril",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Mithril purified at the Forge."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 204800.0,
+  "glow": true
+ },
+ {
+  "id": "REFINED_TITANIUM",
+  "name": "Refined Titanium",
+  "material": "IRON_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Titanium purified at the Forge."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 51200.0,
+  "glow": true
+ },
+ {
+  "id": "REFINED_DIAMOND",
+  "name": "Refined Diamond",
+  "material": "DIAMOND",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Diamond pressed until it is",
+   "&7flawless."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 4096.0,
+  "glow": true
+ },
+ {
+  "id": "REFINED_UMBER",
+  "name": "Refined Umber",
+  "material": "BRICK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Umber purified at the Forge."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 256000.0,
+  "glow": true
+ },
+ {
+  "id": "REFINED_TUNGSTEN",
+  "name": "Refined Tungsten",
+  "material": "NETHERITE_SCRAP",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Tungsten purified at the Forge."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 256000.0,
+  "glow": true
+ },
+ {
+  "id": "GOLDEN_PLATE",
+  "name": "Golden Plate",
+  "material": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A thin sheet of gold, used in drill",
+   "&7making."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 3068.0,
+  "glow": true
+ },
+ {
+  "id": "MITHRIL_PLATE",
+  "name": "Mithril Plate",
+  "material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Layered mithril and titanium, beaten",
+   "&7flat."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 10108.0,
+  "glow": true
+ },
+ {
+  "id": "TUNGSTEN_PLATE",
+  "name": "Tungsten Plate",
+  "material": "POLISHED_BLACKSTONE_PRESSURE_PLATE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A heavy plate of refined tungsten."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "UMBER_PLATE",
+  "name": "Umber Plate",
+  "material": "CRIMSON_PRESSURE_PLATE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A warm plate of refined umber."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "PERFECT_PLATE",
+  "name": "Perfect Plate",
+  "material": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Three plates, fused into one that",
+   "&7never bends."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "GLACITE_JEWEL",
+  "name": "Rimestone Jewel",
+  "material": "HEART_OF_THE_SEA",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A frozen gem that never melts."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 2000.0
+ },
+ {
+  "id": "GLACITE_AMALGAMATION",
+  "name": "Rimestone Amalgam",
+  "material": "BLUE_ICE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Rimestone fused with the four",
+   "&7frozen-tunnel gems."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "GEMSTONE_MIXTURE",
+  "name": "Gemstone Mixture",
+  "material": "GUNPOWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Fine gems bound together with",
+   "&7something very sticky."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "GEMSTONE_CHAMBER",
+  "name": "Gemstone Chamber",
+  "material": "AMETHYST_CLUSTER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Unlocks an extra gemstone slot on",
+   "&7Varnas gear."
+  ],
+  "tags": [
+   "mining"
+  ]
+ },
+ {
+  "id": "GLOSSY_GEMSTONE",
+  "name": "Glossy Gemstone",
+  "material": "AMETHYST_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Its facets throw back a thousand",
+   "&7tiny reflections. Found while mining",
+   "&7gems during a Mining Jubilee."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 200000.0,
+  "glow": true
+ },
+ {
+  "id": "REFINED_MINERAL",
+  "name": "Refined Mineral",
+  "material": "GLOW_INK_SAC",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Comes out of the rock already pure.",
+   "&7Found while mining ores during a",
+   "&7Mining Jubilee."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 100000.0,
+  "glow": true
+ },
+ {
+  "id": "STARFALL",
+  "name": "Starfall",
+  "material": "FIREWORK_STAR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A shard of a fallen star, still",
+   "&7faintly warm."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 15.0
+ },
+ {
+  "id": "TREASURITE",
+  "name": "Hoardite",
+  "material": "RAW_GOLD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Treasure hoarders hide it; miners",
+   "&7take it."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 5000.0
+ },
+ {
+  "id": "PLASMA",
+  "name": "Plasma",
+  "material": "ECHO_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Contained starfire. Handle with",
+   "&7gloves."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 20000.0
+ },
+ {
+  "id": "MAGMA_CORE",
+  "name": "Magma Core",
+  "material": "MAGMA_CREAM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The molten heart of the deepest",
+   "&7caverns."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 200000.0
+ },
+ {
+  "id": "CORLEONITE",
+  "name": "Gangsterite",
+  "material": "GOLD_NUGGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Taken from the treasure gang that",
+   "&7runs the mithril deposits."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "DIVAN_FRAGMENT",
+  "name": "Varnas Fragment",
+  "material": "GOLD_NUGGET",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A shard of the old dwarven king's",
+   "&7armour."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 200000.0,
+  "glow": true
+ },
+ {
+  "id": "DIVAN_ALLOY",
+  "name": "Varnas Alloy",
+  "material": "GOLD_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The metal of the old dwarven king's",
+   "&7tools. Forge it into a drill."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "PRECURSOR_APPARATUS",
+  "name": "Precursor Apparatus",
+  "material": "CLOCK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A machine from a city that no longer",
+   "&7exists."
+  ],
+  "tags": [
+   "mining"
+  ]
+ },
+ {
+  "id": "SLUDGE_JUICE",
+  "name": "Sludge Juice",
+  "material": "SLIME_BALL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7It drips. It smells. Merchants still",
+   "&7want it."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 1000.0
+ },
+ {
+  "id": "YOGGIE",
+  "name": "Cinder Morsel",
+  "material": "FIRE_CHARGE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Still smouldering. Do not eat."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 100.0
+ },
+ {
+  "id": "WORM_MEMBRANE",
+  "name": "Worm Membrane",
+  "material": "ROTTEN_FLESH",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Tough skin shed by cave worms."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 15000.0
+ },
+ {
+  "id": "JUNGLE_HEART",
+  "name": "Jungle Heart",
+  "material": "CREAKING_HEART",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Beats slowly in your hand."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 100000.0
+ },
+ {
+  "id": "ASCENSION_ROPE",
+  "name": "Ascension Rope",
+  "material": "LEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumed on use",
+   "",
+   "&7Hauls you back to the island's",
+   "&7entrance from anywhere in the",
+   "&7crystal caverns or frozen tunnels.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1.0
+ },
+ {
+  "id": "WISHING_COMPASS",
+  "name": "Wishing Compass",
+  "material": "COMPASS",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumed on use",
+   "",
+   "&7Points toward the nearest structure",
+   "&7of the crystal caverns you have not",
+   "&7finished yet.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1.0
+ },
+ {
+  "id": "CONTROL_SWITCH",
+  "name": "Control Switch",
+  "material": "LEVER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "ELECTRON_TRANSMITTER",
+  "name": "Electron Transmitter",
+  "material": "REDSTONE_TORCH",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "FTX_3070",
+  "name": "Cogitator Card",
+  "material": "COMPARATOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "ROBOTRON_REFLECTOR",
+  "name": "Automaton Reflector",
+  "material": "DAYLIGHT_DETECTOR",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "SUPERLITE_MOTOR",
+  "name": "Featherweight Motor",
+  "material": "TARGET",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "SYNTHETIC_HEART",
+  "name": "Synthetic Heart",
+  "material": "RESIN_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A salvaged part of a precursor",
+   "&7automaton."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "JUNGLE_KEY",
+  "name": "Jungle Key",
+  "material": "TRIPWIRE_HOOK",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Opens the door of the temple deep in",
+   "&7the jungle."
+  ],
+  "tags": [
+   "mining"
+  ]
+ },
+ {
+  "id": "BOB_OMB",
+  "name": "Blast Bomb",
+  "material": "TNT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Blows a hole in the crystal caverns",
+   "&7and keeps half of what it breaks.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1000.0
+ },
+ {
+  "id": "PREHISTORIC_EGG",
+  "name": "Prehistoric Egg",
+  "material": "SNIFFER_EGG",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Carry it and walk. Something inside",
+   "&7is waiting to hatch."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1000.0
+ },
+ {
+  "id": "GOBLIN_EGG",
+  "name": "Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Laid by goblins, cooked by the",
+   "&7brave."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 421.0
+ },
+ {
+  "id": "GOBLIN_EGG_GREEN",
+  "name": "Green Goblin Egg",
+  "material": "TURTLE_EGG",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Laid by goblins, cooked by the",
+   "&7brave."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 1000.0
+ },
+ {
+  "id": "GOBLIN_EGG_RED",
+  "name": "Red Goblin Egg",
+  "material": "BROWN_EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Laid by goblins, cooked by the",
+   "&7brave."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 25000.0
+ },
+ {
+  "id": "GOBLIN_EGG_YELLOW",
+  "name": "Yellow Goblin Egg",
+  "material": "EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Laid by goblins, cooked by the",
+   "&7brave."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 10000.0
+ },
+ {
+  "id": "GOBLIN_EGG_BLUE",
+  "name": "Blue Goblin Egg",
+  "material": "BLUE_EGG",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Laid by goblins, cooked by the",
+   "&7brave."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ],
+  "npcSell": 100000.0
+ },
+ {
+  "id": "SUSPICIOUS_SCRAP",
+  "name": "Suspicious Scrap",
+  "material": "SUSPICIOUS_GRAVEL",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Heavy rubble from the frozen",
+   "&7mineshafts. Put it in the Fossil",
+   "&7Excavator to see what is inside."
+  ],
+  "tags": [
+   "bazaar",
+   "mining"
+  ]
+ },
+ {
+  "id": "SPINE_FOSSIL",
+  "name": "Spine Fossil",
+  "material": "BONE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "CLUBBED_FOSSIL",
+  "name": "Clubbed Fossil",
+  "material": "BONE_BLOCK",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "UGLY_FOSSIL",
+  "name": "Ugly Fossil",
+  "material": "SKELETON_SKULL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "FOOTPRINT_FOSSIL",
+  "name": "Footprint Fossil",
+  "material": "COARSE_DIRT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "WEBBED_FOSSIL",
+  "name": "Webbed Fossil",
+  "material": "COBWEB",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "TUSK_FOSSIL",
+  "name": "Tusk Fossil",
+  "material": "POINTED_DRIPSTONE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 50000.0
+ },
+ {
+  "id": "CLAW_FOSSIL",
+  "name": "Claw Fossil",
+  "material": "BONE",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 10000.0
+ },
+ {
+  "id": "HELIX",
+  "name": "Spiral Fossil",
+  "material": "NAUTILUS_SHELL",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7The remains of something enormous,",
+   "&7dug out of the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 10000.0
+ },
+ {
+  "id": "FOSSIL_THE_FISH",
+  "name": "Stonefin the Fish",
+  "material": "COD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Older than the mountain and never",
+   "&7once changed, because he was already",
+   "&7perfect."
+  ],
+  "tags": [
+   "mining",
+   "museum"
+  ]
+ },
+ {
+  "id": "DYE_FOSSIL",
+  "name": "Fossil Dye",
+  "material": "BROWN_DYE",
+  "rarity": "LEGENDARY",
+  "category": "COSMETIC",
+  "lore": [
+   "&7Turns an armor piece the colour of",
+   "&7old bone, &8#866F12&7.",
+   "",
+   "&8Apply it to dyeable armor."
+  ],
+  "tags": [
+   "mining",
+   "museum"
+  ]
+ },
+ {
+  "id": "UMBER_KEY",
+  "name": "Umber Key",
+  "material": "TRIAL_KEY",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Unlocks an &6Umber &7frozen corpse."
+  ],
+  "tags": [
+   "corpse_key",
+   "mining"
+  ]
+ },
+ {
+  "id": "TUNGSTEN_KEY",
+  "name": "Tungsten Key",
+  "material": "TRIAL_KEY",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Unlocks a &8Tungsten &7frozen corpse."
+  ],
+  "tags": [
+   "corpse_key",
+   "mining"
+  ]
+ },
+ {
+  "id": "SKELETON_KEY",
+  "name": "Skeleton Key",
+  "material": "OMINOUS_TRIAL_KEY",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Unlocks a &dVanguard &7frozen corpse."
+  ],
+  "tags": [
+   "corpse_key",
+   "mining"
+  ],
+  "npcSell": 10000.0
+ },
+ {
+  "id": "SECRET_RAILROAD_PASS",
+  "name": "Rimestone Rail Pass",
+  "material": "PAPER",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Lets you ride the old railway down",
+   "&7into the frozen tunnels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "glow": true
+ },
+ {
+  "id": "BEJEWELED_HANDLE",
+  "name": "Bejeweled Handle",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A handle studded with rimestone",
+   "&7jewels."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 100.0,
+  "glow": true
+ },
+ {
+  "id": "MATCH_STICKS",
+  "name": "Match-Sticks",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Strike one. Get warm."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 10.0
+ },
+ {
+  "id": "PORTABLE_CAMPFIRE",
+  "name": "Portable Campfire",
+  "material": "CAMPFIRE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&8Consumed on use",
+   "",
+   "&7Light it in the frozen tunnels to",
+   "&7drop your &b❄ Cold &7by &a50&7. One every &a5",
+   "&a&7minutes.",
+   "",
+   "&eRight-click to use!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 200.0
+ },
+ {
+  "id": "CHISEL",
+  "name": "Chisel",
+  "material": "BRUSH",
+  "rarity": "COMMON",
+  "category": "CHISEL",
+  "lore": [
+   "&7Use it in the &aFossil Excavator &7with",
+   "&7a &9Suspicious Scrap &7to dig.",
+   "",
+   "&7Charges: &a16"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "npcSell": 1000.0,
+  "extra": {
+   "charges": 16
+  }
+ },
+ {
+  "id": "REINFORCED_CHISEL",
+  "name": "Reinforced Chisel",
+  "material": "BRUSH",
+  "rarity": "RARE",
+  "category": "CHISEL",
+  "lore": [
+   "&7Use it in the &aFossil Excavator &7with",
+   "&7a &9Suspicious Scrap &7to dig.",
+   "",
+   "&7Charges: &a18"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:8"
+  ],
+  "npcSell": 1000.0,
+  "extra": {
+   "charges": 18
+  },
+  "gemSlots": [
+   "CHISEL"
+  ]
+ },
+ {
+  "id": "GLACITE_CHISEL",
+  "name": "Rimestone-Plated Chisel",
+  "material": "BRUSH",
+  "rarity": "EPIC",
+  "category": "CHISEL",
+  "lore": [
+   "&7Use it in the &aFossil Excavator &7with",
+   "&7a &9Suspicious Scrap &7to dig.",
+   "",
+   "&7Charges: &a20"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:9"
+  ],
+  "npcSell": 1000.0,
+  "extra": {
+   "charges": 20
+  },
+  "gemSlots": [
+   "CHISEL",
+   "CHISEL"
+  ]
+ },
+ {
+  "id": "PERFECT_CHISEL",
+  "name": "Perfect Chisel",
+  "material": "BRUSH",
+  "rarity": "LEGENDARY",
+  "category": "CHISEL",
+  "lore": [
+   "&7Use it in the &aFossil Excavator &7with",
+   "&7a &9Suspicious Scrap &7to dig.",
+   "",
+   "&7Charges: &a22"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:10"
+  ],
+  "npcSell": 1000.0,
+  "extra": {
+   "charges": 22
+  },
+  "gemSlots": [
+   "CHISEL",
+   "CHISEL",
+   "CHISEL"
+  ]
+ },
+ {
+  "id": "MITHRIL_LANTERN",
+  "name": "Mithril Lantern",
+  "material": "LANTERN",
+  "rarity": "UNCOMMON",
+  "category": "DEPLOYABLE",
+  "lore": [
+   "&8Mining Deployable",
+   "",
+   "&7Sets down an orb for &a5m &7that buffs",
+   "&7up to &a5 &7players within &a30 &7blocks.",
+   "&7Costs &b50% &7of your max mana.",
+   "",
+   "&aOrb Buff:",
+   "&8• &6+40 ⸕ Mining Speed",
+   "&8• &6+10 ☘ Mining Fortune",
+   "",
+   "&8Only one deployable buff applies."
+  ],
+  "abilities": [
+   {
+    "id": "mining_deploy",
+    "name": "Deploy",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.5,
+    "cooldown": 5,
+    "lore": [
+     "&7Sets the orb down where you stand."
+    ]
+   }
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:2"
+  ],
+  "extra": {
+   "deployable": {
+    "speed": 40,
+    "fortune": 10,
+    "heat": 0,
+    "cold": 0,
+    "spread": 0,
+    "players": 5,
+    "radius": 30,
+    "seconds": 300
+   }
+  }
+ },
+ {
+  "id": "TITANIUM_LANTERN",
+  "name": "Titanium Lantern",
+  "material": "LANTERN",
+  "rarity": "RARE",
+  "category": "DEPLOYABLE",
+  "lore": [
+   "&8Mining Deployable",
+   "",
+   "&7Sets down an orb for &a5m &7that buffs",
+   "&7up to &a5 &7players within &a30 &7blocks.",
+   "&7Costs &b50% &7of your max mana.",
+   "",
+   "&aOrb Buff:",
+   "&8• &6+60 ⸕ Mining Speed",
+   "&8• &6+15 ☘ Mining Fortune",
+   "&8• &c+5 ♨ Heat Resistance",
+   "",
+   "&8Only one deployable buff applies."
+  ],
+  "abilities": [
+   {
+    "id": "mining_deploy",
+    "name": "Deploy",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.5,
+    "cooldown": 5,
+    "lore": [
+     "&7Sets the orb down where you stand."
+    ]
+   }
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:5"
+  ],
+  "extra": {
+   "deployable": {
+    "speed": 60,
+    "fortune": 15,
+    "heat": 5,
+    "cold": 0,
+    "spread": 0,
+    "players": 5,
+    "radius": 30,
+    "seconds": 300
+   }
+  }
+ },
+ {
+  "id": "GLACITE_LANTERN",
+  "name": "Rimestone Lantern",
+  "material": "SOUL_LANTERN",
+  "rarity": "EPIC",
+  "category": "DEPLOYABLE",
+  "lore": [
+   "&8Mining Deployable",
+   "",
+   "&7Sets down an orb for &a5m &7that buffs",
+   "&7up to &a5 &7players within &a30 &7blocks.",
+   "&7Costs &b50% &7of your max mana.",
+   "",
+   "&aOrb Buff:",
+   "&8• &6+80 ⸕ Mining Speed",
+   "&8• &6+20 ☘ Mining Fortune",
+   "&8• &c+10 ♨ Heat Resistance",
+   "&8• &b+5 ❄ Cold Resistance",
+   "",
+   "&8Only one deployable buff applies."
+  ],
+  "abilities": [
+   {
+    "id": "mining_deploy",
+    "name": "Deploy",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.5,
+    "cooldown": 5,
+    "lore": [
+     "&7Sets the orb down where you stand."
+    ]
+   }
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:8"
+  ],
+  "extra": {
+   "deployable": {
+    "speed": 80,
+    "fortune": 20,
+    "heat": 10,
+    "cold": 5,
+    "spread": 0,
+    "players": 5,
+    "radius": 30,
+    "seconds": 300
+   }
+  }
+ },
+ {
+  "id": "WILL_O_WISP",
+  "name": "Will-o'-wisp",
+  "material": "LANTERN",
+  "rarity": "LEGENDARY",
+  "category": "DEPLOYABLE",
+  "lore": [
+   "&8Mining Deployable",
+   "",
+   "&7Sets down an orb for &a5m &7that buffs",
+   "&7up to &a10 &7players within &a30 &7blocks.",
+   "&7Costs &b50% &7of your max mana.",
+   "",
+   "&aOrb Buff:",
+   "&8• &6+100 ⸕ Mining Speed",
+   "&8• &6+25 ☘ Mining Fortune",
+   "&8• &c+20 ♨ Heat Resistance",
+   "&8• &b+10 ❄ Cold Resistance",
+   "&8• &e+2.5 ▚ Gemstone Spread",
+   "",
+   "&8Only one deployable buff applies."
+  ],
+  "abilities": [
+   {
+    "id": "mining_deploy",
+    "name": "Deploy",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.5,
+    "cooldown": 5,
+    "lore": [
+     "&7Sets the orb down where you stand."
+    ]
+   }
+  ],
+  "tags": [
+   "mining"
+  ],
+  "requirements": [
+   "hotm:10"
+  ],
+  "extra": {
+   "deployable": {
+    "speed": 100,
+    "fortune": 25,
+    "heat": 20,
+    "cold": 10,
+    "spread": 2.5,
+    "players": 10,
+    "radius": 30,
+    "seconds": 300
+   }
+  }
+ },
+ {
+  "id": "ROYAL_PIGEON",
+  "name": "Royal Pigeon",
+  "material": "FEATHER",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Sends word to the King: opens your",
+   "&7commissions from anywhere."
+  ],
+  "abilities": [
+   {
+    "id": "mining_royal_pigeon",
+    "name": "Send for the King",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Opens the &aCommissions &7menu."
+    ]
+   }
+  ],
+  "tags": [
+   "mining",
+   "soulbound"
+  ],
+  "glow": true,
+  "maxStack": 1
+ },
+ {
+  "id": "FORGE_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Forge",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Use it to add this place to your",
+   "&7fast travel list.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "warp": "forge"
+  }
+ },
+ {
+  "id": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Crystal Caverns",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Use it to add this place to your",
+   "&7fast travel list.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "warp": "crystals"
+  }
+ },
+ {
+  "id": "BASE_CAMP_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Base Camp",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Use it to add this place to your",
+   "&7fast travel list.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "warp": "base_camp"
+  }
+ },
+ {
+  "id": "CRYSTAL_NUCLEUS_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Crystal Nucleus",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Use it to add this place to your",
+   "&7fast travel list.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "warp": "nucleus"
+  }
+ },
+ {
+  "id": "DWARVEN_MINES_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Dwarven Mines",
+  "material": "MAP",
+  "rarity": "RARE",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Use it to add this place to your",
+   "&7fast travel list.",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "warp": "mines_scroll"
+  }
+ },
+ {
+  "id": "ROUGH_RUBY_GEM",
+  "name": "&c❤ &fRough Ruby Gemstone",
+  "material": "RED_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &c❤ Health&7:",
+   " &f1 &8/ &a2 &8/ &93 &8/ &54 &8/ &65 &8/ &d7",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "RUBY",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "HEALTH"
+  }
+ },
+ {
+  "id": "FLAWED_RUBY_GEM",
+  "name": "&c❤ &aFlawed Ruby Gemstone",
+  "material": "RED_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &c❤ Health&7:",
+   " &f3 &8/ &a4 &8/ &95 &8/ &56 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "RUBY",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "HEALTH"
+  }
+ },
+ {
+  "id": "FINE_RUBY_GEM",
+  "name": "&c❤ &9Fine Ruby Gemstone",
+  "material": "RED_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &c❤ Health&7:",
+   " &f4 &8/ &a5 &8/ &96 &8/ &58 &8/ &610 &8/ &d14",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "RUBY",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "HEALTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_RUBY_GEM",
+  "name": "&c❤ &5Flawless Ruby Gemstone",
+  "material": "RED_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &c❤ Health&7:",
+   " &f5 &8/ &a7 &8/ &910 &8/ &514 &8/ &618 &8/ &d22",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "RUBY",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "HEALTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_RUBY_GEM",
+  "name": "&c❤ &6Perfect Ruby Gemstone",
+  "material": "RED_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &c❤ Health&7:",
+   " &f6 &8/ &a9 &8/ &913 &8/ &518 &8/ &624 &8/ &d30",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "RUBY",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "HEALTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "RUBY_CRYSTAL",
+  "name": "&cRuby Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Ruby. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "RUBY"
+  }
+ },
+ {
+  "id": "ROUGH_AMBER_GEM",
+  "name": "&6⸕ &fRough Amber Gemstone",
+  "material": "ORANGE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6⸕ Mining Speed&7:",
+   " &f4 &8/ &a8 &8/ &912 &8/ &516 &8/ &620 &8/ &d24",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "AMBER",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "MINING_SPEED"
+  }
+ },
+ {
+  "id": "FLAWED_AMBER_GEM",
+  "name": "&6⸕ &aFlawed Amber Gemstone",
+  "material": "ORANGE_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6⸕ Mining Speed&7:",
+   " &f6 &8/ &a10 &8/ &914 &8/ &518 &8/ &624 &8/ &d30",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "AMBER",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "MINING_SPEED"
+  }
+ },
+ {
+  "id": "FINE_AMBER_GEM",
+  "name": "&6⸕ &9Fine Amber Gemstone",
+  "material": "ORANGE_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6⸕ Mining Speed&7:",
+   " &f10 &8/ &a14 &8/ &920 &8/ &528 &8/ &636 &8/ &d45",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "AMBER",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "MINING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_AMBER_GEM",
+  "name": "&6⸕ &5Flawless Amber Gemstone",
+  "material": "ORANGE_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6⸕ Mining Speed&7:",
+   " &f14 &8/ &a20 &8/ &930 &8/ &544 &8/ &658 &8/ &d75",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AMBER",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "MINING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_AMBER_GEM",
+  "name": "&6⸕ &6Perfect Amber Gemstone",
+  "material": "ORANGE_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6⸕ Mining Speed&7:",
+   " &f20 &8/ &a28 &8/ &940 &8/ &560 &8/ &680 &8/ &d100",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AMBER",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "MINING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "AMBER_CRYSTAL",
+  "name": "&6Amber Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Amber. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "AMBER"
+  }
+ },
+ {
+  "id": "ROUGH_SAPPHIRE_GEM",
+  "name": "&b✎ &fRough Sapphire Gemstone",
+  "material": "LIGHT_BLUE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &b✎ Intelligence&7:",
+   " &f2 &8/ &a3 &8/ &94 &8/ &55 &8/ &66 &8/ &d7",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "SAPPHIRE",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "INTELLIGENCE"
+  }
+ },
+ {
+  "id": "FLAWED_SAPPHIRE_GEM",
+  "name": "&b✎ &aFlawed Sapphire Gemstone",
+  "material": "LIGHT_BLUE_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &b✎ Intelligence&7:",
+   " &f5 &8/ &a5 &8/ &96 &8/ &57 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "SAPPHIRE",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "INTELLIGENCE"
+  }
+ },
+ {
+  "id": "FINE_SAPPHIRE_GEM",
+  "name": "&b✎ &9Fine Sapphire Gemstone",
+  "material": "LIGHT_BLUE_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &b✎ Intelligence&7:",
+   " &f7 &8/ &a8 &8/ &99 &8/ &510 &8/ &611 &8/ &d12",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "SAPPHIRE",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "INTELLIGENCE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_SAPPHIRE_GEM",
+  "name": "&b✎ &5Flawless Sapphire Gemstone",
+  "material": "LIGHT_BLUE_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &b✎ Intelligence&7:",
+   " &f10 &8/ &a11 &8/ &912 &8/ &514 &8/ &617 &8/ &d20",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "SAPPHIRE",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "INTELLIGENCE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_SAPPHIRE_GEM",
+  "name": "&b✎ &6Perfect Sapphire Gemstone",
+  "material": "LIGHT_BLUE_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &b✎ Intelligence&7:",
+   " &f12 &8/ &a14 &8/ &917 &8/ &520 &8/ &624 &8/ &d30",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "SAPPHIRE",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "INTELLIGENCE"
+  },
+  "glow": true
+ },
+ {
+  "id": "SAPPHIRE_CRYSTAL",
+  "name": "&bSapphire Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Sapphire. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "SAPPHIRE"
+  }
+ },
+ {
+  "id": "ROUGH_JADE_GEM",
+  "name": "&a☘ &fRough Jade Gemstone",
+  "material": "LIME_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &a☘ Mining",
+   "&aFortune&7:",
+   " &f2 &8/ &a4 &8/ &96 &8/ &58 &8/ &610 &8/ &d12",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "JADE",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "MINING_FORTUNE"
+  }
+ },
+ {
+  "id": "FLAWED_JADE_GEM",
+  "name": "&a☘ &aFlawed Jade Gemstone",
+  "material": "LIME_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &a☘ Mining",
+   "&aFortune&7:",
+   " &f3 &8/ &a5 &8/ &97 &8/ &510 &8/ &614 &8/ &d18",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "JADE",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "MINING_FORTUNE"
+  }
+ },
+ {
+  "id": "FINE_JADE_GEM",
+  "name": "&a☘ &9Fine Jade Gemstone",
+  "material": "LIME_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &a☘ Mining",
+   "&aFortune&7:",
+   " &f5 &8/ &a7 &8/ &910 &8/ &515 &8/ &620 &8/ &d25",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "JADE",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "MINING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_JADE_GEM",
+  "name": "&a☘ &5Flawless Jade Gemstone",
+  "material": "LIME_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &a☘ Mining",
+   "&aFortune&7:",
+   " &f7 &8/ &a10 &8/ &915 &8/ &520 &8/ &627 &8/ &d35",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "JADE",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "MINING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_JADE_GEM",
+  "name": "&a☘ &6Perfect Jade Gemstone",
+  "material": "LIME_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &a☘ Mining",
+   "&aFortune&7:",
+   " &f10 &8/ &a14 &8/ &920 &8/ &530 &8/ &640 &8/ &d50",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "JADE",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "MINING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "JADE_CRYSTAL",
+  "name": "&aJade Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Jade. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "JADE"
+  }
+ },
+ {
+  "id": "ROUGH_AMETHYST_GEM",
+  "name": "&5❈ &fRough Amethyst Gemstone",
+  "material": "PURPLE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &5❈ Defense&7:",
+   " &f1 &8/ &a2 &8/ &93 &8/ &54 &8/ &65 &8/ &d7",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "AMETHYST",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "DEFENSE"
+  }
+ },
+ {
+  "id": "FLAWED_AMETHYST_GEM",
+  "name": "&5❈ &aFlawed Amethyst Gemstone",
+  "material": "PURPLE_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &5❈ Defense&7:",
+   " &f3 &8/ &a4 &8/ &95 &8/ &56 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "AMETHYST",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "DEFENSE"
+  }
+ },
+ {
+  "id": "FINE_AMETHYST_GEM",
+  "name": "&5❈ &9Fine Amethyst Gemstone",
+  "material": "PURPLE_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &5❈ Defense&7:",
+   " &f4 &8/ &a5 &8/ &96 &8/ &58 &8/ &610 &8/ &d14",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "AMETHYST",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_AMETHYST_GEM",
+  "name": "&5❈ &5Flawless Amethyst Gemstone",
+  "material": "PURPLE_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &5❈ Defense&7:",
+   " &f5 &8/ &a7 &8/ &910 &8/ &514 &8/ &618 &8/ &d22",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AMETHYST",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_AMETHYST_GEM",
+  "name": "&5❈ &6Perfect Amethyst Gemstone",
+  "material": "PURPLE_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &5❈ Defense&7:",
+   " &f6 &8/ &a9 &8/ &913 &8/ &518 &8/ &624 &8/ &d30",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AMETHYST",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "AMETHYST_CRYSTAL",
+  "name": "&5Amethyst Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Amethyst. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "AMETHYST"
+  }
+ },
+ {
+  "id": "ROUGH_TOPAZ_GEM",
+  "name": "&e✧ &fRough Topaz Gemstone",
+  "material": "YELLOW_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &e✧ Pristine&7:",
+   " &f0.4 &8/ &a0.4 &8/ &90.4 &8/ &50.4 &8/ &60.4 &8/ &d0.4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "TOPAZ",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "PRISTINE"
+  }
+ },
+ {
+  "id": "FLAWED_TOPAZ_GEM",
+  "name": "&e✧ &aFlawed Topaz Gemstone",
+  "material": "YELLOW_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &e✧ Pristine&7:",
+   " &f0.8 &8/ &a0.8 &8/ &90.8 &8/ &50.8 &8/ &60.8 &8/ &d0.8",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "TOPAZ",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "PRISTINE"
+  }
+ },
+ {
+  "id": "FINE_TOPAZ_GEM",
+  "name": "&e✧ &9Fine Topaz Gemstone",
+  "material": "YELLOW_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &e✧ Pristine&7:",
+   " &f1.2 &8/ &a1.2 &8/ &91.2 &8/ &51.2 &8/ &61.2 &8/ &d1.2",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "TOPAZ",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "PRISTINE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_TOPAZ_GEM",
+  "name": "&e✧ &5Flawless Topaz Gemstone",
+  "material": "YELLOW_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &e✧ Pristine&7:",
+   " &f1.6 &8/ &a1.6 &8/ &91.6 &8/ &51.6 &8/ &61.6 &8/ &d1.6",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "TOPAZ",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "PRISTINE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_TOPAZ_GEM",
+  "name": "&e✧ &6Perfect Topaz Gemstone",
+  "material": "YELLOW_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &e✧ Pristine&7:",
+   " &f2 &8/ &a2 &8/ &92 &8/ &52 &8/ &62 &8/ &d2",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "TOPAZ",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "PRISTINE"
+  },
+  "glow": true
+ },
+ {
+  "id": "TOPAZ_CRYSTAL",
+  "name": "&eTopaz Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Topaz. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "TOPAZ"
+  }
+ },
+ {
+  "id": "ROUGH_JASPER_GEM",
+  "name": "&d❁ &fRough Jasper Gemstone",
+  "material": "MAGENTA_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &d❁ Strength&7:",
+   " &f1 &8/ &a1 &8/ &91 &8/ &52 &8/ &63 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 4.0,
+  "extra": {
+   "gem": "JASPER",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "STRENGTH"
+  }
+ },
+ {
+  "id": "FLAWED_JASPER_GEM",
+  "name": "&d❁ &aFlawed Jasper Gemstone",
+  "material": "MAGENTA_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &d❁ Strength&7:",
+   " &f2 &8/ &a2 &8/ &93 &8/ &54 &8/ &64 &8/ &d5",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 320.0,
+  "extra": {
+   "gem": "JASPER",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "STRENGTH"
+  }
+ },
+ {
+  "id": "FINE_JASPER_GEM",
+  "name": "&d❁ &9Fine Jasper Gemstone",
+  "material": "MAGENTA_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &d❁ Strength&7:",
+   " &f3 &8/ &a3 &8/ &94 &8/ &55 &8/ &66 &8/ &d7",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 25600.0,
+  "extra": {
+   "gem": "JASPER",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "STRENGTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_JASPER_GEM",
+  "name": "&d❁ &5Flawless Jasper Gemstone",
+  "material": "MAGENTA_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &d❁ Strength&7:",
+   " &f5 &8/ &a6 &8/ &97 &8/ &58 &8/ &610 &8/ &d12",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "JASPER",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "STRENGTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_JASPER_GEM",
+  "name": "&d❁ &6Perfect Jasper Gemstone",
+  "material": "MAGENTA_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &d❁ Strength&7:",
+   " &f6 &8/ &a7 &8/ &99 &8/ &511 &8/ &613 &8/ &d16",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "JASPER",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "STRENGTH"
+  },
+  "glow": true
+ },
+ {
+  "id": "JASPER_CRYSTAL",
+  "name": "&dJasper Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Jasper. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "JASPER"
+  }
+ },
+ {
+  "id": "ROUGH_OPAL_GEM",
+  "name": "&f❂ &fRough Opal Gemstone",
+  "material": "WHITE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &f❂ True Defense&7:",
+   " &f1 &8/ &a1 &8/ &91 &8/ &52 &8/ &62 &8/ &d3",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 3.0,
+  "extra": {
+   "gem": "OPAL",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "TRUE_DEFENSE"
+  }
+ },
+ {
+  "id": "FLAWED_OPAL_GEM",
+  "name": "&f❂ &aFlawed Opal Gemstone",
+  "material": "WHITE_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &f❂ True Defense&7:",
+   " &f2 &8/ &a2 &8/ &92 &8/ &53 &8/ &63 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 240.0,
+  "extra": {
+   "gem": "OPAL",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "TRUE_DEFENSE"
+  }
+ },
+ {
+  "id": "FINE_OPAL_GEM",
+  "name": "&f❂ &9Fine Opal Gemstone",
+  "material": "WHITE_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &f❂ True Defense&7:",
+   " &f3 &8/ &a3 &8/ &93 &8/ &54 &8/ &64 &8/ &d5",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 19200.0,
+  "extra": {
+   "gem": "OPAL",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "TRUE_DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_OPAL_GEM",
+  "name": "&f❂ &5Flawless Opal Gemstone",
+  "material": "WHITE_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &f❂ True Defense&7:",
+   " &f4 &8/ &a4 &8/ &95 &8/ &56 &8/ &68 &8/ &d9",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "OPAL",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "TRUE_DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_OPAL_GEM",
+  "name": "&f❂ &6Perfect Opal Gemstone",
+  "material": "WHITE_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &f❂ True Defense&7:",
+   " &f5 &8/ &a6 &8/ &97 &8/ &59 &8/ &611 &8/ &d13",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "OPAL",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "TRUE_DEFENSE"
+  },
+  "glow": true
+ },
+ {
+  "id": "OPAL_CRYSTAL",
+  "name": "&fOpal Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Opal. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "OPAL"
+  }
+ },
+ {
+  "id": "ROUGH_ONYX_GEM",
+  "name": "&8☠ &fRough Onyx Gemstone",
+  "material": "BLACK_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &8☠ Crit Damage&7:",
+   " &f1 &8/ &a1 &8/ &92 &8/ &52 &8/ &63 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 4.0,
+  "extra": {
+   "gem": "ONYX",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "CRIT_DAMAGE"
+  }
+ },
+ {
+  "id": "FLAWED_ONYX_GEM",
+  "name": "&8☠ &aFlawed Onyx Gemstone",
+  "material": "BLACK_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &8☠ Crit Damage&7:",
+   " &f2 &8/ &a2 &8/ &93 &8/ &53 &8/ &64 &8/ &d6",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 320.0,
+  "extra": {
+   "gem": "ONYX",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "CRIT_DAMAGE"
+  }
+ },
+ {
+  "id": "FINE_ONYX_GEM",
+  "name": "&8☠ &9Fine Onyx Gemstone",
+  "material": "BLACK_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &8☠ Crit Damage&7:",
+   " &f3 &8/ &a3 &8/ &94 &8/ &55 &8/ &66 &8/ &d8",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 25600.0,
+  "extra": {
+   "gem": "ONYX",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "CRIT_DAMAGE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_ONYX_GEM",
+  "name": "&8☠ &5Flawless Onyx Gemstone",
+  "material": "BLACK_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &8☠ Crit Damage&7:",
+   " &f4 &8/ &a5 &8/ &96 &8/ &57 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "ONYX",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "CRIT_DAMAGE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_ONYX_GEM",
+  "name": "&8☠ &6Perfect Onyx Gemstone",
+  "material": "BLACK_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &8☠ Crit Damage&7:",
+   " &f5 &8/ &a6 &8/ &97 &8/ &58 &8/ &610 &8/ &d12",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "ONYX",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "CRIT_DAMAGE"
+  },
+  "glow": true
+ },
+ {
+  "id": "ONYX_CRYSTAL",
+  "name": "&8Onyx Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Onyx. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "ONYX"
+  }
+ },
+ {
+  "id": "ROUGH_AQUAMARINE_GEM",
+  "name": "&3☂ &fRough Aquamarine Gemstone",
+  "material": "BLUE_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &3☂ Fishing",
+   "&3Speed&7:",
+   " &f0.5 &8/ &a0.5 &8/ &91 &8/ &51 &8/ &61.5 &8/ &d2",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 4.0,
+  "extra": {
+   "gem": "AQUAMARINE",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "FISHING_SPEED"
+  }
+ },
+ {
+  "id": "FLAWED_AQUAMARINE_GEM",
+  "name": "&3☂ &aFlawed Aquamarine Gemstone",
+  "material": "BLUE_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &3☂ Fishing",
+   "&3Speed&7:",
+   " &f1 &8/ &a1 &8/ &91.5 &8/ &51.5 &8/ &62 &8/ &d2.5",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 320.0,
+  "extra": {
+   "gem": "AQUAMARINE",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "FISHING_SPEED"
+  }
+ },
+ {
+  "id": "FINE_AQUAMARINE_GEM",
+  "name": "&3☂ &9Fine Aquamarine Gemstone",
+  "material": "BLUE_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &3☂ Fishing",
+   "&3Speed&7:",
+   " &f1.5 &8/ &a1.5 &8/ &92 &8/ &52 &8/ &62.5 &8/ &d3",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 25600.0,
+  "extra": {
+   "gem": "AQUAMARINE",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "FISHING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_AQUAMARINE_GEM",
+  "name": "&3☂ &5Flawless Aquamarine Gemstone",
+  "material": "BLUE_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &3☂ Fishing",
+   "&3Speed&7:",
+   " &f2 &8/ &a2 &8/ &92.5 &8/ &53 &8/ &63.5 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AQUAMARINE",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "FISHING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_AQUAMARINE_GEM",
+  "name": "&3☂ &6Perfect Aquamarine Gemstone",
+  "material": "BLUE_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &3☂ Fishing",
+   "&3Speed&7:",
+   " &f2.5 &8/ &a2.5 &8/ &93.5 &8/ &54 &8/ &64.5 &8/ &d5",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "AQUAMARINE",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "FISHING_SPEED"
+  },
+  "glow": true
+ },
+ {
+  "id": "AQUAMARINE_CRYSTAL",
+  "name": "&3Aquamarine Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Aquamarine. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "AQUAMARINE"
+  }
+ },
+ {
+  "id": "ROUGH_CITRINE_GEM",
+  "name": "&6☘ &fRough Citrine Gemstone",
+  "material": "BROWN_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6☘ Foraging",
+   "&6Fortune&7:",
+   " &f0.5 &8/ &a1 &8/ &91.5 &8/ &52 &8/ &62.5 &8/ &d3",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 4.0,
+  "extra": {
+   "gem": "CITRINE",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "FORAGING_FORTUNE"
+  }
+ },
+ {
+  "id": "FLAWED_CITRINE_GEM",
+  "name": "&6☘ &aFlawed Citrine Gemstone",
+  "material": "BROWN_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6☘ Foraging",
+   "&6Fortune&7:",
+   " &f1 &8/ &a1.5 &8/ &92 &8/ &52.5 &8/ &63 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 320.0,
+  "extra": {
+   "gem": "CITRINE",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "FORAGING_FORTUNE"
+  }
+ },
+ {
+  "id": "FINE_CITRINE_GEM",
+  "name": "&6☘ &9Fine Citrine Gemstone",
+  "material": "BROWN_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6☘ Foraging",
+   "&6Fortune&7:",
+   " &f1.5 &8/ &a2 &8/ &93 &8/ &54 &8/ &65 &8/ &d6",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 25600.0,
+  "extra": {
+   "gem": "CITRINE",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "FORAGING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_CITRINE_GEM",
+  "name": "&6☘ &5Flawless Citrine Gemstone",
+  "material": "BROWN_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6☘ Foraging",
+   "&6Fortune&7:",
+   " &f2 &8/ &a3 &8/ &94 &8/ &55 &8/ &66 &8/ &d8",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "CITRINE",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "FORAGING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_CITRINE_GEM",
+  "name": "&6☘ &6Perfect Citrine Gemstone",
+  "material": "BROWN_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &6☘ Foraging",
+   "&6Fortune&7:",
+   " &f3 &8/ &a4 &8/ &95 &8/ &56 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "CITRINE",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "FORAGING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "CITRINE_CRYSTAL",
+  "name": "&6Citrine Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Citrine. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "CITRINE"
+  }
+ },
+ {
+  "id": "ROUGH_PERIDOT_GEM",
+  "name": "&2☘ &fRough Peridot Gemstone",
+  "material": "GREEN_STAINED_GLASS_PANE",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Chipped straight out of a gemstone",
+   "&7vein.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &2☘ Farming",
+   "&2Fortune&7:",
+   " &f0.5 &8/ &a1 &8/ &91.5 &8/ &52 &8/ &62.5 &8/ &d3",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 4.0,
+  "extra": {
+   "gem": "PERIDOT",
+   "quality": "ROUGH",
+   "qualityIndex": 0,
+   "stat": "FARMING_FORTUNE"
+  }
+ },
+ {
+  "id": "FLAWED_PERIDOT_GEM",
+  "name": "&2☘ &aFlawed Peridot Gemstone",
+  "material": "GREEN_STAINED_GLASS",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cleaner than a rough gem, still far",
+   "&7from perfect.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &2☘ Farming",
+   "&2Fortune&7:",
+   " &f1 &8/ &a1.5 &8/ &92 &8/ &52.5 &8/ &63 &8/ &d4",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 320.0,
+  "extra": {
+   "gem": "PERIDOT",
+   "quality": "FLAWED",
+   "qualityIndex": 1,
+   "stat": "FARMING_FORTUNE"
+  }
+ },
+ {
+  "id": "FINE_PERIDOT_GEM",
+  "name": "&2☘ &9Fine Peridot Gemstone",
+  "material": "GREEN_STAINED_GLASS",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7A well-cut gem with few faults.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &2☘ Farming",
+   "&2Fortune&7:",
+   " &f1.5 &8/ &a2 &8/ &93 &8/ &54 &8/ &65 &8/ &d6",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "npcSell": 25600.0,
+  "extra": {
+   "gem": "PERIDOT",
+   "quality": "FINE",
+   "qualityIndex": 2,
+   "stat": "FARMING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "FLAWLESS_PERIDOT_GEM",
+  "name": "&2☘ &5Flawless Peridot Gemstone",
+  "material": "GREEN_STAINED_GLASS",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Not a single fault anywhere in it.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &2☘ Farming",
+   "&2Fortune&7:",
+   " &f2 &8/ &a3 &8/ &94 &8/ &55 &8/ &66 &8/ &d8",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "PERIDOT",
+   "quality": "FLAWLESS",
+   "qualityIndex": 3,
+   "stat": "FARMING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERFECT_PERIDOT_GEM",
+  "name": "&2☘ &6Perfect Peridot Gemstone",
+  "material": "GREEN_STAINED_GLASS",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "lore": [
+   "&8Gemstone",
+   "",
+   "&7Cut at the Forge into the finest gem",
+   "&7there is.",
+   "",
+   "&7Set into a matching slot at the",
+   "&7&aGemstone Grinder &7for &2☘ Farming",
+   "&2Fortune&7:",
+   " &f3 &8/ &a4 &8/ &95 &8/ &56 &8/ &68 &8/ &d10",
+   "&8(by the rarity of the item it sits in)"
+  ],
+  "tags": [
+   "bazaar",
+   "gemstone",
+   "mining"
+  ],
+  "extra": {
+   "gem": "PERIDOT",
+   "quality": "PERFECT",
+   "qualityIndex": 4,
+   "stat": "FARMING_FORTUNE"
+  },
+  "glow": true
+ },
+ {
+  "id": "PERIDOT_CRYSTAL",
+  "name": "&2Peridot Crystal",
+  "material": "END_CRYSTAL",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A living crystal of Peridot. The",
+   "&7Crystal Nucleus wants it, and the",
+   "&7Forge can cut it into a Perfect gem."
+  ],
+  "tags": [
+   "mining"
+  ],
+  "extra": {
+   "crystal": "PERIDOT"
+  }
+ }
+]

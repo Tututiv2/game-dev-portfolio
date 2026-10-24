@@ -1,0 +1,184 @@
+[
+ {
+  "id": "mining_district",
+  "name": "Mining District",
+  "icon": "IRON_PICKAXE",
+  "coins": 1000,
+  "sbxp": 5,
+  "about": "Pick up a pickaxe, learn about reforging and head into the Coal Mine.",
+  "steps": [
+   {
+    "text": "Visit the Mine Merchant",
+    "trigger": "talk:npc.mine_merchant"
+   },
+   {
+    "text": "Ask the Blacksmith about reforges",
+    "trigger": "talk:npc.blacksmith"
+   },
+   {
+    "text": "Travel to the Coal Mine",
+    "trigger": "zone:coal_mine"
+   },
+   {
+    "text": "Mine 10 Coal",
+    "trigger": "gather:MINING:COAL:10"
+   }
+  ]
+ },
+ {
+  "id": "foraging_camp",
+  "name": "Foraging Camp",
+  "icon": "OAK_LOG",
+  "coins": 1000,
+  "sbxp": 5,
+  "about": "Meet the Lumber Jack and the Carpenter and chop your first logs.",
+  "steps": [
+   {
+    "text": "Talk to the Lumber Jack",
+    "trigger": "talk:npc.lumber_jack"
+   },
+   {
+    "text": "Chop 20 logs in the Forest",
+    "trigger": "gather:FORAGING:LOG:20"
+   },
+   {
+    "text": "Meet the Carpenter",
+    "trigger": "talk:npc.carpenter"
+   },
+   {
+    "text": "Visit the Lumber Merchant",
+    "trigger": "talk:npc.lumber_merchant"
+   }
+  ]
+ },
+ {
+  "id": "graveyard",
+  "name": "Graveyard",
+  "icon": "SKELETON_SKULL",
+  "coins": 1500,
+  "sbxp": 5,
+  "about": "Get combat tips at the tavern, then thin out the graveyard.",
+  "steps": [
+   {
+    "text": "Talk to the Bartender",
+    "trigger": "talk:npc.bartender"
+   },
+   {
+    "text": "Slay 10 Graveyard Zombies",
+    "trigger": "kill:hub_graveyard_zombie:10"
+   },
+   {
+    "text": "Find the Crypts",
+    "trigger": "zone:crypt"
+   },
+   {
+    "text": "Ask about slayer contracts",
+    "trigger": "talk:npc.slayer_master"
+   }
+  ]
+ },
+ {
+  "id": "farm",
+  "name": "Farm",
+  "icon": "WHEAT",
+  "coins": 1000,
+  "sbxp": 5,
+  "about": "Harvest the hub's fields and take the launch pad to the Barn.",
+  "steps": [
+   {
+    "text": "Visit the Farm Merchant",
+    "trigger": "talk:npc.farm_merchant"
+   },
+   {
+    "text": "Harvest 20 Wheat",
+    "trigger": "gather:FARMING:WHEAT:20"
+   },
+   {
+    "text": "Meet the Contest Host",
+    "trigger": "talk:npc.contest_host"
+   },
+   {
+    "text": "Ride the launch pad to the Barn",
+    "trigger": "pad:barn"
+   }
+  ]
+ },
+ {
+  "id": "fishing_outpost",
+  "name": "Fishing Outpost",
+  "icon": "FISHING_ROD",
+  "coins": 1000,
+  "sbxp": 5,
+  "about": "Learn to fish at the lake and meet the captain of the ship.",
+  "steps": [
+   {
+    "text": "Talk to the Fishing Guide",
+    "trigger": "talk:npc.fishing_guide"
+   },
+   {
+    "text": "Catch 5 fish in the lake",
+    "trigger": "fish:5"
+   },
+   {
+    "text": "Visit the Fish Merchant",
+    "trigger": "talk:npc.fish_merchant"
+   },
+   {
+    "text": "Meet the Ship Captain",
+    "trigger": "talk:npc.ship_captain"
+   }
+  ]
+ },
+ {
+  "id": "ruins",
+  "name": "Ruins",
+  "icon": "MOSSY_STONE_BRICKS",
+  "coins": 2500,
+  "sbxp": 5,
+  "about": "The wolves of the old temple are a real fight. Bring armour.",
+  "steps": [
+   {
+    "text": "Climb to the Ruins",
+    "trigger": "zone:ruins"
+   },
+   {
+    "text": "Slay 10 Wolves",
+    "trigger": "kill:hub_wolf:10"
+   },
+   {
+    "text": "Slay an Old Wolf",
+    "trigger": "kill:hub_old_wolf:1"
+   },
+   {
+    "text": "Talk to the Hermit",
+    "trigger": "talk:npc.hermit"
+   }
+  ]
+ },
+ {
+  "id": "wizard_tower",
+  "name": "Wizard Tower",
+  "icon": "AMETHYST_CLUSTER",
+  "coins": 1500,
+  "sbxp": 5,
+  "about": "Meet the tower's keepers, find the Dark Auction house and learn where the Rift arch leads.",
+  "steps": [
+   {
+    "text": "Talk to the Archmage in the tower",
+    "trigger": "talk:npc.wizard"
+   },
+   {
+    "text": "Visit the Scroll Seller's stall",
+    "trigger": "talk:npc.scroll_seller"
+   },
+   {
+    "text": "Find the Dark Auction house",
+    "trigger": "zone:dark_auction"
+   },
+   {
+    "text": "Visit the Hedge Witch's hut",
+    "trigger": "talk:npc.hedgewitch"
+   }
+  ]
+ }
+]

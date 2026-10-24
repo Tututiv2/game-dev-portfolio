@@ -1,0 +1,3218 @@
+[
+ {
+  "id": "AMALGAMATED_CRIMSONITE_NEW",
+  "name": "Amalgamated Crimsonite",
+  "material": "NETHERITE_SCRAP",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 65280.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Combined from &a32 &7Enchanted Glowstone",
+   "&7Dust, &a8 &7Enchanted Mycelium, &a32",
+   "&a&7Enchanted Magma Cream, &a32 &7Enchanted",
+   "&7Blaze Powder, &a8 &7Enchanted Red Sand &7and",
+   "&7&a32 &7Enchanted Nether Wart&7 into &a2&7."
+  ]
+ },
+ {
+  "id": "AMBER_CRYSTAL",
+  "name": "Amber Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "AMETHYST_CRYSTAL",
+  "name": "Amethyst Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "AQUAMARINE_CRYSTAL",
+  "name": "Aquamarine Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ARACHNE_CRYSTAL",
+  "name": "Broodmother Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDAyNDgxOSwKICAicHJvZmlsZUlkIiA6ICIyMWNjMzkxZmNkMjc0NzY5OTg5Y2M3M2VjYWRiNTE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHT1NUTFk5NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYTExYmEyODhiZDZhYTdkNDkzNjBiMDNiZGM2MTgxODkxNTRjNDRlNTg4NTE2ZWEyOWNhZmYyMjk0NmNlZTAwIgogICAgfQogIH0KfQ==",
+  "npcSell": 1000.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "CITRINE_CRYSTAL",
+  "name": "Citrine Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "COAL",
+  "name": "Coal",
+  "material": "COAL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Coal&7, &aBlock",
+   "&aof Coal&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "COAL",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COAL_BLOCK",
+  "name": "Block of Coal",
+  "material": "COAL_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7Compressed from &a9 &7Coal&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COAL_ORE",
+  "name": "Coal Ore",
+  "material": "COAL_ORE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "COBBLESTONE",
+  "name": "Cobblestone",
+  "material": "COBBLESTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Cobblestone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "COBBLESTONE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "CONCENTRATED_STONE",
+  "name": "Concentrated Stone",
+  "material": "FLINT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 200000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a576 &7Enchanted Hard",
+   "&7Stone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "CORNUCOPIA_CRYSTAL",
+  "name": "Cornucopia Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MjExNSwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU4YTQxZGVkOWU5ZDI2OTNlMThiZDJjYzFhNzA5MzE5MTU2MjM0YzM3NmMzN2VjZTEyNDIzNGJiZGFkZjM3ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "DESERT_ISLAND_CRYSTAL",
+  "name": "Desert Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MjA1OCwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM1YWU1NzY5NTM1M2UzMzVkZGVlMjRjY2JiNTgyMzI0ZGQwNjg5NjYwOWIzNGNiNzJlZjQxNmVjZWVjZmQwYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "DIAMOND",
+  "name": "Diamond",
+  "material": "DIAMOND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Diamond&7,",
+   "&7&aBlock of Diamond&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "DIAMOND",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIAMOND_BLOCK",
+  "name": "Block of Diamond",
+  "material": "DIAMOND_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 72.0,
+  "lore": [
+   "&7Compressed from &a9 &7Diamond&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "DIAMOND_ORE",
+  "name": "Diamond Ore",
+  "material": "DIAMOND_ORE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EMERALD",
+  "name": "Emerald",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Emerald&7,",
+   "&7&aBlock of Emerald&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "EMERALD",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EMERALD_BLOCK",
+  "name": "Block of Emerald",
+  "material": "EMERALD_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 36.0,
+  "lore": [
+   "&7Compressed from &a9 &7Emerald&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "EMERALD_ORE",
+  "name": "Emerald Ore",
+  "material": "EMERALD_ORE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "ENCHANTED_COAL",
+  "name": "Enchanted Coal",
+  "material": "COAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Coal&7.",
+   "&7Compresses into &aEnchanted Coal Block&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_COAL_BLOCK",
+  "name": "Enchanted Coal Block",
+  "material": "COAL_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Coal&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_COBBLESTONE",
+  "name": "Enchanted Cobblestone",
+  "material": "COBBLESTONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Cobblestone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_DIAMOND",
+  "name": "Enchanted Diamond",
+  "material": "DIAMOND",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1280.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Diamond&7.",
+   "&7Compresses into &aEnchanted Diamond",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_DIAMOND_BLOCK",
+  "name": "Enchanted Diamond Block",
+  "material": "DIAMOND_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 204800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Diamond&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_EMERALD",
+  "name": "Enchanted Emerald",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Emerald&7.",
+   "&7Compresses into &aEnchanted Emerald",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_EMERALD_BLOCK",
+  "name": "Enchanted Emerald Block",
+  "material": "EMERALD_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Emerald&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_ENDSTONE",
+  "name": "Enchanted End Stone",
+  "material": "END_STONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7End Stone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_FLINT",
+  "name": "Enchanted Flint",
+  "material": "FLINT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Flint&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_GLACITE",
+  "name": "Enchanted Glacite",
+  "material": "PACKED_ICE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1920.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Glacite&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_GLOWSTONE",
+  "name": "Enchanted Glowstone",
+  "material": "GLOWSTONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 51200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Glowstone Dust&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_GLOWSTONE_DUST",
+  "name": "Enchanted Glowstone Dust",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Glowstone Dust&7.",
+   "&7Compresses into &aEnchanted Glowstone&7,",
+   "&7&aAmalgamated Crimsonite&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_GOLD",
+  "name": "Enchanted Gold Ingot",
+  "material": "GOLD_INGOT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 480.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Gold Ingot&7.",
+   "&7Compresses into &aEnchanted Gold Block&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_GOLD_BLOCK",
+  "name": "Enchanted Gold Block",
+  "material": "GOLD_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 76800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Enchanted Gold",
+   "&7Ingot&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_HARD_STONE",
+  "name": "Enchanted Hard Stone",
+  "material": "STONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 576.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a576 &7Hard Stone&7.",
+   "&7Compresses into &aConcentrated Stone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_ICE",
+  "name": "Enchanted Ice",
+  "material": "ICE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 80.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Ice&7.",
+   "&7Compresses into &aEnchanted Packed Ice&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_IRON",
+  "name": "Enchanted Iron Ingot",
+  "material": "IRON_INGOT",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Iron Ingot&7.",
+   "&7Compresses into &aEnchanted Iron Block&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_IRON_BLOCK",
+  "name": "Enchanted Iron Block",
+  "material": "IRON_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 51200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Iron",
+   "&7Ingot&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_LAPIS_LAZULI",
+  "name": "Enchanted Lapis Lazuli",
+  "material": "LAPIS_LAZULI",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Lapis Lazuli&7.",
+   "&7Compresses into &aEnchanted Lapis Lazuli",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+  "name": "Enchanted Lapis Lazuli Block",
+  "material": "LAPIS_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Lapis",
+   "&7Lazuli&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_MITHRIL",
+  "name": "Enchanted Mithril",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1280.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Mithril&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_MYCELIUM",
+  "name": "Enchanted Mycelium",
+  "material": "MYCELIUM",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Mycelium&7.",
+   "&7Compresses into &aEnchanted Mycelium",
+   "&aCube&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_MYCELIUM_CUBE",
+  "name": "Enchanted Mycelium Cube",
+  "material": "MYCELIUM",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted",
+   "&7Mycelium&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_NETHERRACK",
+  "name": "Enchanted Netherrack",
+  "material": "NETHERRACK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Netherrack&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_OBSIDIAN",
+  "name": "Enchanted Obsidian",
+  "material": "OBSIDIAN",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1120.0,
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "referencePrice": 1440.0,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a160 &7Obsidian&7."
+  ]
+ },
+ {
+  "id": "ENCHANTED_PACKED_ICE",
+  "name": "Enchanted Packed Ice",
+  "material": "PACKED_ICE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 12800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Ice&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_QUARTZ",
+  "name": "Enchanted Nether Quartz",
+  "material": "QUARTZ",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 640.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Nether Quartz&7.",
+   "&7Compresses into &aEnchanted Quartz",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_QUARTZ_BLOCK",
+  "name": "Enchanted Quartz Block",
+  "material": "QUARTZ_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 102400.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Nether",
+   "&7Quartz&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_REDSTONE",
+  "name": "Enchanted Redstone Dust",
+  "material": "REDSTONE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 160.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compressed from &a160 &7Redstone Dust&7.",
+   "&7Compresses into &aEnchanted Redstone",
+   "&aBlock&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_REDSTONE_BLOCK",
+  "name": "Enchanted Redstone Block",
+  "material": "REDSTONE_BLOCK",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Redstone",
+   "&7Dust&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_RED_SAND",
+  "name": "Enchanted Red Sand",
+  "material": "RED_SAND",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Red Sand&7.",
+   "&7Compresses into &aEnchanted Red Sand",
+   "&aCube&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_RED_SAND_CUBE",
+  "name": "Enchanted Red Sand Cube",
+  "material": "RED_SAND",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 128000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Red",
+   "&7Sand&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_SAND",
+  "name": "Enchanted Sand",
+  "material": "SAND",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Sand&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_SNOW_BLOCK",
+  "name": "Enchanted Snow Block",
+  "material": "SNOW_BLOCK",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Snow Block&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_SULPHUR",
+  "name": "Enchanted Sulphur",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Sulphur&7.",
+   "&7Compresses into &aEnchanted Sulphur",
+   "&aCube&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_SULPHUR_CUBE",
+  "name": "Enchanted Sulphur Cube",
+  "material": "GLOWSTONE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Enchanted Sulphur&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_TITANIUM",
+  "name": "Enchanted Titanium",
+  "material": "IRON_INGOT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 3200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Titanium&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_TUNGSTEN",
+  "name": "Enchanted Tungsten",
+  "material": "IRON_INGOT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Tungsten&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENCHANTED_UMBER",
+  "name": "Enchanted Umber",
+  "material": "IRON_INGOT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a160 &7Umber&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ENDER_STONE",
+  "name": "End Stone",
+  "material": "END_STONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted End Stone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "ENDER_STONE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "FARM_CRYSTAL",
+  "name": "Farm Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MjM1MywKICAicHJvZmlsZUlkIiA6ICI4NWI3ZDQ0ZDA4MjY0NWExYTg4ZDhlNTYyZTE5MDhhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtaWtlbHNvbmljY3IiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkxODBjMDVjY2I1YTVlNjQzNWFhNWMxOTg3NDIxNjZhYjk4MTkwNGM1NmJlODY5NDNmOGZhYzE1MzQ2OTBmNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 154240.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aCornucopia Crystal&7."
+  ]
+ },
+ {
+  "id": "FINE_AMBER_GEM",
+  "name": "Fine Amber Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Amber",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Amber",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_AMETHYST_GEM",
+  "name": "Fine Amethyst Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Amethyst",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Amethyst",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_AQUAMARINE_GEM",
+  "name": "Fine Aquamarine Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Aquamarine",
+   "&7Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_CITRINE_GEM",
+  "name": "Fine Citrine Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Citrine",
+   "&7Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_JADE_GEM",
+  "name": "Fine Jade Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Jade",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Jade",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_JASPER_GEM",
+  "name": "Fine Jasper Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Jasper",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Jasper",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_ONYX_GEM",
+  "name": "Fine Onyx Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Onyx",
+   "&7Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_OPAL_GEM",
+  "name": "Fine Opal Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Opal",
+   "&7Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_PERIDOT_GEM",
+  "name": "Fine Peridot Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 25600.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Peridot",
+   "&7Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_RUBY_GEM",
+  "name": "Fine Ruby Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Ruby",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Ruby",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_SAPPHIRE_GEM",
+  "name": "Fine Sapphire Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Sapphire",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Sapphire",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FINE_TOPAZ_GEM",
+  "name": "Fine Topaz Gemstone",
+  "material": "EMERALD",
+  "rarity": "RARE",
+  "category": "GEMSTONE",
+  "npcSell": 19200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Flawed Topaz",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFlawless Topaz",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FISHING_CRYSTAL",
+  "name": "Fishing Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4Mzc0MywKICAicHJvZmlsZUlkIiA6ICIxN2I5ZDBmOWYxYzE0OTE5ODRkY2Y5ZGM2YzczZDYzYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJuYWJlNDk3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWM0NGE4ZjY4YTAxMzNjOWE5NGJmMjk0NzMzYWIzZmY3YjUwZDczMzUwZGM1OTAyZjBiYmE1YTM4NzZjOWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_AMBER_GEM",
+  "name": "Flawed Amber Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Amber",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Amber Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_AMETHYST_GEM",
+  "name": "Flawed Amethyst Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Amethyst",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Amethyst",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_AQUAMARINE_GEM",
+  "name": "Flawed Aquamarine Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Aquamarine",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Aquamarine",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_CITRINE_GEM",
+  "name": "Flawed Citrine Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Citrine",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Citrine Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_JADE_GEM",
+  "name": "Flawed Jade Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Jade",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Jade Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_JASPER_GEM",
+  "name": "Flawed Jasper Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Jasper",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Jasper Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_ONYX_GEM",
+  "name": "Flawed Onyx Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Onyx",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Onyx Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_OPAL_GEM",
+  "name": "Flawed Opal Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Opal",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Opal Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_PERIDOT_GEM",
+  "name": "Flawed Peridot Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 320.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Peridot",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Peridot Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_RUBY_GEM",
+  "name": "Flawed Ruby Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Ruby",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Ruby Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_SAPPHIRE_GEM",
+  "name": "Flawed Sapphire Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Sapphire",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Sapphire",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWED_TOPAZ_GEM",
+  "name": "Flawed Topaz Gemstone",
+  "material": "EMERALD",
+  "rarity": "UNCOMMON",
+  "category": "GEMSTONE",
+  "npcSell": 240.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a80 &7Rough Topaz",
+   "&7Gemstone&7.",
+   "&7Compresses into &aFine Topaz Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "FLAWLESS_AMBER_GEM",
+  "name": "Flawless Amber Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Amber",
+   "&7Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_AMETHYST_GEM",
+  "name": "Flawless Amethyst Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Amethyst",
+   "&7Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_JADE_GEM",
+  "name": "Flawless Jade Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Jade Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_JASPER_GEM",
+  "name": "Flawless Jasper Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 2048000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Jasper",
+   "&7Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_RUBY_GEM",
+  "name": "Flawless Ruby Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Ruby Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_SAPPHIRE_GEM",
+  "name": "Flawless Sapphire Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Sapphire",
+   "&7Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLAWLESS_TOPAZ_GEM",
+  "name": "Flawless Topaz Gemstone",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "GEMSTONE",
+  "tags": [
+   "bazaar"
+  ],
+  "npcSell": 1536000.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Compressed from &a80 &7Fine Topaz",
+   "&7Gemstone&7."
+  ]
+ },
+ {
+  "id": "FLINT",
+  "name": "Flint",
+  "material": "FLINT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Flint&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "FOREST_ISLAND_CRYSTAL",
+  "name": "Forest Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjkzMDQ4NzQ5OCwKICAicHJvZmlsZUlkIiA6ICIwNmE4NjAyZDAwODk0YWQxOTcyMGQ3NGE1OGU1MDZjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfMW5kcmFfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0ZDJjODEwMGMwZTZkMzg5MTBlMjRlZmE1MDQzOGNkZjdiZjBhYWViYzQ3MWQ0ZmExNjNhZjJkMjE4YTMzOTUiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "GEMSTONE_COLLECTION",
+  "name": "Gemstone",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYxODA4Mzg4ODc3MSwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhYzE1ZjZmY2YyY2U5NjNlZjRjYTcxZjFhODY4NWFkYjk3ZWI3NjllMWQxMTE5NGNiYmQyZTk2NGE4ODk3OGMiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&8Collection Item"
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "GEMSTONE_COLLECTION"
+  }
+ },
+ {
+  "id": "GLACITE",
+  "name": "Glacite",
+  "material": "PACKED_ICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 12.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Glacite&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "GLACITE"
+  }
+ },
+ {
+  "id": "GLOWSTONE",
+  "name": "Glowstone",
+  "material": "GLOWSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "lore": [
+   "&7Compressed from &a4 &7Glowstone Dust&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GLOWSTONE_DUST",
+  "name": "Glowstone Dust",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Glowstone",
+   "&aDust&7, &aGlowstone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "GLOWSTONE_DUST",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_BLOCK",
+  "name": "Block of Gold",
+  "material": "GOLD_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 27.0,
+  "lore": [
+   "&7Compressed from &a9 &7Gold Ingot&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_INGOT",
+  "name": "Gold Ingot",
+  "material": "GOLD_INGOT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Gold Ingot&7,",
+   "&7&aBlock of Gold&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "GOLD_INGOT",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GOLD_ORE",
+  "name": "Gold Ore",
+  "material": "GOLD_ORE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aPortal to the Gold Mine&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "GRAVEL",
+  "name": "Gravel",
+  "material": "GRAVEL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item"
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "GRAVEL",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "HARD_STONE",
+  "name": "Hard Stone",
+  "material": "STONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Hard Stone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "HARD_STONE"
+  }
+ },
+ {
+  "id": "ICE",
+  "name": "Ice",
+  "material": "ICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 0.5,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Ice&7, &aPacked",
+   "&aIce&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "ICE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "INK_SACK:4",
+  "name": "Lapis Lazuli",
+  "material": "LAPIS_LAZULI",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Lapis",
+   "&aLazuli&7, &aBlock of Lapis Lazuli&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "INK_SACK:4",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_BLOCK",
+  "name": "Block of Iron",
+  "material": "IRON_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 18.0,
+  "lore": [
+   "&7Compressed from &a9 &7Iron Ingot&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_INGOT",
+  "name": "Iron Ingot",
+  "material": "IRON_INGOT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Iron Ingot&7,",
+   "&7&aBlock of Iron&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "IRON_INGOT",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "IRON_ORE",
+  "name": "Iron Ore",
+  "material": "IRON_ORE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aPortal to the Gold Mine&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "JADE_CRYSTAL",
+  "name": "Jade Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "JASPER_CRYSTAL",
+  "name": "Jasper Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "LAPIS_BLOCK",
+  "name": "Block of Lapis Lazuli",
+  "material": "LAPIS_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7Compressed from &a9 &7Lapis Lazuli&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LAPIS_ORE",
+  "name": "Lapis Lazuli Ore",
+  "material": "LAPIS_ORE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "LIME_GEM",
+  "name": "Lime Gem",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NTE5MSwKICAicHJvZmlsZUlkIiA6ICJkM2VmYjJmMThjMDU0YmRhYTE0OTVlZTY0ZDgxZjdlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNTEsxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZmI5OGY1YjkyNzY4NjI3ZTlmM2U0MjYwOTU2MWNjYjQ2MzhhZDlkNzZkZjk3NjE2NzRiMjdmNjgyMGZkYzA5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "MITHRIL_CRYSTAL",
+  "name": "Mithril Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MzgxOSwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZTMzY2M1ZjAyMmQ5Y2I4MDJiN2VlYjA1OTE3YWU3NWY4ZDk5ZmU2MDI0ZmFlMTA4NzQ0NGMxMGFkODYzZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "npcSell": 21120.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Found by mining."
+  ]
+ },
+ {
+  "id": "MITHRIL_ORE",
+  "name": "Mithril",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 8.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Mithril&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "MITHRIL_ORE"
+  }
+ },
+ {
+  "id": "MOLTEN_POWDER",
+  "name": "Molten Powder",
+  "material": "BLAZE_POWDER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Combined from &a128 &7Derelict Ashe &7and &a1",
+   "&a&7Amalgamated Crimsonite&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "MOSSY_COBBLESTONE",
+  "name": "Moss Stone",
+  "material": "MOSSY_COBBLESTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "MYCEL",
+  "name": "Mycelium",
+  "material": "MYCELIUM",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Mycelium&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "MYCEL"
+  }
+ },
+ {
+  "id": "NETHERRACK",
+  "name": "Netherrack",
+  "material": "NETHERRACK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Netherrack&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "NETHERRACK",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_BRICK",
+  "name": "Nether Bricks",
+  "material": "NETHER_BRICKS",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "lore": [
+   "&7Compressed from &a4 &7Nether Brick&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "NETHER_WART_ISLAND_CRYSTAL",
+  "name": "Nether Wart Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MzU0MiwKICAicHJvZmlsZUlkIiA6ICIzODY2ZTk1MmIxZWE0M2E4OGE3NGI1NzAxZDVjYTAwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWtlTWFybG93IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhZTZmYzA1MTkyYjZjNDFmNmE4ZDUxNmY0NGNjY2NjMDRkMjE5YzE1MDFlYThkMTI1ODU0MTIwOWUxMTljY2YiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "NULL_OVOID",
+  "name": "Null Ovoid",
+  "material": "ENDER_EYE",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Combined from &a128 &7Null Sphere &7and &a32",
+   "&a&7Enchanted Obsidian&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "OBSIDIAN",
+  "name": "Obsidian",
+  "material": "OBSIDIAN",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 7.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Obsidian&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "OBSIDIAN",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "OBSOLITE",
+  "name": "Obsolite",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyNTMyNTc3ODQwMSwKICAicHJvZmlsZUlkIiA6ICIyZGI4ZTYzYzFlMTc0NGE3ODIyZDNmNjBlYmNmYzI5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmtTYW5kYm94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1ZTI5YmZmZTRkMTQ5ODdlOTU1MmYzNjMwMjA0OTU0MjMxYTcwZWQxM2ZiZTdkZmM1NzU0YmI3ZTllNzMyYzMiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aShardlite&7, &aHighlite&7 and",
+   "&71 more."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ONYX_CRYSTAL",
+  "name": "Onyx Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "OPAL_CRYSTAL",
+  "name": "Opal Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ORANGE_GEM",
+  "name": "Orange Gem",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NjE4OSwKICAicHJvZmlsZUlkIiA6ICJjYmNkNDQzZGE1NTI0OGU3ODM3NWNmZjYwMmQzZWI0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPX1JlaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZmI2MDMwM2E4OGYxYTJhMDg4MTBiYTVhNjhlNTFhYTA4MDM2MjQwMDRiY2U2MGY0MzE0YTYxY2FjZjcyNThmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PACKED_ICE",
+  "name": "Packed Ice",
+  "material": "PACKED_ICE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.5,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a9 &7Ice&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "PERFECT_AMBER_GEM",
+  "name": "Perfect Amber Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_AMETHYST_GEM",
+  "name": "Perfect Amethyst Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_JADE_GEM",
+  "name": "Perfect Jade Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_JASPER_GEM",
+  "name": "Perfect Jasper Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_RUBY_GEM",
+  "name": "Perfect Ruby Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_SAPPHIRE_GEM",
+  "name": "Perfect Sapphire Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERFECT_TOPAZ_GEM",
+  "name": "Perfect Topaz Gemstone",
+  "material": "EMERALD",
+  "rarity": "LEGENDARY",
+  "category": "GEMSTONE",
+  "glow": true,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PERIDOT_CRYSTAL",
+  "name": "Peridot Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "POWER_CRYSTAL",
+  "name": "Power Crystal",
+  "material": "NETHER_STAR",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "glow": true,
+  "npcSell": 1920.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "PURPLE_GEM",
+  "name": "Purple Gem",
+  "material": "PLAYER_HEAD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc4MjIzNDA1NjU5NywKICAicHJvZmlsZUlkIiA6ICJjNGU0ZDY2MWRkMDQ0MDE3ODNhZDM5NGEzMDBjOTFjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSNTBrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg1N2I1NzhlN2U2NzM2ZGVkOWI0ZWMwNTE2MjU1NjA1MzMyMzljZWY4MThkZDI4ZDZhNGM0OTYwNGFiMjViNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "QUARTZ",
+  "name": "Nether Quartz",
+  "material": "QUARTZ",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Nether",
+   "&aQuartz&7, &aBlock of Quartz&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "QUARTZ",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "QUARTZ_BLOCK",
+  "name": "Block of Quartz",
+  "material": "QUARTZ_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 16.0,
+  "lore": [
+   "&7Compressed from &a4 &7Nether Quartz&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "QUARTZ_ORE",
+  "name": "Nether Quartz Ore",
+  "material": "NETHER_QUARTZ_ORE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE",
+  "name": "Redstone Dust",
+  "material": "REDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Redstone",
+   "&aDust&7, &aBlock of Redstone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "REDSTONE",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE_BLOCK",
+  "name": "Block of Redstone",
+  "material": "REDSTONE_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 9.0,
+  "lore": [
+   "&7Compressed from &a9 &7Redstone Dust&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REDSTONE_ORE",
+  "name": "Redstone Ore",
+  "material": "REDSTONE_ORE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 6.0,
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "RED_SANDSTONE",
+  "name": "Red Sandstone",
+  "material": "RED_SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Compressed from &a4 &7Red Sand&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "REFINED_MITHRIL",
+  "name": "Refined Mithril",
+  "material": "PRISMARINE_CRYSTALS",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 204800.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aVoidedge Katana&7, &aVorpal",
+   "&aKatana&7 and 1 more."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "REFINED_TITANIUM",
+  "name": "Refined Titanium",
+  "material": "IRON_INGOT",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "npcSell": 51200.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aBurststopper Talisman&7,",
+   "&7&aPhasewarp Conduit&7 and 1 more."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "REFINED_TUNGSTEN",
+  "name": "Refined Tungsten",
+  "material": "IRON_INGOT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "REFINED_UMBER",
+  "name": "Refined Umber",
+  "material": "IRON_INGOT",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "npcSell": 256000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aUmberella&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "RESOURCE_REGENERATOR_CRYSTAL",
+  "name": "Resource Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjkzMDQ4NzQ5OCwKICAicHJvZmlsZUlkIiA6ICIwNmE4NjAyZDAwODk0YWQxOTcyMGQ3NGE1OGU1MDZjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfMW5kcmFfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0ZDJjODEwMGMwZTZkMzg5MTBlMjRlZmE1MDQzOGNkZjdiZjBhYWViYzQ3MWQ0ZmExNjNhZjJkMjE4YTMzOTUiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_AMBER_GEM",
+  "name": "Rough Amber Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Amber Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_AMETHYST_GEM",
+  "name": "Rough Amethyst Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Amethyst",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_AQUAMARINE_GEM",
+  "name": "Rough Aquamarine Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Aquamarine",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_CITRINE_GEM",
+  "name": "Rough Citrine Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Citrine",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_JADE_GEM",
+  "name": "Rough Jade Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Jade Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_JASPER_GEM",
+  "name": "Rough Jasper Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Jasper",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_ONYX_GEM",
+  "name": "Rough Onyx Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Onyx Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_OPAL_GEM",
+  "name": "Rough Opal Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Opal Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_PERIDOT_GEM",
+  "name": "Rough Peridot Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Peridot",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_RUBY_GEM",
+  "name": "Rough Ruby Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Ruby Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_SAPPHIRE_GEM",
+  "name": "Rough Sapphire Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Sapphire",
+   "&aGemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "ROUGH_TOPAZ_GEM",
+  "name": "Rough Topaz Gemstone",
+  "material": "EMERALD",
+  "rarity": "COMMON",
+  "category": "GEMSTONE",
+  "npcSell": 3.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aFlawed Topaz Gemstone&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "RUBY_CRYSTAL",
+  "name": "Ruby Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "SAND",
+  "name": "Sand",
+  "material": "SAND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 2.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sand&7,",
+   "&7&aSandstone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "SAND",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAND:1",
+  "name": "Red Sand",
+  "material": "RED_SAND",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 5.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "&8Brewing Ingredient",
+   "",
+   "&7Compresses into &aEnchanted Red Sand&7,",
+   "&7&aRed Sandstone&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "SAND:1",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SANDSTONE",
+  "name": "Sandstone",
+  "material": "SANDSTONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 3.0,
+  "lore": [
+   "&7Compressed from &a4 &7Sand&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SAPPHIRE_CRYSTAL",
+  "name": "Sapphire Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "SCORCHED_POWER_CRYSTAL",
+  "name": "Scorched Power Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "LEGENDARY",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5NzQwMDEzNCwKICAicHJvZmlsZUlkIiA6ICI0NDA3OTk4M2Q0ZTU0MTZiYmY4NzAzNDU2YzczYTc5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBeWFhbjEzMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDk5ZDRlMjVhNTY5ZTJkMDE4YmQ4ZDdlMWE0MGFkMmNjYmM5YmQxZmQyZWQ0ODY4OGJjYzNmNjJhOTYyMTNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 350000.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "SNOW_BALL",
+  "name": "Snowball",
+  "material": "SNOWBALL",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aSnow Block&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SNOW_BLOCK",
+  "name": "Snow Block",
+  "material": "SNOW_BLOCK",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 4.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compressed from &a4 &7Snowball&7.",
+   "&7Compresses into &aEnchanted Snow Block&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "STONE",
+  "name": "Stone",
+  "material": "STONE",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 1.0,
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aBridge Egg&7, &aRepeater&7 and",
+   "&75 more."
+  ],
+  "extra": {
+   "family": "mining",
+   "vanilla": true
+  }
+ },
+ {
+  "id": "SULPHUR_ORE",
+  "name": "Sulphur",
+  "material": "GLOWSTONE_DUST",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Sulphur&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "SULPHUR_ORE"
+  }
+ },
+ {
+  "id": "TITANIUM_ORE",
+  "name": "Titanium",
+  "material": "IRON_INGOT",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "npcSell": 20.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&7Compresses into &aEnchanted Titanium&7."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "TOPAZ_CRYSTAL",
+  "name": "Topaz Crystal",
+  "material": "AMETHYST_SHARD",
+  "rarity": "SPECIAL",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "TUNGSTEN",
+  "name": "Tungsten",
+  "material": "IRON_INGOT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Tungsten&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "TUNGSTEN"
+  }
+ },
+ {
+  "id": "UMBER",
+  "name": "Umber",
+  "material": "IRON_INGOT",
+  "rarity": "COMMON",
+  "category": "MATERIAL",
+  "npcSell": 10.0,
+  "tags": [
+   "bazaar"
+  ],
+  "lore": [
+   "&8Collection Item",
+   "",
+   "&7Compresses into &aEnchanted Umber&7."
+  ],
+  "extra": {
+   "family": "mining",
+   "collection": "UMBER"
+  }
+ },
+ {
+  "id": "WHEAT_ISLAND_CRYSTAL",
+  "name": "Wheat Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4MzgxOSwKICAicHJvZmlsZUlkIiA6ICIxN2Q0ODA1ZDRmMTA0YTA5OWRiYzJmNzYzMDNjYmRkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnaWZ0bWV0b25uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZTMzY2M1ZjAyMmQ5Y2I4MDJiN2VlYjA1OTE3YWU3NWY4ZDk5ZmU2MDI0ZmFlMTA4NzQ0NGMxMGFkODYzZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "WINTER_ISLAND_CRYSTAL",
+  "name": "Winter Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4NTA4NywKICAicHJvZmlsZUlkIiA6ICIzMjA3MWFlYjYzZjI0NmY0YTVlMGZhMWY3ODg3ZGRhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcl9HZW5lcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDBjZjEwZjRmYWUxMWIwZTA1N2MxMDE5N2Y3MGVkMmU0NWRhMWZmMWYxMTFjZmM5OWJiMzRkMWU0MGFmMWI2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "lore": [
+   "&7Found by mining."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ },
+ {
+  "id": "WOODCUTTING_CRYSTAL",
+  "name": "Woodcutting Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTc3MjA2NjA4NDU4NiwKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRjM2I5YTRjNTkxY2Q3YmJlZDNlMTZiMzRhZDhkNTA3NjA4ZmJlNDRkYzcyOGE3ZWQxNDFmMmUxNzI5ZDgyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "npcSell": 31360.0,
+  "extra": {
+   "derivedPrice": true,
+   "family": "mining"
+  },
+  "lore": [
+   "&7Found by mining."
+  ]
+ },
+ {
+  "id": "YOUNGITE",
+  "name": "Youngite",
+  "material": "PLAYER_HEAD",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyNTMyNTc5Mjk5MywKICAicHJvZmlsZUlkIiA6ICI5ZDYzZjMxMGNiZWE0MWI1YmQ4YTM4ZmExYTBiMDI4MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3libHVlZm94dGFpbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmFkNzAyOGU4NzlhNjM4MjA3YmVkNTQzNWE4ZTVkYWNkNDgzMDZlNWM1NmRhMjIzMTQ5NjM2ZTAzZTMzOGIiCiAgICB9CiAgfQp9",
+  "lore": [
+   "&7Found by mining.",
+   "&7Used to craft &aShardlite&7, &aAeon Pickaxe&7",
+   "&7and 3 more."
+  ],
+  "extra": {
+   "family": "mining"
+  }
+ }
+]

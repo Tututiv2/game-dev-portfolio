@@ -1,0 +1,12 @@
+{
+  "name": "tfm-testrig",
+  "version": "0.1.0",
+  "title": "TFM Test Rig",
+  "author": "Tutut",
+  "description": "Throwaway in-world verification harness for Tuti's Fun Mods. Not for release.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "tutis-the-director >= 0.1.0"
+  ]
+}

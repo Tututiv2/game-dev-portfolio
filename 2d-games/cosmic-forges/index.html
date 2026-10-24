@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosmic Forges</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="hud">
+        <h1>Cosmic Forges <span class="tag">Surface / Space</span></h1>
+        <ul class="stats">
+          <li>Ferrium: <strong id="hud-ferrium">0</strong></li>
+          <li>Core: <strong id="hud-core">0</strong></li>
+          <li>Tick: <span id="hud-tick">0</span></li>
+          <li>Wave: <span id="hud-wave">0</span></li>
+          <li>Next: <span id="hud-next">0</span> t</li>
+          <li>Hostiles: <span id="hud-hostiles">0</span></li>
+          <li>Build (RMB): <span id="hud-build">40 F — Extractor</span></li>
+          <li>View: <span id="hud-mode">Surface</span></li>
+          <li title="M2: Shift+click on galaxy to set. Cleared on warp.">Nav: <span id="hud-nav">—</span></li>
+          <li title="M4: distance from world center. Inner = base sim runs; deep = frozen. ' toggles space combat.">SOI: <span id="hud-soi">—</span></li>
+          <li title="M5: deep-orbit waves when on. Press ' to toggle.">SC: <span id="hud-sc">off</span></li>
+          <li>Tech: <span id="hud-tech">0</span></li>
+          <li>Logistics: <span id="hud-logistics">0</span></li>
+          <li title="Drives faster waves and stronger wildlife">Poll.: <span id="hud-poll">0</span></li>
+        </ul>
+        <p class="build-row">
+          <span class="build-label">Placing:</span>
+          <button type="button" class="build-btn" id="btn-build-extractor" data-kind="extractor" title="Output ferrium. Counts for logistics.">
+            Extractor <span class="c">40</span> F
+          </button>
+          <button type="button" class="build-btn" id="btn-build-purifier" data-kind="purifier" title="Scrub pollution per tick.">
+            Purifier <span class="c">50</span> F
+          </button>
+          <button type="button" class="build-btn" id="btn-build-relay" data-kind="relay" title="Passive science. Requires Stabilized (tier 1).">
+            Relay <span class="c">95</span> F
+          </button>
+          <button type="button" class="build-btn" id="btn-build-sentry" data-kind="sentry" title="Fires on nearest target in range. Requires Stabilized (tier 1).">
+            Sentry <span class="c">75</span> F
+          </button>
+        </p>
+        <p class="hint">
+          Surface: <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> move (ground) · <kbd>F</kbd> spaceflight (third person) ·
+          <kbd>Space</kbd> or <kbd>E</kbd> up · <kbd>Q</kbd> down · deep space: <kbd>W</kbd> thrust · <kbd>S</kbd> brake ·
+          <strong>LMB</strong> or <kbd>B</kbd> pin star (short click) · thrust slider · Orbit (LMB drag) · Place (RMB) · 4/5/6/7 or
+          <kbd>[</kbd> <kbd>]</kbd> build · <kbd>M</kbd> System · <kbd>G</kbd> Galaxy (Shift+click nav, click warp) · <kbd>Esc</kbd> close
+          maps · <kbd>P</kbd> pause · 1/2/3 time scale · far orbit: time freezes, maps don’t autoland
+        </p>
+        <p
+          class="sub flight-hud"
+          id="flight-hud"
+          title="Near orbit: base can tick. Deep orbit: time freezes. Thrust: slider."
+        >
+          <label class="flight-hud__label" for="fly-speed">Thrust</label>
+          <input
+            type="range"
+            id="fly-speed"
+            min="0.25"
+            max="4"
+            step="0.05"
+            value="1"
+            aria-label="Spaceflight speed multiplier"
+          />
+          <span id="hud-fly-mul" class="flight-hud__mul">1.0×</span>
+          <span
+            class="flight-hud__cruise"
+            title="Deep space: velocity-based flight (W thrust, S brake). Galaxy warp uses the map."
+            >· Interstellar: <span id="hud-cruise">—</span></span>
+        </p>
+        <p class="sub">
+          <span id="hud-speed">1×</span> ·
+          <button type="button" id="btn-pause" title="Keyboard: P">Pause</button> ·
+          <button type="button" id="btn-system">Map: System</button> ·
+          <button type="button" id="btn-galaxy">Map: Galaxy</button> ·
+          <button type="button" id="btn-save">Save</button>
+          <button type="button" id="btn-export">Export</button>
+          <label class="file"> Import <input type="file" id="import-file" accept="application/json,.json" /> </label>
+          <button type="button" id="btn-new">New run</button>
+          <button type="button" id="btn-dev" class="dev-toggle" title="Tweak stars and body LOD (live)">Dev</button>
+        </p>
+        <p id="hud-log" class="log" aria-live="polite"></p>
+      </header>
+      <div class="view">
+        <canvas id="game" class="view-layer" width="1200" height="720"></canvas>
+        <div
+          class="view-velocity"
+          id="hud-velocity"
+          hidden
+          title="Deep space: |v| vs cap (includes thrust slider multiplier)."
+        >
+          <div class="view-velocity__label">Speed</div>
+          <div class="view-velocity__row">
+            <span id="hud-velocity-val">0</span><span class="view-velocity__unit">m/s</span>
+          </div>
+          <div class="view-velocity__max">max <span id="hud-velocity-cap">0</span> m/s</div>
+        </div>
+        <div id="star-peek" class="star-peek" hidden aria-live="polite">
+          <div class="star-peek__name">—</div>
+          <div class="star-peek__dist">—</div>
+          <div class="star-peek__meta">???  ·  ???  ·  ???</div>
+        </div>
+        <canvas id="solar" class="view-layer" width="1200" height="720" hidden></canvas>
+        <canvas id="galaxy" class="view-layer" width="1200" height="720" hidden></canvas>
+        <div id="solar-hud" class="map-hud" hidden>
+          <h2 id="solar-title">System</h2>
+          <p class="solar-dial">Orbit: drag. Pick a world to land (same star system).</p>
+          <div id="solar-bodies" class="body-buttons"></div>
+          <p class="solar-dial">
+            <button type="button" id="solar-surface">Back to surface</button>
+            <button type="button" id="solar-open-gal">Galaxy map</button>
+          </p>
+        </div>
+        <div id="galaxy-hud" class="map-hud" hidden>
+          <p class="solar-dial">
+            <strong>Shift+click</strong> a neighbor: set <strong>nav target</strong> (sky hint on surface). <strong>Click</strong> (no
+            shift): warp (FTL). Pan: drag.
+          </p>
+          <p class="solar-dial">
+            <button type="button" id="galaxy-close">Back to game</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+base {
+    archivesName = 'testpilot'
+}
+
+// The MC version goes into the jar name so a jar for one version is never
+// mistaken for another.
+version = "${project.version}+mc${project.minecraft_version}"
+
+repositories {
+    mavenCentral()
+}
+
+loom {
+    // Client-only mod, one source set (no splitEnvironmentSourceSets): every
+    // class here touches client code.
+    runs {
+        client {
+            runDir = "run/client"
+            programArgs("--username", "PilotDev")
+        }
+    }
+}
+
+dependencies {
+    // No `mappings` line. See gradle.properties before you "fix" this.
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    // NavTest: the walking geometry (Nav) is plain code over a BlockGetter, so it is tested
+    // against real block shapes (dirt_path, doors, fences) with no client running.
+    testImplementation "org.junit.jupiter:junit-jupiter:5.11.4"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher:1.11.4"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging { events "passed", "failed"; exceptionFormat "full"; showStandardStreams = true }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(project.java_version as int)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = project.java_version as int
+    it.options.encoding = 'UTF-8'
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version, "minecraft_version": project.minecraft_version
+    }
+}

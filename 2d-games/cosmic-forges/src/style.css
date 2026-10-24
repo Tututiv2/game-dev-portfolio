@@ -1,0 +1,408 @@
+:root {
+  --bg: #0b0e14;
+  --text: #e6edf3;
+  --muted: #8b9cb3;
+  --accent: #3d8fd1;
+  --danger: #d94a4a;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100%;
+  min-height: 100dvh;
+  max-height: 100vh;
+  max-height: 100dvh;
+  overflow: hidden;
+}
+
+.hud {
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #1e2635;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+}
+
+h1 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tag {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  list-style: none;
+  margin: 0.25rem 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.hint,
+.sub,
+.log,
+.build-row {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.2rem 0 0 0;
+}
+
+.build-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.5rem;
+}
+
+.build-label,
+.flight-hud__label {
+  color: #a0b0c8;
+  font-size: 0.78rem;
+  margin: 0;
+}
+
+.flight-hud {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.5rem;
+}
+
+#fly-speed {
+  flex: 1;
+  min-width: 5rem;
+  max-width: 12rem;
+  accent-color: var(--accent);
+}
+
+.flight-hud__mul {
+  font-variant-numeric: tabular-nums;
+  min-width: 2.75em;
+  color: var(--text);
+}
+
+.flight-hud.flight-hud--active {
+  color: #c8d8f0;
+  border: 1px solid rgba(61, 143, 209, 0.35);
+  border-radius: 4px;
+  padding: 0.25rem 0.4rem;
+  background: rgba(8, 14, 24, 0.65);
+  margin: 0.1rem 0 0.15rem 0;
+}
+
+button.build-btn {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.45rem;
+  margin: 0;
+}
+
+button.build-btn .c {
+  color: #a8c8e8;
+  font-variant-numeric: tabular-nums;
+}
+
+button.build-btn--active {
+  background: #1a3555;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(61, 143, 209, 0.35);
+}
+
+button.build-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.log {
+  color: var(--accent);
+  min-height: 1.2em;
+}
+
+button {
+  background: #1c2540;
+  color: var(--text);
+  border: 1px solid #2a3a5c;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.35rem;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+.file {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.file input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Must take remaining height so absolute canvases (inset:0) get a non-zero box; otherwise WebGL is 0×0 = black. */
+.view {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #04060a;
+}
+
+#game {
+  z-index: 0;
+  background: #04060a;
+}
+
+/* Deep-space |v| readout: bottom-left over the 3D view. */
+.view-velocity {
+  position: absolute;
+  z-index: 2;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  padding: 0.4rem 0.6rem 0.45rem;
+  min-width: 6.5rem;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  pointer-events: none;
+  color: #c5d2e2;
+  background: rgba(4, 8, 16, 0.82);
+  border: 1px solid rgba(80, 140, 200, 0.35);
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  font-feature-settings: "tnum" 1;
+}
+
+.view-velocity__label {
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #7a8ba0;
+  margin-bottom: 0.12rem;
+}
+
+.view-velocity__row {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #e6eef8;
+  white-space: nowrap;
+}
+
+.view-velocity__unit {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #8ca0b8;
+  margin-left: 0.2rem;
+}
+
+.view-velocity__max {
+  margin-top: 0.2rem;
+  font-size: 0.7rem;
+  color: #6d7d92;
+}
+
+.star-peek {
+  position: fixed;
+  z-index: 4;
+  margin: 0;
+  transform: none;
+  padding: 0.35rem 0.55rem;
+  min-width: 8.5rem;
+  max-width: 15rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  pointer-events: none;
+  background: rgba(6, 10, 18, 0.9);
+  border: 1px solid rgba(94, 200, 255, 0.35);
+  border-radius: 4px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  color: var(--text);
+  transition: border-color 0.12s ease, background 0.12s ease, box-shadow 0.12s ease;
+}
+
+/* Pinned: label anchored above the skydome star; panel sits above the star in screen space */
+.star-peek.star-peek--at-star {
+  transform: translate(-50%, calc(-100% - 8px));
+}
+
+/* Pinned (clicked / B): cool highlight so it’s obvious the card is locked to that star */
+.star-peek.star-peek--pinned {
+  background: rgba(4, 18, 36, 0.96);
+  border-color: rgba(110, 210, 255, 0.88);
+  box-shadow: 0 0 0 1px rgba(100, 200, 255, 0.45), 0 0 22px rgba(50, 150, 255, 0.22), 0 6px 20px rgba(0, 0, 0, 0.55);
+}
+
+.star-peek.star-peek--pinned .star-peek__name {
+  color: #eaf4ff;
+}
+
+.star-peek__name {
+  font-weight: 600;
+  color: #cfe8ff;
+}
+
+.star-peek__dist,
+.star-peek__meta {
+  color: var(--muted);
+  margin-top: 0.12rem;
+}
+
+/* Without this, `.view .view-layer { display: block }` wins over the [hidden] attribute
+   and all three WebGL canvases stay visible. #galaxy is last in the DOM and paints on
+   top — a black full-screen layer — hiding the real game. */
+.view .view-layer[hidden] {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.view .view-layer {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+  touch-action: none;
+}
+
+#galaxy {
+  background: #04060c;
+}
+
+.map-hud {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem 1rem 0.75rem;
+  background: linear-gradient(transparent, rgba(5, 8, 14, 0.92));
+  border-top: 1px solid #1a2233;
+  pointer-events: auto;
+}
+
+.map-hud h2 {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+.solar-dial {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.2rem 0;
+}
+
+.body-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.4rem 0;
+}
+
+.body-buttons button {
+  font-size: 0.75rem;
+}
+
+kbd {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.3rem;
+  background: #1a2233;
+  border-radius: 3px;
+  border: 1px solid #2a3a5c;
+}
+
+button.dev-toggle {
+  background: #2a1f40;
+  border-color: #5a3a6a;
+}
+
+.dev-menu {
+  position: fixed;
+  right: 0.5rem;
+  top: 6rem;
+  width: min(22rem, 96vw);
+  max-height: min(80vh, 40rem);
+  overflow: auto;
+  z-index: 100;
+  background: rgba(10, 12, 20, 0.96);
+  border: 1px solid #2a3a55;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem 0.9rem;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.dev-menu h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+.dev-menu h4 {
+  margin: 0.6rem 0 0.2rem 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.dev-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3.2rem;
+  align-items: center;
+  gap: 0.25rem 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.dev-row label {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.dev-row input[type="range"] {
+  width: 100%;
+  min-width: 0;
+  grid-column: 1 / 3;
+}
+
+.dev-row output {
+  font-size: 0.7rem;
+  color: #a8c0e8;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.dev-hint {
+  font-size: 0.7rem;
+  color: #6a7a90;
+  margin: 0.5rem 0 0.35rem;
+  line-height: 1.35;
+}

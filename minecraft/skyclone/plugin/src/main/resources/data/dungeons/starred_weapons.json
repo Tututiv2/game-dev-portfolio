@@ -1,0 +1,263 @@
+[
+ {
+  "id": "STARRED_BONZO_STAFF",
+  "base": "BONZO_STAFF",
+  "rarity": "RARE",
+  "damage": 0,
+  "abilityDamage": 100,
+  "stats": {
+   "INTELLIGENCE": 50
+  },
+  "grid": [
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_STAFF:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1",
+   "BONZO_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F1:1"
+ },
+ {
+  "id": "STARRED_STONE_BLADE",
+  "base": "STONE_BLADE",
+  "rarity": "EPIC",
+  "damage": 20,
+  "abilityDamage": 0,
+  "stats": {},
+  "grid": [
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "STONE_BLADE:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1",
+   "SCARF_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F3:1"
+ },
+ {
+  "id": "STARRED_ITEM_SPIRIT_BOW",
+  "base": "ITEM_SPIRIT_BOW",
+  "rarity": "LEGENDARY",
+  "damage": 10,
+  "abilityDamage": 0,
+  "stats": {
+   "STRENGTH": 10
+  },
+  "grid": [
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "ITEM_SPIRIT_BOW:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F4:1"
+ },
+ {
+  "id": "STARRED_BAT_WAND",
+  "base": "BAT_WAND",
+  "rarity": "LEGENDARY",
+  "damage": 10,
+  "abilityDamage": 250,
+  "stats": {
+   "INTELLIGENCE": 30
+  },
+  "grid": [
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "BAT_WAND:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F4:1"
+ },
+ {
+  "id": "STARRED_BONE_BOOMERANG",
+  "base": "BONE_BOOMERANG",
+  "rarity": "LEGENDARY",
+  "damage": 50,
+  "abilityDamage": 0,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "grid": [
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "BONE_BOOMERANG:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1",
+   "THORN_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F4:1"
+ },
+ {
+  "id": "STARRED_SHADOW_FURY",
+  "base": "SHADOW_FURY",
+  "rarity": "LEGENDARY",
+  "damage": 10,
+  "abilityDamage": 0,
+  "stats": {
+   "CRIT_DAMAGE": 30,
+   "STRENGTH": 30,
+   "SPEED": 10
+  },
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "SHADOW_FURY:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "STARRED_LAST_BREATH",
+  "base": "LAST_BREATH",
+  "rarity": "LEGENDARY",
+  "damage": 10,
+  "abilityDamage": 0,
+  "stats": {
+   "STRENGTH": 10
+  },
+  "grid": [
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LAST_BREATH:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1",
+   "LIVID_FRAGMENT:1"
+  ],
+  "unlock": "dungeon_completion:F5:1"
+ },
+ {
+  "id": "STARRED_FELTHORN_REAPER",
+  "base": "FELTHORN_REAPER",
+  "rarity": "LEGENDARY",
+  "damage": 10,
+  "abilityDamage": 0,
+  "stats": {
+   "CRIT_DAMAGE": 10,
+   "SWING_RANGE": 0.5,
+   "STRENGTH": 10
+  },
+  "grid": [
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "FELTHORN_REAPER:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1",
+   "GIANT_FRAGMENT_BIGFOOT:1"
+  ],
+  "unlock": "dungeon_completion:F6:1"
+ },
+ {
+  "id": "STARRED_ICE_SPRAY_WAND",
+  "base": "ICE_SPRAY_WAND",
+  "rarity": "RARE",
+  "damage": 0,
+  "abilityDamage": 0,
+  "stats": {},
+  "grid": [
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1",
+   "ICE_SPRAY_WAND:1",
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1",
+   "WINTER_FRAGMENT:1"
+  ],
+  "unlock": null
+ },
+ {
+  "id": "STARRED_MIDAS_SWORD",
+  "base": "MIDAS_SWORD",
+  "rarity": "LEGENDARY",
+  "damage": 0,
+  "abilityDamage": 0,
+  "stats": {},
+  "grid": [
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "MIDAS_SWORD:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1"
+  ],
+  "unlock": null,
+  "dungeon": false
+ },
+ {
+  "id": "STARRED_MIDAS_STAFF",
+  "base": "MIDAS_STAFF",
+  "rarity": "LEGENDARY",
+  "damage": 0,
+  "abilityDamage": 0,
+  "stats": {},
+  "grid": [
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "MIDAS_STAFF:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1"
+  ],
+  "unlock": null,
+  "dungeon": false
+ },
+ {
+  "id": "STARRED_DAEDALUS_AXE",
+  "base": "DAEDALUS_AXE",
+  "rarity": "LEGENDARY",
+  "damage": 0,
+  "abilityDamage": 0,
+  "stats": {},
+  "grid": [
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "DAEDALUS_AXE:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1",
+   "GOLDEN_FRAGMENT:1"
+  ],
+  "unlock": null,
+  "dungeon": false
+ }
+]

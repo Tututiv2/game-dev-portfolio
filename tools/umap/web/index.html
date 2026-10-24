@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMAP</title>
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js" } }
+</script>
+</head>
+<body>
+
+<div id="stage">
+  <canvas id="gl"></canvas>
+  <div id="labels"></div>
+  <div id="tooltip" hidden></div>
+</div>
+
+<!-- ------------------------------------------------------------ top bar -->
+<header id="topbar">
+  <div class="brand">
+    <span class="dot"></span>
+    <b>UMAP</b>
+    <span class="sub" id="brandsub"></span>
+    <button id="stale" hidden title="The map is a snapshot. Click for how to refresh it."></button>
+  </div>
+
+  <div class="search">
+    <input id="search" type="search" placeholder="search files, projects, tags…" autocomplete="off" spellcheck="false">
+    <div id="searchhits"></div>
+  </div>
+
+  <div class="controls">
+    <label class="slider" title="Blend between what UMAP actually says and one cluster per project">
+      <span>semantic</span>
+      <input id="blend" type="range" min="0" max="100" value="70">
+      <span>galaxy</span>
+    </label>
+    <button id="btn-replay" title="Replay the build of this portfolio, oldest file first">↻ replay</button>
+    <button id="btn-kin" title="Curated project relationships — the only lines here a person wrote">links off</button>
+    <button id="btn-flagged" class="flagged off" title="Flagged layer: hidden → dimmed → shown" hidden>flagged hidden</button>
+    <button id="btn-split" title="The per-project split: what was flagged, and on what evidence" hidden>split</button>
+    <button id="btn-agent" class="on" title="Agent activity HUD">agent HUD</button>
+  </div>
+</header>
+
+<!-- ------------------------------------------------------------- left -->
+<aside id="left">
+  <div class="panel" id="panel-stats">
+    <div class="row"><span id="stat-nodes">–</span><small>nodes</small></div>
+    <div class="row"><span id="stat-projects">–</span><small>projects</small></div>
+    <div class="row"><span id="stat-loc">–</span><small>lines</small></div>
+    <div class="row"><span id="stat-hidden">–</span><small>hidden</small></div>
+  </div>
+
+  <div class="panel grow" id="panel-projects">
+    <h3>projects <em id="proj-count"></em></h3>
+    <div class="filters">
+      <button data-sort="size" class="on">size</button>
+      <button data-sort="recent">recent</button>
+      <button data-sort="name">name</button>
+      <button data-sort="status">status</button>
+    </div>
+    <ul id="projlist"></ul>
+  </div>
+</aside>
+
+<!-- ------------------------------------------------------------- right -->
+<aside id="right">
+  <section class="panel" id="panel-detail" hidden>
+    <button class="close" data-close="detail">×</button>
+    <div id="detail"></div>
+  </section>
+
+  <section class="panel agentpanel" id="panel-agents">
+    <h3>
+      <span class="live" id="livedot"></span> agents on the map
+      <em id="agent-count">0</em>
+    </h3>
+    <div id="agentlist" class="agents"></div>
+    <div class="agenthelp" id="agenthelp">
+      Nothing is touching the map yet.
+      <button id="btn-demo">run a demo walk</button>
+      <a href="#" id="link-hook">wire up a real agent →</a>
+    </div>
+    <div class="feedwrap">
+      <div id="feed" class="feed"></div>
+    </div>
+  </section>
+</aside>
+
+<!-- ------------------------------------------------------------- modal -->
+<div id="modal" hidden>
+  <div class="sheet">
+    <button class="close" data-close="modal">×</button>
+    <div id="modalbody"></div>
+  </div>
+</div>
+
+<div id="boot"><div class="bootinner"><b>UMAP</b><span id="bootmsg">reading the map…</span></div></div>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

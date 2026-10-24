@@ -1,0 +1,35 @@
+# ShowControl settings. scripts/setup_server.ps1 rewrites `cast` and `camera` from config/cast.json.
+http:
+  host: 127.0.0.1
+  port: 25642
+  # Events kept for /events/since and Last-Event-ID replay.
+  ring-size: 5000
+  heartbeat-seconds: 10
+
+# The four player accounts (offline-mode names). Empty = every non-camera player counts.
+cast: [Kaito, Ren, Mochi, Yuki]
+# The spectator camera account: hidden from players, never produces events.
+camera: ShowCam
+
+feed:
+  gather-window-seconds: 30
+  near-death-fraction: 0.15
+  near-death-debounce-seconds: 20
+  big-hit-fraction: 0.30
+  big-hit-debounce-seconds: 5
+  ability-debounce-seconds: 8
+  coin-milestones: [1000, 5000, 10000, 25000, 50000, 100000, 250000, 500000, 1000000, 5000000, 10000000]
+  # Snapshot radius for nearby_mobs / nearby_npcs in /state.
+  state-radius: 24
+  # How often the /state + /players snapshots refresh (ticks).
+  snapshot-ticks: 10
+
+# Freeze: also stop world ticking (mobs stand still). Players can still look around.
+freeze-world-ticks: true
+
+# POST /cmd runs commands through a feedback sender so the output comes back. "console" = plain
+# console sender (output only reaches the log) if the feedback sender ever misbehaves.
+cmd-sender: feedback
+
+# /show test ... helpers that drive real SkyClone code paths (the build gate uses them).
+allow-test-commands: true

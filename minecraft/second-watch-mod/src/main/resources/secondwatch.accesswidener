@@ -1,0 +1,5 @@
+accessWidener	v2	official
+
+# The phantom wears the other player, which means setting a Mannequin profile.
+# DATA_PROFILE is protected and there is no public setter.
+accessible	field	net/minecraft/world/entity/decoration/Mannequin	DATA_PROFILE	Lnet/minecraft/network/syncher/EntityDataAccessor;

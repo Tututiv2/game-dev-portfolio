@@ -1,0 +1,84 @@
+[
+ {
+  "id": "park_pack_spirits",
+  "island": "park",
+  "area": "howling_cave",
+  "mob": "park_pack_spirit",
+  "max": 10,
+  "respawnSeconds": 8
+ },
+ {
+  "id": "park_howling_spirits",
+  "island": "park",
+  "area": "howling_cave.deep",
+  "mob": "park_howling_spirit",
+  "max": 6,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "park_alpha",
+  "island": "park",
+  "anchors": [
+   "spawn.alpha"
+  ],
+  "mob": "park_soul_of_the_alpha",
+  "max": 1,
+  "respawnSeconds": 60
+ },
+ {
+  "id": "marsh_tidetots",
+  "island": "galatea",
+  "area": "mobs.loch",
+  "mob": "marsh_tidetot",
+  "max": 6,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "marsh_seacurses",
+  "island": "galatea",
+  "area": "mobs.loch",
+  "mob": "marsh_seacurse",
+  "max": 4,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "marsh_hydrospears",
+  "island": "galatea",
+  "area": "mobs.loch",
+  "mob": "marsh_hydrospear",
+  "max": 3,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "marsh_chill_west",
+  "island": "galatea",
+  "area": "mobs.ruins.west",
+  "mob": "marsh_chillblade",
+  "max": 4,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "marsh_chill_south",
+  "island": "galatea",
+  "area": "mobs.ruins.south",
+  "mob": "marsh_chillshot",
+  "max": 4,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "marsh_chill_east_blade",
+  "island": "galatea",
+  "area": "mobs.ruins.east",
+  "mob": "marsh_chillblade",
+  "max": 2,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "marsh_chill_east_shot",
+  "island": "galatea",
+  "area": "mobs.ruins.east",
+  "mob": "marsh_chillshot",
+  "max": 2,
+  "respawnSeconds": 10
+ }
+]

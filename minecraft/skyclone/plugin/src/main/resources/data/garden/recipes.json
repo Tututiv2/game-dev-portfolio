@@ -1,0 +1,87 @@
+[
+ {
+  "id": "garden:ENCHANTED_COMPOST",
+  "type": "CRAFTING",
+  "result": "ENCHANTED_COMPOST",
+  "amount": 1,
+  "grid": [
+   "",
+   "COMPOST:32",
+   "",
+   "COMPOST:32",
+   "COMPOST:32",
+   "COMPOST:32",
+   "",
+   "COMPOST:32",
+   ""
+  ]
+ },
+ {
+  "id": "garden:PEST_REPELLENT_MAX",
+  "type": "CRAFTING",
+  "result": "PEST_REPELLENT_MAX",
+  "amount": 1,
+  "grid": [
+   "",
+   "PEST_REPELLENT:1",
+   "",
+   "PEST_REPELLENT:1",
+   "COMPOST:8",
+   "PEST_REPELLENT:1",
+   "",
+   "PEST_REPELLENT:1",
+   ""
+  ]
+ },
+ {
+  "id": "garden:JUICY_NOZZLE",
+  "type": "CRAFTING",
+  "result": "JUICY_NOZZLE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_MELON:32",
+   "",
+   "ENCHANTED_MELON:32",
+   "ENCHANTED_MELON:32",
+   "ENCHANTED_MELON:32",
+   "ENCHANTED_MELON:32",
+   "ENCHANTED_MELON:32",
+   ""
+  ]
+ },
+ {
+  "id": "garden:SALTY_NOZZLE",
+  "type": "CRAFTING",
+  "result": "SALTY_NOZZLE",
+  "amount": 1,
+  "grid": [
+   "",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   "",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   "SALTED_SUNFLOWER_SEEDS:16",
+   ""
+  ]
+ },
+ {
+  "id": "garden:MOUSE_PEST_TRAP",
+  "type": "CRAFTING",
+  "result": "MOUSE_PEST_TRAP",
+  "amount": 1,
+  "grid": [
+   "",
+   "SQUEAKY_MOUSEMAT:1",
+   "",
+   "CHEESE_FUEL:16",
+   "PEST_TRAP:1",
+   "CHEESE_FUEL:16",
+   "",
+   "",
+   ""
+  ]
+ }
+]

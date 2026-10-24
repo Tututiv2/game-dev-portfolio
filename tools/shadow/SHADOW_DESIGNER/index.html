@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Designer</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, Segoe UI, Roboto, sans-serif;
+        --bg-0: #050811;
+        --bg-1: #111a2e;
+        --bg-2: #1a1632;
+        --panel: rgba(11, 20, 38, 0.82);
+        --border: #334a78;
+        --text: #dbeafe;
+        --muted: #93c5fd;
+        --accent: #38bdf8;
+        --accent-2: #a855f7;
+        --stage-accent: var(--accent);
+        --stage-accent-soft: color-mix(in srgb, var(--stage-accent) 24%, transparent);
+        --stage-chip-bg: color-mix(in srgb, var(--stage-accent) 16%, transparent);
+        --soft-shadow: 0 14px 28px rgba(3, 8, 20, 0.35);
+        --soft-shadow-hover: 0 18px 34px rgba(3, 8, 20, 0.5);
+        --focus-ring: 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent);
+      }
+
+      :root[data-theme="crimson-noir"] {
+        --bg-0: #050507;
+        --bg-1: #140b15;
+        --bg-2: #2a111c;
+        --panel: rgba(20, 11, 19, 0.84);
+        --border: #6d2d3d;
+        --text: #fde8ef;
+        --muted: #f9a8d4;
+        --accent: #ef4444;
+        --accent-2: #f97316;
+      }
+
+      :root[data-theme="void-blue"] {
+        --bg-0: #06111f;
+        --bg-1: #11223f;
+        --bg-2: #103255;
+        --panel: rgba(10, 24, 47, 0.84);
+        --border: #315174;
+        --text: #dbeafe;
+        --muted: #93c5fd;
+        --accent: #38bdf8;
+        --accent-2: #6366f1;
+      }
+
+      :root[data-theme="shadow-violet"] {
+        --bg-0: #0a0717;
+        --bg-1: #20123a;
+        --bg-2: #3a1f63;
+        --panel: rgba(22, 13, 43, 0.84);
+        --border: #5b3e8d;
+        --text: #efe7ff;
+        --muted: #c4b5fd;
+        --accent: #a855f7;
+        --accent-2: #ec4899;
+      }
+
+      :root[data-theme="ember-forest"] {
+        --bg-0: #06120d;
+        --bg-1: #11281e;
+        --bg-2: #1f3b2d;
+        --panel: rgba(10, 26, 20, 0.84);
+        --border: #35664f;
+        --text: #dcfce7;
+        --muted: #86efac;
+        --accent: #22c55e;
+        --accent-2: #f59e0b;
+      }
+
+      :root[data-theme="ocean-neon"] {
+        --bg-0: #03131b;
+        --bg-1: #0c3041;
+        --bg-2: #125161;
+        --panel: rgba(8, 32, 43, 0.84);
+        --border: #2d6676;
+        --text: #ccfbf1;
+        --muted: #99f6e4;
+        --accent: #2dd4bf;
+        --accent-2: #60a5fa;
+      }
+
+      :root[data-theme="sunset-inferno"] {
+        --bg-0: #1b0a0d;
+        --bg-1: #3a1520;
+        --bg-2: #5d271f;
+        --panel: rgba(40, 17, 22, 0.84);
+        --border: #814046;
+        --text: #ffe4e6;
+        --muted: #fecdd3;
+        --accent: #fb7185;
+        --accent-2: #fbbf24;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--text);
+        line-height: 1.35;
+        letter-spacing: 0.01em;
+        background:
+          radial-gradient(circle at 8% 10%, rgba(56, 189, 248, 0.15), transparent 28%),
+          radial-gradient(circle at 95% 0%, rgba(168, 85, 247, 0.14), transparent 35%),
+          linear-gradient(135deg, var(--bg-0), var(--bg-1) 48%, var(--bg-2));
+        display: grid;
+        grid-template-rows: auto 1fr;
+      }
+
+      .topbar {
+        border-bottom: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+        background: var(--panel);
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        box-shadow: var(--soft-shadow);
+      }
+
+      .title-wrap {
+        display: grid;
+        gap: 2px;
+      }
+
+      .title-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .title {
+        margin: 0;
+        font-size: 1.08rem;
+        letter-spacing: 0.015em;
+      }
+
+      .hint {
+        margin: 2px 0 0;
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+
+      .badge {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 2px 9px;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--muted);
+        background: color-mix(in srgb, var(--panel) 85%, transparent);
+      }
+
+      .actions {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+
+      .theme-select {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(8, 20, 33, 0.92);
+        color: var(--text);
+        padding: 6px 8px;
+        transition: border-color 0.18s ease, box-shadow 0.18s ease;
+      }
+
+      button {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(8, 20, 33, 0.92);
+        color: var(--text);
+        padding: 6px 10px;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          filter 0.18s ease,
+          border-color 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      button:hover {
+        filter: brightness(1.08);
+        transform: translateY(-1px);
+        border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+        box-shadow: 0 6px 16px color-mix(in srgb, var(--accent) 18%, transparent);
+      }
+
+      button:active {
+        transform: translateY(0px) scale(0.99);
+      }
+
+      button:focus-visible,
+      .theme-select:focus-visible,
+      .field input:focus-visible,
+      .field textarea:focus-visible {
+        outline: none;
+        box-shadow: var(--focus-ring);
+      }
+
+      button.active {
+        border-color: color-mix(in srgb, var(--accent) 85%, white);
+        box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent);
+      }
+
+      .workspace {
+        min-height: 0;
+        display: grid;
+        grid-template-columns: 300px 1fr 340px;
+        grid-template-rows: minmax(0, 1fr) 220px;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .stagebar {
+        border-bottom: 1px solid color-mix(in srgb, var(--stage-accent) 52%, transparent);
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--stage-accent-soft) 32%, transparent), transparent 55%),
+          color-mix(in srgb, var(--panel) 90%, transparent);
+        padding: 9px 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        box-shadow: var(--soft-shadow);
+      }
+
+      .stage-buttons {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .stage-button {
+        padding: 4px 10px;
+        font-size: 0.76rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+      }
+
+      .stage-key {
+        border: 1px solid color-mix(in srgb, var(--stage-accent) 52%, var(--border));
+        border-radius: 7px;
+        font-size: 0.64rem;
+        line-height: 1;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 3px 4px;
+        background: var(--stage-chip-bg);
+        color: color-mix(in srgb, var(--text) 82%, var(--stage-accent));
+      }
+
+      .stage-label {
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      .stage-button.active {
+        border-color: color-mix(in srgb, var(--stage-accent) 80%, white);
+        box-shadow: 0 0 0 1px color-mix(in srgb, var(--stage-accent) 35%, transparent);
+      }
+
+      .stage-summary {
+        font-size: 0.76rem;
+        letter-spacing: 0.01em;
+        color: color-mix(in srgb, var(--muted) 75%, var(--stage-accent));
+      }
+
+      .stage-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .panel {
+        border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
+        border-radius: 12px;
+        background: var(--panel);
+        backdrop-filter: blur(10px);
+        display: grid;
+        gap: 8px;
+        min-height: 0;
+        box-shadow: var(--soft-shadow);
+        transition: border-color 0.2s ease, box-shadow 0.24s ease, transform 0.2s ease, opacity 0.2s ease;
+      }
+
+      .panel:hover {
+        border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+        box-shadow: var(--soft-shadow-hover);
+      }
+
+      .panel.stage-dim {
+        opacity: 0.46;
+        filter: saturate(0.55);
+      }
+
+      .panel.stage-hidden {
+        display: none;
+      }
+
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 10px;
+        border-bottom: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+      }
+
+      .panel-head h2,
+      .panel-head h3,
+      .panel-head p {
+        margin: 0;
+      }
+
+      .panel-head h2 {
+        font-size: 0.92rem;
+        letter-spacing: 0.02em;
+      }
+
+      .panel-head h3 {
+        font-size: 0.82rem;
+        letter-spacing: 0.02em;
+      }
+
+      .panel-body {
+        min-height: 0;
+        padding: 0 10px 10px;
+        display: grid;
+        gap: 8px;
+        align-content: start;
+      }
+
+      .left-col {
+        grid-row: 1 / span 2;
+      }
+
+      .preview-col {
+        min-height: 0;
+      }
+
+      .control-col {
+        min-height: 0;
+      }
+
+      .code-col {
+        grid-column: 2 / span 2;
+        min-height: 0;
+      }
+
+      .stack {
+        min-height: 0;
+        overflow: auto;
+        display: grid;
+        gap: 6px;
+      }
+
+      .asset-item,
+      .frame-item {
+        width: 100%;
+        text-align: left;
+        border: 1px solid color-mix(in srgb, var(--border) 75%, transparent);
+        border-radius: 8px;
+        padding: 7px 9px;
+        background: rgba(8, 20, 33, 0.94);
+        color: var(--text);
+        cursor: pointer;
+        transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.14s ease;
+      }
+
+      .asset-item:hover,
+      .frame-item:hover {
+        border-color: color-mix(in srgb, var(--accent) 65%, var(--border));
+        box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent);
+        transform: translateX(1px);
+      }
+
+      .asset-item small,
+      .frame-item small {
+        color: var(--muted);
+      }
+
+      .asset-item.active,
+      .frame-item.active {
+        border-color: color-mix(in srgb, var(--accent) 82%, white);
+      }
+
+      .field-grid {
+        display: grid;
+        gap: 8px;
+      }
+
+      .field {
+        display: grid;
+        gap: 4px;
+      }
+
+      .field label {
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+
+      .field input,
+      .field select,
+      .field textarea {
+        border: 1px solid color-mix(in srgb, var(--border) 75%, transparent);
+        border-radius: 8px;
+        background: rgba(8, 20, 33, 0.94);
+        color: var(--text);
+        padding: 6px 8px;
+      }
+
+      .field textarea {
+        min-height: 120px;
+        resize: vertical;
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 0.8rem;
+      }
+
+      .inline-actions {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .inline-actions button {
+        padding: 5px 8px;
+        font-size: 0.8rem;
+      }
+
+      .preview-surface {
+        position: relative;
+        min-height: 0;
+        border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+        border-radius: 10px;
+        overflow: hidden;
+        background: #010611;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .preview-surface:hover {
+        border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
+        box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent);
+      }
+
+      #preview-canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .status-line {
+        color: var(--muted);
+        font-size: 0.76rem;
+      }
+
+      .code-output {
+        min-height: 0;
+        border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+        border-radius: 8px;
+        background: rgba(8, 20, 33, 0.94);
+        padding: 8px;
+        overflow: auto;
+        white-space: pre-wrap;
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 0.78rem;
+      }
+
+      .source-chip {
+        border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+        border-radius: 8px;
+        padding: 6px 8px;
+        background: rgba(8, 20, 33, 0.94);
+        transition: border-color 0.2s ease;
+      }
+
+      .source-chip:hover {
+        border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
+      }
+
+      #import-image-input {
+        display: none;
+      }
+
+      @media (max-width: 1280px) {
+        .workspace {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+
+        .left-col,
+        .code-col {
+          grid-row: auto;
+          grid-column: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="title-wrap">
+        <div class="title-row">
+          <h1 class="title">Shadow Designer</h1>
+          <span class="badge">Designer Build</span>
+        </div>
+        <p class="hint">Sprite workflow editor with stage-focused controls and exports.</p>
+      </div>
+      <div class="actions">
+        <select id="theme-select" class="theme-select">
+          <option value="void-blue">Void Blue</option>
+          <option value="crimson-noir">Crimson Noir</option>
+          <option value="shadow-violet">Shadow Violet</option>
+          <option value="ember-forest">Ember Forest</option>
+          <option value="ocean-neon">Ocean Neon</option>
+          <option value="sunset-inferno">Sunset Inferno</option>
+        </select>
+        <button id="pick-file" type="button">Set Animator Source</button>
+        <button id="clear-file" type="button">Clear Source</button>
+        <button id="reload-file" type="button">Reload Source</button>
+      </div>
+    </header>
+
+    <section class="stagebar">
+      <div class="stage-buttons">
+        <button class="stage-button active" data-stage-button="source" type="button"><span class="stage-key">SRC</span><span class="stage-label">Source</span></button>
+        <button class="stage-button" data-stage-button="assets" type="button"><span class="stage-key">AST</span><span class="stage-label">Assets</span></button>
+        <button class="stage-button" data-stage-button="animation" type="button"><span class="stage-key">ANM</span><span class="stage-label">Animation</span></button>
+        <button class="stage-button" data-stage-button="masking" type="button"><span class="stage-key">MSK</span><span class="stage-label">Masking</span></button>
+        <button class="stage-button" data-stage-button="export" type="button"><span class="stage-key">EXP</span><span class="stage-label">Export</span></button>
+        <button class="stage-button" data-stage-button="integration" type="button"><span class="stage-key">INT</span><span class="stage-label">Integration</span></button>
+      </div>
+      <div class="stage-controls">
+        <button id="sfx-toggle" type="button">Click SFX: On</button>
+        <button id="stage-focus-toggle" type="button">Focus Mode: Off</button>
+        <span id="stage-summary" class="stage-summary">Stage 1: Set animator source and foundation.</span>
+      </div>
+    </section>
+
+    <main id="canvas" class="workspace">
+      <section id="panel-assets" class="panel left-col">
+        <div class="panel-head">
+          <h2>Project Assets</h2>
+          <span id="asset-count" class="hint">0 assets</span>
+        </div>
+        <div class="panel-body">
+          <div class="source-chip">
+            <strong>Animator Source</strong>
+            <p id="selected-file" class="hint">No sprite animator HTML selected.</p>
+          </div>
+          <div class="inline-actions">
+            <button id="pick-file-empty" type="button">Choose HTML</button>
+            <button id="import-image-asset" type="button">Import Image</button>
+            <button id="import-mock-asset" type="button">Import Mock Clip</button>
+          </div>
+          <div class="field">
+            <label for="asset-search">Search assets</label>
+            <input id="asset-search" type="text" placeholder="Filter by name..." />
+          </div>
+          <div id="asset-list" class="stack"></div>
+          <div class="panel-head">
+            <h3>Frame Selector</h3>
+            <span id="frame-count" class="hint">0 frames</span>
+          </div>
+          <div id="frame-list" class="stack"></div>
+        </div>
+      </section>
+
+      <section id="panel-preview" class="panel preview-col">
+        <div class="panel-head">
+          <h2>Interactive Preview Canvas</h2>
+          <span id="playback-state" class="hint">Paused</span>
+        </div>
+        <div class="panel-body">
+          <div class="inline-actions">
+            <button id="play-toggle" type="button">Play</button>
+            <button id="step-prev" type="button">Prev Frame</button>
+            <button id="step-next" type="button">Next Frame</button>
+            <button id="toggle-grid" type="button" class="active">Grid On</button>
+          </div>
+          <div class="preview-surface">
+            <canvas id="preview-canvas"></canvas>
+          </div>
+          <p id="preview-meta" class="status-line">No frame selected.</p>
+        </div>
+      </section>
+
+      <section id="panel-controls" class="panel control-col">
+        <div class="panel-head">
+          <h2>Playback / Mask / Export Controls</h2>
+        </div>
+        <div class="panel-body">
+          <div class="field-grid">
+            <div class="field">
+              <label for="fps-slider">FPS</label>
+              <input id="fps-slider" type="range" min="1" max="30" value="12" />
+              <span id="fps-value" class="hint">12 FPS</span>
+            </div>
+            <div class="field">
+              <label for="frame-index">Frame Index</label>
+              <input id="frame-index" type="range" min="0" max="0" value="0" />
+              <span id="frame-index-value" class="hint">Frame 0</span>
+            </div>
+            <div class="field">
+              <label for="zoom-slider">Zoom</label>
+              <input id="zoom-slider" type="range" min="0.5" max="4" step="0.1" value="1" />
+              <span id="zoom-value" class="hint">1.0x</span>
+            </div>
+            <div class="field">
+              <label for="sheet-frame-width">Sprite Frame Width</label>
+              <input id="sheet-frame-width" type="number" min="1" value="64" />
+            </div>
+            <div class="field">
+              <label for="sheet-frame-height">Sprite Frame Height</label>
+              <input id="sheet-frame-height" type="number" min="1" value="64" />
+            </div>
+            <div class="inline-actions">
+              <button id="extract-frames" type="button">Extract Frames</button>
+              <button id="clear-extraction" type="button">Reset Frames</button>
+            </div>
+            <div class="field">
+              <label for="pan-x">Pan X</label>
+              <input id="pan-x" type="range" min="-180" max="180" value="0" />
+            </div>
+            <div class="field">
+              <label for="pan-y">Pan Y</label>
+              <input id="pan-y" type="range" min="-180" max="180" value="0" />
+            </div>
+          </div>
+          <div class="panel-head">
+            <h3>Masking / Chroma</h3>
+          </div>
+          <div class="field-grid">
+            <div class="field">
+              <label for="chroma-color">Key Color</label>
+              <input id="chroma-color" type="color" value="#00ff00" />
+            </div>
+            <div class="field">
+              <label for="chroma-tolerance">Tolerance</label>
+              <input id="chroma-tolerance" type="range" min="0" max="100" value="35" />
+            </div>
+            <div class="inline-actions">
+              <button id="toggle-mask-preview" type="button">Mask Preview Off</button>
+              <button id="run-auto-mask" type="button">Run Auto Mask</button>
+            </div>
+          </div>
+          <div class="panel-head">
+            <h3>Export</h3>
+          </div>
+          <div class="inline-actions">
+            <button id="export-sheet" type="button">Export Sheet PNG</button>
+            <button id="export-zip" type="button">Export Frames ZIP</button>
+            <button id="copy-code" type="button">Copy Runtime Code</button>
+          </div>
+          <p id="export-status" class="status-line">Export pipeline idle.</p>
+        </div>
+      </section>
+
+      <section id="panel-code" class="panel code-col">
+        <div class="panel-head">
+          <h2>Code / Export Snippet</h2>
+          <span class="hint">HTML5 Canvas Integrator</span>
+        </div>
+        <div class="panel-body">
+          <div class="field">
+            <label for="runtime-snippet">Generated Draw Snippet</label>
+            <textarea id="runtime-snippet" spellcheck="false"></textarea>
+          </div>
+          <pre id="sheet-metadata" class="code-output">No export metadata generated yet.</pre>
+        </div>
+      </section>
+    </main>
+    <input id="import-image-input" type="file" accept="image/*" multiple />
+    <script src="./renderer.js"></script>
+  </body>
+</html>

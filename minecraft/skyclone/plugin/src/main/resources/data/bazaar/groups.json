@@ -1,0 +1,4652 @@
+{
+ "categories": [
+  {
+   "id": "FARMING",
+   "name": "Farming",
+   "icon": "GOLDEN_HOE",
+   "glass": "YELLOW"
+  },
+  {
+   "id": "MINING",
+   "name": "Mining",
+   "icon": "DIAMOND_PICKAXE",
+   "glass": "BLUE"
+  },
+  {
+   "id": "COMBAT",
+   "name": "Combat",
+   "icon": "IRON_SWORD",
+   "glass": "RED"
+  },
+  {
+   "id": "WOODS_FISHES",
+   "name": "Woods & Fishes",
+   "icon": "FISHING_ROD",
+   "glass": "ORANGE"
+  },
+  {
+   "id": "ODDITIES",
+   "name": "Oddities",
+   "icon": "ENCHANTING_TABLE",
+   "glass": "PINK"
+  },
+  {
+   "id": "ENCHANTMENTS",
+   "name": "Enchantments",
+   "icon": "ENCHANTED_BOOK",
+   "glass": "PURPLE"
+  }
+ ],
+ "groups": [
+  {
+   "category": "FARMING",
+   "key": "CACTUS",
+   "products": [
+    "CACTUS",
+    "ENCHANTED_CACTUS_GREEN",
+    "ENCHANTED_CACTUS"
+   ],
+   "titleIds": [
+    "CACTUS"
+   ],
+   "icon": "CACTUS"
+  },
+  {
+   "category": "FARMING",
+   "key": "CARROT_ITEM",
+   "products": [
+    "CARROT_ITEM",
+    "ENCHANTED_CARROT",
+    "SIMPLE_CARROT_CANDY",
+    "ENCHANTED_CARROT_STICK",
+    "ENCHANTED_GOLDEN_CARROT",
+    "GREAT_CARROT_CANDY",
+    "SUPERB_CARROT_CANDY",
+    "ULTIMATE_CARROT_CANDY"
+   ],
+   "titleIds": [
+    "CARROT_ITEM"
+   ],
+   "icon": "CARROT_ITEM"
+  },
+  {
+   "category": "FARMING",
+   "key": "DOUBLE_PLANT",
+   "products": [
+    "DOUBLE_PLANT",
+    "HELIANTHUS",
+    "RED_ROSE",
+    "YELLOW_FLOWER",
+    "BACHELOR_ROSE",
+    "CONDENSED_HELIANTHUS",
+    "ENCHANTED_DANDELION",
+    "ENCHANTED_POPPY",
+    "ENCHANTED_SUNFLOWER",
+    "COMPACTED_SUNFLOWER",
+    "SUNFLOWER_OIL",
+    "SUNSTONE"
+   ],
+   "titleIds": [
+    "DOUBLE_PLANT"
+   ],
+   "icon": "DOUBLE_PLANT"
+  },
+  {
+   "category": "FARMING",
+   "key": "FEATHER",
+   "products": [
+    "FEATHER",
+    "ENCHANTED_FEATHER"
+   ],
+   "titleIds": [
+    "FEATHER"
+   ],
+   "icon": "FEATHER"
+  },
+  {
+   "category": "FARMING",
+   "key": "INK_SACK:3",
+   "products": [
+    "INK_SACK:3",
+    "ENCHANTED_COCOA",
+    "ENCHANTED_COOKIE"
+   ],
+   "titleIds": [
+    "INK_SACK:3"
+   ],
+   "icon": "INK_SACK:3"
+  },
+  {
+   "category": "FARMING",
+   "key": "LEATHER",
+   "products": [
+    "RAW_BEEF",
+    "ENCHANTED_RAW_BEEF",
+    "LEATHER",
+    "ENCHANTED_LEATHER"
+   ],
+   "titleIds": [
+    "LEATHER"
+   ],
+   "icon": "LEATHER"
+  },
+  {
+   "category": "FARMING",
+   "key": "MELON",
+   "products": [
+    "MELON",
+    "ENCHANTED_MELON",
+    "MELON_BLOCK",
+    "ENCHANTED_MELON_BLOCK"
+   ],
+   "titleIds": [
+    "MELON"
+   ],
+   "icon": "MELON"
+  },
+  {
+   "category": "FARMING",
+   "key": "MOONFLOWER",
+   "products": [
+    "MOONFLOWER",
+    "ENCHANTED_MOONFLOWER",
+    "COMPACTED_MOONFLOWER",
+    "MOONSTONE"
+   ],
+   "titleIds": [
+    "MOONFLOWER"
+   ],
+   "icon": "MOONFLOWER"
+  },
+  {
+   "category": "FARMING",
+   "key": "MUSHROOM_COLLECTION",
+   "products": [
+    "BROWN_MUSHROOM",
+    "RED_MUSHROOM",
+    "ENCHANTED_BROWN_MUSHROOM",
+    "ENCHANTED_RED_MUSHROOM",
+    "HUGE_MUSHROOM_1",
+    "HUGE_MUSHROOM_2",
+    "ENCHANTED_HUGE_MUSHROOM_1",
+    "ENCHANTED_HUGE_MUSHROOM_2"
+   ],
+   "titleIds": [
+    "MUSHROOM_COLLECTION"
+   ],
+   "icon": "BROWN_MUSHROOM"
+  },
+  {
+   "category": "FARMING",
+   "key": "MUTTON",
+   "products": [
+    "MUTTON",
+    "ENCHANTED_MUTTON",
+    "ENCHANTED_COOKED_MUTTON",
+    "HORNS_OF_TORMENT"
+   ],
+   "titleIds": [
+    "MUTTON"
+   ],
+   "icon": "MUTTON"
+  },
+  {
+   "category": "FARMING",
+   "key": "NETHER_STALK",
+   "products": [
+    "NETHER_STALK",
+    "ENCHANTED_NETHER_STALK",
+    "MUTANT_NETHER_STALK"
+   ],
+   "titleIds": [
+    "NETHER_STALK"
+   ],
+   "icon": "NETHER_STALK"
+  },
+  {
+   "category": "FARMING",
+   "key": "PORK",
+   "products": [
+    "PORK",
+    "ENCHANTED_PORK",
+    "ENCHANTED_GRILLED_PORK"
+   ],
+   "titleIds": [
+    "PORK"
+   ],
+   "icon": "PORK"
+  },
+  {
+   "category": "FARMING",
+   "key": "POTATO_ITEM",
+   "products": [
+    "POISONOUS_POTATO",
+    "POTATO_ITEM",
+    "ENCHANTED_POISONOUS_POTATO",
+    "ENCHANTED_POTATO",
+    "ENCHANTED_BAKED_POTATO"
+   ],
+   "titleIds": [
+    "POTATO_ITEM"
+   ],
+   "icon": "POTATO_ITEM"
+  },
+  {
+   "category": "FARMING",
+   "key": "PUMPKIN",
+   "products": [
+    "PUMPKIN",
+    "TURBO_GOURD",
+    "ENCHANTED_PUMPKIN",
+    "ENCHANTED_TURBO_GOURD",
+    "POLISHED_PUMPKIN"
+   ],
+   "titleIds": [
+    "PUMPKIN"
+   ],
+   "icon": "PUMPKIN"
+  },
+  {
+   "category": "FARMING",
+   "key": "RABBIT",
+   "products": [
+    "RABBIT",
+    "RABBIT_FOOT",
+    "RABBIT_HIDE",
+    "ENCHANTED_RABBIT",
+    "ENCHANTED_RABBIT_FOOT",
+    "ENCHANTED_RABBIT_HIDE",
+    "ENCHANTED_COOKED_RABBIT"
+   ],
+   "titleIds": [
+    "RABBIT"
+   ],
+   "icon": "RABBIT"
+  },
+  {
+   "category": "FARMING",
+   "key": "RAW_CHICKEN",
+   "products": [
+    "EGG",
+    "RAW_CHICKEN",
+    "ENCHANTED_EGG",
+    "ENCHANTED_RAW_CHICKEN",
+    "SUPER_EGG",
+    "OMEGA_EGG"
+   ],
+   "titleIds": [
+    "RAW_CHICKEN"
+   ],
+   "icon": "RAW_CHICKEN"
+  },
+  {
+   "category": "FARMING",
+   "key": "SUGAR_CANE",
+   "products": [
+    "SUGAR_CANE",
+    "ENCHANTED_PAPER",
+    "ENCHANTED_SUGAR",
+    "DAEDALUS_NOTES",
+    "ENCHANTED_SUGAR_CANE",
+    "UNALLOYED_SPEED"
+   ],
+   "titleIds": [
+    "SUGAR_CANE"
+   ],
+   "icon": "SUGAR_CANE"
+  },
+  {
+   "category": "FARMING",
+   "key": "WHEAT",
+   "products": [
+    "SEEDS",
+    "TIGHTLY_TIED_HAY_BALE",
+    "ENCHANTED_SEEDS",
+    "BOX_OF_SEEDS",
+    "HAY_BLOCK",
+    "WHEAT",
+    "ENCHANTED_BREAD",
+    "ENCHANTED_WHEAT",
+    "ENCHANTED_HAY_BALE"
+   ],
+   "titleIds": [
+    "SEEDS",
+    "WHEAT"
+   ],
+   "icon": "SEEDS"
+  },
+  {
+   "category": "FARMING",
+   "key": "WILD_ROSE",
+   "products": [
+    "LUSH_BERBERIS",
+    "WILD_ROSE",
+    "ENCHANTED_LUSH_BERBERIS",
+    "ENCHANTED_WILD_ROSE",
+    "COMPACTED_WILD_ROSE",
+    "PLOT_ERASER",
+    "PRICKLY_KISS"
+   ],
+   "titleIds": [
+    "WILD_ROSE"
+   ],
+   "icon": "WILD_ROSE"
+  },
+  {
+   "category": "FARMING",
+   "key": "MUTATIONS",
+   "products": [
+    "ALL_IN_ALOE",
+    "ASHWREATH",
+    "BLASTBERRY",
+    "CHEESEBITE",
+    "CHLORONITE",
+    "CHOCOBERRY",
+    "CHOCONUT",
+    "CHORUS_FRUIT",
+    "CINDERSHADE",
+    "COALROOT",
+    "CREAMBLOOM",
+    "DEVOURER",
+    "DO_NOT_EAT_SHROOM",
+    "DUSKBLOOM",
+    "DUSTGRAIN",
+    "FLESHTRAP",
+    "GLASSCORN",
+    "GLOOMGOURD",
+    "GODSEED",
+    "LONELILY",
+    "MAGIC_JELLYBEAN",
+    "NOCTILUME",
+    "PHANTOMLEAF",
+    "PLANTBOY_ADVANCE",
+    "PUFFERCLOUD",
+    "SCOURROOT",
+    "SHADEVINE",
+    "SHELLFRUIT",
+    "SNOOZLING",
+    "SOGGYBUD",
+    "STARTLEVINE",
+    "STOPLIGHT_PETAL",
+    "THORNSHADE",
+    "THUNDERLING",
+    "TIMESTALK",
+    "TURTLELLINI",
+    "VEILSHROOM",
+    "WITHERBLOOM",
+    "ZOMBUD"
+   ],
+   "name": "Crop Mutations",
+   "icon": "ALL_IN_ALOE"
+  },
+  {
+   "category": "FARMING",
+   "key": "GARDEN",
+   "products": [
+    "BEADY_EYES",
+    "BURROWING_SPORES",
+    "COMPOST",
+    "CROPIE",
+    "DUNG",
+    "FERMENTO",
+    "FINE_FLOUR",
+    "HONEY_JAR",
+    "JACOBS_TICKET",
+    "MAGIC_TOP_HAT",
+    "OVERGROWN_GRASS",
+    "PLANT_MATTER",
+    "SQUASH",
+    "SUPREME_CHOCOLATE_BAR",
+    "TOOL_EXP_CAPSULE",
+    "WRIGGLING_LARVA",
+    "CONDENSED_FERMENTO",
+    "ENCHANTED_COMPOST"
+   ],
+   "name": "Garden & Pests",
+   "icon": "BEADY_EYES"
+  },
+  {
+   "category": "FARMING",
+   "key": "GARDEN_CHIPS",
+   "products": [
+    "CROPSHOT_GARDEN_CHIP",
+    "EVERGREEN_GARDEN_CHIP",
+    "HYPERCHARGE_GARDEN_CHIP",
+    "MECHAMIND_GARDEN_CHIP",
+    "OVERDRIVE_GARDEN_CHIP",
+    "QUICKDRAW_GARDEN_CHIP",
+    "RAREFINDER_GARDEN_CHIP",
+    "SOWLEDGE_GARDEN_CHIP",
+    "SYNTHESIS_GARDEN_CHIP",
+    "VERMIN_VAPORIZER_GARDEN_CHIP"
+   ],
+   "name": "Garden Chips",
+   "icon": "CROPSHOT_GARDEN_CHIP"
+  },
+  {
+   "category": "MINING",
+   "key": "COAL",
+   "products": [
+    "COAL",
+    "ENCHANTED_COAL",
+    "ENCHANTED_COAL_BLOCK",
+    "SULPHURIC_COAL",
+    "FUEL_TANK"
+   ],
+   "titleIds": [
+    "COAL"
+   ],
+   "icon": "COAL"
+  },
+  {
+   "category": "MINING",
+   "key": "COBBLESTONE",
+   "products": [
+    "COBBLESTONE",
+    "ENCHANTED_COBBLESTONE",
+    "ROCK_GEMSTONE"
+   ],
+   "titleIds": [
+    "COBBLESTONE"
+   ],
+   "icon": "COBBLESTONE"
+  },
+  {
+   "category": "MINING",
+   "key": "DIAMOND",
+   "products": [
+    "DIAMOND",
+    "ENCHANTED_DIAMOND",
+    "ENCHANTED_DIAMOND_BLOCK",
+    "REFINED_DIAMOND",
+    "DIAMONITE"
+   ],
+   "titleIds": [
+    "DIAMOND"
+   ],
+   "icon": "DIAMOND"
+  },
+  {
+   "category": "MINING",
+   "key": "EMERALD",
+   "products": [
+    "EMERALD",
+    "ENCHANTED_EMERALD",
+    "ENCHANTED_EMERALD_BLOCK"
+   ],
+   "titleIds": [
+    "EMERALD"
+   ],
+   "icon": "EMERALD"
+  },
+  {
+   "category": "MINING",
+   "key": "ENDER_STONE",
+   "products": [
+    "ENDER_STONE",
+    "ENCHANTED_ENDSTONE",
+    "MOONDEW"
+   ],
+   "titleIds": [
+    "ENDER_STONE"
+   ],
+   "icon": "ENDER_STONE"
+  },
+  {
+   "category": "MINING",
+   "key": "GLACITE",
+   "products": [
+    "GLACITE",
+    "ENCHANTED_GLACITE",
+    "GLACITE_AMALGAMATION",
+    "FRIGID_HUSK"
+   ],
+   "titleIds": [
+    "GLACITE"
+   ],
+   "icon": "GLACITE"
+  },
+  {
+   "category": "MINING",
+   "key": "GLOWSTONE_DUST",
+   "products": [
+    "GLOWSTONE_DUST",
+    "ENCHANTED_GLOWSTONE_DUST",
+    "ENCHANTED_GLOWSTONE",
+    "SHINY_PRISM"
+   ],
+   "titleIds": [
+    "GLOWSTONE_DUST"
+   ],
+   "icon": "GLOWSTONE_DUST"
+  },
+  {
+   "category": "MINING",
+   "key": "GOLD_INGOT",
+   "products": [
+    "ENCHANTED_GLISTERING_MELON",
+    "GOLD_INGOT",
+    "ENCHANTED_GOLD",
+    "ENCHANTED_GOLD_BLOCK",
+    "GRIFFIN_UPGRADE_STONE_UNCOMMON",
+    "GRIFFIN_UPGRADE_STONE_LEGENDARY",
+    "GRIFFIN_UPGRADE_STONE_MYTHIC"
+   ],
+   "titleIds": [
+    "GOLD_INGOT"
+   ],
+   "icon": "GOLD_INGOT"
+  },
+  {
+   "category": "MINING",
+   "key": "GRAVEL",
+   "products": [
+    "FLINT",
+    "GRAVEL",
+    "ENCHANTED_FLINT"
+   ],
+   "titleIds": [
+    "GRAVEL"
+   ],
+   "icon": "GRAVEL"
+  },
+  {
+   "category": "MINING",
+   "key": "HARD_STONE",
+   "products": [
+    "HARD_STONE",
+    "ENCHANTED_HARD_STONE",
+    "CONCENTRATED_STONE",
+    "HOT_STUFF",
+    "SIL_EX"
+   ],
+   "titleIds": [
+    "HARD_STONE"
+   ],
+   "icon": "HARD_STONE"
+  },
+  {
+   "category": "MINING",
+   "key": "ICE",
+   "products": [
+    "ICE",
+    "PACKED_ICE",
+    "POCKET_SIZED_IGLOO"
+   ],
+   "titleIds": [
+    "ICE"
+   ],
+   "icon": "ICE"
+  },
+  {
+   "category": "MINING",
+   "key": "INK_SACK:4",
+   "products": [
+    "INK_SACK:4",
+    "ENCHANTED_LAPIS_LAZULI",
+    "ENCHANTED_LAPIS_LAZULI_BLOCK",
+    "TITANIUM_TESSERACT"
+   ],
+   "titleIds": [
+    "INK_SACK:4"
+   ],
+   "icon": "INK_SACK:4"
+  },
+  {
+   "category": "MINING",
+   "key": "IRON_INGOT",
+   "products": [
+    "IRON_INGOT",
+    "ENCHANTED_IRON",
+    "ENCHANTED_IRON_BLOCK",
+    "MAGMA_BUCKET"
+   ],
+   "titleIds": [
+    "IRON_INGOT"
+   ],
+   "icon": "IRON_INGOT"
+  },
+  {
+   "category": "MINING",
+   "key": "MITHRIL_ORE",
+   "products": [
+    "MITHRIL_ORE",
+    "ENCHANTED_MITHRIL",
+    "DWARVEN_COMPACTOR",
+    "MITHRIL_INFUSION",
+    "REFINED_MITHRIL",
+    "MITHRIL_PLATE",
+    "PURE_MITHRIL"
+   ],
+   "titleIds": [
+    "MITHRIL_ORE"
+   ],
+   "icon": "MITHRIL_ORE"
+  },
+  {
+   "category": "MINING",
+   "key": "MYCEL",
+   "products": [
+    "MYCEL",
+    "ENCHANTED_MYCELIUM",
+    "ENCHANTED_MYCELIUM_CUBE"
+   ],
+   "titleIds": [
+    "MYCEL"
+   ],
+   "icon": "MYCEL"
+  },
+  {
+   "category": "MINING",
+   "key": "NETHERRACK",
+   "products": [
+    "NETHERRACK",
+    "ENCHANTED_NETHERRACK"
+   ],
+   "titleIds": [
+    "NETHERRACK"
+   ],
+   "icon": "NETHERRACK"
+  },
+  {
+   "category": "MINING",
+   "key": "OBSIDIAN",
+   "products": [
+    "OBSIDIAN",
+    "ENCHANTED_OBSIDIAN",
+    "OBSIDIAN_TABLET"
+   ],
+   "titleIds": [
+    "OBSIDIAN"
+   ],
+   "icon": "OBSIDIAN"
+  },
+  {
+   "category": "MINING",
+   "key": "QUARTZ",
+   "products": [
+    "QUARTZ",
+    "ENCHANTED_QUARTZ",
+    "ENCHANTED_QUARTZ_BLOCK"
+   ],
+   "titleIds": [
+    "QUARTZ"
+   ],
+   "icon": "QUARTZ"
+  },
+  {
+   "category": "MINING",
+   "key": "REDSTONE",
+   "products": [
+    "REDSTONE",
+    "ENCHANTED_REDSTONE",
+    "ENCHANTED_REDSTONE_BLOCK",
+    "ENCHANTED_REDSTONE_LAMP"
+   ],
+   "titleIds": [
+    "REDSTONE"
+   ],
+   "icon": "REDSTONE"
+  },
+  {
+   "category": "MINING",
+   "key": "SAND",
+   "products": [
+    "SAND",
+    "SAND:1",
+    "ENCHANTED_RED_SAND",
+    "ENCHANTED_SAND",
+    "ENCHANTED_RED_SAND_CUBE"
+   ],
+   "titleIds": [
+    "SAND",
+    "SAND:1"
+   ],
+   "icon": "SAND"
+  },
+  {
+   "category": "MINING",
+   "key": "SULPHUR_ORE",
+   "products": [
+    "SULPHUR_ORE",
+    "ENCHANTED_SULPHUR",
+    "MATCH_STICKS",
+    "ENCHANTED_SULPHUR_CUBE"
+   ],
+   "titleIds": [
+    "SULPHUR_ORE"
+   ],
+   "icon": "SULPHUR_ORE"
+  },
+  {
+   "category": "MINING",
+   "key": "TUNGSTEN",
+   "products": [
+    "TUNGSTEN",
+    "ENCHANTED_TUNGSTEN",
+    "REFINED_TUNGSTEN",
+    "TUNGSTEN_KEY",
+    "TUNGSTEN_PLATE"
+   ],
+   "titleIds": [
+    "TUNGSTEN"
+   ],
+   "icon": "TUNGSTEN"
+  },
+  {
+   "category": "MINING",
+   "key": "UMBER",
+   "products": [
+    "UMBER",
+    "ENCHANTED_UMBER",
+    "REFINED_UMBER",
+    "UMBER_KEY",
+    "UMBER_PLATE"
+   ],
+   "titleIds": [
+    "UMBER"
+   ],
+   "icon": "UMBER"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_AMBER",
+   "products": [
+    "ROUGH_AMBER_GEM",
+    "FLAWED_AMBER_GEM",
+    "FINE_AMBER_GEM",
+    "FLAWLESS_AMBER_GEM",
+    "PERFECT_AMBER_GEM"
+   ],
+   "name": "Amber Gemstones",
+   "icon": "ROUGH_AMBER_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_AMETHYST",
+   "products": [
+    "ROUGH_AMETHYST_GEM",
+    "FLAWED_AMETHYST_GEM",
+    "FINE_AMETHYST_GEM",
+    "FLAWLESS_AMETHYST_GEM",
+    "PERFECT_AMETHYST_GEM"
+   ],
+   "name": "Amethyst Gemstones",
+   "icon": "ROUGH_AMETHYST_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_AQUAMARINE",
+   "products": [
+    "ROUGH_AQUAMARINE_GEM",
+    "FLAWED_AQUAMARINE_GEM",
+    "FINE_AQUAMARINE_GEM",
+    "FLAWLESS_AQUAMARINE_GEM",
+    "PERFECT_AQUAMARINE_GEM"
+   ],
+   "name": "Aquamarine Gemstones",
+   "icon": "ROUGH_AQUAMARINE_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_CITRINE",
+   "products": [
+    "ROUGH_CITRINE_GEM",
+    "FLAWED_CITRINE_GEM",
+    "FINE_CITRINE_GEM",
+    "FLAWLESS_CITRINE_GEM",
+    "PERFECT_CITRINE_GEM"
+   ],
+   "name": "Citrine Gemstones",
+   "icon": "ROUGH_CITRINE_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "DEEP_MINING",
+   "products": [
+    "ASCENSION_ROPE",
+    "CONTROL_SWITCH",
+    "CORLEONITE",
+    "DWARVEN_OS_BLOCK_BRAN",
+    "DWARVEN_OS_GEMSTONE_GRAHAMS",
+    "DWARVEN_OS_METALLIC_MINIS",
+    "DWARVEN_OS_ORE_OATS",
+    "DWARVEN_TREASURE",
+    "ELECTRON_TRANSMITTER",
+    "FTX_3070",
+    "GLACITE_JEWEL",
+    "GLACITE_SHARD",
+    "GLOSSY_GEMSTONE",
+    "GOBLIN_EGG",
+    "GOBLIN_EGG_BLUE",
+    "GOBLIN_EGG_GREEN",
+    "GOBLIN_EGG_RED",
+    "GOBLIN_EGG_YELLOW",
+    "JUNGLE_HEART",
+    "OIL_BARREL",
+    "PERFECT_PLATE",
+    "PLASMA",
+    "REFINED_AMBER",
+    "REFINED_BOTTLE_OF_JYRRE",
+    "REFINED_DARK_CACAO_TRUFFLE",
+    "REFINED_MINERAL",
+    "ROBOTRON_REFLECTOR",
+    "SLUDGE_JUICE",
+    "SORROW",
+    "STARFALL",
+    "SUPERLITE_MOTOR",
+    "SYNTHETIC_HEART",
+    "TITANIUM_ORE",
+    "TREASURITE",
+    "VOLTA",
+    "WISHING_COMPASS",
+    "WORM_MEMBRANE",
+    "YOGGIE",
+    "BEJEWELED_HANDLE",
+    "ENCHANTED_TITANIUM",
+    "REFINED_TITANIUM"
+   ],
+   "name": "Deep Mining",
+   "icon": "ASCENSION_ROPE"
+  },
+  {
+   "category": "MINING",
+   "key": "FOSSILS",
+   "products": [
+    "BROKEN_RADAR",
+    "CLAW_FOSSIL",
+    "CLUBBED_FOSSIL",
+    "CORRUPTED_NETHER_STAR",
+    "DIVAN_POWDER_COATING",
+    "FOOTPRINT_FOSSIL",
+    "GOLDEN_POWDER",
+    "HELIX",
+    "HIGHLITE",
+    "IRIDIUM",
+    "PRECURSOR_APPARATUS",
+    "SPINE_FOSSIL",
+    "SPOTLITE",
+    "SUSPICIOUS_SCRAP",
+    "TUSK_FOSSIL",
+    "UGLY_FOSSIL",
+    "WEBBED_FOSSIL",
+    "BLUE_ICE_HUNK",
+    "DRILL_ENGINE",
+    "GEMSTONE_MIXTURE",
+    "GOLDEN_PLATE",
+    "POWER_CRYSTAL"
+   ],
+   "name": "Fossils & Relics",
+   "icon": "BROKEN_RADAR"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_JADE",
+   "products": [
+    "ROUGH_JADE_GEM",
+    "FLAWED_JADE_GEM",
+    "FINE_JADE_GEM",
+    "FLAWLESS_JADE_GEM",
+    "PERFECT_JADE_GEM"
+   ],
+   "name": "Jade Gemstones",
+   "icon": "ROUGH_JADE_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_JASPER",
+   "products": [
+    "ROUGH_JASPER_GEM",
+    "FLAWED_JASPER_GEM",
+    "FINE_JASPER_GEM",
+    "FLAWLESS_JASPER_GEM",
+    "PERFECT_JASPER_GEM"
+   ],
+   "name": "Jasper Gemstones",
+   "icon": "ROUGH_JASPER_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_ONYX",
+   "products": [
+    "ROUGH_ONYX_GEM",
+    "FLAWED_ONYX_GEM",
+    "FINE_ONYX_GEM",
+    "FLAWLESS_ONYX_GEM",
+    "PERFECT_ONYX_GEM"
+   ],
+   "name": "Onyx Gemstones",
+   "icon": "ROUGH_ONYX_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_OPAL",
+   "products": [
+    "ROUGH_OPAL_GEM",
+    "FLAWED_OPAL_GEM",
+    "FINE_OPAL_GEM",
+    "FLAWLESS_OPAL_GEM",
+    "PERFECT_OPAL_GEM"
+   ],
+   "name": "Opal Gemstones",
+   "icon": "ROUGH_OPAL_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_PERIDOT",
+   "products": [
+    "ROUGH_PERIDOT_GEM",
+    "FLAWED_PERIDOT_GEM",
+    "FINE_PERIDOT_GEM",
+    "FLAWLESS_PERIDOT_GEM",
+    "PERFECT_PERIDOT_GEM"
+   ],
+   "name": "Peridot Gemstones",
+   "icon": "ROUGH_PERIDOT_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_RUBY",
+   "products": [
+    "ROUGH_RUBY_GEM",
+    "FLAWED_RUBY_GEM",
+    "FINE_RUBY_GEM",
+    "FLAWLESS_RUBY_GEM",
+    "PERFECT_RUBY_GEM"
+   ],
+   "name": "Ruby Gemstones",
+   "icon": "ROUGH_RUBY_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_SAPPHIRE",
+   "products": [
+    "ROUGH_SAPPHIRE_GEM",
+    "FLAWED_SAPPHIRE_GEM",
+    "FINE_SAPPHIRE_GEM",
+    "FLAWLESS_SAPPHIRE_GEM",
+    "PERFECT_SAPPHIRE_GEM"
+   ],
+   "name": "Sapphire Gemstones",
+   "icon": "ROUGH_SAPPHIRE_GEM"
+  },
+  {
+   "category": "MINING",
+   "key": "GEM_TOPAZ",
+   "products": [
+    "ROUGH_TOPAZ_GEM",
+    "FLAWED_TOPAZ_GEM",
+    "FINE_TOPAZ_GEM",
+    "FLAWLESS_TOPAZ_GEM",
+    "PERFECT_TOPAZ_GEM"
+   ],
+   "name": "Topaz Gemstones",
+   "icon": "ROUGH_TOPAZ_GEM"
+  },
+  {
+   "category": "COMBAT",
+   "key": "BLAZE_ROD",
+   "products": [
+    "BLAZE_ROD",
+    "ENCHANTED_EYE_OF_ENDER",
+    "ENCHANTED_BLAZE_POWDER",
+    "LESSER_SOULFLOW_ENGINE",
+    "SHRIVELED_CORNEA",
+    "ENCHANTED_BLAZE_ROD"
+   ],
+   "titleIds": [
+    "BLAZE_ROD"
+   ],
+   "icon": "BLAZE_ROD"
+  },
+  {
+   "category": "COMBAT",
+   "key": "BONE",
+   "products": [
+    "BONE",
+    "WOOL",
+    "ENCHANTED_BONE",
+    "ENCHANTED_WOOL",
+    "DISPLACED_LEECH",
+    "ENCHANTED_BONE_BLOCK"
+   ],
+   "titleIds": [
+    "BONE"
+   ],
+   "icon": "BONE"
+  },
+  {
+   "category": "COMBAT",
+   "key": "CHILI_PEPPER",
+   "products": [
+    "CHILI_PEPPER",
+    "ENTROPY_SUPPRESSOR"
+   ],
+   "titleIds": [
+    "CHILI_PEPPER"
+   ],
+   "icon": "CHILI_PEPPER"
+  },
+  {
+   "category": "COMBAT",
+   "key": "ENDER_PEARL",
+   "products": [
+    "ENDER_PEARL",
+    "ABSOLUTE_ENDER_PEARL",
+    "TESSELLATED_ENDER_PEARL"
+   ],
+   "titleIds": [
+    "ENDER_PEARL"
+   ],
+   "icon": "ENDER_PEARL"
+  },
+  {
+   "category": "COMBAT",
+   "key": "GHAST_TEAR",
+   "products": [
+    "GHAST_TEAR",
+    "ENCHANTED_GHAST_TEAR",
+    "SILVER_FANG",
+    "METEOR_SHARD"
+   ],
+   "titleIds": [
+    "GHAST_TEAR"
+   ],
+   "icon": "GHAST_TEAR"
+  },
+  {
+   "category": "COMBAT",
+   "key": "MAGMA_CREAM",
+   "products": [
+    "MAGMA_CREAM",
+    "ENCHANTED_MAGMA_CREAM",
+    "WHIPPED_MAGMA_CREAM"
+   ],
+   "titleIds": [
+    "MAGMA_CREAM"
+   ],
+   "icon": "MAGMA_CREAM"
+  },
+  {
+   "category": "COMBAT",
+   "key": "ROTTEN_FLESH",
+   "products": [
+    "ROTTEN_FLESH",
+    "ENCHANTED_ROTTEN_FLESH"
+   ],
+   "titleIds": [
+    "ROTTEN_FLESH"
+   ],
+   "icon": "ROTTEN_FLESH"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLIME_BALL",
+   "products": [
+    "SLIME_BALL",
+    "ENCHANTED_SLIME_BALL",
+    "ENCHANTED_SLIME_BLOCK"
+   ],
+   "titleIds": [
+    "SLIME_BALL"
+   ],
+   "icon": "SLIME_BALL"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SPIDER_EYE",
+   "products": [
+    "SPIDER_EYE",
+    "ENCHANTED_SPIDER_EYE"
+   ],
+   "titleIds": [
+    "SPIDER_EYE"
+   ],
+   "icon": "SPIDER_EYE"
+  },
+  {
+   "category": "COMBAT",
+   "key": "STRING",
+   "products": [
+    "STRING",
+    "ENCHANTED_STRING"
+   ],
+   "titleIds": [
+    "STRING"
+   ],
+   "icon": "STRING"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SULPHUR",
+   "products": [
+    "SULPHUR",
+    "ENCHANTED_GUNPOWDER",
+    "ENCHANTED_FIREWORK_ROCKET",
+    "PRICKLY_CREEPER"
+   ],
+   "titleIds": [
+    "SULPHUR"
+   ],
+   "icon": "SULPHUR"
+  },
+  {
+   "category": "COMBAT",
+   "key": "ARROWS",
+   "products": [
+    "TWILIGHT_ARROW_POISON"
+   ],
+   "name": "Arrows & Poisons",
+   "icon": "TWILIGHT_ARROW_POISON"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_BLAZE",
+   "products": [
+    "BLAZE_ROD_DISTILLATE",
+    "CRUDE_GABAGOOL",
+    "CRUDE_GABAGOOL_DISTILLATE",
+    "DERELICT_ASHE",
+    "FLAMES",
+    "GLOWSTONE_DUST_DISTILLATE",
+    "INFERNO_APEX",
+    "INFERNO_FUEL_BLOCK",
+    "KELVIN_INVERTER",
+    "MAGMA_CREAM_DISTILLATE",
+    "MAGMA_URCHIN",
+    "NETHER_STALK_DISTILLATE",
+    "SCORCHED_POWER_CRYSTAL",
+    "SUBZERO_INVERTER",
+    "FUEL_GABAGOOL",
+    "MOLTEN_POWDER",
+    "VERY_CRUDE_GABAGOOL",
+    "BLAZE_WAX",
+    "HEAVY_GABAGOOL",
+    "INFERNO_VERTEX"
+   ],
+   "name": "Blaze Slayer Drops",
+   "icon": "BLAZE_ROD_DISTILLATE"
+  },
+  {
+   "category": "COMBAT",
+   "key": "CRIMSON",
+   "products": [
+    "BLAZEN_SPHERE",
+    "DIGESTED_MUSHROOMS",
+    "ENDSTONE_GEODE",
+    "FACTION_RABBIT_ALLEY",
+    "FACTION_RABBIT_ANCHOR",
+    "FACTION_RABBIT_ASTER",
+    "FACTION_RABBIT_AVALANCHE",
+    "FACTION_RABBIT_CANYON",
+    "FACTION_RABBIT_CHASM",
+    "FACTION_RABBIT_CLOVER",
+    "FACTION_RABBIT_COBBLE",
+    "FACTION_RABBIT_COCONUT",
+    "FACTION_RABBIT_CRAG",
+    "FACTION_RABBIT_DAISY",
+    "FACTION_RABBIT_DUNE",
+    "FACTION_RABBIT_EAGLE",
+    "FACTION_RABBIT_GLACIER",
+    "FACTION_RABBIT_GRAFFITI",
+    "FACTION_RABBIT_GRANITE",
+    "FACTION_RABBIT_HAYBALE",
+    "FACTION_RABBIT_HAZEL",
+    "FACTION_RABBIT_HORIZON",
+    "FACTION_RABBIT_ICEFUR",
+    "FACTION_RABBIT_IRIS",
+    "FACTION_RABBIT_JUNIPER",
+    "FACTION_RABBIT_LAGOON",
+    "FACTION_RABBIT_LAVENDER",
+    "FACTION_RABBIT_MARIGOLD",
+    "FACTION_RABBIT_MAYOR",
+    "FACTION_RABBIT_MINISTER",
+    "FACTION_RABBIT_MISTRAL",
+    "FACTION_RABBIT_MOCKTAIL",
+    "FACTION_RABBIT_MOSS",
+    "FACTION_RABBIT_NECTAR",
+    "FACTION_RABBIT_NEON",
+    "FACTION_RABBIT_OASIS",
+    "FACTION_RABBIT_PALM",
+    "FACTION_RABBIT_PEON",
+    "FACTION_RABBIT_ROOT",
+    "FACTION_RABBIT_ROSEBUD",
+    "FACTION_RABBIT_SANDY",
+    "FACTION_RABBIT_SCREE",
+    "FACTION_RABBIT_SEABUN",
+    "FACTION_RABBIT_SEASHELL",
+    "FACTION_RABBIT_SHORTCUT",
+    "FACTION_RABBIT_SILO",
+    "FACTION_RABBIT_SKYRISE",
+    "FACTION_RABBIT_SPEEDY",
+    "FACTION_RABBIT_SPLASH",
+    "FACTION_RABBIT_STARFISH",
+    "FACTION_RABBIT_SUBWAY",
+    "FACTION_RABBIT_SUMMIT",
+    "FACTION_RABBIT_SUNSET",
+    "FACTION_RABBIT_SURF",
+    "FACTION_RABBIT_TAN",
+    "FACTION_RABBIT_TAXI",
+    "FACTION_RABBIT_TIMBER",
+    "FACTION_RABBIT_TRAFFIC",
+    "FACTION_RABBIT_TUNDRA",
+    "FACTION_RABBIT_TUNNEL",
+    "FACTION_RABBIT_TWIGY",
+    "FACTION_RABBIT_VALLEY",
+    "FACTION_RABBIT_WALKER",
+    "FLAMING_HEART",
+    "HEAVY_PEARL",
+    "HORN_OF_TAURUS",
+    "LAVA_WATER_ORB",
+    "LUMP_OF_MAGMA",
+    "MAGMA_CHUNK",
+    "MILLENIA_OLD_BLAZE_ASHES",
+    "MOLTEN_CUBE",
+    "MOOGMA_PELT",
+    "PYROCLASTIC_SCALE",
+    "SCORCHED_BOOKS"
+   ],
+   "name": "Crimson Isle Loot",
+   "icon": "BLAZEN_SPHERE"
+  },
+  {
+   "category": "COMBAT",
+   "key": "DUNGEONS",
+   "products": [
+    "ARACHNE_FRAGMENT",
+    "ARACHNE_KEEPER_FRAGMENT",
+    "ARCHITECT_FIRST_DRAFT",
+    "BONZO_FRAGMENT",
+    "CORRUPTED_FRAGMENT",
+    "CRYSTAL_FRAGMENT",
+    "DIVAN_FRAGMENT",
+    "DIVER_FRAGMENT",
+    "DUNGEON_CHEST_KEY",
+    "DUNGEON_DECOY",
+    "DUNGEON_TRAP",
+    "FEL_PEARL",
+    "GIANT_FRAGMENT_BIGFOOT",
+    "GIANT_FRAGMENT_BOULDER",
+    "GIANT_FRAGMENT_DIAMOND",
+    "GIANT_FRAGMENT_LASER",
+    "GLACIAL_FRAGMENT",
+    "GOLDEN_FRAGMENT",
+    "GOLEM_POPPY",
+    "HEALING_TISSUE",
+    "HOLY_FRAGMENT",
+    "IMPLOSION_SCROLL",
+    "INFLATABLE_JERRY",
+    "KISMET_FEATHER",
+    "LIVID_FRAGMENT",
+    "MAGMA_LORD_FRAGMENT",
+    "MIMIC_FRAGMENT",
+    "MYTHOS_FRAGMENT",
+    "OLD_FRAGMENT",
+    "PROTECTOR_FRAGMENT",
+    "RECOMBOBULATOR_3000",
+    "REKINDLED_EMBER_FRAGMENT",
+    "SCARF_FRAGMENT",
+    "SHADOW_WARP_SCROLL",
+    "SOUL_FRAGMENT",
+    "SPIRIT_BONE",
+    "SPIRIT_DECOY",
+    "SPIRIT_LEAP",
+    "SPIRIT_WING",
+    "STRONG_FRAGMENT",
+    "SUPERBOOM_TNT",
+    "SUPERIOR_FRAGMENT",
+    "THORN_FRAGMENT",
+    "UNSTABLE_FRAGMENT",
+    "WINTER_FRAGMENT",
+    "WISE_FRAGMENT",
+    "WITHER_BLOOD",
+    "WITHER_CATALYST",
+    "WITHER_SHIELD_SCROLL",
+    "YOUNG_FRAGMENT"
+   ],
+   "name": "Dungeon Loot",
+   "icon": "ARACHNE_FRAGMENT"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_ENDERMAN",
+   "products": [
+    "BRAIN_FOOD",
+    "NULL_ATOM",
+    "NULL_BLADE",
+    "NULL_SPHERE",
+    "RAW_SOULFLOW",
+    "SUMMONING_EYE",
+    "TRANSMISSION_TUNER",
+    "ENCHANTED_ENDER_PEARL",
+    "NULL_OVOID",
+    "SOULFLOW",
+    "NULL_EDGE"
+   ],
+   "name": "Enderman Slayer Drops",
+   "icon": "BRAIN_FOOD"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SHARDS",
+   "products": [
+    "SHARD_ABYSSAL_LANTERN",
+    "SHARD_ABYSSAL_MINER",
+    "SHARD_AERO",
+    "SHARD_ALLIGATOR",
+    "SHARD_ANANKE",
+    "SHARD_ANT",
+    "SHARD_ANTEATER",
+    "SHARD_APEX_DRAGON",
+    "SHARD_ARACHNE",
+    "SHARD_AREITA",
+    "SHARD_AZURE",
+    "SHARD_BADGER",
+    "SHARD_BAL",
+    "SHARD_BAMBLOOM",
+    "SHARD_BAMBULEAF",
+    "SHARD_BARBARIAN_DUKE_X",
+    "SHARD_BASILISK",
+    "SHARD_BAYOU_SLUDGE",
+    "SHARD_BEACONMITE",
+    "SHARD_BEEHEEMOTH",
+    "SHARD_BEZAL",
+    "SHARD_BILLYGOAT",
+    "SHARD_BIRRIES",
+    "SHARD_BITBUG",
+    "SHARD_BLACK_WIDOW",
+    "SHARD_BLIZZARD",
+    "SHARD_BLOODBAT",
+    "SHARD_BLUEBIRD",
+    "SHARD_BLUE_CRAB",
+    "SHARD_BLUE_JAY",
+    "SHARD_BOLT",
+    "SHARD_BONZO",
+    "SHARD_BOREAL_OWL",
+    "SHARD_BRAMBLE",
+    "SHARD_BRINELING",
+    "SHARD_BRUISER",
+    "SHARD_BULLFROG",
+    "SHARD_BUNBUN",
+    "SHARD_BURNINGSOUL",
+    "SHARD_CAIMAN",
+    "SHARD_CARROT_KING",
+    "SHARD_CASCADE",
+    "SHARD_CAVERNFISH",
+    "SHARD_CAVERNSHADE",
+    "SHARD_CHAMELEON",
+    "SHARD_CHEEKY_TIKI",
+    "SHARD_CHILL",
+    "SHARD_CHOCOBUN",
+    "SHARD_CHUCKWALLA",
+    "SHARD_CINDER_BAT",
+    "SHARD_COCOALEECH",
+    "SHARD_COD",
+    "SHARD_CONDOR",
+    "SHARD_CORALOT",
+    "SHARD_CRETAN_BULL",
+    "SHARD_CRICKET",
+    "SHARD_CROCODILE",
+    "SHARD_CROPEETLE",
+    "SHARD_CROW",
+    "SHARD_CRYO",
+    "SHARD_CUBOA",
+    "SHARD_DAEMON",
+    "SHARD_DIVE_GHAST",
+    "SHARD_DODO",
+    "SHARD_DOOMSPIRAL",
+    "SHARD_DRACONIC",
+    "SHARD_DRAGONFLY",
+    "SHARD_DREADWING",
+    "SHARD_DRIFTLING",
+    "SHARD_DROWNED",
+    "SHARD_DRYBARK",
+    "SHARD_DUMPSTER_DIVER",
+    "SHARD_DUNG_BEETLE",
+    "SHARD_DUPLICO",
+    "SHARD_DUSTYBIT",
+    "SHARD_EEL",
+    "SHARD_EMBER",
+    "SHARD_ENDSTONE_PROTECTOR",
+    "SHARD_ENT",
+    "SHARD_ETHERDRAKE",
+    "SHARD_FALCON",
+    "SHARD_FENLORD",
+    "SHARD_FIREFLY",
+    "SHARD_FIREFOX",
+    "SHARD_FIRE_EEL",
+    "SHARD_FLAMING_SPIDER",
+    "SHARD_FLARE",
+    "SHARD_FLASH",
+    "SHARD_FLIP_FLOPPER",
+    "SHARD_FLITTER",
+    "SHARD_FLUFFLING",
+    "SHARD_FLY",
+    "SHARD_FOXTROT",
+    "SHARD_FUNGLOOM",
+    "SHARD_GALAXY_FISH",
+    "SHARD_GAZER",
+    "SHARD_GECKO",
+    "SHARD_GEMZIE",
+    "SHARD_GHOST",
+    "SHARD_GHOST_CRAB",
+    "SHARD_GIANT_ISOPOD",
+    "SHARD_GIANT_WATER_BUG",
+    "SHARD_GIMMIEGOLD",
+    "SHARD_GLACITE_WALKER",
+    "SHARD_GOLDEN_GHOUL",
+    "SHARD_GOLDFIN",
+    "SHARD_GOLDOLOT",
+    "SHARD_GRIZZLY_BEAR",
+    "SHARD_GROUNDHOG",
+    "SHARD_GROVE",
+    "SHARD_HAGGARD",
+    "SHARD_HARPY",
+    "SHARD_HAWK",
+    "SHARD_HELLWISP",
+    "SHARD_HERON",
+    "SHARD_HEWVER",
+    "SHARD_HIDEONBOX",
+    "SHARD_HIDEONCAVE",
+    "SHARD_HIDEONDRA",
+    "SHARD_HIDEONFLOOR",
+    "SHARD_HIDEONGEON",
+    "SHARD_HIDEONGIFT",
+    "SHARD_HIDEONLEAF",
+    "SHARD_HIDEONRING",
+    "SHARD_HIDEONSACK",
+    "SHARD_HIDEONSUN",
+    "SHARD_HIDEONWALL",
+    "SHARD_HIDEYHO",
+    "SHARD_HIVETHIEF",
+    "SHARD_HONEYBUG",
+    "SHARD_HONEYBUZZ",
+    "SHARD_HONEYHOG",
+    "SHARD_HONEYMITE",
+    "SHARD_HONEY_BADGER",
+    "SHARD_HOWLING_SPIRIT",
+    "SHARD_HUMMINGBIRD",
+    "SHARD_IGUANA",
+    "SHARD_INFERNO_KOI",
+    "SHARD_INVISIBUG",
+    "SHARD_JORMUNG",
+    "SHARD_JOYDIVE",
+    "SHARD_JUNE_BUG",
+    "SHARD_KADA_KNIGHT",
+    "SHARD_KEELED_SLUG",
+    "SHARD_KING_COBRA",
+    "SHARD_KING_MINOS",
+    "SHARD_KIWI",
+    "SHARD_KOMODO_DRAGON",
+    "SHARD_KRAKEN",
+    "SHARD_LADYBUG",
+    "SHARD_LAPIS_CREEPER",
+    "SHARD_LAPIS_SKELETON",
+    "SHARD_LAPIS_ZOMBIE",
+    "SHARD_LAVA_FLAME",
+    "SHARD_LAVA_LEECH",
+    "SHARD_LEATHERBACK",
+    "SHARD_LEVIATHAN",
+    "SHARD_LITTERBUG",
+    "SHARD_LITTLEFOOT",
+    "SHARD_LIZARD_KING",
+    "SHARD_LOCUST",
+    "SHARD_LORD_JAWBUS",
+    "SHARD_LOTUM",
+    "SHARD_LOTUS_FISH",
+    "SHARD_LUMISQUID",
+    "SHARD_LUNAR_MOTH",
+    "SHARD_MACAW",
+    "SHARD_MAGGOT",
+    "SHARD_MAGMA_SLUG",
+    "SHARD_MANTIS_SHRIMP",
+    "SHARD_MATCHO",
+    "SHARD_MEGALITH",
+    "SHARD_MIMIC",
+    "SHARD_MINER_ZOMBIE",
+    "SHARD_MINOS_HUNTER",
+    "SHARD_MINOTAUR",
+    "SHARD_MIST",
+    "SHARD_MITE",
+    "SHARD_MOCHIBEAR",
+    "SHARD_MOLTENFISH",
+    "SHARD_MOLTHORN",
+    "SHARD_MORAY_EEL",
+    "SHARD_MOSQUITO",
+    "SHARD_MOSSYBIT",
+    "SHARD_MOTH",
+    "SHARD_MOUNTAIN_GOAT",
+    "SHARD_MUDWORM",
+    "SHARD_MURDERWING",
+    "SHARD_MURKBAT",
+    "SHARD_NAGA",
+    "SHARD_NESSIE",
+    "SHARD_NEWT",
+    "SHARD_NIGHT_SQUID",
+    "SHARD_NILBOG",
+    "SHARD_NOZZLENOSE",
+    "SHARD_OBSIDIAN_DEFENDER",
+    "SHARD_OSEDAX",
+    "SHARD_PANDARAI",
+    "SHARD_PANGOLIN",
+    "SHARD_PARAGON",
+    "SHARD_PARAKEET",
+    "SHARD_PARCHED",
+    "SHARD_PEST",
+    "SHARD_PHANFLARE",
+    "SHARD_PHANPYRE",
+    "SHARD_PIRANHA",
+    "SHARD_POLARIS",
+    "SHARD_POLLENDART",
+    "SHARD_POWER_DRAGON",
+    "SHARD_PRAYING_MANTIS",
+    "SHARD_PRIMORDIAL",
+    "SHARD_PRINCE",
+    "SHARD_PUCK",
+    "SHARD_PYTHON",
+    "SHARD_QUAKE",
+    "SHARD_QUARTZFANG",
+    "SHARD_QUEEN_ANT",
+    "SHARD_QUEEN_BEE",
+    "SHARD_QUEEN_SNAKE",
+    "SHARD_RABBIT_CAT",
+    "SHARD_RABBIT_GODFATHER",
+    "SHARD_RABBIT_GODMOTHER",
+    "SHARD_RABBIT_MAFIOSO",
+    "SHARD_RABBIT_NEIGHBOR",
+    "SHARD_RAIN_SLIME",
+    "SHARD_RANA",
+    "SHARD_RAT",
+    "SHARD_RED_PANDA",
+    "SHARD_REVENANT",
+    "SHARD_ROCKMITE",
+    "SHARD_SALAMANDER",
+    "SHARD_SALMON",
+    "SHARD_SCARF",
+    "SHARD_SCATHA",
+    "SHARD_SCRAPPY",
+    "SHARD_SEAGULL",
+    "SHARD_SEA_ARCHER",
+    "SHARD_SEA_EMPEROR",
+    "SHARD_SEA_SERPENT",
+    "SHARD_SEA_SHINE",
+    "SHARD_SEA_WITCH",
+    "SHARD_SEER",
+    "SHARD_SEPIALOT",
+    "SHARD_SHELLWISE",
+    "SHARD_SHINYFISH",
+    "SHARD_SHRIEKY_TIKI",
+    "SHARD_SHUDDERSQUID",
+    "SHARD_SHYWORM",
+    "SHARD_SILENTDEPTH",
+    "SHARD_SILKBREEZE",
+    "SHARD_SKELETOR",
+    "SHARD_SNEAKY_TIKI",
+    "SHARD_SNOOZLE",
+    "SHARD_SNOWFIN",
+    "SHARD_SOLAR",
+    "SHARD_SOLSNATCHER",
+    "SHARD_SOUL_OF_THE_ALPHA",
+    "SHARD_SPARROW",
+    "SHARD_SPECIAL_ZEALOT",
+    "SHARD_SPHINX",
+    "SHARD_SPIKE",
+    "SHARD_SPRAWL",
+    "SHARD_STAG_BEETLE",
+    "SHARD_STALAGMIGHT",
+    "SHARD_STARBORN",
+    "SHARD_STAR_SENTRY",
+    "SHARD_STINGRAY",
+    "SHARD_STONEWORM",
+    "SHARD_STRIDER_SURFER",
+    "SHARD_STRONGARM",
+    "SHARD_SUN_FISH",
+    "SHARD_SYCOPHANT",
+    "SHARD_SYLVAN",
+    "SHARD_TADGANG",
+    "SHARD_TANK_ZOMBIE",
+    "SHARD_TAURUS",
+    "SHARD_TEMPEST",
+    "SHARD_TENEBRIS",
+    "SHARD_TEPID",
+    "SHARD_TERMITE",
+    "SHARD_TERRA",
+    "SHARD_TEWTIL",
+    "SHARD_THORN",
+    "SHARD_THUNDER",
+    "SHARD_THYST",
+    "SHARD_TIAMAT",
+    "SHARD_TIDE",
+    "SHARD_TIMESTALK_CLONE",
+    "SHARD_TIMIL",
+    "SHARD_TITANOBOA",
+    "SHARD_TOAD",
+    "SHARD_TORRID",
+    "SHARD_TORTOISE",
+    "SHARD_TOUCAN",
+    "SHARD_TREASURE_HOARDER",
+    "SHARD_TREEFROG",
+    "SHARD_TROGLOBYTE",
+    "SHARD_TROODON",
+    "SHARD_VERDANT",
+    "SHARD_VIPER",
+    "SHARD_VORACIOUS_SPIDER",
+    "SHARD_VULTURE",
+    "SHARD_WARTYBUG",
+    "SHARD_WATER_HYDRA",
+    "SHARD_WATER_SNAKE",
+    "SHARD_WETWING",
+    "SHARD_WIKI_TIKI",
+    "SHARD_WILD_HOG",
+    "SHARD_WITHER",
+    "SHARD_WITHER_SPECTER",
+    "SHARD_WOLVERINE",
+    "SHARD_WOODCHUCKER",
+    "SHARD_WOODLOUSE",
+    "SHARD_WOODPECKER",
+    "SHARD_WUMPA",
+    "SHARD_WYVERN",
+    "SHARD_XYZ",
+    "SHARD_YOG",
+    "SHARD_ZEALOT",
+    "SHARD_ZOMBIE_SOLDIER",
+    "SHARD_ZOMBUDDY"
+   ],
+   "name": "Hunting Shards",
+   "icon": "SHARD_ABYSSAL_LANTERN"
+  },
+  {
+   "category": "COMBAT",
+   "key": "KUUDRA",
+   "products": [
+    "KUUDRA_MANDIBLE",
+    "KUUDRA_TEETH",
+    "KUUDRA_TENTACLE",
+    "MANDRAA",
+    "SPECTRE_DUST",
+    "STUFFED_CHILI_PEPPER"
+   ],
+   "name": "Leviathan Loot",
+   "icon": "KUUDRA_MANDIBLE"
+  },
+  {
+   "category": "COMBAT",
+   "key": "MYTHOLOGICAL",
+   "products": [
+    "ANCIENT_CLAW",
+    "DAEDALUS_STICK",
+    "GRIFFIN_FEATHER",
+    "ENCHANTED_ANCIENT_CLAW",
+    "GRIFFIN_UPGRADE_STONE_EPIC",
+    "GRIFFIN_UPGRADE_STONE_RARE"
+   ],
+   "name": "Mythological Loot",
+   "icon": "ANCIENT_CLAW"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_SPIDER",
+   "products": [
+    "ENSNARED_SNAIL",
+    "FLY_SWATTER",
+    "SPIDER_CATALYST",
+    "TARANTULA_WEB",
+    "TOXIC_ARROW_POISON",
+    "VIAL_OF_VENOM",
+    "TARANTULA_SILK"
+   ],
+   "name": "Spider Slayer Drops",
+   "icon": "ENSNARED_SNAIL"
+  },
+  {
+   "category": "COMBAT",
+   "key": "THE_END",
+   "products": [
+    "DRAGON_CLAW",
+    "DRAGON_HORN",
+    "DRAGON_SCALE",
+    "ENDER_MONOCLE",
+    "LUXURIOUS_SPOOL"
+   ],
+   "name": "The End",
+   "icon": "DRAGON_CLAW"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_VAMPIRE",
+   "products": [
+    "BUBBA_BLISTER",
+    "CHOCOLATE_CHIP",
+    "GUARDIAN_LUCKY_BLOCK"
+   ],
+   "name": "Vampire Slayer Drops",
+   "icon": "BUBBA_BLISTER"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_WOLF",
+   "products": [
+    "HAMSTER_WHEEL",
+    "WEREWOLF_SKIN",
+    "WOLF_TOOTH",
+    "GOLDEN_TOOTH"
+   ],
+   "name": "Wolf Slayer Drops",
+   "icon": "HAMSTER_WHEEL"
+  },
+  {
+   "category": "COMBAT",
+   "key": "SLAYER_ZOMBIE",
+   "products": [
+    "FOUL_FLESH",
+    "REVENANT_CATALYST",
+    "REVENANT_FLESH",
+    "SEVERED_HAND",
+    "UNDEAD_CATALYST",
+    "REVENANT_VISCERA"
+   ],
+   "name": "Zombie Slayer Drops",
+   "icon": "FOUL_FLESH"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "CLAY_BALL",
+   "products": [
+    "CLAY_BALL",
+    "ENCHANTED_CLAY_BALL",
+    "ENCHANTED_CLAY_BLOCK"
+   ],
+   "titleIds": [
+    "CLAY_BALL"
+   ],
+   "icon": "CLAY_BALL"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "FIG_LOG",
+   "products": [
+    "FIG_LOG",
+    "ENCHANTED_FIG_LOG",
+    "FIGSTONE"
+   ],
+   "titleIds": [
+    "FIG_LOG"
+   ],
+   "icon": "FIG_LOG"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "HELIX_LOG",
+   "products": [
+    "HELIX_LOG",
+    "ENCHANTED_HELIX_LOG",
+    "BEE_SALIVA",
+    "FAMILY_SIZED_POT_OF_HONEYCOMB",
+    "HELIXIS"
+   ],
+   "titleIds": [
+    "HELIX_LOG"
+   ],
+   "icon": "HELIX_LOG"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "HONEYCOMB",
+   "products": [
+    "HONEYCOMB",
+    "ENCHANTED_HONEYCOMB",
+    "FUN_SIZED_POT_OF_HONEYCOMB",
+    "ENCHANTED_HONEYCOMB_BLOCK",
+    "JUMBO_POT_OF_HONEYCOMB"
+   ],
+   "titleIds": [
+    "HONEYCOMB"
+   ],
+   "icon": "HONEYCOMB"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "INK_SACK",
+   "products": [
+    "INK_SACK"
+   ],
+   "titleIds": [
+    "INK_SACK"
+   ],
+   "icon": "INK_SACK"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG",
+   "products": [
+    "LOG",
+    "ENCHANTED_OAK_LOG"
+   ],
+   "titleIds": [
+    "LOG"
+   ],
+   "icon": "LOG"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG:1",
+   "products": [
+    "LOG:1",
+    "ENCHANTED_SPRUCE_LOG"
+   ],
+   "titleIds": [
+    "LOG:1"
+   ],
+   "icon": "LOG:1"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG:2",
+   "products": [
+    "LOG:2",
+    "ENCHANTED_BIRCH_LOG"
+   ],
+   "titleIds": [
+    "LOG:2"
+   ],
+   "icon": "LOG:2"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG:3",
+   "products": [
+    "LOG:3",
+    "ENCHANTED_JUNGLE_LOG"
+   ],
+   "titleIds": [
+    "LOG:3"
+   ],
+   "icon": "LOG:3"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG_2",
+   "products": [
+    "LOG_2",
+    "ENCHANTED_ACACIA_LOG",
+    "ACACIA_BIRDHOUSE"
+   ],
+   "titleIds": [
+    "LOG_2"
+   ],
+   "icon": "LOG_2"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOG_2:1",
+   "products": [
+    "LOG_2:1",
+    "ENCHANTED_DARK_OAK_LOG",
+    "PRESUMED_GALLON_OF_RED_PAINT"
+   ],
+   "titleIds": [
+    "LOG_2:1"
+   ],
+   "icon": "LOG_2:1"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LOTUS",
+   "products": [
+    "LOTUS",
+    "LOTUS_SILVER",
+    "LOTUS_GOLD",
+    "LOTUS_DIAMOND"
+   ],
+   "titleIds": [
+    "LOTUS"
+   ],
+   "icon": "LOTUS"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LUSHLILAC",
+   "products": [
+    "LUSHLILAC"
+   ],
+   "titleIds": [
+    "LUSHLILAC"
+   ],
+   "icon": "LUSHLILAC"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "MAGMA_FISH",
+   "products": [
+    "MAGMA_FISH",
+    "MAGMA_FISH_SILVER",
+    "MAGMA_FISH_GOLD",
+    "MAGMA_FISH_DIAMOND"
+   ],
+   "titleIds": [
+    "MAGMA_FISH"
+   ],
+   "icon": "MAGMA_FISH"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "MANGROVE_LOG",
+   "products": [
+    "MANGROVE_LOG",
+    "ENCHANTED_MANGROVE_LOG",
+    "MANGCORE",
+    "MANGROVE_GEM"
+   ],
+   "titleIds": [
+    "MANGROVE_LOG"
+   ],
+   "icon": "MANGROVE_LOG"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "PRISMARINE_SHARD",
+   "products": [
+    "PRISMARINE_CRYSTALS",
+    "PRISMARINE_SHARD",
+    "ENCHANTED_PRISMARINE_CRYSTALS",
+    "ENCHANTED_PRISMARINE_SHARD"
+   ],
+   "titleIds": [
+    "PRISMARINE_CRYSTALS",
+    "PRISMARINE_SHARD"
+   ],
+   "icon": "PRISMARINE_CRYSTALS"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "RAW_FISH",
+   "products": [
+    "RAW_FISH",
+    "ENCHANTED_RAW_FISH",
+    "ENCHANTED_COOKED_FISH"
+   ],
+   "titleIds": [
+    "RAW_FISH"
+   ],
+   "icon": "RAW_FISH"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "RAW_FISH:1",
+   "products": [
+    "RAW_FISH:1",
+    "ENCHANTED_RAW_SALMON",
+    "ENCHANTED_COOKED_SALMON"
+   ],
+   "titleIds": [
+    "RAW_FISH:1"
+   ],
+   "icon": "RAW_FISH:1"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "RAW_FISH:2",
+   "products": [
+    "RAW_FISH:2",
+    "ENCHANTED_CLOWNFISH"
+   ],
+   "titleIds": [
+    "RAW_FISH:2"
+   ],
+   "icon": "RAW_FISH:2"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "RAW_FISH:3",
+   "products": [
+    "RAW_FISH:3",
+    "ENCHANTED_PUFFERFISH"
+   ],
+   "titleIds": [
+    "RAW_FISH:3"
+   ],
+   "icon": "RAW_FISH:3"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "RUBY_VEILSHROOM",
+   "products": [
+    "RUBY_VEILSHROOM",
+    "ENCHANTED_RUBY_VEILSHROOM",
+    "VEILSHROOM_BUNCH"
+   ],
+   "titleIds": [
+    "RUBY_VEILSHROOM"
+   ],
+   "icon": "RUBY_VEILSHROOM"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "SEA_LUMIES",
+   "products": [
+    "SEA_LUMIES",
+    "ENCHANTED_SEA_LUMIES"
+   ],
+   "titleIds": [
+    "SEA_LUMIES"
+   ],
+   "icon": "SEA_LUMIES"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "SPONGE",
+   "products": [
+    "SPONGE"
+   ],
+   "titleIds": [
+    "SPONGE"
+   ],
+   "icon": "SPONGE"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "TENDER_WOOD",
+   "products": [
+    "TENDER_WOOD",
+    "ENCHANTED_TENDER_WOOD"
+   ],
+   "titleIds": [
+    "TENDER_WOOD"
+   ],
+   "icon": "TENDER_WOOD"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "VINESAP",
+   "products": [
+    "VINESAP",
+    "ENCHANTED_VINESAP"
+   ],
+   "titleIds": [
+    "VINESAP"
+   ],
+   "icon": "VINESAP"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "WATER_LILY",
+   "products": [
+    "WATER_LILY",
+    "ENCHANTED_WATER_LILY",
+    "CONDENSED_WATER_LILY",
+    "BUCKET_OF_FROGSPAWN"
+   ],
+   "titleIds": [
+    "WATER_LILY"
+   ],
+   "icon": "WATER_LILY"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "FISHING_GEAR",
+   "products": [
+    "AGATHA_COUPON",
+    "ALLIGATOR_SKIN",
+    "BLESSED_BAIT",
+    "BOBBIN_SCRIPTURES",
+    "BRINE_TONIC",
+    "CAN_OF_WORMS",
+    "CHUM",
+    "DEEP_SEA_ORB",
+    "EMPTY_CHUM_BUCKET",
+    "FIRE_IN_A_BOTTLE",
+    "FROGCOIN",
+    "FROZEN_BAIT",
+    "FROZEN_SCUTE",
+    "GILL_MEMBRANE",
+    "GLOWY_CHUM_BAIT",
+    "GOLDEN_BAIT",
+    "HOTSPOT_WATER_ORB",
+    "INK_SPLAT",
+    "KADA_LEAD",
+    "LOTUS_WATER_ORB",
+    "MOBY_DUCK_COLLECTOR_EDITION",
+    "MOUND_OF_SEAGRASS",
+    "OCTOPUS_TENDRIL",
+    "OLD_LEATHER_BOOT",
+    "REINFORCED_NETTING",
+    "RUSTY_COIN",
+    "SALT_CUBE",
+    "SCORCHED_CRAB_STICK",
+    "SCUTTLER_SHELL",
+    "SEARED_ESCARGOT",
+    "SEA_BRINE",
+    "SEVERED_PINCER",
+    "SHARK_WATER_ORB",
+    "TENTACLE_MEAT",
+    "TITANOBOA_SHED",
+    "TREASURE_BAIT",
+    "TROUBLED_BUBBLE",
+    "UNLUCKY_DOUBLOON",
+    "VIBRANT_CORAL",
+    "WATER_HYACINTH",
+    "WATER_ORB",
+    "WET_BOOK",
+    "WET_WATER",
+    "WINTER_WATER_ORB",
+    "WOODEN_BAIT",
+    "BAYOU_WATER_ORB",
+    "BLIZZARD_BOTTLE",
+    "CARROT_BAIT",
+    "CORRUPTED_BAIT",
+    "DARK_BAIT",
+    "ENCHANTED_INK_SACK",
+    "ENCHANTED_SPONGE",
+    "EXALTED_LUSHLILAC_BONBON",
+    "FISH_BAIT",
+    "FULL_CHUM_BUCKET",
+    "HOT_BAIT",
+    "ICE_BAIT",
+    "LIGHT_BAIT",
+    "LUSHLILAC_BONBON",
+    "MINNOW_BAIT",
+    "OCEANDY",
+    "PRIME_LUSHLILAC_BONBON",
+    "SPIKED_BAIT",
+    "SPOOKY_BAIT",
+    "SPOOKY_WATER_ORB",
+    "WHALE_BAIT",
+    "WORM_BAIT",
+    "ENCHANTED_WET_SPONGE",
+    "HOTSPOT_BAIT"
+   ],
+   "name": "Fishing Supplies",
+   "icon": "AGATHA_COUPON"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "FORESTS",
+   "products": [
+    "DEEP_ROOT",
+    "HARDENED_WOOD",
+    "MOIL_LOG",
+    "TOIL_LOG"
+   ],
+   "name": "Forest Goods",
+   "icon": "DEEP_ROOT"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "LAVA_FISHING",
+   "products": [
+    "LAVA_SHELL",
+    "MAGMA_CORE",
+    "ORB_OF_ENERGY",
+    "THUNDER_SHARDS"
+   ],
+   "name": "Lava Fishing",
+   "icon": "LAVA_SHELL"
+  },
+  {
+   "category": "WOODS_FISHES",
+   "key": "SHARKS",
+   "products": [
+    "BLUE_SHARK_TOOTH",
+    "GREAT_WHITE_SHARK_TOOTH",
+    "NURSE_SHARK_TOOTH",
+    "SHARK_FIN",
+    "TIGER_SHARK_TOOTH",
+    "ENCHANTED_SHARK_FIN",
+    "GREAT_WHITE_TOOTH_MEAL",
+    "SHARK_BAIT"
+   ],
+   "name": "Shark Parts",
+   "icon": "BLUE_SHARK_TOOTH"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "HALF_EATEN_CARROT",
+   "products": [
+    "EXPORTABLE_CARROTS"
+   ],
+   "titleIds": [
+    "HALF_EATEN_CARROT"
+   ],
+   "icon": "EXPORTABLE_CARROTS"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "HEMOVIBE",
+   "products": [
+    "HEMOVIBE",
+    "HEMOGLASS",
+    "BLOOD_SOAKED_COINS",
+    "BLOOD_STAINED_COINS",
+    "FULL_JAW_FANGING_KIT",
+    "HEMOBOMB"
+   ],
+   "titleIds": [
+    "HEMOVIBE"
+   ],
+   "icon": "HEMOVIBE"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "CONSUMABLES",
+   "products": [
+    "BEHEMOTH_POT_OF_HONEYCOMB",
+    "FEAST_BURGER",
+    "ISOPOD_HUSK"
+   ],
+   "name": "Consumables",
+   "icon": "BEHEMOTH_POT_OF_HONEYCOMB"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "ESSENCES",
+   "products": [
+    "ESSENCE_CRIMSON",
+    "ESSENCE_DIAMOND",
+    "ESSENCE_DRAGON",
+    "ESSENCE_FOREST",
+    "ESSENCE_FOSSIL",
+    "ESSENCE_GOLD",
+    "ESSENCE_ICE",
+    "ESSENCE_SAFARI",
+    "ESSENCE_SPIDER",
+    "ESSENCE_UNDEAD",
+    "ESSENCE_WITHER"
+   ],
+   "name": "Essences",
+   "icon": "ESSENCE_CRIMSON"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "SEASONAL",
+   "products": [
+    "CANDYCOMB",
+    "CANDY_CORN",
+    "ECTOPLASM",
+    "ENCHANTED_CAKE",
+    "GREEN_CANDY",
+    "GREEN_GIFT",
+    "ICE_HUNK",
+    "JERRY_BOX_BLUE",
+    "JERRY_BOX_GOLDEN",
+    "JERRY_BOX_GREEN",
+    "JERRY_BOX_PURPLE",
+    "JERRY_STONE",
+    "PUMPKIN_GUTS",
+    "PURPLE_CANDY",
+    "RED_GIFT",
+    "SNOW_BALL",
+    "SPOOKY_SHARD",
+    "WALNUT",
+    "WHITE_GIFT",
+    "ENCHANTED_ICE",
+    "SNOW_BLOCK",
+    "ENCHANTED_PACKED_ICE",
+    "ENCHANTED_SNOW_BLOCK"
+   ],
+   "name": "Festival Goods",
+   "icon": "CANDYCOMB"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "MINION_GOODS",
+   "products": [
+    "BERBERIS_FUEL_INJECTOR",
+    "DIAMOND_SPREADING",
+    "FREE_WILL",
+    "GENERATOR_UPGRADE_STONE_ACACIA_12",
+    "GENERATOR_UPGRADE_STONE_BIRCH_12",
+    "GENERATOR_UPGRADE_STONE_CLAY_12",
+    "GENERATOR_UPGRADE_STONE_DARK_OAK_12",
+    "GENERATOR_UPGRADE_STONE_FISHING_12",
+    "GENERATOR_UPGRADE_STONE_JUNGLE_12",
+    "GENERATOR_UPGRADE_STONE_LILY_PAD_12",
+    "GENERATOR_UPGRADE_STONE_OAK_12",
+    "GENERATOR_UPGRADE_STONE_REVENANT_12",
+    "GENERATOR_UPGRADE_STONE_SPRUCE_12",
+    "GENERATOR_UPGRADE_STONE_TARANTULA_12",
+    "POTATO_SPREADING",
+    "SLEEPY_HOLLOW",
+    "XLARGE_ENCHANTED_CHEST",
+    "XXLARGE_ENCHANTED_CHEST",
+    "AUTO_SMELTER",
+    "CATALYST",
+    "ENCHANTED_CHARCOAL",
+    "SMALL_ENCHANTED_CHEST",
+    "BUDGET_HOPPER",
+    "COMPACTOR",
+    "CORRUPT_SOIL",
+    "ENCHANTED_LAVA_BUCKET",
+    "FLYCATCHER_UPGRADE",
+    "HYPER_CATALYST",
+    "LARGE_ENCHANTED_CHEST",
+    "MEDIUM_ENCHANTED_CHEST",
+    "MINION_EXPANDER",
+    "SOLAR_PANEL",
+    "SUPER_COMPACTOR_3000",
+    "ENCHANTED_HOPPER",
+    "PLASMA_BUCKET"
+   ],
+   "name": "Minion Supplies",
+   "icon": "BERBERIS_FUEL_INJECTOR"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "PET_ITEMS",
+   "products": [
+    "GIANT_FROG_TREAT",
+    "GIANT_HONEY_DIPPER",
+    "GIANT_PIG_EAR",
+    "GIANT_SEAL_PLUSHIE",
+    "GIANT_SLOTH_CLAW",
+    "GIANT_WITCH_CAULDRON",
+    "LARGE_FROG_TREAT",
+    "LARGE_HONEY_DIPPER",
+    "LARGE_PIG_EAR",
+    "LARGE_SEAL_PLUSHIE",
+    "LARGE_SLOTH_CLAW",
+    "LARGE_WITCH_CAULDRON",
+    "MEDIUM_FROG_TREAT",
+    "MEDIUM_HONEY_DIPPER",
+    "MEDIUM_PIG_EAR",
+    "MEDIUM_SEAL_PLUSHIE",
+    "MEDIUM_SLOTH_CLAW",
+    "MEDIUM_WITCH_CAULDRON",
+    "SMALL_FROG_TREAT",
+    "SMALL_HONEY_DIPPER",
+    "SMALL_PIG_EAR",
+    "SMALL_SEAL_PLUSHIE",
+    "SMALL_SLOTH_CLAW",
+    "SMALL_WITCH_CAULDRON"
+   ],
+   "name": "Pet Items",
+   "icon": "GIANT_FROG_TREAT"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "POWER_STONES",
+   "products": [
+    "BEATING_HEART",
+    "DARK_ORB",
+    "ECCENTRIC_PAINTING",
+    "END_STONE_SHULKER",
+    "FURBALL",
+    "HAZMAT_ENDERMAN",
+    "SUNFLOWER_BUTTER",
+    "VITAMIN_DEATH"
+   ],
+   "name": "Power Stones",
+   "icon": "BEATING_HEART"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "REFORGE_GOODS",
+   "products": [
+    "AOTE_STONE",
+    "BLESSED_FRUIT",
+    "BULKY_STONE",
+    "DIAMOND_ATOM",
+    "DIRT_BOTTLE",
+    "FROZEN_BAUBLE",
+    "GIANT_TOOTH",
+    "GOLDEN_BALL",
+    "JADERALD",
+    "LARGE_WALNUT",
+    "LUCKY_DICE",
+    "MIDAS_JEWEL",
+    "MOONGLADE_JEWEL",
+    "OPTICAL_LENS",
+    "PITCHIN_KOI",
+    "PRECIOUS_PEARL",
+    "PRECURSOR_GEAR",
+    "RED_SCARF",
+    "REVERSE_REFORGE_STONE_CORE",
+    "ROCK_CANDY",
+    "SADAN_BROOCH",
+    "SALMON_OPAL",
+    "SEARING_STONE",
+    "SKYMART_BROCHURE",
+    "SQUEAKY_TOY",
+    "SUSPICIOUS_VIAL",
+    "GLEAMING_CRYSTAL",
+    "PETRIFIED_STARFALL",
+    "AMBER_MATERIAL"
+   ],
+   "name": "Reforge Materials",
+   "icon": "AOTE_STONE"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "REFORGE_STONES",
+   "products": [
+    "BLOOMING_THORNS",
+    "CALCIFIED_HEART",
+    "CLIPPED_WINGS",
+    "EXTREMELY_MILD_ADHESIVE",
+    "FLOWERING_BOUQUET",
+    "HASHBROWN",
+    "LAPIS_CRYSTAL",
+    "MANTID_CLAW",
+    "MORNING_DEW",
+    "NECROMANCER_BROOCH",
+    "ONYX",
+    "OVERFLOWING_TRASH_CAN",
+    "OVERPRICED_DRINK",
+    "PREMIUM_FLESH",
+    "RARE_DIAMOND",
+    "RED_NOSE",
+    "RUSTY_ANCHOR",
+    "TERRY_SNOWGLOBE",
+    "GEOMETRIC_ODDITY",
+    "MARSHROOM",
+    "POCKET_ICEBERG"
+   ],
+   "name": "Reforge Stones",
+   "icon": "BLOOMING_THORNS"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "BOOSTERS",
+   "products": [
+    "FIGHTING_BOOSTER",
+    "FIGHTING_BOOSTER_UNCOMMON",
+    "FORAGING_FORTUNE_BOOSTER",
+    "FORAGING_FORTUNE_BOOSTER_UNCOMMON",
+    "FORAGING_WISDOM_BOOSTER",
+    "FORAGING_WISDOM_BOOSTER_UNCOMMON",
+    "HUNTING_WISDOM_BOOSTER_COMMON",
+    "HUNTING_WISDOM_BOOSTER_UNCOMMON",
+    "SWEEP_BOOSTER",
+    "SWEEP_BOOSTER_UNCOMMON"
+   ],
+   "name": "Skill Boosters",
+   "icon": "FIGHTING_BOOSTER"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "UPGRADES",
+   "products": [
+    "BOOSTER_COOKIE",
+    "COLOSSAL_EXP_BOTTLE",
+    "FIFTH_MASTER_STAR",
+    "FIRST_MASTER_STAR",
+    "FOURTH_MASTER_STAR",
+    "FUMING_POTATO_BOOK",
+    "HOT_POTATO_BOOK",
+    "PET_CAKE",
+    "PET_ITEM_CHOCOLATE_SYRINGE",
+    "PET_ITEM_EXP_SHARE_DROP",
+    "PET_ITEM_LUCKY_CLOVER_DROP",
+    "PET_ITEM_PURE_MITHRIL_GEM",
+    "PET_ITEM_TIER_BOOST_DROP",
+    "PET_ITEM_TOY_JERRY",
+    "PET_ITEM_VAMPIRE_FANG",
+    "POLARVOID_BOOK",
+    "SECOND_MASTER_STAR",
+    "STOCK_OF_STONKS",
+    "THIRD_MASTER_STAR",
+    "EXP_BOTTLE",
+    "GRAND_EXP_BOTTLE",
+    "JALAPENO_BOOK",
+    "TITANIC_EXP_BOTTLE"
+   ],
+   "name": "Upgrades & Boosters",
+   "icon": "BOOSTER_COOKIE"
+  },
+  {
+   "category": "ODDITIES",
+   "key": "MISC",
+   "products": [
+    "AGARIMOO_TONGUE",
+    "AGGOURDIAN",
+    "AMALGAMATED_CRIMSONITE",
+    "AMALGAMATED_CRIMSONITE_NEW",
+    "ARACHNE_FANG",
+    "ARROW_BUNDLE_MAGMA",
+    "AVARICIOUS_CHALICE",
+    "BAT_FIREWORK",
+    "BAZAAR_COOKIE",
+    "BEZOS",
+    "BLACK_WOOLEN_YARN",
+    "BLAZE_ASHES",
+    "BLUE_RING",
+    "BOB_OMB",
+    "BOOKWORM_BOOK",
+    "BOOK_OF_STATS",
+    "BOTROOT",
+    "BOTTLED_MISCHIEF",
+    "BOUNCY_BEACH_BALL",
+    "BRIMSTONE_HANDLE",
+    "BRONZE_BOWL",
+    "BURNING_EYE",
+    "BUSTED_BELT_BUCKLE",
+    "CACTUS_FLOWER",
+    "CANE_KNOT",
+    "CAPSAICIN_EYEDROPS_NO_CHARGES",
+    "CARROT_ZEST",
+    "CHAIN_END_TIMES",
+    "CHEESE_FUEL",
+    "CHYME",
+    "COMPACT_OOZE",
+    "CORNUCOPIA",
+    "CRYSTALIZED_MOONLIGHT",
+    "CUP_OF_BLOOD",
+    "DARK_CANDY",
+    "DARK_QUEENS_SOUL_DROP",
+    "DAYSWITCH",
+    "DEAD_PLANT",
+    "DEEPFRIES",
+    "DESIGNER_COFFEE_BEANS",
+    "DISTANT_ECHO",
+    "ENCHANTED_BONE_MEAL",
+    "ENCHANTED_CARROT_ON_A_STICK",
+    "ENCHANTED_FERMENTED_SPIDER_EYE",
+    "ENCHANTED_HAY_BLOCK",
+    "ENDERMAN_CORTEX_REWRITER",
+    "ENDSTONE_IDOL",
+    "ETHEREAL_VINE",
+    "EXPIRED_PUMPKIN",
+    "FAKE_SHURIKEN",
+    "FARMING_FOR_DUMMIES",
+    "FATEFUL_STINGER",
+    "FEASTFUNGUS",
+    "FEAST_FLASK",
+    "FESTERING_MAGGOT",
+    "FILLED_ROSEWATER_FLASK",
+    "FLEXBONE",
+    "FLORAL_GELATIN",
+    "FORESTS_FAVOR",
+    "FRESHLY_MINTED_COINS",
+    "FRIED_FEATHER",
+    "GAZING_PEARL",
+    "GIANT_BOUNCY_BEACH_BALL",
+    "GLOWING_MUSHROOM",
+    "GOLDEN_BOUNTY",
+    "GOLD_BOTTLE_CAP",
+    "HALF_EATEN_MUSHROOM",
+    "HALLOWED_SKULL",
+    "HORSEMAN_CANDLE",
+    "HYPERGOLIC_IONIZED_CERAMICS",
+    "JELLY",
+    "JUNGLE_KEY",
+    "LEATHER_CLOTH",
+    "LOCUST_LARVA",
+    "LUMINO_FIBER",
+    "MAGIC_MUSHROOM_SOUP",
+    "MAGMAG",
+    "MANA_DISINTEGRATOR",
+    "MELON_JUICE",
+    "METAPHYSICAL_SERUM",
+    "MIRIA_COUPON",
+    "MIRIA_PRIZE",
+    "MITE_GEL",
+    "MUTATED_BLAZE_ASHES",
+    "NIGHTSWITCH",
+    "OVERCLOCKER_3000",
+    "PARTY_GIFT",
+    "PESTHUNTING_GUIDE",
+    "POISON_SAMPLE",
+    "POTTED_CACTUS",
+    "RADIOACTIVE_VIAL",
+    "RAINBOW_FEATHER",
+    "REAPER_PEPPER",
+    "REHEATED_GUMMY_POLAR_BEAR",
+    "RITUAL_RESIDUE",
+    "SALTED_SUNFLOWER_SEEDS",
+    "SIGNAL_ENHANCER",
+    "SINGED_POWDER",
+    "SOUL_STRING",
+    "SPELL_POWDER",
+    "STARLYN_PRIZE",
+    "STRETCHING_STICKS",
+    "STURDY_BONE",
+    "SUBLIME_SILK",
+    "SUPER_MAGIC_MUSHROOM_SOUP",
+    "TARANTULA_CATALYST",
+    "THE_ART_OF_PEACE",
+    "THE_ART_OF_WAR",
+    "THORNY_VINES",
+    "TORN_CLOTH",
+    "VERY_MOLDY_BREAD",
+    "VISITORS_GRATITUDE",
+    "VOLCANIC_ROCK",
+    "WARTY",
+    "WEAK_WOLF_CATALYST",
+    "WITHER_SOUL",
+    "WOOD_SINGULARITY",
+    "X",
+    "Y",
+    "Z",
+    "BRAIDED_GRIFFIN_FEATHER",
+    "CELESTIAL_MASON_JAR",
+    "FRAGRANCED_BROWN_MUSHROOM_PASTE",
+    "JACOBS_PARTICIPATION_MEDAL",
+    "MIXED_MITE_GEL",
+    "PUMPKIN_BOMB",
+    "ROYAL_JELLY",
+    "TRUNK_POLISH",
+    "SKELETON_KEY",
+    "SOULFLOW_ENGINE",
+    "HYPERGOLIC_GABAGOOL"
+   ],
+   "name": "Miscellaneous",
+   "icon": "AGARIMOO_TONGUE"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ABSORB",
+   "products": [
+    "ENCHANTMENT_ABSORB_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ABSORB_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_AIMING",
+   "products": [
+    "ENCHANTMENT_AIMING_1",
+    "ENCHANTMENT_AIMING_2",
+    "ENCHANTMENT_AIMING_3",
+    "ENCHANTMENT_AIMING_4",
+    "ENCHANTMENT_AIMING_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_AIMING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ANGLER",
+   "products": [
+    "ENCHANTMENT_ANGLER_1",
+    "ENCHANTMENT_ANGLER_2",
+    "ENCHANTMENT_ANGLER_3",
+    "ENCHANTMENT_ANGLER_4",
+    "ENCHANTMENT_ANGLER_5",
+    "ENCHANTMENT_ANGLER_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ANGLER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_AQUA_AFFINITY",
+   "products": [
+    "ENCHANTMENT_AQUA_AFFINITY_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_AQUA_AFFINITY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ARCANE",
+   "products": [
+    "ENCHANTMENT_ARCANE_1",
+    "ENCHANTMENT_ARCANE_2",
+    "ENCHANTMENT_ARCANE_3",
+    "ENCHANTMENT_ARCANE_4",
+    "ENCHANTMENT_ARCANE_5",
+    "ENCHANTMENT_ARCANE_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ARCANE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_BANE_OF_ARTHROPODS",
+   "products": [
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_1",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_2",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_3",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_4",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_5",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_6",
+    "ENCHANTMENT_BANE_OF_ARTHROPODS_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_BANE_OF_ARTHROPODS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_BIG_BRAIN",
+   "products": [
+    "ENCHANTMENT_BIG_BRAIN_3",
+    "ENCHANTMENT_BIG_BRAIN_4",
+    "ENCHANTMENT_BIG_BRAIN_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_BIG_BRAIN_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_BLAST_PROTECTION",
+   "products": [
+    "ENCHANTMENT_BLAST_PROTECTION_1",
+    "ENCHANTMENT_BLAST_PROTECTION_2",
+    "ENCHANTMENT_BLAST_PROTECTION_3",
+    "ENCHANTMENT_BLAST_PROTECTION_4",
+    "ENCHANTMENT_BLAST_PROTECTION_5",
+    "ENCHANTMENT_BLAST_PROTECTION_6",
+    "ENCHANTMENT_BLAST_PROTECTION_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_BLAST_PROTECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_BLESSING",
+   "products": [
+    "ENCHANTMENT_BLESSING_1",
+    "ENCHANTMENT_BLESSING_2",
+    "ENCHANTMENT_BLESSING_3",
+    "ENCHANTMENT_BLESSING_4",
+    "ENCHANTMENT_BLESSING_5",
+    "ENCHANTMENT_BLESSING_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_BLESSING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_BUG_BLENDER",
+   "products": [
+    "ENCHANTMENT_BUG_BLENDER_1",
+    "ENCHANTMENT_BUG_BLENDER_2",
+    "ENCHANTMENT_BUG_BLENDER_3",
+    "ENCHANTMENT_BUG_BLENDER_4",
+    "ENCHANTMENT_BUG_BLENDER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_BUG_BLENDER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CASTER",
+   "products": [
+    "ENCHANTMENT_CASTER_1",
+    "ENCHANTMENT_CASTER_2",
+    "ENCHANTMENT_CASTER_3",
+    "ENCHANTMENT_CASTER_4",
+    "ENCHANTMENT_CASTER_5",
+    "ENCHANTMENT_CASTER_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CASTER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CAYENNE",
+   "products": [
+    "ENCHANTMENT_CAYENNE_1",
+    "ENCHANTMENT_CAYENNE_2",
+    "ENCHANTMENT_CAYENNE_3",
+    "ENCHANTMENT_CAYENNE_4",
+    "ENCHANTMENT_CAYENNE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CAYENNE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CHAMPION",
+   "products": [
+    "ENCHANTMENT_CHAMPION_1",
+    "ENCHANTMENT_CHAMPION_2",
+    "ENCHANTMENT_CHAMPION_3",
+    "ENCHANTMENT_CHAMPION_4",
+    "ENCHANTMENT_CHAMPION_5",
+    "ENCHANTMENT_CHAMPION_6",
+    "ENCHANTMENT_CHAMPION_7",
+    "ENCHANTMENT_CHAMPION_8",
+    "ENCHANTMENT_CHAMPION_9",
+    "ENCHANTMENT_CHAMPION_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CHAMPION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CHANCE",
+   "products": [
+    "ENCHANTMENT_CHANCE_1",
+    "ENCHANTMENT_CHANCE_2",
+    "ENCHANTMENT_CHANCE_3",
+    "ENCHANTMENT_CHANCE_4",
+    "ENCHANTMENT_CHANCE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CHANCE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CHARM",
+   "products": [
+    "ENCHANTMENT_CHARM_1",
+    "ENCHANTMENT_CHARM_2",
+    "ENCHANTMENT_CHARM_3",
+    "ENCHANTMENT_CHARM_4",
+    "ENCHANTMENT_CHARM_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CHARM_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CLEAVE",
+   "products": [
+    "ENCHANTMENT_CLEAVE_1",
+    "ENCHANTMENT_CLEAVE_2",
+    "ENCHANTMENT_CLEAVE_3",
+    "ENCHANTMENT_CLEAVE_4",
+    "ENCHANTMENT_CLEAVE_5",
+    "ENCHANTMENT_CLEAVE_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CLEAVE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_COMPACT",
+   "products": [
+    "ENCHANTMENT_COMPACT_1",
+    "ENCHANTMENT_COMPACT_2",
+    "ENCHANTMENT_COMPACT_3",
+    "ENCHANTMENT_COMPACT_4",
+    "ENCHANTMENT_COMPACT_5",
+    "ENCHANTMENT_COMPACT_6",
+    "ENCHANTMENT_COMPACT_7",
+    "ENCHANTMENT_COMPACT_8",
+    "ENCHANTMENT_COMPACT_9",
+    "ENCHANTMENT_COMPACT_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_COMPACT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CORRUPTION",
+   "products": [
+    "ENCHANTMENT_CORRUPTION_1",
+    "ENCHANTMENT_CORRUPTION_2",
+    "ENCHANTMENT_CORRUPTION_3",
+    "ENCHANTMENT_CORRUPTION_4",
+    "ENCHANTMENT_CORRUPTION_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CORRUPTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_COUNTER_STRIKE",
+   "products": [
+    "ENCHANTMENT_COUNTER_STRIKE_3",
+    "ENCHANTMENT_COUNTER_STRIKE_4",
+    "ENCHANTMENT_COUNTER_STRIKE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_COUNTER_STRIKE_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CRITICAL",
+   "products": [
+    "ENCHANTMENT_CRITICAL_1",
+    "ENCHANTMENT_CRITICAL_2",
+    "ENCHANTMENT_CRITICAL_3",
+    "ENCHANTMENT_CRITICAL_4",
+    "ENCHANTMENT_CRITICAL_5",
+    "ENCHANTMENT_CRITICAL_6",
+    "ENCHANTMENT_CRITICAL_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CRITICAL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CUBISM",
+   "products": [
+    "ENCHANTMENT_CUBISM_1",
+    "ENCHANTMENT_CUBISM_2",
+    "ENCHANTMENT_CUBISM_3",
+    "ENCHANTMENT_CUBISM_4",
+    "ENCHANTMENT_CUBISM_5",
+    "ENCHANTMENT_CUBISM_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CUBISM_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CULTIVATING",
+   "products": [
+    "ENCHANTMENT_CULTIVATING_1",
+    "ENCHANTMENT_CULTIVATING_2",
+    "ENCHANTMENT_CULTIVATING_3",
+    "ENCHANTMENT_CULTIVATING_4",
+    "ENCHANTMENT_CULTIVATING_5",
+    "ENCHANTMENT_CULTIVATING_6",
+    "ENCHANTMENT_CULTIVATING_7",
+    "ENCHANTMENT_CULTIVATING_8",
+    "ENCHANTMENT_CULTIVATING_9"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CULTIVATING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_CURSE_OF_VANISHING",
+   "products": [
+    "ENCHANTMENT_CURSE_OF_VANISHING_0"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_CURSE_OF_VANISHING_0"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_DEDICATION",
+   "products": [
+    "ENCHANTMENT_DEDICATION_1",
+    "ENCHANTMENT_DEDICATION_2",
+    "ENCHANTMENT_DEDICATION_3",
+    "ENCHANTMENT_DEDICATION_4"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_DEDICATION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_DELICATE",
+   "products": [
+    "ENCHANTMENT_DELICATE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_DELICATE_5"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_DEPTH_STRIDER",
+   "products": [
+    "ENCHANTMENT_DEPTH_STRIDER_1",
+    "ENCHANTMENT_DEPTH_STRIDER_2",
+    "ENCHANTMENT_DEPTH_STRIDER_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_DEPTH_STRIDER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_DIVINE_GIFT",
+   "products": [
+    "ENCHANTMENT_DIVINE_GIFT_1",
+    "ENCHANTMENT_DIVINE_GIFT_2",
+    "ENCHANTMENT_DIVINE_GIFT_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_DIVINE_GIFT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_DRAGON_HUNTER",
+   "products": [
+    "ENCHANTMENT_DRAGON_HUNTER_1",
+    "ENCHANTMENT_DRAGON_HUNTER_2",
+    "ENCHANTMENT_DRAGON_HUNTER_3",
+    "ENCHANTMENT_DRAGON_HUNTER_4",
+    "ENCHANTMENT_DRAGON_HUNTER_5",
+    "ENCHANTMENT_DRAGON_HUNTER_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_DRAGON_HUNTER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_EFFICIENCY",
+   "products": [
+    "ENCHANTMENT_EFFICIENCY_1",
+    "ENCHANTMENT_EFFICIENCY_2",
+    "ENCHANTMENT_EFFICIENCY_3",
+    "ENCHANTMENT_EFFICIENCY_4",
+    "ENCHANTMENT_EFFICIENCY_5",
+    "ENCHANTMENT_EFFICIENCY_6",
+    "ENCHANTMENT_EFFICIENCY_7",
+    "ENCHANTMENT_EFFICIENCY_8",
+    "ENCHANTMENT_EFFICIENCY_9",
+    "ENCHANTMENT_EFFICIENCY_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_EFFICIENCY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ENDER_SLAYER",
+   "products": [
+    "ENCHANTMENT_ENDER_SLAYER_1",
+    "ENCHANTMENT_ENDER_SLAYER_2",
+    "ENCHANTMENT_ENDER_SLAYER_3",
+    "ENCHANTMENT_ENDER_SLAYER_4",
+    "ENCHANTMENT_ENDER_SLAYER_5",
+    "ENCHANTMENT_ENDER_SLAYER_6",
+    "ENCHANTMENT_ENDER_SLAYER_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ENDER_SLAYER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_EXECUTE",
+   "products": [
+    "ENCHANTMENT_EXECUTE_1",
+    "ENCHANTMENT_EXECUTE_2",
+    "ENCHANTMENT_EXECUTE_3",
+    "ENCHANTMENT_EXECUTE_4",
+    "ENCHANTMENT_EXECUTE_5",
+    "ENCHANTMENT_EXECUTE_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_EXECUTE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_EXPERIENCE",
+   "products": [
+    "ENCHANTMENT_EXPERIENCE_1",
+    "ENCHANTMENT_EXPERIENCE_2",
+    "ENCHANTMENT_EXPERIENCE_3",
+    "ENCHANTMENT_EXPERIENCE_4",
+    "ENCHANTMENT_EXPERIENCE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_EXPERIENCE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_EXPERTISE",
+   "products": [
+    "ENCHANTMENT_EXPERTISE_1",
+    "ENCHANTMENT_EXPERTISE_2",
+    "ENCHANTMENT_EXPERTISE_3",
+    "ENCHANTMENT_EXPERTISE_4",
+    "ENCHANTMENT_EXPERTISE_5",
+    "ENCHANTMENT_EXPERTISE_6",
+    "ENCHANTMENT_EXPERTISE_7",
+    "ENCHANTMENT_EXPERTISE_8",
+    "ENCHANTMENT_EXPERTISE_9",
+    "ENCHANTMENT_EXPERTISE_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_EXPERTISE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FEAST",
+   "products": [
+    "ENCHANTMENT_FEAST_1",
+    "ENCHANTMENT_FEAST_2",
+    "ENCHANTMENT_FEAST_3",
+    "ENCHANTMENT_FEAST_4",
+    "ENCHANTMENT_FEAST_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FEAST_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FEATHER_FALLING",
+   "products": [
+    "ENCHANTMENT_FEATHER_FALLING_1",
+    "ENCHANTMENT_FEATHER_FALLING_2",
+    "ENCHANTMENT_FEATHER_FALLING_3",
+    "ENCHANTMENT_FEATHER_FALLING_4",
+    "ENCHANTMENT_FEATHER_FALLING_5",
+    "ENCHANTMENT_FEATHER_FALLING_6",
+    "ENCHANTMENT_FEATHER_FALLING_7",
+    "ENCHANTMENT_FEATHER_FALLING_8",
+    "ENCHANTMENT_FEATHER_FALLING_9",
+    "ENCHANTMENT_FEATHER_FALLING_10",
+    "ENCHANTMENT_FEATHER_FALLING_20"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FEATHER_FALLING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FEROCIOUS_MANA",
+   "products": [
+    "ENCHANTMENT_FEROCIOUS_MANA_1",
+    "ENCHANTMENT_FEROCIOUS_MANA_2",
+    "ENCHANTMENT_FEROCIOUS_MANA_3",
+    "ENCHANTMENT_FEROCIOUS_MANA_4",
+    "ENCHANTMENT_FEROCIOUS_MANA_5",
+    "ENCHANTMENT_FEROCIOUS_MANA_6",
+    "ENCHANTMENT_FEROCIOUS_MANA_7",
+    "ENCHANTMENT_FEROCIOUS_MANA_8",
+    "ENCHANTMENT_FEROCIOUS_MANA_9",
+    "ENCHANTMENT_FEROCIOUS_MANA_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FEROCIOUS_MANA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FIRE_ASPECT",
+   "products": [
+    "ENCHANTMENT_FIRE_ASPECT_1",
+    "ENCHANTMENT_FIRE_ASPECT_2",
+    "ENCHANTMENT_FIRE_ASPECT_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FIRE_ASPECT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FIRE_PROTECTION",
+   "products": [
+    "ENCHANTMENT_FIRE_PROTECTION_1",
+    "ENCHANTMENT_FIRE_PROTECTION_2",
+    "ENCHANTMENT_FIRE_PROTECTION_3",
+    "ENCHANTMENT_FIRE_PROTECTION_4",
+    "ENCHANTMENT_FIRE_PROTECTION_5",
+    "ENCHANTMENT_FIRE_PROTECTION_6",
+    "ENCHANTMENT_FIRE_PROTECTION_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FIRE_PROTECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FIRST_STRIKE",
+   "products": [
+    "ENCHANTMENT_FIRST_STRIKE_1",
+    "ENCHANTMENT_FIRST_STRIKE_2",
+    "ENCHANTMENT_FIRST_STRIKE_3",
+    "ENCHANTMENT_FIRST_STRIKE_4",
+    "ENCHANTMENT_FIRST_STRIKE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FIRST_STRIKE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FLAME",
+   "products": [
+    "ENCHANTMENT_FLAME_1",
+    "ENCHANTMENT_FLAME_2"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FLAME_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FOREST_PLEDGE",
+   "products": [
+    "ENCHANTMENT_FOREST_PLEDGE_3",
+    "ENCHANTMENT_FOREST_PLEDGE_4",
+    "ENCHANTMENT_FOREST_PLEDGE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FOREST_PLEDGE_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FORTUNE",
+   "products": [
+    "ENCHANTMENT_FORTUNE_1",
+    "ENCHANTMENT_FORTUNE_2",
+    "ENCHANTMENT_FORTUNE_3",
+    "ENCHANTMENT_FORTUNE_4"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FORTUNE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FRAIL",
+   "products": [
+    "ENCHANTMENT_FRAIL_1",
+    "ENCHANTMENT_FRAIL_2",
+    "ENCHANTMENT_FRAIL_3",
+    "ENCHANTMENT_FRAIL_4",
+    "ENCHANTMENT_FRAIL_5",
+    "ENCHANTMENT_FRAIL_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FRAIL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_FROST_WALKER",
+   "products": [
+    "ENCHANTMENT_FROST_WALKER_1",
+    "ENCHANTMENT_FROST_WALKER_2"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_FROST_WALKER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_GIANT_KILLER",
+   "products": [
+    "ENCHANTMENT_GIANT_KILLER_1",
+    "ENCHANTMENT_GIANT_KILLER_2",
+    "ENCHANTMENT_GIANT_KILLER_3",
+    "ENCHANTMENT_GIANT_KILLER_4",
+    "ENCHANTMENT_GIANT_KILLER_5",
+    "ENCHANTMENT_GIANT_KILLER_6",
+    "ENCHANTMENT_GIANT_KILLER_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_GIANT_KILLER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_GREEN_THUMB",
+   "products": [
+    "ENCHANTMENT_GREEN_THUMB_1",
+    "ENCHANTMENT_GREEN_THUMB_2",
+    "ENCHANTMENT_GREEN_THUMB_3",
+    "ENCHANTMENT_GREEN_THUMB_4",
+    "ENCHANTMENT_GREEN_THUMB_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_GREEN_THUMB_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_GROWTH",
+   "products": [
+    "ENCHANTMENT_GROWTH_1",
+    "ENCHANTMENT_GROWTH_2",
+    "ENCHANTMENT_GROWTH_3",
+    "ENCHANTMENT_GROWTH_4",
+    "ENCHANTMENT_GROWTH_5",
+    "ENCHANTMENT_GROWTH_6",
+    "ENCHANTMENT_GROWTH_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_GROWTH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_HARDENED_MANA",
+   "products": [
+    "ENCHANTMENT_HARDENED_MANA_1",
+    "ENCHANTMENT_HARDENED_MANA_2",
+    "ENCHANTMENT_HARDENED_MANA_3",
+    "ENCHANTMENT_HARDENED_MANA_4",
+    "ENCHANTMENT_HARDENED_MANA_5",
+    "ENCHANTMENT_HARDENED_MANA_6",
+    "ENCHANTMENT_HARDENED_MANA_7",
+    "ENCHANTMENT_HARDENED_MANA_8",
+    "ENCHANTMENT_HARDENED_MANA_9",
+    "ENCHANTMENT_HARDENED_MANA_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_HARDENED_MANA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_HARVESTING",
+   "products": [
+    "ENCHANTMENT_HARVESTING_1",
+    "ENCHANTMENT_HARVESTING_2",
+    "ENCHANTMENT_HARVESTING_3",
+    "ENCHANTMENT_HARVESTING_4",
+    "ENCHANTMENT_HARVESTING_5",
+    "ENCHANTMENT_HARVESTING_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_HARVESTING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_HECATOMB",
+   "products": [
+    "ENCHANTMENT_HECATOMB_1",
+    "ENCHANTMENT_HECATOMB_2",
+    "ENCHANTMENT_HECATOMB_3",
+    "ENCHANTMENT_HECATOMB_4",
+    "ENCHANTMENT_HECATOMB_5",
+    "ENCHANTMENT_HECATOMB_6",
+    "ENCHANTMENT_HECATOMB_7",
+    "ENCHANTMENT_HECATOMB_8",
+    "ENCHANTMENT_HECATOMB_9",
+    "ENCHANTMENT_HECATOMB_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_HECATOMB_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ICE_COLD",
+   "products": [
+    "ENCHANTMENT_ICE_COLD_1",
+    "ENCHANTMENT_ICE_COLD_2",
+    "ENCHANTMENT_ICE_COLD_3",
+    "ENCHANTMENT_ICE_COLD_4",
+    "ENCHANTMENT_ICE_COLD_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ICE_COLD_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_IMPALING",
+   "products": [
+    "ENCHANTMENT_IMPALING_1",
+    "ENCHANTMENT_IMPALING_2",
+    "ENCHANTMENT_IMPALING_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_IMPALING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_INFINITE_QUIVER",
+   "products": [
+    "ENCHANTMENT_INFINITE_QUIVER_1",
+    "ENCHANTMENT_INFINITE_QUIVER_2",
+    "ENCHANTMENT_INFINITE_QUIVER_3",
+    "ENCHANTMENT_INFINITE_QUIVER_4",
+    "ENCHANTMENT_INFINITE_QUIVER_5",
+    "ENCHANTMENT_INFINITE_QUIVER_6",
+    "ENCHANTMENT_INFINITE_QUIVER_7",
+    "ENCHANTMENT_INFINITE_QUIVER_8",
+    "ENCHANTMENT_INFINITE_QUIVER_9",
+    "ENCHANTMENT_INFINITE_QUIVER_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_INFINITE_QUIVER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_KARMA",
+   "products": [
+    "ENCHANTMENT_KARMA_1",
+    "ENCHANTMENT_KARMA_2",
+    "ENCHANTMENT_KARMA_3",
+    "ENCHANTMENT_KARMA_4",
+    "ENCHANTMENT_KARMA_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_KARMA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_KNOCKBACK",
+   "products": [
+    "ENCHANTMENT_KNOCKBACK_1",
+    "ENCHANTMENT_KNOCKBACK_2"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_KNOCKBACK_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LAPIDARY",
+   "products": [
+    "ENCHANTMENT_LAPIDARY_1",
+    "ENCHANTMENT_LAPIDARY_2",
+    "ENCHANTMENT_LAPIDARY_3",
+    "ENCHANTMENT_LAPIDARY_4",
+    "ENCHANTMENT_LAPIDARY_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LAPIDARY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LETHALITY",
+   "products": [
+    "ENCHANTMENT_LETHALITY_1",
+    "ENCHANTMENT_LETHALITY_2",
+    "ENCHANTMENT_LETHALITY_3",
+    "ENCHANTMENT_LETHALITY_4",
+    "ENCHANTMENT_LETHALITY_5",
+    "ENCHANTMENT_LETHALITY_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LETHALITY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LIFE_STEAL",
+   "products": [
+    "ENCHANTMENT_LIFE_STEAL_1",
+    "ENCHANTMENT_LIFE_STEAL_2",
+    "ENCHANTMENT_LIFE_STEAL_3",
+    "ENCHANTMENT_LIFE_STEAL_4",
+    "ENCHANTMENT_LIFE_STEAL_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LIFE_STEAL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LOOTING",
+   "products": [
+    "ENCHANTMENT_LOOTING_1",
+    "ENCHANTMENT_LOOTING_2",
+    "ENCHANTMENT_LOOTING_3",
+    "ENCHANTMENT_LOOTING_4",
+    "ENCHANTMENT_LOOTING_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LOOTING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LUCK",
+   "products": [
+    "ENCHANTMENT_LUCK_1",
+    "ENCHANTMENT_LUCK_2",
+    "ENCHANTMENT_LUCK_3",
+    "ENCHANTMENT_LUCK_4",
+    "ENCHANTMENT_LUCK_5",
+    "ENCHANTMENT_LUCK_6",
+    "ENCHANTMENT_LUCK_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LUCK_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LUCK_OF_THE_SEA",
+   "products": [
+    "ENCHANTMENT_LUCK_OF_THE_SEA_1",
+    "ENCHANTMENT_LUCK_OF_THE_SEA_2",
+    "ENCHANTMENT_LUCK_OF_THE_SEA_3",
+    "ENCHANTMENT_LUCK_OF_THE_SEA_4",
+    "ENCHANTMENT_LUCK_OF_THE_SEA_5",
+    "ENCHANTMENT_LUCK_OF_THE_SEA_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LUCK_OF_THE_SEA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_LURE",
+   "products": [
+    "ENCHANTMENT_LURE_1",
+    "ENCHANTMENT_LURE_2",
+    "ENCHANTMENT_LURE_3",
+    "ENCHANTMENT_LURE_4",
+    "ENCHANTMENT_LURE_5",
+    "ENCHANTMENT_LURE_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_LURE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_MAGMARIZER",
+   "products": [
+    "ENCHANTMENT_MAGMARIZER_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_MAGMARIZER_6"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_MAGNET",
+   "products": [
+    "ENCHANTMENT_MAGNET_1",
+    "ENCHANTMENT_MAGNET_2",
+    "ENCHANTMENT_MAGNET_3",
+    "ENCHANTMENT_MAGNET_4",
+    "ENCHANTMENT_MAGNET_5",
+    "ENCHANTMENT_MAGNET_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_MAGNET_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_MANA_STEAL",
+   "products": [
+    "ENCHANTMENT_MANA_STEAL_1",
+    "ENCHANTMENT_MANA_STEAL_2",
+    "ENCHANTMENT_MANA_STEAL_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_MANA_STEAL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_MANA_VAMPIRE",
+   "products": [
+    "ENCHANTMENT_MANA_VAMPIRE_1",
+    "ENCHANTMENT_MANA_VAMPIRE_2",
+    "ENCHANTMENT_MANA_VAMPIRE_3",
+    "ENCHANTMENT_MANA_VAMPIRE_4",
+    "ENCHANTMENT_MANA_VAMPIRE_5",
+    "ENCHANTMENT_MANA_VAMPIRE_6",
+    "ENCHANTMENT_MANA_VAMPIRE_7",
+    "ENCHANTMENT_MANA_VAMPIRE_8",
+    "ENCHANTMENT_MANA_VAMPIRE_9",
+    "ENCHANTMENT_MANA_VAMPIRE_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_MANA_VAMPIRE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_OVERLOAD",
+   "products": [
+    "ENCHANTMENT_OVERLOAD_1",
+    "ENCHANTMENT_OVERLOAD_2",
+    "ENCHANTMENT_OVERLOAD_3",
+    "ENCHANTMENT_OVERLOAD_4",
+    "ENCHANTMENT_OVERLOAD_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_OVERLOAD_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PALEONTOLOGIST",
+   "products": [
+    "ENCHANTMENT_PALEONTOLOGIST_1",
+    "ENCHANTMENT_PALEONTOLOGIST_2",
+    "ENCHANTMENT_PALEONTOLOGIST_3",
+    "ENCHANTMENT_PALEONTOLOGIST_4",
+    "ENCHANTMENT_PALEONTOLOGIST_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PALEONTOLOGIST_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PESTERMINATOR",
+   "products": [
+    "ENCHANTMENT_PESTERMINATOR_1",
+    "ENCHANTMENT_PESTERMINATOR_2",
+    "ENCHANTMENT_PESTERMINATOR_3",
+    "ENCHANTMENT_PESTERMINATOR_4",
+    "ENCHANTMENT_PESTERMINATOR_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PESTERMINATOR_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PETALFALL",
+   "products": [
+    "ENCHANTMENT_PETALFALL_1",
+    "ENCHANTMENT_PETALFALL_2",
+    "ENCHANTMENT_PETALFALL_3",
+    "ENCHANTMENT_PETALFALL_4",
+    "ENCHANTMENT_PETALFALL_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PETALFALL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PIERCING",
+   "products": [
+    "ENCHANTMENT_PIERCING_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PIERCING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PISCARY",
+   "products": [
+    "ENCHANTMENT_PISCARY_1",
+    "ENCHANTMENT_PISCARY_2",
+    "ENCHANTMENT_PISCARY_3",
+    "ENCHANTMENT_PISCARY_4",
+    "ENCHANTMENT_PISCARY_5",
+    "ENCHANTMENT_PISCARY_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PISCARY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_POWER",
+   "products": [
+    "ENCHANTMENT_POWER_1",
+    "ENCHANTMENT_POWER_2",
+    "ENCHANTMENT_POWER_3",
+    "ENCHANTMENT_POWER_4",
+    "ENCHANTMENT_POWER_5",
+    "ENCHANTMENT_POWER_6",
+    "ENCHANTMENT_POWER_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_POWER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PRISTINE",
+   "products": [
+    "ENCHANTMENT_PRISTINE_1",
+    "ENCHANTMENT_PRISTINE_2",
+    "ENCHANTMENT_PRISTINE_3",
+    "ENCHANTMENT_PRISTINE_4",
+    "ENCHANTMENT_PRISTINE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PRISTINE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PROJECTILE_PROTECTION",
+   "products": [
+    "ENCHANTMENT_PROJECTILE_PROTECTION_1",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_2",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_3",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_4",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_5",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_6",
+    "ENCHANTMENT_PROJECTILE_PROTECTION_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PROJECTILE_PROTECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PROSECUTE",
+   "products": [
+    "ENCHANTMENT_PROSECUTE_1",
+    "ENCHANTMENT_PROSECUTE_2",
+    "ENCHANTMENT_PROSECUTE_3",
+    "ENCHANTMENT_PROSECUTE_4",
+    "ENCHANTMENT_PROSECUTE_5",
+    "ENCHANTMENT_PROSECUTE_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PROSECUTE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PROSPERITY",
+   "products": [
+    "ENCHANTMENT_PROSPERITY_1",
+    "ENCHANTMENT_PROSPERITY_2",
+    "ENCHANTMENT_PROSPERITY_3",
+    "ENCHANTMENT_PROSPERITY_4",
+    "ENCHANTMENT_PROSPERITY_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PROSPERITY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PROTECTION",
+   "products": [
+    "ENCHANTMENT_PROTECTION_1",
+    "ENCHANTMENT_PROTECTION_2",
+    "ENCHANTMENT_PROTECTION_3",
+    "ENCHANTMENT_PROTECTION_4",
+    "ENCHANTMENT_PROTECTION_5",
+    "ENCHANTMENT_PROTECTION_6",
+    "ENCHANTMENT_PROTECTION_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PROTECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_PUNCH",
+   "products": [
+    "ENCHANTMENT_PUNCH_1",
+    "ENCHANTMENT_PUNCH_2"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_PUNCH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_QUANTUM",
+   "products": [
+    "ENCHANTMENT_QUANTUM_3",
+    "ENCHANTMENT_QUANTUM_4",
+    "ENCHANTMENT_QUANTUM_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_QUANTUM_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_QUICK_BITE",
+   "products": [
+    "ENCHANTMENT_QUICK_BITE_1",
+    "ENCHANTMENT_QUICK_BITE_2",
+    "ENCHANTMENT_QUICK_BITE_3",
+    "ENCHANTMENT_QUICK_BITE_4",
+    "ENCHANTMENT_QUICK_BITE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_QUICK_BITE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_REFLECTION",
+   "products": [
+    "ENCHANTMENT_REFLECTION_1",
+    "ENCHANTMENT_REFLECTION_2",
+    "ENCHANTMENT_REFLECTION_3",
+    "ENCHANTMENT_REFLECTION_4",
+    "ENCHANTMENT_REFLECTION_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_REFLECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_REJUVENATE",
+   "products": [
+    "ENCHANTMENT_REJUVENATE_1",
+    "ENCHANTMENT_REJUVENATE_2",
+    "ENCHANTMENT_REJUVENATE_3",
+    "ENCHANTMENT_REJUVENATE_4",
+    "ENCHANTMENT_REJUVENATE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_REJUVENATE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_REPLENISH",
+   "products": [
+    "ENCHANTMENT_REPLENISH_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_REPLENISH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_RESPIRATION",
+   "products": [
+    "ENCHANTMENT_RESPIRATION_1",
+    "ENCHANTMENT_RESPIRATION_2",
+    "ENCHANTMENT_RESPIRATION_3",
+    "ENCHANTMENT_RESPIRATION_4"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_RESPIRATION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_RESPITE",
+   "products": [
+    "ENCHANTMENT_RESPITE_1",
+    "ENCHANTMENT_RESPITE_2",
+    "ENCHANTMENT_RESPITE_3",
+    "ENCHANTMENT_RESPITE_4",
+    "ENCHANTMENT_RESPITE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_RESPITE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SCAVENGER",
+   "products": [
+    "ENCHANTMENT_SCAVENGER_1",
+    "ENCHANTMENT_SCAVENGER_2",
+    "ENCHANTMENT_SCAVENGER_3",
+    "ENCHANTMENT_SCAVENGER_4",
+    "ENCHANTMENT_SCAVENGER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SCAVENGER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SCUBA",
+   "products": [
+    "ENCHANTMENT_SCUBA_1",
+    "ENCHANTMENT_SCUBA_2",
+    "ENCHANTMENT_SCUBA_3",
+    "ENCHANTMENT_SCUBA_4",
+    "ENCHANTMENT_SCUBA_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SCUBA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SHARPNESS",
+   "products": [
+    "ENCHANTMENT_SHARPNESS_1",
+    "ENCHANTMENT_SHARPNESS_2",
+    "ENCHANTMENT_SHARPNESS_3",
+    "ENCHANTMENT_SHARPNESS_4",
+    "ENCHANTMENT_SHARPNESS_5",
+    "ENCHANTMENT_SHARPNESS_6",
+    "ENCHANTMENT_SHARPNESS_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SHARPNESS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SILK_TOUCH",
+   "products": [
+    "ENCHANTMENT_SILK_TOUCH_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SILK_TOUCH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SMALL_BRAIN",
+   "products": [
+    "ENCHANTMENT_SMALL_BRAIN_3",
+    "ENCHANTMENT_SMALL_BRAIN_4",
+    "ENCHANTMENT_SMALL_BRAIN_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SMALL_BRAIN_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SMARTY_PANTS",
+   "products": [
+    "ENCHANTMENT_SMARTY_PANTS_1",
+    "ENCHANTMENT_SMARTY_PANTS_2",
+    "ENCHANTMENT_SMARTY_PANTS_3",
+    "ENCHANTMENT_SMARTY_PANTS_4",
+    "ENCHANTMENT_SMARTY_PANTS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SMARTY_PANTS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SMELTING_TOUCH",
+   "products": [
+    "ENCHANTMENT_SMELTING_TOUCH_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SMELTING_TOUCH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SMITE",
+   "products": [
+    "ENCHANTMENT_SMITE_1",
+    "ENCHANTMENT_SMITE_2",
+    "ENCHANTMENT_SMITE_3",
+    "ENCHANTMENT_SMITE_4",
+    "ENCHANTMENT_SMITE_5",
+    "ENCHANTMENT_SMITE_6",
+    "ENCHANTMENT_SMITE_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SMITE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SMOLDERING",
+   "products": [
+    "ENCHANTMENT_SMOLDERING_1",
+    "ENCHANTMENT_SMOLDERING_2",
+    "ENCHANTMENT_SMOLDERING_3",
+    "ENCHANTMENT_SMOLDERING_4",
+    "ENCHANTMENT_SMOLDERING_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SMOLDERING_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SNIPE",
+   "products": [
+    "ENCHANTMENT_SNIPE_1",
+    "ENCHANTMENT_SNIPE_2",
+    "ENCHANTMENT_SNIPE_3",
+    "ENCHANTMENT_SNIPE_4"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SNIPE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SPIKED_HOOK",
+   "products": [
+    "ENCHANTMENT_SPIKED_HOOK_1",
+    "ENCHANTMENT_SPIKED_HOOK_2",
+    "ENCHANTMENT_SPIKED_HOOK_3",
+    "ENCHANTMENT_SPIKED_HOOK_4",
+    "ENCHANTMENT_SPIKED_HOOK_5",
+    "ENCHANTMENT_SPIKED_HOOK_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SPIKED_HOOK_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_STEALTH",
+   "products": [
+    "ENCHANTMENT_STEALTH_1",
+    "ENCHANTMENT_STEALTH_2",
+    "ENCHANTMENT_STEALTH_3",
+    "ENCHANTMENT_STEALTH_4",
+    "ENCHANTMENT_STEALTH_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_STEALTH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_STRONG_MANA",
+   "products": [
+    "ENCHANTMENT_STRONG_MANA_1",
+    "ENCHANTMENT_STRONG_MANA_2",
+    "ENCHANTMENT_STRONG_MANA_3",
+    "ENCHANTMENT_STRONG_MANA_4",
+    "ENCHANTMENT_STRONG_MANA_5",
+    "ENCHANTMENT_STRONG_MANA_6",
+    "ENCHANTMENT_STRONG_MANA_7",
+    "ENCHANTMENT_STRONG_MANA_8",
+    "ENCHANTMENT_STRONG_MANA_9",
+    "ENCHANTMENT_STRONG_MANA_10"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_STRONG_MANA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SUGAR_RUSH",
+   "products": [
+    "ENCHANTMENT_SUGAR_RUSH_1",
+    "ENCHANTMENT_SUGAR_RUSH_2",
+    "ENCHANTMENT_SUGAR_RUSH_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SUGAR_RUSH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SUNDER",
+   "products": [
+    "ENCHANTMENT_SUNDER_1",
+    "ENCHANTMENT_SUNDER_2",
+    "ENCHANTMENT_SUNDER_3",
+    "ENCHANTMENT_SUNDER_4",
+    "ENCHANTMENT_SUNDER_5",
+    "ENCHANTMENT_SUNDER_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SUNDER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_SYPHON",
+   "products": [
+    "ENCHANTMENT_SYPHON_1",
+    "ENCHANTMENT_SYPHON_2",
+    "ENCHANTMENT_SYPHON_3",
+    "ENCHANTMENT_SYPHON_4",
+    "ENCHANTMENT_SYPHON_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_SYPHON_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TABASCO",
+   "products": [
+    "ENCHANTMENT_TABASCO_1",
+    "ENCHANTMENT_TABASCO_2",
+    "ENCHANTMENT_TABASCO_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TABASCO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_THORNS",
+   "products": [
+    "ENCHANTMENT_THORNS_1",
+    "ENCHANTMENT_THORNS_2",
+    "ENCHANTMENT_THORNS_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_THORNS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_THUNDERBOLT",
+   "products": [
+    "ENCHANTMENT_THUNDERBOLT_1",
+    "ENCHANTMENT_THUNDERBOLT_2",
+    "ENCHANTMENT_THUNDERBOLT_3",
+    "ENCHANTMENT_THUNDERBOLT_4",
+    "ENCHANTMENT_THUNDERBOLT_5",
+    "ENCHANTMENT_THUNDERBOLT_6",
+    "ENCHANTMENT_THUNDERBOLT_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_THUNDERBOLT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_THUNDERLORD",
+   "products": [
+    "ENCHANTMENT_THUNDERLORD_1",
+    "ENCHANTMENT_THUNDERLORD_2",
+    "ENCHANTMENT_THUNDERLORD_3",
+    "ENCHANTMENT_THUNDERLORD_4",
+    "ENCHANTMENT_THUNDERLORD_5",
+    "ENCHANTMENT_THUNDERLORD_6",
+    "ENCHANTMENT_THUNDERLORD_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_THUNDERLORD_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TIDAL",
+   "products": [
+    "ENCHANTMENT_TIDAL_1",
+    "ENCHANTMENT_TIDAL_2",
+    "ENCHANTMENT_TIDAL_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TIDAL_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TITAN_KILLER",
+   "products": [
+    "ENCHANTMENT_TITAN_KILLER_1",
+    "ENCHANTMENT_TITAN_KILLER_2",
+    "ENCHANTMENT_TITAN_KILLER_3",
+    "ENCHANTMENT_TITAN_KILLER_4",
+    "ENCHANTMENT_TITAN_KILLER_5",
+    "ENCHANTMENT_TITAN_KILLER_6",
+    "ENCHANTMENT_TITAN_KILLER_7"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TITAN_KILLER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TOXOPHILITE",
+   "products": [
+    "ENCHANTMENT_TOXOPHILITE_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TOXOPHILITE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TRANSYLVANIAN",
+   "products": [
+    "ENCHANTMENT_TRANSYLVANIAN_4",
+    "ENCHANTMENT_TRANSYLVANIAN_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TRANSYLVANIAN_4"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TRIPLE_STRIKE",
+   "products": [
+    "ENCHANTMENT_TRIPLE_STRIKE_1",
+    "ENCHANTMENT_TRIPLE_STRIKE_2",
+    "ENCHANTMENT_TRIPLE_STRIKE_3",
+    "ENCHANTMENT_TRIPLE_STRIKE_4",
+    "ENCHANTMENT_TRIPLE_STRIKE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TRIPLE_STRIKE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TRUE_PROTECTION",
+   "products": [
+    "ENCHANTMENT_TRUE_PROTECTION_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TRUE_PROTECTION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_CACTUS",
+   "products": [
+    "ENCHANTMENT_TURBO_CACTUS_1",
+    "ENCHANTMENT_TURBO_CACTUS_2",
+    "ENCHANTMENT_TURBO_CACTUS_3",
+    "ENCHANTMENT_TURBO_CACTUS_4",
+    "ENCHANTMENT_TURBO_CACTUS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_CACTUS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_CANE",
+   "products": [
+    "ENCHANTMENT_TURBO_CANE_1",
+    "ENCHANTMENT_TURBO_CANE_2",
+    "ENCHANTMENT_TURBO_CANE_3",
+    "ENCHANTMENT_TURBO_CANE_4",
+    "ENCHANTMENT_TURBO_CANE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_CANE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_CARROT",
+   "products": [
+    "ENCHANTMENT_TURBO_CARROT_1",
+    "ENCHANTMENT_TURBO_CARROT_2",
+    "ENCHANTMENT_TURBO_CARROT_3",
+    "ENCHANTMENT_TURBO_CARROT_4",
+    "ENCHANTMENT_TURBO_CARROT_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_CARROT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_COCO",
+   "products": [
+    "ENCHANTMENT_TURBO_COCO_1",
+    "ENCHANTMENT_TURBO_COCO_2",
+    "ENCHANTMENT_TURBO_COCO_3",
+    "ENCHANTMENT_TURBO_COCO_4",
+    "ENCHANTMENT_TURBO_COCO_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_COCO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_MELON",
+   "products": [
+    "ENCHANTMENT_TURBO_MELON_1",
+    "ENCHANTMENT_TURBO_MELON_2",
+    "ENCHANTMENT_TURBO_MELON_3",
+    "ENCHANTMENT_TURBO_MELON_4",
+    "ENCHANTMENT_TURBO_MELON_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_MELON_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_MOONFLOWER",
+   "products": [
+    "ENCHANTMENT_TURBO_MOONFLOWER_1",
+    "ENCHANTMENT_TURBO_MOONFLOWER_2",
+    "ENCHANTMENT_TURBO_MOONFLOWER_3",
+    "ENCHANTMENT_TURBO_MOONFLOWER_4",
+    "ENCHANTMENT_TURBO_MOONFLOWER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_MOONFLOWER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_MUSHROOMS",
+   "products": [
+    "ENCHANTMENT_TURBO_MUSHROOMS_1",
+    "ENCHANTMENT_TURBO_MUSHROOMS_2",
+    "ENCHANTMENT_TURBO_MUSHROOMS_3",
+    "ENCHANTMENT_TURBO_MUSHROOMS_4",
+    "ENCHANTMENT_TURBO_MUSHROOMS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_MUSHROOMS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_POTATO",
+   "products": [
+    "ENCHANTMENT_TURBO_POTATO_1",
+    "ENCHANTMENT_TURBO_POTATO_2",
+    "ENCHANTMENT_TURBO_POTATO_3",
+    "ENCHANTMENT_TURBO_POTATO_4",
+    "ENCHANTMENT_TURBO_POTATO_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_POTATO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_PUMPKIN",
+   "products": [
+    "ENCHANTMENT_TURBO_PUMPKIN_1",
+    "ENCHANTMENT_TURBO_PUMPKIN_2",
+    "ENCHANTMENT_TURBO_PUMPKIN_3",
+    "ENCHANTMENT_TURBO_PUMPKIN_4",
+    "ENCHANTMENT_TURBO_PUMPKIN_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_PUMPKIN_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_ROSE",
+   "products": [
+    "ENCHANTMENT_TURBO_ROSE_1",
+    "ENCHANTMENT_TURBO_ROSE_2",
+    "ENCHANTMENT_TURBO_ROSE_3",
+    "ENCHANTMENT_TURBO_ROSE_4",
+    "ENCHANTMENT_TURBO_ROSE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_ROSE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_SUNFLOWER",
+   "products": [
+    "ENCHANTMENT_TURBO_SUNFLOWER_1",
+    "ENCHANTMENT_TURBO_SUNFLOWER_2",
+    "ENCHANTMENT_TURBO_SUNFLOWER_3",
+    "ENCHANTMENT_TURBO_SUNFLOWER_4",
+    "ENCHANTMENT_TURBO_SUNFLOWER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_SUNFLOWER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_WARTS",
+   "products": [
+    "ENCHANTMENT_TURBO_WARTS_1",
+    "ENCHANTMENT_TURBO_WARTS_2",
+    "ENCHANTMENT_TURBO_WARTS_3",
+    "ENCHANTMENT_TURBO_WARTS_4",
+    "ENCHANTMENT_TURBO_WARTS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_WARTS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_TURBO_WHEAT",
+   "products": [
+    "ENCHANTMENT_TURBO_WHEAT_1",
+    "ENCHANTMENT_TURBO_WHEAT_2",
+    "ENCHANTMENT_TURBO_WHEAT_3",
+    "ENCHANTMENT_TURBO_WHEAT_4",
+    "ENCHANTMENT_TURBO_WHEAT_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_TURBO_WHEAT_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_BANK",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_BANK_1",
+    "ENCHANTMENT_ULTIMATE_BANK_2",
+    "ENCHANTMENT_ULTIMATE_BANK_3",
+    "ENCHANTMENT_ULTIMATE_BANK_4",
+    "ENCHANTMENT_ULTIMATE_BANK_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_BANK_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_BOBBIN_TIME",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3",
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+    "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_CHIMERA",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_CHIMERA_1",
+    "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+    "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+    "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+    "ENCHANTMENT_ULTIMATE_CHIMERA_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_CHIMERA_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_COMBO",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_COMBO_1",
+    "ENCHANTMENT_ULTIMATE_COMBO_2",
+    "ENCHANTMENT_ULTIMATE_COMBO_3",
+    "ENCHANTMENT_ULTIMATE_COMBO_4",
+    "ENCHANTMENT_ULTIMATE_COMBO_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_COMBO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_CROP_FEVER",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_1",
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_2",
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_3",
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_4",
+    "ENCHANTMENT_ULTIMATE_CROP_FEVER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_CROP_FEVER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_FATAL_TEMPO",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1",
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+    "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_FIRST_IMPRESSION",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1",
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2",
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3",
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4",
+    "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_FLASH",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_FLASH_1",
+    "ENCHANTMENT_ULTIMATE_FLASH_2",
+    "ENCHANTMENT_ULTIMATE_FLASH_3",
+    "ENCHANTMENT_ULTIMATE_FLASH_4",
+    "ENCHANTMENT_ULTIMATE_FLASH_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_FLASH_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_FLOWSTATE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_1",
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_2",
+    "ENCHANTMENT_ULTIMATE_FLOWSTATE_3"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_FLOWSTATE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_HABANERO_TACTICS",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+    "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_INFERNO",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_INFERNO_1",
+    "ENCHANTMENT_ULTIMATE_INFERNO_2",
+    "ENCHANTMENT_ULTIMATE_INFERNO_3",
+    "ENCHANTMENT_ULTIMATE_INFERNO_4",
+    "ENCHANTMENT_ULTIMATE_INFERNO_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_INFERNO_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_JERRY",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_JERRY_1",
+    "ENCHANTMENT_ULTIMATE_JERRY_2",
+    "ENCHANTMENT_ULTIMATE_JERRY_3",
+    "ENCHANTMENT_ULTIMATE_JERRY_4",
+    "ENCHANTMENT_ULTIMATE_JERRY_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_JERRY_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_LAST_STAND",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+    "ENCHANTMENT_ULTIMATE_LAST_STAND_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_LAST_STAND_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_LEGION",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_LEGION_1",
+    "ENCHANTMENT_ULTIMATE_LEGION_2",
+    "ENCHANTMENT_ULTIMATE_LEGION_3",
+    "ENCHANTMENT_ULTIMATE_LEGION_4",
+    "ENCHANTMENT_ULTIMATE_LEGION_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_LEGION_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_MISSILE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_MISSILE_1",
+    "ENCHANTMENT_ULTIMATE_MISSILE_2",
+    "ENCHANTMENT_ULTIMATE_MISSILE_3",
+    "ENCHANTMENT_ULTIMATE_MISSILE_4",
+    "ENCHANTMENT_ULTIMATE_MISSILE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_MISSILE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_NO_PAIN_NO_GAIN",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+    "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_ONE_FOR_ALL",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_0",
+    "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_1"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_0"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_REFRIGERATE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+    "ENCHANTMENT_ULTIMATE_REFRIGERATE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_REITERATE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_REITERATE_1",
+    "ENCHANTMENT_ULTIMATE_REITERATE_2",
+    "ENCHANTMENT_ULTIMATE_REITERATE_3",
+    "ENCHANTMENT_ULTIMATE_REITERATE_4",
+    "ENCHANTMENT_ULTIMATE_REITERATE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_REITERATE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_REND",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_REND_1",
+    "ENCHANTMENT_ULTIMATE_REND_2",
+    "ENCHANTMENT_ULTIMATE_REND_3",
+    "ENCHANTMENT_ULTIMATE_REND_4",
+    "ENCHANTMENT_ULTIMATE_REND_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_REND_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_SOUL_EATER",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+    "ENCHANTMENT_ULTIMATE_SOUL_EATER_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_SUNSET",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_SUNSET_1",
+    "ENCHANTMENT_ULTIMATE_SUNSET_2",
+    "ENCHANTMENT_ULTIMATE_SUNSET_3",
+    "ENCHANTMENT_ULTIMATE_SUNSET_4",
+    "ENCHANTMENT_ULTIMATE_SUNSET_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_SUNSET_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_SWARM",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_SWARM_1",
+    "ENCHANTMENT_ULTIMATE_SWARM_2",
+    "ENCHANTMENT_ULTIMATE_SWARM_3",
+    "ENCHANTMENT_ULTIMATE_SWARM_4",
+    "ENCHANTMENT_ULTIMATE_SWARM_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_SWARM_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_THE_ONE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_THE_ONE_4",
+    "ENCHANTMENT_ULTIMATE_THE_ONE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_THE_ONE_4"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_WISDOM",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_WISDOM_1",
+    "ENCHANTMENT_ULTIMATE_WISDOM_2",
+    "ENCHANTMENT_ULTIMATE_WISDOM_3",
+    "ENCHANTMENT_ULTIMATE_WISDOM_4",
+    "ENCHANTMENT_ULTIMATE_WISDOM_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_WISDOM_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_ULTIMATE_WISE",
+   "products": [
+    "ENCHANTMENT_ULTIMATE_WISE_1",
+    "ENCHANTMENT_ULTIMATE_WISE_2",
+    "ENCHANTMENT_ULTIMATE_WISE_3",
+    "ENCHANTMENT_ULTIMATE_WISE_4",
+    "ENCHANTMENT_ULTIMATE_WISE_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_ULTIMATE_WISE_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_VAMPIRISM",
+   "products": [
+    "ENCHANTMENT_VAMPIRISM_1",
+    "ENCHANTMENT_VAMPIRISM_2",
+    "ENCHANTMENT_VAMPIRISM_3",
+    "ENCHANTMENT_VAMPIRISM_4",
+    "ENCHANTMENT_VAMPIRISM_5",
+    "ENCHANTMENT_VAMPIRISM_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_VAMPIRISM_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_VENOMOUS",
+   "products": [
+    "ENCHANTMENT_VENOMOUS_1",
+    "ENCHANTMENT_VENOMOUS_2",
+    "ENCHANTMENT_VENOMOUS_3",
+    "ENCHANTMENT_VENOMOUS_4",
+    "ENCHANTMENT_VENOMOUS_5",
+    "ENCHANTMENT_VENOMOUS_6"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_VENOMOUS_1"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_VICIOUS",
+   "products": [
+    "ENCHANTMENT_VICIOUS_3",
+    "ENCHANTMENT_VICIOUS_4",
+    "ENCHANTMENT_VICIOUS_5"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_VICIOUS_3"
+  },
+  {
+   "category": "ENCHANTMENTS",
+   "key": "ENCH_WITHER_HUNTER",
+   "products": [
+    "ENCHANTMENT_WITHER_HUNTER_0"
+   ],
+   "name": null,
+   "icon": "ENCHANTMENT_WITHER_HUNTER_0"
+  }
+ ]
+}

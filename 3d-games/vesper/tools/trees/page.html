@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VESPER — tree bake-off</title>
+<style>
+  :root{
+    --ink:#e8f2ee; --dim:#7f9a92; --dimmer:#4d635e;
+    --accent:#33ff77; --panel:rgba(6,12,14,.72); --line:rgba(80,160,130,.26);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:#04070a;color:var(--ink);overflow:hidden;
+    font-family:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  canvas#cv{position:fixed;inset:0;width:100%;height:100%;display:block}
+
+  /* ---------------------------------------------------------------- chrome */
+  header{position:fixed;top:0;left:0;right:0;padding:14px 20px 26px;z-index:5;
+    pointer-events:none;
+    background:linear-gradient(180deg,rgba(4,7,10,.92) 0%,rgba(4,7,10,.55) 55%,transparent 100%)}
+  h1{margin:0;font-size:13px;letter-spacing:.30em;font-weight:600;text-transform:uppercase}
+  h1 b{color:var(--accent);font-weight:600}
+  h1 span{color:var(--dimmer);font-weight:400;letter-spacing:.18em}
+  header p{margin:5px 0 0;font-size:11.5px;color:var(--dim);letter-spacing:.045em;max-width:60ch}
+
+  /* --------------------------------------------------------------- controls */
+  #panel{position:fixed;top:14px;right:18px;z-index:6;display:flex;flex-direction:column;
+    gap:9px;align-items:flex-end}
+  .row{display:flex;gap:5px;align-items:center}
+  .row .lbl{font-size:9px;letter-spacing:.20em;color:var(--dimmer);margin-right:5px;
+    text-transform:uppercase}
+  button{font:inherit;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--dim);background:var(--panel);border:1px solid var(--line);
+    border-radius:3px;padding:6px 11px;cursor:pointer;transition:.13s;backdrop-filter:blur(7px)}
+  button:hover{color:var(--ink);border-color:rgba(120,220,170,.5)}
+  button.on{color:#04120a;background:var(--accent);border-color:var(--accent);font-weight:600}
+  select{font:inherit;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:3px;
+    padding:6px 9px;cursor:pointer;backdrop-filter:blur(7px);min-width:196px;outline:none}
+  select:hover{border-color:rgba(120,220,170,.5)}
+  select option{background:#08110f;color:var(--ink);text-transform:none;letter-spacing:0}
+
+  /* ------------------------------------------------------------------ cards */
+  #cards{position:fixed;inset:0;z-index:4;pointer-events:none}
+  .card{position:absolute;transform:translate(-50%,0);width:206px;text-align:center;
+    pointer-events:auto;cursor:pointer;padding:3px 7px 4px;border-radius:4px;
+    background:rgba(4,9,11,.60);border:1px solid rgba(80,160,130,.13);
+    backdrop-filter:blur(3px);transition:border-color .15s,background .15s}
+  .card:hover{border-color:rgba(120,220,170,.55);background:rgba(6,14,16,.85)}
+  .card .top{display:flex;align-items:baseline;justify-content:center;gap:6px;
+    white-space:nowrap}
+  .card .num{font-size:13px;font-weight:700;color:var(--accent);letter-spacing:.02em;
+    font-variant-numeric:tabular-nums}
+  .card .nm{font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--ink)}
+  .card .tri{font-size:9px;letter-spacing:.06em;color:var(--dimmer);
+    font-family:ui-monospace,"Cascadia Mono",Consolas,monospace}
+  /* ONE line, clamped. Two lines made the card 49px tall, and the only gap it
+     can live in — between a row's ground and the next row's canopy — is 53px. */
+  .card .idea{margin-top:1px;font-size:9.2px;line-height:1.3;color:var(--dim);
+    letter-spacing:.005em;text-shadow:0 1px 3px #04070a,0 0 8px #04070a;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .card .top{text-shadow:0 1px 3px #04070a,0 0 8px #04070a}
+  .card.ctl .num,.card.ctl .nm{color:#ffcf5c}
+
+  /* big card, shown when one tree is blown up */
+  #big{position:fixed;left:34px;bottom:34px;z-index:6;max-width:390px;
+    background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--accent);
+    border-radius:4px;padding:15px 18px 16px;display:none;backdrop-filter:blur(9px)}
+  #big .top{display:flex;align-items:baseline;gap:10px}
+  #big .num{font-size:27px;font-weight:700;color:var(--accent);line-height:1;
+    font-variant-numeric:tabular-nums}
+  #big .nm{font-size:15px;letter-spacing:.22em;text-transform:uppercase}
+  #big .tri{margin-left:auto;font-size:10px;letter-spacing:.10em;color:var(--dimmer);
+    font-family:ui-monospace,"Cascadia Mono",Consolas,monospace}
+  #big .idea{margin-top:9px;font-size:12px;line-height:1.55;color:var(--dim)}
+  #big .meta{margin-top:10px;padding-top:9px;border-top:1px solid rgba(80,160,130,.16);
+    font-size:9.5px;letter-spacing:.10em;color:var(--dimmer);
+    font-family:ui-monospace,"Cascadia Mono",Consolas,monospace}
+
+  /* selection, breed mode only */
+  .card.sel{border-color:var(--accent);background:rgba(10,30,20,.86);
+    box-shadow:0 0 0 1px rgba(51,255,119,.35),0 6px 22px rgba(0,0,0,.5)}
+  .card.sel .nm{color:var(--accent)}
+  .card .tag{display:none;font-size:8px;letter-spacing:.20em;color:#8fe3b0}
+  .card.elite .tag{display:inline;margin-left:6px}
+
+  /* --------------------------------------------------------------- breed bar */
+  /* TOP centre, not bottom: the bottom is where the front row's labels land,
+     and a floating bar there covered three of the eleven trees. */
+  #breedbar{position:fixed;left:50%;transform:translateX(-50%);top:58px;z-index:7;
+    display:none;gap:6px;align-items:center;padding:9px 13px;border-radius:5px;
+    background:rgba(4,9,11,.82);border:1px solid var(--line);backdrop-filter:blur(9px)}
+  #breedbar.on{display:flex}
+  #breedbar .gen{font-size:10px;letter-spacing:.22em;color:var(--dimmer);margin-right:6px;
+    font-family:ui-monospace,Consolas,monospace}
+  #breedbar .lbl{font-size:9px;letter-spacing:.20em;color:var(--dimmer);text-transform:uppercase}
+  button.go{color:#04120a;background:var(--accent);border-color:var(--accent);font-weight:700;
+    padding:7px 16px}
+  button.go:hover{background:#5cffa0;color:#04120a}
+  button:disabled{opacity:.34;cursor:default;color:var(--dimmer);background:var(--panel);
+    border-color:var(--line);font-weight:400}
+  button:disabled:hover{color:var(--dimmer);border-color:var(--line);background:var(--panel)}
+
+  #libbar{position:fixed;left:50%;transform:translateX(-50%);top:58px;z-index:7;
+    display:none;gap:6px;align-items:center;padding:9px 13px;border-radius:5px;
+    background:rgba(4,9,11,.82);border:1px solid var(--line);backdrop-filter:blur(9px)}
+  #libbar.on{display:flex}
+  #libbar .gen{font-size:10px;letter-spacing:.22em;color:var(--dimmer);margin-right:6px;
+    font-family:ui-monospace,Consolas,monospace}
+
+  /* ------------------------------------------------- the running kept strip */
+  #strip{position:fixed;left:18px;top:112px;width:196px;z-index:6;display:none;
+    flex-direction:column;border-radius:5px;padding:8px 4px 6px 8px;
+    background:rgba(4,9,11,.62);border:1px solid rgba(80,160,130,.16);
+    backdrop-filter:blur(6px);max-height:calc(100vh - 330px)}
+  #strip.on{display:flex}
+  #strip .hd{display:flex;align-items:baseline;justify-content:space-between;padding-right:6px;
+    font-size:9px;letter-spacing:.20em;color:var(--dimmer);text-transform:uppercase}
+  #strip .hd .sm{font-size:8px;letter-spacing:.06em;color:#c88}
+  #strip #stripList{margin-top:6px;overflow-y:auto;flex:1}
+  #strip .row2{display:flex;align-items:baseline;gap:5px;padding:3px 6px 3px 4px;
+    border-radius:3px;cursor:pointer;white-space:nowrap}
+  #strip .row2:hover{background:rgba(51,255,119,.10)}
+  #strip .row2 .n{font-size:10px;letter-spacing:.10em;color:var(--ink);flex:1;
+    overflow:hidden;text-overflow:ellipsis}
+  #strip .row2 .t{font-size:8.5px;color:var(--dimmer);font-family:ui-monospace,Consolas,monospace}
+  #strip .row2 .x{font-size:11px;color:var(--dimmer);opacity:0;padding:0 2px}
+  #strip .row2:hover .x{opacity:1}
+  #strip .row2 .x:hover{color:#ff8a7a}
+  #strip .ft{margin-top:6px;padding-right:6px;font-size:8px;letter-spacing:.08em;
+    color:var(--dimmer);line-height:1.4}
+  #strip .empty{font-size:9.5px;color:var(--dimmer);padding:6px 4px;line-height:1.5}
+
+  /* genome code in the big card */
+  #big .code{margin-top:9px;font-size:8.5px;letter-spacing:.06em;color:#6f8f86;
+    font-family:ui-monospace,Consolas,monospace;word-break:break-all;cursor:pointer;
+    line-height:1.45;border:1px dashed rgba(80,160,130,.22);border-radius:3px;padding:5px 6px}
+  #big .code:hover{color:var(--accent);border-color:rgba(51,255,119,.4)}
+
+  /* ------------------------------------------------------------------- feet */
+  #hint{position:fixed;bottom:13px;left:0;right:0;text-align:center;z-index:5;
+    font-size:10px;letter-spacing:.17em;color:var(--dimmer);text-transform:uppercase;
+    pointer-events:none}
+  #hint kbd{font:inherit;color:var(--dim);border:1px solid var(--line);border-radius:2px;
+    padding:1px 5px;margin:0 1px}
+  #err{position:fixed;inset:0;z-index:99;display:none;place-items:center;padding:40px;
+    background:#04070a;color:#ff8a7a;font-family:ui-monospace,Consolas,monospace;
+    font-size:13px;line-height:1.6;white-space:pre-wrap}
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+<div id="cards"></div>
+
+<header>
+  <h1><b>VESPER</b> · TREE BAKE-OFF <span id="subhead">— 11 candidates, verdant palette</span></h1>
+  <p id="sub">Everything rotates so you can catch the ones that look the same from every
+     angle. Click a tree to blow it up, click again to come back.</p>
+</header>
+
+<div id="panel">
+  <div class="row"><span class="lbl">world</span>
+    <select id="wSel" title="the planet these trees grow on — palette, sky and ground"></select></div>
+  <div class="row"><span class="lbl">mode</span>
+    <button id="bBrd" class="on">Breed</button><button id="bLib">Library</button>
+    <button id="bGal">Originals</button></div>
+  <div class="row"><span class="lbl">light</span>
+    <button id="bNight" class="on">Night</button><button id="bDay">Day</button>
+    <span class="lbl" style="margin-left:9px">backdrop</span>
+    <button id="bB0">Dark</button><button id="bB1">Mid</button><button id="bB2" class="on">Light</button></div>
+  <div class="row"><span class="lbl">height</span>
+    <button id="bS0">3 m</button><button id="bS1" class="on">12 m</button><button id="bS2">30 m</button></div>
+  <div class="row"><span class="lbl">width</span>
+    <button id="bW0" class="on">1:1</button><button id="bW1">Broad</button><button id="bW2">Narrow</button></div>
+  <div class="row"><span class="lbl">show</span>
+    <button id="bSpin" class="on">Spin</button><button id="bGlow">Bloom</button>
+    <button id="bAo" class="on">AO</button><button id="bFair">aPart off</button></div>
+</div>
+
+<div id="big">
+  <div class="top"><span class="num"></span><span class="nm"></span><span class="tri"></span></div>
+  <div class="idea"></div>
+  <div class="meta"></div>
+  <div class="code" id="bigCode" title="click to copy"></div>
+</div>
+
+<div id="breedbar">
+  <span class="gen" id="genLbl">GEN 0</span>
+  <button id="bBreed" class="go" disabled>Keep some first</button>
+  <button id="bNew">New trees</button>
+  <button id="bBack" disabled>Back</button>
+  <button id="bReset">Reset</button>
+  <span class="lbl" style="margin-left:8px">mutation</span>
+  <button id="bM0">Subtle</button><button id="bM1" class="on">Normal</button><button id="bM2">Wild</button>
+</div>
+
+<div id="libbar">
+  <span class="gen" id="libLbl">0 KEPT</span>
+  <button id="bAll">All worlds</button>
+  <button id="bSend" class="go" disabled>Send to breeder</button>
+  <button id="bDrop" disabled>Remove</button>
+  <button id="bPrev" disabled>&lsaquo;</button>
+  <button id="bNext" disabled>&rsaquo;</button>
+  <button id="bCopyAll">Copy all codes</button>
+</div>
+
+<aside id="strip">
+  <div class="hd"><span id="stripN">KEPT · 0</span><span class="sm" id="stripWarn"></span></div>
+  <div id="stripList"></div>
+  <div class="ft">click one to bring it back into the pool</div>
+</aside>
+
+<div id="hint">
+  <span id="hintG"><kbd>click</kbd> enlarge · </span>
+  <span id="hintB" style="display:none"><kbd>click</kbd> keep · <kbd>dbl-click</kbd> enlarge ·
+    <kbd>enter</kbd> breed · </span>
+  <kbd>M</kbd> gallery/breed · <kbd>N</kbd> night/day ·
+  <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> height · <kbd>4</kbd><kbd>5</kbd><kbd>6</kbd> width · <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd> backdrop · <kbd>[</kbd><kbd>]</kbd> world ·
+  <kbd>space</kbd> spin · <kbd>B</kbd> bloom · <kbd>O</kbd> occlusion · <kbd>G</kbd> aPart off
+</div>
+
+<div id="err"></div>
+<!--THREE-->
+<!--APP-->
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "island_size": {
+    "base": 161,
+    "top": 241,
+    "tiers": [
+      169,
+      177,
+      185,
+      193,
+      201,
+      209,
+      217,
+      225,
+      233,
+      241
+    ],
+    "source": "| Island Size | I–X | 161×161 → 241×241 | I free, 2 d; II–VI 175 gems, 4–10 d; VII–X 200 gems, 10 d |"
+  },
+  "guests_limit": {
+    "tiers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "TUNE: research lists '+1 ... +4 (?)'; one slot per tier assumed",
+    "source": "| Guests Limit | I–V | +1 … +4 (?) guest slots | I free, 2 d; II–V 50 gems, 4–16 d |"
+  }
+}

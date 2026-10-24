@@ -1,0 +1,506 @@
+[
+ {
+  "id": "SUMMONING_EYE",
+  "name": "Summoning Eye",
+  "material": "ENDER_EYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Set this into an empty socket of the",
+   "&7altar in the &5Dragon's Nest&7. When all",
+   "&7eight sockets are filled, a dragon",
+   "&7answers the call.",
+   "",
+   "&eRight-click an altar frame to place!"
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "glow": true
+ },
+ {
+  "id": "SLEEPING_EYE",
+  "name": "Sleeping Eye",
+  "material": "ENDER_EYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Proof that one of your eyes sits in the",
+   "&7altar. Keep it to take your eye back if",
+   "&7you leave before the dragon wakes.",
+   "",
+   "&7When the dragon rises it turns into a",
+   "&5Remnant of the Eye&7."
+  ],
+  "tags": [
+   "no_ah"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "maxStack": 64
+ },
+ {
+  "id": "REMNANT_OF_THE_EYE",
+  "name": "Remnant of the Eye",
+  "material": "ENDER_EYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Carried in your inventory, it spends",
+   "&7itself to pull you back from a killing",
+   "&7blow, granting a moment of invulnerability.",
+   "",
+   "&cOnly works in The End."
+  ],
+  "tags": [
+   "no_ah"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 1.0,
+  "glow": true,
+  "maxStack": 64
+ },
+ {
+  "id": "YOUNG_FRAGMENT",
+  "name": "Young Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A shard of a swift young dragon's hide."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "OLD_FRAGMENT",
+  "name": "Old Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A heavy, scarred plate from an ancient dragon."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "STRONG_FRAGMENT",
+  "name": "Strong Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A dense fragment that still hums with power."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "UNSTABLE_FRAGMENT",
+  "name": "Unstable Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7It crackles. Do not hold it in the rain."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "WISE_FRAGMENT",
+  "name": "Wise Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Cold to the touch and faintly glowing blue."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "PROTECTOR_FRAGMENT",
+  "name": "Protector Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Thick as a shield wall and nearly as heavy."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "SUPERIOR_FRAGMENT",
+  "name": "Superior Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Torn from the rarest dragon of them all."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 5000.0
+ },
+ {
+  "id": "HOLY_FRAGMENT",
+  "name": "Holy Dragon Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Warm, and it smells faintly of incense."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2500.0
+ },
+ {
+  "id": "CRYSTAL_FRAGMENT",
+  "name": "Crystal Fragment",
+  "material": "QUARTZ",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A splinter of the crystals that feed the",
+   "&7dragons of the nest."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 500.0,
+  "glow": true
+ },
+ {
+  "id": "MITE_GEL",
+  "name": "Mite Gel",
+  "material": "PURPLE_DYE",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Sticky goo scraped off a nest endermite."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 2000.0
+ },
+ {
+  "id": "ENDSTONE_ROSE",
+  "name": "End Stone Rose",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A gift the Colossus never got to give."
+  ],
+  "tags": [],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 3000.0,
+  "glow": true
+ },
+ {
+  "id": "ARACHNE_FRAGMENT",
+  "name": "Silkmother Fragment",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A chitin shard carrying the Silkmother's",
+   "&7lingering strength."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 500.0
+ },
+ {
+  "id": "ARACHNE_KEEPER_FRAGMENT",
+  "name": "Silkmother's Calling",
+  "material": "PAPER",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Four of these, set into the altar of the",
+   "&7&dSilkmother's Sanctuary&7, wake her.",
+   "",
+   "&8\"She hears every thread.\""
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 400.0
+ },
+ {
+  "id": "ARACHNE_CRYSTAL",
+  "name": "Silkmother Crystal",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Set this into the Sanctuary altar to call",
+   "&7the Silkmother at her &cfull strength&7.",
+   "",
+   "&8\"We should not have done that.\""
+  ],
+  "tags": [],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 1000.0,
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MDAyNDgxOSwKICAicHJvZmlsZUlkIiA6ICIyMWNjMzkxZmNkMjc0NzY5OTg5Y2M3M2VjYWRiNTE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHT1NUTFk5NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYTExYmEyODhiZDZhYTdkNDkzNjBiMDNiZGM2MTgxODkxNTRjNDRlNTg4NTE2ZWEyOWNhZmYyMjk0NmNlZTAwIgogICAgfQogIH0KfQ=="
+ },
+ {
+  "id": "SOUL_STRING",
+  "name": "Soul String",
+  "material": "STRING",
+  "rarity": "RARE",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Silk spun by the Silkmother herself, used",
+   "&7to bind weapons with her power."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 5000.0,
+  "glow": true
+ },
+ {
+  "id": "DARK_QUEENS_SOUL_DROP",
+  "name": "Silk Queen's Soul",
+  "material": "CLAY_BALL",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7A sliver of the Silkmother's soul, still",
+   "&7twitching."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 5000.0,
+  "glow": true
+ },
+ {
+  "id": "ARACHNE_FANG",
+  "name": "Silkmother's Fang",
+  "material": "BONE_MEAL",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "lore": [
+   "&7Hollow, and still wet with venom."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 500.0
+ },
+ {
+  "id": "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Top of the Nest",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &aSpider's Den",
+   "&7Destination: &bTop of the Nest",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones",
+   "czWarp": "nest"
+  }
+ },
+ {
+  "id": "ARACHNE_SANCTUARY_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Silkmother's Sanctuary",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &aSpider's Den",
+   "&7Destination: &bSilkmother's Sanctuary",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones",
+   "czWarp": "sanctuary"
+  }
+ },
+ {
+  "id": "DRAGON_NEST_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Dragon's Nest",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &aThe End",
+   "&7Destination: &bDragon's Nest",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones",
+   "czWarp": "drag"
+  }
+ },
+ {
+  "id": "VOID_SEPULTURE_TRAVEL_SCROLL",
+  "name": "Travel Scroll to the Null Tomb",
+  "material": "MAP",
+  "rarity": "EPIC",
+  "category": "TRAVEL_SCROLL",
+  "lore": [
+   "&7Read it to add a new destination to",
+   "&7your fast travel list for good.",
+   "",
+   "&7Island: &aThe End",
+   "&7Destination: &bNull Tomb",
+   "",
+   "&eRight-click to consume!"
+  ],
+  "tags": [
+   "usable"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones",
+   "czWarp": "void"
+  }
+ },
+ {
+  "id": "RITUAL_RESIDUE",
+  "name": "Ritual Residue",
+  "material": "PAPER",
+  "rarity": "EPIC",
+  "category": "MATERIAL",
+  "lore": [
+   "&7What the Draconic Altar leaves behind",
+   "&7after a sacrifice. Crafted into the",
+   "&7draconic accessories and equipment."
+  ],
+  "tags": [
+   "bazaar"
+  ],
+  "extra": {
+   "family": "combat",
+   "owner": "combatzones"
+  },
+  "npcSell": 10000.0,
+  "glow": true
+ }
+]

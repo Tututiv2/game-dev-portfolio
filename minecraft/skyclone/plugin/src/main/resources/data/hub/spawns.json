@@ -1,0 +1,116 @@
+[
+ {
+  "id": "hub_graveyard_zombies",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "hub_graveyard_zombie",
+  "max": 10,
+  "respawnSeconds": 8
+ },
+ {
+  "id": "hub_graveyard_zombies_night",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "hub_graveyard_zombie",
+  "max": 4,
+  "respawnSeconds": 8,
+  "condition": "night"
+ },
+ {
+  "id": "hub_zombie_villagers",
+  "island": "hub",
+  "area": "graveyard",
+  "mob": "hub_zombie_villager",
+  "max": 6,
+  "respawnSeconds": 8,
+  "condition": "night"
+ },
+ {
+  "id": "hub_crypt_ghouls",
+  "island": "hub",
+  "area": "crypt",
+  "mob": "hub_crypt_ghoul",
+  "max": 16,
+  "respawnSeconds": 6
+ },
+ {
+  "id": "hub_golden_ghoul",
+  "island": "hub",
+  "area": "crypt_vault",
+  "mob": "hub_golden_ghoul",
+  "max": 1,
+  "respawnSeconds": 180
+ },
+ {
+  "id": "hub_ruins_wolves",
+  "island": "hub",
+  "area": "ruins",
+  "mob": "hub_wolf",
+  "max": 8,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "hub_ruins_old_wolves",
+  "island": "hub",
+  "area": "ruins",
+  "mob": "hub_old_wolf",
+  "max": 2,
+  "respawnSeconds": 60
+ },
+ {
+  "id": "hub_wilderness_wolves",
+  "island": "hub",
+  "area": "wilderness",
+  "mob": "hub_wolf",
+  "max": 8,
+  "respawnSeconds": 12
+ },
+ {
+  "id": "hub_farm_cows",
+  "island": "hub",
+  "area": "farm.pen.cow",
+  "mob": "hub_cow",
+  "max": 4,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "hub_farm_pigs",
+  "island": "hub",
+  "area": "farm.pen.pig",
+  "mob": "hub_pig",
+  "max": 4,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "hub_farm_chickens",
+  "island": "hub",
+  "area": "farm.pen.chicken",
+  "mob": "hub_chicken",
+  "max": 5,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "hub_farm_sheep",
+  "island": "hub",
+  "area": "farm.pen.sheep",
+  "mob": "hub_sheep",
+  "max": 4,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "hub_farm_rabbits",
+  "island": "hub",
+  "area": "farm.pen.chicken",
+  "mob": "hub_rabbit",
+  "max": 3,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "hub_sewer_rats",
+  "island": "hub",
+  "area": "sewer",
+  "mob": "hub_rat",
+  "max": 4,
+  "respawnSeconds": 20
+ }
+]

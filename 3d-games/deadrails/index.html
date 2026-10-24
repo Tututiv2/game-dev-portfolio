@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desert Rails — 3D (Dead Rails–style)</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Desert Rails <span class="sub">(3D · co-op test)</span></h1>
+      <div class="head-net">
+        <span id="net-status" class="tag danger">Offline</span>
+        <span id="net-crew" class="tag">Crew: —</span>
+        <a href="/spec.html">Spec</a>
+      </div>
+    </header>
+    <div class="layout">
+      <div class="canvas-wrap" id="three-root">
+        <div class="hud-float" aria-hidden="true">
+          <span class="tag" id="hud-time">Time —</span>
+          <span class="tag" id="hud-night">—</span>
+          <span class="tag" id="hud-barricade">—</span>
+        </div>
+      </div>
+      <aside class="side-panel">
+        <section class="panel-block">
+          <h2>Run</h2>
+          <div class="meters">
+            <div>Distance: <strong id="stat-distance">0 km</strong></div>
+            <div>Next outpost: <strong id="stat-next-outpost">10 km</strong></div>
+            <div>Cash: $<span id="stat-cash">0</span> · Bonds: <span id="stat-bonds">0</span></div>
+            <div class="meter-row">
+              <span>Fuel</span>
+              <div class="meter-bar"><span id="bar-fuel" style="width: 0%"></span></div>
+            </div>
+            <div class="meter-row">
+              <span>Health</span>
+              <div class="meter-bar player"><span id="bar-health" style="width: 0%"></span></div>
+            </div>
+            <div class="meter-row">
+              <span>Train</span>
+              <div class="meter-bar integrity"><span id="bar-integrity" style="width: 0%"></span></div>
+            </div>
+          </div>
+        </section>
+        <section class="panel-block">
+          <h2>Controls</h2>
+          <p class="footnote" style="margin: 0 0 0.4rem 0">
+            Game runs on the <strong>host’s server</strong> — all crew share one train. Tune <code>public/config.json</code>.
+          </p>
+          <div class="btn-row">
+            <button type="button" id="btn-drive">Drive (D)</button>
+            <button type="button" id="btn-load-coal">Load coal</button>
+            <button type="button" id="btn-stoke-corpse">Stoke corpse (C)</button>
+            <button type="button" id="btn-stoke-newspaper">Paper → fire (N)</button>
+            <button type="button" id="btn-barricade">Weld barricade (F)</button>
+            <button type="button" id="btn-bandage">Use bandage (B)</button>
+            <button type="button" id="btn-shoot">Shoot (Space)</button>
+          </div>
+        </section>
+        <section class="panel-block">
+          <h2>Sack</h2>
+          <div class="inv-grid">
+            <span>Coal</span><span id="inv-coal">0</span>
+            <span>Gold</span><span id="inv-gold">0</span>
+            <span>Corpses</span><span id="inv-corpse">0</span>
+            <span>Scrap</span><span id="inv-scrap">0</span>
+            <span>Newspaper</span><span id="inv-newspaper">0</span>
+          </div>
+        </section>
+        <section class="panel-block">
+          <h2>Log</h2>
+          <ul class="log" id="event-log"></ul>
+        </section>
+      </aside>
+    </div>
+    <div id="modal-root" class="modal-backdrop" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <h2 id="modal-title">Outpost</h2>
+        <div id="modal-body">
+          <p>Trading…</p>
+        </div>
+        <div id="modal-actions" class="modal-actions"></div>
+      </div>
+    </div>
+    <footer class="app-footer">
+      <span>Host: <code>npm install</code> then <code>npm run dev</code> — then share your LAN IP on port 5173 (Vite proxies chat/socket).</span>
+      <span>See <code>README.md</code> for port-forwarding and deploy.</span>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

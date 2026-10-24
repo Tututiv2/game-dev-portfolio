@@ -1,0 +1,1344 @@
+[
+ {
+  "id": "barn_cow",
+  "name": "Cow",
+  "level": 1,
+  "entity": "COW",
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 2,
+    "chance": 0.66
+   }
+  ],
+  "family": "cow",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 3,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "barn_pig",
+  "name": "Pig",
+  "level": 1,
+  "entity": "PIG",
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   }
+  ],
+  "family": "pig",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 4,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "barn_chicken",
+  "name": "Chicken",
+  "level": 1,
+  "entity": "CHICKEN",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 1,
+    "max": 2,
+    "chance": 0.66
+   }
+  ],
+  "family": "chicken",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 4,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "barn_sheep",
+  "name": "Sheep",
+  "level": 1,
+  "entity": "SHEEP",
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "sheep",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 4,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "barn_rabbit",
+  "name": "Rabbit",
+  "level": 1,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "rabbit",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 3,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "desert_rabbit",
+  "name": "Rabbit",
+  "level": 1,
+  "entity": "RABBIT",
+  "health": 50,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "rabbit",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 3,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "desert_sheep",
+  "name": "Sheep",
+  "level": 1,
+  "entity": "SHEEP",
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "sheep",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 4,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "desert_mooshroom",
+  "name": "Mushroom Cow",
+  "level": 1,
+  "entity": "MOOSHROOM",
+  "health": 100,
+  "damage": 0,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RED_MUSHROOM",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RAW_BEEF",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   }
+  ],
+  "family": "mooshroom",
+  "flags": [
+   "passive"
+  ],
+  "extra": {
+   "farmingXp": 4,
+   "farmAnimal": true
+  }
+ },
+ {
+  "id": "trapper_cow_trackable",
+  "name": "&fTrackable Cow",
+  "level": 1,
+  "entity": "COW",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 2,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_cow",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_cow_untrackable",
+  "name": "&aUntrackable Cow",
+  "level": 5,
+  "entity": "COW",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 2,
+    "max": 4,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_cow",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_cow_undetected",
+  "name": "&9Undetected Cow",
+  "level": 10,
+  "entity": "COW",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 3,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 3,
+    "max": 6,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_cow",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_cow_endangered",
+  "name": "&5Endangered Cow",
+  "level": 20,
+  "entity": "COW",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 4,
+    "max": 8,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_cow",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_cow_elusive",
+  "name": "&dElusive Cow",
+  "level": 30,
+  "entity": "COW",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_BEEF",
+    "min": 5,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "LEATHER",
+    "min": 5,
+    "max": 10,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_cow",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "trapper_pig_trackable",
+  "name": "&fTrackable Pig",
+  "level": 1,
+  "entity": "PIG",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_pig",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_pig_untrackable",
+  "name": "&aUntrackable Pig",
+  "level": 5,
+  "entity": "PIG",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 2,
+    "max": 6,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_pig",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_pig_undetected",
+  "name": "&9Undetected Pig",
+  "level": 10,
+  "entity": "PIG",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 3,
+    "max": 9,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_pig",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_pig_endangered",
+  "name": "&5Endangered Pig",
+  "level": 20,
+  "entity": "PIG",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 4,
+    "max": 12,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_pig",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_pig_elusive",
+  "name": "&dElusive Pig",
+  "level": 30,
+  "entity": "PIG",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "PORK",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_pig",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "trapper_sheep_trackable",
+  "name": "&fTrackable Sheep",
+  "level": 1,
+  "entity": "SHEEP",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 1,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_sheep",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_sheep_untrackable",
+  "name": "&aUntrackable Sheep",
+  "level": 5,
+  "entity": "SHEEP",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 2,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_sheep",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_sheep_undetected",
+  "name": "&9Undetected Sheep",
+  "level": 10,
+  "entity": "SHEEP",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 3,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_sheep",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_sheep_endangered",
+  "name": "&5Endangered Sheep",
+  "level": 20,
+  "entity": "SHEEP",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 4,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_sheep",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_sheep_elusive",
+  "name": "&dElusive Sheep",
+  "level": 30,
+  "entity": "SHEEP",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "MUTTON",
+    "min": 5,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "WOOL",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_sheep",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "trapper_chicken_trackable",
+  "name": "&fTrackable Chicken",
+  "level": 1,
+  "entity": "CHICKEN",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 1,
+    "max": 2,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_chicken",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_chicken_untrackable",
+  "name": "&aUntrackable Chicken",
+  "level": 5,
+  "entity": "CHICKEN",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 2,
+    "max": 4,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_chicken",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_chicken_undetected",
+  "name": "&9Undetected Chicken",
+  "level": 10,
+  "entity": "CHICKEN",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 3,
+    "max": 6,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_chicken",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_chicken_endangered",
+  "name": "&5Endangered Chicken",
+  "level": 20,
+  "entity": "CHICKEN",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 4,
+    "max": 8,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_chicken",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_chicken_elusive",
+  "name": "&dElusive Chicken",
+  "level": 30,
+  "entity": "CHICKEN",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RAW_CHICKEN",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "FEATHER",
+    "min": 5,
+    "max": 10,
+    "chance": 0.66
+   }
+  ],
+  "family": "trapper_chicken",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "trapper_rabbit_trackable",
+  "name": "&fTrackable Rabbit",
+  "level": 1,
+  "entity": "RABBIT",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "family": "trapper_rabbit",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_rabbit_untrackable",
+  "name": "&aUntrackable Rabbit",
+  "level": 5,
+  "entity": "RABBIT",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 2,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 2,
+    "max": 2,
+    "chance": 0.05
+   }
+  ],
+  "family": "trapper_rabbit",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_rabbit_undetected",
+  "name": "&9Undetected Rabbit",
+  "level": 10,
+  "entity": "RABBIT",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 3,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 3,
+    "max": 3,
+    "chance": 0.05
+   }
+  ],
+  "family": "trapper_rabbit",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_rabbit_endangered",
+  "name": "&5Endangered Rabbit",
+  "level": 20,
+  "entity": "RABBIT",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 4,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 4,
+    "max": 4,
+    "chance": 0.05
+   }
+  ],
+  "family": "trapper_rabbit",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_rabbit_elusive",
+  "name": "&dElusive Rabbit",
+  "level": 30,
+  "entity": "RABBIT",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "RABBIT",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "RABBIT_HIDE",
+    "min": 5,
+    "max": 5,
+    "chance": 0.5
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "min": 5,
+    "max": 5,
+    "chance": 0.05
+   }
+  ],
+  "family": "trapper_rabbit",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "trapper_horse_trackable",
+  "name": "&fTrackable Horse",
+  "level": 1,
+  "entity": "HORSE",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.25,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "LEATHER",
+    "min": 1,
+    "max": 3,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_horse",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 5,
+   "farmingXp": 20,
+   "trapper": true,
+   "rarity": "trackable"
+  }
+ },
+ {
+  "id": "trapper_horse_untrackable",
+  "name": "&aUntrackable Horse",
+  "level": 5,
+  "entity": "HORSE",
+  "health": 500,
+  "damage": 0,
+  "speed": 1.35,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "LEATHER",
+    "min": 2,
+    "max": 6,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_horse",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 10,
+   "farmingXp": 40,
+   "trapper": true,
+   "rarity": "untrackable"
+  }
+ },
+ {
+  "id": "trapper_horse_undetected",
+  "name": "&9Undetected Horse",
+  "level": 10,
+  "entity": "HORSE",
+  "health": 1000,
+  "damage": 0,
+  "speed": 1.45,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "LEATHER",
+    "min": 3,
+    "max": 9,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_horse",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 15,
+   "farmingXp": 80,
+   "trapper": true,
+   "rarity": "undetected"
+  }
+ },
+ {
+  "id": "trapper_horse_endangered",
+  "name": "&5Endangered Horse",
+  "level": 20,
+  "entity": "HORSE",
+  "health": 5000,
+  "damage": 0,
+  "speed": 1.55,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "LEATHER",
+    "min": 4,
+    "max": 12,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_horse",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 20,
+   "farmingXp": 160,
+   "trapper": true,
+   "rarity": "endangered"
+  }
+ },
+ {
+  "id": "trapper_horse_elusive",
+  "name": "&dElusive Horse",
+  "level": 30,
+  "entity": "HORSE",
+  "health": 10000,
+  "damage": 0,
+  "speed": 1.65,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "LEATHER",
+    "min": 5,
+    "max": 15,
+    "chance": 1.0
+   }
+  ],
+  "family": "trapper_horse",
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "extra": {
+   "pelts": 25,
+   "farmingXp": 320,
+   "trapper": true,
+   "rarity": "elusive"
+  }
+ },
+ {
+  "id": "shiny_pig",
+  "name": "&dShiny Pig",
+  "level": 1,
+  "entity": "PIG",
+  "health": 100,
+  "damage": 0,
+  "speed": 1.3,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [],
+  "family": "shiny_pig",
+  "behaviours": [
+   "farming_shiny_pig"
+  ],
+  "flags": [
+   "passive",
+   "no_knockback",
+   "silent"
+  ],
+  "extra": {
+   "shinyPig": true
+  }
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "sure_grip",
+  "name": "Sure Grip",
+  "icon": "CHEST",
+  "max": 3,
+  "cost": [
+   40,
+   60,
+   80
+  ],
+  "per": 15,
+  "lore": "&7Pick up and set down supplies and fuel &a{v}% &7faster.",
+  "phase": "any"
+ },
+ {
+  "id": "master_mason",
+  "name": "Master Mason",
+  "icon": "BRICKS",
+  "max": 3,
+  "cost": [
+   50,
+   75,
+   100
+  ],
+  "per": 25,
+  "lore": "&7Build the ballista &a{v}% &7faster.",
+  "phase": "any"
+ },
+ {
+  "id": "cannon_pass",
+  "name": "Cannon Pass",
+  "icon": "TNT",
+  "max": 1,
+  "cost": [
+   60
+  ],
+  "per": 1,
+  "lore": "&7Lets you ride the cannon into the beast's maw.",
+  "phase": "stun"
+ },
+ {
+  "id": "gut_pick",
+  "name": "Gut Pick",
+  "icon": "IRON_PICKAXE",
+  "max": 2,
+  "cost": [
+   50,
+   90
+  ],
+  "per": 1,
+  "lore": "&7Organs inside the beast need &a{v} &7fewer strikes.",
+  "phase": "stun"
+ },
+ {
+  "id": "second_wind",
+  "name": "Second Wind",
+  "icon": "TOTEM_OF_UNDYING",
+  "max": 1,
+  "cost": [
+   120
+  ],
+  "per": 40,
+  "lore": "&7Survive one killing blow and recover &a{v}% &7health.",
+  "phase": "any"
+ },
+ {
+  "id": "lifeline",
+  "name": "Lifeline",
+  "icon": "GOLDEN_APPLE",
+  "max": 1,
+  "cost": [
+   150
+  ],
+  "per": 1,
+  "lore": "&7Revive fallen crewmates in the lair by",
+  "lore2": "&7crouching beside their marker.",
+  "phase": "lair"
+ },
+ {
+  "id": "ember_edge",
+  "name": "Ember Edge",
+  "icon": "BLAZE_POWDER",
+  "max": 3,
+  "cost": [
+   60,
+   90,
+   120
+  ],
+  "per": 10,
+  "lore": "&7Deal &c+{v}% &7damage to the Leviathan and its brood.",
+  "phase": "any"
+ },
+ {
+  "id": "lava_hide",
+  "name": "Lava Hide",
+  "icon": "MAGMA_CREAM",
+  "max": 3,
+  "cost": [
+   50,
+   75,
+   100
+  ],
+  "per": 8,
+  "lore": "&7Take &a{v}% &7less damage from the hunt.",
+  "phase": "any"
+ },
+ {
+  "id": "overcharge",
+  "name": "Overcharge",
+  "icon": "FIRE_CHARGE",
+  "max": 2,
+  "cost": [
+   80,
+   120
+  ],
+  "per": 10,
+  "lore": "&7Ballista volleys you fire hit &c+{v}% &7harder.",
+  "phase": "any"
+ },
+ {
+  "id": "fleetfoot",
+  "name": "Fleetfoot",
+  "icon": "FEATHER",
+  "max": 2,
+  "cost": [
+   30,
+   50
+  ],
+  "per": 15,
+  "lore": "&7Gain &f+{v} Speed &7for the rest of the hunt.",
+  "phase": "any"
+ },
+ {
+  "id": "fuel_magnet",
+  "name": "Fuel Magnet",
+  "icon": "LODESTONE",
+  "max": 1,
+  "cost": [
+   40
+  ],
+  "per": 4,
+  "lore": "&7Grab fuel cells within &a{v} blocks &7without crouching.",
+  "phase": "any"
+ },
+ {
+  "id": "mending_tonic",
+  "name": "Mending Tonic",
+  "icon": "POTION",
+  "max": 0,
+  "cost": [
+   25
+  ],
+  "per": 50,
+  "lore": "&7Drink now: heal &a{v}% &7of your health.",
+  "phase": "any"
+ }
+]

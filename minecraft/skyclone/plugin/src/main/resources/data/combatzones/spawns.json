@@ -1,0 +1,743 @@
+[
+ {
+  "id": "combatzones_den_low_a_splitter2",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_splitter_spider_2",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_splitter_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_dasher_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_dasher6",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_dasher_spider_6",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_weaver_spider_3",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_weaver5",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_weaver_spider_5",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_a_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.a.*"
+  ],
+  "mob": "den_spider_jockey_3",
+  "max": 1,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_splitter2",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_splitter_spider_2",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_splitter_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_dasher_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_dasher6",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_dasher_spider_6",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_weaver_spider_3",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_weaver5",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_weaver_spider_5",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_spider_jockey_3",
+  "max": 1,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_b_voracious",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.b.*"
+  ],
+  "mob": "den_voracious_spider_10",
+  "max": 1,
+  "respawnSeconds": 25,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_splitter2",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_splitter_spider_2",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_splitter_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_dasher_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_dasher6",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_dasher_spider_6",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_weaver_spider_3",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_weaver5",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_weaver_spider_5",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_c_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.c.*"
+  ],
+  "mob": "den_spider_jockey_3",
+  "max": 1,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_splitter2",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_splitter_spider_2",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_splitter_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_dasher_spider_4",
+  "max": 2,
+  "respawnSeconds": 10,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_dasher6",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_dasher_spider_6",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_weaver_spider_3",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_weaver5",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_weaver_spider_5",
+  "max": 1,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_spider_jockey_3",
+  "max": 1,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_low_d_voracious",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.low.d.*"
+  ],
+  "mob": "den_voracious_spider_10",
+  "max": 1,
+  "respawnSeconds": 25,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_a_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.a.*"
+  ],
+  "mob": "den_splitter_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_a_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.a.*"
+  ],
+  "mob": "den_dasher_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_a_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.a.*"
+  ],
+  "mob": "den_weaver_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_a_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.a.*"
+  ],
+  "mob": "den_spider_jockey_42",
+  "max": 1,
+  "respawnSeconds": 20,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_a_voracious",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.a.*"
+  ],
+  "mob": "den_voracious_spider_42",
+  "max": 1,
+  "respawnSeconds": 25,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_b_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.b.*"
+  ],
+  "mob": "den_splitter_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_b_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.b.*"
+  ],
+  "mob": "den_dasher_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_b_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.b.*"
+  ],
+  "mob": "den_weaver_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_b_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.b.*"
+  ],
+  "mob": "den_spider_jockey_42",
+  "max": 1,
+  "respawnSeconds": 20,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_c_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.c.*"
+  ],
+  "mob": "den_splitter_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_c_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.c.*"
+  ],
+  "mob": "den_dasher_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_c_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.c.*"
+  ],
+  "mob": "den_weaver_spider_42",
+  "max": 2,
+  "respawnSeconds": 12,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_mid_c_jockey",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.mid.c.*"
+  ],
+  "mob": "den_spider_jockey_42",
+  "max": 1,
+  "respawnSeconds": 20,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_a_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.a.*"
+  ],
+  "mob": "den_splitter_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_a_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.a.*"
+  ],
+  "mob": "den_dasher_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_a_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.a.*"
+  ],
+  "mob": "den_weaver_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_b_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.b.*"
+  ],
+  "mob": "den_splitter_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_b_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.b.*"
+  ],
+  "mob": "den_dasher_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_high_b_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.high.b.*"
+  ],
+  "mob": "den_weaver_spider_45",
+  "max": 2,
+  "respawnSeconds": 15,
+  "activationRange": 48
+ },
+ {
+  "id": "combatzones_den_nest_splitter",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.nest.*"
+  ],
+  "mob": "den_splitter_spider_50",
+  "max": 3,
+  "respawnSeconds": 25
+ },
+ {
+  "id": "combatzones_den_nest_dasher",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.nest.*"
+  ],
+  "mob": "den_dasher_spider_50",
+  "max": 3,
+  "respawnSeconds": 25
+ },
+ {
+  "id": "combatzones_den_nest_weaver",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.nest.*"
+  ],
+  "mob": "den_weaver_spider_50",
+  "max": 2,
+  "respawnSeconds": 25
+ },
+ {
+  "id": "combatzones_den_gravel",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.gravel.*"
+  ],
+  "mob": "den_flint_skeleton",
+  "max": 8,
+  "respawnSeconds": 10
+ },
+ {
+  "id": "combatzones_den_burrow_keeper",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.burrow.*"
+  ],
+  "mob": "den_arachnes_keeper",
+  "max": 4,
+  "respawnSeconds": 45
+ },
+ {
+  "id": "combatzones_den_burrow_cave",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.burrow.*"
+  ],
+  "mob": "den_cave_spider",
+  "max": 4,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "combatzones_den_rain_slime",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.slime.*"
+  ],
+  "mob": "den_rain_slime",
+  "max": 10,
+  "respawnSeconds": 10,
+  "condition": "event:spiders_den_rain"
+ },
+ {
+  "id": "combatzones_den_toxic_slime",
+  "island": "spiders_den",
+  "anchors": [
+   "spawn.mob.slime.*"
+  ],
+  "mob": "den_toxic_rain_slime",
+  "max": 4,
+  "respawnSeconds": 20,
+  "condition": "event:spiders_den_thunder"
+ },
+ {
+  "id": "combatzones_end_main_42",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.main.*"
+  ],
+  "mob": "end_enderman_42",
+  "max": 8,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "combatzones_end_main_45",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.main.*"
+  ],
+  "mob": "end_enderman_45",
+  "max": 6,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "combatzones_end_main_50",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.main.*"
+  ],
+  "mob": "end_enderman_50",
+  "max": 5,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "combatzones_end_mite_37",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.mite.*"
+  ],
+  "mob": "end_endermite_37",
+  "max": 5,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "combatzones_end_mite_40",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.mite.*"
+  ],
+  "mob": "end_endermite_40",
+  "max": 4,
+  "respawnSeconds": 15
+ },
+ {
+  "id": "combatzones_end_seer",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.seer.*"
+  ],
+  "mob": "end_seer",
+  "max": 6,
+  "respawnSeconds": 30
+ },
+ {
+  "id": "combatzones_end_defender",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.defender.*"
+  ],
+  "mob": "end_obsidian_defender",
+  "max": 8,
+  "respawnSeconds": 30
+ },
+ {
+  "id": "combatzones_end_zealot",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.zealot.*"
+  ],
+  "mob": "end_zealot_55",
+  "max": 16,
+  "respawnSeconds": 11
+ },
+ {
+  "id": "combatzones_end_nestmite",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.nestmite.*"
+  ],
+  "mob": "end_nest_endermite",
+  "max": 5,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "combatzones_end_bruiser",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.bruiser.*"
+  ],
+  "mob": "end_zealot_bruiser",
+  "max": 8,
+  "respawnSeconds": 20
+ },
+ {
+  "id": "combatzones_end_void_fanatic",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.void.*"
+  ],
+  "mob": "end_voidling_fanatic",
+  "max": 6,
+  "respawnSeconds": 30
+ },
+ {
+  "id": "combatzones_end_void_extremist",
+  "island": "the_end",
+  "anchors": [
+   "spawn.mob.void.*"
+  ],
+  "mob": "end_voidling_extremist",
+  "max": 1,
+  "respawnSeconds": 120
+ }
+]

@@ -1,0 +1,3924 @@
+[
+ {
+  "id": "AIMING_BOW",
+  "name": "Aiming Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 100,
+  "npcSell": 340,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Its sights were tuned by a",
+   "&7master marksman."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aiming Bow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "ALCHEMISTS_STAFF",
+  "name": "The Alchemist's Staff",
+  "material": "POPPY",
+  "rarity": "RARE",
+  "category": "WAND",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 20,
+   "INTELLIGENCE": 20
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 2000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "soulbound"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_coin_conversion",
+    "name": "Transmute",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Spend &6100,000 coins &7to cast a bolt",
+     "&7that deals &c{damage} &7damage and knocks",
+     "&7its target away."
+    ],
+    "scaling": 0.3,
+    "damage": 10000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "The Alchemist's Staff",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "ARACK",
+  "name": "Venomspine",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 90,
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Toxic Rush",
+   "&7While you are poisoned you gain",
+   "&c+100❁ Strength&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Arack",
+   "owner": "weapons",
+   "w": {
+    "poisonStr": 100
+   }
+  }
+ },
+ {
+  "id": "ARMORSHRED_ARROW",
+  "name": "Armorshred Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 5,
+  "requirements": [
+   "skill:combat:22",
+   "collection:SAND:7"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Plate Splitter",
+   "&7Hits ignore &a5% &7of the target's",
+   "&a❈ Defense&7.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Armorshred Arrow",
+   "owner": "weapons",
+   "targetPractice": "III"
+  }
+ },
+ {
+  "id": "ARROW",
+  "name": "Flint Arrow",
+  "material": "ARROW",
+  "rarity": "COMMON",
+  "category": "ARROW",
+  "damage": 1,
+  "npcSell": 2,
+  "tags": [
+   "arrow",
+   "vanilla"
+  ],
+  "lore": [
+   "&7A plain flint-headed arrow.",
+   "&7Its damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Flint Arrow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "ARTISANAL_SHORTBOW",
+  "name": "Artisanal Shortbow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 40,
+  "requirements": [
+   "skill:combat:4"
+  ],
+  "npcSell": 200,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "lore": [
+   "&7Shot Cooldown: &a0.5s"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Artisanal Shortbow",
+   "owner": "weapons",
+   "w": {
+    "shortbow": 0.5
+   }
+  }
+ },
+ {
+  "id": "ASPECT_OF_THE_DRAGON",
+  "name": "Wyrmbreath Blade",
+  "material": "DIAMOND_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 225,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "requirements": [
+   "skill:combat:18",
+   "dungeon_catacombs:12"
+  ],
+  "npcSell": 100000,
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_dragon_rage",
+    "name": "Wyrm's Fury",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 0,
+    "lore": [
+     "&7Breathe fire on every monster in",
+     "&7front of you for &c{damage} &7damage,",
+     "&7hurling them far back."
+    ],
+    "scaling": 0.1,
+    "damage": 12000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aspect of the Dragons",
+   "owner": "weapons",
+   "abilityScaling": 0.1
+  }
+ },
+ {
+  "id": "ASPECT_OF_THE_END",
+  "name": "Voidstep Blade",
+  "material": "DIAMOND_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "npcSell": 56000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_instant_transmission",
+    "name": "Blink Step",
+    "trigger": "RIGHT_CLICK",
+    "mana": 50,
+    "cooldown": 0,
+    "lore": [
+     "&7Blink &a8 blocks &7forward and gain",
+     "&f+50✦ Speed &7for &a3s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aspect of the End",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "ASPECT_OF_THE_JERRY",
+  "name": "Jester's Folly",
+  "material": "WOODEN_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_parley",
+    "name": "Banter",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Let out your inner jester."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aspect of the Jerry",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "ASPECT_OF_THE_JERRY_SIGNATURE",
+  "name": "Jester's Folly, Signed Edition",
+  "material": "WOODEN_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 2,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "lore": [
+   "&9Sharpness X",
+   "&7Melee hits deal &a+50% &7damage."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_parley",
+    "name": "Banter",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Let out your inner jester."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aspect of the Jerry, Signature Edition",
+   "owner": "weapons",
+   "w": {
+    "melee": 50
+   }
+  }
+ },
+ {
+  "id": "ASPECT_OF_THE_VOID",
+  "name": "Riftwalker Blade",
+  "material": "DIAMOND_SHOVEL",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "npcSell": 56000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_instant_transmission_void",
+    "name": "Blink Step",
+    "trigger": "RIGHT_CLICK",
+    "mana": 45,
+    "cooldown": 0,
+    "lore": [
+     "&7Blink &a8 blocks &7forward and gain",
+     "&f+50✦ Speed &7for &a3s&7."
+    ],
+    "scaling": 0.3
+   },
+   {
+    "id": "weapons_ether_transmission_void",
+    "name": "Phasewarp",
+    "trigger": "SNEAK_RIGHT_CLICK",
+    "mana": 180,
+    "cooldown": 0,
+    "lore": [
+     "&7Warp onto the block you are looking",
+     "&7at, up to &a57 blocks &7away.",
+     "&8Needs a Phasewarp Merger applied;",
+     "&8unmerged it blinks instead."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Aspect of the Void",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "BASIC_CHICKEN_AXE",
+  "name": "Basic Chicken Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Chickens you kill with this drop &a1",
+   "&7extra: &fFeather, Raw Chicken&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Chicken Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "CHICKEN": {
+      "FEATHER": 1,
+      "CHICKEN": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BASIC_COW_AXE",
+  "name": "Basic Cow Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Cows you kill with this drop &a1",
+   "&7extra: &fRaw Beef&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Cow Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "COW": {
+      "BEEF": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BASIC_MUSHROOM_COW_AXE",
+  "name": "Basic Mooshroom Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Mooshrooms you kill with this drop &a1",
+   "&7extra: &fRed Mushroom, Leather&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Mooshroom Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "MOOSHROOM": {
+      "RED_MUSHROOM": 1,
+      "LEATHER": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BASIC_PIG_AXE",
+  "name": "Basic Pig Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Pigs you kill with this drop &a1",
+   "&7extra: &fRaw Porkchop&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Pig Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "PIG": {
+      "PORKCHOP": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BASIC_RABBIT_AXE",
+  "name": "Basic Rabbit Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Rabbits you kill with this drop &a1",
+   "&7extra: &fRaw Rabbit, Rabbit Hide, Rabbit's Foot&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Rabbit Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "RABBIT": {
+      "RABBIT": 1,
+      "RABBIT_HIDE": 1,
+      "RABBIT_FOOT": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BASIC_SHEEP_AXE",
+  "name": "Basic Sheep Axe",
+  "material": "WOODEN_AXE",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Sheep you kill with this drop &a1",
+   "&7extra: &fWhite Wool, Raw Mutton&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Basic Sheep Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "SHEEP": {
+      "WHITE_WOOL": 1,
+      "MUTTON": 1
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "BLADE_OF_THE_VOLCANO",
+  "name": "Blade of the Volcano",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 220,
+  "stats": {
+   "STRENGTH": 70,
+   "CRIT_DAMAGE": 20
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 50000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "lore": [
+   "&7Forged deep inside a burning",
+   "&7mountain.",
+   "&7Gain &c+100❁ Strength &7against foes",
+   "&7standing in lava."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Blade of the Volcano",
+   "owner": "weapons",
+   "w": {
+    "lavaStr": 100
+   }
+  }
+ },
+ {
+  "id": "BOUNCY_ARROW",
+  "name": "Bouncy Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 5,
+  "requirements": [
+   "skill:combat:20",
+   "collection:SLIME_BALL:7"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Ricochet",
+   "&7Hits have a &a50% &7chance to bounce on",
+   "&7to another target, up to &a4 &7times,",
+   "&7losing &c15% &7damage each bounce.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bouncy Arrow",
+   "owner": "weapons",
+   "targetPractice": "II"
+  }
+ },
+ {
+  "id": "BOW",
+  "name": "Bow",
+  "material": "BOW",
+  "rarity": "COMMON",
+  "category": "BOW",
+  "damage": 30,
+  "npcSell": 9,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "CELESTE_WAND",
+  "name": "Skybolt Wand",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "WAND",
+  "requirements": [
+   "skill:combat:4"
+  ],
+  "npcSell": 2500,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_lightning_strike",
+    "name": "Skybolt",
+    "trigger": "RIGHT_CLICK",
+    "mana": 70,
+    "cooldown": 0,
+    "lore": [
+     "&7Call lightning down on the nearest",
+     "&7monster within &a10 blocks &7for &c{damage}",
+     "&7damage."
+    ],
+    "damage": 40,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Celeste Wand",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "CHICKEN_AXE",
+  "name": "Advanced Chicken Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Chickens you kill with this drop &a2",
+   "&7extra: &fFeather, Raw Chicken&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Chicken Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "CHICKEN": {
+      "FEATHER": 2,
+      "CHICKEN": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "CLEAVER",
+  "name": "Cleaver",
+  "material": "GOLDEN_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 40,
+  "stats": {
+   "STRENGTH": 10
+  },
+  "npcSell": 8,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Cleave",
+   "&7Each hit also bites monsters within",
+   "&a3 blocks &7for part of its damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Cleaver",
+   "owner": "weapons",
+   "w": {
+    "cleave": 3
+   }
+  }
+ },
+ {
+  "id": "COW_AXE",
+  "name": "Advanced Cow Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Cows you kill with this drop &a2",
+   "&7extra: &fRaw Beef&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Cow Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "COW": {
+      "BEEF": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "DAEDALUS_AXE",
+  "name": "Labyrinth Blade",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Gains &c+4 &7Damage per &aTaming &7level.",
+   "&7Copies the stats of your active pet.",
+   "&7Grants &c+1% &7Damage and &b+0.2✯ Magic Find",
+   "&7on &2mythic &7foes per Bestiary tier",
+   "&7you have across all of them."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Daedalus Blade",
+   "owner": "weapons",
+   "w": {
+    "daedalus": 4,
+    "petCopy": true,
+    "mythBestiary": {
+     "dmg": 1,
+     "mf": 0.2
+    }
+   }
+  }
+ },
+ {
+  "id": "DECENT_BOW",
+  "name": "Decent Bow",
+  "material": "BOW",
+  "rarity": "UNCOMMON",
+  "category": "BOW",
+  "damage": 45,
+  "npcSell": 99,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7It shoots. Decently."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Decent Bow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "DIAMOND_SWORD",
+  "name": "Diamond Sword",
+  "material": "DIAMOND_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 35,
+  "npcSell": 8,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Diamond Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "DRAGON_SHORTBOW",
+  "name": "Dragon Shortbow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 50,
+   "CRIT_CHANCE": 15
+  },
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow",
+   "soulbound"
+  ],
+  "lore": [
+   "&7Shot Cooldown: &a0.5s",
+   "&6Passive: Wyrm Stalker",
+   "&7Deal &a+15% &7damage to dragons; arrows",
+   "&7curve toward dragons within &a10 blocks&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Dragon Shortbow",
+   "owner": "weapons",
+   "w": {
+    "shortbow": 0.5,
+    "dragonPct": 15
+   }
+  }
+ },
+ {
+  "id": "EMBER_ROD",
+  "name": "Ember Rod",
+  "material": "BLAZE_ROD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 80,
+  "stats": {
+   "STRENGTH": 35,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "skill:combat:8"
+  ],
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_fire_blast",
+    "name": "Ember Volley",
+    "trigger": "RIGHT_CLICK",
+    "mana": 150,
+    "cooldown": 30,
+    "lore": [
+     "&7Spit &a3 &7fireballs in quick succession,",
+     "&7each dealing &c{damage} &7damage."
+    ],
+    "damage": 30,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ember Rod",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "EMERALD_BLADE",
+  "name": "Emerald Blade",
+  "material": "EMERALD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 130,
+  "npcSell": 153000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Cut from solid emerald, this blade",
+   "&7grows sharper the heavier your",
+   "&7purse &8(counted up to 2B coins)&7.",
+   "&7Striking with it brings the &cMiser's Curse&7:",
+   "&7nothing can soften what you lose",
+   "&7on death."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Emerald Blade",
+   "owner": "weapons",
+   "w": {
+    "emerald": true
+   }
+  }
+ },
+ {
+  "id": "EMERALD_TIPPED_ARROW",
+  "name": "Emerald-tipped Arrow",
+  "material": "ARROW",
+  "rarity": "UNCOMMON",
+  "category": "ARROW",
+  "damage": 20,
+  "requirements": [
+   "skill:combat:18"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "lore": [
+   "&7A gem-sharp emerald point.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Emerald-tipped Arrow",
+   "owner": "weapons",
+   "targetPractice": "II"
+  }
+ },
+ {
+  "id": "ENDER_BOW",
+  "name": "Ender Bow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 60,
+  "npcSell": 1100,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_ender_warp",
+    "name": "Pearl Shot",
+    "trigger": "LEFT_CLICK",
+    "mana": 50,
+    "cooldown": 5,
+    "lore": [
+     "&7Fire an ender pearl. Where it lands",
+     "&7every monster within &a8 blocks &7loses",
+     "&a10% &7of its health &8(max 500)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ender Bow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "END_STONE_BOW",
+  "name": "End Stone Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 140,
+  "requirements": [
+   "skill:combat:15"
+  ],
+  "npcSell": 2500,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_extreme_focus_bow",
+    "name": "Focus Burn",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Burn all your mana; your next hit",
+     "&7gains &a+25% &7damage per &b100 &7mana",
+     "&7burned &8(max +500%)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "End Stone Bow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "END_STONE_SWORD",
+  "name": "End Stone Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 80
+  },
+  "npcSell": 20480,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_extreme_focus",
+    "name": "Focus Burn",
+    "trigger": "RIGHT_CLICK",
+    "mana": 20,
+    "cooldown": 0,
+    "lore": [
+     "&7Only in &5The End&7: burn all your mana.",
+     "&7Every &b100 mana &7burned grants &a1% &7less",
+     "&7damage taken for &a5s &8(max 20%)",
+     "&7and &a+25% &7to your next hit &8(max +500%)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "End Stone Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "END_SWORD",
+  "name": "End Sword",
+  "material": "DIAMOND_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 35,
+  "npcSell": 10,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &5End-dwelling &7foes deal &a+100% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "End Sword",
+   "owner": "weapons",
+   "w": {
+    "vs": {
+     "ender": 100
+    }
+   }
+  }
+ },
+ {
+  "id": "ENRAGER",
+  "name": "Enrager",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 270,
+  "stats": {
+   "STRENGTH": 150
+  },
+  "requirements": [
+   "skill:combat:25"
+  ],
+  "npcSell": 100000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_enrage",
+    "name": "Provoke",
+    "trigger": "RIGHT_CLICK",
+    "mana": 500,
+    "cooldown": 20,
+    "lore": [
+     "&7Draw the anger of every enemy within",
+     "&a10 blocks&7. They deal &a10% &7less damage",
+     "&7to you for &a10s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Enrager",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "ETHERWARP_CONDUIT",
+  "name": "Phasewarp Conduit",
+  "material": "PLAYER_HEAD",
+  "rarity": "EPIC",
+  "category": "NONE",
+  "requirements": [
+   "slayer:enderman:7"
+  ],
+  "skull": "ewogICJ0aW1lc3RhbXAiIDogMTYzMjE0NTM4NDY1NywKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTcwZTAyMDZmNjE2NjA0ODQ0MWRmZTA4ZTA1M2E2MDE3ZDkxNGYzNWM2YjFmYjBmNTU4YzUwNTc0Zjk3MGQwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+  "tags": [],
+  "lore": [
+   "&7A tuning fork for the space between",
+   "&7two places."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_ether_transmission",
+    "name": "Phasewarp",
+    "trigger": "RIGHT_CLICK",
+    "mana": 180,
+    "cooldown": 0,
+    "lore": [
+     "&7Warp onto the block you are looking",
+     "&7at, up to &a57 blocks &7away."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "maxStack": 1,
+  "extra": {
+   "src": "weapons",
+   "refName": "Etherwarp Conduit",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "EXPLOSIVE_ARROW",
+  "name": "Explosive Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 3,
+  "requirements": [
+   "skill:combat:23",
+   "collection:COAL:7"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Charged Tip",
+   "&7Explodes on impact or after &a2s&7. The",
+   "&7blast splits the arrow's damage among",
+   "&7mobs within &a2.5 blocks&7.",
+   "&cStanding in it costs you 10% ❤.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Explosive Arrow",
+   "owner": "weapons",
+   "targetPractice": "III"
+  }
+ },
+ {
+  "id": "EXPLOSIVE_BOW",
+  "name": "Explosive Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "npcSell": 62000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Blast Shot",
+   "&7Arrows explode on impact and every",
+   "&7monster in the blast takes the bow's",
+   "&7full damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Explosive Bow",
+   "owner": "weapons",
+   "w": {
+    "explosive": 3.5
+   }
+  }
+ },
+ {
+  "id": "FANCY_SWORD",
+  "name": "Fancy Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "npcSell": 50,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Jeweller's Edge",
+   "&7Hits land &a+150% &7harder while you",
+   "&7stand on a mining island."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Fancy Sword",
+   "owner": "weapons",
+   "w": {
+    "miningIslands": 150
+   }
+  }
+ },
+ {
+  "id": "FIRE_FREEZE_STAFF",
+  "name": "Fire Freeze Staff",
+  "material": "DANDELION",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 1750,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_fire_freeze",
+    "name": "Cold Snap",
+    "trigger": "RIGHT_CLICK",
+    "mana": 500,
+    "cooldown": 10,
+    "lore": [
+     "&7Mark a &a5 block &7circle. After &a5s &7every",
+     "&7mob inside is frozen solid for &a10s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Fire Freeze Staff",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "FIRE_FURY_STAFF",
+  "name": "Fire Fury Staff",
+  "material": "BLAZE_ROD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 100,
+  "stats": {
+   "INTELLIGENCE": 300
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 250000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_firestorm",
+    "name": "Firestorm",
+    "trigger": "RIGHT_CLICK",
+    "mana": 1000,
+    "cooldown": 20,
+    "lore": [
+     "&7Launch a fire core. Where it lands a",
+     "&7storm rages for &a10s&7, dealing up to",
+     "&c{damage} &7damage to mobs within &a7 blocks&7."
+    ],
+    "scaling": 0.3,
+    "damage": 42000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Fire Fury Staff",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "FIRE_VEIL_WAND",
+  "name": "Fire Veil Wand",
+  "material": "BLAZE_ROD",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "damage": 50,
+  "stats": {
+   "INTELLIGENCE": 200
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_fire_veil",
+    "name": "Flame Mantle",
+    "trigger": "RIGHT_CLICK",
+    "mana": 300,
+    "cooldown": 1,
+    "lore": [
+     "&7Wrap yourself in fire for &a5s&7. Mobs",
+     "&7inside it take &c{damage} &7damage every",
+     "&7second."
+    ],
+    "scaling": 0.3,
+    "damage": 15000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Fire Veil Wand",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "FLAMING_FLAY",
+  "name": "Flaming Flay",
+  "material": "FISHING_ROD",
+  "rarity": "LEGENDARY",
+  "category": "FISHING_WEAPON",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 250,
+   "FEROCITY": 25
+  },
+  "requirements": [
+   "dungeon_catacombs:23",
+   "skill:fishing:47"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a3x &7damage to &3sea-creature &7foes."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_flay_flaming",
+    "name": "Lash",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Crack the whip in a wide arc, hitting",
+     "&7everything in its path with your",
+     "&7melee damage. Heal &c1% ❤ &7for each",
+     "&7sea creature hit &8(max 25%)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Flaming Flay",
+   "owner": "weapons",
+   "w": {
+    "vsMult": {
+     "sea_creature": 3
+    }
+   }
+  }
+ },
+ {
+  "id": "FLAMING_SWORD",
+  "name": "Flaming Sword",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "npcSell": 20,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Each hit sets your target alight",
+   "&7for &a3s&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Flaming Sword",
+   "owner": "weapons",
+   "w": {
+    "ignite": 3
+   }
+  }
+ },
+ {
+  "id": "FLORID_ZOMBIE_SWORD",
+  "name": "Florid Zombie Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 80,
+   "INTELLIGENCE": 100
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "gemSlots": [
+   "SAPPHIRE",
+   "RUBY"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_instant_heal_florid",
+    "name": "Mend Flesh",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Heal &c500❤ &7and players within &a8",
+     "&7blocks for &c100❤&7.",
+     "&8Holds 5 charges; one returns every 15s."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Florid Zombie Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "FROZEN_SCYTHE",
+  "name": "Frozen Scythe",
+  "material": "IRON_HOE",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 80,
+  "requirements": [
+   "dungeon_catacombs:10"
+  ],
+  "npcSell": 100,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_ice_bolt",
+    "name": "Frost Bolt",
+    "trigger": "RIGHT_CLICK",
+    "mana": 50,
+    "cooldown": 0,
+    "lore": [
+     "&7Fire a bolt of ice for &c{damage}",
+     "&7damage that slows its target for &a5s&7."
+    ],
+    "scaling": 0.3,
+    "damage": 1000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Frozen Scythe",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "GENERALS_HOPE_OF_THE_RESISTANCE",
+  "name": "Staff of the Rising Sun",
+  "material": "SUNFLOWER",
+  "rarity": "LEGENDARY",
+  "category": "WAND",
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_ray_of_hope_general",
+    "name": "Dawn Ray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.02,
+    "cooldown": 0,
+    "lore": [
+     "&7Channel a ray at your target that",
+     "&7explodes for &c{damage} &7damage.",
+     "&7Costs &b2% &7of your max mana."
+    ],
+    "scaling": 0.2,
+    "damage": 1000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Staff of the Rising Sun",
+   "owner": "weapons",
+   "abilityScaling": 0.2
+  }
+ },
+ {
+  "id": "GHOUL_BUSTER",
+  "name": "Ghoul Buster",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 140,
+  "stats": {
+   "STRENGTH": 90,
+   "CRIT_DAMAGE": 25
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Fright Night",
+   "&7During the spooky festival, hits on",
+   "&6spooky &7mobs deal &a+100% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ghoul Buster",
+   "owner": "weapons",
+   "w": {
+    "spooky": 100
+   }
+  }
+ },
+ {
+  "id": "GLACIAL_SCYTHE",
+  "name": "Glacial Scythe",
+  "material": "DIAMOND_HOE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 120,
+  "stats": {
+   "INTELLIGENCE": 30
+  },
+  "requirements": [
+   "dungeon_catacombs:10"
+  ],
+  "npcSell": 500,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_ice_bolt_glacial",
+    "name": "Frost Bolt",
+    "trigger": "RIGHT_CLICK",
+    "mana": 75,
+    "cooldown": 0,
+    "lore": [
+     "&7Fire a bolt of ice for &c{damage}",
+     "&7damage that slows its target for &a5s&7.",
+     "&7Where it lands it shatters, hitting",
+     "&7everything within &a3 blocks &7for the same."
+    ],
+    "scaling": 0.3,
+    "damage": 1500
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Glacial Scythe",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "GOLD_SWORD",
+  "name": "Golden Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "npcSell": 4,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Golden Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "GOLD_TIPPED_ARROW",
+  "name": "Gold-tipped Arrow",
+  "material": "ARROW",
+  "rarity": "COMMON",
+  "category": "ARROW",
+  "damage": 10,
+  "requirements": [
+   "skill:combat:8"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "lore": [
+   "&7Tipped in gold for a cleaner bite.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Gold-tipped Arrow",
+   "owner": "weapons",
+   "targetPractice": "I"
+  }
+ },
+ {
+  "id": "GOLEM_SWORD",
+  "name": "Golem Sword",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 80,
+  "stats": {
+   "DEFENSE": 25,
+   "STRENGTH": 125
+  },
+  "npcSell": 77000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_iron_punch",
+    "name": "Iron Punch",
+    "trigger": "RIGHT_CLICK",
+    "mana": 70,
+    "cooldown": 3,
+    "lore": [
+     "&7Pound the ground and hit every foe",
+     "&7in a ring around you for &c{damage}",
+     "&7base magic damage."
+    ],
+    "scaling": 0.3,
+    "damage": 250
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Golem Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "GRAPPLING_HOOK",
+  "name": "Grappling Hook",
+  "material": "FISHING_ROD",
+  "rarity": "UNCOMMON",
+  "category": "NONE",
+  "npcSell": 1200,
+  "tags": [
+   "grappling_hook",
+   "throwable"
+  ],
+  "lore": [
+   "&7Cast it into a wall or the ground and",
+   "&7reel in to fling yourself after it.",
+   "&8Two second cooldown."
+  ],
+  "maxStack": 1,
+  "extra": {
+   "src": "weapons",
+   "refName": "Grappling Hook",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "GREAT_SPOOK_SWORD",
+  "name": "Great Spook Sword",
+  "material": "WOODEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 0,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Gains &c+1 &7Damage and &c+1❁ Strength",
+   "&7for every point of &5Fear &7you have.",
+   "&8Each Great Spook armor piece: +5 Fear."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Great Spook Sword",
+   "owner": "weapons",
+   "w": {
+    "fear": true
+   }
+  }
+ },
+ {
+  "id": "HARVESTING_SWORD",
+  "name": "Harvesting Sword",
+  "material": "DIAMOND_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 50,
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7A farmhand's blade, keen enough",
+   "&7to double as a sickle."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Harvesting Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "HELLSTORM_STAFF",
+  "name": "Hellstorm Wand",
+  "material": "REDSTONE_TORCH",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 50,
+   "INTELLIGENCE": 100
+  },
+  "requirements": [
+   "skill:combat:25"
+  ],
+  "npcSell": 100000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_hellstorm",
+    "name": "Reckless Power",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 30,
+    "lore": [
+     "&7Gain &c+5๑ Ability Damage &7for &a30s&7,",
+     "&7but take &cdouble &7damage meanwhile."
+    ],
+    "damage": 12000,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Hellstorm Wand",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "HOPE_OF_THE_RESISTANCE",
+  "name": "Staff of the Rising Sun",
+  "material": "SUNFLOWER",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_ray_of_hope",
+    "name": "Dawn Ray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0.1,
+    "cooldown": 0,
+    "lore": [
+     "&7Channel a ray at your target that",
+     "&7explodes for &c{damage} &7damage.",
+     "&7Costs &b10% &7of your max mana."
+    ],
+    "scaling": 0.2,
+    "damage": 500
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Staff of the Rising Sun",
+   "owner": "weapons",
+   "abilityScaling": 0.2
+  }
+ },
+ {
+  "id": "HORSEMAN_SCYTHE",
+  "name": "Horseman's Scythe",
+  "material": "DIAMOND_HOE",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 100,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Carried by a headless rider on",
+   "&7the festival's last night."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Horseman's Scythe",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "HUNTER_KNIFE",
+  "name": "Hunter Knife",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "SPEED": 40
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "soulbound"
+  ],
+  "lore": [
+   "&7A light skinning knife favoured",
+   "&7by trappers."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Hunter Knife",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "HURRICANE_BOW",
+  "name": "Hurricane Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 50
+  },
+  "npcSell": 15500,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Gale",
+   "&7Kills with this bow feed its power:",
+   "&a20&7: 2 arrows  &a50&7: 3 arrows",
+   "&a100&7: 4 arrows  &a250&7: 5 arrows"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Hurricane Bow",
+   "owner": "weapons",
+   "w": {
+    "hurricane": true
+   }
+  }
+ },
+ {
+  "id": "ICY_ARROW",
+  "name": "Icy Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 24,
+  "requirements": [
+   "skill:combat:21",
+   "collection:ICE:7"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Numbing Cold",
+   "&7Targets are slowed &8(Slowness I) &7for &a3s&7.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Icy Arrow",
+   "owner": "weapons",
+   "targetPractice": "II"
+  }
+ },
+ {
+  "id": "INK_WAND",
+  "name": "Ink Wand",
+  "material": "STICK",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 130,
+  "stats": {
+   "STRENGTH": 90
+  },
+  "npcSell": 10000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_ink_bomb",
+    "name": "Ink Burst",
+    "trigger": "RIGHT_CLICK",
+    "mana": 60,
+    "cooldown": 30,
+    "lore": [
+     "&7Lob a bomb of ink that bursts for",
+     "&c{damage} &7damage and blinds whatever",
+     "&7it splashes."
+    ],
+    "scaling": 0.3,
+    "damage": 10000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ink Wand",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "IRON_SWORD",
+  "name": "Iron Sword",
+  "material": "IRON_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 30,
+  "npcSell": 3,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Iron Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "JERRY_STAFF",
+  "name": "Jester-chine Gun",
+  "material": "GOLDEN_HORSE_ARMOR",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 80,
+  "stats": {
+   "INTELLIGENCE": 200
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_rapid_fire_jerry",
+    "name": "Rapid Fire",
+    "trigger": "RIGHT_CLICK",
+    "mana": 30,
+    "cooldown": 0,
+    "lore": [
+     "&7Fire a bouncing jester round for &c{damage}",
+     "&7damage. The recoil knocks you back.",
+     "&7Each shot costs &b+30 mana &7more than",
+     "&7the last until you stop for &a4s&7."
+    ],
+    "scaling": 0.2,
+    "damage": 500
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Jerry-chine Gun",
+   "owner": "weapons",
+   "abilityScaling": 0.2
+  }
+ },
+ {
+  "id": "LEAPING_SWORD",
+  "name": "Leaping Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 100,
+   "CRIT_DAMAGE": 25
+  },
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "npcSell": 375000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_leap",
+    "name": "Pounce",
+    "trigger": "RIGHT_CLICK",
+    "mana": 50,
+    "cooldown": 1,
+    "lore": [
+     "&7Spring into the air. On landing deal",
+     "&c{damage} &7damage to nearby foes and",
+     "&7freeze them for &a1s&7."
+    ],
+    "scaling": 0.3,
+    "damage": 350
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Leaping Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "MAGMA_ARROW",
+  "name": "Magma Arrow",
+  "material": "ARROW",
+  "rarity": "EPIC",
+  "category": "ARROW",
+  "damage": 40,
+  "stats": {
+   "CRIT_CHANCE": 10
+  },
+  "requirements": [
+   "skill:combat:25"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "lore": [
+   "&7Still smouldering from the forge.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Magma Arrow",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "MAGMA_BOW",
+  "name": "Magma Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "npcSell": 61000,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Cream Infusion",
+   "&7Each shot uses &6Magma Cream &7from your",
+   "&7inventory or quiver to deal &adouble",
+   "&7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Magma Bow",
+   "owner": "weapons",
+   "w": {
+    "infusion": {
+     "item": "MAGMA_CREAM",
+     "mult": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "MERCENARY_AXE",
+  "name": "Mercenary Sword",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 70,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "requirements": [
+   "skill:combat:4"
+  ],
+  "npcSell": 15000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Paid for in coin, swung for coin."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Mercenary Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "MIDAS_STAFF",
+  "name": "Gilded King's Staff",
+  "material": "GOLDEN_SHOVEL",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 130,
+  "stats": {
+   "STRENGTH": 150,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "dungeon_catacombs:25"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Avarice",
+   "&7Its bonus ability damage grows with",
+   "&7the price paid for it at the Shadow",
+   "&7Auction &8(max +26,000 at 100M coins)&7."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_molten_wave",
+    "name": "Golden Tide",
+    "trigger": "RIGHT_CLICK",
+    "mana": 500,
+    "cooldown": 1,
+    "lore": [
+     "&7Send a wave of molten gold rolling",
+     "&7ahead of you for up to &c{damage} &7damage."
+    ],
+    "damage": 12000,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Midas Staff",
+   "owner": "weapons",
+   "w": {
+    "greed": "staff"
+   },
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "MIDAS_SWORD",
+  "name": "Gilded King's Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 170,
+  "requirements": [
+   "skill:combat:20",
+   "dungeon_catacombs:17"
+  ],
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Avarice",
+   "&7Its bonus &c❁ Strength &7and &cDamage &7grow",
+   "&7with the price paid for it at the",
+   "&7Shadow Auction &8(max +120 at 50M coins)&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Midas' Sword",
+   "owner": "weapons",
+   "w": {
+    "greed": "sword"
+   }
+  }
+ },
+ {
+  "id": "MUSHROOM_COW_AXE",
+  "name": "Advanced Mooshroom Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Mooshrooms you kill with this drop &a2",
+   "&7extra: &fRed Mushroom, Leather&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Mooshroom Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "MOOSHROOM": {
+      "RED_MUSHROOM": 2,
+      "LEATHER": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "NANSORB_ARROW",
+  "name": "Skewer Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 5,
+  "requirements": [
+   "skill:combat:25",
+   "collection:CACTUS:7"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Skewer",
+   "&7When an arrow pierces, each further",
+   "&7victim takes &a+7.5% &7more than the last",
+   "&8(up to 5 victims)&7.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Nansorb Arrow",
+   "owner": "weapons",
+   "targetPractice": "III"
+  }
+ },
+ {
+  "id": "ORNATE_ZOMBIE_SWORD",
+  "name": "Ornate Zombie Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 110,
+  "stats": {
+   "STRENGTH": 60,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "gemSlots": [
+   "SAPPHIRE",
+   "RUBY"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_instant_heal_ornate",
+    "name": "Mend Flesh",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Heal &c420❤ &7and players within &a7",
+     "&7blocks for &c84❤&7.",
+     "&8Holds 5 charges; one returns every 15s."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ornate Zombie Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "PIGMAN_SWORD",
+  "name": "Pigman Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 100,
+   "CRIT_DAMAGE": 30,
+   "CRIT_CHANCE": 5,
+   "INTELLIGENCE": 300
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "npcSell": 3100000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_burning_souls",
+    "name": "Soul Pyre",
+    "trigger": "RIGHT_CLICK",
+    "mana": 400,
+    "cooldown": 5,
+    "lore": [
+     "&7Gain &a+75❈ Defense &7for &a5s &7and loose",
+     "&7a spiral of flame on nearby foes for",
+     "&7up to &c{damage} &7over &a5s&7."
+    ],
+    "scaling": 0.1,
+    "damage": 30000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Pigman Sword",
+   "owner": "weapons",
+   "abilityScaling": 0.1
+  }
+ },
+ {
+  "id": "PIG_AXE",
+  "name": "Advanced Pig Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Pigs you kill with this drop &a2",
+   "&7extra: &fRaw Porkchop&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Pig Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "PIG": {
+      "PORKCHOP": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "POLYMORPH_WAND",
+  "name": "Polymorph Wand",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "npcSell": 64000,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "lore": [
+   "&7Its spell was never finished."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Polymorph Wand",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "PRISMARINE_BLADE",
+  "name": "Prismarine Blade",
+  "material": "PRISMARINE_SHARD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 25
+  },
+  "npcSell": 160,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7While you are in water this blade",
+   "&7hits &a+200% &7harder."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Prismarine Blade",
+   "owner": "weapons",
+   "w": {
+    "water": 200
+   }
+  }
+ },
+ {
+  "id": "PRISMARINE_BOW",
+  "name": "Prismarine Bow",
+  "material": "BOW",
+  "rarity": "UNCOMMON",
+  "category": "BOW",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 25
+  },
+  "npcSell": 120,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Shard Infusion",
+   "&7Each shot uses a &bPrismarine Shard &7from",
+   "&7your inventory or quiver: the arrow",
+   "&7can hurt sea creatures and deals &a+300%",
+   "&7to squids and guardians."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Prismarine Bow",
+   "owner": "weapons",
+   "w": {
+    "infusion": {
+     "item": "PRISMARINE_SHARD",
+     "mult": 4,
+     "vs": "squid"
+    }
+   }
+  }
+ },
+ {
+  "id": "RABBIT_AXE",
+  "name": "Advanced Rabbit Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Rabbits you kill with this drop &a2",
+   "&7extra: &fRaw Rabbit, Rabbit Hide, Rabbit's Foot&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Rabbit Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "RABBIT": {
+      "RABBIT": 2,
+      "RABBIT_HIDE": 2,
+      "RABBIT_FOOT": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "RAGNAROCK_AXE",
+  "name": "Doomrock Axe",
+  "material": "GOLDEN_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 5000,
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_ragnarock",
+    "name": "Doomcall",
+    "trigger": "RIGHT_CLICK",
+    "mana": 500,
+    "cooldown": 20,
+    "lore": [
+     "&7Begin channelling. Go &a3s &7without being",
+     "&7hit and this weapon's &c❁ Strength &7is",
+     "&7multiplied by &a1.5x &7for &a10s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ragnarock",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "RAIDER_AXE",
+  "name": "Raider Sword",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 80,
+  "stats": {
+   "STRENGTH": 50
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Monster kills pay &6+20 coins &7once",
+   "&7you reach &aCombat 10&7.",
+   "&7Gains &c+1 &7Damage per &a500 &7kills",
+   "&8(up to +35)&7.",
+   "&7Gains &c+1❁ Strength &7per &a500 &7logs in",
+   "&7your wood collections &8(up to +100)&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Raider Sword",
+   "owner": "weapons",
+   "w": {
+    "raider": true
+   }
+  }
+ },
+ {
+  "id": "REDSTONE_TIPPED_ARROW",
+  "name": "Redstone-tipped Arrow",
+  "material": "ARROW",
+  "rarity": "UNCOMMON",
+  "category": "ARROW",
+  "damage": 15,
+  "requirements": [
+   "skill:combat:13"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "lore": [
+   "&7Its tip hums with redstone.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Redstone-tipped Arrow",
+   "owner": "weapons",
+   "targetPractice": "I"
+  }
+ },
+ {
+  "id": "REINFORCED_IRON_ARROW",
+  "name": "Reinforced Iron Arrow",
+  "material": "ARROW",
+  "rarity": "COMMON",
+  "category": "ARROW",
+  "damage": 5,
+  "requirements": [
+   "skill:combat:4"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "lore": [
+   "&7An iron-banded shaft.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Reinforced Iron Arrow",
+   "owner": "weapons",
+   "targetPractice": "I"
+  }
+ },
+ {
+  "id": "ROGUE_SWORD",
+  "name": "Rogue Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "npcSell": 3,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "soulbound"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_speed_boost",
+    "name": "Quickstep",
+    "trigger": "RIGHT_CLICK",
+    "mana": 41,
+    "cooldown": 5,
+    "lore": [
+     "&7Gain &f+100✦ Speed &7for &a30s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Rogue Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "RUNAANS_BOW",
+  "name": "Trinity Bow",
+  "material": "BOW",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 160,
+  "stats": {
+   "STRENGTH": 50
+  },
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "npcSell": 86000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Three-fold",
+   "&7Every shot looses &a3 &7arrows. The two",
+   "&7extra arrows deal &a40% &7damage and",
+   "&7seek out targets."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Runaan's Bow",
+   "owner": "weapons",
+   "w": {
+    "arrows": 3,
+    "extraPct": 0.4,
+    "homing": true
+   }
+  }
+ },
+ {
+  "id": "SAVANA_BOW",
+  "name": "Savanna Bow",
+  "material": "BOW",
+  "rarity": "UNCOMMON",
+  "category": "BOW",
+  "damage": 50,
+  "npcSell": 500,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Every hit from this bow deals",
+   "&adouble &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Savanna Bow",
+   "owner": "weapons",
+   "w": {
+    "mult": 2
+   }
+  }
+ },
+ {
+  "id": "SHEEP_AXE",
+  "name": "Advanced Sheep Axe",
+  "material": "STONE_AXE",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "requirements": [
+   "skill:farming:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Sheep you kill with this drop &a2",
+   "&7extra: &fWhite Wool, Raw Mutton&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Advanced Sheep Axe",
+   "owner": "weapons",
+   "w": {
+    "animalDrops": {
+     "SHEEP": {
+      "WHITE_WOOL": 2,
+      "MUTTON": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "SILK_EDGE_SWORD",
+  "name": "Silk-Edge Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 175,
+  "stats": {
+   "STRENGTH": 125,
+   "CRIT_DAMAGE": 25
+  },
+  "requirements": [
+   "dungeon_catacombs:13"
+  ],
+  "npcSell": 375000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_leap_silk",
+    "name": "Pounce",
+    "trigger": "RIGHT_CLICK",
+    "mana": 50,
+    "cooldown": 1,
+    "lore": [
+     "&7Spring into the air. On landing deal",
+     "&c{damage} &7damage to nearby foes and",
+     "&7freeze them for &a1s&7."
+    ],
+    "scaling": 0.3,
+    "damage": 400
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Silk-Edge Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "SLIME_BOW",
+  "name": "Slime Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 100,
+  "stats": {
+   "CRIT_DAMAGE": 50
+  },
+  "npcSell": 960000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Gel Infusion",
+   "&7Each shot uses a &aSlimeball &7from your",
+   "&7inventory or quiver to deal &a5x &7damage",
+   "&7to slimes and magma cubes."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Slime Bow",
+   "owner": "weapons",
+   "w": {
+    "infusion": {
+     "item": "SLIME_BALL",
+     "mult": 5,
+     "vs": "slime"
+    }
+   }
+  }
+ },
+ {
+  "id": "SOULS_REBOUND",
+  "name": "Souls Rebound",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 450,
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Arrows brand what they hit for &a5s&7.",
+   "&7Branded foes take nothing at first;",
+   "&7when the brand fades they take every",
+   "&7bit of it at once, &a+10%&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Souls Rebound",
+   "owner": "weapons",
+   "w": {
+    "mark": 5
+   }
+  }
+ },
+ {
+  "id": "SOUL_WHIP",
+  "name": "Soul Whip",
+  "material": "FISHING_ROD",
+  "rarity": "EPIC",
+  "category": "FISHING_WEAPON",
+  "damage": 145,
+  "stats": {
+   "STRENGTH": 175
+  },
+  "requirements": [
+   "dungeon_catacombs:23",
+   "skill:fishing:26"
+  ],
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a2x &7damage to &3sea-creature &7foes."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_flay",
+    "name": "Lash",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Crack the whip in a wide arc, hitting",
+     "&7everything in its path with your",
+     "&7melee damage."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Soul Whip",
+   "owner": "weapons",
+   "w": {
+    "vsMult": {
+     "sea_creature": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "SPIDER_QUEENS_STINGER",
+  "name": "Spider Queen's Stinger",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 360,
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Arrows carry a venom cloud that hits",
+   "&7everything near their path for the",
+   "&7bow's damage, and fly straight",
+   "&7through enemies."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spider Queen's Stinger",
+   "owner": "weapons",
+   "w": {
+    "aura": 2.0,
+    "pierce": 5
+   }
+  }
+ },
+ {
+  "id": "SPIDER_SWORD",
+  "name": "Spider Sword",
+  "material": "IRON_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 30,
+  "npcSell": 5,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cspider-kin &7foes deal &a+100% &7damage.",
+   "&8Woven with spider silk."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spider Sword",
+   "owner": "weapons",
+   "w": {
+    "vs": {
+     "arthropod": 100
+    }
+   }
+  }
+ },
+ {
+  "id": "SQUIRE_SWORD",
+  "name": "Squire Sword",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 10
+  },
+  "requirements": [
+   "skill:combat:4"
+  ],
+  "npcSell": 2500,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Standard issue for new recruits."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Squire Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "STAFF_OF_THE_VOLCANO",
+  "name": "Staff of the Volcano",
+  "material": "WHEAT",
+  "rarity": "RARE",
+  "category": "WAND",
+  "damage": 60,
+  "stats": {
+   "INTELLIGENCE": 150
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_volcano_explode",
+    "name": "Eruption",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 30,
+    "lore": [
+     "&7Pay &c1,000❤ &7to erupt, dealing &c{damage}",
+     "&7damage and setting every mob within",
+     "&a4 blocks &7on fire."
+    ],
+    "scaling": 0.3,
+    "damage": 24000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Staff of the Volcano",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "STARLIGHT_WAND",
+  "name": "Starlight Wand",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "WAND",
+  "requirements": [
+   "skill:combat:8"
+  ],
+  "npcSell": 15000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_starfall",
+    "name": "Starfall",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 2,
+    "lore": [
+     "&7Rain stars on a &a3 block &7area for &a5s&7,",
+     "&7dealing &c{damage} &7damage each second to",
+     "&7anything inside."
+    ],
+    "scaling": 0.3,
+    "damage": 300
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Starlight Wand",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "STONE_SWORD",
+  "name": "Stone Sword",
+  "material": "STONE_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 25,
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Stone Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "SULPHUR_BOW",
+  "name": "Sulphur Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 185700,
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&6Passive: Powder Infusion",
+   "&7Each shot uses &7Gunpowder &7from your",
+   "&7inventory or quiver to deal &adouble",
+   "&7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sulphur Bow",
+   "owner": "weapons",
+   "w": {
+    "infusion": {
+     "item": "SULPHUR",
+     "mult": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "SWORD_OF_BAD_HEALTH",
+  "name": "Sword of Bad Health",
+  "material": "WOODEN_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 50,
+   "CRIT_DAMAGE": 50
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 4000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_bad_health",
+    "name": "Blood Price",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 5,
+    "lore": [
+     "&7Pay &c100❤ &7and gain &c+5❁ Strength &7for",
+     "&7every &a5% &7of your health you still",
+     "&7have, for &a5s &8(max +100)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sword of Bad Health",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "SWORD_OF_REVELATIONS",
+  "name": "Sword of Revelations",
+  "material": "WOODEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 180,
+  "stats": {
+   "STRENGTH": 50
+  },
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a1.5x &7damage to &2mythic &7foes.",
+   "&7Grants &b+5✯ Magic Find &7on &2mythic &7foes."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sword of Revelations",
+   "owner": "weapons",
+   "w": {
+    "vsMult": {
+     "mythological": 1.5
+    },
+    "mfVs": {
+     "mythological": 5
+    }
+   }
+  }
+ },
+ {
+  "id": "TACTICIAN_SWORD",
+  "name": "Tactician's Sword",
+  "material": "WOODEN_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 50,
+  "stats": {
+   "CRIT_CHANCE": 20
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Gains &c+15 &7Damage for every",
+   "&7Combat collection you have pushed",
+   "&7to tier &eVII &7or beyond &8(11 in total)&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Tactician's Sword",
+   "owner": "weapons",
+   "w": {
+    "tactician": true
+   }
+  }
+ },
+ {
+  "id": "TOXIC_ARROW_POISON",
+  "name": "Toxic Arrow Poison",
+  "material": "LIME_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 2000,
+  "tags": [
+   "arrow_poison"
+  ],
+  "lore": [
+   "&7Used up as you shoot.",
+   "&7Arrows deal an extra &a10% &7of their",
+   "&7damage as poison."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Toxic Arrow Poison",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "TRIBAL_SPEAR",
+  "name": "Tribal Spear",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "stats": {
+   "STRENGTH": 100
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_thwack",
+    "name": "Boomerang Throw",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Hurl the spear like an arrow; it",
+     "&7strikes for your melee damage and",
+     "&7flies back to your hand."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Tribal Spear",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "TWILIGHT_ARROW_POISON",
+  "name": "Dusk Arrow Poison",
+  "material": "PURPLE_DYE",
+  "rarity": "UNCOMMON",
+  "category": "MATERIAL",
+  "npcSell": 650,
+  "tags": [
+   "arrow_poison"
+  ],
+  "lore": [
+   "&7Used up as you shoot.",
+   "&7Struck foes take &a1.1x &7damage from",
+   "&7everything for &a20s&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Twilight Arrow Poison",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "UNDEAD_SWORD",
+  "name": "Undead Sword",
+  "material": "IRON_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 30,
+  "npcSell": 5,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+100% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Undead Sword",
+   "owner": "weapons",
+   "w": {
+    "vs": {
+     "undead": 100
+    }
+   }
+  }
+ },
+ {
+  "id": "VENOMOUS_SWORD",
+  "name": "Venomous Sword",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 30,
+  "npcSell": 20,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Its edge still glistens with venom."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Venomous Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "VENOMS_TOUCH",
+  "name": "Venom's Touch",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 250,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "npcSell": 5000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Looses a fan of &a5 &7arrows at once.",
+   "&7Struck foes are poisoned for &a3s&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Venom's Touch",
+   "owner": "weapons",
+   "w": {
+    "volley": 5
+   }
+  }
+ },
+ {
+  "id": "VOIDWALKER_KATANA",
+  "name": "Voidwalker Katana",
+  "material": "BLAZE_ROD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 105,
+  "stats": {
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 15
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &5Enderman &7foes deal &a+150% &7damage.",
+   "&7Take &a3% &7less damage from &5Enderman &7foes",
+   "&7while you hold it."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Voidwalker Katana",
+   "owner": "weapons",
+   "w": {
+    "vs": {
+     "enderman": 150
+    },
+    "lessFrom": {
+     "enderman": 3
+    }
+   }
+  }
+ },
+ {
+  "id": "VOID_SWORD",
+  "name": "Void Sword",
+  "material": "DIAMOND_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 125,
+  "requirements": [
+   "dungeon_catacombs:8"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "soulbound"
+  ],
+  "lore": [
+   "&7Gain &c+20❁ Strength &7for each piece",
+   "&7of Ender armor you wear."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Void Sword",
+   "owner": "weapons",
+   "w": {
+    "voidSword": 20
+   }
+  }
+ },
+ {
+  "id": "WAND_OF_RECALL",
+  "name": "Wand of Recall",
+  "material": "IRON_HOE",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_recall",
+    "name": "Recall",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 60,
+    "lore": [
+     "&7Return to your island's home."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Recall",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "WAND_OF_STRENGTH",
+  "name": "Wand of Strength",
+  "material": "STICK",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 20
+  },
+  "requirements": [
+   "skill:combat:22"
+  ],
+  "npcSell": 10000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_life_blood",
+    "name": "Blood Pact",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Spend &c10% &7of your max health to give",
+     "&7nearby allies &c+30❁ Strength &7for &a10s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Strength",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "WITHER_BOW",
+  "name": "Wither Bow",
+  "material": "BOW",
+  "rarity": "UNCOMMON",
+  "category": "BOW",
+  "damage": 30,
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+100% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wither Bow",
+   "owner": "weapons",
+   "w": {
+    "vs": {
+     "wither": 100
+    }
+   }
+  }
+ },
+ {
+  "id": "WOOD_SWORD",
+  "name": "Wooden Sword",
+  "material": "WOODEN_SWORD",
+  "rarity": "COMMON",
+  "category": "SWORD",
+  "damage": 20,
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable",
+   "vanilla"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wooden Sword",
+   "owner": "weapons"
+  }
+ },
+ {
+  "id": "YETI_SWORD",
+  "name": "Yeti Sword",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 170,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "dungeon_catacombs:22"
+  ],
+  "gemSlots": [
+   "SAPPHIRE",
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_terrain_toss",
+    "name": "Boulder Heave",
+    "trigger": "RIGHT_CLICK",
+    "mana": 250,
+    "cooldown": 1,
+    "lore": [
+     "&7Rip up a chunk of ground and hurl it",
+     "&7forward for up to &c{damage} &7damage."
+    ],
+    "scaling": 0.3,
+    "damage": 15000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Yeti Sword",
+   "owner": "weapons",
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "ZOMBIE_SWORD",
+  "name": "Zombie Sword",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 50,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "npcSell": 300000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_instant_heal",
+    "name": "Mend Flesh",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Heal &c320❤ &7and players within &a7",
+     "&7blocks for &c64❤&7.",
+     "&8Holds 4 charges; one returns every 15s."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Zombie Sword",
+   "owner": "weapons"
+  }
+ }
+]

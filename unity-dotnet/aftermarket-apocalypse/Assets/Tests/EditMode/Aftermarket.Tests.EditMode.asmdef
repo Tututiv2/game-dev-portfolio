@@ -1,0 +1,30 @@
+{
+    "name": "Aftermarket.Tests.EditMode",
+    "rootNamespace": "",
+    "references": [
+        "Aftermarket.Runtime",
+        "Aftermarket.Editor",
+        "Unity.ProBuilder",
+        "Unity.AI.Navigation",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

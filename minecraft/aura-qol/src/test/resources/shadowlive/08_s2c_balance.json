@@ -1,0 +1,18 @@
+{
+ "direction": "s2c",
+ "type": 5,
+ "name": "BALANCE",
+ "fields": {
+  "balanceCents": 98765432100,
+  "extras": [
+   {
+    "key": "btc",
+    "display": "0.0123 BTC"
+   },
+   {
+    "key": "ltc",
+    "display": "4.5 LTC"
+   }
+  ]
+ }
+}

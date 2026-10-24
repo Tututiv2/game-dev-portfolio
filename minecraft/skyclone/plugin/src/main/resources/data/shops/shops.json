@@ -1,0 +1,9786 @@
+[
+ {
+  "id": "farm_merchant",
+  "name": "&fFarm Merchant",
+  "island": "hub",
+  "anchor": "npc.farm_merchant",
+  "mode": "contract",
+  "category": "Farming",
+  "icon": "WHEAT",
+  "greeting": [
+   "Fresh from the fields this morning!",
+   "Seeds, crops, a hoe if you need one. Have a look."
+  ],
+  "source": [
+   "FARM_MERCHANT_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM5MDM4NDQ4NzM5OThmZGNhOGY5NWMyM2IwNmUxMDk1NDk0ZmRmZjJjZjMzODI0YTVjNTYwZTQ2NTQyNzRmYyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIzYjY1ZTFhZjJkNzYyMWJhYWMxN2E2MzdhMzZmZjFkMiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTg0ODU0fQ==",
+  "entries": [
+   {
+    "item": "WHEAT",
+    "alts": [
+     "@WHEAT"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "CARROT_ITEM",
+    "alts": [
+     "@CARROT"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "POTATO_ITEM",
+    "alts": [
+     "@POTATO"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "MELON",
+    "alts": [
+     "@MELON_SLICE",
+     "@MELON"
+    ],
+    "amount": 10,
+    "coins": 20.0
+   },
+   {
+    "item": "SUGAR_CANE",
+    "alts": [
+     "@SUGAR_CANE"
+    ],
+    "amount": 3,
+    "coins": 15.0
+   },
+   {
+    "item": "PUMPKIN",
+    "alts": [
+     "@CARVED_PUMPKIN",
+     "@PUMPKIN"
+    ],
+    "amount": 1,
+    "coins": 8.0
+   },
+   {
+    "item": "INK_SACK:3",
+    "alts": [
+     "@COCOA_BEANS"
+    ],
+    "amount": 1,
+    "coins": 7.0
+   },
+   {
+    "item": "RED_MUSHROOM",
+    "alts": [
+     "@RED_MUSHROOM"
+    ],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "BROWN_MUSHROOM",
+    "alts": [
+     "@BROWN_MUSHROOM"
+    ],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "SAND",
+    "alts": [
+     "@SAND"
+    ],
+    "amount": 2,
+    "coins": 8.0
+   },
+   {
+    "item": "CACTUS",
+    "alts": [
+     "@CACTUS"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "ENCHANTED_BONE_MEAL",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0
+   },
+   {
+    "item": "ROOKIE_HOE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0
+   }
+  ]
+ },
+ {
+  "id": "mine_merchant",
+  "name": "&fMine Merchant",
+  "island": "hub",
+  "anchor": "npc.mine_merchant",
+  "mode": "contract",
+  "category": "Mining",
+  "icon": "IRON_PICKAXE",
+  "greeting": [
+   "Heading down the coal mine? You'll want a proper pick.",
+   "I'll buy back whatever you dig up, too."
+  ],
+  "source": [
+   "MINE_MERCHANT_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4OTkwNjU2NDkyZDcyMmE4ZWE4OTZiODE2ZDAxOTExMzY4YjM4N2EyYWM0YmM3NGY3MGEwYWVkZDdlYjdmOCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIzZTUzZjdmZmQxMjkyY2ZjOTQyMGJmNjI0ZGI2ZjhhZiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3ODIwMjMyfQ==",
+  "entries": [
+   {
+    "item": "COAL",
+    "alts": [],
+    "amount": 2,
+    "coins": 8.0
+   },
+   {
+    "item": "IRON_INGOT",
+    "alts": [],
+    "amount": 4,
+    "coins": 22.0
+   },
+   {
+    "item": "GOLD_INGOT",
+    "alts": [],
+    "amount": 2,
+    "coins": 12.0
+   },
+   {
+    "item": "ROOKIE_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "PROMISING_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 35.0
+   },
+   {
+    "item": "GOLD_PICKAXE",
+    "alts": [
+     "@GOLDEN_PICKAXE"
+    ],
+    "amount": 1,
+    "items": [
+     {
+      "item": "GOLD_INGOT",
+      "alts": [],
+      "amount": 3
+     }
+    ]
+   },
+   {
+    "item": "TORCH",
+    "alts": [
+     "@TORCH"
+    ],
+    "amount": 32,
+    "coins": 16.0
+   },
+   {
+    "item": "GRAVEL",
+    "alts": [
+     "@GRAVEL"
+    ],
+    "amount": 2,
+    "coins": 12.0
+   },
+   {
+    "item": "COBBLESTONE",
+    "alts": [
+     "@COBBLESTONE"
+    ],
+    "amount": 1,
+    "coins": 3.0
+   },
+   {
+    "item": "STONE",
+    "alts": [
+     "@STONE"
+    ],
+    "amount": 2,
+    "coins": 4.0
+   },
+   {
+    "item": "ONYX",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "BEGINNER_MINING_SACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 250.0
+   }
+  ]
+ },
+ {
+  "id": "lumber_merchant",
+  "name": "&fLumber Merchant",
+  "island": "hub",
+  "anchor": "npc.lumber_merchant",
+  "mode": "contract",
+  "category": "Foraging",
+  "icon": "OAK_LOG",
+  "greeting": [
+   "Every log in this town passed through my hands.",
+   "Axes, logs, the odd wooden tool. Take your pick."
+  ],
+  "source": [
+   "LUMBER_MERCHANT_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M0ZjFiZWZhMDJiMDlmYTM0OWYwMjk4NmZiNGY0YjUyMGNiODFhMGM1MmZmYmI1YmRkZDA3NDBiMGYwMzBmNSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJiMzEzYWQ3NmM1MDUyOWIwOTZiYmVjNThiOTRiZGM4NyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MDc2MjM0fQ==",
+  "entries": [
+   {
+    "item": "LOG",
+    "alts": [
+     "@OAK_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "LOG:2",
+    "alts": [
+     "@BIRCH_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "LOG:1",
+    "alts": [
+     "@SPRUCE_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "LOG_2:1",
+    "alts": [
+     "@DARK_OAK_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "LOG_2",
+    "alts": [
+     "@ACACIA_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "LOG:3",
+    "alts": [
+     "@JUNGLE_LOG"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "ROOKIE_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "PROMISING_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 35.0
+   },
+   {
+    "item": "DIRT:2",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "SWEET_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "EFFICIENT_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "WOOD_SWORD",
+    "alts": [
+     "@WOODEN_SWORD"
+    ],
+    "amount": 1,
+    "coins": 5.0
+   },
+   {
+    "item": "WOOD_PICKAXE",
+    "alts": [
+     "@WOODEN_PICKAXE"
+    ],
+    "amount": 1,
+    "coins": 5.0
+   },
+   {
+    "item": "WOOD_SPADE",
+    "alts": [
+     "WOODEN_SHOVEL",
+     "@WOODEN_SHOVEL"
+    ],
+    "amount": 1,
+    "coins": 5.0
+   },
+   {
+    "item": "WOOD_HOE",
+    "alts": [
+     "@WOODEN_HOE"
+    ],
+    "amount": 1,
+    "coins": 5.0
+   },
+   {
+    "item": "WOOD_AXE",
+    "alts": [
+     "@WOODEN_AXE"
+    ],
+    "amount": 1,
+    "coins": 5.0
+   }
+  ]
+ },
+ {
+  "id": "fish_merchant",
+  "name": "&fFish Merchant",
+  "island": "hub",
+  "anchor": "npc.fish_merchant",
+  "mode": "contract",
+  "category": "Fishing",
+  "icon": "FISHING_ROD",
+  "greeting": [
+   "The pond's been generous today.",
+   "A rod, some bait and a full angler's kit, all here."
+  ],
+  "source": [
+   "FISH_MERCHANT_NPC",
+   "FISHING_MERCHANT_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJjNGVlMDQ3OWI5MDFmMTc3YzI4Njg5NWRhMzEwYTgwNmRmZTg5N2M5YTg2NzhiOWRlODhhYmJiMWJmZjRiMSJ9fX0=",
+  "entries": [
+   {
+    "item": "FISHING_ROD",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "DIAMOND_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "MINNOW_BAIT",
+    "alts": [],
+    "amount": 1,
+    "coins": 15.0
+   },
+   {
+    "item": "ANGLER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_NECKLACE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_CLOAK",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_BRACELET",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ANGLER_BELT",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "RAW_FISH",
+    "alts": [
+     "@COD"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   }
+  ]
+ },
+ {
+  "id": "weaponsmith",
+  "name": "&fWeaponsmith",
+  "island": "hub",
+  "anchor": "npc.weaponsmith",
+  "mode": "contract",
+  "category": "Combat",
+  "icon": "IRON_SWORD",
+  "greeting": [
+   "Every blade on this rack has seen a graveyard or two.",
+   "Pick one that fits your hand."
+  ],
+  "source": [
+   "WEAPONSMITH_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYzZjdhNjljOWE3YWQ5NWU5MGYyMTJkYTMwNDk5MGM4YmUzNmU5MzE5N2RiODc0YzJiMGZlMDgxMDZlMzIzYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1MmVlYTA2M2QzYWIyMTQwYTkxNDRkMzI0YWNkOTc2NCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTAzMTAwfQ==",
+  "entries": [
+   {
+    "item": "UNDEAD_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "END_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 150.0
+   },
+   {
+    "item": "SPIDER_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "DIAMOND_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 60.0
+   },
+   {
+    "item": "ROGUE_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "ARROW",
+    "alts": [],
+    "amount": 1,
+    "coins": 40.0
+   },
+   {
+    "item": "WITHER_BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 250.0
+   },
+   {
+    "item": "ARTISANAL_SHORTBOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 600.0
+   }
+  ]
+ },
+ {
+  "id": "armorsmith",
+  "name": "&fArmorsmith Brenna",
+  "island": "hub",
+  "anchor": "npc.armorsmith",
+  "mode": "contract",
+  "category": "Combat",
+  "icon": "IRON_CHESTPLATE",
+  "greeting": [
+   "Brenna's the name, plate is the game.",
+   "From plain iron to sets fit for a knight - I hammered them all."
+  ],
+  "source": [
+   "ROSETTA_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEwMzA3M2Y3MTZmZmQzNzE4ODJkOTRiYTVhZjBlNWU1YzBkMzc2MTljNGExZGJhNTk5NmFmZDczMjI1ODczYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYTRhZWI2OTM0YmEyMWQxOGM5ZTgxMzI1M2Q2MDNkNyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTExNTgzfQ==",
+  "entries": [
+   {
+    "item": "IRON_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 15.0
+   },
+   {
+    "item": "IRON_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "IRON_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "IRON_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "ROSETTA_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 1050.0
+   },
+   {
+    "item": "ROSETTA_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1320.0
+   },
+   {
+    "item": "ROSETTA_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 1200.0
+   },
+   {
+    "item": "ROSETTA_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 960.0
+   },
+   {
+    "item": "SQUIRE_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "SQUIRE_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 8000.0
+   },
+   {
+    "item": "SQUIRE_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 7000.0
+   },
+   {
+    "item": "SQUIRE_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 4000.0
+   },
+   {
+    "item": "SQUIRE_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "MERCENARY_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 35000.0
+   },
+   {
+    "item": "MERCENARY_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 70000.0
+   },
+   {
+    "item": "MERCENARY_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 45000.0
+   },
+   {
+    "item": "MERCENARY_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 30000.0
+   },
+   {
+    "item": "MERCENARY_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 30000.0
+   },
+   {
+    "item": "CELESTE_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "CELESTE_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 8000.0
+   },
+   {
+    "item": "CELESTE_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 7000.0
+   },
+   {
+    "item": "CELESTE_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 4000.0
+   },
+   {
+    "item": "CELESTE_WAND",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "STARLIGHT_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 35000.0
+   },
+   {
+    "item": "STARLIGHT_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 70000.0
+   },
+   {
+    "item": "STARLIGHT_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 45000.0
+   },
+   {
+    "item": "STARLIGHT_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 30000.0
+   },
+   {
+    "item": "STARLIGHT_WAND",
+    "alts": [],
+    "amount": 1,
+    "coins": 30000.0
+   }
+  ]
+ },
+ {
+  "id": "adventurer",
+  "name": "&fAdventurer",
+  "island": "hub",
+  "anchor": "npc.adventurer",
+  "mode": "contract",
+  "category": "Combat",
+  "icon": "BONE",
+  "greeting": [
+   "I've cleared every crypt from here to the ruins.",
+   "Mob drops and a few lucky charms - interested?"
+  ],
+  "source": [
+   "ADVENTURER_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQzNGYzOGMxYmIxMDZlMTE5MDhhZDNjYzkwMTYyYzE4Yjg2M2Q2NzgyNjVjODRhODRhMzU4OTAzZjhmN2ExYyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2MGViODdlMjE3ZDIyMTA1YmZlZGFjMzJkZTVlMTM1OCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzg0OTQzODA1Nzc0fQ==",
+  "entries": [
+   {
+    "item": "ROTTEN_FLESH",
+    "alts": [],
+    "amount": 1,
+    "coins": 8.0
+   },
+   {
+    "item": "BONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 8.0
+   },
+   {
+    "item": "STRING",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "SLIME_BALL",
+    "alts": [],
+    "amount": 1,
+    "coins": 14.0
+   },
+   {
+    "item": "SULPHUR",
+    "alts": [
+     "@GUNPOWDER"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "ZOMBIE_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 500.0
+   },
+   {
+    "item": "SKELETON_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 500.0
+   },
+   {
+    "item": "VILLAGE_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0
+   },
+   {
+    "item": "MINE_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0
+   },
+   {
+    "item": "INTIMIDATION_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "SCAVENGER_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "BEGINNER_COMBAT_SACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 250.0
+   }
+  ]
+ },
+ {
+  "id": "builder",
+  "name": "&fBuilder",
+  "island": "hub",
+  "anchor": "npc.builder",
+  "mode": "contract",
+  "category": "Building",
+  "icon": "BRICKS",
+  "greeting": [
+   "An island is only as good as what you build on it.",
+   "Stone, wood, glass, colour - I stock the lot."
+  ],
+  "source": [],
+  "refIsland": null,
+  "discountAttr": "builder_discount",
+  "groups": [
+   {
+    "id": "stone",
+    "name": "Stone & Brick",
+    "icon": "STONE_BRICKS"
+   },
+   {
+    "id": "fancy",
+    "name": "Fancy Stone",
+    "icon": "QUARTZ_BLOCK"
+   },
+   {
+    "id": "wood",
+    "name": "Wood",
+    "icon": "OAK_PLANKS"
+   },
+   {
+    "id": "shapes",
+    "name": "Slabs & Stairs",
+    "icon": "OAK_STAIRS"
+   },
+   {
+    "id": "glass",
+    "name": "Glass & Light",
+    "icon": "GLASS"
+   },
+   {
+    "id": "colour",
+    "name": "Concrete",
+    "icon": "WHITE_CONCRETE"
+   },
+   {
+    "id": "nature",
+    "name": "Nature",
+    "icon": "GRASS_BLOCK"
+   },
+   {
+    "id": "decor",
+    "name": "Decoration",
+    "icon": "BOOKSHELF"
+   }
+  ],
+  "entries": [
+   {
+    "item": "@STONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@COBBLESTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@MOSSY_COBBLESTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@SMOOTH_STONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@STONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@MOSSY_STONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CRACKED_STONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CHISELED_STONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@ANDESITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_ANDESITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@DIORITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_DIORITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@GRANITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_GRANITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@MUD_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@COBBLED_DEEPSLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_DEEPSLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@DEEPSLATE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@DEEPSLATE_TILES",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@TUFF",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@TUFF_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CALCITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CUT_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@SMOOTH_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CHISELED_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@RED_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@CUT_RED_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@SMOOTH_RED_SANDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "stone",
+    "tune": true
+   },
+   {
+    "item": "@QUARTZ_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@QUARTZ_PILLAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@CHISELED_QUARTZ_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@QUARTZ_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@SMOOTH_QUARTZ",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@PRISMARINE",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@PRISMARINE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@DARK_PRISMARINE",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@NETHER_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@RED_NETHER_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@BLACKSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_BLACKSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_BLACKSTONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@END_STONE_BRICKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@PURPUR_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@PURPUR_PILLAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@PACKED_MUD",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@TERRACOTTA",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@BASALT",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@POLISHED_BASALT",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "fancy",
+    "tune": true
+   },
+   {
+    "item": "@OAK_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@JUNGLE_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@ACACIA_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@DARK_OAK_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@MANGROVE_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@CHERRY_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@PALE_OAK_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@BAMBOO_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@BAMBOO_MOSAIC",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@CRIMSON_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@WARPED_PLANKS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_OAK_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_SPRUCE_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_BIRCH_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_JUNGLE_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_ACACIA_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_DARK_OAK_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@STRIPPED_CHERRY_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@OAK_WOOD",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_WOOD",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_WOOD",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "wood",
+    "tune": true
+   },
+   {
+    "item": "@OAK_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@OAK_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@DARK_OAK_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@DARK_OAK_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@STONE_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@STONE_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@COBBLESTONE_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@COBBLESTONE_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@STONE_BRICK_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@STONE_BRICK_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@SMOOTH_STONE_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@SANDSTONE_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@SANDSTONE_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@BRICK_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@BRICK_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@DEEPSLATE_BRICK_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@DEEPSLATE_BRICK_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@QUARTZ_SLAB",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@QUARTZ_STAIRS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@COBBLESTONE_WALL",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@STONE_BRICK_WALL",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@BRICK_WALL",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "shapes",
+    "tune": true
+   },
+   {
+    "item": "@GLASS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@GLASS_PANE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@TINTED_GLASS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@TORCH",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@SOUL_TORCH",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@LANTERN",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@SOUL_LANTERN",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@SEA_LANTERN",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@GLOWSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@SHROOMLIGHT",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@END_ROD",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@REDSTONE_LAMP",
+    "alts": [],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@CANDLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@IRON_CHAIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@IRON_BARS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "glass",
+    "tune": true
+   },
+   {
+    "item": "@WHITE_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@LIGHT_GRAY_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@GRAY_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@BLACK_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@BROWN_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@RED_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@ORANGE_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@YELLOW_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@LIME_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@GREEN_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@CYAN_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@LIGHT_BLUE_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@BLUE_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@PURPLE_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@MAGENTA_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@PINK_CONCRETE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "colour",
+    "tune": true
+   },
+   {
+    "item": "@DIRT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@GRASS_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@COARSE_DIRT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@PODZOL",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@ROOTED_DIRT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@MUD",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@MOSS_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@MOSS_CARPET",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@CLAY",
+    "alts": [],
+    "amount": 1,
+    "coins": 15.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SAND",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@RED_SAND",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@GRAVEL",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SNOW_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@ICE",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@PACKED_ICE",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@OAK_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@JUNGLE_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@AZALEA_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@FLOWERING_AZALEA_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@CHERRY_LEAVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@OAK_SAPLING",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@BIRCH_SAPLING",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_SAPLING",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@CHERRY_SAPLING",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@POPPY",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@DANDELION",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@BLUE_ORCHID",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@ALLIUM",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@AZURE_BLUET",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@OXEYE_DAISY",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@CORNFLOWER",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@LILY_OF_THE_VALLEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SUNFLOWER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@LILAC",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@ROSE_BUSH",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@PEONY",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@SHORT_GRASS",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@FERN",
+    "alts": [],
+    "amount": 1,
+    "coins": 3.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@LILY_PAD",
+    "alts": [],
+    "amount": 1,
+    "coins": 13.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@VINE",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@GLOW_LICHEN",
+    "alts": [],
+    "amount": 1,
+    "coins": 2.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@PUMPKIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 13.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@CARVED_PUMPKIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 13.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@HAY_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0,
+    "group": "nature",
+    "tune": true
+   },
+   {
+    "item": "@BOOKSHELF",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@CHISELED_BOOKSHELF",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@FLOWER_POT",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@LADDER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SCAFFOLDING",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@OAK_FENCE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@OAK_FENCE_GATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_FENCE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@DARK_OAK_FENCE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@OAK_DOOR",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_DOOR",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@OAK_TRAPDOOR",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SPRUCE_TRAPDOOR",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@BARREL",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@CRAFTING_TABLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@FURNACE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SMOKER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@CAMPFIRE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@SOUL_CAMPFIRE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@ANVIL",
+    "alts": [],
+    "amount": 1,
+    "coins": 25.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@CAULDRON",
+    "alts": [],
+    "amount": 1,
+    "coins": 13.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@BELL",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@WHITE_BED",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@RED_BED",
+    "alts": [],
+    "amount": 1,
+    "coins": 7.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@WHITE_BANNER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@RED_BANNER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@LECTERN",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@LOOM",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@COMPOSTER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@BEEHIVE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   },
+   {
+    "item": "@DECORATED_POT",
+    "alts": [],
+    "amount": 1,
+    "coins": 5.0,
+    "group": "decor",
+    "tune": true
+   }
+  ]
+ },
+ {
+  "id": "bartender",
+  "name": "&fBartender",
+  "island": "hub",
+  "anchor": "npc.bartender",
+  "mode": "contract",
+  "category": "Combat",
+  "icon": "POTION",
+  "greeting": [
+   "What'll it be? Coffee keeps the slayers going.",
+   "Ask about the stronger stuff if you've the coin."
+  ],
+  "source": [
+   "BARTENDER_NPC"
+  ],
+  "refIsland": "hub",
+  "discountAttr": "bartender_discount",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVkZDhmMTZiMjAyYzQyYjNiNWFkNDU3ZDQzNmNjNjM5OTUyMTA3ZTM2MWFiMWU2MWI5MTY4OWU0MGM3OGJlNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJjYTgxNzdkNzJhYmQyYmEwOTVlOTJkMjI2MGQ2NTg2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTM5ODExfQ==",
+  "entries": [
+   {
+    "item": "CHEAP_COFFEE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0
+   },
+   {
+    "item": "TEPID_GREEN_TEA",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0
+   },
+   {
+    "item": "PULPOUS_ORANGE_JUICE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0
+   },
+   {
+    "item": "BITTER_ICE_TEA",
+    "alts": [],
+    "amount": 1,
+    "coins": 1200.0
+   },
+   {
+    "item": "KNOCKOFF_COLA",
+    "alts": [],
+    "amount": 1,
+    "coins": 1500.0
+   },
+   {
+    "item": "DECENT_COFFEE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "GENERATOR_UPGRADE_STONE_REVENANT_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "REVENANT_VISCERA",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "GENERATOR_UPGRADE_STONE_TARANTULA_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "TARANTULA_SILK",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "WOLF_FUR_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0,
+    "req": "slayer:wolf:8"
+   },
+   {
+    "item": "SPIDER_EGG_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0,
+    "req": "slayer:spider:8"
+   },
+   {
+    "item": "ZOMBIE_BRAIN_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0,
+    "req": "slayer:zombie:8"
+   },
+   {
+    "item": "END_PORTAL_FUMES_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0,
+    "req": "slayer:enderman:8"
+   },
+   {
+    "item": "GABAGOEY_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0,
+    "req": "slayer:blaze:8"
+   }
+  ]
+ },
+ {
+  "id": "librarian",
+  "name": "&fLibrarian",
+  "island": "hub",
+  "anchor": "npc.librarian",
+  "mode": "contract",
+  "category": "Enchanting",
+  "icon": "ENCHANTED_BOOK",
+  "greeting": [
+   "Shh - this is a library.",
+   "Bottles of experience and starter books, quietly sold."
+  ],
+  "source": [
+   "LIBRARIAN_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "entries": [
+   {
+    "item": "EXP_BOTTLE",
+    "alts": [
+     "EXPERIENCE_BOTTLE",
+     "@EXPERIENCE_BOTTLE"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "BOOK",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "ENCHANTMENT_SHARPNESS_1",
+    "alts": [
+     "SHARPNESS;1"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "ENCHANTMENT_SCAVENGER_1",
+    "alts": [
+     "SCAVENGER;1"
+    ],
+    "amount": 1,
+    "coins": 40.0
+   },
+   {
+    "item": "ENCHANTMENT_PROTECTION_1",
+    "alts": [
+     "PROTECTION;1"
+    ],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "ENCHANTMENT_FIRE_PROTECTION_1",
+    "alts": [
+     "FIRE_PROTECTION;1"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "ENCHANTMENT_PROJECTILE_PROTECTION_1",
+    "alts": [
+     "PROJECTILE_PROTECTION;1"
+    ],
+    "amount": 1,
+    "coins": 25.0
+   },
+   {
+    "item": "ENCHANTMENT_BANE_OF_ARTHROPODS_1",
+    "alts": [
+     "BANE_OF_ARTHROPODS;1"
+    ],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "ENCHANTMENT_SMITE_1",
+    "alts": [
+     "SMITE;1"
+    ],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "ENCHANTMENT_EFFICIENCY_1",
+    "alts": [
+     "EFFICIENCY;1"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   }
+  ]
+ },
+ {
+  "id": "alchemist",
+  "name": "&fAlchemist",
+  "island": "hub",
+  "anchor": "npc.alchemist",
+  "mode": "contract",
+  "category": "Alchemy",
+  "icon": "BREWING_STAND",
+  "greeting": [
+   "Careful with that bottle, it's still bubbling.",
+   "Ingredients for every brew you can name."
+  ],
+  "source": [
+   "ALCHEMIST_NPC"
+  ],
+  "refIsland": "hub",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNlNjYwNDE1N2ZjNGFiNTU5MWU0YmNmNTA3YTc0OTkxOGVlOWM0MWUzNTdkNDczNzZlMGVlNzM0MjA3NGM5MCJ9fX0",
+  "entries": [
+   {
+    "item": "NETHER_STALK",
+    "alts": [
+     "@NETHER_WART"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "BREWING_STAND_ITEM",
+    "alts": [
+     "@BREWING_STAND"
+    ],
+    "amount": 1,
+    "coins": 30.0
+   },
+   {
+    "item": "GLASS_BOTTLE",
+    "alts": [],
+    "amount": 8,
+    "coins": 50.0
+   },
+   {
+    "item": "POTION",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0
+   },
+   {
+    "item": "SUGAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0
+   },
+   {
+    "item": "RABBIT_FOOT",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "SPECKLED_MELON",
+    "alts": [
+     "@GLISTERING_MELON_SLICE"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "SPIDER_EYE",
+    "alts": [],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "BLAZE_POWDER",
+    "alts": [],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "GHAST_TEAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 200.0
+   },
+   {
+    "item": "MAGMA_CREAM",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "GOLDEN_CARROT",
+    "alts": [],
+    "amount": 1,
+    "coins": 30.0
+   }
+  ]
+ },
+ {
+  "id": "fletcher",
+  "name": "&fFletcher Quill",
+  "island": "hub",
+  "anchor": "npc.fletcher",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "ARROW",
+  "greeting": [
+   "Arrows, fletched by hand.",
+   "Bring me enchanted materials and I'll tip them with something nasty."
+  ],
+  "source": [
+   "JAX_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the archery range by the weaponsmith",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRiODUwMzIxNDYxMDZiMTlmMGJlZDA2Y2FhMDNhYjk5OWYwODA3OTY3NjgwNGU2ZTBkZjJmZjFkMjhlMmNiMSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyZTNkODA2NjliMTIyMDJiYTk1OWEwMjAxY2U2ZTI5NyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTI3MzgwfQ==",
+  "entries": [
+   {
+    "item": "ARROW_SWAPPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0
+   },
+   {
+    "item": "ARROW",
+    "alts": [],
+    "amount": 64,
+    "coins": 320.0
+   },
+   {
+    "item": "REINFORCED_IRON_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_IRON",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_TIPPED_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "REDSTONE_TIPPED_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_REDSTONE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "EMERALD_TIPPED_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_EMERALD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "BOUNCY_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_SLIME_BALL",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "ICY_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_ICE",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "ARMORSHRED_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_SAND",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "EXPLOSIVE_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_GUNPOWDER",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "GLUE_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_STRING",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "NANSORB_ARROW",
+    "alts": [],
+    "amount": 64,
+    "items": [
+     {
+      "item": "ENCHANTED_CACTUS_GREEN",
+      "alts": [],
+      "amount": 7
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gravedigger",
+  "name": "&fGravedigger Sexby",
+  "island": "hub",
+  "anchor": "npc.gravedigger",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "FLINT",
+  "greeting": [
+   "Digging graves turns up a lot of gravel.",
+   "And gravel turns up flint. Want some?"
+  ],
+  "source": [
+   "PAT_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the graveyard",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzOTZiMGFkMzUyYjI1MzExMzljOWRjNGNlZjlhMzIzNTBjN2NjMTRlZDdiY2ZjNTE4NWNlMTVhN2E3ZDVlYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyYTY2MDM2YjA1NjAyYTY2OTA3YjBmMzViMjcyNDIyYSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTM1MzkzfQ==",
+  "entries": [
+   {
+    "item": "GRAVEL",
+    "alts": [
+     "@GRAVEL"
+    ],
+    "amount": 15,
+    "coins": 65.0
+   },
+   {
+    "item": "FLINT",
+    "alts": [],
+    "amount": 10,
+    "coins": 60.0
+   }
+  ]
+ },
+ {
+  "id": "beekeeper",
+  "name": "&fBeekeeper Honora",
+  "island": "hub",
+  "anchor": "npc.beekeeper",
+  "mode": "secondary",
+  "category": "Pets",
+  "icon": "HONEYCOMB",
+  "greeting": [
+   "Mind the hive - they're friendly once they know you.",
+   "I'll even part with a bee of your own."
+  ],
+  "source": [
+   "BEA_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the village, near the flower house",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNjMzRiOWU1MWYzNTJkNmM2OWM4MjFhMWZjMjlmNTAwNTA5ODAzYTFlZWMwMjRjMzg3MDE1YjVjNDNjNzczYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJkNjExOThhNjRiZjIyMzdiYTVjZjEzZjkwMzVlMDRkNCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjE4NTAyfQ==",
+  "entries": [
+   {
+    "item": "BEE;0",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "SMALL_HONEY_DIPPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 500.0
+   },
+   {
+    "item": "MEDIUM_HONEY_DIPPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "LARGE_HONEY_DIPPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "GIANT_HONEY_DIPPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   }
+  ]
+ },
+ {
+  "id": "pet_supplies",
+  "name": "&fCritter Merchant Wex",
+  "island": "hub",
+  "anchor": "npc.pet_supplies",
+  "mode": "secondary",
+  "category": "Pets",
+  "icon": "BONE",
+  "greeting": [
+   "Treats, claws, teeth - everything a pet could want.",
+   "They gain levels faster with the right item."
+  ],
+  "source": [
+   "ZOG_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "next to the pet sitter",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiY2Y3M2E0NjAzYjVhYTU0OTFjZWZjMTU1Zjc3MGRlMWE4MjQ2NmE1ODUwNjA0YmE1ZWEyNDk4MGNiNTQ3OSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3ZTFmZmEwNDE1NmUyZjRmOWVmMWE3NmYwZTQ2ZTFhZCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjI3MDgyfQ==",
+  "entries": [
+   {
+    "item": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 60000.0
+   },
+   {
+    "item": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 60000.0
+   },
+   {
+    "item": "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 60000.0
+   },
+   {
+    "item": "PET_ITEM_MINING_SKILL_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 60000.0
+   },
+   {
+    "item": "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 60000.0
+   },
+   {
+    "item": "PET_ITEM_MINING_SKILL_BOOST_UNCOMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 250000.0
+   },
+   {
+    "item": "PET_ITEM_FARMING_SKILL_BOOST_RARE",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "PET_ITEM_BIG_TEETH_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 750000.0
+   },
+   {
+    "item": "PET_ITEM_IRON_CLAWS_COMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 750000.0
+   },
+   {
+    "item": "PET_ITEM_HARDENED_SCALES_UNCOMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "PET_ITEM_SHARPENED_CLAWS_UNCOMMON",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "PET_ITEM_BUBBLEGUM",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0
+   }
+  ]
+ },
+ {
+  "id": "aquarist",
+  "name": "&fMarlo the Aquarist",
+  "island": "hub",
+  "anchor": "npc.aquarist",
+  "mode": "secondary",
+  "category": "Fishing",
+  "icon": "TROPICAL_FISH",
+  "greeting": [
+   "My seals love fishy treats.",
+   "Bring me treats and I'll trade you something special."
+  ],
+  "source": [
+   "LUKAS_THE_AQUARIST_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "by the hub pond",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFhYmY3YjMwMGY3NDZmNGM0YTI4ZWFhMTMyODVmZGYxMjNlZGY2YTA5OGI4NmRhYjgxNTAxY2U2MDQ3YmQ1YyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmNGQ5NTNkMDUxMTAyZDdlOWVhYjdlZWI5YzdmNDRlMiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc3MDk4ODI5OTYzfQ==",
+  "entries": [
+   {
+    "item": "FROZEN_AMULET",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   },
+   {
+    "item": "SEAL_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "SEAL_RING",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SEAL_TALISMAN",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_TIDAL_1",
+    "alts": [
+     "TIDAL;1"
+    ],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "SEAL_TREAT_BAG",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "GENERATOR_UPGRADE_STONE_FISHING_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_COOKED_FISH",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   },
+   {
+    "item": "GENERATOR_UPGRADE_STONE_CLAY_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_CLAY_BLOCK",
+      "alts": [],
+      "amount": 8
+     },
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   },
+   {
+    "item": "SEAL_PERSONALITY",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "SEAL;0",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "SMALL_SEAL_PLUSHIE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "MEDIUM_SEAL_PLUSHIE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "LARGE_SEAL_PLUSHIE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   },
+   {
+    "item": "GIANT_SEAL_PLUSHIE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHY_TREAT",
+      "alts": [],
+      "amount": 512
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tailor",
+  "name": "&fTailor Fennimore",
+  "island": "hub",
+  "anchor": "npc.tailor",
+  "mode": "secondary",
+  "category": "Fashion",
+  "icon": "LEATHER_CHESTPLATE",
+  "greeting": [
+   "Only the finest suits leave my shop.",
+   "Fine tailoring has never been cheap."
+  ],
+  "source": [
+   "SEYMOUR_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "a fashion shop in the village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhhYWM0ZTYzMTM5OGMwZjQ3ZmU4NTYxNWU3ZjQ5MjE1NTAwMDQwYmI5MDgxOWQ1NjhlODI0YWNmOTRiZmE0ZSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI4ODcyOWRhOTA1ZmQyOGNjYmMyMDU0Njk2MGQyY2E2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjQ4NzYzfQ==",
+  "entries": [
+   {
+    "item": "CHEAP_TUXEDO_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "CHEAP_TUXEDO_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "CHEAP_TUXEDO_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "FANCY_TUXEDO_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 6666666.0
+   },
+   {
+    "item": "FANCY_TUXEDO_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6666666.0
+   },
+   {
+    "item": "FANCY_TUXEDO_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 6666666.0
+   },
+   {
+    "item": "ELEGANT_TUXEDO_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 24999999.0
+   },
+   {
+    "item": "ELEGANT_TUXEDO_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 24999999.0
+   },
+   {
+    "item": "ELEGANT_TUXEDO_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 24999999.0
+   }
+  ]
+ },
+ {
+  "id": "broker",
+  "name": "&fBroker Vell",
+  "island": "hub",
+  "anchor": "npc.broker",
+  "mode": "secondary",
+  "category": "Economy",
+  "icon": "GOLD_NUGGET",
+  "greeting": [
+   "Stocks for treasures, treasures for stocks.",
+   "A sharp trader always has a few shares to spend."
+  ],
+  "source": [
+   "LIZ_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "near the bank or the auction house",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1NjYyMGU0MGRkYjQ2MTM1NjgxODkwYTA0YTQ0ODhhNzAyMzBhNmNkYmVjM2FmZTMwN2QyZWFiYTU2YTdkZSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2NjYzMWE2MGM4OGUyNzU2OGI4ZDdhYjliNDYxNjU1YyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MTIyMjU3fQ==",
+  "entries": [
+   {
+    "item": "GOLDEN_BOUNTY",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "STOCK_OF_STONKS",
+      "alts": [],
+      "amount": 20
+     }
+    ]
+   },
+   {
+    "item": "AVARICIOUS_CHALICE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "STOCK_OF_STONKS",
+      "alts": [],
+      "amount": 50
+     }
+    ]
+   },
+   {
+    "item": "GOLDEN_FRAGMENT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "STOCK_OF_STONKS",
+      "alts": [],
+      "amount": 3
+     }
+    ]
+   },
+   {
+    "item": "FRESHLY_MINTED_COINS",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "STOCK_OF_STONKS",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "shady_dealer",
+  "name": "&fShady Malloy",
+  "island": "hub",
+  "anchor": "npc.shady_dealer",
+  "mode": "secondary",
+  "category": "Accessories",
+  "icon": "GOLD_INGOT",
+  "greeting": [
+   "Psst. Shops overcharge, everybody knows it.",
+   "Wear one of my rings and they'll knock a little off."
+  ],
+  "source": [
+   "LUCIUS_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the wilderness, near the dark auction",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkODk1MWNkMjA5NzY4ZGI1NzE1YmRjNDQzNjIxYTU0NTJkMjVmNGViNWI2YTFjMGU3Mjg2YjE4NDI5NDFmOSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlMDg3ZDJlZGMzYjgyOGEyYTlhNGIyYjNmZjU1MWQ4NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3Mzc0NDc1fQ==",
+  "entries": [
+   {
+    "item": "SHADY_RING",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "CROOKED_ARTIFACT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "SHADY_RING",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "SEAL_OF_THE_FAMILY",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000000.0,
+    "items": [
+     {
+      "item": "CROOKED_ARTIFACT",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hedgewitch",
+  "name": "&fHedgewitch Morra",
+  "island": "hub",
+  "anchor": "npc.hedgewitch",
+  "mode": "secondary",
+  "category": "Accessories",
+  "icon": "CAULDRON",
+  "greeting": [
+   "Bring me the odd things monsters leave behind.",
+   "I brew them into charms. Mostly harmless ones."
+  ],
+  "source": [
+   "AGNES_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "a crooked hut in the village",
+  "entries": [
+   {
+    "item": "WITCH_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FESTERING_FLY",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "WITCH_RING",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "WITCH_TALISMAN",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "VOID_OOZE",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "FROG_LEGS",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "WITCH_ARTIFACT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "WITCH_RING",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "SMOLDERING_EMBERS",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "SPELL_SOOT",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "GELATINOUS_GLOOP",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "SMALL_WITCH_CAULDRON",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SPIDER_EGG",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "FUNNY_BONE",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "MEDIUM_WITCH_CAULDRON",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "WATERBORNE_LICE",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "CONSOLE_PANEL",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "JAWBREAKER",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "LARGE_WITCH_CAULDRON",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SMOLDERING_EMBERS",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "WARMED_FLAKES",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "NEVER_MELT_ICE",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "GLACIATED_BRAINS",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "GIANT_WITCH_CAULDRON",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHIELD_DUST",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "PIXIE_DUST",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "RUFFLED_FEATHER",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "BRITTLE_POWDER",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "DIRTY_FINGERNAILS",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "WITCH_SACK",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FESTERING_FLY",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "SPIDER_EGG",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "PIG_BRAIN_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FROG_LEGS",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "BLENDED_FISH_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "WATERBORNE_LICE",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "WITCH;0",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FESTERING_FLY",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "phone_vendor",
+  "name": "&fDialer Pim",
+  "island": "hub",
+  "anchor": "npc.phone_vendor",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "PAPER",
+  "greeting": [
+   "Stay in touch with the whole island!"
+  ],
+  "source": [
+   "ALDA_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI1NjQ3ZjkzZmQ4ZTFkYTljZGIxNTFkZDliZGY0ZjQ4YmI1OWExZDExNzQ4ZjE5MThjMTM2Yzg2ODA0YjIiLCJtZXRhZGF0YSI6e319fSwicHJvZmlsZUlkIjoiN2Q3YTZmNDRmMTg2MjU0MGI2M2M0MDcxYjRhOWE2Y2QiLCJwcm9maWxlTmFtZSI6Im5lYTg5IiwiaXNQdWJsaWMiOnRydWUsInRpbWVzdGFtcCI6MTc3NzA5ODQ3MjM3NH0=",
+  "entries": [
+   {
+    "item": "ABIPHONE_BASIC",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   }
+  ]
+ },
+ {
+  "id": "decorator",
+  "name": "&fDecorator Lune",
+  "island": "hub",
+  "anchor": "npc.decorator",
+  "mode": "secondary",
+  "category": "Building",
+  "icon": "ITEM_FRAME",
+  "greeting": [
+   "Make your island a place people want to visit.",
+   "Games, displays, a parkour course or two."
+  ],
+  "source": [
+   "AMELIA_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ1OTU1Y2M1YWY2ZmEzMzkwZGYzNmM5YTIzYTMyNjRjODQyNjk5MWU3NTMzYWQyZDA4MWY0MWVhMTMwYzYzYiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwOGZhNzE5ODg0OGIyMzRkYWQ1YThlOWZmYTk0ODI4MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc0MTUzOTc2Nzg0fQ==",
+  "entries": [
+   {
+    "item": "PARKOUR_CONTROLLER",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "req": "skill:social:1"
+   },
+   {
+    "item": "PARKOUR_POINT",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "req": "skill:social:1"
+   },
+   {
+    "item": "PARKOUR_TIMES",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000.0,
+    "req": "skill:social:1"
+   },
+   {
+    "item": "SOCIAL_DISPLAY",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0,
+    "req": "skill:social:2"
+   },
+   {
+    "item": "EGG_HUNT",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "req": "skill:social:3"
+   },
+   {
+    "item": "ISLAND_NPC",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0,
+    "req": "skill:social:5"
+   },
+   {
+    "item": "TIC_TAC_TOE",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0,
+    "req": "skill:social:6"
+   },
+   {
+    "item": "CONNECT_FOUR",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0,
+    "req": "skill:social:7"
+   },
+   {
+    "item": "ROCK_PAPER_SHEARS",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0,
+    "req": "skill:social:8"
+   },
+   {
+    "item": "SHOWCASE_BLOCK",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0,
+    "req": "skill:social:10"
+   }
+  ]
+ },
+ {
+  "id": "owl_keeper",
+  "name": "&fOwl-keeper Whitcombe",
+  "island": "hub",
+  "anchor": "npc.owl_keeper",
+  "mode": "secondary",
+  "category": "Pets",
+  "icon": "FEATHER",
+  "greeting": [
+   "Hoo goes there? Ah, a customer."
+  ],
+  "source": [
+   "FANN_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMxMzU0ZDUyNWNhMTUwZWEyN2FhMDZmOGQ4ZGI0OThkY2MwYjU5YzNmMjc3NmRlZGQ4Mzc0MmY1MzlkZmEwZiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIyZmQxZTg3NTJlZmIyYWQwOGFiMjEwODQxNGZlMTcyNSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjIzNzMzfQ==",
+  "entries": [
+   {
+    "item": "OWL;4",
+    "alts": [],
+    "amount": 1,
+    "coins": 2200000.0
+   }
+  ]
+ },
+ {
+  "id": "scroll_seller",
+  "name": "&fOld Tobias",
+  "island": "hub",
+  "anchor": "npc.scroll_seller",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "PAPER",
+  "greeting": [
+   "Tired of the climb? So am I.",
+   "A scroll will take you straight to the top."
+  ],
+  "source": [
+   "GRUMBLEFOOT_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "at the foot of the wizard tower",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyMDY3M2E3YTU1MmZhYzA5NDY2MWI4MzhiNzVmYjdhYjEyMDBlNjkxZGU3YmVlYzBhODQ2YTllOTc4MTA1OGQifX19",
+  "entries": [
+   {
+    "item": "HUB_WIZARD_TOWER_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "coins": 11111.0
+   }
+  ]
+ },
+ {
+  "id": "hermit",
+  "name": "&fPensive Hermit",
+  "island": "hub",
+  "anchor": "npc.hermit",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "PAPER",
+  "greeting": [
+   "What is a castle without visitors?",
+   "Take a scroll, so you may return."
+  ],
+  "source": [
+   "LONELY_PHILOSOPHER_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the castle ruins",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFkYTg3NTE3OTBjN2FkZTAzZDNhOGFjMzI1MDZhM2RlZDE4Y2JmYWU4MTI2ODlkMDNmNmYzNGM3YTk2MjYyOCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI0ZjU5MTExNGRhZDUyYzU2OTAzODQ5OGNmNTk4NmE5MiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzgyMDIwNjkyNDA5fQ==",
+  "entries": [
+   {
+    "item": "HUB_CASTLE_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   }
+  ]
+ },
+ {
+  "id": "snow_shoveler",
+  "name": "&fShoveller Brisk",
+  "island": "hub",
+  "anchor": "npc.snow_shoveler",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "IRON_SHOVEL",
+  "greeting": [
+   "Up here the snow never stops.",
+   "A good shovel makes short work of it."
+  ],
+  "source": [
+   "SCOOP_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the mountain top",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg5OGFkNThkMzY2NGNmYWNmMWJmMTFhYWQ5ZjUxM2QyNWE4YjliYjkxYTc3MzgyYjMyYzEwYjdkMGE0YmM5YiJ9fX0=",
+  "entries": [
+   {
+    "item": "SNOW_SHOVEL",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0
+   }
+  ]
+ },
+ {
+  "id": "plumber",
+  "name": "&fPipefitter Dunn",
+  "island": "hub",
+  "anchor": "npc.plumber",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "SPONGE",
+  "greeting": [
+   "Water where it shouldn't be? I've got just the thing."
+  ],
+  "source": [
+   "PLUMBER_JOE_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the sewer entrance",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "entries": [
+   {
+    "item": "PLUMBER_SPONGE",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "SUPER_SCRUBBER",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000.0
+   }
+  ]
+ },
+ {
+  "id": "sly_vendor",
+  "name": "&fSly Quentin",
+  "island": "hub",
+  "anchor": "npc.sly_vendor",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "HONEY_BOTTLE",
+  "greeting": [
+   "Slayers swear by my drinks.",
+   "Don't ask what's in them."
+  ],
+  "source": [
+   "SHIFTY_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "a back alley near the tavern",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMwMWIyMTM1NzRmNjMwNjE2ZGQwMGI3YTNiYzYxNzc0ZmQ3ZDQ2NzEzNjQ3NmJkN2I3YTk5ZWMyNWVlMjc1NyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI5ZmZmZjkyMGIwMGEyMWI5YjdhMTM0MGJlMjEyNTU2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc0MDQ0NzUzODQ2fQ==",
+  "entries": [
+   {
+    "item": "TUTTI_FRUTTI_POISON",
+    "alts": [],
+    "amount": 1,
+    "coins": 850.0
+   },
+   {
+    "item": "DR_PAPER",
+    "alts": [],
+    "amount": 1,
+    "coins": 3400.0
+   },
+   {
+    "item": "SLAYER_ENERGY_DRINK",
+    "alts": [],
+    "amount": 1,
+    "coins": 8500.0
+   }
+  ]
+ },
+ {
+  "id": "stone_merchant",
+  "name": "&fStonemonger Haldor",
+  "island": "hub",
+  "anchor": "npc.stone_merchant",
+  "mode": "secondary",
+  "category": "Reforging",
+  "icon": "ANVIL",
+  "greeting": [
+   "Reforge stones, the rare ones the Blacksmith won't stock."
+  ],
+  "source": [
+   "SMITHMONGER_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "beside the blacksmith",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "entries": [
+   {
+    "item": "MOIL_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "DIRT_BOTTLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "TOIL_LOG",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "REFINED_AMBER",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "BLESSED_FRUIT",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   }
+  ]
+ },
+ {
+  "id": "tinkerer",
+  "name": "&fTinkerer Sprocket",
+  "island": "hub",
+  "anchor": "npc.tinkerer",
+  "mode": "secondary",
+  "category": "Building",
+  "icon": "REDSTONE",
+  "greeting": [
+   "Levers! Repeaters! Pressure plates!",
+   "Everything you need to wire up your island."
+  ],
+  "source": [
+   "MAD_REDSTONE_ENGINEER_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "near the builder's house",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMzNjM5NGQ3NzRhZGU1OWMyNTYxODQ5NGQwNTE1ZDkwZjJiZDJmMmI0NDcyYmEzYzAzOGQ3NTA5NTNmOWE0MyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYjc0OTg5ZDIyOGIyMTBmOTcwOWE4YWI2ZmE0ZTBlNCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjMxNTkyfQ==",
+  "entries": [
+   {
+    "item": "REDSTONE_TORCH_ON",
+    "alts": [
+     "@REDSTONE_TORCH"
+    ],
+    "amount": 1,
+    "coins": 2.0
+   },
+   {
+    "item": "REDSTONE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4.0
+   },
+   {
+    "item": "DAYLIGHT_DETECTOR",
+    "alts": [
+     "@DAYLIGHT_DETECTOR"
+    ],
+    "amount": 1,
+    "coins": 18.0
+   },
+   {
+    "item": "WOOD_PLATE",
+    "alts": [
+     "@OAK_PRESSURE_PLATE"
+    ],
+    "amount": 1,
+    "coins": 2.0
+   },
+   {
+    "item": "STONE_PLATE",
+    "alts": [
+     "@STONE_PRESSURE_PLATE"
+    ],
+    "amount": 1,
+    "coins": 4.0
+   },
+   {
+    "item": "IRON_PLATE",
+    "alts": [
+     "@HEAVY_WEIGHTED_PRESSURE_PLATE"
+    ],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "GOLD_PLATE",
+    "alts": [
+     "@LIGHT_WEIGHTED_PRESSURE_PLATE"
+    ],
+    "amount": 1,
+    "coins": 16.0
+   },
+   {
+    "item": "LEVER",
+    "alts": [
+     "@LEVER"
+    ],
+    "amount": 1,
+    "coins": 2.0
+   },
+   {
+    "item": "REDSTONE_COMPARATOR",
+    "alts": [
+     "@COMPARATOR"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "DIODE",
+    "alts": [
+     "@REPEATER"
+    ],
+    "amount": 1,
+    "coins": 6.0
+   },
+   {
+    "item": "TRIPWIRE_HOOK",
+    "alts": [
+     "@TRIPWIRE_HOOK"
+    ],
+    "amount": 1,
+    "coins": 4.0
+   },
+   {
+    "item": "TNT",
+    "alts": [
+     "@TNT"
+    ],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "HOPPER",
+    "alts": [
+     "@HOPPER"
+    ],
+    "amount": 1,
+    "coins": 50.0
+   }
+  ]
+ },
+ {
+  "id": "carpenter",
+  "name": "&fCarpenter",
+  "island": "hub",
+  "anchor": "npc.carpenter",
+  "mode": "secondary",
+  "category": "Building",
+  "icon": "CRAFTING_TABLE",
+  "greeting": [
+   "Furniture built to last.",
+   "Every piece is hand-carved, right here."
+  ],
+  "source": [
+   "CARPENTER_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the foraging camp",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M4ZDJhNWFmOTc1YzUzY2YwODFiNTMxNTY2MTQ4YmFlMzY2MTQxMzE0YjM1YWE1NzI2ZTk3Y2M5N2VmMTE4YiIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmZWZhYmM0ZjUyODYyMDQwYTYxMmFkNGRlZDBkNGU2OSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MDcyOTQwfQ==",
+  "entries": [
+   {
+    "item": "SCARECROW",
+    "alts": [],
+    "amount": 1,
+    "coins": 120.0
+   },
+   {
+    "item": "WEAPON_RACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "ARMOR_SHOWCASE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100.0
+   },
+   {
+    "item": "FANCY_FLOWER_POT",
+    "alts": [],
+    "amount": 1,
+    "coins": 150.0
+   },
+   {
+    "item": "ENCHANTING_PLUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "CRAFTING_PLUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "FURNACE_PLUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   },
+   {
+    "item": "WOOD_CHEST",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   },
+   {
+    "item": "FIREPLACE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "CHEST_SHELVES",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   }
+  ]
+ },
+ {
+  "id": "wool_weaver",
+  "name": "&fWool Weaver",
+  "island": "hub",
+  "anchor": "npc.wool_weaver",
+  "mode": "secondary",
+  "category": "Building",
+  "icon": "WHITE_WOOL",
+  "greeting": [
+   "Sixteen colours of everything.",
+   "Wool, carpet, glass and clay - dyed fresh."
+  ],
+  "source": [
+   "WOOL_WEAVER_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "near the builder's house",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRlNTg3YzA4YjM0MDNkNzYxY2RhZmU1NGY0ZDUzMGNiZTE0YjRjNWMyYTAxZTg3ZWExOGFmMTFkMGUwNGMyMCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIxNjFjY2YxYmNiOGEyYjNlODQwZTE1ZWQyOWRmYmU1NyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTU3MjM0MTkxfQ==",
+  "groups": [
+   {
+    "id": "WOOL",
+    "name": "Wool",
+    "icon": "WHITE_WOOL"
+   },
+   {
+    "id": "CARPET",
+    "name": "Carpets",
+    "icon": "WHITE_CARPET"
+   },
+   {
+    "id": "STAINED_CLAY",
+    "name": "Terracotta",
+    "icon": "WHITE_TERRACOTTA"
+   },
+   {
+    "id": "STAINED_GLASS",
+    "name": "Glass",
+    "icon": "WHITE_STAINED_GLASS"
+   },
+   {
+    "id": "STAINED_GLASS_PANE",
+    "name": "Glass Panes",
+    "icon": "WHITE_STAINED_GLASS_PANE"
+   }
+  ],
+  "entries": [
+   {
+    "item": "STAINED_CLAY",
+    "alts": [
+     "@WHITE_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:1",
+    "alts": [
+     "@ORANGE_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:2",
+    "alts": [
+     "@MAGENTA_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:3",
+    "alts": [
+     "@LIGHT_BLUE_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:4",
+    "alts": [
+     "@YELLOW_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:5",
+    "alts": [
+     "@LIME_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:6",
+    "alts": [
+     "@PINK_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:7",
+    "alts": [
+     "@GRAY_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:8",
+    "alts": [
+     "@LIGHT_GRAY_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:9",
+    "alts": [
+     "@CYAN_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:10",
+    "alts": [
+     "@PURPLE_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:11",
+    "alts": [
+     "@BLUE_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:12",
+    "alts": [
+     "@BROWN_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:13",
+    "alts": [
+     "@GREEN_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:14",
+    "alts": [
+     "@RED_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_CLAY:15",
+    "alts": [
+     "@BLACK_TERRACOTTA"
+    ],
+    "amount": 1,
+    "coins": 8.0,
+    "group": "STAINED_CLAY"
+   },
+   {
+    "item": "STAINED_GLASS_PANE",
+    "alts": [
+     "@WHITE_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:1",
+    "alts": [
+     "@ORANGE_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:2",
+    "alts": [
+     "@MAGENTA_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:3",
+    "alts": [
+     "@LIGHT_BLUE_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:4",
+    "alts": [
+     "@YELLOW_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:5",
+    "alts": [
+     "@LIME_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:6",
+    "alts": [
+     "@PINK_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:7",
+    "alts": [
+     "@GRAY_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:8",
+    "alts": [
+     "@LIGHT_GRAY_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:9",
+    "alts": [
+     "@CYAN_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:10",
+    "alts": [
+     "@PURPLE_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:11",
+    "alts": [
+     "@BLUE_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:12",
+    "alts": [
+     "@BROWN_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:13",
+    "alts": [
+     "@GREEN_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:14",
+    "alts": [
+     "@RED_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS_PANE:15",
+    "alts": [
+     "@BLACK_STAINED_GLASS_PANE"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS_PANE"
+   },
+   {
+    "item": "STAINED_GLASS",
+    "alts": [
+     "@WHITE_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:1",
+    "alts": [
+     "@ORANGE_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:2",
+    "alts": [
+     "@MAGENTA_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:3",
+    "alts": [
+     "@LIGHT_BLUE_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:4",
+    "alts": [
+     "@YELLOW_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:5",
+    "alts": [
+     "@LIME_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:6",
+    "alts": [
+     "@PINK_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:7",
+    "alts": [
+     "@GRAY_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:8",
+    "alts": [
+     "@LIGHT_GRAY_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:9",
+    "alts": [
+     "@CYAN_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:10",
+    "alts": [
+     "@PURPLE_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:11",
+    "alts": [
+     "@BLUE_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:12",
+    "alts": [
+     "@BROWN_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:13",
+    "alts": [
+     "@GREEN_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:14",
+    "alts": [
+     "@RED_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "STAINED_GLASS:15",
+    "alts": [
+     "@BLACK_STAINED_GLASS"
+    ],
+    "amount": 1,
+    "coins": 16.0,
+    "group": "STAINED_GLASS"
+   },
+   {
+    "item": "CARPET",
+    "alts": [
+     "@WHITE_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:1",
+    "alts": [
+     "@ORANGE_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:2",
+    "alts": [
+     "@MAGENTA_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:3",
+    "alts": [
+     "@LIGHT_BLUE_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:4",
+    "alts": [
+     "@YELLOW_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:5",
+    "alts": [
+     "@LIME_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:6",
+    "alts": [
+     "@PINK_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:7",
+    "alts": [
+     "@GRAY_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:8",
+    "alts": [
+     "@LIGHT_GRAY_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:9",
+    "alts": [
+     "@CYAN_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:10",
+    "alts": [
+     "@PURPLE_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:11",
+    "alts": [
+     "@BLUE_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:12",
+    "alts": [
+     "@BROWN_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:13",
+    "alts": [
+     "@GREEN_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:14",
+    "alts": [
+     "@RED_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "CARPET:15",
+    "alts": [
+     "@BLACK_CARPET"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "CARPET"
+   },
+   {
+    "item": "WOOL",
+    "alts": [
+     "@WHITE_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:1",
+    "alts": [
+     "@ORANGE_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:2",
+    "alts": [
+     "@MAGENTA_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:3",
+    "alts": [
+     "@LIGHT_BLUE_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:4",
+    "alts": [
+     "@YELLOW_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:5",
+    "alts": [
+     "@LIME_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:6",
+    "alts": [
+     "@PINK_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:7",
+    "alts": [
+     "@GRAY_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:8",
+    "alts": [
+     "@LIGHT_GRAY_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:9",
+    "alts": [
+     "@CYAN_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:10",
+    "alts": [
+     "@PURPLE_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:11",
+    "alts": [
+     "@BLUE_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:12",
+    "alts": [
+     "@BROWN_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:13",
+    "alts": [
+     "@GREEN_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:14",
+    "alts": [
+     "@RED_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   },
+   {
+    "item": "WOOL:15",
+    "alts": [
+     "@BLACK_WOOL"
+    ],
+    "amount": 1,
+    "coins": 32.0,
+    "group": "WOOL"
+   }
+  ]
+ },
+ {
+  "id": "pig_shop",
+  "name": "&fPig Shop",
+  "island": "hub",
+  "anchor": "npc.pig_shop",
+  "mode": "secondary",
+  "category": "Pets",
+  "icon": "PORKCHOP",
+  "greeting": [
+   "Oink. I mean - welcome!",
+   "Shiny shards and pig things, best prices on the island."
+  ],
+  "source": [
+   "PIG_SHOP_NPC"
+  ],
+  "refIsland": "hub",
+  "where": "the village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=",
+  "entries": [
+   {
+    "item": "SHINY_ORB",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "SHINY_ROD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "PIG;0",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "ENCHANTED_PORK",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "SMALL_PIG_EAR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "ENCHANTED_PORK",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "MEDIUM_PIG_EAR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "ENCHANTED_PORK",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "LARGE_PIG_EAR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 128
+     },
+     {
+      "item": "ENCHANTED_PORK",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "GIANT_PIG_EAR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 256
+     },
+     {
+      "item": "ENCHANTED_GRILLED_PORK",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "DANTE_RING",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 128
+     }
+    ]
+   },
+   {
+    "item": "THE_ART_OF_WAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "SHINY_SHARD",
+      "alts": [],
+      "amount": 256
+     },
+     {
+      "item": "ENCHANTED_GRILLED_PORK",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "windmill_operator",
+  "name": "&fWindmill Operator",
+  "island": "barn",
+  "anchor": "npc.windmill_operator",
+  "mode": "secondary",
+  "category": "Farming",
+  "icon": "WHEAT",
+  "greeting": [
+   "The mill grinds all day; I sell what it doesn't.",
+   "Same stock as the hub, no walk back."
+  ],
+  "source": [
+   "WINDMILL_OPERATOR_NPC"
+  ],
+  "refIsland": "farming_1",
+  "where": "the windmill",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "entries": [
+   {
+    "item": "WHEAT",
+    "alts": [
+     "@WHEAT"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "CARROT_ITEM",
+    "alts": [
+     "@CARROT"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "POTATO_ITEM",
+    "alts": [
+     "@POTATO"
+    ],
+    "amount": 3,
+    "coins": 7.0
+   },
+   {
+    "item": "MELON",
+    "alts": [
+     "@MELON_SLICE",
+     "@MELON"
+    ],
+    "amount": 10,
+    "coins": 20.0
+   },
+   {
+    "item": "SUGAR_CANE",
+    "alts": [
+     "@SUGAR_CANE"
+    ],
+    "amount": 3,
+    "coins": 15.0
+   },
+   {
+    "item": "PUMPKIN",
+    "alts": [
+     "@CARVED_PUMPKIN",
+     "@PUMPKIN"
+    ],
+    "amount": 1,
+    "coins": 8.0
+   },
+   {
+    "item": "INK_SACK:3",
+    "alts": [
+     "@COCOA_BEANS"
+    ],
+    "amount": 1,
+    "coins": 7.0
+   },
+   {
+    "item": "RED_MUSHROOM",
+    "alts": [
+     "@RED_MUSHROOM"
+    ],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "BROWN_MUSHROOM",
+    "alts": [
+     "@BROWN_MUSHROOM"
+    ],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "SAND",
+    "alts": [
+     "@SAND"
+    ],
+    "amount": 2,
+    "coins": 8.0
+   },
+   {
+    "item": "CACTUS",
+    "alts": [
+     "@CACTUS"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "ENCHANTED_BONE_MEAL",
+    "alts": [],
+    "amount": 1,
+    "coins": 6.0
+   },
+   {
+    "item": "ROOKIE_HOE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10.0
+   }
+  ]
+ },
+ {
+  "id": "rancher",
+  "name": "&fRancher Jed",
+  "island": "mushroom_desert",
+  "anchor": "npc.rancher",
+  "mode": "secondary",
+  "category": "Farming",
+  "icon": "IRON_AXE",
+  "greeting": [
+   "Hunting critters takes the right axe.",
+   "Bring your basic axe and I'll upgrade it."
+  ],
+  "source": [
+   "JAKE_NPC"
+  ],
+  "refIsland": "farming_1",
+  "where": "the trapper's den",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUxY2M3YzFkMTFhYTBhMDhhNzNjYmMxODQ1NDcwNTFhZWJkMDdiM2JiNTBkODZmMTE4OGZkN2E3ZGFkMmVkMyJ9fX0=",
+  "entries": [
+   {
+    "item": "SHEEP_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_SHEEP_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "MUSHROOM_COW_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_MUSHROOM_COW_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "COW_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_COW_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "PIG_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_PIG_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "RABBIT_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_RABBIT_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "CHICKEN_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "BASIC_CHICKEN_AXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "HARDENED_WOOD",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   },
+   {
+    "item": "LUCKY_DICE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   }
+  ]
+ },
+ {
+  "id": "chum_vendor",
+  "name": "&fBait-maker Wade",
+  "island": "mushroom_desert",
+  "anchor": "npc.chum_vendor",
+  "mode": "secondary",
+  "category": "Fishing",
+  "icon": "BUCKET",
+  "greeting": [
+   "Chum! Glowing chum! The fish go wild for it."
+  ],
+  "source": [
+   "MOBY_NPC"
+  ],
+  "refIsland": "farming_1",
+  "where": "the glowing mushroom cave",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliNjg4NTQ1ZTMyNmU0ZjFmZDFjNDA1ODczZDljNWI4YmJlNjlkZDI2ODg5Y2UzZGVhMTBiNGQ5ZTNkN2I0ZGIifX19",
+  "entries": [
+   {
+    "item": "EMPTY_CHUM_BUCKET",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000.0,
+    "items": [
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "GLOWY_CHUM_BAIT",
+    "alts": [],
+    "amount": 16,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "LUMINOUS_BRACELET",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 2
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "CHUM_SINKER",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 4
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 15
+     }
+    ]
+   },
+   {
+    "item": "MOBYS_SHEARS",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 5
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 15
+     }
+    ]
+   },
+   {
+    "item": "POTION_MUSHED_GLOWY_TONIC;1",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 8
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "MUSHED_MUSHROOM_MIXIN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 80
+     }
+    ]
+   },
+   {
+    "item": "CHUMMING_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "GLOWING_MUSHROOM_CAVE_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FULL_CHUM_BUCKET",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "GLOWING_MUSHROOM",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "surveyor",
+  "name": "&fSurveyor Pruitt",
+  "island": "mushroom_desert",
+  "anchor": "npc.surveyor",
+  "mode": "secondary",
+  "category": "Farming",
+  "icon": "COMPASS",
+  "greeting": [
+   "Pelts are the currency out here.",
+   "Trap enough and I'll make it worth your while."
+  ],
+  "source": [
+   "TALBOT_NPC"
+  ],
+  "refIsland": "farming_1",
+  "where": "the trapper's den",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlNzhlNGI4ZTk4MGZiODY4YzdkOGJjNWI4YTlhZmQ1MjJlNjVhZmRlNWQ0NWRlMGRkNzU1MDhlYTVkOTE3OGQiLCJtZXRhZGF0YSI6e319fSwicHJvZmlsZUlkIjoiM2JjOTFiM2QxZGQ5MmExMDg3M2ZiN2RkNTlhOTk3YmMiLCJwcm9maWxlTmFtZSI6Im5lYTg5IiwiaXNQdWJsaWMiOnRydWUsInRpbWVzdGFtcCI6MTc4MjUwNDA4NDgyN30=",
+  "entries": [
+   {
+    "item": "TRAPPER_DEN_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 100
+     }
+    ]
+   },
+   {
+    "item": "TALBOTS_THEODOLITE",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 80
+     }
+    ]
+   },
+   {
+    "item": "PELT_BELT",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 250
+     }
+    ]
+   },
+   {
+    "item": "TRAPPER_CREST",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 340
+     }
+    ]
+   },
+   {
+    "item": "BROWN_BANDANA",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 200
+     }
+    ]
+   },
+   {
+    "item": "POTION_STINKY_CHEESE;1",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 40
+     }
+    ]
+   },
+   {
+    "item": "PEST_VEST",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 250
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fur_trader",
+  "name": "&fFur-trader Alder",
+  "island": "mushroom_desert",
+  "anchor": "npc.fur_trader",
+  "mode": "secondary",
+  "category": "Farming",
+  "icon": "LEATHER",
+  "greeting": [
+   "I upgrade minions. I take pelts. Simple."
+  ],
+  "source": [
+   "TONY_SHOP_NPC"
+  ],
+  "refIsland": "farming_1",
+  "where": "the trapper's den",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQzNGZjZjc3MjYzMWI4MThkMmM2YWZiODc4ZTM5MzM3NjcwN2EyYjU3MDE5YjVmZjg3MGQ2OTUyZmRkZDExYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwM2Q0MTY3YzVmYWQyZTI3OGI2NTUzZDFkYmZmMGIyZSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzgyMDcxNzk4NjI4fQ==",
+  "entries": [
+   {
+    "item": "COCOA_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_COOKIE",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "COCOA_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "PUMPKIN_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_PUMPKIN",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "PUMPKIN_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "CHICKEN_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_RAW_CHICKEN",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "CHICKEN_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "MUSHROOM_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_BROWN_MUSHROOM",
+      "alts": [],
+      "amount": 512
+     },
+     {
+      "item": "ENCHANTED_RED_MUSHROOM",
+      "alts": [],
+      "amount": 512
+     },
+     {
+      "item": "MUSHROOM_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "CACTUS_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_CACTUS",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "CACTUS_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "PIG_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_GRILLED_PORK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "PIG_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "WHEAT_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_WHEAT",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "WHEAT_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "COW_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_LEATHER",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "COW_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "SUGAR_CANE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_SUGAR_CANE",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "SUGAR_CANE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "MELON_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_MELON_BLOCK",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "MELON_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "NETHER_WARTS_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_NETHER_STALK",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "NETHER_WARTS_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "CARROT_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_GOLDEN_CARROT",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "CARROT_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "POTATO_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_BAKED_POTATO",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "POTATO_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "SHEEP_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_COOKED_MUTTON",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "SHEEP_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   },
+   {
+    "item": "RABBIT_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_COOKED_RABBIT",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "RABBIT_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "pelt",
+      "amount": 75
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "merry_norseman",
+  "name": "&fMerry Norseman",
+  "island": "park",
+  "anchor": "npc.merry_norseman",
+  "mode": "secondary",
+  "category": "Foraging",
+  "icon": "IRON_AXE",
+  "greeting": [
+   "Hah! Another wanderer in the woods!",
+   "My axes split trunks and skulls alike."
+  ],
+  "source": [
+   "JOYFUL_VIKING_NPC"
+  ],
+  "refIsland": "foraging_1",
+  "where": "the jungle island",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2N2IyNzRkZGNmZGQyYWNmNmQ2ZmZkNGZkMjMyYjgyMGY3YmEyMzQzNjNiODk0NjBjMmMxNDExMjU2MjcifX19",
+  "entries": [
+   {
+    "item": "VIKING_TEAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   },
+   {
+    "item": "PARK_JUNGLE_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "coins": 70000.0
+   },
+   {
+    "item": "RAIDER_AXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 130000.0
+   },
+   {
+    "item": "ENCHANTMENT_EXPERIENCE_4",
+    "alts": [
+     "EXPERIENCE;4"
+    ],
+    "amount": 1,
+    "coins": 400000.0
+   }
+  ]
+ },
+ {
+  "id": "strategist",
+  "name": "&fStrategist Varro",
+  "island": "park",
+  "anchor": "npc.strategist",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "IRON_SWORD",
+  "greeting": [
+   "Every battle is won before it starts.",
+   "The right sword helps, of course."
+  ],
+  "source": [
+   "MASTER_TACTICIAN_NPC"
+  ],
+  "refIsland": "foraging_1",
+  "where": "the dark thicket",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJiN2FjYmZhOTMwOGEyMmU3NTA2YTM2YmNjYWZkMDE2MGFmYTBkNTAwODE4ZWZlZTlmYTk4MzUyMTRjMTRmYSJ9fX0=",
+  "entries": [
+   {
+    "item": "TACTICIAN_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 35000.0
+   },
+   {
+    "item": "WOOD_SINGULARITY",
+    "alts": [],
+    "amount": 1,
+    "coins": 1464000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_OAK_LOG",
+      "alts": [],
+      "amount": 320
+     },
+     {
+      "item": "ENCHANTED_SPRUCE_LOG",
+      "alts": [],
+      "amount": 320
+     },
+     {
+      "item": "ENCHANTED_BIRCH_LOG",
+      "alts": [],
+      "amount": 320
+     },
+     {
+      "item": "ENCHANTED_DARK_OAK_LOG",
+      "alts": [],
+      "amount": 320
+     },
+     {
+      "item": "ENCHANTED_ACACIA_LOG",
+      "alts": [],
+      "amount": 320
+     },
+     {
+      "item": "ENCHANTED_JUNGLE_LOG",
+      "alts": [],
+      "amount": 320
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "shaman",
+  "name": "&fElder Shaman Oku",
+  "island": "park",
+  "anchor": "npc.shaman",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "GHAST_TEAR",
+  "greeting": [
+   "The forest speaks to those who listen.",
+   "I sell its essence, for a price."
+  ],
+  "source": [
+   "OLD_SHAMAN_NYKO_NPC"
+  ],
+  "refIsland": "foraging_1",
+  "where": "the spruce woods",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdhNTE3ODY1YjgyMGE0NDUxY2QzY2M2NzY1ZjM3MGZkMDUyMmI2NDg5YzljOTRmYjM0NWZkZWUyNjg5NDUxYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIxY2I5MmU2NTU2YjEyNmNlYTAyNGYxNTdlMjhjZDU2NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUxOTA1MjYwMDczfQ==",
+  "entries": [
+   {
+    "item": "TRUE_ESSENCE",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000.0
+   },
+   {
+    "item": "ENCHANTMENT_TRUE_PROTECTION_1",
+    "alts": [
+     "TRUE_PROTECTION;1"
+    ],
+    "amount": 1,
+    "coins": 900000.0
+   }
+  ]
+ },
+ {
+  "id": "gold_forger",
+  "name": "&fGold Forger",
+  "island": "gold_mine",
+  "anchor": "npc.gold_forger",
+  "mode": "contract",
+  "category": "Mining",
+  "icon": "GOLD_INGOT",
+  "greeting": [
+   "Gold, gold and more gold!",
+   "Forged it all myself, down here in the heat."
+  ],
+  "source": [
+   "GOLD_FORGER_NPC"
+  ],
+  "refIsland": "mining_1",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDk3NDFlMzYxZDRiOTUxY2M0ZTZjZjE1NTIxYTY1MzlmZWE5NGVkMWM4NGUwNmU3NWMwOGFkYmMwOWUifX19",
+  "entries": [
+   {
+    "item": "GOLD_INGOT",
+    "alts": [],
+    "amount": 20,
+    "coins": 110.0
+   },
+   {
+    "item": "GOLD_HELMET",
+    "alts": [
+     "@GOLDEN_HELMET"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "GOLD_CHESTPLATE",
+    "alts": [
+     "@GOLDEN_CHESTPLATE"
+    ],
+    "amount": 1,
+    "coins": 16.0
+   },
+   {
+    "item": "GOLD_LEGGINGS",
+    "alts": [
+     "@GOLDEN_LEGGINGS"
+    ],
+    "amount": 1,
+    "coins": 14.0
+   },
+   {
+    "item": "GOLD_BOOTS",
+    "alts": [
+     "@GOLDEN_BOOTS"
+    ],
+    "amount": 1,
+    "coins": 9.0
+   },
+   {
+    "item": "FANCY_SWORD",
+    "alts": [],
+    "amount": 1,
+    "coins": 80.0
+   },
+   {
+    "item": "GOLD_SPADE",
+    "alts": [
+     "@GOLDEN_SHOVEL"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "GOLD_PICKAXE",
+    "alts": [
+     "@GOLDEN_PICKAXE"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "GOLD_AXE",
+    "alts": [
+     "@GOLDEN_AXE"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   }
+  ]
+ },
+ {
+  "id": "iron_forger",
+  "name": "&fIron Forger",
+  "island": "gold_mine",
+  "anchor": "npc.iron_forger",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "IRON_INGOT",
+  "greeting": [
+   "My brother does gold. I do iron. Better metal."
+  ],
+  "source": [
+   "IRON_FORGER_NPC"
+  ],
+  "refIsland": "mining_1",
+  "where": "next to the gold forger",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY0MmFmMWU0OTcwMzcyNzViMjU4ZjU0NGZkZGJkYzY3NDZlODAxNzU5N2NhNjk4OGU2NjUzMTA1Y2MyIn19fQ==",
+  "entries": [
+   {
+    "item": "IRON_INGOT",
+    "alts": [],
+    "amount": 20,
+    "coins": 110.0
+   },
+   {
+    "item": "CHAINMAIL_HELMET",
+    "alts": [
+     "@CHAINMAIL_HELMET"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "CHAINMAIL_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 16.0
+   },
+   {
+    "item": "CHAINMAIL_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 14.0
+   },
+   {
+    "item": "CHAINMAIL_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 9.0
+   },
+   {
+    "item": "IRON_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 60.0
+   }
+  ]
+ },
+ {
+  "id": "blaster",
+  "name": "&fBlaster Wim",
+  "island": "deep_caverns",
+  "anchor": "npc.blaster",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "TNT",
+  "greeting": [
+   "Stand back! Further! Further!"
+  ],
+  "source": [
+   "WALTER_NPC"
+  ],
+  "refIsland": "mining_2",
+  "where": "the gunpowder mines",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzYWMyMWI2NTNhMjc2MzJkYmM4MzczYzZlNmZiYTViOGM5N2I3ZWNiZmVmMmQ3OTM2MzBkMTQ5YjExNmJhODEifX19",
+  "entries": [
+   {
+    "item": "SUPERBOOM_TNT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0
+   }
+  ]
+ },
+ {
+  "id": "lamplighter",
+  "name": "&fLamplighter Luminelle",
+  "island": "dwarven_mines",
+  "anchor": "npc.lamplighter",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "LANTERN",
+  "greeting": [
+   "The mines are dark, but they needn't be."
+  ],
+  "source": [
+   "LUMINA_NPC"
+  ],
+  "refIsland": "mining_3",
+  "where": "the dwarven village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RhMzA4Y2FlMTc3MGY2YjcwOWIxZjA4MDA0Y2EyZTljMjBhZjZmZjhlYzUzODFkMTE0YzQ0MDZkZjZiODBiYyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJkMDQyMjAzNTMzYzIyMjIxOWUwYjVlYjY2NzBjM2MzYSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxODU5MzEzMzk0fQ==",
+  "entries": [
+   {
+    "item": "TORCH",
+    "alts": [
+     "@TORCH"
+    ],
+    "amount": 64,
+    "coins": 32.0
+   },
+   {
+    "item": "LANTERN",
+    "alts": [
+     "@LANTERN"
+    ],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "INFINI_TORCH",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   }
+  ]
+ },
+ {
+  "id": "pickwright",
+  "name": "&fPickwright Dobb",
+  "island": "dwarven_mines",
+  "anchor": "npc.pickwright",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "DIAMOND_PICKAXE",
+  "greeting": [
+   "Broken pickaxe? I can mend it into something better."
+  ],
+  "source": [
+   "BUBU_NPC"
+  ],
+  "refIsland": "mining_3",
+  "where": "the dwarven village",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmMzFjMWMyMTVhNTdlOTM3ZmQ3NWFiMzU3ODJmODVlYzI0MmExYjFmOTUwYTI2YTQyYmI1ZTBhYTVjYmVkYSJ9fX0=",
+  "entries": [
+   {
+    "item": "FRACTURED_MITHRIL_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "BANDAGED_MITHRIL_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ENCHANTED_MITHRIL",
+      "alts": [],
+      "amount": 2
+     },
+     {
+      "item": "FRACTURED_MITHRIL_PICKAXE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "TITANIUM_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_TITANIUM_PICKAXE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_TITANIUM",
+      "alts": [],
+      "amount": 4
+     },
+     {
+      "item": "BEJEWELED_HANDLE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "REFINED_TITANIUM_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "TITANIUM_PICKAXE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "REFINED_TITANIUM",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "BIOFUEL",
+    "alts": [],
+    "amount": 1,
+    "coins": 20000.0
+   },
+   {
+    "item": "RUSTY_TITANIUM_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "REFINED_MITHRIL_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "MITHRIL_PICKAXE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "REFINED_MITHRIL",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   },
+   {
+    "item": "MITHRIL_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "BANDAGED_MITHRIL_PICKAXE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_MITHRIL",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "BEJEWELED_HANDLE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_GOLD",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "foreman",
+  "name": "&fForeman Bolgar",
+  "island": "dwarven_mines",
+  "anchor": "npc.foreman",
+  "mode": "secondary",
+  "category": "Minions",
+  "icon": "COBBLESTONE",
+  "greeting": [
+   "Your minions could work harder. I can make them."
+  ],
+  "source": [
+   "BULVAR_NPC"
+  ],
+  "refIsland": "mining_3",
+  "where": "the dwarven village",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEzY2YwY2E3OWEzNjExYjhlMDVmZTllMjY0ZmIyYmY4ZDI3ZTQ2NGRjMTJkYzZlOTVkZDBhZTBjMzM1YTU2MSJ9fX0=",
+  "entries": [
+   {
+    "item": "COBBLESTONE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_COBBLESTONE",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "COBBLESTONE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "OBSIDIAN_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_OBSIDIAN",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "OBSIDIAN_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "COAL_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_COAL_BLOCK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "COAL_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "IRON_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_IRON_BLOCK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "IRON_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_GOLD_BLOCK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "GOLD_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "DIAMOND_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_DIAMOND_BLOCK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "DIAMOND_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "LAPIS_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "LAPIS_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "EMERALD_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_EMERALD_BLOCK",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "EMERALD_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "REDSTONE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_REDSTONE_BLOCK",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "REDSTONE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "MITHRIL_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "REFINED_MITHRIL",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "MITHRIL_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "HARD_STONE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "CONCENTRATED_STONE",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "HARD_STONE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mine_cook",
+  "name": "&fGrubmaster Tuck",
+  "island": "dwarven_mines",
+  "anchor": "npc.mine_cook",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "BAKED_POTATO",
+  "greeting": [
+   "Miners eat like dragons.",
+   "My cooking puts fortune in your stomach."
+  ],
+  "source": [
+   "BRYNMOR_NPC"
+  ],
+  "refIsland": "mining_3",
+  "where": "the dwarven village",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3NzI2NDJmZmNjZmM5ZTExYjM1MGM4NzRmMmM4NDY3OGZjMDgwNDRiNTFlN2E4ZTNhMDkxOWY4Zjc4OGVkOWEifX19",
+  "entries": [
+   {
+    "item": "MINING_PUMPKIN",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "FILET_O_FORTUNE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "CHILLED_PRISTINE_POTATO",
+    "alts": [],
+    "amount": 1,
+    "coins": 250000.0
+   }
+  ]
+ },
+ {
+  "id": "fossil_researcher",
+  "name": "&fResearcher Opaline",
+  "island": "glacite_tunnels",
+  "anchor": "npc.fossil_researcher",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "BONE_BLOCK",
+  "greeting": [
+   "Fossils! Under all that ice!",
+   "Bring me essence and I'll lend you my tools."
+  ],
+  "source": [
+   "RESEARCHER_BERYL_NPC"
+  ],
+  "refIsland": "mining_3",
+  "where": "the base camp",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVlYzVlMmQ1NTcyM2M5ODdjZTYwYjg5MTEzN2VlMzk5NTk4ZTE1ZWY5MTBjNzU0MmQzYzMxNmZlYzY2MjY0ZCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI3MzBmOTg4YmNhMTYyYmIzOTZiYzAyMDNkNGYzMWU5MSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc3MDE0NDIzOTU3fQ==",
+  "entries": [
+   {
+    "item": "SUSPICIOUS_SCRAP",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_FOSSIL",
+      "alts": [],
+      "amount": 100
+     }
+    ]
+   },
+   {
+    "item": "CHISEL",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_FOSSIL",
+      "alts": [],
+      "amount": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hollows_merchant",
+  "name": "&fHollows Merchant",
+  "island": "crystal_hollows",
+  "anchor": "npc.hollows_merchant",
+  "mode": "contract",
+  "category": "Mining",
+  "icon": "TNT",
+  "greeting": [
+   "Some walls just need persuading.",
+   "Boom. Persuaded."
+  ],
+  "source": [
+   "CHUNK_NPC"
+  ],
+  "refIsland": "crystal_hollows",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjVmMzFjMWMyMTVhNTdlOTM3ZmQ3NWFiMzU3ODJmODVlYzI0MmExYjFmOTUwYTI2YTQyYmI1ZTBhYTVjYmVkYSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1NzEyNWNkYjQwODcyM2FlYmVmM2NmNTJhMGVhOWUzMSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzcxOTE0MjAyNjgwfQ==",
+  "entries": [
+   {
+    "item": "SUPERBOOM_TNT",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500.0
+   }
+  ]
+ },
+ {
+  "id": "gemcutter",
+  "name": "&fGemcutter Isla",
+  "island": "crystal_hollows",
+  "anchor": "npc.gemcutter",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "DIAMOND",
+  "greeting": [
+   "A diamond is only a rock until it is cut."
+  ],
+  "source": [
+   "GEMMA_NPC"
+  ],
+  "refIsland": "crystal_hollows",
+  "where": "the precursor remnants",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4NmFkNGRkYjQwZTkxMjhhZTBiNWEzMTI2ZWZlNzNmNDE0OWM3NTdiYWMxNDhmY2ZiZWE2ZjdhYmE4Zjg1NjkifX19",
+  "entries": [
+   {
+    "item": "PERFECTLY_CUT_DIAMOND",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_DIAMOND",
+      "alts": [],
+      "amount": 1000
+     },
+     {
+      "item": "REFINED_DIAMOND",
+      "alts": [],
+      "amount": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tribal_trader",
+  "name": "&fTribal Elder Wahu",
+  "island": "crystal_hollows",
+  "anchor": "npc.tribal_trader",
+  "mode": "secondary",
+  "category": "Mining",
+  "icon": "JUNGLE_LOG",
+  "greeting": [
+   "The sludge of the jungle is precious to my people.",
+   "Bring it, and we will trade."
+  ],
+  "source": [
+   "ODAWA_NPC"
+  ],
+  "refIsland": null,
+  "where": "the jungle",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI3Y2FmNGJkOTM2MTgxZjZiYTEwYjBhNmJkYTE0NGFhYjAzNjRlOGM4NmVmY2FkNjA3ZmVmNGJkNzcwODE3In19fQ==",
+  "entries": [
+   {
+    "item": "KALHUIKI_MASK",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SLUDGE_JUICE",
+      "alts": [],
+      "amount": 20
+     },
+     {
+      "item": "WOOD",
+      "alts": [
+       "@OAK_PLANKS"
+      ],
+      "amount": 20
+     }
+    ]
+   },
+   {
+    "item": "JUNGLE_AMULET",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SLUDGE_JUICE",
+      "alts": [],
+      "amount": 500
+     },
+     {
+      "item": "JUNGLE_HEART",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "TRIBAL_SPEAR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SLUDGE_JUICE",
+      "alts": [],
+      "amount": 100
+     },
+     {
+      "item": "JUNGLE_HEART",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "JUNGLE_KEY",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SLUDGE_JUICE",
+      "alts": [],
+      "amount": 100
+     }
+    ]
+   },
+   {
+    "item": "JUNGLE_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "SLUDGE_JUICE",
+      "alts": [],
+      "amount": 200
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crystal_mender",
+  "name": "&fCrystal Mender Thorne",
+  "island": "spiders_den",
+  "anchor": "npc.crystal_mender",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "AMETHYST_SHARD",
+  "greeting": [
+   "The altar answers only to a crystal.",
+   "Bring fragments and I'll shape one."
+  ],
+  "source": [
+   "SHAGGY_NPC"
+  ],
+  "refIsland": "combat_1",
+  "where": "near the spider queen's altar",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1OGY4OGRjYmQyYWYxMTBjNzdjZmZhYTAwZWFiN2E0OTljMDAxMzNlNjE1NzU1OTlkOWUwNmU2MWI4YTI0YTYifX19",
+  "entries": [
+   {
+    "item": "ARACHNE_CRYSTAL",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ARACHNE_FRAGMENT",
+      "alts": [],
+      "amount": 2
+     },
+     {
+      "item": "ENCHANTED_SPIDER_EYE",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "ENCHANTED_STRING",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "spider_tamer",
+  "name": "&fSpider Tamer",
+  "island": "spiders_den",
+  "anchor": "npc.spider_tamer",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "STRING",
+  "greeting": [
+   "They only bite when they're hungry. Usually."
+  ],
+  "source": [
+   "SPIDER_TAMER_NPC"
+  ],
+  "refIsland": "combat_1",
+  "where": "the base of the mound",
+  "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2ODAwNDQ4MzAyMiwKICAicHJvZmlsZUlkIiA6ICJkYmQyYjU4N2VjMWY0ZTgxYTNkOGFlODM5OWJiMDFjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXRzaW5zcGFjZWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVmNDBhMzg3NDJkMThkMzMwNDFmYWUwZTQzYmIzNDA1YzIxZTU3NmY2MzIxYmJlZTA2MzZlNzIxNGQ2ZWZmMiIKICAgIH0KICB9Cn0=",
+  "entries": [
+   {
+    "item": "ARACHNE_SANCTUARY_TRAVEL_SCROLL",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_SPIDER",
+      "alts": [],
+      "amount": 5000
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "end_archer",
+  "name": "&fArcher Peregrine",
+  "island": "the_end",
+  "anchor": "npc.end_archer",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "BOW",
+  "greeting": [
+   "Endermen hate arrows. That's why I sell them."
+  ],
+  "source": [
+   "GREGORY_NPC"
+  ],
+  "refIsland": "combat_3",
+  "where": "near the end gate",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ==",
+  "entries": [
+   {
+    "item": "ARROW",
+    "alts": [],
+    "amount": 20,
+    "coins": 240.0
+   },
+   {
+    "item": "DECENT_BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 500.0
+   }
+  ]
+ },
+ {
+  "id": "pearl_dealer",
+  "name": "&fPearl Dealer",
+  "island": "the_end",
+  "anchor": "npc.pearl_dealer",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "ENDER_PEARL",
+  "greeting": [
+   "Pearls, eyes and the odd rare book.",
+   "The void is generous to those who pay."
+  ],
+  "source": [
+   "PEARL_DEALER_NPC"
+  ],
+  "refIsland": "combat_3",
+  "where": "the end's trading post",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyYTRlZGU4ZWU5YzYyZTJlMTQ4ZTE1ZTdkNmViN2EzNDliOTA2OTdlN2UyNmRlNWY1M2I5NzY0ZjMzNWFlZCJ9fX0=",
+  "entries": [
+   {
+    "item": "ENDER_STONE",
+    "alts": [
+     "@END_STONE"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "OBSIDIAN",
+    "alts": [
+     "@OBSIDIAN"
+    ],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "SILENT_PEARL",
+    "alts": [],
+    "amount": 8,
+    "coins": 10000.0
+   },
+   {
+    "item": "REMNANT_OF_THE_EYE",
+    "alts": [],
+    "amount": 1,
+    "coins": 200000.0
+   },
+   {
+    "item": "STONK_PICKAXE",
+    "alts": [],
+    "amount": 1,
+    "coins": 499999.0
+   },
+   {
+    "item": "ENCHANTMENT_DRAGON_HUNTER_1",
+    "alts": [
+     "DRAGON_HUNTER;1"
+    ],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "ENCHANTMENT_ENDER_SLAYER_6",
+    "alts": [
+     "ENDER_SLAYER;6"
+    ],
+    "amount": 1,
+    "coins": 1500000.0
+   }
+  ]
+ },
+ {
+  "id": "peddler_dragontail",
+  "name": "&fDesert Peddler Kesh",
+  "island": "crimson_isle",
+  "anchor": "npc.peddler_dragontail",
+  "mode": "secondary",
+  "category": "Alchemy",
+  "icon": "RED_SAND",
+  "greeting": [
+   "Red sand, blaze rods, everything a brewer needs."
+  ],
+  "source": [
+   "AN_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the barbarian town",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdmN2JkMTAyNjMxMTExYWFhNDIyM2MyYTdlNjQyOGQyYThhOTRiMGQ4MTQwOGVjMzVmYzNkNWFkZDc1ZDBiOSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIwYzUyOWQxYjdjMTIyNmVkYmNhZTk2YTliZDI0YmY3ZSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUyMTU4NTA2OTUzfQ==",
+  "entries": [
+   {
+    "item": "SAND:1",
+    "alts": [
+     "@RED_SAND"
+    ],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "BLAZE_ROD",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "MAGMA_CREAM",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "QUARTZ",
+    "alts": [
+     "@QUARTZ"
+    ],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "NETHER_STALK",
+    "alts": [
+     "@NETHER_WART"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "GHAST_TEAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 200.0
+   }
+  ]
+ },
+ {
+  "id": "peddler_scarleton",
+  "name": "&fMushroom Peddler Vos",
+  "island": "crimson_isle",
+  "anchor": "npc.peddler_scarleton",
+  "mode": "secondary",
+  "category": "Alchemy",
+  "icon": "MYCELIUM",
+  "greeting": [
+   "Mycelium and nether goods, fresh off the fields."
+  ],
+  "source": [
+   "ULYN_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNTA3OTVjYTQyOGFhYmMzZjM4MDI2Y2RjZjc0NDQ5OGM5ODEwZDkyMjAyNmI4YmFlYmExN2Q0ZmUyNjM1NiJ9fX0=",
+  "entries": [
+   {
+    "item": "MYCEL",
+    "alts": [
+     "@MYCELIUM"
+    ],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "BLAZE_ROD",
+    "alts": [],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "MAGMA_CREAM",
+    "alts": [],
+    "amount": 1,
+    "coins": 20.0
+   },
+   {
+    "item": "QUARTZ",
+    "alts": [
+     "@QUARTZ"
+    ],
+    "amount": 1,
+    "coins": 50.0
+   },
+   {
+    "item": "NETHER_STALK",
+    "alts": [
+     "@NETHER_WART"
+    ],
+    "amount": 1,
+    "coins": 10.0
+   },
+   {
+    "item": "GHAST_TEAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 200.0
+   }
+  ]
+ },
+ {
+  "id": "brewer_scarleton",
+  "name": "&fBrewmaster Calder",
+  "island": "crimson_isle",
+  "anchor": "npc.brewer_scarleton",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "POTION",
+  "greeting": [
+   "A warm drink against the cold of the void."
+  ],
+  "source": [
+   "EZEKIEL_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town tavern",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFhNzA0MTU4ZmRhMzM3ZGNlY2Y1ZWMxOWQ2NzIzZDE3Y2NhZTNhMzEwNjY3OTI0ZjM3ZGQ5NjIwMmVkYmQwYSJ9fX0=",
+  "entries": [
+   {
+    "item": "HOT_CHOCOLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 70000.0
+   },
+   {
+    "item": "BLACK_COFFEE",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "MARSH_SPORE_SOUP",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000.0,
+    "items": [
+     {
+      "item": "MUSHROOM_SPORE",
+      "alts": [],
+      "amount": 5
+     }
+    ]
+   },
+   {
+    "item": "SCARLETON_PREMIUM",
+    "alts": [],
+    "amount": 1,
+    "coins": 20000.0,
+    "items": [
+     {
+      "item": "MUSHROOM_SPORE",
+      "alts": [],
+      "amount": 50
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "brewer_dragontail",
+  "name": "&fBrewer Gruk",
+  "island": "crimson_isle",
+  "anchor": "npc.brewer_dragontail",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "POTION",
+  "greeting": [
+   "Drink up! Barbarians don't do small cups."
+  ],
+  "source": [
+   "GROG_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the barbarian town tavern",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY2Y2IxYjY2ZWM1ODExYmU4ZGI0MzgxMTYxYzYxNWJhN2M5NmRiMzU0MTcyMGYwZmM1NDNhODEwYzVjMGU4YSJ9fX0=",
+  "entries": [
+   {
+    "item": "HOT_CHOCOLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 70000.0
+   },
+   {
+    "item": "BLACK_COFFEE",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "RED_THORNLEAF_TEA",
+    "alts": [],
+    "amount": 1,
+    "coins": 20000.0,
+    "items": [
+     {
+      "item": "RED_THORNLEAF",
+      "alts": [],
+      "amount": 50
+     }
+    ]
+   },
+   {
+    "item": "SCORNCLAW_BREW",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000.0
+   }
+  ]
+ },
+ {
+  "id": "generator_smith_scarleton",
+  "name": "&fForgewife Hessa",
+  "island": "crimson_isle",
+  "anchor": "npc.generator_smith_scarleton",
+  "mode": "secondary",
+  "category": "Minions",
+  "icon": "BLAZE_ROD",
+  "greeting": [
+   "Nether minions need nether upgrades."
+  ],
+  "source": [
+   "HILDA_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNTA3OTVjYTQyOGFhYmMzZjM4MDI2Y2RjZjc0NDQ5OGM5ODEwZDkyMjAyNmI4YmFlYmExN2Q0ZmUyNjM1NiJ9fX0=",
+  "entries": [
+   {
+    "item": "GHAST_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "GHAST_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "SILVER_FANG",
+      "alts": [],
+      "amount": 1024
+     }
+    ]
+   },
+   {
+    "item": "QUARTZ_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "QUARTZ_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_QUARTZ_BLOCK",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "GLOWSTONE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "GLOWSTONE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_GLOWSTONE",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "BLAZE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "BLAZE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_BLAZE_ROD",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "MAGMA_CUBE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "MAGMA_CUBE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_MAGMA_CREAM",
+      "alts": [],
+      "amount": 1024
+     }
+    ]
+   },
+   {
+    "item": "MYCELIUM_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "MYCELIUM_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_MYCELIUM_CUBE",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "generator_smith_dragontail",
+  "name": "&fForgemaster Marrok",
+  "island": "crimson_isle",
+  "anchor": "npc.generator_smith_dragontail",
+  "mode": "secondary",
+  "category": "Minions",
+  "icon": "MAGMA_CREAM",
+  "greeting": [
+   "My hammer makes minions work through the night."
+  ],
+  "source": [
+   "MARTHOS_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the barbarian town",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1MWQ3NDI4Y2Q1ZjRhNzNmOTQyOGU4YjMwNzVmNzE3ZGJmZGQyODY3OWM0ZWM4NDJiZmY4YTBkNTEyOTlkZiJ9fX0=",
+  "entries": [
+   {
+    "item": "GHAST_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "GHAST_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "SILVER_FANG",
+      "alts": [],
+      "amount": 1024
+     }
+    ]
+   },
+   {
+    "item": "QUARTZ_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "QUARTZ_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_QUARTZ_BLOCK",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "GLOWSTONE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "GLOWSTONE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_GLOWSTONE",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "BLAZE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "BLAZE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_BLAZE_ROD",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "MAGMA_CUBE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "MAGMA_CUBE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_MAGMA_CREAM",
+      "alts": [],
+      "amount": 1024
+     }
+    ]
+   },
+   {
+    "item": "RED_SAND_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "RED_SAND_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_RED_SAND_CUBE",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lampwright",
+  "name": "&fLampwright Sabine",
+  "island": "crimson_isle",
+  "anchor": "npc.lampwright",
+  "mode": "secondary",
+  "category": "Building",
+  "icon": "LANTERN",
+  "greeting": [
+   "A lamp in every colour of the rainbow - and the rainbow too."
+  ],
+  "source": [
+   "LYS_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU2MGI2ZWUyYWZhYjc4ZDU2N2YwZjFkMTUxMDRlMWZiYmE1NzM0ZGY3M2RlYzQ5ZTdmM2VkOGI5Y2VmNjA2ZCJ9fX0=",
+  "entries": [
+   {
+    "item": "LAMP_BLACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_GRAY",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_LIGHT_GRAY",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_WHITE",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_BROWN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_ORANGE",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_RED",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_YELLOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_PURPLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_MAGENTA",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_LILAC",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_PINK",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_GREEN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_LIME",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_BLUE",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_CYAN",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_LIGHT_BLUE",
+    "alts": [],
+    "amount": 1,
+    "coins": 150000.0
+   },
+   {
+    "item": "LAMP_RAINBOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 250000.0
+   }
+  ]
+ },
+ {
+  "id": "trophy_keeper",
+  "name": "&fTrophy Keeper Ogden",
+  "island": "crimson_isle",
+  "anchor": "npc.trophy_keeper",
+  "mode": "secondary",
+  "category": "Fishing",
+  "icon": "COD",
+  "greeting": [
+   "Every trophy fish tells a story.",
+   "Prove your skill and gear up like a true hunter."
+  ],
+  "source": [
+   "ODGER_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the lava fishing hut",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3M2VjMmFkMzgxZmM4ODMxYThhNmEyMzhmMzhkODAwNmNhNTFkNTY1NDJkZDk5MTllNDk1NWI5YWM4OWFmNGQifX19",
+  "entries": [
+   {
+    "item": "ODGERS_BRONZE_TOOTH",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "BRONZE_HUNTER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "BRONZE_HUNTER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "BRONZE_HUNTER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "BRONZE_HUNTER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "STARTER_LAVA_ROD",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "ODGERS_SILVER_TOOTH",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "SILVER_HUNTER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "SILVER_HUNTER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "SILVER_HUNTER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "SILVER_HUNTER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "BRONZE_TROPHY_FISHING_SACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "ODGERS_GOLD_TOOTH",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "GOLD_HUNTER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "GOLD_HUNTER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "GOLD_HUNTER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "GOLD_HUNTER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "SILVER_TROPHY_FISHING_SACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0
+   },
+   {
+    "item": "ODGERS_DIAMOND_TOOTH",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500000.0
+   },
+   {
+    "item": "DIAMOND_HUNTER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500000.0
+   },
+   {
+    "item": "DIAMOND_HUNTER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500000.0
+   },
+   {
+    "item": "DIAMOND_HUNTER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500000.0
+   },
+   {
+    "item": "DIAMOND_HUNTER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "coins": 2500000.0
+   }
+  ]
+ },
+ {
+  "id": "phone_dealer",
+  "name": "&fPhone Dealer Ude",
+  "island": "crimson_isle",
+  "anchor": "npc.phone_dealer",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "PAPER",
+  "greeting": [
+   "Latest models, straight from the factory!"
+  ],
+  "source": [
+   "UDEL_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwYzI1ZmQ5ZDMyZTEyMDRhMWQzMmU1ZDk1YTJmMWNmYTA5NTI1YThmOThlMWRlZWY1YjJhM2M3N2Y5OGE4YyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiIzMDI4NGFiYmM4YzAyZWY3YmY0YmU4ZGRlZWU2NjhlMyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzU2ODI0NzIxOTI3fQ==",
+  "entries": [
+   {
+    "item": "ABIPHONE_X_PLUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "ABIPHONE_X_PLUS_SPECIAL_EDITION",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "ABIPHONE_XI_ULTRA",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "ABIPHONE_XI_ULTRA_STYLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 500000.0
+   },
+   {
+    "item": "ABIPHONE_XII_MEGA",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "ABIPHONE_XII_MEGA_COLOR",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0
+   },
+   {
+    "item": "ABIPHONE_XIII_PRO",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0
+   },
+   {
+    "item": "ABIPHONE_XIII_PRO_GIGA",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0
+   },
+   {
+    "item": "ABIPHONE_XIV_ENORMOUS_BLACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000000.0
+   },
+   {
+    "item": "ABIPHONE_XIV_ENORMOUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000000.0
+   },
+   {
+    "item": "ABIPHONE_XIV_ENORMOUS_PURPLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_DRAGON",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_NUCLEUS",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_VOLCANO",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_PLUS_LUNAR",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_PLUS_FLOWER",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000000.0
+   },
+   {
+    "item": "ABIPHONE_FLIP_PLUS_CLOCKWORK",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000000.0
+   }
+  ]
+ },
+ {
+  "id": "frantic_engineer",
+  "name": "&fFrantic Engineer",
+  "island": "crimson_isle",
+  "anchor": "npc.frantic_engineer",
+  "mode": "secondary",
+  "category": "Utility",
+  "icon": "FISHING_ROD",
+  "greeting": [
+   "Please, buy it! I need the coins to fix my machine!"
+  ],
+  "source": [
+   "DESPERATE_ENGINEER_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the smoldering tomb",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc1ZWE0MjA1MGE0NzhmMjgzOTQ4ODQxMjBiNDIwOTFhYTQyMTIxNTQ4NzZkYzNkNzIwNjJhZWEwN2NhYzBlOSJ9fX0=",
+  "entries": [
+   {
+    "item": "MOODY_GRAPPLESHOT",
+    "alts": [],
+    "amount": 1,
+    "coins": 3700000.0
+   }
+  ]
+ },
+ {
+  "id": "devotee",
+  "name": "&fDevotee Draven",
+  "island": "crimson_isle",
+  "anchor": "npc.devotee",
+  "mode": "secondary",
+  "category": "Accessories",
+  "icon": "NETHER_STAR",
+  "greeting": [
+   "The great beast below rewards its followers."
+  ],
+  "source": [
+   "DRAKUU_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the forgotten skull",
+  "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0MjM1NDA1MDAwNywKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMGNkNjI2YmFmMTYzY2ZkNGZlNzY4ZjQ3NTNmODBkNTBkZDExOTc3MDBlNGMzYTJkNTg1MGNmNzliZWIwOTQ3IgogICAgfQogIH0KfQ",
+  "entries": [
+   {
+    "item": "KUUDRA_FOLLOWER_ARTIFACT",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 1024
+     },
+     {
+      "item": "KUUDRA_TEETH",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mage_envoy",
+  "name": "&fMage Envoy",
+  "island": "crimson_isle",
+  "anchor": "npc.mage_envoy",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "BLAZE_POWDER",
+  "greeting": [
+   "The mages of the isle extend their welcome."
+  ],
+  "source": [
+   "MAGE_EMISSARY_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the mage town gate",
+  "req": "faction:mage",
+  "emissaryFaction": "mage",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIyNjUzODMwMmY4Nzk2ZGQ5NmIzNTI1ZGYyZjA2MGNiNjVmYTA5ZjI5YzNjYjYwNzNhZTkyZTAwN2UwZDM4ZiJ9fX0=",
+  "entries": [
+   {
+    "item": "SPORE_HARVESTER",
+    "alts": [],
+    "amount": 1,
+    "coins": 95000.0
+   },
+   {
+    "item": "GRAND_EXP_BOTTLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 4750.0
+   },
+   {
+    "item": "TITANIC_EXP_BOTTLE",
+    "alts": [],
+    "amount": 1,
+    "coins": 712500.0
+   },
+   {
+    "item": "ATOMINIZER",
+    "alts": [],
+    "amount": 1,
+    "coins": 95000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 500
+     }
+    ]
+   },
+   {
+    "item": "CHARMINIZER",
+    "alts": [],
+    "amount": 1,
+    "coins": 95000.0,
+    "items": [
+     {
+      "item": "MUSHROOM_SPORE",
+      "alts": [],
+      "amount": 1000
+     }
+    ]
+   },
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 200000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 2
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "note": "research 04 §4.3: 200,000 (neu snapshot 7,600; 4 keys craft a Hot Key)",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 400000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 4
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:mage:1000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_BURNING_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 750000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:mage:3000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_FIERY_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 1500000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 40
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:mage:7000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_INFERNAL_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 3000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_MYCELIUM",
+      "alts": [],
+      "amount": 80
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:mage:12000",
+    "emissary": true
+   }
+  ]
+ },
+ {
+  "id": "barbarian_envoy",
+  "name": "&fBarbarian Envoy",
+  "island": "crimson_isle",
+  "anchor": "npc.barbarian_envoy",
+  "mode": "secondary",
+  "category": "Combat",
+  "icon": "IRON_AXE",
+  "greeting": [
+   "The barbarians trade with the strong."
+  ],
+  "source": [
+   "BARBARIAN_EMISSARY_NPC"
+  ],
+  "refIsland": "crimson_isle",
+  "where": "the barbarian town gate",
+  "req": "faction:barbarian",
+  "emissaryFaction": "barbarian",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM2MzBkOWIwMjA4OGVhMTkyNGE4NzIyNDJhYmM3NWI2MjYyYzJhY2E5MmFlY2Y4NzE0YTU3YTQxZWVhMGI5ZCJ9fX0=",
+  "entries": [
+   {
+    "item": "KUUDRA_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 200000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 2
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "emissary": true
+   },
+   {
+    "item": "THORNLEAF_SCYTHE",
+    "alts": [],
+    "amount": 1,
+    "coins": 100000.0
+   },
+   {
+    "item": "KUUDRA_HOT_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 400000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 4
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:barbarian:1000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_BURNING_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 750000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 16
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:barbarian:3000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_FIERY_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 1500000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 40
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:barbarian:7000",
+    "emissary": true
+   },
+   {
+    "item": "KUUDRA_INFERNAL_TIER_KEY",
+    "alts": [],
+    "amount": 1,
+    "coins": 3000000.0,
+    "items": [
+     {
+      "item": "ENCHANTED_RED_SAND",
+      "alts": [],
+      "amount": 80
+     },
+     {
+      "item": "CORRUPTED_NETHER_STAR",
+      "alts": [],
+      "amount": 2
+     }
+    ],
+    "req": "faction:barbarian:12000",
+    "emissary": true
+   }
+  ]
+ },
+ {
+  "id": "scrapper",
+  "name": "&fScrapper Nettle",
+  "island": "backwater_bayou",
+  "anchor": "npc.scrapper",
+  "mode": "secondary",
+  "category": "Fishing",
+  "icon": "IRON_NUGGET",
+  "greeting": [
+   "One fisher's junk is another fisher's treasure.",
+   "Rusty coins welcome."
+  ],
+  "source": [
+   "JUNKER_JOEL_NPC"
+  ],
+  "refIsland": "fishing_1",
+  "where": "the docks",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhNDUwM2U3ZjE2MTk4NWQwMjczMWEzMDY3MzVhZTk0ZTQwN2M3OTBmNWViNDdiNjMxMTkwNzdkZDg4MzQ3NmIifX19",
+  "entries": [
+   {
+    "item": "JUNK_SINKER",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "TREASURE_BAIT",
+    "alts": [],
+    "amount": 16,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "CHALLENGE_ROD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "FISHING_ROD",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_HELMET",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_CHESTPLATE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_LEGGINGS",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_LEGGINGS",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_BOOTS",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_BOOTS",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "JUNK_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "JUNK_RING",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "JUNK_TALISMAN",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "BUSTED_BELT_BUCKLE",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "JUNK_ARTIFACT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "JUNK_RING",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "OLD_LEATHER_BOOT",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_NECKLACE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_NECKLACE",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_CLOAK",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_CLOAK",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_BELT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_BELT",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "BACKWATER_GLOVES",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ANGLER_BRACELET",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 4
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_LUCK_OF_THE_SEA_6",
+    "alts": [
+     "LUCK_OF_THE_SEA;6"
+    ],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 16
+     }
+    ]
+   },
+   {
+    "item": "HERMIT_CRAB;0",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   },
+   {
+    "item": "STINGY_SINKER",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "SPEEDY_LINE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "BUSTED_BELT_BUCKLE",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "BRONZE_SHIP_ENGINE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "BUSTED_BELT_BUCKLE",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "GOLD_BOTTLE_CAP",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 512
+     },
+     {
+      "item": "BUSTED_BELT_BUCKLE",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "OLD_LEATHER_BOOT",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "TREASURE_HOOK",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "BAYOU_WATER_ORB",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "OLD_LEATHER_BOOT",
+      "alts": [],
+      "amount": 4
+     },
+     {
+      "item": "BUSTED_BELT_BUCKLE",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "RUSTY_COIN",
+      "alts": [],
+      "amount": 256
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "star_trader",
+  "name": "&fStargazer Eino",
+  "island": "jerrys_workshop",
+  "anchor": "npc.star_trader",
+  "mode": "secondary",
+  "category": "Seasonal",
+  "icon": "NETHER_STAR",
+  "greeting": [
+   "Every gift opened during the season brings a star.",
+   "Collect them - I trade generously."
+  ],
+  "source": [
+   "EINARY_NPC"
+  ],
+  "refIsland": "winter",
+  "where": "the workshop square",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JmNTZkOGI2NjMxMTBmNjBmODA5MGE5NDVkNGY4ZmQxYmI3ODViMWI4MzI2OWNmZGVjZDk0MzljNTc0NmEyNSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2OWY2ODQzNzgzYmQyMGYyYjQ0YzA3MTFlNmU1NmRhNSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzgxNjc4MzM3OTA2fQ==",
+  "entries": [
+   {
+    "item": "WHITE_GIFT_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 20
+     }
+    ]
+   },
+   {
+    "item": "GREEN_GIFT_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "WHITE_GIFT_TALISMAN",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 40
+     }
+    ]
+   },
+   {
+    "item": "BLUE_GIFT_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "GREEN_GIFT_TALISMAN",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 60
+     }
+    ]
+   },
+   {
+    "item": "PURPLE_GIFT_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "BLUE_GIFT_TALISMAN",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 100
+     }
+    ]
+   },
+   {
+    "item": "GOLD_GIFT_TALISMAN",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "PURPLE_GIFT_TALISMAN",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "GOLD_GIFT",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 200
+     }
+    ]
+   },
+   {
+    "item": "REINDEER;4",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 60
+     }
+    ]
+   },
+   {
+    "item": "SNOW_CLOAK",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "SNOW_BELT",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "SNOW_GLOVES",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "SNOW_NECKLACE",
+    "alts": [],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "ICE_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 1000000.0,
+    "items": [
+     {
+      "item": "ICE_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_ICE",
+      "alts": [],
+      "amount": 1024
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 300
+     }
+    ]
+   },
+   {
+    "item": "SNOW_GENERATOR_12",
+    "alts": [],
+    "amount": 1,
+    "coins": 2000000.0,
+    "items": [
+     {
+      "item": "SNOW_GENERATOR_11",
+      "alts": [],
+      "amount": 1
+     },
+     {
+      "item": "ENCHANTED_SNOW_BLOCK",
+      "alts": [],
+      "amount": 1024
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 500
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+    "alts": [
+     "ULTIMATE_REFRIGERATE;1"
+    ],
+    "amount": 1,
+    "items": [
+     {
+      "item": "VOLCANIC_ROCK",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "MAGIC_TOP_HAT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "VOLCANIC_ROCK",
+      "alts": [],
+      "amount": 10
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 500
+     }
+    ]
+   },
+   {
+    "item": "WINTER_FRAGMENT",
+    "alts": [],
+    "amount": 2,
+    "items": [
+     {
+      "item": "VOLCANIC_ROCK",
+      "alts": [],
+      "amount": 1
+     }
+    ],
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_LUCK_6",
+    "alts": [
+     "LUCK;6"
+    ],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_LOOTING_4",
+    "alts": [
+     "LOOTING;4"
+    ],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   },
+   {
+    "item": "ENCHANTMENT_SCAVENGER_4",
+    "alts": [
+     "SCAVENGER;4"
+    ],
+    "amount": 1,
+    "currency": [
+     {
+      "id": "north_star",
+      "amount": 10
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "frost_vendor",
+  "name": "&fFrost Vendor Sela",
+  "island": "jerrys_workshop",
+  "anchor": "npc.frost_vendor",
+  "mode": "secondary",
+  "category": "Seasonal",
+  "icon": "ICE",
+  "greeting": [
+   "Ice, bait and festive treats!"
+  ],
+  "source": [
+   "SHERRY_NPC"
+  ],
+  "refIsland": "winter",
+  "where": "the workshop square",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExMzY2MTZkOGM0YTg3YTU0Y2U3OGE5N2I1NTE2MTBjMmIyYzhmNmQ0MTBiYzM4Yjg1OGY5NzRiMTEzYjIwOCJ9fX0=",
+  "entries": [
+   {
+    "item": "FESTIVE_SINKER",
+    "alts": [],
+    "amount": 1,
+    "coins": 40000.0
+   },
+   {
+    "item": "ICE_BAIT",
+    "alts": [],
+    "amount": 1,
+    "coins": 12.0
+   },
+   {
+    "item": "BOTTLE_OF_JYRRE",
+    "alts": [],
+    "amount": 1,
+    "coins": 50000.0
+   },
+   {
+    "item": "FROSTY_SNOW_BALL",
+    "alts": [],
+    "amount": 1,
+    "coins": 75000.0
+   },
+   {
+    "item": "ICE",
+    "alts": [
+     "@ICE"
+    ],
+    "amount": 1,
+    "coins": 1.0
+   },
+   {
+    "item": "PACKED_ICE",
+    "alts": [
+     "@PACKED_ICE"
+    ],
+    "amount": 1,
+    "coins": 9.0
+   },
+   {
+    "item": "LARGE_WINTER_SACK",
+    "alts": [],
+    "amount": 1,
+    "coins": 250000.0
+   }
+  ]
+ },
+ {
+  "id": "ice_carver",
+  "name": "&fIce Carver Tarn",
+  "island": "jerrys_workshop",
+  "anchor": "npc.ice_carver",
+  "mode": "secondary",
+  "category": "Seasonal",
+  "icon": "BLUE_ICE",
+  "greeting": [
+   "Hunks of ice carve into lovely trinkets."
+  ],
+  "source": [
+   "TERRY_NPC"
+  ],
+  "refIsland": "winter",
+  "where": "the frozen lake",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljM2I3MjI0MmYzOGIxNWMxMzEyZmFjODRlN2NjNzMzMjkyMzZkMjAyMThlMGFiNzhkMDhlMmFjNDc4MDZhNDgiLCJtZXRhZGF0YSI6e319fSwicHJvZmlsZUlkIjoiNWU2MWUwNDk2MTMwMmY5MGEyNmFkMTQ3MzU4M2E3MzMiLCJwcm9maWxlTmFtZSI6Im5lYTg5IiwiaXNQdWJsaWMiOnRydWUsInRpbWVzdGFtcCI6MTc3NDk3MTIxMTc3MX0=",
+  "entries": [
+   {
+    "item": "SALT_CUBE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ICE_HUNK",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "RUSTY_ANCHOR",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "BLUE_ICE_HUNK",
+      "alts": [],
+      "amount": 64
+     }
+    ]
+   },
+   {
+    "item": "TERRY_SNOWGLOBE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ICE_HUNK",
+      "alts": [],
+      "amount": 32
+     },
+     {
+      "item": "BLUE_ICE_HUNK",
+      "alts": [],
+      "amount": 8
+     }
+    ]
+   },
+   {
+    "item": "FROZEN_BAUBLE",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ICE_HUNK",
+      "alts": [],
+      "amount": 64
+     },
+     {
+      "item": "BLUE_ICE_HUNK",
+      "alts": [],
+      "amount": 32
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "frozen_trader",
+  "name": "&fFrostbitten Aleks",
+  "island": "jerrys_workshop",
+  "anchor": "npc.frozen_trader",
+  "mode": "secondary",
+  "category": "Seasonal",
+  "icon": "ENCHANTED_BOOK",
+  "greeting": [
+   "S-s-so c-cold... b-buy something?"
+  ],
+  "source": [
+   "FROZEN_ALEX_NPC"
+  ],
+  "refIsland": "winter",
+  "where": "the glacial cave",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhOWViMWZiYTU2Y2Q0NjIxYTVmN2Y2Mjk3OTNjYzFkMzYxODA4N2VlYTM2ZTE4YTUwYjVjOWFkYjNkNmE4NyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlODM4ZmU5YTFiYTIyNGJhYjlmZTMzODE3ZWMwZDI2MyIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzc1NDM3NDc3OTk0fQ==",
+  "entries": [
+   {
+    "item": "ENCHANTMENT_EXPERIENCE_5",
+    "alts": [
+     "EXPERIENCE;5"
+    ],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_ICE",
+      "alts": [],
+      "amount": 15000
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dungeon_quartermaster",
+  "name": "&fQuartermistress Odile",
+  "island": "dungeon_hub",
+  "anchor": "npc.dungeon_quartermaster",
+  "mode": "secondary",
+  "category": "Dungeons",
+  "icon": "BOW",
+  "greeting": [
+   "Heading into the catacombs? Don't go empty-handed."
+  ],
+  "source": [
+   "OPHELIA_NPC"
+  ],
+  "refIsland": "dungeon_hub",
+  "where": "the dungeon hub plaza",
+  "skin": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFhNGI4MjdhOWE4NWM0ZWZjMTQ3ZmM1OWQwZGE2ODhlYmU3ZTI2ZDI1OGI1NTNjMDQxZGEyZWQ2ZWM4YjZiOCJ9fX0=",
+  "entries": [
+   {
+    "item": "POTION_DUNGEON;1",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000.0
+   },
+   {
+    "item": "POTION_DUNGEON;2",
+    "alts": [],
+    "amount": 1,
+    "coins": 10000.0
+   },
+   {
+    "item": "POTION_DUNGEON;3",
+    "alts": [],
+    "amount": 1,
+    "coins": 15000.0
+   },
+   {
+    "item": "POTION_DUNGEON;4",
+    "alts": [],
+    "amount": 1,
+    "coins": 20000.0
+   },
+   {
+    "item": "POTION_DUNGEON;5",
+    "alts": [],
+    "amount": 1,
+    "coins": 25000.0
+   },
+   {
+    "item": "POTION_DUNGEON;6",
+    "alts": [],
+    "amount": 1,
+    "coins": 30000.0
+   },
+   {
+    "item": "POTION_DUNGEON;7",
+    "alts": [],
+    "amount": 1,
+    "coins": 35000.0
+   },
+   {
+    "item": "SUPER_CLEAVER",
+    "alts": [],
+    "amount": 1,
+    "coins": 80000.0,
+    "items": [
+     {
+      "item": "CLEAVER",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "HYPER_CLEAVER",
+    "alts": [],
+    "amount": 1,
+    "coins": 800000.0,
+    "items": [
+     {
+      "item": "SUPER_CLEAVER",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GIANT_CLEAVER",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "HYPER_CLEAVER",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "UNDEAD_BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 80000.0
+   },
+   {
+    "item": "SUPER_UNDEAD_BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 800000.0,
+    "items": [
+     {
+      "item": "UNDEAD_BOW",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "DEATH_BOW",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "SUPER_UNDEAD_BOW",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "ARROW",
+    "alts": [],
+    "amount": 20,
+    "coins": 200.0
+   },
+   {
+    "item": "DARK_GOGGLES",
+    "alts": [],
+    "amount": 1,
+    "coins": 80000.0
+   },
+   {
+    "item": "SHADOW_GOGGLES",
+    "alts": [],
+    "amount": 1,
+    "coins": 800000.0,
+    "items": [
+     {
+      "item": "DARK_GOGGLES",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "WITHER_GOGGLES",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "SHADOW_GOGGLES",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "MENDER_HELMET",
+    "alts": [],
+    "amount": 1,
+    "coins": 80000.0
+   },
+   {
+    "item": "MENDER_FEDORA",
+    "alts": [],
+    "amount": 1,
+    "coins": 800000.0,
+    "items": [
+     {
+      "item": "MENDER_HELMET",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "MENDER_CROWN",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "MENDER_FEDORA",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "SUPERBOOM_TNT",
+    "alts": [],
+    "amount": 1,
+    "coins": 3000.0
+   },
+   {
+    "item": "STONE_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 80000.0
+   },
+   {
+    "item": "METAL_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 800000.0,
+    "items": [
+     {
+      "item": "STONE_CHESTPLATE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "STEEL_CHESTPLATE",
+    "alts": [],
+    "amount": 1,
+    "coins": 5000000.0,
+    "items": [
+     {
+      "item": "METAL_CHESTPLATE",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "DUNGEONBREAKER",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_WITHER",
+      "alts": [],
+      "amount": 500
+     }
+    ]
+   },
+   {
+    "item": "GOLD_BONZO_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_SCARF_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_PROFESSOR_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_THORN_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_LIVID_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_SADAN_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   },
+   {
+    "item": "GOLD_NECRON_HEAD",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_GOLD",
+      "alts": [],
+      "amount": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "essence_broker",
+  "name": "&fEssence Broker Sameer",
+  "island": "dungeon_hub",
+  "anchor": "npc.essence_broker",
+  "mode": "secondary",
+  "category": "Dungeons",
+  "icon": "WITHER_SKELETON_SKULL",
+  "greeting": [
+   "Essence buys what coins cannot."
+  ],
+  "source": [
+   "MALIK_NPC"
+  ],
+  "refIsland": "dungeon_hub",
+  "where": "the dungeon hub plaza",
+  "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkMjY1YjAwNGI0MTAwNTJmZjE1YmMwOWFjOGM0OGU4ZWYwY2E5YWE2NmYzN2I0NDY0NDE3NTY2N2YxNGY2MDYifX19",
+  "entries": [
+   {
+    "item": "INFINITE_SPIRIT_LEAP",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_WITHER",
+      "alts": [],
+      "amount": 25000
+     }
+    ]
+   },
+   {
+    "item": "SECRET_TRACKER",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_WITHER",
+      "alts": [],
+      "amount": 100
+     }
+    ]
+   },
+   {
+    "item": "INFINITE_SUPERBOOM_TNT",
+    "alts": [],
+    "amount": 1,
+    "items": [
+     {
+      "item": "ESSENCE_UNDEAD",
+      "alts": [],
+      "amount": 50000
+     }
+    ]
+   }
+  ]
+ }
+]

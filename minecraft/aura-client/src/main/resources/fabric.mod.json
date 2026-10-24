@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "auracapes",
+  "version": "${version}",
+  "name": "AuraCapes",
+  "description": "Custom capes with no website behind them. Client-side, no network, textures baked into the jar.",
+  "authors": ["Tutut"],
+  "license": "All rights reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.auracapes.AuraCapes"]
+  },
+  "mixins": [
+    {
+      "config": "auracapes.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

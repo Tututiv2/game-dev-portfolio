@@ -1,0 +1,395 @@
+{
+ "scoreTable": [
+  [
+   10,
+   1
+  ],
+  [
+   25,
+   2
+  ],
+  [
+   50,
+   3
+  ],
+  [
+   75,
+   4
+  ],
+  [
+   100,
+   5
+  ],
+  [
+   130,
+   6
+  ],
+  [
+   175,
+   7
+  ],
+  [
+   225,
+   8
+  ],
+  [
+   275,
+   9
+  ],
+  [
+   325,
+   10
+  ],
+  [
+   375,
+   11
+  ],
+  [
+   450,
+   12
+  ],
+  [
+   500,
+   13
+  ]
+ ],
+ "collector": [
+  [
+   "RIFT_FERRET",
+   "EPIC"
+  ],
+  [
+   "SLUG",
+   "EPIC"
+  ],
+  [
+   "SPIRIT",
+   "EPIC"
+  ],
+  [
+   "GIRAFFE",
+   "EPIC"
+  ],
+  [
+   "JELLYFISH",
+   "EPIC"
+  ],
+  [
+   "BAL",
+   "EPIC"
+  ],
+  [
+   "BABY_YETI",
+   "EPIC"
+  ],
+  [
+   "BLACK_CAT",
+   "LEGENDARY"
+  ],
+  [
+   "FROST_WISP",
+   "RARE"
+  ],
+  [
+   "ENDERMAN",
+   "MYTHIC"
+  ]
+ ],
+ "katTaming": {
+  "EPIC": 10,
+  "LEGENDARY": 20,
+  "MYTHIC": 25
+ },
+ "candies": [
+  {
+   "id": "SIMPLE_CARROT_CANDY",
+   "xp": 20000,
+   "counts": true
+  },
+  {
+   "id": "GREAT_CARROT_CANDY",
+   "xp": 200000,
+   "counts": true
+  },
+  {
+   "id": "SUPERB_CARROT_CANDY",
+   "xp": 750000,
+   "counts": true
+  },
+  {
+   "id": "ULTIMATE_CARROT_CANDY",
+   "xp": 1500000,
+   "counts": true
+  },
+  {
+   "id": "PET_CAKE",
+   "xp": 10000,
+   "counts": false
+  }
+ ],
+ "shop": [
+  {
+   "id": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+   "coins": 50000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
+   "coins": 60000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+   "coins": 60000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
+   "coins": 60000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_MINING_SKILL_BOOST_COMMON",
+   "coins": 60000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
+   "coins": 60000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_MINING_SKILL_BOOST_UNCOMMON",
+   "coins": 250000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_FARMING_SKILL_BOOST_RARE",
+   "coins": 500000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_BIG_TEETH_COMMON",
+   "coins": 750000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_IRON_CLAWS_COMMON",
+   "coins": 750000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_HARDENED_SCALES_UNCOMMON",
+   "coins": 1000000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_SHARPENED_CLAWS_UNCOMMON",
+   "coins": 1000000,
+   "items": []
+  },
+  {
+   "id": "PET_ITEM_BUBBLEGUM",
+   "coins": 5000000,
+   "items": []
+  }
+ ],
+ "supplies": [
+  {
+   "id": "SMALL_HONEY_DIPPER",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_HONEY_DIPPER",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_HONEY_DIPPER",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_HONEY_DIPPER",
+   "coins": 1000000
+  },
+  {
+   "id": "ROYAL_JELLY",
+   "coins": 5000000
+  },
+  {
+   "id": "SMALL_PIG_EAR",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_PIG_EAR",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_PIG_EAR",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_PIG_EAR",
+   "coins": 1000000
+  },
+  {
+   "id": "SMALL_FROG_TREAT",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_FROG_TREAT",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_FROG_TREAT",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_FROG_TREAT",
+   "coins": 1000000
+  },
+  {
+   "id": "SMALL_SEAL_PLUSHIE",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_SEAL_PLUSHIE",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_SEAL_PLUSHIE",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_SEAL_PLUSHIE",
+   "coins": 1000000
+  },
+  {
+   "id": "SMALL_WITCH_CAULDRON",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_WITCH_CAULDRON",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_WITCH_CAULDRON",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_WITCH_CAULDRON",
+   "coins": 1000000
+  },
+  {
+   "id": "SMALL_SLOTH_CLAW",
+   "coins": 10000
+  },
+  {
+   "id": "MEDIUM_SLOTH_CLAW",
+   "coins": 50000
+  },
+  {
+   "id": "LARGE_SLOTH_CLAW",
+   "coins": 250000
+  },
+  {
+   "id": "GIANT_SLOTH_CLAW",
+   "coins": 1000000
+  },
+  {
+   "id": "GRIFFIN_UPGRADE_STONE_UNCOMMON",
+   "coins": 10000
+  },
+  {
+   "id": "GRIFFIN_UPGRADE_STONE_RARE",
+   "coins": 50000
+  },
+  {
+   "id": "GRIFFIN_UPGRADE_STONE_EPIC",
+   "coins": 250000
+  },
+  {
+   "id": "GRIFFIN_UPGRADE_STONE_LEGENDARY",
+   "coins": 1000000
+  },
+  {
+   "id": "GRIFFIN_UPGRADE_STONE_MYTHIC",
+   "coins": 5000000
+  },
+  {
+   "id": "TRUNK_POLISH",
+   "coins": 5000000
+  },
+  {
+   "id": "ENDERMAN_CORTEX_REWRITER",
+   "coins": 5000000
+  },
+  {
+   "id": "FAKE_NEUROSCIENCE_DEGREE",
+   "coins": 5000000
+  },
+  {
+   "id": "BLACK_WOOLEN_YARN",
+   "coins": 5000000
+  },
+  {
+   "id": "BUCKET_OF_FROGSPAWN",
+   "coins": 5000000
+  },
+  {
+   "id": "BUSTED_BELT_BUCKLE",
+   "coins": 50000
+  },
+  {
+   "id": "FROZEN_SCUTE",
+   "coins": 5000000
+  },
+  {
+   "id": "GUARDIAN_LUCKY_BLOCK",
+   "coins": 5000000
+  },
+  {
+   "id": "MAGIC_TOP_HAT",
+   "coins": 5000000
+  },
+  {
+   "id": "MIXED_MITE_GEL",
+   "coins": 5000000
+  },
+  {
+   "id": "PET_ITEM_CHOCOLATE_SYRINGE",
+   "coins": 5000000
+  },
+  {
+   "id": "PET_ITEM_PURE_MITHRIL_GEM",
+   "coins": 5000000
+  },
+  {
+   "id": "PET_ITEM_TOY_JERRY",
+   "coins": 5000000
+  },
+  {
+   "id": "PET_ITEM_VAMPIRE_FANG",
+   "coins": 5000000
+  },
+  {
+   "id": "POCKET_SIZED_IGLOO",
+   "coins": 5000000
+  },
+  {
+   "id": "RADIOACTIVE_VIAL",
+   "coins": 5000000
+  },
+  {
+   "id": "RAT_JETPACK",
+   "coins": 5000000
+  },
+  {
+   "id": "SCUTTLER_SHELL",
+   "coins": 5000000
+  }
+ ],
+ "skipItems": {
+  "KAT_FLOWER": 86400,
+  "KAT_BOUQUET": 432000
+ }
+}

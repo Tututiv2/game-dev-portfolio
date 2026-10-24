@@ -1,0 +1,1183 @@
+[
+ {
+  "id": "pets:AMMONITE;4:forge",
+  "type": "FORGE",
+  "result": "AMMONITE;4",
+  "amount": 1,
+  "inputs": [
+   "HELIX:1",
+   "COINS:300000"
+  ],
+  "durationSeconds": 259200,
+  "station": "Forge",
+  "unlock": "hotm:4"
+ },
+ {
+  "id": "pets:ANKYLOSAURUS;4:forge",
+  "type": "FORGE",
+  "result": "ANKYLOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_OPAL_GEM:1",
+   "CLUBBED_FOSSIL:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:BAT;0",
+  "type": "CRAFTING",
+  "result": "BAT;0",
+  "amount": 1,
+  "grid": [
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32",
+   "ENCHANTED_EGG:1",
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32",
+   "BROWN_MUSHROOM:32"
+  ],
+  "unlock": "collection:MUSHROOM_COLLECTION:3"
+ },
+ {
+  "id": "pets:BAT;0",
+  "type": "CRAFTING",
+  "result": "BAT;0",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32",
+   "ENCHANTED_EGG:1",
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32",
+   "RED_MUSHROOM:32"
+  ],
+  "unlock": "collection:MUSHROOM_COLLECTION:3"
+ },
+ {
+  "id": "pets:BLAZE;0",
+  "type": "CRAFTING",
+  "result": "BLAZE;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "SUPER_EGG:1",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8",
+   "ENCHANTED_BLAZE_POWDER:8"
+  ]
+ },
+ {
+  "id": "pets:CHICKEN;0",
+  "type": "CRAFTING",
+  "result": "CHICKEN;0",
+  "amount": 1,
+  "grid": [
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8",
+   "EGG:1",
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8",
+   "RAW_CHICKEN:8"
+  ],
+  "unlock": "collection:RAW_CHICKEN:3"
+ },
+ {
+  "id": "pets:CROW;0",
+  "type": "CRAFTING",
+  "result": "CROW;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_EGG:1",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8",
+   "ENCHANTED_MOONFLOWER:8"
+  ],
+  "unlock": "collection:MOONFLOWER:3"
+ },
+ {
+  "id": "pets:ENDERMITE;0",
+  "type": "CRAFTING",
+  "result": "ENDERMITE;0",
+  "amount": 1,
+  "grid": [
+   "ENDER_STONE:32",
+   "ENDER_STONE:32",
+   "ENDER_STONE:32",
+   "ENDER_STONE:32",
+   "ENCHANTED_EGG:1",
+   "ENDER_STONE:32",
+   "ENDER_STONE:32",
+   "ENDER_STONE:32",
+   "ENDER_STONE:32"
+  ],
+  "unlock": "collection:ENDER_STONE:3"
+ },
+ {
+  "id": "pets:GLACITE_GOLEM;0",
+  "type": "CRAFTING",
+  "result": "GLACITE_GOLEM;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8",
+   "SUPER_EGG:1",
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8",
+   "ENCHANTED_GLACITE:8"
+  ],
+  "unlock": "collection:GLACITE:4"
+ },
+ {
+  "id": "pets:GOBLIN;4:forge",
+  "type": "FORGE",
+  "result": "GOBLIN;4",
+  "amount": 1,
+  "inputs": [
+   "FLAWLESS_AMBER_GEM:1",
+   "UGLY_FOSSIL:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:HORSE;0",
+  "type": "CRAFTING",
+  "result": "HORSE;0",
+  "amount": 1,
+  "grid": [
+   "LEATHER:8",
+   "LEATHER:8",
+   "LEATHER:8",
+   "LEATHER:8",
+   "EGG:1",
+   "LEATHER:8",
+   "LEATHER:8",
+   "LEATHER:8",
+   "LEATHER:8"
+  ],
+  "unlock": "collection:LEATHER:3"
+ },
+ {
+  "id": "pets:JELLYFISH;3:trade",
+  "type": "NPC_SHOP",
+  "result": "JELLYFISH;3",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_EMERALD:312"
+  ],
+  "station": "Pet Sitter"
+ },
+ {
+  "id": "pets:JERRY;0",
+  "type": "CRAFTING",
+  "result": "JERRY;0",
+  "amount": 1,
+  "grid": [
+   "ASSISTANT:1",
+   "ASSISTANT:1",
+   "ASSISTANT:1",
+   "ASSISTANT:1",
+   "EGG:1",
+   "ASSISTANT:1",
+   "ASSISTANT:1",
+   "ASSISTANT:1",
+   "ASSISTANT:1"
+  ]
+ },
+ {
+  "id": "pets:MAMMOTH;4:forge",
+  "type": "FORGE",
+  "result": "MAMMOTH;4",
+  "amount": 1,
+  "inputs": [
+   "TUSK_FOSSIL:1",
+   "FLAWLESS_ONYX_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:MITHRIL_GOLEM;0",
+  "type": "CRAFTING",
+  "result": "MITHRIL_GOLEM;0",
+  "amount": 1,
+  "grid": [
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32",
+   "ENCHANTED_EGG:1",
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32",
+   "MITHRIL_ORE:32"
+  ],
+  "unlock": "collection:MITHRIL_ORE:3"
+ },
+ {
+  "id": "pets:MOLE;4:forge",
+  "type": "FORGE",
+  "result": "MOLE;4",
+  "amount": 1,
+  "inputs": [
+   "COINS:300000",
+   "CLAW_FOSSIL:1"
+  ],
+  "durationSeconds": 259200,
+  "station": "Forge",
+  "unlock": "hotm:4"
+ },
+ {
+  "id": "pets:MOOSHROOM_COW;0",
+  "type": "CRAFTING",
+  "result": "MOOSHROOM_COW;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1",
+   "SUPER_EGG:1",
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1",
+   "ENCHANTED_MYCELIUM:1"
+  ],
+  "unlock": "collection:MYCEL:3"
+ },
+ {
+  "id": "pets:MOSQUITO;0",
+  "type": "CRAFTING",
+  "result": "MOSQUITO;0",
+  "amount": 1,
+  "grid": [
+   "TARANTULA_SILK:1",
+   "DIGESTED_MOSQUITO:1",
+   "TARANTULA_SILK:1",
+   "DIGESTED_MOSQUITO:1",
+   "SUPER_EGG:1",
+   "DIGESTED_MOSQUITO:1",
+   "TARANTULA_SILK:1",
+   "DIGESTED_MOSQUITO:1",
+   "TARANTULA_SILK:1"
+  ],
+  "unlock": "slayer:spider:7"
+ },
+ {
+  "id": "pets:OCELOT;0",
+  "type": "CRAFTING",
+  "result": "OCELOT;0",
+  "amount": 1,
+  "grid": [
+   "LOG:3:32",
+   "LOG:3:32",
+   "LOG:3:32",
+   "LOG:3:32",
+   "ENCHANTED_EGG:1",
+   "LOG:3:32",
+   "LOG:3:32",
+   "LOG:3:32",
+   "LOG:3:32"
+  ],
+  "unlock": "collection:LOG:3:3"
+ },
+ {
+  "id": "pets:ORCHID_MANTIS;0",
+  "type": "CRAFTING",
+  "result": "ORCHID_MANTIS;0",
+  "amount": 1,
+  "grid": [
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1",
+   "ENCHANTED_EGG:1",
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1",
+   "FLORAL_GELATIN:1"
+  ]
+ },
+ {
+  "id": "pets:PARROT;3:trade",
+  "type": "NPC_SHOP",
+  "result": "PARROT;3",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_EMERALD:312"
+  ],
+  "station": "Pet Sitter"
+ },
+ {
+  "id": "pets:PENGUIN;4:forge",
+  "type": "FORGE",
+  "result": "PENGUIN;4",
+  "amount": 1,
+  "inputs": [
+   "WEBBED_FOSSIL:1",
+   "FLAWLESS_AQUAMARINE_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:PIGMAN;0",
+  "type": "CRAFTING",
+  "result": "PIGMAN;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1",
+   "SUPER_EGG:1",
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1",
+   "ENCHANTED_PORK:1"
+  ],
+  "unlock": "collection:PORK:3"
+ },
+ {
+  "id": "pets:PRECURSOR_DRONE;0",
+  "type": "CRAFTING",
+  "result": "PRECURSOR_DRONE;0",
+  "amount": 1,
+  "grid": [
+   "",
+   "FINE_CITRINE_GEM:10",
+   "",
+   "FINE_AQUAMARINE_GEM:10",
+   "SUPER_EGG:1",
+   "FINE_JADE_GEM:10",
+   "",
+   "PRECURSOR_APPARATUS:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:RABBIT;0",
+  "type": "CRAFTING",
+  "result": "RABBIT;0",
+  "amount": 1,
+  "grid": [
+   "RABBIT:32",
+   "RABBIT:32",
+   "RABBIT:32",
+   "RABBIT:32",
+   "ENCHANTED_EGG:1",
+   "RABBIT:32",
+   "RABBIT:32",
+   "RABBIT:32",
+   "RABBIT:32"
+  ],
+  "unlock": "collection:RABBIT:3"
+ },
+ {
+  "id": "pets:SHEEP;0",
+  "type": "CRAFTING",
+  "result": "SHEEP;0",
+  "amount": 1,
+  "grid": [
+   "MUTTON:32",
+   "MUTTON:32",
+   "MUTTON:32",
+   "MUTTON:32",
+   "ENCHANTED_EGG:1",
+   "MUTTON:32",
+   "MUTTON:32",
+   "MUTTON:32",
+   "MUTTON:32"
+  ],
+  "unlock": "collection:MUTTON:3"
+ },
+ {
+  "id": "pets:SILVERFISH;0",
+  "type": "CRAFTING",
+  "result": "SILVERFISH;0",
+  "amount": 1,
+  "grid": [
+   "COBBLESTONE:8",
+   "COBBLESTONE:8",
+   "COBBLESTONE:8",
+   "COBBLESTONE:8",
+   "EGG:1",
+   "COBBLESTONE:8",
+   "COBBLESTONE:8",
+   "COBBLESTONE:8",
+   "COBBLESTONE:8"
+  ],
+  "unlock": "collection:COBBLESTONE:3"
+ },
+ {
+  "id": "pets:SKELETON;0",
+  "type": "CRAFTING",
+  "result": "SKELETON;0",
+  "amount": 1,
+  "grid": [
+   "BONE:32",
+   "BONE:32",
+   "BONE:32",
+   "BONE:32",
+   "ENCHANTED_EGG:1",
+   "BONE:32",
+   "BONE:32",
+   "BONE:32",
+   "BONE:32"
+  ],
+  "unlock": "collection:BONE:3"
+ },
+ {
+  "id": "pets:SNAIL;0",
+  "type": "CRAFTING",
+  "result": "SNAIL;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1",
+   "SUPER_EGG:1",
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1",
+   "ENCHANTED_RED_SAND:1"
+  ],
+  "unlock": "collection:SAND:1:3"
+ },
+ {
+  "id": "pets:SPIDER;0",
+  "type": "CRAFTING",
+  "result": "SPIDER;0",
+  "amount": 1,
+  "grid": [
+   "STRING:32",
+   "STRING:32",
+   "STRING:32",
+   "STRING:32",
+   "ENCHANTED_EGG:1",
+   "STRING:32",
+   "STRING:32",
+   "STRING:32",
+   "STRING:32"
+  ],
+  "unlock": "collection:STRING:3"
+ },
+ {
+  "id": "pets:SPINOSAURUS;4:forge",
+  "type": "FORGE",
+  "result": "SPINOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "SPINE_FOSSIL:1",
+   "FLAWLESS_AQUAMARINE_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:TURTLE;3:trade",
+  "type": "NPC_SHOP",
+  "result": "TURTLE;3",
+  "amount": 1,
+  "inputs": [
+   "ENCHANTED_EMERALD:312"
+  ],
+  "station": "Pet Sitter"
+ },
+ {
+  "id": "pets:TYRANNOSAURUS;4:forge",
+  "type": "FORGE",
+  "result": "TYRANNOSAURUS;4",
+  "amount": 1,
+  "inputs": [
+   "FOOTPRINT_FOSSIL:1",
+   "FLAWLESS_ONYX_GEM:1"
+  ],
+  "durationSeconds": 604800,
+  "station": "Forge",
+  "unlock": "hotm:7"
+ },
+ {
+  "id": "pets:WITHER_SKELETON;0",
+  "type": "CRAFTING",
+  "result": "WITHER_SKELETON;0",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "SUPER_EGG:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1",
+   "ENCHANTED_COAL:1"
+  ],
+  "unlock": "collection:COAL:4"
+ },
+ {
+  "id": "pets:WOLF;0",
+  "type": "CRAFTING",
+  "result": "WOLF;0",
+  "amount": 1,
+  "grid": [
+   "LOG:1:32",
+   "LOG:1:32",
+   "LOG:1:32",
+   "LOG:1:32",
+   "ENCHANTED_EGG:1",
+   "LOG:1:32",
+   "LOG:1:32",
+   "LOG:1:32",
+   "LOG:1:32"
+  ],
+  "unlock": "collection:LOG:1:3"
+ },
+ {
+  "id": "pets:ZOMBIE;0",
+  "type": "CRAFTING",
+  "result": "ZOMBIE;0",
+  "amount": 1,
+  "grid": [
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8",
+   "EGG:1",
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8",
+   "ROTTEN_FLESH:8"
+  ],
+  "unlock": "collection:ROTTEN_FLESH:3"
+ },
+ {
+  "id": "pets:ALL_SKILLS_SUPER_BOOST",
+  "type": "CRAFTING",
+  "result": "ALL_SKILLS_SUPER_BOOST",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "PET_ITEM_ALL_SKILLS_BOOST_COMMON:1",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ZOG_ANVIL:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:BARREL_OF_RICHES",
+  "type": "CRAFTING",
+  "result": "BARREL_OF_RICHES",
+  "amount": 1,
+  "grid": [
+   "MANGCORE:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "MANGCORE:1",
+   "MANGCORE:1",
+   "LOTUS_WATER_ORB:1",
+   "MANGCORE:1",
+   "MANGCORE:1",
+   "MANGCORE:1",
+   "MANGCORE:1"
+  ]
+ },
+ {
+  "id": "pets:BIGGER_TEETH",
+  "type": "CRAFTING",
+  "result": "BIGGER_TEETH",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "PET_ITEM_BIG_TEETH_COMMON:1",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ZOG_ANVIL:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:FOUR_EYED_FISH",
+  "type": "CRAFTING",
+  "result": "FOUR_EYED_FISH",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SPIDER_EYE:64",
+   "ENCHANTED_SPIDER_EYE:64",
+   "ENCHANTED_SPIDER_EYE:64",
+   "PET_ITEM_LUCKY_CLOVER:1",
+   "PRE_DIGESTION_FISH:1",
+   "REINFORCED_SCALES:1",
+   "ENCHANTED_SPIDER_EYE:64",
+   "ENCHANTED_SPIDER_EYE:64",
+   "ENCHANTED_SPIDER_EYE:64"
+  ]
+ },
+ {
+  "id": "pets:GOLD_CLAWS",
+  "type": "CRAFTING",
+  "result": "GOLD_CLAWS",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "PET_ITEM_IRON_CLAWS_COMMON:1",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ZOG_ANVIL:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_PLUSHIE",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_PLUSHIE",
+  "amount": 1,
+  "grid": [
+   "",
+   "CROCHET_TIGER_PLUSHIE:1",
+   "",
+   "CROCHET_TIGER_PLUSHIE:1",
+   "HEPHAESTUS_ANVIL:1",
+   "CROCHET_TIGER_PLUSHIE:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_RELIC",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_RELIC",
+  "amount": 1,
+  "grid": [
+   "",
+   "MINOS_RELIC:1",
+   "",
+   "MINOS_RELIC:1",
+   "HEPHAESTUS_ANVIL:1",
+   "MINOS_RELIC:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_REMEDIES",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_REMEDIES",
+  "amount": 1,
+  "grid": [
+   "",
+   "ANTIQUE_REMEDIES:1",
+   "",
+   "ANTIQUE_REMEDIES:1",
+   "HEPHAESTUS_ANVIL:1",
+   "ANTIQUE_REMEDIES:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_SHELMET",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_SHELMET",
+  "amount": 1,
+  "grid": [
+   "",
+   "DWARF_TURTLE_SHELMET:1",
+   "",
+   "DWARF_TURTLE_SHELMET:1",
+   "HEPHAESTUS_ANVIL:1",
+   "DWARF_TURTLE_SHELMET:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_SOUVENIR",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_SOUVENIR",
+  "amount": 1,
+  "grid": [
+   "",
+   "WASHED_UP_SOUVENIR:1",
+   "",
+   "WASHED_UP_SOUVENIR:1",
+   "HEPHAESTUS_ANVIL:1",
+   "WASHED_UP_SOUVENIR:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_URN",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_URN",
+  "amount": 1,
+  "grid": [
+   "",
+   "CRETAN_URN:1",
+   "",
+   "CRETAN_URN:1",
+   "HEPHAESTUS_ANVIL:1",
+   "CRETAN_URN:1",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "pets:LOTUS_CROWN",
+  "type": "CRAFTING",
+  "result": "LOTUS_CROWN",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_WATER_LILY:1",
+   "PRINCE_CROWN_JEWEL:1",
+   "CONDENSED_WATER_LILY:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "LOTUS_WATER_ORB:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "ENCHANTED_GOLD_BLOCK:1"
+  ]
+ },
+ {
+  "id": "pets:PET_ITEM_EXP_SHARE",
+  "type": "CRAFTING",
+  "result": "PET_ITEM_EXP_SHARE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD:12",
+   "",
+   "ENCHANTED_GOLD:12",
+   "PET_ITEM_EXP_SHARE_DROP:1",
+   "ENCHANTED_GOLD:12",
+   "ENCHANTED_GOLD:12",
+   "ENCHANTED_GOLD:12",
+   "ENCHANTED_GOLD:12"
+  ]
+ },
+ {
+  "id": "pets:PET_ITEM_LUCKY_CLOVER",
+  "type": "CRAFTING",
+  "result": "PET_ITEM_LUCKY_CLOVER",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32",
+   "PET_ITEM_LUCKY_CLOVER_DROP:1",
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32",
+   "ENCHANTED_EMERALD:32"
+  ]
+ },
+ {
+  "id": "pets:PET_ITEM_SADDLE",
+  "type": "CRAFTING",
+  "result": "PET_ITEM_SADDLE",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_LEATHER:8",
+   "",
+   "ENCHANTED_LEATHER:8",
+   "ENCHANTED_IRON:8",
+   "ENCHANTED_LEATHER:8",
+   "",
+   "",
+   ""
+  ],
+  "unlock": "collection:LEATHER:8"
+ },
+ {
+  "id": "pets:PET_ITEM_TEXTBOOK",
+  "type": "CRAFTING",
+  "result": "PET_ITEM_TEXTBOOK",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_PAPER:64",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1",
+   "ENCHANTED_LAPIS_LAZULI_BLOCK:1"
+  ],
+  "unlock": "collection:INK_SACK:4:10"
+ },
+ {
+  "id": "pets:PET_ITEM_TIER_BOOST",
+  "type": "CRAFTING",
+  "result": "PET_ITEM_TIER_BOOST",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_IRON_BLOCK:2",
+   "",
+   "ENCHANTED_IRON_BLOCK:2",
+   "ENCHANTED_IRON_BLOCK:2",
+   "PET_ITEM_TIER_BOOST_DROP:1",
+   "ENCHANTED_IRON_BLOCK:2",
+   "",
+   "ENCHANTED_IRON_BLOCK:2",
+   ""
+  ]
+ },
+ {
+  "id": "pets:REINFORCED_SCALES",
+  "type": "CRAFTING",
+  "result": "REINFORCED_SCALES",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "PET_ITEM_HARDENED_SCALES_UNCOMMON:1",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ZOG_ANVIL:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:SERRATED_CLAWS",
+  "type": "CRAFTING",
+  "result": "SERRATED_CLAWS",
+  "amount": 1,
+  "grid": [
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "PET_ITEM_SHARPENED_CLAWS_UNCOMMON:1",
+   "ENCHANTED_GOLD_BLOCK:6",
+   "",
+   "ZOG_ANVIL:1",
+   ""
+  ]
+ },
+ {
+  "id": "pets:UNALLOYED_SPEED",
+  "type": "CRAFTING",
+  "result": "UNALLOYED_SPEED",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64",
+   "CANE_KNOT:32",
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64",
+   "ENCHANTED_SUGAR:64"
+  ]
+ },
+ {
+  "id": "pets:SIMPLE_CARROT_CANDY",
+  "type": "CRAFTING",
+  "result": "SIMPLE_CARROT_CANDY",
+  "amount": 1,
+  "grid": [
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64"
+  ],
+  "unlock": "collection:CARROT_ITEM:2"
+ },
+ {
+  "id": "pets:GREAT_CARROT_CANDY",
+  "type": "CRAFTING",
+  "result": "GREAT_CARROT_CANDY",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40",
+   "SIMPLE_CARROT_CANDY:1",
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40",
+   "ENCHANTED_CARROT:40"
+  ],
+  "unlock": "collection:CARROT_ITEM:6"
+ },
+ {
+  "id": "pets:SUPERB_CARROT_CANDY",
+  "type": "CRAFTING",
+  "result": "SUPERB_CARROT_CANDY",
+  "amount": 1,
+  "grid": [
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "GREAT_CARROT_CANDY:1",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3",
+   "ENCHANTED_GOLDEN_CARROT:3"
+  ],
+  "unlock": "collection:CARROT_ITEM:9"
+ },
+ {
+  "id": "pets:ULTIMATE_CARROT_CANDY",
+  "type": "CRAFTING",
+  "result": "ULTIMATE_CARROT_CANDY",
+  "amount": 1,
+  "grid": [
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1",
+   "ULTIMATE_CARROT_CANDY_UPGRADE:1",
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1",
+   "SUPERB_CARROT_CANDY:1"
+  ]
+ },
+ {
+  "id": "pets:ROYAL_JELLY",
+  "type": "CRAFTING",
+  "result": "ROYAL_JELLY",
+  "amount": 1,
+  "grid": [
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16",
+   "JELLY:64",
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16",
+   "FLORAL_GELATIN:16"
+  ]
+ },
+ {
+  "id": "pets:GRIFFIN_UPGRADE_STONE_UNCOMMON",
+  "type": "CRAFTING",
+  "result": "GRIFFIN_UPGRADE_STONE_UNCOMMON",
+  "amount": 1,
+  "grid": [
+   "GRIFFIN_FEATHER:4",
+   "ENCHANTED_GOLD:16",
+   "GRIFFIN_FEATHER:4",
+   "ANCIENT_CLAW:16",
+   "BASE_GRIFFIN_UPGRADE_STONE:1",
+   "ANCIENT_CLAW:16",
+   "ENCHANTED_GOLD:16",
+   "ENCHANTED_GOLD:16",
+   "ENCHANTED_GOLD:16"
+  ]
+ },
+ {
+  "id": "pets:GRIFFIN_UPGRADE_STONE_RARE",
+  "type": "CRAFTING",
+  "result": "GRIFFIN_UPGRADE_STONE_RARE",
+  "amount": 1,
+  "grid": [
+   "GRIFFIN_FEATHER:8",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "GRIFFIN_FEATHER:8",
+   "ANCIENT_CLAW:32",
+   "BASE_GRIFFIN_UPGRADE_STONE:1",
+   "ANCIENT_CLAW:32",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "ENCHANTED_GOLD_BLOCK:1",
+   "ENCHANTED_GOLD_BLOCK:1"
+  ]
+ },
+ {
+  "id": "pets:GRIFFIN_UPGRADE_STONE_EPIC",
+  "type": "CRAFTING",
+  "result": "GRIFFIN_UPGRADE_STONE_EPIC",
+  "amount": 1,
+  "grid": [
+   "GRIFFIN_FEATHER:32",
+   "MYTHOS_FRAGMENT:4",
+   "GRIFFIN_FEATHER:32",
+   "ENCHANTED_ANCIENT_CLAW:2",
+   "BASE_GRIFFIN_UPGRADE_STONE:1",
+   "ENCHANTED_ANCIENT_CLAW:2",
+   "ENCHANTED_GOLD_BLOCK:4",
+   "ENCHANTED_GOLD_BLOCK:4",
+   "ENCHANTED_GOLD_BLOCK:4"
+  ]
+ },
+ {
+  "id": "pets:GRIFFIN_UPGRADE_STONE_LEGENDARY",
+  "type": "CRAFTING",
+  "result": "GRIFFIN_UPGRADE_STONE_LEGENDARY",
+  "amount": 1,
+  "grid": [
+   "MYTHOS_FRAGMENT:8",
+   "BRAIDED_GRIFFIN_FEATHER:1",
+   "MYTHOS_FRAGMENT:8",
+   "ENCHANTED_ANCIENT_CLAW:16",
+   "BASE_GRIFFIN_UPGRADE_STONE:1",
+   "ENCHANTED_ANCIENT_CLAW:16",
+   "ENCHANTED_GOLD_BLOCK:32",
+   "ENCHANTED_GOLD_BLOCK:32",
+   "ENCHANTED_GOLD_BLOCK:32"
+  ]
+ },
+ {
+  "id": "pets:GRIFFIN_UPGRADE_STONE_MYTHIC",
+  "type": "CRAFTING",
+  "result": "GRIFFIN_UPGRADE_STONE_MYTHIC",
+  "amount": 1,
+  "grid": [
+   "BRAIDED_GRIFFIN_FEATHER:1",
+   "MYTHOS_FRAGMENT:48",
+   "BRAIDED_GRIFFIN_FEATHER:1",
+   "ENCHANTED_ANCIENT_CLAW:64",
+   "BASE_GRIFFIN_UPGRADE_STONE:1",
+   "ENCHANTED_ANCIENT_CLAW:64",
+   "ENCHANTED_GOLD_BLOCK:64",
+   "ENCHANTED_GOLD_BLOCK:64",
+   "ENCHANTED_GOLD_BLOCK:64"
+  ]
+ },
+ {
+  "id": "pets:TRUNK_POLISH",
+  "type": "CRAFTING",
+  "result": "TRUNK_POLISH",
+  "amount": 1,
+  "grid": [
+   "MELON_JUICE:32",
+   "CREAMBLOOM:1",
+   "MELON_JUICE:32",
+   "CREAMBLOOM:1",
+   "GLASS_BOTTLE:1",
+   "CREAMBLOOM:1",
+   "MELON_JUICE:32",
+   "CREAMBLOOM:1",
+   "MELON_JUICE:32"
+  ]
+ },
+ {
+  "id": "pets:BUCKET_OF_FROGSPAWN",
+  "type": "CRAFTING",
+  "result": "BUCKET_OF_FROGSPAWN",
+  "amount": 1,
+  "grid": [
+   "CONDENSED_WATER_LILY:1",
+   "",
+   "CONDENSED_WATER_LILY:1",
+   "CONDENSED_WATER_LILY:1",
+   "LOTUS_WATER_ORB:1",
+   "CONDENSED_WATER_LILY:1",
+   "CONDENSED_WATER_LILY:1",
+   "CONDENSED_WATER_LILY:1",
+   "CONDENSED_WATER_LILY:1"
+  ],
+  "unlock": "collection:WATER_LILY:11"
+ },
+ {
+  "id": "pets:POCKET_SIZED_IGLOO",
+  "type": "CRAFTING",
+  "result": "POCKET_SIZED_IGLOO",
+  "amount": 1,
+  "grid": [
+   "HILT_OF_TRUE_ICE:1",
+   "ENCHANTED_PACKED_ICE:16",
+   "HILT_OF_TRUE_ICE:1",
+   "ENCHANTED_PACKED_ICE:16",
+   "LITTLEFOOT_FLUFF:1",
+   "ENCHANTED_PACKED_ICE:16",
+   "HILT_OF_TRUE_ICE:1",
+   "ENCHANTED_PACKED_ICE:16",
+   "HILT_OF_TRUE_ICE:1"
+  ]
+ },
+ {
+  "id": "pets:ZOG_ANVIL",
+  "type": "CRAFTING",
+  "result": "ZOG_ANVIL",
+  "amount": 1,
+  "grid": [
+   "ANCIENT_CLAW:16",
+   "ANCIENT_CLAW:16",
+   "ANCIENT_CLAW:16",
+   "",
+   "GRIFFIN_FEATHER:16",
+   "",
+   "ANCIENT_CLAW:16",
+   "ANCIENT_CLAW:16",
+   "ANCIENT_CLAW:16"
+  ]
+ },
+ {
+  "id": "pets:HEPHAESTUS_ANVIL",
+  "type": "CRAFTING",
+  "result": "HEPHAESTUS_ANVIL",
+  "amount": 1,
+  "grid": [
+   "BRAIDED_GRIFFIN_FEATHER:1",
+   "ENCHANTED_GOLD_BLOCK:64",
+   "BRAIDED_GRIFFIN_FEATHER:1",
+   "",
+   "ZOG_ANVIL:1",
+   "",
+   "ENCHANTED_ANCIENT_CLAW:64",
+   "MYTHOS_FRAGMENT:32",
+   "ENCHANTED_ANCIENT_CLAW:64"
+  ]
+ }
+]

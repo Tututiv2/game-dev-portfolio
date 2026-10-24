@@ -1,0 +1,238 @@
+﻿<Window x:Class="ZombieSurge.Editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        mc:Ignorable="d"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Zombie Surge — Level Editor (3D)"
+        Height="760"
+        Width="1280"
+        MinWidth="820"
+        MinHeight="540"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="480" />
+            <ColumnDefinition Width="340" MinWidth="300" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="0,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" MinHeight="320" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="3D world" FontSize="15" FontWeight="SemiBold" Margin="0,0,0,6" />
+
+            <ToolBarTray Grid.Row="1">
+                <ToolBar>
+                    <TextBlock Text="Tool" VerticalAlignment="Center" Margin="0,0,6,0" />
+                    <ComboBox x:Name="ViewToolCombo" Width="118" VerticalAlignment="Center">
+                        <ComboBoxItem Content="Navigate" IsSelected="True" />
+                        <ComboBoxItem Content="Place box" />
+                        <ComboBoxItem Content="Place spawn" />
+                    </ComboBox>
+                    <Separator />
+                    <TextBlock Text="New box (X×Y×Z)" VerticalAlignment="Center" Margin="8,0,6,0" />
+                    <TextBox x:Name="NewBoxSizeX" Width="40" Text="4" ToolTip="Width (X)" />
+                    <TextBlock Text="×" VerticalAlignment="Center" Margin="4,0,4,0" />
+                    <TextBox x:Name="NewBoxSizeY" Width="40" Text="2" ToolTip="Height (Y)" />
+                    <TextBlock Text="×" VerticalAlignment="Center" Margin="4,0,4,0" />
+                    <TextBox x:Name="NewBoxSizeZ" Width="40" Text="4" ToolTip="Depth (Z)" />
+                    <Separator />
+                    <Button Content="Box @ center" Padding="8,4" Margin="0,0,6,0" Click="AddBoxCenter_OnClick" />
+                    <Button Content="Spawn @ center" Padding="8,4" Margin="0,0,6,0" Click="AddSpawnCenter_OnClick" />
+                    <Button Content="Ground plate" Padding="8,4" Margin="0,0,6,0" Click="AddGroundPlate_OnClick" />
+                    <Separator />
+                    <Button Content="Reset camera" Padding="8,4" Margin="0,0,8,0" Click="ResetCamera_OnClick" />
+                    <Button Content="Refresh" Padding="8,4" Margin="0,0,8,0" Click="Refresh3D_OnClick" />
+                </ToolBar>
+            </ToolBarTray>
+
+            <Border Grid.Row="2"
+                    Background="#252a32"
+                    BorderBrush="#3d4654"
+                    BorderThickness="0,0,0,1"
+                    Padding="8,6"
+                    Margin="0,0,0,8">
+                <TextBlock x:Name="ViewportHintText"
+                           TextWrapping="Wrap"
+                           Foreground="#c8d0dc"
+                           FontSize="12"
+                           Text="Navigate: left-drag or right-drag to orbit. Wheel zooms. Orange = player, green = spawns, blue = boxes." />
+            </Border>
+
+            <Grid Grid.Row="3" MinHeight="320">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="248" MinWidth="200" />
+                    <ColumnDefinition Width="6" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <GroupBox Grid.Column="0" Header="Scene" Padding="4">
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="0,8,0,0">
+                            <Button Content="Duplicate" Padding="8,4" Margin="0,0,6,0" Click="DuplicateSelected_OnClick" />
+                            <Button Content="Delete" Padding="8,4" Click="DeleteSelected_OnClick" />
+                        </StackPanel>
+                        <TreeView x:Name="SceneTree" MinHeight="200" SelectedItemChanged="SceneTree_OnSelectedItemChanged" />
+                    </DockPanel>
+                </GroupBox>
+
+                <GridSplitter Grid.Column="1"
+                              Width="6"
+                              HorizontalAlignment="Stretch"
+                              Background="#3d4654"
+                              ShowsPreview="False" />
+
+                <Border Grid.Column="2" BorderBrush="#3d4654" BorderThickness="1" Background="#0f1216">
+                    <Viewport3D x:Name="PreviewViewport"
+                                MouseDown="Viewport3D_OnMouseDown"
+                                MouseMove="Viewport3D_OnMouseMove"
+                                MouseUp="Viewport3D_OnMouseUp"
+                                MouseWheel="Viewport3D_OnMouseWheel">
+                        <Viewport3D.Camera>
+                            <PerspectiveCamera x:Name="PreviewCamera"
+                                               Position="10,8,14"
+                                               LookDirection="-0.45,-0.32,-0.83"
+                                               UpDirection="0,1,0"
+                                               FieldOfView="62"
+                                               NearPlaneDistance="0.06"
+                                               FarPlaneDistance="4000" />
+                        </Viewport3D.Camera>
+                        <ModelVisual3D>
+                            <ModelVisual3D.Content>
+                                <Model3DGroup>
+                                    <AmbientLight Color="#FF5a6270" />
+                                    <DirectionalLight Color="#FFf2f4f8" Direction="-0.38,-0.82,-0.32" />
+                                    <DirectionalLight Color="#FF6a7a94" Direction="0.55,-0.15,0.45" />
+                                </Model3DGroup>
+                            </ModelVisual3D.Content>
+                        </ModelVisual3D>
+                        <ModelVisual3D x:Name="WorldRoot" />
+                    </Viewport3D>
+                </Border>
+            </Grid>
+        </Grid>
+
+        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+                <TextBlock Text="Level" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,6" />
+                <TextBlock TextWrapping="Wrap" Foreground="#555" FontSize="12" Margin="0,0,0,10"
+                           Text="Pick an object in Scene (left) or a row in the table. Edit min/max in the fields above each tab — the grid is read-only. Save → Content/levels/default.json." />
+
+                <GroupBox Header="Player start (feet)" Padding="8" Margin="0,0,0,10">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="X" VerticalAlignment="Center" Width="18" />
+                        <TextBox x:Name="PlayerX" Width="72" />
+                        <TextBlock Text="Y" VerticalAlignment="Center" Width="18" Margin="10,0,0,0" />
+                        <TextBox x:Name="PlayerY" Width="72" />
+                        <TextBlock Text="Z" VerticalAlignment="Center" Width="18" Margin="10,0,0,0" />
+                        <TextBox x:Name="PlayerZ" Width="72" />
+                    </StackPanel>
+                </GroupBox>
+
+                <TabControl x:Name="MainTabs" SelectionChanged="MainTabs_OnSelectionChanged">
+                    <TabItem Header="Boxes">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                                <GroupBox Header="Selected box — min / max (edit here)" Padding="10" x:Name="BoxPropsGroup">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Min X" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="SelBoxMinX" Margin="0,0,10,6" />
+                                        <TextBlock Grid.Row="0" Grid.Column="2" Text="Min Y" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="0" Grid.Column="3" x:Name="SelBoxMinY" Margin="0,0,10,6" />
+                                        <TextBlock Grid.Row="0" Grid.Column="4" Text="Min Z" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="0" Grid.Column="5" x:Name="SelBoxMinZ" Margin="0,0,0,6" />
+
+                                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Max X" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="SelBoxMaxX" Margin="0,0,10,6" />
+                                        <TextBlock Grid.Row="1" Grid.Column="2" Text="Max Y" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="1" Grid.Column="3" x:Name="SelBoxMaxY" Margin="0,0,10,6" />
+                                        <TextBlock Grid.Row="1" Grid.Column="4" Text="Max Z" VerticalAlignment="Center" Margin="0,0,6,6" />
+                                        <TextBox Grid.Row="1" Grid.Column="5" x:Name="SelBoxMaxZ" Margin="0,0,0,6" />
+
+                                        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6" Orientation="Horizontal">
+                                            <Button Content="Add empty box (2³ at origin)" Padding="8,4" Margin="0,4,8,0" Click="AddEmptyBox_OnClick" />
+                                            <TextBlock Text="Grid below is overview only." Foreground="#777" VerticalAlignment="Center" FontSize="11" />
+                                        </StackPanel>
+                                    </Grid>
+                                </GroupBox>
+                            </StackPanel>
+                            <DataGrid x:Name="BoxesGrid"
+                                      MinHeight="160"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True"
+                                      CanUserAddRows="False"
+                                      CanUserDeleteRows="True"
+                                      SelectionMode="Single"
+                                      SelectionUnit="FullRow">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Min X" Binding="{Binding MinX}" Width="*" />
+                                    <DataGridTextColumn Header="Min Y" Binding="{Binding MinY}" Width="*" />
+                                    <DataGridTextColumn Header="Min Z" Binding="{Binding MinZ}" Width="*" />
+                                    <DataGridTextColumn Header="Max X" Binding="{Binding MaxX}" Width="*" />
+                                    <DataGridTextColumn Header="Max Y" Binding="{Binding MaxY}" Width="*" />
+                                    <DataGridTextColumn Header="Max Z" Binding="{Binding MaxZ}" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DockPanel>
+                    </TabItem>
+                    <TabItem Header="Spawns">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                                <GroupBox Header="Selected spawn — X / Z (edit here)" Padding="10">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="X" VerticalAlignment="Center" Margin="0,0,6,0" />
+                                        <TextBox x:Name="SelSpawnX" Width="100" Margin="0,0,20,0" />
+                                        <TextBlock Text="Z" VerticalAlignment="Center" Margin="0,0,6,0" />
+                                        <TextBox x:Name="SelSpawnZ" Width="100" Margin="0,0,20,0" />
+                                        <Button Content="Add spawn at (0, 0)" Padding="8,4" Click="AddSpawnOrigin_OnClick" />
+                                    </StackPanel>
+                                </GroupBox>
+                            </StackPanel>
+                            <DataGrid x:Name="SpawnsGrid"
+                                      MinHeight="120"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True"
+                                      CanUserAddRows="False"
+                                      CanUserDeleteRows="True"
+                                      SelectionMode="Single"
+                                      SelectionUnit="FullRow">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="X" Binding="{Binding X}" Width="*" />
+                                    <DataGridTextColumn Header="Z" Binding="{Binding Z}" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DockPanel>
+                    </TabItem>
+                </TabControl>
+
+                <TextBlock Text="Maps" FontWeight="SemiBold" Margin="0,14,0,6" />
+                <StackPanel>
+                    <Button Content="District map (new layout)" Padding="10,6" Margin="0,0,0,6" Click="DistrictMap_OnClick" />
+                    <Button Content="New default arena" Padding="10,6" Margin="0,0,0,6" Click="NewArena_OnClick" />
+                    <Button Content="Small playtest map" Padding="10,6" Margin="0,0,0,6" Click="SmallMap_OnClick" />
+                    <Button Content="Load game default.json" Padding="10,6" Margin="0,0,0,6" Click="Load_OnClick" />
+                    <Button Content="Save → game default.json" Padding="10,6" Margin="0,0,0,8" Click="Save_OnClick" />
+                    <TextBlock x:Name="StatusText" TextWrapping="Wrap" Foreground="#666" FontSize="12" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

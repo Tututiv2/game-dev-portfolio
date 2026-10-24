@@ -1,0 +1,20 @@
+{
+ "direction": "c2s",
+ "type": 1,
+ "name": "HELLO",
+ "fields": {
+  "protocol": 1,
+  "modVersion": "1.0.0+mc26.2",
+  "wants": [
+   "breaks",
+   "income",
+   "balance",
+   "progress",
+   "boosts",
+   "skill",
+   "contract",
+   "area",
+   "lookup"
+  ]
+ }
+}

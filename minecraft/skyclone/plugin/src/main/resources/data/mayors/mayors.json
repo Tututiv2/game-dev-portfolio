@@ -1,0 +1,778 @@
+{
+ "mayors": [
+  {
+   "id": "aatrox",
+   "ref": "Aatrox",
+   "name": "Vexmar",
+   "type": "Slayer",
+   "color": "c",
+   "icon": "DIAMOND_SWORD",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "aatrox.slashed_pricing",
+     "ref": "SLASHED Pricing",
+     "name": "Cut-Rate Contracts",
+     "value": 50,
+     "owner": "slayer",
+     "lore": [
+      "&7Starting a &5Slayer &7quest costs &a50% &7less."
+     ],
+     "aliases": [
+      "aatrox.slayer_discount"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "aatrox.slayer_xp_buff",
+     "ref": "Slayer XP Buff",
+     "name": "Slayer XP Buff",
+     "value": 25,
+     "owner": "slayer",
+     "lore": [
+      "&7Earn &d25% &7more &5Slayer XP&7."
+     ],
+     "aliases": [
+      "aatrox.slayer_xp"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "aatrox.pathfinder",
+     "ref": "Pathfinder",
+     "name": "Trailblazer",
+     "value": 20,
+     "owner": "slayer",
+     "lore": [
+      "&7Rare drops from &5Slayer &7bosses show up",
+      "&a20% &7more often."
+     ],
+     "aliases": [
+      "aatrox.rare_drops"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "cole",
+   "ref": "Cole",
+   "name": "Bram",
+   "type": "Mining",
+   "color": "6",
+   "icon": "IRON_PICKAXE",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "cole.prospection",
+     "ref": "Prospection",
+     "name": "Deep Survey",
+     "value": 25,
+     "owner": "minions",
+     "lore": [
+      "&7Mining minions work &a25% &7faster."
+     ],
+     "aliases": [],
+     "ministerEligible": true
+    },
+    {
+     "id": "cole.mining_xp_buff",
+     "ref": "Mining XP Buff",
+     "name": "Mining XP Buff",
+     "value": 60,
+     "owner": "mayors",
+     "lore": [
+      "&7Gain &3+60☯ Mining Wisdom &7on",
+      "&7every public island."
+     ],
+     "aliases": [
+      "cole.mining_xp"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "cole.mining_fiesta",
+     "ref": "Mining Fiesta",
+     "name": "Mining Fiesta",
+     "value": 25,
+     "owner": "mining",
+     "lore": [
+      "&7A &6Mining Fiesta &7runs all term: gain",
+      "&3+25☯ Mining Wisdom&7, &6+25% Mining Fortune&7,",
+      "&7and collect &9Refined Minerals &7and",
+      "&5Glossy Gemstones &7from mining!"
+     ],
+     "aliases": [
+      "cole.fiesta",
+      "mining_fiesta"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "cole.molten_forge",
+     "ref": "Molten Forge",
+     "name": "Hot Anvils",
+     "value": 25,
+     "owner": "mining",
+     "lore": [
+      "&7Every &6Forge &7job finishes &d25% &7faster."
+     ],
+     "aliases": [
+      "cole.forge"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "diana",
+   "ref": "Diana",
+   "name": "Orla",
+   "type": "Pets",
+   "color": "a",
+   "icon": "BONE",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "diana.huntress_intuition",
+     "ref": "Huntress' Intuition",
+     "name": "Huntress' Intuition",
+     "value": 10,
+     "owner": "hunting",
+     "lore": [
+      "&7Gain &a+10❃ Tracking&7."
+     ],
+     "aliases": [
+      "diana.tracking"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "diana.mythological_ritual",
+     "ref": "Mythological Ritual",
+     "name": "Mythological Ritual",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7The mayor sells the &fGriffin &7pet and the",
+      "&9Ancestral Spade&7: dig up &eGriffin Burrows",
+      "&7in the Hub for &2Mythological &7creatures",
+      "&7and their treasure."
+     ],
+     "aliases": [
+      "diana.mythological",
+      "diana.ritual"
+     ],
+     "ministerEligible": false
+    },
+    {
+     "id": "diana.pet_xp_buff",
+     "ref": "Pet XP Buff",
+     "name": "Pet XP Buff",
+     "value": 35,
+     "owner": "pets",
+     "lore": [
+      "&7Pets gain &d35% &7more XP."
+     ],
+     "aliases": [
+      "diana.pet_xp"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "diana.sharing_is_caring",
+     "ref": "Sharing is Caring",
+     "name": "Shared Bowls",
+     "value": 2,
+     "owner": "pets",
+     "lore": [
+      "&7Unlocks &a2 &7more &6Exp Share &7slots and raises",
+      "&7the &6Exp Share &7rate by &a+10%&7."
+     ],
+     "aliases": [
+      "diana.exp_share"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "diaz",
+   "ref": "Diaz",
+   "name": "Mercer",
+   "type": "Economist",
+   "color": "6",
+   "icon": "GOLD_INGOT",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "diaz.long_term_investment",
+     "ref": "Long Term Investment",
+     "name": "Long Game",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7Whoever becomes &bMinister &7under this mayor",
+      "&7runs again next election, with &aevery &7perk."
+     ],
+     "aliases": [
+      "diaz.lti"
+     ],
+     "ministerEligible": false
+    },
+    {
+     "id": "diaz.volume_trading",
+     "ref": "Volume Trading",
+     "name": "Bulk Lots",
+     "value": 2,
+     "owner": "auction",
+     "lore": [
+      "&7The yearly vault auction offers &a2x &7the",
+      "&7stock and &a2 &7extra special lots."
+     ],
+     "aliases": [
+      "diaz.shens"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "diaz.stock_exchange",
+     "ref": "Stock Exchange",
+     "name": "Share Floor",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7Opens the &6Stonks Auction&7: bid coins for",
+      "&5Stocks of Stonks &7to trade for rare goods."
+     ],
+     "aliases": [
+      "diaz.stonks"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "diaz.shopping_spree",
+     "ref": "Shopping Spree",
+     "name": "Shopping Spree",
+     "value": 10,
+     "owner": "shops",
+     "lore": [
+      "&7Daily NPC buy limits are &a10x &7higher,",
+      "&7including NPC trades."
+     ],
+     "aliases": [
+      "diaz.npc_limits"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "finnegan",
+   "ref": "Finnegan",
+   "name": "Wystan",
+   "type": "Farming",
+   "color": "e",
+   "icon": "GOLDEN_HOE",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "finnegan.pest_eradicator",
+     "ref": "Pest Eradicator",
+     "name": "Pest Patrol",
+     "value": 20,
+     "owner": "garden",
+     "lore": [
+      "&7The pest hunter's &6Farming Fortune &7bonus lasts",
+      "&a60m&7, and &2Pests &7spawn &a20% &7sooner."
+     ],
+     "aliases": [
+      "finnegan.pests"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "finnegan.goated",
+     "ref": "GOATed",
+     "name": "Top of the Field",
+     "value": 10,
+     "owner": "farming",
+     "lore": [
+      "&7Farming contest medal brackets take in",
+      "&aup to 10% &7more players."
+     ],
+     "aliases": [
+      "finnegan.contest_brackets"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "finnegan.blooming_business",
+     "ref": "Blooming Business",
+     "name": "Busy Gates",
+     "value": 10,
+     "owner": "garden",
+     "lore": [
+      "&2Garden &7visitors come more often, at higher",
+      "&7rarity, and pay &a+10% Copper&7."
+     ],
+     "aliases": [
+      "finnegan.visitors"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "finnegan.grand_feast",
+     "ref": "Grand Feast",
+     "name": "Year-Long Harvest",
+     "value": 1,
+     "owner": "farming",
+     "lore": [
+      "&7The harvest feast runs &ball year&7 and the",
+      "&7feast bakery opens for kernels."
+     ],
+     "aliases": [
+      "finnegan.feast"
+     ],
+     "ministerEligible": false
+    }
+   ]
+  },
+  {
+   "id": "foxy",
+   "ref": "Foxy",
+   "name": "Pip",
+   "type": "Events",
+   "color": "d",
+   "icon": "CAKE",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "foxy.sweet_benevolence",
+     "ref": "Sweet Benevolence",
+     "name": "Sugar Rush",
+     "value": 30,
+     "owner": "mayors",
+     "lore": [
+      "&7Event drops (&6Candy&7, &cGifts&7) have a &a30%",
+      "&7chance to come in pairs."
+     ],
+     "aliases": [
+      "foxy.candy"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "foxy.extra_event",
+     "ref": "Extra Event",
+     "name": "Encore",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7Schedules an extra {extra_event}",
+      "&7event during the year."
+     ],
+     "aliases": [
+      "foxy.extra_spooky",
+      "foxy.extra_festival"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "foxy.a_time_for_giving",
+     "ref": "A Time for Giving",
+     "name": "Open Hands",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7Mobs killed during the &6Spooky Festival &7may",
+      "&7drop &dParty Chests &7full of treats."
+     ],
+     "aliases": [
+      "foxy.party_chests"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "foxy.chivalrous_carnival",
+     "ref": "Chivalrous Carnival",
+     "name": "Fairground",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7The &eCarnival &7in the Hub stays open the",
+      "&7entire year: free tickets daily,",
+      "&6Fruit Digging &7and a mask shop."
+     ],
+     "aliases": [
+      "foxy.carnival"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "marina",
+   "ref": "Marina",
+   "name": "Coralie",
+   "type": "Fishing",
+   "color": "b",
+   "icon": "FISHING_ROD",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "marina.fishing_xp_buff",
+     "ref": "Fishing XP Buff",
+     "name": "Fishing XP Buff",
+     "value": 50,
+     "owner": "mayors",
+     "lore": [
+      "&7Gain &3+50☯ Fishing Wisdom &7on",
+      "&7every public island."
+     ],
+     "aliases": [
+      "marina.fishing_xp"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "marina.luck_of_the_sea",
+     "ref": "Luck of the Sea 2.0",
+     "name": "Deep Luck",
+     "value": 15,
+     "owner": "mayors",
+     "lore": [
+      "&7Gain &3+15α Sea Creature Chance&7."
+     ],
+     "aliases": [
+      "marina.scc"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "marina.fishing_festival",
+     "ref": "Fishing Festival",
+     "name": "Fishing Festival",
+     "value": 1,
+     "owner": "fishing",
+     "lore": [
+      "&7A &bFishing Festival &7opens on the first three",
+      "&7days of every month: &9sharks &7roam the water."
+     ],
+     "aliases": [
+      "marina.festival"
+     ],
+     "ministerEligible": false
+    },
+    {
+     "id": "marina.double_trouble",
+     "ref": "Double Trouble",
+     "name": "Twin Lines",
+     "value": 0.1,
+     "owner": "mayors",
+     "lore": [
+      "&7Every &31α Sea Creature Chance &7also gives",
+      "&9+0.1⚓ Double Hook Chance&7."
+     ],
+     "aliases": [
+      "marina.double_hook"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "paul",
+   "ref": "Paul",
+   "name": "Osric",
+   "type": "Dungeons",
+   "color": "5",
+   "icon": "WITHER_SKELETON_SKULL",
+   "special": false,
+   "retired": false,
+   "perks": [
+    {
+     "id": "paul.marauder",
+     "ref": "Marauder",
+     "name": "Plunderer",
+     "value": 20,
+     "owner": "dungeons",
+     "lore": [
+      "&7Dungeon reward chests cost &a20% &7less."
+     ],
+     "aliases": [
+      "paul.chest_discount"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "paul.ezpz",
+     "ref": "EZPZ",
+     "name": "Easy Street",
+     "value": 10,
+     "owner": "dungeons",
+     "lore": [
+      "&7Every dungeon run earns &a+10 &7bonus score."
+     ],
+     "aliases": [
+      "paul.score"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "paul.benediction",
+     "ref": "Benediction",
+     "name": "Benediction",
+     "value": 25,
+     "owner": "dungeons",
+     "lore": [
+      "&7Dungeon blessings are &a25% &7stronger."
+     ],
+     "aliases": [
+      "paul.blessings"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "barry",
+   "ref": "Barry",
+   "name": "Leofric",
+   "type": "Magic",
+   "color": "3",
+   "icon": "ENCHANTING_TABLE",
+   "special": false,
+   "retired": true,
+   "perks": [
+    {
+     "id": "barry.arcane_catalyst",
+     "ref": "Arcane Catalyst",
+     "name": "Arcane Spark",
+     "value": 15,
+     "owner": "mayors",
+     "lore": [
+      "&7Spells deal &a15% &7more damage and cost",
+      "&a15% &7less mana."
+     ],
+     "aliases": [
+      "barry.spells"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "barry.astral_negotiator",
+     "ref": "Astral Negotiator",
+     "name": "Star Bargain",
+     "value": 15,
+     "owner": "enchanting",
+     "lore": [
+      "&7Enchanting and anvil experience costs are",
+      "&a15% &7lower."
+     ],
+     "aliases": [
+      "barry.enchant_cost"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "barry.magic_xp_boost",
+     "ref": "Magic XP Boost",
+     "name": "Scholar's Boon",
+     "value": 15,
+     "owner": "mayors",
+     "lore": [
+      "&7Gain &3+15☯ Alchemy &7and &3+15☯ Enchanting",
+      "&3Wisdom&7."
+     ],
+     "aliases": [
+      "barry.magic_xp"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "scorpius",
+   "ref": "Scorpius",
+   "name": "Corvane",
+   "type": "Special",
+   "color": "5",
+   "icon": "ENDER_EYE",
+   "special": true,
+   "retired": false,
+   "perks": [
+    {
+     "id": "scorpius.bribe",
+     "ref": "Bribe",
+     "name": "Kickback",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7If he wins, everyone who voted for him is",
+      "&7paid &650,000 &7to &61,000,000 coins&7."
+     ],
+     "aliases": [
+      "scorpius.bribes"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "scorpius.darker_auctions",
+     "ref": "Darker Auctions",
+     "name": "Shadow Lots",
+     "value": 7,
+     "owner": "mayors",
+     "lore": [
+      "&7He crashes the &5Dark Auction&7: up to &a7",
+      "&7rounds and lots you will not see otherwise."
+     ],
+     "aliases": [
+      "scorpius.dark_auction"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "derpy",
+   "ref": "Derpy",
+   "name": "Bonko",
+   "type": "Special",
+   "color": "d",
+   "icon": "PUFFERFISH",
+   "special": true,
+   "retired": false,
+   "perks": [
+    {
+     "id": "derpy.quad_taxes",
+     "ref": "QUAD TAXES!!!",
+     "name": "QUADRUPLE TAX!!!",
+     "value": 4,
+     "owner": "auction",
+     "lore": [
+      "&7Every market tax is &c4x&7. Ouch."
+     ],
+     "aliases": [
+      "derpy.taxes"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "derpy.turbo_minions",
+     "ref": "TURBO MINIONS!!!",
+     "name": "MINION OVERDRIVE!!!",
+     "value": 2,
+     "owner": "minions",
+     "lore": [
+      "&7Minions produce &a2x &7the output."
+     ],
+     "aliases": [
+      "derpy.minions"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "derpy.double_mobs_hp",
+     "ref": "DOUBLE MOBS HP!!!",
+     "name": "BEEFY MOBS!!!",
+     "value": 2,
+     "owner": "mayors",
+     "lore": [
+      "&7Every monster has &c2x &7health."
+     ],
+     "aliases": [
+      "derpy.mob_hp"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "derpy.moar_skillz",
+     "ref": "MOAR SKILLZ!!!",
+     "name": "MORE SKILLS!!!",
+     "value": 50,
+     "owner": "mayors",
+     "lore": [
+      "&7Gain &a50% &7more skill XP."
+     ],
+     "aliases": [
+      "derpy.skill_xp"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  },
+  {
+   "id": "jerry",
+   "ref": "Jerry",
+   "name": "Gerald",
+   "type": "Special",
+   "color": "a",
+   "icon": "VILLAGER_SPAWN_EGG",
+   "special": true,
+   "retired": false,
+   "perks": [
+    {
+     "id": "jerry.perkpocalypse",
+     "ref": "Perkpocalypse",
+     "name": "Perk Parade",
+     "value": 18,
+     "owner": "mayors",
+     "lore": [
+      "&7Every &a18 &7SkyBlock days (&a6 &7hours) the",
+      "&7perks of another mayor switch on in full."
+     ],
+     "aliases": [
+      "jerry.perk_rotation"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "jerry.statspocalypse",
+     "ref": "Statspocalypse",
+     "name": "Stat Surge",
+     "value": 10,
+     "owner": "mayors",
+     "lore": [
+      "&7Every combat and misc stat is &a+10%&7."
+     ],
+     "aliases": [
+      "jerry.stats"
+     ],
+     "ministerEligible": true
+    },
+    {
+     "id": "jerry.jerrypocalypse",
+     "ref": "Jerrypocalypse",
+     "name": "Gerald Sightings",
+     "value": 1,
+     "owner": "mayors",
+     "lore": [
+      "&7Hidden &aGeralds &7pop out while you chop,",
+      "&7farm, mine and fight. They carry boxes."
+     ],
+     "aliases": [
+      "jerry.hidden"
+     ],
+     "ministerEligible": true
+    }
+   ]
+  }
+ ],
+ "specialRotation": [
+  "scorpius",
+  "derpy",
+  "jerry"
+ ],
+ "perkpocalypseExclude": [
+  "diaz"
+ ],
+ "notes": "Values are research/05 §8.4-8.5. owner = module that applies the effect."
+}

@@ -1,0 +1,267 @@
+<Window x:Class="SoundBoard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SoundBoard" Height="720" Width="1080" MinHeight="520" MinWidth="880"
+        Background="{StaticResource Bg}" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- ============================================ header -->
+        <Border Grid.Row="0" Background="{StaticResource Panel}" CornerRadius="10" Padding="14,11"
+                BorderBrush="{StaticResource Line}" BorderThickness="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- master on/off -->
+                <Button x:Name="BtnEnable" Grid.Column="0" Click="BtnEnable_Click" Width="190" Height="46"
+                        Background="#FF173A2C" BorderBrush="{StaticResource AccentD}">
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse x:Name="Dot" Width="11" Height="11" Fill="{StaticResource Accent}" Margin="0,0,10,0"/>
+                        <TextBlock x:Name="EnableText" Text="ENABLED" FontSize="17" FontWeight="Bold"
+                                   Foreground="{StaticResource Accent}"/>
+                    </StackPanel>
+                </Button>
+
+                <StackPanel Grid.Column="1" Margin="14,0,0,0" VerticalAlignment="Center">
+                    <TextBlock x:Name="ToggleHint" Style="{StaticResource Label}" Text="toggle: Ctrl+Shift+M" Margin="0,0,0,2"/>
+                    <TextBlock x:Name="StopHint" Style="{StaticResource Label}" Text="stop all: Ctrl+Shift+X" Margin="0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" VerticalAlignment="Center" Margin="26,0,20,0">
+                    <TextBlock Style="{StaticResource Label}">
+                        <Run Text="MASTER VOLUME  "/><Run x:Name="VolText" Text="80%" Foreground="#FFE7ECF5"/>
+                    </TextBlock>
+                    <Slider x:Name="MasterSlider" Minimum="0" Maximum="1" Value="0.8"
+                            ValueChanged="MasterSlider_Changed"/>
+                </StackPanel>
+
+                <Button Grid.Column="3" Content="⏹  Stop all" Click="BtnStopAll_Click" Height="34" Margin="0,0,8,0"/>
+                <Button Grid.Column="4" Content="⚙" Click="BtnSettings_Click" Height="34" Width="38" FontSize="15"
+                        ToolTip="Settings"/>
+            </Grid>
+        </Border>
+
+        <!-- ============================================ body -->
+        <Grid Grid.Row="1" Margin="0,12,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="380"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- bindings -->
+            <Border Grid.Column="0" Background="{StaticResource Panel}" CornerRadius="10"
+                    BorderBrush="{StaticResource Line}" BorderThickness="1" Padding="12">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,10">
+                        <TextBlock Text="BINDINGS" Style="{StaticResource Head}" VerticalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Content="＋ Add binding" Click="BtnAddBinding_Click"
+                                    Foreground="{StaticResource Accent}"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <ItemsControl x:Name="BindingList">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="{StaticResource Panel2}" CornerRadius="8" Padding="9,7"
+                                                Margin="0,0,0,7" BorderBrush="{Binding RowBrush}" BorderThickness="1"
+                                                MouseLeftButtonDown="Row_Click">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="96"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="126"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <Button Grid.Column="0" Style="{StaticResource KeyBtn}"
+                                                        Content="{Binding KeyDisplay}" Click="BtnRebind_Click"
+                                                        ToolTip="Click, then press the key or mouse button you want"/>
+
+                                                <StackPanel Grid.Column="1" Margin="10,0,8,0" VerticalAlignment="Center">
+                                                    <TextBlock Text="{Binding SoundName}" FontWeight="SemiBold"
+                                                               TextTrimming="CharacterEllipsis"
+                                                               Foreground="{Binding NameBrush}"/>
+                                                    <TextBlock Text="{Binding SoundFolder}" Style="{StaticResource Label}"
+                                                               Margin="0" TextTrimming="CharacterEllipsis"/>
+                                                </StackPanel>
+
+                                                <StackPanel Grid.Column="2" VerticalAlignment="Center" Margin="0,0,8,0">
+                                                    <TextBlock Text="{Binding VolumeLabel}" Style="{StaticResource Label}"
+                                                               Margin="0" HorizontalAlignment="Right"/>
+                                                    <Slider Minimum="0" Maximum="1.5" Value="{Binding Volume, Mode=TwoWay}"
+                                                            ValueChanged="RowVolume_Changed"/>
+                                                </StackPanel>
+
+                                                <CheckBox Grid.Column="3" Content="pass to game" VerticalAlignment="Center"
+                                                          Margin="0,0,10,0" IsChecked="{Binding PassThrough, Mode=TwoWay}"
+                                                          Click="RowPass_Click"
+                                                          ToolTip="On: the game still receives the key. Off: SoundBoard eats it."/>
+
+                                                <Button Grid.Column="4" Content="▶" Style="{StaticResource Ghost}"
+                                                        Click="BtnPreviewRow_Click" FontSize="14"
+                                                        Foreground="{StaticResource Accent}" ToolTip="Preview (this PC only)"/>
+                                                <Button Grid.Column="5" Content="…" Style="{StaticResource Ghost}"
+                                                        Click="BtnPickFileRow_Click" FontSize="14"
+                                                        ToolTip="Pick a sound file for this binding"/>
+                                                <Button Grid.Column="6" Content="✕" Style="{StaticResource Ghost}"
+                                                        Click="BtnDeleteRow_Click" FontSize="13"
+                                                        Foreground="{StaticResource Danger}" ToolTip="Delete binding"/>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                            <TextBlock x:Name="EmptyHint" Style="{StaticResource Label}" Margin="4,10,0,0"
+                                       TextWrapping="Wrap" Visibility="Collapsed"
+                                       Text="No bindings yet — pick a sound on the right and hit “＋ Add binding”."/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+
+            <!-- library -->
+            <Border Grid.Column="2" Background="{StaticResource Panel}" CornerRadius="10"
+                    BorderBrush="{StaticResource Line}" BorderThickness="1" Padding="12">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,8">
+                        <TextBlock x:Name="LibHeader" Text="SOUND LIBRARY" Style="{StaticResource Head}" VerticalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Content="＋ folder" Click="BtnAddFolder_Click" Style="{StaticResource Ghost}"/>
+                            <Button Content="⟳" Click="BtnRescan_Click" Style="{StaticResource Ghost}" ToolTip="Rescan folders"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="0,0,0,8">
+                        <TextBox x:Name="SearchBox" TextChanged="SearchBox_Changed" ToolTip="Filter sounds"/>
+                        <TextBlock x:Name="SearchHint" Text="search sounds…" IsHitTestVisible="False"
+                                   Foreground="{StaticResource Muted}" FontSize="12"
+                                   VerticalAlignment="Center" Margin="9,0,0,0"/>
+                    </Grid>
+
+                    <ListBox Grid.Row="2" x:Name="LibList" ItemContainerStyle="{StaticResource LibItem}"
+                             MouseDoubleClick="LibList_DoubleClick" SelectionChanged="LibList_SelectionChanged"
+                             VirtualizingPanel.IsVirtualizing="True">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Name}" TextTrimming="CharacterEllipsis" FontSize="12"/>
+                                    <TextBlock Text="{Binding FolderName}" Style="{StaticResource Label}" Margin="0"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Grid.Row="3" Margin="0,10,0,0">
+                        <Button Content="▶  Preview  (double-click)" Click="BtnPreviewLib_Click" Margin="0,0,0,6"/>
+                        <Button Content="→  Assign to selected binding" Click="BtnAssign_Click" Margin="0,0,0,6"/>
+                        <Button Content="＋  Bind this sound to a key…" Click="BtnBindThis_Click"
+                                Foreground="{StaticResource Accent}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- ============================================ settings (collapsible) -->
+        <Border x:Name="SettingsPanel" Grid.Row="2" Background="{StaticResource Panel}" CornerRadius="10"
+                BorderBrush="{StaticResource Line}" BorderThickness="1" Padding="14,12" Margin="0,12,0,0"
+                Visibility="Collapsed">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="14"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="14"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Style="{StaticResource Label}" Text="OUTPUT (what you hear)"/>
+                        <ComboBox x:Name="DevA" DisplayMemberPath="Name" SelectionChanged="Dev_Changed"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <CheckBox x:Name="DevBOn" Content="SECOND OUTPUT (e.g. a virtual cable, so others hear it)"
+                                  Click="DevBOn_Click" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="DevB" DisplayMemberPath="Name" SelectionChanged="Dev_Changed" IsEnabled="False"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="4">
+                        <TextBlock Style="{StaticResource Label}" Text="PRESS AGAIN WHILE PLAYING"/>
+                        <ComboBox x:Name="RetriggerBox" Width="150" SelectionChanged="Retrigger_Changed">
+                            <ComboBoxItem Content="Restart"/>
+                            <ComboBoxItem Content="Overlap"/>
+                            <ComboBoxItem Content="Toggle (stop)"/>
+                        </ComboBox>
+                    </StackPanel>
+                </Grid>
+
+                <Grid Margin="0,12,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Toggle hotkey" Style="{StaticResource Label}" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                        <Button x:Name="BtnToggleHotkey" Style="{StaticResource KeyBtn}" MinWidth="120"
+                                Click="BtnToggleHotkey_Click" Content="Ctrl+Shift+M"/>
+                        <TextBlock Text="Stop-all hotkey" Style="{StaticResource Label}" VerticalAlignment="Center" Margin="16,0,6,0"/>
+                        <Button x:Name="BtnStopHotkey" Style="{StaticResource KeyBtn}" MinWidth="120"
+                                Click="BtnStopHotkey_Click" Content="Ctrl+Shift+X"/>
+                        <CheckBox x:Name="ChkTop" Content="always on top" Click="ChkTop_Click" Margin="18,0,0,0"/>
+                        <CheckBox x:Name="ChkTray" Content="minimise to tray" Click="ChkTray_Click" Margin="14,0,0,0"/>
+                        <Button Content="Open config folder" Style="{StaticResource Ghost}" Click="BtnOpenFolder_Click" Margin="14,0,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <!-- ============================================ status -->
+        <Grid Grid.Row="3" Margin="4,9,4,0">
+            <TextBlock x:Name="Status" Style="{StaticResource Label}" Margin="0"
+                       Text="Ready." TextTrimming="CharacterEllipsis"/>
+            <TextBlock x:Name="DeviceStatus" Style="{StaticResource Label}" Margin="0"
+                       HorizontalAlignment="Right" Text=""/>
+        </Grid>
+
+        <!-- key-capture overlay -->
+        <Border x:Name="CaptureOverlay" Grid.RowSpan="4" Background="#E60B0E14" Visibility="Collapsed">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Press any key or mouse button…" FontSize="27" FontWeight="Bold"
+                           HorizontalAlignment="Center" Foreground="{StaticResource Accent}"/>
+                <TextBlock x:Name="CaptureSub" Text="" HorizontalAlignment="Center" Margin="0,10,0,0"
+                           Foreground="{StaticResource Muted}"/>
+                <TextBlock Text="Esc to cancel  ·  hold Ctrl / Alt / Shift to include them"
+                           HorizontalAlignment="Center" Margin="0,18,0,0" Foreground="{StaticResource Muted}" FontSize="11"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,1095 @@
+[
+ {
+  "id": "ALL_SKILLS_SUPER_BOOST",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "ANTIQUE_REMEDIES",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "STRENGTH"
+    ],
+    "v": 80
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "BARREL_OF_RICHES",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "BEJEWELED_COLLAR",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "MINING_SPEED": 25,
+     "MINING_FORTUNE": 10
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "BIGGER_TEETH",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 10
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "BROWN_BANDANA",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "BURNT_TEXTS",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DOUBLE_HOOK_CHANCE": 5,
+     "FISHING_SPEED": -50
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "CRETAN_URN",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "PET_LUCK": 5
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "CROCHET_TIGER_PLUSHIE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "ATTACK_SPEED": 35
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "DEAD_CAT_FOOD",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "DWARF_TURTLE_SHELMET",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "TRUE_DEFENSE": 10
+    }
+   },
+   {
+    "t": "kb_immune"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "EDIBLE_SEAWEED",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "FISHING_SPEED": 10
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "FOUR_EYED_FISH",
+  "fx": [
+   {
+    "t": "only",
+    "pet": "GRIFFIN"
+   },
+   {
+    "t": "stat",
+    "stats": {
+     "MAGIC_FIND": 13,
+     "DEFENSE": 55
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "GOLD_CLAWS",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "GRANDMAS_KNITTING_NEEDLE",
+  "fx": [
+   {
+    "t": "only",
+    "pet": "GRANDMA_WOLF"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "GREEN_BANDANA",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null,
+  "owner": "garden"
+ },
+ {
+  "id": "HEPHAESTUS_PLUSHIE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "ATTACK_SPEED": 50
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "HEPHAESTUS_RELIC",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": "ALL",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "HEPHAESTUS_REMEDIES",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "STRENGTH"
+    ],
+    "v": 100
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "HEPHAESTUS_SHELMET",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "TRUE_DEFENSE": 20
+    }
+   },
+   {
+    "t": "kb_immune"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "HEPHAESTUS_SOUVENIR",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "SEA_CREATURE_CHANCE": 10
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "HEPHAESTUS_URN",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "PET_LUCK": 10
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "LOTUS_CROWN",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "MINOS_RELIC",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": "ALL",
+    "v": 33.3
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 10
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_ALL_SKILLS_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 25
+   }
+  ],
+  "tune": "only COMMON is stated; +5%/rarity extrapolated"
+ },
+ {
+  "id": "PET_ITEM_ALL_SKILLS_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 30
+   }
+  ],
+  "tune": "only COMMON is stated; +5%/rarity extrapolated"
+ },
+ {
+  "id": "PET_ITEM_ALL_SKILLS_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 20
+   }
+  ],
+  "tune": "only COMMON is stated; +5%/rarity extrapolated"
+ },
+ {
+  "id": "PET_ITEM_ALL_SKILLS_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "ALL",
+    "v": 15
+   }
+  ],
+  "tune": "only COMMON is stated; +5%/rarity extrapolated"
+ },
+ {
+  "id": "PET_ITEM_BIG_TEETH_COMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 5
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_BIG_TEETH_EPIC",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 5
+    }
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_BIG_TEETH_LEGENDARY",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 5
+    }
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_BIG_TEETH_RARE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 5
+    }
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_BIG_TEETH_UNCOMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_CHANCE": 5
+    }
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_BUBBLEGUM",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "COMBAT",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "COMBAT",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_COMBAT_SKILL_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "COMBAT",
+    "v": 60
+   }
+  ],
+  "tune": "legendary +60% extrapolated"
+ },
+ {
+  "id": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "COMBAT",
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_COMBAT_SKILL_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "COMBAT",
+    "v": 30
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_EXP_SHARE",
+  "fx": [
+   {
+    "t": "share",
+    "v": 15
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FARMING",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FARMING",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FARMING_SKILL_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FARMING",
+    "v": 60
+   }
+  ],
+  "tune": "legendary +60% extrapolated"
+ },
+ {
+  "id": "PET_ITEM_FARMING_SKILL_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FARMING",
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FARMING_SKILL_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FARMING",
+    "v": 30
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FISHING",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FISHING",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FISHING_SKILL_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FISHING",
+    "v": 60
+   }
+  ],
+  "tune": "legendary +60% extrapolated"
+ },
+ {
+  "id": "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FISHING",
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FISHING",
+    "v": 30
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FLYING_PIG",
+  "fx": [
+   {
+    "t": "only",
+    "pet": "PIG"
+   },
+   {
+    "t": "stat",
+    "stats": {
+     "SPEED": 20
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FORAGING",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FORAGING_SKILL_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FORAGING",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FORAGING_SKILL_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FORAGING",
+    "v": 60
+   }
+  ],
+  "tune": "legendary +60% extrapolated"
+ },
+ {
+  "id": "PET_ITEM_FORAGING_SKILL_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FORAGING",
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_FORAGING_SKILL_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "FORAGING",
+    "v": 30
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_HARDENED_SCALES_COMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 25
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_HARDENED_SCALES_EPIC",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 25
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_HARDENED_SCALES_LEGENDARY",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 25
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_HARDENED_SCALES_RARE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 25
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_HARDENED_SCALES_UNCOMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 25
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_IRON_CLAWS_COMMON",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_IRON_CLAWS_EPIC",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 40
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_IRON_CLAWS_LEGENDARY",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 40
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_IRON_CLAWS_RARE",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 40
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_IRON_CLAWS_UNCOMMON",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "CRIT_DAMAGE",
+     "CRIT_CHANCE"
+    ],
+    "v": 40
+   }
+  ],
+  "tune": "legacy variant; same as COMMON"
+ },
+ {
+  "id": "PET_ITEM_LUCKY_CLOVER",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "MAGIC_FIND": 7
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_MINING_SKILL_BOOST_COMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "MINING",
+    "v": 20
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_MINING_SKILL_BOOST_EPIC",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "MINING",
+    "v": 50
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_MINING_SKILL_BOOST_LEGENDARY",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "MINING",
+    "v": 60
+   }
+  ],
+  "tune": "legendary +60% extrapolated"
+ },
+ {
+  "id": "PET_ITEM_MINING_SKILL_BOOST_RARE",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "MINING",
+    "v": 40
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_MINING_SKILL_BOOST_UNCOMMON",
+  "fx": [
+   {
+    "t": "xp_boost",
+    "skill": "MINING",
+    "v": 30
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_QUICK_CLAW",
+  "fx": [
+   {
+    "t": "per_level",
+    "stats": {
+     "MINING_SPEED": 1,
+     "MINING_FORTUNE": 1
+    },
+    "every": 2
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_SADDLE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "SPEED": 30
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_SHARPENED_CLAWS_COMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 15
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_SHARPENED_CLAWS_EPIC",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 15
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_SHARPENED_CLAWS_LEGENDARY",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 15
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_SHARPENED_CLAWS_RARE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 15
+    }
+   }
+  ],
+  "tune": "legacy variant; same as UNCOMMON"
+ },
+ {
+  "id": "PET_ITEM_SHARPENED_CLAWS_UNCOMMON",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 15
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_SPOOKY_CUPCAKE",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "STRENGTH": 30,
+     "SPEED": 20
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_TEXTBOOK",
+  "fx": [
+   {
+    "t": "pet_mult",
+    "stats": [
+     "INTELLIGENCE"
+    ],
+    "v": 100
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_TIER_BOOST",
+  "fx": [
+   {
+    "t": "tier_boost"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "PET_ITEM_TITANIUM_MINECART",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "MINING_FORTUNE": 33.3
+    },
+    "when": [
+     "island:dwarven_mines"
+    ]
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "POIGNANT_LUCKY_CLOVER",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "MAGIC_FIND": 13
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "REAPER_GEM",
+  "fx": [
+   {
+    "t": "kill_buff",
+    "stats": {
+     "FEROCITY": 8
+    },
+    "dur": 5
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "REINFORCED_SCALES",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "DEFENSE": 40
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "RUBBER_SNORKEL",
+  "fx": [
+   {
+    "t": "potion",
+    "effect": "WATER_BREATHING"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "SERRATED_CLAWS",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "CRIT_DAMAGE": 25
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "SNAKE_EYES",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "TREASURE_CHANCE": 1.1
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "UNALLOYED_SPEED",
+  "fx": [
+   {
+    "t": "info"
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "WASHED_UP_SOUVENIR",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "SEA_CREATURE_CHANCE": 5
+    }
+   }
+  ],
+  "tune": null
+ },
+ {
+  "id": "WINDING_IVY",
+  "fx": [
+   {
+    "t": "stat",
+    "stats": {
+     "SWEEP": 10
+    }
+   }
+  ],
+  "tune": null
+ }
+]

@@ -1,0 +1,3785 @@
+[
+ {
+  "id": "ATOMSPLIT_KATANA",
+  "name": "Fissionblade Katana",
+  "material": "BLAZE_ROD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 305,
+  "stats": {
+   "STRENGTH": 100,
+   "CRIT_DAMAGE": 50,
+   "INTELLIGENCE": 300
+  },
+  "requirements": [
+   "slayer:enderman:6"
+  ],
+  "gemSlots": [
+   "JASPER",
+   "SAPPHIRE",
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "lore": [
+   "&7Hits on &5Enderman &7foes deal &a+300% &7damage.",
+   "&7Take &a12% &7less damage from &5Enderman &7foes",
+   "&7while you hold it.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &5Enderman &7kills."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_soulcry_atomsplit",
+    "name": "Soul Howl",
+    "trigger": "RIGHT_CLICK",
+    "mana": 200,
+    "cooldown": 4,
+    "lore": [
+     "&7Gain &c+400⫽ Ferocity &7against",
+     "&5Endermen &7for &a4s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Atomsplit Katana",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "enderman": 300
+    },
+    "lessFrom": {
+     "enderman": 12
+    },
+    "wisdomVs": {
+     "enderman": 45
+    }
+   }
+  }
+ },
+ {
+  "id": "AXE_OF_THE_SHREDDED",
+  "name": "Halberd of the Shredded",
+  "material": "DIAMOND_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 140,
+  "stats": {
+   "STRENGTH": 115
+  },
+  "requirements": [
+   "slayer:zombie:8",
+   "dungeon_catacombs:25"
+  ],
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+250% &7damage.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &cundead &7kills.",
+   "&7Heal &c25❤ &7per hit."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_halberd_throw",
+    "name": "Hurl",
+    "trigger": "RIGHT_CLICK",
+    "mana": 20,
+    "cooldown": 0,
+    "lore": [
+     "&7Throw the halberd through everything in",
+     "&7its path for &a10% &7of your melee damage.",
+     "&7Each throw in a row costs &b2x &7the mana",
+     "&7and hits &a2x &7as hard &8(max 16x)&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Halberd of the Shredded",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "undead": 250
+    },
+    "healHit": 25,
+    "wisdomVs": {
+     "undead": 45
+    }
+   }
+  }
+ },
+ {
+  "id": "BURSTFIRE_DAGGER",
+  "name": "Emberbane Dagger",
+  "material": "STONE_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 130,
+  "stats": {
+   "STRENGTH": 55,
+   "CRIT_DAMAGE": 20,
+   "ATTACK_SPEED": 10
+  },
+  "requirements": [
+   "slayer:blaze:4"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "OPAL"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a1.5x &7damage to &6infernal &7foes.",
+   "&7Deals &a1.2x &7damage to &8withered &7foes.",
+   "&7Gain &3+30☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Burning Vengeance",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, your last",
+   "&a8 &7hits on it land again."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Ashen and Auric modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Kindlebane Dagger",
+   "owner": "slayer",
+   "attunement": "ashen",
+   "w": {
+    "vsMult": {
+     "infernal": 1.5,
+     "wither": 1.2
+    },
+    "wisdomVs": {
+     "infernal": 30
+    },
+    "vengeance": true
+   }
+  }
+ },
+ {
+  "id": "BURSTMAW_DAGGER",
+  "name": "Gloomdredge Dagger",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 130,
+  "stats": {
+   "STRENGTH": 55,
+   "CRIT_DAMAGE": 20,
+   "ATTACK_SPEED": 10
+  },
+  "requirements": [
+   "slayer:blaze:4"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "OPAL"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a2.5x &7damage to &6infernal &7foes.",
+   "&7Deals &a1.5x &7damage to &fskeletal &7foes.",
+   "&7Gain &3+30☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Wraith Drain",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, heal",
+   "&c200❤ &7+ &c4% &7of your max Health."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Spirit and Crystal modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Mawdredge Dagger",
+   "owner": "slayer",
+   "attunement": "spirit",
+   "w": {
+    "vsMult": {
+     "infernal": 2.5,
+     "skeletal": 1.5
+    },
+    "wisdomVs": {
+     "infernal": 30
+    },
+    "wraith": true
+   }
+  }
+ },
+ {
+  "id": "EDIBLE_MACE",
+  "name": "Edible Mace",
+  "material": "MUTTON",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 125,
+  "stats": {
+   "STRENGTH": 25
+  },
+  "requirements": [
+   "slayer:wolf:5"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_me_smash_head",
+    "name": "Big Bonk",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 0,
+    "lore": [
+     "&7Your next hit deals &adouble &7damage and",
+     "&7leaves beasts dealing &c35% &7less damage",
+     "&7for &a30s&7. Does not stack."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Edible Mace",
+   "owner": "slayer"
+  }
+ },
+ {
+  "id": "FIREDUST_DAGGER",
+  "name": "Cinderdust Dagger",
+  "material": "STONE_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 90,
+  "stats": {
+   "STRENGTH": 45,
+   "CRIT_DAMAGE": 15
+  },
+  "requirements": [
+   "slayer:blaze:2"
+  ],
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a1.2x &7damage to &6infernal &7foes.",
+   "&7Deals &a1.1x &7damage to &8withered &7foes.",
+   "&7Gain &3+15☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Burning Vengeance",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, your last",
+   "&a8 &7hits on it land again."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Ashen and Auric modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Firedust Dagger",
+   "owner": "slayer",
+   "attunement": "ashen",
+   "w": {
+    "vsMult": {
+     "infernal": 1.2,
+     "wither": 1.1
+    },
+    "wisdomVs": {
+     "infernal": 15
+    },
+    "vengeance": true
+   }
+  }
+ },
+ {
+  "id": "GLUE_ARROW",
+  "name": "Glue Arrow",
+  "material": "ARROW",
+  "rarity": "RARE",
+  "category": "ARROW",
+  "damage": 15,
+  "requirements": [
+   "skill:combat:24",
+   "slayer:spider:3"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "arrow"
+  ],
+  "glow": true,
+  "lore": [
+   "&6Passive: Gummed Up",
+   "&7Victims cannot walk for &a1.5s&7.",
+   "&8Each victim can be glued once per 6s.",
+   "&8Damage is added to the bow's when shot."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Glue Arrow",
+   "owner": "slayer",
+   "targetPractice": "III"
+  }
+ },
+ {
+  "id": "GYROKINETIC_WAND",
+  "name": "Gyrokinetic Wand",
+  "material": "BLAZE_ROD",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "requirements": [
+   "slayer:enderman:6"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_gravity_storm",
+    "name": "Gravity Well",
+    "trigger": "LEFT_CLICK",
+    "mana": 1200,
+    "cooldown": 30,
+    "lore": [
+     "&7Open a rift where you aim that drags",
+     "&7every nearby mob into one spot."
+    ],
+    "scaling": 0.3
+   },
+   {
+    "id": "weapons_cells_alignment",
+    "name": "Cell Sync",
+    "trigger": "RIGHT_CLICK",
+    "mana": 220,
+    "cooldown": 10,
+    "lore": [
+     "&7For &a6s &7incoming hits are softened:",
+     "&7you take only a third of each hit."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Gyrokinetic Wand",
+   "owner": "slayer"
+  }
+ },
+ {
+  "id": "HEARTFIRE_DAGGER",
+  "name": "Pyreruin Dagger",
+  "material": "STONE_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 160,
+  "stats": {
+   "STRENGTH": 75,
+   "CRIT_DAMAGE": 25,
+   "CRIT_CHANCE": 10,
+   "ATTACK_SPEED": 20
+  },
+  "requirements": [
+   "slayer:blaze:6"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "OPAL"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a2x &7damage to &6infernal &7foes.",
+   "&7Deals &a1.5x &7damage to &8withered &7foes.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Burning Vengeance",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, your last",
+   "&a8 &7hits on it land again."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Ashen and Auric modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Pyrochaos Dagger",
+   "owner": "slayer",
+   "attunement": "ashen",
+   "w": {
+    "vsMult": {
+     "infernal": 2.0,
+     "wither": 1.5
+    },
+    "wisdomVs": {
+     "infernal": 45
+    },
+    "vengeance": true
+   }
+  }
+ },
+ {
+  "id": "HEARTMAW_DAGGER",
+  "name": "Soulripper Dagger",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 160,
+  "stats": {
+   "STRENGTH": 75,
+   "CRIT_DAMAGE": 25,
+   "CRIT_CHANCE": 10,
+   "ATTACK_SPEED": 20
+  },
+  "requirements": [
+   "slayer:blaze:6"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "OPAL"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a3.5x &7damage to &6infernal &7foes.",
+   "&7Deals &a2x &7damage to &fskeletal &7foes.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Wraith Drain",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, heal",
+   "&c200❤ &7+ &c4% &7of your max Health."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Spirit and Crystal modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Deathripper Dagger",
+   "owner": "slayer",
+   "attunement": "spirit",
+   "w": {
+    "vsMult": {
+     "infernal": 3.5,
+     "skeletal": 2.0
+    },
+    "wisdomVs": {
+     "infernal": 45
+    },
+    "wraith": true
+   }
+  }
+ },
+ {
+  "id": "JUJU_SHORTBOW",
+  "name": "Hexbound Shortbow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 310,
+  "stats": {
+   "STRENGTH": 40,
+   "CRIT_DAMAGE": 110,
+   "CRIT_CHANCE": 10
+  },
+  "requirements": [
+   "slayer:enderman:5",
+   "dungeon_catacombs:15"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "lore": [
+   "&7Shot Cooldown: &a0.5s",
+   "&7Each arrow strikes &a3 &7mobs where it",
+   "&7lands, and can hurt &5Endermen&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Juju Shortbow",
+   "owner": "slayer",
+   "w": {
+    "shortbow": 0.5,
+    "multiHit": 3,
+    "endermen": true
+   }
+  }
+ },
+ {
+  "id": "MAWDUST_DAGGER",
+  "name": "Dusklight Dagger",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 90,
+  "stats": {
+   "STRENGTH": 45,
+   "CRIT_DAMAGE": 15
+  },
+  "requirements": [
+   "slayer:blaze:2"
+  ],
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Deals &a1.5x &7damage to &6infernal &7foes.",
+   "&7Deals &a1.2x &7damage to &fskeletal &7foes.",
+   "&7Gain &3+15☯ Combat Wisdom &7from &6infernal &7kills.",
+   "&6Ability: Wraith Drain",
+   "&7When a demon's shield changes colour",
+   "&7within &a6s &7of your hit, heal",
+   "&c200❤ &7+ &c4% &7of your max Health."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_attunement",
+    "name": "Attune",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Switch between Spirit and Crystal modes",
+     "&7to cut through a demon's shield."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Twilight Dagger",
+   "owner": "slayer",
+   "attunement": "spirit",
+   "w": {
+    "vsMult": {
+     "infernal": 1.5,
+     "skeletal": 1.2
+    },
+    "wisdomVs": {
+     "infernal": 15
+    },
+    "wraith": true
+   }
+  }
+ },
+ {
+  "id": "MOSQUITO_BOW",
+  "name": "Bloodsucker Shortbow",
+  "material": "BOW",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 319,
+  "stats": {
+   "STRENGTH": 151,
+   "CRIT_DAMAGE": 39,
+   "VITALITY": 20
+  },
+  "requirements": [
+   "slayer:spider:7",
+   "dungeon_catacombs:13"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "lore": [
+   "&7Deals &a3x &7damage to &fegg-sac &7foes.",
+   "&7Shot Cooldown: &a0.5s",
+   "&6Passive: Egg Breaker",
+   "&7Arrows deal &a3x &7damage to a spider",
+   "&7boss's egg sacs."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_nasty_bite",
+    "name": "Leech Shot",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0.5,
+    "lore": [
+     "&7Fire a charged arrow that heals you",
+     "&7for &c189❤ &7when it hits."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Mosquito Shortbow",
+   "owner": "slayer",
+   "w": {
+    "shortbow": 0.5,
+    "vsMult": {
+     "egg_sac": 3
+    }
+   }
+  }
+ },
+ {
+  "id": "POOCH_SWORD",
+  "name": "Pooch Sword",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 160,
+  "stats": {
+   "SPEED": 10,
+   "STRENGTH": 80,
+   "ATTACK_SPEED": 5
+  },
+  "requirements": [
+   "slayer:wolf:6"
+  ],
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &fwolf &7foes deal &a+200% &7damage.",
+   "&7Take &a20% &7less damage from &2beast &7foes",
+   "&7while you hold it.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &2beast &7kills.",
+   "&7Gains &c+20 &7Damage per Wolf Slayer level.",
+   "&6Passive: Pack Instinct",
+   "&7Wearing a full pack-hunter or mastiff",
+   "&7set adds another &a+100% &7against wolves."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Pooch Sword",
+   "owner": "slayer",
+   "w": {
+    "pooch": 20,
+    "vs": {
+     "wolf": 200
+    },
+    "lessFrom": {
+     "animal": 20
+    },
+    "wisdomVs": {
+     "animal": 45
+    }
+   }
+  }
+ },
+ {
+  "id": "REAPER_SCYTHE",
+  "name": "Reaper Scythe",
+  "material": "DIAMOND_HOE",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 333,
+  "stats": {
+   "SPEED": 10
+  },
+  "requirements": [
+   "slayer:zombie:7",
+   "dungeon_catacombs:20"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_raise_souls",
+    "name": "Raise Souls",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Monsters you slay with this blade",
+     "&7leave their soul behind. Right-click",
+     "&7a soul to absorb it, then right-click",
+     "&7to raise your souls to fight for you.",
+     "&8Mana depends on the monsters' power.",
+     "&8Sneak right-click to release souls.",
+     "&8A raised soul that dies is lost.",
+     "&8Max Souls: &a3"
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Reaper Scythe",
+   "owner": "slayer",
+   "w": {
+    "souls": 3
+   }
+  }
+ },
+ {
+  "id": "REAPER_SWORD",
+  "name": "Reaper Falchion",
+  "material": "DIAMOND_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 100,
+   "INTELLIGENCE": 200
+  },
+  "requirements": [
+   "slayer:zombie:6",
+   "dungeon_catacombs:18"
+  ],
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+200% &7damage.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &cundead &7kills.",
+   "&7Heal &c10❤ &7per hit."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Reaper Falchion",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "undead": 200
+    },
+    "healHit": 10,
+    "wisdomVs": {
+     "undead": 45
+    }
+   }
+  }
+ },
+ {
+  "id": "RECLUSE_FANG",
+  "name": "Recluse Fang",
+  "material": "IRON_SWORD",
+  "rarity": "UNCOMMON",
+  "category": "SWORD",
+  "damage": 60,
+  "stats": {
+   "STRENGTH": 30,
+   "CRIT_DAMAGE": 10
+  },
+  "requirements": [
+   "slayer:spider:2"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cspider-kin &7foes deal &a+150% &7damage.",
+   "&6Passive: Silk Cutter",
+   "&7Cuts through the webs a spider boss",
+   "&7spins."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Recluse Fang",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "arthropod": 150
+    }
+   }
+  }
+ },
+ {
+  "id": "REVENANT_SWORD",
+  "name": "Revenant Falchion",
+  "material": "DIAMOND_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 90,
+  "stats": {
+   "STRENGTH": 50,
+   "INTELLIGENCE": 100
+  },
+  "requirements": [
+   "slayer:zombie:3",
+   "dungeon_catacombs:12"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+150% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Revenant Falchion",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "undead": 150
+    }
+   }
+  }
+ },
+ {
+  "id": "SCORPION_BOW",
+  "name": "Spider Shortbow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 50,
+  "stats": {
+   "STRENGTH": 25,
+   "CRIT_CHANCE": 10
+  },
+  "requirements": [
+   "slayer:spider:3",
+   "dungeon_catacombs:10"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "lore": [
+   "&7Deals &a2x &7damage to &fegg-sac &7foes.",
+   "&7Shot Cooldown: &a0.5s",
+   "&6Passive: Egg Breaker",
+   "&7Arrows deal &a2x &7damage to a spider",
+   "&7boss's egg sacs."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spider Shortbow",
+   "owner": "slayer",
+   "w": {
+    "shortbow": 0.5,
+    "vsMult": {
+     "egg_sac": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "SCORPION_FOIL",
+  "name": "Scorpion Foil",
+  "material": "WOODEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 120,
+  "stats": {
+   "STRENGTH": 60,
+   "CRIT_DAMAGE": 30
+  },
+  "requirements": [
+   "slayer:spider:6"
+  ],
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cspider-kin &7foes deal &a+250% &7damage.",
+   "&7Gain &3+30☯ Combat Wisdom &7from &cspider-kin &7kills.",
+   "&6Passive: Silk Cutter",
+   "&7Cuts through the webs a spider boss",
+   "&7spins."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Scorpion Foil",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "arthropod": 250
+    },
+    "wisdomVs": {
+     "arthropod": 30
+    }
+   }
+  }
+ },
+ {
+  "id": "SHAMAN_SWORD",
+  "name": "Shaman Sword",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 100,
+  "stats": {
+   "SPEED": 5,
+   "STRENGTH": 20
+  },
+  "requirements": [
+   "slayer:wolf:3"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Take &a20% &7less damage from &2beast &7foes",
+   "&7while you hold it.",
+   "&7Gain &3+30☯ Combat Wisdom &7from &2beast &7kills.",
+   "&7Gains &c+1 &7Damage per &c50❤ &7max health."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Shaman Sword",
+   "owner": "slayer",
+   "w": {
+    "shaman": 50,
+    "lessFrom": {
+     "animal": 20
+    },
+    "wisdomVs": {
+     "animal": 30
+    }
+   }
+  }
+ },
+ {
+  "id": "SINSEEKER_SCYTHE",
+  "name": "Sinhunter Scythe",
+  "material": "GOLDEN_HOE",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 100,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "requirements": [
+   "slayer:enderman:6",
+   "dungeon_catacombs:23"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_sinrecall",
+    "name": "Sin Recall",
+    "trigger": "RIGHT_CLICK",
+    "mana": 260,
+    "cooldown": 0,
+    "lore": [
+     "&7Zip &a4 blocks &7forward; every mob you",
+     "&7pass takes a melee hit. Recast within",
+     "&a1s &7to go again &8(1.5x mana)&7, or you",
+     "&7snap back to where you started."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sinseeker Scythe",
+   "owner": "slayer"
+  }
+ },
+ {
+  "id": "STING",
+  "name": "Sting",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 150,
+  "stats": {
+   "STRENGTH": 75,
+   "CRIT_DAMAGE": 40
+  },
+  "requirements": [
+   "slayer:spider:8"
+  ],
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cspider-kin &7foes deal &a+300% &7damage.",
+   "&7Gain &3+45☯ Combat Wisdom &7from &cspider-kin &7kills.",
+   "&6Passive: Silk Cutter",
+   "&7Cuts through the webs a spider boss",
+   "&7spins.",
+   "&6Passive: Needlepoint",
+   "&7Every hit is a critical hit."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sting",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "arthropod": 300
+    },
+    "wisdomVs": {
+     "arthropod": 45
+    },
+    "alwaysCrit": true
+   }
+  }
+ },
+ {
+  "id": "TARANTULA_FANG",
+  "name": "Tarantula Fang",
+  "material": "STONE_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 90,
+  "stats": {
+   "STRENGTH": 45,
+   "CRIT_DAMAGE": 20
+  },
+  "requirements": [
+   "slayer:spider:4"
+  ],
+  "gemSlots": [
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &cspider-kin &7foes deal &a+200% &7damage.",
+   "&7Gain &3+15☯ Combat Wisdom &7from &cspider-kin &7kills.",
+   "&6Passive: Silk Cutter",
+   "&7Cuts through the webs a spider boss",
+   "&7spins."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Tarantula Fang",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "arthropod": 200
+    },
+    "wisdomVs": {
+     "arthropod": 15
+    }
+   }
+  }
+ },
+ {
+  "id": "TERMINATOR",
+  "name": "Oblivion Shortbow",
+  "material": "BOW",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 310,
+  "stats": {
+   "STRENGTH": 50,
+   "ATTACK_SPEED": 40,
+   "CRIT_DAMAGE": 250
+  },
+  "requirements": [
+   "slayer:enderman:7",
+   "dungeon_catacombs:27"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "glow": true,
+  "lore": [
+   "&7Shot Cooldown: &a0.5s",
+   "&7Looses &a3 &7arrows at once and can hurt",
+   "&5Endermen&7.",
+   "&cYour ☣ Crit Chance is divided by 4!"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_salvation",
+    "name": "Judgement Beam",
+    "trigger": "LEFT_CLICK",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7After &a3 &7arrow hits, left click to fire",
+     "&7a beam through up to &a5 &7enemies.",
+     "&7The beam always crits."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Terminator",
+   "owner": "slayer",
+   "w": {
+    "shortbow": 0.5,
+    "arrows": 3,
+    "extraPct": 1.0,
+    "endermen": true,
+    "critDiv": 4
+   }
+  }
+ },
+ {
+  "id": "VOIDEDGE_KATANA",
+  "name": "Voidedge Katana",
+  "material": "BLAZE_ROD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 155,
+  "stats": {
+   "STRENGTH": 60,
+   "CRIT_DAMAGE": 25,
+   "INTELLIGENCE": 50
+  },
+  "requirements": [
+   "slayer:enderman:3"
+  ],
+  "gemSlots": [
+   "JASPER",
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &5Enderman &7foes deal &a+200% &7damage.",
+   "&7Take &a6% &7less damage from &5Enderman &7foes",
+   "&7while you hold it.",
+   "&7Gain &3+15☯ Combat Wisdom &7from &5Enderman &7kills."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_soulcry",
+    "name": "Soul Howl",
+    "trigger": "RIGHT_CLICK",
+    "mana": 200,
+    "cooldown": 4,
+    "lore": [
+     "&7Gain &c+200⫽ Ferocity &7against",
+     "&5Endermen &7for &a4s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Voidedge Katana",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "enderman": 200
+    },
+    "lessFrom": {
+     "enderman": 6
+    },
+    "wisdomVs": {
+     "enderman": 15
+    }
+   }
+  }
+ },
+ {
+  "id": "VORPAL_KATANA",
+  "name": "Vorpal Katana",
+  "material": "BLAZE_ROD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 190,
+  "stats": {
+   "STRENGTH": 80,
+   "CRIT_DAMAGE": 30,
+   "INTELLIGENCE": 200
+  },
+  "requirements": [
+   "slayer:enderman:5"
+  ],
+  "gemSlots": [
+   "JASPER",
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "lore": [
+   "&7Hits on &5Enderman &7foes deal &a+250% &7damage.",
+   "&7Take &a9% &7less damage from &5Enderman &7foes",
+   "&7while you hold it.",
+   "&7Gain &3+30☯ Combat Wisdom &7from &5Enderman &7kills."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_soulcry_vorpal",
+    "name": "Soul Howl",
+    "trigger": "RIGHT_CLICK",
+    "mana": 200,
+    "cooldown": 4,
+    "lore": [
+     "&7Gain &c+300⫽ Ferocity &7against",
+     "&5Endermen &7for &a4s&7."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Vorpal Katana",
+   "owner": "slayer",
+   "w": {
+    "vs": {
+     "enderman": 250
+    },
+    "lessFrom": {
+     "enderman": 9
+    },
+    "wisdomVs": {
+     "enderman": 30
+    }
+   }
+  }
+ },
+ {
+  "id": "WAND_OF_ATONEMENT",
+  "name": "Wand of Atonement",
+  "material": "STICK",
+  "rarity": "LEGENDARY",
+  "category": "WAND",
+  "requirements": [
+   "slayer:zombie:7"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_wand_heal_atonement",
+    "name": "Huge Heal",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Heal &c120❤ &7every second for &a6s&7.",
+     "&8Wand heals do not stack."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Atonement",
+   "owner": "slayer",
+   "healPerSecond": 120,
+   "healSeconds": 6
+  }
+ },
+ {
+  "id": "WAND_OF_HEALING",
+  "name": "Wand of Healing",
+  "material": "STICK",
+  "rarity": "UNCOMMON",
+  "category": "WAND",
+  "requirements": [
+   "slayer:zombie:1"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_wand_heal_healing",
+    "name": "Small Heal",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Heal &c60❤ &7every second for &a5s&7.",
+     "&8Wand heals do not stack."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Healing",
+   "owner": "slayer",
+   "healPerSecond": 60,
+   "healSeconds": 5
+  }
+ },
+ {
+  "id": "WAND_OF_MENDING",
+  "name": "Wand of Mending",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "WAND",
+  "requirements": [
+   "slayer:zombie:3"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_wand_heal_mending",
+    "name": "Medium Heal",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Heal &c80❤ &7every second for &a5s&7.",
+     "&8Wand heals do not stack."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Mending",
+   "owner": "slayer",
+   "healPerSecond": 80,
+   "healSeconds": 5
+  }
+ },
+ {
+  "id": "WAND_OF_RESTORATION",
+  "name": "Wand of Restoration",
+  "material": "STICK",
+  "rarity": "EPIC",
+  "category": "WAND",
+  "requirements": [
+   "slayer:zombie:6"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_wand_heal_restoration",
+    "name": "Big Heal",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Heal &c100❤ &7every second for &a6s&7.",
+     "&8Wand heals do not stack."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wand of Restoration",
+   "owner": "slayer",
+   "healPerSecond": 100,
+   "healSeconds": 6
+  }
+ },
+ {
+  "id": "ASTRAEA",
+  "name": "Starward",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 270,
+  "stats": {
+   "DEFENSE": 250,
+   "STRENGTH": 150,
+   "FEROCITY": 30,
+   "TRUE_DEFENSE": 20,
+   "INTELLIGENCE": 50
+  },
+  "gemSlots": [
+   "DEFENSIVE",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+50% &7damage.",
+   "&7Grants &c+1 &7Damage and &a+2❈ Defense",
+   "&7per Catacombs level.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Astraea",
+   "owner": "dungeons",
+   "floorReq": "F7",
+   "w": {
+    "vs": {
+     "wither": 50
+    },
+    "classAbility": true,
+    "cataStats": {
+     "DAMAGE": 1,
+     "DEFENSE": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "BAT_WAND",
+  "name": "Spirit Sceptre",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 180,
+  "stats": {
+   "INTELLIGENCE": 300
+  },
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_guided_bat",
+    "name": "Spirit Bat",
+    "trigger": "RIGHT_CLICK",
+    "mana": 200,
+    "cooldown": 0,
+    "lore": [
+     "&7Release a spirit bat that follows your",
+     "&7gaze and bursts for &c{damage} &7damage."
+    ],
+    "scaling": 0.2,
+    "damage": 2000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spirit Sceptre",
+   "owner": "dungeons",
+   "floorReq": "F4",
+   "abilityScaling": 0.2
+  }
+ },
+ {
+  "id": "BONE_BOOMERANG",
+  "name": "Bonemerang",
+  "material": "BONE",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 270,
+  "stats": {
+   "STRENGTH": 130
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_bonemerang",
+    "name": "Bone Toss",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Throw the bone a short way, hitting for",
+     "&7arrow damage and piercing up to &a10&7.",
+     "&7It hits &a2x &7as hard on the way back."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bonemerang",
+   "owner": "dungeons",
+   "floorReq": "F4"
+  }
+ },
+ {
+  "id": "BONE_REAVER",
+  "name": "Bone Reaver",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "LONGSWORD",
+  "damage": 235,
+  "stats": {
+   "STRENGTH": 90,
+   "SWING_RANGE": 0.5
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Gains &a+1% &7damage to undead per &a1%",
+   "&7of your missing health."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_reaving_strike",
+    "name": "Reaping Arc",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Swing in a huge arc for &a125% &7of your",
+     "&7melee damage to everything it hits."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bone Reaver",
+   "owner": "dungeons",
+   "floorReq": "F4",
+   "w": {
+    "missingSelf": 1
+   }
+  }
+ },
+ {
+  "id": "BONZO_STAFF",
+  "name": "Balloonist's Staff",
+  "material": "BLAZE_ROD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 160,
+  "stats": {
+   "INTELLIGENCE": 250
+  },
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_showtime",
+    "name": "Pop Show",
+    "trigger": "RIGHT_CLICK",
+    "mana": 90,
+    "cooldown": 0,
+    "lore": [
+     "&7Launch a balloon that bursts on impact",
+     "&7for up to &c{damage} &7damage."
+    ],
+    "scaling": 0.2,
+    "damage": 1000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bonzo's Staff",
+   "owner": "dungeons",
+   "floorReq": "F1",
+   "abilityScaling": 0.2
+  }
+ },
+ {
+  "id": "BOSS_SPIRIT_BOW",
+  "name": "Spirit Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Brittle, yet the only bow that can",
+   "&7wound the thorned spirit."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spirit Bow",
+   "owner": "dungeons"
+  }
+ },
+ {
+  "id": "BOUQUET_OF_LIES",
+  "name": "Bouquet of Lies",
+  "material": "SUNFLOWER",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 220,
+  "stats": {
+   "STRENGTH": 300,
+   "CRIT_DAMAGE": 50
+  },
+  "npcSell": 100000,
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_petal_barrage",
+    "name": "Petal Storm",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Pay &c250❤ &7to fire &a3 &7roses that hop",
+     "&7between up to &a5 &7foes, &a+2% &7damage",
+     "&7per &a10% &7of your missing health."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Bouquet of Lies",
+   "owner": "dungeons",
+   "floorReq": "F6"
+  }
+ },
+ {
+  "id": "CONJURING_SWORD",
+  "name": "Conjuring",
+  "material": "STONE_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 68,
+  "stats": {
+   "STRENGTH": 36,
+   "INTELLIGENCE": 85
+  },
+  "requirements": [
+   "dungeon_catacombs:13"
+  ],
+  "npcSell": 2000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Guided Sheep recharges &a5s &7sooner, and",
+   "&7no stray sheep appear while you hold it."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Conjuring",
+   "owner": "dungeons",
+   "dungeonClassBonus": {
+    "MAGE": {
+     "abilityCooldownCut": 5
+    }
+   },
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      68,
+      73,
+      78,
+      84,
+      90,
+      97,
+      105,
+      112,
+      121,
+      130
+     ],
+     "STRENGTH": [
+      36,
+      39,
+      42,
+      45,
+      49,
+      52,
+      56,
+      61,
+      65,
+      70
+     ],
+     "INTELLIGENCE": [
+      85,
+      92,
+      100,
+      109,
+      119,
+      129,
+      140,
+      152,
+      166,
+      180
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "CRYPT_BOW",
+  "name": "Soulstealer Bow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "stats": {
+   "STRENGTH": 50,
+   "INTELLIGENCE": 157
+  },
+  "requirements": [
+   "dungeon_catacombs:5"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Your arrows become exploding",
+   "&8wither skulls&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Soulstealer Bow",
+   "owner": "dungeons",
+   "w": {
+    "witherSkull": true,
+    "explosive": 2,
+    "tiered": {
+     "INTELLIGENCE": [
+      157,
+      171,
+      186,
+      202,
+      219,
+      239,
+      259,
+      282,
+      306,
+      333
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "CRYPT_DREADLORD_SWORD",
+  "name": "Dreadlord Sword",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 52,
+  "stats": {
+   "STRENGTH": 23,
+   "INTELLIGENCE": 85
+  },
+  "requirements": [
+   "dungeon_catacombs:3"
+  ],
+  "npcSell": 200,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_dreadlord",
+    "name": "Grave Skull",
+    "trigger": "RIGHT_CLICK",
+    "mana": 40,
+    "cooldown": 0,
+    "lore": [
+     "&7Fire a skull that deals &c{damage} &7damage."
+    ],
+    "damage": 504,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Dreadlord Sword",
+   "owner": "dungeons",
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      52,
+      56,
+      60,
+      65,
+      70,
+      75,
+      80,
+      86,
+      93,
+      100
+     ],
+     "STRENGTH": [
+      23,
+      25,
+      27,
+      29,
+      31,
+      34,
+      36,
+      39,
+      42,
+      45
+     ],
+     "INTELLIGENCE": [
+      85,
+      92,
+      100,
+      109,
+      119,
+      129,
+      140,
+      152,
+      166,
+      180
+     ]
+    }
+   },
+   "abilityScaling": 0.3
+  }
+ },
+ {
+  "id": "CRYPT_WITHERLORD_SWORD",
+  "name": "Crypt Witherlord Sword",
+  "material": "DIAMOND_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 62,
+  "stats": {
+   "STRENGTH": 50,
+   "INTELLIGENCE": 113
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "npcSell": 500,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_witherlord",
+    "name": "Grave Skulls",
+    "trigger": "RIGHT_CLICK",
+    "mana": 40,
+    "cooldown": 3,
+    "lore": [
+     "&7Fire &a3 &7skulls, each dealing &c{damage}",
+     "&7damage."
+    ],
+    "damage": 304.5,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Crypt Witherlord Sword",
+   "owner": "dungeons",
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      62,
+      67,
+      72,
+      78,
+      83,
+      90,
+      97,
+      104,
+      112,
+      120
+     ],
+     "STRENGTH": [
+      50,
+      34,
+      36,
+      39,
+      42,
+      45,
+      48,
+      52,
+      56,
+      60
+     ],
+     "INTELLIGENCE": [
+      113,
+      123,
+      134,
+      146,
+      158,
+      172,
+      187,
+      203,
+      221,
+      240
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "CUTLASS",
+  "name": "Cutlass",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 1,
+  "stats": {
+   "ATTACK_SPEED": 100
+  },
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "extra": {
+   "src": "weapons",
+   "refName": "Cutlass",
+   "owner": "dungeons"
+  }
+ },
+ {
+  "id": "DARK_CLAYMORE",
+  "name": "Dark Claymore",
+  "material": "STONE_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "LONGSWORD",
+  "damage": 500,
+  "stats": {
+   "STRENGTH": 100,
+   "CRIT_DAMAGE": 100,
+   "SWING_RANGE": 2
+  },
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Less a sword than a slab of stone",
+   "&7with an edge."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Dark Claymore",
+   "owner": "dungeons",
+   "floorReq": "M7"
+  }
+ },
+ {
+  "id": "DEATH_BOW",
+  "name": "Death Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 300,
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+100% &7damage.",
+   "&7Arrows have a &a50% &7chance to bounce",
+   "&7on to another target."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Death Bow",
+   "owner": "dungeons",
+   "floorReq": "F6",
+   "w": {
+    "vs": {
+     "undead": 100
+    },
+    "bounce": 0.5
+   }
+  }
+ },
+ {
+  "id": "EARTH_SHARD",
+  "name": "Earthen Blade",
+  "material": "STONE_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 105,
+  "stats": {
+   "DEFENSE": 73
+  },
+  "requirements": [
+   "dungeon_catacombs:19"
+  ],
+  "npcSell": 123,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Adapts to its wielder inside dungeons,",
+   "&7letting you use your class ability.",
+   "&7Seismic Wave recharges &a2s &7sooner.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Earthen Blade",
+   "owner": "dungeons",
+   "dungeonClassBonus": {
+    "TANK": {
+     "abilityCooldownCut": 2
+    }
+   },
+   "w": {
+    "classAbility": true,
+    "tiered": {
+     "DEFENSE": [
+      73,
+      75,
+      78,
+      80,
+      82,
+      85,
+      87,
+      90,
+      93,
+      96
+     ],
+     "DAMAGE": [
+      105,
+      108,
+      112,
+      115,
+      118,
+      122,
+      126,
+      129,
+      133,
+      137
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "FELTHORN_REAPER",
+  "name": "Felthorn Reaper",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "LONGSWORD",
+  "damage": 275,
+  "stats": {
+   "CRIT_DAMAGE": 115,
+   "SWING_RANGE": 1
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Gains &a+1% &7damage per &a1% &7of the",
+   "&7target's missing health."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_reaving_strike_fel",
+    "name": "Reaping Arc",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Swing in a huge arc for &a135% &7of your",
+     "&7melee damage to everything it hits."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Felthorn Reaper",
+   "owner": "dungeons",
+   "floorReq": "F6",
+   "w": {
+    "targetMissing": 1
+   }
+  }
+ },
+ {
+  "id": "FEL_SWORD",
+  "name": "Fel Sword",
+  "material": "STONE_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 190,
+  "stats": {
+   "STRENGTH": 135
+  },
+  "requirements": [
+   "dungeon_catacombs:20"
+  ],
+  "npcSell": 20000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Every &a100 &7kills adds &c+1 &7Damage",
+   "&8(up to +100)&7.",
+   "",
+   "&7Dungeon Healer bonuses:",
+   "&8- &7Healing Circle heals &a10% &7more.",
+   "&8- &7Wish recharges &a10s &7sooner.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Fel Sword",
+   "owner": "dungeons",
+   "dungeonClassBonus": {
+    "HEALER": {
+     "abilityPower": 10,
+     "ultimateCooldownCut": 10
+    }
+   },
+   "w": {
+    "killsDamage": {
+     "per": 100,
+     "max": 100
+    },
+    "classAbility": true
+   }
+  }
+ },
+ {
+  "id": "FLOWER_OF_TRUTH",
+  "name": "Flower of Truth",
+  "material": "PAPER",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 160,
+  "stats": {
+   "STRENGTH": 300
+  },
+  "npcSell": 100000,
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_heat_seeking_rose",
+    "name": "Thorn Seeker",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Pay &c100❤ &7to fire a rose that hops",
+     "&7between up to &a3 &7foes with your melee",
+     "&7damage, hitting harder each hop."
+    ],
+    "damage": 0,
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Flower of Truth",
+   "owner": "dungeons",
+   "floorReq": "F6"
+  }
+ },
+ {
+  "id": "GIANTS_EYE_SWORD",
+  "name": "Giant's Eye Sword",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "LONGSWORD",
+  "damage": 500,
+  "stats": {
+   "SWING_RANGE": 1
+  },
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_eye_beam",
+    "name": "Eye Ray",
+    "trigger": "RIGHT_CLICK",
+    "mana": 40,
+    "cooldown": 5,
+    "lore": [
+     "&7Fire a searing ray ahead of you for",
+     "&c{damage} &7damage."
+    ],
+    "damage": 4000,
+    "scaling": 0.05
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Giant's Eye Sword",
+   "owner": "dungeons",
+   "floorReq": "M6",
+   "abilityScaling": 0.05
+  }
+ },
+ {
+  "id": "GIANTS_SWORD",
+  "name": "Giant's Sword",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "LONGSWORD",
+  "damage": 500,
+  "stats": {
+   "SWING_RANGE": 1
+  },
+  "npcSell": 1000,
+  "gemSlots": [
+   "JASPER",
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_giants_slam",
+    "name": "Titan Slam",
+    "trigger": "RIGHT_CLICK",
+    "mana": 100,
+    "cooldown": 30,
+    "lore": [
+     "&7Drive the blade into the ground,",
+     "&7dealing &c{damage} &7damage to everything",
+     "&7near you."
+    ],
+    "scaling": 0.05,
+    "damage": 100000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Giant's Sword",
+   "owner": "dungeons",
+   "floorReq": "F6",
+   "abilityScaling": 0.05
+  }
+ },
+ {
+  "id": "GIANT_CLEAVER",
+  "name": "Giant Cleaver",
+  "material": "GOLDEN_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 235,
+  "stats": {
+   "STRENGTH": 120,
+   "CRIT_DAMAGE": 120
+  },
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&6Passive: Cleave",
+   "&7Each hit also bites monsters within",
+   "&a5 blocks &7for part of its damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Giant Cleaver",
+   "owner": "dungeons",
+   "floorReq": "F6",
+   "w": {
+    "cleave": 5
+   }
+  }
+ },
+ {
+  "id": "HYPERION",
+  "name": "Highlord",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 260,
+  "stats": {
+   "STRENGTH": 150,
+   "FEROCITY": 30,
+   "INTELLIGENCE": 350
+  },
+  "gemSlots": [
+   "SAPPHIRE",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+50% &7damage.",
+   "&7Grants &c+1 &7Damage and &b+2✎ Intelligence",
+   "&7per Catacombs level.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Hyperion",
+   "owner": "dungeons",
+   "floorReq": "F7",
+   "w": {
+    "vs": {
+     "wither": 50
+    },
+    "classAbility": true,
+    "cataStats": {
+     "DAMAGE": 1,
+     "INTELLIGENCE": 2
+    }
+   }
+  }
+ },
+ {
+  "id": "HYPER_CLEAVER",
+  "name": "Hyper Cleaver",
+  "material": "GOLDEN_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 175,
+  "stats": {
+   "STRENGTH": 100,
+   "CRIT_DAMAGE": 100
+  },
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&6Passive: Cleave",
+   "&7Each hit also bites monsters within",
+   "&a4 blocks &7for part of its damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Hyper Cleaver",
+   "owner": "dungeons",
+   "floorReq": "F3",
+   "w": {
+    "cleave": 4
+   }
+  }
+ },
+ {
+  "id": "ICE_SPRAY_WAND",
+  "name": "Ice Spray Wand",
+  "material": "STICK",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 52,
+  "stats": {
+   "INTELLIGENCE": 118
+  },
+  "requirements": [
+   "dungeon_catacombs:20"
+  ],
+  "npcSell": 10000,
+  "gemSlots": [
+   "SAPPHIRE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "glow": true,
+  "abilities": [
+   {
+    "id": "weapons_ice_spray",
+    "name": "Frost Breath",
+    "trigger": "RIGHT_CLICK",
+    "mana": 50,
+    "cooldown": 5,
+    "lore": [
+     "&7Spray a cone of ice for &c{damage} &7damage.",
+     "&7Struck mobs freeze for &a5s &7and take",
+     "&a10% &7more damage while frozen."
+    ],
+    "scaling": 0.1,
+    "damage": 17000
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Ice Spray Wand",
+   "owner": "dungeons",
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      52,
+      56,
+      60,
+      65,
+      70,
+      75,
+      80,
+      86,
+      93,
+      100
+     ],
+     "INTELLIGENCE": [
+      118,
+      128,
+      139,
+      152,
+      165,
+      179,
+      195,
+      212,
+      230,
+      250
+     ]
+    }
+   },
+   "abilityScaling": 0.1
+  }
+ },
+ {
+  "id": "ITEM_SPIRIT_BOW",
+  "name": "Spirit Shortbow",
+  "material": "BOW",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 210,
+  "stats": {
+   "STRENGTH": 100
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Shot Cooldown: &a0.75s",
+   "&7Gains &a+2% &7damage to undead per &a1%",
+   "&7of your missing health."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spirit Shortbow",
+   "owner": "dungeons",
+   "floorReq": "F4",
+   "w": {
+    "missingVsUndead": 2,
+    "shortbow": 0.75
+   }
+  }
+ },
+ {
+  "id": "LAST_BREATH",
+  "name": "Last Breath",
+  "material": "BOW",
+  "rarity": "LEGENDARY",
+  "category": "BOW",
+  "damage": 200,
+  "stats": {
+   "STRENGTH": 180,
+   "CRIT_DAMAGE": 50
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Each hit strips &a10% &7of the target's",
+   "&7max &a❈ Defense&7, stacking &a5 &7times."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Last Breath",
+   "owner": "dungeons",
+   "floorReq": "F5",
+   "w": {
+    "defShred": {
+     "pct": 10,
+     "stacks": 5
+    }
+   }
+  }
+ },
+ {
+  "id": "LIVID_DAGGER",
+  "name": "Mimic Dagger",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 210,
+  "stats": {
+   "STRENGTH": 60,
+   "ATTACK_SPEED": 50,
+   "CRIT_DAMAGE": 50,
+   "CRIT_CHANCE": 100
+  },
+  "npcSell": 500000,
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Critical hits from behind deal",
+   "&a+100% &7damage."
+  ],
+  "abilities": [
+   {
+    "id": "weapons_livid_throw",
+    "name": "Knife Toss",
+    "trigger": "RIGHT_CLICK",
+    "mana": 150,
+    "cooldown": 5,
+    "lore": [
+     "&7Throw the dagger at whatever you aim",
+     "&7at, striking it with your melee damage."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Livid Dagger",
+   "owner": "dungeons",
+   "floorReq": "F5"
+  }
+ },
+ {
+  "id": "MACHINE_GUN_BOW",
+  "name": "Machine Gun Shortbow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 75,
+  "stats": {
+   "STRENGTH": 20,
+   "CRIT_DAMAGE": 12
+  },
+  "requirements": [
+   "dungeon_catacombs:2"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable",
+   "shortbow"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Shot Cooldown: &a0.5s"
+  ],
+  "abilities": [
+   {
+    "id": "weapons_rapid_fire",
+    "name": "Bullet Storm",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 100,
+    "lore": [
+     "&7Fire &a5 &7arrows a second for &a8s&7. These",
+     "&7arrows deal &a70% &7damage."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Machine Gun Shortbow",
+   "owner": "dungeons",
+   "w": {
+    "shortbow": 0.5,
+    "tiered": {
+     "DAMAGE": [
+      75,
+      82,
+      89,
+      96,
+      105,
+      114,
+      124,
+      135,
+      146,
+      159
+     ],
+     "STRENGTH": [
+      20,
+      23,
+      25,
+      27,
+      29,
+      32,
+      34,
+      37,
+      40,
+      44
+     ],
+     "CRIT_DAMAGE": [
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      24,
+      26
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "NECROMANCER_SWORD",
+  "name": "Necromancer Sword",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 250,
+  "stats": {
+   "DEFENSE": 125,
+   "STRENGTH": 125
+  },
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_raise_souls",
+    "name": "Raise Souls",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 1,
+    "lore": [
+     "&7Monsters you slay with this blade",
+     "&7leave their soul behind. Right-click",
+     "&7a soul to absorb it, then right-click",
+     "&7to raise your souls to fight for you.",
+     "&8Mana depends on the monsters' power.",
+     "&8Sneak right-click to release souls.",
+     "&8A raised soul that dies is lost.",
+     "&8Max Souls: &a2"
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Necromancer Sword",
+   "owner": "dungeons",
+   "floorReq": "F6",
+   "w": {
+    "souls": 2
+   }
+  }
+ },
+ {
+  "id": "NECRON_BLADE",
+  "name": "Warden's Blade (Unrefined)",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 260,
+  "stats": {
+   "STRENGTH": 110,
+   "FEROCITY": 30,
+   "INTELLIGENCE": 50
+  },
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+50% &7damage.",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Necron's Blade (Unrefined)",
+   "owner": "dungeons",
+   "floorReq": "F7",
+   "w": {
+    "vs": {
+     "wither": 50
+    },
+    "classAbility": true
+   }
+  }
+ },
+ {
+  "id": "SCYLLA",
+  "name": "Riptide",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 270,
+  "stats": {
+   "STRENGTH": 150,
+   "CRIT_DAMAGE": 35,
+   "CRIT_CHANCE": 12,
+   "FEROCITY": 30,
+   "INTELLIGENCE": 50
+  },
+  "gemSlots": [
+   "COMBAT",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+50% &7damage.",
+   "&7Grants &c+1 &7Damage and &9+1☠ Crit Damage",
+   "&7per Catacombs level.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Scylla",
+   "owner": "dungeons",
+   "floorReq": "F7",
+   "w": {
+    "vs": {
+     "wither": 50
+    },
+    "classAbility": true,
+    "cataStats": {
+     "DAMAGE": 1,
+     "CRIT_DAMAGE": 1
+    }
+   }
+  }
+ },
+ {
+  "id": "SHADOW_FURY",
+  "name": "Shadow Fury",
+  "material": "DIAMOND_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 300,
+  "stats": {
+   "SPEED": 30,
+   "STRENGTH": 130,
+   "CRIT_DAMAGE": 30
+  },
+  "npcSell": 500000,
+  "gemSlots": [
+   "JASPER"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_shadow_fury",
+    "name": "Shadow Dance",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 15,
+    "lore": [
+     "&7Flash between up to &a5 &7enemies within",
+     "&a12 blocks&7, rooting each and striking",
+     "&7it as you pass."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Shadow Fury",
+   "owner": "dungeons",
+   "floorReq": "F5"
+  }
+ },
+ {
+  "id": "SILENT_DEATH",
+  "name": "Silent Death",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 85,
+  "stats": {
+   "STRENGTH": 31,
+   "CRIT_DAMAGE": 9,
+   "CRIT_CHANCE": 1
+  },
+  "requirements": [
+   "dungeon_catacombs:20"
+  ],
+  "npcSell": 20000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_shadowstep",
+    "name": "Backstab Step",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 60,
+    "lore": [
+     "&7Appear behind the enemy you look at",
+     "&8(20 blocks max) &7and gain &c+25❁ Strength",
+     "&7for &a10s&7. Kills reset the cooldown."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Silent Death",
+   "owner": "dungeons",
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      85,
+      92,
+      100,
+      109,
+      119,
+      129,
+      140,
+      152,
+      166,
+      180
+     ],
+     "STRENGTH": [
+      31,
+      34,
+      37,
+      40,
+      44,
+      48,
+      52,
+      56,
+      61,
+      67
+     ],
+     "CRIT_DAMAGE": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20
+     ],
+     "CRIT_CHANCE": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "SKELETON_LORD_BOW",
+  "name": "Skeleton Lord Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 109,
+  "stats": {
+   "STRENGTH": 18,
+   "CRIT_DAMAGE": 36
+  },
+  "requirements": [
+   "dungeon_catacombs:30"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Taken from a fallen bone lord."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Skeleton Lord Bow",
+   "owner": "dungeons",
+   "w": {
+    "tiered": {
+     "DAMAGE": [
+      109,
+      119,
+      129,
+      140,
+      152,
+      166,
+      180,
+      135,
+      146,
+      159
+     ],
+     "STRENGTH": [
+      18,
+      20,
+      21,
+      23,
+      25,
+      28,
+      30,
+      37,
+      40,
+      44
+     ],
+     "CRIT_DAMAGE": [
+      36,
+      40,
+      43,
+      47,
+      51,
+      55,
+      60,
+      22,
+      24,
+      26
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "SNIPER_BOW",
+  "name": "Sniper Bow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 94,
+  "stats": {
+   "CRIT_DAMAGE": 1
+  },
+  "requirements": [
+   "dungeon_catacombs:10"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Arrows fly much farther and faster."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Sniper Bow",
+   "owner": "dungeons",
+   "w": {
+    "speed": 1.8,
+    "tiered": {
+     "DAMAGE": [
+      94,
+      103,
+      112,
+      121,
+      132,
+      143,
+      156,
+      169,
+      184,
+      200
+     ],
+     "CRIT_DAMAGE": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "SPIRIT_SWORD",
+  "name": "Spirit Sword",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 210,
+  "stats": {
+   "STRENGTH": 50
+  },
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Gains &a+2% &7damage to undead per &a1%",
+   "&7of your missing health."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Spirit Sword",
+   "owner": "dungeons",
+   "floorReq": "F4",
+   "w": {
+    "missingVsUndead": 2
+   }
+  }
+ },
+ {
+  "id": "STINGER_BOW",
+  "name": "Stinger Bow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 47,
+  "requirements": [
+   "dungeon_catacombs:12"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_sting",
+    "name": "Needle Gift",
+    "trigger": "PASSIVE",
+    "mana": 100,
+    "cooldown": 0,
+    "lore": [
+     "&7In dungeons, arrows that hit a teammate",
+     "&7grant them &f+20✦ Speed &7and &c+30❁ Strength",
+     "&7for &a30s&7, but deal &c1 &7damage."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Stinger Bow",
+   "owner": "dungeons",
+   "w": {
+    "sting": true,
+    "tiered": {
+     "DAMAGE": [
+      47,
+      51,
+      56,
+      61,
+      66,
+      72,
+      78,
+      85,
+      92,
+      100
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "STONE_BLADE",
+  "name": "Adaptive Blade",
+  "material": "STONE_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 170,
+  "npcSell": 20000,
+  "gemSlots": [
+   "DEFENSIVE"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Shifts its shape to suit its",
+   "&7wielder's dungeon class:",
+   "&cBerserk&7: &c+10 &7Damage, &c+75❁ Strength&7,",
+   "&f+10✦ Speed&7.",
+   "&dHealer&7: &a+10☄ Mending&7; allies within",
+   "&a10 &7blocks share &a33% &7of your life-steal healing.",
+   "&bMage&7: &b+100✎ Intelligence&7, &c+10 &7Damage,",
+   "&7melee hits restore &a25% &7more mana.",
+   "&7Tank: &a+100❈ Defense&7, &4+5♨ Vitality&7,",
+   "&f+5❂ True Defense&7.",
+   "&6Archer&7: melee hits make foes take &a10%",
+   "&7more damage from your arrows for &a5s&7.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Adaptive Blade",
+   "owner": "dungeons",
+   "floorReq": "F2",
+   "w": {
+    "adaptive": true,
+    "classAbility": true
+   }
+  }
+ },
+ {
+  "id": "SUPER_CLEAVER",
+  "name": "Super Cleaver",
+  "material": "GOLDEN_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 105,
+  "stats": {
+   "STRENGTH": 20,
+   "CRIT_DAMAGE": 20
+  },
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&6Passive: Cleave",
+   "&7Each hit also bites monsters within",
+   "&a3 blocks &7for part of its damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Super Cleaver",
+   "owner": "dungeons",
+   "w": {
+    "cleave": 3
+   }
+  }
+ },
+ {
+  "id": "SUPER_UNDEAD_BOW",
+  "name": "Super Undead Bow",
+  "material": "BOW",
+  "rarity": "EPIC",
+  "category": "BOW",
+  "damage": 220,
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+100% &7damage.",
+   "&7Arrows have a &a25% &7chance to bounce",
+   "&7on to another target."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Super Undead Bow",
+   "owner": "dungeons",
+   "floorReq": "F3",
+   "w": {
+    "vs": {
+     "undead": 100
+    },
+    "bounce": 0.25
+   }
+  }
+ },
+ {
+  "id": "UNDEAD_BOW",
+  "name": "Undead Bow",
+  "material": "BOW",
+  "rarity": "RARE",
+  "category": "BOW",
+  "damage": 80,
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &cundead &7foes deal &a+100% &7damage."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Undead Bow",
+   "owner": "dungeons",
+   "w": {
+    "vs": {
+     "undead": 100
+    }
+   }
+  }
+ },
+ {
+  "id": "VALKYRIE",
+  "name": "Shieldmaiden",
+  "material": "IRON_SWORD",
+  "rarity": "LEGENDARY",
+  "category": "SWORD",
+  "damage": 270,
+  "stats": {
+   "STRENGTH": 145,
+   "FEROCITY": 60,
+   "INTELLIGENCE": 60
+  },
+  "gemSlots": [
+   "JASPER",
+   "COMBAT"
+  ],
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Hits on &8withered &7foes deal &a+50% &7damage.",
+   "&7Grants &c+1 &7Damage and &c+1❁ Strength",
+   "&7per Catacombs level.",
+   "",
+   "&eRight-click to use your class ability!"
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Valkyrie",
+   "owner": "dungeons",
+   "floorReq": "F7",
+   "w": {
+    "vs": {
+     "wither": 50
+    },
+    "classAbility": true,
+    "cataStats": {
+     "DAMAGE": 1,
+     "STRENGTH": 1
+    }
+   }
+  }
+ },
+ {
+  "id": "WITHER_CLOAK",
+  "name": "Wither Cloak Sword",
+  "material": "STONE_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 190,
+  "stats": {
+   "DEFENSE": 250,
+   "STRENGTH": 135
+  },
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_creeper_veil",
+    "name": "Ward Veil",
+    "trigger": "RIGHT_CLICK",
+    "mana": 0,
+    "cooldown": 10,
+    "lore": [
+     "&7For &a10s &7a layered ward soaks up to",
+     "&c1,000 &7damage per layer. You cannot",
+     "&7attack while it holds."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Wither Cloak Sword",
+   "owner": "dungeons",
+   "floorReq": "F7"
+  }
+ },
+ {
+  "id": "ZOMBIE_COMMANDER_WHIP",
+  "name": "Zombie Commander Whip",
+  "material": "FISHING_ROD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 65,
+  "stats": {
+   "STRENGTH": 5
+  },
+  "requirements": [
+   "dungeon_catacombs:18"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "abilities": [
+   {
+    "id": "weapons_commander_whip",
+    "name": "Rallying Lash",
+    "trigger": "PASSIVE",
+    "mana": 0,
+    "cooldown": 0,
+    "lore": [
+     "&7Every zombie slain with it during a",
+     "&7dungeon run grants &c+1❁ Strength",
+     "&7until the run ends."
+    ],
+    "scaling": 0.3
+   }
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Zombie Commander Whip",
+   "owner": "dungeons",
+   "w": {
+    "whip": "zombie"
+   }
+  }
+ },
+ {
+  "id": "ZOMBIE_KNIGHT_SWORD",
+  "name": "Zombie Knight Sword",
+  "material": "IRON_SWORD",
+  "rarity": "EPIC",
+  "category": "SWORD",
+  "damage": 82,
+  "stats": {
+   "STRENGTH": 21
+  },
+  "requirements": [
+   "dungeon_catacombs:14"
+  ],
+  "npcSell": 1,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Gains &c+30❁ Strength &7with the",
+   "&7Zombie Knight armor."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Zombie Knight Sword",
+   "owner": "dungeons",
+   "w": {
+    "setStr": {
+     "zombie_knight": 30
+    },
+    "tiered": {
+     "DAMAGE": [
+      82,
+      86,
+      91,
+      95,
+      101,
+      106,
+      111,
+      117,
+      123,
+      130
+     ],
+     "STRENGTH": [
+      21,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      36,
+      37,
+      40
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "ZOMBIE_SOLDIER_CUTLASS",
+  "name": "Zombie Soldier Cutlass",
+  "material": "IRON_SWORD",
+  "rarity": "RARE",
+  "category": "SWORD",
+  "damage": 52,
+  "stats": {
+   "ATTACK_SPEED": 100,
+   "STRENGTH": 26
+  },
+  "requirements": [
+   "dungeon_catacombs:5"
+  ],
+  "npcSell": 1000,
+  "tags": [
+   "enchantable",
+   "museum",
+   "recombable",
+   "reforgeable"
+  ],
+  "dungeon": true,
+  "lore": [
+   "&7Inside a dungeon each hit heals",
+   "&7you &c10❤&7."
+  ],
+  "extra": {
+   "src": "weapons",
+   "refName": "Zombie Soldier Cutlass",
+   "owner": "dungeons",
+   "w": {
+    "dungeonHeal": 10,
+    "tiered": {
+     "DAMAGE": [
+      52,
+      56,
+      60,
+      65,
+      70,
+      75,
+      80,
+      86,
+      93,
+      100
+     ],
+     "STRENGTH": [
+      26,
+      28,
+      30,
+      32,
+      35,
+      37,
+      40,
+      43,
+      47,
+      50
+     ]
+    }
+   }
+  }
+ }
+]

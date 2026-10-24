@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "showcam",
+  "version": "${version}",
+  "name": "ShowCam",
+  "description": "Smooth cinematic camera driven over a localhost HTTP API, plus a per-client window title, for the AISky show rig. Inert unless SHOWCAM=1 or SHOWCAM_TITLE is set.",
+  "authors": ["Tutut"],
+  "license": "All rights reserved",
+  "environment": "client",
+  "entrypoints": { "client": ["com.aisky.showcam.ShowCam"] },
+  "mixins": [ { "config": "showcam.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

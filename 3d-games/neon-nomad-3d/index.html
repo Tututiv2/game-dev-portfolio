@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NEON NOMAD — 3D</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; background: #04050a; }
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #fff; user-select: none; cursor: default;
+  }
+  canvas { display: block; position: fixed; inset: 0; }
+
+  #hud { position: fixed; inset: 0; pointer-events: none; z-index: 10; }
+
+  .panel {
+    position: absolute;
+    background: rgba(8, 12, 20, 0.55);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 12px 18px;
+  }
+
+  #stats { top: 18px; left: 18px; display: flex; gap: 26px; }
+  .stat { display: flex; flex-direction: column; gap: 3px; }
+  .stat .k { font-size: 9px; letter-spacing: 2px; color: #6c7a90; text-transform: uppercase; }
+  .stat .v { font-size: 17px; font-weight: 700; letter-spacing: 1px; color: #d8e6f5; text-shadow: 0 0 12px rgba(0,204,255,.35); }
+
+  #mode {
+    position: absolute; top: 18px; left: 50%; transform: translateX(-50%);
+    font-size: 12px; letter-spacing: 5px; font-weight: 700;
+    color: #dfeaf6; padding: 9px 26px;
+    background: rgba(8, 12, 20, 0.55); backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 204, 255, 0.35);
+    box-shadow: 0 0 26px rgba(0, 204, 255, 0.14);
+    transition: color .35s, border-color .35s, box-shadow .35s;
+  }
+  #mode.deployed {
+    color: #d9a6ff; border-color: rgba(163, 0, 204, 0.6);
+    box-shadow: 0 0 30px rgba(163, 0, 204, 0.28);
+  }
+
+  #perf { top: 18px; right: 18px; text-align: right; font-size: 11px; letter-spacing: 2px; color: #5e6b80; line-height: 1.8; }
+
+  #keys {
+    bottom: 18px; left: 50%; transform: translateX(-50%);
+    font-size: 11px; letter-spacing: 2px; color: #7b8aa0; display: flex; gap: 22px;
+  }
+  #keys span { color: #6c7a90; }
+  #keys b { color: #9fd8f0; font-weight: 600; }
+
+  /* Hotbar — only meaningful while anchored, so it slides away when mobile. */
+  #hotbar {
+    position: absolute; bottom: 58px; left: 50%;
+    transform: translateX(-50%) translateY(28px);
+    display: flex; gap: 12px; opacity: 0; transition: opacity .35s, transform .35s;
+    pointer-events: none;
+  }
+  #hotbar.on { opacity: 1; transform: translateX(-50%) translateY(0); pointer-events: auto; }
+  .slot {
+    width: 96px; padding: 10px 6px 8px; text-align: center; cursor: pointer;
+    background: rgba(8, 12, 20, 0.62); backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.10); transition: all .18s; position: relative;
+  }
+  .slot b { position: absolute; top: 4px; left: 7px; font-size: 10px; color: #55637a; }
+  .slot span { display: block; font-size: 10px; letter-spacing: 1.6px; color: #93a3ba; }
+  .slot i { display: block; font-style: normal; font-size: 15px; font-weight: 700; color: #ffc70d; margin-top: 3px; }
+  .slot:hover { border-color: rgba(0,204,255,.45); transform: translateY(-2px); }
+  .slot.sel {
+    border-color: #00ccff; background: rgba(0, 62, 92, 0.68);
+    box-shadow: 0 0 22px rgba(0,204,255,.22); transform: translateY(-5px);
+  }
+  .slot.sel span { color: #fff; }
+  .slot.poor i { color: #ff5566; }
+
+  #buildhint {
+    position: absolute; bottom: 168px; left: 50%; transform: translateX(-50%);
+    font-size: 11px; letter-spacing: 3px; color: #ff5566;
+    text-shadow: 0 0 12px rgba(255,60,90,.6); opacity: 0; transition: opacity .2s;
+  }
+  #buildhint.on { opacity: 1; }
+
+  #threat {
+    top: 96px; left: 18px; width: 218px; display: flex; flex-direction: column; gap: 5px;
+  }
+  .tline { display: flex; justify-content: space-between; align-items: baseline; }
+  .tline .k { font-size: 9px; letter-spacing: 1.6px; color: #6c7a90; text-transform: uppercase; }
+  .tline .v { font-size: 13px; font-weight: 700; color: #d8e6f5; }
+  .polbar {
+    height: 6px; background: #12161f; border: 1px solid rgba(255,255,255,.08);
+    overflow: hidden; margin: 2px 0 4px;
+  }
+  #polfill {
+    height: 100%; width: 0%;
+    background: linear-gradient(90deg, #7a4a12, #d4761a, #ff3b2f);
+    transition: width .25s ease-out;
+  }
+  #threat.hot .tline .v#pol { color: #ff7a45; text-shadow: 0 0 12px rgba(255,90,50,.55); }
+  #threat.hunted { border-color: rgba(255,50,60,.55); box-shadow: 0 0 26px rgba(255,40,50,.20); }
+  #threat.hunted .tline .v#swarm { color: #ff4455; text-shadow: 0 0 12px rgba(255,60,70,.6); }
+
+  #boot {
+    position: fixed; inset: 0; z-index: 50; background: #04050a;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 14px; transition: opacity .9s ease; pointer-events: none;
+  }
+  #boot h1 {
+    font-size: 46px; font-weight: 900; letter-spacing: 12px; color: #fff;
+    text-shadow: 0 0 24px #00ccff, 0 0 60px rgba(0,204,255,.5);
+  }
+  #boot p { font-size: 11px; letter-spacing: 5px; color: #4d5a6e; }
+  #boot.gone { opacity: 0; }
+</style>
+</head>
+<body>
+
+<canvas id="view"></canvas>
+
+<div id="hud">
+  <div id="stats" class="panel">
+    <div class="stat"><span class="k">Mass</span><span class="v" id="mass" style="color:#ffc70d">300</span></div>
+    <div class="stat"><span class="k">Tech</span><span class="v" id="tech" style="color:#26ff6b">0</span></div>
+    <div class="stat"><span class="k">Velocity</span><span class="v" id="speed">0 KPH</span></div>
+    <div class="stat"><span class="k">Elevation</span><span class="v" id="alt">0 M</span></div>
+    <div class="stat"><span class="k">Position</span><span class="v" id="coord">—</span></div>
+  </div>
+
+  <div id="threat" class="panel">
+    <div class="tline"><span class="k">Pollution</span><span class="v" id="pol">0</span></div>
+    <div class="polbar"><div id="polfill"></div></div>
+    <div class="tline"><span class="k">Cloud reach</span><span class="v" id="polr">0 M</span></div>
+    <div class="tline"><span class="k">Nearest nest</span><span class="v" id="nest">—</span></div>
+    <div class="tline"><span class="k">Swarm</span><span class="v" id="swarm">0</span></div>
+  </div>
+
+  <div id="hotbar">
+    <div class="slot" data-type="wall"><b>1</b><span>WALL</span><i>10</i></div>
+    <div class="slot" data-type="extractor"><b>2</b><span>EXTRACTOR</span><i>50</i></div>
+    <div class="slot" data-type="cannon"><b>3</b><span>CANNON</span><i>100</i></div>
+  </div>
+  <div id="buildhint"></div>
+
+  <div id="mode">MOBILE</div>
+
+  <div id="perf" class="panel">
+    <div id="fps">— FPS</div>
+    <div id="chunks">— CHUNKS</div>
+  </div>
+
+  <div id="keys" class="panel">
+    <span><b>W/S</b> drive</span>
+    <span><b>A/D</b> steer</span>
+    <span><b>SHIFT</b> boost</span>
+    <span><b>SPACE</b> deploy</span>
+    <span><b>1/2/3</b> build</span>
+    <span><b>LMB</b> place</span>
+    <span><b>RMB</b> orbit</span>
+    <span><b>WHEEL</b> zoom</span>
+  </div>
+</div>
+
+<div id="boot">
+  <h1>NEON NOMAD</h1>
+  <p>MAKING PLANETFALL</p>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/postprocessing/": "./vendor/three/postprocessing/",
+    "three/shaders/": "./vendor/three/shaders/"
+  }
+}
+</script>
+<script type="module" src="./src/main.js"></script>
+
+</body>
+</html>

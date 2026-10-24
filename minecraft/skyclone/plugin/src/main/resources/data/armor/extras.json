@@ -1,0 +1,44 @@
+[
+ {
+  "id": "GREAT_SPOOK_STAFF",
+  "name": "Great Spook Staff",
+  "material": "DEAD_BUSH",
+  "rarity": "LEGENDARY",
+  "category": "NONE",
+  "tags": [
+   "museum"
+  ],
+  "abilities": [
+   {
+    "id": "armor_spooker",
+    "name": "Spooker",
+    "trigger": "LEFT_CLICK",
+    "cooldown": 60,
+    "lore": [
+     "&7Punch another player while wearing the",
+     "&7full &5Great Spook &7set to give them a",
+     "&7fright they will not forget."
+    ]
+   },
+   {
+    "id": "armor_spook",
+    "name": "Spook",
+    "trigger": "RIGHT_CLICK",
+    "cooldown": 15,
+    "lore": [
+     "&7Other players see you as a &6Dead Bush",
+     "&7for a few seconds."
+    ]
+   }
+  ],
+  "lore": [
+   "&8Earned in the alchemist's trials."
+  ],
+  "extra": {
+   "refName": "Great Spook Staff",
+   "otherStats": {
+    "FEAR": 10
+   }
+  }
+ }
+]

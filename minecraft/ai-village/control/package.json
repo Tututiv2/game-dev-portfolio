@@ -1,0 +1,9 @@
+{
+  "name": "village-control",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "In-game !sim command controller for the AI village experiment",
+  "dependencies": {
+    "rcon-client": "^4.2.5"
+  }
+}

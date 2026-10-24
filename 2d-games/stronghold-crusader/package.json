@@ -1,0 +1,14 @@
+{
+  "name": "stronghold-crusader-proto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "2.5D Stronghold Crusader-inspired browser prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:sprite-editor": "node tests/sprite-editor-smoke.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}

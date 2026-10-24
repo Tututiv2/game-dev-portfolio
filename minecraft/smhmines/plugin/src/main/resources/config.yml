@@ -1,0 +1,10 @@
+# SmhMines configuration.
+# The hub is written here by /smhspawn build and /smhspawn sethub — do not hand-edit while
+# a build is running.
+
+hub:
+  x: 0.5
+  y: 101.0
+  z: 0.5
+  yaw: 180.0
+  pitch: -8.0

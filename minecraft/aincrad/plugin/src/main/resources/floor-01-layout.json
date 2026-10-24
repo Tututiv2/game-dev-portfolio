@@ -1,0 +1,1789 @@
+{
+  "schema_version": 2,
+  "id": "aincrad-floor-01-canon-constrained",
+  "snapshot_date": "2026-07-23",
+  "status": "design_specification",
+  "truth_model": {
+    "description": "Canon-constrained reconstruction; not an official complete survey.",
+    "grades": {
+      "C1": "direct canon fact or dimension",
+      "C2": "canon relationship or appearance without survey geometry",
+      "A1": "official licensed adaptation reference",
+      "F1": "fan synthesis used only for gap analysis",
+      "D1": "derived geometry",
+      "O1": "original playable connective content"
+    }
+  },
+  "coordinate_system": {
+    "origin": "center of the circular First Floor",
+    "minecraft_axes": {
+      "east": "+x",
+      "west": "-x",
+      "south": "+z",
+      "north": "-z",
+      "up": "+y"
+    },
+    "surface_datum_y": 320,
+    "canon_horizontal_meters_per_block": 1.0,
+    "vertical_meters_per_block": 1.0,
+    "rotation_degrees": 0,
+    "notes": [
+      "All top-level x/z coordinates are recommended Minecraft blocks at true 1:1 horizontal scale.",
+      "One horizontal block represents one canon meter; no coordinate conversion is required.",
+      "Landmark interiors may exceed strict canon dimensions only where Minecraft combat requires a documented gameplay envelope.",
+      "Floor One is local layer 1 of the permanent aincrad:floors_01_10 group dimension.",
+      "Ten physical floor layers share each dimension group; all floor-sensitive state is keyed by global floor number as well as x/z."
+    ]
+  },
+  "dimension_architecture": {
+    "evidence": [
+      "O1:owner-approved hybrid architecture",
+      "D1"
+    ],
+    "floors_per_dimension": 10,
+    "floor_pitch_blocks": 160,
+    "playable_band_blocks": 100,
+    "structural_plate_blocks": 60,
+    "local_surface_formula": "320 + 160 * (localFloorIndex - 1)",
+    "group_dimension_ids": [
+      "aincrad:floors_01_10",
+      "aincrad:floors_11_20",
+      "aincrad:floors_21_30",
+      "aincrad:floors_31_40",
+      "aincrad:floors_41_50",
+      "aincrad:floors_51_60",
+      "aincrad:floors_61_70",
+      "aincrad:floors_71_80",
+      "aincrad:floors_81_90",
+      "aincrad:floors_91_100"
+    ],
+    "local_layers": [
+      { "local_floor": 1, "surface_y": 320, "playable_y": [320, 419], "upper_plate_y": [420, 479] },
+      { "local_floor": 2, "surface_y": 480, "playable_y": [480, 579], "upper_plate_y": [580, 639] },
+      { "local_floor": 3, "surface_y": 640, "playable_y": [640, 739], "upper_plate_y": [740, 799] },
+      { "local_floor": 4, "surface_y": 800, "playable_y": [800, 899], "upper_plate_y": [900, 959] },
+      { "local_floor": 5, "surface_y": 960, "playable_y": [960, 1059], "upper_plate_y": [1060, 1119] },
+      { "local_floor": 6, "surface_y": 1120, "playable_y": [1120, 1219], "upper_plate_y": [1220, 1279] },
+      { "local_floor": 7, "surface_y": 1280, "playable_y": [1280, 1379], "upper_plate_y": [1380, 1439] },
+      { "local_floor": 8, "surface_y": 1440, "playable_y": [1440, 1539], "upper_plate_y": [1540, 1599] },
+      { "local_floor": 9, "surface_y": 1600, "playable_y": [1600, 1699], "upper_plate_y": [1700, 1759] },
+      { "local_floor": 10, "surface_y": 1760, "playable_y": [1760, 1859], "terminal_plate_y": [1860, 1919], "safety_transition_y": [1920, 1967] }
+    ],
+    "floor_one_base_understructure_y": [-64, 319],
+    "same_group_transition_after_floors": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "cross_dimension_transition_after_floors": [10, 20, 30, 40, 50, 60, 70, 80, 90],
+    "activation": {
+      "key": ["dimension_group", "global_floor", "chunk_x", "chunk_z"],
+      "active_layer_mask_bits": 10,
+      "inactive_layer_mob_ai": false,
+      "inactive_layer_npcs": "serialized_or_virtual",
+      "inactive_layer_machines": "prohibited",
+      "random_ticks": "layer-aware authored simulation",
+      "validation": "A player on one layer must not tick mobs, encounters, NPC entities, hoppers, or clocks on the other nine layers."
+    },
+    "lighting": {
+      "vanilla_skylight_reaches_lower_layers": false,
+      "mechanical": "deterministic recessed luminaires and server light volumes",
+      "cosmetic": "resource-pack ceiling sky plus optional per-layer fog/weather packets",
+      "resource_pack_optional_for_navigation": true
+    }
+  },
+  "world_shell": {
+    "evidence": [
+      "C1:S1",
+      "C1:S5",
+      "D1"
+    ],
+    "canon_diameter_m": 10000,
+    "build_radius_blocks": 5000,
+    "playable_guardrail_radius_blocks": 4976,
+    "base_surface_y": 320,
+    "second_floor_underside_reference_y": 420,
+    "second_floor_surface_y": 480,
+    "second_floor_plate_y": [
+      420,
+      479
+    ],
+    "underside_center_y": -48,
+    "underside_formula": "round(-48 + 0.0000136 * r * r), clamped to [minY+6, surfaceY-28]",
+    "rim": {
+      "radial_band_blocks": [
+        4936,
+        5000
+      ],
+      "top_rail_height_blocks": 2,
+      "minimum_shell_thickness_blocks": 28,
+      "behavior": "physical edge; plugin handles jump/fall rather than an invisible barrier"
+    },
+    "support_ribs": {
+      "count": 24,
+      "angular_spacing_degrees": 15,
+      "radial_start_blocks": 1100,
+      "radial_end_blocks": 4940,
+      "average_width_blocks": 15,
+      "materials": [
+        "deepslate_bricks",
+        "polished_blackstone_bricks",
+        "iron_block"
+      ],
+      "concentric_ring_radii_blocks": [
+        1100,
+        2200,
+        3300,
+        4200,
+        4840
+      ]
+    },
+    "dimension_profile": {
+      "min_y": -64,
+      "height": 2032,
+      "logical_height": 2032,
+      "maximum_build_y_inclusive": 1967,
+      "implementation": "custom dimension_type supplied by a permanent datapack before world creation",
+      "alternate_for_top_y_2031": {
+        "min_y": -64,
+        "height": 2096,
+        "logical_height": 2096,
+        "maximum_build_y_inclusive": 2031
+      }
+    }
+  },
+  "terrain_regions": [
+    {
+      "id": "south_grasslands",
+      "label": "Southern Grasslands",
+      "evidence": [
+        "C2:S1"
+      ],
+      "polygon": [
+        [
+          -4500,
+          4500
+        ],
+        [
+          -3800,
+          1300
+        ],
+        [
+          -1800,
+          400
+        ],
+        [
+          1800,
+          400
+        ],
+        [
+          3800,
+          1300
+        ],
+        [
+          4500,
+          4500
+        ],
+        [
+          0,
+          5000
+        ]
+      ],
+      "surface_y_range": [
+        316,
+        334
+      ],
+      "landcover": [
+        "meadow",
+        "pasture",
+        "scattered_oak",
+        "low_hedges"
+      ],
+      "noise": {
+        "macro_amplitude": 7,
+        "macro_wavelength": 520,
+        "micro_amplitude": 2,
+        "micro_wavelength": 68
+      }
+    },
+    {
+      "id": "rata_plain",
+      "label": "Rata Plain",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          -1700,
+          2000
+        ],
+        [
+          1240,
+          2100
+        ],
+        [
+          1800,
+          500
+        ],
+        [
+          1100,
+          -700
+        ],
+        [
+          -1400,
+          -520
+        ],
+        [
+          -2100,
+          700
+        ]
+      ],
+      "surface_y_range": [
+        318,
+        331
+      ],
+      "landcover": [
+        "open_grass",
+        "wildflowers",
+        "fieldstone",
+        "grazing_enclosures"
+      ]
+    },
+    {
+      "id": "nepenthes_forest",
+      "label": "Nepenthes Forest",
+      "evidence": [
+        "C2:S1",
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          -4400,
+          1900
+        ],
+        [
+          -2240,
+          2240
+        ],
+        [
+          -1640,
+          500
+        ],
+        [
+          -2100,
+          -1240
+        ],
+        [
+          -4160,
+          -1640
+        ],
+        [
+          -4760,
+          160
+        ]
+      ],
+      "surface_y_range": [
+        322,
+        358
+      ],
+      "landcover": [
+        "dense_dark_oak",
+        "spruce_pockets",
+        "giant_plant_clearings",
+        "root_ravines"
+      ],
+      "canopy_height_blocks": [
+        8,
+        18
+      ]
+    },
+    {
+      "id": "east_lake_country",
+      "label": "Eastern Lake and Marsh Country",
+      "evidence": [
+        "C2:S1",
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          1560,
+          2520
+        ],
+        [
+          4200,
+          2500
+        ],
+        [
+          4720,
+          560
+        ],
+        [
+          4100,
+          -1960
+        ],
+        [
+          1960,
+          -1760
+        ],
+        [
+          1320,
+          160
+        ]
+      ],
+      "surface_y_range": [
+        312,
+        336
+      ],
+      "water_surface_y": 316,
+      "landcover": [
+        "lakes",
+        "reeds",
+        "willow",
+        "wet_meadow",
+        "stone_causeways"
+      ]
+    },
+    {
+      "id": "dallhari_divide",
+      "label": "Dallhari Divide",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          -4520,
+          -860
+        ],
+        [
+          -3100,
+          -1440
+        ],
+        [
+          -1100,
+          -1220
+        ],
+        [
+          700,
+          -1640
+        ],
+        [
+          2300,
+          -1380
+        ],
+        [
+          4360,
+          -2060
+        ],
+        [
+          4500,
+          -2560
+        ],
+        [
+          2200,
+          -2080
+        ],
+        [
+          400,
+          -2320
+        ],
+        [
+          -1600,
+          -1960
+        ],
+        [
+          -3400,
+          -2240
+        ],
+        [
+          -4600,
+          -1520
+        ]
+      ],
+      "surface_y_range": [
+        298,
+        372
+      ],
+      "feature": "east-west separating escarpment/canyon band with two primary crossings",
+      "canyon_floor_y_range": [
+        294,
+        308
+      ],
+      "cliff_height_blocks": [
+        28,
+        58
+      ]
+    },
+    {
+      "id": "east_ruins",
+      "label": "Eastern Ruins Belt",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          1700,
+          -1320
+        ],
+        [
+          4240,
+          -1660
+        ],
+        [
+          4100,
+          -3120
+        ],
+        [
+          1960,
+          -3260
+        ],
+        [
+          1040,
+          -2160
+        ]
+      ],
+      "surface_y_range": [
+        332,
+        366
+      ],
+      "landcover": [
+        "broken_masonry",
+        "terraces",
+        "collapsed_aqueduct",
+        "dry_scrub"
+      ]
+    },
+    {
+      "id": "north_mountains",
+      "label": "Northern Mountain Country",
+      "evidence": [
+        "C2:S1",
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          -4520,
+          -1700
+        ],
+        [
+          -3100,
+          -2240
+        ],
+        [
+          -1200,
+          -1960
+        ],
+        [
+          500,
+          -2400
+        ],
+        [
+          2360,
+          -2200
+        ],
+        [
+          4360,
+          -2700
+        ],
+        [
+          3600,
+          -4500
+        ],
+        [
+          0,
+          -5000
+        ],
+        [
+          -3700,
+          -4400
+        ]
+      ],
+      "surface_y_range": [
+        345,
+        408
+      ],
+      "landcover": [
+        "rocky_grass",
+        "pine",
+        "talus",
+        "ravines",
+        "high_meadow"
+      ],
+      "ridge_rule": "height rises northward, with a Tolbana valley notch and Labyrinth shelf"
+    },
+    {
+      "id": "tolbana_valley",
+      "label": "Tolbana Valley",
+      "evidence": [
+        "C2:S3",
+        "D1"
+      ],
+      "polygon": [
+        [
+          80,
+          -2860
+        ],
+        [
+          1520,
+          -2900
+        ],
+        [
+          1860,
+          -3900
+        ],
+        [
+          1220,
+          -4440
+        ],
+        [
+          -240,
+          -4220
+        ],
+        [
+          -600,
+          -3360
+        ]
+      ],
+      "surface_y_range": [
+        344,
+        372
+      ],
+      "landcover": [
+        "terraced_farms",
+        "short_grass",
+        "white_stone",
+        "windmill_ridges"
+      ]
+    },
+    {
+      "id": "north_labyrinth_forest",
+      "label": "Forest Between Tolbana and the Labyrinth",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "polygon": [
+        [
+          -2100,
+          -3680
+        ],
+        [
+          500,
+          -4040
+        ],
+        [
+          1200,
+          -4700
+        ],
+        [
+          -2360,
+          -4760
+        ]
+      ],
+      "surface_y_range": [
+        358,
+        391
+      ],
+      "landcover": [
+        "pine",
+        "dark_oak",
+        "fog_clearings",
+        "kobold_patrol_paths"
+      ]
+    }
+  ],
+  "settlements": [
+    {
+      "id": "town_of_beginnings",
+      "label": "Town of Beginnings",
+      "evidence": [
+        "C1:S2",
+        "C1:S4",
+        "D1"
+      ],
+      "center": [
+        0,
+        322,
+        4500
+      ],
+      "shape": "D-shaped: straight northern wall, straight side walls, curved southern wall",
+      "strict_scale_diameter_blocks": 1000,
+      "footprint": {
+        "north_chord_z": 4000,
+        "south_arc_radius_blocks": 500,
+        "arc_center": [
+          0,
+          4500
+        ],
+        "outer_bounds": [
+          -500,
+          4000,
+          500,
+          5000
+        ]
+      },
+      "city_envelope": {
+        "comment": "Authoritative, unambiguous definition of the wall polygon. Added 2026-07-23 because the prose description ('D-shaped semicircle' + 'northern chord wall at Z=4000' + 'curved southern wall r=500 centered (0,4500)') admitted two mutually incompatible readings: a full circle (whose bounds coincidentally match outer_bounds exactly, with Z=4000 as its tangent point rather than a chord) and a true D-shape. The D-shape is authoritative: it alone satisfies outer_bounds, the 'D-shaped' description, canon's semicircular-city-at-the-southern-edge, AND the district envelopes.",
+        "type": "d_shape",
+        "north_wall": { "z": 4000, "x_from": -500, "x_to": 500 },
+        "side_walls": [
+          { "x": -500, "z_from": 4000, "z_to": 4500 },
+          { "x": 500, "z_from": 4000, "z_to": 4500 }
+        ],
+        "south_arc": { "center": [0, 4500], "radius": 500, "spans_z_from": 4500, "spans_z_to": 5000 },
+        "polygon_area_blocks2": 893675,
+        "rejected_alternative": {
+          "type": "full_circle",
+          "center": [0, 4500],
+          "radius": 500,
+          "polygon_area_blocks2": 785349,
+          "why_rejected": "Leaves north_gate_services corners 153 blocks outside the wall, places the northwest/northeast gates 59 blocks outside the wall (so their openings never intersect it and the ring seals shut), and contradicts the 'D-shaped'/'northern chord wall' language."
+        }
+      },
+      "district_envelope_rule": "District 'bounds' are axis-aligned review envelopes, not fill rectangles. Generators must clip them to city_envelope and to the plaza arcade radius. Measured retention after clipping: black_iron_precinct 100%, central_market 97%, inn_and_crafting_quarter 98%, church_and_orphan_quarter 95%, residential_quarter 91%, north_gate_services 98%.",
+      "safe_zone": true,
+      "population_capacity_target": 5000,
+      "building_shell_count_target": [
+        1100,
+        1350
+      ],
+      "logical_npc_count_target": [
+        1200,
+        1800
+      ],
+      "logical_npc_peak_event": 2400,
+      "initial_active_npc_budget": 160,
+      "local_active_npc_budget_per_10_chunks": 48,
+      "interior_contract": {
+        "public_facing_doors_have_real_interiors": true,
+        "public_and_service_buildings_fully_furnished": true,
+        "all_ground_floor_homes_traversable": true,
+        "minimum_accessible_upper_floor_fraction": 0.45,
+        "minimum_accessible_cellar_or_attic_fraction": 0.12
+      },
+      "generation_identity": {
+        "feature_version": "town_of_beginnings:v1",
+        "stable_parcel_ids_required": true,
+        "owner_edit_override_mask_required": true,
+        "implicit_restart_rebuild": false
+      },
+      "districts": [
+        {
+          "id": "central_plaza",
+          "center": [
+            0,
+            4416
+          ],
+          "radius": 108
+        },
+        {
+          "id": "black_iron_precinct",
+          "bounds": [
+            -190,
+            4020,
+            190,
+            4270
+          ]
+        },
+        {
+          "id": "central_market",
+          "bounds": [
+            110,
+            4320,
+            410,
+            4680
+          ]
+        },
+        {
+          "id": "inn_and_crafting_quarter",
+          "bounds": [
+            -430,
+            4280,
+            -110,
+            4700
+          ]
+        },
+        {
+          "id": "church_and_orphan_quarter",
+          "bounds": [
+            -380,
+            4680,
+            -70,
+            4910
+          ]
+        },
+        {
+          "id": "residential_quarter",
+          "bounds": [
+            50,
+            4660,
+            410,
+            4920
+          ]
+        },
+        {
+          "id": "north_gate_services",
+          "bounds": [
+            -420,
+            4000,
+            420,
+            4320
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "id": "north_gate",
+          "position": [
+            0,
+            323,
+            4000
+          ],
+          "heading_degrees": 180,
+          "width": 20,
+          "clear_opening": 15,
+          "width_semantics": "'width' is the structural gap left in the city wall for the gatehouse; 'clear_opening' is the passable gap through it. Recorded 2026-07-23 to resolve an apparent JSON-vs-prose conflict (JSON 20 vs spec prose 'clear opening: 15'): they measure different things, and 20 structural / 15 clear leaves 2.5 blocks of jamb each side, consistent with the 30x20 gatehouse footprint. Same relationship holds for the flanking gates (15 structural / 11 clear)."
+        },
+        {
+          "id": "northwest_gate",
+          "position": [
+            -380,
+            322,
+            4000
+          ],
+          "heading_degrees": 225,
+          "width": 15,
+          "clear_opening": 11,
+          "interior_staging_anchor": [-380, 322, 4090],
+          "comment": "Moved from Z=4090 to Z=4000 (2026-07-23) so the gate actually lies on the city wall. At Z=4090 it sat 90 blocks inside the D-shape wall (and 59 blocks outside the rejected circle reading), meaning no gate opening intersected the wall at all. Z=4090 is retained as the interior gate-yard/staging anchor."
+        },
+        {
+          "id": "northeast_gate",
+          "position": [
+            380,
+            322,
+            4000
+          ],
+          "heading_degrees": 135,
+          "width": 15,
+          "clear_opening": 11,
+          "interior_staging_anchor": [380, 322, 4090],
+          "comment": "Moved from Z=4090 to Z=4000 (2026-07-23); see northwest_gate."
+        }
+      ]
+    },
+    {
+      "id": "horunka",
+      "label": "Horunka Village",
+      "evidence": [
+        "C2:S1",
+        "C2:S4",
+        "D1"
+      ],
+      "center": [
+        -2780,
+        330,
+        1840
+      ],
+      "footprint_radius_blocks": 124,
+      "safe_zone": true,
+      "building_shell_count_target": [
+        32,
+        46
+      ],
+      "logical_npc_count_target": [
+        42,
+        68
+      ],
+      "initial_active_npc_budget": [
+        18,
+        28
+      ],
+      "character": "agricultural forest-edge village",
+      "required_features": [
+        "inn",
+        "weapon_shop",
+        "item_shop",
+        "pasture",
+        "cow_shed",
+        "quest_house",
+        "well"
+      ]
+    },
+    {
+      "id": "medai",
+      "label": "Medai Village",
+      "evidence": [
+        "C2:S1",
+        "C2:S4",
+        "O1"
+      ],
+      "center": [
+        2560,
+        326,
+        -500
+      ],
+      "footprint_radius_blocks": 108,
+      "safe_zone": true,
+      "building_shell_count_target": [
+        24,
+        36
+      ],
+      "logical_npc_count_target": [
+        34,
+        56
+      ],
+      "initial_active_npc_budget": [
+        16,
+        24
+      ],
+      "character": "lake-and-ruins route village; exact canon appearance unknown",
+      "required_features": [
+        "guide_kiosk",
+        "item_shop",
+        "inn",
+        "causeway_gate",
+        "fishing_pier"
+      ]
+    },
+    {
+      "id": "tolbana",
+      "label": "Tolbana",
+      "evidence": [
+        "C1:S3",
+        "C2:S4",
+        "D1"
+      ],
+      "center": [
+        700,
+        358,
+        -3480
+      ],
+      "strict_scale_diameter_blocks": 200,
+      "gameplay_diameter_blocks": 220,
+      "safe_zone": true,
+      "building_shell_count_target": [
+        58,
+        82
+      ],
+      "logical_npc_count_target": [
+        110,
+        170
+      ],
+      "initial_active_npc_budget": [
+        36,
+        56
+      ],
+      "character": "white-walled windmill town split by a central ravine",
+      "required_features": [
+        "four_windmills",
+        "three_inns",
+        "fountain_square",
+        "circular_amphitheater",
+        "central_ravine",
+        "suspension_bridge",
+        "bars_and_restaurants",
+        "terraced_farms"
+      ]
+    },
+    {
+      "id": "west_safe_hamlet",
+      "label": "Unidentified Western Safe Hamlet",
+      "evidence": [
+        "C2:S4",
+        "O1"
+      ],
+      "center": [
+        -4100,
+        344,
+        -2640
+      ],
+      "footprint_radius_blocks": 68,
+      "safe_zone": true,
+      "building_shell_count_target": [
+        22,
+        34
+      ],
+      "logical_npc_count_target": [
+        28,
+        50
+      ],
+      "initial_active_npc_budget": [
+        12,
+        20
+      ],
+      "character": "one of the unnamed settlement dots; replace if future canon identifies it"
+    },
+    {
+      "id": "east_safe_hamlet",
+      "label": "Unidentified Eastern Safe Hamlet",
+      "evidence": [
+        "C2:S4",
+        "O1"
+      ],
+      "center": [
+        3920,
+        336,
+        -2840
+      ],
+      "footprint_radius_blocks": 60,
+      "safe_zone": true,
+      "building_shell_count_target": [
+        22,
+        34
+      ],
+      "logical_npc_count_target": [
+        28,
+        50
+      ],
+      "initial_active_npc_budget": [
+        12,
+        20
+      ],
+      "character": "one of the unnamed settlement dots; replace if future canon identifies it"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "teleport_gate_plaza",
+      "label": "Central Plaza and Teleport Gate",
+      "evidence": [
+        "C2:S2",
+        "C2:S4",
+        "C2:S6",
+        "D1"
+      ],
+      "position": [
+        0,
+        322,
+        4416
+      ],
+      "bounds": [
+        -108,
+        4320,
+        108,
+        4528
+      ],
+      "build": {
+        "plaza_radius": 108,
+        "arcade_outer_radius": 136,
+        "clock_tower_footprint": [
+          22,
+          22
+        ],
+        "clock_tower_height": 44,
+        "teleport_gate_clearance": [
+          9,
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "id": "black_iron_palace",
+      "label": "Black Iron Palace",
+      "evidence": [
+        "C2:S2",
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        0,
+        324,
+        4136
+      ],
+      "bounds": [
+        -164,
+        4051,
+        164,
+        4221
+      ],
+      "build": {
+        "podium_size": [
+          328,
+          170
+        ],
+        "podium_size_note": "Depth reduced 220 -> 170 on 2026-07-23. At depth 220 the podium's north edge sat at Z=4026, only 26 blocks from the North Gate at Z=4000; with a ~20-deep gatehouse that left a 6-block forecourt, making required review viewpoint 5 ('North Gate looking south toward Palace/plaza skyline') physically impossible. Depth 170 yields a 31-block forecourt AND widens the processional avenue from 62 to 87 blocks. Width 328 and dome apex Y=386 are unchanged, so the Palace's silhouette dominance is preserved. The former 'bounds' field also disagreed with 'position' by 14 blocks; bounds are now derived from position +/- depth/2.",
+        "main_hall_size": [
+          224,
+          152
+        ],
+        "drum_radius": 84,
+        "dome_apex_y": 386,
+        "materials": [
+          "polished_blackstone_bricks",
+          "deepslate_tiles",
+          "iron_block",
+          "tinted_glass"
+        ]
+      }
+    },
+    {
+      "id": "hidden_dungeon_intake",
+      "label": "Hidden Dungeon Water Intake",
+      "evidence": [
+        "C2:S7",
+        "D1"
+      ],
+      "position": [
+        144,
+        315,
+        4024
+      ],
+      "build": {
+        "canal_width": 5,
+        "descent_target_y": 264,
+        "dungeon_depth_range_y": [
+          222,
+          272
+        ]
+      }
+    },
+    {
+      "id": "rata_field_boss_basin",
+      "label": "Rata Plain Field-Boss Basin",
+      "evidence": [
+        "F1:S4",
+        "O1"
+      ],
+      "position": [
+        -320,
+        319,
+        420
+      ],
+      "bounds": [
+        -510,
+        240,
+        -130,
+        600
+      ],
+      "build": {
+        "arena_radius": 72,
+        "berm_height": 8
+      }
+    },
+    {
+      "id": "north_cave",
+      "label": "Northern Cave Route",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        -2640,
+        346,
+        -1920
+      ],
+      "build": {
+        "route_length": 420,
+        "minimum_clearance": [
+          7,
+          6
+        ],
+        "chambers": 4
+      }
+    },
+    {
+      "id": "eastern_ruins",
+      "label": "Eastern Ruins Dungeon",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        2780,
+        348,
+        -1960
+      ],
+      "bounds": [
+        2460,
+        -2270,
+        3140,
+        -1620
+      ],
+      "build": {
+        "surface_ruin_radius": 230,
+        "sublevels": 3,
+        "lowest_y": 288
+      }
+    },
+    {
+      "id": "dallhari_west_crossing",
+      "label": "Dallhari West Cave Crossing",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        -2560,
+        338,
+        -1580
+      ],
+      "build": {
+        "type": "cave_and_ledge",
+        "width": 7
+      }
+    },
+    {
+      "id": "dallhari_east_crossing",
+      "label": "Dallhari East Ruin Causeway",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        2420,
+        344,
+        -1760
+      ],
+      "build": {
+        "type": "broken_aqueduct_and_bridge",
+        "width": 9
+      }
+    },
+    {
+      "id": "floor_01_labyrinth",
+      "label": "First Floor Labyrinth",
+      "evidence": [
+        "C1:S1",
+        "C2:S4",
+        "D1"
+      ],
+      "position": [
+        -500,
+        376,
+        -4700
+      ],
+      "external_bounds": [
+        -650,
+        -4850,
+        -350,
+        -4550
+      ],
+      "canon_size_m": [
+        300,
+        100,
+        300
+      ],
+      "strict_scale_footprint_blocks": [
+        300,
+        300
+      ],
+      "external_height_blocks": 100,
+      "entrance": [
+        -500,
+        376,
+        -4550
+      ],
+      "boss_exit_heading": "north/up to Floor 2",
+      "interior_dimension": "aincrad:floors_01_10",
+      "interior_co_located_with_exterior": true,
+      "interior_levels": 20,
+      "level_deck_y": [
+        376,
+        380,
+        384,
+        388,
+        392,
+        396,
+        400,
+        404,
+        408,
+        412,
+        416,
+        420,
+        424,
+        428,
+        432,
+        436,
+        441,
+        446,
+        451,
+        456
+      ],
+      "navigable_envelope_blocks": [
+        220,
+        220
+      ],
+      "outer_wall_depth_blocks": [
+        18,
+        32
+      ],
+      "boss_clear_y": [
+        457,
+        474
+      ],
+      "crown_roof_y": [
+        475,
+        476
+      ],
+      "floor_two_arrival_surface_y": 480,
+      "boss_room": {
+        "evidence": [
+          "C1:Progressive secondary translation",
+          "D1"
+        ],
+        "canon_m": [
+          20,
+          18,
+          100
+        ],
+        "gameplay_blocks": [
+          44,
+          18,
+          110
+        ],
+        "entrance_heading": "north",
+        "boss_spawn_offset": [
+          0,
+          0,
+          -72
+        ],
+        "exit_stair_offset": [
+          0,
+          0,
+          -102
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "spine_south_to_divide",
+      "label": "Main North Road",
+      "evidence": [
+        "D1"
+      ],
+      "class": "primary",
+      "width_blocks": 9,
+      "derived_centerline_length_blocks": 4964,
+      "points": [
+        [
+          0,
+          4000
+        ],
+        [
+          -80,
+          3160
+        ],
+        [
+          -240,
+          2240
+        ],
+        [
+          -160,
+          1240
+        ],
+        [
+          -320,
+          240
+        ],
+        [
+          -720,
+          -860
+        ]
+      ]
+    },
+    {
+      "id": "west_route_to_horunka",
+      "label": "Northwest Gate to Horunka",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "class": "primary",
+      "width_blocks": 7,
+      "derived_centerline_length_blocks": 3232,
+      "start_point_note": "First point moved from [-380,4090] to [-380,4000] on 2026-07-23 to follow northwest_gate onto the north wall. Left unmoved, this route crossed the wall line at X=-453 - 73 blocks away from its own gate - so the gate opened onto nothing and the road punched through solid wall. Length recomputed 3299 -> 3232.",
+      "points": [
+        [
+          -380,
+          4000
+        ],
+        [
+          -840,
+          3520
+        ],
+        [
+          -1520,
+          2960
+        ],
+        [
+          -2160,
+          2380
+        ],
+        [
+          -2780,
+          1840
+        ]
+      ]
+    },
+    {
+      "id": "horunka_to_north_cave",
+      "label": "Horunka Forest and Cave Route",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "class": "secondary",
+      "width_blocks": 5,
+      "derived_centerline_length_blocks": 7520,
+      "points": [
+        [
+          -2780,
+          1840
+        ],
+        [
+          -3140,
+          1040
+        ],
+        [
+          -3000,
+          160
+        ],
+        [
+          -2640,
+          -840
+        ],
+        [
+          -2560,
+          -1580
+        ],
+        [
+          -2080,
+          -2360
+        ],
+        [
+          -1240,
+          -2920
+        ],
+        [
+          700,
+          -3480
+        ]
+      ]
+    },
+    {
+      "id": "east_route_to_medai",
+      "label": "Northeast Gate to Medai",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "class": "primary",
+      "width_blocks": 7,
+      "derived_centerline_length_blocks": 5069,
+      "start_point_note": "First point moved from [380,4090] to [380,4000] on 2026-07-23 to follow northeast_gate onto the north wall; it previously crossed the wall line at X=454, 74 blocks from its gate. Length recomputed 5137 -> 5069.",
+      "points": [
+        [
+          380,
+          4000
+        ],
+        [
+          960,
+          3380
+        ],
+        [
+          1520,
+          2480
+        ],
+        [
+          1960,
+          1440
+        ],
+        [
+          2560,
+          -500
+        ]
+      ]
+    },
+    {
+      "id": "medai_to_tolbana",
+      "label": "Medai Ruins Route",
+      "evidence": [
+        "C2:S4",
+        "D1"
+      ],
+      "class": "secondary",
+      "width_blocks": 5,
+      "derived_centerline_length_blocks": 4072,
+      "points": [
+        [
+          2560,
+          -500
+        ],
+        [
+          2740,
+          -1240
+        ],
+        [
+          2780,
+          -1960
+        ],
+        [
+          2240,
+          -2500
+        ],
+        [
+          1520,
+          -2980
+        ],
+        [
+          700,
+          -3480
+        ]
+      ]
+    },
+    {
+      "id": "tolbana_to_labyrinth",
+      "label": "Labyrinth Approach",
+      "evidence": [
+        "C1:S3",
+        "C2:S4",
+        "D1"
+      ],
+      "class": "primary",
+      "width_blocks": 8,
+      "derived_centerline_length_blocks": 1626,
+      "points": [
+        [
+          700,
+          -3480
+        ],
+        [
+          340,
+          -3800
+        ],
+        [
+          -40,
+          -4080
+        ],
+        [
+          -420,
+          -4380
+        ],
+        [
+          -500,
+          -4550
+        ]
+      ]
+    },
+    {
+      "id": "lake_ring_trail",
+      "label": "Lake Country Ring Trail",
+      "evidence": [
+        "O1"
+      ],
+      "class": "trail",
+      "width_blocks": 3,
+      "derived_centerline_length_blocks": 5914,
+      "points": [
+        [
+          1520,
+          2480
+        ],
+        [
+          2560,
+          2240
+        ],
+        [
+          3620,
+          1400
+        ],
+        [
+          4080,
+          240
+        ],
+        [
+          3740,
+          -900
+        ],
+        [
+          2740,
+          -1240
+        ]
+      ]
+    }
+  ],
+  "water_system": {
+    "evidence": [
+      "C2:S1",
+      "F1:S4",
+      "D1"
+    ],
+    "lake_surface_y": 316,
+    "lakes": [
+      {
+        "id": "mirror_lake",
+        "center": [
+          3320,
+          1080
+        ],
+        "radii": [
+          620,
+          420
+        ],
+        "max_depth": 20
+      },
+      {
+        "id": "north_marsh",
+        "center": [
+          3680,
+          -500
+        ],
+        "radii": [
+          500,
+          340
+        ],
+        "max_depth": 8
+      },
+      {
+        "id": "medai_lake",
+        "center": [
+          2360,
+          -80
+        ],
+        "radii": [
+          340,
+          260
+        ],
+        "max_depth": 14
+      }
+    ],
+    "river_polyline": [
+      [
+        4040,
+        -1440
+      ],
+      [
+        3760,
+        -720
+      ],
+      [
+        3520,
+        160
+      ],
+      [
+        3040,
+        840
+      ],
+      [
+        2600,
+        1760
+      ],
+      [
+        2240,
+        2640
+      ]
+    ],
+    "river_width_blocks": [
+      10,
+      32
+    ],
+    "outflow": "concealed rim spillways and aqueduct intakes; water must not flood the underside"
+  },
+  "required_crossings": [
+    {
+      "id": "B01",
+      "evidence": ["D1"],
+      "center": [720, 321, 3675],
+      "type": "southern_drainage_bridge",
+      "clear_width": 9,
+      "span_blocks": 18
+    },
+    {
+      "id": "B02",
+      "evidence": ["D1"],
+      "center": [1740, 318, 1950],
+      "type": "mirror_lake_inlet_causeway",
+      "clear_width": 9,
+      "span_blocks": 64,
+      "required_culverts": 2
+    },
+    {
+      "id": "B03",
+      "evidence": ["D1"],
+      "center": [2490, 318, -250],
+      "type": "medai_lake_causeway",
+      "clear_width": 7,
+      "span_blocks": 72
+    },
+    {
+      "id": "B04",
+      "evidence": ["C2:S4", "D1"],
+      "center": [-2560, 338, -1580],
+      "type": "west_cave_and_ledge",
+      "minimum_clear_width": 7,
+      "minimum_clear_height": 5
+    },
+    {
+      "id": "B05",
+      "evidence": ["O1"],
+      "center": [-480, 310, -1740],
+      "type": "optional_central_descent",
+      "minimum_clear_width": 5,
+      "mandatory": false
+    },
+    {
+      "id": "B06",
+      "evidence": ["C2:S4", "D1"],
+      "center": [2740, 345, -1540],
+      "type": "ruined_aqueduct_bridge",
+      "clear_width": 9,
+      "span_blocks": 112
+    },
+    {
+      "id": "B07",
+      "evidence": ["A1:S4", "D1"],
+      "center": [700, 360, -3480],
+      "type": "tolbana_suspension_bridge",
+      "clear_width": 6,
+      "span_blocks": [28, 36]
+    }
+  ],
+  "progression_systems": {
+    "floor_mapping": {
+      "field_cell_blocks": [16, 16],
+      "key": ["global_floor", "cell_x", "cell_z"],
+      "labyrinth_key": ["global_floor", "labyrinth_level", "room_or_cell_id"],
+      "persistent": true,
+      "public_aggregate_append_only": true
+    },
+    "teleport_gates": {
+      "floor_one_initial_return_anchor": "town_of_beginnings",
+      "destination_gate_requires_physical_activation": true,
+      "same_group_transfer": "vertical safe-arrival teleport",
+      "tenth_floor_transfer": "atomic cross-dimension safe-arrival teleport",
+      "item_serialization_required": true,
+      "failure_returns_to_source_safe_point": true
+    },
+    "floor_clear": {
+      "unique_transaction_required": true,
+      "idempotent": true,
+      "atomic_claim_for_full_inventory_or_offline_player": true,
+      "may_regenerate_world": false,
+      "may_bypass_progression_for_payment": false
+    }
+  },
+  "generation_contract": {
+    "mode": "offline_deterministic_resumable",
+    "identity_fields": [
+      "world_seed",
+      "datapack_hash",
+      "generator_build",
+      "layout_schema_version",
+      "floor_design_version",
+      "phase_id",
+      "feature_id",
+      "feature_version"
+    ],
+    "chunk_states": [
+      "PLANNED",
+      "GENERATED",
+      "VALIDATED",
+      "COMMITTED"
+    ],
+    "authoritative_ledger": "generation-ledger.sqlite",
+    "owner_edit_override_mask_required": true,
+    "committed_chunk_rewrite_without_migration": false,
+    "implicit_restart_rebuild": false
+  },
+  "first_review_slice": {
+    "status": "not_generated",
+    "dimension": "aincrad:floors_01_10",
+    "chunk_selection": "union_only",
+    "corridor_chunk_inclusion_rule": "include when chunk center is within horizontal_buffer_blocks of the finite centerline segment",
+    "town_core": {
+      "block_bounds_xz": [-640, 3904, 639, 5039]
+    },
+    "corridors": [
+      {
+        "id": "north_spine_corridor",
+        "polyline": [[0, 4000], [-80, 3160]],
+        "horizontal_buffer_blocks": 128
+      },
+      {
+        "id": "northwest_corridor",
+        "polyline": [[-380, 4090], [-840, 3520]],
+        "horizontal_buffer_blocks": 128
+      },
+      {
+        "id": "northeast_corridor",
+        "polyline": [[380, 4090], [960, 3380]],
+        "horizontal_buffer_blocks": 128
+      }
+    ],
+    "generated_y": [-64, 479],
+    "upper_content_limit": "Floor Two plate only; no Floor Two terrain and no Floors Three through Ten",
+    "exact_deduplicated_chunk_count": 7912,
+    "chunk_bounds": {
+      "min_chunk_x": -60,
+      "max_chunk_x": 67,
+      "min_chunk_z": 190,
+      "max_chunk_z": 314
+    },
+    "exact_deduplicated_chunk_count_required_before_generation": true,
+    "requires_empty_boot_test_first": true,
+    "full_floor_generation_authorized": true,
+    "full_floor_authorization": {
+      "date": "2026-07-24",
+      "granted_by": "project owner, in session",
+      "scope": "Full Floor One terrain generation across all 308,028 in-disc chunks, plus remaining settlements, dungeons and gameplay behaviour.",
+      "note": "The review slice was accepted and the owner explicitly requested the full floor. Measured projections from the slice: terrain+shell across the disc is ~194M block edits, ~1.6h of continuous generation and ~4GB of region files; full dense content and gameplay systems are a far larger, multi-session programme. See docs/FULL-FLOOR-PLAN.md."
+    }
+  },
+  "known_corrections": [
+    {
+      "date": "2026-07-23",
+      "field": "settlements[town_of_beginnings].city_envelope (new), .gates[northwest|northeast].position, landmarks[black_iron_palace].build.podium_size + .bounds",
+      "reason": "Geometric consistency audit of the stated city footprint found five real defects: (1) the wall shape admitted two incompatible readings, (2) the northwest/northeast gates lay on the wall under NEITHER reading, (3) district envelopes overflowed the wall by up to 153 blocks, (4) the Black Iron Palace podium left only a 6-block forecourt inside the North Gate, (5) the Palace's position and bounds fields disagreed by 14 blocks. Resolved by making the D-shape envelope explicit and authoritative, moving the two flanking gates onto the north wall, reducing the podium depth 220->170, and reconciling the Palace bounds to its position. Owner-approved.",
+      "evidence": ["docs/ARCHITECTURE-DECISION.md#12"],
+      "resolved_followup": "The apparent North Gate 15-vs-20 conflict was resolved 2026-07-23: the two documents measure different things (structural wall gap vs passable clear opening). Both values are now recorded explicitly on every gate as 'width' and 'clear_opening'; see gates[].width_semantics."
+    },
+    {
+      "date": "2026-07-23",
+      "field": "first_review_slice.exact_deduplicated_chunk_count",
+      "old_value": 6290,
+      "new_value": 7912,
+      "reason": "Independent brute-force recompilation of the town_core rectangle plus the 3 corridor buffers (radius 128 blocks from each finite centerline segment), run twice including with an oversized search window, reproduced the exact stated chunk bounds (chunk X -60..67, chunk Z 190..314) but a different deduplicated total. The geometry (radius, segments, town_core rectangle) was left unchanged; only the previously-asserted total was corrected to the mechanically verified value. Owner-approved correction.",
+      "evidence": ["scripts/verify_chunk_mask.py", "docs/ARCHITECTURE-DECISION.md#5"]
+    }
+  ],
+  "build_order": [
+    "permanent_height_datapack_and_empty_boot_test",
+    "world_shell_and_understructure",
+    "macro_terrain_and_region_masks",
+    "dallhari_divide_and_crossings",
+    "lake_country_and_drainage",
+    "primary_routes",
+    "town_of_beginnings_walls_and_landmarks",
+    "horunka_medai_tolbana",
+    "labyrinth_physical_twenty_levels_and_exterior",
+    "secondary_routes_ruins_caves",
+    "vegetation_and_resource_zones",
+    "encounters_npcs_and_safe_zones",
+    "lighting_ambience_and_validation"
+  ],
+  "validation_rules": [
+    "No point intended for normal play may lie outside radius 4976.",
+    "Town of Beginnings must touch the southern rim and retain an approximately 1 km canon diameter before scaling.",
+    "Horunka must remain northwest of Town of Beginnings beyond a forest route.",
+    "Medai must remain on the eastern ruins approach; its internal design is explicitly non-canon.",
+    "Dallhari must visibly separate southern and northern progression with at least two distinct crossings.",
+    "Tolbana must remain the closest safe town to the Labyrinth and feel like a valley settlement.",
+    "A walking test from Tolbana center to Labyrinth entrance should take roughly 18-35 minutes without sprint boosts at the chosen gameplay movement model, or the fiction should compress travel explicitly.",
+    "Labyrinth must dominate the far-northern skyline from at least Rata Plain and the northern approaches.",
+    "Every invented settlement or route must retain O1/D1 labeling in data and docs.",
+    "World generation must be offline or block-budget sliced; never place the full shell synchronously on a running Paper tick.",
+    "The circular playable footprint contains approximately 306,800 chunks; generation and pregeneration must be offline, resumable, and restart-safe.",
+    "The custom dimension type/datapack is permanent world identity. Back up before upgrades and never remove it from an existing generated world.",
+    "All 1:1 horizontal coordinates and 1:1 vertical heights are measured in blocks equal to canon meters unless explicitly marked as gameplay-expanded.",
+    "The ten locked local surface datums are 320, 480, 640, 800, 960, 1120, 1280, 1440, 1600, and 1760.",
+    "Floor One's physical ceiling begins at Y=420 and Floor Two's surface datum is Y=480.",
+    "The First Floor Labyrinth contains twenty co-located physical levels inside its 300x300x100 exterior and has no separate interior dimension.",
+    "With players present only on Floor One, upper layers must have zero active mob AI, encounter controllers, NPC entities, hoppers, and scheduled machines.",
+    "Every generated feature has a stable ID and persistent generation version; owner edits are never overwritten on restart.",
+    "The first generated artifact is only first_review_slice after the permanent-height empty boot passes; full Floor One generation remains unauthorized."
+  ]
+}

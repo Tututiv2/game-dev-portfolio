@@ -1,0 +1,3001 @@
+[
+ {
+  "id": "spooky_scary_jerry",
+  "name": "Scary Gerald",
+  "level": 30,
+  "entity": "ZOMBIE_VILLAGER",
+  "health": 12,
+  "damage": 180,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky",
+  "equipment": {
+   "HEAD": "CARVED_PUMPKIN"
+  }
+ },
+ {
+  "id": "spooky_trick_or_treater",
+  "name": "Trick or Treater",
+  "level": 30,
+  "entity": "ZOMBIE",
+  "health": 10,
+  "damage": 180,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky",
+  "equipment": {
+   "HEAD": "JACK_O_LANTERN"
+  }
+ },
+ {
+  "id": "spooky_wraith",
+  "name": "Wraith",
+  "level": 50,
+  "entity": "STRAY",
+  "health": 15,
+  "damage": 260,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ECTOPLASM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky",
+  "equipment": {
+   "HAND": "IRON_HOE"
+  }
+ },
+ {
+  "id": "spooky_phantom_spirit",
+  "name": "Phantom Spirit",
+  "level": 35,
+  "entity": "SKELETON",
+  "health": 10,
+  "damage": 200,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ECTOPLASM",
+    "min": 1,
+    "max": 1,
+    "chance": 0.1
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky",
+  "equipment": {
+   "HEAD": "CARVED_PUMPKIN"
+  }
+ },
+ {
+  "id": "spooky_batty_witch",
+  "name": "Batty Witch",
+  "level": 60,
+  "entity": "WITCH",
+  "health": 17,
+  "damage": 300,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.35
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky"
+ },
+ {
+  "id": "spooky_crazy_witch",
+  "name": "Crazy Witch",
+  "level": 60,
+  "entity": "WITCH",
+  "health": 17,
+  "damage": 300,
+  "combatXp": 20,
+  "coins": 1,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "spooky"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "event": "spooky_festival"
+  },
+  "family": "spooky"
+ },
+ {
+  "id": "spooky_headless_rider",
+  "name": "Headless Rider",
+  "level": 100,
+  "entity": "SKELETON",
+  "health": 3000000,
+  "damage": 1200,
+  "combatXp": 500,
+  "coins": 5000,
+  "drops": [
+   {
+    "item": "GREEN_CANDY",
+    "min": 40,
+    "max": 80,
+    "chance": 1.0
+   },
+   {
+    "item": "PURPLE_CANDY",
+    "min": 10,
+    "max": 25,
+    "chance": 1.0
+   },
+   {
+    "item": "WITCH_MASK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02,
+    "label": "VERY_RARE"
+   },
+   {
+    "item": "SPOOKY_HELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.05
+   },
+   {
+    "item": "ENCHANTED_PUMPKIN",
+    "min": 4,
+    "max": 12,
+    "chance": 0.5
+   }
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "spooky",
+   "no_knockback",
+   "fire_immune"
+  ],
+  "behaviours": [],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "tune": "HP/damage are TUNE (research: (?))"
+  },
+  "family": "spooky",
+  "equipment": {
+   "HEAD": "JACK_O_LANTERN",
+   "HAND": "DIAMOND_HOE",
+   "CHEST": "LEATHER_CHESTPLATE"
+  }
+ },
+ {
+  "id": "myth_hunter_1",
+  "name": "Labyrinth Hunter",
+  "level": 15,
+  "entity": "ZOMBIE",
+  "health": 4000,
+  "damage": 40,
+  "combatXp": 50,
+  "coins": 50,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 0,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_hunter_2",
+  "name": "Blessed Labyrinth Hunter",
+  "level": 25,
+  "entity": "ZOMBIE",
+  "health": 15000,
+  "damage": 125,
+  "combatXp": 100,
+  "coins": 150,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 1,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_hunter_3",
+  "name": "Stalwart Labyrinth Hunter",
+  "level": 60,
+  "entity": "ZOMBIE",
+  "health": 100000,
+  "damage": 500,
+  "combatXp": 150,
+  "coins": 225,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.008
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_hunter_4",
+  "name": "Venerable Labyrinth Hunter",
+  "level": 80,
+  "entity": "ZOMBIE",
+  "health": 350000,
+  "damage": 1250,
+  "combatXp": 200,
+  "coins": 300,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.012
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_hunter_5",
+  "name": "Exalted Labyrinth Hunter",
+  "level": 125,
+  "entity": "ZOMBIE",
+  "health": 1000000,
+  "damage": 2750,
+  "combatXp": 250,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 6,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 6,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.016
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_hunter_6",
+  "name": "Empyrean Labyrinth Hunter",
+  "level": 200,
+  "entity": "ZOMBIE",
+  "health": 1750000,
+  "damage": 4000,
+  "combatXp": 300,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "HILT_OF_REVELATIONS",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "hunter",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "WOODEN_SWORD",
+   "HEAD": "GOLDEN_HELMET",
+   "CHEST": "LEATHER_CHESTPLATE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_1",
+  "name": "Twin Lynx",
+  "level": 15,
+  "entity": "OCELOT",
+  "health": 2500,
+  "damage": 30,
+  "combatXp": 50,
+  "coins": 50,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 1,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 0,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_2",
+  "name": "Blessed Twin Lynx",
+  "level": 25,
+  "entity": "OCELOT",
+  "health": 12500,
+  "damage": 75,
+  "combatXp": 100,
+  "coins": 150,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 2,
+    "max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.001
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 1,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_3",
+  "name": "Stalwart Twin Lynx",
+  "level": 55,
+  "entity": "OCELOT",
+  "health": 75000,
+  "damage": 350,
+  "combatXp": 150,
+  "coins": 225,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 3,
+    "max": 3,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0015
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_4",
+  "name": "Venerable Twin Lynx",
+  "level": 85,
+  "entity": "OCELOT",
+  "health": 250000,
+  "damage": 1000,
+  "combatXp": 200,
+  "coins": 300,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_5",
+  "name": "Exalted Twin Lynx",
+  "level": 155,
+  "entity": "OCELOT",
+  "health": 750000,
+  "damage": 2250,
+  "combatXp": 250,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 6,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 6,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_lynx_6",
+  "name": "Empyrean Twin Lynx",
+  "level": 200,
+  "entity": "OCELOT",
+  "health": 1250000,
+  "damage": 3000,
+  "combatXp": 300,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CROCHET_TIGER_PLUSHIE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "lynx",
+   "bowImmune": false,
+   "weight": 1000
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_nymph_2",
+  "name": "Blessed Stranded Naiad",
+  "level": 40,
+  "entity": "DROWNED",
+  "health": 20000,
+  "damage": 100,
+  "combatXp": 150,
+  "coins": 200,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "WASHED_UP_SOUVENIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 1,
+   "kind": "nymph",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_nymph_3",
+  "name": "Stalwart Stranded Naiad",
+  "level": 70,
+  "entity": "DROWNED",
+  "health": 125000,
+  "damage": 250,
+  "combatXp": 200,
+  "coins": 275,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 5,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "WASHED_UP_SOUVENIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "nymph",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_nymph_4",
+  "name": "Venerable Stranded Naiad",
+  "level": 95,
+  "entity": "DROWNED",
+  "health": 400000,
+  "damage": 750,
+  "combatXp": 250,
+  "coins": 350,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 6,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 6,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "WASHED_UP_SOUVENIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "nymph",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_nymph_5",
+  "name": "Exalted Stranded Naiad",
+  "level": 150,
+  "entity": "DROWNED",
+  "health": 1250000,
+  "damage": 1750,
+  "combatXp": 300,
+  "coins": 450,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "WASHED_UP_SOUVENIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "nymph",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_nymph_6",
+  "name": "Empyrean Stranded Naiad",
+  "level": 250,
+  "entity": "DROWNED",
+  "health": 2500000,
+  "damage": 2500,
+  "combatXp": 350,
+  "coins": 550,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "WASHED_UP_SOUVENIR",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "nymph",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "TRIDENT"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_bull_2",
+  "name": "Blessed Labyrinth Bull",
+  "level": 40,
+  "entity": "COW",
+  "health": 25000,
+  "damage": 100,
+  "combatXp": 150,
+  "coins": 200,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 4,
+    "max": 4,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CRETAN_URN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 1,
+   "kind": "bull",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_bull_3",
+  "name": "Stalwart Labyrinth Bull",
+  "level": 70,
+  "entity": "COW",
+  "health": 150000,
+  "damage": 400,
+  "combatXp": 200,
+  "coins": 275,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 5,
+    "max": 5,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 5,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CRETAN_URN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "bull",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_bull_4",
+  "name": "Venerable Labyrinth Bull",
+  "level": 95,
+  "entity": "COW",
+  "health": 500000,
+  "damage": 800,
+  "combatXp": 250,
+  "coins": 350,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 6,
+    "max": 6,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 6,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CRETAN_URN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.003
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "bull",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_bull_5",
+  "name": "Exalted Labyrinth Bull",
+  "level": 150,
+  "entity": "COW",
+  "health": 1500000,
+  "damage": 2000,
+  "combatXp": 300,
+  "coins": 450,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CRETAN_URN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.004
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "bull",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_bull_6",
+  "name": "Empyrean Labyrinth Bull",
+  "level": 250,
+  "entity": "COW",
+  "health": 3000000,
+  "damage": 2750,
+  "combatXp": 350,
+  "coins": 550,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "CRETAN_URN",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "bull",
+   "bowImmune": false,
+   "weight": 800
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_harpy_3",
+  "name": "Stalwart Harpy",
+  "level": 85,
+  "entity": "VEX",
+  "health": 200000,
+  "damage": 750,
+  "combatXp": 200,
+  "coins": 300,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 7,
+    "max": 7,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 7,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ANTIQUE_REMEDIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0035
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "harpy",
+   "bowImmune": false,
+   "weight": 600
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_harpy_4",
+  "name": "Venerable Harpy",
+  "level": 110,
+  "entity": "VEX",
+  "health": 750000,
+  "damage": 1500,
+  "combatXp": 300,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ANTIQUE_REMEDIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0045
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "harpy",
+   "bowImmune": false,
+   "weight": 600
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_harpy_5",
+  "name": "Exalted Harpy",
+  "level": 175,
+  "entity": "VEX",
+  "health": 2000000,
+  "damage": 3750,
+  "combatXp": 400,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ANTIQUE_REMEDIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "harpy",
+   "bowImmune": false,
+   "weight": 600
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_harpy_6",
+  "name": "Empyrean Harpy",
+  "level": 325,
+  "entity": "VEX",
+  "health": 3750000,
+  "damage": 6500,
+  "combatXp": 500,
+  "coins": 600,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 12,
+    "max": 12,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 12,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ANTIQUE_REMEDIES",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "harpy",
+   "bowImmune": false,
+   "weight": 600
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "BOW"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_gaia_3",
+  "name": "Stalwart Earthen Construct",
+  "level": 85,
+  "entity": "IRON_GOLEM",
+  "health": 175000,
+  "damage": 600,
+  "combatXp": 200,
+  "coins": 300,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 7,
+    "max": 7,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 7,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DWARF_TURTLE_SHELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0035
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 2,
+   "kind": "gaia",
+   "bowImmune": true,
+   "weight": 600
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_gaia_4",
+  "name": "Venerable Earthen Construct",
+  "level": 140,
+  "entity": "IRON_GOLEM",
+  "health": 650000,
+  "damage": 2000,
+  "combatXp": 300,
+  "coins": 400,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 8,
+    "max": 8,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 8,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DWARF_TURTLE_SHELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0045
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "gaia",
+   "bowImmune": true,
+   "weight": 600
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_gaia_5",
+  "name": "Exalted Earthen Construct",
+  "level": 260,
+  "entity": "IRON_GOLEM",
+  "health": 1500000,
+  "damage": 3500,
+  "combatXp": 400,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DWARF_TURTLE_SHELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "gaia",
+   "bowImmune": true,
+   "weight": 600
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_gaia_6",
+  "name": "Empyrean Earthen Construct",
+  "level": 325,
+  "entity": "IRON_GOLEM",
+  "health": 3500000,
+  "damage": 5000,
+  "combatXp": 500,
+  "coins": 600,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 12,
+    "max": 12,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 12,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DWARF_TURTLE_SHELMET",
+    "min": 1,
+    "max": 1,
+    "chance": 0.006
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "gaia",
+   "bowImmune": true,
+   "weight": 600
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_minotaur_4",
+  "name": "Venerable Minotaur",
+  "level": 45,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 1500000,
+  "damage": 350,
+  "combatXp": 375,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DAEDALUS_STICK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "minotaur",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_minotaur_5",
+  "name": "Exalted Minotaur",
+  "level": 120,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 8000000,
+  "damage": 500,
+  "combatXp": 475,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 12,
+    "max": 12,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 12,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DAEDALUS_STICK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0006
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "minotaur",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_minotaur_6",
+  "name": "Empyrean Minotaur",
+  "level": 210,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 15500000,
+  "damage": 1000,
+  "combatXp": 575,
+  "coins": 1500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 14,
+    "max": 14,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 14,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "DAEDALUS_STICK",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0008
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "minotaur",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "IRON_AXE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_champion_4",
+  "name": "Venerable Labyrinth Champion",
+  "level": 175,
+  "entity": "WITHER_SKELETON",
+  "health": 2000000,
+  "damage": 1000,
+  "combatXp": 375,
+  "coins": 500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 10,
+    "max": 10,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 10,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "MINOS_RELIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 3,
+   "kind": "champion",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_SWORD",
+   "HEAD": "GOLDEN_HELMET"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_champion_5",
+  "name": "Exalted Labyrinth Champion",
+  "level": 310,
+  "entity": "WITHER_SKELETON",
+  "health": 12500000,
+  "damage": 1750,
+  "combatXp": 475,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 12,
+    "max": 12,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 12,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "MINOS_RELIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0003
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "champion",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_SWORD",
+   "HEAD": "GOLDEN_HELMET"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_champion_6",
+  "name": "Empyrean Labyrinth Champion",
+  "level": 550,
+  "entity": "WITHER_SKELETON",
+  "health": 25000000,
+  "damage": 2500,
+  "combatXp": 575,
+  "coins": 1500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 14,
+    "max": 14,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 14,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "MINOS_RELIC",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0004
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "champion",
+   "bowImmune": true,
+   "weight": 400
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_SWORD",
+   "HEAD": "GOLDEN_HELMET"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_sphinx_5",
+  "name": "Exalted Sphinx",
+  "level": 750,
+  "entity": "RAVAGER",
+  "health": 40000000,
+  "damage": 4000,
+  "combatXp": 1500,
+  "coins": 2500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 16,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 16,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "BRAIN_FOOD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0025
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "sphinx",
+   "bowImmune": true,
+   "weight": 75
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_sphinx_6",
+  "name": "Empyrean Sphinx",
+  "level": 1250,
+  "entity": "RAVAGER",
+  "health": 65000000,
+  "damage": 7000,
+  "combatXp": 2500,
+  "coins": 2500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 32,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 3,
+    "chance": 0.5
+   },
+   {
+    "item": "BRAIN_FOOD",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "sphinx",
+   "bowImmune": true,
+   "weight": 75
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_inquisitor_5",
+  "name": "Exalted Labyrinth Inquisitor",
+  "level": 750,
+  "entity": "PIGLIN_BRUTE",
+  "health": 50000000,
+  "damage": 750,
+  "combatXp": 1500,
+  "coins": 2500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 16,
+    "max": 16,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 16,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 2,
+    "chance": 0.5
+   },
+   {
+    "item": "ULTIMATE_CHIMERA;1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.01,
+    "label": "CRAZY_RARE"
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 4,
+   "kind": "inquisitor",
+   "bowImmune": true,
+   "weight": 75
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_AXE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_inquisitor_6",
+  "name": "Empyrean Labyrinth Inquisitor",
+  "level": 1250,
+  "entity": "PIGLIN_BRUTE",
+  "health": 80000000,
+  "damage": 1000,
+  "combatXp": 2500,
+  "coins": 2500,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 32,
+    "max": 32,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 32,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "ULTIMATE_CHIMERA;1",
+    "min": 1,
+    "max": 1,
+    "chance": 0.0125,
+    "label": "CRAZY_RARE"
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "inquisitor",
+   "bowImmune": true,
+   "weight": 75
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_AXE"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_manticore_6",
+  "name": "Empyrean Manticore",
+  "level": 1750,
+  "entity": "RAVAGER",
+  "health": 125000000,
+  "damage": 8000,
+  "combatXp": 3500,
+  "coins": 5000,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 48,
+    "max": 48,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 48,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "FATEFUL_STINGER",
+    "min": 1,
+    "max": 1,
+    "chance": 0.005
+   },
+   {
+    "item": "MANTI_CORE",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "manticore",
+   "bowImmune": true,
+   "weight": 15
+  },
+  "family": "mythological",
+  "magicResistance": 0.5
+ },
+ {
+  "id": "myth_minos_6",
+  "name": "The Labyrinth King",
+  "level": 1750,
+  "entity": "PIGLIN_BRUTE",
+  "health": 100000000,
+  "damage": 2500,
+  "combatXp": 3500,
+  "coins": 5000,
+  "drops": [
+   {
+    "item": "ANCIENT_CLAW",
+    "min": 48,
+    "max": 48,
+    "chance": 1.0
+   },
+   {
+    "item": "ENCHANTED_GOLD",
+    "min": 0,
+    "max": 48,
+    "chance": 0.5
+   },
+   {
+    "item": "MYTHOLOGICAL_DYE",
+    "min": 1,
+    "max": 1,
+    "chance": 4e-06,
+    "label": "CRAZY_RARE"
+   },
+   {
+    "item": "ENCHANTED_ANCIENT_CLAW",
+    "min": 0,
+    "max": 4,
+    "chance": 0.5
+   },
+   {
+    "item": "CROWN_OF_GREED",
+    "min": 1,
+    "max": 1,
+    "chance": 0.02
+   },
+   {
+    "item": "SHIMMERING_WOOL",
+    "min": 1,
+    "max": 1,
+    "chance": 0.002
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "mythological",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_myth"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "griffinRarity": 5,
+   "kind": "minos",
+   "bowImmune": true,
+   "weight": 15
+  },
+  "family": "mythological",
+  "equipment": {
+   "HAND": "GOLDEN_AXE",
+   "HEAD": "GOLDEN_HELMET"
+  },
+  "magicResistance": 0.5
+ },
+ {
+  "id": "siege_lava_imp",
+  "name": "Lava Imp",
+  "level": 20,
+  "entity": "HUSK",
+  "health": 2000,
+  "damage": 150,
+  "combatXp": 15,
+  "coins": 10,
+  "drops": [
+   {
+    "item": "MAGMA_CREAM",
+    "min": 1,
+    "max": 2,
+    "chance": 0.5
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "siege"
+  ],
+  "behaviours": [
+   "mayors_siege"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "tune": true
+  },
+  "family": "siege"
+ },
+ {
+  "id": "siege_molten_brute",
+  "name": "Molten Brute",
+  "level": 40,
+  "entity": "ZOMBIFIED_PIGLIN",
+  "health": 12000,
+  "damage": 400,
+  "combatXp": 40,
+  "coins": 25,
+  "drops": [
+   {
+    "item": "MAGMA_CREAM",
+    "min": 2,
+    "max": 4,
+    "chance": 0.8
+   }
+  ],
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "siege"
+  ],
+  "behaviours": [
+   "mayors_siege"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "tune": true
+  },
+  "family": "siege",
+  "equipment": {
+   "HAND": "GOLDEN_AXE"
+  }
+ },
+ {
+  "id": "siege_gift_thief",
+  "name": "Gift Thief",
+  "level": 10,
+  "entity": "MAGMA_CUBE",
+  "health": 6,
+  "damage": 80,
+  "combatXp": 10,
+  "coins": 5,
+  "drops": [],
+  "flags": [
+   "aggressive",
+   "fire_immune",
+   "siege"
+  ],
+  "behaviours": [
+   "mayors_siege",
+   "mayors_hits",
+   "mayors_snow_only"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "thief": true,
+   "tune": true
+  },
+  "family": "siege"
+ },
+ {
+  "id": "siege_lava_behemoth",
+  "name": "Lava Behemoth",
+  "level": 100,
+  "entity": "RAVAGER",
+  "health": 400000,
+  "damage": 900,
+  "combatXp": 300,
+  "coins": 1000,
+  "drops": [
+   {
+    "item": "ENCHANTED_MAGMA_CREAM",
+    "min": 1,
+    "max": 3,
+    "chance": 0.5
+   }
+  ],
+  "flags": [
+   "boss",
+   "aggressive",
+   "fire_immune",
+   "siege",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_siege"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "tune": true
+  },
+  "family": "siege"
+ },
+ {
+  "id": "hidden_jerry_green",
+  "name": "Green Gerald",
+  "level": 1,
+  "entity": "VILLAGER",
+  "health": 3,
+  "damage": 1,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "JERRY_BOX_GREEN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "weight": 54.55
+  },
+  "family": "hidden_jerry"
+ },
+ {
+  "id": "hidden_jerry_blue",
+  "name": "Blue Gerald",
+  "level": 1,
+  "entity": "VILLAGER",
+  "health": 4,
+  "damage": 1,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "JERRY_BOX_BLUE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "weight": 27.27
+  },
+  "family": "hidden_jerry"
+ },
+ {
+  "id": "hidden_jerry_purple",
+  "name": "Purple Gerald",
+  "level": 1,
+  "entity": "VILLAGER",
+  "health": 5,
+  "damage": 1,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "JERRY_BOX_PURPLE",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "weight": 13.64
+  },
+  "family": "hidden_jerry"
+ },
+ {
+  "id": "hidden_jerry_golden",
+  "name": "Golden Gerald",
+  "level": 1,
+  "entity": "VILLAGER",
+  "health": 6,
+  "damage": 1,
+  "combatXp": 0,
+  "coins": 0,
+  "drops": [
+   {
+    "item": "JERRY_BOX_GOLDEN",
+    "min": 1,
+    "max": 1,
+    "chance": 1.0
+   }
+  ],
+  "flags": [
+   "passive",
+   "no_knockback"
+  ],
+  "behaviours": [
+   "mayors_hits"
+  ],
+  "speed": 1.0,
+  "defense": 0,
+  "extra": {
+   "hits": true,
+   "weight": 4.55
+  },
+  "family": "hidden_jerry"
+ }
+]

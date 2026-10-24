@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#060912">
+<title>GRAFT</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+</head>
+<body>
+
+<canvas id="stage"></canvas>
+
+<div id="stick" hidden><div id="knob"></div></div>
+
+<div id="hud">
+  <div class="top">
+    <div class="res">
+      <span class="r"><b id="biomass">0</b> biomass</span>
+      <span class="r"><b id="shard">0</b> shard</span>
+      <span class="r"><b id="alloy">0</b> alloy</span>
+    </div>
+    <div id="places"></div>
+    <button id="skyBtn">LOOK UP</button>
+  </div>
+
+  <div class="mid">
+    <div id="target" hidden></div>
+    <div class="holdbar"><div id="hold"></div></div>
+  </div>
+
+  <div class="bottom">
+    <div id="palette"></div>
+    <button id="plant">PLANT TREE</button>
+  </div>
+</div>
+
+<div id="sky" hidden>
+  <div class="sheet">
+    <button id="skyClose" aria-label="close">&times;</button>
+    <div class="skyTier" id="skyTier"></div>
+    <h2 id="skyName"></h2>
+    <p class="skyGoal" id="skyGoal"></p>
+    <div class="skyRates" id="skyRates"></div>
+    <div id="mega"></div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<div id="away" hidden>
+  <div class="card">
+    <h1>while you were gone</h1>
+    <p id="awayBody"></p>
+    <button id="closeAway">good</button>
+  </div>
+</div>
+
+<div id="hint">left thumb walks &middot; right thumb looks &middot; tap a plant to gather it</div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd1852252f405e4dad73de01080c7db, type: 3}
+  m_Name: Character_Vanguard
+  m_EditorClassIdentifier: Aftermarket.Runtime::CharacterDefinition
+  characterId: vanguard
+  displayName: Vanguard
+  tagline: 
+  prefab: {fileID: 4713173885470855427, guid: f9d924362e8993342a4bebc872c9ff03, type: 3}
+  adminOnly: 0

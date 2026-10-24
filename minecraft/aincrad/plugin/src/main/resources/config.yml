@@ -1,0 +1,38 @@
+# Aincrad plugin configuration.
+# Immutable geometry facts (the 7,912-chunk mask, dimension identity, 160-block pitch) are NOT
+# here - they are derived from docs/floor-01-layout.json (bundled at build time) and are not
+# casual tunables, per the project's own rules.
+
+generation:
+  # World seed used to derive all feature seeds. Recorded once; changing it after any COMMITTED
+  # feature exists requires an explicit, reviewed migration.
+  world-seed: 'aincrad-f01-tob-v1'
+  # Number of concurrent structure-placement workers. Determinism must not depend on this value.
+  worker-count: 2
+  # Max block edits applied per server tick by the structure placement queue (block-budget slicing).
+  per-tick-block-budget: 4096
+
+layers:
+  # Horizontal radius (blocks) around a player within which a chunk column's local floor is
+  # considered active for mob/NPC/machine ticking purposes.
+  activation-radius: 128
+  # Verbosity for /aincrad layer debug output: NONE, SUMMARY, VERBOSE.
+  diagnostic-verbosity: SUMMARY
+
+npc:
+  initial-active-budget-town-wide: 160
+  initial-active-budget-per-10-chunks: 48
+
+atmosphere:
+  particle-density: NORMAL
+  sound-density: NORMAL
+  ceiling-light-profile: DEFAULT
+
+safe-zone:
+  enabled: true
+
+arrival:
+  message: |
+    Floor One - Town of Beginnings
+    You have entered Aincrad.
+    Grow stronger. Protect what you carry. Clear the floors.

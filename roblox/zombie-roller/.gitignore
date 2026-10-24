@@ -1,0 +1,16 @@
+# Rojo / Roblox build artifacts
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+build-test.rbxlx
+
+# Aftman installs tools globally; nothing to ignore locally, but keep this here
+# in case of a project-local install dir later.
+.aftman/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

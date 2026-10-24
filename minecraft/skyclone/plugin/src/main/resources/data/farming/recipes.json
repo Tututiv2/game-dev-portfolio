@@ -1,0 +1,686 @@
+[
+ {
+  "id": "farming:THEORETICAL_HOE_WHEAT_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WHEAT_1",
+  "amount": 1,
+  "grid": [
+   "WHEAT:64",
+   "WHEAT:64",
+   "WHEAT:64",
+   "WHEAT:64",
+   "THEORETICAL_HOE:1",
+   "WHEAT:64",
+   "WHEAT:64",
+   "WHEAT:64",
+   "WHEAT:64"
+  ],
+  "unlock": "collection:WHEAT:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WHEAT_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WHEAT_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HAY_BALE:5",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HAY_BALE:5",
+   "THEORETICAL_HOE_WHEAT_1:1",
+   "ENCHANTED_HAY_BALE:5",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HAY_BALE:5",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WHEAT_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WHEAT_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HAY_BALE:20",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HAY_BALE:20",
+   "THEORETICAL_HOE_WHEAT_2:1",
+   "ENCHANTED_HAY_BALE:20",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HAY_BALE:20",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CARROT_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CARROT_1",
+  "amount": 1,
+  "grid": [
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "THEORETICAL_HOE:1",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64",
+   "CARROT_ITEM:64"
+  ],
+  "unlock": "collection:CARROT_ITEM:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CARROT_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CARROT_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_GOLDEN_CARROT:16",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_GOLDEN_CARROT:16",
+   "THEORETICAL_HOE_CARROT_1:1",
+   "ENCHANTED_GOLDEN_CARROT:16",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_GOLDEN_CARROT:16",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CARROT_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CARROT_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_GOLDEN_CARROT:64",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_GOLDEN_CARROT:64",
+   "THEORETICAL_HOE_CARROT_2:1",
+   "ENCHANTED_GOLDEN_CARROT:64",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_GOLDEN_CARROT:64",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_POTATO_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_POTATO_1",
+  "amount": 1,
+  "grid": [
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64",
+   "THEORETICAL_HOE:1",
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64",
+   "POTATO_ITEM:64"
+  ],
+  "unlock": "collection:POTATO_ITEM:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_POTATO_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_POTATO_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_BAKED_POTATO:15",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_BAKED_POTATO:15",
+   "THEORETICAL_HOE_POTATO_1:1",
+   "ENCHANTED_BAKED_POTATO:15",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_BAKED_POTATO:15",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_POTATO_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_POTATO_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_BAKED_POTATO:60",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_BAKED_POTATO:60",
+   "THEORETICAL_HOE_POTATO_2:1",
+   "ENCHANTED_BAKED_POTATO:60",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_BAKED_POTATO:60",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CANE_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CANE_1",
+  "amount": 1,
+  "grid": [
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64",
+   "THEORETICAL_HOE:1",
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64",
+   "SUGAR_CANE:64"
+  ],
+  "unlock": "collection:SUGAR_CANE:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CANE_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CANE_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_SUGAR_CANE:10",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_SUGAR_CANE:10",
+   "THEORETICAL_HOE_CANE_1:1",
+   "ENCHANTED_SUGAR_CANE:10",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_SUGAR_CANE:10",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_CANE_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_CANE_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_SUGAR_CANE:40",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_SUGAR_CANE:40",
+   "THEORETICAL_HOE_CANE_2:1",
+   "ENCHANTED_SUGAR_CANE:40",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_SUGAR_CANE:40",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WARTS_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WARTS_1",
+  "amount": 1,
+  "grid": [
+   "NETHER_STALK:64",
+   "NETHER_STALK:64",
+   "NETHER_STALK:64",
+   "NETHER_STALK:64",
+   "THEORETICAL_HOE:1",
+   "NETHER_STALK:64",
+   "NETHER_STALK:64",
+   "NETHER_STALK:64",
+   "NETHER_STALK:64"
+  ],
+  "unlock": "collection:NETHER_STALK:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WARTS_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WARTS_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "MUTANT_NETHER_STALK:15",
+   "JACOBS_TICKET:16",
+   "MUTANT_NETHER_STALK:15",
+   "THEORETICAL_HOE_WARTS_1:1",
+   "MUTANT_NETHER_STALK:15",
+   "JACOBS_TICKET:16",
+   "MUTANT_NETHER_STALK:15",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WARTS_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WARTS_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "MUTANT_NETHER_STALK:60",
+   "JACOBS_TICKET:64",
+   "MUTANT_NETHER_STALK:60",
+   "THEORETICAL_HOE_WARTS_2:1",
+   "MUTANT_NETHER_STALK:60",
+   "JACOBS_TICKET:64",
+   "MUTANT_NETHER_STALK:60",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_SUNFLOWER_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_SUNFLOWER_1",
+  "amount": 1,
+  "grid": [
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64",
+   "THEORETICAL_HOE:1",
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64",
+   "DOUBLE_PLANT:64"
+  ],
+  "unlock": "collection:DOUBLE_PLANT:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_SUNFLOWER_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_SUNFLOWER_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "COMPACTED_MOONFLOWER:10",
+   "JACOBS_TICKET:16",
+   "COMPACTED_SUNFLOWER:10",
+   "THEORETICAL_HOE_SUNFLOWER_1:1",
+   "COMPACTED_SUNFLOWER:10",
+   "JACOBS_TICKET:16",
+   "COMPACTED_MOONFLOWER:10",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_SUNFLOWER_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_SUNFLOWER_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "COMPACTED_MOONFLOWER:40",
+   "JACOBS_TICKET:64",
+   "COMPACTED_SUNFLOWER:40",
+   "THEORETICAL_HOE_SUNFLOWER_2:1",
+   "COMPACTED_SUNFLOWER:40",
+   "JACOBS_TICKET:64",
+   "COMPACTED_MOONFLOWER:40",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WILD_ROSE_1",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WILD_ROSE_1",
+  "amount": 1,
+  "grid": [
+   "WILD_ROSE:64",
+   "WILD_ROSE:64",
+   "WILD_ROSE:64",
+   "WILD_ROSE:64",
+   "THEORETICAL_HOE:1",
+   "WILD_ROSE:64",
+   "WILD_ROSE:64",
+   "WILD_ROSE:64",
+   "WILD_ROSE:64"
+  ],
+  "unlock": "collection:WILD_ROSE:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WILD_ROSE_2",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WILD_ROSE_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "COMPACTED_WILD_ROSE:10",
+   "JACOBS_TICKET:16",
+   "COMPACTED_WILD_ROSE:10",
+   "THEORETICAL_HOE_WILD_ROSE_1:1",
+   "COMPACTED_WILD_ROSE:10",
+   "JACOBS_TICKET:16",
+   "COMPACTED_WILD_ROSE:10",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:THEORETICAL_HOE_WILD_ROSE_3",
+  "type": "CRAFTING",
+  "result": "THEORETICAL_HOE_WILD_ROSE_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "COMPACTED_WILD_ROSE:40",
+   "JACOBS_TICKET:64",
+   "COMPACTED_WILD_ROSE:40",
+   "THEORETICAL_HOE_WILD_ROSE_2:1",
+   "COMPACTED_WILD_ROSE:40",
+   "JACOBS_TICKET:64",
+   "COMPACTED_WILD_ROSE:40",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:MELON_DICER",
+  "type": "CRAFTING",
+  "result": "MELON_DICER",
+  "amount": 1,
+  "grid": [
+   "MELON:64",
+   "MELON:64",
+   "MELON:64",
+   "MELON:64",
+   "THEORETICAL_HOE:1",
+   "MELON:64",
+   "MELON:64",
+   "MELON:64",
+   "MELON:64"
+  ],
+  "unlock": "collection:MELON:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:MELON_DICER_2",
+  "type": "CRAFTING",
+  "result": "MELON_DICER_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_MELON_BLOCK:16",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_MELON_BLOCK:16",
+   "MELON_DICER:1",
+   "ENCHANTED_MELON_BLOCK:16",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_MELON_BLOCK:16",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:MELON_DICER_3",
+  "type": "CRAFTING",
+  "result": "MELON_DICER_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_MELON_BLOCK:64",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_MELON_BLOCK:64",
+   "MELON_DICER_2:1",
+   "ENCHANTED_MELON_BLOCK:64",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_MELON_BLOCK:64",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:PUMPKIN_DICER",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_DICER",
+  "amount": 1,
+  "grid": [
+   "PUMPKIN:64",
+   "PUMPKIN:64",
+   "PUMPKIN:64",
+   "PUMPKIN:64",
+   "THEORETICAL_HOE:1",
+   "PUMPKIN:64",
+   "PUMPKIN:64",
+   "PUMPKIN:64",
+   "PUMPKIN:64"
+  ],
+  "unlock": "collection:PUMPKIN:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:PUMPKIN_DICER_2",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_DICER_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "POLISHED_PUMPKIN:5",
+   "JACOBS_TICKET:16",
+   "POLISHED_PUMPKIN:5",
+   "PUMPKIN_DICER:1",
+   "POLISHED_PUMPKIN:5",
+   "JACOBS_TICKET:16",
+   "POLISHED_PUMPKIN:5",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:PUMPKIN_DICER_3",
+  "type": "CRAFTING",
+  "result": "PUMPKIN_DICER_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "POLISHED_PUMPKIN:20",
+   "JACOBS_TICKET:64",
+   "POLISHED_PUMPKIN:20",
+   "PUMPKIN_DICER_2:1",
+   "POLISHED_PUMPKIN:20",
+   "JACOBS_TICKET:64",
+   "POLISHED_PUMPKIN:20",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:CACTUS_KNIFE",
+  "type": "CRAFTING",
+  "result": "CACTUS_KNIFE",
+  "amount": 1,
+  "grid": [
+   "CACTUS:64",
+   "CACTUS:64",
+   "CACTUS:64",
+   "CACTUS:64",
+   "THEORETICAL_HOE:1",
+   "CACTUS:64",
+   "CACTUS:64",
+   "CACTUS:64",
+   "CACTUS:64"
+  ],
+  "unlock": "collection:CACTUS:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:CACTUS_KNIFE_2",
+  "type": "CRAFTING",
+  "result": "CACTUS_KNIFE_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_CACTUS:8",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_CACTUS:8",
+   "CACTUS_KNIFE:1",
+   "ENCHANTED_CACTUS:8",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_CACTUS:8",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:CACTUS_KNIFE_3",
+  "type": "CRAFTING",
+  "result": "CACTUS_KNIFE_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_CACTUS:32",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_CACTUS:32",
+   "CACTUS_KNIFE_2:1",
+   "ENCHANTED_CACTUS:32",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_CACTUS:32",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:COCO_CHOPPER",
+  "type": "CRAFTING",
+  "result": "COCO_CHOPPER",
+  "amount": 1,
+  "grid": [
+   "INK_SACK:3:64",
+   "INK_SACK:3:64",
+   "INK_SACK:3:64",
+   "INK_SACK:3:64",
+   "THEORETICAL_HOE:1",
+   "INK_SACK:3:64",
+   "INK_SACK:3:64",
+   "INK_SACK:3:64",
+   "INK_SACK:3:64"
+  ],
+  "unlock": "collection:INK_SACK:3:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:COCO_CHOPPER_2",
+  "type": "CRAFTING",
+  "result": "COCO_CHOPPER_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_COOKIE:10",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_COOKIE:10",
+   "COCO_CHOPPER:1",
+   "ENCHANTED_COOKIE:10",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_COOKIE:10",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:COCO_CHOPPER_3",
+  "type": "CRAFTING",
+  "result": "COCO_CHOPPER_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_COOKIE:40",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_COOKIE:40",
+   "COCO_CHOPPER_2:1",
+   "ENCHANTED_COOKIE:40",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_COOKIE:40",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:FUNGI_CUTTER",
+  "type": "CRAFTING",
+  "result": "FUNGI_CUTTER",
+  "amount": 1,
+  "grid": [
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64",
+   "THEORETICAL_HOE:1",
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64",
+   "RED_MUSHROOM:64"
+  ],
+  "unlock": "collection:MUSHROOM_COLLECTION:5",
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:FUNGI_CUTTER_2",
+  "type": "CRAFTING",
+  "result": "FUNGI_CUTTER_2",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HUGE_MUSHROOM_2:5",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HUGE_MUSHROOM_1:5",
+   "FUNGI_CUTTER:1",
+   "ENCHANTED_HUGE_MUSHROOM_1:5",
+   "JACOBS_TICKET:16",
+   "ENCHANTED_HUGE_MUSHROOM_2:5",
+   "JACOBS_TICKET:16"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ },
+ {
+  "id": "farming:FUNGI_CUTTER_3",
+  "type": "CRAFTING",
+  "result": "FUNGI_CUTTER_3",
+  "amount": 1,
+  "grid": [
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HUGE_MUSHROOM_2:20",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HUGE_MUSHROOM_1:20",
+   "FUNGI_CUTTER_2:1",
+   "ENCHANTED_HUGE_MUSHROOM_1:20",
+   "JACOBS_TICKET:64",
+   "ENCHANTED_HUGE_MUSHROOM_2:20",
+   "JACOBS_TICKET:64"
+  ],
+  "unlock": null,
+  "station": "Crafting Table"
+ }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "neon",
+  "label": "Neon",
+  "font": "Poppins Bold",
+  "font_fallbacks": [
+    "Poppins",
+    "Montserrat",
+    "Arial"
+  ],
+  "bold": false,
+  "casing": "upper",
+  "size_pct": 7.6,
+  "letter_spacing_pct": 2.0,
+  "base_colour": "#00E5FF",
+  "active_colour": "#FF2BD1",
+  "outline_colour": "#0A0033",
+  "outline_pct": 0.5,
+  "shadow_pct": 0.3,
+  "blur": 1.6,
+  "highlight": "colour",
+  "position": "bottom",
+  "margin_v_pct": 14.0,
+  "default_reveal": "WORD_POP"
+}

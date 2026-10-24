@@ -1,0 +1,18 @@
+name: ShadowPrison2
+version: '${project.version}'
+main: com.shadowprison.ShadowPrison
+api-version: '26.1'
+author: Tutut
+description: Shadow Prison, Season 2.
+
+# Paper downloads these into server/libraries on first load. Must match the compileOnly
+# coordinate in build.gradle.kts exactly.
+libraries:
+  - org.xerial:sqlite-jdbc:3.47.1.0
+
+# No `commands:` block: commands register through Brigadier (core/Commands.java).
+
+permissions:
+  shadow.admin:
+    description: Full administrative access.
+    default: op
